@@ -3,7 +3,6 @@ import json
 import pandas as pd
 from pathlib import Path
 from typing import Dict, List, Any
-from datetime import datetime
 import os
 
 # Page configuration
@@ -51,19 +50,10 @@ class GoldenAnswerVerifier:
     
     def __init__(self, base_dir: str):
         self.base_dir = Path(base_dir)
-        self.qa_dir = self.base_dir / "qa_pairs" / "en"
+        self.qa_dir = self.base_dir / "qa_pairs" / 'en'
         self.qa_corrected_dir = self.base_dir / "qa_pairs_corrected"
         self.tables_dir = self.base_dir / "tables"
         self.verification_file = self.base_dir / "golden_answer_verification_results_v2.jsonl"
-        
-        # Logging and checkpoint files
-        self.logs_dir = self.base_dir / "verification_logs"
-        self.logs_dir.mkdir(exist_ok=True)
-        
-        self.changes_log_file = self.logs_dir / "changes_log.jsonl"
-        self.decisions_log_file = self.logs_dir / "decisions_log.jsonl"
-        self.checkpoint_file = self.logs_dir / "checkpoint.json"
-        self.summary_log_file = self.logs_dir / "verification_summary.json"
         
         # Create corrected directory if it doesn't exist
         self.qa_corrected_dir.mkdir(exist_ok=True)
@@ -79,111 +69,6 @@ class GoldenAnswerVerifier:
             st.session_state.verification_data = None
         if 'changes_made' not in st.session_state:
             st.session_state.changes_made = {}
-        if 'decisions_made' not in st.session_state:
-            st.session_state.decisions_made = {}
-        if 'session_start_time' not in st.session_state:
-            st.session_state.session_start_time = datetime.now().isoformat()
-        
-        # Load existing checkpoint if available
-        self.load_checkpoint()
-    
-    def load_checkpoint(self):
-        """Load checkpoint to resume from last position."""
-        if self.checkpoint_file.exists():
-            try:
-                with open(self.checkpoint_file, 'r', encoding='utf-8') as f:
-                    checkpoint = json.load(f)
-                    st.session_state.current_index = checkpoint.get('current_index', 0)
-                    st.session_state.filter_status = checkpoint.get('filter_status', 'All')
-                    st.session_state.filter_dataset = checkpoint.get('filter_dataset', 'All')
-                    st.session_state.changes_made = checkpoint.get('changes_made', {})
-                    st.session_state.decisions_made = checkpoint.get('decisions_made', {})
-            except Exception as e:
-                st.warning(f"Could not load checkpoint: {e}")
-    
-    def save_checkpoint(self):
-        """Save current progress as checkpoint."""
-        checkpoint = {
-            'current_index': st.session_state.current_index,
-            'filter_status': st.session_state.filter_status,
-            'filter_dataset': st.session_state.filter_dataset,
-            'changes_made': st.session_state.changes_made,
-            'decisions_made': st.session_state.decisions_made,
-            'timestamp': datetime.now().isoformat(),
-            'session_start': st.session_state.session_start_time
-        }
-        
-        with open(self.checkpoint_file, 'w', encoding='utf-8') as f:
-            json.dump(checkpoint, f, indent=2, ensure_ascii=False)
-    
-    def log_decision(self, question_id: str, decision_type: str, details: Dict):
-        """Log a verification decision to JSONL file."""
-        log_entry = {
-            'timestamp': datetime.now().isoformat(),
-            'question_id': question_id,
-            'decision_type': decision_type,  # 'changed', 'accepted', 'skipped'
-            'details': details,
-            'session_start': st.session_state.session_start_time
-        }
-        
-        # Append to JSONL log
-        with open(self.decisions_log_file, 'a', encoding='utf-8') as f:
-            f.write(json.dumps(log_entry, ensure_ascii=False) + '\n')
-        
-        # Store in session state
-        st.session_state.decisions_made[question_id] = log_entry
-        
-        # Save checkpoint after each decision
-        self.save_checkpoint()
-    
-    def log_change(self, question_id: str, old_answer: Any, new_answer: Any, metadata: Dict):
-        """Log an answer change to JSONL file."""
-        change_entry = {
-            'timestamp': datetime.now().isoformat(),
-            'question_id': question_id,
-            'old_answer': old_answer,
-            'new_answer': new_answer,
-            'metadata': metadata,
-            'session_start': st.session_state.session_start_time
-        }
-        
-        # Append to changes JSONL log
-        with open(self.changes_log_file, 'a', encoding='utf-8') as f:
-            f.write(json.dumps(change_entry, ensure_ascii=False) + '\n')
-        
-        # Store in session state
-        st.session_state.changes_made[question_id] = change_entry
-    
-    def generate_summary_report(self):
-        """Generate a summary report of all verification activities."""
-        summary = {
-            'report_generated': datetime.now().isoformat(),
-            'session_start': st.session_state.session_start_time,
-            'total_decisions': len(st.session_state.decisions_made),
-            'total_changes': len(st.session_state.changes_made),
-            'decisions_breakdown': {
-                'changed': sum(1 for d in st.session_state.decisions_made.values() if d['decision_type'] == 'changed'),
-                'accepted': sum(1 for d in st.session_state.decisions_made.values() if d['decision_type'] == 'accepted'),
-                'skipped': sum(1 for d in st.session_state.decisions_made.values() if d['decision_type'] == 'skipped')
-            },
-            'changes_by_dataset': {},
-            'changes_by_status': {},
-            'questions_processed': list(st.session_state.decisions_made.keys())
-        }
-        
-        # Analyze changes by dataset and original status
-        for qid, change in st.session_state.changes_made.items():
-            dataset = change['metadata'].get('dataset', 'unknown')
-            status = change['metadata'].get('original_status', 'unknown')
-            
-            summary['changes_by_dataset'][dataset] = summary['changes_by_dataset'].get(dataset, 0) + 1
-            summary['changes_by_status'][status] = summary['changes_by_status'].get(status, 0) + 1
-        
-        # Save summary
-        with open(self.summary_log_file, 'w', encoding='utf-8') as f:
-            json.dump(summary, f, indent=2, ensure_ascii=False)
-        
-        return summary
     
     def load_verification_results(self) -> List[Dict]:
         """Load verification results from JSONL file."""
@@ -199,6 +84,7 @@ class GoldenAnswerVerifier:
     
     def load_table_data(self, question_id: str) -> Dict:
         """Load table data based on question ID."""
+        # Extract table_id from question_id (format: table_id_q1, table_id_q2, etc.)
         table_id = "_".join(question_id.split("_")[:-1])
         table_file = self.tables_dir / f"{table_id}.json"
         
@@ -208,16 +94,21 @@ class GoldenAnswerVerifier:
         return {}
     
     def table_to_dataframe(self, table_data: Dict) -> pd.DataFrame:
-        """Convert JSON table to pandas DataFrame."""
-        if not table_data or "data" not in table_data:
+        """Convert JSON table to pandas DataFrame.
+        Assumes table_data has 'columns' and 'data' keys.
+        """
+        if not table_data or "columns" not in table_data or "data" not in table_data:
             return pd.DataFrame()
         
-        data = table_data["data"]
-        if not data or len(data) == 0:
+        headers = table_data["columns"]
+        rows = table_data["data"]
+        
+        if not headers or not isinstance(headers, list):
             return pd.DataFrame()
         
-        headers = data[0]
-        rows = data[1:]
+        # Ensure rows are also a list of lists, even if empty
+        if not rows or not isinstance(rows, list):
+            rows = []
         
         return pd.DataFrame(rows, columns=headers)
     
@@ -232,14 +123,17 @@ class GoldenAnswerVerifier:
             return False
         
         try:
+            # If corrected file doesn't exist, copy from original
             if not corrected_qa_file.exists():
                 with open(original_qa_file, 'r', encoding='utf-8') as f:
                     qa_data = json.load(f)
                 st.info(f"📋 Creating new corrected file: {corrected_qa_file.name}")
             else:
+                # Load existing corrected file
                 with open(corrected_qa_file, 'r', encoding='utf-8') as f:
                     qa_data = json.load(f)
             
+            # Find and update the specific question
             updated = False
             for item in qa_data:
                 if item['question_id'] == question_id:
@@ -248,6 +142,7 @@ class GoldenAnswerVerifier:
                     break
             
             if updated:
+                # Save to corrected file
                 with open(corrected_qa_file, 'w', encoding='utf-8') as f:
                     json.dump(qa_data, f, indent=2, ensure_ascii=False)
                 return True
@@ -260,10 +155,12 @@ class GoldenAnswerVerifier:
             return False
     
     def get_dataset_type(self, question_id: str) -> str:
-        """Extract dataset type from question_id."""
+        """Extract dataset type from question_id (e.g., arxiv, finqa, wikitq)."""
+        # Question IDs typically start with dataset name
         parts = question_id.lower().split('_')
         if len(parts) > 0:
             dataset = parts[0]
+            # Common dataset prefixes
             if 'arxiv' in dataset:
                 return 'arxiv'
             elif 'finqa' in dataset:
@@ -283,15 +180,18 @@ class GoldenAnswerVerifier:
             dataset = self.get_dataset_type(item['question_id'])
             datasets.add(dataset)
         return sorted(list(datasets))
-
-    def filter_data(self, data: List[Dict], status: str, dataset: str) -> List[Dict]:
-        """Filter verification data by status and dataset."""
-        filtered = data
-        if status != "All":
-            filtered = [d for d in filtered if d.get('is_golden_correct') == status]
-        if dataset != "All":
-            filtered = [d for d in filtered if self.get_dataset_type(d['question_id']) == dataset]
-        return filtered
+        """Filter verification data by status."""
+        if status == "All":
+            return data
+        elif status == "Incorrect":
+            return [d for d in data if d['is_golden_correct'] == 'Incorrect']
+        elif status == "Needs_Revision":
+            return [d for d in data if d['is_golden_correct'] == 'Needs_Revision']
+        elif status == "Correct":
+            return [d for d in data if d['is_golden_correct'] == 'Correct']
+        elif status == "Error":
+            return [d for d in data if d['is_golden_correct'] == 'Error']
+        return data
     
     def display_status_badge(self, status: str):
         """Display status badge with appropriate styling."""
@@ -303,6 +203,23 @@ class GoldenAnswerVerifier:
             st.markdown('<div class="revision-box">⚠️ <b>NEEDS REVISION</b></div>', unsafe_allow_html=True)
         else:
             st.error(f"⚡ ERROR: {status}")
+            
+    def get_unique_datasets(self, data: List[Dict]) -> List[str]:
+        """Get list of unique dataset types from verification data."""
+        datasets = set()
+        for item in data:
+            dataset = self.get_dataset_type(item['question_id'])
+            datasets.add(dataset)
+        return sorted(list(datasets))
+
+    def filter_data(self, data: List[Dict], status: str, dataset: str) -> List[Dict]:
+        """Filter verification data by status and dataset."""
+        filtered = data
+        if status != "All":
+            filtered = [d for d in filtered if d.get('is_golden_correct') == status]
+        if dataset != "All":
+            filtered = [d for d in filtered if self.get_dataset_type(d['question_id']) == dataset]
+        return filtered
     
     def run(self):
         """Run the Streamlit application."""
@@ -317,6 +234,7 @@ class GoldenAnswerVerifier:
             if st.button("🔄 Load/Refresh Data", use_container_width=True):
                 with st.spinner("Loading verification results..."):
                     st.session_state.verification_data = self.load_verification_results()
+                    st.session_state.current_index = 0
                 st.success(f"Loaded {len(st.session_state.verification_data)} results")
             
             st.markdown("---")
@@ -324,12 +242,14 @@ class GoldenAnswerVerifier:
             # Filter options
             st.subheader("🔍 Filters")
             
+            # Status filter
             filter_status = st.selectbox(
                 "Status",
                 ["All", "Incorrect", "Needs_Revision", "Correct", "Error"],
                 key="filter_select"
             )
             
+            # Dataset filter
             if st.session_state.verification_data:
                 datasets = self.get_unique_datasets(st.session_state.verification_data)
                 filter_dataset = st.selectbox(
@@ -340,6 +260,7 @@ class GoldenAnswerVerifier:
             else:
                 filter_dataset = "All"
             
+            # Update filters and reset index if changed
             if (filter_status != st.session_state.filter_status or 
                 filter_dataset != st.session_state.filter_dataset):
                 st.session_state.filter_status = filter_status
@@ -353,6 +274,7 @@ class GoldenAnswerVerifier:
                 st.subheader("📊 Statistics")
                 data = st.session_state.verification_data
                 
+                # Overall stats
                 total = len(data)
                 correct = sum(1 for d in data if d['is_golden_correct'] == 'Correct')
                 incorrect = sum(1 for d in data if d['is_golden_correct'] == 'Incorrect')
@@ -366,6 +288,7 @@ class GoldenAnswerVerifier:
                 st.metric("⚠️ Needs Revision", f"{needs_rev} ({needs_rev/total*100:.1f}%)")
                 st.metric("⚡ Errors", errors)
                 
+                # Dataset breakdown
                 st.markdown("**By Dataset:**")
                 datasets = self.get_unique_datasets(data)
                 for dataset in datasets:
@@ -374,40 +297,18 @@ class GoldenAnswerVerifier:
                     st.text(f"{dataset}: {count} ({count/total*100:.1f}%)")
                 
                 st.markdown("---")
+                st.metric("📝 Changes Made", len(st.session_state.changes_made))
                 
-                # Session progress
-                st.subheader("📝 Session Progress")
-                st.metric("Decisions Made", len(st.session_state.decisions_made))
-                st.metric("Changes Applied", len(st.session_state.changes_made))
-                st.metric("Accepted (No Change)", 
-                         sum(1 for d in st.session_state.decisions_made.values() 
-                             if d['decision_type'] == 'accepted'))
-                st.metric("Skipped", 
-                         sum(1 for d in st.session_state.decisions_made.values() 
-                             if d['decision_type'] == 'skipped'))
-                
+                # Info about corrected files location
                 st.markdown("---")
-                st.info(f"💾 **Files saved to:**\n- Corrected QA: `qa_pairs_corrected/`\n- Logs: `verification_logs/`")
-                
-                # Checkpoint management
-                st.markdown("---")
-                st.subheader("💾 Checkpoints")
-                col1, col2 = st.columns(2)
-                with col1:
-                    if st.button("Save Checkpoint", use_container_width=True):
-                        self.save_checkpoint()
-                        st.success("Checkpoint saved!")
-                with col2:
-                    if st.button("Generate Report", use_container_width=True):
-                        summary = self.generate_summary_report()
-                        st.success("Report generated!")
-                        st.json(summary)
+                st.info(f"💾 **Corrected files saved to:**\n`qa_pairs_corrected/`")
         
         # Main content
         if st.session_state.verification_data is None:
             st.info("👈 Click 'Load/Refresh Data' in the sidebar to begin")
             return
         
+        # Filter data
         filtered_data = self.filter_data(
             st.session_state.verification_data,
             st.session_state.filter_status,
@@ -437,12 +338,6 @@ class GoldenAnswerVerifier:
         
         # Get current item
         current_item = filtered_data[st.session_state.current_index]
-        question_id = current_item['question_id']
-        
-        # Show if already processed
-        if question_id in st.session_state.decisions_made:
-            decision = st.session_state.decisions_made[question_id]
-            st.info(f"ℹ️ Already processed: **{decision['decision_type'].upper()}** at {decision['timestamp']}")
         
         # Display verification status
         col1, col2 = st.columns([1, 3])
@@ -455,11 +350,11 @@ class GoldenAnswerVerifier:
         st.header("📋 Question Details")
         col1, col2, col3 = st.columns(3)
         with col1:
-            st.info(f"**Question ID:** {question_id}")
+            st.info(f"**Question ID:** {current_item['question_id']}")
         with col2:
             st.info(f"**Question Type:** {current_item['question_type']}")
         with col3:
-            dataset_type = self.get_dataset_type(question_id)
+            dataset_type = self.get_dataset_type(current_item['question_id'])
             st.info(f"**Dataset:** {dataset_type}")
         
         st.markdown(f"**Question:** {current_item['question']}")
@@ -468,7 +363,7 @@ class GoldenAnswerVerifier:
         
         # Table display
         st.header("📊 Table Data")
-        table_data = self.load_table_data(question_id)
+        table_data = self.load_table_data(current_item['question_id'])
         df = self.table_to_dataframe(table_data)
         
         if not df.empty:
@@ -493,13 +388,31 @@ class GoldenAnswerVerifier:
         
         with col1:
             st.subheader("Golden Answer")
+            # Handle nested list format [["ans"]]
             golden_answer = current_item['golden_answer']
-            st.json(golden_answer)
+            if isinstance(golden_answer, list) and len(golden_answer) > 0:
+                if isinstance(golden_answer[0], list):
+                    # Nested list format [["ans"]]
+                    st.json(golden_answer)
+                else:
+                    # Simple list format ["ans"]
+                    st.json(golden_answer)
+            else:
+                st.json(golden_answer)
         
         with col2:
             st.subheader("Suggested Corrected Answer")
+            # Handle nested list format [["ans"]]
             corrected_answer = current_item['corrected_answer']
-            st.json(corrected_answer)
+            if isinstance(corrected_answer, list) and len(corrected_answer) > 0:
+                if isinstance(corrected_answer[0], list):
+                    # Nested list format [["ans"]]
+                    st.json(corrected_answer)
+                else:
+                    # Simple list format ["ans"]
+                    st.json(corrected_answer)
+            else:
+                st.json(corrected_answer)
         
         # Reasoning
         st.subheader("💭 Reasoning")
@@ -520,17 +433,21 @@ class GoldenAnswerVerifier:
         # Answer correction interface
         st.header("✏️ Correct Answer")
         
+        # Parse answer for editing - handle nested lists
         current_answer = current_item['corrected_answer']
         if isinstance(current_answer, list):
+            # Check if it's nested list format [["ans"]]
             if len(current_answer) > 0 and isinstance(current_answer[0], list):
                 answer_str = json.dumps(current_answer, indent=2)
             else:
+                # Convert simple list to nested format for consistency
                 answer_str = json.dumps([current_answer], indent=2)
         else:
             answer_str = json.dumps([[str(current_answer)]], indent=2)
         
         st.info("💡 **Note:** Answers should be in nested list format: `[[\"answer\"]]` or `[[\"ans1\", \"ans2\"]]`")
         
+        # Edit answer
         new_answer_str = st.text_area(
             "Edit the correct answer (nested JSON list format: [[\"answer\"]])",
             value=answer_str,
@@ -543,8 +460,10 @@ class GoldenAnswerVerifier:
         with col1:
             if st.button("💾 Save Correction", type="primary", use_container_width=True):
                 try:
+                    # Parse the new answer
                     new_answer = json.loads(new_answer_str)
                     
+                    # Validate nested list format
                     if not isinstance(new_answer, list):
                         st.error("Answer must be a list")
                     elif len(new_answer) == 0:
@@ -553,27 +472,18 @@ class GoldenAnswerVerifier:
                         st.warning("Converting to nested list format: [[...]]")
                         new_answer = [new_answer]
                     
-                    if self.update_qa_file(question_id, new_answer):
-                        # Log the change
-                        metadata = {
-                            'dataset': dataset_type,
-                            'question_type': current_item['question_type'],
-                            'original_status': current_item['is_golden_correct'],
-                            'confidence': current_item['confidence'],
-                            'file': f"qa_pairs_corrected/{('_'.join(question_id.split('_')[:-1]))}_qa.json"
+                    # Update the QA file (creates corrected copy)
+                    if self.update_qa_file(current_item['question_id'], new_answer):
+                        st.success("✅ Answer saved to corrected QA file!")
+                        st.session_state.changes_made[current_item['question_id']] = {
+                            'old': current_item['golden_answer'],
+                            'new': new_answer,
+                            'timestamp': pd.Timestamp.now().isoformat(),
+                            'file': f"qa_pairs_corrected/{('_'.join(current_item['question_id'].split('_')[:-1]))}_qa.json",
+                            'dataset': self.get_dataset_type(current_item['question_id'])
                         }
                         
-                        self.log_change(question_id, current_item['golden_answer'], new_answer, metadata)
-                        
-                        # Log the decision
-                        self.log_decision(question_id, 'changed', {
-                            'old_answer': current_item['golden_answer'],
-                            'new_answer': new_answer,
-                            'metadata': metadata
-                        })
-                        
-                        st.success("✅ Answer saved and logged!")
-                        
+                        # Auto-advance to next item
                         if st.session_state.current_index < len(filtered_data) - 1:
                             st.session_state.current_index += 1
                             st.rerun()
@@ -587,62 +497,39 @@ class GoldenAnswerVerifier:
         
         with col2:
             if st.button("✅ Accept as Correct", use_container_width=True):
-                # Log acceptance (no change needed)
-                self.log_decision(question_id, 'accepted', {
-                    'golden_answer': current_item['golden_answer'],
-                    'status': current_item['is_golden_correct'],
-                    'note': 'Golden answer is correct, no changes needed'
-                })
-                
-                st.success("✅ Marked as correct (logged)")
-                
+                st.success("Marked as correct (no changes needed)")
                 if st.session_state.current_index < len(filtered_data) - 1:
                     st.session_state.current_index += 1
                     st.rerun()
         
         with col3:
             if st.button("⏭️ Skip", use_container_width=True):
-                # Log skip
-                self.log_decision(question_id, 'skipped', {
-                    'status': current_item['is_golden_correct'],
-                    'note': 'Skipped for later review'
-                })
-                
                 if st.session_state.current_index < len(filtered_data) - 1:
                     st.session_state.current_index += 1
                     st.rerun()
         
-        # Export options
-        st.markdown("---")
-        st.header("📥 Export Options")
-        
-        col1, col2, col3 = st.columns(3)
-        
-        with col1:
-            if st.button("Export Changes Log", use_container_width=True):
-                st.success(f"Changes log: {self.changes_log_file}")
-        
-        with col2:
-            if st.button("Export Decisions Log", use_container_width=True):
-                st.success(f"Decisions log: {self.decisions_log_file}")
-        
-        with col3:
-            if st.button("Export Summary Report", use_container_width=True):
-                summary = self.generate_summary_report()
-                st.success(f"Summary: {self.summary_log_file}")
-                with st.expander("View Summary"):
-                    st.json(summary)
+        # Export changes log
+        if st.session_state.changes_made:
+            st.markdown("---")
+            if st.button("📥 Export Changes Log", use_container_width=True):
+                changes_file = self.base_dir / "verification_changes_log.json"
+                with open(changes_file, 'w', encoding='utf-8') as f:
+                    json.dump(st.session_state.changes_made, f, indent=2, ensure_ascii=False)
+                st.success(f"Changes log exported to: {changes_file}")
 
 
 def main():
     """Main entry point."""
+    # Configuration
     BASE_DIR = "data/processed/"
     
+    # Check if directory exists
     if not Path(BASE_DIR).exists():
         st.error(f"Base directory not found: {BASE_DIR}")
         st.info("Please update BASE_DIR in the script to match your data location")
         return
     
+    # Initialize and run app
     app = GoldenAnswerVerifier(BASE_DIR)
     app.run()
 
