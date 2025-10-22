@@ -1,0 +1,211 @@
+[
+  {
+    "question_id": "finqa_cdb26d6873_001",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "在2014年12月到2016年12月之间，哪个年末期间记录了最高的累计其他综合收益总额？",
+    "answer": [
+      [
+        "december 27 2014"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "H1",
+      "A11",
+      "H11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_002",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "表格中列出的三个相关期间内，'税务影响'的净总额是多少？",
+    "answer": [
+      [
+        "-12 ( 12 )"
+      ]
+    ],
+    "evidence_cells": [
+      "H4",
+      "H9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_003",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "确定2014年年末和2015年年末之间累计其他综合收益（不包括总计）中绝对变化最大的组成部分。其在2015年末的值是多少？",
+    "answer": [
+      [
+        "1749"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1",
+      "B6",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "G6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_004",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "open_ended_reasoning",
+    "question": "描述'外币折算调整'在三个年末报告日期的总体趋势。",
+    "answer": [
+      [
+        "'外币折算调整'在三个年末期间呈现持续恶化的趋势。负向调整（损失）从2014年的3.45亿美元增加到2015年的5.15亿美元，然后在2016年略微恶化至5.19亿美元，表明外币折算的负面影响随着时间的推移逐渐增大。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "A6",
+      "G6",
+      "A11",
+      "G11"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_005",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "列出在第3行相关期间中，\"从累计其他综合收益（损失）中重新分类的金额\"为正值，但该组件在2015年末余额为负值的财务组成部分。",
+    "answer": [
+      [
+        "unrealized holding gains ( losses ) on derivatives",
+        "prior service credits ( costs )",
+        "actuarial gains ( losses )"
+      ]
+    ],
+    "evidence_cells": [
+      "D3",
+      "D6",
+      "E3",
+      "E6",
+      "F3",
+      "F6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_006",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "对于第一个时期的'其他综合收益（亏损）'（第5行），总亏损6.06亿美元中有多少比例归因于'可供出售投资的未实现持有收益（损失）'？",
+    "answer": [
+      [
+        "117.16%"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "H5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_007",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "如果第二期（第10行）“精算收益（损失）”在“其他综合收益（损失）”中为零而非亏损3.64亿美元，那么该行项目的新的总计是多少？",
+    "answer": [
+      [
+        "410"
+      ]
+    ],
+    "evidence_cells": [
+      "F10",
+      "H10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_008",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "open_ended_reasoning",
+    "question": "基于“累计其他综合收益（损失）中重分类金额”（第3行和第8行）的两个时期，“可供出售投资的未实现持有收益（损失）”的重分类与总重分类金额之间是否存在一致的关系？",
+    "answer": [
+      [
+        "是的，存在强烈的反向关系。在第一个时期（第3行），可供出售投资的重分类（损失）为9300万美元，对应总重分类金额为正5.06亿美元。在第二个时期（第8行），可供出售投资的重分类（损失）为5.3亿美元，对应总重分类金额为负3.22亿美元。在这两种情况下，该单一组件的重大负向重分类对总金额影响显著，但其他组件可能推动总金额朝相反方向变化。"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "H3",
+      "B8",
+      "H8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_009",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "哪两个财务组件列包含最多的非货币性占位符数据条目（即值'2014'）？",
+    "answer": [
+      [
+        "deferred tax asset valuation allowance",
+        "prior service credits ( costs )"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C7",
+      "C8",
+      "C11",
+      "E7",
+      "E8",
+      "E9",
+      "E10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_010",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "在第二期（第7行）的“其他综合收益（亏损）重分类前”这一行中，哪个组成部分的值与该行所有组成部分的中位数值相比是最显著的离群值？",
+    "answer": [
+      [
+        "unrealized holding gains ( losses ) on available-for-sale investments"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "D7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_011",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "2016年12月26日的其他综合收益（损失）总计是多少？",
+    "answer": [
+      [
+        "46"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "H10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

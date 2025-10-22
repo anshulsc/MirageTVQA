@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_e33c420d31_001",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "¿Qué obligación contractual, excluyendo 'deuda obligatoria' y 'pagos de intereses sobre deuda a largo plazo', tiene la mayor cantidad vencida en el periodo de '3-5 años'?",
+    "answer": [
+      [
+        "obligaciones de combustible"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_002",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "¿Cuál es el total combinado de todas las obligaciones que tienen una referencia de nota al pie '11'?",
+    "answer": [
+      [
+        "$ 16297"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "H3",
+      "B4",
+      "H4",
+      "B5",
+      "H5",
+      "B6",
+      "H6",
+      "B7",
+      "H7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_e33c420d31_003",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "¿Qué porcentaje de las obligaciones totales vencidas en '1-3 años' se atribuye a la única obligación con el valor total más alto?",
+    "answer": [
+      [
+        "27.04%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "D1",
+      "D9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_004",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "Para 'pagos de intereses sobre deuda a largo plazo', analiza la tendencia de los pagos en los cuatro períodos de tiempo y determina si la obligación está cargada hacia adelante o hacia atrás.",
+    "answer": [
+      [
+        "Los pagos para 'pagos de intereses sobre deuda a largo plazo' son $1,172 (<1 año), $2,166 (1-3 años), $1,719 (3-5 años) y $4,046 (>5 años). La obligación está significativamente cargada hacia atrás, ya que los pagos aumentan con el tiempo, con el pago individual más grande ocurriendo en el período 'más de 5 años'. Más del 63% de los pagos de intereses totales vencerán más de 3 años en el futuro."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_005",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Liste las obligaciones contractuales donde la cantidad adeudada en 'menos de 1 año' es mayor que la cantidad adeudada en '3-5 años'.",
+    "answer": [
+      [
+        "fuel obligations"
+      ],
+      [
+        "other purchase obligations"
+      ],
+      [
+        "other long-term liabilities reflected on aes' consolidated balance sheet under gaap ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "E6",
+      "A7",
+      "C7",
+      "E7",
+      "A8",
+      "C8",
+      "E8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_006",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "¿Cuál es la proporción de las obligaciones a corto plazo totales (vencidas en 'menos de 1 año') a las obligaciones a largo plazo totales (vencidas en 'más de 5 años') basada en la fila total final?",
+    "answer": [
+      [
+        "1:2.81"
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "F9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_e33c420d31_007",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Si una nueva política requiriera que todas las 'obligaciones de arrendamiento operativo' vencidas en 'más de 5 años' se pagaran en cambio dentro del periodo de '3-5 años', ¿cuál sería el nuevo total para la columna '3-5 años'?",
+    "answer": [
+      [
+        "$ 10283"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_008",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Existe una correlación discernible entre el tipo de obligación energética (combustible vs. electricidad) y su cronograma de pagos?",
+    "answer": [
+      [
+        "Sí, existe una clara correlación. Las 'obligaciones de combustible' están concentradas en el corto plazo, con el pago más grande ($1,759) venciendo en 'menos de 1 año', lo que sugiere contratos a corto plazo. Por el contrario, las 'obligaciones de electricidad' están concentradas en el largo plazo, con el pago más grande ($2,065) venciendo en 'más de 5 años', lo que probablemente refleja acuerdos de compra de energía a largo plazo. Esto indica que la naturaleza de la fuente de energía está relacionada con la duración del compromiso financiero."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_e33c420d31_009",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "Basado en los totales para cada período de pago en la fila final, ¿qué marco de tiempo tiene la mayor cantidad de compromiso financiero y qué implica esto sobre la estructura de pasivos de la empresa?",
+    "answer": [
+      [
+        "El período 'más de 5 años' tiene el mayor compromiso de $20,544. Esto implica que la estructura de pasivos de la empresa es predominantemente a largo plazo, con una parte significativa de sus obligaciones financieras programadas para ser pagadas en un futuro lejano, lo que sugiere estrategias de financiamiento a largo plazo o grandes proyectos de capital."
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "D9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_010",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "La fila correspondiente a 'otras obligaciones a largo plazo' contiene un valor en la columna 'menos de 1 año' que parece ser un valor atípico. Identifique este valor y explique por qué es inconsistente.",
+    "answer": [
+      [
+        "El valor atípico es el valor '$ 2014' en la columna 'menos de 1 año'. Es inconsistente porque esta cantidad de pago a corto plazo es significativamente mayor que los '$ 701' listados como 'total' para toda esa obligación, lo cual es una imposibilidad lógica y probablemente un error en los datos."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_e33c420d31_011",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "¿Cuál es el total de obligaciones de combustible en millones?",
+    "answer": [
+      [
+        "$5859"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

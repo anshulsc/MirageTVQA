@@ -1,0 +1,219 @@
+[
+  {
+    "question_id": "finqa_dcb7ad35d5_001",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "除掉長期債務外，哪一種義務類型的總應付款最高？",
+    "answer": [
+      [
+        "purchase obligations and other ( 4 ) ( 5 ) ( 6 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_002",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "2023年以前總共需要付多少款項？",
+    "answer": [
+      [
+        "3935.9"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_003",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "何種義務在2020年財政年度應付款最少？佮該義務在2021-2022佮2023-2024期間總應付款是啥？",
+    "answer": [
+      [
+        "11.6"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "A3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_004",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "描述公司在定義的會計年度中，直到「之後」之前的總付款義務趨勢。",
+    "answer": [
+      [
+        "總付款義務呈現波動趨勢。它們在2020財年開始為2378.5百萬美元，然後在2021-2022年度減少至1557.4百萬美元，接著在2023-2024年度顯著上升至2897.5百萬美元。這表明短期義務下降，但中期承諾大幅增加。"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_005",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "列出所有義務類別，其中「之後」的付款金額超過2020年至2024年所有付款總和。",
+    "answer": [
+      [
+        "long-term debt including current portionexcluding capital lease obligations ( 1 )"
+      ],
+      [
+        "capital lease obligations ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "A3",
+      "C3",
+      "D3",
+      "E3",
+      "F3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_006",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "「total」在2020財政年度應付總款項中，「purchase obligations and other」佔多少百分比？",
+    "answer": [
+      [
+        "67.56%"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_007",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "如果所有『營業租賃義務』在2021及2022財政年度應付的款項都推遲並加到『其後』期間，那麼『其後』期間的新總額是多少？",
+    "answer": [
+      [
+        "6589.9"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "F5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_008",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "根據付款時間表，可以推斷「長期債務」和「採購義務」的到期期限配置有何差異？",
+    "answer": [
+      [
+        "到期期限配置有明顯差異。\"長期債務\"主要後期到期，大部分款項（9714.1M中的5729.2M）在\"以後\"到期，顯示這是長期融資工具。相反，\"採購義務\"主要前期到期，大部分款項（2293.5M中的1607.0M）在2020財政年度立即到期，這符合短期營運義務的特徵。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_009",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "「資本租賃義務」哪一個單次付款金額是異常值，佔總義務近90%？",
+    "answer": [
+      [
+        "$ 150.9"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_010",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "手動將「payments due by period fiscal 2023and 2024」欄位中每個義務的數值加總，驗證E5儲存格提供的總計是否正確？",
+    "answer": [
+      [
+        "是的，提供的總計正確。2023及2024財政年度個別義務的加總為$2494.3 + $193.6 + $2.9 + $206.7，計算結果為$2897.5，與E5儲存格的值相符。"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_011",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "在何時段內營業租賃義務最高？",
+    "answer": [
+      [
+        "財政2021年和2022年，義務金額為316.4百萬美元"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

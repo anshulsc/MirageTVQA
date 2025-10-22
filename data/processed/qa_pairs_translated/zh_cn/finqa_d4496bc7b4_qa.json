@@ -1,0 +1,219 @@
+[
+  {
+    "question_id": "finqa_d4496bc7b4_001",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "2009年资产退役义务的净变化是多少，根据提供的明细变化计算？",
+    "answer": [
+      [
+        "137"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_002",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "哪个类别的变化在2008年和2009年之间的绝对值差异最大？",
+    "answer": [
+      [
+        "held for sale"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_003",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "2009年，'先前估计的修订'占总正向调整（包括负债 incurred、accrual expense和修订）的百分比是多少？",
+    "answer": [
+      [
+        "61.39%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_004",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "验证2008年12月31日的“资产退役义务”是否根据期初余额和当年各项变动正确计算。请展示你的计算过程。",
+    "answer": [
+      [
+        "是的，2008年末余额计算正确。计算过程为：$1134（期初）+ $30（新增负债）- $94（已结算负债）+ $66（利息费用）+ $24（估计修订）- $195（持有待售）= $965，与报告值一致。"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_005",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "如果2008年的“持有待售”调整为零，那么2008年末的资产退役义务应为多少？",
+    "answer": [
+      [
+        "$ 1160"
+      ]
+    ],
+    "evidence_cells": [
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_006",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "分析并对比2008年与2009年总资产退役义务变化的主要驱动因素。",
+    "answer": [
+      [
+        "2008年，义务减少了1.69亿美元，主要受“持有待售”资产减少1.95亿美元和已结算负债9400万美元的显著影响，这一降幅超过了1.2亿美元的新增义务。相比之下，2009年义务增加了1.37亿美元，主要由“先前估计修订”带来的1.24亿美元正向调整驱动，该调整幅度超过了6500万美元的已结算负债。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7",
+      "C1",
+      "C7",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_007",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "从2008年到2009年，哪个财务项目增加了超过1亿美元，使其成为年度变化中的异常值？",
+    "answer": [
+      [
+        "revisions to previous estimates"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_008",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "识别'先前估计的修订'比'包括收购在内的负债'多五倍以上的年份。",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B5",
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_009",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "基于两年的数据，期初义务与当年的\"accrual expense\"之间是否存在可观察到的模式或关系？",
+    "answer": [
+      [
+        "是的，存在可观察到的模式。\"accrual expense\"似乎占期初余额的相对稳定比例。2008年，它是期初余额的5.8%（6600万美元 / 11.34亿美元），2009年为6.6%（6400万美元 / 9.65亿美元）。这表明accrual expense很可能是基于期初义务计算的，可能反映了长期负债的时间价值。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_010",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "表格的结构如何确认2008年末至2009年初资产退役义务余额的连续性？",
+    "answer": [
+      [
+        "该表格通过显示“2008年12月31日资产退役义务”在2008年列的值（$965）与“2009年1月1日资产退役义务”在2009年列的值（$965）完全一致，来证明连续性。这是一种标准的会计滚动呈现方式，即一个期间的期末余额成为下一个期间的期初余额。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A7",
+      "B1",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_011",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "2008年到2009年，资产退役义务总额如何变化？",
+    "answer": [
+      [
+        "2008年资产退役义务总额为9.65亿美元，2009年增至11.02亿美元。"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

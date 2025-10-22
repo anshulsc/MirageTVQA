@@ -1,0 +1,238 @@
+[
+  {
+    "question_id": "finqa_ff87244fa0_001",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "所有合同义务中，截至2012年12月31日和2013年12月31日应付款项的合计总额是多少？",
+    "answer": [
+      [
+        "$ 6219"
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_002",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "债务[a]义务中，有多少百分比计划在2016年12月31日之后支付？",
+    "answer": [
+      [
+        "71.68%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "H1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_003",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "截至2012年12月31日，哪项合同义务的应付金额最大？",
+    "answer": [
+      [
+        "purchase obligations [d]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_004",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "对于总金额第二大的合同义务，截至2014年12月31日应支付的金额是多少？",
+    "answer": [
+      [
+        "$ 560"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "E4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_005",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "open_ended_reasoning",
+    "question": "描述'经营租赁[b]'在2012年至2016年间的付款趋势。",
+    "answer": [
+      [
+        "'经营租赁[b]'的付款从2012年到2016年呈现逐年递减的趋势，2012年为5.25亿美元，之后逐年下降至2016年的3.47亿美元。"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_006",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "列出所有在2015年12月31日前需支付超过3亿美元的合同义务。",
+    "answer": [
+      [
+        "debt [a]"
+      ],
+      [
+        "operating leases [b]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A3",
+      "F3",
+      "A4",
+      "F4",
+      "A5",
+      "F5",
+      "A6",
+      "F6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_007",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "如果'采购义务 [d]'在2012年底、2013年底和2014年底到期的付款全部延期，并加到'2016年之后'到期的金额中，那么该义务的'2016年之后'新总额是多少？",
+    "answer": [
+      [
+        "$ 4584"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "E4",
+      "H4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_008",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "open_ended_reasoning",
+    "question": "在2012年至2016年期间，哪一项合同义务在某一年的支付金额显著高于其他年份，成为异常值？",
+    "answer": [
+      [
+        "\"购买义务 [d]\"类别显示出显著的异常值。2012年到期的259800万美元支付额比次高年份（2013年56800万美元）高出四倍以上，且后续年份的支付额大幅下降，使得2012年的数据成为一个异常。"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_009",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "哪个付款期限列（从'payments due by december 31 2012'到'payments due by december 31 other'）包含最多的缺失或不适用付款条目，用'-'表示？",
+    "answer": [
+      [
+        "payments due by december 31 other"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "E6",
+      "F6",
+      "G6",
+      "H6",
+      "I1",
+      "I2",
+      "I3",
+      "I5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_010",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "open_ended_reasoning",
+    "question": "基于数据，'总值'与'2016年后到期'的义务比例之间存在怎样的明显关系？",
+    "answer": [
+      [
+        "通常，总值较大的义务（如“债务 [a]”和“经营租赁 [b]”）往往有较大比例的付款安排在2016年后，表明这些是长期财务承诺。然而，这并非普遍规律，因为“采购义务 [d]”尽管总值是第二大的义务，但2016年后到期的比例相对较小（约16.7%），表明其属于短期至中期的承诺。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "H1",
+      "B2",
+      "H2",
+      "B3",
+      "H3",
+      "B4",
+      "H4",
+      "B5",
+      "H5",
+      "B6",
+      "H6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_011",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "合同义务的总债务（以百万计）是多少？",
+    "answer": [
+      [
+        "$ 12516"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

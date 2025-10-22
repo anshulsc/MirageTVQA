@@ -1,0 +1,205 @@
+[
+  {
+    "question_id": "finqa_ec80ad8938_001",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "提示された2つのデータセット全体にわたって報告されたすべての資産（トレーディング資産およびローン）の合計純資産額はいくらですか？",
+    "answer": [
+      [
+        "26557"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_002",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "第2のデータセット（列DおよびE）において、『公正価値を超える合計未収元金残高』がより大きい資産カテゴリは、トレーディング資産かローンのどちらですか？",
+    "answer": [
+      [
+        "loans"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_003",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "最初のローンのセット（列C）について、「保有金額」のうち「不収益ローンの残高」が占める割合はいくらですか？",
+    "answer": [
+      [
+        "0.03%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_004",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "2つのデータセット全体における「不引当金貸出または90日以上延滞した貸出の残高」の合計が低い資産タイプ（トレーディング資産または貸出）の累計帳簿価額はいくらですか？",
+    "answer": [
+      [
+        "7598"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_005",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "「不引当貸倒引当金又は90日以上遅延した貸出金の残高」がちょうど100万ドルであるすべての資産ポートフォリオの帳簿価額を列挙してください。",
+    "answer": [
+      [
+        "$ 3224"
+      ],
+      [
+        "$ 4374"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C3",
+      "E3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_006",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "最初のデータセット（列B）における取引資産の帳簿価額から「公正価値を超える合計未収元金残高」を差し引いた場合、新たな帳簿価額はいくらになりますか？",
+    "answer": [
+      [
+        "9673"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_007",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "「不引当貸倒準備金残高」を分析すると、他の資産タイプと比較して显著な外れ値を示している資産タイプはどれか、またこれは相対的なリスクプロファイルについてどのような示唆を与えるか？",
+    "answer": [
+      [
+        "データセットの両方における取引資産の不引当貸倒準備金残高は20億1400万ドルであり、両方のデータセットにおける貸出の100万ドルと比較して極めて外れ値となっています。この鮮明な差異は、取引資産ポートフォリオが著しく高い信用リスクを有しているか、あるいは重大なデフォルトイベントが発生したことを示唆しており、一方で貸出ポートフォリオはほぼ不引当貸倒準備金残高がなく、非常に健全な状態であることを示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_008",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "データは、トレーディングアセットカテゴリにおける資産の『キャリイングアマウント』と『fair valueを上回る合計未払元本残高』の間で一貫した正の相関を示していますか？",
+    "answer": [
+      [
+        "いいえ、一貫した正の相関は示されていません。最初のトレーディングアセットのセットでは、キャリイングアマウントがより高い（10,108百万ドル対8,851百万ドル）ですが、fair valueを上回る合計未払元本残高はより低い（435百万ドル対623百万ドル）です。これは、このデータセットではポートフォリオ規模が大きいからといって、不実現損失が比例的に大きくなるわけではないことを示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_009",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "繰り返しまたは重複していると思われるデータポイントを含む行を特定し、そのパターンを説明してください。",
+    "answer": [
+      [
+        "データの重複は3行目と4行目に存在します。3行目の「非適用貸付金の残高...」では、トレーディング資産の値が両セット（B3、D3）で共に2,014百万ドル、貸付金の値が両セット（C3、E3）で共に1百万ドルとなっています。4行目では、2,014百万ドルがトレーディング資産の両セットと貸付金の最初のセット（B4、C4、D4）で繰り返されており、これはデータ入力のパターンまたは特定の財務報告上の特徴を示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_010",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "データセット（セット1：列B、Cまたはセット2：列D、E）のうち、総持込額が高いものを選択し、ポートフォリオの全体的な「未実現損失率」（「公正価値を超える未払元本残高」の合計を「持込額」の合計で割った値）を計算してください。",
+    "answer": [
+      [
+        "8.82%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_011",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "2018年12月31日時点の連結貸借対照表に記載されているトレーディング資産とローンの帳簿価額はどのように比較されますか？",
+    "answer": [
+      [
+        "トレーディング資産の帳簿価額はローンよりも高額でした。トレーディング資産は10,108百万ドルおよび8,851百万ドル、ローンは3,224百万ドルおよび4,374百万ドルでした。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

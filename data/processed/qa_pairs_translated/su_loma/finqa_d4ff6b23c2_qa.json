@@ -1,0 +1,249 @@
+[
+  {
+    "question_id": "finqa_d4ff6b23c2_001",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Hitung total perubahan neto dina manfaat pajak nu teu diakunkeun pikeun taun 2016, based on transactional activities nu disayogikeun antara saldo awal jeung akhir.",
+    "answer": [
+      [
+        "64"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_002",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Ayaana baris mana nu ngajadike perubahan finansial absolut leuwih leutik dina 2017 dibandingkeun jeung perubahan nu sarua dina 2016?",
+    "answer": [
+      [
+        "additions for tax positions related to prior years"
+      ],
+      [
+        "reductions for tax positions related to prior years"
+      ],
+      [
+        "reductions for settlements2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_003",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Pantuna persen tina 'balance at december 31, 2017' anu henteu bakal ngarupikeun pangaruh kana tarip pajak efektif yén diakui?",
+    "answer": [
+      [
+        "5.99%"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_004",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Apa beza antara jumlah pangurangan sadaya dina 2017 jeung jumlah pangurangan sadaya dina 2016, ngaleungitkeun nilai teu standar dina 'pangurangan pikeun panghentian batas waktuna' pikeun 2017?",
+    "answer": [
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_005",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Jika 'additions for tax positions related to prior years' dina taun 2017 sarua jeung jumlah taun 2016, naon nilai 'balance at december 31, 2017' nu diadjust?",
+    "answer": [
+      [
+        "$ 1321"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_006",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Tetepkeun hiji baris nu paling aya di 2017 anu paling jolok dina hal ukuran panghasilan nu dibandingkeun kana sababaraha tambahan jeung pangurangan di sakabeh taun.",
+    "answer": [
+      [
+        "additions for tax positions related to current year"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_007",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Berdasarkan reconciliasi, 'balance at december 31, 2017' dihitung tina balance awal ditambah tambahan sareng pangurangan. Cell mana dina kolom 2017 anu nilaiana teu cocog karo kalkulasi ieu sareng rupa-rupa?",
+    "answer": [
+      [
+        "B6"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_008",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Cacatkeun kabéh akitip dina 2017, tambahan sareng pangurangan, anu nilai absolutna leuwih ti $15 juta.",
+    "answer": [
+      [
+        "additions for tax positions related to current year"
+      ],
+      [
+        "additions for tax positions related to prior years"
+      ],
+      [
+        "reductions for tax positions related to prior years"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_009",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "Analisis perubahan jumlah total tiap akhir 2016 ka akhir 2017. Aya naon pangaweruh utama anu ngarobah ieu?",
+    "answer": [
+      [
+        "Jumlah total manfaat pajak anu teu diakunkeun ningkat $254 juta, ti $1032 juta di akhir 2016 ka $1286 juta di akhir 2017. Pangaweruh utama pikeun ningkat ieu nyaéta '$270 juta' dina 'penambahan pikeun posisi pajak anu terkait taun ayeuna' dina 2017, anu leuwih gede ti anu sanés dina tambahan atawa pengurangan mana waé dina dua taun ieu. Aya pangurangan total $36 juta dina 2017, tapi henteu cukup pikeun ngarobah tambahan anu gedé."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_010",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "Aya henteur bukti panyanggaan dina komposisi manfaat pajak anu teu diakunkeun antara 2016 jeung 2017, dumasar kana proporsi saldo akhir taun anu bakal ngarugikeun tarip pajak efektif?",
+    "answer": [
+      [
+        "Henteu aya henteur bukti panyanggaan dina komposisi. Dina taun 2016, bagian anu bakal ngarugikeun tarip pajak efektif nyaéta $963 juta tina saldo $1032 juta, atawa 93,3%. Dina taun 2017, bagian ieu nyaéta $1209 juta tina saldo $1286 juta, atawa 94,0%. Proporsi tetep stabil, nu ngajelaskeun komposisi anu konsisten dina posisi pajak dasar ti taun ka taun sapertos kana peningkatan total saldo."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_011",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "Carikana total balance ti posisi pajak parantos parobahan ti 2016 ka 2017, sareng faktor-faktor naon anu ngabogaan kontribusi kana parobahan ieu?",
+    "answer": [
+      [
+        "Total balance ti posisi pajak parantos naik ti $1.032 juta dina 2016 ka $1.286 juta dina 2017. Peningkatan ieu pangaweruhna ku tambahan pikeun posisi pajak taun ayeuna (+$270 juta) sareng posisi pajak taun sebelumna (+$20 juta), anu geus diangkat ku pengurangan pikeun posisi pajak taun sebelumna (-$27 juta) sareng penyelesaian (-$9 juta)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

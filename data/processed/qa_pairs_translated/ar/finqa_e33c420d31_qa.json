@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_e33c420d31_001",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "أي التزام تعاقدي، باستثناء 'الالتزامات الدينية' و'دفعات الفوائد على الديون طويلة الأجل'، لديه أكبر مبلغ مستحق في فترة '3-5 سنوات'؟",
+    "answer": [
+      [
+        "fuel obligations"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_002",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "ما هو المجموع الكلي لجميع الالتزامات التي لها مرجع حاشية سفلية '11'؟",
+    "answer": [
+      [
+        "$ 16297"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "H3",
+      "B4",
+      "H4",
+      "B5",
+      "H5",
+      "B6",
+      "H6",
+      "B7",
+      "H7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_e33c420d31_003",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "ما هي النسبة المئوية للالتزامات المستحقة في فترة '1-3 سنوات' التي تُعزى إلى الالتزام الوحيد ذي القيمة الإجمالية الأعلى؟",
+    "answer": [
+      [
+        "27.04%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "D1",
+      "D9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_004",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "لتحليل اتجاه مدفوعات 'فوائد الديون طويلة الأجل' عبر الفترات الزمنية الأربع، وتحديد ما إذا كانت الالتزامات مُقدَّمة أو مُؤجلة.",
+    "answer": [
+      [
+        "المدفوعات لـ 'فوائد الديون طويلة الأجل' هي 1,172 دولار (<1 سنة)، 2,166 دولار (1-3 سنوات)، 1,719 دولار (3-5 سنوات)، و4,046 دولار (>5 سنوات). الالتزامات مُؤجلة بشكل ملحوظ، حيث تزداد المدفوعات مع مرور الوقت، وأكبر دفعة فردية تحدث في فترة 'أكثر من 5 سنوات'. أكثر من 63% من إجمالي مدفوعات الفوائد مستحقة بعد أكثر من 3 سنوات في المستقبل."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_005",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "اذكر الالتزامات التعاقدية حيث يكون المبلغ المستحق في 'أقل من سنة' أكبر من المبلغ المستحق في '3-5 سنوات'.",
+    "answer": [
+      [
+        "fuel obligations"
+      ],
+      [
+        "other purchase obligations"
+      ],
+      [
+        "other long-term liabilities reflected on aes' consolidated balance sheet under gaap ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "E6",
+      "A7",
+      "C7",
+      "E7",
+      "A8",
+      "C8",
+      "E8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_006",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "ما هي نسبة الالتزامات قصيرة الأجل الإجمالية (المستحقة خلال 'أقل من سنة واحدة') إلى الالتزامات طويلة الأجل الإجمالية (المستحقة خلال 'أكثر من 5 سنوات') بناءً على سطر المجموع النهائي؟",
+    "answer": [
+      [
+        "Approximately 1:2.81"
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "F9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_e33c420d31_007",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "إذا طُلب من سياسة جديدة أن يتم دفع جميع 'التزامات الإيجار التشغيلي' المستحقة في فترة 'أكثر من 5 سنوات' بدلاً من ذلك خلال فترة '3-5 سنوات'، فما سيكون المجموع الجديد للعمود '3-5 سنوات'؟",
+    "answer": [
+      [
+        "$ 10283"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_008",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "هل هناك علاقة واضحة بين نوع الالتزامات الطاقوية (الوقود مقابل الكهرباء) وجداول السداد؟",
+    "answer": [
+      [
+        "نعم، هناك علاقة واضحة. \"الالتزامات المتعلقة بالوقود\" تكون مركزة في المدى القصير، حيث أكبر دفعة ($1,759) مستحقة في \"أقل من عام واحد\"، مما يشير إلى عقود قصيرة الأجل. على العكس، \"الالتزامات المتعلقة بالكهرباء\" تكون مركزة في المدى الطويل، حيث أكبر دفعة ($2,065) مستحقة في \"أكثر من 5 سنوات\"، مما يعكس على الأرجح اتفاقيات شراء كهرباء طويلة الأجل. وهذا يشير إلى أن طبيعة مصدر الطاقة ترتبط بمدة الالتزام المالي."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_e33c420d31_009",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "بناءً على الإجماليات لكل فترة دفع في الصف الأخير، ما هي الفترة الزمنية التي تحتوي على أكبر مبلغ من الالتزامات المالية وما الذي يشير إليه ذلك حول هيكل الديون للشركة؟",
+    "answer": [
+      [
+        "تُعتبر فترة 'أكثر من 5 سنوات' هي الأكبر في الالتزامات بمبلغ 20,544 دولارًا. وهذا يشير إلى أن هيكل الديون للشركة يعتمد بشكل رئيسي على الالتزامات طويلة الأجل، حيث تم تخصيص جزء كبير من التزاماتها المالية لدفعه في المستقبل البعيد، مما يشير إلى استراتيجيات تمويل طويلة الأجل أو مشاريع رأسمالية كبيرة."
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "D9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_010",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "تحتوي صف \"الالتزامات طويلة الأجل الأخرى\" على قيمة في عمود \"أقل من سنة\" تبدو كشذوذ. حدد هذه القيمة ووضح لماذا هي غير متسقة.",
+    "answer": [
+      [
+        "الشذوذ هو القيمة \"$ 2014\" في عمود \"أقل من سنة\". وهي غير متسقة لأن هذا المبلغ الوحيد للدفع قصير الأجل أكبر بكثير من \"$ 701\" المدرجة كإجمالي لهذا الالتزام بالكامل، وهو ما يمثل استحالة منطقية ومن المرجح أن يكون خطأ في البيانات."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_e33c420d31_011",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "ما هو إجمالي التزامات الوقود بالملايين؟",
+    "answer": [
+      [
+        "$5859"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

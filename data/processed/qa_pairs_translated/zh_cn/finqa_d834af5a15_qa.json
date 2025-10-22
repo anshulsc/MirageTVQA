@@ -1,0 +1,216 @@
+[
+  {
+    "question_id": "finqa_d834af5a15_001",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "表格中显示的所有年份（2006年、2007年和2008年）授予的限制性股票总数是多少？",
+    "answer": [
+      [
+        "5287752"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d834af5a15_002",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "在2006年、2007年或2008年中，哪一年的已 forfeited 股票的加权平均公允价值最高？",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "A8",
+      "C8",
+      "A12",
+      "C12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_003",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "open_ended_reasoning",
+    "question": "描述从2005年12月31日到2008年12月31日每年末未归属限制性股票数量的变化趋势。",
+    "answer": [
+      [
+        "未归属限制性股票数量呈现持续增长但增速放缓的趋势。从2005年末的3,488,668股增加到2006年的3,579,189股（增长90,521股），然后到2007年的3,821,707股（增长242,518股），最后到2008年的3,883,230股（增长61,523股）。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A5",
+      "B5",
+      "A9",
+      "B9",
+      "A13",
+      "B13"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_004",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "2007年，新授予的股票中有多少百分比被已归属和 forfeited 股票的总和抵消？",
+    "answer": [
+      [
+        "86.66%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d834af5a15_005",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "在哪一年授予股票的公允价值首次超过130万份已归属并发行的股票？",
+    "answer": [
+      [
+        "$ 56.45"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A7",
+      "B7",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_006",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "open_ended_reasoning",
+    "question": "通过计算2007年末余额及随后一年的活动，验证2008年12月31日未归属限制性股票的余额。",
+    "answer": [
+      [
+        "计算正确。从2007年末余额3,821,707股开始，加上授予的1,836,532股，减去已归属并发行的1,403,826股和 forfeited 的371,183股，最终余额为3,883,230股，与2008年12月31日报告的未归属股票数量一致。"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_007",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "如果2006年授予股票的加权平均公允价值高出5%，其近似总价值会是多少？（总价值 = 股票数量 × 公允价值）",
+    "answer": [
+      [
+        "$ 95,781,586.20"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_008",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "open_ended_reasoning",
+    "question": "每年授予的股票数量与同年 forfeited 的股票数量之间是否存在一致的关系？",
+    "answer": [
+      [
+        "根据数据，没有明确或一致的关系。2006年，授予了1,632,504股股票， forfeited 了360,734股。2007年，授予量增加到1,818,716股，而 forfeited 量减少到230,786股。2008年，授予量保持在1,836,532股的高位，而 forfeited 量显著增加到371,183股。 forfeited 的数量波动，与同期授予的数量没有直接相关性。"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B6",
+      "B8",
+      "B10",
+      "B12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d834af5a15_009",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "在所列所有年份中，哪项交易（'授予'、'已归属并发行'或'作废'）的平均授予日公允价值最高？",
+    "answer": [
+      [
+        "granted"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C6",
+      "C7",
+      "C8",
+      "C10",
+      "C11",
+      "C12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d834af5a15_010",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "open_ended_reasoning",
+    "question": "表格中以“unvested restricted stock december 31”开头的行的结构目的是什么？",
+    "answer": [
+      [
+        "这些行在财务对账报表中充当定期余额或检查点。每个“未归属限制性股票”行提供了特定年末的累计总数，后续行（“授予”、“归属并发行”、“ forfeited”）详细说明了修改该余额以得出下一年末总数的活动。它们为每个期间的活动分析提供了起点和终点。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A9",
+      "A13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_011",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "2005年至2008年期间授予的限制性股票总数是多少？",
+    "answer": [
+      [
+        "5,287,752"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A6",
+      "A10",
+      "B2",
+      "B6",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

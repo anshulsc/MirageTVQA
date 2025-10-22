@@ -1,0 +1,205 @@
+[
+  {
+    "question_id": "finqa_ec80ad8938_001",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "所有資產（包含交易資產和貸款）在兩組資料中報告的總攤餘金額是多少？",
+    "answer": [
+      [
+        "26557"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_002",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "在第二組數據（D列和E列）中，哪一種資產類別——交易資產或貸款——的「未償還本金餘額超過公平價值」更高？",
+    "answer": [
+      [
+        "loans"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_003",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "對於第一組貸款（欄位C），「未攤銷金額」中「非應計貸款餘額」佔多少百分比？",
+    "answer": [
+      [
+        "0.03%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_004",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "哪一種資產類型（交易性資產或貸款）在兩組資料中「不計息貸款或逾90天逾期貸款餘額」的總和較低？",
+    "answer": [
+      [
+        "7598"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_005",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "列出所有資產組合的帳面金額，其中「不計息貸款或逾90天逾期貸款餘額」正好是100萬美元。",
+    "answer": [
+      [
+        "$ 3224"
+      ],
+      [
+        "$ 4374"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C3",
+      "E3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_006",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "第一組數據（column B）的交易資產攤餘金額，若減去「超過公允價值之未償還本金餘額」，新攤餘金額是多少？",
+    "answer": [
+      [
+        "9673"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_007",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "分析「非應計貸款餘額」，哪一種資產類型的餘額相對於其他是顯著的異常值，這對它們的相對風險概況意味著什麼？",
+    "answer": [
+      [
+        "兩組數據中的交易資產都顯示非應計餘額為2,014百萬美元，與貸款的1百萬美元相比，這是一個極端的異常值。這種明顯的差異表明交易資產組合承擔著顯著更高的信貸風險或經歷了重大違約事件，而貸款組合看起來處於異常良好的狀態，幾乎沒有非應計餘額。"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_008",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "資料有顯示資產「攜帶金額」和「超過公平價值之未償還本金餘額」在「交易資產」類別中有一致正相關嗎？",
+    "answer": [
+      [
+        "無，無顯示一致正相關。第一組交易資產之攜帶金額較高（$10,108M 對 $8,851M），但超過公平價值之未償還本金餘額較低（$435M 對 $623M）。此顯示較大投資組合規模不必然導致此資料集中未實現虧損成比例增大。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_009",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "找出哪些列有重複或看似冗餘的資料點，並解釋其模式。",
+    "answer": [
+      [
+        "第3列和第4列存在資料冗餘。在第3列，'non-accrual loans或逾90天未付本息的貸款餘額'，交易資產的數值在兩組中都是2,014百萬美元（B3, D3），貸款在兩組中都是1百萬美元（C3, E3）。在第4列，數值2,014百萬美元在交易資產兩組及第一組貸款中重複三次（B4, C4, D4），這可能表示資料輸入模式或特定財務報告特徵。"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_010",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "對於數據集（Set 1: cols B,C 或 Set 2: cols D,E）中總攜帶金額較高的，計算投資組合的整體「未實現損失百分比」（總「未償還本金餘額超過公平價值」除以總「攜帶金額」）。",
+    "answer": [
+      [
+        "8.82%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_011",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Chiah 2018 nî 12 goe̍h 31 ji̍t, chhut-hiān-chiu hām loan ê tōa-bīn chi̍t-chiu chhut-hiān ê chhī-tōa hóe tāi-lêng?",
+    "answer": [
+      [
+        "Chhut-hiān-chiu ê tōa-bīn chi̍t-chiu chhut-hiān sī koán loan ê tōa-bīn chi̍t-chiu chhut-hiān. Chhut-hiān-chiu ê tōa-bīn chi̍t-chiu chhut-hiān sī $10,108 bān hō͘, $8,851 bān hō͘; loan ê tōa-bīn chi̍t-chiu chhut-hiān sī $3,224 bān hō͘, $4,374 bān hō͘."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

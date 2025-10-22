@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "finqa_cedda436f6_001",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "In quale anno il 'reddito dalle operazioni prima delle imposte' era il più alto?",
+    "answer": [
+      [
+        "2013"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_002",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Qual è stato il totale delle spese per imposte sul reddito in milioni di dollari per tutti e tre gli anni mostrati nella tabella?",
+    "answer": [
+      [
+        "238"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cedda436f6_003",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Per l'anno con le vendite nette più basse, qual è stato il 'net income from discontinued operations (attributed to ppg)' in milioni di dollari?",
+    "answer": [
+      [
+        "2197"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_004",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "Descrivi la tendenza delle 'net sales' dall'anno terminante nel 2011 al 2013.",
+    "answer": [
+      [
+        "Le vendite nette hanno mostrato un leggero calo da 1732 milioni di dollari nel 2011 a 1688 milioni di dollari nel 2012, seguito da un brusco calo a 108 milioni di dollari nel 2013. Questo indica una tendenza negativa significativa, in particolare nell'ultimo anno del periodo."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_005",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Elenco di tutte le metriche finanziarie per le quali il valore nel 2013 ha superato la somma combinata dei valori del 2012 e del 2011.",
+    "answer": [
+      [
+        "income from operations before income tax"
+      ],
+      [
+        "income from discontinued operations net of tax"
+      ],
+      [
+        "net income from discontinued operations ( attributable to ppg )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "A7",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_006",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Di quale percentuale è aumentato il \"reddito netto dalle operazioni interrotte (attribuibile a PPG)\" dal 2012 al 2013?",
+    "answer": [
+      [
+        "921.9%"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cedda436f6_007",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Se il 'guadagno netto dalla separazione e fusione' nel 2013 fosse stato del 25% inferiore e questa riduzione avesse direttamente diminuito il 'reddito operativo prima delle imposte', quale sarebbe stato il nuovo reddito operativo per quell'anno?",
+    "answer": [
+      [
+        "1466"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_008",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "In base ai dati, analizza la relazione tra 'net sales' e 'income from operations before income tax' nei tre anni. C'è una correlazione costante?",
+    "answer": [
+      [
+        "Non c'è una correlazione costante. Dal 2011 al 2012, le metriche mostrano una correlazione positiva, poiché un leggero calo delle vendite (da $1732M a $1688M) corrisponde a una diminuzione del reddito (da $376M a $345M). Tuttavia, questa relazione si inverte drasticamente nel 2013, dove un crollo massiccio delle vendite nette a $108M è accompagnato da un aumento del reddito a $2014M. Questo suggerisce che nel 2013 il reddito era guidato da fattori diversi dalle vendite core, come il 'net gain from separation and merger of commodity chemicals business'."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cedda436f6_009",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Quale metrica finanziaria mostra un valore di '$ 2014' milioni in un anno e '2014' milioni in altri due anni, evidenziando un'incoerenza nel formato dei dati per lo stesso valore numerico?",
+    "answer": [
+      [
+        "less : net income attributable to non-controlling interests discontinued operations"
+      ],
+      [
+        "net gain from separation and merger of commodity chemicals business"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "A6",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_010",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "Quale voce di bilancio per l'anno 2013 rappresenta l'evento finanziario più significativo rispetto al suo valore implicito zero o quasi zero negli altri anni, e come ha influenzato probabilmente il 'reddito operativo prima delle imposte' di quell'anno?",
+    "answer": [
+      [
+        "La 'plusvalenza dalla separazione e fusione dell'attività chimica di base' con un valore di 2192 milioni nel 2013 è l'evento finanziario più significativo. Questa plusvalenza una tantum sembra essere il principale motore del 'reddito operativo prima delle imposte' insolitamente elevato di 2014 milioni di dollari nello stesso anno, che costituisce un'anomalia sostanziale rispetto ai 345 milioni e 376 milioni riportati rispettivamente nel 2012 e nel 2011."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cedda436f6_011",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Qual è la spesa per imposte sul reddito alla fine del 2011?",
+    "answer": [
+      [
+        "126"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

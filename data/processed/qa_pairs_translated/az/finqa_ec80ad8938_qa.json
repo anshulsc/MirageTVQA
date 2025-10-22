@@ -1,0 +1,205 @@
+[
+  {
+    "question_id": "finqa_ec80ad8938_001",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Hər iki təqdim olunan məlumat dəstində qeyd olunan bütün aktivlərin (icarə aktivləri və kreditlərin) ümumi daşınan miqdarı nədir?",
+    "answer": [
+      [
+        "26557"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_002",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "İkinci data dəstində (D və E sütunları) 'əmələ gələn əsas borc balansının fair dəyərdən çox olması' kateqoriyası hansı varlıq növü üçün daha böyükdür—təchizat varlıqları (trading assets) və ya kreditlər (loans)?",
+    "answer": [
+      [
+        "loans"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_003",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Birinci qrup kreditlər (C sütunu) üçün 'carrying amount' cəminin 'non-accrual kreditlərin balansı' tərəfindən əks etdirilən faiz dərəcəsi nədir?",
+    "answer": [
+      [
+        "0.03%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_004",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Hər iki məlumat dəsti üzrə 'nəzarətdə olunan kreditlər və ya 90 gündən artıq keçmiş kreditlərin balansı' cəmi daha aşağı olan aktiv növünün (Ticarət Activləri və ya Kreditlər) birləşmiş gətirilən məbləği nədir?",
+    "answer": [
+      [
+        "7598"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_005",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Bütün aktiv portfeyllər üzrə gəlir dəyərlərini siyahıya alın, burada 'bərpa olunmayan kreditlər və ya 90 gündən çox keçmiş kreditlərin balansı' dəqiq $1 milyon olmalıdır.",
+    "answer": [
+      [
+        "$ 3224"
+      ],
+      [
+        "$ 4374"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C3",
+      "E3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_006",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Birinci data dəstində (sütun B) ticarət aktivlərinin daşıyıcı miqdarı, 'fair dəyərdən artıq toplanmamış əsas balans'ı çıxarıldıqdan sonra yeni daşıyıcı miqdar nə olar?",
+    "answer": [
+      [
+        "9673"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_007",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "\"Non-accrual loans\" balansını təhlil edərkən, digərlərinə nisbətən əhəmiyyətli çıxıntı təşkil edən hansı aktiv növü var və bu, onların nisbi risk profilləri haqqında nəyi göstərir?",
+    "answer": [
+      [
+        "Hər iki məlumat dəstindəki Təchizatların (Trading Assets) non-accrual balansı 2,014 milyon dollar olub, bu, hər iki dəstdəki Kreditlərin (Loans) 1 milyon dollar balansına nisbətən çox yüksək çıxıntıdır. Bu aydın fərq, Təchizatlar portfelinin kredit riski çox yüksək olduğunu və ya əhəmiyyətli bir ödəniş qəzası baş verdiyini göstərir, oysa Kreditlər portfeli həqiqətən yaxşı halda olub və nəzərəçarpacaq dərəcədə az non-accrual balansı var."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_008",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Məlumatlar, 'Carrying amount' və 'aggregate unpaid principal balance in excess of fair value' arasında Trading Assets kateqoriyası üçün sabit müsbət əlaqə göstərirmi?",
+    "answer": [
+      [
+        "Xeyr, sabit müsbət əlaqə göstərilmir. İlk Trading Assets dəsti daha yüksək carrying amounta ($10,108M qarşısında $8,851M) və daha aşağı aggregate unpaid principal balance in excess of fair value ($435M qarşısında $623M) malikdir. Bu, bu məlumat dəsti üçün daha böyük portfel ölçüsünün həmişə nisbətən daha böyük unrealized lossa səbəb olmayacağına işarə edir."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_009",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Təkrarlanan və ya ehtimal olunan təkrar məlumat nöqtələrini ehtiva edən sətrləri müəyyən edin və nümunəni izah edin.",
+    "answer": [
+      [
+        "Məlumat təkrarlanmasının 3-cü və 4-cü sətrlərdə mövcud olduğunu. 3-cü sətrdə, 'tətbiq olunmamış kreditlərin balansı...' üçün ticarət aktivləri üçün dəyər hər iki qrupda (B3, D3) $2,014M və kreditlər üçün hər iki qrupda (C3, E3) $1M olaraq təkrarlanır. 4-cü sətrdə isə $2,014M dəyəri hər iki ticarət aktivləri qrupu və ilk kredit qrupu üçün (B4, C4, D4) üç dəfə təkrarlanır, bu isə ya məlumat daxil etmə nümunəsi və ya xüsusi maliyyə hesabatı xüsusiyyətini göstərir."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_010",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Məlumat dəstində (Set 1: B, C sütunları və ya Set 2: D, E sütunları) ümumi daşınan məbləği daha yüksək olanı seçib portfelin ümumi 'əhəmiyyətsiz itkisi faizi'ni (ümumi 'fair dəyərdən artıq qalan əsas məbləğ' bölünən ümumi 'daşınan məbləğ') hesablayın.",
+    "answer": [
+      [
+        "8.82%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_011",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Konsolidə balans hesabatında bildirilən ticarət aktivlərinin dəyəri 31 dekabr 2018 tarixində qarzlarla necə müqayisə olunur?",
+    "answer": [
+      [
+        "ticarət aktivləri üçün dəyər qarzlarla müqayisədə daha yüksək idi. Ticarət aktivləri üçün bu məbləğ $10,108 milyon və $8,851 milyon, qarzlar üçün isə $3,224 milyon və $4,374 milyon idi."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

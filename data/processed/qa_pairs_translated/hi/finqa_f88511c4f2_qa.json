@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_f88511c4f2_001",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "2008 में एसेट रिटायरमेंट ओब्लिगेशन्स के सभी ट्रांजैक्शनल बदलावों (शुरुआती और अंतिम बैलेंस और असामान्य 'डीकॉन्सोलिडेशन' मान को छोड़कर) का शुद्ध मूल्य क्या था?",
+    "answer": [
+      [
+        "-169"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_002",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "किस वर्ष में 'liabilities settled' से दायित्वों में अधिक कमी आई?",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_003",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "2007 से 2008 तक 'accretion expense' कितना बढ़ा?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_004",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "2008 में बाध्यताओं में वृद्धि और 2007 में कमी को दर्शाने वाली पंक्ति आइटम की पहचान करें।",
+    "answer": [
+      [
+        "revisions to previous estimates"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_005",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "2007 के 'liabilities incurred' और 'accretion expense' के योग को 2008 की शुरुआती बैलेंस से घटाने पर परिणाम क्या है?",
+    "answer": [
+      [
+        "1013"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_006",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "2007 में 'liabilities incurred' का योग 2007 और 2008 के 'accretion expense' के कुल योग का कितना प्रतिशत है?",
+    "answer": [
+      [
+        "47.24%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_007",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "यदि 2008 में 'liabilities incurred' 50% अधिक होता, तो उस वर्ष के लिए 'liabilities incurred' और 'liabilities settled' का नया योग क्या होता?",
+    "answer": [
+      [
+        "-49"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_008",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "तालिका की संरचना और मानों के आधार पर, 2007 का अंतिम शेष और 2008 का प्रारंभिक शेष के बीच तार्किक संबंध क्या है?",
+    "answer": [
+      [
+        "2007 का अंतिम शेष ($ 1134) 2008 के प्रारंभिक शेष ($ 1134) के समान है। यह मानक लेखा प्रथा को दर्शाता है जहाँ एक अवधि का बंद शेष अगली लगातार अवधि का खुला शेष बन जाता है।"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_009",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "तालिका में 'liabilities settled' जैसे नकारात्मक वित्तीय मूल्य कैसे दर्शाए गए हैं?",
+    "answer": [
+      [
+        "नकारात्मक मूल्यों को दोहरी नोटेशन का उपयोग करके दर्शाया गया है: संख्या के पहले माइनस साइन और उस संख्या का परिमाण को कोष्ठक में घेरा हुआ। उदाहरण के लिए, '-94 ( 94 )'।"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "C5",
+      "A6",
+      "B6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_010",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "2013 के मान वाली दो पंक्तियों की पहचान करें और इस मान को तालिका के संदर्भ में एक विसंगति क्यों माना जाता है, इसकी व्याख्या करें।",
+    "answer": [
+      [
+        "'held for sale (a)' के लिए 2007 में और 'deconsolidation of egholdings' के लिए 2008 में '2013' का मान मौजूद है। यह मान एक विसंगति है क्योंकि यह अधिकांश अन्य लेन-देन संख्याओं (जैसे 30, 66, -94) की तुलना में एक क्रम के बड़ा है, और इसकी उपस्थिति दोनों वर्षों के लिए प्रारंभिक और अंतिम बैलेंस के बीच गणितीय समन्वय को तोड़ती है, जिससे यह सुझाव मिलता है कि यह डेटा त्रुटि या असाधारण आइटम हो सकता है।"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_011",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "31 दिसंबर, 2008 को संपत्ति निष्क्रिय दायित्व (मिलियन में) क्या था?",
+    "answer": [
+      [
+        "$965"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

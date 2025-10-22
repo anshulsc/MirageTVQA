@@ -1,0 +1,232 @@
+[
+  {
+    "question_id": "finqa_da1c50b23c_001",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "ما هو نوع الوحدة الذي حقق أعلى قيمة اسمية مُستردة، وما هي تلك القيمة؟",
+    "answer": [
+      [
+        "class b-2 preferred units",
+        "$ 55.8"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_002",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "ما هو العدد الإجمالي للوحدات المستردة عبر جميع الأنواع المذكورة؟",
+    "answer": [
+      [
+        "2271818"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_003",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "احسب القيمة الاسمية لكل وحدة فردية للنوع الذي شمل مساهمة خيرية.",
+    "answer": [
+      [
+        "$10,007.17"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_004",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "حدد جميع أنواع الوحدات التي تم استردادها حصريًا نقدًا وكان عدد الوحدات المستردة أكثر من 2500 وحدة.",
+    "answer": [
+      [
+        "preferred a units"
+      ],
+      [
+        "class c downreit units"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A3",
+      "B3",
+      "D3",
+      "A5",
+      "B5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_005",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "ما هي النسبة المئوية للقيمة الاسمية الإجمالية المستردة التي تمثلها جميع وحدات \"class b\" مجتمعة؟",
+    "answer": [
+      [
+        "76.89%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_006",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "open_ended_reasoning",
+    "question": "أي نوع من الوحدات هو الأكثر تباينًا بشكل كبير من حيث القيمة الاسمية لكل وحدة؟ اشرح إجابتك بالقيم المحسوبة.",
+    "answer": [
+      [
+        "\"وحدات preferred a\" هي الأكثر تباينًا بشكل كبير. قيمتها الاسمية لكل وحدة هي 1.00 دولار (2.2 مليون دولار / 2,200,000 وحدة)، وهي أقل بمراحل مقارنة بأنواع أخرى. للمقارنة، القيمة الاسمية لكل وحدة لـ\"وحدات class a preferred\" هي 10,000 دولار (20.0 مليون دولار / 2,000 وحدة)، ولـ\"وحدات class c downreit\" هي حوالي 30.74 دولار (1.9 مليون دولار / 61,804 وحدة). القيمة المنخفضة جدًا لكل وحدة لـ\"وحدات preferred a\" تجعلها استثناءً واضحًا."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_007",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "إذا كان القيمة الاسمية المستردة لـ 'وحدات المفضلة من الفئة أ' كانت أقل بنسبة 10%، فما كانت ستكون القيمة الاسمية الإجمالية المستردة لجميع الوحدات (بالملايين)؟",
+    "answer": [
+      [
+        "$ 102.3"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_008",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "open_ended_reasoning",
+    "question": "هل تشير البيانات إلى وجود ارتباط بين عدد الوحدات المستردة الأعلى والقيمة الاسمية الإجمالية الأعلى؟ اشرح استنتاجك.",
+    "answer": [
+      [
+        "لا، البيانات لا تشير إلى ارتباط واضح. بينما تحتوي 'الوحدات المفضلة من فئة ب-2' على عدد وحدات نسبيًا مرتفع (5,576) وأعلى قيمة اسمية (55.8 مليون دولار)، فإن نوع الوحدة الذي يحتوي على أكبر عدد من الوحدات، 'الوحدات المفضلة أ' (2,200,000)، لديه قيمة اسمية منخفضة (2.2 مليون دولار). بالمقابل، 'وحدات داونريت من فئة ج' تحتوي على ثاني أعلى عدد من الوحدات (61,804) ولكنها لديها أقل قيمة اسمية (1.9 مليون دولار). هذا يشير إلى أن القيمة الاسمية لكل وحدة تختلف بشكل كبير بين الأنواع، مما يعطل أي ارتباط بسيط بين كمية الوحدات وقيمتها الإجمالية."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_009",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "open_ended_reasoning",
+    "question": "أي عمود يحتوي على بيانات تتكون من فئتين مختلفتين، وأي صف يوضح ذلك؟",
+    "answer": [
+      [
+        "عمود 'نوع الاسترداد' يحتوي على بيانات مركبة. القيمة 'cash/charitable contribution' في الصف الرابع توضح ذلك من خلال دمج طريقتي استرداد منفصلتين في خلية واحدة."
+      ]
+    ],
+    "evidence_cells": [
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_010",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "ما هي القيمة الاسمية المتوسطة المستردة (بالملايين) لأنواع الوحدات التي تحتوي على كلمة 'مفضلة' في أسمائها؟",
+    "answer": [
+      [
+        "$ 25.6"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_011",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "open_ended_reasoning",
+    "question": "ما هي الكمية الإجمالية لجميع وحدات النوع A مجتمعة وما هي قيمة كل وحدة بالملايين؟",
+    "answer": [
+      [
+        "الكمية الإجمالية لوحدات النوع A هي 2,202,000 وحدة. قيمة القيمة الاسمية لوحدات المفضلة A هي 2.2 دولار وقيمة القيمة الاسمية لوحدات المفضلة من الفئة A هي 20.0 دولار."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

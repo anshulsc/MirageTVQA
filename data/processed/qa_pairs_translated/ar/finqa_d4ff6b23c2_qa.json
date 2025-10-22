@@ -1,0 +1,249 @@
+[
+  {
+    "question_id": "finqa_d4ff6b23c2_001",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "احسب التغير الصافي الإجمالي في استحقاقات الضرائب غير المُعترف بها لعام 2016، بناءً على الأنشطة التداولية المذكورة بين الرصيد الافتتاحي والرصيد الختامي.",
+    "answer": [
+      [
+        "64"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_002",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "أي بنود تمثل تغييرًا ماليًا مطلقًا أصغر في عام 2017 مقارنة بتغييرها المقابل في عام 2016؟",
+    "answer": [
+      [
+        "additions for tax positions related to prior years"
+      ],
+      [
+        "reductions for tax positions related to prior years"
+      ],
+      [
+        "reductions for settlements2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_003",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "ما هي النسبة المئوية لـ 'رصيد 31 ديسمبر 2017' التي لن تؤثر على معدل الضريبة الفعالة إذا تم الاعتراف بها؟",
+    "answer": [
+      [
+        "5.99%"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_004",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "ما الفرق بين مجموع جميع الخصومات في عام 2017 ومجموع جميع الخصومات في عام 2016، مع إهمال القيمة غير القياسية في بند \"خصومات بسبب انتهاء فترة التقادم\" لعام 2017؟",
+    "answer": [
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_005",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "إذا كانت 'إضافة مراكز ضريبية مرتبطة بالسنوات السابقة' في عام 2017 قد تطابقت مع المبلغ من عام 2016، ما سيكون 'الرصيد في 31 ديسمبر 2017' المعدل؟",
+    "answer": [
+      [
+        "$ 1321"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_006",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "حدد عنصر السطر الواحد من عام 2017 الذي كان الأكثر استثنائية من حيث الحجم المالي عند مقارنته بجميع الإضافات والخصومات الأخرى عبر السنتين.",
+    "answer": [
+      [
+        "additions for tax positions related to current year"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_007",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "بناءً على الت reconcilation، يتم حساب 'الرصيد في 31 ديسمبر 2017' من الرصيد الابتدائي بالإضافة إلى الإضافات والتخفيضات اللاحقة. أي خلية في عمود عام 2017 تحتوي على قيمة غير متسقة مع هذا الحساب وتبدو زائدة؟",
+    "answer": [
+      [
+        "B6"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_008",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "اذكر جميع الأنشطة في عام 2017، سواء الزيادات أو الخصومات، التي كان قيمتها المطلقة أكبر من 15 مليون دولار.",
+    "answer": [
+      [
+        "additions for tax positions related to current year"
+      ],
+      [
+        "additions for tax positions related to prior years"
+      ],
+      [
+        "reductions for tax positions related to prior years"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_009",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "حلل التغير في الرصيد الإجمالي من نهاية عام 2016 إلى نهاية عام 2017. ما هي العوامل الرئيسية وراء هذا التغير؟",
+    "answer": [
+      [
+        "ارتفع الرصيد الإجمالي لفوائد الضرائب غير المُعترف بها بمقدار 254 مليون دولار، من 1032 مليون دولار في نهاية عام 2016 إلى 1286 مليون دولار في نهاية عام 2017. كان العامل الرئيسي لهذا الارتفاع هو '270 مليون دولار' من 'إضافة لمواقف ضريبية مرتبطة بالسنة الجارية' في عام 2017، والتي كانت أكبر بكثير من أي إضافة أو خصم فردي آخر في أي من العامين. بينما كانت هناك خصومات تبلغ إجماليها 36 مليون دولار في عام 2017، إلا أنها لم تكن كافية لتعويض الإضافات الكبيرة."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_010",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "هل هناك دليل على تغيير كبير في تكوين الاستحقاقات الضريبية غير المُعترف بها بين عامي 2016 و2017، بناءً على نسبة الرصيد في نهاية العام الذي سيؤثر على معدل الضريبة الفعّال؟",
+    "answer": [
+      [
+        "لا يوجد دليل على تغيير كبير في التكوين. في عام 2016، كانت النسبة التي ستؤثر على معدل الضريبة الفعّال 963 مليون دولار من رصيد إجمالي قدره 1032 مليون دولار، أو 93.3%. وفي عام 2017، كانت هذه النسبة 1209 مليون دولار من رصيد إجمالي قدره 1286 مليون دولار، أو 94.0%. بقيت النسبة مستقرة بشكل كبير، مما يشير إلى أن تكوين المراكز الضريبية الأساسية كان ثابتًا من سنة إلى أخرى على الرغم من الزيادة الإجمالية في الرصيد."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_011",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "كيف تغير إجمالي رصيد المراكز الضريبية من عام 2016 إلى عام 2017، وما هي العوامل التي ساهمت في هذا التغيير؟",
+    "answer": [
+      [
+        "زاد إجمالي رصيد المراكز الضريبية من 1,032 مليون دولار في عام 2016 إلى 1,286 مليون دولار في عام 2017. كان الزيادة بسبب إضافات للمراكز الضريبية المتعلقة بالعام الحالي (+270 مليون دولار) والمراكز الضريبية المتعلقة بالسنوات السابقة (+20 مليون دولار)، مع تعويض جزئي منخفضات للمراكز الضريبية المتعلقة بالسنوات السابقة (-27 مليون دولار) والمصالحات (-9 مليون دولار)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_f88511c4f2_001",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Berapa nilai bersih semua perubahan transaksional (kecuali saldo awal dan akhir serta nilai 'deconsolidation' yang aneh) untuk kewajiban pensiun aset di tahun 2008?",
+    "answer": [
+      [
+        "-169"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_002",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Tahun berapa yang mengalami penurunan lebih besar dalam kewajiban dari 'liabilities settled'?",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_003",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Berapa kenaikan 'accretion expense' dari 2007 ke 2008?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_004",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Identifikasi baris yang menunjukkan peningkatan kewajiban di tahun 2008 tapi penurunan di tahun 2007.",
+    "answer": [
+      [
+        "revisions to previous estimates"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_005",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Berapa hasilnya jika jumlah 'liabilities incurred' dan 'accretion expense' tahun 2007 dikurangi dari saldo awal 2008?",
+    "answer": [
+      [
+        "1013"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_006",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Persentase 'liabilities incurred' tahun 2007 dari total gabungan 'accretion expense' 2007 dan 2008 itu berapa?",
+    "answer": [
+      [
+        "47.24%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_007",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Jika 'liabilities incurred' di tahun 2008 50% lebih besar, berapa jumlah total 'liabilities incurred' dan 'liabilities settled' untuk tahun itu?",
+    "answer": [
+      [
+        "-49"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_008",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan struktur dan nilai di tabel, apa hubungan logis antara saldo akhir 2007 dan saldo awal 2008?",
+    "answer": [
+      [
+        "Saldo akhir 2007 ($ 1134) sama persis dengan saldo awal 2008 ($ 1134). Ini menunjukkan praktik akuntansi standar di mana saldo penutupan satu periode menjadi saldo pembukaan untuk periode berikutnya."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_009",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "Bagaimana nilai negatif seperti 'liabilities settled' direpresentasikan di seluruh tabel?",
+    "answer": [
+      [
+        "Nilai negatif direpresentasikan dengan notasi ganda: tanda minus di depan diikuti angka, dan juga nilai absolutnya dalam tanda kurung. Contohnya, '-94 ( 94 )'."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "C5",
+      "A6",
+      "B6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_010",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "Cari dua baris yang punya nilai '2013' dan jelasin kenapa nilai ini keliatan aneh di tabel ini.",
+    "answer": [
+      [
+        "Nilai '2013' ada di 'held for sale (a)' tahun 2007 dan 'deconsolidation of egholdings' tahun 2008. Nilai ini aneh karena jauh lebih besar dibanding angka transaksi lainnya (misalnya 30, 66, -94), dan kehadirannya mengacaukan perhitungan saldo awal dan akhir untuk kedua tahun, jadi mungkin ada kesalahan data atau ini item luar biasa."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_011",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Berapa kewajiban pensiun aset (dalam jutaan) per 31 Desember 2008?",
+    "answer": [
+      [
+        "$965"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

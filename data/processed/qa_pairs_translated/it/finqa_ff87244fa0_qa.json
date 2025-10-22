@@ -1,0 +1,238 @@
+[
+  {
+    "question_id": "finqa_ff87244fa0_001",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Qual è il totale combinato dei pagamenti dovuti entro il 31 dicembre 2012 e il 31 dicembre 2013 per tutte le obbligazioni contrattuali?",
+    "answer": [
+      [
+        "$ 6219"
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_002",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Quale percentuale dell'obbligazione totale 'debt [a]' è prevista per il pagamento dopo il 31 dicembre 2016?",
+    "answer": [
+      [
+        "71.68%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "H1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_003",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Quale obbligo contrattuale ha il pagamento più elevato entro il 31 dicembre 2012?",
+    "answer": [
+      [
+        "purchase obligations [d]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_004",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Per l'obbligo contrattuale con il secondo importo totale più grande, qual è il pagamento dovuto entro il 31 dicembre 2014?",
+    "answer": [
+      [
+        "$ 560"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "E4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_005",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "open_ended_reasoning",
+    "question": "Descrivi la tendenza dei pagamenti per 'operating leases [b]' negli anni dal 2012 al 2016.",
+    "answer": [
+      [
+        "I pagamenti per 'operating leases [b]' mostrano una tendenza costante in diminuzione anno dopo anno dal 2012 al 2016, partendo da 525 milioni di dollari nel 2012 e diminuendo ogni anno fino a 347 milioni di dollari nel 2016."
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_006",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Elencare tutte le obbligazioni contrattuali che hanno un pagamento dovuto entro il 31 dicembre 2015 superiore a $300 milioni.",
+    "answer": [
+      [
+        "debt [a]"
+      ],
+      [
+        "operating leases [b]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A3",
+      "F3",
+      "A4",
+      "F4",
+      "A5",
+      "F5",
+      "A6",
+      "F6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_007",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Se i pagamenti per 'obbligazioni di acquisto [d]' dovuti entro la fine del 2012, 2013 e 2014 fossero stati tutti differiti e aggiunti all'importo dovuto 'dopo il 2016', quale sarebbe il nuovo totale per questa obbligazione 'dopo il 2016'?",
+    "answer": [
+      [
+        "$ 4584"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "E4",
+      "H4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_008",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "open_ended_reasoning",
+    "question": "Quale obbligo contrattuale ha un pagamento in un singolo anno tra il 2012 e il 2016 che è un valore anomalo, significativamente più alto rispetto ai pagamenti negli altri anni all'interno di quel periodo?",
+    "answer": [
+      [
+        "La categoria 'obblighi di acquisto [d]' mostra un valore anomalo significativo. Il pagamento di $2598 milioni dovuto nel 2012 è più di quattro volte superiore al pagamento dell'anno successivo più alto ($568 milioni nel 2013), e i pagamenti diminuiscono notevolmente negli anni successivi, rendendo la cifra del 2012 un'anomalia."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_009",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Quale colonna del periodo di pagamento (da 'payments due by december 31 2012' a 'payments due by december 31 other') contiene il maggior numero di voci mancanti o non applicabili, indicate da '-'?",
+    "answer": [
+      [
+        "payments due by december 31 other"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "E6",
+      "F6",
+      "G6",
+      "H6",
+      "I1",
+      "I2",
+      "I3",
+      "I5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_010",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "open_ended_reasoning",
+    "question": "In base ai dati, qual è la relazione apparente tra il valore 'totale' di un obbligo e la proporzione di quell'obbligo dovuta 'dopo il 2016'?",
+    "answer": [
+      [
+        "In generale, sembra esserci una relazione positiva in cui gli obblighi con un valore totale più elevato, come 'debt [a]' e 'operating leases [b]', tendono ad avere una parte significativa dei pagamenti programmati per dopo il 2016, suggerendo che si tratti di impegni finanziari a lungo termine. Tuttavia, questa non è una regola universale, poiché 'purchase obligations [d]', nonostante essere il secondo obbligo per valore totale, ha una proporzione relativamente piccola (circa il 16,7%) dovuta dopo il 2016, indicando che si tratta di un impegno a breve o medio termine."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "H1",
+      "B2",
+      "H2",
+      "B3",
+      "H3",
+      "B4",
+      "H4",
+      "B5",
+      "H5",
+      "B6",
+      "H6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_011",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Qual è il totale del debito (in milioni) per obbligazioni contrattuali?",
+    "answer": [
+      [
+        "$ 12516"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

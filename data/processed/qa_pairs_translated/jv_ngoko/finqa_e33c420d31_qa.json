@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_e33c420d31_001",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Apa tanggung jawab kontrak sing luwih dadi dana sing kudu dibayar ing periode '3-5 taun', kajaba 'debt obligations' lan 'interest payments on long-term debt'?",
+    "answer": [
+      [
+        "fuel obligations"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_002",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Piye kahanan total kabeh kewajiban sing nggunakake catetan kaki '11'?",
+    "answer": [
+      [
+        "$ 16297"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "H3",
+      "B4",
+      "H4",
+      "B5",
+      "H5",
+      "B6",
+      "H6",
+      "B7",
+      "H7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_e33c420d31_003",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Pirang persen saka total kewajiban sing kudu dibayar ing '1-3 taun' iku ditrapake kanggo kewajiban tunggal sing duwe total nilai pungkasan?",
+    "answer": [
+      [
+        "27.04%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "D1",
+      "D9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_004",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "Kanggo 'interest payments on long-term debt', analisis trend bayaran ing kaping papat wektu iki lan tentuake apakah kewajiban iki front-loaded utawa back-loaded.",
+    "answer": [
+      [
+        "Bayaran kanggo 'interest payments on long-term debt' iku $1,172 (<1yr), $2,166 (1-3yrs), $1,719 (3-5yrs), lan $4,046 (>5yrs). Kewajiban iki dadi back-loaded kanthi signifikan, amarga trend bayaran munggah nalika wektu, karo bayaran paling gedhe ana ing wektu 'more than 5 years'. Luwih saka 63% saka total bayaran interest kudu dibayar ing ngarep 3 taun."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_005",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Apa wong sing kudu bayar karo dhuwit sing kudu dibayar kurang saka 1 taun e luwih gedhe saka sing kudu dibayar antarane 3-5 taun?",
+    "answer": [
+      [
+        "fuel obligations"
+      ],
+      [
+        "other purchase obligations"
+      ],
+      [
+        "other long-term liabilities reflected on aes' consolidated balance sheet under gaap ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "E6",
+      "A7",
+      "C7",
+      "E7",
+      "A8",
+      "C8",
+      "E8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_006",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Pira rasio total kewajiban jangka pendek (kudu bayar 'kurang saka 1 taun') marang total kewajiban jangka panjang (kudu bayar 'luwih saka 5 taun') sing ana ing baris total final?",
+    "answer": [
+      [
+        "Approximately 1:2.81"
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "F9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_e33c420d31_007",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Yen ana kebijakan anyar sing ngharuske kabeh 'operating lease obligations' sing dadi ing 'more than 5 years' kudu dibayar ing periode '3-5 years', piye total anyar kanggo kolom '3-5 years'?",
+    "answer": [
+      [
+        "$ 10283"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_008",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "Ana ana korelasi sing katon antarane jinis kewajiban energi (bahan bakar vs. listrik) lan jadwal bayare?",
+    "answer": [
+      [
+        "Ya, ana korelasi sing jelas. 'Kewajiban bahan bakar' iku front-loaded, karo bayaran paling gedhe ($1,759) kudu dibayar ing 'kurang saka 1 taun', sing nuduhake kontrak jangka pendek. Kebalikane, 'kewajiban listrik' iku back-loaded, karo bayaran paling gedhe ($2,065) kudu dibayar ing 'luwih saka 5 taun', sing kemungkinan nggawe kontrak pembelian listrik jangka panjang. Iki nuduhake jinis sumber energi nggawe hubungan karo durasi kewajiban keuangan."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_e33c420d31_009",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan total kanggo tiap periode bayar ing baris pungkasan, periode wektu opo sing entuk komitmen paling gedhe lan apa sing diwenehake babagan struktur liabilitas perusahaan?",
+    "answer": [
+      [
+        "Periode 'more than 5 years' entuk komitmen paling gedhe sajroning $20,544. Iki nandhakake yen struktur liabilitas perusahaan kuwi duwe karakteristik panggonan jangka panjang, karo akeh kewajiban finansial sing bakal dibayar ing njaba wektu sing luwih dhuwur, sing ndadekake strategi pembiayaan jangka panjang utawa proyek kapital gedhe."
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "D9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_010",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "Baris kang koyo 'other long-term liabilities' iso ana nilai ing kolom 'less than 1 year' sing kaya kerep nganti kerep. Cari nilai iki lan jelasake kenapa ora konsisten.",
+    "answer": [
+      [
+        "Ora konsisten iku nilai '$ 2014' ing kolom 'less than 1 year'. Iki ora konsisten amarga jumlah bayaran jangka pendek iki luwih gedhe banget saka '$ 701' sing dadi 'total' kanggo kewajiban iki, sing ora mungkin lan kerep kerep kesalahan data."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_e33c420d31_011",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Piye total kewajiban bahan bakar ing juta?",
+    "answer": [
+      [
+        "$5859"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

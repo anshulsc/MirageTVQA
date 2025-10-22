@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_f5477c4414_001",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "¿Cuál fue el total de 'loans 2013 reported' para el año 2012 (columna E), si se calcula sumando sus tipos de préstamos constituyentes de esa misma columna?",
+    "answer": [
+      [
+        "1717"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f5477c4414_002",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "¿Qué categoría de préstamos, excluyendo 'loans 2013 reported', experimentó el mayor crecimiento porcentual en su saldo al 31 de diciembre de 2012 a 2013?",
+    "answer": [
+      [
+        "loans held-for-sale"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_003",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "¿Cuál fue el valor de 'compromisos de préstamo' para el final del año cuando 'activos totales de crédito mayorista' estuvo en su mínimo?",
+    "answer": [
+      [
+        "$ 434814"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_004",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "¿Qué porcentaje del \"total wholesale credit exposure\" al 31 de diciembre de 2013 se atribuyó a \"lending-related commitments\"?",
+    "answer": [
+      [
+        "51.87%"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "B9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f5477c4414_005",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Lista todas las categorías de activos o pasivos donde el valor al 31 de diciembre de 2013 disminuyó en comparación con el 31 de diciembre de 2012.",
+    "answer": [
+      [
+        "loans at fair value ( a )"
+      ],
+      [
+        "derivative receivables"
+      ],
+      [
+        "liquid securities and other cash collateral held against derivatives"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A11",
+      "B11",
+      "C11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_006",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Si el valor de 'receivables from customers and other ( b )' en la columna '2013' (columna D) hubiera sido un 25% mayor, ¿cuál habría sido el nuevo 'total wholesale credit-related assets' para esa columna?",
+    "answer": [
+      [
+        "1962.5"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "D7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_007",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Identifique el elemento financiero (de la columna A) que muestra el cambio más anómalo entre las columnas '2013' y '2012' (D y E), caracterizado por la diferencia absoluta más grande.",
+    "answer": [
+      [
+        "loans 2013 reported"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A2",
+      "D2",
+      "E2",
+      "A3",
+      "D3",
+      "E3",
+      "A4",
+      "D4",
+      "E4",
+      "A5",
+      "D5",
+      "E5",
+      "A6",
+      "D6",
+      "E6",
+      "A7",
+      "D7",
+      "E7",
+      "A8",
+      "D8",
+      "E8",
+      "A9",
+      "D9",
+      "E9",
+      "A10",
+      "D10",
+      "E10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f5477c4414_008",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Identifique la(s) celda(s) que contienen texto no numérico ('na') que impide una suma directa de sus respectivas columnas.",
+    "answer": [
+      [
+        "D11"
+      ],
+      [
+        "E11"
+      ]
+    ],
+    "evidence_cells": [
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_009",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "open_ended_reasoning",
+    "question": "Analiza la tendencia desde finales de 2012 a 2013 para el 'total wholesale credit exposure' y sus principales impulsores.",
+    "answer": [
+      [
+        "El 'total wholesale credit exposure' aumentó modestamente de $846,628 millones en 2012 a $860,299 millones en 2013. Este crecimiento fue impulsado principalmente por un aumento significativo en 'loans held-for-sale' (un 156%) y un incremento en 'lending-related commitments' (un 2.6%). Sin embargo, este crecimiento se vio parcialmente compensado por una disminución notable del 12.3% en 'derivative receivables' y una caída del 21.3% en 'loans at fair value', lo que indica un cambio en la composición del portafolio de crédito."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B8",
+      "C8",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_010",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "open_ended_reasoning",
+    "question": "Basado en los cambios de 2012 a 2013 en los saldos finales de año, ¿cuál es la relación aparente entre 'derivative receivables' y 'total wholesale credit-related assets'?",
+    "answer": [
+      [
+        "Parece haber una relación inversa en este conjunto de datos limitado. Desde finales de 2012 hasta 2013, 'derivative receivables' disminuyó de $74,983 millones a $65,759 millones. Concurrentemente, 'total wholesale credit-related assets' aumentó de $411,814 millones a $414,067 millones. Esto sugiere que a medida que el valor de los derivative receivables disminuyó, otros activos crecieron para compensar más que suficientemente, lo que llevó a un aumento general en los activos totales. Sin embargo, no se puede establecer una correlación definitiva solo con dos puntos de datos."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f5477c4414_011",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "¿En qué año se mantuvo el préstamo más alto?",
+    "answer": [
+      [
+        "2013"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

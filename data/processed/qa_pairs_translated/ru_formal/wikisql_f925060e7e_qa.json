@@ -1,0 +1,314 @@
+[
+  {
+    "question_id": "wikisql_f925060e7e_001",
+    "table_id": "wikisql_f925060e7e",
+    "question_type": "value",
+    "question": "Кто набрал наибольшее количество очков в одной игре за этот период и каково было это количество очков?",
+    "answer": [
+      [
+        "Danny Granger",
+        "42"
+      ]
+    ],
+    "evidence_cells": [
+      "E6",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12",
+      "E13",
+      "E14"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_f925060e7e_002",
+    "table_id": "wikisql_f925060e7e",
+    "question_type": "value",
+    "question": "Какова была общая посещаемость всех игр, сыгранных в Conseco Fieldhouse?",
+    "answer": [
+      [
+        "81964"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H4",
+      "H9",
+      "H10",
+      "H12",
+      "H14"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_f925060e7e_003",
+    "table_id": "wikisql_f925060e7e",
+    "question_type": "value",
+    "question": "Кто был лучшим снайпером в матче с наименьшей посещаемостью?",
+    "answer": [
+      [
+        "Danny Granger"
+      ]
+    ],
+    "evidence_cells": [
+      "E9",
+      "H9",
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6",
+      "H7",
+      "H8",
+      "H10",
+      "H11",
+      "H12",
+      "H13",
+      "H14"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_f925060e7e_004",
+    "table_id": "wikisql_f925060e7e",
+    "question_type": "open_ended_reasoning",
+    "question": "Опишите тенденцию в игре команды в шестиматчевом периоде с 3 по 13 декабря.",
+    "answer": [
+      [
+        "Команда пережила значительный спад, сразу после победы 2 декабря вступив в серию из шести поражений подряд. Этот период поражений длился с игры от 3 декабря по игру 13 декабря, демонстрируя постоянную неспособность одерживать победы в этот период."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B4",
+      "D4",
+      "B5",
+      "D5",
+      "B6",
+      "D6",
+      "B7",
+      "D7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_f925060e7e_005",
+    "table_id": "wikisql_f925060e7e",
+    "question_type": "value",
+    "question": "Перечислите соперников всех игр, в которых команда победила и Т. Дж. Форд был лидером по передачам.",
+    "answer": [
+      [
+        "L.A. Lakers"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "G1"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_f925060e7e_006",
+    "table_id": "wikisql_f925060e7e",
+    "question_type": "value",
+    "question": "Какой процент игр, сыгранных за этот период, завершился овертаймом (OT или 2OT)?",
+    "answer": [
+      [
+        "100%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11",
+      "D12",
+      "D13",
+      "D14"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_f925060e7e_007",
+    "table_id": "wikisql_f925060e7e",
+    "question_type": "value",
+    "question": "Если бы команда набрала на 5 дополнительных очков в каждой проигранной игре, в какой игре результат изменился бы с проигрыша на победу?",
+    "answer": [
+      [
+        "30"
+      ]
+    ],
+    "evidence_cells": [
+      "A14",
+      "D14",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D10",
+      "D12",
+      "D13"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_f925060e7e_008",
+    "table_id": "wikisql_f925060e7e",
+    "question_type": "open_ended_reasoning",
+    "question": "Существует ли четкая взаимосвязь между высокой посещаемостью и победами команды? Объясните ваше рассуждение.",
+    "answer": [
+      [
+        "Нет, четкой положительной взаимосвязи нет. Наоборот, данные указывают на потенциальную обратную корреляцию. Две игры с самой высокой посещаемостью (Игра 22 с 22 076 и Игра 19 с 20 562) завершились поражениями. Напротив, две из четырех побед команды пришлись на игры с посещаемостью ниже среднего за этот период (Игра 25 с 11 151 и Игра 27 с 14 599). Это свидетельствует о том, что большая аудитория не коррелировала с победой команды в этот период."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "H1",
+      "D2",
+      "H2",
+      "D3",
+      "H3",
+      "D4",
+      "H4",
+      "D5",
+      "H5",
+      "D6",
+      "H6",
+      "D7",
+      "H7",
+      "D8",
+      "H8",
+      "D9",
+      "H9",
+      "D10",
+      "H10",
+      "D11",
+      "H11",
+      "D12",
+      "H12",
+      "D13",
+      "H13",
+      "D14",
+      "H14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_f925060e7e_009",
+    "table_id": "wikisql_f925060e7e",
+    "question_type": "value",
+    "question": "В какой статистической категории ('High points', 'High rebounds', 'High assists') имя Джеффа Фостера встречается чаще всего?",
+    "answer": [
+      [
+        "High rebounds"
+      ]
+    ],
+    "evidence_cells": [
+      "F3",
+      "F4",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12",
+      "E13",
+      "E14",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G10",
+      "G11",
+      "G12",
+      "G13",
+      "G14"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_f925060e7e_010",
+    "table_id": "wikisql_f925060e7e",
+    "question_type": "value",
+    "question": "Какая игра имеет наиболее значительное отклонение по разнице очков в случае поражения?",
+    "answer": [
+      [
+        "19"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "D2",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D10",
+      "D12",
+      "D13",
+      "D14"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_f925060e7e_011",
+    "table_id": "wikisql_f925060e7e",
+    "question_type": "value",
+    "question": "Какой игрок чаще всего появлялся в качестве лучшего бомбардира в этих играх?",
+    "answer": [
+      [
+        "Danny Granger"
+      ]
+    ],
+    "evidence_cells": [
+      "E17",
+      "E18",
+      "E20",
+      "E21",
+      "E22",
+      "E24",
+      "E25",
+      "E28",
+      "E30"
+    ],
+    "reasoning_category": "Correlation Inference"
+  }
+]

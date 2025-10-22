@@ -1,0 +1,219 @@
+[
+  {
+    "question_id": "finqa_d4496bc7b4_001",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Berapakah perubahan bersih kewajiban pensiun aset selama tahun 2009, dihitung dari perubahan terperinci yang diberikan?",
+    "answer": [
+      [
+        "137"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_002",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Kategori perubahan mana yang mengalami perbedaan nilai absolut terbesar antara tahun 2008 dan 2009?",
+    "answer": [
+      [
+        "held for sale"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_003",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Pada tahun 2009, berapa persen dari total penyesuaian positif (kewajiban yang timbul termasuk akuisisi, biaya akresi, dan revisi) yang disebabkan oleh 'revisi terhadap perkiraan sebelumnya'?",
+    "answer": [
+      [
+        "61.39%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_004",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Verifikasi apakah 'kewajiban pensiun aset per 31 Desember 2008' dihitung dengan benar dari saldo awal dan perubahan yang diuraikan untuk tahun tersebut. Tunjukkan perhitungan Anda.",
+    "answer": [
+      [
+        "Ya, saldo akhir untuk tahun 2008 dihitung dengan benar. Perhitungannya adalah: $1134 (awal) + $30 (terjadi) - $94 (diselesaikan) + $66 (biaya akresi) + $24 (revisi) - $195 (diheld for sale) = $965, yang sesuai dengan nilai yang dilaporkan."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_005",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Jika penyesuaian 'held for sale' pada tahun 2008 adalah nol, berapa nilai kewajiban pensiun aset pada akhir tahun 2008?",
+    "answer": [
+      [
+        "$ 1160"
+      ]
+    ],
+    "evidence_cells": [
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_006",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Analisis dan kontraskan faktor utama yang mendorong perubahan total kewajiban pensiun aset antara tahun 2008 dan 2009.",
+    "answer": [
+      [
+        "Pada tahun 2008, kewajiban berkurang sebesar $169 juta, terutama didorong oleh pengurangan signifikan sebesar $195 juta dari aset 'yang dijual' dan $94 juta dalam kewajiban yang diselesaikan, yang mengimbangi tambahan sebesar $120 juta. Sebaliknya, pada tahun 2009 terjadi peningkatan sebesar $137 juta, yang didorong terutama oleh revisi positif besar terhadap perkiraan sebelumnya sebesar $124 juta, yang lebih dari mengimbangi $65 juta dalam kewajiban yang diselesaikan."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7",
+      "C1",
+      "C7",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_007",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Komponen keuangan mana yang mengalami peningkatan lebih dari $100 juta dari tahun 2008 ke 2009, sehingga menjadi penyimpangan dalam perubahan tahun ke tahun?",
+    "answer": [
+      [
+        "revisions to previous estimates"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_008",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Tentukan tahun di mana 'revisi terhadap perkiraan sebelumnya' lebih dari lima kali lebih besar daripada 'kewajiban yang timbul termasuk akuisisi'.",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B5",
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_009",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan data dua tahun tersebut, apakah terdapat pola atau hubungan yang dapat diamati antara kewajiban awal dan 'biaya akresi' untuk tahun tersebut?",
+    "answer": [
+      [
+        "Ya, terdapat pola yang dapat diamati. 'Biaya akresi' tampaknya merupakan persentase yang relatif stabil dari saldo awal. Pada tahun 2008, biaya tersebut adalah 5,8% dari saldo awal ($66 juta / $1134 juta), dan pada tahun 2009, sebesar 6,6% ($64 juta / $965 juta). Hal ini menunjukkan bahwa biaya akresi dihitung secara konsisten berdasarkan kewajiban pembuka, kemungkinan mencerminkan nilai waktu uang atas kewajiban jangka panjang tersebut."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_010",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Bagaimana struktur tabel ini mengkonfirmasi kelanjutan saldo kewajiban pensiun aset dari akhir tahun 2008 ke awal tahun 2009?",
+    "answer": [
+      [
+        "Tabel ini menunjukkan kelanjutan dengan memperlihatkan bahwa nilai untuk 'kewajiban pensiun aset per 31 Desember' pada kolom 2008 ($ 965) sama persis dengan nilai untuk 'kewajiban pensiun aset per 1 Januari' pada kolom 2009 ($ 965). Ini adalah penyajian roll-forward akuntansi standar, di mana saldo penutup satu periode menjadi saldo pembuka periode berikutnya."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A7",
+      "B1",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_011",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Bagaimana perubahan total kewajiban pensiun aset dari tahun 2008 ke 2009?",
+    "answer": [
+      [
+        "Total kewajiban pensiun aset meningkat dari $965 juta pada tahun 2008 menjadi $1.102 juta pada tahun 2009"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

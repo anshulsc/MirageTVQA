@@ -1,0 +1,226 @@
+[
+  {
+    "question_id": "finqa_fd0528f9cf_001",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "En 2008, ¿en qué porcentaje los 'gastos operativos totales' superaron a los 'ingresos totales netos de gastos de interés'?",
+    "answer": [
+      [
+        "109.65%"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_002",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "¿Cuál fue el margen de beneficio antes de impuestos (definido como 'ingresos de operaciones continuas antes de impuestos' dividido por 'ingresos totales netos de gastos por intereses') en el año con el menor 'ingreso neto por intereses'?",
+    "answer": [
+      [
+        "76.61%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "B3",
+      "B10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_003",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "¿Qué métrica financiera experimentó la mayor mejora absoluta (cambio positivo) en valor monetario entre 2008 y 2009?",
+    "answer": [
+      [
+        "income ( loss ) from continuing operations before taxes"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_004",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "open_ended_reasoning",
+    "question": "Describe el giro financiero de la empresa entre 2008 y 2009, haciendo referencia a las tendencias en ingresos totales, gastos operativos e ingreso neto.",
+    "answer": [
+      [
+        "La empresa logró un notable giro financiero de 2008 a 2009. Los ingresos totales aumentaron un 80%, pasando de $8,423 millones a $15,135 millones. Simultáneamente, los gastos operativos totales se redujeron drásticamente en un 64%, cayendo de $9,236 millones a $3,350 millones. Esta combinación de crecimiento de ingresos y recorte significativo de costos transformó una pérdida neta de $585 millones en 2008 en un ingreso neto sustancial de $7,095 millones en 2009."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "E3",
+      "B4",
+      "C4",
+      "E4",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_005",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Liste todas las métricas financieras que reportaron un valor negativo (una pérdida o beneficio) en 2008 pero un valor positivo en 2009.",
+    "answer": [
+      [
+        "income ( loss ) from continuing operations before taxes"
+      ],
+      [
+        "income taxes ( benefits )"
+      ],
+      [
+        "income ( loss ) from continuing operations"
+      ],
+      [
+        "net income ( loss ) attributable to noncontrolling interests"
+      ],
+      [
+        "net income ( loss )"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10",
+      "A11",
+      "B11",
+      "C11",
+      "A12",
+      "B12",
+      "C12",
+      "A13",
+      "B13",
+      "C13",
+      "A14",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_006",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "¿Cuáles fueron los gastos operativos totales promedio en millones de dólares durante los tres años proporcionados (2007, 2008, 2009)?",
+    "answer": [
+      [
+        "$6848.67"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_007",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Si el '% de cambio 2009 vs. 2008' para 'ingresos netos por intereses' hubiera sido una disminución del 50% en lugar de una disminución del 65%, ¿cuál habría sido el 'total de ingresos netos de gastos por intereses' en 2009, suponiendo que los 'ingresos no intereses' permanecieran sin cambios?",
+    "answer": [
+      [
+        "$15315"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "E1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_008",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "open_ended_reasoning",
+    "question": "Analice la relación entre los 'activos al cierre del período' (EOP assets) y los 'depósitos al cierre del período' (EOP deposits) de la empresa desde 2007 hasta 2009 e infiera un posible cambio estratégico.",
+    "answer": [
+      [
+        "Desde 2007 hasta 2009, existe una correlación inversa entre los activos al cierre del período (EOP assets) y los depósitos al cierre del período (EOP deposits). Mientras los activos disminuyeron de $56 mil millones a $35 mil millones, los depósitos aumentaron de $46 mil millones a $60 mil millones. Esto sugiere un cambio estratégico significativo alejándose de la tenencia de activos hacia el fortalecimiento de la base de depósitos, posiblemente para mejorar la liquidez, reducir el riesgo y enfocarse en actividades bancarias centrales durante un período de transformación financiera."
+      ]
+    ],
+    "evidence_cells": [
+      "B15",
+      "C15",
+      "D15",
+      "B16",
+      "C16",
+      "D16"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_009",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Qué punto de datos específico en las columnas '% change' parece ser una entrada anómala, que no se ajusta al formato de porcentaje que se ve en otras celdas?",
+    "answer": [
+      [
+        "El valor '2014' para 'pérdidas por créditos netos' en la columna '% change 2008 vs. 2007' es anómalo, ya que es un número entero grande en lugar de un porcentaje."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "F5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_010",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "¿Cuántas métricas financieras están marcadas como 'nm' (no significativo) en la columna '% de cambio 2009 vs. 2008', indicando una incapacidad para calcular un cambio porcentual estándar?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E6",
+      "E10",
+      "E11",
+      "E12",
+      "E13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_011",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "¿Cuál es el cambio porcentual en los ingresos netos por intereses de 2007 a 2008?",
+    "answer": [
+      [
+        "35%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

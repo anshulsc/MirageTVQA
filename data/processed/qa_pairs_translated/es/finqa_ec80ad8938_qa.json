@@ -1,0 +1,205 @@
+[
+  {
+    "question_id": "finqa_ec80ad8938_001",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "¿Cuál es el monto total en libros para todos los activos (tanto activos de trading como préstamos) reportados en ambos conjuntos de datos presentados?",
+    "answer": [
+      [
+        "26557"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_002",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "En el segundo conjunto de datos (columnas D y E), ¿qué categoría de activo—activos comerciales o préstamos—tiene el mayor 'balance total de principal no pagado en exceso del valor razonable'?",
+    "answer": [
+      [
+        "loans"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_003",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Para el primer conjunto de préstamos (columna C), ¿qué porcentaje del 'monto contable total' está representado por el 'saldo de préstamos en mora'?",
+    "answer": [
+      [
+        "0.03%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_004",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "¿Cuál es la suma del monto contable de la categoría de activo (Activos de Negociación o Préstamos) que tiene el menor 'balance de préstamos en mora' en ambos conjuntos de datos?",
+    "answer": [
+      [
+        "7598"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_005",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Enumere los montos contables para todos los portafolios de activos donde el 'balance de préstamos en mora o préstamos con más de 90 días de atraso' es exactamente $1 millón.",
+    "answer": [
+      [
+        "$ 3224"
+      ],
+      [
+        "$ 4374"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C3",
+      "E3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_006",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Si el importe contable de los activos en negociación en el primer conjunto de datos (columna B) se ajustara restando su 'saldo acumulado de principal no pagado que excede el valor razonable', ¿cuál sería el nuevo importe contable?",
+    "answer": [
+      [
+        "9673"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_007",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Analizando el 'balance de préstamos en no acumulación', ¿qué tipo de activo tiene un balance que es un valor atípico significativo en comparación con el otro, y qué implica esto sobre sus perfiles de riesgo relativos?",
+    "answer": [
+      [
+        "El activo comercial en ambos conjuntos de datos muestra un balance de no acumulación de $2,014 millones, que es un valor atípico extremo en comparación con los $1 millón para los préstamos en ambos conjuntos. Esta marcada diferencia sugiere que la cartera de activos comerciales tiene un riesgo crediticio significativamente más alto o ha experimentado un evento de incumplimiento importante, mientras que la cartera de préstamos parece estar en excepcional buen estado con casi ningún balance en no acumulación."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_008",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Muestra los datos una correlación positiva consistente entre el 'monto contable' de un activo y su 'saldo total de principal no pagado que excede el valor razonable' para la categoría de Activos de Trading?",
+    "answer": [
+      [
+        "No, no se muestra una correlación positiva consistente. El primer conjunto de activos de trading tiene un monto contable más alto ($10,108M vs $8,851M) pero un saldo total de principal no pagado que excede el valor razonable más bajo ($435M vs $623M). Esto indica que un tamaño de cartera más grande no necesariamente conduce a una pérdida no realizada proporcionalmente mayor en este conjunto de datos."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_009",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifica cualquier fila que contenga datos repetidos o aparentemente redundantes y explica el patrón.",
+    "answer": [
+      [
+        "La redundancia de datos está presente en las filas 3 y 4. En la fila 3, 'balance de préstamos en mora...', el valor para activos comerciales es $2,014M en ambos conjuntos (B3, D3) y $1M para préstamos en ambos conjuntos (C3, E3). En la fila 4, el valor $2,014M se repite tres veces para ambos conjuntos de activos comerciales y el primer conjunto de préstamos (B4, C4, D4), lo que sugiere un patrón de entrada de datos o un artefacto específico en la información financiera."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_010",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Para el conjunto de datos (Conjunto 1: columnas B,C o Conjunto 2: columnas D,E) con el importe contable total más alto, calcule el 'porcentaje de pérdida no realizada' total del portafolio (total del 'saldo principal no pagado en exceso del valor razonable' dividido por el total del 'importe contable').",
+    "answer": [
+      [
+        "8.82%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_011",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Cómo se compara el importe contable reportado en el balance consolidado para activos comerciales con los préstamos al 31 de diciembre de 2018?",
+    "answer": [
+      [
+        "El importe contable para los activos comerciales fue mayor que para los préstamos. Para los activos comerciales, fue de $10,108 millones y $8,851 millones, mientras que para los préstamos fue de $3,224 millones y $4,374 millones."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

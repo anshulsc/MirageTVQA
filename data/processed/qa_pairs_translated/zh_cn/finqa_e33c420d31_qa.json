@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_e33c420d31_001",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "除了“债务义务”和“长期债务利息支付”外，哪项合同义务在“3-5年”期间的应付款金额最大？",
+    "answer": [
+      [
+        "fuel obligations"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_002",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "所有带有注释引用'11'的义务的合计总额是多少？",
+    "answer": [
+      [
+        "$ 16297"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "H3",
+      "B4",
+      "H4",
+      "B5",
+      "H5",
+      "B6",
+      "H6",
+      "B7",
+      "H7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_e33c420d31_003",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "占“1-3年”到期总义务中，单个义务价值最高的占比是多少？",
+    "answer": [
+      [
+        "27.04%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "D1",
+      "D9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_004",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "对于“长期债务的利息支付”，分析四个时间段内的支付趋势，并确定该义务是前期集中还是后期集中。",
+    "answer": [
+      [
+        "“长期债务的利息支付”的支付金额为$1,172（1年以内）、$2,166（1-3年）、$1,719（3-5年）和$4,046（5年以上）。该义务明显是后期集中，因为支付金额随时间呈上升趋势，最大单笔支付发生在“5年以上”期间。超过63%的利息支付将在3年以后到期。"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_005",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "列出'一年以内'应付款项大于'3-5年'应付款项的合同义务。",
+    "answer": [
+      [
+        "燃料义务"
+      ],
+      [
+        "其他采购义务"
+      ],
+      [
+        "根据GAAP反映在AES合并资产负债表上的其他长期负债（3）"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "E6",
+      "A7",
+      "C7",
+      "E7",
+      "A8",
+      "C8",
+      "E8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_006",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "基于最终总计行，短期义务（一年内到期）与长期义务（五年以上到期）的比率是多少？",
+    "answer": [
+      [
+        "Approximately 1:2.81"
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "F9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_e33c420d31_007",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "如果新政策要求所有‘运营租赁义务’在‘5年以上’到期的款项改为在‘3-5年’期间支付，那么‘3-5年’列的新总数是多少？",
+    "answer": [
+      [
+        "$ 10283"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_008",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "能源义务类型（燃料与电力）与其支付计划之间是否存在明显的相关性？",
+    "answer": [
+      [
+        "是的，存在明显相关性。'燃料义务'的支付集中在前期，最大金额（$1,759）在'一年以内'到期，表明为短期合同；而'电力义务'的支付集中在后期，最大金额（$2,065）在'五年以上'到期，可能反映了长期购电协议。这表明能源来源的性质与财务承诺的期限相关。"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_e33c420d31_009",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "根据最后一行每个支付期间的总计，哪个时间段的财务承诺金额最大？这表明公司的负债结构有何特点？",
+    "answer": [
+      [
+        ""
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "D9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_010",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "“其他长期负债”这一行中，“一年以内”列的数值似乎是一个异常值。请指出该数值并解释其不一致的原因。",
+    "answer": [
+      [
+        "异常值是“一年以内”列中的“$ 2014”。这是不一致的，因为这个单一的短期支付金额显著大于该负债的总计“$ 701”，这在逻辑上是不可能的，很可能是数据错误。"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_e33c420d31_011",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "燃料义务的总计是多少百万？",
+    "answer": [
+      [
+        "$5859"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

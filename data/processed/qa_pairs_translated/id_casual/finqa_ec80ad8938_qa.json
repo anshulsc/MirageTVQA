@@ -1,0 +1,205 @@
+[
+  {
+    "question_id": "finqa_ec80ad8938_001",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Berapa total carrying amount untuk semua aset (baik trading assets maupun loans) yang dilaporkan di kedua set data yang ditampilkan?",
+    "answer": [
+      [
+        "26557"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_002",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Di data set kedua (kolom D dan E), kategori aset mana—aset perdagangan atau pinjaman—yang memiliki 'aggregate unpaid principal balance in excess of fair value' lebih besar?",
+    "answer": [
+      [
+        "loans"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_003",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Untuk kumpulan pinjaman pertama (kolom C), berapa persen dari total 'carrying amount' yang diwakili oleh 'balance of non-accrual loans'?",
+    "answer": [
+      [
+        "0.03%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_004",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Berapa jumlah total nilai buku dari jenis aset (Trading Assets atau Loans) yang memiliki 'balance of non-accrual loans' lebih rendah di kedua data set?",
+    "answer": [
+      [
+        "7598"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_005",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Tulis nilai carrying amount untuk semua portofolio aset di mana 'balance of non-accrual loans atau loans lebih dari 90 hari terlambat' tepat $1 juta.",
+    "answer": [
+      [
+        "$ 3224"
+      ],
+      [
+        "$ 4374"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C3",
+      "E3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_006",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Jika nilai buku untuk aset perdagangan di dataset pertama (kolom B) disesuaikan dengan mengurangi 'aggregate unpaid principal balance in excess of fair value', berapa nilai buku barunya?",
+    "answer": [
+      [
+        "9673"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_007",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Analisis 'balance of non-accrual loans', aset apa yang nilainya sangat berbeda dibandingkan yang lain, dan apa artinya bagi profil risiko mereka?",
+    "answer": [
+      [
+        "Trading Assets di kedua data menunjukkan saldo non-accrual sebesar $2.014 juta, yang merupakan outlier ekstrem dibandingkan dengan $1 juta untuk Loans di kedua set. Perbedaan yang mencolok ini menunjukkan bahwa portofolio Trading Assets memiliki risiko kredit yang jauh lebih tinggi atau mengalami peristiwa gagal bayar besar, sementara portofolio Loans tampaknya dalam kondisi sangat baik dengan hampir tidak ada saldo non-accrual."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_008",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Apakah data menunjukkan korelasi positif yang konsisten antara 'carrying amount' dan 'aggregate unpaid principal balance in excess of fair value' untuk kategori Trading Assets?",
+    "answer": [
+      [
+        "Tidak, tidak ada korelasi positif yang konsisten. Untuk set pertama trading assets, carrying amountnya lebih tinggi ($10,108M vs $8,851M) tapi aggregate unpaid principal balance in excess of fair value-nya lebih rendah ($435M vs $623M). Ini menunjukkan bahwa ukuran portofolio yang lebih besar tidak selalu berarti kerugian unrealized yang lebih besar proporsional dalam data ini."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_009",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Cari baris yang memiliki data yang berulang atau terlihat berlebihan, lalu jelaskan polanya.",
+    "answer": [
+      [
+        "Ada redundansi data di baris 3 dan 4. Di baris 3, 'balance of non-accrual loans...', nilai untuk trading assets adalah $2.014M di kedua set (B3, D3) dan $1M untuk loans di kedua set (C3, E3). Di baris 4, nilai $2.014M diulang tiga kali untuk kedua set trading assets dan set pertama loans (B4, C4, D4), menunjukkan pola entri data atau artefak pelaporan keuangan tertentu."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_010",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Untuk data set (Set 1: kolom B,C atau Set 2: kolom D,E) dengan jumlah carrying amount lebih tinggi, hitung persentase kerugian tidak direalisasi keseluruhan portofolio (total 'unpaid principal balance in excess of fair value' dibagi total 'carrying amount').",
+    "answer": [
+      [
+        "8.82%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_011",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Berapa selisih jumlah yang dilaporkan di neraca konsolidasi untuk aset perdagangan dibandingkan dengan pinjaman per 31 Desember 2018?",
+    "answer": [
+      [
+        "Jumlah yang dilaporkan untuk aset perdagangan lebih tinggi daripada pinjaman. Untuk aset perdagangan, yaitu $10,108 juta dan $8,851 juta, sedangkan untuk pinjaman yaitu $3,224 juta dan $4,374 juta."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

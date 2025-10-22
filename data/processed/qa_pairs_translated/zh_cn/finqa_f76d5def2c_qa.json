@@ -1,0 +1,226 @@
+[
+  {
+    "question_id": "finqa_f76d5def2c_001",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "2011年记录的未确认税项收益总毛额增长是多少？",
+    "answer": [
+      [
+        "44321"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_002",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "2010年和2011年与税务机关结算金额的绝对差额是多少？",
+    "answer": [
+      [
+        "41383"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_003",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "从2010年到2011年，未确认税务利益余额的总减少率（由于前期税务立场、和解和法规到期导致的减少）是加速还是减缓？",
+    "answer": [
+      [
+        "2010年，这三个类别的总减少额为85,484美元（7104 + 70484 + 7896），而2011年总减少额仅为37,080美元（4154 + 29101 + 3825），不到前一年的一半，因此减少率显著减缓。"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_004",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "计算以较高期初余额开始的年度中未确认所得税收益的净变化。",
+    "answer": [
+      [
+        "-61115"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_005",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "2010年，总毛减少额（来自前期税项、结算和时效期满）中，有多少百分比是由与税务机关的结算造成的？请将答案四舍五入到小数点后两位。",
+    "answer": [
+      [
+        "82.45%"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_006",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "列出2010年导致未确认税务收益减少超过5000美元绝对值的事件类别。",
+    "answer": [
+      [
+        "gross decreases in unrecognized tax benefits 2013 prior year tax positions"
+      ],
+      [
+        "settlements with taxing authorities"
+      ],
+      [
+        "lapse of statute of limitations"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A5",
+      "C5",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_007",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "如果2011年“2013年未确认税务利益的毛增加（当年税务位置）”降低50%，2011年的新期末余额是多少？",
+    "answer": [
+      [
+        "147397"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_008",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "哪一项条目在单年内对余额造成的货币影响（绝对值）最大，其具体数值是多少？",
+    "answer": [
+      [
+        "2010年的“与税务机关的结算”是最显著的异常值，导致减少了70,484美元。这一金额超过任何其他单次调整的两倍以上。"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_009",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "根据表格结构，2010年的期末余额与2011年的期初余额之间有什么关系？",
+    "answer": [
+      [
+        "2010年的期末余额为156,925美元，与2011年的期初余额完全相同。这体现了会计中的连续性原则，即一个期间的期末余额作为下一个期间的期初余额。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_010",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "分析'与税务机关的结算'金额大小与每年余额净变化之间的关系。",
+    "answer": [
+      [
+        "与结算金额大小存在显著关联。2010年，70,484美元的大额结算对应总余额显著减少61,115美元；而2011年，29,101美元的小额结算则导致余额净增加6,682美元。这表明结算是未确认所得税收益余额减少的主要驱动因素。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_011",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "2010年到2011年期末余额的百分比变化是多少？",
+    "answer": [
+      [
+        "2010年的期末余额为156,925美元，2011年为163,607美元，增长约为4.26%。"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

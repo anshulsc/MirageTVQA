@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_f88511c4f2_001",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "ما هي القيمة الصافية لجميع التغييرات التعاملية (باستثناء الرصيد الافتتاحي والرصيد الختامي وقيمة 'الانفصال عن التوحيد' غير الطبيعية) لالتزامات تقاعد الأصول في عام 2008؟",
+    "answer": [
+      [
+        "-169"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_002",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "في أي عام حدث انخفاض أكبر في الالتزامات من 'التزامات المستحقة للتسوية'؟",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_003",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "بكم زادت \"تكلفة الفائدة المتراكمة\" من عام 2007 إلى عام 2008؟",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_004",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "حدد البند الذي مثل زيادة في الالتزامات عام 2008 ولكن انخفاضًا في عام 2007.",
+    "answer": [
+      [
+        "revisions to previous estimates"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_005",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "ما هو الناتج إذا قمت بطرح مجموع 'التزامات مستحقة' و'تكلفة الفائدة' لعام 2007 من الرصيد الافتتاحي لعام 2008؟",
+    "answer": [
+      [
+        "1013"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_006",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "ما النسبة المئوية التي تمثلها 'التزامات متكبدة' لعام 2007 من إجمالي 'تكلفة الفائدة' المركبة لعامي 2007 و 2008؟",
+    "answer": [
+      [
+        "47.24%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_007",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "إذا كانت 'التزامات التحمل' في عام 2008 كانت أكبر بنسبة 50٪، فما سيكون المجموع الجديد لـ 'التزامات التحمل' و'التزامات التسوية' لتلك السنة؟",
+    "answer": [
+      [
+        "-49"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_008",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "بناءً على هيكل الجدول وقيمته، ما هي العلاقة المنطقية بين رصيد نهاية عام 2007 ورصيد بداية عام 2008؟",
+    "answer": [
+      [
+        "رصيد نهاية عام 2007 (1134 دولارًا) مطابق تمامًا لرصيد بداية عام 2008 (1134 دولارًا). وهذا يوضح الممارسة المحاسبية القياسية حيث يصبح الرصيد الختامي لفترة ما الرصيد الافتتاحي للدورة التالية المتتالية."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_009",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "كيف يتم تمثيل القيم المالية السلبية، مثل 'التزامات التسوية'، في جميع أنحاء الجدول؟",
+    "answer": [
+      [
+        "القيم السلبية يتم تمثيلها باستخدام تدوين مزدوج: علامة سالب في البداية متبوعة بالرقم، وكذلك القيمة المطلقة لذلك الرقم محاطة بين قوسين. على سبيل المثال، '-94 ( 94 )'."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "C5",
+      "A6",
+      "B6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_010",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "حدّد عنصري السطر اللذين يحتويان على القيمة '2013' وفسّر لماذا تبدو هذه القيمة شاذة في سياق الجدول.",
+    "answer": [
+      [
+        "\"2013\" موجود في بند \"الموجودات المعدة للبيع (a)\" لعام 2007 وبند \"إعادة دمج مجموعات egholdings\" لعام 2008. هذه القيمة شاذة لأنها أكبر بدرجة من حيث الحجم مقارنة بمعظم الأرقام الأخرى في المعاملات (مثل 30، 66، -94)، ووجودها ي breaking the mathematical reconciliation between the starting and ending balances for both years, suggesting it could be a data error or an extraordinary item."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_011",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "ما كانت التزامات تقاعد الأصول (بالملايين) في 31 ديسمبر 2008؟",
+    "answer": [
+      [
+        "$965"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "finqa_cedda436f6_001",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "V kterém roce byl 'příjem z provozu před zdaněním' nejvyšší?",
+    "answer": [
+      [
+        "2013"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_002",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Jaká byla celková daňová nákladová položka v milionech dolarů za všechny tři uvedené roky v tabulce?",
+    "answer": [
+      [
+        "238"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cedda436f6_003",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Pro který rok byly nejnižší prodejní příjmy, jaká byla odpovídající 'čistý výnos z ukončených operací (připadající na PPG)' v milionech dolarů?",
+    "answer": [
+      [
+        "2197"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_004",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "Popište trend 'net sales' za období skončené v roce 2011 až 2013.",
+    "answer": [
+      [
+        "Tržby se mírně snížily z 1732 milionů dolarů v roce 2011 na 1688 milionů dolarů v roce 2012, následované dramatickým poklesem na 108 milionů dolarů v roce 2013. To naznačuje významný negativní trend, zejména v posledním roce sledovaného období."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_005",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Vypište všechny finanční metriky, pro které hodnota v roce 2013 překročila součet hodnot z let 2012 a 2011.",
+    "answer": [
+      [
+        "income from operations before income tax"
+      ],
+      [
+        "income from discontinued operations net of tax"
+      ],
+      [
+        "net income from discontinued operations ( attributable to ppg )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "A7",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_006",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "O kolik procent vzrostlo 'net income from discontinued operations ( attributable to ppg )' z roku 2012 na 2013?",
+    "answer": [
+      [
+        "921.9%"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cedda436f6_007",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Pokud by byl 'net gain from separation and merger' v roce 2013 o 25 % nižší a toto snížení přímo snížilo 'income from operations before income tax', jaká by byla nová hodnota výnosů z provozu před zdaněním pro daný rok?",
+    "answer": [
+      [
+        "1466"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_008",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "Na základě dat analyzujte vztah mezi 'net sales' a 'income from operations before income tax' v průběhu tří let. Existuje konzistentní korelace?",
+    "answer": [
+      [
+        "Není konzistentní korelace. Od roku 2011 do roku 2012 ukazují metriky kladnou korelaci, protože mírný pokles prodejů (z 1732 mil. USD na 1688 mil. USD) odpovídá poklesu výnosů (z 376 mil. USD na 345 mil. USD). V roce 2013 se však tato závislost dramaticky obrátí, když se netto prodeje propadnou na 108 mil. USD a zároveň se výnosy výrazně zvýší na 2014 mil. USD. To naznačuje, že v roce 2013 byly výnosy ovlivněny faktory jinými než jádrovými prodeji, jako je 'net gain from separation and merger of commodity chemicals business'."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cedda436f6_009",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Která finanční metrika ukazuje hodnotu '$ 2014' milionů v jednom roce a '2014' milionů ve dvou dalších letech, zdůrazňující nekonzistenci formátování dat pro stejnou číselnou hodnotu?",
+    "answer": [
+      [
+        "less : net income attributable to non-controlling interests discontinued operations"
+      ],
+      [
+        "net gain from separation and merger of commodity chemicals business"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "A6",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_010",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "Která položka za rok 2013 představuje nejvýznamnější finanční událost v porovnání s její nulovou nebo téměř nulovou implicitní hodnotou v ostatních letech a jak pravděpodobně ovlivnila příjmy z provozu v daném roce?",
+    "answer": [
+      [
+        "'Zisk z oddělení a slučení obchodních chemikálií' s hodnotou 2192 milionů v roce 2013 je nejvýznamnější finanční událostí. Tato jednorázová zisková položka zřejmě představuje hlavní důvod neobvykle vysokého 'příjmu z provozu před zdaněním' ve výši 2014 milionů dolarů v tomto roce, což je výrazný odstup od hodnot 345 milionů dolarů a 376 milionů dolarů uvedených v letech 2012 a 2011."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cedda436f6_011",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Jaká je daňová nákladová položka k roku 2011?",
+    "answer": [
+      [
+        "126"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

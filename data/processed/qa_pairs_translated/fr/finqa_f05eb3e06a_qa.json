@@ -1,0 +1,288 @@
+[
+  {
+    "question_id": "finqa_f05eb3e06a_001",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "Quel emplacement a la superficie approximative la plus petite, en excluant 'other*' ?",
+    "answer": [
+      [
+        "eindhoven the netherlands"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_002",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "Quel est le nombre total de pieds carrés approximatifs pour tous les emplacements dont les opérations incluent « manufacturing » ?",
+    "answer": [
+      [
+        "2559000"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_003",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "Identifiez la date d'échéance de bail la plus récente pour l'emplacement ayant la troisième plus grande superficie en pieds carrés.",
+    "answer": [
+      [
+        "2025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A4",
+      "B4",
+      "D4",
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6",
+      "A7",
+      "B7",
+      "D7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_004",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "Quel emplacement présente la plus grande plage entre la date d'expiration de bail la plus ancienne et la plus récente ?",
+    "answer": [
+      [
+        "cambridge united kingdom"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A7",
+      "D7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_005",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "Listez les localisations qui ont à la fois des opérations « r&d » et « distribution » ET dont le bail expire après 2030.",
+    "answer": [
+      [
+        "san diego ca"
+      ],
+      [
+        "madison wi"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A3",
+      "C3",
+      "D3",
+      "A5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_006",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "Quel pourcentage de la superficie totale est dédié aux emplacements qui ne réalisent pas d'opérations de « R&D » ?",
+    "answer": [
+      [
+        "4.76%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_007",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "Si tous les baux expirent en 2013 ne sont pas renouvelés, entraînant une réduction de 20 % de la superficie pour chaque emplacement concerné, quel serait le nouveau total de superficie en pieds carrés sur tous les sites ?",
+    "answer": [
+      [
+        "2158000"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B4",
+      "D4",
+      "B5",
+      "D5",
+      "B6",
+      "D6",
+      "B7",
+      "D7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_008",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "open_ended_reasoning",
+    "question": "Y a-t-il un motif discernable entre la région géographique d'un emplacement (États-Unis vs international) et son profil opérationnel ?",
+    "answer": [
+      [
+        "Oui, il y a un motif. Les emplacements aux États-Unis (San Diego, San Francisco, Madison) sont tous des sites à grande échelle qui incluent systématiquement les fonctions « R&D », « fabrication » et « administratives ». Les emplacements internationaux présentent une plus grande diversité dans leurs profils. Bien que Singapour et Cambridge soient également des hubs majeurs de R&D et de fabrication similaires aux sites américains, Eindhoven est exclusivement un centre de distribution et administratif plus petit, ce qui indique que le portefeuille international comprend des installations plus spécialisées et de plus petite taille par rapport aux hubs complets aux États-Unis."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_009",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "open_ended_reasoning",
+    "question": "Quelle colonne présente une structure de données incohérente entre les lignes, avec certaines cellules contenant une valeur unique et d'autres une liste de valeurs séparées par des espaces ?",
+    "answer": [
+      [
+        "La colonne 'leaseexpiration dates' présente une structure de données incohérente. Par exemple, l'entrée pour 'eindhoven the netherlands' contient une seule année ('2020'), tandis que l'entrée pour 'san diego ca' contient une liste de trois années distinctes ('2019 2013 2031'). Cela nécessite une logique conditionnelle pour être analysée correctement."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_010",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "open_ended_reasoning",
+    "question": "Quel emplacement a un champ opérationnel atypique par rapport à d'autres emplacements de taille similaire ou supérieure ?",
+    "answer": [
+      [
+        "San Francisco Bay Area, CA est un outlier opérationnel. Malgré étant la deuxième plus grande installation avec 501 000 pieds carrés, ses opérations listées ('r&d manufacturing warehouse and administrative') manquent notablement de fonction 'distribution'. Tous les autres sites de fabrication à grande échelle, comme San Diego, Singapour et Madison, incluent explicitement 'distribution', ce qui rend le profil du site de San Francisco inhabituel pour une installation de cette taille et de cette capacité de fabrication."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_011",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "Combien de bâtiments ont au moins 300 000 pieds carrés ?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

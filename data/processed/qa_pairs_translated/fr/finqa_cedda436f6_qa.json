@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "finqa_cedda436f6_001",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "En quelle année le « revenu d'exploitation avant impôt » était-il le plus élevé ?",
+    "answer": [
+      [
+        "2013"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_002",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Quel était le montant total des charges d'impôt sur les sociétés en millions de dollars sur les trois années indiquées dans le tableau ?",
+    "answer": [
+      [
+        "238"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cedda436f6_003",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Pour l'année où les ventes nettes étaient les plus basses, quel était le « revenu net des activités interrompues (attribué à PPG) » en millions de dollars ?",
+    "answer": [
+      [
+        "2197"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_004",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "Décrivez la tendance des « ventes nettes » de l'exercice clos en 2011 à 2013.",
+    "answer": [
+      [
+        "Les ventes nettes ont connu une légère baisse de 1732 millions de dollars en 2011 à 1688 millions de dollars en 2012, suivie d'une chute drastique à 108 millions de dollars en 2013. Cela indique une tendance négative importante, en particulier lors de la dernière année de la période."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_005",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Listez toutes les métriques financières pour lesquelles la valeur en 2013 a dépassé la somme combinée des valeurs de 2012 et 2011.",
+    "answer": [
+      [
+        "income from operations before income tax"
+      ],
+      [
+        "income from discontinued operations net of tax"
+      ],
+      [
+        "net income from discontinued operations ( attributable to ppg )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "A7",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_006",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "De quel pourcentage le « revenu net des activités abandonnées (attribué à PPG) » a-t-il augmenté de 2012 à 2013 ?",
+    "answer": [
+      [
+        "921.9%"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cedda436f6_007",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Si le 'gain net issu de la séparation et de la fusion' en 2013 avait été 25 % plus faible et que cette réduction avait directement diminué le 'revenu d'exploitation avant impôt', quel aurait été le nouveau revenu d'exploitation pour cette année ?",
+    "answer": [
+      [
+        "1466"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_008",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "Sur la base des données, analysez la relation entre les 'ventes nettes' et le 'résultat d'exploitation avant impôt' sur les trois années. Y a-t-il une corrélation cohérente ?",
+    "answer": [
+      [
+        "Il n'y a pas de corrélation cohérente. De 2011 à 2012, les indicateurs montrent une corrélation positive, avec une légère baisse des ventes (de 1732 M$ à 1688 M$) correspondant à une baisse des revenus (de 376 M$ à 345 M$). Cependant, cette relation s'inverse de manière drastique en 2013, où une chute massive des ventes nettes à 108 M$ s'accompagne d'une augmentation des revenus à 2014 M$. Cela suggère qu'en 2013, les revenus étaient motivés par des facteurs autres que les ventes de base, tels que le 'gain net issu de la séparation et de la fusion de l'activité de produits chimiques de base'."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cedda436f6_009",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Quelle métrique financière affiche une valeur de « $ 2014 » millions dans une année et « 2014 » millions dans deux autres années, mettant en évidence une incohérence dans le formatage des données pour la même valeur numérique ?",
+    "answer": [
+      [
+        "less : net income attributable to non-controlling interests discontinued operations"
+      ],
+      [
+        "net gain from separation and merger of commodity chemicals business"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "A6",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_010",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "Quel élément de compte pour l'année 2013 représente l'événement financier le plus significatif par rapport à sa valeur implicite nulle ou quasi nulle dans les autres années, et comment a-t-il probablement affecté le 'revenu d'exploitation avant impôt' de cette année ?",
+    "answer": [
+      [
+        "Le « gain net issu de la séparation et de la fusion de l'activité de produits chimiques de base » avec une valeur de 2192 millions en 2013 est l'événement financier le plus significatif. Ce gain ponctuel semble être le principal moteur du « revenu d'exploitation avant impôt » inhabituellement élevé de 2014 millions de dollars en 2013, qui constitue une forte anomalie par rapport aux 345 millions et 376 millions déclarés en 2012 et 2011, respectivement."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cedda436f6_011",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Quel est le montant de l'impôt sur les revenus à la fin de 2011 ?",
+    "answer": [
+      [
+        "126"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

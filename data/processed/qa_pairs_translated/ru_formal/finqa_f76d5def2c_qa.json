@@ -1,0 +1,226 @@
+[
+  {
+    "question_id": "finqa_f76d5def2c_001",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "Какова была общая сумма увеличений неучтенных налоговых обязательств, зафиксированных в 2011 году?",
+    "answer": [
+      [
+        "44321"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_002",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "Какова абсолютная разница в сумме урегулирований с налоговыми органами между 2010 и 2011 годами?",
+    "answer": [
+      [
+        "41383"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_003",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "Ускорилось ли замедление общего снижения баланса неучтенных налоговых обязательств (в связи с уменьшениями по предыдущим налоговым позициям, урегулированиями и истечением сроков давности) с 2010 года на 2011 год?",
+    "answer": [
+      [
+        "Скорость снижения замедлилась значительно. В 2010 году общие снижения по этим трем категориям составили 85 484 доллара (7104 + 70484 + 7896), тогда как в 2011 году общие снижения составили всего 37 080 долларов (4154 + 29101 + 3825), что менее половины суммы предыдущего года."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_004",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "Рассчитайте чистое изменение неучтенных налоговых обязательств за год, который начался с более высокого начального остатка.",
+    "answer": [
+      [
+        "-61115"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_005",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "В 2010 году какой процент от общего количества роста неучтенных налоговых обязательств (по позициям предыдущего года, урегулированиям с налоговыми органами и истечению срока давности) приходился на урегулирования с налоговыми органами? Ответ округлите до двух знаков после запятой.",
+    "answer": [
+      [
+        "82.45%"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_006",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "Перечислите категории событий, которые привели к уменьшению неучтенных налоговых обязательств на сумму более 5 000 долларов по абсолютной величине за 2010 год.",
+    "answer": [
+      [
+        "gross decreases in unrecognized tax benefits 2013 prior year tax positions"
+      ],
+      [
+        "settlements with taxing authorities"
+      ],
+      [
+        "lapse of statute of limitations"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A5",
+      "C5",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_007",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "Если бы 'gross increases in unrecognized tax benefits 2013 current year tax positions' за 2011 год были на 50% ниже, каким был бы новый конечный баланс за 2011 год?",
+    "answer": [
+      [
+        "147397"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_008",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "Какой элемент строки представляет собой наиболее значительный выброс с точки зрения денежного воздействия (абсолютное значение) на баланс за один год и какова его величина?",
+    "answer": [
+      [
+        "Наиболее значительным выбросом были «согласования с налоговыми органами» в 2010 году, что привело к снижению на 70 484 доллара. Эта сумма более чем вдвое превышает любую другую отдельную корректировку, указанную за любой из годов."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_009",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "На основании структуры таблицы, какова связь между конечным балансом 2010 года и начальным балансом 2011 года?",
+    "answer": [
+      [
+        "Конечный баланс 2010 года, составляющий 156 925 долларов, идентичен начальному балансу 2011 года. Это демонстрирует принцип непрерывности в бухгалтерском учете, согласно которому закрытый баланс одного периода служит открытым балансом для последующего периода."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_010",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "Анализируйте взаимосвязь между величиной «выплат по согласованию с налоговыми органами» и чистым изменением баланса за каждый год.",
+    "answer": [
+      [
+        "Наблюдается сильная взаимосвязь между размером выплат и общим чистым изменением. В 2010 году крупная выплата в размере -$70 484 соответствовала значительному чистому снижению общего баланса на -$61 115. Напротив, в 2011 году значительно меньшая выплата в размере -$29 101 способствовала увеличению баланса на $6 682. Это указывает на то, что выплаты по согласованию являются основным фактором снижения неучтенных налоговых преимуществ."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_011",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "Каково процентное изменение конечного остатка с 2010 года на 2011 год?",
+    "answer": [
+      [
+        "Конечный остаток увеличился с 156 925 долларов в 2010 году до 163 607 долларов в 2011 году, что составляет примерно 4,26% увеличения."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

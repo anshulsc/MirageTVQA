@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_e5b7b24bc9_001",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "哪一年「net cash used in working capital」對現金流影響最負面？",
+    "answer": [
+      [
+        "2011"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_002",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "計算表格涵蓋全體時期（2011-2013）的「營業活動淨現金流入」累積值",
+    "answer": [
+      [
+        "$ 1223.6"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_003",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "哪一年「淨利潤調整以調和淨利潤至營運活動現金流1」的數值最高？",
+    "answer": [
+      [
+        "$ 598.4"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "B1"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_004",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "open_ended_reasoning",
+    "question": "分析2011年到2013年「營業活動現金流入淨額」的年對年趨勢。",
+    "answer": [
+      [
+        "「營業活動現金流入淨額」在三年期間呈現穩定且強勁的正向趨勢。從2011年的273.5萬美元增加到2012年的357.2萬美元，然後顯著上升至2013年的592.9萬美元，顯示每年營運現金產生能力持續改善。"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "C4",
+      "B4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_005",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "找出「net cash ( used in ) provided by financing activities」為負數且「net cash used in investing activities」負數超過$100的年份。",
+    "answer": [
+      [
+        "2013"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_006",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "2013年，「net income adjusted to reconcile net income to net cash provided by operating activities1」轉換成「net cash provided by operating activities」的比例是多少？以百分比表示，四捨五入至小數點後兩位。",
+    "answer": [
+      [
+        "99.08%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_007",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "假設「net cash provided by operating activities」是前三項的總和，若「net cash used in working capital」在2012年少負50%（即-146.6），則其值會是？",
+    "answer": [
+      [
+        "$ 503.8"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_008",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "open_ended_reasoning",
+    "question": "根據2011年到2013年的數據，'net income adjusted...' 和 'net cash provided by operating activities' 之間有什麼明顯的關係？較高的調整後淨利是否總是導致較高的營業現金流？",
+    "answer": [
+      [
+        "毋，較高的調整後淨利並無總是導致較高的營業現金流。數據顯示相反的趨勢：從2011年到2013年，'net income adjusted...' 每年遞減（從$735.7到$598.4），而'net cash provided by operating activities' 每年增加（從$273.5到$592.9）。這表示營運資金和其他非流動項目變動對現金流有顯著且日益有利的影響。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_009",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "哪個主要現金流活動（'operating'、'investing' 或 'financing'）的數據行在三年期間同時包含正數值和負數值？",
+    "answer": [
+      [
+        "net cash ( used in ) provided by financing activities"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_010",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "所有類別和年份中，哪一個現金流項目代表最大的絕對現金流動（無論是流入或流出）？",
+    "answer": [
+      [
+        "-1212.3 ( 1212.3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_011",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "2011年、2012年、2013年投資活動所用的總現金（百萬）是多少？",
+    "answer": [
+      [
+        "$493.5"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

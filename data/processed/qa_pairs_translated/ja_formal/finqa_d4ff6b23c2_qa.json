@@ -1,0 +1,249 @@
+[
+  {
+    "question_id": "finqa_d4ff6b23c2_001",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "2016年の期間において、期首と期末の残高の間で列記された取引活動に基づき、認識されていない税務利益の純変動額を計算してください。",
+    "answer": [
+      [
+        "64"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_002",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "2017年における各項目の絶対的な財務変化が、2016年に対応する変化と比較して小さいのはどの項目ですか？",
+    "answer": [
+      [
+        "additions for tax positions related to prior years"
+      ],
+      [
+        "reductions for tax positions related to prior years"
+      ],
+      [
+        "reductions for settlements2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_003",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "「2017年12月31日時点の残高」のうち、認識されても実効税率に影響しない割合はいくらですか？",
+    "answer": [
+      [
+        "5.99%"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_004",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "2017年におけるすべての減少額の合計と2016年におけるすべての減少額の合計の差はいくらですか。ただし、2017年の「法令有効期間満了による減少」の非標準値は無視してください。",
+    "answer": [
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_005",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "2017年の「前期に関連する税務ポジションの追加」が2016年の金額に一致していた場合、調整後の「2017年12月31日時点の残高」はいくらになっていたでしょうか？",
+    "answer": [
+      [
+        "$ 1321"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_006",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "2017年の項目のうち、両年度のすべての加算および減算と比較して金額面で最も顕著な外れ値となった単一の項目を特定してください。",
+    "answer": [
+      [
+        "additions for tax positions related to current year"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_007",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "再編集に基づき、「2017年12月31日時点の残高」は初期残高にその後の加算と減算を加算して算出されます。2017年列において、この計算と矛盾し、余分な値を含むセルはどれですか？",
+    "answer": [
+      [
+        "B6"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_008",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "2017年の加算および減算のすべての活動で、絶対値が1500万ドルを超えるものをリストしてください。",
+    "answer": [
+      [
+        "additions for tax positions related to current year"
+      ],
+      [
+        "additions for tax positions related to prior years"
+      ],
+      [
+        "reductions for tax positions related to prior years"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_009",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "2016年末から2017年末までの総残高の変化を分析してください。この変化の主な要因は何でしたか？",
+    "answer": [
+      [
+        "2016年末の$1,032百万から2017年末の$1,286百万へ、未認識税金利益の総残高は$254百万増加しました。この増加の主な要因は、2017年の「当年度に関連する税務ポジションの追加」の$270百万で、これはどの年においても他の単一の追加または減少よりもはるかに大きかったです。2017年の減少合計は$36百万でしたが、それらは大きな追加を相殺するには不十分でした。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_010",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "2016年と2017年の間、有効税率に影響を与える未認識税金利益の残高割合に基づき、未認識税金利益の構成に顕著な変化が見られるかどうかの証拠はありますか？",
+    "answer": [
+      [
+        "2016年において、有効税率に影響を与える部分は1032百万ドルの残高に対して963百万ドル、つまり93.3％でした。2017年においては、1286百万ドルの残高に対して1209百万ドル、つまり94.0％でした。この割合は非常に安定しており、残高全体が増加したにもかかわらず、税金ポジションの構成が年々一貫していることを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_011",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "2016年から2017年までの税務ポジションの総残高の変化と、その変化に寄与した要因は何ですか？",
+    "answer": [
+      [
+        "2016年の税務ポジションの総残高は10億3200万ドルから2017年に12億8600万ドルへ増加しました。この増加は、当期の税務ポジションによる追加(+2億7000万ドル)および前期の税務ポジションによる追加(+2000万ドル)が主な要因でしたが、前期の税務ポジションによる減少(-2700万ドル)および和解による減少(-900万ドル)によって一部相殺されました。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

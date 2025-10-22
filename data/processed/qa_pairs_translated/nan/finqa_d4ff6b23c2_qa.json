@@ -1,0 +1,249 @@
+[
+  {
+    "question_id": "finqa_d4ff6b23c2_001",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "計算2016年未認稅收利益之總淨變動，根據開始與結束餘額間列示之交易活動。",
+    "answer": [
+      [
+        "64"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_002",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "哪個項目在2017年的絕對財務變化比對應的2016年變化更小？",
+    "answer": [
+      [
+        "additions for tax positions related to prior years"
+      ],
+      [
+        "reductions for tax positions related to prior years"
+      ],
+      [
+        "reductions for settlements2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_003",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "「balance at december 31, 2017」的百分之幾若被認可不會影響有效稅率？",
+    "answer": [
+      [
+        "5.99%"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_004",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "2017年所有減少總和與2016年所有減少總和之差異為何，忽略2017年『稅收規定因法定時效屆滿而減少』中的非標準值？",
+    "answer": [
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_005",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "如果2017年「與前期稅務地位相關的新增」的金額和2016年一樣，調整後的「2017年12月31日餘額」會是多少？",
+    "answer": [
+      [
+        "$ 1321"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_006",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "找出2017年中與兩年所有增減項目相比，財務金額上最顯著的異常值的單一行項目",
+    "answer": [
+      [
+        "additions for tax positions related to current year"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_007",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "根據調節表，「2017年12月31日餘額」是從期初餘額加上後續增加和減少計算而來。2017年列中哪個儲存格的值與此計算不符，並且似乎是多餘的？",
+    "answer": [
+      [
+        "B6"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_008",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "列出2017年所有加減項中絕對值大於1500萬美元的活動",
+    "answer": [
+      [
+        "additions for tax positions related to current year"
+      ],
+      [
+        "additions for tax positions related to prior years"
+      ],
+      [
+        "reductions for tax positions related to prior years"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_009",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "分析2016年底到2017年底總餘額的變動。這變動的主要驅動因素是什麼？",
+    "answer": [
+      [
+        "總未確認稅項利益餘額增加了254百萬美元，從2016年底的1032百萬美元增加到2017年底的1286百萬美元。這增加的主要驅動因素是2017年「與當年稅務地位相關的新增」的270百萬美元，這比任何其他單一新增或減少都大得多。雖然2017年總共減少了36百萬美元，但不足以抵銷大幅新增。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_010",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "根據2016年與2017年年末餘額中會影響有效稅率部分的比例，是否有證據顯示未認列稅收利益的組成有顯著變動？",
+    "answer": [
+      [
+        "無證據顯示組成有顯著變動。2016年，會影響有效稅率的部分為1032百萬美元中的963百萬美元，佔93.3%。2017年，該部分為1286百萬美元中的1209百萬美元，佔94.0%。比例維持非常穩定，顯示儘管總餘額增加，但稅收位置的基礎組成在年與年之間保持一致。"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_011",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "稅務立場總餘額從2016年到2017年怎樣變動，哪些因素造成這個變動？",
+    "answer": [
+      [
+        "稅務立場總餘額從2016年的10億3200萬美元增加到2017年的12億8600萬美元。增加主要是因當年稅務立場新增2億7000萬美元和先前年度稅務立場新增2000萬美元，部分被先前年度立場減少2700萬美元和和解減少900萬美元所抵消。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

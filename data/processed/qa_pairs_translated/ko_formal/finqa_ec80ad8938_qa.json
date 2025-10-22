@@ -1,0 +1,205 @@
+[
+  {
+    "question_id": "finqa_ec80ad8938_001",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "제시된 두 개의 데이터 세트에 걸쳐 보고된 모든 자산(거래자산 및 대출)의 총 장부가액은 얼마입니까?",
+    "answer": [
+      [
+        "26557"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_002",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "두 번째 데이터 세트(열 D 및 E)에서 '공정 가치를 초과한 총 미상환 원금 잔액'이 더 큰 자산 카테고리는 거래 자산인가, 대출인가?",
+    "answer": [
+      [
+        "loans"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_003",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "첫 번째 대출 그룹(열 C)에서 '보유액' 총액 중 '비이자계상 대출 잔액'이 차지하는 비율은 얼마입니까?",
+    "answer": [
+      [
+        "0.03%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_004",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "두 데이터 세트에서 '미수익 대출 또는 90일 이상 연체 대출'의 총 잔액이 더 낮은 자산 유형(거래자산 또는 대출)의 결합된 장부가액은 얼마입니까?",
+    "answer": [
+      [
+        "7598"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_005",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "\"balance of non-accrual loans or loans more than 90 days past due\"가 정확히 1백만 달러인 모든 자산 포트폴리오에 대한 착수액을 나열하십시오.",
+    "answer": [
+      [
+        "$ 3224"
+      ],
+      [
+        "$ 4374"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C3",
+      "E3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_006",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "첫 번째 데이터 세트(열 B)의 거래자산에 대한 장부가액에서 '공정가치를 초과한 원금 잔액'을 차감하면 새로운 장부가액은 얼마입니까?",
+    "answer": [
+      [
+        "9673"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_007",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "‘비이자계상 대출 잔액’을 분석할 때, 다른 자산 유형에 비해 현저한 이상치를 보이는 자산 유형은 무엇이며, 이는 그들의 상대적 위험 프로파일에 대해 어떤 의미를 갖는가?",
+    "answer": [
+      [
+        "거래자산은 두 데이터 세트 모두에서 비이자계상 잔액이 2,014백만 달러로, 두 데이터 세트 모두에서 대출의 1백만 달러에 비해 극단적인 이상치를 나타냅니다. 이 뚜렷한 차이는 거래자산 포트폴리오가 상당히 높은 신용 위험을 안고 있거나 주요 디폴트 사건이 발생했음을 시사하는 반면, 대출 포트폴리오는 거의 비이자계상 잔액이 없어 예외적으로 건강한 상태에 있음을 나타냅니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_008",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "데이터에서 거래자산 카테고리에 대해 '장부가액'과 '공정가치 초과 미상환 원금 잔액' 간 일관된 양의 상관관계가 나타나는가?",
+    "answer": [
+      [
+        "아닙니다. 일관된 양의 상관관계는 나타나지 않습니다. 첫 번째 거래자산 세트의 경우 장부가액이 더 높습니다($10,108M 대 $8,851M)가 공정가치 초과 미상환 원금 잔액은 더 낮습니다($435M 대 $623M). 이는 이 데이터 세트에서 포트폴리오 규모가 더 크다고 해서 무조건적으로 비실현 손실이 비례적으로 더 크다는 것을 의미하지 않습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_009",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "반복되거나 명백히 중복된 데이터 포인트를 포함하는 행을 식별하고 패턴을 설명하세요.",
+    "answer": [
+      [
+        "데이터 중복은 3번째와 4번째 행에 존재합니다. 3번째 행에서 '비이자계상 대출 잔액...'에 대해, 거래자산의 값은 두 세트 모두 $2,014M (B3, D3)이고 대출의 값은 두 세트 모두 $1M (C3, E3)입니다. 4번째 행에서는 $2,014M이 거래자산 두 세트와 첫 번째 대출 세트 (B4, C4, D4)에 세 번 반복되어 데이터 입력 패턴 또는 특정 재무 보고 아티팩트를 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_010",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "데이터 세트 (Set 1: B, C 열 또는 Set 2: D, E 열) 중 총 이행 금액이 더 높은 경우, 포트폴리오의 전체 '미실현 손실 비율' (총 '공정가치 초과 미지급 원금 잔액'을 총 '이행 금액'으로 나눈 값)을 계산하세요.",
+    "answer": [
+      [
+        "8.82%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_011",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "2018년 12월 31일 기준으로 총괄 대차대조표에 보고된 거래자산의 장부가액과 대출의 장부가액을 비교하면 어떻게 되나요?",
+    "answer": [
+      [
+        "거래자산의 장부가액은 대출의 장부가액보다 높았습니다. 거래자산의 경우 10,108백만 달러와 8,851백만 달러였으며, 대출의 경우 3,224백만 달러와 4,374백만 달러였습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

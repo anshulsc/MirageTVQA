@@ -1,0 +1,219 @@
+[
+  {
+    "question_id": "finqa_dcb7ad35d5_001",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "¿Qué tipo de obligación, excluyendo la deuda a largo plazo, tiene el pago total más alto?",
+    "answer": [
+      [
+        "purchase obligations and other ( 4 ) ( 5 ) ( 6 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_002",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "¿Cuáles son las obligaciones totales combinadas debidas antes del año fiscal 2023?",
+    "answer": [
+      [
+        "3935.9"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_003",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "¿Cuál es el pago total vencido en los periodos 2021-2022 y 2023-2024 para el tipo de obligación que tiene el pago más pequeño vencido en el año fiscal 2020?",
+    "answer": [
+      [
+        "11.6"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "A3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_004",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "Describe la tendencia de las obligaciones totales de pago de la empresa para los periodos fiscales definidos antes de 'thereafter'.",
+    "answer": [
+      [
+        "Las obligaciones totales de pago muestran una tendencia fluctuante. Comienzan en $2378.5 millones en el año fiscal 2020, luego disminuyen a $1557.4 millones para el periodo 2021-2022, antes de alcanzar un pico significativo de $2897.5 millones en el periodo 2023-2024. Esto indica un descenso en las obligaciones a corto plazo seguido de un aumento considerable en los compromisos a mediano plazo."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_005",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "Enumere todas las categorías de obligaciones donde los pagos vencidos 'después' superen la suma de todos los pagos vencidos de 2020 a 2024.",
+    "answer": [
+      [
+        "long-term debt including current portionexcluding capital lease obligations ( 1 )"
+      ],
+      [
+        "capital lease obligations ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "A3",
+      "C3",
+      "D3",
+      "E3",
+      "F3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_006",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "¿Qué porcentaje de los pagos totales vencidos en el ejercicio fiscal 2020 se atribuyen a 'obligaciones de compra y otros'?",
+    "answer": [
+      [
+        "67.56%"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_007",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "Si todas las 'obligaciones de arrendamiento operativo' vencidas en el ejercicio fiscal 2021 y 2022 se pospusieran y se agregaran al periodo 'posterior', ¿cuál sería el nuevo total para el periodo 'posterior'?",
+    "answer": [
+      [
+        "6589.9"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "F5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_008",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "Basado en los planes de pago, ¿qué se puede inferir sobre el perfil de vencimiento de la 'deuda a largo plazo' versus las 'obligaciones de compra'?",
+    "answer": [
+      [
+        "Los perfiles de vencimiento son muy diferentes. La 'deuda a largo plazo' está fuertemente pospuesta, con la mayoría de los pagos ($5729.2M de $9714.1M) vencidos 'posteriormente', lo que indica instrumentos de financiamiento a largo plazo. Por el contrario, las 'obligaciones de compra' están fuertemente anticipadas, con la gran mayoría de los pagos ($1607.0M de $2293.5M) vencidos en el año fiscal inmediato 2020, lo cual es característico de compromisos operativos a corto plazo."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_009",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "¿Qué cantidad única de pagos para 'obligaciones de arrendamiento capital' es un valor atípico, representando casi el 90% de su obligación total?",
+    "answer": [
+      [
+        "$ 150.9"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_010",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "Al sumar manualmente los valores de la columna 'payments due by period fiscal 2023and 2024' para cada obligación individual, verifica si el total proporcionado en la celda E5 es correcto.",
+    "answer": [
+      [
+        "Sí, el total proporcionado es correcto. La suma de las obligaciones individuales para el período fiscal 2023 y 2024 es $2494.3 + $193.6 + $2.9 + $206.7, lo que da como resultado $2897.5, coincidiendo con el valor en la celda E5."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_011",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "¿En qué período las obligaciones de arrendamiento operativo son las más altas?",
+    "answer": [
+      [
+        "Fiscal 2021 y 2022, con $316.4 millones en obligaciones"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

@@ -1,0 +1,205 @@
+[
+  {
+    "question_id": "finqa_ec80ad8938_001",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Qual è l'importo totale del valore contabile per tutti gli attivi (sia beni in commercio che prestiti) riportati in entrambi i set di dati presentati?",
+    "answer": [
+      [
+        "26557"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_002",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Nel secondo set di dati (colonne D ed E), quale categoria di attività—attività commerciali o prestiti—ha il 'bilancio aggregato del capitale non pagato superiore al valore equo' maggiore?",
+    "answer": [
+      [
+        "loans"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_003",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Per il primo set di prestiti (colonna C), quale percentuale dell'importo totale 'carrying amount' è rappresentata dal 'balance of non-accrual loans'?",
+    "answer": [
+      [
+        "0.03%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_004",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Qual è l'importo complessivo del valore contabile del tipo di attività (Attività Commerciali o Prestiti) che ha il totale più basso di 'saldo di prestiti non in corso di accollo o prestiti in ritardo di più di 90 giorni' in entrambi i set di dati?",
+    "answer": [
+      [
+        "7598"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_005",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Elencare gli importi contabili per tutti i portafogli di attività in cui il 'bilancio dei prestiti non in scadenza o prestiti oltre 90 giorni di mora' è esattamente di $1 milione.",
+    "answer": [
+      [
+        "$ 3224"
+      ],
+      [
+        "$ 4374"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C3",
+      "E3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_006",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Se l'importo contabile per le attività commerciali nel primo set di dati (colonna B) fosse aggiustato sottraendo il 'bilancio non pagato principale superiore al valore equo', quale sarebbe il nuovo importo contabile?",
+    "answer": [
+      [
+        "9673"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_007",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Analizzando il 'saldo dei prestiti non accantonati', quale tipo di attività ha un saldo significativamente anomalo rispetto all'altro, e cosa implica ciò riguardo ai loro profili di rischio relativi?",
+    "answer": [
+      [
+        "I beni in negoziazione in entrambi i set di dati mostrano un saldo non accantonato di 2.014 milioni di dollari, che è un valore anomalo estremo rispetto ai 1 milione di dollari per i Prestiti in entrambi i set. Questa differenza marcata suggerisce che il portafoglio di Beni in negoziazione presenta un rischio creditizio significativamente più elevato o ha subito un evento di default importante, mentre il portafoglio di Prestiti sembra essere in salute eccezionale con quasi nessun saldo non accantonato."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_008",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "I dati mostrano una correlazione positiva costante tra il 'valore contabile' di un'attività e il 'saldo aggregato del capitale non pagato superiore al valore equo' per la categoria di 'Trading Assets'?",
+    "answer": [
+      [
+        "No, non viene mostrata una correlazione positiva costante. Il primo insieme di asset commerciali ha un valore contabile più elevato ($10.108M contro $8.851M) ma un saldo aggregato del capitale non pagato superiore al valore equo inferiore ($435M contro $623M). Questo indica che una dimensione più ampia del portafoglio non necessariamente porta a una perdita non realizzata proporzionalmente maggiore in questo set di dati."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_009",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifica eventuali righe che contengono dati ripetuti o apparentemente ridondanti e spiega il pattern.",
+    "answer": [
+      [
+        "La ridondanza dei dati è presente nelle righe 3 e 4. Nella riga 3, 'balance of non-accrual loans...', il valore per gli asset di trading è $2.014M in entrambi i set (B3, D3) e $1M per i prestiti in entrambi i set (C3, E3). Nella riga 4, il valore $2.014M è ripetuto tre volte per entrambi i set di asset di trading e il primo set di prestiti (B4, C4, D4), suggerendo un pattern di inserimento dati o un artefatto specifico della rendicontazione finanziaria."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_010",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Per il set di dati (Set 1: colonne B,C o Set 2: colonne D,E) con l'importo totale del valore contabile più alto, calcolare la 'percentuale di perdita non realizzata' totale del portafoglio (totale 'saldo non pagato del capitale principale superiore al valore equo' diviso per totale 'valore contabile').",
+    "answer": [
+      [
+        "8.82%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_011",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Come si confronta l'importo a libro riportato nel bilancio consolidato per gli asset di trading rispetto ai prestiti al 31 dicembre 2018?",
+    "answer": [
+      [
+        "L'importo a libro per gli asset di trading era superiore a quello dei prestiti. Per gli asset di trading, era di $10.108 milioni e $8.851 milioni, mentre per i prestiti era di $3.224 milioni e $4.374 milioni."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

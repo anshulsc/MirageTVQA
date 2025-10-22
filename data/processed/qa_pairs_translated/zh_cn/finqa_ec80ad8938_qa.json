@@ -1,0 +1,205 @@
+[
+  {
+    "question_id": "finqa_ec80ad8938_001",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "两个数据集中所有资产（包括交易性资产和贷款）报告的总账面价值是多少？",
+    "answer": [
+      [
+        "26557"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_002",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "在第二个数据集（D列和E列）中，哪个资产类别——交易性资产还是贷款——的“公允价值超额未偿还本金余额”更大？",
+    "answer": [
+      [
+        "loans"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_003",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "对于第一组贷款（C列），'未偿还本金余额'中'非应计贷款或逾期90天以上贷款余额'所占的百分比是多少？",
+    "answer": [
+      [
+        "0.03%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_004",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "哪种资产类型（交易性资产或贷款）在两个数据集中具有更低的“非应计贷款或逾期90天以上贷款”余额合计？",
+    "answer": [
+      [
+        "7598"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_005",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "列出所有资产组合中“未计提利息贷款或逾期90天以上贷款余额”恰好为100万美元的资产的账面价值。",
+    "answer": [
+      [
+        "$ 3224"
+      ],
+      [
+        "$ 4374"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C3",
+      "E3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_006",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "如果第一个数据集（列B）中交易资产的账面价值减去其'超过公允价值的未偿还本金余额'，新的账面价值是多少？",
+    "answer": [
+      [
+        "9673"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_007",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "分析“未计提利息贷款余额”，哪种资产类型的余额与其他资产相比是显著异常值，这对其相对风险状况意味着什么？",
+    "answer": [
+      [
+        "交易资产在两组数据中的未计提利息余额均为20.14亿美元，与贷款在两组数据中的100万美元相比是极端异常值。这种显著差异表明交易资产组合承担着显著更高的信用风险或经历了重大违约事件，而贷款组合则表现异常良好，几乎没有未计提利息余额。"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_008",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "数据是否显示交易资产类别中资产的'账面价值'与其'公允价值超出的未偿本金余额'之间存在一致的正相关关系？",
+    "answer": [
+      [
+        "否，未显示一致的正相关关系。第一组交易资产的账面价值更高（101.08亿美元 vs 88.51亿美元），但公允价值超出的未偿本金余额更低（4.35亿美元 vs 6.23亿美元）。这表明在此数据集中，更大的投资组合规模并不一定导致不成比例的未实现损失。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_009",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "识别包含重复或看似冗余数据点的行，并解释其模式。",
+    "answer": [
+      [
+        "数据冗余存在于第3行和第4行。在第3行中，“非应计贷款余额...”，交易资产的值在两组中均为2,014百万美元（B3、D3），贷款在两组中均为1百万美元（C3、E3）。在第4行中，2,014百万美元在两组交易资产和第一组贷款中重复三次（B4、C4、D4），这表明可能是数据输入模式或特定的财务报告特征。"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_010",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "对于数据集（集合1：B列、C列 或 集合2：D列、E列）中总账面价值更高的情况，计算投资组合的整体“未实现损失百分比”（“超过公允价值的未偿还本金余额”总额除以“账面价值”总额）。",
+    "answer": [
+      [
+        "8.82%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_011",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "截至2018年12月31日，合并资产负债表上报告的交易性资产的账面价值与贷款相比如何？",
+    "answer": [
+      [
+        "交易性资产的账面价值高于贷款。对于交易性资产，分别为10,108百万美元和8,851百万美元，而对于贷款，则分别为3,224百万美元和4,374百万美元。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

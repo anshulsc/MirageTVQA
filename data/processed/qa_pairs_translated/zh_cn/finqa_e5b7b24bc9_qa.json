@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_e5b7b24bc9_001",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "哪一年'净现金用于营运资本'对现金流的影响最为负面？",
+    "answer": [
+      [
+        "2011"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_002",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "计算表格所涵盖的整个期间（2011-2013年）的'净经营活动现金流量'累计值。",
+    "answer": [
+      [
+        "$ 1223.6"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_003",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "在报告'净现金由经营活动提供'最高的年份中，'调整净收入以协调净收入与经营活动提供的净现金1'的金额是多少？",
+    "answer": [
+      [
+        "$ 598.4"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "B1"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_004",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "open_ended_reasoning",
+    "question": "分析2011年至2013年'经营活动产生的现金流量净额'的年际趋势。",
+    "answer": [
+      [
+        "\"经营活动产生的现金流量净额\"在三年期间呈现出持续且强劲的正向趋势。从2011年的273.5万美元增长到2012年的357.2万美元，随后显著上升至2013年的592.9万美元，表明每年运营现金生成能力都在改善。"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "C4",
+      "B4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_005",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "识别‘融资活动净现金（使用/提供）’为负且‘投资活动净现金使用’也低于-100美元的年份。",
+    "answer": [
+      [
+        "2013"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_006",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "对于2013年，'net income adjusted to reconcile net income to net cash provided by operating activities1'中有多少比例转换为了'net cash provided by operating activities'？请以百分比形式表示，保留两位小数。",
+    "answer": [
+      [
+        "99.08%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_007",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "假设“经营活动产生的现金净额”是前三个项目的总和，如果“营运资本使用的现金净额”减少50%（即-146.6），那么2012年的值是多少？",
+    "answer": [
+      [
+        "$ 503.8"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_008",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "open_ended_reasoning",
+    "question": "基于2011年至2013年的数据，'net income adjusted...'与'net cash provided by operating activities'之间存在什么明显关系？较高的调整后净收入是否总是导致更高的运营现金流？",
+    "answer": [
+      [
+        "否，较高的调整后净收入并不总是导致更高的运营现金流。数据显示出相反的趋势：从2011年到2013年，'net income adjusted...'每年下降（从735.7万美元降至598.4万美元），而'net cash provided by operating activities'每年增加（从273.5万美元增至592.9万美元）。这表明营运资本和其他非流动项目的变化对现金流产生了重大且日益有利的影响。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_009",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "哪项主要的现金流活动（'经营'、'投资'或'融资'）在三年期间的数据行中同时包含正数和负数？",
+    "answer": [
+      [
+        "net cash ( used in ) provided by financing activities"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_010",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "所有类别和年份中，哪一项现金流量数据代表最大的绝对现金变动（无论是流入还是流出）？",
+    "answer": [
+      [
+        "-1212.3 ( 1212.3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_011",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "2011年、2012年和2013年用于投资活动的总现金（以百万计）是多少？",
+    "answer": [
+      [
+        "$493.5"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

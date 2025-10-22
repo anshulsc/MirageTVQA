@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_f5477c4414_001",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Apa total tina 'loans 2013 reported' pikeun taun 2012 (kolom E), lamun diitung ku ngajumlahkeun jinis loan konstituennya tina kolom nu sami?",
+    "answer": [
+      [
+        "1717"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f5477c4414_002",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Aya nu kategori loan nu teu diitung 'loans 2013 reported', nu ngalami panggandengan persentase paling gedé dina saldo tanggal 31 Desember ti taun 2012 ka 2013?",
+    "answer": [
+      [
+        "loans held-for-sale"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_003",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Apa wates 'lending-related commitments' pikeun taun akhir waktu 'total wholesale credit-related assets' geus minimum?",
+    "answer": [
+      [
+        "$ 434814"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_004",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Saha persén ti 'total wholesale credit exposure' dina 31 Desember 2013 anu disayogkeun ka 'lending-related commitments'?",
+    "answer": [
+      [
+        "51.87%"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "B9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f5477c4414_005",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Cikana kategori aset atawa liabilitas nu mana nilai tanggal 31 Desember 2013 turun dibandingkeun jeung tanggal 31 Desember 2012?",
+    "answer": [
+      [
+        "loans at fair value ( a )"
+      ],
+      [
+        "derivative receivables"
+      ],
+      [
+        "liquid securities and other cash collateral held against derivatives"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A11",
+      "B11",
+      "C11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_006",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Yén aya nilai tina 'receivables from customers and other ( b )' di kolom '2013' (kolom D) kungsi 25% leuwih gede, naon nilai 'total wholesale credit-related assets' pikeun kolom éta?",
+    "answer": [
+      [
+        "1962.5"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "D7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_007",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Identifikasi barang finansial (tina kolom A) anu ngajantenkeun pangubahan anu paling anomali antara kolom '2013' jeung '2012' (D jeung E), nu dihargé ku perbedaan absolut paling gedé.",
+    "answer": [
+      [
+        "loans 2013 reported"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A2",
+      "D2",
+      "E2",
+      "A3",
+      "D3",
+      "E3",
+      "A4",
+      "D4",
+      "E4",
+      "A5",
+      "D5",
+      "E5",
+      "A6",
+      "D6",
+      "E6",
+      "A7",
+      "D7",
+      "E7",
+      "A8",
+      "D8",
+      "E8",
+      "A9",
+      "D9",
+      "E9",
+      "A10",
+      "D10",
+      "E10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f5477c4414_008",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Hadeu anu ngandung teks non-numerik ('na') anu ngahalangan jumlahan langsung tina kolom-na?",
+    "answer": [
+      [
+        "D11"
+      ],
+      [
+        "E11"
+      ]
+    ],
+    "evidence_cells": [
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_009",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "open_ended_reasoning",
+    "question": "Analisis tren tina akhir taun 2012 ka 2013 pikeun 'total wholesale credit exposure' jeung pangaruh utamana.",
+    "answer": [
+      [
+        "'Total wholesale credit exposure' naék saeutik tina $846,628 juta dina taun 2012 ka $860,299 juta dina taun 2013. Panyebaran ieu didorong ku peningkatan nu penting dina 'loans held-for-sale' (naék 156%) jeung kenaikan dina 'lending-related commitments' (naék 2.6%). Akan tetapi, panyebaran ieu diangkat ku penurunan nu signifikan 12.3% dina 'derivative receivables' jeung penurunan 21.3% dina 'loans at fair value', nu ngajelaskeun pindahna komposisi portofolio kredit."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B8",
+      "C8",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_010",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan pangaweruh ti 2012 ka 2013 dina saldo akhir taun, naon hubungan anu jelas antara 'derivative receivables' jeung 'total wholesale credit-related assets'?",
+    "answer": [
+      [
+        "Aya hubungan kaasup anu kabalik dina data anu sahiji ieu. Tina akhir taun 2012 ka 2013, 'derivative receivables' turun tina $74.983 juta ka $65.759 juta. Salanjugna, 'total wholesale credit-related assets' naik tina $411.814 juta ka $414.067 juta. Ieu ngajelaskeun yén nalika nilai derivative receivables turun, aset lianna naik pikeun ngajangkeun, mangka total aset naik. Tapi, hubungan anu pasti teu bisa ditetepkeun cuma tina dua titik data."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f5477c4414_011",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Dina taun naon loan retained nu paling luhur?",
+    "answer": [
+      [
+        "2013"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

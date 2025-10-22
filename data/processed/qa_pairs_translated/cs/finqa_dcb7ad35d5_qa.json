@@ -1,0 +1,219 @@
+[
+  {
+    "question_id": "finqa_dcb7ad35d5_001",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "Který typ závazku, s výjimkou dlouhodobých dluhů, má nejvyšší celkovou splatnost?",
+    "answer": [
+      [
+        "purchase obligations and other ( 4 ) ( 5 ) ( 6 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_002",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "Jaké jsou celkové kombinované závazky splatné před fiskálním rokem 2023?",
+    "answer": [
+      [
+        "3935.9"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_003",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "Jaká je celková částka splatná v obdobích 2021-2022 a 2023-2024 pro typ závazku, který má nejmenší splatnou částku v roce 2020?",
+    "answer": [
+      [
+        "11.6"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "A3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_004",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "Popište trend celkových platebních závazků společnosti pro definovaná fiskální období vedoucí k 'thereafter'.",
+    "answer": [
+      [
+        "Celkové platební závazky ukazují kolísavý trend. Začínají na 2378,5 milionu dolarů v fiskálním roce 2020, poté klesají na 1557,4 milionu dolarů pro období 2021-2022, předtím než výrazně stoupají na 2897,5 milionu dolarů v období 2023-2024. To naznačuje pokles v krátkodobých závazcích následovaný velkým nárůstem v střednědobých závazcích."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_005",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "Vypište všechny kategorie závazků, u kterých jsou splatné platby 'za další období' vyšší než součet všech splatných plateb v letech 2020 až 2024.",
+    "answer": [
+      [
+        "long-term debt including current portionexcluding capital lease obligations ( 1 )"
+      ],
+      [
+        "capital lease obligations ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "A3",
+      "C3",
+      "D3",
+      "E3",
+      "F3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_006",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "Jaký procentuální podíl celkových plateb splatných v roce 2020 připadá na 'purchase obligations and other'?",
+    "answer": [
+      [
+        "67.56%"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_007",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "Pokud by všechny 'operativní nájemné závazky' splatné v roce 2021 a 2022 byly odloženy a přičteny k období 'později', jaká by byla nová celková hodnota pro období 'později'?",
+    "answer": [
+      [
+        "6589.9"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "F5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_008",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "Na základě platebních rozvrhů, co lze usoudit o struktuře splatnosti 'dlouhodobých dluhů' oproti 'závazkům z nákupů'?",
+    "answer": [
+      [
+        "Struktury splatnosti jsou výrazně odlišné. 'Dlouhodobé dluhy' jsou silně zpožděně splatné, přičemž většina plateb ($5729,2M z $9714,1M) je splatná 'později', což naznačuje dlouhodobé finanční nástroje. Naopak 'závazky z nákupů' jsou silně předčasně splatné, s většinou plateb ($1607,0M z $2293,5M) splatných v okamžitém fiskálním roce 2020, což je charakteristické pro krátkodobé operační závazky."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_009",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "Která jediná částka pro 'capital lease obligations' je odlehlou hodnotou a představuje téměř 90 % celkového závazku?",
+    "answer": [
+      [
+        "$ 150.9"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_010",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "Zkontrolujte ručním sečtením hodnot ve sloupci 'payments due by period fiscal 2023and 2024' pro každou individuální závazek, zda je poskytnutý celkový součet v buňce E5 správný.",
+    "answer": [
+      [
+        "Ano, poskytnutý součet je správný. Součet jednotlivých závazků pro fiskální období 2023 a 2024 je $2494.3 + $193.6 + $2.9 + $206.7, což činí $2897.5, což odpovídá hodnotě v buňce E5."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_011",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "V jakém období jsou náklady z operativních leasingových smluv nejvyšší?",
+    "answer": [
+      [
+        "Fiskální rok 2021 a 2022 s $316,4 miliony závazků"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "question_id": "finqa_eea3e54d6c_001",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "value",
+    "question": "Каковы были общие капитальные затраты, в тысячах долларов, за три представленных года?",
+    "answer": [
+      [
+        "967859"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_002",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "value",
+    "question": "Какая операционная метрика, связанная с жидкостями (мббл/д), показала наибольший процентный рост между годом, закончившимся 31 декабря 2005 года, и годом, закончившимся 31 декабря 2007 года?",
+    "answer": [
+      [
+        "natural gas liquids transported ( mbbl/d )"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6",
+      "A7",
+      "B7",
+      "D7",
+      "A8",
+      "B8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_003",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "value",
+    "question": "За какой год значение «реализованной цены продаж природного газа» было наибольшим, и каков был соответствующий объем «переработанного природного газа»?",
+    "answer": [
+      [
+        "1117"
+      ]
+    ],
+    "evidence_cells": [
+      "B13",
+      "C13",
+      "D13",
+      "D2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_004",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "open_ended_reasoning",
+    "question": "Опишите общую тенденцию для «переработки природного газа (bbtu/d)» по сравнению с «транспортировкой природного газа (mmcf/d)» за период с 2005 по 2007 год.",
+    "answer": [
+      [
+        "Два показателя демонстрируют противоположные тенденции. «Переработка природного газа» показывает последовательное и резкое снижение за трехлетний период — с 1117 bbtu/d в 2005 году до 621 bbtu/d в 2007 году. Напротив, «транспортировка природного газа» пережила значительный рост, более чем удвоившись с 1333 mmcf/d в 2005 году до 3634 mmcf/d в 2006 году, а затем незначительно снизившись до 3579 mmcf/d в 2007 году."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_005",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "value",
+    "question": "Перечислите все метрики, измеряемые в 'bbtu/d', объем которых в 2007 году был меньше, чем в 2005 году.",
+    "answer": [
+      [
+        "natural gas processed ( bbtu/d )"
+      ],
+      [
+        "natural gas sales ( bbtu/d )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A4",
+      "B4",
+      "D4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_006",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "value",
+    "question": "Какая доля от общего объема «собранного природного газа» за все три года была собрана в 2007 году?",
+    "answer": [
+      [
+        "34.28%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_007",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "value",
+    "question": "Если бы 'реализованный валовой производственный спред' в 2007 году был на 20% ниже, каким бы было его значение?",
+    "answer": [
+      [
+        "$ 4.17"
+      ]
+    ],
+    "evidence_cells": [
+      "B14"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_008",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "open_ended_reasoning",
+    "question": "Существует ли очевидная корреляция между «реализованной ценой продаж природного газа» и объемом «продаж природного газа» за этот трехлетний период? Объясните свои рассуждения.",
+    "answer": [
+      [
+        "Да, существует очевидная положительная корреляция. Как реализованная цена продаж природного газа за ммбту последовательно снижалась с 7,30 долл. в 2005 году до 6,21 долл. в 2007 году, так и объем продаж природного газа последовательно снижался с 334 ббтуд в 2005 году до 281 ббтуд в 2007 году. Оба показателя следовали одному и тому же нисходящему тренду."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "A13",
+      "B13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_009",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "open_ended_reasoning",
+    "question": "Какая колонка данных содержит значения с пояснениями в скобках, такими как «(a)» или «(b)», для всех числовых записей?",
+    "answer": [
+      [
+        "Столбец «years ended december 31 , 2005» не содержит таких обозначений, но все показатели со строки 11 и ниже помечены «(b)» для всех трех лет, что указывает на свойство, присущее этим строкам, а не одному столбцу."
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "D5",
+      "D7",
+      "D8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_010",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "open_ended_reasoning",
+    "question": "В каком году капитальные затраты представляют собой значительный выброс по сравнению с другими годами и почему?",
+    "answer": [
+      [
+        "Капитальные затраты за год, закончившийся 31 декабря 2007 года, являются значительным выбросом. Их значение составляет 709 858 тыс. долларов, что более чем в 3,5 раза превышает затраты 2006 года (201 746 тыс. долларов) и более чем в 12,6 раза превышает затраты 2005 года (56 255 тыс. долларов), что представляет собой драматическое и аномальное увеличение расходов."
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_011",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "open_ended_reasoning",
+    "question": "Почему объем продаж природного газа снижается с течением лет?",
+    "answer": [
+      [
+        "Объем продаж природного газа снижается с 334 BBtu/d в 2005 году до 281 BBtu/d в 2007 году, вероятно, из-за снижения добычи или уменьшения рыночного спроса, что видно из последовательного снижения данных."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

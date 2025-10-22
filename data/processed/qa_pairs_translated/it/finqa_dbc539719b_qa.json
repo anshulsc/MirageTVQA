@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_dbc539719b_001",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Tra gli stati elencati singolarmente, quale genera il maggiore fatturato operativo per cliente?",
+    "answer": [
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A4",
+      "B4",
+      "D4",
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_002",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Qual è il totale combinato del numero di clienti per Illinois, Indiana e California?",
+    "answer": [
+      [
+        "779881"
+      ]
+    ],
+    "evidence_cells": [
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_dbc539719b_003",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Qual è la percentuale combinata del totale dei ricavi operativi proveniente dallo stato con la popolazione stimata servita più bassa?",
+    "answer": [
+      [
+        "12.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "F6",
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_004",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Quali stati hanno una quota del numero totale di clienti superiore alla loro quota del totale dei ricavi operativi?",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "indiana"
+      ],
+      [
+        "west virginia ( b )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "A5",
+      "C5",
+      "E5",
+      "A6",
+      "C6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_005",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Qual è il rapporto tra la percentuale di clienti totali e la percentuale di popolazione servita totale per la categoria 'other ( c )', arrotondato a due cifre decimali?",
+    "answer": [
+      [
+        "1.01"
+      ]
+    ],
+    "evidence_cells": [
+      "E8",
+      "G8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_dbc539719b_006",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Se i ricavi operativi della Pennsylvania aumentassero del 10%, quale sarebbe il nuovo ricavo operativo per 'subtotal (top seven states)', supponendo che i ricavi degli altri stati rimangano invariati?",
+    "answer": [
+      [
+        "2388.14"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_007",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Analizza la relazione tra il numero di clienti e la popolazione stimata servita per i sei stati individuali elencati. C'è una correlazione positiva e cosa implica?",
+    "answer": [
+      [
+        "Sì, c'è una forte correlazione positiva. Man mano che il numero di clienti aumenta per uno stato, anche la popolazione stimata servita tende ad aumentare. Ad esempio, la Pennsylvania ha il maggior numero di clienti (666.415) e la più grande popolazione stimata servita (2,2 milioni), mentre la Virginia Occidentale e la California, che hanno i conteggi di clienti più bassi, hanno anche le popolazioni stimate servite più piccole. Questo implica che la base di clienti è un componente diretto e proporzionale della popolazione servita dall'azienda in queste regioni."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_dbc539719b_008",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Calcolando la popolazione stimata servita per cliente per ciascuno dei sei stati individuali, identifica quale stato è l'outlier più significativo e spiega perché.",
+    "answer": [
+      [
+        "Illinois è l'outlier più significativo. La popolazione stimata servita per cliente per ciascuno stato è: Pennsylvania (~3.30), Missouri (~3.23), Illinois (~4.17), California (~3.44), Indiana (~4.09) e West Virginia (~3.52). Mentre la maggior parte degli stati serve tra 3,2 e 3,5 persone per cliente, Illinois e Indiana sono notevolmente più alti. Illinois ha il rapporto più alto, circa 4,17, indicando che ogni cliente in Illinois rappresenta una porzione maggiore della popolazione servita rispetto agli altri stati, rendendolo l'outlier più significativo."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_dbc539719b_009",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Verifica se la percentuale di ricavi operativi totali per 'subtotal ( top seven states )' e 'other ( c )' si somma correttamente al valore mostrato per 'total regulated businesses'.",
+    "answer": [
+      [
+        "Sì, la somma è corretta. Il 'subtotal ( top seven states )' rappresenta l'87,0% dei ricavi operativi totali e la categoria 'other ( c )' rappresenta il 13,0%. Sommando queste due percentuali (87,0% + 13,0%) si ottiene il 100,0%, che corrisponde al valore indicato per 'total regulated businesses'."
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_010",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Quale coppia di stati, dalla lista di sei, ha un numero combinato di clienti più vicino al numero di clienti della Pennsylvania?",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_011",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Qual è il fatturato operativo in milioni di dollari in California?",
+    "answer": [
+      [
+        "$209.8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

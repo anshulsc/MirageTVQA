@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_e33c420d31_001",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "「債務義務」と「長期債務の利息支払い」を除き、『3-5年』期間において最大額が発生する契約上の義務はどれですか？",
+    "answer": [
+      [
+        "燃料義務"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_002",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "注釈参照が「11」のすべての義務の合計総額はいくらですか？",
+    "answer": [
+      [
+        "$ 16297"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "H3",
+      "B4",
+      "H4",
+      "B5",
+      "H5",
+      "B6",
+      "H6",
+      "B7",
+      "H7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_e33c420d31_003",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "「1-3年」に満期が来る総義務のうち、単一義務で最も総額が高いものが占める割合はいくらですか？",
+    "answer": [
+      [
+        "27.04%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "D1",
+      "D9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_004",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "「長期債務の利息支払い」について、4つの時間区分における支払いの傾向を分析し、債務がフロントローデッドかバックローデッドかを判断してください。",
+    "answer": [
+      [
+        "「長期債務の利息支払い」の支払い額は、1年未満で1,172ドル、1～3年で2,166ドル、3～5年で1,719ドル、5年以上で4,046ドルです。債務は著しくバックローデッドであり、支払い額は時間の経過とともに上昇傾向にあり、最大単一支払いは「5年以上」の期間に発生しています。利息支払い総額の63％以上が3年先以降に支払われる予定です。"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_005",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "「1年未満」の支払額が「3-5年」の支払額よりも大きい契約上の義務を列挙してください。",
+    "answer": [
+      [
+        "fuel obligations"
+      ],
+      [
+        "other purchase obligations"
+      ],
+      [
+        "other long-term liabilities reflected on aes' consolidated balance sheet under gaap ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "E6",
+      "A7",
+      "C7",
+      "E7",
+      "A8",
+      "C8",
+      "E8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_006",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "最終総計行に基づき、短期債務義務（「1年未満」に支払われるもの）と長期債務義務（「5年以上」に支払われるもの）の比率はいくらですか？",
+    "answer": [
+      [
+        "Approximately 1:2.81"
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "F9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_e33c420d31_007",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "「運営リース義務」のうち「5年以上先」に支払われるものすべてを「3～5年」の期間内に支払うよう新規政策が求められた場合、「3～5年」列の新しい合計額はいくらになりますか？",
+    "answer": [
+      [
+        "$ 10283"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_008",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "エネルギー義務（燃料 vs 電力）の種類と支払いスケジュールの間に明確な相関関係はありますか？",
+    "answer": [
+      [
+        "はい、明確な相関関係があります。「燃料義務」は前期に支払いが集中しており、最大額の支払い（1,759ドル）が「1年未満」に発生しているため、短期契約を示唆しています。一方、「電力義務」は後期に支払いが集中しており、最大額の支払い（2,065ドル）が「5年以上」に発生しているため、長期電力購入契約を反映している可能性があります。これは、エネルギー源の性質が財務的コミットメントの期間に関連していることを示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_e33c420d31_009",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "最終行の各支払期間の合計に基づき、最も金額の大きい支払い期間はどれであり、これは同社の負債構造についてどのような示唆を与えるか？",
+    "answer": [
+      [
+        "「5年以上」の期間は20,544ドルの最大の負債を保持しています。これは、同社の負債構造が主に長期的であり、財務上の義務の大部分が将来遠い時期に支払われる予定であることを示唆しており、長期的な資金調達戦略や大規模な資本プロジェクトを意味しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "D9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_010",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "「その他の長期負債」の行には、『1年未満』列に外れ値のように見える値が含まれています。この値を特定し、その不整合性の理由を説明してください。",
+    "answer": [
+      [
+        "「1年未満」列の「$ 2014」という値が外れ値です。この1回の短期支払額が、その負債全体の合計として記載されている「$ 701」よりも大幅に大きくなっているため、論理的に不可能であり、おそらくデータエラーです。"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_e33c420d31_011",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "燃料義務の合計は何百万ドルですか？",
+    "answer": [
+      [
+        "$5859"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

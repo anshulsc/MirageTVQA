@@ -1,0 +1,205 @@
+[
+  {
+    "question_id": "finqa_ec80ad8938_001",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Ano ang kabuuang halagang nakapagpapakita para sa lahat ng mga asset (parehong trading assets at loans) na nakareport sa parehong mga set ng datos?",
+    "answer": [
+      [
+        "26557"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_002",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Sa pangalawang data set (mga column D at E), aling kategorya ng asset—trading assets o loans—ang may mas malaking 'aggregate unpaid principal balance in excess of fair value'?",
+    "answer": [
+      [
+        "loans"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_003",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Sa unang set ng mga loan (column C), anong porsyento ng kabuuang 'carrying amount' ang kinakatawan ng 'balance of non-accrual loans'?",
+    "answer": [
+      [
+        "0.03%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_004",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Ano ang kabuuang halagang nakatala ng uri ng asset (Trading Assets o Loans) na may mas mababang kabuuang 'balance of non-accrual loans' sa parehong sets ng datos?",
+    "answer": [
+      [
+        "7598"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_005",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Listahanin ang mga carrying amount para sa lahat ng asset portfolios kung saan ang 'balance of non-accrual loans or loans more than 90 days past due' ay eksaktong $1 milyon.",
+    "answer": [
+      [
+        "$ 3224"
+      ],
+      [
+        "$ 4374"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C3",
+      "E3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_006",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Kung ang carrying amount para sa trading assets sa unang data set (column B) ay i-adjust sa pamamagitan ng pagbabawas ng 'aggregate unpaid principal balance in excess of fair value', ano ang bago nitong carrying amount?",
+    "answer": [
+      [
+        "9673"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_007",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Analisin ang 'balance of non-accrual loans', aling uri ng asset ang may balanseng outlier na malaki kumpara sa iba, at ano ang ibig sabihin nito tungkol sa kanilang relatibong antas ng panganib?",
+    "answer": [
+      [
+        "Ang Trading Assets sa parehong data set ay may balanseng non-accrual na $2,014 milyon, na isang extreme outlier kumpara sa $1 milyon para sa Loans sa parehong sets. Ang malaking pagkakaiba na ito ay nagpapahiwatig na ang portfolio ng Trading Assets ay may mas mataas na panganib sa kredito o may naranasan na malaking pangyayaring default, samantalang ang portfolio ng Loans ay tila nasa napakabuting kalagayan na may halos walang non-accrual balances."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_008",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Ipakikita ba ng datos ang patuloy na positibong korelasyon sa pagitan ng 'carrying amount' ng isang asset at ang 'aggregate unpaid principal balance in excess of fair value' para sa kategoryang Trading Assets?",
+    "answer": [
+      [
+        "Hindi, hindi ipinakikita ang patuloy na positibong korelasyon. Ang unang set ng trading assets ay may mas mataas na carrying amount ($10,108M kumpara sa $8,851M) ngunit mas mababang aggregate unpaid principal balance in excess of fair value ($435M kumpara sa $623M). Ito ay nagpapahiwatig na ang mas malaking portfolio size ay hindi kinakailangang magdulot ng proporsyonal na mas malaking unrealized loss sa dataset na ito."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_009",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Tukuyin ang anumang row na naglalaman ng ulit o mukhang redundant na datos at ipaliwanag ang pattern.",
+    "answer": [
+      [
+        "Kasama sa redundancy ng datos ang mga row 3 at 4. Sa row 3, 'balance of non-accrual loans...', ang halaga para sa trading assets ay $2,014M sa parehong set (B3, D3) at $1M para sa loans sa parehong set (C3, E3). Sa row 4, ang halagang $2,014M ay inulit tatlong beses para sa parehong set ng trading assets at ang unang set ng loans (B4, C4, D4), na nagmumungkahi ng isang pattern ng pag-enter ng datos o isang partikular na artifact sa pagsasalaysay ng pananalapi."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_010",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Para sa data set (Set 1: cols B,C o Set 2: cols D,E) na may mas mataas na kabuuang carrying amount, kalkulahin ang kabuuang 'unrealized loss percentage' ng portfolio (kabuuang 'unpaid principal balance in excess of fair value' hinati sa kabuuang 'carrying amount').",
+    "answer": [
+      [
+        "8.82%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_011",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Paano ihahambing ang carrying amount na nakareport sa consolidated balance sheet para sa trading assets at loans hanggang Disyembre 31, 2018?",
+    "answer": [
+      [
+        "Mas mataas ang carrying amount para sa trading assets kaysa sa loans. Para sa trading assets, ito ay $10,108 milyon at $8,851 milyon, habang para sa loans ito ay $3,224 milyon at $4,374 milyon."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

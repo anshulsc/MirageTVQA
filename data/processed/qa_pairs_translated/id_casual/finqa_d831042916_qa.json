@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "finqa_d831042916_001",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Tahun berapa perusahaan mengalami kerugian terbesar dari operasi yang berlanjut?",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_002",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Berapa total biaya operasional untuk periode tiga tahun dari 2007 sampai 2009?",
+    "answer": [
+      [
+        "$3743"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d831042916_003",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Berapa nilai 'non-interest revenue' di tahun di mana perusahaan hanya melaporkan 'net income (loss)' yang positif?",
+    "answer": [
+      [
+        "422"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "B12",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_004",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Jelaskan tren 'total revenues net of interest expense' dari tahun 2007 sampai 2009.",
+    "answer": [
+      [
+        "Trennya sangat negatif dan tidak stabil. Total pendapatan menunjukkan perbaikan kecil dari kerugian $2310 juta pada tahun 2007 menjadi kerugian $2258 juta pada tahun 2008. Namun, hal ini diikuti oleh penurunan yang sangat parah pada tahun 2009, di mana kerugiannya meningkat drastis menjadi $10556 juta, menunjukkan kemerosotan parah dalam aktivitas inti perusahaan penghasil pendapatan."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_005",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Tampilkan 'income taxes (benefits)' untuk semua tahun di mana '(loss) from continuing operations' lebih dari $2.500 juta.",
+    "answer": [
+      [
+        "-4369 ( 4369 )"
+      ],
+      [
+        "-1446 ( 1446 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "D7",
+      "B8",
+      "D8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_006",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Di tahun 2009, berapa persen dari 'total revenues net of interest expense' yang berasal dari 'non-interest revenue'?",
+    "answer": [
+      [
+        "84.25%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d831042916_007",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Jika 'total operating expenses' tahun 2008 naik 20%, berapa nilai '(loss) from continuing operations before taxes' untuk tahun itu?",
+    "answer": [
+      [
+        "$ -2871 ( 2871 )"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_008",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan datanya, apakah ada korelasi konsisten antara 'total operating expenses' yang lebih rendah dan 'net income (loss)' yang lebih tinggi?",
+    "answer": [
+      [
+        "Tidak, korelasi konsisten tidak terlihat. Meskipun tahun 2008 punya biaya operasional terendah ($510M) dan pendapatan bersih tertinggi ($1820M), yang menunjukkan hubungan terbalik, pola ini terganggu di tahun-tahun lain. Di 2009, biaya operasional ($1420M) lebih rendah dibanding 2007 ($1813M), tapi 2009 malah mengalami kerugian bersih yang jauh lebih parah (-$8051M) dibanding 2007 (-$1968M). Ini menunjukkan faktor lain, seperti penurunan pendapatan yang sangat drastis, punya dampak lebih besar pada pendapatan bersih daripada biaya operasional saja."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "A12",
+      "B4",
+      "C4",
+      "D4",
+      "B12",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d831042916_009",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Dari tiga baris terakhir, apakah perhitungan untuk 'net income (loss)' dilakukan secara konsisten untuk ketiga tahun tersebut? Jelaskan temuanmu.",
+    "answer": [
+      [
+        "Tidak, metode perhitungannya tidak konsisten. Pada tahun 2007, 'net income (loss)' (-$1968M) dihitung dengan benar dengan mengurangkan 'net income (loss) before attribution...' (-$1966M) dengan 'net income attributable to noncontrolling interests' ($2M). Namun, baik untuk tahun 2008 maupun 2009, nilai 'net income (loss)' sama persis dengan nilai 'net income (loss) before attribution...', sehingga mengabaikan jumlah yang dialokasikan untuk noncontrolling interests. Ini menunjukkan adanya ketidakkonsistenan dalam pelaporan struktur tabel untuk tahun 2008 dan 2009."
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "A11",
+      "A12",
+      "B10",
+      "B11",
+      "B12",
+      "C10",
+      "C11",
+      "C12",
+      "D10",
+      "D11",
+      "D12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_010",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Item keuangan mana di tahun 2008 yang menjadi outlier positif yang signifikan dibanding tahun lain, dan apa pengaruhnya pada laba bersih perusahaan?",
+    "answer": [
+      [
+        "'Income (loss) from discontinued operations net of taxes' di tahun 2008 dengan nilai $4002 juta merupakan outlier positif yang signifikan dibandingkan kerugian $445 juta di tahun 2009 dan keuntungan lebih kecil $708 juta di tahun 2007. Outlier ini sangat penting karena mengubah '(loss) from continuing operations' sebesar $2182 juta menjadi 'net income' positif sebesar $1820 juta untuk tahun tersebut."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "A9",
+      "A12",
+      "B9",
+      "C8",
+      "C9",
+      "C12",
+      "D9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d831042916_011",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Dari 2008 ke 2009, perubahan total pendapatan bersihnya berapa, termasuk operasi yang berlanjut dan yang dihentikan?",
+    "answer": [
+      [
+        "Pada 2008, pendapatan bersihnya $1.820 juta. Pada 2009, pendapatan bersihnya $-8.051 juta. Perubahan total pendapatan bersih dari 2008 ke 2009 adalah penurunan sebesar $9.871 juta."
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "C12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

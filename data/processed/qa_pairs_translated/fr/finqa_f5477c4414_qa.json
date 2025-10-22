@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_f5477c4414_001",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Quel était le total pour « loans 2013 reported » pour l'année 2012 (colonne E), si calculé en additionnant ses types de prêts constitutifs de cette même colonne ?",
+    "answer": [
+      [
+        "1717"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f5477c4414_002",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Quelle catégorie de prêts, en excluant « prêts conservés en 2013 », a connu la plus forte croissance en pourcentage de son solde au 31 décembre de 2012 à 2013 ?",
+    "answer": [
+      [
+        "loans held-for-sale"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_003",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Quelle était la valeur des « engagements de prêt » à la fin de l'exercice lorsque les « actifs totaux de crédit de gros » étaient au minimum ?",
+    "answer": [
+      [
+        "$ 434814"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_004",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Quel pourcentage de l'« exposition totale au crédit de gros » au 31 décembre 2013 était attribué aux « engagements de prêt » ?",
+    "answer": [
+      [
+        "51.87%"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "B9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f5477c4414_005",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Listez toutes les catégories d'actifs ou de passifs où la valeur au 31 décembre 2013 a diminué par rapport au 31 décembre 2012.",
+    "answer": [
+      [
+        "loans at fair value ( a )"
+      ],
+      [
+        "derivative receivables"
+      ],
+      [
+        "liquid securities and other cash collateral held against derivatives"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A11",
+      "B11",
+      "C11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_006",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Si la valeur de « recevables des clients et autres ( b ) » dans la colonne « 2013 » (colonne D) avait été 25 % plus élevée, quelle aurait été la nouvelle valeur de « total wholesale credit-related assets » pour cette colonne ?",
+    "answer": [
+      [
+        "1962.5"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "D7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_007",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Identifiez l'élément financier (dans la colonne A) qui présente le changement le plus anormal entre les colonnes « 2013 » et « 2012 » (D et E), caractérisé par la plus grande différence absolue.",
+    "answer": [
+      [
+        "loans 2013 reported"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A2",
+      "D2",
+      "E2",
+      "A3",
+      "D3",
+      "E3",
+      "A4",
+      "D4",
+      "E4",
+      "A5",
+      "D5",
+      "E5",
+      "A6",
+      "D6",
+      "E6",
+      "A7",
+      "D7",
+      "E7",
+      "A8",
+      "D8",
+      "E8",
+      "A9",
+      "D9",
+      "E9",
+      "A10",
+      "D10",
+      "E10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f5477c4414_008",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Identifiez la ou les cellule(s) contenant du texte non numérique ('na') qui empêche(nt) une sommation directe de leurs colonnes respectives.",
+    "answer": [
+      [
+        "D11"
+      ],
+      [
+        "E11"
+      ]
+    ],
+    "evidence_cells": [
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_009",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "open_ended_reasoning",
+    "question": "Analysez la tendance de la fin de l'année 2012 à 2013 pour « l'exposition totale au crédit de détail » et ses principaux facteurs.",
+    "answer": [
+      [
+        "« L'exposition totale au crédit de détail » a augmenté modérément de 846 628 millions de dollars en 2012 à 860 299 millions de dollars en 2013. Cette croissance a été principalement entraînée par une hausse significative des « prêts destinés à la vente » (en hausse de 156 %) et une augmentation des « engagements liés au prêt » (en hausse de 2,6 %). Cependant, cette croissance a été partiellement compensée par une baisse notable de 12,3 % des « créances dérivées » et une chute de 21,3 % des « prêts à la juste valeur », indiquant un changement dans la composition du portefeuille de crédit."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B8",
+      "C8",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_010",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "open_ended_reasoning",
+    "question": "Sur la base des changements entre 2012 et 2013 dans les soldes de fin d'année, quelle est la relation apparente entre « créances dérivées » et « actifs totaux de crédit de gros » ?",
+    "answer": [
+      [
+        "Il semble y avoir une relation inverse dans cet ensemble de données limité. De la fin de l'année 2012 à 2013, les « créances dérivées » ont diminué de 74 983 millions de dollars à 65 759 millions de dollars. Parallèlement, les « actifs totaux de crédit de gros » ont augmenté de 411 814 millions de dollars à 414 067 millions de dollars. Cela suggère qu'à mesure que la valeur des créances dérivées diminuait, d'autres actifs ont augmenté pour compenser plus que suffisamment, entraînant une augmentation globale des actifs totaux. Cependant, une corrélation définitive ne peut être établie avec seulement deux points de données."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f5477c4414_011",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "En quelle année le prêt retenu est-il le plus élevé ?",
+    "answer": [
+      [
+        "2013"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

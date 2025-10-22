@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_f88511c4f2_001",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "2008년 자산 철거 의무에 대한 모든 거래 변경 사항의 순 가치(시작 잔액과 종료 잔액 및 비정상적인 '해체' 값을 제외)는 얼마였습니까?",
+    "answer": [
+      [
+        "-169"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_002",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "자산 철거 의무에 대한 '청구된 부채'에서 더 큰 감소를 경험한 연도는 언제입니까?",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_003",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "2007년부터 2008년까지 'accretion expense'가 얼마나 증가했나요?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_004",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "2008년에는 의무가 증가했지만 2007년에는 감소한 항목을 식별하세요.",
+    "answer": [
+      [
+        "revisions to previous estimates"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_005",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "2008년 시작 잔액에서 2007년 'liabilities incurred'와 'accretion expense'의 합을 뺀 결과는 무엇인가요?",
+    "answer": [
+      [
+        "1013"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_006",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "2007년의 'liabilities incurred'는 2007년과 2008년의 'accretion expense' 합계의 몇 퍼센트를 차지합니까?",
+    "answer": [
+      [
+        "47.24%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_007",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "2008년 \"liabilities incurred\"가 50% 더 크다면, 해당 연도의 \"liabilities incurred\"와 \"liabilities settled\"의 새로운 합계는 얼마였을까요?",
+    "answer": [
+      [
+        "-49"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_008",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "표의 구조와 값에 기반하여 2007년 종료 잔액과 2008년 시작 잔액 간의 논리적 관계는 무엇입니까?",
+    "answer": [
+      [
+        "2007년 종료 잔액($1,134)은 2008년 시작 잔액($1,134)과 동일합니다. 이는 한 기간의 종료 잔액이 다음 연속 기간의 개시 잔액이 되는 표준 회계 관행을 보여줍니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_009",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "표에서 'liabilities settled'와 같은 음수 금액 값은 어떻게 표현되었나요?",
+    "answer": [
+      [
+        "음수 값은 앞에 마이너스 부호를 붙인 후 숫자와 함께 해당 절대값을 괄호로 감싼 이중 표기법을 사용합니다. 예를 들어, '-94 ( 94 )'입니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "C5",
+      "A6",
+      "B6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_010",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "표에서 '2013' 값을 포함하는 두 항목을 식별하고, 이 값이 표의 맥락에서 이상치로 나타나는 이유를 설명하세요.",
+    "answer": [
+      [
+        "'held for sale (a)'의 2007년도 데이터와 'deconsolidation of egholdings'의 2008년도 데이터에 '2013' 값이 있습니다. 이 값은 다른 거래 금액(예: 30, 66, -94)에 비해 한 자릿수 이상으로 크기 때문에 이상치이며, 양년도의 시작 잔액과 종료 잔액 간의 수학적 조정을 깨뜨리기 때문에 데이터 오류 또는 특수 항목일 가능성을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_011",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "2008년 12월 31일 기준 자산 철거 의무금액(백만 달러)은 얼마입니까?",
+    "answer": [
+      [
+        "$965"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

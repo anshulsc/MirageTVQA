@@ -1,0 +1,219 @@
+[
+  {
+    "question_id": "finqa_d4496bc7b4_001",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Jaká byla čistá změna závazků z likvidace aktiv v roce 2009, spočítaná z poskytnutých položených změn?",
+    "answer": [
+      [
+        "137"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_002",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Která kategorie změn prožila největší absolutní rozdíl v hodnotě mezi lety 2008 a 2009?",
+    "answer": [
+      [
+        "held for sale"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_003",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "V roce 2009 jaký procentuální podíl celkových kladných úprav (závazky vzniklé včetně akvizic, úrokové náklady a revize) připadal na 'revize dřívějších odhadů'?",
+    "answer": [
+      [
+        "61.39%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_004",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Ověřte, zda je 'asset retirement obligations as of december 31, 2008' správně vypočítáno ze startovního zůstatku a detailních změn za daný rok. Uveďte svůj výpočet.",
+    "answer": [
+      [
+        "Ano, konečný zůstatek za rok 2008 je správně vypočítán. Výpočet je: $1134 (start) + $30 (získané) - $94 (usazené) + $66 (akreci) + $24 (revize) - $195 (drženo pro prodej) = $965, což odpovídá uvedené hodnotě."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_005",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Pokud by byla úprava 'held for sale' v roce 2008 nulová, jaká by byla hodnota závazků pro ukončení aktiv na konci roku 2008?",
+    "answer": [
+      [
+        "$ 1160"
+      ]
+    ],
+    "evidence_cells": [
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_006",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyzujte a srovnejte hlavní faktory změny celkových závazků z likvidace aktiv mezi lety 2008 a 2009.",
+    "answer": [
+      [
+        "V roce 2008 se závazky snížily o 169 milionů dolarů, přičemž hlavní příčinou byla významná redukce 195 milionů dolarů z aktiv „držených k prodeji“ a 94 milionů dolarů v usazených závazcích, které převyšovaly přírůstky ve výši 120 milionů dolarů. Naopak v roce 2009 došlo k nárůstu o 137 milionů dolarů, který byl především způsoben velkými pozitivními „revidovanými odhady předchozích odhadů“ ve výši 124 milionů dolarů, které více než kompenzovaly 65 milionů dolarů v usazených závazcích."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7",
+      "C1",
+      "C7",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_007",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Který finanční komponent dožil zvýšení o více než 100 milionů dolarů mezi lety 2008 a 2009, čímž se stal výjimkou vzhledem ke změně z roku na rok?",
+    "answer": [
+      [
+        "revisions to previous estimates"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_008",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Identifikujte rok, ve kterém byly 'změny předchozích odhadů' více než pětkrát vyšší než 'zodpovědnosti za zřízení majetku zahrnující akvizice'.",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B5",
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_009",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Na základě dat za dva roky existuje pozorovatelný vzor nebo vztah mezi počátečním závazkem a 'accretion expense' za daný rok?",
+    "answer": [
+      [
+        "Ano, existuje pozorovatelný vzor. 'Acceptor expense' je poměrně stabilní procento počátečního zůstatku. V roce 2008 to bylo 5,8% počátečního zůstatku (66 mil. USD / 1134 mil. USD) a v roce 2009 to bylo 6,6% (64 mil. USD / 965 mil. USD). To naznačuje, že accretion expense je konzistentně vypočítáván na základě počátečního závazku, pravděpodobně odrážející časovou hodnotu peněz na dlouhodobém závazku."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_010",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Jak struktura tabulky potvrzuje kontinuitu zůstatku závazků k odstranění majetku od konce roku 2008 do začátku roku 2009?",
+    "answer": [
+      [
+        "Tabulka ukazuje kontinuitu tím, že hodnota pro „závazky k odstranění majetku k 31. prosinci“ v sloupci 2008 ($ 965) je stejná jako hodnota pro „závazky k odstranění majetku k 1. lednu“ v sloupci 2009 ($ 965). Jedná se o standardní účetní přehled, kde uzavírací zůstatek jednoho období se stává počátečním zůstatkem následujícího období."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A7",
+      "B1",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_011",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Jak se změnily celkové závazky z ukončení provozu za období 2008 až 2009?",
+    "answer": [
+      [
+        "Celkové závazky z ukončení provozu vzrostly z 965 milionů dolarů v roce 2008 na 1 102 miliony dolarů v roce 2009"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

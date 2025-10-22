@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_dbc539719b_001",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "¿Entre los estados individuales listados, cuál genera el mayor ingreso operativo por cliente?",
+    "answer": [
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A4",
+      "B4",
+      "D4",
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_002",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "¿Cuál es el total combinado de clientes para Illinois, Indiana y California?",
+    "answer": [
+      [
+        "779881"
+      ]
+    ],
+    "evidence_cells": [
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_dbc539719b_003",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "¿Cuál es el porcentaje combinado de los ingresos operativos totales provenientes del estado con la población estimada atendida más baja?",
+    "answer": [
+      [
+        "12.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "F6",
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_004",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "¿Qué estados tienen una participación en el número total de clientes mayor que su participación en los ingresos operativos totales?",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "indiana"
+      ],
+      [
+        "west virginia ( b )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "A5",
+      "C5",
+      "E5",
+      "A6",
+      "C6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_005",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "¿Cuál es la proporción del porcentaje de clientes totales al porcentaje de población total atendida para la categoría 'other ( c )', redondeada a dos decimales?",
+    "answer": [
+      [
+        "1.01"
+      ]
+    ],
+    "evidence_cells": [
+      "E8",
+      "G8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_dbc539719b_006",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Si los ingresos operativos de Pensilvania aumentaran un 10%, ¿cuál sería el nuevo ingreso operativo para 'subtotal (top seven states)', asumiendo que los ingresos de los demás estados permanecen sin cambios?",
+    "answer": [
+      [
+        "2388.14"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_007",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Analiza la relación entre el número de clientes y la población estimada atendida para los seis estados individuales listados. ¿Existe una correlación positiva y qué implica esto?",
+    "answer": [
+      [
+        "Sí, existe una correlación positiva fuerte. A medida que el número de clientes aumenta en un estado, la población estimada atendida también tiende a aumentar. Por ejemplo, Pensilvania tiene el mayor número de clientes (666,415) y la población estimada atendida más grande (2.2 millones), mientras que Virginia Occidental y California, que tienen los recuentos de clientes más bajos, también tienen las poblaciones estimadas atendidas más pequeñas. Esto implica que la base de clientes es un componente directo y proporcional de la población atendida por la empresa en estas regiones."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_dbc539719b_008",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Al calcular la población estimada atendida por cliente para cada uno de los seis estados individuales, identifica cuál es el estado más significativo como valor atípico y explica por qué.",
+    "answer": [
+      [
+        "Illinois es el valor atípico más significativo. La población estimada atendida por cliente para cada estado es: Pennsylvania (~3.30), Missouri (~3.23), Illinois (~4.17), California (~3.44), Indiana (~4.09) y West Virginia (~3.52). Aunque la mayoría de los estados atienden entre 3.2 y 3.5 personas por cliente, Illinois e Indiana son notablemente más altos. Illinois tiene la proporción más alta, aproximadamente 4.17, lo que indica que cada cliente en Illinois representa una porción más grande de la población atendida en comparación con otros estados, convirtiéndolo en el valor atípico más significativo."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_dbc539719b_009",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Verifica si el porcentaje de ingresos operativos totales para 'subtotal (top siete estados)' y 'otro (c)' suma correctamente al porcentaje mostrado para 'negocios regulados totales'.",
+    "answer": [
+      [
+        "Sí, la suma es precisa. El 'subtotal (top siete estados)' representa el 87,0% de los ingresos operativos totales y la categoría 'otro (c)' representa el 13,0%. Al sumar estos dos porcentajes (87,0% + 13,0%) se obtiene 100,0%, que coincide con el valor indicado para 'negocios regulados totales'."
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_010",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "¿Qué par de estados, de la lista de seis, tiene un número combinado de clientes que se acerca más al número de clientes en Pensilvania?",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_011",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "¿Cuál es el ingreso operativo en millones de dólares en California?",
+    "answer": [
+      [
+        "$209.8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

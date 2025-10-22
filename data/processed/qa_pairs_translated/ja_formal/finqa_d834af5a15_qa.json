@@ -1,0 +1,216 @@
+[
+  {
+    "question_id": "finqa_d834af5a15_001",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "表に示されているすべての年（2006年、2007年、2008年）における制限株式の総発行数はいくらですか。",
+    "answer": [
+      [
+        "5287752"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d834af5a15_002",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "2006年、2007年、または2008年のどの期間において、失効した株式の加重平均公正価値が最高でしたか？",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "A8",
+      "C8",
+      "A12",
+      "C12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_003",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "open_ended_reasoning",
+    "question": "2005年12月31日から2008年12月31日までの各年末における未実現制限株式の数の推移について説明してください。",
+    "answer": [
+      [
+        "2005年末の未実現制限株式数は3,488,668で、2006年には3,579,189（90,521の増加）となり、2007年には3,821,707（242,518の増加）となり、2008年には3,883,230（61,523の増加）となりました。この数値は年々一貫して増加していますが、増加率は緩やかになっています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A5",
+      "B5",
+      "A9",
+      "B9",
+      "A13",
+      "B13"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_004",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "2007年度において、新規付与された株式のうち、既に消却された株式と消却された株式の合計によって相殺された割合はいくらですか？",
+    "answer": [
+      [
+        "86.66%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d834af5a15_005",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "何年において、付与済み株式の公平価値は、未払済み株式が初めて130万株を超えた年においてのものですか？",
+    "answer": [
+      [
+        "$ 56.45"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A7",
+      "B7",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_006",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "open_ended_reasoning",
+    "question": "2008年12月31日時点の未成熟制限株式残高を、2007年期末残高およびその後の年次活動から計算して確認してください。",
+    "answer": [
+      [
+        "計算は正しいです。2007年期末残高の3,821,707株から、付与された1,836,532株を加算し、満期発行された1,403,826株と放棄された371,183株を減算すると、最終残高は3,883,230となり、2008年12月31日時点の報告済み未成熟株式数と一致します。"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_007",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "2006年に付与された株式の加重平均公正価値が5%高かった場合、その総額はおよそいくらになりますか？（総額 = 株式数 × 公正価値）",
+    "answer": [
+      [
+        "$ 95,781,586.20"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_008",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "open_ended_reasoning",
+    "question": "各年度で付与された株式の数と同年度で没収された株式の数の間に一貫した関係はありますか？",
+    "answer": [
+      [
+        "データに基づくと、明確で一貫した関係はありません。2006年には1,632,504株が付与され、360,734株が没収されました。2007年には付与数が1,818,716株に増加しましたが、没収数は230,786株に減少しました。2008年には付与数は1,836,532株と高水準を維持しましたが、没収数は371,183株と大幅に増加しました。没収数は、当該期間の付与数との直接的な相関関係なく変動しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B6",
+      "B8",
+      "B10",
+      "B12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d834af5a15_009",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "「付与」、「既に付与され発行されたもの」、または「没収」のうち、リストされているすべての年における平均付与日公正価値が最高の取引はどれですか？",
+    "answer": [
+      [
+        "granted"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C6",
+      "C7",
+      "C8",
+      "C10",
+      "C11",
+      "C12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d834af5a15_010",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "open_ended_reasoning",
+    "question": "テーブル内にある「unvested restricted stock december 31」で始まる行の構造的な目的は何ですか？",
+    "answer": [
+      [
+        "これらの行は、財務調整報告書における定期的な残高またはチェックポイントとして機能しています。各「unvested restricted stock」行は特定の年の末時点の累計総額を提供し、その後の行（「granted」、「vested」、「forfeited」）はこの残高を修正して翌年の末総額に至るまでの活動を詳細に説明しています。これらは各期間の活動分析の開始点と終了点を提供します。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A9",
+      "A13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_011",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "2005年から2008年までの期間に付与された制限株式の総数はいくらですか？",
+    "answer": [
+      [
+        "5,287,752"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A6",
+      "A10",
+      "B2",
+      "B6",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

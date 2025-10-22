@@ -1,0 +1,226 @@
+[
+  {
+    "question_id": "finqa_f76d5def2c_001",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "2011년에 기록된 미인정 세금 이익의 총 증가액은 얼마입니까?",
+    "answer": [
+      [
+        "44321"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_002",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "2010년과 2011년 사이 조세 당국과의 합의 금액의 절대 차이는 얼마였습니까?",
+    "answer": [
+      [
+        "41383"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_003",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "2010년부터 2011년까지 부정확한 세금 혜택 잔액에 대한 총 감소율(이전 연도 포지션, 정산, 소멸시효 경과로 인한 감소)은 가속화되었는지 감속화되었는지?",
+    "answer": [
+      [
+        "2010년에는 이 세 가지 범주에서의 총 감소액이 85,484달러(7,104 + 70,484 + 7,896)였으나, 2011년에는 37,080달러(4,154 + 29,101 + 3,825)로 전년도 금액의 절반 미만이었기 때문에 감소율은 상당히 감속화되었습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_004",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "시작 잔고가 더 높았던 연도의 미인정 세금 부담금의 순변동액을 계산하십시오.",
+    "answer": [
+      [
+        "-61115"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_005",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "2010년에 총 미인정 세금 혜택 감소액(전년도 세금 위치, 청산, 소멸시효 경과) 중 세무 당국과의 청산으로 인한 비율은 얼마입니까? 소수점 이하 두 자리까지 반올림하여 제공하십시오.",
+    "answer": [
+      [
+        "82.45%"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_006",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "2010년에 부정확한 세금 혜택의 미인정 금액을 절대값 기준으로 5,000달러 이상 감소시킨 사건의 카테고리를 나열하십시오.",
+    "answer": [
+      [
+        "gross decreases in unrecognized tax benefits 2013 prior year tax positions"
+      ],
+      [
+        "settlements with taxing authorities"
+      ],
+      [
+        "lapse of statute of limitations"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A5",
+      "C5",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_007",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "2011년 \"미인정 세금 혜택의 총 증가액 (2013년 당기 세금 계정)\"이 50% 감소했다면, 2011년 새로운 종료 잔액은 얼마가 되었을까요?",
+    "answer": [
+      [
+        "147397"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_008",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "금액 영향(절대값) 측면에서 연도별 잔액에 가장 큰 이상치를 나타내는 항목은 무엇이며, 그 값은 얼마인가요?",
+    "answer": [
+      [
+        "2010년의 '과세당국과의 합의'가 가장 큰 이상치였으며, 이는 70,484달러의 감소를 초래했습니다. 이 금액은 해당 연도 또는 다른 연도에 나열된 다른 모든 단일 조정액의 두 배 이상입니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_009",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "표의 구조를 기준으로 2010년 종료 잔액과 2011년 시작 잔액 간의 관계는 무엇입니까?",
+    "answer": [
+      [
+        "2010년 종료 잔액인 $156,925은 2011년 시작 잔액과 동일합니다. 이는 회계의 지속성 원칙을 보여주며, 한 기간의 종료 잔액이 다음 기간의 시작 잔액이 되는 것을 의미합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_010",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "세금 당국과의 합의 규모와 각 연도의 잔고 순변화 간의 관계를 분석하십시오.",
+    "answer": [
+      [
+        "합의 규모와 전체 순변화 사이에 강한 상관관계가 있는 것으로 보입니다. 2010년에는 -70,484달러라는 큰 합의가 총 잔고의 -61,115달러라는 상당한 감소와 일치했습니다. 반면에 2011년에는 -29,101달러라는 훨씬 작은 합의가 잔고가 6,682달러의 순증가를 보인 요인 중 하나였습니다. 이는 합의가 미인정 세금 혜택 잔고 감소의 주요 원인임을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_011",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "2010년부터 2011년까지 종합 잔액의 변화율은 얼마입니까?",
+    "answer": [
+      [
+        "2010년의 종합 잔액은 $156,925에서 2011년에는 $163,607로 증가하여 약 4.26% 증가했습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

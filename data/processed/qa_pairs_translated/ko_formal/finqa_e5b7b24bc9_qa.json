@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_e5b7b24bc9_001",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "순자금 흐름에 가장 부정적인 영향을 미친 '운전 자본에 사용된 순 현금'은 어느 연도인가요?",
+    "answer": [
+      [
+        "2011"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_002",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "테이블에 포함된 전체 기간(2011년-2013년)에 대한 \"운영활동으로 인한 순현금 유입\"의 누적 값을 계산하세요.",
+    "answer": [
+      [
+        "$ 1223.6"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_003",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "순현금 유입을 위한 영업활동 현금흐름 조정된 순이익은 가장 높은 '영업활동으로 인한 순현금 유입'을 보고한 연도에 얼마였습니까?",
+    "answer": [
+      [
+        "$ 598.4"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "B1"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_004",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "open_ended_reasoning",
+    "question": "2011년부터 2013년까지 '영업활동으로 인한 순현금 제공'의 연간 추이를 분석하세요.",
+    "answer": [
+      [
+        "'영업활동으로 인한 순현금 제공'은 3년간 일관되고 강한 양호한 추이를 보였습니다. 2011년 $273.5에서 2012년 $357.2로 증가한 후, 2013년에는 $592.9로 크게 상승하며 매년 운영 현금 창출 능력이 개선되었음을 나타냅니다."
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "C4",
+      "B4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_005",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "\"자금조달 활동으로 인한 순현금(사용) 제공\"이 음수이고 \"투자 활동으로 인한 순현금 사용\"이 100달러 이상 음수인 연도를 식별하세요.",
+    "answer": [
+      [
+        "2013"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_006",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "2013년도에 'net income adjusted to reconcile net income to net cash provided by operating activities1'의 비율이 'net cash provided by operating activities'로 전환된 비율은 얼마인가요? 소수점 둘째 자리까지 반올림하여 백분율로 표현하십시오.",
+    "answer": [
+      [
+        "99.08%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_007",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "‘운영활동으로 인한 순현금 유입’이 이전 세 항목의 합이라고 가정할 때, ‘영업용 자금에 대한 순현금 사용’이 50% 덜 부정적(즉, -146.6)이었다면 2012년의 값은 얼마였을까요?",
+    "answer": [
+      [
+        "$ 503.8"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_008",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "open_ended_reasoning",
+    "question": "2011년부터 2013년까지의 데이터를 기반으로 \"net income adjusted...\"와 \"net cash provided by operating activities\" 사이의 명확한 관계는 무엇입니까? 조정된 순이익이 높을수록 운영으로부터의 순현금이 항상 높아지는가?",
+    "answer": [
+      [
+        "아닙니다. 조정된 순이익이 높다고 해서 운영으로부터의 순현금이 항상 높아지는 것은 아닙니다. 데이터에 따르면 2011년부터 2013년까지 \"net income adjusted...\"는 매년 감소했습니다($735.7에서 $598.4로), 반면 \"net cash provided by operating activities\"는 매년 증가했습니다($273.5에서 $592.9로). 이는 운전자본 및 기타 비유동 자산 및 부채의 변화가 현금 흐름에 상당하고 점점 더 긍정적인 영향을 미쳤음을 나타냅니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_009",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "3년간의 기간 동안 양수 및 음수 값이 모두 포함된 데이터 행으로 나타나는 주요 현금 흐름 활동(\"운영\", \"투자\", 또는 \"재무\")은 무엇입니까?",
+    "answer": [
+      [
+        "net cash ( used in ) provided by financing activities"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_010",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "모든 카테고리 및 연도에서 절대 현금 흐름 이동(유입 또는 유출) 중 가장 큰 값을 나타내는 단일 현금 흐름 항목은 무엇입니까?",
+    "answer": [
+      [
+        "-1212.3 ( 1212.3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_011",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "2011년, 2012년, 2013년에 투자 활동에 사용된 총 현금(백만 달러)은 얼마입니까?",
+    "answer": [
+      [
+        "$493.5"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "finqa_d831042916_001",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "当社はいつ、最も大きな「継続事業からの損失」を経験しましたか？",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_002",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "2007年から2009年までの3年間の総営業費用はいくらでしたか？",
+    "answer": [
+      [
+        "$3743"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d831042916_003",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "会社が「純利益（損失）」をプラスで報告した唯一の年における「非利息収入」の値はいくらでしたか？",
+    "answer": [
+      [
+        "422"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "B12",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_004",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "「利息費用控除後の総収入」の2007年から2009年までの推移について説明してください。",
+    "answer": [
+      [
+        "2007年から2009年までの推移は、非常に否定的で変動が大きかったです。2007年の損失2310百万ドルから2008年の損失2258百万ドルへとわずかな改善が見られましたが、その後2009年には損失が大幅に増加し10556百万ドルとなり、企業の核心的な収益活動に深刻な落ち込みが生じていることを示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_005",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "「継続事業からの損失」が25億ドル以上であった年における「所得税（益）」をすべて列挙してください。",
+    "answer": [
+      [
+        "-4369 ( 4369 )"
+      ],
+      [
+        "-1446 ( 1446 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "D7",
+      "B8",
+      "D8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_006",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "2009年において、「利子費用控除後の総収入」のうち「非利子収入」が占める割合はいくらですか？",
+    "answer": [
+      [
+        "84.25%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d831042916_007",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "2008年の「総営業費用」が20%増加した場合、その年の「継続事業からの損失（税引前）」はいくらになっていたでしょうか？",
+    "answer": [
+      [
+        "$ -2871 ( 2871 )"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_008",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "データに基づき、「総営業費用」が低下する場合、「純利益（損失）」が上昇する一貫した相関関係は存在しますか？",
+    "answer": [
+      [
+        "いいえ、一貫した相関関係は観察されません。2008年は営業費用が最低（5億1000万ドル）で純利益が最高（18億2000万ドル）であり、逆相関の傾向が見られますが、他の年ではこのパターンが崩れています。2009年は営業費用（14億2000万ドル）が2007年（18億1300万ドル）より低かった一方で、純損失（80億5100万ドル）は2007年（19億6800万ドル）よりも大幅に悪化しています。このことから、収益の大幅な低下などの他の要因が、営業費用のみよりも純利益に大きな影響を及ぼしていることが示唆されます。"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "A12",
+      "B4",
+      "C4",
+      "D4",
+      "B12",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d831042916_009",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "最後の3行を調査することで、「純利益（損失）」の計算は3年間を通じて一貫して適用されているか。その結果を説明してください。",
+    "answer": [
+      [
+        "いいえ、計算方法が一貫していません。2007年において、「純利益（損失）」（-1968百万ドル）は、「非支配株主利益による純利益（損失）」（2百万ドル）を「非支配株主利益控除前純利益（損失）」（-1966百万ドル）から差し引くことで正しく導出されています。しかし、2008年および2009年において、「純利益（損失）」の値は「非支配株主利益控除前純利益（損失）」の値と同一であり、非支配株主に帰属する金額を誤って無視しています。これは、2008年および2009年のテーブル構造における報告の一貫性の欠如を示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "A11",
+      "A12",
+      "B10",
+      "B11",
+      "B12",
+      "C10",
+      "C11",
+      "C12",
+      "D10",
+      "D11",
+      "D12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_010",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "2008年の財務項目のうち、他の年と比較して顕著な正の外れ値となっているものはどれですか。また、それが企業の最終利益に及ぼした影響は何ですか。",
+    "answer": [
+      [
+        "「税引後持続事業外損益」の2008年の値である4002百万ドルは、2009年の445百万ドルの損失および2007年の708百万ドルの较小な利益と比較して顕著な正の外れ値です。この外れ値は、2182百万ドルの「持続事業からの損益」を、当該年度の最終的な正の「純利益」1820百万ドルに転換する上で不可欠でした。"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "A9",
+      "A12",
+      "B9",
+      "C8",
+      "C9",
+      "C12",
+      "D9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d831042916_011",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "継続事業と廃止事業を考慮した場合、2008年から2009年までの純利益の総変化量はいくらですか？",
+    "answer": [
+      [
+        "2008年の純利益は1,820百万ドルでした。2009年の純利益は-8,051百万ドルでした。2008年から2009年までの純利益の総変化量は9,871百万ドルの減少です。"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "C12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

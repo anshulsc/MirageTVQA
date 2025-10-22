@@ -1,0 +1,249 @@
+[
+  {
+    "question_id": "finqa_d4ff6b23c2_001",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Calcola il totale del cambiamento netto nei benefici fiscali non riconosciuti per l'anno 2016, in base alle attività transazionali elencate tra il saldo iniziale e quello finale.",
+    "answer": [
+      [
+        "64"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_002",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Quali voci rappresentano un cambiamento finanziario assoluto più piccolo nel 2017 rispetto al corrispondente cambiamento nel 2016?",
+    "answer": [
+      [
+        "additions for tax positions related to prior years"
+      ],
+      [
+        "reductions for tax positions related to prior years"
+      ],
+      [
+        "reductions for settlements2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_003",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Quale percentuale del 'balance at december 31, 2017' non influenzerebbe il tasso d'imposta effettivo se riconosciuta?",
+    "answer": [
+      [
+        "5.99%"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_004",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Qual è stata la differenza tra la somma di tutte le riduzioni nel 2017 e la somma di tutte le riduzioni nel 2016, ignorando il valore non standard nella voce 'riduzioni per scadenza del termine di prescrizione' per il 2017?",
+    "answer": [
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_005",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Se 'additions for tax positions related to prior years' nel 2017 fossero state pari all'importo del 2016, quale sarebbe stato l'\"balance at december 31, 2017\" aggiustato?",
+    "answer": [
+      [
+        "$ 1321"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_006",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Identifica l'elemento singolo del 2017 che è stato l'outlier più significativo in termini di entità finanziaria rispetto a tutte le altre aggiunte e riduzioni per entrambi gli anni.",
+    "answer": [
+      [
+        "additions for tax positions related to current year"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_007",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "In base alla riconciliazione, il 'balance at december 31, 2017' è calcolato a partire dal saldo iniziale più aggiunte e riduzioni successive. Quale cella nella colonna 2017 contiene un valore che non è coerente con questo calcolo e sembra essere estraneo?",
+    "answer": [
+      [
+        "B6"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_008",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Elencare tutte le attività nel 2017, sia aggiunte che riduzioni, con un valore assoluto superiore a 15 milioni di dollari.",
+    "answer": [
+      [
+        "additions for tax positions related to current year"
+      ],
+      [
+        "additions for tax positions related to prior years"
+      ],
+      [
+        "reductions for tax positions related to prior years"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_009",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "Analizza il cambiamento del saldo totale dalla fine del 2016 alla fine del 2017. Quali sono stati i principali fattori che hanno determinato questo cambiamento?",
+    "answer": [
+      [
+        "Il saldo totale dei benefici fiscali non riconosciuti è aumentato di $254 milioni, da $1032 milioni alla fine del 2016 a $1286 milioni alla fine del 2017. Il principale fattore di questo aumento è stato il '$270 milioni' di 'addizioni per posizioni fiscali relative all'anno corrente' nel 2017, che era significativamente maggiore di qualsiasi altra singola aggiunta o riduzione in entrambi gli anni. Sebbene ci siano state riduzioni per un totale di $36 milioni nel 2017, esse non sono state sufficienti a compensare le grandi aggiunte."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_010",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "Esiste una prova di un cambiamento significativo nella composizione dei benefici fiscali non riconosciuti tra il 2016 e il 2017, sulla base della proporzione del saldo di fine anno che influirebbe sul tasso d'imposta effettivo?",
+    "answer": [
+      [
+        "Non esiste una prova di un cambiamento significativo nella composizione. Nel 2016, la parte che avrebbe influenzato il tasso d'imposta effettivo era di 963 milioni di dollari su un saldo di 1032 milioni di dollari, ovvero il 93,3%. Nel 2017, questa parte era di 1209 milioni di dollari su un saldo di 1286 milioni di dollari, ovvero il 94,0%. La proporzione è rimasta molto stabile, suggerendo una composizione coerente delle posizioni fiscali sottostanti anno su anno nonostante l'aumento complessivo del saldo."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_011",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "Come è cambiato il totale dei saldi delle posizioni fiscali dal 2016 al 2017 e quali fattori hanno contribuito a questo cambiamento?",
+    "answer": [
+      [
+        "Il totale dei saldi delle posizioni fiscali è aumentato da 1.032 milioni di dollari nel 2016 a 1.286 milioni di dollari nel 2017. L'aumento è stato principalmente dovuto agli aggiornamenti per le posizioni fiscali dell'anno corrente (+270 milioni di dollari) e per le posizioni fiscali degli anni precedenti (+20 milioni di dollari), parzialmente compensato da riduzioni per le posizioni fiscali degli anni precedenti (-27 milioni di dollari) e da accordi (-9 milioni di dollari)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

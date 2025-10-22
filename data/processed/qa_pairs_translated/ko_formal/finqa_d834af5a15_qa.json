@@ -1,0 +1,216 @@
+[
+  {
+    "question_id": "finqa_d834af5a15_001",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "표에 표시된 모든 연도(2006년, 2007년 및 2008년)에 부여된 제한 주식의 총 수는 얼마입니까?",
+    "answer": [
+      [
+        "5287752"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d834af5a15_002",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "2006년, 2007년, 또는 2008년 중 어떤 기간에 상실된 주식의 가중 평균 공정 가치가 가장 높았나요?",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "A8",
+      "C8",
+      "A12",
+      "C12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_003",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "open_ended_reasoning",
+    "question": "2005년 12월 31일부터 2008년 12월 31일까지 매년 말 기준 미상장 제한 주식 수의 추이를 설명하시오.",
+    "answer": [
+      [
+        "미상장 제한 주식 수는 연간 일정하게 성장하는 추세를 보이지만 성장률은 점차 둔화되고 있습니다. 2005년 말 3,488,668개에서 2006년 3,579,189개로 90,521개 증가한 후, 2007년 3,821,707개로 242,518개 증가했으며, 마지막으로 2008년 3,883,230개로 61,523개 증가했습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A5",
+      "B5",
+      "A9",
+      "B9",
+      "A13",
+      "B13"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_004",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "2007년도에 새로 부여된 주식 중 휴지된 주식과 행사된 주식의 합계로 상쇄된 비율은 얼마인가요?",
+    "answer": [
+      [
+        "86.66%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d834af5a15_005",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "제한주식이 처음으로 130만 개를 초과한 연도의 부여된 주식의 공정가치는 얼마였습니까?",
+    "answer": [
+      [
+        "$ 56.45"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A7",
+      "B7",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_006",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "open_ended_reasoning",
+    "question": "2008년 12월 31일 기준 미상장 제한 주식 잔액을 2007년 말 잔액과 이후 연도 활동을 기반으로 계산하여 확인하십시오.",
+    "answer": [
+      [
+        "2007년 말 잔액인 3,821,707에서 시작하여 1,836,532주가 부여되고, 1,403,826주가 행사되고 371,183주가 포기된 후 최종 잔액은 3,883,230으로, 이는 2008년 12월 31일 보고된 미상장 주식 수와 일치합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_007",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "2006년에 발행된 주식의 평균 공정가치가 5% 더 높았다면, 그 총 가치는 대략 얼마였을까요? (총 가치 = 주식 수 × 공정가치)",
+    "answer": [
+      [
+        "$ 95,781,586.20"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_008",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "open_ended_reasoning",
+    "question": "연도별로 부여된 주식 수와 같은 해에 포기된 주식 수 사이에 일관된 관계가 존재합니까?",
+    "answer": [
+      [
+        "데이터에 따르면 명확하거나 일관된 관계는 없습니다. 2006년에는 1,632,504주가 부여되고 360,734주가 포기되었습니다. 2007년에는 부여된 주식 수가 1,818,716주로 증가했으나 포기된 주식 수는 230,786주로 감소했습니다. 2008년에는 부여된 주식 수가 1,836,532주로 여전히 높은 수준을 유지했으나 포기된 주식 수는 371,183주로 크게 증가했습니다. 포기된 주식 수는 같은 기간 동안 부여된 주식 수와 직접적인 상관관계 없이 변동하고 있습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B6",
+      "B8",
+      "B10",
+      "B12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d834af5a15_009",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "모든 연도에 걸쳐 'granted', 'vested and issued', 또는 'forfeited' 중 어떤 거래가 평균 grant-date fair value가 가장 높습니까?",
+    "answer": [
+      [
+        "granted"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C6",
+      "C7",
+      "C8",
+      "C10",
+      "C11",
+      "C12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d834af5a15_010",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "open_ended_reasoning",
+    "question": "\"unvested restricted stock december 31\"로 시작하는 행들의 구조적 목적은 무엇입니까?",
+    "answer": [
+      [
+        "이 행들은 재무 정산 명세서에서 주기적 잔액 또는 체크포인트 역할을 합니다. 각 'unvested restricted stock' 행은 특정 연말의 누계 총계를 제공하며, 이후 행('granted', 'vested', 'forfeited')은 다음 연말 총계를 도출하기 위해 이 잔액을 수정하는 활동을 상세히 기술합니다. 이는 각 기간의 활동 분석을 위한 시작점과 종료점을 제공합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A9",
+      "A13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_011",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "2005년부터 2008년까지 발행된 제한 주식의 총 수량은 얼마입니까?",
+    "answer": [
+      [
+        "5,287,752"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A6",
+      "A10",
+      "B2",
+      "B6",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

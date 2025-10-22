@@ -1,0 +1,222 @@
+[
+  {
+    "question_id": "finqa_d1c84ab8ff_001",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "¿En qué año se produjo el ajuste negativo más grande a la tasa impositiva por 'impuestos sobre operaciones internacionales'?",
+    "answer": [
+      [
+        "2017"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_002",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "¿Cuál fue la suma de todas las ajustes positivos a la tasa de impuestos en 2018, excluyendo el 'u.s . tax reform impact'?",
+    "answer": [
+      [
+        "7.4"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_003",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "¿En qué año la 'tasa efectiva de impuestos' fue más alta, cuál fue el valor del 'impacto de la reforma tributaria de EE. UU.'?",
+    "answer": [
+      [
+        "51.2"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "C12",
+      "D12",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_004",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "open_ended_reasoning",
+    "question": "Describe la tendencia de la 'tasa impositiva法定' desde 2016 hasta 2018.",
+    "answer": [
+      [
+        "La tasa impositiva法定 muestra una tendencia descendente constante, comenzando en 20.0% en 2016, disminuyendo a 19.3% en 2017 y reduciéndose aún más a 19.0% en 2018."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_005",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "Enumere todas las categorías de ajustes fiscales que tuvieron un impacto positivo constante (es decir, un valor positivo) en la tasa impositiva durante los tres años presentados.",
+    "answer": [
+      [
+        "nondeductible expenses"
+      ],
+      [
+        "change in uncertain tax positions"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "A7",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_006",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "En 2017, ¿qué porcentaje de los ajustes positivos totales a la tasa impositiva fue contribuido por el 'impacto de la reforma fiscal de EE. UU.'?",
+    "answer": [
+      [
+        "87.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5",
+      "C7",
+      "C9",
+      "C11"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_007",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "Si la 'pérdida por disposición' en 2018 hubiera sido cero en lugar de -10.2, ¿cuál habría sido la 'tasa impositiva efectiva' para ese año?",
+    "answer": [
+      [
+        "21.9%"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "B12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_008",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Existe una correlación estable entre la tasa impositiva legal y la tasa impositiva efectiva a lo largo de los tres años? Explique su razonamiento basado en los datos.",
+    "answer": [
+      [
+        "No, no hay una correlación estable. Aunque la tasa legal disminuyó constantemente del 20,0% al 19,0%, la tasa impositiva efectiva fue muy volátil, pasando del 10,6% en 2016, a un pico del 36,5% en 2017, y luego bajando al 11,7% en 2018. Esta volatilidad indica que la tasa efectiva está impulsada por ajustes grandes e inconsistentes, como el impacto de 51,2 de 'u.s. tax reform' en 2017, en lugar de la tasa legal."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "A12",
+      "B12",
+      "C12",
+      "D12",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_009",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "¿Qué elemento de ajuste fiscal específico contiene datos no numéricos para más de un año?",
+    "answer": [
+      [
+        "loss on disposition"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "C10",
+      "D10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_010",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "¿Qué único elemento de ajuste fiscal en 2017 representa la anomalía más significativa en comparación con todos los demás ajustes de ese año?",
+    "answer": [
+      [
+        "u.s . tax reform impact"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_011",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "open_ended_reasoning",
+    "question": "¿En cuánto aumentó la tasa impositiva efectiva de 2016 a 2018?",
+    "answer": [
+      [
+        "La tasa impositiva efectiva aumentó del 10.6% en 2016 al 11.7% en 2018, un aumento del 1.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "D12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

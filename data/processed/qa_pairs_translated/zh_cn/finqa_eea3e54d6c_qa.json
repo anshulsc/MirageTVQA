@@ -1,0 +1,222 @@
+[
+  {
+    "question_id": "finqa_eea3e54d6c_001",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "value",
+    "question": "三年间累计资本支出总额是多少（以千美元计）？",
+    "answer": [
+      [
+        "967859"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_002",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "value",
+    "question": "2005年12月31日结束的财年与2007年12月31日结束的财年之间，哪个与液体相关的运营指标（mbbl/d）增长率最大？",
+    "answer": [
+      [
+        "natural gas liquids transported ( mbbl/d )"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6",
+      "A7",
+      "B7",
+      "D7",
+      "A8",
+      "B8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_003",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "value",
+    "question": "对于'实现天然气销售价格'最高的年份，对应的'天然气处理量'是多少？",
+    "answer": [
+      [
+        "1117"
+      ]
+    ],
+    "evidence_cells": [
+      "B13",
+      "C13",
+      "D13",
+      "D2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_004",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "open_ended_reasoning",
+    "question": "描述2005年至2007年间'天然气加工量（bbtu/天）'与'天然气输送量（mmcf/天）'的整体趋势。",
+    "answer": [
+      [
+        "这两个指标呈现相反的趋势。'天然气加工量'在三年期间持续大幅下降，从2005年的1117 bb tu/天降至2007年的621 bb tu/天。相比之下，'天然气输送量'则大幅增长，从2005年的1333 mmcf/天增至2006年的3634 mmcf/天，随后在2007年略微下降至3579 mmcf/天。"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_005",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "value",
+    "question": "列出所有以'bbtu/d'为单位且2007年数据小于2005年数据的指标。",
+    "answer": [
+      [
+        "natural gas processed ( bbtu/d )"
+      ],
+      [
+        "natural gas sales ( bbtu/d )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A4",
+      "B4",
+      "D4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_006",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "value",
+    "question": "三年中“天然气收集量”在2007年的占比是多少？",
+    "answer": [
+      [
+        "34.28%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_007",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "value",
+    "question": "如果2007年的“实现加工价差”降低了20%，其值会是多少？",
+    "answer": [
+      [
+        "$ 4.17"
+      ]
+    ],
+    "evidence_cells": [
+      "B14"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_008",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "open_ended_reasoning",
+    "question": "在这一三年期间，'实现的天然气销售价格'与'天然气销量'之间是否存在明显的相关性？请解释你的理由。",
+    "answer": [
+      [
+        "是的，存在明显的正相关。随着每百万英热单位的实现天然气销售价格从2005年的7.30美元持续下降到2007年的6.21美元，天然气销量也从2005年的334 bb tu/天持续下降到2007年的281 bb tu/天。这两个指标都呈现相同的下降趋势。"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "A13",
+      "B13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_009",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "open_ended_reasoning",
+    "question": "哪一列数据包含带有括号注释（如“(a)”或“(b)”）的数值条目？",
+    "answer": [
+      [
+        "“截至2005年12月31日”这一列并不包含，但从第11行开始的所有指标在三年中均标记有“(b)”，表明这些行具有特定属性而非单一列的特性。"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "D5",
+      "D7",
+      "D8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_010",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "open_ended_reasoning",
+    "question": "哪一年的资本支出与其他年份相比是显著异常值，原因是什么？",
+    "answer": [
+      [
+        "截至2007年12月31日的资本支出是一个显著异常值。其值为709,858千美元，是2006年支出（201,746千美元）的3.5倍以上，也是2005年支出（56,255千美元）的12.6倍以上，代表了支出的大幅异常增长。"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_011",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "open_ended_reasoning",
+    "question": "为什么天然气销量逐年下降？",
+    "answer": [
+      [
+        "天然气销量从2005年的334 BBtu/d下降到2007年的281 BBtu/d，可能是因为产量降低或市场需求减少，这从数据的一致下降趋势可以看出。"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

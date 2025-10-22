@@ -1,0 +1,219 @@
+[
+  {
+    "question_id": "finqa_d4496bc7b4_001",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Pikantun apa parubahan neto saka kewajiban panghapusan aset ing taun 2009, diitung saka parubahan sing dijelaskan?",
+    "answer": [
+      [
+        "137"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_002",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Kanggé kategori perubahan sing ngalami beda nilai absolut paling gedhe antarane taun 2008 lan 2009?",
+    "answer": [
+      [
+        "held for sale"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_003",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Dina taun 2009, pérangan saka total peningkatan positif (kewajiban sing ditimbulaké, biaya akresi, lan revisi) sing ditrapaké kanggo 'revisi estimasi pungkasan' iku pira persen?",
+    "answer": [
+      [
+        "61.39%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_004",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Apikunipun 'asset retirement obligations as of december 31, 2008' kawijibaken saking saldo awal lan perubahan sing dijelajahi kanggo taun kasebut? Tampilaké perhitunganipun.",
+    "answer": [
+      [
+        "Yes, the ending balance for 2008 is correctly calculated. The calculation is: $1134 (start) + $30 (incurred) - $94 (settled) + $66 (accretion) + $24 (revisions) - $195 (held for sale) = $965, which matches the reported value."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_005",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Yen 'held for sale' ajusti ing 2008 katon nol, piyambaké asset retirement obligations karo akhir 2008 iku karo apa?",
+    "answer": [
+      [
+        "$ 1160"
+      ]
+    ],
+    "evidence_cells": [
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_006",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Tulung analisis lan bandhingake pangandhikan utama kanggo perubahan total asset retirement obligations antarane 2008 lan 2009?",
+    "answer": [
+      [
+        "Ing taun 2008, obligations manjing $169 milyar, kacetha déning pengurangan sing gedhe $195 milyar saka aset 'held for sale' lan $94 milyar liabilitas sing wis dipecahake, sing luwih gedhe tinimbang tambahan $120 milyar. Sanadyané, ing taun 2009 ana kenaikan $137 milyar, kacetha déning 'revisions to previous estimates' sing gedhe $124 milyar, sing luwih saka ngganti liabilitas sing wis dipecahake $65 milyar."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7",
+      "C1",
+      "C7",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_007",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Apa komponen keuangan sing ngalami kenaikan luwih saka $100 milyar saka taun 2008 menyang 2009, nganti dadi outlier ing kahanan perubahan taun-ke-taun?",
+    "answer": [
+      [
+        "revisions to previous estimates"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_008",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Punika taun kapan 'revisi ing estimasi saking pungkasan' luwih saka lima kali luwih gedhe tinimbang 'kewajiban sing ditimbulaké sadurunge melu akuisisi'?",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B5",
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_009",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan data loro taun iki, apa ana pola utawa hubungan sing bisa dipikerteni antarane kewajiban kang diwiwiti lan 'accretion expense' kanggo taun iku?",
+    "answer": [
+      [
+        "Ya, ana pola sing bisa dipikerteni. 'Accretion expense' kerep ngluwihi persentase sing stabil saka saldo kang diwiwiti. Ing taun 2008, iku 5,8% saka saldo kang diwiwiti ($66M / $1134M), lan ing taun 2009, iku 6,6% ($64M / $965M). Iki ngluwungi yen 'accretion expense' diitung kanthi konsisten nggunakake kewajiban kang dibukak, sing kerep nggambarake nilai wektu dhuwit ing kewajiban jangka panjang."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_010",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Kepiye struktur tabel iki nggadahi konfirmasi keterusannipun saldo kewajiban pensiun aset saking akhir 2008 menyang awal 2009?",
+    "answer": [
+      [
+        "Tabel mau nampilake keterusannipun kanthi nampilake nilai kanggo 'asset retirement obligations as of december 31' ing kolom 2008 ($ 965) padha karo nilai kanggo 'asset retirement obligations as of january 1' ing kolom 2009 ($ 965). Iki yaiku presentasi standar roll-forward akuntansi, mawa saldo tutup saka sawijining periode dadi saldo buka saka periode sabanjure."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A7",
+      "B1",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_011",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Pirang pisan total asset retirement obligations katon nganti 2008 menyang 2009?",
+    "answer": [
+      [
+        "Total asset retirement obligations nambah saka $965 juta ing 2008 dadi $1.102 juta ing 2009"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

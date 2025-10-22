@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_f5477c4414_001",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "2012년도 (열 E)에서 'loans 2013 reported'의 합계는 어떻게 되나요? 이는 해당 열의 구성 대출 유형을 합산하여 계산된 것입니다.",
+    "answer": [
+      [
+        "1717"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f5477c4414_002",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "2013년 12월 31일 잔액에서 2012년에서 2013년까지 'loans 2013 reported'를 제외한 어떤 대출 카테고리가 가장 큰 비율 성장을 보였나요?",
+    "answer": [
+      [
+        "loans held-for-sale"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_003",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "\"총 유통 신용 관련 자산\"이 최소일 때의 \"대출 관련 약정\"의 가치는 얼마였습니까?",
+    "answer": [
+      [
+        "$ 434814"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_004",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "2013년 12월 31일 기준 '전체 유통 신용 노출' 중 '대출 관련 약정'이 차지하는 비율은 얼마입니까?",
+    "answer": [
+      [
+        "51.87%"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "B9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f5477c4414_005",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "2013년 12월 31일 가치가 2012년 12월 31일 대비 감소한 자산 또는 부채 카테고리를 모두 나열하시오.",
+    "answer": [
+      [
+        "loans at fair value ( a )"
+      ],
+      [
+        "derivative receivables"
+      ],
+      [
+        "liquid securities and other cash collateral held against derivatives"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A11",
+      "B11",
+      "C11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_006",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "수신자 및 기타 (b)의 값이 '2013' 열 (D열)에서 25% 높아졌다면, 해당 열의 새로운 '전체 유통 신용 관련 자산'은 얼마가 되었을까요?",
+    "answer": [
+      [
+        "1962.5"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "D7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_007",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "\"2013\" 및 \"2012\" 열(D 및 E)에서 가장 비정상적인 변화를 보이는 재무 항목(열 A)을 식별하세요. 이 변화는 절대 차이가 가장 큰 것으로 특징지어집니다.",
+    "answer": [
+      [
+        "loans 2013 reported"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A2",
+      "D2",
+      "E2",
+      "A3",
+      "D3",
+      "E3",
+      "A4",
+      "D4",
+      "E4",
+      "A5",
+      "D5",
+      "E5",
+      "A6",
+      "D6",
+      "E6",
+      "A7",
+      "D7",
+      "E7",
+      "A8",
+      "D8",
+      "E8",
+      "A9",
+      "D9",
+      "E9",
+      "A10",
+      "D10",
+      "E10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f5477c4414_008",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "비수치 텍스트('na')를 포함하는 셀을 식별하여 해당 열의 직접적인 합계를 방해하는 항목을 찾아주세요.",
+    "answer": [
+      [
+        "D11"
+      ],
+      [
+        "E11"
+      ]
+    ],
+    "evidence_cells": [
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_009",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "open_ended_reasoning",
+    "question": "연말 2012년부터 2013년까지의 '전체 유통 크레딧 노출도' 및 주요 영향 요인에 대한 추세를 분석하십시오.",
+    "answer": [
+      [
+        "'전체 유통 크레딧 노출도'는 2012년 $846,628백만에서 2013년 $860,299백만으로 소폭 증가했습니다. 이 성장은 '판매를 위한 대출'이 156% 증가한 것과 '대출 관련 약속'이 2.6% 상승한 것이 주된 원인이었으나, '파생상품 미수금'이 12.3% 감소하고 '공정가치 대출'이 21.3% 하락하여 신용 포트폴리오의 구성 변화를 나타내는 것으로 부분적으로 상쇄되었습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B8",
+      "C8",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_010",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "open_ended_reasoning",
+    "question": "2012년부터 2013년까지 연말 잔액의 변화를 기준으로 할 때, '유도체 수취채권'과 '전체 유통 전문 신용 관련 자산' 사이의 명백한 관계는 무엇입니까?",
+    "answer": [
+      [
+        "이 제한된 데이터 세트 내에서는 역관계가 나타납니다. 2012년 연말에서 2013년 연말까지 '유도체 수취채권'은 74,983백만 달러에서 65,759백만 달러로 감소했으며, 동시에 '전체 유통 전문 신용 관련 자산'은 411,814백만 달러에서 414,067백만 달러로 증가했습니다. 이는 유도체 수취채권의 가치가 감소함에 따라 다른 자산이 더 많이 증가하여 총 자산이 증가하게 되었음을 시사합니다. 그러나 두 개의 데이터 포인트만으로는 확실한 상관관계를 확립할 수 없습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f5477c4414_011",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "대출 보유액이 가장 높은 연도는 언제입니까?",
+    "answer": [
+      [
+        "2013"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

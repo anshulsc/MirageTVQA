@@ -1,0 +1,270 @@
+[
+  {
+    "question_id": "finqa_ee929b55fc_001",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "किस रिपोर्टिंग यूनिट का आवंटित बुक वैल्यू का सबसे अधिक फेयर वैल्यू प्रतिशत है?",
+    "answer": [
+      [
+        "transaction services"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_002",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "किन सभी रिपोर्टिंग यूनिट्स का कुल गुडविल है जिनके नाम में 'बैंकिंग' शब्द शामिल है?",
+    "answer": [
+      [
+        "19960"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_003",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "किस रिपोर्टिंग यूनिट का दूसरा सबसे कम न्यायसंगत मूल्य प्रतिशत है?",
+    "answer": [
+      [
+        "65"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_004",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "सभी रिपोर्टिंग यूनिट्स की सूची बनाएं जिनका गुडविल मूल्य $4,000 से अधिक और फेयर वैल्यू परसेंटेज 400% से कम है।",
+    "answer": [
+      [
+        "asia regional consumer banking"
+      ],
+      [
+        "securities and banking"
+      ],
+      [
+        "local consumer lending 2014cards"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_005",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "सभी रिपोर्टिंग यूनिट्स से कुल गुडविल का कितना हिस्सा 'एशिया रीजनल कंज्यूमर बैंकिंग' को आवंटित किया गया है? उत्तर को एक दशमलव स्थान तक गोल करके प्रतिशत में प्रदान करें।",
+    "answer": [
+      [
+        "23.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_006",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "अगर 'local consumer lending 2014cards' के लिए गुडविल कम होकर 25% कम हो जाए, तो इसका नया गुडविल मूल्य क्या होगा?",
+    "answer": [
+      [
+        "3420"
+      ]
+    ],
+    "evidence_cells": [
+      "C8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_007",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "open_ended_reasoning",
+    "question": "डेटा के आधार पर, क्या उच्च गुडविल मूल्य और उच्च 'आवंटित बुक वैल्यू का प्रतिशत समानुपातिक मूल्य' के बीच स्पष्ट सकारात्मक सहसंबंध है? एक तर्कसंगत विश्लेषण प्रदान करें।",
+    "answer": [
+      [
+        "नहीं, कोई स्पष्ट सकारात्मक सहसंबंध नहीं है। उदाहरण के लिए, 'ट्रांजेक्शन सर्विसेज' में 'आवंटित बुक वैल्यू का प्रतिशत समानुपातिक मूल्य' सबसे अधिक है (1716), लेकिन गुडविल मामूली मात्रा में है ($1567)। इसके विपरीत, 'सिक्योरिटीज एंड बैंकिंग' में सबसे अधिक गुडविल ($9259) है, लेकिन आवंटित बुक वैल्यू का प्रतिशत समानुपातिक मूल्य केवल चौथा सबसे अधिक है (223)। यह दर्शाता है कि एक मापदंड में उच्च मूल्य होने से दूसरे मापदंड में उच्च मूल्य होना आवश्यक नहीं है।"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_008",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "उस रिपोर्टिंग यूनिट की पहचान करें जिसका 'fair value as a %' एक महत्वपूर्ण आउटलायर है, और यह सभी यूनिट्स के माध्यमिक fair value प्रतिशत से कितने गुना अधिक है? गुणक को निकटतम पूर्णांक तक गोल करें।",
+    "answer": [
+      [
+        "transaction services",
+        "9"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_009",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "open_ended_reasoning",
+    "question": "चार रिपोर्टिंग यूनिट्स जिनका गुडविल सबसे कम है, उनके नामों में कौन सा सामान्य विषय मौजूद है?",
+    "answer": [
+      [
+        "चार यूनिट्स जिनका गुडविल सबसे कम है ('ब्रोकरेज और एसेट मैनेजमेंट', 'एमईएमए रीजनल कंस्यूमर बैंकिंग', 'ट्रांजैक्शन सर्विसेज', और 'लैटिन अमेरिका रीजनल कंस्यूमर बैंकिंग') के नामों में 'नॉर्थ अमेरिका' या 'एशिया' शामिल नहीं है और ये या तो गैर-यूएस क्षेत्र या विशिष्ट गैर-क्षेत्रीय सेवा लाइनों का प्रतिनिधित्व करते हैं।"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A6",
+      "C6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_010",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "चार 'क्षेत्रीय उपभोक्ता बैंकिंग' इकाइयों में से किस इकाई का प्रतिशत बिंदु के प्रति निष्पक्ष मूल्य का सबसे अधिक गुडविल है?",
+    "answer": [
+      [
+        "asia regional consumer banking"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_011",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "सभी क्षेत्रों में से किस रिपोर्टिंग यूनिट में सबसे अधिक गुडविल था?",
+    "answer": [
+      [
+        "Securities and Banking"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_dbc539719b_001",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Di antara negara bagian yang terdaftar secara individual, manakah yang menghasilkan pendapatan operasional per pelanggan tertinggi?",
+    "answer": [
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A4",
+      "B4",
+      "D4",
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_002",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Berapa total gabungan jumlah pelanggan untuk Illinois, Indiana, dan California?",
+    "answer": [
+      [
+        "779881"
+      ]
+    ],
+    "evidence_cells": [
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_dbc539719b_003",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Berapa persentase gabungan dari total pendapatan operasional dari negara bagian dengan populasi terlayani yang diperkirakan terendah?",
+    "answer": [
+      [
+        "12.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "F6",
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_004",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Negara-negara mana yang memiliki pangsa dari jumlah pelanggan total yang lebih besar daripada pangsa dari total pendapatan operasionalnya?",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "indiana"
+      ],
+      [
+        "west virginia ( b )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "A5",
+      "C5",
+      "E5",
+      "A6",
+      "C6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_005",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Berapa rasio persentase total pelanggan terhadap persentase populasi yang dilayani untuk kategori 'other ( c )', dibulatkan ke dua tempat desimal?",
+    "answer": [
+      [
+        "1.01"
+      ]
+    ],
+    "evidence_cells": [
+      "E8",
+      "G8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_dbc539719b_006",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Jika pendapatan operasional Pennsylvania meningkat sebesar 10%, berapa pendapatan operasional baru untuk 'subtotal ( tujuh negara bagian teratas )', dengan asumsi pendapatan negara bagian lain tetap tidak berubah?",
+    "answer": [
+      [
+        "2388.14"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_007",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Analisis hubungan antara jumlah pelanggan dan populasi yang diperkirakan dilayani untuk enam negara bagian yang tercantum. Apakah terdapat korelasi positif, dan apa implikasinya?",
+    "answer": [
+      [
+        "Ya, terdapat korelasi positif yang kuat. Seiring dengan peningkatan jumlah pelanggan di suatu negara bagian, populasi yang diperkirakan dilayani juga cenderung meningkat. Misalnya, Pennsylvania memiliki jumlah pelanggan tertinggi (666.415) dan populasi yang diperkirakan dilayani terbesar (2,2 juta), sedangkan West Virginia dan California, yang memiliki jumlah pelanggan terendah, juga memiliki populasi yang diperkirakan dilayani terkecil. Hal ini mengimplikasikan bahwa basis pelanggan merupakan komponen langsung dan proporsional dari populasi yang dilayani oleh bisnis di wilayah tersebut."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_dbc539719b_008",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Dengan menghitung estimasi populasi yang dilayani per pelanggan untuk masing-masing enam negara bagian individu, identifikasi negara bagian mana yang merupakan outlier paling signifikan dan jelaskan mengapa.",
+    "answer": [
+      [
+        "Illinois adalah outlier paling signifikan. Estimasi populasi yang dilayani per pelanggan untuk setiap negara bagian adalah: Pennsylvania (~3.30), Missouri (~3.23), Illinois (~4.17), California (~3.44), Indiana (~4.09), dan West Virginia (~3.52). Sementara sebagian besar negara bagian melayani antara 3,2 hingga 3,5 orang per pelanggan, Illinois dan Indiana memiliki angka yang lebih tinggi secara signifikan. Illinois memiliki rasio tertinggi yaitu sekitar 4,17, menunjukkan bahwa setiap pelanggan di Illinois mewakili proporsi populasi yang dilayani yang lebih besar dibandingkan negara bagian lain, sehingga menjadi outlier paling signifikan."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_dbc539719b_009",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Verifikasi apakah persentase total pendapatan operasional untuk 'subtotal (tujuh negara bagian teratas)' dan 'other (c)' secara akurat menjumlahkan ke persentase yang ditunjukkan untuk 'total regulated businesses'.",
+    "answer": [
+      [
+        "Ya, penjumlahannya akurat. 'Subtotal (tujuh negara bagian teratas)' menyumbang 87,0% dari total pendapatan operasional, dan kategori 'other (c)' menyumbang 13,0%. Menjumlahkan kedua persentase ini (87,0% + 13,0%) menghasilkan 100,0%, yang sesuai dengan nilai yang diberikan untuk 'total regulated businesses'."
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_010",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Pasangan negara bagian mana dari daftar enam yang memiliki jumlah pelanggan gabungan terdekat dengan jumlah pelanggan di Pennsylvania?",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_011",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Berapa pendapatan operasional dalam jutaan dolar untuk California?",
+    "answer": [
+      [
+        "$209.8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

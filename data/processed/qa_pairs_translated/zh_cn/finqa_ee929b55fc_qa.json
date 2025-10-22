@@ -1,0 +1,270 @@
+[
+  {
+    "question_id": "finqa_ee929b55fc_001",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "哪个报告单位的公允价值占分配账面价值的百分比最高？",
+    "answer": [
+      [
+        "transaction services"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_002",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "所有名称中包含“banking”一词的报告单位的总商誉是多少？",
+    "answer": [
+      [
+        "19960"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_003",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "报告单位中公平价值百分比第二低的是多少商誉？",
+    "answer": [
+      [
+        "65"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_004",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "列出所有商誉价值超过4000美元且公允价值百分比低于400%的报告单位。",
+    "answer": [
+      [
+        "asia regional consumer banking"
+      ],
+      [
+        "securities and banking"
+      ],
+      [
+        "local consumer lending 2014cards"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_005",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "所有报告单位的总商誉中，'亚洲区域消费者银行业务'占多大比例？请以四舍五入至一位小数的百分比形式提供答案。",
+    "answer": [
+      [
+        "23.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_006",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "如果“local consumer lending 2014cards”的商誉因减值损失减少25%，其新的商誉价值是多少？",
+    "answer": [
+      [
+        "4560"
+      ]
+    ],
+    "evidence_cells": [
+      "C8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_007",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "open_ended_reasoning",
+    "question": "根据数据，高商誉值与高“分配账面价值的公允价值百分比”之间是否存在明显的正相关关系？请提供合理分析。",
+    "answer": [
+      [
+        "否，不存在明显的正相关关系。例如，“交易服务”拥有最高的“分配账面价值的公允价值百分比”（1716%），但商誉值相对适中（1567美元）。相反，“证券和银行业”拥有最高的商誉（9259美元），但公允价值百分比仅排第四（223%）。这表明一个指标的高值并不总是对应另一个指标的高值。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_008",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "识别‘公允价值占比’显著异常的报告单位，并且其值是所有单位中位数公允价值百分比的多少倍？将倍数四舍五入到最接近的整数。",
+    "answer": [
+      [
+        "transaction services",
+        "9"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_009",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "open_ended_reasoning",
+    "question": "四个商誉最低的报告单位名称中有什么共同点？",
+    "answer": [
+      [
+        "四个商誉最低的单位（'brokerage and asset management'，'emea regional consumer banking'，'transaction services'和'latin america regional consumer banking'）的名称中不包含'north america'或'asia'，代表非美国地区或特定非区域服务线。"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A6",
+      "C6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_010",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "四个'区域消费者银行业务'单位中，哪个单位的公允价值百分比每点对应的商誉金额最高？",
+    "answer": [
+      [
+        "asia regional consumer banking"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_011",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "哪个报告单位在所有区域中拥有最高的商誉？",
+    "answer": [
+      [
+        "Securities and Banking"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

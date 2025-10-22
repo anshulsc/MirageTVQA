@@ -1,0 +1,205 @@
+[
+  {
+    "question_id": "finqa_ec80ad8938_001",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Apa jumlah total carrying amount kanggo sadaya aset (kabeh trading assets jeung loans) anu dilaporkeun dina dua susunan data nu disajikeun?",
+    "answer": [
+      [
+        "26557"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_002",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Dina set data kaping dua (kolom D jeung E), kategori aset mana—aset niaga atawa utang—naon nu leuwih gede 'aggregate unpaid principal balance in excess of fair value'?",
+    "answer": [
+      [
+        "loans"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_003",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Aya kumaha persén ti total 'carrying amount' anu diwakaran ku 'balance of non-accrual loans' pikeun kumpulan loan pertama (kolom C)?",
+    "answer": [
+      [
+        "0.03%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_004",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Apa jumlah total nilai buku dari jenis aset (Aset Perdagangan utawa Pinjaman) anu ngahasilkeun total 'balance of non-accrual loans' anu leuwih leutik di antara dua kumpulan data?",
+    "answer": [
+      [
+        "7598"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_005",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Cantoskeun carrying amount pikeun kabéh portfolio aset nu 'balance of non-accrual loans or loans more than 90 days past due' éta $1 juta kawentar?",
+    "answer": [
+      [
+        "$ 3224"
+      ],
+      [
+        "$ 4374"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C3",
+      "E3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_006",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Yén kuring henteu ngarti kumaha ngadamel terjemahan dina basa Sunda. Tapi kuring bakal nyobian: 'Kungging jumlah ngalir pikeun trading assets dina data set kahiji (kolom B) diadjust ku ngaluarkeun 'aggregate unpaid principal balance in excess of fair value', naon jumlah ngalir anyar na?'. Tapi kuring yakin éta teu akurat. Tapi kuring kudu ngajawab dina basa Sunda.",
+    "answer": [
+      [
+        "9673"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_007",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Analisis 'balance of non-accrual loans', jenis aset mana yang balancenya jadi outlier siginifikan dibandingkeun anu lianna, sarta nu sababna aya ieu hal ngeunaan risiko relative na?",
+    "answer": [
+      [
+        "Trading Assets dina kedua set data nunjukkeun balance non-accrual $2.014 milyar, anu jadi outlier ekstrém dibandingkeun $1 juta pikeun Loans dina kedua set. Perbedaan anu nyolok ieu ngajelaskeun yén portofolio Trading Assets ngabawa risiko kredit anu leuwih gedé atawa geus alami peristiwa default utama, saprak portofolio Loans tampak dina kondisi anu luar biasa sehat jeung hampir teu aya balance non-accrual."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_008",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Hiji kumaha data kagunaan panyambungan positif anu konsisten antara 'carrying amount' jeung 'aggregate unpaid principal balance in excess of fair value' pikeun kategori Trading Assets?",
+    "answer": [
+      [
+        "Henteu, henteu aya panyambungan positif anu konsisten. Set pertama tina trading assets ngabogaan carrying amount leuwih gede ($10,108M vs $8,851M) tapi aggregate unpaid principal balance in excess of fair value leuwih leutik ($435M vs $623M). Ieu ngajelaskeun yén ukuran portofolio anu leuwih gedé henteu pasti ngajantenkeun kerugian unrealized anu proporsional leuwih gedé dina dataset ieu."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_009",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Cicing naon baris anu ngandung data anu diulang atawa rada redundant sarta jelaskeun polana.",
+    "answer": [
+      [
+        "Aya redundansi data dina baris 3 jeung 4. Di baris 3, 'balance of non-accrual loans...', nilai pikeun trading assets $2,014M dina kedua set (B3, D3) sarta $1M pikeun loans dina kedua set (C3, E3). Di baris 4, nilai $2,014M diulang tilu kali pikeun kedua set trading assets jeung set pertama loans (B4, C4, D4), ngajelaskeun pola input data atawa artifact laporan keuangan."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_010",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Sacara data set (Set 1: kolom B,C atawa Set 2: kolom D,E) nu mibanda total carrying amount leuwih luhur, kumaha harti persentase rugi unrealized (total unpaid principal balance in excess of fair value dibagi ku total carrying amount)?",
+    "answer": [
+      [
+        "8.82%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_011",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Saha kawas anu dilaporkan dina neraca konsolidasi keur aset dagang dibandingkeun jeung pinjamana sapertos 31 Desember 2018?",
+    "answer": [
+      [
+        "Kawas anu dilaporkan keur aset dagang leuwih gede ti pinjamana. Keur aset dagang, ieu $10,108 juta jeung $8,851 juta, sapertos keur pinjamana ieu $3,224 juta jeung $4,374 juta."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

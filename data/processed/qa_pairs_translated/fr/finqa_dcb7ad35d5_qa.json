@@ -1,0 +1,219 @@
+[
+  {
+    "question_id": "finqa_dcb7ad35d5_001",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "Quel type d'obligation, en excluant la dette à long terme, présente le montant total dû le plus élevé ?",
+    "answer": [
+      [
+        "purchase obligations and other ( 4 ) ( 5 ) ( 6 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_002",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "Quelles sont les obligations totales combinées dues avant l'exercice fiscal 2023 ?",
+    "answer": [
+      [
+        "3935.9"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_003",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "Quel est le montant total des paiements dus pour les périodes 2021-2022 et 2023-2024 pour le type d'obligation ayant le plus petit paiement dû en fiscal 2020 ?",
+    "answer": [
+      [
+        "11.6"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "A3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_004",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "Décrivez la tendance des obligations de paiement totales de l'entreprise pour les périodes fiscales définies menant à « thereafter ».",
+    "answer": [
+      [
+        "Les obligations de paiement totales présentent une tendance fluctuante. Elles commencent à 2378,5 millions de dollars en fiscal 2020, puis diminuent à 1557,4 millions de dollars pour la période 2021-2022, avant d'atteindre un pic significatif de 2897,5 millions de dollars pour la période 2023-2024. Cela indique une baisse des obligations à court terme suivie d'une forte augmentation des engagements à moyen terme."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_005",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "Listez toutes les catégories d'obligations pour lesquelles les paiements dus « après » dépassent la somme de tous les paiements dus de 2020 à 2024.",
+    "answer": [
+      [
+        "long-term debt including current portionexcluding capital lease obligations ( 1 )"
+      ],
+      [
+        "capital lease obligations ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "A3",
+      "C3",
+      "D3",
+      "E3",
+      "F3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_006",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "Quel pourcentage des paiements totaux dus en fiscal 2020 sont attribués à « obligations d'achat et autres » ?",
+    "answer": [
+      [
+        "67.56%"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_007",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "Si toutes les 'obligations de location opérationnelle' dues en fiscal 2021 et 2022 étaient reportées et ajoutées à la période 'par la suite', quelle serait la nouvelle totale pour la période 'par la suite' ?",
+    "answer": [
+      [
+        "6589.9"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "F5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_008",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "Sur la base des échéanciers de paiement, que peut-on déduire du profil d'échéance de la « dette à long terme » par rapport aux « obligations d'achat » ?",
+    "answer": [
+      [
+        "Les profils d'échéance sont radicalement différents. La « dette à long terme » est fortement différée, avec la majorité des paiements (5729,2 M$ sur 9714,1 M$) dus « par la suite », ce qui indique des instruments de financement à long terme. À l'inverse, les « obligations d'achat » sont fortement concentrées dans le court terme, avec la grande majorité des paiements (1607,0 M$ sur 2293,5 M$) dus dans l'exercice fiscal immédiat 2020, ce qui est caractéristique d'engagements opérationnels à court terme."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_009",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "Quel montant de paiement pour les \"obligations de location financière\" est une valeur aberrante, représentant près de 90 % de l'obligation totale ?",
+    "answer": [
+      [
+        "$ 150.9"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_010",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "En additionnant manuellement les valeurs de la colonne « payments due by period fiscal 2023and 2024 » pour chaque obligation individuelle, vérifiez si le total fourni dans la cellule E5 est correct.",
+    "answer": [
+      [
+        "Oui, le total fourni est correct. La somme des obligations individuelles pour la période fiscale 2023 et 2024 est de 2494,3 $ + 193,6 $ + 2,9 $ + 206,7 $, ce qui donne 2897,5 $, correspondant à la valeur de la cellule E5."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_011",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "Dans quelle période les obligations de location opérationnelle sont-elles les plus élevées ?",
+    "answer": [
+      [
+        "Fiscal 2021 et 2022, avec 316,4 millions de dollars d'obligations"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

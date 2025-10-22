@@ -1,0 +1,198 @@
+[
+  {
+    "question_id": "finqa_d1c767b631_001",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "¿En qué año fue más pronunciado el uso de efectivo para 'net cash used in investing activities'?",
+    "answer": [
+      [
+        "2018"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c767b631_002",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "¿Cuál fue el total de 'net cash provided by operating activities' en los tres años mostrados en la tabla?",
+    "answer": [
+      [
+        "$ 1959.7"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d1c767b631_003",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "Identifica el año en que la empresa financió sus actividades principalmente a través de operaciones, como se indica mediante un flujo de caja positivo de operaciones y flujos de caja negativos tanto de inversiones como de financiación.",
+    "answer": [
+      [
+        "2016"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "B6",
+      "C4",
+      "C5",
+      "C6",
+      "D4",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c767b631_004",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "open_ended_reasoning",
+    "question": "Describe la tendencia general en las actividades de financiación de la empresa desde 2016 hasta 2018.",
+    "answer": [
+      [
+        "La actividad de financiación de la empresa muestra un cambio drástico durante el período. En 2016 y 2017, hubo un uso significativo de efectivo para financiación, con salidas de $666.4 y $1004.9 respectivamente, lo que sugiere actividades como el pago de deudas o recompras de acciones. Esta tendencia se invirtió completamente en 2018, con un ingreso masivo de $1853.2 en actividades de financiación, lo que indica que la empresa probablemente recaudó capital sustancial mediante la emisión de deuda o acciones."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c767b631_005",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "¿En qué años el ingreso neto fue superior a $1000 y la empresa experimentó un flujo de efectivo neto negativo del capital de trabajo?",
+    "answer": [
+      [
+        "2018",
+        "2016"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c767b631_006",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "En 2017, ¿qué porcentaje de los 'ingresos netos ajustados para reconciliar con el efectivo neto proporcionado por actividades operativas' provino del ítem 'ingresos netos ajustados...'?",
+    "answer": [
+      [
+        "96.63%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d1c767b631_007",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "Si los 'cambios en otros activos no corrientes y pasivos' para 2016 hubieran sido cero en lugar de -$95.5, ¿cuál habría sido el 'efectivo neto proporcionado por actividades operativas' para ese año?",
+    "answer": [
+      [
+        "$ 608.3"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c767b631_008",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Cuál es la relación aparente entre 'flujo de efectivo utilizado en actividades de inversión' y 'flujo de efectivo proporcionado por (utilizado en) actividades de financiación' en el año 2018, y qué implica sobre la estrategia de la compañía ese año?",
+    "answer": [
+      [
+        "En 2018, existe una relación inversa fuerte entre los flujos de efectivo de inversión y financiación. La compañía tuvo un desembolso de efectivo muy grande para inversión de $2491.5, que fue sustancialmente financiado por un flujo de efectivo importante de financiación de $1853.2. Esto implica una iniciativa estratégica importante, como una adquisición grande o gasto de capital significativo, que fue pagado principalmente mediante la captación de nuevo capital en lugar de flujo de efectivo operativo."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d1c767b631_009",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "¿Qué cifra específica de flujo de efectivo para 2018 representa la mayor anomalía en términos absolutos cuando se compara con las cifras correspondientes de los dos años anteriores (2016 y 2017)?",
+    "answer": [
+      [
+        "net cash used in investing activities"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d1c767b631_010",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "open_ended_reasoning",
+    "question": "La tabla incluye valores como '-431.1 ( 431.1 )'. Basado en la sumatoria que da como resultado 'net cash provided by operating activities', ¿qué significa este estilo notacional en la información financiera?",
+    "answer": [
+      [
+        "Esta notación es una práctica contable estándar para representar números negativos o salidas de efectivo. El signo negativo inicial indica el valor que se utilizará en los cálculos, mientras que el número entre paréntesis representa el valor absoluto de la salida de efectivo, a menudo utilizado para mayor claridad en la presentación. La corrección del total de 'net cash provided by operating activities' confirma que estas cifras entre paréntesis representan valores que se restan."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c767b631_011",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "¿Cuánto es el flujo de efectivo neto proporcionado por actividades operativas al final del 31 de diciembre de 2017?",
+    "answer": [
+      [
+        "$881.8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

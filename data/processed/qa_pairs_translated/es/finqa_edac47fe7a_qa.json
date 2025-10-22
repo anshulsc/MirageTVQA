@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "finqa_edac47fe7a_001",
+    "table_id": "finqa_edac47fe7a",
+    "question_type": "value",
+    "question": "¿Qué flujo de ingresos experimentó la mayor disminución porcentual de 2012 a 2013?",
+    "answer": [
+      [
+        "securities underwriting and trading ( a )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_edac47fe7a_002",
+    "table_id": "finqa_edac47fe7a",
+    "question_type": "value",
+    "question": "¿Cuál fue el ingreso total de todas las fuentes de ingresos distintas (interés y no interés) para el año 2013?",
+    "answer": [
+      [
+        "317"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_edac47fe7a_003",
+    "table_id": "finqa_edac47fe7a",
+    "question_type": "open_ended_reasoning",
+    "question": "¿La suma de los componentes de 'total customer-related trading revenue' (valores, divisas y derivados) coincide exactamente con el total reportado para 2013? Proporciona un 'Sí' o 'No' y la suma calculada.",
+    "answer": [
+      [
+        "Sí, la suma es de $317 millones"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_edac47fe7a_004",
+    "table_id": "finqa_edac47fe7a",
+    "question_type": "open_ended_reasoning",
+    "question": "Describe la tendencia general de 'ingresos netos por intereses' entre 2012 y 2013.",
+    "answer": [
+      [
+        "El 'ingreso neto por intereses' mostró una tendencia decreciente, disminuyendo de $38 millones en 2012 a $31 millones en 2013, lo que representa una reducción del 18,4% interanual."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_edac47fe7a_005",
+    "table_id": "finqa_edac47fe7a",
+    "question_type": "value",
+    "question": "Enumera todas las categorías de ingresos que mostraron crecimiento de 2012 a 2013 Y tenían un valor superior a $100 millones en 2013.",
+    "answer": [
+      [
+        "noninterest income"
+      ],
+      [
+        "financial derivatives and other"
+      ],
+      [
+        "total customer-related trading revenue"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A6",
+      "B6",
+      "C6",
+      "A3",
+      "B3",
+      "C3",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_edac47fe7a_006",
+    "table_id": "finqa_edac47fe7a",
+    "question_type": "value",
+    "question": "¿Qué proporción del 'total customer-related trading revenue' de 2012 se derivó de 'securities underwriting and trading (a)'?",
+    "answer": [
+      [
+        "32.26%"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_edac47fe7a_007",
+    "table_id": "finqa_edac47fe7a",
+    "question_type": "value",
+    "question": "Si los 'ingresos no intereses' en 2013 hubieran disminuido en la misma cantidad absoluta que los 'ingresos netos por intereses' disminuyeron de 2012 a 2013, ¿cuál habría sido su valor?",
+    "answer": [
+      [
+        "279"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_edac47fe7a_008",
+    "table_id": "finqa_edac47fe7a",
+    "question_type": "open_ended_reasoning",
+    "question": "Según los datos, ¿podemos inferir un cambio estratégico consistente en el negocio alejándose del trading de valores hacia los derivados entre 2012 y 2013? Explica tu razonamiento.",
+    "answer": [
+      [
+        "Sí, se puede inferir un posible cambio. Los ingresos de 'subscripciones y trading de valores' disminuyeron en $22 millones (una disminución del 22%), mientras que los ingresos de 'derivados financieros y otros' aumentaron en $27 millones (un aumento del 22.9%). Este movimiento inverso, con uno disminuyendo significativamente y el otro creciendo en una magnitud similar, sugiere una posible realocación estratégica de capital o enfoque desde actividades de valores hacia derivados."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_edac47fe7a_009",
+    "table_id": "finqa_edac47fe7a",
+    "question_type": "value",
+    "question": "Identifica la métrica financiera que aparece más de una vez en la primera columna de la tabla.",
+    "answer": [
+      [
+        "total customer-related trading revenue"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "A7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_edac47fe7a_010",
+    "table_id": "finqa_edac47fe7a",
+    "question_type": "value",
+    "question": "¿Qué componente de los ingresos por trading relacionado con clientes fue el mayor valor atípico en términos de su cambio absoluto en valor de 2012 a 2013?",
+    "answer": [
+      [
+        "financial derivatives and other"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_edac47fe7a_011",
+    "table_id": "finqa_edac47fe7a",
+    "question_type": "value",
+    "question": "¿Cuál fue el intercambio de divisas (en millones) en 2013?",
+    "answer": [
+      [
+        "$94"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

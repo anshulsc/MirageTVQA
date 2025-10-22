@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_e33c420d31_001",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "\"债务义务\"와 \"장기부채 이자 지급\"을 제외한 계약상 의무 중 \"3-5년\" 기간에 가장 큰 금액이 만기되는 것은 무엇인가요?",
+    "answer": [
+      [
+        "연료 의무"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_002",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "주석 참조가 '11'인 모든 의무의 합계는 얼마입니까?",
+    "answer": [
+      [
+        "$ 16297"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "H3",
+      "B4",
+      "H4",
+      "B5",
+      "H5",
+      "B6",
+      "H6",
+      "B7",
+      "H7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_e33c420d31_003",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "1-3년 내에 만기되는 총 의무 중 가장 높은 총액을 가진 단일 의무가 차지하는 비율은 얼마입니까?",
+    "answer": [
+      [
+        "27.04%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "D1",
+      "D9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_004",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "장기 부채에 대한 이자 지급에 대해 네 개의 시간대별 지급 추이를 분석하고 의무가 앞부분에 집중되어 있는지 뒷부분에 집중되어 있는지 결정하십시오.",
+    "answer": [
+      [
+        "'장기 부채에 대한 이자 지급'의 지급액은 $1,172 (1년 미만), $2,166 (1-3년), $1,719 (3-5년), $4,046 (5년 초과)입니다. 의무는 시간이 지남에 따라 지급액이 증가하는 추세를 보이며, 가장 큰 단일 지급액이 '5년 초과' 기간에 발생하기 때문에 상당히 뒷부분에 집중되어 있습니다. 이자 지급 총액의 63% 이상이 3년 이상 미래에 만기됩니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_005",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "\"less than 1 year\"에 해당하는 금액이 \"3-5 years\"에 해당하는 금액보다 큰 계약상 의무를 나열하십시오.",
+    "answer": [
+      [
+        "fuel obligations"
+      ],
+      [
+        "other purchase obligations"
+      ],
+      [
+        "other long-term liabilities reflected on aes' consolidated balance sheet under gaap ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "E6",
+      "A7",
+      "C7",
+      "E7",
+      "A8",
+      "C8",
+      "E8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_006",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "최종 합계 행을 기준으로 총 단기 의무(1년 미만 만기)와 총 장기 의무(5년 초과 만기)의 비율은 얼마인가요?",
+    "answer": [
+      [
+        "Approximately 1:2.81"
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "F9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_e33c420d31_007",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "신규 정책으로 '운영 임대 의무' 중 '5년 초과' 기간에 상환되어야 할 금액을 모두 '3-5년' 기간 내에 지급하도록 요구할 경우, '3-5년' 열의 새로운 총합은 얼마가 되겠습니까?",
+    "answer": [
+      [
+        "$ 10283"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_008",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "에너지 의무 유형(연료 vs 전기)과 지급 일정 사이에 명확한 상관관계가 있는가?",
+    "answer": [
+      [
+        "예, 명확한 상관관계가 있습니다. '연료 의무'는 앞부분에 집중되어 있으며, '1년 미만'에 가장 큰 지급액($1,759)이 due되어 단기 계약을 시사합니다. 반면에 '전기 의무'는 뒷부분에 집중되어 있으며, '5년 초과'에 가장 큰 지급액($2,065)이 due되어 장기 전력 구매 계약을 반영할 가능성이 있습니다. 이는 에너지원의 성질이 재무적 의무의 기간과 관련이 있음을 나타냅니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_e33c420d31_009",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "최종 행의 각 지급 기간별 총액을 기준으로, 어떤 기간이 가장 큰 금융 의무를 가지고 있으며, 이는 회사의 부채 구조에 대해 어떤 의미를 갖는가?",
+    "answer": [
+      [
+        "\"5년 초과\" 기간에 $20,544로 가장 큰 의무가 있습니다. 이는 회사의 부채 구조가 주로 장기적이며, 재무 의무의 상당 부분이 먼 미래에 상환될 예정임을 시사하며, 장기 자금 조달 전략 또는 대규모 자본 프로젝트를 나타냅니다."
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "D9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_010",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "\"기타 장기 부채\" 행의 \"1년 미만\" 열에 있는 값이 이상치로 보입니다. 이 값을 식별하고 그 이유를 설명하세요.",
+    "answer": [
+      [
+        "\"1년 미만\" 열의 이상치는 \"$ 2014\"입니다. 이는 전체 부채의 \"총계\"로 표시된 \"$ 701\"보다 훨씬 큰 단기 지급액으로, 논리적으로 불가능하며 데이터 오류일 가능성이 높습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_e33c420d31_011",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "연료 의무 총액은 백만 단위로 얼마입니까?",
+    "answer": [
+      [
+        "$5859"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

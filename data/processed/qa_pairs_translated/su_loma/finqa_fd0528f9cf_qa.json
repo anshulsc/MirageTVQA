@@ -1,0 +1,226 @@
+[
+  {
+    "question_id": "finqa_fd0528f9cf_001",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Dina taun 2008, sasukeuna persentase pikeun total biaya operasi leuwih ti total pendapatan neto ti bunga?",
+    "answer": [
+      [
+        "109.65%"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_002",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Apa margin laba pra-pajak (didefinisikan sahiji 'income from continuing operations before taxes' dibagi ku 'total revenues net of interest expense') dina taun anu paling rendah 'net interest revenue'?",
+    "answer": [
+      [
+        "76.61%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "B3",
+      "B10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_003",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Aya metrik pikeun kasuksaraan nu mana nu ngalami pangwangunan absolut (perobahan positif) dina nilai dolar antara 2008 jeung 2009?",
+    "answer": [
+      [
+        "income ( loss ) from continuing operations before taxes"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_004",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "open_ended_reasoning",
+    "question": "Jelaskeun pangalihan finansial perusahaan antara taun 2008 jeung 2009, ngacu kana trend dina total pendapatan, biaya operasional, jeung pendapatan bersih.",
+    "answer": [
+      [
+        "Perusahaan ngeunaan pangalihan finansial nu luar biasa ti taun 2008 ka 2009. Total pendapatan ningkat 80%, ti $8,423 juta ka $15,135 juta. Sacara serempak, total biaya operasional dikurangkeun sacara drastis 64%, tur ti $9,236 juta ka $3,350 juta. Gabungan kana pangwangunan pendapatan jeung pangurangan biaya nu luhur ngarobah rugi bersih $585 juta dina taun 2008 jadi pendapatan bersih nu luhur $7,095 juta dina taun 2009."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "E3",
+      "B4",
+      "C4",
+      "E4",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_005",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Cikana sahiji ukur finansial anu nyanggung nilai negatip (rugi atawa manfaat) dina taun 2008 tapi nilai positip dina taun 2009?",
+    "answer": [
+      [
+        "income ( loss ) from continuing operations before taxes"
+      ],
+      [
+        "income taxes ( benefits )"
+      ],
+      [
+        "income ( loss ) from continuing operations"
+      ],
+      [
+        "net income ( loss ) attributable to noncontrolling interests"
+      ],
+      [
+        "net income ( loss )"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10",
+      "A11",
+      "B11",
+      "C11",
+      "A12",
+      "B12",
+      "C12",
+      "A13",
+      "B13",
+      "C13",
+      "A14",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_006",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Apa total biaya operasional rata-rata dina jutaan dolar pikeun tilu taun anu disayogikeun (2007, 2008, 2009)?",
+    "answer": [
+      [
+        "$6848.67"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_007",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Ningana % perubahan 2009 vs. 2008 pikeun 'net interest revenue' aya 50% pangkurangan tinimbang 65% pangkurangan, naon total revenues net of interest expense dina 2009, lamun non-interest revenue teu aya pangubahan?",
+    "answer": [
+      [
+        "$15315"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "E1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_008",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "open_ended_reasoning",
+    "question": "Analisa hubungan antara 'eop assets' jeung 'eop deposits' perusahaan tina 2007 ka 2009 sarta simpulan indikasi pindah strategi.",
+    "answer": [
+      [
+        "Tina 2007 ka 2009, aya hubungan kaasupan antara EOP assets jeung EOP deposits. Sapertos aset turun tina $56 milyar ka $35 milyar, deposit naik tina $46 milyar ka $60 milyar. Ieu nyanggupkeun pindah strategi penting ti nempo aset ka ngamundakkeun dasar deposit, kacida pikeun ngajaga likuiditas, ngurangan resiko, jeung ngajantenkeun aktivitas inti perbankan dina masa transformatif finansial."
+      ]
+    ],
+    "evidence_cells": [
+      "B15",
+      "C15",
+      "D15",
+      "B16",
+      "C16",
+      "D16"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_009",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "open_ended_reasoning",
+    "question": "Data point saép anu di kolom '% change' anu kawangun anomali, teu ngalakonan format persentase anu kawangun di sababaraha sel lianna?",
+    "answer": [
+      [
+        "Nilai '2014' pikeun 'net credit losses' di kolom '% change 2008 vs. 2007' nyaéta anomali, saprak éta integer gedé sareng teu persentase."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "F5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_010",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Kumaha jumlah metrik pangadilan anu ditandayi salaku 'nm' (henteu boga makna) di kolom '% perubahan 2009 vs. 2008', anu ngajelaskeun henteu bisa diitung persentase pangadilan normal?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E6",
+      "E10",
+      "E11",
+      "E12",
+      "E13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_011",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Apa parantos perubahan persentase dina net interest revenue ti taun 2007 ka 2008?",
+    "answer": [
+      [
+        "35%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

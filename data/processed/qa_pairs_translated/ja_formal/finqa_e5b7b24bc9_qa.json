@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_e5b7b24bc9_001",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "「ネットキャッシュ使用額（運転資本）」がキャッシュフローに最も悪影響を与えたのは何年ですか？",
+    "answer": [
+      [
+        "2011"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_002",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "テーブルでカバーされている期間（2011年から2013年）における「営業活動による純現金流入」の累計を計算してください。",
+    "answer": [
+      [
+        "$ 1223.6"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_003",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "「営業活動による純キャッシュの提供に向けた純利益の調整額」のうち、最も高い「営業活動による純キャッシュ提供額」を報告した年はいくらですか？",
+    "answer": [
+      [
+        "$ 598.4"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "B1"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_004",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "open_ended_reasoning",
+    "question": "2011年から2013年までの「営業活動による純現金流入」の年次推移を分析してください。",
+    "answer": [
+      [
+        "「営業活動による純現金流入」は、3年間を通じて一貫して強固なプラス傾向を示しています。2011年の273.5百万ドルから2012年の357.2百万ドルへと増加し、さらに2013年には592.9百万ドルへと大幅に上昇しており、毎年事業運営による現金生成能力が改善していることを示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "C4",
+      "B4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_005",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "「資金調達活動による純現金収支（使用又は収入）」がマイナスであり、「投資活動による純現金使用」が100ドル以上マイナスとなっている年を特定してください。",
+    "answer": [
+      [
+        "2013"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_006",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "2013年度において、「営業活動による純現金流入を調整するための純利益調整額」のうち、「営業活動による純現金流入」に変換された割合はいくらですか。小数点以下2桁まで四捨五入したパーセント表示で回答してください。",
+    "answer": [
+      [
+        "99.08%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_007",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "「営業活動による純現金流入」が直前の3つの項目の合計であると仮定した場合、「運転資本の使用による純現金流出」が50%少ない負値（つまり-146.6）だった場合、2012年の値はいくらになりますか？",
+    "answer": [
+      [
+        "$ 503.8"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_008",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "open_ended_reasoning",
+    "question": "2011年から2013年のデータに基づき、「net income adjusted...」と「net cash provided by operating activities」の間の関係はどのようなものですか。調整済み純利益が高いほど、営業活動による純キャッシュフローも常に高くなるのでしょうか？",
+    "answer": [
+      [
+        "いいえ、調整済み純利益が高くても営業活動による純キャッシュフローが常に高くなるわけではありません。データは逆の傾向を示しています。2011年から2013年にかけて、「net income adjusted...」は毎年減少しました（735.7百万ドルから598.4百万ドルへ）、一方「net cash provided by operating activities」は毎年増加しました（273.5百万ドルから592.9百万ドルへ）。これは、運転資本その他の非流動資産・負債の変動がキャッシュフローに顕著かつ改善傾向の影響を与えていたことを示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_009",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "3年間の期間において、正の値と負の値の両方が含まれるデータ行が表す主要なキャッシュフロー活動（「営業」、「投資」、または「財務」）はどれですか？",
+    "answer": [
+      [
+        "net cash ( used in ) provided by financing activities"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_010",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "すべてのカテゴリと年次において、絶対値が最大のキャッシュフロー項目（流入または流出）はどれですか？",
+    "answer": [
+      [
+        "-1212.3 ( 1212.3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_011",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "2011年、2012年、2013年の投資活動に使用された現金の合計額（百万ドル）はいくらですか？",
+    "answer": [
+      [
+        "$493.5"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

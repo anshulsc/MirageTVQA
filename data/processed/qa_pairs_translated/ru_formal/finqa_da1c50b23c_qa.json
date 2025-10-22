@@ -1,0 +1,232 @@
+[
+  {
+    "question_id": "finqa_da1c50b23c_001",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "Какой тип единиц имеет наибольшую номинальную стоимость погашения и каково это значение?",
+    "answer": [
+      [
+        "class b-2 preferred units",
+        "$ 55.8"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_002",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "Каково общее количество выкупленных единиц по всем перечисленным типам?",
+    "answer": [
+      [
+        "2271818"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_003",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "Рассчитайте парную стоимость на отдельную единицу для типа, связанного с «благотворительным взносом».",
+    "answer": [
+      [
+        "$10,007.17"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_004",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "Определите все типы единиц, которые были выкуплены исключительно за наличные и по которым было выкуплено более 2500 единиц.",
+    "answer": [
+      [
+        "preferred a units"
+      ],
+      [
+        "class c downreit units"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A3",
+      "B3",
+      "D3",
+      "A5",
+      "B5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_005",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "Какой процент от общей номинальной стоимости выкупленных акций приходится на все единицы «class b» в совокупности?",
+    "answer": [
+      [
+        "76.89%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_006",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "open_ended_reasoning",
+    "question": "Какой тип единиц является наиболее значительным выбросом с точки зрения его номинальной стоимости на единицу? Обоснуйте свой ответ расчетными значениями.",
+    "answer": [
+      [
+        "«Preferred A units» являются наиболее значительным выбросом. Его номинальная стоимость на единицу составляет $1,00 ($2,2 миллиона / 2 200 000 единиц), что на порядки ниже, чем у других типов. Для сравнения, номинальная стоимость на единицу для «class A preferred units» составляет $10 000 ($20,0 миллиона / 2 000 единиц), а для «class C downreit units» — примерно $30,74 ($1,9 миллиона / 61 804 единицы). Чрезвычайно низкая стоимость на единицу «preferred A units» делает его явным выбросом."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_007",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "Если бы парная стоимость выкупленных «класса A предпочтительных единиц» была на 10% ниже, какова была бы новая общая парная стоимость выкупленных всех единиц (в миллионах)?",
+    "answer": [
+      [
+        "$ 102.3"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_008",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "open_ended_reasoning",
+    "question": "Существует ли корреляция между увеличением количества выкупленных единиц и увеличением общей номинальной стоимости? Объясните ваш вывод.",
+    "answer": [
+      [
+        "Нет, данные не указывают на четкую корреляцию. Хотя «class b-2 preferred units» имеет относительно высокое количество единиц (5 576) и самую высокую номинальную стоимость (55,8 млн долларов), тип единиц с наибольшим количеством — «preferred a units» (2 200 000) — имеет низкую номинальную стоимость (2,2 млн долларов). Напротив, «class c downreit units» имеет второе по величине количество единиц (61 804), но самую низкую номинальную стоимость (1,9 млн долларов). Это указывает на то, что номинальная стоимость на единицу значительно варьируется между типами, что нарушает любую простую корреляцию между количеством единиц и их общей стоимостью."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_009",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "open_ended_reasoning",
+    "question": "Какой столбец содержит данные, представляющие собой комбинацию двух различных категорий, и какая строка иллюстрирует это?",
+    "answer": [
+      [
+        "Столбец 'тип выкупа' содержит составные данные. Значение 'cash/charitable contribution' в строке 4 иллюстрирует это, объединяя два отдельных метода выкупа в одну ячейку."
+      ]
+    ],
+    "evidence_cells": [
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_010",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "Какова средняя номинальная стоимость выкупа (в миллионах долларов) для типов единиц, в названии которых содержится слово «preferred»?",
+    "answer": [
+      [
+        "$ 25.6"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_011",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "open_ended_reasoning",
+    "question": "Каково общее количество всех типов A единиц в сумме и какова стоимость каждой единицы в миллионах?",
+    "answer": [
+      [
+        "Общее количество единиц типа A составляет 2 202 000 единиц. Парная стоимость единиц предпочтительного типа A составляет 2,2 доллара, а парная стоимость класса A предпочтительных единиц составляет 20,0 доллара."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

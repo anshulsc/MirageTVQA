@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_dbc539719b_001",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Parmi les États individuels listés, lequel génère le chiffre d'affaires opérationnel le plus élevé par client ?",
+    "answer": [
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A4",
+      "B4",
+      "D4",
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_002",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Quel est le nombre total combiné de clients pour l'Illinois, l'Indiana et la Californie ?",
+    "answer": [
+      [
+        "779881"
+      ]
+    ],
+    "evidence_cells": [
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_dbc539719b_003",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Quel est le pourcentage combiné des revenus d'exploitation totaux provenant de l'État ou des États ayant la population estimée desservie la plus faible ?",
+    "answer": [
+      [
+        "12.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "F6",
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_004",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Quels États ont une part du nombre total de clients supérieure à leur part des revenus d'exploitation totaux ?",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "indiana"
+      ],
+      [
+        "west virginia ( b )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "A5",
+      "C5",
+      "E5",
+      "A6",
+      "C6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_005",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Quel est le rapport entre le pourcentage total de clients et le pourcentage total de population desservie pour la catégorie « autre ( c ) » arrondi à deux décimales ?",
+    "answer": [
+      [
+        "1.01"
+      ]
+    ],
+    "evidence_cells": [
+      "E8",
+      "G8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_dbc539719b_006",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Si les revenus d'exploitation de la Pennsylvanie augmentaient de 10 %, quel serait le nouveau revenu d'exploitation pour « subtotal ( top seven states ) » en supposant que les revenus des autres États restent inchangés ?",
+    "answer": [
+      [
+        "2388.14"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_007",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Analysez la relation entre le nombre de clients et la population estimée desservie pour les six États individuels listés. Y a-t-il une corrélation positive, et que cela implique-t-il ?",
+    "answer": [
+      [
+        "Oui, il y a une forte corrélation positive. À mesure que le nombre de clients augmente dans un État, la population estimée desservie tend également à augmenter. Par exemple, la Pennsylvanie a le plus grand nombre de clients (666 415) et la plus grande population estimée desservie (2,2 millions), tandis que la Virginie-Occidentale et la Californie, qui ont le plus faible nombre de clients, ont également les plus petites populations estimées desservies. Cela implique que la base de clients est un composant direct et proportionnel de la population desservie par l'entreprise dans ces régions."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_dbc539719b_008",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "En calculant la population estimée servie par client pour chacun des six États individuels, identifiez quel État est la plus grande anomalie et expliquez pourquoi.",
+    "answer": [
+      [
+        "L'Illinois est la plus grande anomalie. La population estimée servie par client pour chaque État est : Pennsylvanie (~3,30), Missouri (~3,23), Illinois (~4,17), Californie (~3,44), Indiana (~4,09) et Virginie-Occidentale (~3,52). Alors que la plupart des États servent entre 3,2 et 3,5 personnes par client, l'Illinois et l'Indiana sont nettement plus élevés. L'Illinois a le ratio le plus élevé, environ 4,17, ce qui indique que chaque client en Illinois représente une part plus importante de la population desservie par rapport aux autres États, ce qui en fait la plus grande anomalie."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_dbc539719b_009",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Vérifiez si le pourcentage des recettes d'exploitation total pour « subtotal ( top seven states ) » et « other ( c ) » correspond précisément à la valeur indiquée pour « total regulated businesses ».",
+    "answer": [
+      [
+        "Oui, la somme est exacte. Le « subtotal ( top seven states ) » représente 87,0 % des recettes d'exploitation totales et la catégorie « other ( c ) » représente 13,0 %. L'addition de ces deux pourcentages (87,0 % + 13,0 %) donne 100,0 %, ce qui correspond à la valeur indiquée pour « total regulated businesses »."
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_010",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Quelle paire d'États, parmi la liste des six, a un nombre combiné de clients le plus proche du nombre de clients en Pennsylvanie ?",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_011",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Quel est le chiffre d'affaires en millions de dollars en Californie ?",
+    "answer": [
+      [
+        "$209.8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

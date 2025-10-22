@@ -1,0 +1,232 @@
+[
+  {
+    "question_id": "finqa_da1c50b23c_001",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "哪种单位类型的赎回面值最高，具体数值是多少？",
+    "answer": [
+      [
+        "class b-2 preferred units",
+        "$ 55.8"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_002",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "所有列出类型中赎回的单位总数是多少？",
+    "answer": [
+      [
+        "2271818"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_003",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "计算涉及“慈善捐赠”类型的单个单位的面值。",
+    "answer": [
+      [
+        "$10,007.17"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_004",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "识别所有仅以现金赎回且赎回数量超过2,500单位的单位类型。",
+    "answer": [
+      [
+        "preferred a units"
+      ],
+      [
+        "class c downreit units"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A3",
+      "B3",
+      "D3",
+      "A5",
+      "B5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_005",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "所有“class b”单位合计占赎回总面值的百分比是多少？",
+    "answer": [
+      [
+        "76.89%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_006",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "open_ended_reasoning",
+    "question": "哪种单位类型在单位面值方面是最显著的异常值？请用计算出的数值说明理由。",
+    "answer": [
+      [
+        "“preferred a units”是最显著的异常值。其单位面值为1.00美元（220万美元 / 2,200,000单位），比其他类型低几个数量级。作为对比，“class a preferred units”的单位面值为10,000美元（2000万美元 / 2,000单位），“class c downreit units”的单位面值约为30.74美元（190万美元 / 61,804单位）。“preferred a units”极低的单位价值使其成为一个明显的异常值。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_007",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "如果“class a preferred units”的赎回面值降低10%，所有单位的赎回面值总额将为多少（以百万计）？",
+    "answer": [
+      [
+        "$ 102.3"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_008",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "open_ended_reasoning",
+    "question": "数据是否表明赎回单位数量与总面值之间存在相关性？请解释你的结论。",
+    "answer": [
+      [
+        "否，数据并未表明存在明显的相关性。虽然“class b-2 preferred units”的单位数量相对较高（5,576）且面值最高（5580万美元），但单位数量最多的“preferred a units”（2,200,000）面值却较低（220万美元）。相反，“class c downreit units”的单位数量第二高（61,804），但面值却是最低的（190万美元）。这表明不同类型之间的单位面值差异极大，破坏了单位数量与其总价值之间简单的相关性。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_009",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "open_ended_reasoning",
+    "question": "哪一列包含由两个不同类别组成的复合数据，哪一行体现了这一点？",
+    "answer": [
+      [
+        "\"赎回类型\"列包含复合数据。第4行中的值\"现金/慈善捐赠\"通过将两种独立的赎回方式组合到单个单元格中，体现了这一点。"
+      ]
+    ],
+    "evidence_cells": [
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_010",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "名称中包含'preferred'的单位类型，其赎回的平均面值（以百万计）是多少？",
+    "answer": [
+      [
+        "$ 25.6"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_011",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "open_ended_reasoning",
+    "question": "所有A型单位的总数量是多少，每单位的价值是多少（以百万计）？",
+    "answer": [
+      [
+        "总A型单位数量为2,202,000单位。优先A单位的面值为2.2百万美元，A类优先单位的面值为20.0百万美元。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

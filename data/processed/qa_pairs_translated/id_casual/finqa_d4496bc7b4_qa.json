@@ -1,0 +1,219 @@
+[
+  {
+    "question_id": "finqa_d4496bc7b4_001",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Berapa perubahan bersih kewajiban pensiun aset selama 2009, dihitung dari perubahan yang dijelaskan?",
+    "answer": [
+      [
+        "137"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_002",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Kategori perubahan mana yang mengalami perbedaan nilai absolut terbesar antara 2008 dan 2009?",
+    "answer": [
+      [
+        "held for sale"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_003",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Di tahun 2009, berapa persen dari total penyesuaian positif (kewajiban yang ditimbulkan, biaya akresi, dan revisi) yang disebabkan oleh 'revisi terhadap perkiraan sebelumnya'?",
+    "answer": [
+      [
+        "61.39%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_004",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Cek apakah 'asset retirement obligations as of december 31, 2008' dihitung dengan benar dari saldo awal dan perubahan yang dijelaskan untuk tahun itu. Tunjukkan perhitungannya.",
+    "answer": [
+      [
+        "Ya, saldo akhir tahun 2008 dihitung dengan benar. Perhitungannya: $1134 (awal) + $30 (terjadi) - $94 (diselesaikan) + $66 (akresi) + $24 (revisi) - $195 (dihapus untuk dijual) = $965, yang sesuai dengan nilai yang dilaporkan."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_005",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Jika penyesuaian 'held for sale' di tahun 2008 adalah nol, berapa nilai kewajiban pensiun aset pada akhir tahun 2008?",
+    "answer": [
+      [
+        "$ 1160"
+      ]
+    ],
+    "evidence_cells": [
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_006",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Analisis dan bandingkan faktor utama yang memengaruhi perubahan total kewajiban pensiun aset antara 2008 dan 2009.",
+    "answer": [
+      [
+        "Pada 2008, kewajiban berkurang sebesar $169 juta, terutama karena penurunan besar $195 juta dari aset 'dijual' dan $94 juta dalam kewajiban yang telah diselesaikan, yang mengimbangi tambahan $120 juta. Sebaliknya, pada 2009 terjadi kenaikan $137 juta, didorong oleh revisi besar terhadap estimasi sebelumnya sebesar $124 juta, yang lebih dari mengkompensasi kewajiban yang diselesaikan sebesar $65 juta."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7",
+      "C1",
+      "C7",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_007",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Komponen keuangan mana yang mengalami kenaikan lebih dari $100 juta dari 2008 ke 2009, sehingga menjadi outlier dalam perubahan tahun ke tahun?",
+    "answer": [
+      [
+        "revisions to previous estimates"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_008",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Cari tahun di mana 'revisi perkiraan sebelumnya' lebih dari lima kali lebih besar dari 'kewajiban yang timbul termasuk akuisisi'.",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B5",
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_009",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan data dua tahun ini, ada pola atau hubungan yang terlihat antara kewajiban awal dan 'accretion expense' untuk tahun tersebut?",
+    "answer": [
+      [
+        "Ya, ada pola yang terlihat. 'Accretion expense' tampaknya merupakan persentase yang relatif stabil dari saldo awal. Di tahun 2008, itu adalah 5,8% dari saldo awal ($66M / $1134M), dan di 2009, 6,6% ($64M / $965M). Ini menunjukkan bahwa accretion expense dihitung secara konsisten berdasarkan kewajiban awal, mungkin mencerminkan nilai waktu uang untuk utang jangka panjang."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_010",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Tabelnya gimana ngebuktikan kalau saldo kewajiban pensiun aset itu konsisten dari akhir 2008 ke awal 2009?",
+    "answer": [
+      [
+        "Tabel ini menunjukkan kontinuitas dengan cara menunjukkan bahwa nilai 'asset retirement obligations as of december 31' di kolom 2008 ($ 965) sama persis dengan nilai 'asset retirement obligations as of january 1' di kolom 2009 ($ 965). Ini adalah penyajian roll-forward akuntansi standar, di mana saldo akhir satu periode menjadi saldo awal periode berikutnya."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A7",
+      "B1",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_011",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Apa perubahan total asset retirement obligations dari 2008 ke 2009?",
+    "answer": [
+      [
+        "Total asset retirement obligations meningkat dari $965 juta pada tahun 2008 menjadi $1.102 juta pada tahun 2009"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

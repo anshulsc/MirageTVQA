@@ -1,0 +1,288 @@
+[
+  {
+    "question_id": "finqa_f05eb3e06a_001",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "排除'other*'后，哪个地点的近似平方英尺数最小？",
+    "answer": [
+      [
+        "eindhoven the netherlands"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_002",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "包含“制造”操作的所有地点的总近似平方英尺数是多少？",
+    "answer": [
+      [
+        "2559000"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_003",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "确定占地面积第三大的地点的最新租赁到期日期。",
+    "answer": [
+      [
+        "2025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A4",
+      "B4",
+      "D4",
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6",
+      "A7",
+      "B7",
+      "D7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_004",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "哪个地点的租赁到期日期最早和最晚之间的范围最广？",
+    "answer": [
+      [
+        "cambridge united kingdom"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A7",
+      "D7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_005",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "列出同时具有“研发”和“分销”业务且租赁到期日在2030年之后的地点。",
+    "answer": [
+      [
+        "san diego ca"
+      ],
+      [
+        "madison wi"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A3",
+      "C3",
+      "D3",
+      "A5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_006",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "不执行“r&d”操作的地点占总面积的百分比是多少？",
+    "answer": [
+      [
+        "4.76%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_007",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "如果所有2013年到期的租约都不续约，导致每个受影响地点的面积减少20%，那么所有地点的新总面积是多少？",
+    "answer": [
+      [
+        "2158000"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B4",
+      "D4",
+      "B5",
+      "D5",
+      "B6",
+      "D6",
+      "B7",
+      "D7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_008",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "open_ended_reasoning",
+    "question": "地理位置（美国vs.国际）与运营模式之间是否存在可辨别的模式？",
+    "answer": [
+      [
+        "是的，存在一个模式。美国的地点（圣地亚哥、旧金山、麦迪逊）都是大规模的站点，始终包含“研发”、“制造”和“行政”功能。国际地点在配置上表现出更多样化。虽然新加坡和剑桥也像美国站点一样是主要的研发和制造中心，但埃因霍温则是一个专门的较小规模的配送和行政中心，这表明国际组合中包含更多专业化、占地面积较小的设施，而美国则是综合性的枢纽。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_009",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "open_ended_reasoning",
+    "question": "哪一列的数据结构在行之间不一致，有些单元格包含单个值，而其他单元格包含空格分隔的值列表？",
+    "answer": [
+      [
+        "\"租赁到期日期\"列显示出不一致的数据结构。例如，\"eindhoven the netherlands\"的条目包含单个年份（'2020'），而\"san diego ca\"的条目包含三个不同年份的列表（'2019 2013 2031'）。这需要条件逻辑来正确解析。"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_010",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "open_ended_reasoning",
+    "question": "哪个地点的运营范围与其他规模相似或更大的地点相比是异常值？",
+    "answer": [
+      [
+        "旧金山湾区，加利福尼亚州是一个运营异常值。尽管它是第二大设施，面积为501,000平方英尺，但其列出的运营（“r&d manufacturing warehouse and administrative”）明显缺少“distribution”功能。所有其他大规模制造地点，如圣地亚哥、新加坡和麦迪逊，都明确包含“distribution”，这使得旧金山站点的配置在其规模和制造能力方面显得不寻常。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_011",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "有多少栋建筑的面积至少为300,000平方英尺？",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

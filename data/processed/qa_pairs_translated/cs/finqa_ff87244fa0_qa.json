@@ -1,0 +1,222 @@
+[
+  {
+    "question_id": "finqa_ff87244fa0_001",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Jaký je celkový součet plateb splatných do 31. prosince 2012 a 31. prosince 2013 pro všechny smluvní závazky?",
+    "answer": [
+      [
+        "$ 6219"
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_002",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Jaký procentuální podíl celkového závazku 'debt [a]' je naplánován k vyplacení po 31. prosinci 2016?",
+    "answer": [
+      [
+        "71.68%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "H1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_003",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Která smluvní závaznost má nejvyšší splatnou platbu do 31. prosince 2012?",
+    "answer": [
+      [
+        "purchase obligations [d]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_004",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Pro smluvní závazek s druhým největším celkovým částkou, kolik je splatné do 31. prosince 2014?",
+    "answer": [
+      [
+        "$ 560"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "E4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_005",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "open_ended_reasoning",
+    "question": "Popište trend platb pro 'operativní nájem [b]' pro roky 2012 až 2016.",
+    "answer": [
+      [
+        "Platby pro 'operativní nájem [b]' ukazují konzistentní klesající trend z roku na rok od roku 2012 do roku 2016, začínající na 525 milionů dolarů v roce 2012 a klesající každý rok na 347 milionů dolarů v roce 2016."
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_006",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Vypište všechny smluvní závazky, u nichž je splatná platba do 31. prosince 2015 ve výši více než 300 milionů dolarů.",
+    "answer": [
+      [
+        "debt [a]"
+      ],
+      [
+        "operating leases [b]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A3",
+      "F3",
+      "A4",
+      "F4",
+      "A5",
+      "F5",
+      "A6",
+      "F6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_007",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Pokud by byly platby pro 'purchase obligations [d]' splatné do konce roku 2012, 2013 a 2014 odloženy a přičteny k částce splatné 'po roce 2016', jaká by byla nová celková částka pro tuto závazek 'po roce 2016'?",
+    "answer": [
+      [
+        "$ 4584"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "E4",
+      "H4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_008",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "open_ended_reasoning",
+    "question": "Která smluvní závazek má platbu v jednom roce mezi lety 2012 a 2016, která je výrazně vyšší než platby v ostatních letech v tomto období?",
+    "answer": [
+      [
+        "Kategorie 'purchase obligations [d]' ukazuje výrazný výjimečný údaj. Platba ve výši 2598 milionů dolarů splatná v roce 2012 je více než čtyřikrát vyšší než platba v následujícím nejvyšším roce (568 milionů dolarů v roce 2013) a platby v následujících letech výrazně klesají, což činí údaj z roku 2012 výjimečným."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_009",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Který sloupec s obdobím splatnosti (od 'splatné do 31. prosince 2012' do 'splatné do 31. prosince jiné') obsahuje nejvíce chybějících nebo neplatných platebních položek označených '- '?",
+    "answer": [
+      [
+        "splatné do 31. prosince jiné"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "E6",
+      "F6",
+      "G6",
+      "H6",
+      "I1",
+      "I2",
+      "I3",
+      "I5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_010",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "open_ended_reasoning",
+    "question": "Na základě dat jaká je zřejmá souvislost mezi 'celkovou' hodnotou závazku a podílem tohoto závazku splatným 'po roce 2016'?",
+    "answer": [
+      [
+        "Obecně se zdá, že existuje kladná souvislost, kde závazky s větší celkovou hodnotou, jako 'dluh [a]' a 'operativní leasingy [b]', mají tendenci mít významnou část svých plateb naplánovaných na období po roce 2016, což naznačuje, že jde o dlouhodobé finanční závazky. Nicméně toto není univerzální pravidlo, protože 'závazky k nákupu [d]', navzdory tomu, že jsou druhým největším závazkem v celkové hodnotě, mají poměrně malý podíl (asi 16,7%) splatný po roce 2016, což naznačuje, že jde o krátkodobější a střednědobý závazek."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "H1",
+      "B2",
+      "H2",
+      "B3",
+      "H3",
+      "B4",
+      "H4",
+      "B5",
+      "H5",
+      "B6",
+      "H6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  }
+]

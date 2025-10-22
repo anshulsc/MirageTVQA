@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_f88511c4f2_001",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Quelle était la valeur nette de tous les changements transactionnels (en excluant les soldes initiaux et finaux et la valeur anormale de « déconsolidation ») des obligations de retrait d'actifs en 2008 ?",
+    "answer": [
+      [
+        "-169"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_002",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Quelle année a connu une diminution plus importante des obligations provenant des 'liabilités réglées' ?",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_003",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "De combien l'« accretion expense » a-t-il augmenté de 2007 à 2008 ?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_004",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Identifiez l'élément de ligne qui a représenté une augmentation des obligations en 2008 mais une diminution en 2007.",
+    "answer": [
+      [
+        "revisions to previous estimates"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_005",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Quel est le résultat si vous soustrayez la somme des « liabilities incurred » de 2007 et de « accretion expense » du solde initial de 2008 ?",
+    "answer": [
+      [
+        "1013"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_006",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Les \"dettes engagées\" en 2007 représentent quel pourcentage du total combiné de la \"dépense d'accrétion\" pour 2007 et 2008 ?",
+    "answer": [
+      [
+        "47.24%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_007",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Si les «dettes encourues» en 2008 avaient été 50 % plus importantes, quelle aurait été la nouvelle somme des «dettes encourues» et des «dettes réglées» pour cette année ?",
+    "answer": [
+      [
+        "-49"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_008",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "Sur la base de la structure et des valeurs du tableau, quelle est la relation logique entre le solde final de 2007 et le solde initial de 2008 ?",
+    "answer": [
+      [
+        "Le solde final de 2007 ($ 1134) est identique au solde initial de 2008 ($ 1134). Cela démontre la pratique comptable standard selon laquelle le solde de clôture d'une période devient le solde d'ouverture de la période suivante."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_009",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "Comment sont représentées les valeurs financières négatives, telles que « liabilities settled », dans l'ensemble du tableau ?",
+    "answer": [
+      [
+        "Les valeurs négatives sont représentées par une double notation : un signe moins suivi du nombre, et également la valeur absolue de ce nombre entre parenthèses. Par exemple, « -94 ( 94 ) »."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "C5",
+      "A6",
+      "B6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_010",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifiez les deux lignes contenant la valeur « 2013 » et expliquez pourquoi cette valeur semble être une anomalie dans le contexte du tableau.",
+    "answer": [
+      [
+        "La valeur « 2013 » est présente pour « held for sale (a) » en 2007 et « deconsolidation of egholdings » en 2008. Cette valeur est une anomalie car elle est d'un ordre de grandeur plus élevé que la plupart des autres chiffres transactionnels (par exemple, 30, 66, -94), et son inclusion rompt la réconciliation mathématique entre les soldes initiaux et finaux pour les deux années, suggérant qu'il pourrait s'agir d'une erreur de données ou d'un élément extraordinaire."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_011",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Quel était l'obligation de retrait d'actif (en millions) au 31 décembre 2008 ?",
+    "answer": [
+      [
+        "$965"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

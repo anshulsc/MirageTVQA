@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "finqa_cedda436f6_001",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "¿En qué año el 'ingreso de operaciones antes de impuestos' fue el más alto?",
+    "answer": [
+      [
+        "2013"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_002",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "¿Cuál fue el gasto total por impuestos sobre la renta en millones de dólares en los tres años mostrados en la tabla?",
+    "answer": [
+      [
+        "238"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cedda436f6_003",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Para el año con las ventas netas más bajas, ¿cuál fue el 'ingreso neto de operaciones discontinuadas (atribuible a PPG)' en millones de dólares?",
+    "answer": [
+      [
+        "2197"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_004",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "Describe la tendencia de 'ventas netas' desde el año terminado en 2011 hasta 2013.",
+    "answer": [
+      [
+        "Las ventas netas mostraron una ligera disminución de $1732 millones en 2011 a $1688 millones en 2012, seguido de una caída drástica a $108 millones en 2013. Esto indica una tendencia negativa significativa, especialmente en el último año del período."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_005",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Enumera todas las métricas financieras para las cuales el valor en 2013 superó el total combinado de los valores de 2012 y 2011.",
+    "answer": [
+      [
+        "income from operations before income tax"
+      ],
+      [
+        "income from discontinued operations net of tax"
+      ],
+      [
+        "net income from discontinued operations ( attributable to ppg )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "A7",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_006",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "¿En qué porcentaje aumentó el 'ingreso neto de operaciones discontinuadas (atribuido a PPG)' de 2012 a 2013?",
+    "answer": [
+      [
+        "921.9%"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cedda436f6_007",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Si la 'ganancia neta por separación y fusión' en 2013 hubiera sido un 25% menor, y esta reducción disminuyó directamente el 'ingreso operativo antes de impuestos', ¿cuál habría sido el nuevo ingreso operativo para ese año?",
+    "answer": [
+      [
+        "1466"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_008",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "Basado en los datos, analiza la relación entre 'ventas netas' y 'ingresos operativos antes de impuestos' a lo largo de los tres años. ¿Existe una correlación consistente?",
+    "answer": [
+      [
+        "No existe una correlación consistente. De 2011 a 2012, las métricas muestran una correlación positiva, ya que una ligera disminución en las ventas (de $1732M a $1688M) corresponde con una disminución en los ingresos (de $376M a $345M). Sin embargo, esta relación se invierte drásticamente en 2013, donde una caída masiva en las ventas netas a $108M va acompañada de un aumento en los ingresos a $2014M. Esto sugiere que en 2013, los ingresos fueron impulsados por factores distintos a las ventas principales, como el 'ganancia neta por separación y fusión del negocio de productos químicos básicos'."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cedda436f6_009",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "¿Qué métrica financiera muestra un valor de '$ 2014' millones en un año y '2014' millones en otros dos años, destacando una inconsistencia en el formato de datos para el mismo valor numérico?",
+    "answer": [
+      [
+        "less : net income attributable to non-controlling interests discontinued operations"
+      ],
+      [
+        "net gain from separation and merger of commodity chemicals business"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "A6",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_010",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Qué elemento de la línea para el año 2013 representa el evento financiero más significativo en comparación con su valor implícito cero o cercano a cero en otros años, y cómo afectó probablemente al 'ingreso de operaciones' de ese año?",
+    "answer": [
+      [
+        "El 'ganancia neta por separación y fusión del negocio de productos químicos básicos' con un valor de 2192 millones en 2013 es el evento financiero más significativo. Esta ganancia única parece ser el principal impulsor del 'ingreso de operaciones antes de impuestos' inusualmente alto de $2014 millones en el mismo año, que es una desviación sustancial en comparación con los $345 millones y $376 millones reportados en 2012 y 2011, respectivamente."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cedda436f6_011",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "¿Cuál es el gasto por impuestos sobre la renta a finales de 2011?",
+    "answer": [
+      [
+        "126"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,270 @@
+[
+  {
+    "question_id": "finqa_ee929b55fc_001",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "哪個報告單位有最高的公平價值佔分配帳面價值百分比？",
+    "answer": [
+      [
+        "transaction services"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_002",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "所有包含「banking」一詞的報告單位之總商譽是多少？",
+    "answer": [
+      [
+        "19960"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_003",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "啥個報告單位的公允價值百分比是第二低？",
+    "answer": [
+      [
+        "65"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_004",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "列出所有 goodwill 價值大於 $4,000 且 fair value percentage 低於 400% 的 reporting unit",
+    "answer": [
+      [
+        "asia regional consumer banking"
+      ],
+      [
+        "securities and banking"
+      ],
+      [
+        "local consumer lending 2014cards"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_005",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "所有報告單位的總商譽中，有多少比例歸屬於「亞洲區域消費者銀行」？請以百分比形式回答，並四捨五入至小數點後一位。",
+    "answer": [
+      [
+        "23.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_006",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "如果「local consumer lending 2014cards」的商譽因減值損失減少25%，新的商譽值會是多少？",
+    "answer": [
+      [
+        "3420"
+      ]
+    ],
+    "evidence_cells": [
+      "C8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_007",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "open_ended_reasoning",
+    "question": "根據數據，是否有一個明顯的正相關關係，當好評價值高時，'分配帳面價值的公平價值百分比'也高？提供合理分析。",
+    "answer": [
+      [
+        "無，並無明顯的正相關。例如，'交易服務'的'分配帳面價值的公平價值百分比'最高，有1716%，但好評價值只有$1567，相對普通。相反，'證券和銀行'的好評價值最高，有$9259，但公平價值百分比只排第四，223%。這顯示一個指標高，並不一定另一個指標也高。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_008",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "找出『應佔帳面價值之公平價值百分比』為顯著離群值之報告單位，其大於所有單位中位數公平價值百分比之倍數為何？將倍數四捨五入至最接近之整數。",
+    "answer": [
+      [
+        "transaction services",
+        "9"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_009",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "open_ended_reasoning",
+    "question": "四個好賬面價值最低的報告單位名稱有什麼共同特點？",
+    "answer": [
+      [
+        "「brokerage and asset management」、「emea regional consumer banking」、「transaction services」、和「latin america regional consumer banking」這四個單位的商譽最低，它們的名稱都不包含「north america」或「asia」，代表非美國地區或特定非區域性服務線。"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A6",
+      "C6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_010",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "四個「區域消費銀行」單位中，哪一個的每百分比點公平價值有最高的商譽？",
+    "answer": [
+      [
+        "asia regional consumer banking"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_011",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "哪個報告單位在所有區域中有最高的商譽？",
+    "answer": [
+      [
+        "Securities and Banking"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

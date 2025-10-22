@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_dbc539719b_001",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Ingkang wonten antarane negara-negara sing diarani, sing ngasilake pendapatan operasi paling gedhe per pelanggan?",
+    "answer": [
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A4",
+      "B4",
+      "D4",
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_002",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Pira total wong sing dadi kustomer kanggo Illinois, Indiana, lan California?",
+    "answer": [
+      [
+        "779881"
+      ]
+    ],
+    "evidence_cells": [
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_dbc539719b_003",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Pira persen gabungan saka omset operasi saka negara bagian sing paling cilik populasi sing dilayani?",
+    "answer": [
+      [
+        "12.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "F6",
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_004",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Panggonan sing dadi jinis pelanggan sing luwih gedhe saka jinis pendapatan operasional total?",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "indiana"
+      ],
+      [
+        "west virginia ( b )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "A5",
+      "C5",
+      "E5",
+      "A6",
+      "C6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_005",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Pira rasio persentase pelanggan total karo persentase populasi sing dilayani kanggo kategori \"other ( c )\", dibulatake loro digit sesudah koma?",
+    "answer": [
+      [
+        "1.01"
+      ]
+    ],
+    "evidence_cells": [
+      "E8",
+      "G8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_dbc539719b_006",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Yen pendapatan operasi Pennsylvania dadi 10% luwih, piye karo subtotal (top seven states)? Asumsi siji-sijine negara liyane ora duwe perubahan.",
+    "answer": [
+      [
+        "2388.14"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_007",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Analisa hubungan antaro jumlah pelanggan lan populasi sing dilayani kanggo pitu states sing diarani. Aduh ana korelasi positif, lan apa artine iki?",
+    "answer": [
+      [
+        "Ya, ana korelasi positif sing kuat. Nalika jumlah pelanggan mlebu kanggo siji negara, populasi sing dilayani uga cendhak mlebu. Contone, Pennsylvania duwe jumlah pelanggan paling gedhe (666.415) lan populasi sing dilayani paling gedhe (2,2 juta), banjur West Virginia lan California, sing duwe jumlah pelanggan paling cilik, uga duwe populasi sing dilayani paling cilik. Iki ngluwihi yen basis pelanggan iku komponen langsung lan proporsional saka populasi sing dilayani dening bisnis ing wilayah iki."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_dbc539719b_008",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Karo ngitung populasi sing diwenehi kanggo saben pelanggan kanggo sawijining negara bagian, ngendi sing paling ilang karo ukuran? Lan apa sebabe?",
+    "answer": [
+      [
+        "Illinois iku sing paling ilang karo ukuran. Populasi sing diwenehi kanggo saben pelanggan kanggo saben negara bagian yaiku: Pennsylvania (~3.30), Missouri (~3.23), Illinois (~4.17), California (~3.44), Indiana (~4.09), lan West Virginia (~3.52). Sadhurunge negara bagian liyane melayani antarane 3.2 nganti 3.5 wong kanggo saben pelanggan, Illinois lan Indiana padha luwih alus. Illinois duwe rasio paling dhuwur yaiku kira-kira 4.17, sing ngandhut yen saben pelanggan ing Illinois mewakili bagian sing luwih gedhe saka populasi sing dilayani dibandingake karo negara bagian liyane, mula iku sing paling ilang karo ukuran."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_dbc539719b_009",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Apa bener sumbangan persen saka operasi revenues kanggo 'subtotal ( top seven states )' lan 'other ( c )' munggah nganti 100% karo total regulated businesses?",
+    "answer": [
+      [
+        "Opo, sumange akurat. 'subtotal ( top seven states )' munggah 87.0% saka total operating revenues, banjur 'other ( c )' munggah 13.0%. Kombinasi karo loro persen (87.0% + 13.0%) iku 100.0%, sing cocog karo nilai kanggo 'total regulated businesses'."
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_010",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Panggonan siji pasang negara saka daftar enem, sing kumpulan jumlah pelanggane paling deket karo jumlah pelanggan ing Pennsylvania?",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_011",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Pira operasi revenue (dalam jutaan) ing California?",
+    "answer": [
+      [
+        "$209.8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

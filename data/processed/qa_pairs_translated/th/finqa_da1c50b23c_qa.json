@@ -1,0 +1,232 @@
+[
+  {
+    "question_id": "finqa_da1c50b23c_001",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "ประเภทหน่วยใดมีมูลค่าพาร์ที่แลกเปลี่ยนสูงที่สุด และมูลค่านั้นคือเท่าไร?",
+    "answer": [
+      [
+        "class b-2 preferred units",
+        "$ 55.8"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_002",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "จำนวนหน่วยที่ถูกรีดีมทั้งหมดในประเภทที่ระบุคือเท่าไร?",
+    "answer": [
+      [
+        "2271818"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_003",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "คำนวณมูลค่าตามพาร์ต่อหน่วยสำหรับประเภทที่เกี่ยวข้องกับ 'การบริจาคเพื่อการกุศล'",
+    "answer": [
+      [
+        "$10,007.17"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_004",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "ระบุประเภทหน่วยทั้งหมดที่ถูกรีดีมได้เฉพาะเงินสดและมีการรีดีมมากกว่า 2,500 หน่วย",
+    "answer": [
+      [
+        "preferred a units"
+      ],
+      [
+        "class c downreit units"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A3",
+      "B3",
+      "D3",
+      "A5",
+      "B5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_005",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "หน่วย 'class b' ทั้งหมดคิดเป็นร้อยละเท่าใดของมูลค่าตามพาร์ทั้งหมดที่ถูก redeem?",
+    "answer": [
+      [
+        "76.89%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_006",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "open_ended_reasoning",
+    "question": "ประเภทหน่วยใดเป็นค่าผิดปกติที่สำคัญที่สุดในแง่ของมูลค่าตามพาร์ต่อหน่วย? โปรดอธิบายคำตอบด้วยค่าที่คำนวณได้",
+    "answer": [
+      [
+        "\"preferred a units\" เป็นค่าผิดปกติที่สำคัญที่สุด มูลค่าตามพาร์ต่อหน่วยคือ 1.00 ดอลลาร์ ($2.2 ล้าน / 2,200,000 หน่วย) ซึ่งต่ำกว่าชนิดอื่นๆ หลายเท่า ตัวอย่างเช่น มูลค่าตามพาร์ต่อหน่วยของ \"class a preferred units\" คือ 10,000 ดอลลาร์ ($20.0 ล้าน / 2,000 หน่วย) และของ \"class c downreit units\" คือประมาณ 30.74 ดอลลาร์ ($1.9 ล้าน / 61,804 หน่วย) ค่าต่อหน่วยที่ต่ำมากของ \"preferred a units\" ทำให้มันเป็นค่าผิดปกติที่โดดเด่น"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_007",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "หากมูลค่าตามหน้าของ 'class a preferred units' ลดลง 10% จะมีมูลค่าตามหน้ารวมที่ถูกแลกเปลี่ยนสำหรับหน่วยทั้งหมดเท่าใด (ในล้านดอลลาร์)?",
+    "answer": [
+      [
+        "$ 102.3"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_008",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "open_ended_reasoning",
+    "question": "ข้อมูลนี้บ่งชี้ว่ามีความสัมพันธ์ระหว่างจำนวนหน่วยที่ redeem สูงขึ้นกับมูลค่าพาร์ทั้งหมดที่สูงขึ้นหรือไม่? อธิบายข้อสรุปของคุณ",
+    "answer": [
+      [
+        "ไม่ ข้อมูลไม่บ่งชี้ถึงความสัมพันธ์ที่ชัดเจน ในขณะที่ 'class b-2 preferred units' มีจำนวนหน่วยค่อนข้างสูง (5,576) และมีมูลค่าพาร์สูงสุด ($55.8M) แต่ประเภทหน่วยที่มีจำนวนหน่วยมากที่สุดคือ 'preferred a units' (2,200,000) กลับมีมูลค่าพาร์ต่ำ ($2.2M) ในทางตรงกันข้าม 'class c downreit units' มีจำนวนหน่วยสูงเป็นอันดับสอง (61,804) แต่มีมูลค่าพาร์ต่ำสุด ($1.9M) ซึ่งแสดงให้เห็นว่ามูลค่าพาร์ต่อหน่วยแตกต่างกันอย่างมากระหว่างประเภท ทำให้ไม่มีความสัมพันธ์ง่ายๆ ระหว่างปริมาณหน่วยกับมูลค่ารวมของมัน"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_009",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "open_ended_reasoning",
+    "question": "คอลัมน์ใดมีข้อมูลที่เป็นการรวมกันของสองประเภทที่แตกต่างกัน และแถวใดแสดงตัวอย่างนี้?",
+    "answer": [
+      [
+        "คอลัมน์ 'redemption type' มีข้อมูลแบบผสม ค่า 'cash/charitable contribution' ในแถวที่ 4 เป็นตัวอย่างโดยการรวมวิธีการไถ่ถอนสองวิธีเข้าไว้ในเซลล์เดียว"
+      ]
+    ],
+    "evidence_cells": [
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_010",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "ค่ามูลค่าตามพาร์ที่ถูกไถ่ถอน (ในล้านดอลลาร์) สำหรับประเภทหน่วยที่มีคำว่า 'preferred' ในชื่อคือเท่าไร?",
+    "answer": [
+      [
+        "$ 25.6"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_011",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "open_ended_reasoning",
+    "question": "จำนวนรวมของหน่วยประเภท A ทั้งหมดคือเท่าไร และมูลค่าของแต่ละหน่วยในล้านคือเท่าไร?",
+    "answer": [
+      [
+        "จำนวนรวมของหน่วยประเภท A คือ 2,202,000 หน่วย มูลค่าตามมูลค่าตามราคาพาร์ของหน่วย Preferred A คือ $2.2 และมูลค่าตามมูลค่าตามราคาพาร์ของหน่วย Class A Preferred คือ $20.0"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

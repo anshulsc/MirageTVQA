@@ -1,0 +1,226 @@
+[
+  {
+    "question_id": "finqa_f76d5def2c_001",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "Quelle était la valeur totale des augmentations brutes des avantages fiscaux non reconnus enregistrés en 2011 ?",
+    "answer": [
+      [
+        "44321"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_002",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "Quelle était la différence absolue dans le montant des règlements avec les autorités fiscales entre 2010 et 2011 ?",
+    "answer": [
+      [
+        "41383"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_003",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "Le taux de réductions totales au solde des avantages fiscaux non constatés (en raison des diminutions liées aux positions fiscales de l'année précédente, des règlements et de l'expiration des délais de prescription) a-t-il accéléré ou ralenti de 2010 à 2011 ?",
+    "answer": [
+      [
+        "Le taux de réductions a ralenti de manière significative. En 2010, les réductions totales provenant de ces trois catégories s'élevaient à 85 484 $ (7 104 + 70 484 + 7 896), alors qu'en 2011, les réductions totales n'étaient que de 37 080 $ (4 154 + 29 101 + 3 825), soit moins de la moitié du montant de l'année précédente."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_004",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "Calculez le changement net des avantages fiscaux non reconnus pour l'exercice dont le solde initial était le plus élevé.",
+    "answer": [
+      [
+        "-61115"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_005",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "En 2010, quel pourcentage des diminutions brutes totales (des positions de l'année précédente, des règlements et de l'expiration du délai de prescription) était attribuable aux règlements avec les autorités fiscales ? Fournissez la réponse arrondie à deux décimales.",
+    "answer": [
+      [
+        "82.45%"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_006",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "Listez les catégories d'événements ayant entraîné une diminution des avantages fiscaux non reconnus de plus de 5 000 $ en valeur absolue au cours de l'année 2010.",
+    "answer": [
+      [
+        "gross decreases in unrecognized tax benefits 2013 prior year tax positions"
+      ],
+      [
+        "settlements with taxing authorities"
+      ],
+      [
+        "lapse of statute of limitations"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A5",
+      "C5",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_007",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "Si les « augmentations brutes des avantages fiscaux non constatés pour les positions fiscales de l'année en cours 2013 » pour 2011 avaient été 50 % plus faibles, quel aurait été le nouveau solde final pour 2011 ?",
+    "answer": [
+      [
+        "147397"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_008",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "Quel élément de ligne représente la plus grande anomalie en termes d'impact monétaire (valeur absolue) sur le solde pour une année donnée, et quelle était sa valeur ?",
+    "answer": [
+      [
+        "L'anomalie la plus significative était « règlements avec les autorités fiscales » en 2010, qui a provoqué une diminution de 70 484 $ . Ce montant est plus que le double de tout autre ajustement individuel répertorié dans l'une ou l'autre année."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_009",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "En vous basant sur la structure du tableau, quelle est la relation entre le solde final de 2010 et le solde initial de 2011 ?",
+    "answer": [
+      [
+        "Le solde final de 2010, qui est de 156 925 $, est identique au solde initial de 2011. Cela démontre le principe de continuité en comptabilité, selon lequel le solde de clôture d'une période sert de solde d'ouverture pour la période suivante."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_010",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "Analysez la relation entre l'ampleur des « règlements avec les autorités fiscales » et le changement net du solde pour chaque année.",
+    "answer": [
+      [
+        "Il semble y avoir une relation forte entre la taille des règlements et le changement net global. En 2010, un règlement important de -70 484 $ correspond à une diminution significative du solde total de -61 115 $. À l'inverse, en 2011, un règlement beaucoup plus faible de -29 101 $ a contribué à une augmentation nette du solde de 6 682 $. Cela suggère que les règlements sont un facteur principal de réduction du solde des avantages fiscaux non reconnus."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_011",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "Quel est le pourcentage de variation du solde final de 2010 à 2011 ?",
+    "answer": [
+      [
+        "Le solde final a augmenté de 156 925 $ en 2010 à 163 607 $ en 2011, ce qui correspond à une augmentation d'environ 4,26 %."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

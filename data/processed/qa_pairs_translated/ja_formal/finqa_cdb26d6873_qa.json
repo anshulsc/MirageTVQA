@@ -1,0 +1,211 @@
+[
+  {
+    "question_id": "finqa_cdb26d6873_001",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "2014年12月から2016年12月の期間において、累積其他包括利益の合計が最も高かった期はいつですか？",
+    "answer": [
+      [
+        "december 27 2014"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "H1",
+      "A11",
+      "H11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_002",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "テーブルに記載されている3つの関連期間における「税効果」の純計合計はいくらでしたか？",
+    "answer": [
+      [
+        "-12 ( 12 )"
+      ]
+    ],
+    "evidence_cells": [
+      "H4",
+      "H9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_003",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "2014年末と2015年末の間で累積其他包括利益（総計を除く）の構成要素のうち、最大の絶対変化を経験したものはどれか。2015年末におけるその価値はいくらか？",
+    "answer": [
+      [
+        "1749"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1",
+      "B6",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "G6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_004",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "open_ended_reasoning",
+    "question": "3つの年末報告日における「為替換算調整勘定」の残高の全体的な傾向を説明してください。",
+    "answer": [
+      [
+        "「為替換算調整勘定」は、3つの年末期間を通じて一貫して悪化する傾向を示しています。2014年の-$345百万から2015年の-$515百万へとマイナス調整（損失）が増加し、その後2016年にはわずかに悪化し-$519百万となり、時間の経過とともに為替換算によるマイナス影響が次第に大きくなっていることを示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "A6",
+      "G6",
+      "A11",
+      "G11"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_005",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "「累積其他総合利益（損失）から再分類される金額」が行3に関連する期間でプラスであったが、同成分の2015年末残高がマイナスであった財務構成要素を列挙してください。",
+    "answer": [
+      [
+        "unrealized holding gains ( losses ) on derivatives",
+        "prior service credits ( costs )",
+        "actuarial gains ( losses )"
+      ]
+    ],
+    "evidence_cells": [
+      "D3",
+      "D6",
+      "E3",
+      "E6",
+      "F3",
+      "F6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_006",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "第1期の「other comprehensive income (loss)」（5行目）において、合計損失606百万ドルのうち、「available-for-sale investmentsにおける未実現持分利益（損失）」に起因する割合はいくらですか？",
+    "answer": [
+      [
+        "117.16%"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "H5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_007",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "「その他の包括的損益（損失）」の「精算益（損失）」が第2期間（行10）で3億6400万ドルの損失ではなくゼロであった場合、その項目の新しい合計額はいくらになりますか？",
+    "answer": [
+      [
+        "410"
+      ]
+    ],
+    "evidence_cells": [
+      "F10",
+      "H10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_008",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "open_ended_reasoning",
+    "question": "「未実現持分利益（損失）（利用可能販売目的投資）」の再分類額と総再分類額の間には、2つの「累積其他包括利益（損失）から再分類される金額」期間（行3および行8）において一貫した関係がありますか？",
+    "answer": [
+      [
+        "はい、強い逆相関があります。第1期間（行3）では、利用可能販売目的投資の再分類（損失）9,300万ドルに対し、総再分類額はプラス5億600万ドルでした。第2期間（行8）では、再分類（損失）5億3,000万ドルに対し、総再分類額はマイナス3億2,200万ドルでした。どちらの場合も、この1つの要素からの大幅な負の再分類が総額に大きく影響していますが、他の要素が総額を逆方向に押し上げることもあります。"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "H3",
+      "B8",
+      "H8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_009",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "「2014」という値を含む、最も多くの非金銭的プレースホルダーデータエントリを含む財務コンポーネント列はどの2つですか？",
+    "answer": [
+      [
+        "deferred tax asset valuation allowance",
+        "prior service credits ( costs )"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C7",
+      "C8",
+      "C11",
+      "E7",
+      "E8",
+      "E9",
+      "E10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_010",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "「再分類前のその他の包括的損益」の2番目の期間（7行目）において、その行の全要素の中央値と比較して最も顕著な外れ値となっているコンポーネントはどれですか？",
+    "answer": [
+      [
+        "unrealized holding gains ( losses ) on available-for-sale investments"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "D7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_011",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "2016年12月26日の総包括利益（損失）はいくらですか？",
+    "answer": [
+      [
+        "46"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "H10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

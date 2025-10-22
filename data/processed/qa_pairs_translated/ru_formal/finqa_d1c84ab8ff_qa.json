@@ -1,0 +1,222 @@
+[
+  {
+    "question_id": "finqa_d1c84ab8ff_001",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "В каком году наблюдалась наибольшая отрицательная корректировка ставки налога по статье «Налоги на международные операции»?",
+    "answer": [
+      [
+        "2017"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_002",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "Какова сумма всех положительных корректировок налоговой ставки в 2018 году, исключая «влияние налоговой реформы США»?",
+    "answer": [
+      [
+        "7.4"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_003",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "В каком году показатель «эффективной налоговой ставки» был наибольшим, и каково было значение «влияния налоговой реформы США»?",
+    "answer": [
+      [
+        "51.2"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "C12",
+      "D12",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_004",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "open_ended_reasoning",
+    "question": "Опишите тенденцию «ставки налога по закону» с 2016 по 2018 год.",
+    "answer": [
+      [
+        "Ставка налога по закону демонстрирует последовательное снижение: начиная с 20,0% в 2016 году, уменьшаясь до 19,3% в 2017 году и далее снижаясь до 19,0% в 2018 году."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_005",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "Перечислите все категории налоговых корректировок, которые оказывали стабильно положительное влияние (то есть положительное значение) на налоговую ставку в течение всех трех представленных лет.",
+    "answer": [
+      [
+        "nondeductible expenses"
+      ],
+      [
+        "change in uncertain tax positions"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "A7",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_006",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "В 2017 году какой процент от общей положительной корректировки налоговой ставки внесло «влияние налоговой реформы США»?",
+    "answer": [
+      [
+        "87.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5",
+      "C7",
+      "C9",
+      "C11"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_007",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "Если бы «потери от выбытия» в 2018 году составляли ноль вместо -10,2, каким был бы «эффективная ставка налога» за этот год?",
+    "answer": [
+      [
+        "21.9%"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "B12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_008",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "open_ended_reasoning",
+    "question": "Существует ли стабильная корреляция между ставкой налога по закону и эффективной ставкой налога за три года? Объясните ваше рассуждение на основе данных.",
+    "answer": [
+      [
+        "Нет, стабильной корреляции нет. Хотя ставка налога по закону стабильно снизилась с 20,0% до 19,0%, эффективная ставка налога была крайне нестабильной: она составляла 10,6% в 2016 году, достигла пика в 36,5% в 2017 году, а затем снизилась до 11,7% в 2018 году. Эта нестабильность указывает на то, что эффективная ставка определяется крупными и несогласованными корректировками, такими как влияние \"налоговой реформы США\" в размере 51,2 в 2017 году, а не ставкой по закону."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "A12",
+      "B12",
+      "C12",
+      "D12",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_009",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "Какой конкретный элемент корректировки налога содержит нечисловые данные более чем за один год?",
+    "answer": [
+      [
+        "потеря при выбытии"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "C10",
+      "D10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_010",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "Какой единственный элемент налоговой корректировки за 2017 год представляет собой наиболее значительный выброс по сравнению со всеми другими корректировками за этот год?",
+    "answer": [
+      [
+        "u.s . tax reform impact"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_011",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "open_ended_reasoning",
+    "question": "На сколько увеличилась эффективная ставка налога с 2016 года по 2018 год?",
+    "answer": [
+      [
+        "Эффективная ставка налога увеличилась с 10,6% в 2016 году до 11,7% в 2018 году, что составляет увеличение на 1,1%"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "D12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

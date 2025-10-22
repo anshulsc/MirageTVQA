@@ -1,0 +1,270 @@
+[
+  {
+    "question_id": "finqa_ee929b55fc_001",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Reporting unit mana yang memiliki nilai wajar sebagai persentase dari nilai buku yang dialokasikan paling tinggi?",
+    "answer": [
+      [
+        "transaction services"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_002",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Berapa total goodwill untuk semua unit pelaporan yang namanya mengandung kata 'banking'?",
+    "answer": [
+      [
+        "19960"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_003",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Berapa goodwill dari unit pelaporan dengan persentase nilai wajar terendah kedua?",
+    "answer": [
+      [
+        "65"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_004",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Sebutkan semua unit pelaporan yang memiliki goodwill lebih dari $4.000 dan persentase nilai wajar di bawah 400%.",
+    "answer": [
+      [
+        "asia regional consumer banking"
+      ],
+      [
+        "securities and banking"
+      ],
+      [
+        "local consumer lending 2014cards"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_005",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Berapa persen dari total goodwill semua unit pelaporan yang berasal dari 'asia regional consumer banking'? Berikan jawaban dalam persen yang dibulatkan ke satu desimal.",
+    "answer": [
+      [
+        "23.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_006",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Jika goodwill untuk 'local consumer lending 2014cards' turun 25% karena beban impairment, berapa nilai goodwill barunya?",
+    "answer": [
+      [
+        "3420"
+      ]
+    ],
+    "evidence_cells": [
+      "C8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_007",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan data, apakah ada korelasi positif yang jelas antara nilai goodwill yang tinggi dan 'fair value as a %' yang tinggi? Berikan analisis yang masuk akal.",
+    "answer": [
+      [
+        "Tidak, tidak ada korelasi positif yang jelas. Misalnya, 'transaction services' memiliki 'fair value as a %' tertinggi dengan selisih besar (1716) tetapi goodwill yang relatif sedang ($1567). Sebaliknya, 'securities and banking' memiliki goodwill tertinggi ($9259) tetapi hanya persentase fair value keempat tertinggi (223). Ini menunjukkan bahwa nilai tinggi pada satu metrik tidak selalu berarti nilai tinggi pada metrik lain."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_008",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Cari unit pelaporan yang 'fair value as a %' adalah outlier signifikan, dan berapa faktor lebih besar dari median persentase fair value semua unit? Bulatkan faktor ke angka bulat terdekat.",
+    "answer": [
+      [
+        "transaction services",
+        "9"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_009",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "open_ended_reasoning",
+    "question": "Apa tema umum yang ada di nama empat unit pelaporan dengan goodwill terendah?",
+    "answer": [
+      [
+        "Empat unit dengan goodwill terendah ('brokerage and asset management', 'emea regional consumer banking', 'transaction services', dan 'latin america regional consumer banking') tidak mengandung 'north america' atau 'asia' di namanya dan mewakili wilayah non-AS atau layanan spesifik yang bukan regional."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A6",
+      "C6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_010",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Unit 'regional consumer banking' mana yang memiliki goodwill tertinggi per poin persentase nilai wajar?",
+    "answer": [
+      [
+        "asia regional consumer banking"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_011",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Unit pelaporan mana yang memiliki goodwill tertinggi di semua wilayah?",
+    "answer": [
+      [
+        "Securities and Banking"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

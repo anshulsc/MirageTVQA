@@ -1,0 +1,186 @@
+[
+  {
+    "question_id": "finqa_ec80ad8938_001",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Cus est su totale de su carrying amount pro totas is assets (tanto is trading assets quanto is loans) reportados in su duos datasets presentados?",
+    "answer": [
+      [
+        "26557"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_002",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "In su segundu cunzettu de datus (colonnas D e E), qualu categoria de bens—benedi de scambiu o mutus—teni unu 'aggregadu de su principiu non pagadu in escesu de su valor equu' maiore?",
+    "answer": [
+      [
+        "loans"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_003",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "P'abarrà de su primu cunjuuntu de prèstigos (colonna C), che porcentuale de su 'carrigu ammontu' est istada reppresentada da 'su balantzu de prèstigos non accurtus'?",
+    "answer": [
+      [
+        "0.03%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_004",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Cus esti l'acumuladu de custu tipu de atzitu (Trasmissione de atzitus o Préstitos) cun su totale inferiore de 'balance de préstitos non-accruedu o préstitos pustis de 90 dies de mora' in ambe is duos datasets?",
+    "answer": [
+      [
+        "7598"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_005",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Liste is importos de custu pro totu is portafogli de assets ove 'balance of non-accrual loans or loans more than 90 days past due' est exactamente $1 million.",
+    "answer": [
+      [
+        "$ 3224"
+      ],
+      [
+        "$ 4374"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C3",
+      "E3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_006",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Si l'importu a valore contabile pro sos assets de trading in su primu set de datos (colonna B) esset adiustadu sottraendu su 'aggregate unpaid principal balance in excess of fair value', cando esset su noiu importu a valore contabile?",
+    "answer": [
+      [
+        "9673"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_007",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Analizadu 's'equilibriu de non-accrued loans', qualu tipu de asset tenet un equilibriu significativu outlier in comparatzione cun s'altro, e cundit a iste implicat sas rispetivas profiles de rischiu?",
+    "answer": [
+      [
+        "I Trading Assets in ambeos is datasets mostrent un equilibriu de non-accrued de $2.014 miliones, chi est un outlier estremu in comparatzione cun $1 milione pro Loans in ambeos is datasets. Sa diferentzia marcada suggerit chi s'portafogliu de Trading Assets tenet un rischiu de creditu significativamente più altu o at passadu un eventu de default majori, mentras s'portafogliu de Loans paret in una saldezza eccezionale cun apena nenni equilibrius de non-accrued."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_008",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Est'istadu una correlatzione positiva e cunstistente ente 'cantidade portada' e 's'agregadu de s'importu inadìntu principali in carchi de su valor equu' pro sa categoria de 'Trading Assets'?",
+    "answer": [
+      [
+        "No, no est'istadu mostrada una correlatzione positiva e cunstistente. Sa prima serie de Trading Assets tenet una cantidade portada pighi (10.108M vs 8.851M) ma un'agregadu de s'importu inadìntu principali in carchi de su valor equu pighi (435M vs 623M). Ist'istadu chi una dimensione pighi de cartellu no est'istadu necessariamente cunnessa a una perda inadìnta proporzionada in su datu."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_009",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifica chi c'entrani rigas chi contènnent datos ripetidos o semprai redundantes e spiega su pattu.",
+    "answer": [
+      [
+        "Ruddantzia de datos est presenti in rigas 3 e 4. In sa riga 3, 'balance of non-accrual loans...', su valor pro trading assets est $2,014M in ambo is set (B3, D3) e $1M pro loans in ambo is set (C3, E3). In sa riga 4, su valor $2,014M est repetidu tres vezes pro ambo is set de trading assets e pro sa prima set de loans (B4, C4, D4), suggerindu o una pattu de immissione de datos o un artifatziu specificu de reportistica finanziaria."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_010",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Pera 'e su datu set (Set 1: cols B,C o Set 2: cols D,E) cun su totale de custu reportadu iscrividu in su bilanciu consolidadu maiore, calcula su 'percentuale de perda non realizzada' (totale 'saldo de principali non pagadu in cima a su valori de justu' divididu per totale 'custu reportadu').",
+    "answer": [
+      [
+        "8.82%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

@@ -1,0 +1,219 @@
+[
+  {
+    "question_id": "finqa_d4496bc7b4_001",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "2009年內資產退休義務的淨變動是多少，根據提供的明細變動計算？",
+    "answer": [
+      [
+        "137"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_002",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "哪個變動類別在2008年和2009年之間經歷最大的絕對數值差異？",
+    "answer": [
+      [
+        "held for sale"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_003",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "2009年，「修訂先前估計」佔總正向調整（負債發生、累積費用、修訂）的百分比是多少？",
+    "answer": [
+      [
+        "61.39%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_004",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "檢查「2008年12月31日資產退役義務」是否根據年初餘額和該年度的明細變更正確計算。顯示計算過程。",
+    "answer": [
+      [
+        "是的，2008年的期末餘額計算正確。計算過程為：$1134（年初） + $30（產生） - $94（結算） + $66（利息費用） + $24（估計修訂） - $195（待售） = $965，與報告值相符。"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_005",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "假使2008年「持作出售」調整為零，2008年末資產退休義務會是多少？",
+    "answer": [
+      [
+        "$ 1160"
+      ]
+    ],
+    "evidence_cells": [
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_006",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "分析並比較2008年與2009年總資產退役義務變化的主因。",
+    "answer": [
+      [
+        "2008年，義務減少1億6900萬美元，主要受「持有待售」資產減少1億9500萬美元及結算負債9400萬美元的影響，這些減項超過1億2000萬美元的新增項目。相比之下，2009年義務增加1億3700萬美元，主要受「先前估計修正」增加1億2400萬美元的驅動，該項超過結算負債6500萬美元的影響。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7",
+      "C1",
+      "C7",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_007",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "哪個財務項目在2008到2009年間增加了超過1億美元，成為年度變化的異常值？",
+    "answer": [
+      [
+        "revisions to previous estimates"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_008",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "找出「revisions to previous estimates」比「liabilities incurred including acquisitions」多五倍以上的年份。",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B5",
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_009",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "根據這兩年的數據，起始義務和該年度的「accrual expense」之間有可觀察到的模式或關係嗎？",
+    "answer": [
+      [
+        "是的，有可觀察到的模式。「accrual expense」似乎相對穩定地佔起始餘額的百分比。在2008年，它是起始餘額的5.8%（$66M / $1134M），而在2009年，它是6.6%（$64M / $965M）。這表明accrual expense是基於開盤義務一致計算的，很可能反映了長期負債的時間價值。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_010",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "表格結構如何確認2008年底至2009年初資產退役義務餘額的連續性？",
+    "answer": [
+      [
+        "表格透過顯示「2008年12月31日資產退役義務」在2008年欄位的值（$ 965）與「2009年1月1日資產退役義務」在2009年欄位的值（$ 965）相同，來顯示連續性。這是一種標準會計滾動呈現，其中一個期間的結餘成為下個期間的開餘。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A7",
+      "B1",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_011",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "2008到2009年間，資產退休義務總額怎麼變化？",
+    "answer": [
+      [
+        "資產退休義務總額從2008年的965百萬美元增加到2009年的1102百萬美元"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

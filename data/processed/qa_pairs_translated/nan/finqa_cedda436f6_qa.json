@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "finqa_cedda436f6_001",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "哪一年「income from operations before income tax」最高？",
+    "answer": [
+      [
+        "2013"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_002",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "表格中三年總計的所得稅費用是多少百萬美元？",
+    "answer": [
+      [
+        "238"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cedda436f6_003",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "對於淨銷售最低的年度，對應的「淨收益來自停業業務（歸屬於PPG）」是多少百萬美元？",
+    "answer": [
+      [
+        "2197"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_004",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "描述2011年到2013年「淨銷售」的趨勢。",
+    "answer": [
+      [
+        "淨銷售從2011年的1732百萬美元稍微減少到2012年的1688百萬美元，接著在2013年劇烈下降到108百萬美元。這顯示在這段期間的最後一年有顯著的負面趨勢。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_005",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "列出2013年的數值超過2012年和2011年總和的所有財務指標",
+    "answer": [
+      [
+        "income from operations before income tax"
+      ],
+      [
+        "income from discontinued operations net of tax"
+      ],
+      [
+        "net income from discontinued operations ( attributable to ppg )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "A7",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_006",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "「net income from discontinued operations ( attributable to ppg )」從2012年到2013年增加了百分之幾？",
+    "answer": [
+      [
+        "921.9%"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cedda436f6_007",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "如果2013年「分離合併化學品業務的淨收益」減少25%，且此減少直接減少「營業收入前所得稅」，那該年度的新營業收入會是多少？",
+    "answer": [
+      [
+        "1466"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_008",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "依這筆數據，分析「淨銷售」和「營業利潤前稅」三間年間嘅關係。有無穩定嘅相關性？",
+    "answer": [
+      [
+        "無穩定嘅相關性。從2011年到2012年，指標顯示正相關，淨銷售稍微下降（從$1732M到$1688M）對應利潤下降（從$376M到$345M）。但係2013年呢個關係逆轉，淨銷售暴跌到$108M，利潤卻暴增到$2014M。呢個顯示2013年嘅利潤係由非核心銷售因素推動，例如「商品化學業務分離合併嘅淨收益」。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cedda436f6_009",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "哪個財務指標在一年中顯示$2014百萬值，而在其他兩年顯示2014百萬值，凸顯相同數值的資料格式不一致？",
+    "answer": [
+      [
+        "less : net income attributable to non-controlling interests discontinued operations"
+      ],
+      [
+        "net gain from separation and merger of commodity chemicals business"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "A6",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_010",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "2013年哪項財務項目相較於其他年份的零或近零隱含值，代表最重大的財務事件？並且它如何影響該年的「營業收入前稅前利潤」？",
+    "answer": [
+      [
+        "「商品化學業務分離與併購的淨收益」在2013年為2192百萬，是最重大的財務事件。這一次性收益似乎是2013年「營業收入前稅前利潤」高達2014百萬的主要驅動因素，與2012年和2011年的345百萬和376百萬相比，這是一個顯著的異常值。"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cedda436f6_011",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "2011年終的所得稅費用是多少？",
+    "answer": [
+      [
+        "126"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "question_id": "finqa_d1c84ab8ff_001",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "哪一年的'国际业务税'对税率的调整幅度最大？",
+    "answer": [
+      [
+        "2017"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_002",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "2018年所有对税率的正向调整之和是多少，不包括'美国税改影响'？",
+    "answer": [
+      [
+        "7.4"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_003",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "在有效税率最高的年份，\"美国税改影响\"的值是多少？",
+    "answer": [
+      [
+        "51.2"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "C12",
+      "D12",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_004",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "open_ended_reasoning",
+    "question": "描述2016年至2018年\"法定税率\"的变化趋势。",
+    "answer": [
+      [
+        "法定税率呈现出持续下降的趋势，2016年为20.0%，2017年降至19.3%，2018年进一步降至19.0%。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_005",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "列出所有在所呈现的三年中对税率产生持续正面影响（即正值）的税务调整类别。",
+    "answer": [
+      [
+        "nondeductible expenses"
+      ],
+      [
+        "change in uncertain tax positions"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "A7",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_006",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "2017年，'美国税改影响'对税率总正向调整的贡献占比是多少？",
+    "answer": [
+      [
+        "87.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5",
+      "C7",
+      "C9",
+      "C11"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_007",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "如果2018年的“处置损失”为零而不是-10.2，那么该年的“有效税率”会是多少？",
+    "answer": [
+      [
+        "21.9%"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "B12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_008",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "open_ended_reasoning",
+    "question": "法定税率和有效税率在三年间是否存在稳定的相关性？请根据数据解释你的推理。",
+    "answer": [
+      [
+        "否，不存在稳定的相关性。虽然法定税率从20.0%稳步下降到19.0%，但有效税率波动很大，从2016年的10.6%上升到2017年的36.5%峰值，然后降至2018年的11.7%。这种波动表明，有效税率主要受大型、不一致的调整项目影响，例如2017年“美国税改”带来的51.2影响，而非法定税率。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "A12",
+      "B12",
+      "C12",
+      "D12",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_009",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "哪个具体的税务调整项目在超过一年的时间段内包含非数值数据？",
+    "answer": [
+      [
+        "loss on disposition"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "C10",
+      "D10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_010",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "2017年中，哪一项单一的税务调整项目与其他所有调整项目相比是最显著的异常值？",
+    "answer": [
+      [
+        "u.s . tax reform impact"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_011",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "open_ended_reasoning",
+    "question": "2016年到2018年有效税率增加了多少？",
+    "answer": [
+      [
+        "有效税率从2016年的10.6%增加到2018年的11.7%，增加了1.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "D12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

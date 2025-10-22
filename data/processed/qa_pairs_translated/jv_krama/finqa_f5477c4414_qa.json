@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_f5477c4414_001",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Punika total kang kanggo 'loans 2013 reported' ing taun 2012 (kolom E), yen diitung kanthi njumlahake jinis-jinis loan sing ana ing kolom sing padha?",
+    "answer": [
+      [
+        "1717"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f5477c4414_002",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Apa kategori pangajeman sing luwih gedhe pumbuh persentasee kasebut, tanpa ngikutake 'loans 2013 reported', ing saldo dina Desember 31 saka 2012 menyang 2013?",
+    "answer": [
+      [
+        "loans held-for-sale"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_003",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Piye wangsulan saka 'lending-related commitments' nalika 'total wholesale credit-related assets' lagi paling cilik ing akhir taun?",
+    "answer": [
+      [
+        "$ 434814"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_004",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Pira persèntase saka 'total wholesale credit exposure' dhateng 31 Desember 2013 sing diatribusi marang 'lending-related commitments'?",
+    "answer": [
+      [
+        "51.87%"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "B9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f5477c4414_005",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Nanging kula badhe dadosaken kabeh kategori aset utawa liabilitas ingkang nilaié ing tanggal 31 Desember 2013 mboten wonten kaping ingkang kaping ing tanggal 31 Desember 2012?",
+    "answer": [
+      [
+        "loans at fair value ( a )"
+      ],
+      [
+        "derivative receivables"
+      ],
+      [
+        "liquid securities and other cash collateral held against derivatives"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A11",
+      "B11",
+      "C11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_006",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Yen nilai saka 'receivables from customers and other ( b )' ing kolom '2013' (kolom D) kena 25% luwih, piye jenengé total wholesale credit-related assets kanggo kolom mau?",
+    "answer": [
+      [
+        "1962.5"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "D7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_007",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Kula badhe ngenani barang keuangan (saka kolom A) sing nduweni perubahan aneh paling gedhe antarane kolom '2013' lan '2012' (D lan E), kang diwujudake kanthi perbedaan absolut paling gedhe.",
+    "answer": [
+      [
+        "loans 2013 reported"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A2",
+      "D2",
+      "E2",
+      "A3",
+      "D3",
+      "E3",
+      "A4",
+      "D4",
+      "E4",
+      "A5",
+      "D5",
+      "E5",
+      "A6",
+      "D6",
+      "E6",
+      "A7",
+      "D7",
+      "E7",
+      "A8",
+      "D8",
+      "E8",
+      "A9",
+      "D9",
+      "E9",
+      "A10",
+      "D10",
+      "E10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f5477c4414_008",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Kula badhe ngidentifikasi cell(s) sing ngandhut teks non-numerik ('na') kanggo nggawe ora bisa dilakoni penjumlahan langsung ing kolomé.",
+    "answer": [
+      [
+        "D11"
+      ],
+      [
+        "E11"
+      ]
+    ],
+    "evidence_cells": [
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_009",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "open_ended_reasoning",
+    "question": "Kula badhe ngrungkuti analisis saka trend saka akhir taun 2012 marang 2013 kanggo 'total wholesale credit exposure' lan pangaruh utamane?",
+    "answer": [
+      [
+        "'Total wholesale credit exposure' miwiti dadi 846.628 milyar dolar ing taun 2012 dadi 860.299 milyar dolar ing taun 2013. Kaping kasebut dadi kenaikan utamane disebabake dening kenaikan sing gedhe ing 'loans held-for-sale' (mlebu 156%) lan kenaikan ing 'lending-related commitments' (mlebu 2,6%). Nanging, kenaikan iki katon diwedi dening penurunan sing dadi 12,3% ing 'derivative receivables' lan penurunan 21,3% ing 'loans at fair value', sing nandhangi peralihan saka komposisi portofolio kredit."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B8",
+      "C8",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_010",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan perubahan saka taun 2012 marang 2013 ing kahanan akhir taun, apa hubungan sing katon antarane 'derivative receivables' karo 'total wholesale credit-related assets'?",
+    "answer": [
+      [
+        "Katon ana hubungan kewaning saka kumpulan data sing terbatas iki. Saka kahanan akhir taun 2012 marang 2013, 'derivative receivables' turun saka $74.983 milyar dadi $65.759 milyar. Kanthi barengan, 'total wholesale credit-related assets' nembe naik saka $411.814 milyar dadi $414.067 milyar. Iki nandhakake yen nalika nilai derivative receivables turun, aset liyane nambah kanggo ngganti luwih saka, ngasilake peningkatan keseluruhan ing aset total. Nanging, hubungan sing pasti ora bisa ditetepake saka sawijining poin data kaping loro."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f5477c4414_011",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Pada taun pira loan retained paling tuwa?",
+    "answer": [
+      [
+        "2013"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_f5477c4414_001",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "2012年度（列E）において、「loans 2013 reported」の合計額は、同一列の構成ローンタイプを合計して計算した場合いくらでしたか？",
+    "answer": [
+      [
+        "1717"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f5477c4414_002",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "「loans 2013 reported」を除いたローンカテゴリの中で、2012年から2013年までの12月31日残高の最大のパーセンテージ成長を経験したのはどれですか？",
+    "answer": [
+      [
+        "loans held-for-sale"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_003",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "「総合卸信用関連資産」が最小値となった決算期末時の「貸付関連コミットメント」の価値はいくらでしたか？",
+    "answer": [
+      [
+        "$ 434814"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_004",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "2013年12月31日時点の「total wholesale credit exposure」のうち、「lending-related commitments」が占める割合はいくらですか？",
+    "answer": [
+      [
+        "51.87%"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "B9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f5477c4414_005",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "2013年12月31日と2012年12月31日を比較して、資産または負債カテゴリのうち値が減少したものをすべて列挙してください。",
+    "answer": [
+      [
+        "loans at fair value ( a )"
+      ],
+      [
+        "derivative receivables"
+      ],
+      [
+        "liquid securities and other cash collateral held against derivatives"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A11",
+      "B11",
+      "C11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_006",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "「receivables from customers and other ( b )」の値が「2013」列（D列）で25%高かった場合、その列の「total wholesale credit-related assets」の新しい値はいくらになりますか？",
+    "answer": [
+      [
+        "1962.5"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "D7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_007",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "「2013」と「2012」列（D列とE列）間で最も異常な変化を示し、絶対値が最大の差を持つ財務項目（列Aから）を特定してください。",
+    "answer": [
+      [
+        "loans 2013 reported"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A2",
+      "D2",
+      "E2",
+      "A3",
+      "D3",
+      "E3",
+      "A4",
+      "D4",
+      "E4",
+      "A5",
+      "D5",
+      "E5",
+      "A6",
+      "D6",
+      "E6",
+      "A7",
+      "D7",
+      "E7",
+      "A8",
+      "D8",
+      "E8",
+      "A9",
+      "D9",
+      "E9",
+      "A10",
+      "D10",
+      "E10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f5477c4414_008",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "直接合計ができない列の非数値テキスト（'na'）を含むセルを特定してください。",
+    "answer": [
+      [
+        "D11"
+      ],
+      [
+        "E11"
+      ]
+    ],
+    "evidence_cells": [
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_009",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "open_ended_reasoning",
+    "question": "2012年末から2013年末までの「総合的な卸売信用暴露」の傾向とその主な要因を分析してください。",
+    "answer": [
+      [
+        "「総合的な卸売信用暴露」は、2012年の846,628百万ドルから2013年の860,299百万ドルへと小幅に増加しました。この成長は主に「売却目的貸付」（156%増）の大幅な増加と「貸付関連コミットメント」（2.6%増）の上昇によって推進されました。ただし、この成長は「デリバティブ受取」の12.3%の減少と「公正価値貸付」の21.3%の低下によって部分的に相殺され、信用ポートフォリオの構成にシフトが生じていることを示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B8",
+      "C8",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_010",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "open_ended_reasoning",
+    "question": "2012年から2013年の期末残高の変化に基づき、「デリバティブ受取債権」と「総合的な卸売信用関連資産」の間の明らかな関係は何ですか？",
+    "answer": [
+      [
+        "この限定されたデータセット内では逆相関関係が見られます。2012年末から2013年末にかけて、「デリバティブ受取債権」は74,983百万ドルから65,759百万ドルへ減少し、同時に「総合的な卸売信用関連資産」は411,814百万ドルから414,067百万ドルへ増加しました。これは、デリバティブ受取債権の価値が低下した一方で、他の資産が増加し、全体的な資産増加をもたらしたことを示唆しています。ただし、2点のデータのみでは確実な相関関係を確立することはできません。"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f5477c4414_011",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "ローンの保有が最も高いのはどの年ですか？",
+    "answer": [
+      [
+        "2013"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

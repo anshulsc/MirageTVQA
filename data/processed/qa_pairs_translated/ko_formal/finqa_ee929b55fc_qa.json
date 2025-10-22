@@ -1,0 +1,270 @@
+[
+  {
+    "question_id": "finqa_ee929b55fc_001",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "보고 단위 중 할당된 장부 가치의 공정 가치 비율이 가장 높은 것은 무엇입니까?",
+    "answer": [
+      [
+        "transaction services"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_002",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "\"banking\"이라는 용어가 포함된 보고 단위의 총 순자산은 얼마입니까?",
+    "answer": [
+      [
+        "19960"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_003",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "보고 단위 중 공정 가치 비율이 두 번째로 낮은 단위의 순자산은 얼마입니까?",
+    "answer": [
+      [
+        "65"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_004",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "자기부채가 4,000달러 이상이고 공정가치 비율이 400% 미만인 보고 단위를 모두 나열하십시오.",
+    "answer": [
+      [
+        "asia regional consumer banking"
+      ],
+      [
+        "securities and banking"
+      ],
+      [
+        "local consumer lending 2014cards"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_005",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "모든 보고 단위의 총 순자산가치 중 \"아시아 지역 소비자 은행\"에 할당된 비율은 얼마입니까? 소수점 한 자리까지 반올림한 백분율로 답변하십시오.",
+    "answer": [
+      [
+        "23.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_006",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "\"local consumer lending 2014cards\"의 금융자산감가상각으로 인해 원가가 25% 감소하면 새로운 원가 가치는 얼마인가요?",
+    "answer": [
+      [
+        "3420"
+      ]
+    ],
+    "evidence_cells": [
+      "C8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_007",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "open_ended_reasoning",
+    "question": "데이터를 바탕으로 고유가치가 높은 경우 '할당된 장부가치 대비 공정가치 비율'도 높은지 명확한 양의 상관관계가 있는지 분석해 주세요.",
+    "answer": [
+      [
+        "아닙니다. 명확한 양의 상관관계가 없습니다. 예를 들어, '트랜잭션 서비스'는 '할당된 장부가치 대비 공정가치 비율'에서 현저히 높은 1716%를 기록했지만, 상대적으로 중간 수준의 고유가치(1,567달러)만을 가지고 있습니다. 반면에 '증권 및 은행'은 고유가치가 가장 높은 9,259달러를 기록했지만 공정가치 비율은 네 번째로 낮은 223%에 불과합니다. 이는 한 지표의 높은 값이 다른 지표의 높은 값과 일관되게 연관되지 않음을 보여줍니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_008",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "보고 단위 중 '할당된 장부 가치 대비 공정 가치 비율(%)'에서 현저한 이상치를 보이는 단위를 식별하고, 해당 단위의 공정 가치 비율이 모든 단위의 중앙값 대비 몇 배 큰지 계산하세요. 배수를 가장 가까운 정수로 반올림하십시오.",
+    "answer": [
+      [
+        "transaction services",
+        "9"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_009",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "open_ended_reasoning",
+    "question": "최저 순자산 가치를 가진 네 개의 보고 단위 이름에 공통적으로 나타나는 주제는 무엇입니까?",
+    "answer": [
+      [
+        "\"브로커리지 및 자산 관리\", \"emea 지역 소비자 은행\", \"트랜잭션 서비스\", \"라틴 아메리카 지역 소비자 은행\"과 같은 네 개의 단위는 '노스 아메리카' 또는 '아시아'를 이름에 포함하지 않으며, 비미국 지역 또는 특정 비지역 서비스 라인을 대표합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A6",
+      "C6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_010",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "4개의 '지역 소비자 은행' 부문 중 공정 가치의 백분율당 가장 높은 순자산 가치를 가진 부문은 무엇입니까?",
+    "answer": [
+      [
+        "아시아 지역 소비자 은행"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_011",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "모든 지역 중에서 어떤 보고 단위가 가장 높은 양도재산을 가지고 있나요?",
+    "answer": [
+      [
+        "Securities and Banking"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_e33c420d31_001",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Která smluvní závaznost, s výjimkou 'debt obligations' a 'interest payments on long-term debt', má nejvyšší částku splatnou v období '3-5 years'?",
+    "answer": [
+      [
+        "fuel obligations"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_002",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Jaký je kombinovaný celkový součet všech závazků, které mají odkaz na poznámku '11'?",
+    "answer": [
+      [
+        "$ 16297"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "H3",
+      "B4",
+      "H4",
+      "B5",
+      "H5",
+      "B6",
+      "H6",
+      "B7",
+      "H7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_e33c420d31_003",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Jaký procentuální podíl celkových závazků splatných v období '1-3 roky' připadá na závazek s nejvyšší celkovou hodnotou?",
+    "answer": [
+      [
+        "27.04%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "D1",
+      "D9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_004",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "Pro 'úrokové platby na dlouhodobé dluhy' analyzujte trend plateb v čtyřech časových obdobích a určete, zda je závazek předplacený nebo zpožděný.",
+    "answer": [
+      [
+        "Platby pro 'úrokové platby na dlouhodobé dluhy' činí 1 172 $ (<1 rok), 2 166 $ (1-3 roky), 1 719 $ (3-5 let) a 4 046 $ (>5 let). Závazek je výrazně zpožděný, protože platby s časem stoupají a největší jednorázová platba nastává v období 'více než 5 let'. Přes 63 % celkových úrokových plateb je splatných za více než 3 roky."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_005",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Vypište smluvní závazky, kde částka splatná v období „méně než 1 rok“ je vyšší než částka splatná v období „3–5 let“.",
+    "answer": [
+      [
+        "fuel obligations"
+      ],
+      [
+        "other purchase obligations"
+      ],
+      [
+        "other long-term liabilities reflected on aes' consolidated balance sheet under gaap ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "E6",
+      "A7",
+      "C7",
+      "E7",
+      "A8",
+      "C8",
+      "E8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_006",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Jaký je poměr celkových krátkodobých závazků (splatných v 'méně než 1 roce') k celkovým dlouhodobým závazkům (splatným v 'více než 5 letech') na základě posledního řádku celkem?",
+    "answer": [
+      [
+        "Approximately 1:2.81"
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "F9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_e33c420d31_007",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Pokud by nová politika vyžadovala, aby všechny 'operativní lease závazky' splatné v období 'více než 5 let' byly místo toho placeny v období '3-5 let', jaká by byla nová celková hodnota pro sloupec '3-5 let'?",
+    "answer": [
+      [
+        "$ 10283"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_008",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "Existuje patrná korelace mezi typem energetických závazků (palivo vs. elektřina) a jejich rozvrhem splátek?",
+    "answer": [
+      [
+        "Ano, existuje jasná korelace. 'Závazky spojené s palivem' jsou předčasné, s největší splátkou (1 759 $) splatnou v 'méně než 1 roce', což naznačuje krátkodobé smlouvy. Naopak 'závazky spojené s elektřinou' jsou pozdní, s největší splátkou (2 065 $) splatnou v 'více než 5 letech', což pravděpodobně odráží dlouhodobé dohody o nákupu elektřiny. To naznačuje, že povaha zdroje energie souvisí s délkou finančního závazku."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_e33c420d31_009",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "Na základě celkových hodnot pro každou platební periodu v posledním řádku, který časový rámec představuje největší finanční závazek a co to naznačuje o struktuře závazků společnosti?",
+    "answer": [
+      [
+        "Období \"více než 5 let\" představuje největší závazek ve výši 20 544 dolarů. To naznačuje, že struktura závazků společnosti je převážně dlouhodobá, s významnou částí finančních závazků naplánovaných k úhradě až v budoucnosti, což naznačuje dlouhodobé finanční strategie nebo velké kapitálové projekty."
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "D9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_010",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "Řádek pro 'other long-term liabilities' obsahuje hodnotu ve sloupci 'less than 1 year', která vypadá jako odlehlá. Identifikujte tuto hodnotu a vysvětlete, proč je nekonzistentní.",
+    "answer": [
+      [
+        "Odlehlá hodnota je '$ 2014' ve sloupci 'less than 1 year'. Je nekonzistentní, protože tato jediná krátkodobá splátka je významně vyšší než '$ 701' uvedené jako 'total' pro celou tuto povinnost, což je logicky nemožné a pravděpodobně chyba v datech."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_e33c420d31_011",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Jaká je celková hodnota závazků z paliva v milionech?",
+    "answer": [
+      [
+        "$5859"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

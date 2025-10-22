@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "finqa_d831042916_001",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "V kterém roce došlo k největšímu '(ztrátě) z provozu pokračujících činností'?",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_002",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Jaké byly celkové provozní náklady za tříleté období od roku 2007 do roku 2009?",
+    "answer": [
+      [
+        "$3743"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d831042916_003",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Jaká byla hodnota „neúrokového příjmu“ v jediném roce, kdy společnost dosáhla kladného „čistého výsledku (ztráty)“?",
+    "answer": [
+      [
+        "422"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "B12",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_004",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Popište trend „celkového příjmu po odečtení úrokových výdajů“ v období od roku 2007 do roku 2009.",
+    "answer": [
+      [
+        "Trend byl výrazně negativní a volatilní. Celkové příjmy ukázaly mírné zlepšení ztráty ve výši 2310 milionů dolarů v roce 2007 na ztrátu ve výši 2258 milionů dolarů v roce 2008. Nicméně následoval katastrofální pokles v roce 2009, kdy se ztráta dramaticky zvýšila na 10556 milionů dolarů, což naznačuje závažný pokles v základních činnostech společnosti generujících příjmy."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_005",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Vypište 'daňové příjmy (výhody)' za všechny roky, kde byl '(ztráta) z běžné činnosti' větší než 2 500 milionů dolarů.",
+    "answer": [
+      [
+        "-4369 ( 4369 )"
+      ],
+      [
+        "-1446 ( 1446 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "D7",
+      "B8",
+      "D8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_006",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "V roce 2009 jaký procentuální podíl 'total revenues net of interest expense' tvořila 'non-interest revenue'?",
+    "answer": [
+      [
+        "84.25%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d831042916_007",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Pokud by se 'total operating expenses' v roce 2008 zvýšilo o 20 %, jaká by byla nová hodnota '(loss) from continuing operations before taxes' pro tento rok?",
+    "answer": [
+      [
+        "$ -2871 ( 2871 )"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_008",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Na základě dat existuje konzistentní korelace mezi nižšími 'celkovými provozními náklady' a vyšším 'čistým výsledkem (ztrátou)'?",
+    "answer": [
+      [
+        "Ne, konzistentní korelace není pozorovatelná. Zatímco v roce 2008 byly nejnižší provozní náklady (510 mil. USD) a nejvyšší čistý výsledek (1820 mil. USD), což naznačuje inverzní vztah, tento vzorek je porušen ostatními roky. V roce 2009 byly provozní náklady (1420 mil. USD) nižší než v roce 2007 (1813 mil. USD), přesto v roce 2009 došlo k výrazně horší ztrátě (-8051 mil. USD) oproti roku 2007 (-1968 mil. USD). To naznačuje, že další faktory, jako například prudký pokup příjmů, měly na čistý výsledek mnohem větší vliv než pouze provozní náklady."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "A12",
+      "B4",
+      "C4",
+      "D4",
+      "B12",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d831042916_009",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Prozkoumáním posledních tří řádků je výpočet pro 'net income (loss)' aplikován konzistentně všemi třemi lety? Vysvětlete svůj závěr.",
+    "answer": [
+      [
+        "Ne, metoda výpočtu je nekonzistentní. V roce 2007 je 'net income (loss)' (-1968 M USD) správně získáno odečtením 'net income attributable to noncontrolling interests' (2 M USD) od 'net income (loss) before attribution...' (-1966 M USD). V obou letech 2008 a 2009 je však hodnota 'net income (loss)' identická s hodnotou 'net income (loss) before attribution...', což je nesprávné, protože ignoruje část připadající na nekontrolované zájmy. To ukazuje na nekonzistentní strukturu tabulky pro roky 2008 a 2009."
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "A11",
+      "A12",
+      "B10",
+      "B11",
+      "B12",
+      "C10",
+      "C11",
+      "C12",
+      "D10",
+      "D11",
+      "D12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_010",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Která finanční položka v roce 2008 představuje významný kladný odlehlý bod ve srovnání s ostatními roky a jaký měla vliv na výsledek společnosti?",
+    "answer": [
+      [
+        "Položka 'příjem (ztráta) z ukončených operací po zdanění' v roce 2008 s hodnotou 4002 milionů dolarů je významný kladný odlehlý bod ve srovnání se ztrátou 445 milionů dolarů v roce 2009 a menším ziskem 708 milionů dolarů v roce 2007. Tento odlehlý bod byl rozhodující, protože přeměnil významnou 'ztrátu z běžných operací' ve výši 2182 milionů dolarů na konečný kladný 'čistý zisk' ve výši 1820 milionů dolarů pro tento rok."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "A9",
+      "A12",
+      "B9",
+      "C8",
+      "C9",
+      "C12",
+      "D9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d831042916_011",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Zohledněte jak pokračující operace, tak ukončené operace. Jaká byla celková změna čistého zisku mezi roky 2008 a 2009?",
+    "answer": [
+      [
+        "V roce 2008 byl čistý zisk 1 820 milionů dolarů. V roce 2009 byl čistý zisk -8 051 milionů dolarů. Celková změna čistého zisku mezi roky 2008 a 2009 je pokles o 9 871 milionů dolarů."
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "C12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

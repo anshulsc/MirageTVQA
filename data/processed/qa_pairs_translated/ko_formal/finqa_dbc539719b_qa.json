@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_dbc539719b_001",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "개별적으로 나열된 주들 중에서 고객당 운영 수익이 가장 높은 주는 어디인가요?",
+    "answer": [
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A4",
+      "B4",
+      "D4",
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_002",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "일리노이, 인디애나, 캘리포니아의 고객 총 수는 얼마입니까?",
+    "answer": [
+      [
+        "779881"
+      ]
+    ],
+    "evidence_cells": [
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_dbc539719b_003",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "추정 서비스 인구가 가장 적은 주(들)의 총 운영 수익 비율은 얼마입니까?",
+    "answer": [
+      [
+        "12.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "F6",
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_004",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "총 고객 수 비중이 총 영업 수익 비중보다 큰 주는 어디인가요?",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "indiana"
+      ],
+      [
+        "west virginia ( b )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "A5",
+      "C5",
+      "E5",
+      "A6",
+      "C6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_005",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "\"other ( c )\" 카테고리의 총 고객 비율과 총 서비스 인구 비율의 비율을 소수점 둘째 자리까지 반올림한 값은 얼마인가요?",
+    "answer": [
+      [
+        "1.01"
+      ]
+    ],
+    "evidence_cells": [
+      "E8",
+      "G8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_dbc539719b_006",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "펜실베이니아의 영업 수익이 10% 증가했다면, 다른 모든 주의 수익이 변하지 않는다고 가정할 때, 'subtotal ( top seven states )'의 새로운 영업 수익은 얼마가 될까요?",
+    "answer": [
+      [
+        "2388.14"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_007",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "제공된 여섯 개의 개별 주별 데이터를 분석하여 고객 수와 추정 서비스 인구 수 간의 관계를 파악하시오. 양의 상관관계가 있는지, 그리고 그 의미는 무엇인가?",
+    "answer": [
+      [
+        "예, 강한 양의 상관관계가 있습니다. 주별 고객 수가 증가할수록 추정 서비스 인구 수도 증가하는 경향이 있습니다. 예를 들어, 펜실베이니아주는 고객 수(666,415명)와 추정 서비스 인구 수(220만 명)가 가장 높으며, 웨스트버지니아주와 캘리포니아주는 고객 수가 가장 적고 추정 서비스 인구 수도 가장 작습니다. 이는 해당 지역에서 사업체가 서비스하는 인구 기반 고객층이 직접적이고 비례적인 구성 요소임을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_dbc539719b_008",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "각 개별 주별로 서비스되는 추정 인구수를 고객 수로 나누어 계산한 후, 가장 큰 이상치가 되는 주를 식별하고 그 이유를 설명하시오.",
+    "answer": [
+      [
+        "일리노이가 가장 큰 이상치입니다. 각 주별로 서비스되는 추정 인구수를 고객 수로 나눈 비율은 다음과 같습니다: 펜실베이니아 (~3.30), 미주리 (~3.23), 일리노이 (~4.17), 캘리포니아 (~3.44), 인디애나 (~4.09), 웨스트버지니아 (~3.52). 대부분의 주에서 고객당 3.2에서 3.5명의 인구를 서비스하고 있지만, 일리노이와 인디애나는 특히 높습니다. 일리노이는 약 4.17로 가장 높은 비율을 보이며, 다른 주들과 비교하여 일리노이의 고객당 서비스 인구 비율이 더 크다는 것을 나타내므로 가장 큰 이상치입니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_dbc539719b_009",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "\"subtotal ( top seven states )\"와 \"other ( c )\"의 총 운영 수익 비율이 \"total regulated businesses\"에 표시된 비율로 정확히 합산되는지 확인하십시오.",
+    "answer": [
+      [
+        "예, 합산은 정확합니다. 'subtotal ( top seven states )'는 총 운영 수익의 87.0%를 차지하며, 'other ( c )' 카테고리는 13.0%를 차지합니다. 이 두 비율을 더한 값(87.0% + 13.0%)은 100.0%가 되며, 이는 'total regulated businesses'에 주어진 값과 일치합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_010",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "다섯 개 주 중에서 고객 수 합계가 펜실베이니아州의 고객 수와 가장 가까운 두 주는 어디인가요?",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_011",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "캘리포니아의 운영 수익(백만 달러)은 얼마입니까?",
+    "answer": [
+      [
+        "$209.8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

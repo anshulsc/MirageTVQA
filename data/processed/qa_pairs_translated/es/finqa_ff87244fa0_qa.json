@@ -1,0 +1,234 @@
+[
+  {
+    "question_id": "finqa_ff87244fa0_001",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "¿Cuál es el total combinado de los pagos vencidos al 31 de diciembre de 2012 y al 31 de diciembre de 2013 en todas las obligaciones contractuales?",
+    "answer": [
+      [
+        "$ 6219"
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_002",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "¿Qué porcentaje de la obligación total de 'deuda [a]' está programado para pagarse después del 31 de diciembre de 2016?",
+    "answer": [
+      [
+        "71.68%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "H1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_003",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "¿Cuál obligación contractual tiene el mayor pago vencido el 31 de diciembre de 2012?",
+    "answer": [
+      [
+        "purchase obligations [d]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_004",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Para la obligación contractual con la segunda mayor cantidad total, ¿cuál es el pago vencido el 31 de diciembre de 2014?",
+    "answer": [
+      [
+        "$ 560"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "E4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_005",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "open_ended_reasoning",
+    "question": "Describe la tendencia de pago para 'arrendamientos operativos [b]' para los años 2012 a 2016.",
+    "answer": [
+      [
+        "Los pagos de 'arrendamientos operativos [b]' muestran una tendencia descendente constante año tras año desde 2012 hasta 2016, comenzando en $525 millones en 2012 y disminuyendo cada año hasta $347 millones en 2016."
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_006",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Enumere todas las obligaciones contractuales que tienen un pago vencido el 31 de diciembre de 2015 de más de $300 millones.",
+    "answer": [
+      [
+        "debt [a]"
+      ],
+      [
+        "operating leases [b]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A3",
+      "F3",
+      "A4",
+      "F4",
+      "A5",
+      "F5",
+      "A6",
+      "F6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_007",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Si los pagos por 'obligaciones de compra [d]' vencidos a finales de 2012, 2013 y 2014 se pospusieran y se agregaran a la cantidad vencida 'después de 2016', ¿cuál sería este nuevo total 'después de 2016' para esa obligación?",
+    "answer": [
+      [
+        "$ 4584"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "E4",
+      "H4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_008",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Qué obligación contractual tiene un pago en un solo año entre 2012 y 2016 que es un valor atípico, siendo significativamente mayor que sus pagos en los otros años dentro de ese periodo?",
+    "answer": [
+      [
+        "La categoría 'purchase obligations [d]' muestra un valor atípico significativo. El pago de $2598 millones vencido en 2012 es más de cuatro veces mayor que el pago del año siguiente más alto ($568 millones en 2013), y los pagos disminuyen sustancialmente en los años posteriores, lo que hace que la cifra de 2012 sea una anomalía."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_009",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "¿Qué columna de período de pago (desde 'payments due by december 31 2012' hasta 'payments due by december 31 other') contiene la mayor cantidad de entradas de pago faltantes o no aplicables, denotadas por '-'?",
+    "answer": [
+      [
+        "payments due by december 31 other"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "E6",
+      "F6",
+      "G6",
+      "H6",
+      "I1",
+      "I2",
+      "I3",
+      "I5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_010",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "open_ended_reasoning",
+    "question": "Según los datos, ¿cuál es la relación aparente entre el valor 'total' de una obligación y la proporción de esa obligación que vence 'después de 2016'?",
+    "answer": [
+      [
+        "Generalmente, parece haber una relación positiva donde las obligaciones con un valor total mayor, como 'deuda [a]' y 'arrendamientos operativos [b]', tienden a tener una porción significativa de sus pagos programados para después de 2016, lo que sugiere que son compromisos financieros a largo plazo. Sin embargo, esto no es una regla universal, ya que 'obligaciones de compra [d]', a pesar de ser la segunda obligación con mayor valor total, tiene una proporción comparativamente pequeña (aproximadamente el 16,7%) que vence después de 2016, lo que indica que es un compromiso a corto-mediano plazo."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "H1",
+      "B2",
+      "H2",
+      "B3",
+      "H3",
+      "B4",
+      "H4",
+      "B5",
+      "H5",
+      "B6",
+      "H6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_011",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "¿Cuál es el total de la deuda (en millones) por obligaciones contractuales?",
+    "answer": [],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

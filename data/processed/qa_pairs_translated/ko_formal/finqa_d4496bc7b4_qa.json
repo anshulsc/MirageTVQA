@@ -1,0 +1,219 @@
+[
+  {
+    "question_id": "finqa_d4496bc7b4_001",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "2009년에 제공된 세부 변경 사항을 기반으로 자산 철수 의무의 순변동은 얼마였습니까?",
+    "answer": [
+      [
+        "137"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_002",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "2008년과 2009년 사이 값의 절대 차이가 가장 큰 변화 카테고리는 무엇입니까?",
+    "answer": [
+      [
+        "held for sale"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_003",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "2009년에 총 긍정적 조정액(부채 발생, 인식 비용, 추정치 수정) 중 \"과거 추정치 수정\"이 차지하는 비율은 얼마입니까?",
+    "answer": [
+      [
+        "61.39%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_004",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "2008년 12월 31일 기준 '자산 철수 의무'가 해당 연도의 시작 잔액과 세부 변경 사항으로부터 정확히 계산되었는지 확인하십시오. 계산 과정을 보여주십시오.",
+    "answer": [
+      [
+        "예, 2008년 말 잔액은 정확히 계산되었습니다. 계산식은 다음과 같습니다: $1134 (시작 잔액) + $30 (발생한 부채) - $94 (상환된 부채) + $66 (이자비용) + $24 (추정치 수정) - $195 (매각 보유) = $965, 이는 보고된 값과 일치합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_005",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "2008년 'held for sale' 조정이 0이었더라면 2008년 말 자산 철거 의무액은 얼마였을까요?",
+    "answer": [
+      [
+        "$ 1160"
+      ]
+    ],
+    "evidence_cells": [
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_006",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "2008년과 2009년 간 총 자산 철거 의무 변화의 주요 요인을 분석하고 대조하십시오.",
+    "answer": [
+      [
+        "2008년에는 자산 '매각 대상'에서 195백만 달러, 청산된 부채에서 94백만 달러의 큰 감소로 인해 169백만 달러 감소하였으며, 이는 120백만 달러의 증가분을 상쇄하였습니다. 반면 2009년에는 이전 추정치 수정에서 124백만 달러의 큰 긍정적 변화가 주요 원인으로, 65백만 달러의 청산된 부채를 상쇄하며 137백만 달러 증가하였습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7",
+      "C1",
+      "C7",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_007",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "2008년에서 2009년 사이에 1억 달러 이상 증가한 재무 구성 요소는 무엇이며, 연간 변화에서 이상치로 간주되는가?",
+    "answer": [
+      [
+        "revisions to previous estimates"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_008",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "이전 추정치 수정 사항이 '수취 포함 채무 발생'의 5배 이상이었던 연도를 식별하세요.",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B5",
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_009",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "두 년간의 데이터를 기반으로 시작 의무와 해당 년도의 'accretion expense' 사이에 관찰 가능한 패턴이나 관계가 있는가?",
+    "answer": [
+      [
+        "예, 관찰 가능한 패턴이 있습니다. 'accretion expense'는 시작 잔고의 상대적으로 안정적인 비율로 나타납니다. 2008년에는 시작 잔고의 5.8%였습니다($66M / $1134M), 2009년에는 6.6%였습니다($64M / $965M). 이는 accretion expense가 개시 의무를 기반으로 일관되게 계산되었으며, 장기 부채의 시간 가치를 반영할 가능성이 있음을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_010",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "2008년 말부터 2009년 초까지 자산 철수 의무 잔액의 연속성이 테이블 구조를 통해 어떻게 확인되는지 설명하시오.",
+    "answer": [
+      [
+        "표는 '2008년 12월 31일 자산 철수 의무' 값(965백만 달러)이 '2009년 1월 1일 자산 철수 의무' 값(965백만 달러)과 동일함을 보여줌으로써 연속성을 입증합니다. 이는 표준적인 회계 롤포워드 제시 방식으로, 한 기간의 마감 잔액이 다음 기간의 개시 잔액이 되는 것입니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A7",
+      "B1",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_011",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "2008년에서 2009년까지 총 자산 철거 의무가 어떻게 변했나요?",
+    "answer": [
+      [
+        "2008년의 총 자산 철거 의무는 965백만 달러에서 2009년 1,102백만 달러로 증가했습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

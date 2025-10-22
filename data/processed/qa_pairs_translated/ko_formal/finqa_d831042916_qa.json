@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "finqa_d831042916_001",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "회사가 가장 큰 '계속 운영 손실'을 경험한 연도는 언제입니까?",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_002",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "2007년부터 2009년까지의 세 년간 총 운영 비용은 얼마였습니까?",
+    "answer": [
+      [
+        "$3743"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d831042916_003",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "회사가 순이익(손실)이 양수인 유일한 연도의 '비이자 수익' 값은 얼마였습니까?",
+    "answer": [
+      [
+        "422"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "B12",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_004",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "2007년부터 2009년까지 '이자비용 차감 순수익'의 추세를 설명하십시오.",
+    "answer": [
+      [
+        "2007년의 2310백만 달러 손실에서 2008년의 2258백만 달러 손실로 미세한 개선을 보였지만, 이는 2009년에 10556백만 달러의 손실로 급격히 악화되며 회사의 핵심 수익 창출 활동이 심각한 침체를 겪고 있음을 나타내는 전반적으로 부정적이고 불안정한 추세였습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_005",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "연속 운영 손실이 2,500백만 달러 이상인 모든 연도의 '소득세 (혜택)'를 나열하십시오.",
+    "answer": [
+      [
+        "-4369 ( 4369 )"
+      ],
+      [
+        "-1446 ( 1446 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "D7",
+      "B8",
+      "D8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_006",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "2009년에 \"이자 비용 차감 총 수익\"에서 \"비이자 수익\"이 차지하는 비율은 얼마입니까?",
+    "answer": [
+      [
+        "84.25%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d831042916_007",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "2008년 '총 운영비용'이 20% 증가했다면, 그 해의 '계속 운영으로 인한 세전 손실'은 얼마였을까요?",
+    "answer": [
+      [
+        "$ -2871 ( 2871 )"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_008",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "데이터를 기준으로 '총 운영비용'이 낮을수록 '순수익(손실)'이 높은 일관된 상관관계가 있나요?",
+    "answer": [
+      [
+        "아니요, 일관된 상관관계는 관찰되지 않습니다. 2008년에는 운영비용이 최저($510M)이고 순수익이 최고($1820M)였으므로 역관계가 있는 것처럼 보이지만, 다른 연도에서는 이 패턴이 깨집니다. 2009년에는 운영비용($1420M)이 2007년($1813M)보다 낮았으나, 2009년 순손실(-$8051M)은 2007년(-$1968M)에 비해 훨씬 더 심각했습니다. 이는 순수익에 영향을 미친 다른 요인, 특히 수익의 급격한 감소가 운영비용보다 훨씬 큰 영향을 미쳤음을 나타냅니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "A12",
+      "B4",
+      "C4",
+      "D4",
+      "B12",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d831042916_009",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "마지막 세 행을 검토하여 '순이익(손실)'의 계산이 모든 연도에 일관되게 적용되었는지 확인하시오. 그 결과를 설명하시오.",
+    "answer": [
+      [
+        "아니요, 계산 방법이 일관되지 않습니다. 2007년에는 '비지배지분 소유자 순이익'($2M)을 '비지배지분 소유자 배분 전 순이익(손실)'(-$1966M)에서 차감하여 '순이익(손실)'(-$1968M)이 정확하게 도출되었습니다. 그러나 2008년과 2009년에는 '비지배지분 소유자 배분 전 순이익(손실)' 값과 '순이익(손실)' 값이 동일하여 비지배지분 소유자에게 귀속되는 금액을 잘못히 무시하였습니다. 이는 2008년과 2009년의 테이블 구조에 보고 불일치가 있음을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "A11",
+      "A12",
+      "B10",
+      "B11",
+      "B12",
+      "C10",
+      "C11",
+      "C12",
+      "D10",
+      "D11",
+      "D12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_010",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "2008년도에 다른 연도와 비교해 상당한 양의 이상치를 나타내는 재무 항목은 무엇이며, 이 항목이 회사의 최종 순이익에 미친 영향은 무엇입니까?",
+    "answer": [
+      [
+        "'세후 중단된 운영으로부터의 수익(손실)' 항목으로, 2008년도에 4,002백만 달러의 값을 가졌으며, 2009년도의 445백만 달러 손실과 2007년도의 708백만 달러 소폭 이익과 비교해 상당한 양의 이상치를 나타냅니다. 이 이상치는 2,182백만 달러의 '계속 운영으로부터의 손실'을 해당 연도의 최종 순이익 1,820백만 달러로 전환하는 데 결정적인 역할을 했습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "A9",
+      "A12",
+      "B9",
+      "C8",
+      "C9",
+      "C12",
+      "D9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d831042916_011",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "지속적 운영과 중단된 운영을 모두 고려할 때, 2008년부터 2009년까지 순이익의 총 변화는 얼마였나요?",
+    "answer": [
+      [
+        "2008년 순이익은 1,820백만 달러였으며, 2009년 순이익은 -8,051백만 달러였습니다. 2008년부터 2009년까지 순이익의 총 변화는 9,871백만 달러 감소했습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "C12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

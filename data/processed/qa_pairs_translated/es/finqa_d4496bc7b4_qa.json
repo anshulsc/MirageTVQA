@@ -1,0 +1,219 @@
+[
+  {
+    "question_id": "finqa_d4496bc7b4_001",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "¿Cuál fue el cambio neto en las obligaciones de retiro de activos durante 2009, calculado a partir de los cambios detallados proporcionados?",
+    "answer": [
+      [
+        "137"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_002",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "¿Qué categoría de cambio experimentó la mayor diferencia absoluta en valor entre 2008 y 2009?",
+    "answer": [
+      [
+        "held for sale"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_003",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "En 2009, ¿qué porcentaje de los ajustes positivos totales (obligaciones por retiro de activos incurridas, gasto de acreción y revisiones) se debió a 'revisiones a estimaciones previas'?",
+    "answer": [
+      [
+        "61.39%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_004",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Verifique si el 'obligaciones de retiro de activos al 31 de diciembre de 2008' se calculó correctamente a partir del saldo inicial y los cambios detallados para ese año. Muestre su cálculo.",
+    "answer": [
+      [
+        "Sí, el saldo final de 2008 se calculó correctamente. El cálculo es: $1134 (inicio) + $30 (incurred) - $94 (settled) + $66 (accretion) + $24 (revisions) - $195 (held for sale) = $965, lo cual coincide con el valor reportado."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_005",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Si el ajuste de 'held for sale' en 2008 hubiera sido cero, ¿cuál habría sido el valor de las obligaciones de retiro de activos al final de 2008?",
+    "answer": [
+      [
+        "$ 1160"
+      ]
+    ],
+    "evidence_cells": [
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_006",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Analiza y contrasta los principales factores que explican el cambio en las obligaciones totales de retiro de activos entre 2008 y 2009.",
+    "answer": [
+      [
+        "En 2008, las obligaciones disminuyeron en $169 millones, principalmente impulsadas por una reducción significativa de $195 millones en activos 'held for sale' y $94 millones en pasivos liquidados, que superaron los $120 millones en adiciones. En contraste, en 2009 se observó un aumento de $137 millones, impulsado principalmente por una gran revisión positiva de estimaciones previas de $124 millones, que compensó ampliamente los $65 millones en pasivos liquidados."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7",
+      "C1",
+      "C7",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_007",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "¿Qué componente financiero registró un aumento de más de $100 millones de 2008 a 2009, convirtiéndose en un valor atípico en términos de cambio año a año?",
+    "answer": [
+      [
+        "revisions to previous estimates"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_008",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Identifica el año en el que las 'revisiones a estimaciones previas' fueron más de cinco veces mayores que las 'obligaciones por retiro de activos incurridas incluyendo adquisiciones'.",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B5",
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_009",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Basado en los datos de dos años, ¿existe un patrón o relación observable entre la obligación inicial y el 'accretion expense' para ese año?",
+    "answer": [
+      [
+        "Sí, existe un patrón observable. El 'accretion expense' parece ser un porcentaje relativamente estable del saldo inicial. En 2008, fue el 5.8% del saldo inicial ($66M / $1134M), y en 2009, fue el 6.6% ($64M / $965M). Esto sugiere que el accretion expense se calcula consistentemente en base a la obligación inicial, probablemente reflejando el valor temporal del dinero sobre la obligación a largo plazo."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_010",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Cómo confirma la estructura de la tabla la continuidad del saldo de las obligaciones de retiro de activos desde finales de 2008 hasta principios de 2009?",
+    "answer": [
+      [
+        "La tabla demuestra continuidad al mostrar que el valor de \"obligaciones de retiro de activos al 31 de diciembre\" en la columna de 2008 ($ 965) es idéntico al valor de \"obligaciones de retiro de activos al 1 de enero\" en la columna de 2009 ($ 965). Esta es una presentación estándar de roll-forward contable, donde el saldo final de un periodo se convierte en el saldo inicial del siguiente."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A7",
+      "B1",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_011",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Cómo cambiaron las obligaciones totales de retiro de activos de 2008 a 2009?",
+    "answer": [
+      [
+        "Las obligaciones totales de retiro de activos aumentaron de $965 millones en 2008 a $1,102 millones en 2009"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

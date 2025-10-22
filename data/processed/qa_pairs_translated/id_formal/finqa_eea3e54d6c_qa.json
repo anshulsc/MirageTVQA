@@ -1,0 +1,222 @@
+[
+  {
+    "question_id": "finqa_eea3e54d6c_001",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "value",
+    "question": "Berapa total pengeluaran modal, dalam ribuan dolar, selama tiga tahun yang disajikan?",
+    "answer": [
+      [
+        "967859"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_002",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "value",
+    "question": "Metrik operasional mana yang terkait dengan cairan (mbbl/d) mengalami pertumbuhan persentase terbesar antara tahun berakhir 31 Desember 2005 dan tahun berakhir 31 Desember 2007?",
+    "answer": [
+      [
+        "natural gas liquids transported ( mbbl/d )"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6",
+      "A7",
+      "B7",
+      "D7",
+      "A8",
+      "B8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_003",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "value",
+    "question": "Untuk tahun dengan 'harga jual gas alam yang direalisasikan' tertinggi, berapa volume 'gas alam yang diproses' yang bersesuaian?",
+    "answer": [
+      [
+        "1117"
+      ]
+    ],
+    "evidence_cells": [
+      "B13",
+      "C13",
+      "D13",
+      "D2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_004",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "open_ended_reasoning",
+    "question": "Jelaskan tren keseluruhan untuk 'natural gas processed (bbtu/d)' dibandingkan dengan 'natural gas transported (mmcf/d)' dari tahun 2005 hingga 2007.",
+    "answer": [
+      [
+        "Kedua metrik menunjukkan tren yang berlawanan. 'Natural gas processed' mengalami penurunan yang konsisten dan curam selama periode tiga tahun, dari 1117 bbtu/d pada tahun 2005 menjadi 621 bbtu/d pada tahun 2007. Sebaliknya, 'natural gas transported' mengalami peningkatan yang sangat besar, lebih dari dua kali lipat dari 1333 mmcf/d pada tahun 2005 menjadi 3634 mmcf/d pada tahun 2006, lalu sedikit menurun menjadi 3579 mmcf/d pada tahun 2007."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_005",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "value",
+    "question": "Daftarkan semua metrik yang diukur dalam 'bbtu/d' di mana volume pada tahun 2007 lebih rendah daripada volume pada tahun 2005.",
+    "answer": [
+      [
+        "natural gas processed ( bbtu/d )"
+      ],
+      [
+        "natural gas sales ( bbtu/d )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A4",
+      "B4",
+      "D4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_006",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "value",
+    "question": "Berapa proporsi total 'natural gas gathered' selama tiga tahun tersebut yang dikumpulkan pada tahun 2007?",
+    "answer": [
+      [
+        "34.28%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_007",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "value",
+    "question": "Jika 'realized gross processing spread' pada tahun 2007 turun 20%, berapa nilainya?",
+    "answer": [
+      [
+        "$ 4.17"
+      ]
+    ],
+    "evidence_cells": [
+      "B14"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_008",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "open_ended_reasoning",
+    "question": "Apakah terdapat korelasi yang jelas antara 'harga jual gas alam yang direalisasikan' dan volume 'penjualan gas alam' selama periode tiga tahun ini? Jelaskan alasan Anda.",
+    "answer": [
+      [
+        "Ya, terdapat korelasi positif yang jelas. Seiring dengan penurunan yang konsisten dari harga jual gas alam yang direalisasikan per mmbtu dari $7,30 pada tahun 2005 menjadi $6,21 pada tahun 2007, volume penjualan gas alam juga mengalami penurunan yang konsisten dari 334 bbtu/d pada tahun 2005 menjadi 281 bbtu/d pada tahun 2007. Kedua metrik tersebut mengikuti tren penurunan yang sama."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "A13",
+      "B13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_009",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "open_ended_reasoning",
+    "question": "Kolom data mana yang berisi nilai dengan catatan dalam tanda kurung, seperti '(a)' atau '(b)', untuk setiap entri numeriknya?",
+    "answer": [
+      [
+        "Kolom 'years ended december 31 , 2005' tidak, tetapi semua metrik dari baris ke-11 ke bawah ditandai dengan '(b)' untuk ketiga tahun, menunjukkan sifat properti khusus pada baris tersebut daripada satu kolom tunggal."
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "D5",
+      "D7",
+      "D8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_010",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "open_ended_reasoning",
+    "question": "Tahun berapa yang pengeluaran modalnya merupakan outlier signifikan dibandingkan tahun-tahun lainnya, dan mengapa?",
+    "answer": [
+      [
+        "Pengeluaran modal untuk tahun yang berakhir 31 Desember 2007 merupakan outlier signifikan. Nilainya sebesar $709.858 (dalam ribuan) lebih dari 3,5 kali lebih besar daripada pengeluaran tahun 2006 ($201.746) dan lebih dari 12,6 kali lebih besar daripada pengeluaran tahun 2005 ($56.255), menunjukkan peningkatan belanja yang dramatis dan tidak wajar."
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_011",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "open_ended_reasoning",
+    "question": "Mengapa penjualan gas alam menurun dari tahun ke tahun?",
+    "answer": [
+      [
+        "Penjualan gas alam menurun dari 334 BBtu/d pada tahun 2005 menjadi 281 BBtu/d pada tahun 2007, kemungkinan karena produksi yang lebih rendah atau permintaan pasar yang berkurang seperti yang terlihat dari penurunan yang konsisten dalam data."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

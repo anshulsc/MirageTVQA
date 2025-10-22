@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_dbc539719b_001",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Di antara negara bagian individual sing diarkeun, naon sing ngahasilkeun pendapatan operasi paling luhur ti sababaraha pelanggan?",
+    "answer": [
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A4",
+      "B4",
+      "D4",
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_002",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Saha jumlah total pangguna kanggo Illinois, Indiana, jeung California?",
+    "answer": [
+      [
+        "779881"
+      ]
+    ],
+    "evidence_cells": [
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_dbc539719b_003",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Pireun persentase total punggihan operasi ti negara anu ngaréksa populasi nu diayakeun paling handap?",
+    "answer": [
+      [
+        "12.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "F6",
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_004",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Apa negara nu andalna bagian tina jumlah pangguna anu leuwih gedé tina andalna bagian tina jumlah pendapatan operasional total?",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "indiana"
+      ],
+      [
+        "west virginia ( b )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "A5",
+      "C5",
+      "E5",
+      "A6",
+      "C6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_005",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Saha rasio tina persén total pangguna ka persén total populasi nu dijajegkeun pikeun kategori 'other ( c )', dibulatkeun ka dua tempat desimal?",
+    "answer": [
+      [
+        "1.01"
+      ]
+    ],
+    "evidence_cells": [
+      "E8",
+      "G8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_dbc539719b_006",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Yénana ospek operasional Pennsylvania ningalih 10%, naon nilai ospek operasional anyar kanggo 'subtotal ( top seven states )' ? nepi saprak kabeh ospek negara sanes tetep henteu aya pangaruh.",
+    "answer": [
+      [
+        "2388.14"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_007",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Analisis hubungan antara jumlah pelanggan jeung populasi estimasi anu dilayanan pikeun hiji negara bagian anu disebutkeun. Aya hubungan positif, jeung ngarupakeun hal anu diartikeun?",
+    "answer": [
+      [
+        "Henteu, aya hubungan positif anu kuat. Salila jumlah pelanggan ningkat pikeun hiji negara bagian, populasi estimasi anu dilayanan ogé cenderung ningkat. Contona, Pennsylvania ngabogaan jumlah pelanggan paling gedé (666.415) jeung populasi estimasi paling gedé (2,2 juta), sementara West Virginia jeung California, anu ngabogaan jumlah pelanggan paling leutik, ogé ngabogaan populasi estimasi paling leutik. Ieu ngarti yén basis pelanggan nyaéta komponen langsung jeung proporsional tina populasi anu dilayanan ku bisnis di wilayah ieu."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_dbc539719b_008",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Kanggo ngitung jumlah populasian nu dijaga ku sababaraha pelanggan pikeun sababaraha negara bagéan, sahenteuna mana negara bagéan anu paling jadi outlier sarta jelaskeun kana aya.",
+    "answer": [
+      [
+        "Illinois nyaéta outlier paling penting. Jumlah populasian nu dijaga ku sababaraha pelanggan pikeun sababaraha negara bagéan nyaéta: Pennsylvania (~3.30), Missouri (~3.23), Illinois (~4.17), California (~3.44), Indiana (~4.09), jeung West Virginia (~3.52). Salian sarta negara bagéan anu ngajaga antara 3.2 jeung 3.5 urang pikeun sababaraha pelanggan, Illinois jeung Indiana leuwih jelas leuwih tinggi. Illinois ngarupakeun rasio paling tinggi kira-kira 4.17, ngajelaskeun yén sababaraha pelanggan dina Illinois ngajaga bagéan anu leuwih gedé tina populasian nu dijaga dibandingkeun jeung negara bagéan séjén, nyaéta outlier paling penting."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_dbc539719b_009",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Pastikeun yén perséntase beurat operasi pikeun 'subtotal ( top seven states )' jeung 'other ( c )' ngajumlahkeun kana perséntase nu dipikanyaho pikeun 'total regulated businesses'?",
+    "answer": [
+      [
+        "Yes, the sum is accurate. The 'subtotal ( top seven states )' accounts for 87.0% of total operating revenues, and the 'other ( c )' category accounts for 13.0%. Adding these two percentages (87.0% + 13.0%) results in 100.0%, which matches the value given for 'total regulated businesses'."
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_010",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Saha pasangan negara, tina daftar enom, anu jumlah pelangganna kawangkit kawangkit deui ku jumlah pelanggan nang Pennsylvania?",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_011",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Apa rekening operasi dina jutaan dina California?",
+    "answer": [
+      [
+        "$209.8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

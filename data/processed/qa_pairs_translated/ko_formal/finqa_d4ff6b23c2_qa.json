@@ -1,0 +1,249 @@
+[
+  {
+    "question_id": "finqa_d4ff6b23c2_001",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "2016년도 미인정 세금 혜택의 총 순변동액을, 시작 잔액과 종료 잔액 사이에 기재된 거래 활동을 기반으로 계산하시오.",
+    "answer": [
+      [
+        "64"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_002",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "2017년과 2016년에 해당하는 변화에 비해 절대 금액 변화가 더 작은 라인 항목은 무엇인가요?",
+    "answer": [
+      [
+        "additions for tax positions related to prior years"
+      ],
+      [
+        "reductions for tax positions related to prior years"
+      ],
+      [
+        "reductions for settlements2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_003",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "2017년 12월 31일 기준 '잔액' 중 인식 시 효과 세율에 영향을 미치지 않을 비율은 얼마입니까?",
+    "answer": [
+      [
+        "5.99%"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_004",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "2017년 모든 감소액의 합과 2016년 모든 감소액의 합 사이의 차이는 얼마입니까? 단, 2017년 '법정 소멸기간 만료로 인한 감소' 항목의 비표준 값은 무시합니다.",
+    "answer": [
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_005",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "2017년에 '과거 연도와 관련된 세금 포지션 추가액'이 2016년의 금액과 같았다면, 조정된 '2017년 12월 31일 잔액'은 얼마였을까요?",
+    "answer": [
+      [
+        "$ 1321"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_006",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "2017년도의 단일 항목 중에서, 해당 연도와 이전 연도의 모든 추가 및 감소 항목과 비교할 때 재무적 규모 측면에서 가장 큰 이상치인 항목을 식별하세요.",
+    "answer": [
+      [
+        "additions for tax positions related to current year"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_007",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "재조정에 따라 '2017년 12월 31일 잔액'은 시작 잔액에 해당 연도 추가 및 감소액을 더하여 계산됩니다. 2017년 열에 해당 계산과 일치하지 않고 불필요하게 보이는 값을 포함하는 셀은 어디입니까?",
+    "answer": [
+      [
+        "B6"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_008",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "2017년에 발생한 1500만 달러 이상의 절대값을 가진 모든 활동(추가 및 감소 포함)을 나열하십시오.",
+    "answer": [
+      [
+        "additions for tax positions related to current year"
+      ],
+      [
+        "additions for tax positions related to prior years"
+      ],
+      [
+        "reductions for tax positions related to prior years"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_009",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "2016년 말부터 2017년 말까지의 총 잔고 변화를 분석해 주세요. 이 변화의 주요 원인은 무엇이었나요?",
+    "answer": [
+      [
+        "2016년 말 기준 1032백만 달러에서 2017년 말 기준 1286백만 달러로 미인정 세금 혜택 총 잔고가 254백만 달러 증가했습니다. 이 증가의 주요 원인은 2017년도 '당해 연도 관련 세금 정책 추가액'인 270백만 달러로, 이는 해당 연도 또는 전년도의 다른 단일 추가 또는 감소액보다 훨씬 더 컸습니다. 2017년도에는 총 36백만 달러의 감소액이 있었지만, 이는 큰 추가액을 상쇄하기에는 충분하지 않았습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_010",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "2016년과 2017년 사이에 미인정 세금 혜택의 구성에 상당한 변화가 있는지, 연말 잔고 중 효과세율에 영향을 미치는 비율을 기준으로 확인할 수 있나요?",
+    "answer": [
+      [
+        "2016년에는 효과세율에 영향을 미치는 금액이 1032백만 달러 중 963백만 달러로 93.3%를 차지했으며, 2017년에는 1286백만 달러 중 1209백만 달러로 94.0%를 차지했습니다. 이 비율은 매우 안정적으로 유지되어 전체 잔고가 증가했음에도 불구하고 연간 세금 정책의 구성이 일관되게 유지되었음을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_011",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "2016년에서 2017년까지 세금 관련 포지션의 총 잔액은 어떻게 변화했으며, 이 변화에 기여한 요인은 무엇인가요?",
+    "answer": [
+      [
+        "2016년의 세금 관련 포지션 총 잔액은 1,032백만 달러에서 2017년 1,286백만 달러로 증가했습니다. 이 증가는 주로 당해년도 세금 포지션 추가(+270백만 달러)와 전년도 세금 포지션 추가(+20백만 달러)에 의해 발생했으며, 전년도 포지션 감소(-27백만 달러)와 합의금 감소(-9백만 달러)에 의해 일부 상쇄되었습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

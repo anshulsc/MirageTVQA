@@ -10,11 +10,22 @@ os.environ['OMP_NUM_THREADS'] = '1'
 from .config import get_config
 from src.evaluation.models.qwen import QwenModel
 from src.evaluation.models.gemma3 import Gemma3Model
+from src.evaluation.models.internVL3 import InternVL3Model
+from src.evaluation.models.llama import LlamaVisionModel
+from src.evaluation.models.pangea import PangeaModel
+from src.evaluation.models.phi4 import Phi4MultimodalModel
+from src.evaluation.models.molmo import MolmoModel
+
 from src.evaluation.data_loader import load_benchmark_data
 
 MODEL_EVALUATOR_MAPPING = {
     "qwen": QwenModel,
     "gemma3": Gemma3Model,
+    "internVL": InternVL3Model,
+    "llama": LlamaVisionModel,
+    "pangea": PangeaModel,
+    "phi4": Phi4MultimodalModel,
+    "molmo": MolmoModel
 }
 
 def get_output_filepath(cfg) -> str:
@@ -39,6 +50,8 @@ def main():
     cprint(f"  - Dataset: {cfg.dataset.data_file}", "yellow")
     cprint(f"  - Images: {cfg.dataset.image_type} (lang: {cfg.dataset.lang_code})", "yellow")
     cprint(f"  - Batch size: {cfg.model.batch_size}", "yellow")
+    if cfg.resume_from:
+        cprint(f"  - Resuming from: {cfg.resume_from}", "yellow", attrs=["bold"])
     cprint("-" * 50, "magenta")
 
     model_name = cfg.model.name
@@ -47,22 +60,29 @@ def main():
         raise ValueError(f"Unsupported model: {model_name}. Supported: {list(MODEL_EVALUATOR_MAPPING.keys())}")
 
     try:
-        # 1. Load Data
+        # 1. Load Data (with resume functionality)
         data = load_benchmark_data(
             data_file_path=cfg.dataset.data_file,
             images_root_dir=cfg.dataset.images_root_dir,
             image_type=cfg.dataset.image_type,
-            lang_code_filter=cfg.dataset.lang_code
+            lang_code_filter=cfg.dataset.lang_code,
+            resume_from=cfg.resume_from
         )
         if not data:
-            cprint("No data loaded for the specified criteria. Exiting.", "red")
+            cprint("No data loaded for the specified criteria. All instances may be completed already.", "yellow")
             return
 
         model = model_class(cfg)
 
-        output_file = get_output_filepath(cfg)
-        Path(output_file).parent.mkdir(parents=True, exist_ok=True)
-        cprint(f"Output will be saved to: {output_file}", "cyan")
+        # Determine output file
+        if cfg.resume_from:
+            # Continue writing to the same file
+            output_file = cfg.resume_from
+            cprint(f"Appending results to: {output_file}", "cyan", attrs=["bold"])
+        else:
+            output_file = get_output_filepath(cfg)
+            Path(output_file).parent.mkdir(parents=True, exist_ok=True)
+            cprint(f"Output will be saved to: {output_file}", "cyan")
 
         import sys
         use_batch = True

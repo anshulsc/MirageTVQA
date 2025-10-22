@@ -1,0 +1,219 @@
+[
+  {
+    "question_id": "finqa_dcb7ad35d5_001",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "長期債務を除く義務タイプの中で、支払い総額が最も高いのはどれですか？",
+    "answer": [
+      [
+        "purchase obligations and other ( 4 ) ( 5 ) ( 6 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_002",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "2023年度 fiscal year 未満の合計義務額はいくらですか？",
+    "answer": [
+      [
+        "3935.9"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_003",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "2020年度において最も支払額が小さい義務タイプについて、2021-2022年度および2023-2024年度の支払総額はいくらですか？",
+    "answer": [
+      [
+        "11.6"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "A3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_004",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "会社の定義された財政期間における総支払義務の傾向を、『その後』の前までについて説明してください。",
+    "answer": [
+      [
+        "総支払義務は変動傾向を示しています。2020年度の財政期間では2378.5百万ドルから始まり、2021-2022年度期間では1557.4百万ドルに減少し、その後2023-2024年度期間で2897.5百万ドルに大きくピークを迎えます。これは短期的な義務の低下に続いて中長期的なコミットメントの大幅な増加を示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_005",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "「その後」の支払いが2020年から2024年までの支払い合計を上回るすべての義務カテゴリをリストしてください。",
+    "answer": [
+      [
+        "long-term debt including current portionexcluding capital lease obligations ( 1 )"
+      ],
+      [
+        "capital lease obligations ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "A3",
+      "C3",
+      "D3",
+      "E3",
+      "F3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_006",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "「総計」の2020年度支払額のうち、「購入義務およびその他」に該当する割合はいくらですか？",
+    "answer": [
+      [
+        "67.56%"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_007",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "2021年度および2022年度に発生するすべての「運営リース負債」を延期し、「その後」期間に加算した場合、「その後」期間の新しい合計額はいくらになりますか？",
+    "answer": [
+      [
+        "6589.9"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "F5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_008",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "支払いスケジュールに基づき、『長期債務』と『購入義務』の満期プロファイルについてどのような推論ができますか？",
+    "answer": [
+      [
+        "満期プロファイルは著しく異なります。『長期債務』は大幅に後倒しになっており、支払いの大部分（9714.1Mドルのうち5729.2Mドル）が「その後」に支払われるため、長期的な資金調達手段であることが示唆されます。一方、『購入義務』は大幅に前倒しになっており、支払いの大部分（2293.5Mドルのうち1607.0Mドル）が直近の2020会計年度に支払われるため、短期的な運営上の義務の特徴を示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_009",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "「資本リース負債」の単一の支払い額で、総負債の約90%を占める異常値はどれですか？",
+    "answer": [
+      [
+        "$ 150.9"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_010",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "「支払い期日別（2023年および2024年財政年度）」列の各個別の債務に関する値を手動で合計し、セルE5に記載されている合計値が正しいかどうか確認してください。",
+    "answer": [
+      [
+        "はい、記載されている合計値は正しいです。2023年および2024年財政年度における個別の債務の合計は、$2494.3 + $193.6 + $2.9 + $206.7となり、$2897.5に計算されます。これはセルE5の値と一致しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_011",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "営業リース義務の最も高い期間はいつですか？",
+    "answer": [
+      [
+        "2021年度および2022年度、義務額は3億1640万ドルです"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

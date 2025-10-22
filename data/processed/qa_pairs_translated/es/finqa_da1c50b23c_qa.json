@@ -1,0 +1,232 @@
+[
+  {
+    "question_id": "finqa_da1c50b23c_001",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "¿Qué tipo de unidad tiene el valor nominal redeemido más alto y cuál es ese valor?",
+    "answer": [
+      [
+        "class b-2 preferred units",
+        "$ 55.8"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_002",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "¿Cuál es el número total de unidades canjeadas en todos los tipos listados?",
+    "answer": [
+      [
+        "2271818"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_003",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "Calcula el valor nominal por unidad individual para el tipo que involucró una 'contribución caritativa'.",
+    "answer": [
+      [
+        "$10,007.17"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_004",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "Identifica todos los tipos de unidades que fueron canjeados exclusivamente en efectivo y que superaron las 2.500 unidades canjeadas.",
+    "answer": [
+      [
+        "preferred a units"
+      ],
+      [
+        "class c downreit units"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A3",
+      "B3",
+      "D3",
+      "A5",
+      "B5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_005",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "¿Qué porcentaje del valor nominal total redeemido representa la suma de todas las unidades 'class b'?",
+    "answer": [
+      [
+        "76.89%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_006",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Qué tipo de unidad es el outlier más significativo en términos de su valor nominal por unidad? Justifica tu respuesta con valores calculados.",
+    "answer": [
+      [
+        "\"preferred a units\" es el outlier más significativo. Su valor nominal por unidad es de $1.00 ($2.2 millones / 2.200.000 unidades), que es varios órdenes de magnitud menor que los demás tipos. Para comparación, el valor nominal por unidad de \"class a preferred units\" es de $10.000 ($20.0 millones / 2.000 unidades), y para \"class c downreit units\" es aproximadamente $30.74 ($1.9 millones / 61.804 unidades). El valor por unidad extremadamente bajo de \"preferred a units\" lo convierte en un outlier distinto."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_007",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "Si el valor nominal redeemido para 'class a preferred units' hubiera sido un 10% menor, ¿cuál habría sido el nuevo valor nominal total redeemido para todas las unidades (en millones)?",
+    "answer": [
+      [
+        "$ 102.3"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_008",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Los datos sugieren una correlación entre un mayor número de unidades canjeadas y un mayor valor nominal total? Explique su conclusión.",
+    "answer": [
+      [
+        "No, los datos no sugieren una correlación clara. Aunque 'class b-2 preferred units' tiene un número relativamente alto de unidades (5,576) y el valor nominal más alto ($55.8M), el tipo de unidad con más unidades, 'preferred a units' (2,200,000), tiene un valor nominal bajo ($2.2M). Por el contrario, 'class c downreit units' tiene el segundo mayor número de unidades (61,804) pero el valor nominal más bajo ($1.9M). Esto indica que el valor nominal por unidad varía drásticamente entre tipos, rompiendo cualquier correlación simple entre la cantidad de unidades y su valor total."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_009",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Qué columna contiene datos que son un compuesto de dos categorías distintas, y qué fila ejemplifica esto?",
+    "answer": [
+      [
+        "La columna 'redemption type' contiene datos compuestos. El valor 'cash/charitable contribution' en la fila 4 ejemplifica esto al combinar dos métodos de rescate distintos en una sola celda."
+      ]
+    ],
+    "evidence_cells": [
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_010",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "¿Cuál es el valor nominal promedio redeemido (en millones) para los tipos de unidades que tienen 'preferred' en su nombre?",
+    "answer": [
+      [
+        "$ 25.6"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_011",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Cuál es la cantidad total de todas las unidades tipo A combinadas y cuál es el valor de cada unidad en millones?",
+    "answer": [
+      [
+        "La cantidad total de unidades tipo A es de 2,202,000 unidades. El valor nominal de las unidades preferentes A es de $2.2 y el valor nominal de las unidades preferentes clase A es de $20.0."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

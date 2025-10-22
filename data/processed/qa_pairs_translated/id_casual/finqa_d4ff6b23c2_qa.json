@@ -1,0 +1,249 @@
+[
+  {
+    "question_id": "finqa_d4ff6b23c2_001",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Hitung total perubahan bersih dalam manfaat pajak yang belum diakui untuk tahun 2016, berdasarkan aktivitas transaksi yang tercantum di antara saldo awal dan akhir.",
+    "answer": [
+      [
+        "64"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_002",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Baris mana yang menunjukkan perubahan keuangan absolut lebih kecil di tahun 2017 dibandingkan perubahan terkaitnya di tahun 2016?",
+    "answer": [
+      [
+        "additions for tax positions related to prior years"
+      ],
+      [
+        "reductions for tax positions related to prior years"
+      ],
+      [
+        "reductions for settlements2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_003",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Berapa persen dari 'balance at december 31, 2017' yang TIDAK akan memengaruhi tarif pajak efektif jika diakui?",
+    "answer": [
+      [
+        "5.99%"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_004",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Berapa selisih antara jumlah semua pengurangan di 2017 dan jumlah semua pengurangan di 2016, mengabaikan nilai tidak standar di 'reductions for expiration of statute of limitations' untuk 2017?",
+    "answer": [
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_005",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Jika 'additions for tax positions related to prior years' di tahun 2017 sama dengan jumlah dari tahun 2016, berapa 'balance at december 31, 2017' yang disesuaikan?",
+    "answer": [
+      [
+        "$ 1321"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_006",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Cari item tunggal di tahun 2017 yang paling beda banget besarnya dibandingkan semua tambahan dan pengurangan di kedua tahun itu.",
+    "answer": [
+      [
+        "additions for tax positions related to current year"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_007",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Berdasarkan reconciliasi, 'balance at december 31, 2017' dihitung dari saldo awal ditambah penambahan dan pengurangan selanjutnya. Sel mana di kolom 2017 yang nilainya tidak sesuai dengan perhitungan ini dan terlihat berlebihan?",
+    "answer": [
+      [
+        "B6"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_008",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Sebutkan semua aktivitas tahun 2017, baik penambahan maupun pengurangan, yang memiliki nilai absolut lebih dari $15 juta.",
+    "answer": [
+      [
+        "additions for tax positions related to current year"
+      ],
+      [
+        "additions for tax positions related to prior years"
+      ],
+      [
+        "reductions for tax positions related to prior years"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_009",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "Analisis perubahan total balance dari akhir 2016 ke akhir 2017. Apa faktor utama yang menyebabkan perubahan ini?",
+    "answer": [
+      [
+        "Total balance dari tax benefits yang belum diakui naik sebesar $254 juta, dari $1032 juta di akhir 2016 menjadi $1286 juta di akhir 2017. Faktor utama kenaikan ini adalah '$270 juta' pada 'additions for tax positions related to current year' di tahun 2017, yang jauh lebih besar dibandingkan penambahan atau pengurangan lainnya di kedua tahun tersebut. Meskipun ada pengurangan total sebesar $36 juta di tahun 2017, pengurangan tersebut tidak cukup untuk menutupi penambahan yang besar."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_010",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "Apakah ada bukti perubahan signifikan dalam komposisi manfaat pajak yang belum diakui antara 2016 dan 2017, berdasarkan proporsi saldo akhir tahun yang akan memengaruhi tarif pajak efektif?",
+    "answer": [
+      [
+        "Tidak ada bukti perubahan komposisi yang signifikan. Pada 2016, bagian yang akan memengaruhi tarif pajak efektif adalah $963 juta dari saldo $1032 juta, atau 93,3%. Pada 2017, bagian ini adalah $1209 juta dari saldo $1286 juta, atau 94,0%. Proporsinya tetap sangat stabil, menunjukkan komposisi yang konsisten dari posisi pajak dasar dari tahun ke tahun meskipun terjadi peningkatan total saldo."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_011",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "Total saldo posisi pajak berubah dari 2016 ke 2017 gimana, dan apa faktor yang menyebabkan perubahan itu?",
+    "answer": [
+      [
+        "Total saldo posisi pajak naik dari $1.032 juta di 2016 menjadi $1.286 juta di 2017. Kenaikan ini terutama karena penambahan posisi pajak tahun berjalan (+$270 juta) dan posisi pajak tahun sebelumnya (+$20 juta), sebagian diimbangi oleh pengurangan untuk posisi pajak tahun sebelumnya (-$27 juta) dan penyelesaian (-$9 juta)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

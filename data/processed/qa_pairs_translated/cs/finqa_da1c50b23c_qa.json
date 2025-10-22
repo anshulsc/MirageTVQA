@@ -1,0 +1,232 @@
+[
+  {
+    "question_id": "finqa_da1c50b23c_001",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "Který typ jednotek má nejvyšší nominální hodnotu vykoupených, a jaká je tato hodnota?",
+    "answer": [
+      [
+        "class b-2 preferred units",
+        "$ 55.8"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_002",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "Jaký je celkový počet vykoupených jednotek pro všechny uvedené typy?",
+    "answer": [
+      [
+        "2271818"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_003",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "Vypočítejte nominální hodnotu za jednotku pro typ, který zahrnoval 'charitativní příspěvek'.",
+    "answer": [
+      [
+        "$10,007.17"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_004",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "Identifikujte všechny typy jednotek, které byly vykoupeny výhradně za hotovost a bylo vykoupeno více než 2 500 jednotek.",
+    "answer": [
+      [
+        "preferred a units"
+      ],
+      [
+        "class c downreit units"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A3",
+      "B3",
+      "D3",
+      "A5",
+      "B5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_005",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "Jaký procentuální podíl celkové nominální hodnoty vykoupených jednotek představují všechny 'class b' jednotky dohromady?",
+    "answer": [
+      [
+        "76.89%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_006",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "open_ended_reasoning",
+    "question": "Který typ jednotek je nejvýznamnějším odlehlým hodnotou parní hodnoty za jednotku? Odůvodněte svou odpověď vypočítanými hodnotami.",
+    "answer": [
+      [
+        "'Preferred a units' jsou nejvýznamnějším odlehlým. Jeho parní hodnota za jednotku je 1,00 USD (2,2 milionu USD / 2 200 000 jednotek), což je o řád nižší než u ostatních typů. Pro srovnání parní hodnota za jednotku pro 'class a preferred units' je 10 000 USD (20,0 milionu USD / 2 000 jednotek) a pro 'class c downreit units' je přibližně 30,74 USD (1,9 milionu USD / 61 804 jednotek). Extrémně nízká jednotková hodnota 'preferred a units' ji činí výrazným odlehlým."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_007",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "Pokud by parní hodnota vykoupených 'class a preferred units' byla o 10% nižší, jaká by byla nová celková parní hodnota vykoupených všech jednotek (v milionech)?",
+    "answer": [
+      [
+        "$ 102.3"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_008",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "open_ended_reasoning",
+    "question": "Zdá se, že data naznačují korelaci mezi vyšším počtem vykoupených jednotek a vyšší celkovou nominální hodnotou? Vysvětlete svůj závěr.",
+    "answer": [
+      [
+        "Ne, data neukazují na jasnou korelaci. I když 'class b-2 preferred units' má relativně vysoký počet jednotek (5 576) a nejvyšší nominální hodnotu (55,8 mil. USD), typ jednotek s nejvyšším počtem, 'preferred a units' (2 200 000), má nízkou nominální hodnotu (2,2 mil. USD). Naopak 'class c downreit units' má druhý nejvyšší počet jednotek (61 804), ale nejnižší nominální hodnotu (1,9 mil. USD). To naznačuje, že nominální hodnota na jednotku se dramaticky liší mezi typy, čímž se ruší jakákoliv jednoduchá korelace mezi množstvím jednotek a jejich celkovou hodnotou."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_009",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "open_ended_reasoning",
+    "question": "Který sloupec obsahuje data, která jsou složená ze dvou odlišných kategorií, a který řádek to ilustruje?",
+    "answer": [
+      [
+        "Sloupec 'redemption type' obsahuje složená data. Hodnota 'cash/charitable contribution' v řádku 4 to ilustruje kombinací dvou různých metod výkupu do jedné buňky."
+      ]
+    ],
+    "evidence_cells": [
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_010",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "Jaká je průměrná nominální hodnota vykoupených jednotek (v milionech) pro typy jednotek, které mají v názvu 'preferred'?",
+    "answer": [
+      [
+        "$ 25.6"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_011",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "open_ended_reasoning",
+    "question": "Jaká je celková kvantita všech typů A jednotek a jaká je hodnota každé jednotky v milionech?",
+    "answer": [
+      [
+        "Celková kvantita typu A jednotek je 2 202 000 jednotek. Parní hodnota preferred A jednotek je 2,2 milionu dolarů a parní hodnota class A preferred jednotek je 20,0 milionu dolarů."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

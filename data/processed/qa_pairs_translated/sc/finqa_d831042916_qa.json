@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "finqa_d831042916_001",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "In chì annu a empresa est passada a (perdida) dae cuntenidu cuntenutu?",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_002",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Cus erant is custos d'operatzione totales pro su trienniu dae 2007 a 2009?",
+    "answer": [
+      [
+        "$3743"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d831042916_003",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Cus' est' istadu u valoru de 'non-interest revenue' in u solu annu in cui a empresa estit rapurtadu un 'net income (loss)' positivu?",
+    "answer": [
+      [
+        "422"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "B12",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_004",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Descrìe sa tendèntzia de 'total revenues net of interest expense' de 2007 a 2009.",
+    "answer": [
+      [
+        "Sa tendèntzia est estada cumplessamente negativa e vòlati. Total revenues oiat un melhura minore da una perda de $2310 milioni in 2007 a una perda de $2258 milioni in 2008. Tuttavia, iste est istadu seguidu da un crollu catastroficu in 2009, cun sa perda qu'at amentadu dramàticamente a $10556 milioni, indicandu un grannissimu decliniu in is atividades principales de generatzione de revenues de sa empresa."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_005",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "List the 'income taxes (benefits)' for all years where the '(loss) from continuing operations' was greater than $2,500 million.",
+    "answer": [
+      [
+        "-4369 ( 4369 )"
+      ],
+      [
+        "-1446 ( 1446 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "D7",
+      "B8",
+      "D8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_006",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "In 2009, what percentage of the 'total revenues net of interest expense' was comprised of 'non-interest revenue'?",
+    "answer": [
+      [
+        "84.25%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d831042916_007",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Se 'total operating expenses' in 2008 fuet issu de 20%, chistu seria ' (loss) from continuing operations before taxes' pro isu annu?",
+    "answer": [
+      [
+        "$ -2871 ( 2871 )"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_008",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Basaes in sa base de datos, si est una correlatzione cunstistente ente 'total operating expenses' cun valore inferiore e 'net income (loss)' cun valore superiore?",
+    "answer": [
+      [
+        "No, no est observabile una correlatzione cunstistente. Mentr'e 2008 teniat sa minore despesa de funtzionamentu ($510M) e su massimu net income ($1820M), suggeridu una relatzione inversa, iste padrone est rotzu dae sos annos àteros. In 2009, sa despesa de funtzionamentu ($1420M) era minore de 2007 ($1813M), cando 2009 teniat unu perdita netta drasticamente pighius male (-$8051M) in comparatzione cun 2007 (-$1968M). Istu inditca ca àteros factores, comente sa cayida severa de is entrate, teniant unu impattu pighius mannu in su net income de su solu funtzionamentu."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "A12",
+      "B4",
+      "C4",
+      "D4",
+      "B12",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d831042916_009",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "A esaminadu isos tres ultimus rows, est istu cálculu pro 'net income (loss)' aplicadu consistenti in totus isos tres annos? Explicai s'atza.",
+    "answer": [
+      [
+        "No, su métodu de cálculu est inconsistente. In 2007, 'net income (loss)' (-$1968M) est corretamente derivadu sottraende 'net income attributable to noncontrolling interests' ($2M) da 'net income (loss) before attribution...' (-$1966M). Tuttavia, in ambeos 2008 e 2009, su valori de 'net income (loss)' est identicu a 'net income (loss) before attribution...' valori, ignorande incorrettamente su ammontare attribuìu a noncontrolling interests. Istu indìcat una inconsistèntzia in su rapportu de sa taula pro 2008 e 2009."
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "A11",
+      "A12",
+      "B10",
+      "B11",
+      "B12",
+      "C10",
+      "C11",
+      "C12",
+      "D10",
+      "D11",
+      "D12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_010",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Cùi est a fìtula finantziaria in su 2008 chi est un outliador positivu significativu cumparadu cun sos annos àteros, e cume est affetadu su punnu de su comente?",
+    "answer": [
+      [
+        "'Income (loss) from discontinued operations net of taxes' in su 2008, cun un valor de $4002 miliones, est un outliador positivu significativu cumparadu cun una pèrdida de $445 miliones in su 2009 e un guadagnu minore de $708 miliones in su 2007. Estu outliador fuit cruciale pro cangiai una pèrdida significativa de 'loss from continuing operations' de $2182 miliones in un 'net income' positivu de $1820 miliones pro iste annu."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "A9",
+      "A12",
+      "B9",
+      "C8",
+      "C9",
+      "C12",
+      "D9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d831042916_011",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Considerando sia l'operatività continua che quella discontinue, qual è stata la variazione totale del reddito netto dal 2008 al 2009?",
+    "answer": [
+      [
+        "In su 2008, su redditu netu at istadu de $1.820 miliones. In su 2009, su redditu netu at istadu de $-8.051 miliones. Sa variazione totale de su redditu netu de su 2008 a su 2009 est una diminuzione de $9.871 miliones."
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "C12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_f5477c4414_001",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Jaký byl celkový počet pro 'loans 2013 reported' za rok 2012 (sloupec E), pokud je vypočítán sečtením jeho složek z téhož sloupce?",
+    "answer": [
+      [
+        "1717"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f5477c4414_002",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Která kategorie půjček, s výjimkou 'loans 2013 reported', zažila největší procentuální růst své bilance k 31. prosinci z roku 2012 na 2013?",
+    "answer": [
+      [
+        "loans held-for-sale"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_003",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Jaká byla hodnota „lending-related commitments“ pro konec roku, kdy byly „total wholesale credit-related assets“ na svém minimu?",
+    "answer": [
+      [
+        "$ 434814"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_004",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Jaký procentuální podíl 'total wholesale credit exposure' k 31. prosinci 2013 připadal na 'lending-related commitments'?",
+    "answer": [
+      [
+        "51.87%"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "B9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f5477c4414_005",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Vypište všechny kategorie aktiv nebo pasiv, kde hodnota ze dne 31. prosince 2013 klesla oproti hodnotě ze dne 31. prosince 2012.",
+    "answer": [
+      [
+        "loans at fair value ( a )"
+      ],
+      [
+        "derivative receivables"
+      ],
+      [
+        "liquid securities and other cash collateral held against derivatives"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A11",
+      "B11",
+      "C11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_006",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Pokud by hodnota pro 'pohledávky od zákazníků a další (b)' v sloupci '2013' (sloupec D) byla o 25 % vyšší, jaká by byla nová hodnota 'celkových celkových kreditových aktiv týkajících se podnikání' pro ten sloupec?",
+    "answer": [
+      [
+        "1962.5"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "D7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_007",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Identifikujte finanční položku (ze sloupce A), která ukazuje nejvíce anomální změnu mezi sloupci '2013' a '2012' (D a E), charakterizovanou největším absolutním rozdílem.",
+    "answer": [
+      [
+        "loans 2013 reported"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A2",
+      "D2",
+      "E2",
+      "A3",
+      "D3",
+      "E3",
+      "A4",
+      "D4",
+      "E4",
+      "A5",
+      "D5",
+      "E5",
+      "A6",
+      "D6",
+      "E6",
+      "A7",
+      "D7",
+      "E7",
+      "A8",
+      "D8",
+      "E8",
+      "A9",
+      "D9",
+      "E9",
+      "A10",
+      "D10",
+      "E10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f5477c4414_008",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Identifikuj buňku(y) obsahující(ní) nenumerický text ('na'), který brání přímému sečtení příslušných sloupců.",
+    "answer": [
+      [
+        "D11"
+      ],
+      [
+        "E11"
+      ]
+    ],
+    "evidence_cells": [
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_009",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyzujte trend od konce roku 2012 do roku 2013 pro 'total wholesale credit exposure' a jeho hlavní faktory ovlivňující.",
+    "answer": [
+      [
+        "\"total wholesale credit exposure\" se mírně zvýšil z 846 628 milionů dolarů v roce 2012 na 860 299 milionů dolarů v roce 2013. Tento růst byl především vyvolán významným nárůstem \"loans held-for-sale\" (o 156 %) a zvýšením \"lending-related commitments\" (o 2,6 %). Avšak tento růst byl částečně vyrovnán výrazným poklesem \"derivative receivables\" o 12,3 % a poklesem \"loans at fair value\" o 21,3 %, což naznačuje změnu v složení kreditního portfolia."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B8",
+      "C8",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_010",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "open_ended_reasoning",
+    "question": "Na základě změn mezi roky 2012 a 2013 v zůstatcích na konci roku, jaká je zřejmá souvislost mezi 'derivative receivables' a 'total wholesale credit-related assets'?",
+    "answer": [
+      [
+        "Zdá se, že v tomto omezeném datasetu existuje inverzní vztah. Od konce roku 2012 do roku 2013 se 'derivative receivables' snížily z 74 983 milionů dolarů na 65 759 milionů dolarů. Současně se 'total wholesale credit-related assets' zvýšily z 411 814 milionů dolarů na 414 067 milionů dolarů. To naznačuje, že když klesla hodnota derivative receivables, ostatní aktiva vzrostla a překryla tento pokles, což vedlo k celkovému nárůstu aktiv. Avšak z pouhých dvou datových bodů nelze stanovit definitivní korelaci."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f5477c4414_011",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "V kterém roce jsou úvěry vydržené nejvyšší?",
+    "answer": [
+      [
+        "2013"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

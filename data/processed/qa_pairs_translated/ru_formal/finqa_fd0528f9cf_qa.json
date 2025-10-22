@@ -1,0 +1,226 @@
+[
+  {
+    "question_id": "finqa_fd0528f9cf_001",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "В 2008 году на сколько процентов «общие операционные расходы» превышали «общие доходы за вычетом процентных расходов»?",
+    "answer": [
+      [
+        "109.65%"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_002",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Какова была предналоговая маржа прибыли (определяемая как «доход от продолжающихся операций до налогообложения», деленный на «общие доходы за вычетом процентных расходов») в год с наименьшим «чистым процентным доходом»?",
+    "answer": [
+      [
+        "76.61%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "B3",
+      "B10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_003",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Какой финансовый показатель продемонстрировал наибольшее абсолютное улучшение (положительное изменение) в долларовом выражении между 2008 и 2009 годами?",
+    "answer": [
+      [
+        "income ( loss ) from continuing operations before taxes"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_004",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "open_ended_reasoning",
+    "question": "Опишите финансовое оздоровление компании с 2008 по 2009 год, ссылаясь на тенденции в общих доходах, операционных расходах и чистой прибыли.",
+    "answer": [
+      [
+        "Компания достигла значительного финансового оздоровления с 2008 по 2009 год. Общие доходы выросли на 80%, с 8 423 млн долларов до 15 135 млн долларов. Одновременно общие операционные расходы были сокращены на 64%, упав с 9 236 млн долларов до 3 350 млн долларов. Эта комбинация роста доходов и значительного сокращения затрат превратила чистый убыток в размере 585 млн долларов в 2008 году в значительную чистую прибыль в размере 7 095 млн долларов в 2009 году."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "E3",
+      "B4",
+      "C4",
+      "E4",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_005",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Перечислите все финансовые показатели, которые в 2008 году показали отрицательное значение (убыток или выгода), а в 2009 году — положительное значение.",
+    "answer": [
+      [
+        "income ( loss ) from continuing operations before taxes"
+      ],
+      [
+        "income taxes ( benefits )"
+      ],
+      [
+        "income ( loss ) from continuing operations"
+      ],
+      [
+        "net income ( loss ) attributable to noncontrolling interests"
+      ],
+      [
+        "net income ( loss )"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10",
+      "A11",
+      "B11",
+      "C11",
+      "A12",
+      "B12",
+      "C12",
+      "A13",
+      "B13",
+      "C13",
+      "A14",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_006",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Каковы были средние «общие операционные расходы» в миллионах долларов за три предоставленных года (2007, 2008, 2009)?",
+    "answer": [
+      [
+        "$6848.67"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_007",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Если бы изменение в процентах за 2009 год по сравнению с 2008 годом для «чистого процентного дохода» составило 50% снижение вместо 65% снижения, какова была бы «общая выручка за вычетом процентных расходов» в 2009 году при условии, что «непроцентный доход» остался неизменным?",
+    "answer": [
+      [
+        "$15315"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "E1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_008",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "open_ended_reasoning",
+    "question": "Проанализируйте взаимосвязь между «eop assets» и «eop deposits» компании за период с 2007 по 2009 год и сделайте вывод о возможной стратегической смене курса.",
+    "answer": [
+      [
+        "С 2007 по 2009 год наблюдается обратная корреляция между EOP assets и EOP deposits. В то время как активы сократились с 56 млрд долларов до 35 млрд долларов, депозиты выросли с 46 млрд долларов до 60 млрд долларов. Это указывает на значительную стратегическую смену курса от удержания активов к укреплению депозитной базы, возможно, с целью повышения ликвидности, снижения рисков и сосредоточения на основных банковских операциях в период финансовой трансформации."
+      ]
+    ],
+    "evidence_cells": [
+      "B15",
+      "C15",
+      "D15",
+      "B16",
+      "C16",
+      "D16"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_009",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "open_ended_reasoning",
+    "question": "Какая конкретная ячейка в столбцах '% change' представляет собой аномальную запись, не соответствующую формату процента, наблюдаемому в других ячейках?",
+    "answer": [
+      [
+        "Значение '2014' для 'net credit losses' в столбце '% change 2008 vs. 2007' является аномальным, так как это большое целое число, а не процент."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "F5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_010",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Сколько финансовых показателей помечено как «nm» (не имеет смысла) в столбце «% изменения 2009 к 2008», указывая на невозможность расчета стандартного процентного изменения?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E6",
+      "E10",
+      "E11",
+      "E12",
+      "E13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_011",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Каков процентный рост чистых процентных доходов с 2007 по 2008 год?",
+    "answer": [
+      [
+        "35%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

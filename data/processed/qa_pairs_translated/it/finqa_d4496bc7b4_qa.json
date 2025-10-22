@@ -1,0 +1,219 @@
+[
+  {
+    "question_id": "finqa_d4496bc7b4_001",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Qual è stato il cambiamento netto negli obblighi di ritiro delle attività durante il 2009, calcolato dalle variazioni elencate?",
+    "answer": [
+      [
+        "137"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_002",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Quale categoria di cambiamento ha subito la differenza assoluta più grande nel valore tra il 2008 e il 2009?",
+    "answer": [
+      [
+        "held for sale"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_003",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Nel 2009, quale percentuale dei totali aggiustamenti positivi (obblighi di smantellamento delle passività, costo di accrescimento e revisioni) era attribuibile alle 'revisioni delle stime precedenti'?",
+    "answer": [
+      [
+        "61.39%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_004",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Verifica se l'obbligo di ritiro delle attività al 31 dicembre 2008 è calcolato correttamente a partire dal saldo iniziale e dalle variazioni dettagliate per quell'anno. Mostra il calcolo.",
+    "answer": [
+      [
+        "Sì, il saldo finale per il 2008 è calcolato correttamente. Il calcolo è: $1134 (inizio) + $30 (accantonati) - $94 (risolti) + $66 (costo di accrescimento) + $24 (revisioni) - $195 (tenuti per vendita) = $965, che corrisponde al valore riportato."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_005",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Se l'adeguamento 'held for sale' nel 2008 fosse stato zero, quale sarebbe stato l'importo delle obbligazioni di ritiro delle attività alla fine del 2008?",
+    "answer": [
+      [
+        "$ 1160"
+      ]
+    ],
+    "evidence_cells": [
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_006",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Analizza e confronta i principali fattori che hanno determinato il cambiamento delle obbligazioni totali di ritiro delle attività tra il 2008 e il 2009.",
+    "answer": [
+      [
+        "Nel 2008, le obbligazioni sono diminuite di 169 milioni di dollari, principalmente a causa di una significativa riduzione di 195 milioni di dollari dagli asset 'held for sale' e di 94 milioni di dollari in obbligazioni settle, che hanno superato i 120 milioni di dollari di aggiunte. Al contrario, nel 2009 si è registrato un aumento di 137 milioni di dollari, guidato soprattutto da un importante aumento delle 'revisioni alle stime precedenti' di 124 milioni di dollari, che hanno compensato più che ampiamente i 65 milioni di dollari in obbligazioni settle."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7",
+      "C1",
+      "C7",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_007",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Quale componente finanziario ha registrato un aumento di oltre 100 milioni di dollari dal 2008 al 2009, diventando un valore anomalo in termini di variazione anno su anno?",
+    "answer": [
+      [
+        "revisions to previous estimates"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_008",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Identifica l'anno in cui le 'revisioni delle stime precedenti' erano più di cinque volte maggiori delle 'passività accertate, comprese le acquisizioni'.",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B5",
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_009",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "In base ai dati dei due anni, esiste un pattern o una relazione osservabile tra l'obbligo iniziale e la 'accretion expense' per quell'anno?",
+    "answer": [
+      [
+        "Sì, esiste un pattern osservabile. La 'accretion expense' sembra essere una percentuale relativamente stabile del saldo iniziale. Nel 2008, era il 5,8% del saldo iniziale (66M / 1134M), e nel 2009, era il 6,6% (64M / 965M). Questo suggerisce che la 'accretion expense' viene calcolata in modo coerente sulla base dell'obbligo iniziale, probabilmente riflettendo il valore temporale del denaro sulla passività a lungo termine."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_010",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Come la struttura della tabella conferma la continuità del saldo degli obblighi di smantellamento delle attività dal termine del 2008 all'inizio del 2009?",
+    "answer": [
+      [
+        "La tabella dimostra la continuità mostrando che il valore di 'asset retirement obligations as of december 31' nella colonna 2008 ($ 965) è identico al valore di 'asset retirement obligations as of january 1' nella colonna 2009 ($ 965). Questa è una presentazione standard di roll-forward contabile, in cui il saldo finale di un periodo diventa il saldo iniziale del periodo successivo."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A7",
+      "B1",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_011",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Come sono cambiate le obbligazioni totali di ritiro delle attività dal 2008 al 2009?",
+    "answer": [
+      [
+        "Le obbligazioni totali di ritiro delle attività sono aumentate da 965 milioni di dollari nel 2008 a 1.102 milioni di dollari nel 2009"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

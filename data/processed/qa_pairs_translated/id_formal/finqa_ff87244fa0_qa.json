@@ -1,0 +1,222 @@
+[
+  {
+    "question_id": "finqa_ff87244fa0_001",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Berapakah total gabungan pembayaran yang jatuh tempo pada 31 Desember 2012 dan 31 Desember 2013 untuk seluruh kewajiban kontraktual?",
+    "answer": [
+      [
+        "$ 6219"
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_002",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Berapa persen dari total kewajiban 'debt [a]' yang dijadwalkan dibayar setelah 31 Desember 2016?",
+    "answer": [
+      [
+        "71.68%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "H1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_003",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Apa kewajiban kontraktual yang memiliki pembayaran terbesar jatuh tempo pada 31 Desember 2012?",
+    "answer": [
+      [
+        "purchase obligations [d]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_004",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Untuk kewajiban kontraktual dengan total jumlah terbesar kedua, berapa pembayaran yang jatuh tempo pada 31 Desember 2014?",
+    "answer": [
+      [
+        "$ 560"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "E4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_005",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "open_ended_reasoning",
+    "question": "Jelaskan tren pembayaran untuk 'operating leases [b]' pada tahun 2012 hingga 2016.",
+    "answer": [
+      [
+        "Pembayaran untuk 'operating leases [b]' menunjukkan tren penurunan yang konsisten dari tahun ke tahun dari tahun 2012 hingga 2016, dimulai dari $525 juta pada tahun 2012 dan menurun setiap tahun menjadi $347 juta pada tahun 2016."
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_006",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Sebutkan semua kewajiban kontraktual yang memiliki pembayaran jatuh tempo pada 31 Desember 2015 lebih dari $300 juta.",
+    "answer": [
+      [
+        "debt [a]"
+      ],
+      [
+        "operating leases [b]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A3",
+      "F3",
+      "A4",
+      "F4",
+      "A5",
+      "F5",
+      "A6",
+      "F6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_007",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Jika pembayaran untuk 'kewajiban pembelian [d]' yang jatuh tempo pada akhir tahun 2012, 2013, dan 2014 semuanya ditangguhkan dan ditambahkan ke jumlah yang jatuh tempo 'setelah 2016', berapakah total 'setelah 2016' baru untuk kewajiban tersebut?",
+    "answer": [
+      [
+        "$ 4584"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "E4",
+      "H4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_008",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "open_ended_reasoning",
+    "question": "Apa kewajiban kontraktual yang memiliki pembayaran dalam satu tahun antara 2012 dan 2016 yang merupakan outlier, yaitu jauh lebih tinggi dibandingkan pembayaran di tahun lain dalam periode tersebut?",
+    "answer": [
+      [
+        "Kategori 'kewajiban pembelian [d]' menunjukkan outlier yang signifikan. Pembayaran sebesar $2598 juta yang jatuh tempo pada tahun 2012 lebih dari empat kali lebih tinggi dibandingkan pembayaran di tahun berikutnya tertinggi ($568 juta pada tahun 2013), dan pembayaran menurun secara substansial di tahun-tahun berikutnya, menjadikan angka tahun 2012 sebagai anomali."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_009",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Kolom periode pembayaran mana (dari 'payments due by december 31 2012' hingga 'payments due by december 31 other') yang berisi jumlah entri pembayaran yang tidak ada atau tidak berlaku paling banyak, yang ditunjukkan oleh '-'?",
+    "answer": [
+      [
+        "payments due by december 31 other"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "E6",
+      "F6",
+      "G6",
+      "H6",
+      "I1",
+      "I2",
+      "I3",
+      "I5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_010",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan data, apa hubungan yang tampak antara nilai 'total' suatu kewajiban dan proporsi kewajiban tersebut yang jatuh tempo 'setelah tahun 2016'?",
+    "answer": [
+      [
+        "Secara umum, tampaknya terdapat hubungan positif di mana kewajiban dengan nilai total yang lebih besar, seperti 'debt [a]' dan 'operating leases [b]', cenderung memiliki sebagian besar pembayaran yang dijadwalkan setelah tahun 2016, menunjukkan bahwa ini adalah komitmen keuangan jangka panjang. Namun, hal ini bukanlah aturan universal, karena 'purchase obligations [d]', meskipun merupakan kewajiban total terbesar kedua, memiliki proporsi yang relatif kecil (sekitar 16,7%) yang jatuh tempo setelah tahun 2016, menunjukkan bahwa ini adalah komitmen jangka pendek-menengah."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "H1",
+      "B2",
+      "H2",
+      "B3",
+      "H3",
+      "B4",
+      "H4",
+      "B5",
+      "H5",
+      "B6",
+      "H6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  }
+]

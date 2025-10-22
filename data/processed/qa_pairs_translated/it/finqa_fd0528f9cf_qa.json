@@ -1,0 +1,226 @@
+[
+  {
+    "question_id": "finqa_fd0528f9cf_001",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Nel 2008, di quale percentuale le 'spese operative totali' superavano le 'entrate totali al netto degli interessi'?",
+    "answer": [
+      [
+        "109.65%"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_002",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Qual è stato il margine di profitto pre-tasse (definito come 'income from continuing operations before taxes' diviso per 'total revenues net of interest expense') nell'anno con il più basso 'net interest revenue'?",
+    "answer": [
+      [
+        "76.61%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "B3",
+      "B10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_003",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Quale metrica finanziaria ha subito il miglioramento assoluto più significativo (cambiamento positivo) in valore monetario tra il 2008 e il 2009?",
+    "answer": [
+      [
+        "income ( loss ) from continuing operations before taxes"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_004",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "open_ended_reasoning",
+    "question": "Descrivi il ripristino finanziario dell'azienda tra il 2008 e il 2009, facendo riferimento alle tendenze nei ricavi totali, nelle spese operative e nel reddito netto.",
+    "answer": [
+      [
+        "L'azienda ha realizzato un notevole ripristino finanziario dal 2008 al 2009. I ricavi totali sono aumentati dell'80%, passando da 8.423 milioni di dollari a 15.135 milioni di dollari. Contemporaneamente, le spese operative totali sono state drasticamente ridotte del 64%, scendendo da 9.236 milioni di dollari a 3.350 milioni di dollari. Questa combinazione di crescita dei ricavi e riduzione significativa dei costi ha trasformato una perdita netta di 585 milioni di dollari nel 2008 in un reddito netto sostanziale di 7.095 milioni di dollari nel 2009."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "E3",
+      "B4",
+      "C4",
+      "E4",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_005",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Elencare tutte le metriche finanziarie che hanno riportato un valore negativo (una perdita o un beneficio) nel 2008 ma un valore positivo nel 2009.",
+    "answer": [
+      [
+        "income ( loss ) from continuing operations before taxes"
+      ],
+      [
+        "income taxes ( benefits )"
+      ],
+      [
+        "income ( loss ) from continuing operations"
+      ],
+      [
+        "net income ( loss ) attributable to noncontrolling interests"
+      ],
+      [
+        "net income ( loss )"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10",
+      "A11",
+      "B11",
+      "C11",
+      "A12",
+      "B12",
+      "C12",
+      "A13",
+      "B13",
+      "C13",
+      "A14",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_006",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Qual è stata la media delle 'spese operative totali' in milioni di dollari negli anni forniti (2007, 2008, 2009)?",
+    "answer": [
+      [
+        "$6848.67"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_007",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Se il '% change 2009 vs. 2008' per 'net interest revenue' fosse stato una diminuzione del 50% invece del 65%, quale sarebbe stato il 'total revenues net of interest expense' nel 2009, ipotizzando che la 'non-interest revenue' rimanesse invariata?",
+    "answer": [
+      [
+        "$15315"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "E1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_008",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "open_ended_reasoning",
+    "question": "Analizza la relazione tra le 'eop assets' e le 'eop deposits' della società dal 2007 al 2009 e deduci un eventuale cambio strategico.",
+    "answer": [
+      [
+        "Dal 2007 al 2009, c'è una correlazione inversa tra le eop assets e le eop deposits. Mentre le attività sono diminuite da 56 miliardi di dollari a 35 miliardi di dollari, i depositi sono aumentati da 46 miliardi di dollari a 60 miliardi di dollari. Questo suggerisce un significativo cambio strategico verso la riduzione delle attività e il rafforzamento della base dei depositi, probabilmente per migliorare la liquidità, ridurre il rischio e concentrarsi sulle attività bancarie principali durante un periodo di trasformazione finanziaria."
+      ]
+    ],
+    "evidence_cells": [
+      "B15",
+      "C15",
+      "D15",
+      "B16",
+      "C16",
+      "D16"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_009",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "open_ended_reasoning",
+    "question": "Quale punto di dati specifico nelle colonne '% change' sembra essere un'entrata anomala, non conforme al formato percentuale visto in altre celle?",
+    "answer": [
+      [
+        "Il valore '2014' per 'net credit losses' nella colonna '% change 2008 vs. 2007' è anomalo, poiché è un numero intero elevato piuttosto che una percentuale."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "F5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_010",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Quanti metriche finanziarie sono contrassegnate come 'nm' (non significativo) nella colonna '% change 2009 vs. 2008', indicando l'impossibilità di calcolare una variazione percentuale standard?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E6",
+      "E10",
+      "E11",
+      "E12",
+      "E13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_011",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Qual è la variazione percentuale del net interest revenue dal 2007 al 2008?",
+    "answer": [
+      [
+        "35%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

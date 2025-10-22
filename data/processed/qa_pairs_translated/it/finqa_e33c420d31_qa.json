@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_e33c420d31_001",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Quale obbligo contrattuale, escludendo 'debt obligations' e 'interest payments on long-term debt', ha l'importo maggiore da pagare nel periodo '3-5 years'?",
+    "answer": [
+      [
+        "fuel obligations"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_002",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Qual è il totale combinato di tutte le obbligazioni con un riferimento a nota a piè di pagina di '11'?",
+    "answer": [
+      [
+        "$ 16297"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "H3",
+      "B4",
+      "H4",
+      "B5",
+      "H5",
+      "B6",
+      "H6",
+      "B7",
+      "H7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_e33c420d31_003",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Quale percentuale delle obbligazioni totali scadenti nel periodo '1-3 anni' è attribuita all'unica obbligazione con il valore totale più alto?",
+    "answer": [
+      [
+        "27.04%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "D1",
+      "D9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_004",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "Per 'interessi su debiti a lungo termine', analizza la tendenza dei pagamenti nei quattro periodi temporali e determina se l'obbligo è front-loaded o back-loaded.",
+    "answer": [
+      [
+        "I pagamenti per 'interessi su debiti a lungo termine' sono $1.172 (<1 anno), $2.166 (1-3 anni), $1.719 (3-5 anni) e $4.046 (>5 anni). L'obbligo è significativamente back-loaded, poiché i pagamenti tendono ad aumentare nel tempo, con il pagamento singolo più elevato che si verifica nel periodo 'più di 5 anni'. Oltre il 63% dei pagamenti totali di interessi sono dovuti oltre 3 anni nel futuro."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_005",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Elencare gli obblighi contrattuali in cui l'importo dovuto in 'meno di 1 anno' è maggiore dell'importo dovuto in '3-5 anni'.",
+    "answer": [
+      [
+        "fuel obligations"
+      ],
+      [
+        "other purchase obligations"
+      ],
+      [
+        "other long-term liabilities reflected on aes' consolidated balance sheet under gaap ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "E6",
+      "A7",
+      "C7",
+      "E7",
+      "A8",
+      "C8",
+      "E8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_006",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Qual è il rapporto tra gli obblighi a breve termine totali (scadenti in 'meno di 1 anno') e gli obblighi a lungo termine totali (scadenti in 'più di 5 anni') sulla base della riga totale finale?",
+    "answer": [
+      [
+        "Approximately 1:2.81"
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "F9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_e33c420d31_007",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Se una nuova politica richiedesse che tutti gli 'obblighi di locazione operativa' dovuti in 'più di 5 anni' fossero invece pagati nel periodo di '3-5 anni', quale sarebbe il nuovo totale per la colonna '3-5 anni'?",
+    "answer": [
+      [
+        "$ 10283"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_008",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "Esiste una correlazione discernibile tra il tipo di obbligazione energetica (combustibile vs. elettricità) e il suo calendario di pagamento?",
+    "answer": [
+      [
+        "Sì, c'è una correlazione chiara. Le 'obbligazioni di combustibile' sono front-loaded, con il pagamento più elevato ($1,759) dovuto entro 'meno di 1 anno', suggerendo contratti a breve termine. Al contrario, le 'obbligazioni di elettricità' sono back-loaded, con il pagamento più elevato ($2,065) dovuto in 'più di 5 anni', probabilmente riflettendo accordi di acquisto di energia a lungo termine. Questo indica che la natura della fonte energetica è correlata alla durata dell'impegno finanziario."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_e33c420d31_009",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "In base ai totali per ogni periodo di pagamento nell'ultima riga, quale intervallo di tempo detiene il maggior importo di impegno finanziario e cosa implica ciò sulla struttura dei debiti della società?",
+    "answer": [
+      [
+        "Il periodo 'più di 5 anni' detiene il maggior impegno a $20.544. Questo implica che la struttura dei debiti della società è prevalentemente a lungo termine, con una parte significativa dei suoi obblighi finanziari programmati per essere pagati in un futuro lontano, suggerendo strategie di finanziamento a lungo termine o grandi progetti di capitale."
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "D9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_010",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "La riga relativa a \"altri passivi a lungo termine\" contiene un valore nella colonna \"meno di 1 anno\" che sembra essere un valore anomalo. Identifica questo valore e spiega perché è inconsistente.",
+    "answer": [
+      [
+        "Il valore anomalo è \"$ 2014\" nella colonna \"meno di 1 anno\". È inconsistente perché questo importo singolo di pagamento a breve termine è significativamente maggiore del \"$ 701\" indicato come \"totale\" per quell'intero obbligo, il che è una logica impossibilità e probabilmente un errore nei dati."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_e33c420d31_011",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Qual è il totale degli obblighi di combustibile in milioni?",
+    "answer": [
+      [
+        "$5859"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,226 @@
+[
+  {
+    "question_id": "finqa_fd0528f9cf_001",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "2008년에 '총 영업비용'이 '이자 비용 공제 후 총 수익'을 몇 퍼센트 초과했습니까?",
+    "answer": [
+      [
+        "109.65%"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_002",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "가장 낮은 '순 이자 수익'을 기록한 연도의 '세전 지속영업이익률' ( '지속영업이익 전 세전'을 '이자비용 차감 총 수익'으로 나눈 값)은 얼마인가요?",
+    "answer": [
+      [
+        "76.61%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "B3",
+      "B10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_003",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "2008년과 2009년 사이에 달러 가치로 가장 큰 절대적 개선(양의 변화)을 경험한 재무 지표는 무엇입니까?",
+    "answer": [
+      [
+        "income ( loss ) from continuing operations before taxes"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_004",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "open_ended_reasoning",
+    "question": "2008년과 2009년 사이 회사의 재무 회복 과정을 설명하되, 총 수익, 운영 비용, 순이익의 추이를 참조하십시오.",
+    "answer": [
+      [
+        "회사는 2008년에서 2009년 사이 놀라운 재무 회복을 이뤘습니다. 총 수익은 80% 급증하며 8,423백만 달러에서 15,135백만 달러로 상승했습니다. 동시에 총 운영 비용은 64% 급감하며 9,236백만 달러에서 3,350백만 달러로 감소했습니다. 이와 같은 수익 성장과 대규모 비용 절감의 조합으로 2008년의 585백만 달러 순손실이 2009년의 7,095백만 달러 순이익으로 전환되었습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "E3",
+      "B4",
+      "C4",
+      "E4",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_005",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "2008년에 부정적인 값(손실 또는 이익)을 보고했지만 2009년에 양수 값을 보고한 모든 재무 지표를 나열하십시오.",
+    "answer": [
+      [
+        "income ( loss ) from continuing operations before taxes"
+      ],
+      [
+        "income taxes ( benefits )"
+      ],
+      [
+        "income ( loss ) from continuing operations"
+      ],
+      [
+        "net income ( loss ) attributable to noncontrolling interests"
+      ],
+      [
+        "net income ( loss )"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10",
+      "A11",
+      "B11",
+      "C11",
+      "A12",
+      "B12",
+      "C12",
+      "A13",
+      "B13",
+      "C13",
+      "A14",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_006",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "제공된 세 연도(2007년, 2008년, 2009년)의 '총 운영비'의 평균은 백만 달러 기준으로 얼마입니까?",
+    "answer": [
+      [
+        "$6848.67"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_007",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "2009년 대비 2008년 '% 변화'가 '순 이자 수익'의 65% 감소 대신 50% 감소였다면, '비이자 수익'이 변하지 않은 것으로 가정할 때 2009년 '이자 비용 차감 순 총 수익'은 얼마가 되었을까요?",
+    "answer": [
+      [
+        "$15315"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "E1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_008",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "open_ended_reasoning",
+    "question": "2007년부터 2009년까지 회사의 'EOP 자산'과 'EOP 예금' 간의 관계를 분석하고 잠재적인 전략적 변화를 추론하십시오.",
+    "answer": [
+      [
+        "2007년부터 2009년까지 EOP 자산과 EOP 예금 간에 역상관관계가 있습니다. 자산은 560억 달러에서 350억 달러로 감소한 반면, 예금은 460억 달러에서 600억 달러로 증가했습니다. 이는 금융 변환기 동안 유동성 개선, 위험 감소 및 핵심 은행 활동에 집중하기 위해 자산 보유에서 예금 기반 강화로의 현저한 전략적 변화를 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B15",
+      "C15",
+      "D15",
+      "B16",
+      "C16",
+      "D16"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_009",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "open_ended_reasoning",
+    "question": "\"% 변화\" 열에서 다른 셀에서 볼 수 있는 백분율 형식에 부합하지 않는 이상한 입력이 있는 특정 데이터 포인트는 무엇인가요?",
+    "answer": [
+      [
+        "\"순 이자 수익\"의 \"2008 대 2007 % 변화\" 열에 있는 \"2014\" 값은 큰 정수일 뿐 백분율이 아니기 때문에 이상합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "F5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_010",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "2009년 대비 2008년 '% 변화' 열에서 'nm'(의미 없음)으로 표시된 금융 지표는 몇 개인가요? 이는 표준 백분율 변화를 계산할 수 없음을 나타냅니다.",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E6",
+      "E10",
+      "E11",
+      "E12",
+      "E13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_011",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "2007년부터 2008년까지 순이자 수익의 변화율은 얼마입니까?",
+    "answer": [
+      [
+        "35%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

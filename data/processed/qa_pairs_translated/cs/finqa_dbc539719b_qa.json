@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_dbc539719b_001",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Mezi uvedenými jednotlivými státy, který generuje nejvyšší provozní příjem na zákazníka?",
+    "answer": [
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A4",
+      "B4",
+      "D4",
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_002",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Jaký je kombinovaný celkový počet zákazníků pro Illinois, Indiana a Kalifornii?",
+    "answer": [
+      [
+        "779881"
+      ]
+    ],
+    "evidence_cells": [
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_dbc539719b_003",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Jaký je kombinovaný procentuální podíl celkových provozních příjmů ze státu(s) s nejnižší odhadovanou obsluhovanou populací?",
+    "answer": [
+      [
+        "12.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "F6",
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_004",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Které státy mají podíl celkového počtu zákazníků větší než jejich podíl celkových provozních příjmů?",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "indiana"
+      ],
+      [
+        "west virginia ( b )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "A5",
+      "C5",
+      "E5",
+      "A6",
+      "C6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_005",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Jaký je poměr procenta celkových zákazníků k procentu celkového obsluhovaného obyvatelstva pro kategorii 'other ( c )', zaokrouhlený na dvě desetinná místa?",
+    "answer": [
+      [
+        "1.01"
+      ]
+    ],
+    "evidence_cells": [
+      "E8",
+      "G8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_dbc539719b_006",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Pokud by se operativní příjmy Pensylvánie zvýšily o 10 %, jaké by byly nové operativní příjmy pro 'subtotal ( top seven states )', za předpokladu, že příjmy všech ostatních států zůstanou beze změn?",
+    "answer": [
+      [
+        "2388.14"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_007",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyzujte vztah mezi počtem zákazníků a odhadovaným obyvatelstvem obsluhovaným pro uvedené šest jednotlivých států. Existuje kladná korelace a co to znamená?",
+    "answer": [
+      [
+        "Ano, existuje silná kladná korelace. S rostoucím počtem zákazníků ve státě roste také odhadované obsluhované obyvatelstvo. Například Pensylvánie má nejvyšší počet zákazníků (666 415) a největší odhadované obsluhované obyvatelstvo (2,2 milionu), zatímco Západní Virginie a Kalifornie, které mají nejnižší počty zákazníků, mají také nejmenší odhadovaná obsluhovaná obyvatelstva. To znamená, že zákaznická základna je přímým a proporcionálním komponentem obyvatelstva, které je v těchto regionech obsluhováno podnikem."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_dbc539719b_008",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Výpočtem odhadovaného počtu obyvatel obsluhovaných na zákazníka pro každý ze šesti jednotlivých států určete, který stát je nejvýznamnějším odlehlým bodem a vysvětlete proč.",
+    "answer": [
+      [
+        "Illinois je nejvýznamnějším odlehlým bodem. Odhadovaný počet obyvatel obsluhovaných na zákazníka pro každý stát je: Pensylvánie (~3,30), Missouri (~3,23), Illinois (~4,17), Kalifornie (~3,44), Indiana (~4,09) a Západní Virginie (~3,52). Zatímco většina států obsluhuje mezi 3,2 a 3,5 osobou na zákazníka, Illinois a Indiana jsou výrazně vyšší. Illinois má nejvyšší poměr přibližně 4,17, což znamená, že každý zákazník v Illinois představuje větší podíl obsluhované populace oproti ostatním státům, čímž je nejvýznamnějším odlehlým bodem."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_dbc539719b_009",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Zkontrolujte, zda procentuální podíl celkových provozních příjmů pro 'subtotal ( top seven states )' a 'other ( c )' správně součtu k hodnotě uvedené pro 'total regulated businesses'.",
+    "answer": [
+      [
+        "Ano, součet je přesný. 'Subtotal ( top seven states )' představuje 87,0 % celkových provozních příjmů a kategorie 'other ( c )' představuje 13,0 %. Sečtením těchto dvou procent (87,0 % + 13,0 %) dostaneme 100,0 %, což odpovídá hodnotě uvedené pro 'total regulated businesses'."
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_010",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Která dvojice států z uvedeného seznamu šesti má kombinovaný počet zákazníků nejblíže počtu zákazníků v Pensylvánii?",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_011",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Jaká je tržba v milionech dolarů v Kalifornii?",
+    "answer": [
+      [
+        "$209.8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

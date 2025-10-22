@@ -1,0 +1,249 @@
+[
+  {
+    "question_id": "finqa_d4ff6b23c2_001",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "คำนวณการเปลี่ยนแปลงสุทธิรวมของสิทธิประโยชน์ทางภาษีที่ยังไม่ได้รับการรับรู้สำหรับปี 2016 โดยอ้างอิงกับกิจกรรมธุรกรรมที่ระบุระหว่างยอดเริ่มต้นและยอดสิ้นสุด",
+    "answer": [
+      [
+        "64"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_002",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "รายการใดที่แสดงการเปลี่ยนแปลงทางการเงินแบบสัมบูรณ์ที่น้อยกว่าในปี 2017 เมื่อเทียบกับการเปลี่ยนแปลงที่สอดคล้องกันในปี 2016?",
+    "answer": [
+      [
+        "additions for tax positions related to prior years"
+      ],
+      [
+        "reductions for tax positions related to prior years"
+      ],
+      [
+        "reductions for settlements2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_003",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "สัดส่วนของ \"ยอดคงเหลือ ณ วันที่ 31 ธันวาคม 2017\" ที่ไม่ส่งผลต่ออัตราภาษีที่แท้จริงหากได้รับการรับรองคิดเป็นกี่เปอร์เซ็นต์?",
+    "answer": [
+      [
+        "5.99%"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_004",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "ผลต่างระหว่างผลรวมของการลดทั้งหมดในปี 2017 กับผลรวมของการลดทั้งหมดในปี 2016 คือเท่าไร โดยไม่คำนึงถึงค่าที่ไม่เป็นมาตรฐานในส่วน 'การลดสำหรับการหมดอายุระยะเวลาตามกฎหมาย' ของปี 2017?",
+    "answer": [
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_005",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "หาก 'additions for tax positions related to prior years' ในปี 2017 มีจำนวนเท่ากับปี 2016 จะทำให้ 'balance at december 31, 2017' ที่ปรับแล้วเป็นเท่าไร?",
+    "answer": [
+      [
+        "$ 1321"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_006",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "ระบุรายการเดียวจากปี 2017 ที่เป็นค่าผิดปกติที่มีความสำคัญมากที่สุดในด้านขนาดทางการเงินเมื่อเปรียบเทียบกับการเพิ่มและลดทั้งหมดในทั้งสองปี",
+    "answer": [
+      [
+        "additions for tax positions related to current year"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_007",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "จากข้อมูลการปรับสมดุล ค่า 'balance at december 31, 2017' คำนวณจากยอดเริ่มต้นบวกกับการเพิ่มและลดที่เกิดขึ้นในภายหลัง เซลล์ใดในคอลัมน์ปี 2017 มีค่าที่ไม่สอดคล้องกับการคำนวณนี้และดูเหมือนเป็นข้อมูลที่ไม่เกี่ยวข้อง?",
+    "answer": [
+      [
+        "B6"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_008",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "รายการกิจกรรมทั้งหมดในปี 2017 ทั้งการเพิ่มและการลด ที่มีค่าสัมบูรณ์มากกว่า 15 ล้านดอลลาร์",
+    "answer": [
+      [
+        "additions for tax positions related to current year"
+      ],
+      [
+        "additions for tax positions related to prior years"
+      ],
+      [
+        "reductions for tax positions related to prior years"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_009",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "วิเคราะห์การเปลี่ยนแปลงของยอดคงเหลือทั้งหมดจากสิ้นปี 2016 ถึงสิ้นปี 2017 ปัจจัยหลักที่ทำให้เกิดการเปลี่ยนแปลงนี้คืออะไร?",
+    "answer": [
+      [
+        "ยอดคงเหลือของสิทธิประโยชน์ทางภาษีที่ยังไม่ได้รับการรับรองเพิ่มขึ้น 254 ล้านดอลลาร์ จาก 1032 ล้านดอลลาร์ที่สิ้นปี 2016 เป็น 1286 ล้านดอลลาร์ที่สิ้นปี 2017 ปัจจัยหลักที่ทำให้เกิดการเพิ่มขึ้นนี้คือ \"270 ล้านดอลลาร์\" ใน \"การเพิ่มขึ้นสำหรับตำแหน่งภาษีที่เกี่ยวข้องกับปีปัจจุบัน\" ในปี 2017 ซึ่งมีขนาดใหญ่กว่าการเพิ่มหรือลดอื่นๆ ในแต่ละปีอย่างมาก ในขณะที่มีการลดลงรวม 36 ล้านดอลลาร์ในปี 2017 แต่ก็ไม่เพียงพอที่จะชดเชยการเพิ่มขึ้นที่มีขนาดใหญ่"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_010",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "มีหลักฐานแสดงถึงการเปลี่ยนแปลงอย่างมีนัยสำคัญในองค์ประกอบของสิทธิประโยชน์ทางภาษีที่ยังไม่ได้รับการรับรองระหว่างปี 2016 และ 2017 ตามสัดส่วนของยอดคงเหลือสิ้นปีที่มีผลกระทบต่ออัตราภาษีประสิทธิภาพหรือไม่",
+    "answer": [
+      [
+        "ไม่มีหลักฐานแสดงถึงการเปลี่ยนแปลงอย่างมีนัยสำคัญในองค์ประกอบ ในปี 2016 ส่วนที่มีผลกระทบต่ออัตราภาษีประสิทธิภาพอยู่ที่ 963 ล้านดอลลาร์ จากยอดคงเหลือ 1032 ล้านดอลลาร์ หรือร้อยละ 93.3 ในปี 2017 ส่วนดังกล่าวอยู่ที่ 1209 ล้านดอลลาร์ จากยอดคงเหลือ 1286 ล้านดอลลาร์ หรือร้อยละ 94.0 สัดส่วนยังคงมีความเสถียรสูง ซึ่งบ่งชี้ว่าองค์ประกอบของตำแหน่งทางภาษีพื้นฐานมีความสม่ำเสมอจากปีหนึ่งไปอีกปีหนึ่ง แม้จะมีการเพิ่มขึ้นของยอดคงเหลือโดยรวม"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_011",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "ยอดรวมของตำแหน่งภาษีเปลี่ยนแปลงอย่างไรจากปี 2016 ถึงปี 2017 และปัจจัยใดที่ส่งผลต่อการเปลี่ยนแปลงนี้?",
+    "answer": [
+      [
+        "ยอดรวมของตำแหน่งภาษีเพิ่มขึ้นจาก 1,032 ล้านดอลลาร์ในปี 2016 เป็น 1,286 ล้านดอลลาร์ในปี 2017 การเพิ่มขึ้นส่วนใหญ่เกิดจากการเพิ่มขึ้นของตำแหน่งภาษีปัจจุบัน (+270 ล้านดอลลาร์) และตำแหน่งภาษีปีก่อนหน้า (+20 ล้านดอลลาร์) ซึ่งถูกหักด้วยการลดลงของตำแหน่งภาษีปีก่อนหน้า (-27 ล้านดอลลาร์) และการตกลง (-9 ล้านดอลลาร์)"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

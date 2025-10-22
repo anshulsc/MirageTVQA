@@ -1,0 +1,226 @@
+[
+  {
+    "question_id": "finqa_f76d5def2c_001",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "Qual è stato il valore totale degli aumenti lordi di benefici fiscali non riconosciuti registrati nel 2011?",
+    "answer": [
+      [
+        "44321"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_002",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "Qual è stata la differenza assoluta nell'importo dei rimborsi con le autorità fiscali tra il 2010 e il 2011?",
+    "answer": [
+      [
+        "41383"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_003",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "Il tasso di riduzioni totali al saldo dei benefici fiscali non riconosciuti (a causa di diminuzioni da posizioni fiscali dell'anno precedente, accordi e scadenze di prescrizione) è accelerato o decelerato dal 2010 al 2011?",
+    "answer": [
+      [
+        "Il tasso di riduzioni è decelerato significativamente. Nel 2010, le riduzioni totali da queste tre categorie ammontavano a $85.484 (7104 + 70484 + 7896), mentre nel 2011, le riduzioni totali sono state solo $37.080 (4154 + 29101 + 3825), che è meno della metà dell'importo dell'anno precedente."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_004",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "Calcola il cambiamento netto nei benefici fiscali non riconosciuti per l'anno che ha avuto il saldo iniziale più alto.",
+    "answer": [
+      [
+        "-61115"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_005",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "Nel 2010, quale percentuale delle diminuzioni lorde totali (da posizioni fiscali dell'anno precedente, accordi e decorrenza del termine di prescrizione) era attribuibile agli accordi con le autorità fiscali? Fornire la risposta arrotondata a due cifre decimali.",
+    "answer": [
+      [
+        "82.45%"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_006",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "Elencare le categorie di eventi che hanno causato una diminuzione dei benefici fiscali non riconosciuti superiore a $ 5.000 in valore assoluto durante il 2010.",
+    "answer": [
+      [
+        "gross decreases in unrecognized tax benefits 2013 prior year tax positions"
+      ],
+      [
+        "settlements with taxing authorities"
+      ],
+      [
+        "lapse of statute of limitations"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A5",
+      "C5",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_007",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "Se i 'grossi aumenti dei benefici fiscali non riconosciuti per le posizioni fiscali dell'anno corrente 2013' per il 2011 fossero stati del 50% inferiori, quale sarebbe stato il nuovo saldo finale per il 2011?",
+    "answer": [
+      [
+        "147397"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_008",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "Quale voce di bilancio rappresenta l'outlier più significativo in termini di impatto monetario (valore assoluto) su un singolo anno e qual è stato il suo valore?",
+    "answer": [
+      [
+        "L'outlier più significativo è stato 'settlements with taxing authorities' nel 2010, che ha causato una diminuzione di $70.484. Questo importo è più del doppio di qualsiasi altra modifica singola elencata in entrambi gli anni."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_009",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "In base alla struttura della tabella, qual è la relazione tra il saldo finale del 2010 e il saldo iniziale del 2011?",
+    "answer": [
+      [
+        "Il saldo finale del 2010, che è $156.925, è identico al saldo iniziale del 2011. Questo dimostra il principio di continuità in contabilità, dove il saldo di chiusura di un periodo serve come saldo iniziale per il periodo successivo."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_010",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "Analizza la relazione tra l'entità dei 'pagamenti con le autorità fiscali' e il cambiamento netto del saldo per ciascun anno.",
+    "answer": [
+      [
+        "C'è una forte relazione tra la dimensione dei pagamenti e il cambiamento netto complessivo. Nel 2010, un pagamento elevato di -$70.484 ha corrisposto a una significativa diminuzione netta del saldo totale di -$61.115. Al contrario, nel 2011, un pagamento molto più ridotto di -$29.101 ha contribuito a un aumento netto del saldo di $6.682. Questo suggerisce che i pagamenti sono un fattore principale di riduzione del saldo dei benefici fiscali non riconosciuti."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_011",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "Qual è la variazione percentuale del saldo finale dal 2010 al 2011?",
+    "answer": [
+      [
+        "Il saldo finale è aumentato da $156.925 nel 2010 a $163.607 nel 2011, che corrisponde a circa un aumento del 4,26%."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

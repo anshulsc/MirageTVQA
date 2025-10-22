@@ -1,0 +1,205 @@
+[
+  {
+    "question_id": "finqa_ec80ad8938_001",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Quel est le montant total de la valeur comptable pour tous les actifs (à la fois actifs négociés et prêts) rapportés dans les deux jeux de données présentés ?",
+    "answer": [
+      [
+        "26557"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_002",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Dans le deuxième jeu de données (colonnes D et E), quelle catégorie d'actifs — actifs de négociation ou prêts — a le « montant total du principal non remboursé dépassant la juste valeur » le plus élevé ?",
+    "answer": [
+      [
+        "loans"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_003",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Pour le premier ensemble de prêts (colonne C), quel pourcentage du « montant comptable » est représenté par le « solde des prêts non performants » ?",
+    "answer": [
+      [
+        "0.03%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_004",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Quel est le montant cumulé de la valeur comptable du type d'actif (Actifs en trading ou Prêts) qui a le plus bas « solde des prêts non productifs ou prêts en retard de plus de 90 jours » dans les deux jeux de données ?",
+    "answer": [
+      [
+        "7598"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_005",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Listez les montants comptables pour tous les portefeuilles d'actifs où le « solde des prêts non-performants ou des prêts en retard de plus de 90 jours » est exactement de 1 million de dollars.",
+    "answer": [
+      [
+        "$ 3224"
+      ],
+      [
+        "$ 4374"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C3",
+      "E3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_006",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Si le montant comptable des actifs négociés dans le premier jeu de données (colonne B) était ajusté en soustrayant son « solde total principal impayé supérieur à la juste valeur », quel serait le nouveau montant comptable ?",
+    "answer": [
+      [
+        "9673"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_007",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "En analysant le 'solde des prêts non accrue', quel type d'actif présente un solde qui est une valeur aberrante significative par rapport aux autres, et que cela implique-t-il sur leurs profils de risque relatifs ?",
+    "answer": [
+      [
+        "Le portefeuille d'actifs de trading dans les deux jeux de données présente un solde non accrue de 2 014 millions de dollars, ce qui est une valeur aberrante extrême par rapport aux 1 million de dollars pour les prêts dans les deux ensembles. Cette différence marquée suggère que le portefeuille d'actifs de trading présente un risque de crédit significativement plus élevé ou a subi un événement de défaut majeur, tandis que le portefeuille de prêts semble être en excellente santé avec presque aucun solde non accrue."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_008",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Les données montrent-elles une corrélation positive cohérente entre le « montant comptable » d'un actif et son « solde total non remboursé principal supérieur à la juste valeur » pour la catégorie des Actifs de négociation ?",
+    "answer": [
+      [
+        "Non, une corrélation positive cohérente n'est pas observée. Le premier ensemble d'actifs de négociation a un montant comptable plus élevé (10 108 M$ vs 8 851 M$) mais un solde total non remboursé principal supérieur à la juste valeur plus faible (435 M$ vs 623 M$). Cela indique qu'une taille de portefeuille plus importante ne conduit pas nécessairement à une perte non réalisée proportionnellement plus importante dans ce jeu de données."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_009",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifiez les lignes qui contiennent des données répétées ou apparemment redondantes et expliquez le motif.",
+    "answer": [
+      [
+        "La redondance de données est présente dans les lignes 3 et 4. Dans la ligne 3, « solde des prêts non-performants... », la valeur pour les actifs de négociation est de 2 014 M $ dans les deux ensembles (B3, D3) et 1 M $ pour les prêts dans les deux ensembles (C3, E3). Dans la ligne 4, la valeur de 2 014 M $ est répétée trois fois pour les deux ensembles d'actifs de négociation et le premier ensemble de prêts (B4, C4, D4), ce qui suggère soit un motif de saisie de données, soit un artefact spécifique de reporting financier."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_010",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Pour l'ensemble de données (Ensemble 1 : colonnes B,C ou Ensemble 2 : colonnes D,E) ayant le montant comptable total le plus élevé, calculez le « pourcentage de perte non réalisée » global du portefeuille (total du « solde impayé principal excédant la juste valeur » divisé par le total du « montant comptable »).",
+    "answer": [
+      [
+        "8.82%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_011",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Comment le montant comptable rapporté sur le bilan consolidé pour les actifs négociés se compare-t-il aux prêts au 31 décembre 2018 ?",
+    "answer": [
+      [
+        "Le montant comptable pour les actifs négociés était supérieur à celui des prêts. Pour les actifs négociés, il était de 10 108 millions de dollars et de 8 851 millions de dollars, alors que pour les prêts, il était de 3 224 millions de dollars et de 4 374 millions de dollars."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

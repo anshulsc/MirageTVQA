@@ -1,0 +1,226 @@
+[
+  {
+    "question_id": "finqa_fd0528f9cf_001",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "2008年、「総営業費用」は「利息経費控除後の総収益」を何パーセント上回りましたか？",
+    "answer": [
+      [
+        "109.65%"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_002",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "「純利息収入」が最低であった年における、事前税利益率（「利息費用控除後の総収入」を「継続事業利益前税」で割ったもの）はいくらですか？",
+    "answer": [
+      [
+        "76.61%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "B3",
+      "B10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_003",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "2008年から2009年までのドル価値における最大の絶対的改善（プラス変化）を経験した財務指標はどれですか？",
+    "answer": [
+      [
+        "income ( loss ) from continuing operations before taxes"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_004",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "open_ended_reasoning",
+    "question": "2008年から2009年にかけての企業の財務的な転換について、総収益、営業費用、純利益の傾向を参照して説明してください。",
+    "answer": [
+      [
+        "企業は2008年から2009年にかけて驚異的な財務的な転換を遂げました。総収益は80%増加し、84億2300万ドルから151億3500万ドルへと急伸しました。同時に、総営業費用は64%大幅に削減され、92億3600万ドルから33億5000万ドルへと減少しました。この収益成長と大幅なコスト削減の組み合わせにより、2008年の5億8500万ドルの純損失が2009年の70億9500万ドルの純利益へと大きく転換しました。"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "E3",
+      "B4",
+      "C4",
+      "E4",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_005",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "2008年にマイナス値（損失または利益）を報告し、2009年にプラス値を報告したすべての財務指標を列挙してください。",
+    "answer": [
+      [
+        "income ( loss ) from continuing operations before taxes"
+      ],
+      [
+        "income taxes ( benefits )"
+      ],
+      [
+        "income ( loss ) from continuing operations"
+      ],
+      [
+        "net income ( loss ) attributable to noncontrolling interests"
+      ],
+      [
+        "net income ( loss )"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10",
+      "A11",
+      "B11",
+      "C11",
+      "A12",
+      "B12",
+      "C12",
+      "A13",
+      "B13",
+      "C13",
+      "A14",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_006",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "提供された3年間（2007年、2008年、2009年）における「総営業費用」の平均額（百万ドル単位）はいくらですか？",
+    "answer": [
+      [
+        "$6848.67"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_007",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "「ネットインターレスト・リベニュー」の「2009年対2008年変化率」が65%の減少ではなく50%の減少だった場合、「ノンインターレスト・リベニュー」が変化しなかったとして、2009年の「利息費用控除後の総収入」はいくらになっていたでしょうか？",
+    "answer": [
+      [
+        "$15315"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "E1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_008",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "open_ended_reasoning",
+    "question": "2007年から2009年までの企業の「EOP資産」と「EOP預金」の関係を分析し、潜在的な戦略シフトを推測してください。",
+    "answer": [
+      [
+        "2007年から2009年にかけて、EOP資産とEOP預金には逆相関があります。資産は560億ドルから350億ドルに減少した一方、預金は460億ドルから600億ドルに増加しました。これは、金融変革期に流動性の改善、リスクの軽減、およびコアバンキング業務への焦点化を目指して、資産保有から預金基盤の強化への重要な戦略シフトを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B15",
+      "C15",
+      "D15",
+      "B16",
+      "C16",
+      "D16"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_009",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "open_ended_reasoning",
+    "question": "「% 変化」列の特定のデータ項目のうち、他のセルで見られるパーセンテージ形式に従っていない異常なエントリはどれですか？",
+    "answer": [
+      [
+        "「net credit losses」の「% change 2008 vs. 2007」列における値「2014」は、大規模な整数であり、パーセンテージ形式ではないため、異常です。"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "F5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_010",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "「% change 2009 vs. 2008」列において、標準的な百分率変動を計算できないことを示す「nm」（意味なし）とマークされている金融指標はいくつありますか？",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E6",
+      "E10",
+      "E11",
+      "E12",
+      "E13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_011",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "2007年から2008年までの純利息収入の変化率はいくらですか？",
+    "answer": [
+      [
+        "35%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

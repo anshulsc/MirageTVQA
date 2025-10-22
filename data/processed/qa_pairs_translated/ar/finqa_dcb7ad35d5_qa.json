@@ -1,0 +1,219 @@
+[
+  {
+    "question_id": "finqa_dcb7ad35d5_001",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "أي نوع من الالتزامات، باستثناء الديون طويلة الأجل، لديه أعلى إجمالي دفع مستحق؟",
+    "answer": [
+      [
+        "purchase obligations and other ( 4 ) ( 5 ) ( 6 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_002",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "ما هي الإلتزامات الإجمالية المجمعة المستحقة قبل عام مالي 2023؟",
+    "answer": [
+      [
+        "3935.9"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_003",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "ما هو إجمالي المدفوعات المستحقة في فترتي 2021-2022 و2023-2024 لنوع الالتزام الذي له أقل مبلغ مستحق في السنة المالية 2020؟",
+    "answer": [
+      [
+        "11.6"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "A3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_004",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "صف اتجاه التزامات الدفع الإجمالية للشركة للفترات المالية المحددة السابقة لـ\"بعد ذلك\".",
+    "answer": [
+      [
+        "أظهرت التزامات الدفع الإجمالية اتجاهًا متقلبًا. بدأت بـ 2378.5 مليون دولار في السنة المالية 2020، ثم انخفضت إلى 1557.4 مليون دولار للفترة 2021-2022، قبل أن تصل إلى ذروة كبيرة عند 2897.5 مليون دولار في الفترة 2023-2024. وهذا يشير إلى انخفاض في الالتزامات قصيرة الأجل متبوعًا بقفزة كبيرة في الالتزامات متوسطة الأجل."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_005",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "اذكر جميع فئات الالتزامات حيث تتجاوز المدفوعات المستحقة \"بعد ذلك\" مجموع المدفوعات المستحقة من 2020 إلى 2024.",
+    "answer": [
+      [
+        "long-term debt including current portionexcluding capital lease obligations ( 1 )"
+      ],
+      [
+        "capital lease obligations ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "A3",
+      "C3",
+      "D3",
+      "E3",
+      "F3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_006",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "ما هي النسبة المئوية من إجمالي المدفوعات المستحقة في السنة المالية 2020 التي تُعزى إلى 'التزامات الشراء وغيرها'؟",
+    "answer": [
+      [
+        "67.56%"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_007",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "إذا تم تأجيل جميع 'التزامات الإيجار التشغيلي' المستحقة في السنة المالية 2021 و2022 وإضافتها إلى فترة 'ما بعد ذلك'، فما سيكون المجموع الجديد لفترة 'ما بعد ذلك'؟",
+    "answer": [
+      [
+        "6589.9"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "F5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_008",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "بناءً على جداول السداد، ما الذي يمكن استنتاجه عن هيكل الاستحقاق لـ'الديون طويلة الأجل' مقارنة بـ'الالتزامات الشرائية'؟",
+    "answer": [
+      [
+        "تختلف هياكل الاستحقاق بشكل كبير. فـ'الديون طويلة الأجل' مُرجَّحة بشكل كبير نحو الأجل الطويل، حيث إن معظم المدفوعات (5729.2 مليون دولار من إجمالي 9714.1 مليون دولار) مستحقة في فترة 'ما بعد ذلك'، مما يشير إلى أدوات تمويل طويلة الأجل. على النقيض من ذلك، فإن 'الالتزامات الشرائية' مُركَّزة بشكل كبير في المدى القصير، حيث إن معظم المدفوعات (1607.0 مليون دولار من إجمالي 2293.5 مليون دولار) مستحقة في السنة المالية 2020 الفورية، وهو ما ينطوي على التزامات تشغيلية قصيرة الأجل."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_009",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "ما هي قيمة الدفعة الواحدة لـ \"التزامات الإيجار الرأسمالي\" التي تعتبر قيمة شاذة تمثل حوالي 90% من إجمالي الالتزام؟",
+    "answer": [
+      [
+        "$ 150.9"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_010",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "عن طريق جمع القيم يدويًا في عمود 'الدفعات المستحقة حسب الفترة fiscal 2023and 2024' لكل التزام فردي، تحقق مما إذا كان المجموع المقدم في الخلية E5 صحيحًا.",
+    "answer": [
+      [
+        "نعم، المجموع المقدم صحيح. مجموع الالتزامات الفردية لفترة fiscal 2023 و 2024 هو $2494.3 + $193.6 + $2.9 + $206.7، والذي يحسب إلى $2897.5، مطابقًا للقيمة في الخلية E5."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_011",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "في أي فترة تكون التزامات الإيجار التشغيلي الأعلى؟",
+    "answer": [
+      [
+        "السنة المالية 2021 و 2022، بقيمة 316.4 مليون دولار من الالتزامات"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

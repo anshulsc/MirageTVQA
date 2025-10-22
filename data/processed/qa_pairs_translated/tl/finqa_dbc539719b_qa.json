@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_dbc539719b_001",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Sa mga estado na nakalistang indibidwal, alin ang nagdudulot ng pinakamataas na kita mula sa operasyon bawat customer?",
+    "answer": [
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A4",
+      "B4",
+      "D4",
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_002",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Ano ang kabuuang bilang ng mga customer para sa Illinois, Indiana, at California?",
+    "answer": [
+      [
+        "779881"
+      ]
+    ],
+    "evidence_cells": [
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_dbc539719b_003",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Ano ang kabuuang porsyento ng kabuuang kita mula sa operasyon mula sa estado(s) na may pinakamababang inaasahang populasyon na sinasakop?",
+    "answer": [
+      [
+        "12.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "F6",
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_004",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Alin sa mga estado ang may bahagi ng kabuuang bilang ng mga customer na mas malaki kaysa sa kanilang bahagi ng kabuuang kita mula sa operasyon?",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "indiana"
+      ],
+      [
+        "west virginia ( b )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "A5",
+      "C5",
+      "E5",
+      "A6",
+      "C6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_005",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Ano ang ratio ng porsyento ng kabuuang bilang ng mga customer sa porsyento ng kabuuang populasyong sinasakop para sa kategoryang 'other ( c )', na rounded off sa dalawang desimal?",
+    "answer": [
+      [
+        "1.01"
+      ]
+    ],
+    "evidence_cells": [
+      "E8",
+      "G8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_dbc539719b_006",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Kung tumaas ang operasyonal na kita ng Pennsylvania ng 10%, ano ang bagong operasyonal na kita para sa 'subtotal ( top seven states )', na may palagay na hindi nagbabago ang kita ng ibang estado?",
+    "answer": [
+      [
+        "2388.14"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_007",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyze the relationship between the number of customers and the estimated population served for the six individual states listed. Is there a positive correlation, and what does this imply?",
+    "answer": [
+      [
+        "Yes, there is a strong positive correlation. As the number of customers increases for a state, the estimated population served also tends to increase. For instance, Pennsylvania has the highest number of customers (666,415) and the largest estimated population served (2.2 million), while West Virginia and California, which have the lowest customer counts, also have the smallest estimated populations served. This implies that the customer base is a direct and proportional component of the population being served by the business in these regions."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_dbc539719b_008",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Sa pamamagitan ng pagkalkula ng hinaharap na populasyon na sinasakop bawat kliyente para sa bawat anim na indibidwal na estado, alin ang pinakamalaking outlier at bakit?",
+    "answer": [
+      [
+        "Ang Illinois ang pinakamalaking outlier. Ang hinaharap na populasyon na sinasakop bawat kliyente para sa bawat estado ay: Pennsylvania (~3.30), Missouri (~3.23), Illinois (~4.17), California (~3.44), Indiana (~4.09), at West Virginia (~3.52). Habang karamihan sa mga estado ay naglilingkod sa pagitan ng 3.2 at 3.5 na tao bawat kliyente, ang Illinois at Indiana ay nangungunang mas mataas. Ang Illinois ay may pinakamataas na ratio na humigit-kumulang 4.17, na nagpapakita na bawat kliyente sa Illinois ay kumakatawan sa mas malaking bahagi ng populasyon na sinasakop kumpara sa ibang estado, kaya ito ang pinakamalaking outlier."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_dbc539719b_009",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Patunayan kung ang porsyento ng kabuuang kita mula sa operasyon para sa 'subtotal ( top seven states )' at 'other ( c )' ay tumpak na nagkakabuo ng porsyento na ipinakita para sa 'total regulated businesses'.",
+    "answer": [
+      [
+        "Oo, tumpak ang kabuuan. Ang 'subtotal ( top seven states )' ay nagsisilbing 87.0% ng kabuuang kita mula sa operasyon, at ang kategoryang 'other ( c )' ay nagsisilbing 13.0%. Ang pagdagdag ng dalawang porsyentong ito (87.0% + 13.0%) ay nagresulta sa 100.0%, na tumutugma sa halagang ibinigay para sa 'total regulated businesses'."
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_010",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Alin sa mga estado na listahan sa anim, ang may pinagsamang bilang ng mga kustomer na pinakamalapit sa bilang ng mga kustomer sa Pennsylvania?",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_011",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Ano ang operating revenues sa milyon sa California?",
+    "answer": [
+      [
+        "$209.8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

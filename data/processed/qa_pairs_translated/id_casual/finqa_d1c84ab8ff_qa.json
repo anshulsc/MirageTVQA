@@ -1,0 +1,222 @@
+[
+  {
+    "question_id": "finqa_d1c84ab8ff_001",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "Tahun berapa yang mengalami penyesuaian negatif terbesar untuk tarif pajak dari 'taxes on international operations'?",
+    "answer": [
+      [
+        "2017"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_002",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "Berapa jumlah semua penyesuaian positif terhadap tarif pajak di tahun 2018, kecuali 'u.s. tax reform impact'?",
+    "answer": [
+      [
+        "7.4"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_003",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "Pada tahun dengan 'effective tax rate' tertinggi, berapa nilai dari 'u.s . tax reform impact'?",
+    "answer": [
+      [
+        "51.2"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "C12",
+      "D12",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_004",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "open_ended_reasoning",
+    "question": "Jelaskan tren 'statutory tax rate' dari tahun 2016 sampai 2018.",
+    "answer": [
+      [
+        "Tingkat pajak statutori menunjukkan tren penurunan yang konsisten, dimulai dari 20,0% pada tahun 2016, turun menjadi 19,3% pada tahun 2017, dan terus menurun menjadi 19,0% pada tahun 2018."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_005",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "Sebutkan semua kategori penyesuaian pajak yang memiliki dampak positif konsisten (yaitu nilai positif) pada tarif pajak untuk ketiga tahun yang disajikan.",
+    "answer": [
+      [
+        "nondeductible expenses"
+      ],
+      [
+        "change in uncertain tax positions"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "A7",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_006",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "Di tahun 2017, berapa persen dari total penyesuaian positif tarif pajak yang disumbangkan oleh 'u.s . tax reform impact'?",
+    "answer": [
+      [
+        "87.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5",
+      "C7",
+      "C9",
+      "C11"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_007",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "Jika 'loss on disposition' di tahun 2018 adalah nol alih-alih -10.2, berapa 'effective tax rate' untuk tahun tersebut?",
+    "answer": [
+      [
+        "21.9%"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "B12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_008",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "open_ended_reasoning",
+    "question": "Apakah ada korelasi stabil antara tarif pajak statutory dan tarif pajak efektif selama tiga tahun ini? Jelaskan alasanmu berdasarkan data.",
+    "answer": [
+      [
+        "Enggak, nggak ada korelasi yang stabil. Meskipun tarif statutory turun secara teratur dari 20,0% jadi 19,0%, tarif pajak efektifnya sangat fluktuatif, naik dari 10,6% di 2016, mencapai puncak 36,5% di 2017, lalu turun ke 11,7% di 2018. Fluktuasi ini menunjukkan bahwa tarif efektif dipengaruhi oleh penyesuaian-penyesuaian besar yang nggak konsisten, kayak dampak 'u.s. tax reform' sebesar 51,2 di 2017, bukan dari tarif statutory."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "A12",
+      "B12",
+      "C12",
+      "D12",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_009",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "Item penyesuaian pajak mana yang memiliki data non-numerik untuk lebih dari satu tahun?",
+    "answer": [
+      [
+        "loss on disposition"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "C10",
+      "D10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_010",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "Apa item penyesuaian pajak tunggal di tahun 2017 yang menjadi outlier paling signifikan dibandingkan semua penyesuaian lain di tahun itu?",
+    "answer": [
+      [
+        "u.s . tax reform impact"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_011",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "open_ended_reasoning",
+    "question": "Berapa kenaikan tarif pajak efektif dari tahun 2016 ke 2018?",
+    "answer": [
+      [
+        "Tarif pajak efektif naik dari 10,6% pada tahun 2016 menjadi 11,7% pada tahun 2018, kenaikan sebesar 1,1%"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "D12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

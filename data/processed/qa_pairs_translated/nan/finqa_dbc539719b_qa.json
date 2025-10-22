@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_dbc539719b_001",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "在列出嘅個別州份當中，哪一個產生最高嘅經營收入每客？",
+    "answer": [
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A4",
+      "B4",
+      "D4",
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_002",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "伊州、印州和加州的客戶總數是多少？",
+    "answer": [
+      [
+        "779881"
+      ]
+    ],
+    "evidence_cells": [
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_dbc539719b_003",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "什麼州或哪些州的預估服務人口最少，它們的總營業收入佔總營業收入的百分比是多少？",
+    "answer": [
+      [
+        "12.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "F6",
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_004",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "哪一些州嘅客戶總數佔比大過佢哋嘅總營運收入佔比？",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "indiana"
+      ],
+      [
+        "west virginia ( b )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "A5",
+      "C5",
+      "E5",
+      "A6",
+      "C6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_005",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "「other ( c )」類別的總客戶百分比與總服務人口百分比之比是多少？四捨五入到小數點後兩位？",
+    "answer": [
+      [
+        "1.01"
+      ]
+    ],
+    "evidence_cells": [
+      "E8",
+      "G8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_dbc539719b_006",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "If Pennsylvania's operating revenues were to increase by 10%, what would the new operating revenue for 'subtotal ( top seven states )' be, assuming all other states' revenues remain unchanged?",
+    "answer": [
+      [
+        "2388.14"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_007",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "分析列舉的六個獨立州份的客戶數量與預估服務人口之間的關係。是否存在正相關？這意味著什麼？",
+    "answer": [
+      [
+        "是的，存在強烈的正相關。當一個州份的客戶數量增加時，預估服務人口也往往增加。例如，賓夕法尼亞州有最高的客戶數量（666,415）和最大的預估服務人口（2.2百萬），而西維吉尼亞州和加利福尼亞州，客戶數量最少，預估服務人口也最小。這意味著客戶基數是這些地區業務服務人口的直接且成比例的組成部分。"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_dbc539719b_008",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "透過計算每個六個州份的預估服務人口每客戶數，找出哪個州份是最顯著的異常值，並解釋原因。",
+    "answer": [
+      [
+        "伊利諾州是最顯著的異常值。每個州份的預估服務人口每客戶數為：賓夕法尼亞州（約3.30）、密蘇里州（約3.23）、伊利諾州（約4.17）、加州（約3.44）、印第安納州（約4.09）和西維吉尼亞州（約3.52）。雖然大多數州份每客戶服務人數在3.2至3.5之間，但伊利諾州和印第安納州明顯較高。伊利諾州的比例最高，約為4.17，表示伊利諾州的每位客戶代表較大比例的服務人口，相較於其他州份，因此是最顯著的異常值。"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_dbc539719b_009",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "檢查看「subtotal ( top seven states )」和「other ( c )」的總營業收入百分比是否準確加總到「total regulated businesses」顯示的百分比。",
+    "answer": [
+      [
+        "是的，加總正確。「subtotal ( top seven states )」佔總營業收入的87.0%，而「other ( c )」類別佔13.0%。將這兩個百分比相加（87.0% + 13.0%）得到100.0%，與「total regulated businesses」給出的值相符。"
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_010",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "從六個州中，哪兩個州的客戶總數最接近賓州的客戶數？",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_011",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "加州營運收入是多少百萬美元？",
+    "answer": [
+      [
+        "$209.8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

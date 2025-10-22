@@ -1,0 +1,270 @@
+[
+  {
+    "question_id": "finqa_ee929b55fc_001",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "หน่วยรายงานใดมีมูลค่ายุติธรรมเป็นเปอร์เซ็นต์ของมูลค่าบัญชีที่จัดสรรสูงสุด?",
+    "answer": [
+      [
+        "transaction services"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_002",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "ยอดรวมของค่าความดีวิลสำหรับหน่วยรายงานทั้งหมดที่มีชื่อประกอบด้วยคำว่า 'banking' คือเท่าไร?",
+    "answer": [
+      [
+        "19960"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_003",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "หน่วยรายงานที่มีเปอร์เซ็นต์มูลค่าตามความยุติธรรมต่ำสุดเป็นอันดับสองมีค่าความดีใจเท่าไร",
+    "answer": [
+      [
+        "65"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_004",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "รายการหน่วยรายงานที่มีค่าความดีวิลมากกว่า $4,000 และเปอร์เซ็นต์มูลค่าที่ยุติธรรมต่ำกว่า 400% คืออะไร",
+    "answer": [
+      [
+        "asia regional consumer banking"
+      ],
+      [
+        "securities and banking"
+      ],
+      [
+        "local consumer lending 2014cards"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_005",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "สัดส่วนของกำไรจากการขายทั้งหมดของหน่วยรายงานทั้งหมดที่จัดสรรให้กับ 'asia regional consumer banking' คือเท่าไร? ให้คำตอบเป็นเปอร์เซ็นต์ปัดเศษทศนิยมหนึ่งตำแหน่ง",
+    "answer": [
+      [
+        "23.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_006",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "หากค่า goodwill สำหรับ 'local consumer lending 2014cards' ลดลง 25% จากการเรียกเก็บค่าความเสียหาย ค่า goodwill ใหม่จะเป็นเท่าไร?",
+    "answer": [
+      [
+        "3420"
+      ]
+    ],
+    "evidence_cells": [
+      "C8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_007",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "open_ended_reasoning",
+    "question": "จากข้อมูลที่กำหนด มีความสัมพันธ์เชิงบวกที่ชัดเจนระหว่างมูลค่า goodwill สูงกับ 'fair value as a %' ที่สูงหรือไม่? โปรดให้การวิเคราะห์ที่มีเหตุผล",
+    "answer": [
+      [
+        "ไม่มีความสัมพันธ์เชิงบวกที่ชัดเจน ตัวอย่างเช่น 'transaction services' มี 'fair value as a %' สูงที่สุดโดยมีค่าสูงกว่ามาก (1716) แต่มี goodwill ในระดับปานกลาง ($1567) ในทางตรงข้าม 'securities and banking' มี goodwill สูงสุด ($9259) แต่มีเปอร์เซ็นต์ fair value เพียงอันดับที่สี่ (223) ซึ่งแสดงให้เห็นว่าค่าสูงในหนึ่งตัวชี้วัดไม่จำเป็นต้องสัมพันธ์กับค่าสูงในอีกตัวชี้วัดเสมอไป"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_008",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "ระบุหน่วยรายงานที่ค่า 'fair value เป็นเปอร์เซ็นต์' เป็นค่าผิดปกติอย่างมีนัยสำคัญ และค่าดังกล่าวมากกว่าค่ามัธยฐานของเปอร์เซ็นต์ fair value ของหน่วยทั้งหมดกี่เท่า? ปัดเศษตัวประกอบเป็นจำนวนเต็มใกล้เคียงที่สุด",
+    "answer": [
+      [
+        "transaction services",
+        "9"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_009",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "open_ended_reasoning",
+    "question": "หัวข้อทั่วไปที่ปรากฏในชื่อของหน่วยรายงานสี่หน่วยที่มีค่า goodwill ต่ำสุดคืออะไร?",
+    "answer": [
+      [
+        "หน่วยสี่หน่วยที่มี goodwill ต่ำสุด (\"brokerage and asset management\", \"emea regional consumer banking\", \"transaction services\" และ \"latin america regional consumer banking\") ไม่มี \"north america\" หรือ \"asia\" ในชื่อ และแสดงถึงภูมิภาคที่ไม่ใช่สหรัฐอเมริกาหรือสายบริการเฉพาะที่ไม่ใช่ภูมิภาค"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A6",
+      "C6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_010",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "หน่วยธุรกิจ 'regional consumer banking' ทั้งสี่หน่วยใดมีมูลค่าความงามต่อจุดเปอร์เซ็นต์ของมูลค่าที่ยุติธรรมสูงสุด?",
+    "answer": [
+      [
+        "asia regional consumer banking"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_011",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "หน่วยรายงานใดมีค่า goodwill สูงสุดในทุกภูมิภาค?",
+    "answer": [
+      [
+        "Securities and Banking"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

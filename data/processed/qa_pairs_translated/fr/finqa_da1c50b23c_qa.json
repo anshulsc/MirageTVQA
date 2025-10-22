@@ -1,0 +1,232 @@
+[
+  {
+    "question_id": "finqa_da1c50b23c_001",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "Quel type d'unité a la valeur nominale remboursée la plus élevée et quelle est cette valeur ?",
+    "answer": [
+      [
+        "class b-2 preferred units",
+        "$ 55.8"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_002",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "Quel est le nombre total d'unités rachetées pour tous les types listés ?",
+    "answer": [
+      [
+        "2271818"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_003",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "Calculez la valeur nominale par unité individuelle pour le type impliquant une « contribution charitable ».",
+    "answer": [
+      [
+        "$10,007.17"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_004",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "Identifiez tous les types d'unités qui ont été rachetés exclusivement en espèces et pour lesquels plus de 2 500 unités ont été rachetées.",
+    "answer": [
+      [
+        "preferred a units"
+      ],
+      [
+        "class c downreit units"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A3",
+      "B3",
+      "D3",
+      "A5",
+      "B5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_005",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "Quel pourcentage de la valeur nominale totale rachetée est accounted for par l'ensemble des unités « class b » combinées ?",
+    "answer": [
+      [
+        "76.89%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_006",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "open_ended_reasoning",
+    "question": "Quel type d'unité est la valeur aberrante la plus significative en termes de valeur nominale par unité ? Justifiez votre réponse avec des valeurs calculées.",
+    "answer": [
+      [
+        "Les 'preferred a units' sont la valeur aberrante la plus significative. Sa valeur nominale par unité est de 1,00 $ (2,2 millions de $ / 2 200 000 unités), ce qui est des ordres de grandeur inférieur aux autres types. À titre de comparaison, la valeur nominale par unité pour les 'class a preferred units' est de 10 000 $ (20,0 millions de $ / 2 000 unités), et pour les 'class c downreit units' elle est d'environ 30,74 $ (1,9 million de $ / 61 804 unités). La valeur par unité extrêmement faible des 'preferred a units' en fait une valeur aberrante distincte."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_007",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "Si la valeur nominale rachetée pour « class a preferred units » avait été 10 % plus faible, quel aurait été le nouveau montant total de la valeur nominale rachetée pour toutes les unités (en millions) ?",
+    "answer": [
+      [
+        "$ 102.3"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_008",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "open_ended_reasoning",
+    "question": "Les données suggèrent-elles une corrélation entre un nombre élevé d'unités rachetées et une valeur nominale totale plus élevée ? Expliquez votre conclusion.",
+    "answer": [
+      [
+        "Non, les données ne suggèrent pas de corrélation claire. Bien que les « unités préférées B-2 » aient un nombre relativement élevé d'unités (5 576) et la plus haute valeur nominale (55,8 M $), le type d'unité avec le plus grand nombre d'unités, « unités préférées A » (2 200 000), a une valeur nominale faible (2,2 M $). À l'inverse, les « unités DownREIT de classe C » ont le deuxième plus grand nombre d'unités (61 804) mais la plus basse valeur nominale (1,9 M $). Cela indique que la valeur nominale par unité varie considérablement entre les types, perturbant toute corrélation simple entre la quantité d'unités et leur valeur totale."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_009",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "open_ended_reasoning",
+    "question": "Quelle colonne contient des données qui sont un composite de deux catégories distinctes, et quelle ligne illustre cela ?",
+    "answer": [
+      [
+        "La colonne « type de rachat » contient des données composite. La valeur « cash/charitable contribution » dans la ligne 4 illustre cela en combinant deux méthodes de rachat distinctes dans une seule cellule."
+      ]
+    ],
+    "evidence_cells": [
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_010",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "Quelle est la valeur nominale moyenne rachetée (en millions) pour les types d'unités contenant « preferred » dans leur nom ?",
+    "answer": [
+      [
+        "$ 25.6"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_011",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "open_ended_reasoning",
+    "question": "Quelle est la quantité totale de toutes les unités de type A combinées et quelle est la valeur de chaque unité en millions ?",
+    "answer": [
+      [
+        "La quantité totale des unités de type A est de 2 202 000 unités. La valeur nominale des unités préférées A est de 2,2 $ et la valeur nominale des unités préférées de classe A est de 20,0 $."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

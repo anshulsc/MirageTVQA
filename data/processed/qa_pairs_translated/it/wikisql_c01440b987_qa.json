@@ -1,0 +1,274 @@
+[
+  {
+    "question_id": "wikisql_c01440b987_001",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "Quale voivodato aveva la densità di popolazione più alta nel 1980, calcolata come popolazione divisa per l'area del 1998?",
+    "answer": [
+      [
+        "Warsaw Voivodeship"
+      ]
+    ],
+    "evidence_cells": [
+      "B20",
+      "D20",
+      "E20",
+      "B11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_c01440b987_002",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "Qual è il numero totale di comuni per tutte le province con una popolazione nel 1980 compresa tra 500.000 e 700.000?",
+    "answer": [
+      [
+        "243"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "G1",
+      "E6",
+      "G6",
+      "E7",
+      "G7",
+      "E21",
+      "G21",
+      "E22",
+      "G22"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_c01440b987_003",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "Qual è l'area in km² del voivodato che ha il maggior numero di comuni?",
+    "answer": [
+      [
+        "9 211"
+      ]
+    ],
+    "evidence_cells": [
+      "D13",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G10",
+      "G11",
+      "G12",
+      "G13",
+      "G14",
+      "G15",
+      "G16",
+      "G17",
+      "G18",
+      "G19",
+      "G20",
+      "G21",
+      "G22",
+      "G23"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_c01440b987_004",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "open_ended_reasoning",
+    "question": "Un voivodato ha nel nome un intervallo di date. Identifica questo voivodato e spiega la probabile significatività di queste date nel contesto di tutto il dataset.",
+    "answer": [
+      [
+        "Il voivodato è \"Białystok Voivodeship (1975-1998)\". L'inclusione di questo intervallo di date suggerisce fortemente che il dataset rappresenta le divisioni amministrative della Polonia così come esistevano durante questo periodo storico specifico, prima delle grandi riforme amministrative del 1999 che hanno istituito una nuova struttura di voivodati."
+      ]
+    ],
+    "evidence_cells": [
+      "B7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_c01440b987_005",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "Elencare i nomi di tutte le voivodatie che hanno meno di 10 città ma più di 40 comuni.",
+    "answer": [
+      [
+        "Tarnów Voivodeship"
+      ]
+    ],
+    "evidence_cells": [
+      "B21",
+      "F21",
+      "G21",
+      "B2",
+      "F2",
+      "G2",
+      "B5",
+      "F5",
+      "G5",
+      "B15",
+      "F15",
+      "G15",
+      "B18",
+      "F18",
+      "G18"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_c01440b987_006",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "Qual è stato il rapporto tra città e comuni nel Voivodeship di Poznań? Esprimi la risposta come una frazione semplificata.",
+    "answer": [
+      [
+        "11:19"
+      ]
+    ],
+    "evidence_cells": [
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_c01440b987_007",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "Se la popolazione del 1980 di ogni voivodato con un'area inferiore a 5.000 km² fosse stata del 5% inferiore, quale sarebbe stata la nuova popolazione totale per questo gruppo specifico?",
+    "answer": [
+      [
+        "6047985"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2",
+      "D5",
+      "E5",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D16",
+      "E16",
+      "D18",
+      "E18",
+      "D20",
+      "E20",
+      "D21",
+      "E21",
+      "D22",
+      "E22"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_c01440b987_008",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "open_ended_reasoning",
+    "question": "In base ai dati, esiste una relazione chiara tra la dimensione della popolazione di una voivodato e il numero di comuni? Spiega il tuo ragionamento con dati specifici.",
+    "answer": [
+      [
+        "Non esiste una correlazione chiara o forte tra la popolazione del 1980 di un voivodato e il numero di comuni. Ad esempio, il voivodato di Katowice ha la popolazione più alta di gran lunga (3.733.900) ma un numero moderato di comuni (46). Al contrario, il voivodato di Kielce ha il numero più alto di comuni (69) ma una popolazione significativamente più piccola (1.068.700). Analogamente, Varsavia, il secondo voivodato più popoloso (2.319.100), ha solo 32 comuni, che è tra i valori più bassi della tabella. Questa mancanza di un pattern coerente suggerisce che la dimensione della popolazione da sola non ha determinato il numero di comuni in questa struttura amministrativa."
+      ]
+    ],
+    "evidence_cells": [
+      "E11",
+      "G11",
+      "E13",
+      "G13",
+      "E20",
+      "G20"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_c01440b987_009",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "Quale colonna contiene codici brevi e unici adatti per essere utilizzati come chiave primaria per questo dataset?",
+    "answer": [
+      [
+        "Abbreviation"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "A15",
+      "A16",
+      "A17",
+      "A18",
+      "A19",
+      "A20",
+      "A21",
+      "A22",
+      "A23"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_c01440b987_010",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "Quale voivodeship è un valore anomalo per avere la densità più alta di città, definita come il numero di città per 1000 km² di area?",
+    "answer": [
+      [
+        "Wałbrzych Voivodeship"
+      ]
+    ],
+    "evidence_cells": [
+      "B16",
+      "D16",
+      "F16",
+      "B11",
+      "D11",
+      "F11",
+      "B20",
+      "D20",
+      "F20"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_c01440b987_011",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "open_ended_reasoning",
+    "question": "Qual è il pattern che si osserva tra il numero di città e la popolazione delle voivodatie?",
+    "answer": [
+      [
+        "Le voivodatie con più città hanno generalmente popolazioni più elevate, suggerendo che l'urbanizzazione è correlata alla dimensione della popolazione."
+      ]
+    ],
+    "evidence_cells": [
+      "F14",
+      "E14",
+      "F9",
+      "E9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  }
+]

@@ -1,0 +1,226 @@
+[
+  {
+    "question_id": "finqa_f76d5def2c_001",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "Berapakah total nilai kenaikan bruto dalam manfaat pajak yang tidak terakui yang tercatat pada tahun 2011?",
+    "answer": [
+      [
+        "44321"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_002",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "Berapakah selisih absolut jumlah penyelesaian dengan otoritas pajak antara tahun 2010 dan 2011?",
+    "answer": [
+      [
+        "41383"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_003",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "Apakah tingkat pengurangan total terhadap saldo manfaat pajak yang tidak diakui (akibat penurunan dari posisi pajak tahun sebelumnya, penyelesaian, dan berakhirnya masa berlaku ketentuan) mempercepat atau memperlambat dari tahun 2010 ke 2011?",
+    "answer": [
+      [
+        "Tingkat pengurangan memperlambat secara signifikan. Pada tahun 2010, total pengurangan dari ketiga kategori ini berjumlah $85.484 (7104 + 70484 + 7896), sedangkan pada tahun 2011, total pengurangan hanya $37.080 (4154 + 29101 + 3825), yang merupakan kurang dari setengah dari jumlah tahun sebelumnya."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_004",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "Hitung perubahan bersih atas manfaat pajak yang tidak diakui untuk tahun yang dimulai dengan saldo awal yang lebih tinggi.",
+    "answer": [
+      [
+        "-61115"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_005",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "Pada tahun 2010, berapa persen dari total pengurangan bruto (dari posisi tahun sebelumnya, penyelesaian, dan berakhirnya masa kedaluwarsa) yang disebabkan oleh penyelesaian dengan otoritas pajak? Berikan jawaban yang dibulatkan hingga dua tempat desimal.",
+    "answer": [
+      [
+        "82.45%"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_006",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "Daftarkan kategori peristiwa yang menyebabkan penurunan manfaat pajak yang tidak diakui lebih dari $5.000 dalam nilai absolut selama tahun 2010.",
+    "answer": [
+      [
+        "gross decreases in unrecognized tax benefits 2013 prior year tax positions"
+      ],
+      [
+        "settlements with taxing authorities"
+      ],
+      [
+        "lapse of statute of limitations"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A5",
+      "C5",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_007",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "Jika 'gross increases in unrecognized tax benefits 2013 current year tax positions' untuk tahun 2011 berkurang 50%, berapa saldo akhir baru untuk tahun 2011?",
+    "answer": [
+      [
+        "147397"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_008",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "Baris mana yang merupakan outlier paling signifikan dalam hal dampak moneter (nilai absolut) pada saldo dalam satu tahun, dan berapa nilainya?",
+    "answer": [
+      [
+        "Outlier paling signifikan adalah 'settlements with taxing authorities' pada tahun 2010, yang menyebabkan penurunan sebesar $70.484. Jumlah ini lebih dari dua kali lipat dari penyesuaian tunggal lainnya yang tercantum dalam kedua tahun."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_009",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan struktur tabel, apa hubungan antara saldo akhir tahun 2010 dan saldo awal tahun 2011?",
+    "answer": [
+      [
+        "Saldo akhir tahun 2010, yaitu $156.925, identik dengan saldo awal tahun 2011. Hal ini menunjukkan prinsip kontinuitas dalam akuntansi, di mana saldo penutup suatu periode berfungsi sebagai saldo pembuka untuk periode berikutnya."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_010",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "Analisis hubungan antara besarnya 'penyelesaian dengan otoritas perpajakan' dan perubahan bersih saldo untuk setiap tahun.",
+    "answer": [
+      [
+        "Terdapat hubungan yang kuat antara besarnya penyelesaian dan perubahan bersih keseluruhan. Pada tahun 2010, penyelesaian besar sebesar -$70,484 berkorelasi dengan penurunan signifikan dalam total saldo sebesar -$61,115. Sebaliknya, pada tahun 2011, penyelesaian yang jauh lebih kecil sebesar -$29,101 menjadi faktor dalam peningkatan bersih saldo sebesar $6,682. Hal ini menunjukkan bahwa penyelesaian merupakan pendorong utama pengurangan saldo manfaat pajak yang tidak diakui."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_011",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "Berapa persentase perubahan saldo akhir dari tahun 2010 ke tahun 2011?",
+    "answer": [
+      [
+        "Saldo akhir meningkat dari $156.925 pada tahun 2010 menjadi $163.607 pada tahun 2011, yang merupakan peningkatan sekitar 4,26%."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

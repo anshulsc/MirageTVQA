@@ -1,0 +1,216 @@
+[
+  {
+    "question_id": "finqa_d834af5a15_001",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "根據表格中2006年、2007年、2008年所展示的資料，限制性股票的總發行數量是多少？",
+    "answer": [
+      [
+        "5287752"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d834af5a15_002",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "哪個時期（2006、2007、或2008）被沒收股票的加權平均公允價值最高？",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "A8",
+      "C8",
+      "A12",
+      "C12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_003",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "open_ended_reasoning",
+    "question": "描述2005年12月31日到2008年12月31日間每年未歸屬限制性股票的數量趨勢。",
+    "answer": [
+      [
+        "未歸屬限制性股票的數量呈現持續但減緩的成長趨勢。從2005年底的3,488,668增加到2006年的3,579,189（增加90,521），再增加到2007年的3,821,707（增加242,518），最後到2008年的3,883,230（增加61,523）。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A5",
+      "B5",
+      "A9",
+      "B9",
+      "A13",
+      "B13"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_004",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "2007年，新發行股票中，已歸屬並發行與沒收股票的總和佔了多少百分比？",
+    "answer": [
+      [
+        "86.66%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d834af5a15_005",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "什麼年份的授予股票公平價值，當已歸屬並發行股票數目首次超過130萬？",
+    "answer": [
+      [
+        "$ 56.45"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A7",
+      "B7",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_006",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "open_ended_reasoning",
+    "question": "驗算2008年12月31日未歸屬限制性股票餘額，根據2007年末餘額及後續年度活動計算。",
+    "answer": [
+      [
+        "計算正確。以2007年末餘額3,821,707為起點，加上發行1,836,532股，再減去歸屬並發行1,403,826股及註銷371,183股，結果為3,883,230股，與2008年12月31日報告的未歸屬股票數字相符。"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_007",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "假使2006年發行股票的加權平均公平價值高5%，總值會約是幾多？（總值 = 股票數量 × 公平價值）",
+    "answer": [
+      [
+        "$ 95,781,586.20"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_008",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "open_ended_reasoning",
+    "question": "有無一個一致的關係，介於每年發放的股票數目同每年註銷的股票數目？",
+    "answer": [
+      [
+        "依數據，無清楚或一致的關係。2006年，發放1,632,504股，註銷360,734股。2007年，發放增加至1,818,716股，註銷減少至230,786股。2008年，發放仍高至1,836,532股，註銷顯著增加至371,183股。註銷數目波動，無直接關聯到同年發放數目。"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B6",
+      "B8",
+      "B10",
+      "B12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d834af5a15_009",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "哪個交易（「granted」、「vested and issued」或「forfeited」）在所列所有年份中平均授予日公平價值最高？",
+    "answer": [
+      [
+        "granted"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C6",
+      "C7",
+      "C8",
+      "C10",
+      "C11",
+      "C12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d834af5a15_010",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "open_ended_reasoning",
+    "question": "表格中以「unvested restricted stock december 31」開頭的行有什麼結構性用途？",
+    "answer": [
+      [
+        "這些行在財務對賬聲明中作為定期餘額或檢查點。每個「unvested restricted stock」行提供特定年份結束時的累計總數，後續的行（「granted」、「vested」、「forfeited」）詳細說明修改此餘額以得出下一年末總數的活動。它們為每個期間的活動分析提供起點和終點。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A9",
+      "A13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_011",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "2005到2008年間總共發行了多少受限股票？",
+    "answer": [
+      [
+        "5,287,752"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A6",
+      "A10",
+      "B2",
+      "B6",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

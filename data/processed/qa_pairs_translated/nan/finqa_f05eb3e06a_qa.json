@@ -1,0 +1,288 @@
+[
+  {
+    "question_id": "finqa_f05eb3e06a_001",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "哪個位置面積最小，不包含'other*'？",
+    "answer": [
+      [
+        "eindhoven the netherlands"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_002",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "所有包含「製造」在營運中的地點，總共約多少平方英尺？",
+    "answer": [
+      [
+        "2559000"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_003",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "找出面積第三大的位置的最晚租約到期日",
+    "answer": [
+      [
+        "2025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A4",
+      "B4",
+      "D4",
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6",
+      "A7",
+      "B7",
+      "D7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_004",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "哪個地點的租約到期日範圍最廣？",
+    "answer": [
+      [
+        "cambridge united kingdom"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A7",
+      "D7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_005",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "列出有「r&d」和「distribution」操作，並且租約到期日在2030年之後的所在位置。",
+    "answer": [
+      [
+        "san diego ca"
+      ],
+      [
+        "madison wi"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A3",
+      "C3",
+      "D3",
+      "A5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_006",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "總平方英尺中，不執行「r&d」作業的地點佔多少百分比？",
+    "answer": [
+      [
+        "4.76%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_007",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "如果2013年到期的所有租約都不續約，導致每個受影響地點的平方英尺減少20%，那麼所有場地的新總平方英尺是多少？",
+    "answer": [
+      [
+        "2158000"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B4",
+      "D4",
+      "B5",
+      "D5",
+      "B6",
+      "D6",
+      "B7",
+      "D7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_008",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "open_ended_reasoning",
+    "question": "有無看出地理位置區域（美國vs.國際）和其運作特性的明顯模式？",
+    "answer": [
+      [
+        "有，有個模式。美國地點（聖地牙哥、舊金山、麥迪遜）都是大規模場地，始終包含「r&d」、「製造」和「行政」功能。國際地點則顯示更多樣化的特徵。雖然新加坡和劍橋也和美國地點一樣是主要的研發與製造中心，但艾因德霍芬僅僅是一個較小的分銷和行政中心，顯示國際組合包含更多專業化、小面積的設施，相較於美國的綜合型樞紐。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_009",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "open_ended_reasoning",
+    "question": "哪個欄位的資料結構在各列中不一致，有些儲存格只有一個值，其他則是空格分隔的值清單？",
+    "answer": [
+      [
+        "\"leaseexpiration dates\" 欄位顯示資料結構不一致。例如，\"eindhoven the netherlands\" 的條目只有一個年份（\"2020\"），而 \"san diego ca\" 的條目則有三個不同年份的清單（\"2019 2013 2031\"）。這需要條件邏輯來正確解析。"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_010",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "open_ended_reasoning",
+    "question": "哪個地點的運作範圍是跟其他大小相似或更大的地點相比的異常值？",
+    "answer": [
+      [
+        "San Francisco Bay Area, CA 是一個運作異常值。雖然它是第二大的設施，面積501,000平方英尺，但其列出的運作（'r&d manufacturing warehouse and administrative'）明顯缺少'distribution'功能。其他所有大規模製造地點，例如 San Diego、Singapore 和 Madison，都明確包含'distribution'，使得 San Francisco 的配置對於其規模和製造能力來說不尋常。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_011",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "幾間樓房有至少300,000平方英尺？",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

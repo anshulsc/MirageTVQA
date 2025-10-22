@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_e33c420d31_001",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "除去「債務義務」和「長期債務利息付款」外，哪項合約義務在「3-5年」期間應付金額最大？",
+    "answer": [
+      [
+        "fuel obligations"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_002",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "所有備註參考為「11」的義務總和是多少？",
+    "answer": [
+      [
+        "$ 16297"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "H3",
+      "B4",
+      "H4",
+      "B5",
+      "H5",
+      "B6",
+      "H6",
+      "B7",
+      "H7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_e33c420d31_003",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "1-3年內總義務中，單一義務價值最高者佔多少百分比？",
+    "answer": [
+      [
+        "27.04%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "D1",
+      "D9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_004",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "對於「長期債務利息支付」，分析四個時間區間的支付趨勢，判斷債務是前端負擔還是後端負擔。",
+    "answer": [
+      [
+        "「長期債務利息支付」的支付金額為$1,172（<1年），$2,166（1-3年），$1,719（3-5年），和$4,046（>5年）。該債務明顯是後端負擔，因為支付金額隨時間上升，最大單筆支付發生在「超過5年」區間。超過63%的總利息支付將在3年後到期。"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_005",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "列出「少於1年」應付款大於「3-5年」應付款的合約義務項目",
+    "answer": [
+      [
+        "fuel obligations"
+      ],
+      [
+        "other purchase obligations"
+      ],
+      [
+        "other long-term liabilities reflected on aes' consolidated balance sheet under gaap ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "E6",
+      "A7",
+      "C7",
+      "E7",
+      "A8",
+      "C8",
+      "E8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_006",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "根據最後一列總計，短期義務（一年內到期）與長期義務（五年以上到期）的比例是多少？",
+    "answer": [
+      [
+        "Approximately 1:2.81"
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "F9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_e33c420d31_007",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "如果新政策要求所有「operating lease obligations」在「more than 5 years」到期的改為在「3-5 years」期間支付，則「3-5 years」欄位的新總額是多少？",
+    "answer": [
+      [
+        "$ 10283"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_008",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "有無明顯關聯在能源義務種類（燃料vs電力）與其付款時間表？",
+    "answer": [
+      [
+        "有，有清楚關聯。\"燃料義務\"是前重，最大付款（$1,759）在\"少於1年\"到期，暗示短期合約。相反，\"電力義務\"是後重，最大付款（$2,065）在\"超過5年\"到期，可能反映長期購電協議。這顯示能源來源性質與財務承諾持續時間有關。"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_e33c420d31_009",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "依最後一列各付款期的總數，哪個時段有最大的財務承諾？這意味著公司的負債結構是啥樣？",
+    "answer": [
+      [
+        "\"more than 5 years\" 期的承諾最大，有 $20,544。這意味著公司的負債結構主要是長期的，有相當一部分財務義務要到遠期才支付，暗示長期融資策略或大型資本項目。"
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "D9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_010",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "「其他長期負債」這一行在「少於一年」欄位中的數值看起來是異常值。請找出這個數值並解釋為何不一致。",
+    "answer": [
+      [
+        "異常值是「少於一年」欄位中的「$ 2014」。這是不一致的，因為這個單一短期支付金額遠大於該項負債總計的「$ 701」，這在邏輯上是不可能的，很可能是一個數據錯誤。"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_e33c420d31_011",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "總共燃料義務是幾百萬？",
+    "answer": [
+      [
+        "$5859"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,216 @@
+[
+  {
+    "question_id": "finqa_d834af5a15_001",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "Berapa jumlah total saham terbatas yang diberikan pada semua tahun yang ditunjukkan dalam tabel (2006, 2007, dan 2008)?",
+    "answer": [
+      [
+        "5287752"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d834af5a15_002",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "Pada periode mana (2006, 2007, atau 2008) nilai rata-rata tertimbang yang adil dari saham yang dibatalkan adalah tertinggi?",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "A8",
+      "C8",
+      "A12",
+      "C12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_003",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "open_ended_reasoning",
+    "question": "Jelaskan tren jumlah saham terbatas yang belum vesting pada akhir setiap tahun dari 31 Desember 2005 hingga 31 Desember 2008.",
+    "answer": [
+      [
+        "Jumlah saham terbatas yang belum vesting menunjukkan pertumbuhan konsisten, meskipun melambat, dari tahun ke tahun. Jumlahnya meningkat dari 3.488.668 pada akhir tahun 2005 menjadi 3.579.189 pada tahun 2006 (pertumbuhan sebesar 90.521), kemudian menjadi 3.821.707 pada tahun 2007 (pertumbuhan sebesar 242.518), dan akhirnya menjadi 3.883.230 pada tahun 2008 (pertumbuhan sebesar 61.523)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A5",
+      "B5",
+      "A9",
+      "B9",
+      "A13",
+      "B13"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_004",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "Pada tahun 2007, berapa persen saham yang diberikan baru yang diimbangi oleh total gabungan saham yang telah vesting dan yang dibatalkan?",
+    "answer": [
+      [
+        "86.66%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d834af5a15_005",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "Berapakah nilai wajar saham yang diberikan pada tahun di mana jumlah saham terbatas yang telah vesting dan dikeluarkan pertama kali melebihi 1,3 juta?",
+    "answer": [
+      [
+        "$ 56.45"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A7",
+      "B7",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_006",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "open_ended_reasoning",
+    "question": "Verifikasi saldo saham terbatas yang belum jatuh tempo untuk tanggal 31 Desember 2008 dengan menghitungnya dari saldo akhir tahun 2007 dan aktivitas tahun berikutnya.",
+    "answer": [
+      [
+        "Perhitungan ini benar. Dimulai dari saldo akhir tahun 2007 sebesar 3.821.707, menambahkan saham yang diberikan sebanyak 1.836.532, dan mengurangi saham yang telah jatuh tempo dan dikeluarkan sebanyak 1.403.826 serta saham yang dibatalkan sebanyak 371.183 menghasilkan saldo akhir sebesar 3.883.230, yang sesuai dengan jumlah saham terbatas yang belum jatuh tempo yang dilaporkan untuk tanggal 31 Desember 2008."
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_007",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "Jika nilai wajar rata-rata untuk saham yang diberikan pada tahun 2006 5% lebih tinggi, berapa nilai totalnya yang kira-kira? (Nilai Total = jumlah saham * nilai wajar)",
+    "answer": [
+      [
+        "$ 95,781,586.20"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_008",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "open_ended_reasoning",
+    "question": "Apakah terdapat hubungan yang konsisten antara jumlah saham yang diberikan dalam suatu tahun dengan jumlah saham yang dibatalkan pada tahun yang sama?",
+    "answer": [
+      [
+        "Berdasarkan data, tidak terdapat hubungan yang jelas atau konsisten. Pada tahun 2006, 1.632.504 saham diberikan dan 360.734 saham dibatalkan. Pada tahun 2007, pemberian saham meningkat menjadi 1.818.716 sedangkan pembatalan saham menurun menjadi 230.786. Pada tahun 2008, pemberian saham tetap tinggi di angka 1.836.532 sedangkan pembatalan saham meningkat signifikan menjadi 371.183. Jumlah saham yang dibatalkan berfluktuasi tanpa korelasi langsung dengan jumlah pemberian saham pada periode yang sama."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B6",
+      "B8",
+      "B10",
+      "B12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d834af5a15_009",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "Transaksi mana ('granted', 'vested and issued', atau 'forfeited') yang memiliki nilai wajar rata-rata tanggal pemberian tertinggi di seluruh tahun yang tercantum?",
+    "answer": [
+      [
+        "granted"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C6",
+      "C7",
+      "C8",
+      "C10",
+      "C11",
+      "C12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d834af5a15_010",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "open_ended_reasoning",
+    "question": "Apa tujuan struktural dari baris-baris yang diawali dengan 'unvested restricted stock december 31' dalam tabel tersebut?",
+    "answer": [
+      [
+        "Baris-baris ini berfungsi sebagai saldo periodik atau titik pemeriksaan dalam pernyataan rekonkiliasi keuangan. Setiap baris 'unvested restricted stock' memberikan total kumulatif pada akhir tahun tertentu, dan baris-baris selanjutnya ('granted', 'vested', 'forfeited') merinci aktivitas yang memodifikasi saldo ini untuk mencapai total akhir tahun berikutnya. Mereka memberikan titik awal dan akhir untuk analisis aktivitas setiap periode."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A9",
+      "A13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_011",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "Berapa jumlah total saham terbatas yang diberikan dari tahun 2005 hingga 2008?",
+    "answer": [
+      [
+        "5,287,752"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A6",
+      "A10",
+      "B2",
+      "B6",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

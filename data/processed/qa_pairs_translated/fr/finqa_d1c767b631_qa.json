@@ -1,0 +1,198 @@
+[
+  {
+    "question_id": "finqa_d1c767b631_001",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "En quelle année l'utilisation de cash pour « net cash used in investing activities » était-elle la plus prononcée ?",
+    "answer": [
+      [
+        "2018"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c767b631_002",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "Quel était le total du « net cash provided by operating activities » sur les trois années indiquées dans le tableau ?",
+    "answer": [
+      [
+        "$ 1959.7"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d1c767b631_003",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "Identifiez l'année où l'entreprise a financé ses activités principalement par ses activités opérationnelles, comme indiqué par un flux de trésorerie positif provenant des activités opérationnelles et des flux de trésorerie négatifs provenant à la fois des activités d'investissement et de financement.",
+    "answer": [
+      [
+        "2016"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "B6",
+      "C4",
+      "C5",
+      "C6",
+      "D4",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c767b631_004",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "open_ended_reasoning",
+    "question": "Décrivez la tendance générale des activités de financement de l'entreprise de 2016 à 2018.",
+    "answer": [
+      [
+        "L'activité de financement de l'entreprise montre un changement dramatique au cours de la période. En 2016 et 2017, il y a eu une utilisation significative de trésorerie pour le financement, avec des sorties de 666,4 millions et 1004,9 millions de dollars respectivement, suggérant des activités comme le remboursement de dettes ou des rachats d'actions. Cette tendance s'est complètement inversée en 2018, avec un afflux massif de 1853,2 millions de dollars provenant des activités de financement, indiquant que l'entreprise a probablement levé des capitaux importants par le biais d'une dette ou d'une émission d'actions."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c767b631_005",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "Listez les années où le revenu net était supérieur à 1000 $ et où l'entreprise a connu un flux de trésorerie net sortant lié au fonds de roulement.",
+    "answer": [
+      [
+        "2018",
+        "2016"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c767b631_006",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "En 2017, quel pourcentage du « net cash provided by operating activities » provenait de l'élément « net income adjusted... » ?",
+    "answer": [
+      [
+        "96.63%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d1c767b631_007",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "Si les « modifications d'autres actifs non courants et passifs » pour 2016 avaient été de zéro au lieu de -95,5 $, quel aurait été le « flux de trésorerie net fourni par les activités opérationnelles » pour cette année ?",
+    "answer": [
+      [
+        "$ 608.3"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c767b631_008",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "open_ended_reasoning",
+    "question": "Quelle est la relation apparente entre « net cash used in investing activities » et « net cash provided by (used in) financing activities » en 2018, et que cela implique-t-il sur la stratégie de l'entreprise cette année-là ?",
+    "answer": [
+      [
+        "En 2018, il y a une relation inverse forte entre les flux de trésorerie d'investissement et de financement. L'entreprise a enregistré un important flux de trésorerie sortant pour l'investissement de 2491,5 $, largement financé par un important flux de trésorerie entrant issu du financement de 1853,2 $. Cela suggère une initiative stratégique majeure, comme une acquisition importante ou des dépenses de capital significatives, principalement financée par la levée de nouveaux capitaux plutôt que par le flux de trésorerie opérationnel."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d1c767b631_009",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "Quel chiffre spécifique de flux de trésorerie pour 2018 représente la plus grande valeur aberrante en termes absolus lorsqu'il est comparé aux chiffres correspondants des deux années précédentes (2016 et 2017) ?",
+    "answer": [
+      [
+        "net cash used in investing activities"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d1c767b631_010",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "open_ended_reasoning",
+    "question": "Le tableau inclut des valeurs comme '-431,1 ( 431,1 )'. Sur la base de la sommation qui aboutit à 'net cash provided by operating activities', que signifie ce style notational en reporting financier ?",
+    "answer": [
+      [
+        "Cette notation est une pratique comptable standard pour représenter les nombres négatifs ou les sorties de trésorerie. Le signe négatif initial indique la valeur à utiliser dans les calculs, tandis que le nombre entre parenthèses représente la valeur absolue de la sortie de trésorerie, souvent utilisé pour plus de clarté dans la présentation. La justesse du total 'net cash provided by operating activities' confirme que ces chiffres entre parenthèses représentent des valeurs qui sont soustraites."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c767b631_011",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "Quel est le montant du cash flow net fourni par les activités opérationnelles au 31 décembre 2017 ?",
+    "answer": [
+      [
+        "$881.8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

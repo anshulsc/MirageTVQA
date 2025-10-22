@@ -1,0 +1,249 @@
+[
+  {
+    "question_id": "finqa_d4ff6b23c2_001",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Vypočítejte celkovou čistou změnu neuznaných daňových závazků za rok 2016 na základě transakčních aktivit uvedených mezi počátečním a koncovým zůstatkem.",
+    "answer": [
+      [
+        "64"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_002",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Které položky představují menší absolutní finanční změnu v roce 2017 oproti odpovídající změně v roce 2016?",
+    "answer": [
+      [
+        "additions for tax positions related to prior years"
+      ],
+      [
+        "reductions for tax positions related to prior years"
+      ],
+      [
+        "reductions for settlements2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_003",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Jaký procentuální podíl 'zůstatku k 31. prosinci 2017' by neměl vliv na efektivní daňovou sazbu při uznání?",
+    "answer": [
+      [
+        "5.99%"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_004",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Jaký byl rozdíl mezi součtem všech snížení v roce 2017 a součtem všech snížení v roce 2016, ignorující nestandardní hodnotu v položce 'snížení pro vypršení lhůty pro zastaralost' pro rok 2017?",
+    "answer": [
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_005",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Pokud by 'přírůstky pro daňové pozice související s předchozími roky' v roce 2017 odpovídaly částce z roku 2016, jaká by byla upravená 'zůstatek k 31. prosinci 2017'?",
+    "answer": [
+      [
+        "$ 1321"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_006",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Identifikujte jedinou položku z roku 2017, která byla nejvýznamnějším odchylkou z hlediska finanční velikosti ve srovnání se všemi ostatními přidánkami a sníženími za oba roky.",
+    "answer": [
+      [
+        "additions for tax positions related to current year"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_007",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Na základě vyrovnaní je 'balance at december 31, 2017' vypočteno z počátečního zůstatku plus následných přírůstků a snížení. Která buňka ve sloupci 2017 obsahuje hodnotu, která není v souladu s tímto výpočtem a zdá se být nadbytečná?",
+    "answer": [
+      [
+        "B6"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_008",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Vypište všechny aktivity v roce 2017, jak přírůstky, tak snížení, které měly absolutní hodnotu vyšší než 15 milionů dolarů.",
+    "answer": [
+      [
+        "additions for tax positions related to current year"
+      ],
+      [
+        "additions for tax positions related to prior years"
+      ],
+      [
+        "reductions for tax positions related to prior years"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_009",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "Proveďte analýzu změny celkového zůstatku od konce roku 2016 do konce roku 2017. Jaké byly hlavní faktory této změny?",
+    "answer": [
+      [
+        "Celkový zůstatek neuznaných daňových výhod se zvýšil o 254 miliony dolarů, od 1032 milionů dolarů na konci roku 2016 na 1286 milionů dolarů na konci roku 2017. Hlavním faktorem tohoto zvýšení byly '270 milionů dolarů' přidaných pro daňové pozice související s aktuálním rokem v roce 2017, které byly výrazně větší než jakákoliv jiná jednotlivá přidaná nebo snížená položka v obou letech. Přestože byly snížení celkem 36 milionů dolarů v roce 2017, nebyly dostatečná k vyrovnání těchto velkých přidaných položek."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_010",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "Existují důkazy významné změny v složení neuznaných daňových výhod mezi roky 2016 a 2017 na základě podílu zůstatku na konci roku, který by ovlivnil efektivní daňovou sazbu?",
+    "answer": [
+      [
+        "Neexistují důkazy významné změny v složení. V roce 2016 byla část, která by ovlivnila efektivní daňovou sazbu, 963 milionů dolarů z celkového zůstatku 1032 milionů dolarů, což je 93,3 %. V roce 2017 byla tato část 1209 milionů dolarů z celkového zůstatku 1286 milionů dolarů, což je 94,0 %. Podíl zůstal velmi stabilní, což naznačuje konzistentní složení podkladových daňových pozic z roku na rok, navzdory celkovému zvýšení zůstatku."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_011",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "Jak se změnil celkový zůstatek daňových pozic mezi lety 2016 a 2017 a jaké faktory přispěly k této změně?",
+    "answer": [
+      [
+        "Celkový zůstatek daňových pozic vzrostl z 1 032 milionů dolarů v roce 2016 na 1 286 milionů dolarů v roce 2017. Zvýšení bylo hlavně způsobeno přírůstky z daňových pozic souvisejících s aktuálním rokem (+270 milionů dolarů) a předchozími roky (+20 milionů dolarů), částečně kompenzované sníženími pro pozice předchozích let (-27 milionů dolarů) a usazeními (-9 milionů dolarů)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

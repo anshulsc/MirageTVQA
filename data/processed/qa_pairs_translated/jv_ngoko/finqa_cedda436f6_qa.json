@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "finqa_cedda436f6_001",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Pira taun iku 'income from operations before income tax' paling tuwa?",
+    "answer": [
+      [
+        "2013"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_002",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Pira total biaya pajak penghasilan (dalam juta dolar) ing sakabehing taun sing ditampilake ing tabel iki?",
+    "answer": [
+      [
+        "238"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cedda436f6_003",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Pira dene net sales sing paling ender kanggo taun iku, piye iku net income saka discontinued operations (attributable to ppg) dina jutaan dolar?",
+    "answer": [
+      [
+        "2197"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_004",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "Apa watesan saka 'net sales' saka taun-ended 2011 nganti 2013?",
+    "answer": [
+      [
+        "Net sales nglakoni penurunan sedhiket saka $1732 juta ing 2011 nganti $1688 juta ing 2012, terus dadi susut gedhe banget dadi $108 juta ing 2013. Iki nandhakake trend negatif sing gedhe, khususé ing taun pungkasan saka periode iki."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_005",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Apa wong sing metu metu nganggo dana sing luwih gedhe saka jumlah dana taun 2012 lan 2011?",
+    "answer": [
+      [
+        "income from operations before income tax"
+      ],
+      [
+        "income from discontinued operations net of tax"
+      ],
+      [
+        "net income from discontinued operations ( attributable to ppg )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "A7",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_006",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Pirang persen naik 'net income from discontinued operations ( attributable to ppg )' saka taun 2012 menyang 2013?",
+    "answer": [
+      [
+        "921.9%"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cedda436f6_007",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Yen 'net gain saka pisah lan gabung' ing 2013 koyo 25% luwih cilik, lan pengurangan iki langsung ngurangi 'income saka operasi karo pajak', menawa income saka operasi anyar pira ta taun iku?",
+    "answer": [
+      [
+        "1466"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_008",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan data, analisis hubungan antara 'net sales' karo 'income from operations before income tax' nang tiga taun iki. Ana korelasi sing konsisten?",
+    "answer": [
+      [
+        "Ora ana korelasi sing konsisten. Nang taun 2011 menyang 2012, metrik-metrik iki nampilke korelasi positif, amarga sawetara penurunan penjualan (saka $1732M menyang $1688M) padha karo penurunan income (saka $376M menyang $345M). Nanging, hubungan iki malah berbalik tajam nang taun 2013, di mana penurunan gedhe ing net sales nang $108M diiringi karo lonjakan income nang $2014M. Iki nandhakake yen nang taun 2013, income kasebut ditindakake dening faktor liya selain penjualan inti, kaya 'net gain from separation and merger of commodity chemicals business'."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cedda436f6_009",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Apa metrik keuangan sing nemu nilai '$ 2014' milyar ing sawijining taun lan '2014' milyar ing loro taun liyane, nyatake ketidakkonsistenan format data kanggo nilai numerik sing padha?",
+    "answer": [
+      [
+        "less : net income attributable to non-controlling interests discontinued operations"
+      ],
+      [
+        "net gain from separation and merger of commodity chemicals business"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "A6",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_010",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "Apa sing dadi item paling penting ing taun 2013 yen dibandhingake karo nilai nol utawa hampir nol ing taun liyane, lan piye pengarune marang 'income from operations' taun iku?",
+    "answer": [
+      [
+        "'Net gain from separation and merger of commodity chemicals business' karo nilai 2192 milyar ing 2013 iku paling penting. Kegiyatan siji iki ngluwihi 'income from operations before income tax' $2014 milyar ing taun sing same, sing dadi outlier sing gedhe banget dibandhingake karo $345M lan $376M sing dilaporake ing 2012 lan 2011."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cedda436f6_011",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Apa iku biaya pajak penghasilan sasi akhir 2011?",
+    "answer": [
+      [
+        "126"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

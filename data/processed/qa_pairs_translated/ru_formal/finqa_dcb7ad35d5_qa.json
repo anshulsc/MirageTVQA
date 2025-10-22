@@ -1,0 +1,219 @@
+[
+  {
+    "question_id": "finqa_dcb7ad35d5_001",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "Какой тип обязательств, исключая долгосрочные долги, имеет наибольшую общую сумму платежей?",
+    "answer": [
+      [
+        "purchase obligations and other ( 4 ) ( 5 ) ( 6 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_002",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "Каковы общие обязательства, подлежащие оплате до финансового года 2023?",
+    "answer": [
+      [
+        "3935.9"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_003",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "Каков общий объем платежей, подлежащих уплате в периоды 2021-2022 и 2023-2024 для типа обязательства, имеющего наименьший платеж в фискальном 2020 году?",
+    "answer": [
+      [
+        "11.6"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "A3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_004",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "Опишите тенденцию общих обязательств по платежам компании за определенные финансовые периоды, ведущие к категории «после этого».",
+    "answer": [
+      [
+        "Общие обязательства по платежам демонстрируют колеблющуюся тенденцию. Они начинаются с 2378,5 млн долларов в финансовом году 2020, затем снижаются до 1557,4 млн долларов за период 2021-2022, прежде чем значительно достигнуть пика в 2897,5 млн долларов в периоде 2023-2024. Это указывает на спад краткосрочных обязательств, за которым следует значительный рост среднесрочных обязательств."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_005",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "Перечислите все категории обязательств, для которых платежи, подлежащие уплате «после», превышают сумму всех платежей, подлежащих уплате с 2020 по 2024 год.",
+    "answer": [
+      [
+        "long-term debt including current portionexcluding capital lease obligations ( 1 )"
+      ],
+      [
+        "capital lease obligations ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "A3",
+      "C3",
+      "D3",
+      "E3",
+      "F3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_006",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "Какой процент от общих платежей, подлежащих уплате в фискальном 2020 году, приходится на «обязательства по закупкам и прочее»?",
+    "answer": [
+      [
+        "67.56%"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_007",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "Если все обязательства по операционным лизингам, подлежащие оплате в фискальном 2021 и 2022 годах, были отложены и добавлены к периоду «после», каким будет новый итог для периода «после»?",
+    "answer": [
+      [
+        "6589.9"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "F5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_008",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "На основании графиков платежей, что можно сказать о структуре погашения «долгосрочных обязательств» по сравнению с «обязательствами по закупкам»?",
+    "answer": [
+      [
+        "Профили погашения резко отличаются. «Долгосрочные обязательства» имеют сильную задержку, причем большая часть платежей ($5729.2M из $9714.1M) приходится на период «после», что указывает на долгосрочные финансовые инструменты. Напротив, «обязательства по закупкам» имеют сильную нагрузку в начале, причем подавляющая часть платежей ($1607.0M из $2293.5M) приходится на текущий финансовый год 2020, что характерно для краткосрочных операционных обязательств."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_009",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "Какая отдельная сумма выплат для «обязательств по капитальному лизингу» является выбросом и составляет почти 90% от общей суммы обязательств?",
+    "answer": [
+      [
+        "$ 150.9"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_010",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "Проверьте, путем ручного суммирования значений в столбце «Payments due by period fiscal 2023and 2024» для каждой отдельной обязательства, соответствует ли предоставленная общая сумма в ячейке E5.",
+    "answer": [
+      [
+        "Да, предоставленная общая сумма верна. Сумма отдельных обязательств за фискальный период 2023 и 2024 годов составляет $2494.3 + $193.6 + $2.9 + $206.7, что равно $2897.5, что соответствует значению в ячейке E5."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_011",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "В каком периоде обязательства по операционным лизингам наибольшие?",
+    "answer": [
+      [
+        "Финансовый 2021 и 2022 годы, с обязательствами в размере 316,4 млн долларов"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

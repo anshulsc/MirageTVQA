@@ -1,0 +1,198 @@
+[
+  {
+    "question_id": "finqa_d1c767b631_001",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "哪一年「net cash used in investing activities」的現金使用最顯著？",
+    "answer": [
+      [
+        "2018"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c767b631_002",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "表格中顯示的三年「營業活動淨現金流入」總和是多少？",
+    "answer": [
+      [
+        "$ 1959.7"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d1c767b631_003",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "找出公司主要透過營運融資的年度，即營運現金流為正，且投資和融資活動現金流皆為負的年份。",
+    "answer": [
+      [
+        "2016"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "B6",
+      "C4",
+      "C5",
+      "C6",
+      "D4",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c767b631_004",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "open_ended_reasoning",
+    "question": "描述公司從2016年到2018年的融資活動總體趨勢。",
+    "answer": [
+      [
+        "公司融資活動在這段期間有顯著的轉變。2016年和2017年，融資活動有大量現金流出，分別為666.4和1004.9，顯示可能進行債務償還或股票回購等活動。2018年則完全逆轉，融資活動帶來1853.2的現金流入，表明公司很可能透過債務或股權發行籌集大量資金。"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c767b631_005",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "列出淨利高於1000萬且公司營運資金現金流出的年份。",
+    "answer": [
+      [
+        "2018",
+        "2016"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c767b631_006",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "2017年，「net income adjusted to reconcile to net cash provided by operating activities1」這項占「net cash provided by operating activities」的百分比是多少？",
+    "answer": [
+      [
+        "96.63%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d1c767b631_007",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "如果2016年「其他非流動資產及負債變動」是零而非-$95.5，那一年「營運活動提供之現金淨額」會是多少？",
+    "answer": [
+      [
+        "$ 608.3"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c767b631_008",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "open_ended_reasoning",
+    "question": "2018年「投資活動淨現金使用」同「融資活動淨現金提供（使用）」之間有乜嘢明顯嘅關係，呢個關係反映公司當年有乜嘢策略？",
+    "answer": [
+      [
+        "2018年，投資同融資現金流有強烈嘅反向關係。公司用咗$2491.5大筆現金做投資，呢筆錢主要由融資活動流入嘅$1853.2支持。呢個反映公司有重大策略行動，例如大收購或者重大資本開支，而呢啲主要係靠籌集新資金，唔係用營運現金流支付。"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d1c767b631_009",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "2018年哪個現金流量項目與前兩年（2016年和2017年）相較，絕對值最大異常值？",
+    "answer": [
+      [
+        "net cash used in investing activities"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d1c767b631_010",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "open_ended_reasoning",
+    "question": "表格中有像'-431.1 ( 431.1 )'嘅數值。根據計算出「營業活動淨現金流入」嘅總和，呢種表示方法喺財務報告中表示乜嘢意思？",
+    "answer": [
+      [
+        "呢種表示法係會計上嘅標準做法，用嚟表示負數或現金流出。前置嘅負號表示計算時要用嘅數值，而括號內嘅數字則代表現金流出嘅絕對值，通常用嚟提升顯示嘅清晰度。「營業活動淨現金流入」總數嘅正確性確認咗呢啲括號內嘅數值係用嚟減去嘅數值。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c767b631_011",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "12月31日2017年終營業活動現金淨流入多少？",
+    "answer": [
+      [
+        "$881.8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

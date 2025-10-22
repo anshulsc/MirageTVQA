@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "finqa_cedda436f6_001",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Pada tahun berapa 'income from operations before income tax' mencapai nilai tertinggi?",
+    "answer": [
+      [
+        "2013"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_002",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Berapa total biaya pajak penghasilan dalam jutaan dolar untuk ketiga tahun yang ditunjukkan dalam tabel?",
+    "answer": [
+      [
+        "238"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cedda436f6_003",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Pada tahun dengan penjualan bersih terendah, berapa nilai 'pendapatan dari operasi yang dihentikan (yang dapat diatribusikan kepada PPG)' dalam jutaan dolar?",
+    "answer": [
+      [
+        "2197"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_004",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "Jelaskan tren 'net sales' dari tahun berakhir 2011 hingga 2013.",
+    "answer": [
+      [
+        "Net sales menunjukkan penurunan ringan dari $1732 juta pada tahun 2011 menjadi $1688 juta pada tahun 2012, diikuti oleh penurunan drastis menjadi $108 juta pada tahun 2013. Hal ini menunjukkan tren negatif yang signifikan, terutama pada tahun terakhir periode tersebut."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_005",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Sebutkan semua metrik keuangan untuk mana nilai pada tahun 2013 melebihi total gabungan nilai dari tahun 2012 dan 2011.",
+    "answer": [
+      [
+        "income from operations before income tax"
+      ],
+      [
+        "income from discontinued operations net of tax"
+      ],
+      [
+        "net income from discontinued operations ( attributable to ppg )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "A7",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_006",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Dengan persentase berapa 'net income dari operasi yang dihentikan ( attributable to ppg )' meningkat dari tahun 2012 ke 2013?",
+    "answer": [
+      [
+        "921.9%"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cedda436f6_007",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Jika 'net gain from separation and merger' pada tahun 2013 turun 25%, dan pengurangan ini langsung mengurangi 'income from operations before income tax', berapa nilai income from operations yang baru untuk tahun tersebut?",
+    "answer": [
+      [
+        "1466"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_008",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan data, analisislah hubungan antara 'net sales' dan 'income from operations before income tax' selama tiga tahun tersebut. Apakah terdapat korelasi yang konsisten?",
+    "answer": [
+      [
+        "Tidak terdapat korelasi yang konsisten. Dari tahun 2011 hingga 2012, kedua metrik menunjukkan korelasi positif, di mana penurunan kecil dalam penjualan (dari $1732M menjadi $1688M) diikuti oleh penurunan pendapatan (dari $376M menjadi $345M). Namun, hubungan ini berbalik secara drastis pada tahun 2013, di mana penurunan besar dalam penjualan bersih menjadi $108M disertai dengan lonjakan pendapatan menjadi $2014M. Hal ini menunjukkan bahwa pada tahun 2013, pendapatan dipengaruhi oleh faktor-faktor selain penjualan inti, seperti 'net gain from separation and merger of commodity chemicals business'."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cedda436f6_009",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Metrik keuangan mana yang menunjukkan nilai '$ 2014' juta dalam satu tahun dan '2014' juta dalam dua tahun lainnya, yang menyoroti ketidakkonsistenan dalam format data untuk nilai numerik yang sama?",
+    "answer": [
+      [
+        "less : net income attributable to non-controlling interests discontinued operations"
+      ],
+      [
+        "net gain from separation and merger of commodity chemicals business"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "A6",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_010",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "Baris data manakah untuk tahun 2013 yang merepresentasikan peristiwa keuangan paling signifikan dibandingkan dengan nilai implisit nol atau mendekati nol pada tahun-tahun lain, dan bagaimana hal tersebut kemungkinan memengaruhi 'income from operations' pada tahun tersebut?",
+    "answer": [
+      [
+        "\"Net gain from separation and merger of commodity chemicals business\" dengan nilai 2192 juta pada tahun 2013 merupakan peristiwa keuangan paling signifikan. Keuntungan satu kali ini tampaknya menjadi pendorong utama bagi \"income from operations before income tax\" yang tidak biasa tinggi sebesar $2014 juta pada tahun yang sama, yang merupakan outlier substansial dibandingkan dengan $345M dan $376M yang dilaporkan pada tahun 2012 dan 2011, masing-masing."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cedda436f6_011",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Berapa biaya pajak penghasilan pada akhir tahun 2011?",
+    "answer": [
+      [
+        "126"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

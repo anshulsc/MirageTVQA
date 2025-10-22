@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_f88511c4f2_001",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "ค่าคงเหลือสุทธิของการเปลี่ยนแปลงเชิงธุรกรรมทั้งหมด (ยกเว้นยอดเริ่มต้นและยอดสิ้นสุด และค่า 'deconsolidation' ที่ผิดปกติ) สำหรับภาระผูกพันการถอนทรัพย์สินในปี 2008 คือเท่าไร?",
+    "answer": [
+      [
+        "-169"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_002",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "ปีใดที่มีการลดลงของหนี้สินจาก 'liabilities settled' มากกว่า?",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_003",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "ค่าใช้จ่ายจากการเพิ่มขึ้นของ 'accretion expense' เพิ่มขึ้นจากปี 2007 ถึงปี 2008 เท่าไร?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_004",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "ระบุรายการที่แสดงการเพิ่มขึ้นของหนี้สินในปี 2008 แต่แสดงการลดลงในปี 2007",
+    "answer": [
+      [
+        "revisions to previous estimates"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_005",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "ถ้าคุณนำยอดเริ่มต้นปี 2008 ลบด้วยผลรวมของ 'liabilities incurred' และ 'accretion expense' ในปี 2007 จะได้ผลลัพธ์เท่าไร?",
+    "answer": [
+      [
+        "1013"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_006",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "ค่าหนี้สินที่เกิดขึ้นในปี 2007 คิดเป็นร้อยละเท่าใดของผลรวมของค่าใช้จ่ายในการเพิ่มขึ้น (accretion expense) จากปี 2007 และ 2008 ทั้งหมด?",
+    "answer": [
+      [
+        "47.24%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_007",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "หาก 'หนี้สินที่เกิดขึ้น' ในปี 2008 เพิ่มขึ้น 50% จะมีผลรวมของ 'หนี้สินที่เกิดขึ้น' และ 'หนี้สินที่ชำระแล้ว' สำหรับปีนั้นเท่าไร?",
+    "answer": [
+      [
+        "-49"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_008",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "จากโครงสร้างและค่าในตารางนี้ ความสัมพันธ์เชิงตรรกะระหว่างยอดคงเหลือสิ้นปี 2007 กับยอดคงเหลือต้นปี 2008 คืออะไร?",
+    "answer": [
+      [
+        "ยอดคงเหลือสิ้นปี 2007 ($1,134) มีค่าเท่ากับยอดคงเหลือต้นปี 2008 ($1,134) ซึ่งแสดงให้เห็นถึงหลักปฏิบัติทางบัญชีมาตรฐานที่ยอดปิดของช่วงเวลาหนึ่งจะกลายเป็นยอดเปิดของช่วงเวลาถัดไปต่อเนื่องกัน"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_009",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "ค่าทางการเงินที่ติดลบ เช่น 'liabilities settled' ในตารางแสดงอย่างไร",
+    "answer": [
+      [
+        "ค่าติดลบจะแสดงด้วยการใช้สัญลักษณ์ลบนำหน้าตามด้วยตัวเลข และค่าสัมบูรณ์ของจำนวนนั้นจะถูกวางในวงเล็บ เช่น '-94 ( 94 )'"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "C5",
+      "A6",
+      "B6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_010",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "ระบุสองรายการที่มีค่า '2013' และอธิบายว่าทำไมค่านี้ดูเหมือนเป็นค่าผิดปกติในบริบทของตาราง",
+    "answer": [
+      [
+        "ค่า '2013' ปรากฏใน 'held for sale (a)' สำหรับปี 2007 และ 'deconsolidation of egholdings' สำหรับปี 2008 ค่านี้เป็นค่าผิดปกติเพราะมีขนาดใหญ่กว่าตัวเลขธุรกรรมอื่นๆ หลายเท่า (เช่น 30, 66, -94) และการมีอยู่ของมันทำให้การ reconcile ทางคณิตศาสตร์ระหว่างยอดเริ่มต้นและยอดสิ้นสุดในทั้งสองปีไม่สมดุล ซึ่งบ่งชี้ว่าอาจเป็นข้อผิดพลาดของข้อมูลหรือรายการพิเศษ"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_011",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "ข้อผูกพันการถอนทรัพย์สิน (ในล้านดอลลาร์) ณ วันที่ 31 ธันวาคม 2008 มีค่าเท่าไร?",
+    "answer": [
+      [
+        "$965"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

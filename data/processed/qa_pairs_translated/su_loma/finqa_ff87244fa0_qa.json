@@ -1,0 +1,238 @@
+[
+  {
+    "question_id": "finqa_ff87244fa0_001",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Apa jumlah total pembayaran angsuran tanggal 31 Desember 2012 jeung 31 Desember 2013 pikeun sababaraha kewajiban kontraktual?",
+    "answer": [
+      [
+        "$ 6219"
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_002",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Saha persén ti total 'debt [a]' kana diwengkeun dibayar sakali ngajadikeun Desember 31, 2016?",
+    "answer": [
+      [
+        "71.68%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "H1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_003",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Aya kontrak kewajiban anu paling gedé pangayaranana dina 31 Desémber 2012?",
+    "answer": [
+      [
+        "purchase obligations [d]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_004",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Kana kontrak nu ngajadikeun total nu kaasup keur nomor dua, naon bayaran nu kudu dibayar ku 31 Desémbér 2014?",
+    "answer": [
+      [
+        "$ 560"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "E4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_005",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "open_ended_reasoning",
+    "question": "Jelaskeun trend panglunjukeun pikeun 'operating leases [b]' pikeun taun 2012 nepi ka 2016.",
+    "answer": [
+      [
+        "Panglunjukeun pikeun 'operating leases [b]' nembongkeun trend pangurangan nu konsisten ti taun ka taun tina 2012 nepi ka 2016, dimulé ti $525 juta dina 2012 jeung turun ti tiap taun ka $347 juta dina 2016."
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_006",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Hapunkeun kabeh kewajiban kontraktual anu panglunasanana kajadikeun dina 31 Desember 2015 leuwih ti $300 juta.",
+    "answer": [
+      [
+        "debt [a]"
+      ],
+      [
+        "operating leases [b]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A3",
+      "F3",
+      "A4",
+      "F4",
+      "A5",
+      "F5",
+      "A6",
+      "F6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_007",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Yén aya anu dihargéan 'purchase obligations [d]' anu kudu dibayar akhir 2012, 2013, jeung 2014 kabéh diundurkeun jeung ditambahkeun kana jumlah anu kudu dibayar 'after 2016', naon total anyar 'after 2016' pikeun kewajiban éta?",
+    "answer": [
+      [
+        "$ 4584"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "E4",
+      "H4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_008",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "open_ended_reasoning",
+    "question": "Aya contractual obligation mana anu ngadatangkeun bayaran dina hiji taun antarana 2012 jeung 2016 anu jadi outlier, hartosna leuwih gede ti bayaran dina taun anu séjén dina periode éta?",
+    "answer": [
+      [
+        "Kategori 'purchase obligations [d]' nyababkeun outlier anu signifikan. Bayaran $2598 juta anu kudu dibayar dina taun 2012 leuwih ti empat kali gede ti bayaran dina taun anu pangageungna ($568 juta dina taun 2013), sarta bayaran nu turun leuwih gede dina taun-taun sesudahna, ngajadikeun angka 2012 salaku anomali."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_009",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Aya di antara kolom periode pangayaran (tina 'payments due by december 31 2012' nepi ka 'payments due by december 31 other') anu ngandung paling beurat entri pangayaran nu ilang atawa teu aplikabel, nu dilambangkeun ku '-'?",
+    "answer": [
+      [
+        "payments due by december 31 other"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "E6",
+      "F6",
+      "G6",
+      "H6",
+      "I1",
+      "I2",
+      "I3",
+      "I5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_010",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarekeun data, apa hubungan jelas antara nilai 'total' suatu kewajiban jeung proporsi kewajiban nu dibayar 'setelah 2016'?",
+    "answer": [
+      [
+        "Biasana, aya hubungan positif di mana kewajiban nu nilai totalna leuwih gedé, sapertos 'hutang [a]' jeung 'sewa operasional [b]', cenderung ngajadikeun sebagian gedé pembayaranana dijadwalkeun pikeun setelah 2016, nu ngajelaskeun yén ieu komitmen finansial jangka panjang. Tapi, ieu teu sahenteuna aturan, sapertos 'kewajiban pangambihan [d]', meski jadi kewajiban total kagedéan kadua, ngabogaan proporsi nu leuwih leutik (sapertos 16,7%) nu dibayar setelah 2016, nu ngajelaskeun yén ieu komitmen jangka pendek-sedang."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "H1",
+      "B2",
+      "H2",
+      "B3",
+      "H3",
+      "B4",
+      "H4",
+      "B5",
+      "H5",
+      "B6",
+      "H6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_011",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Apa total utang (dalam jutaan) menurut kewajiban kontraktual?",
+    "answer": [
+      [
+        "$ 12516"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

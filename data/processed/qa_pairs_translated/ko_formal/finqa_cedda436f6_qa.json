@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "finqa_cedda436f6_001",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "소득세 이전 영업 이익이 가장 높은 연도는 언제입니까?",
+    "answer": [
+      [
+        "2013"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_002",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "표에 표시된 모든 3년간의 총 소득세 비용은 백만 달러 단위로 얼마였습니까?",
+    "answer": [
+      [
+        "238"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cedda436f6_003",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "최저 매출을 기록한 연도의 \"분할 및 합병으로 인한 중단된 사업의 순이익 (PPG 귀속)\"은 백만 달러 단위로 얼마인가요?",
+    "answer": [
+      [
+        "2197"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_004",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "2011년부터 2013년까지의 '순매출' 추세를 설명하십시오.",
+    "answer": [
+      [
+        "2011년 1732백만 달러에서 2012년 1688백만 달러로 약간 감소한 후, 2013년에는 108백만 달러로 급격히 하락했습니다. 이는 기간 마지막 연도에서 특히 심각한 부정적 추세를 나타냅니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_005",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "2013년도 값이 2012년도와 2011년도 값의 합계를 초과하는 모든 재무 지표를 나열하십시오.",
+    "answer": [
+      [
+        "income from operations before income tax"
+      ],
+      [
+        "income from discontinued operations net of tax"
+      ],
+      [
+        "net income from discontinued operations ( attributable to ppg )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "A7",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_006",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "2012년부터 2013년까지 'discontinued operations (attributable to ppg) 순이익'은 몇 퍼센트 증가했습니까?",
+    "answer": [
+      [
+        "921.9%"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cedda436f6_007",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "2013년 '상품 화학 사업 분할 및 합병으로 인한 순이익'이 25% 감소했고, 이 감소액이 직접 '소득세 이전 영업이익'을 감소시켰다면, 해당 연도의 새로운 영업이익은 얼마였을까요?",
+    "answer": [
+      [
+        "1466"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_008",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "데이터를 기반으로 '매출'과 '세전영업이익' 간의 3년간 관계를 분석하고, 일관된 상관관계가 있는지 판단해 주세요.",
+    "answer": [
+      [
+        "일관된 상관관계는 없습니다. 2011년에서 2012년까지는 매출이 약간 감소한 ($1732M에서 $1688M) 것과 이익이 감소한 ($376M에서 $345M) 것이 일치하여 긍정적인 상관관계를 보였습니다. 그러나 2013년에는 매출이 $108M으로 급격히 감소하는 동시에 이익이 $2014M으로 급증하는 등 관계가 크게 뒤바뀌었습니다. 이는 2013년에는 핵심 매출 외의 요인, 즉 '상품화학사업 분리·합병으로 인한 순이익'과 같은 요소들이 이익을 주도했음을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cedda436f6_009",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "어떤 재무 지표가 한 해에는 '$ 2014' 백만 달러의 값을 가지고 다른 두 해에는 '2014' 백만 달러의 값을 보여주며, 같은 수치에 대한 데이터 형식의 불일치를 강조합니까?",
+    "answer": [
+      [
+        "less : net income attributable to non-controlling interests discontinued operations"
+      ],
+      [
+        "net gain from separation and merger of commodity chemicals business"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "A6",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_010",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "2013년도의 선정 항목 중 다른 연도에서 제로 또는 근사 제로의 암시적 값으로 나타나는 가장 중요한 재무 이벤트는 무엇이며, 이는 해당 연도의 '영업 이익'에 어떻게 영향을 미쳤을 것으로 추정됩니까?",
+    "answer": [
+      [
+        "\"상품 화학 사업 분리 및 합병으로 인한 순이익\" 항목은 2013년에 2192백만 달러의 가치를 지니며, 가장 중요한 재무 이벤트입니다. 이 일회성 이익은 2013년 동일 연도의 '세전 영업 이익'이 2014백만 달러로 비정상적으로 높아진 주요 원인으로 보이며, 이는 2012년과 2011년에 보고된 각각 345백만 달러와 376백만 달러에 비해 상당한 이상치입니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cedda436f6_011",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "2011년 말 기준 소득세 비용은 얼마입니까?",
+    "answer": [
+      [
+        "126"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

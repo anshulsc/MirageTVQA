@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "finqa_d219c4cd4d_001",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "In quale anno la differenza tra 'net income adjusted...' e 'net cash provided by operating activities' è stata la più grande?",
+    "answer": [
+      [
+        "2012"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B4",
+      "C1",
+      "C4",
+      "D1",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_002",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "Qual è stato il totale cumulativo di 'net cash used in investing activities' nel periodo di tre anni dal 2012 al 2014?",
+    "answer": [
+      [
+        "-635.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_003",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "Qual è stato il valore di 'net income adjusted...' per l'anno che ha riportato il più basso 'net cash provided by operating activities'?",
+    "answer": [
+      [
+        "$ 697.2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_004",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "open_ended_reasoning",
+    "question": "Descrivi la tendenza anno su anno per 'net cash provided by operating activities' tra il 2012 e il 2014.",
+    "answer": [
+      [
+        "'Net cash provided by operating activities' ha mostrato una tendenza crescente e costante, passando da 357,2 milioni di dollari nel 2012 a 592,9 milioni di dollari nel 2013 e ulteriormente aumentando a 669,5 milioni di dollari nel 2014. Questo indica un miglioramento costante nella capacità dell'azienda di generare cassa dalle operazioni principali nel periodo considerato."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_005",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "Identifica l'attività di flusso di cassa che ha generato cassa (valore positivo) nel 2012 ma ha utilizzato cassa (valore negativo) sia nel 2013 che nel 2014.",
+    "answer": [
+      [
+        "net cash ( used in ) provided by financing activities"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_006",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "Quale percentuale di \"net income adjusted...\" è stata convertita in \"net cash provided by operating activities\" nel 2014? Fornisci la risposta arrotondata a una cifra decimale.",
+    "answer": [
+      [
+        "80.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_007",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "Se la magnitudine di 'net cash used in working capital' nel 2014 fosse stata del 20% più piccola (ossia più vicina a zero), quale sarebbe stata la 'net cash provided by operating activities' ricalcolata per quell'anno?",
+    "answer": [
+      [
+        "$ 695.72"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_008",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "open_ended_reasoning",
+    "question": "In base ai dati forniti, qual è la relazione apparente tra 'net income' e 'net cash used in working capital'?",
+    "answer": [
+      [
+        "Non c'è una correlazione lineare coerente. Ad esempio, dal 2012 al 2013, il net income è diminuito mentre il cash used in working capital è diminuito drasticamente (da -$293.2 a -$9.6). Tuttavia, dal 2013 al 2014, il net income è aumentato significativamente e il cash used in working capital è aumentato (da -$9.6 a -$131.1). Questo suggerisce che la crescita del reddito potrebbe richiedere un maggiore investimento nel capitale circolante, ma la relazione non è stabile anno per anno."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2",
+      "D1",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_009",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "open_ended_reasoning",
+    "question": "Quale convenzione di formattazione viene utilizzata nella tabella per indicare valori finanziari negativi o uscite di cassa?",
+    "answer": [
+      [
+        "I valori negativi sono indicati principalmente con un segno meno iniziale. In molti casi, questo è seguito dal valore assoluto del numero racchiuso tra parentesi, che serve come conferma visiva ridondante dell'importo negativo (ad esempio, '-131.1 ( 131.1 )')."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "D3",
+      "B5",
+      "C5",
+      "D5",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_010",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "Quale dato specifico per 'net cash (used in) provided by financing activities' è un valore anomalo significativo rispetto agli altri anni forniti?",
+    "answer": [
+      [
+        "The value for 2013, which is '-1212.3 ( 1212.3 )'"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_011",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "Qual è il flusso di cassa netto totale dalle attività di investimento nel 2014?",
+    "answer": [
+      [
+        "-200.8 ( 200.8 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

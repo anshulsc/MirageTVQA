@@ -1,0 +1,226 @@
+[
+  {
+    "question_id": "finqa_fd0528f9cf_001",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Di tahun 2008, berapa persen 'total operating expenses' melebihi 'total revenues net of interest expense'?",
+    "answer": [
+      [
+        "109.65%"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_002",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Berapa margin laba sebelum pajak (didefinisikan sebagai 'income from continuing operations before taxes' dibagi 'total revenues net of interest expense') pada tahun dengan 'net interest revenue' terendah?",
+    "answer": [
+      [
+        "76.61%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "B3",
+      "B10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_003",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Metrik keuangan mana yang mengalami peningkatan absolut terbesar (perubahan positif) dalam nilai dolar antara 2008 dan 2009?",
+    "answer": [
+      [
+        "income ( loss ) from continuing operations before taxes"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_004",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "open_ended_reasoning",
+    "question": "Jelaskan bagaimana perusahaan memperbaiki kondisi keuangan antara 2008 dan 2009, dengan merujuk pada tren pendapatan total, biaya operasional, dan pendapatan bersihnya.",
+    "answer": [
+      [
+        "Perusahaan berhasil memperbaiki kondisi keuangan dengan sangat baik dari 2008 ke 2009. Pendapatan total melonjak 80%, dari $8.423 juta menjadi $15.135 juta. Seiring itu, biaya operasional total berkurang drastis sebesar 64%, turun dari $9.236 juta menjadi $3.350 juta. Kombinasi pertumbuhan pendapatan dan penghematan biaya yang signifikan ini mengubah kerugian bersih $585 juta di tahun 2008 menjadi laba bersih yang besar sebesar $7.095 juta di tahun 2009."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "E3",
+      "B4",
+      "C4",
+      "E4",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_005",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Sebutkan semua metrik keuangan yang melaporkan nilai negatif (kerugian atau manfaat) di tahun 2008 tapi nilai positif di tahun 2009.",
+    "answer": [
+      [
+        "income ( loss ) from continuing operations before taxes"
+      ],
+      [
+        "income taxes ( benefits )"
+      ],
+      [
+        "income ( loss ) from continuing operations"
+      ],
+      [
+        "net income ( loss ) attributable to noncontrolling interests"
+      ],
+      [
+        "net income ( loss )"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10",
+      "A11",
+      "B11",
+      "C11",
+      "A12",
+      "B12",
+      "C12",
+      "A13",
+      "B13",
+      "C13",
+      "A14",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_006",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Berapa rata-rata 'total operating expenses' dalam jutaan dolar selama tiga tahun yang diberikan (2007, 2008, 2009)?",
+    "answer": [
+      [
+        "$6848.67"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_007",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Jika persentase perubahan 2009 vs 2008 untuk 'net interest revenue' adalah penurunan 50% alih-alih 65%, berapa 'total revenues net of interest expense' pada 2009, dengan asumsi 'non-interest revenue' tidak berubah?",
+    "answer": [
+      [
+        "$15315"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "E1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_008",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "open_ended_reasoning",
+    "question": "Analisis hubungan antara 'eop assets' dan 'eop deposits' perusahaan dari 2007 sampai 2009, lalu tebak perubahan strategi yang mungkin terjadi.",
+    "answer": [
+      [
+        "Dari 2007 sampai 2009, ada korelasi terbalik antara aset EOP dan deposito EOP. Sementara aset turun dari $56 miliar menjadi $35 miliar, deposito naik dari $46 miliar menjadi $60 miliar. Ini menunjukkan perubahan strategi besar-besaran dari memegang aset ke memperkuat basis deposito, mungkin untuk meningkatkan likuiditas, mengurangi risiko, dan fokus pada aktivitas perbankan inti selama periode transformasi keuangan."
+      ]
+    ],
+    "evidence_cells": [
+      "B15",
+      "C15",
+      "D15",
+      "B16",
+      "C16",
+      "D16"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_009",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "open_ended_reasoning",
+    "question": "Data apa yang di kolom '% change' terlihat tidak normal, tidak sesuai format persen seperti sel lainnya?",
+    "answer": [
+      [
+        "Nilai '2014' untuk 'net credit losses' di kolom '% change 2008 vs. 2007' tidak normal, karena itu angka bulat besar, bukan persen."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "F5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_010",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Ada berapa metrik keuangan yang ditandai 'nm' (tidak bermakna) di kolom '% change 2009 vs. 2008', yang menunjukkan ketidakmampuan menghitung persentase perubahan standar?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E6",
+      "E10",
+      "E11",
+      "E12",
+      "E13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_011",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Berapa persen perubahan pendapatan bunga bersih dari 2007 ke 2008?",
+    "answer": [
+      [
+        "35%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

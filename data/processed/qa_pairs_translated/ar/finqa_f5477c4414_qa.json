@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_f5477c4414_001",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "ما هو المجموع لـ 'القروض المبلغ عنها لعام 2013' للسنة 2012 (العمود E)، إذا تم حسابه عن طريق جمع أنواع القروض المكونة لها من نفس العمود؟",
+    "answer": [
+      [
+        "1717"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f5477c4414_002",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "أي فئة من القروض، باستثناء \"القروض المحفوظة 2013 المبلغة\"، شهدت أكبر نسبة نمو في رصيدها في 31 ديسمبر من 2012 إلى 2013؟",
+    "answer": [
+      [
+        "loans held-for-sale"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_003",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "ما كانت قيمة 'الالتزامات المتعلقة بالقروض' في نهاية العام عندما كان 'إجمالي الأصول الائتمانية التجارية' عند أدنى مستوى؟",
+    "answer": [
+      [
+        "$ 434814"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_004",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "ما هي النسبة المئوية لـ \"الالتزامات المتعلقة بالقروض\" من \"إجمالي التعرض الائتماني بالجملة\" في 31 ديسمبر 2013؟",
+    "answer": [
+      [
+        "51.87%"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "B9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f5477c4414_005",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "قم بسرد جميع فئات الأصول أو الخصوم حيث انخفضت قيمة 31 ديسمبر 2013 مقارنة بقيمة 31 ديسمبر 2012.",
+    "answer": [
+      [
+        "loans at fair value ( a )"
+      ],
+      [
+        "derivative receivables"
+      ],
+      [
+        "liquid securities and other cash collateral held against derivatives"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A11",
+      "B11",
+      "C11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_006",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "إذا كانت قيمة 'الحسابات المدينة من العملاء والآخرين (ب)' في عمود '2013' (العمود د) أعلى بنسبة 25٪، فما ستكون قيمة 'إجمالي الأصول الائتمانية التجارية الجملة' لذلك العمود؟",
+    "answer": [
+      [
+        "1962.5"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "D7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_007",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "حدد البند المالي (من العمود A) الذي يظهر أغرب تغيير بين عمودي '2013' و'2012' (D وE)، والذي يتميز بأكبر فرق مطلق.",
+    "answer": [
+      [
+        "loans 2013 reported"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A2",
+      "D2",
+      "E2",
+      "A3",
+      "D3",
+      "E3",
+      "A4",
+      "D4",
+      "E4",
+      "A5",
+      "D5",
+      "E5",
+      "A6",
+      "D6",
+      "E6",
+      "A7",
+      "D7",
+      "E7",
+      "A8",
+      "D8",
+      "E8",
+      "A9",
+      "D9",
+      "E9",
+      "A10",
+      "D10",
+      "E10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f5477c4414_008",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "حدد الخلية(الخلايا) التي تحتوي على نص غير رقمي ('na') والذي يمنع الجمع المباشر لأعمدتها المقابلة.",
+    "answer": [
+      [
+        "D11"
+      ],
+      [
+        "E11"
+      ]
+    ],
+    "evidence_cells": [
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_009",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "open_ended_reasoning",
+    "question": "حلل الاتجاه من نهاية عام 2012 إلى عام 2013 لـ 'إجمالي التعرض الائتماني للقطاع التجاري' ومحركاته الرئيسية.",
+    "answer": [
+      [
+        "زاد 'إجمالي التعرض الائتماني للقطاع التجاري' بشكل متواضع من 846,628 مليون دولار في عام 2012 إلى 860,299 مليون دولار في عام 2013. وكان هذا النمو مدفوعًا بشكل رئيسي بزيادة كبيرة في 'القروض المُعدة للبيع' (بزيادة 156%) وارتفاع في 'التزامات الائتمان المرتبطة بالقروض' (بزيادة 2.6%). ومع ذلك، تم تعويض هذا النمو جزئيًا بانخفاض ملحوظ بنسبة 12.3% في 'الاستحقاقات المشتقة' وانخفاض بنسبة 21.3% في 'القروض بالقيمة العادلة'، مما يشير إلى تحول في تركيبة محفظة الائتمان."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B8",
+      "C8",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_010",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "open_ended_reasoning",
+    "question": "بناءً على التغيرات من عام 2012 إلى عام 2013 في أرصدة نهاية السنة، ما هي العلاقة الواضحة بين 'الأصول المستحقة المشتقات' و'إجمالي الأصول الائتمانية للقطاع التجاري'؟",
+    "answer": [
+      [
+        "يبدو أن هناك علاقة عكسية ضمن مجموعة البيانات المحدودة هذه. من نهاية عام 2012 إلى عام 2013، انخفضت 'الأصول المستحقة المشتقات' من 74,983 مليون دولار إلى 65,759 مليون دولار. وفي الوقت نفسه، ارتفع 'إجمالي الأصول الائتمانية للقطاع التجاري' من 411,814 مليون دولار إلى 414,067 مليون دولار. هذا يشير إلى أنه مع انخفاض قيمة الأصول المستحقة المشتقات، نمت الأصول الأخرى لتعويض ذلك أكثر من كافٍ، مما أدى إلى زيادة إجمالية في الأصول. ومع ذلك، لا يمكن تحديد ارتباط قاطع من مجرد نقطتي بيانات."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f5477c4414_011",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "في أي عام تكون القروض المحتفظ بها أعلى؟",
+    "answer": [
+      [
+        "2013"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

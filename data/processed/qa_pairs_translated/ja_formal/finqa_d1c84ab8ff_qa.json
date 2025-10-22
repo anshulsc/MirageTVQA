@@ -1,0 +1,222 @@
+[
+  {
+    "question_id": "finqa_d1c84ab8ff_001",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "「国際事業に係る税金」から税率に最も大きなマイナス調整が生じたのはどの年ですか？",
+    "answer": [
+      [
+        "2017"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_002",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "2018年における税率に対するすべての正の調整額の合計（「米国税制改革の影響」を除く）はいくらでしたか？",
+    "answer": [
+      [
+        "7.4"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_003",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "「有効税率」が最も高い年において、「米国税制改革の影響」の値はいくらでしたか？",
+    "answer": [
+      [
+        "51.2"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "C12",
+      "D12",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_004",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "open_ended_reasoning",
+    "question": "2016年から2018年までの「法定税率」の傾向について説明してください。",
+    "answer": [
+      [
+        "2016年の20.0%から始まり、2017年に19.3%へ、さらに2018年に19.0%へと一貫して低下する傾向を示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_005",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "3年間のすべてにおいて税率に一貫してプラスの影響（つまり正の値）を与えた税調整カテゴリをすべて列挙してください。",
+    "answer": [
+      [
+        "nondeductible expenses"
+      ],
+      [
+        "change in uncertain tax positions"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "A7",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_006",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "2017年において、税金率の合計正の調整のうち「米国税制改正の影響」が占める割合はいくらですか？",
+    "answer": [
+      [
+        "87.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5",
+      "C7",
+      "C9",
+      "C11"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_007",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "2018年の「loss on disposition」が-10.2ではなく0だった場合、その年の「effective tax rate」はどのようになっていたでしょうか？",
+    "answer": [
+      [
+        "21.9%"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "B12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_008",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "open_ended_reasoning",
+    "question": "3年間において法定税率と実効税率の間に安定した相関関係がありますか。データに基づいて理由を説明してください。",
+    "answer": [
+      [
+        "いいえ、安定した相関関係はありません。法定税率は20.0%から19.0%へと着実に低下しましたが、実効税率は2016年の10.6%から2017年に36.5%のピークとなり、その後2018年に11.7%に低下するなど、非常に不安定でした。この変動性は、2017年の「米国税制改革」による51.2の影響のような大きな不一致な調整項目によって実効税率が決定されていることを示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "A12",
+      "B12",
+      "C12",
+      "D12",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_009",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "どの特定の税金調整項目が複数年度にわたって数値以外のデータを含んでいますか？",
+    "answer": [
+      [
+        "loss on disposition"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "C10",
+      "D10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_010",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "2017年の調整項目の中で、他のすべての調整項目と比較して最も顕著な外れ値を示すものはどれですか？",
+    "answer": [
+      [
+        "u.s . tax reform impact"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_011",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "open_ended_reasoning",
+    "question": "2016年から2018年まで効果的税率はどれだけ増加しましたか？",
+    "answer": [
+      [
+        "2016年の効果的税率は10.6%、2018年は11.7%となり、1.1%の増加でした。"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "D12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "question_id": "finqa_d1c84ab8ff_001",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "Quelle année a vu la plus grande adjustment négatif au taux d'impôt issu des « taxes sur les opérations internationales » ?",
+    "answer": [
+      [
+        "2017"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_002",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "Quelle a été la somme de tous les ajustements positifs au taux d'imposition en 2018, en excluant l'« impact de la réforme fiscale américaine » ?",
+    "answer": [
+      [
+        "7.4"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_003",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "En quelle année le taux d'imposition effectif était-il le plus élevé, et quelle était la valeur de « l'impact de la réforme fiscale américaine » ?",
+    "answer": [
+      [
+        "51.2"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "C12",
+      "D12",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_004",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "open_ended_reasoning",
+    "question": "Décrivez l'évolution du 'taux d'imposition légal' de 2016 à 2018.",
+    "answer": [
+      [
+        "Le taux d'imposition légal présente une tendance constante à la baisse, passant de 20,0 % en 2016, diminuant à 19,3 % en 2017, puis réduisant encore à 19,0 % en 2018."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_005",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "Listez toutes les catégories d'ajustements fiscaux qui ont eu un impact positif constant (c'est-à-dire une valeur positive) sur le taux d'imposition sur les trois années présentées.",
+    "answer": [
+      [
+        "nondeductible expenses"
+      ],
+      [
+        "change in uncertain tax positions"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "A7",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_006",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "En 2017, quel pourcentage des ajustements positifs totaux au taux d'imposition a été apporté par « l'impact de la réforme fiscale américaine » ?",
+    "answer": [
+      [
+        "87.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5",
+      "C7",
+      "C9",
+      "C11"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_007",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "Si le 'loss on disposition' en 2018 avait été de zéro au lieu de -10,2, quel aurait été le 'effective tax rate' pour cette année ?",
+    "answer": [
+      [
+        "21.9%"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "B12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_008",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "open_ended_reasoning",
+    "question": "Y a-t-il une corrélation stable entre le taux d'imposition statutaire et le taux d'imposition effectif sur les trois années ? Expliquez votre raisonnement en vous basant sur les données.",
+    "answer": [
+      [
+        "Non, il n'y a pas de corrélation stable. Bien que le taux statutaire ait diminué régulièrement de 20,0 % à 19,0 %, le taux d'imposition effectif a été très volatile, passant de 10,6 % en 2016, à un pic de 36,5 % en 2017, puis baissant à 11,7 % en 2018. Cette volatilité indique que le taux effectif est influencé par des ajustements importants et incohérents, tels que l'impact de 51,2 lié à la « réforme fiscale américaine » en 2017, plutôt que par le taux statutaire."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "A12",
+      "B12",
+      "C12",
+      "D12",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_009",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "Quel élément d'ajustement fiscal contient des données non numériques pour plus d'une année ?",
+    "answer": [
+      [
+        "loss on disposition"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "C10",
+      "D10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_010",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "Quel élément d'ajustement fiscal en 2017 représente la plus grande anomalie par rapport à tous les autres ajustements de cette année ?",
+    "answer": [
+      [
+        "u.s . tax reform impact"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_011",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "open_ended_reasoning",
+    "question": "De combien le taux d'imposition effectif a-t-il augmenté de 2016 à 2018 ?",
+    "answer": [
+      [
+        "Le taux d'imposition effectif est passé de 10,6 % en 2016 à 11,7 % en 2018, soit une augmentation de 1,1 %"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "D12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

@@ -30,14 +30,19 @@ class BaseModel:
         cprint(f"Loading VLLM engine for model: {self.cfg.model.model_path}", "yellow")
         cprint("This may take a few minutes...", "yellow")
         
-        llm = LLM(
-            model=self.cfg.model.model_path,
-            tensor_parallel_size=self.cfg.model.tensor_parallel_size,
-            max_model_len=self.cfg.model.max_model_len,
-            gpu_memory_utilization=self.cfg.model.gpu_memory_utilization,
-            trust_remote_code=True,
-            limit_mm_per_prompt={"image": 10}
-        )
+        llm_params = {
+            "model": self.cfg.model.model_path,
+            "tensor_parallel_size": self.cfg.model.tensor_parallel_size,
+            "max_model_len": self.cfg.model.max_model_len,
+            "gpu_memory_utilization": self.cfg.model.gpu_memory_utilization,
+            "trust_remote_code": True,
+            "limit_mm_per_prompt": {"image": 10, "video": 0}
+        }
+        
+        if hasattr(self.cfg.model, 'enable_reasoning') and self.cfg.model.enable_reasoning:
+            cprint(f"Enabling reasoning mode with parser: {self.cfg.model.reasoning_parser}", "cyan")
+        
+        llm = LLM(**llm_params)
         cprint("VLLM Engine loaded successfully.", "green")
         return llm
 
@@ -55,18 +60,25 @@ class BaseModel:
             cprint(f"Warning: Could not create guided decoding params. Error: {e}", "red")
             guided_params = None
 
-        return SamplingParams(
+        sampling_params = SamplingParams(
             temperature=self.cfg.model.temperature,
             max_tokens=self.cfg.model.max_new_tokens,
             guided_decoding=guided_params,
         )
+        
+        return sampling_params
 
     def generate_response(self, inputs: dict) -> str:
         sampling_params = self._create_vllm_sampling_params()
+        
         request = {
             "prompt": inputs["prompt"],
             "multi_modal_data": inputs.get("multi_modal_data")
         }
+        
+        if "chat_template_kwargs" in inputs:
+            pass
+        
         outputs = self.model.generate(request, sampling_params=sampling_params)
         return outputs[0].outputs[0].text
 
@@ -92,11 +104,23 @@ class BaseModel:
             raise
 
     def _parse_model_response(self, response_str: str) -> list:
+
         try:
             parsed_response = Response.model_validate_json(response_str)
             return parsed_response.data
         except (json.JSONDecodeError, ValidationError) as e:
-            cprint(f"\n[WARN] Failed to parse model output as valid JSON: {response_str}. Error: {e}", "yellow")
+            if '<think>' in response_str and '</think>' in response_str:
+                try:
+                    think_end = response_str.rfind('</think>')
+                    final_content = response_str[think_end + 8:].strip()
+                    
+                    if final_content:
+                        parsed_response = Response.model_validate_json(final_content)
+                        return parsed_response.data
+                except (json.JSONDecodeError, ValidationError):
+                    pass
+            
+            cprint(f"\n[WARN] Failed to parse model output as valid JSON: {response_str[:200]}... Error: {e}", "yellow")
             return [[response_str]]
         except Exception as e:
             cprint(f"\n[WARN] An unexpected error occurred during parsing: {e}", "yellow")
@@ -113,6 +137,7 @@ class BaseModel:
             self._evaluate_single(data, output_file, images_dir)
 
     def _evaluate_single(self, data: list, output_file: str, images_dir: str):
+
         with open(output_file, "a+", encoding="utf-8") as out_file:
             for i, row in enumerate(tqdm(data, desc="Evaluating")):
                 try:
@@ -123,12 +148,12 @@ class BaseModel:
                 except Exception as e:
                     result = self.handle_exception(row, e)
                 
-                out_file.write(json.dumps(result) + "\n")
+                out_file.write(json.dumps(result, ensure_ascii=False) + "\n")
                 if (i + 1) % 20 == 0:
                     out_file.flush()
 
     def _evaluate_batch(self, data: list, output_file: str, images_dir: str):
-        """Batch evaluation for improved throughput"""
+        """Batch evaluation for improved throughput."""
         with open(output_file, "a+", encoding="utf-8") as out_file:
             for batch_start in tqdm(range(0, len(data), self.batch_size), desc="Evaluating batches"):
                 batch_end = min(batch_start + self.batch_size, len(data))
@@ -147,18 +172,15 @@ class BaseModel:
                     except Exception as e:
                         cprint(f"\nError preparing input for question {row['question_id']}: {e}", "red")
                         result = self.handle_exception(row, e)
-                        out_file.write(json.dumps(result) + "\n")
+                        out_file.write(json.dumps(result, ensure_ascii=False) + "\n")
                         failed_indices.append(idx)
                 
-                # Skip if all items in batch failed preparation
                 if not batch_inputs:
                     continue
                 
-                # Generate responses for the batch
                 try:
                     raw_responses = self.generate_batch_responses_with_timeout(batch_inputs, timeout=300)
                     
-                    # Process each response
                     for row, raw_response in zip(batch_rows, raw_responses):
                         try:
                             parsed_response_data = self._parse_model_response(raw_response)
@@ -166,21 +188,19 @@ class BaseModel:
                         except Exception as e:
                             result = self.handle_exception(row, e)
                         
-                        out_file.write(json.dumps(result) + "\n")
+                        out_file.write(json.dumps(result, ensure_ascii=False) + "\n")
                     
                 except TimeoutException as e:
                     cprint(f"\nBatch inference timed out: {e}", "red")
                     for row in batch_rows:
                         result = self.handle_exception(row, e)
-                        out_file.write(json.dumps(result) + "\n")
+                        out_file.write(json.dumps(result, ensure_ascii=False) + "\n")
                 except Exception as e:
                     cprint(f"\nBatch generation error: {e}", "red")
-                    # Fall back to processing failed items individually
                     for row in batch_rows:
                         result = self.handle_exception(row, e)
-                        out_file.write(json.dumps(result) + "\n")
+                        out_file.write(json.dumps(result,ensure_ascii=False) + "\n")
                 
-                # Flush periodically
                 if (batch_end) % 100 == 0:
                     out_file.flush()
 
@@ -223,6 +243,7 @@ class BaseModel:
         }
 
     def handle_exception(self, row, e):
+        """Handle exceptions during inference."""
         cprint(f"\nError processing question {row['question_id']}: {e}", "red")
         error_message = f"Error: {e}"
         if "out of memory" in str(e).lower():

@@ -1,0 +1,288 @@
+[
+  {
+    "question_id": "finqa_f05eb3e06a_001",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "Lokasi mana yang punya luas perkiraan paling kecil, kecuali 'other*'?",
+    "answer": [
+      [
+        "eindhoven the netherlands"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_002",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "Berapa total perkiraan luas dalam square feet untuk semua lokasi yang memiliki 'manufacturing' di operasinya?",
+    "answer": [
+      [
+        "2559000"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_003",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "Cari tanggal kedaluwarsa sewa terbaru untuk lokasi dengan luas meter persegi terbesar ketiga.",
+    "answer": [
+      [
+        "2025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A4",
+      "B4",
+      "D4",
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6",
+      "A7",
+      "B7",
+      "D7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_004",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "Lokasi mana yang memiliki selisih terbesar antara tanggal kedaluwarsa sewa terawal dan terakhir?",
+    "answer": [
+      [
+        "cambridge united kingdom"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A7",
+      "D7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_005",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "Sebutin lokasi yang punya operasi 'r&d' dan 'distribution' sekaligus, dan kontraknya habis setelah tahun 2030.",
+    "answer": [
+      [
+        "san diego ca"
+      ],
+      [
+        "madison wi"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A3",
+      "C3",
+      "D3",
+      "A5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_006",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "Berapa persen dari total luas dalam kaki persegi yang digunakan untuk lokasi yang TIDAK melakukan operasi 'r&d'?",
+    "answer": [
+      [
+        "4.76%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_007",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "Jika semua kontrak sewa yang berakhir di tahun 2013 tidak diperpanjang, sehingga mengakibatkan pengurangan 20% luas ruang untuk setiap lokasi yang terkena dampak, berapa total luas ruang baru di semua lokasi?",
+    "answer": [
+      [
+        "2158000"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B4",
+      "D4",
+      "B5",
+      "D5",
+      "B6",
+      "D6",
+      "B7",
+      "D7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_008",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "open_ended_reasoning",
+    "question": "Ada pola nggak antara wilayah geografis lokasi (US vs. Internasional) sama profil operasionalnya?",
+    "answer": [
+      [
+        "Iya, ada pola. Lokasi di US (San Diego, San Francisco, Madison) semuanya lokasi skala besar yang selalu mencakup fungsi 'r&d', 'manufacturing', dan 'administrative'. Lokasi internasional punya profil yang lebih beragam. Meski Singapura dan Cambridge juga pusat R&D dan manufacturing besar seperti lokasi US, Eindhoven hanya fokus pada distribusi dan administrasi skala kecil, menunjukkan bahwa portofolio internasional lebih banyak berisi fasilitas khusus dengan ukuran lebih kecil dibandingkan pusat komprehensif di US."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_009",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "open_ended_reasoning",
+    "question": "Kolom mana yang struktur datanya tidak konsisten di antara baris, ada yang isi selnya satu nilai dan ada yang berupa daftar nilai dipisahkan spasi?",
+    "answer": [
+      [
+        "Kolom 'leaseexpiration dates' menunjukkan struktur data yang tidak konsisten. Misalnya, entri untuk 'eindhoven the netherlands' hanya berisi satu tahun ('2020'), sedangkan entri untuk 'san diego ca' berisi tiga tahun berbeda ('2019 2013 2031'). Ini membutuhkan logika kondisional untuk diparsing dengan benar."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_010",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "open_ended_reasoning",
+    "question": "Lokasi mana yang lingkup operasionalnya tidak biasa dibandingkan lokasi lain yang ukurannya sama atau lebih besar?",
+    "answer": [
+      [
+        "San Francisco Bay Area, CA adalah outlier operasional. Meskipun merupakan fasilitas terbesar kedua dengan 501.000 sq ft, operasi yang terdaftar ('r&d manufacturing warehouse and administrative') tidak memiliki fungsi 'distribution'. Semua lokasi manufaktur berskala besar lainnya seperti San Diego, Singapore, dan Madison secara eksplisit mencantumkan 'distribution', sehingga profil situs San Francisco tidak biasa untuk fasilitas dengan ukuran dan kemampuan manufaktur seperti itu."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_011",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "Ada berapa bangunan yang setidaknya 300.000 kaki persegi?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

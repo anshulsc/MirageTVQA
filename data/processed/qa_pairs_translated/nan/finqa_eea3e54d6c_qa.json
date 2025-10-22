@@ -1,0 +1,222 @@
+[
+  {
+    "question_id": "finqa_eea3e54d6c_001",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "value",
+    "question": "三個年份所呈現的總資本支出是多少千美元？",
+    "answer": [
+      [
+        "967859"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_002",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "value",
+    "question": "哪個液體相關營運指標（mbbl/d）在2005年12月31日結束年度到2007年12月31日結束年度之間增長百分比最大？",
+    "answer": [
+      [
+        "natural gas liquids transported ( mbbl/d )"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6",
+      "A7",
+      "B7",
+      "D7",
+      "A8",
+      "B8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_003",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "value",
+    "question": "對於「實現天然氣銷售價格」最高的年度，對應的「天然氣處理量」是多少？",
+    "answer": [
+      [
+        "1117"
+      ]
+    ],
+    "evidence_cells": [
+      "B13",
+      "C13",
+      "D13",
+      "D2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_004",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "open_ended_reasoning",
+    "question": "描述2005年到2007年間「天然氣加工（bbtu/d）」與「天然氣運輸（mmcf/d）」的整體趨勢。",
+    "answer": [
+      [
+        "這兩個指標呈現相反的趨勢。「天然氣加工」在三年期間呈現持續且陡峭的下降，從2005年的1117 bbtu/d下降到2007年的621 bbtu/d。相反地，「天然氣運輸」則大幅增加，從2005年的1333 mmcf/d增加到2006年的3634 mmcf/d，然後在2007年略微下降到3579 mmcf/d。"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_005",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "value",
+    "question": "列出所有以 'bbtu/d' 為單位，且2007年體積小於2005年體積的指標。",
+    "answer": [
+      [
+        "natural gas processed ( bbtu/d )"
+      ],
+      [
+        "natural gas sales ( bbtu/d )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A4",
+      "B4",
+      "D4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_006",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "value",
+    "question": "三個年份的「天然氣收集」總量中，2007年收集的比例是多少？",
+    "answer": [
+      [
+        "34.28%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_007",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "value",
+    "question": "2007年「實際加工利潤差」若降低20%，其值會是多少？",
+    "answer": [
+      [
+        "$ 4.17"
+      ]
+    ],
+    "evidence_cells": [
+      "B14"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_008",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "open_ended_reasoning",
+    "question": "有無明顯嘅相關性在「實質天然氣銷售價格」同「天然氣銷售體積」之間過呢三年期間？解釋你嘅理由。",
+    "answer": [
+      [
+        "是，有明顯嘅正相關。當實質天然氣銷售價格每mmbtu由2005年嘅$7.30持續下降到2007年嘅$6.21，天然氣銷售體積亦由2005年嘅334 bbtu/d持續下降到2007年嘅281 bbtu/d。兩個指標都跟隨同向下嘅趨勢。"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "A13",
+      "B13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_009",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "open_ended_reasoning",
+    "question": "哪個資料欄位包含帶有括號註解，例如 '( a )' 或 '( b )'，且每個數值項目都有這種註解的？",
+    "answer": [
+      [
+        "\"years ended december 31 , 2005\" 這欄位沒有，但從第11列開始的所有指標在三年中都標記了 '(b)'，表示這些列的特性，而不是單一欄位的特性。"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "D5",
+      "D7",
+      "D8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_010",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "open_ended_reasoning",
+    "question": "哪一年嘅資本支出係相對於其他年份嘅顯著異常值，點解？",
+    "answer": [
+      [
+        "2007年12月31日終止年度嘅資本支出係一個顯著嘅異常值。其值為709,858千元，比2006年支出（201,746千元）高出3.5倍以上，比2005年支出（56,255千元）高出12.6倍以上，代表支出嘅劇烈且異常嘅增長。"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_eea3e54d6c_011",
+    "table_id": "finqa_eea3e54d6c",
+    "question_type": "open_ended_reasoning",
+    "question": "為啥天然氣銷售逐年減少？",
+    "answer": [
+      [
+        "天然氣銷售從2005年的334 BBtu/d減少到2007年的281 BBtu/d，可能是因為生產降低或市場需求減少，從數據的持續下降可見。"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

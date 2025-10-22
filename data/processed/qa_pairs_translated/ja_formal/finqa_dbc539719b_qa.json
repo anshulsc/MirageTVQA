@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_dbc539719b_001",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "リストに挙げられた個別の州のうち、顧客1人あたりの営業収益が最も高いのはどの州ですか？",
+    "answer": [
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A4",
+      "B4",
+      "D4",
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_002",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "アイリノイ、インディアナ、およびカリフォルニアの顧客合計数はいくらですか？",
+    "answer": [
+      [
+        "779881"
+      ]
+    ],
+    "evidence_cells": [
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_dbc539719b_003",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "推定供給人口が最も少ない州の合計営業収益の割合はいくらですか？",
+    "answer": [
+      [
+        "12.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "F6",
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_004",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "総顧客数のシェアが総営業収益のシェアよりも大きい州はどれですか？",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "indiana"
+      ],
+      [
+        "west virginia ( b )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "A5",
+      "C5",
+      "E5",
+      "A6",
+      "C6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_005",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "\"other ( c )\"カテゴリにおける顧客総数の割合と供給人口総数の割合の比率を、小数点以下2桁で四捨五入した値はいくらですか？",
+    "answer": [
+      [
+        "1.01"
+      ]
+    ],
+    "evidence_cells": [
+      "E8",
+      "G8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_dbc539719b_006",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "ペンシルベニア州の営業収入が10%増加した場合、他の州の収入が変化しないと仮定した場合、「上位7州の小計」の新しい営業収入はいくらになりますか？",
+    "answer": [
+      [
+        "2388.14"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_007",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "6つの個別州について、顧客数と推定供給人口の関係を分析してください。正の相関があり、それは何を意味するのでしょうか？",
+    "answer": [
+      [
+        "はい、強い正の相関があります。ある州の顧客数が増加するにつれて、推定供給人口も増加する傾向があります。例えば、ペンシルベニア州は顧客数が最も多い（666,415人）かつ推定供給人口が最大（220万人）であり、一方でウェストバージニア州とカリフォルニア州は顧客数が最も少なく、推定供給人口も最小です。これは、ビジネスがこれらの地域で供給する人口の顧客基盤が直接的かつ比例的な要素であることを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_dbc539719b_008",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "各6つの州ごとに1人当たりの推定人口サービス数を計算し、最も顕著な外れ値となる州を特定し、その理由を説明してください。",
+    "answer": [
+      [
+        "イリノイ州が最も顕著な外れ値です。各州の1人当たりの推定人口サービス数は、ペンシルベニア州（約3.30）、ミズーリ州（約3.23）、イリノイ州（約4.17）、カリフォルニア州（約3.44）、インディアナ州（約4.09）、ウェストバージニア州（約3.52）です。ほとんどの州では1人の顧客あたり3.2から3.5人をサービスしていますが、イリノイ州とインディアナ州は特に高い値を示しています。イリノイ州は約4.17と最も高い比率を持っており、他の州と比較してイリノイ州の顧客1人あたりのサービス人口がより大きいことを示しており、これが最も顕著な外れ値となっています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_dbc539719b_009",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "「サブトータル（上位7州）」および「その他（c）」の営業収益総額に対する割合が、正確に「総規制事業」の割合に合計されているかどうか確認してください。",
+    "answer": [
+      [
+        "はい、合計は正確です。「サブトータル（上位7州）」は営業収益総額の87.0%を占め、「その他（c）」は13.0%を占めています。これらの割合を合計（87.0% + 13.0%）すると100.0%となり、「総規制事業」に示されている値と一致しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_010",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "リストの6つの州の中から、ペンシルベニア州の顧客数に最も近い合計顧客数を持つ州の組み合わせはどれですか？",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_011",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "カリフォルニア州の営業収入（百万ドル）はいくらですか？",
+    "answer": [
+      [
+        "$209.8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

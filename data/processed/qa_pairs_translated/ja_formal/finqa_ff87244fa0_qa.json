@@ -1,0 +1,222 @@
+[
+  {
+    "question_id": "finqa_ff87244fa0_001",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "すべての契約上の義務において、2012年12月31日および2013年12月31日までに支払われるべき合計金額はいくらですか？",
+    "answer": [
+      [
+        "$ 6219"
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_002",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "「債務 [a]」の総額のうち、2016年12月31日以降に支払いが予定されている割合はいくらですか？",
+    "answer": [
+      [
+        "71.68%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "H1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_003",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "2012年12月31日までに支払われる契約上の義務の中で、最も金額が大きいものはどれですか？",
+    "answer": [
+      [
+        "purchase obligations [d]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_004",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "合計金額が2番目に大きい契約義務について、2014年12月31日までに支払われる金額はいくらですか？",
+    "answer": [
+      [
+        "$ 560"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "E4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_005",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "open_ended_reasoning",
+    "question": "「営業リース[b]」の2012年から2016年までの支払い傾向について説明してください。",
+    "answer": [
+      [
+        "「営業リース[b]」の支払いは、2012年から2016年まで毎年一貫して減少傾向を示し、2012年は5億2500万ドルから始まり、2016年には3億4700万ドルまで減少しました。"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_006",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "2015年12月31日までに支払いが発生する契約上の義務で、3億ドル以上のものすべてをリストアップしてください。",
+    "answer": [
+      [
+        "debt [a]"
+      ],
+      [
+        "operating leases [b]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A3",
+      "F3",
+      "A4",
+      "F4",
+      "A5",
+      "F5",
+      "A6",
+      "F6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_007",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "「購入義務 [d]」の2012年末、2013年末、2014年末に支払われる金額をすべて繰延べ、2016年以降に支払われる金額に加算した場合、その義務の「2016年以降」の合計額はいくらになりますか？",
+    "answer": [
+      [
+        "$ 4584"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "E4",
+      "H4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_008",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "open_ended_reasoning",
+    "question": "2012年から2016年の間で、他の年と比べて著しく高い支払いがある単一年度の契約義務はどれですか？",
+    "answer": [
+      [
+        "「購入義務 [d]」のカテゴリにおいて、2012年に支払われる2598百万ドルの支払いは、次に高い年（2013年の568百万ドル）の4倍以上であり、その後の年には大幅に減少しているため、2012年の数字は異常値となっています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_009",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "「支払いが2012年12月31日までに支払われる」から「その他の支払いが2012年12月31日までに支払われる」までのどの支払期日列に、最も多くの欠落または不適用の支払項目（「-」で示される）が含まれていますか？",
+    "answer": [
+      [
+        "payments due by december 31 other"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "E6",
+      "F6",
+      "G6",
+      "H6",
+      "I1",
+      "I2",
+      "I3",
+      "I5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_010",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "open_ended_reasoning",
+    "question": "データに基づき、義務の「合計」値とその義務の「2016年以降」に支払われる割合との間に見られる関係はどのようなものですか？",
+    "answer": [
+      [
+        "一般的に、債務[a]や営業リース[b]などの総額が大きい義務は、2016年以降に支払われる割合が大きく、長期的な財務的コミットメントを示唆しています。しかし、これは普遍的なルールではなく、総額が2番目に大きい購買義務[d]は、2016年以降に支払われる割合が比較的小さい（約16.7%）であり、短期から中期的なコミットメントであることを示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "H1",
+      "B2",
+      "H2",
+      "B3",
+      "H3",
+      "B4",
+      "H4",
+      "B5",
+      "H5",
+      "B6",
+      "H6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  }
+]

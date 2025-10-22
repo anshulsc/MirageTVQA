@@ -1,0 +1,226 @@
+[
+  {
+    "question_id": "finqa_f76d5def2c_001",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "2011年に記録された未認識税金利益の総増加額はいくらでしたか？",
+    "answer": [
+      [
+        "44321"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_002",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "2010年と2011年の課税当局との決済額の絶対差はいくらでしたか？",
+    "answer": [
+      [
+        "41383"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_003",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "2010年から2011年にかけて、未認識税金負債残高の減少率（前年度ポジションからの減少、決済、法令満了によるもの）は加速したか、減速したか？",
+    "answer": [
+      [
+        "2010年には、これらの3つのカテゴリーによる総減少額は85,484ドル（7,104 + 70,484 + 7,896）でしたが、2011年には37,080ドル（4,154 + 29,101 + 3,825）と、前年度の半分以下となり、減少率は大幅に減速しました。"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_004",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "より高い初期残高から始まる年度における未認識税金利益の純変動を計算してください。",
+    "answer": [
+      [
+        "-61115"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_005",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "2010年において、総未認識税金利益の減少額（前期課税項目、税務当局との決済、時効満了による減少）のうち、税務当局との決済によって占める割合は何パーセントですか。小数点以下2桁まで四捨五入して回答してください。",
+    "answer": [
+      [
+        "82.45%"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_006",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "2010年において、絶対値が5,000ドルを超える未認識税金利益の減少をもたらしたイベントのカテゴリをリストアップしてください。",
+    "answer": [
+      [
+        "gross decreases in unrecognized tax benefits 2013 prior year tax positions"
+      ],
+      [
+        "settlements with taxing authorities"
+      ],
+      [
+        "lapse of statute of limitations"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A5",
+      "C5",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_007",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "「2011年における未認識税利益のgross increases（2013年現在年度税務ポジション）」が50%低かった場合、2011年の新しい期末残高はいくらになりますか？",
+    "answer": [
+      [
+        "147397"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_008",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "どの項目が、単年度における残高への金額的影響（絶対値）で最も大きな外れ値を示しており、その値はいくらですか？",
+    "answer": [
+      [
+        "「settlements with taxing authorities」が2010年に最大の外れ値となり、70,484ドルの減少をもたらしました。この金額は、いずれの年にも記載されている他の単独の調整額の2倍以上です。"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_009",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "表の構造に基づいて、2010年の期末残高と2011年の期首残高の関係は何ですか？",
+    "answer": [
+      [
+        "2010年の期末残高である156,925ドルは、2011年の期首残高と同一です。これは、会計における継続性の原則を示しており、ある期間の閉じた残高がその後の期間の開いた残高となることを意味します。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_010",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "「税務当局との決済」の規模と各年度の残高の純変化量との関係を分析してください。",
+    "answer": [
+      [
+        "「税務当局との決済」の規模と全体的な純変化量の間に強い関係が見られます。2010年には、-70,484という大きな決済が、合計残高の-61,115という大幅な減少と対応していました。一方、2011年には、-29,101というはるかに小さな決済が、残高が6,682の純増加に寄与しました。これは、決済が未認識税利益残高の減少の主要な要因であることを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_011",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "2010年から2011年までの期末残高の変化率はいくらですか？",
+    "answer": [
+      [
+        "2010年の期末残高は156,925ドルで、2011年には163,607ドルとなり、約4.26％の増加となりました。"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

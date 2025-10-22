@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "finqa_d219c4cd4d_001",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "Di tahun berapa selisih antara 'net income adjusted...' dan 'net cash provided by operating activities' paling besar?",
+    "answer": [
+      [
+        "2012"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B4",
+      "C1",
+      "C4",
+      "D1",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_002",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "Berapa total 'net cash used in investing activities' selama tiga tahun dari 2012 sampai 2014?",
+    "answer": [
+      [
+        "-635.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_003",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "Berapa nilai 'net income adjusted...' untuk tahun yang melaporkan 'net cash provided by operating activities' terendah?",
+    "answer": [
+      [
+        "$ 697.2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_004",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "open_ended_reasoning",
+    "question": "Jelaskan tren tahun ke tahun untuk 'net cash provided by operating activities' antara tahun 2012 dan 2014.",
+    "answer": [
+      [
+        "'Net cash provided by operating activities' menunjukkan tren kenaikan yang konsisten dan kuat, naik dari $357,2 pada tahun 2012 menjadi $592,9 pada tahun 2013, lalu terus meningkat menjadi $669,5 pada tahun 2014. Hal ini menunjukkan peningkatan yang stabil dalam kemampuan perusahaan untuk menghasilkan uang dari operasi bisnis intinya selama periode tersebut."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_005",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "Identifikasi aktivitas arus kas yang memberikan uang (nilai positif) pada tahun 2012 tetapi menggunakan uang (nilai negatif) di tahun 2013 dan 2014.",
+    "answer": [
+      [
+        "net cash ( used in ) provided by financing activities"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_006",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "Berapa persen 'net income adjusted...' yang diubah menjadi 'net cash provided by operating activities' pada tahun 2014? Berikan jawaban dibulatkan ke satu desimal.",
+    "answer": [
+      [
+        "80.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_007",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "Jika besarnya 'net cash used in working capital' di tahun 2014 20% lebih kecil (lebih dekat ke nol), berapa 'net cash provided by operating activities' yang terhitung ulang untuk tahun tersebut?",
+    "answer": [
+      [
+        "$ 695.72"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_008",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan data yang diberikan, apa hubungan yang terlihat antara 'net income' dan 'net cash used in working capital'?",
+    "answer": [
+      [
+        "Tidak ada korelasi linier yang konsisten. Misalnya, dari tahun 2012 ke 2013, net income turun sementara cash yang digunakan untuk working capital juga turun drastis (dari -$293,2 menjadi -$9,6). Namun, dari 2013 ke 2014, net income naik signifikan, dan cash yang digunakan untuk working capital juga meningkat (dari -$9,6 menjadi -$131,1). Ini menunjukkan bahwa pertumbuhan pendapatan mungkin membutuhkan investasi lebih besar dalam working capital, tapi hubungannya tidak stabil dari tahun ke tahun."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2",
+      "D1",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_009",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "open_ended_reasoning",
+    "question": "Apa konvensi penulisan yang dipakai di tabel untuk menandai nilai negatif atau arus kas keluar?",
+    "answer": [
+      [
+        "Nilai negatif biasanya ditandai dengan tanda minus di depannya. Di banyak kasus, ini diikuti oleh nilai absolutnya dalam tanda kurung, sebagai konfirmasi visual tambahan bahwa angkanya negatif (misalnya, '-131.1 ( 131.1 )')."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "D3",
+      "B5",
+      "C5",
+      "D5",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_010",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "Data apa yang paling mencolok untuk 'net cash ( used in ) provided by financing activities' dibandingkan tahun-tahun lainnya?",
+    "answer": [
+      [
+        "-1212.3 ( 1212.3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_011",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "Berapa total arus kas bersih dari aktivitas investasi tahun 2014?",
+    "answer": [
+      [
+        "-200.8 ( 200.8 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

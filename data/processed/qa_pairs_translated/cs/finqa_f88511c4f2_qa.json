@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_f88511c4f2_001",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Jaká byla netto hodnota všech transakčních změn (kromě počátečních a koncových zůstatků a anomální hodnoty 'deconsolidation') pro závazky z likvidace aktiv v roce 2008?",
+    "answer": [
+      [
+        "-169"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_002",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Který rok zažil větší pokles závazků z 'liabilities settled'?",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_003",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "O kolik se zvýšila 'accretion expense' mezi roky 2007 a 2008?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_004",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Identifikujte položku, která představovala zvýšení závazků v roce 2008, ale snížení v roce 2007.",
+    "answer": [
+      [
+        "revisions to previous estimates"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_005",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Jaký je výsledek, pokud od počátečního zůstatku roku 2008 odečtete součet 'liabilities incurred' a 'accretion expense' za rok 2007?",
+    "answer": [
+      [
+        "1013"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_006",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Co představují 'liabilities incurred' v roce 2007 v procentech z celkového součtu 'accretion expense' za oba roky 2007 a 2008?",
+    "answer": [
+      [
+        "47.24%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_007",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Pokud by 'liabilities incurred' v roce 2008 bylo o 50 % větší, jaká by byla nová suma 'liabilities incurred' a 'liabilities settled' pro tento rok?",
+    "answer": [
+      [
+        "-49"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_008",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "Na základě struktury a hodnot tabulky, jaká je logická souvislost mezi koncovým zůstatkem za rok 2007 a počátečním zůstatkem za rok 2008?",
+    "answer": [
+      [
+        "Koncový zůstatek za rok 2007 ($ 1134) je identický s počátečním zůstatkem za rok 2008 ($ 1134). Toto ukazuje standardní účetní postup, kde uzavírací zůstatek jednoho období se stává počátečním zůstatkem následujícího období."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_009",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "Jak jsou v tabulce reprezentovány záporné finanční hodnoty, jako je 'liabilities settled'?",
+    "answer": [
+      [
+        "Záporné hodnoty jsou reprezentovány dvojitou notací: vedlejší mínusový znaménko následované číslem a také absolutní hodnota tohoto čísla uzavřená v závorkách. Například '-94 ( 94 )'."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "C5",
+      "A6",
+      "B6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_010",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifikujte dvě řádky obsahující hodnotu '2013' a vysvětlete, proč se tato hodnota jeví jako odlehlá v kontextu tabulky.",
+    "answer": [
+      [
+        "Hodnota '2013' je přítomna u položky 'held for sale (a)' v roce 2007 a 'deconsolidation of egholdings' v roce 2008. Tato hodnota je odlehlá, protože je o řád větší než většina ostatních transakčních čísel (např. 30, 66, -94) a její přítomnost narušuje matematickou vyrovnávací bilanci mezi počátečními a koncovými zůstatky pro oba roky, což naznačuje, že by to mohlo být chyba v datech nebo mimořádná položka."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_011",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Jaká byla závazek k odstranění majetku (v milionech) k 31. prosinci 2008?",
+    "answer": [
+      [
+        "$965"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

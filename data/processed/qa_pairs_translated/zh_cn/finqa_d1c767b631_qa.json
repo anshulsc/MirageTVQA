@@ -1,0 +1,198 @@
+[
+  {
+    "question_id": "finqa_d1c767b631_001",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "在哪一年，'net cash used in investing activities'的现金使用最为显著？",
+    "answer": [
+      [
+        "2018"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c767b631_002",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "表格中显示的三年'净现金提供经营活动'的总和是多少？",
+    "answer": [
+      [
+        "$ 1959.7"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d1c767b631_003",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "确定公司主要通过经营活动为其活动提供资金的年份，该年份显示经营活动产生的现金流量为正，且投资活动和筹资活动的现金流量均为负。",
+    "answer": [
+      [
+        "2016"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "B6",
+      "C4",
+      "C5",
+      "C6",
+      "D4",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c767b631_004",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "open_ended_reasoning",
+    "question": "描述公司从2016年到2018年融资活动的整体趋势。",
+    "answer": [
+      [
+        "公司融资活动在这段时间内发生了显著变化。2016年和2017年，融资活动现金流出显著，分别为666.4和1004.9，表明可能进行了债务偿还或股票回购等活动。这一趋势在2018年完全逆转，融资活动现金流入高达1853.2，表明公司可能通过债务或股权发行筹集了大量资金。"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c767b631_005",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "列出净利润高于1000美元且公司从营运资本中出现净现金流出的年份。",
+    "answer": [
+      [
+        "2018",
+        "2016"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c767b631_006",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "2017年，'净收入调整以 reconcile 到经营活动提供的净现金'这一项占'经营活动提供的净现金'的百分比是多少？",
+    "answer": [
+      [
+        "96.63%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d1c767b631_007",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "如果2016年“其他非流动资产和负债的变化”为零而非-95.5，那么该年的“经营活动产生的现金净额”是多少？",
+    "answer": [
+      [
+        "$ 608.3"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c767b631_008",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "open_ended_reasoning",
+    "question": "2018年，'投资活动使用的净现金'和'融资活动提供的（使用的）净现金'之间存在什么明显关系？这表明公司在该年度的战略是什么？",
+    "answer": [
+      [
+        "2018年，投资和融资现金流之间存在强烈的反向关系。公司用于投资的现金流出高达2491.5万美元，这主要由1853.2万美元的融资现金流入所支撑。这表明公司正在进行一项重大战略举措，例如大规模收购或重大资本支出，主要通过筹集新资本而非运营现金流来支付。"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d1c767b631_009",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "2018年与前两年（2016年和2017年）对应的现金流量数据相比，哪个具体现金流量项目在绝对值上差异最大？",
+    "answer": [
+      [
+        "net cash used in investing activities"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d1c767b631_010",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "open_ended_reasoning",
+    "question": "表格中包含类似'-431.1 ( 431.1 )'的值。根据计算得出'经营活动产生的现金流量净额'的求和结果，这种记账方式在财务报告中代表什么含义？",
+    "answer": [
+      [
+        "这种记账方式是会计中表示负数或现金流出的标准做法。前面的负号表示计算时使用的数值，而括号内的数字表示现金流出的绝对值，通常用于提高展示的清晰度。'经营活动产生的现金流量净额'总计的正确性证实了这些括号内的数值代表需要减去的值。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c767b631_011",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "2017年12月31日的经营活动中提供的净现金是多少？",
+    "answer": [
+      [
+        "$881.8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

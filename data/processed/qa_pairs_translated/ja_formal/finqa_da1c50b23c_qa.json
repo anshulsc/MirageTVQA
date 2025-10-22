@@ -1,0 +1,232 @@
+[
+  {
+    "question_id": "finqa_da1c50b23c_001",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "どのユニットタイプが最高のパラバリューを償還しましたか、その値はいくらですか？",
+    "answer": [
+      [
+        "class b-2 preferred units",
+        "$ 55.8"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_002",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "すべてのリストされているタイプの合計赎回ユニット数はいくらですか？",
+    "answer": [
+      [
+        "2271818"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_003",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "「寄付」が関与したタイプの単位ごとのパラ値を計算してください。",
+    "answer": [
+      [
+        "$10,007.17"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_004",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "現金のみで償却され、償却された単位数が2,500を超えたすべての単位タイプを特定してください。",
+    "answer": [
+      [
+        "preferred a units"
+      ],
+      [
+        "class c downreit units"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A3",
+      "B3",
+      "D3",
+      "A5",
+      "B5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_005",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "「class b」ユニットの合計で償還された総パラ値の何パーセントを占めていますか？",
+    "answer": [
+      [
+        "76.89%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_006",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "open_ended_reasoning",
+    "question": "パラ値単位あたりで最も顕著な外れ値となるユニットタイプはどれですか。計算値を用いて理由を説明してください。",
+    "answer": [
+      [
+        "「preferred a units」は最も顕著な外れ値です。そのパラ値単位あたりは$1.00（220万ドル / 2,200,000ユニット）であり、他のタイプと比べて桁違いに低いです。比較として、「class a preferred units」のパラ値単位あたりは$10,000（2,000万ドル / 2,000ユニット）、および「class c downreit units」は約$30.74（190万ドル / 61,804ユニット）です。「preferred a units」の極めて低い単位当たり値は、それが明確な外れ値であることを示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_007",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "「class a preferred units」の額面価値が10%低下した場合、すべてのユニットの新規額面価値合計（百万単位）はいくらになりますか？",
+    "answer": [
+      [
+        "$ 102.3"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_008",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "open_ended_reasoning",
+    "question": "データは、償還された単位数が多いほど総パラ値も高くなるという相関を示唆していますか。その結論を説明してください。",
+    "answer": [
+      [
+        "いいえ、データは明確な相関を示唆していません。\"class b-2 preferred units\"は比較的高い単位数（5,576）と最高のパラ値（5,580万ドル）を持っていますが、最も単位数の多い\"preferred a units\"（2,200,000）はパラ値が低く（220万ドル）です。逆に、\"class c downreit units\"は2番目に多くの単位数（61,804）を持っていますが、パラ値が最低（190万ドル）です。これは、単位タイプごとにパラ値単位が大きく異なることを示しており、単位の数量と総価値の間に単純な相関を阻害しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_009",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "open_ended_reasoning",
+    "question": "どの列が2つの異なるカテゴリの複合データを含んでおり、どの行がこれを例示していますか？",
+    "answer": [
+      [
+        "「redemption type」列に複合データが含まれています。4行目の「cash/charitable contribution」という値は、2つの異なる償還方法を1つのセルに組み合わせてこのことを例示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_010",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "「preferred」を名前に含むユニットタイプの平均パラ値（百万ドル）はいくらですか？",
+    "answer": [
+      [
+        "$ 25.6"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_011",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "open_ended_reasoning",
+    "question": "すべてのタイプAユニットの合計数量と、各ユニットの百万単位での価値はいくらですか？",
+    "answer": [
+      [
+        "タイプAユニットの合計数量は2,202,000ユニットです。プレファードAユニットのパラ値は2.2百万ドルで、クラスAプレファードユニットのパラ値は20.0百万ドルです。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

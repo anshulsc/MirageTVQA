@@ -1,0 +1,274 @@
+[
+  {
+    "question_id": "wikisql_c01440b987_001",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "1980年，哪个省的每平方公里人口密度最高？（人口除以1998年面积）",
+    "answer": [
+      [
+        "华沙省"
+      ]
+    ],
+    "evidence_cells": [
+      "B20",
+      "D20",
+      "E20",
+      "B11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_c01440b987_002",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "所有1980年人口在500,000至700,000之间的省的总行政区数量是多少？",
+    "answer": [
+      [
+        "243"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "G1",
+      "E6",
+      "G6",
+      "E7",
+      "G7",
+      "E21",
+      "G21",
+      "E22",
+      "G22"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_c01440b987_003",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "拥有最多公社的省区面积是多少平方公里？",
+    "answer": [
+      [
+        "9 211"
+      ]
+    ],
+    "evidence_cells": [
+      "D13",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G10",
+      "G11",
+      "G12",
+      "G13",
+      "G14",
+      "G15",
+      "G16",
+      "G17",
+      "G18",
+      "G19",
+      "G20",
+      "G21",
+      "G22",
+      "G23"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_c01440b987_004",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "open_ended_reasoning",
+    "question": "有一个省的名字包含日期范围。请确定这个省并解释这些日期在整组数据背景下的可能意义。",
+    "answer": [
+      [
+        "“Białystok Voivodeship (1975-1998)”这个省。日期范围的包含强烈表明该数据集代表了波兰在此特定历史时期（1975-1998年）的行政区划，即1999年重大行政区改革前的状态，那次改革建立了新的省结构。"
+      ]
+    ],
+    "evidence_cells": [
+      "B7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_c01440b987_005",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "列出所有城市数量少于10个但公社数量多于40个的省的名称。",
+    "answer": [
+      [
+        "Tarnów Voivodeship"
+      ]
+    ],
+    "evidence_cells": [
+      "B21",
+      "F21",
+      "G21",
+      "B2",
+      "F2",
+      "G2",
+      "B5",
+      "F5",
+      "G5",
+      "B15",
+      "F15",
+      "G15",
+      "B18",
+      "F18",
+      "G18"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_c01440b987_006",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "波兹南省的城市与公社数量比是多少？请以最简分数形式表示。",
+    "answer": [
+      [
+        "11:19"
+      ]
+    ],
+    "evidence_cells": [
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_c01440b987_007",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "如果1980年每个面积小于5,000平方公里的省的人口都减少5%，那么这个特定群体的新总人口是多少？",
+    "answer": [
+      [
+        "6047985"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2",
+      "D5",
+      "E5",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D16",
+      "E16",
+      "D18",
+      "E18",
+      "D20",
+      "E20",
+      "D21",
+      "E21",
+      "D22",
+      "E22"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_c01440b987_008",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "open_ended_reasoning",
+    "question": "根据数据，行政区人口规模与其下属的区县数量之间是否存在明显关系？请用具体数据点说明你的推理过程。",
+    "answer": [
+      [
+        "没有明显的或强烈的关联性。例如，卡托维兹行政区人口最多（3,733,900），但区县数量仅居中等（46）。相反，凯尔采行政区的区县数量最多（69），但人口明显较少（1,068,700）。同样，华沙作为第二人口大行政区（2,319,100），其区县数量仅为32，在表格中属于较低值。这种不一致的模式表明，人口规模本身并不能决定行政结构中的区县数量。"
+      ]
+    ],
+    "evidence_cells": [
+      "E11",
+      "G11",
+      "E13",
+      "G13",
+      "E20",
+      "G20"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_c01440b987_009",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "哪一列包含适合作为该数据集主键的简短唯一代码？",
+    "answer": [
+      [
+        "Abbreviation"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "A15",
+      "A16",
+      "A17",
+      "A18",
+      "A19",
+      "A20",
+      "A21",
+      "A22",
+      "A23"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_c01440b987_010",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "哪个省在每1000平方公里面积内的城市数量上是异常值？",
+    "answer": [
+      [
+        "Wałbrzych Voivodeship"
+      ]
+    ],
+    "evidence_cells": [
+      "B16",
+      "D16",
+      "F16",
+      "B11",
+      "D11",
+      "F11",
+      "B20",
+      "D20",
+      "F20"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_c01440b987_011",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "open_ended_reasoning",
+    "question": "行政区划的市数量与人口之间有什么规律？",
+    "answer": [
+      [
+        "一般来说，城市数量更多的行政区划人口更多，表明城市化与人口规模相关。"
+      ]
+    ],
+    "evidence_cells": [
+      "F14",
+      "E14",
+      "F9",
+      "E9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  }
+]

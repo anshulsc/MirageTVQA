@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_dbc539719b_001",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "在列出的各个州中，哪个州的每位客户产生的运营收入最高？",
+    "answer": [
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A4",
+      "B4",
+      "D4",
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_002",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "伊利诺伊州、印第安纳州和加利福尼亚州的客户总数是多少？",
+    "answer": [
+      [
+        "779881"
+      ]
+    ],
+    "evidence_cells": [
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_dbc539719b_003",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "哪个州（或哪些州）的估计服务人口最少，其运营收入占总收入的百分比是多少？",
+    "answer": [
+      [
+        "12.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "F6",
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_004",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "哪些州的客户总数占比高于其营业总收入占比？",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "indiana"
+      ],
+      [
+        "west virginia ( b )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "A5",
+      "C5",
+      "E5",
+      "A6",
+      "C6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_005",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "“其他 (c)”类别的客户总数百分比与服务人口总数百分比的比率是多少？保留两位小数。",
+    "answer": [
+      [
+        "1.01"
+      ]
+    ],
+    "evidence_cells": [
+      "E8",
+      "G8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_dbc539719b_006",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "如果宾夕法尼亚州的运营收入增加10%，在其他州收入保持不变的情况下，'subtotal (top seven states)'的新运营收入是多少？",
+    "answer": [
+      [
+        "2388.14"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_007",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "分析所列六个州的客户数量与估计服务人口之间的关系。是否存在正相关，这说明了什么？",
+    "answer": [
+      [
+        "是的，存在强正相关。随着一个州的客户数量增加，估计服务人口也倾向于增加。例如，宾夕法尼亚州拥有最多的客户（666,415）和最大的估计服务人口（220万），而西弗吉尼亚州和加利福尼亚州客户数量最少，估计服务人口也最小。这表明客户基础是这些地区业务所服务人口的直接且成比例的组成部分。"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_dbc539719b_008",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "通过计算每个州的每名客户所服务的估计人口数，确定哪个州是最显著的异常值，并解释原因。",
+    "answer": [
+      [
+        "伊利诺伊州是最显著的异常值。每个州的每名客户所服务的估计人口数为：宾夕法尼亚州（约3.30）、密苏里州（约3.23）、伊利诺伊州（约4.17）、加利福尼亚州（约3.44）、印第安纳州（约4.09）和西弗吉尼亚州（约3.52）。虽然大多数州的每名客户服务人口在3.2到3.5之间，但伊利诺伊州和印第安纳州明显更高。伊利诺伊州的比例最高，约为4.17，表明伊利诺伊州的每位客户代表了比其他州更大的服务人口比例，使其成为最显著的异常值。"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_dbc539719b_009",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "验证“subtotal ( top seven states )”和“other ( c )”的总运营收入百分比是否准确相加到“total regulated businesses”所显示的百分比。",
+    "answer": [
+      [
+        "是的，计算准确。“subtotal ( top seven states )”占总运营收入的87.0%，而“other ( c )”类别占13.0%。将这两个百分比相加（87.0% + 13.0%）得到100.0%，与“total regulated businesses”给出的值相符。"
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_010",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "从列表中的六个州中，哪两个州的客户数量之和最接近宾夕法尼亚州的客户数量？",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_011",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "加利福尼亚州的运营收入（以百万美元计）是多少？",
+    "answer": [
+      [
+        "$209.8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

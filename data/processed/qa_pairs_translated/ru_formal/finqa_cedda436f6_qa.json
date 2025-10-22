@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "finqa_cedda436f6_001",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "В каком году показатель «доход от операционной деятельности до налогообложения» был наибольшим?",
+    "answer": [
+      [
+        "2013"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_002",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Каков был общий расход по налогу на прибыль в млн долларов за все три года, отображенные в таблице?",
+    "answer": [
+      [
+        "238"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cedda436f6_003",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "За какой год наблюдается наименьший объем чистых продаж, и каков соответствующий показатель «чистого дохода от прекращенных операций (приходящегося на PPG)» в миллионах долларов?",
+    "answer": [
+      [
+        "2197"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_004",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "Опишите тенденцию изменения «чистых продаж» за период, закончившийся в 2011 году и по 2013 год.",
+    "answer": [
+      [
+        "Чистые продажи немного снизились с 1732 млн долларов в 2011 году до 1688 млн долларов в 2012 году, а затем резко упали до 108 млн долларов в 2013 году. Это указывает на значительный негативный тренд, особенно в последний год рассматриваемого периода."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_005",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Перечислите все финансовые показатели, для которых значение в 2013 году превышает сумму значений за 2012 и 2011 годы.",
+    "answer": [
+      [
+        "income from operations before income tax"
+      ],
+      [
+        "income from discontinued operations net of tax"
+      ],
+      [
+        "net income from discontinued operations ( attributable to ppg )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "A7",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_006",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "На сколько процентов увеличился \"чистый доход от прекращенных операций (приходящийся на PPG)\" с 2012 года по 2013 год?",
+    "answer": [
+      [
+        "921.9%"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cedda436f6_007",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Если «чистый доход от разделения и слияния бизнеса по химическим продуктам» в 2013 году был бы на 25% ниже, и это сокращение напрямую уменьшило «доход от операционной деятельности до налогообложения», каким было бы новое значение дохода от операционной деятельности за этот год?",
+    "answer": [
+      [
+        "1466"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_008",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "На основании представленных данных проанализируйте взаимосвязь между «net sales» и «income from operations before income tax» за три года. Существует ли постоянная корреляция?",
+    "answer": [
+      [
+        "Постоянной корреляции нет. С 2011 по 2012 год показатели демонстрируют положительную корреляцию: незначительное снижение продаж (с 1732 млн долл. до 1688 млн долл.) сопровождается снижением дохода (с 376 млн долл. до 345 млн долл.). Однако в 2013 году эта зависимость резко меняется — резкое падение чистых продаж до 108 млн долл. сопровождается резким ростом дохода до 2014 млн долл. Это указывает на то, что в 2013 году доход формировался за счет факторов, отличных от основных продаж, таких как «net gain from separation and merger of commodity chemicals business»."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cedda436f6_009",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Какой финансовый показатель имеет значение «$ 2014» млн в одном году и «2014» млн в двух других годах, выделяя несоответствие в форматировании данных для одного и того же числового значения?",
+    "answer": [
+      [
+        "less : net income attributable to non-controlling interests discontinued operations"
+      ],
+      [
+        "net gain from separation and merger of commodity chemicals business"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "A6",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_010",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "Какая статья доходов за 2013 год представляет собой наиболее значительное финансовое событие по сравнению с её нулевым или близким к нулю неявным значением в других годах, и как она, вероятно, повлияла на «доход от операционной деятельности» за этот год?",
+    "answer": [
+      [
+        "«Чистый доход от разделения и слияния бизнеса по товарным химикатам» с показателем 2192 млн. в 2013 году является наиболее значительным финансовым событием. Эта разовая прибыль, по-видимому, является основным драйвером необычно высокого «дохода от операционной деятельности до налогообложения» в размере $2014 млн. в том же году, что является существенным выбросом по сравнению с $345 млн. и $376 млн., сообщенными в 2012 и 2011 годах соответственно."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cedda436f6_011",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Какова величина расходов на налоги на прибыль на конец 2011 года?",
+    "answer": [
+      [
+        "126"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

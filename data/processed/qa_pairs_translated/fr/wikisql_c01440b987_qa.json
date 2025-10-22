@@ -1,0 +1,274 @@
+[
+  {
+    "question_id": "wikisql_c01440b987_001",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "Quel département avait la densité de population la plus élevée en 1980, calculée comme la population divisée par sa superficie en 1998 ?",
+    "answer": [
+      [
+        "Warsaw Voivodeship"
+      ]
+    ],
+    "evidence_cells": [
+      "B20",
+      "D20",
+      "E20",
+      "B11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_c01440b987_002",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "Quel est le nombre total de communes pour toutes les voïvodies ayant une population en 1980 comprise entre 500 000 et 700 000 ?",
+    "answer": [
+      [
+        "243"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "G1",
+      "E6",
+      "G6",
+      "E7",
+      "G7",
+      "E21",
+      "G21",
+      "E22",
+      "G22"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_c01440b987_003",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "Quelle est la superficie en km² du voïvodat qui a le plus de communes ?",
+    "answer": [
+      [
+        "9 211"
+      ]
+    ],
+    "evidence_cells": [
+      "D13",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G10",
+      "G11",
+      "G12",
+      "G13",
+      "G14",
+      "G15",
+      "G16",
+      "G17",
+      "G18",
+      "G19",
+      "G20",
+      "G21",
+      "G22",
+      "G23"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_c01440b987_004",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "open_ended_reasoning",
+    "question": "Un nom de voïvodie inclut une plage de dates. Identifiez cette voïvodie et expliquez la signification probable de ces dates dans le contexte de l'ensemble du jeu de données.",
+    "answer": [
+      [
+        "La voïvodie est « Białystok Voïvodie (1975-1998) ». L'inclusion de cette plage de dates suggère fortement que le jeu de données représente les divisions administratives de la Pologne telles qu'elles existaient pendant cette période historique spécifique, avant les réformes administratives majeures de 1999 qui ont établi une nouvelle structure de voïvodies."
+      ]
+    ],
+    "evidence_cells": [
+      "B7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_c01440b987_005",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "Listez les noms de toutes les voïvodies ayant moins de 10 villes mais plus de 40 communes.",
+    "answer": [
+      [
+        "Tarnów Voivodeship"
+      ]
+    ],
+    "evidence_cells": [
+      "B21",
+      "F21",
+      "G21",
+      "B2",
+      "F2",
+      "G2",
+      "B5",
+      "F5",
+      "G5",
+      "B15",
+      "F15",
+      "G15",
+      "B18",
+      "F18",
+      "G18"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_c01440b987_006",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "Quel était le rapport entre le nombre de villes et de communes dans la voïvodie de Poznań ? Exprimez la réponse sous forme de fraction simplifiée.",
+    "answer": [
+      [
+        "11:19"
+      ]
+    ],
+    "evidence_cells": [
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_c01440b987_007",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "Si la population de 1980 de chaque voïvodie ayant une superficie inférieure à 5 000 km² avait été 5 % plus faible, quelle aurait été la nouvelle population totale de ce groupe spécifique ?",
+    "answer": [
+      [
+        "6047985"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2",
+      "D5",
+      "E5",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D16",
+      "E16",
+      "D18",
+      "E18",
+      "D20",
+      "E20",
+      "D21",
+      "E21",
+      "D22",
+      "E22"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_c01440b987_008",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "open_ended_reasoning",
+    "question": "D'après les données, existe-t-il une relation claire entre la taille de la population d'une voïvodie et son nombre de communes ? Expliquez votre raisonnement en utilisant des exemples concrets.",
+    "answer": [
+      [
+        "Il n'y a pas de corrélation claire ou forte entre la population de 1980 d'une voïvodie et son nombre de communes. Par exemple, la voïvodie de Katowice a la population la plus élevée de loin (3 733 900) mais un nombre modéré de communes (46). À l'inverse, la voïvodie de Kielce a le plus grand nombre de communes (69) mais une population significativement plus petite (1 068 700). De même, Varsovie, la deuxième voïvodie la plus peuplée (2 319 100), n'a que 32 communes, ce qui est parmi les valeurs les plus basses du tableau. Ce manque de schéma cohérent suggère que la taille de la population seule ne déterminait pas le nombre de communes dans cette structure administrative."
+      ]
+    ],
+    "evidence_cells": [
+      "E11",
+      "G11",
+      "E13",
+      "G13",
+      "E20",
+      "G20"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_c01440b987_009",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "Quelle colonne contient des codes courts et uniques appropriés pour être utilisés comme clé primaire pour ce jeu de données ?",
+    "answer": [
+      [
+        "Abbreviation"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "A15",
+      "A16",
+      "A17",
+      "A18",
+      "A19",
+      "A20",
+      "A21",
+      "A22",
+      "A23"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_c01440b987_010",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "Quelle voïvodie est une anomalie pour avoir la densité la plus élevée de villes, définie comme le nombre de villes par 1000 km² de superficie ?",
+    "answer": [
+      [
+        "Wałbrzych Voivodeship"
+      ]
+    ],
+    "evidence_cells": [
+      "B16",
+      "D16",
+      "F16",
+      "B11",
+      "D11",
+      "F11",
+      "B20",
+      "D20",
+      "F20"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_c01440b987_011",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "open_ended_reasoning",
+    "question": "Quel schéma peut être observé entre le nombre de villes et la population des voïvodies ?",
+    "answer": [
+      [
+        "Les voïvodies ayant plus de villes ont généralement une population plus élevée, ce qui suggère que l'urbanisation est corrélée à la taille de la population."
+      ]
+    ],
+    "evidence_cells": [
+      "F14",
+      "E14",
+      "F9",
+      "E9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  }
+]

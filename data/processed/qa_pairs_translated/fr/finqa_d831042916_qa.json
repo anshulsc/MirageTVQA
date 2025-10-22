@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "finqa_d831042916_001",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "En quelle année l'entreprise a-t-elle connu la plus grande « perte d'exploitation en cours » ?",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_002",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Quel était le montant total des frais d'exploitation pour la période de trois ans allant de 2007 à 2009 ?",
+    "answer": [
+      [
+        "$3743"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d831042916_003",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Quelle était la valeur du « revenu non-intérêt » pour l'unique année où l'entreprise a déclaré un « résultat net (perte) » positif ?",
+    "answer": [
+      [
+        "422"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "B12",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_004",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Décrivez la tendance des « revenus totaux nets de frais d'intérêt » de 2007 à 2009.",
+    "answer": [
+      [
+        "La tendance était largement négative et volatile. Les revenus totaux ont montré une légère amélioration passant d'une perte de 2310 millions de dollars en 2007 à une perte de 2258 millions de dollars en 2008. Cependant, cela a été suivi par une chute catastrophique en 2009, où la perte a considérablement augmenté pour atteindre 10556 millions de dollars, indiquant un déclin sévère des activités génératrices de revenus de base de l'entreprise."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_005",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Listez les 'impôts sur les résultats (avantages)' pour toutes les années où le «(perte) des activités en continuation avant impôts» était supérieure à 2 500 millions de dollars.",
+    "answer": [
+      [
+        "-4369 ( 4369 )"
+      ],
+      [
+        "-1446 ( 1446 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "D7",
+      "B8",
+      "D8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_006",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "En 2009, quel pourcentage du « total des revenus nets d'intérêts » était constitué par les « revenus non intérêts » ?",
+    "answer": [
+      [
+        "84.25%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d831042916_007",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Si les 'frais d'exploitation totaux' en 2008 avaient augmenté de 20 %, quel aurait été le nouveau «(perte) de résultats continus avant impôts» pour cette année ?",
+    "answer": [
+      [
+        "$ -2871 ( 2871 )"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_008",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Selon les données, y a-t-il une corrélation constante entre des « dépenses d'exploitation » plus faibles et un « revenu net (perte) » plus élevé ?",
+    "answer": [
+      [
+        "Non, une corrélation constante n'est pas observable. Bien que 2008 ait eu les dépenses d'exploitation les plus basses (510 M$) et le revenu net le plus élevé (1820 M$), suggérant une relation inverse, ce schéma est rompu par les autres années. En 2009, les dépenses d'exploitation (1420 M$) étaient inférieures à celles de 2007 (1813 M$), mais en 2009, la perte nette était nettement plus importante (-8051 M$) par rapport à 2007 (-1968 M$). Cela indique que d'autres facteurs, comme la chute sévère des revenus, ont eu un impact beaucoup plus important sur le revenu net que les dépenses d'exploitation seules."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "A12",
+      "B4",
+      "C4",
+      "D4",
+      "B12",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d831042916_009",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "En examinant les trois dernières lignes, le calcul de « net income (loss) » est-il appliqué de manière cohérente sur les trois années ? Expliquez votre constatation.",
+    "answer": [
+      [
+        "Non, la méthode de calcul est incohérente. En 2007, « net income (loss) » (-1968 M$) est correctement dérivé en soustrayant « net income attributable to noncontrolling interests » (2 M$) de « net income (loss) before attribution... » (-1966 M$). Cependant, en 2008 et 2009, la valeur de « net income (loss) » est identique à celle de « net income (loss) before attribution... », ignorant incorrectement le montant attribuable aux intérêts non contrôlants. Cela indique une incohérence dans la structure du tableau pour les années 2008 et 2009."
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "A11",
+      "A12",
+      "B10",
+      "B11",
+      "B12",
+      "C10",
+      "C11",
+      "C12",
+      "D10",
+      "D11",
+      "D12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_010",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Quel élément financier de 2008 représente une valeur aberrante positive significative par rapport aux autres années, et quel a été son effet sur le résultat net de l'entreprise ?",
+    "answer": [
+      [
+        "L'élément « revenu (perte) des activités discontinuées, net d'impôts » de 2008, avec une valeur de 4002 millions de dollars, est une valeur aberrante positive significative par rapport à une perte de 445 millions de dollars en 2009 et à un gain plus faible de 708 millions de dollars en 2007. Cette valeur aberrante a été cruciale car elle a transformé une « perte des activités continues » substantielle de 2182 millions de dollars en un « résultat net » positif final de 1820 millions de dollars pour cette année."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "A9",
+      "A12",
+      "B9",
+      "C8",
+      "C9",
+      "C12",
+      "D9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d831042916_011",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "En tenant compte à la fois des activités en cours et des activités cessées, quel a été le changement total du bénéfice net de 2008 à 2009 ?",
+    "answer": [
+      [
+        "En 2008, le bénéfice net était de 1 820 millions de dollars. En 2009, le bénéfice net était de -8 051 millions de dollars. Le changement total du bénéfice net de 2008 à 2009 est une diminution de 9 871 millions de dollars."
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "C12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

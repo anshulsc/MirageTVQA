@@ -1,0 +1,219 @@
+[
+  {
+    "question_id": "finqa_d4496bc7b4_001",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Quel a été le changement net des obligations de retrait d'actifs au cours de 2009, calculé à partir des modifications détaillées fournies ?",
+    "answer": [
+      [
+        "137"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_002",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Quelle catégorie de changement a subi la plus grande différence absolue de valeur entre 2008 et 2009 ?",
+    "answer": [
+      [
+        "held for sale"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_003",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "En 2009, quel pourcentage des ajustements positifs totaux (dettes encourues, frais d'accrétion et révisions) était attribuable aux « révisions des estimations précédentes » ?",
+    "answer": [
+      [
+        "61.39%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_004",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Vérifiez si l'« obligation de démantèlement des actifs au 31 décembre 2008 » est correctement calculée à partir du solde initial et des modifications détaillées pour cette année. Montrez votre calcul.",
+    "answer": [
+      [
+        "Oui, le solde final de 2008 est correctement calculé. Le calcul est : 1134 $ (début) + 30 $ (engagés) - 94 $ (règlés) + 66 $ (accrétion) + 24 $ (révisions) - 195 $ (mis en vente) = 965 $, ce qui correspond à la valeur déclarée."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_005",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Si l'ajustement 'held for sale' en 2008 avait été nul, quel aurait été le montant des obligations de démantèlement d'actifs à la fin de 2008 ?",
+    "answer": [
+      [
+        "$ 1160"
+      ]
+    ],
+    "evidence_cells": [
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_006",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Analysez et comparez les principaux facteurs ayant conduit à l'évolution des obligations de retrait d'actifs entre 2008 et 2009.",
+    "answer": [
+      [
+        "En 2008, les obligations ont diminué de 169 millions de dollars, principalement en raison d'une réduction significative de 195 millions de dollars liée aux actifs «tenus pour vente» et de 94 millions de dollars de dettes réglées, ce qui a compensé les ajouts de 120 millions de dollars. En revanche, en 2009, les obligations ont augmenté de 137 millions de dollars, principalement en raison d'une révision importante des estimations antérieures de 124 millions de dollars, qui a largement compensé les 65 millions de dollars de dettes réglées."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7",
+      "C1",
+      "C7",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_007",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Quel composant financier a connu une augmentation de plus de 100 millions de dollars entre 2008 et 2009, le rendant atypique en termes de variation d'une année sur l'autre ?",
+    "answer": [
+      [
+        "revisions to previous estimates"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_008",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Identifiez l'année où les « révisions des estimations antérieures » étaient plus de cinq fois supérieures aux « passifs encourus, y compris les acquisitions ».",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B5",
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_009",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Sur la base des données des deux années, y a-t-il un motif ou une relation observable entre l'obligation initiale et les « frais d'accrétion » pour cette année ?",
+    "answer": [
+      [
+        "Oui, il existe un motif observable. Les « frais d'accrétion » semblent représenter un pourcentage relativement stable du solde initial. En 2008, ils représentaient 5,8 % du solde initial (66 M$ / 1134 M$), et en 2009, 6,6 % (64 M$ / 965 M$). Cela suggère que les frais d'accrétion sont calculés de manière cohérente sur la base de l'obligation d'ouverture, reflétant probablement la valeur temporelle de l'argent sur la passif à long terme."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_010",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Comment la structure du tableau confirme-t-elle la continuité du solde des obligations de retrait d'actifs de la fin de 2008 au début de 2009 ?",
+    "answer": [
+      [
+        "Le tableau démontre la continuité en montrant que la valeur de « obligations de retrait d'actifs au 31 décembre » dans la colonne 2008 (965 $) est identique à la valeur de « obligations de retrait d'actifs au 1er janvier » dans la colonne 2009 (965 $). Il s'agit d'une présentation standard de roll-forward comptable, où le solde de clôture d'une période devient le solde d'ouverture de la période suivante."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A7",
+      "B1",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_011",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Comment les obligations de retrait d'actifs ont-elles évolué de 2008 à 2009 ?",
+    "answer": [
+      [
+        "Les obligations de retrait d'actifs totales ont augmenté de 965 millions de dollars en 2008 à 1 102 millions de dollars en 2009"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]
