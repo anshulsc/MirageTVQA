@@ -36,7 +36,7 @@ class BaseModel:
             "max_model_len": self.cfg.model.max_model_len,
             "gpu_memory_utilization": self.cfg.model.gpu_memory_utilization,
             "trust_remote_code": True,
-            "limit_mm_per_prompt": {"image": 10, "video": 0}
+            "limit_mm_per_prompt": {"image": 2, "video": 0}
         }
         
         if hasattr(self.cfg.model, 'enable_reasoning') and self.cfg.model.enable_reasoning:

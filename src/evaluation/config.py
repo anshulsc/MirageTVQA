@@ -5,13 +5,13 @@ from dataclasses import dataclass, field
 @dataclass
 class ModelConfig:
     name: str = "qwen"
-    model_path: str = "Qwen/Qwen2.5-VL-3B-Instruct"
+    model_path: str ="Qwen/Qwen3-VL-30B-A3B-Thinking"
     tensor_parallel_size: int = 2
     max_model_len: int = 65536
     gpu_memory_utilization: float = 0.90
     temperature: float = 0.0
     max_new_tokens: int = 1096
-    batch_size: int = 4096
+    batch_size: int = 1096
 
     enable_thinking: bool | None = None  
     enable_reasoning: bool = False 
