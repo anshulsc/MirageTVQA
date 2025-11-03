@@ -17,7 +17,9 @@ REQUESTS_PER_MINUTE = 10
 LANGUAGES = {
     # Afro-Asiatic
     "ar": "Arabic (MSA)",
-
+    "he": "Hebrew",
+    "am": "Amharic",
+    
     # Austronesian
     "id_casual": "Indonesian (Casual)",
     "id_formal": "Indonesian (Formal)",
@@ -25,7 +27,9 @@ LANGUAGES = {
     "jv_ngoko": "Javanese (Ngoko - Casual)",
     "su_loma": "Sundanese",
     "tl": "Tagalog",
-
+    "ms": "Malay",
+    "fil": "Filipino",
+    
     # Indo-European
     "bn": "Bengali",
     "cs": "Czech",
@@ -38,23 +42,43 @@ LANGUAGES = {
     "ru_formal": "Russian (Formal)",
     "sc": "Sardinian",
     "si_formal_spoken": "Sinhala",
-
+    "fa": "Persian",
+    "uk": "Ukrainian",
+    "ro": "Romanian",
+    "pl": "Polish",
+    "no": "Norwegian",
+    "sv": "Swedish",
+    "da": "Danish",
+    "el": "Greek",
+    "ur": "Urdu",
+    "pb": "Punjabi",
+    "np": "Nepali",
+    "pt": "Portuguese",
+    
     # Japonic
     "ja_formal": "Japanese (Formal)",
-
+    
     # Koreanic
     "ko_formal": "Korean (Formal)",
-
+    
     # Kra-Dai
     "th": "Thai",
-
-
+    
     # Sino-Tibetan
     "nan": "Hokkien (Written)",
     "zh_cn": "Chinese (Mandarin)",
-
+    "my": "Burmese",
+    
     # Turkic
-    "az": "Azerbaijani"
+    "az": "Azerbaijani",
+    "tr": "Turkish",
+    
+    # Austroasiatic
+    "vi": "Vietnamese",
+    
+    # Dravidian
+    "ta": "Tamil",
+    "te": "Telugu",
 }
 
 
