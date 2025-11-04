@@ -1,0 +1,291 @@
+[
+  {
+    "question_id": "wikisql_9f67a2003e_001",
+    "table_id": "wikisql_9f67a2003e",
+    "question_type": "value",
+    "question": "Який вид має найвищу середню довжину пелюстки на основі наданих зразків?",
+    "answer": [
+      [
+        "I.virginica"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C2",
+      "E2",
+      "C3",
+      "E3",
+      "C4",
+      "E4",
+      "C5",
+      "E5",
+      "C6",
+      "E6",
+      "C7",
+      "E7",
+      "C8",
+      "E8",
+      "C9",
+      "E9",
+      "C10",
+      "E10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_9f67a2003e_002",
+    "table_id": "wikisql_9f67a2003e",
+    "question_type": "value",
+    "question": "Яка загальна ширина чашолистків для всіх квітів виду 'I.setosa'?",
+    "answer": [
+      [
+        "13.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "E3",
+      "B5",
+      "E5",
+      "B7",
+      "E7",
+      "B9",
+      "E9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_9f67a2003e_003",
+    "table_id": "wikisql_9f67a2003e",
+    "question_type": "value",
+    "question": "Для квітки з максимальною шириною пелюстки, яка відповідна довжина чашолистка?",
+    "answer": [
+      [
+        "6.4"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_9f67a2003e_004",
+    "table_id": "wikisql_9f67a2003e",
+    "question_type": "value",
+    "question": "Якщо б квіти були відсортовані за довжиною пелюстки у порядку зростання, який вид був би п'ятим у списку?",
+    "answer": [
+      [
+        "I.versicolor"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C2",
+      "E2",
+      "C3",
+      "E3",
+      "C4",
+      "E4",
+      "C5",
+      "E5",
+      "C6",
+      "E6",
+      "C7",
+      "E7",
+      "C8",
+      "E8",
+      "C9",
+      "E9",
+      "C10",
+      "E10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_9f67a2003e_005",
+    "table_id": "wikisql_9f67a2003e",
+    "question_type": "value",
+    "question": "Перерахуйте довжини пелюсток для всіх квітів 'I.virginica', у яких ширина чашолистка становить 2.7 або менше.",
+    "answer": [
+      [
+        "5.0"
+      ],
+      [
+        "5.3"
+      ],
+      [
+        "5.1"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "E1",
+      "B2",
+      "C2",
+      "E2",
+      "B4",
+      "E4",
+      "B10",
+      "C10",
+      "E10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_9f67a2003e_006",
+    "table_id": "wikisql_9f67a2003e",
+    "question_type": "value",
+    "question": "Для виду 'I.versicolor' яке співвідношення його середньої довжини пелюстки до його середньої ширини пелюстки?",
+    "answer": [
+      [
+        "3.2"
+      ]
+    ],
+    "evidence_cells": [
+      "C6",
+      "D6",
+      "E6",
+      "C8",
+      "D8",
+      "E8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_9f67a2003e_007",
+    "table_id": "wikisql_9f67a2003e",
+    "question_type": "value",
+    "question": "Якби ширина пелюстки кожної квітки 'I.setosa' подвоїлася, якою була б нова середня ширина пелюстки для цього виду?",
+    "answer": [
+      [
+        "0.5"
+      ]
+    ],
+    "evidence_cells": [
+      "D3",
+      "E3",
+      "D5",
+      "E5",
+      "D7",
+      "E7",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_9f67a2003e_008",
+    "table_id": "wikisql_9f67a2003e",
+    "question_type": "open_ended_reasoning",
+    "question": "Виходячи з наданих даних, який загальний зв'язок між довжиною пелюстки та шириною пелюстки для всіх видів?",
+    "answer": [
+      [
+        "Дані вказують на сильну позитивну кореляцію між довжиною пелюстки та шириною пелюстки. Зі збільшенням довжини пелюстки, ширина пелюстки також послідовно збільшується. Наприклад, квіти з малою довжиною пелюстки (наприклад, 1.1, 1.4, 1.5) мають малу ширину пелюстки (0.1, 0.3, 0.4), тоді як квіти з великою довжиною пелюстки (наприклад, 5.0, 5.3, 5.6) мають велику ширину пелюстки (1.9, 1.9, 2.2)."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C4",
+      "D4",
+      "C5",
+      "D5",
+      "C6",
+      "D6",
+      "C7",
+      "D7",
+      "C8",
+      "D8",
+      "C9",
+      "D9",
+      "C10",
+      "D10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_9f67a2003e_009",
+    "table_id": "wikisql_9f67a2003e",
+    "question_type": "value",
+    "question": "Скільки різних видів представлено в цьому наборі даних?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_9f67a2003e_010",
+    "table_id": "wikisql_9f67a2003e",
+    "question_type": "open_ended_reasoning",
+    "question": "Який зразок квітки має найменшу довжину чашолистка в наборі даних, і як його розміри пелюсток порівнюються із середніми показниками для його виду?",
+    "answer": [
+      [
+        "Квітка з найменшою довжиною чашолистка - це I.setosa у рядку 3 (довжина чашолистка 4.3). Його довжина пелюстки 1.1 і ширина пелюстки 0.1 — обидва нижче середнього показника для його виду в цьому наборі даних (середня довжина пелюстки: 1.425, середня ширина пелюстки: 0.25)."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "E3",
+      "C5",
+      "D5",
+      "E5",
+      "C7",
+      "D7",
+      "E7",
+      "C9",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_9f67a2003e_011",
+    "table_id": "wikisql_9f67a2003e",
+    "question_type": "value",
+    "question": "Який вид квітки має довжину чашолистка 4.3 та ширину чашолистка 3.0?",
+    "answer": [
+      [
+        "I.setosa"
+      ]
+    ],
+    "evidence_cells": [
+      "A14",
+      "E14"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

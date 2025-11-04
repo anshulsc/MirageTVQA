@@ -1,0 +1,229 @@
+[
+  {
+    "question_id": "arxiv_3086dd5175_001",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Quantas opções distintas estão disponíveis no total para todos os hiperparâmetros classificados como 'Categorical'?",
+    "answer": [
+      [
+        "11"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_002",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Quais hiperparâmetros têm o maior número de opções discretas listadas em seu 'Intervalo / Opções'?",
+    "answer": [
+      [
+        "Hidden units"
+      ],
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_003",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Liste todos os hiperparâmetros não Categóricos cujo intervalo numérico inclui o valor 1.",
+    "answer": [
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_004",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Qual a porcentagem dos hiperparâmetros listados são do tipo 'Contínuo'?",
+    "answer": [
+      [
+        "33.33%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_005",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Para o hiperparâmetro com o menor número de opções discretas, qual é o seu tipo?",
+    "answer": [
+      [
+        "Categorical"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C4",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_006",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Quantas categorias únicas de 'Tipo' estão listadas na tabela e quais são elas?",
+    "answer": [
+      [
+        "Existem 3 categorias únicas de 'Tipo' listadas na tabela: Contínuo, Categórico e Inteiro."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_007",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Se o intervalo 'Número de camadas R-GCN' fosse expandido para '1 a 7' e um novo hiperparâmetro 'Categorical' 'Tamanho do lote' com opções '{16, 32, 64}' fosse adicionado, qual seria a nova contagem total de opções discretas em todos os hiperparâmetros não contínuos?",
+    "answer": [
+      [
+        "21"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5",
+      "B6",
+      "C2",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_008",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Qual hiperparâmetro do tipo 'Contínuo' tem um formato de intervalo especificado de forma única em comparação com os outros do seu tipo, e o que o torna único?",
+    "answer": [
+      [
+        "A 'Taxa de aprendizado' tem um formato único. Ao contrário da 'Taxa de dropout', que tem um intervalo numérico simples, o intervalo da 'Taxa de aprendizado' é especificado usando notação científica e inclui uma nota entre parênteses '(log-uniform)' indicando uma distribuição de amostragem específica."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_009",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Compare a complexidade do espaço de busca para hiperparâmetros do tipo 'Contínuo' versus tipo 'Categórico', conforme descrito na tabela.",
+    "answer": [
+      [
+        "Com base na tabela, hiperparâmetros do tipo 'Contínuo' têm um espaço de busca infinitamente maior do que os do tipo 'Categórico'. Parâmetros 'Contínuos', como 'Taxa de aprendizado', podem assumir qualquer valor real dentro de seus limites, criando infinitas possibilidades. Em contraste, parâmetros 'Categóricos', como 'Otimizador', possuem um conjunto pequeno e finito de opções listadas, tornando seu espaço de busca discreto e contável."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_010",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Qual hiperparâmetro cujas opções listadas são todas potências de 2?",
+    "answer": [
+      [
+        "Hidden units"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_011",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Qual é o tipo de taxa de aprendizado?",
+    "answer": [
+      [
+        "Continuous"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,308 @@
+[
+  {
+    "question_id": "wikisql_f791ddac33_001",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "Elvis Presley'in listedeki tüm şarkılarından topladığı toplam puan kaç?",
+    "answer": [
+      [
+        "839"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "E5",
+      "B8",
+      "E8",
+      "B10",
+      "E10",
+      "B24",
+      "E24"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_002",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "En az bir şarkısı 'En Yüksek pozisyon'da 1 numaraya ulaşan sanatçılar arasında, listedeki şarkı başına en yüksek ortalama puana sahip sanatçı kimdir?",
+    "answer": [
+      [
+        "Anita Lindblom"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "E5",
+      "B8",
+      "E8",
+      "B10",
+      "E10",
+      "B24",
+      "E24",
+      "D5",
+      "D10",
+      "D24",
+      "B12",
+      "D12",
+      "E12",
+      "B13",
+      "D13",
+      "E13",
+      "B21",
+      "D21",
+      "E21",
+      "B25",
+      "D25",
+      "E25"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_003",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "'En yüksek pozisyonu' 2 olan ve ayrıca 200'den fazla puan alan şarkı başlıklarını listele.",
+    "answer": [
+      [
+        "\" Æille så ner som a Ingebjørg \""
+      ],
+      [
+        "\" I'm Lookin' Out the Window \""
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "E2",
+      "C6",
+      "D6",
+      "E6",
+      "C7",
+      "D7",
+      "E7",
+      "C9",
+      "D9",
+      "E9",
+      "C19",
+      "D19",
+      "E19"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_004",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "'En iyi 'En Yüksek Pozisyon'a sahip 'The Shadows' grubunun şarkısı, listelenen diğer şarkılarından kaç puan daha iyi performans gösteriyor?",
+    "answer": [
+      [
+        "121"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2",
+      "E2",
+      "B20",
+      "D20",
+      "E20"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_005",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "Bu listedeki tüm şarkılardan elde edilen toplam puanın yüzde kaçı 1 numaralı 'En Yüksek Pozisyon'a ulaşan şarkılardan gelmiştir? Cevabı iki ondalık basamağa yuvarlayarak verin.",
+    "answer": [
+      [
+        "47.21%"
+      ]
+    ],
+    "evidence_cells": [
+      "D3",
+      "E3",
+      "D5",
+      "E5",
+      "D10",
+      "E10",
+      "D12",
+      "E12",
+      "D13",
+      "E13",
+      "D21",
+      "E21",
+      "D24",
+      "E24",
+      "D25",
+      "E25",
+      "E1",
+      "E2",
+      "E4",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E11",
+      "E14",
+      "E15",
+      "E16",
+      "E17",
+      "E18",
+      "E19",
+      "E20",
+      "E22",
+      "E23",
+      "E26",
+      "E27"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_006",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "En üst 3'e ulaşan ve o en iyi performans seviyesindeki diğer şarkılardan belirgin şekilde daha düşük olan, aykırı bir puan toplamına sahip olan şarkı hangisidir?",
+    "answer": [
+      [
+        "\" Telstar \""
+      ]
+    ],
+    "evidence_cells": [
+      "C16",
+      "D16",
+      "E16",
+      "D3",
+      "E3",
+      "D5",
+      "E5",
+      "D10",
+      "E10",
+      "D2",
+      "E2",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_007",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "open_ended_reasoning",
+    "question": "'En Yüksek Pozisyon' ile bir şarkının aldığı 'Puan' arasındaki ilişkiyi sağlanan verilere dayanarak açıklayın.",
+    "answer": [
+      [
+        "'En Yüksek Pozisyon' numarası ile bir şarkının aldığı 'Puan' arasında güçlü bir negatif korelasyon vardır. Daha düşük bir 'En Yüksek Pozisyon' numarası (örneğin, 1 veya 2), tutarlı bir şekilde daha yüksek bir puan toplamıyla ilişkilidir. Örneğin, en çok puanı alan (383) şarkı 1. pozisyona ulaşmış ve 250'nin üzerinde puana sahip tüm şarkılar 1. veya 2. pozisyonda zirveye ulaşmıştır. Tersine, \"Guitar Tango\" (10. pozisyon, 22 puan) ve \"Swiss Maid\" (8. pozisyon, 75 puan) gibi daha yüksek bir 'En Yüksek Pozisyon' numarasına sahip şarkılar, daha az puana sahiptir; bu da daha iyi liste performansının daha yüksek puan birikimine yol gösterdiği anlamına gelir."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D6",
+      "E6",
+      "D7",
+      "E7",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D10",
+      "E10",
+      "D11",
+      "E11",
+      "D12",
+      "E12",
+      "D13",
+      "E13",
+      "D14",
+      "E14",
+      "D15",
+      "E15",
+      "D16",
+      "E16",
+      "D17",
+      "E17",
+      "D18",
+      "E18",
+      "D19",
+      "E19",
+      "D20",
+      "E20",
+      "D21",
+      "E21",
+      "D22",
+      "E22",
+      "D23",
+      "E23",
+      "D24",
+      "E24",
+      "D25",
+      "E25",
+      "D26",
+      "E26",
+      "D27",
+      "E27"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_008",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "Bu listedeki ilk 10'luk 'Pozisyon'da yer alan hangi şarkı, 1 numaralı 'En Yüksek Pozisyon'a ulaşamadı?",
+    "answer": [
+      [
+        "\" Æille så ner som a Ingebjørg \""
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "A5",
+      "D5",
+      "A6",
+      "C6",
+      "D6",
+      "A21",
+      "D21",
+      "A25",
+      "D25"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_009",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "Bu listede birden fazla kaydı bulunan sanatçıların tüm şarkılarına %10 puan bonusu verilseydi, The Shadows grubunun 'Wonderful Land' şarkısının yeni puan toplamı ne olurdu?",
+    "answer": [
+      [
+        "157.3"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "E2",
+      "B5",
+      "B6",
+      "B8",
+      "B10",
+      "B20",
+      "B24",
+      "B26"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  }
+]

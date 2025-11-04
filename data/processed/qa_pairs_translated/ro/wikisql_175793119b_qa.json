@@ -1,0 +1,252 @@
+[
+  {
+    "question_id": "wikisql_175793119b_001",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "În ce meci, identificat după dată, a avut cel mai bun marcator o performanță excepțională, înscriind cu cel puțin 14 puncte mai mult decât al doilea marcator principal din acest set de date?",
+    "answer": [
+      [
+        "March 8"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "F9",
+      "B4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_175793119b_003",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "Care a fost adversarul echipei Portland Trail Blazers în meciul care le-a întrerupt cea mai lungă serie de înfrângeri prezentată în acest tabel?",
+    "answer": [
+      [
+        "Milwaukee Bucks"
+      ]
+    ],
+    "evidence_cells": [
+      "I2",
+      "I3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_175793119b_004",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "Enumerați datele jocurilor în care Portland Trail Blazers au câștigat ca echipă vizitatoare și audiența a fost sub 19.000.",
+    "answer": [
+      [
+        "March 11"
+      ],
+      [
+        "March 22"
+      ]
+    ],
+    "evidence_cells": [
+      "C6",
+      "D6",
+      "G6",
+      "B6",
+      "C11",
+      "D11",
+      "G11",
+      "B11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_175793119b_005",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "Ce procent din meciurile în care Portland Trail Blazers a fost echipa gazdă s-au soldat cu o victorie?",
+    "answer": [
+      [
+        "60"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "D2",
+      "E7",
+      "D7",
+      "E8",
+      "D8",
+      "E9",
+      "D9",
+      "E13",
+      "D13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_175793119b_006",
+    "table_id": "wikisql_175793119b",
+    "question_type": "open_ended_reasoning",
+    "question": "Descrie modelul de performanță al echipei Portland Trail Blazers între 10 martie și 22 martie. Această perioadă a fost caracterizată de consistență sau volatilitate?",
+    "answer": [
+      [
+        "Perioada de la 10 martie la 22 martie a fost caracterizată de o volatilitate ridicată și o lipsă de consistență. Rezultatele echipei au urmat un tipar strict alternant de înfrângere-victorie timp de șase jocuri consecutive, așa cum o demonstrează secvența coloanei 'Streak': L1, W1, L1, W1, L1, W1. Nu au reușit să-și creeze niciun avânt până la ultimul joc al acestei perioade, pe 22 martie, unde au obținut prima lor victorie consecutivă (W2)."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "I5",
+      "I6",
+      "I7",
+      "I8",
+      "I9",
+      "I10",
+      "I11"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_175793119b_007",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "În ce meci, identificat după dată, Portland Trail Blazers a obținut cea mai mare marjă de victorie?",
+    "answer": [
+      [
+        "March 25"
+      ]
+    ],
+    "evidence_cells": [
+      "B13",
+      "D3",
+      "D4",
+      "D6",
+      "D8",
+      "D10",
+      "D11",
+      "D13",
+      "C3",
+      "E3",
+      "C4",
+      "E4",
+      "C6",
+      "E6",
+      "C8",
+      "E8",
+      "C10",
+      "E10",
+      "C11",
+      "E11",
+      "C13",
+      "E13"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_175793119b_008",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "Dacă meciul cu prelungiri din 8 martie s-ar fi încheiat cu o înfrângere pentru Portland la aceeași diferență de 6 puncte în loc de o victorie, care ar fi fost noul lor record victorii-înfrângeri după acel meci?",
+    "answer": [
+      [
+        "32–31"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_175793119b_009",
+    "table_id": "wikisql_175793119b",
+    "question_type": "open_ended_reasoning",
+    "question": "Pe baza datelor, există o corelație clară între totalul de puncte individuale al celui mai bun marcator și rezultatul meciului (Victorie/Înfrângere) pentru Portland Trail Blazers? Justificați răspunsul dumneavoastră.",
+    "answer": [
+      [
+        "Nu există o corelație clară între totalul de puncte al celui mai bun marcator și victoria sau înfrângerea Trail Blazers. De exemplu, meciul cu cel mai mare total de puncte de la un marcator principal (Robinson: 45) a fost o victorie. Totuși, meciul cu al doilea cel mai mare total (Aldridge: 31) a fost o înfrângere. Dimpotrivă, echipa a obținut victorii atunci când cel mai bun marcator al lor a avut un total relativ modest, cum ar fi 23 de puncte (Roy pe 22 martie). Acest lucru indică faptul că, deși o performanță individuală cu scor mare poate contribui, nu este un predictor fiabil al unei victorii pentru echipă pe baza acestui set de date."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6",
+      "D7",
+      "F7",
+      "D8",
+      "F8",
+      "D9",
+      "F9",
+      "D10",
+      "F10",
+      "D11",
+      "F11",
+      "D12",
+      "F12",
+      "D13",
+      "F13",
+      "D14",
+      "F14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_175793119b_010",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "Identificați jucătorul care a fost cel mai frecvent marcator principal în acest set de jocuri și calculați scorul mediu al acestuia în acele cazuri.",
+    "answer": [
+      [
+        "Aldridge, 27.75"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_175793119b_011",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "Care joc a avut cea mai mică audiență în setul de date?",
+    "answer": [
+      [
+        "March 24 vs Seattle SuperSonics"
+      ]
+    ],
+    "evidence_cells": [
+      "B12",
+      "F12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

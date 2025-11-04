@@ -1,0 +1,219 @@
+[
+  {
+    "question_id": "wikisql_6bc6a489de_001",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "value",
+    "question": "Hvilket projekt havde det højeste 'No. in series' blandt dem, der blev sendt i april 2011?",
+    "answer": [
+      [
+        "London Aquatics Centre"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "A2",
+      "G2",
+      "A3",
+      "G3",
+      "A4",
+      "G4",
+      "E4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_002",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "value",
+    "question": "Hvor mange episoder blev sendt mellem begyndelsen af maj og slutningen af juni 2011?",
+    "answer": [
+      [
+        "2"
+      ]
+    ],
+    "evidence_cells": [
+      "G5",
+      "G6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_003",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "value",
+    "question": "Hvad er landet for projektet vist i episoden, der blev sendt umiddelbart efter \"London's Olympic Aquatic Stadium\"?",
+    "answer": [
+      [
+        "Serbia"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_004",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "value",
+    "question": "De fire første episoder blev sendt med et konsekvent ugentligt interval. Hvad var tidsrummet i dage mellem den fjerde og femte episode, hvilket repræsenterer en pause i tidsplanen?",
+    "answer": [
+      [
+        "50"
+      ]
+    ],
+    "evidence_cells": [
+      "G4",
+      "G5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_005",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "value",
+    "question": "Vis titlerne på alle episoder, der indeholder projekter i lande, som hverken er i Europa eller Nordamerika.",
+    "answer": [
+      [
+        "\"Drought-Proofing Australia\"",
+        "\"Azerbaijan's Amazing Transformation\"",
+        "\"Building Mumbai 's Modern Airport\""
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_006",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "value",
+    "question": "Hvilken procentdel af de anførte episoder blev sendt i andre måneder end april?",
+    "answer": [
+      [
+        "42.86%"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_007",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "value",
+    "question": "Hvis episoden \"Rebuilding New York City's Subway\" var blevet sendt to uger tidligere, hvad ville dens oprindelige udsendelsesdato så have været?",
+    "answer": [
+      [
+        "March 25, 2011"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "G1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_008",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "open_ended_reasoning",
+    "question": "Baseret på de angivne data, hvad er forholdet mellem kolonnerne 'No. in series' og 'No. in season'?",
+    "answer": [
+      [
+        "Der er et direkte og konsekvent positivt lineært forhold. For hver stigning på 1 i kolonnen 'No. in season', stiger kolonnen 'No. in series' også med præcis 1. Dette antyder, at afsnittene er listet i perfekt kronologisk rækkefølge for denne specifikke sæson."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_009",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvilken kolonne i datasættet har en konstant værdi for hver post, og hvad er denne værdi?",
+    "answer": [
+      [
+        "Kolonnen 'Status at production' har en konstant værdi af 'Under construction' for alle de listede episoder."
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_010",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "open_ended_reasoning",
+    "question": "De fire første episoder blev sendt på fortløbende fredage i april. Identificer den første episode, der bryder dette ugentlige mønster, og beskriv afvigelsen i dens udsendelsesdato.",
+    "answer": [
+      [
+        "Episoden \"Constructing Serbia's Largest Bridge\" er den første, der bryder mønsteret. Mens de fire første episoder blev sendt præcis 7 dage fra hinanden, blev denne episode sendt den 18. juni 2011, hvilket var 50 dage efter den foregående episode den 29. april 2011, og blev desuden sendt på en lørdag, ikke en fredag."
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "G4",
+      "C5",
+      "G5",
+      "G1",
+      "G2",
+      "G3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_011",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "value",
+    "question": "Hvilket land havde et projekt, der blev sendt i juni 2011?",
+    "answer": [
+      [
+        "Serbia",
+        "Netherlands"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  }
+]

@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_6a1e911894_001",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Se o tempo de entrega T for 30, qual variável SIDC representa o encerramento dos livros de ordens e a que horas de negociação t ocorre este evento?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_002",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Qual é a diferença fundamental entre os períodos de negociação definidos por SIDCO e SIDCL em relação ao tempo de entrega?",
+    "answer": [
+      [
+        "A diferença fundamental reside no momento em que ocorrem em relação à entrega. O SIDCO define o período em que os livros de ofertas estão abertos, o que deve ocorrer pelo menos duas unidades de tempo antes da entrega (T-t ≥ 2). Em contraste, o SIDCL define o período após o encerramento dos livros de ofertas, que ocorre dentro de duas unidades de tempo da entrega (T-t ≤ 2)."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_003",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "De acordo com as interpretações fornecidas, quantas horas decorrem entre a primeira e a segunda onda de acoplamento dos livros de ordens transfronteiriços?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_004",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Com base nas condições de tempo de negociação, qual evento SIDC representa o momento específico que antecede imediatamente o início do período SIDCL?",
+    "answer": [
+      [
+        "SIDCC"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_005",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Para um produto com tempo de entrega T=20, qual dos dois eventos especificados de \"onda\" (SIDC1 ou SIDC2) não poderia ocorrer porque seu tempo de negociação cairia fora do período aberto válido?",
+    "answer": [
+      [
+        "SIDC2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_006",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Se a segunda onda de acoplamento (SIDC2) for adiada para ocorrer em t=30, qual seria o tempo mínimo de entrega inteiro T necessário para que este evento ainda caia no período geral aberto definido por SIDCO?",
+    "answer": [
+      [
+        "32"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_007",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Quais são os parâmetros comuns usados na notação semelhante a uma função para cada variável listada na coluna 'Variable'?",
+    "answer": [
+      [
+        "d"
+      ],
+      [
+        "h"
+      ],
+      [
+        "t"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_008",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Uma negociação é realizada no tempo de negociação t=20 para um produto com tempo de entrega T=25. Quais condições da variável SIDC esta negociação satisfaz?",
+    "answer": [
+      [
+        "SIDCO"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_009",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Qual variável marca a transição do período SIDCO para o período SIDCL, e qual é a sua condição de tempo de negociação definidora?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "T-t=2"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_010",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Contraste o escopo temporal da variável SIDCO com o da variável SIDC1 com base em suas definições.",
+    "answer": [
+      [
+        "SIDCO representa um período contínuo de tempo em que os livros de ofertas estão abertos, definido pelo intervalo t≥12 e T-t≥2. Em contraste, SIDC1 representa um único ponto discreto no tempo, t=12, que marca o momento específico do primeiro evento de acoplamento no início do período SIDCO."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_011",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Qual variável SIDC representa o encerramento dos livros de ordens transfronteiriças e sob qual condição de tempo de negociação ocorre?",
+    "answer": [
+      [
+        "A variável SIDC꜀(d,h,t) representa o encerramento dos livros de ordens transfronteiriças e ocorre quando T − t = 2."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,328 @@
+[
+  {
+    "question_id": "wikisql_6c797e0437_001",
+    "table_id": "wikisql_6c797e0437",
+    "question_type": "value",
+    "question": "Vilket/vilka tåg som slutar i New Delhi går oftare än 'Dibrugarh Rajdhani Express' (tågnummer 12235/36)?",
+    "answer": [
+      [
+        "Poorvottar Sampark Kranti Express"
+      ],
+      [
+        "Dibrugarh Rajdhani Express"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2",
+      "E2",
+      "B5",
+      "D5",
+      "E5",
+      "B10",
+      "D10",
+      "E10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_6c797e0437_002",
+    "table_id": "wikisql_6c797e0437",
+    "question_type": "value",
+    "question": "Hur många tåg som listas i tabellen har Guwahati som antingen ursprung eller destination?",
+    "answer": [
+      [
+        "10"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C6",
+      "D6",
+      "C8",
+      "D8",
+      "C9",
+      "D9",
+      "C12",
+      "D12",
+      "C13",
+      "D13",
+      "C14",
+      "D14",
+      "C18",
+      "D18"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_6c797e0437_003",
+    "table_id": "wikisql_6c797e0437",
+    "question_type": "value",
+    "question": "Vilken är frekvensen för 'Dibrugarh Rajdhani Express' som har 'Dibrugarh Town' som ursprung, snarare än 'Dibrugarh'?",
+    "answer": [
+      [
+        "Bi weekly"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "B10",
+      "C10",
+      "E10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_6c797e0437_004",
+    "table_id": "wikisql_6c797e0437",
+    "question_type": "value",
+    "question": "Bland tåg som avgår från Dibrugarh eller Dibrugarh Town, vilken är den vanligaste operativa frekvensen?",
+    "answer": [
+      [
+        "Weekly"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "E5",
+      "C7",
+      "E7",
+      "C10",
+      "E10",
+      "C11",
+      "E11"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_6c797e0437_005",
+    "table_id": "wikisql_6c797e0437",
+    "question_type": "value",
+    "question": "Lista namnen på alla tåg som har Guwahati som destination och som går med en frekvens större än 'Veckovis'.",
+    "answer": [
+      [
+        "Kanchanjunga Express"
+      ],
+      [
+        "Mumbai LTT - Guwahati Express"
+      ],
+      [
+        "Jivachh Link Express"
+      ],
+      [
+        "Kolkata – Guwahati Garib Rath Express"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "E1",
+      "B6",
+      "D6",
+      "E6",
+      "B9",
+      "D9",
+      "E9",
+      "B12",
+      "D12",
+      "E12",
+      "B13",
+      "D13",
+      "E13",
+      "B14",
+      "D14",
+      "E14",
+      "B18",
+      "D18",
+      "E18"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_6c797e0437_006",
+    "table_id": "wikisql_6c797e0437",
+    "question_type": "value",
+    "question": "Vilken andel av tågen som går 'dagligen' har Kamakhya som ursprung?",
+    "answer": [
+      [
+        "33.33%"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "E4",
+      "C6",
+      "E6",
+      "C7",
+      "E7",
+      "C12",
+      "E12",
+      "C15",
+      "E15",
+      "C17",
+      "E17"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_6c797e0437_007",
+    "table_id": "wikisql_6c797e0437",
+    "question_type": "value",
+    "question": "Om alla 'Veckovis' tåg hypotetiskt skulle uppgraderas till 'Tre gånger i veckan', och alla 'Två gånger i veckan' tåg skulle nedgraderas till 'Veckovis', hur många tåg skulle då klassificeras som 'Veckovis'?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12",
+      "E13",
+      "E14",
+      "E15",
+      "E16",
+      "E17",
+      "E18"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_6c797e0437_008",
+    "table_id": "wikisql_6c797e0437",
+    "question_type": "open_ended_reasoning",
+    "question": "Finns det, baserat på de angivna uppgifterna, en märkbar korrelation mellan att ett tåg betecknas som 'Express' och dess frekvens? Motivera ditt svar.",
+    "answer": [
+      [
+        "Det finns ingen tydlig korrelation mellan ett tågs 'Express'-beteckning och dess frekvens. Datamängden visar att tåg med 'Express' i sina namn spänner över hela registret av frekvenser: Daglig (t.ex. Kanchanjunga Express), Tre gånger i veckan (t.ex. Poorvottar Sampark Kranti Express), Två gånger i veckan (t.ex. Mumbai LTT - Guwahati Express) och Veckovis (t.ex. Lohit Express). Dessutom är de allra flesta tåg i denna lista (17 av 18) 'Express' eller motsvarande högt prioriterade typer, vilket ger ett otillräckligt urval av icke-express-tåg för en robust jämförelse. Det enda icke-express-tåget, Brahmaputra Mail, går dagligen, en frekvens som delas av många Express-tåg. Därför förutsäger 'Express'-titeln ingen specifik operativ frekvens."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "E1",
+      "B2",
+      "E2",
+      "B3",
+      "E3",
+      "B4",
+      "E4",
+      "B5",
+      "E5",
+      "B6",
+      "E6",
+      "B7",
+      "E7",
+      "B8",
+      "E8",
+      "B9",
+      "E9",
+      "B10",
+      "E10",
+      "B11",
+      "E11",
+      "B12",
+      "E12",
+      "B13",
+      "E13",
+      "B14",
+      "E14",
+      "B15",
+      "E15",
+      "B16",
+      "E16",
+      "B17",
+      "E17",
+      "B18",
+      "E18"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_6c797e0437_009",
+    "table_id": "wikisql_6c797e0437",
+    "question_type": "value",
+    "question": "Identifiera de två tågen som delar ett nästan identiskt namn men har olika tågnummer och frekvenser.",
+    "answer": [
+      [
+        "Mumbai LTT-Guwahati Express (15647/48)"
+      ],
+      [
+        "Mumbai LTT - Guwahati Express (15645/46)"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "E1",
+      "A9",
+      "B9",
+      "E9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_6c797e0437_010",
+    "table_id": "wikisql_6c797e0437",
+    "question_type": "value",
+    "question": "Vilket tåg är en avvikelse i den här datamängden eftersom det betjänar en destinationsstad som ingen annan tåg på den här listan betjänar?",
+    "answer": [
+      [
+        "Dibrugarh Chandigarh Express"
+      ]
+    ],
+    "evidence_cells": [
+      "B11",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11",
+      "D12",
+      "D13",
+      "D14",
+      "D15",
+      "D16",
+      "D17",
+      "D18"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_6c797e0437_011",
+    "table_id": "wikisql_6c797e0437",
+    "question_type": "value",
+    "question": "Vilka tåg går varannan vecka från Mumbai till Guwahati?",
+    "answer": [
+      [
+        "Mumbai LTT - Guwahati Express"
+      ]
+    ],
+    "evidence_cells": [
+      "B23",
+      "C23",
+      "E23"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  }
+]

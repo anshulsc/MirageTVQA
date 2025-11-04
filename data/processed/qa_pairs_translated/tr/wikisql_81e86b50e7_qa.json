@@ -1,0 +1,299 @@
+[
+  {
+    "question_id": "wikisql_81e86b50e7_001",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "Hayatta kalmayan ('Hayatta Kaldı?' = 0) tüm şirketler için ortalama 'Mevcut Oran' nedir?",
+    "answer": [
+      [
+        "701"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B4",
+      "D4",
+      "B5",
+      "D5",
+      "B11",
+      "D11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_002",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "Hayatta kalan ve 'Net değerin sabit varlıklara oranı' 200'den büyük olan şirketlerin sektörlerini listeleyin.",
+    "answer": [
+      [
+        "Phonographs and records manufacture"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "F6",
+      "B7",
+      "F7",
+      "B8",
+      "F8",
+      "B9",
+      "F9",
+      "B10",
+      "F10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_003",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "En yüksek 'Hızlı oran' ile gösterilen en güçlü likidite pozisyonuna sahip hayatta kalan şirket ('Hayatta mı?' = 1) hangisidir?",
+    "answer": [
+      [
+        "Phonographs and records manufacture"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "E6",
+      "B7",
+      "C7",
+      "E7",
+      "B8",
+      "C8",
+      "E8",
+      "B9",
+      "C9",
+      "E9",
+      "B10",
+      "C10",
+      "E10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_004",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "Hayatta kalan şirketin 'Sabit varlıklara net değer' oranı, başarısız olan şirketin oranının iki katından fazla olan, eşleştirilmiş hayatta kalma sonuçlarına sahip hangi endüstri içindir?",
+    "answer": [
+      [
+        "Phonographs and records manufacture"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "F1",
+      "B7",
+      "C7",
+      "F7",
+      "B2",
+      "C2",
+      "F2",
+      "B8",
+      "C8",
+      "F8",
+      "B5",
+      "C5",
+      "F5",
+      "B6",
+      "C6",
+      "F6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_005",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "Hayatta kalan tüm şirketlerin toplam 'Mevcut oranına' 'Çelik ürünleri imalatı' şirketi yüzde kaç katkıda bulunur? Bir ondalık basamağa yuvarlayın.",
+    "answer": [
+      [
+        "26.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "D6",
+      "B7",
+      "D7",
+      "B8",
+      "D8",
+      "B9",
+      "C9",
+      "D9",
+      "B10",
+      "D10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_006",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "Muhasebe hatası bulunup başarısız olan 'Piyano imalatı ve satışı' şirketinin 'Cari oranı' aslında 50 puan daha düşük olsaydı, tüm başarısız şirketler için yeni ortalama 'Cari oranı' ne olurdu?",
+    "answer": [
+      [
+        "692.67"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B4",
+      "D4",
+      "B5",
+      "D5",
+      "B11",
+      "D11"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_007",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "open_ended_reasoning",
+    "question": "Bu verilere göre, daha yüksek bir 'Hızlı oran' (Quick ratio) hayatta kalma ile tutarlı bir pozitif korelasyon gösteriyor mu? Cevabınızı verilerle gerekçelendirin.",
+    "answer": [
+      [
+        "Hayır, daha yüksek bir 'Hızlı oran' (Quick ratio) hayatta kalma ile tutarlı bir pozitif korelasyon göstermiyor. Üç eşleştirilmiş sektörden ikisinde ('Pamuklu tekstil' ve 'Fonograflar'), hayatta kalan şirketin oranı daha yüksek olsa da, 'Et paketleme' sektörü doğrudan bir karşı örnek sunuyor. Başarısız olan 'Et paketleme' şirketinin 'Hızlı oranı' 302 idi, bu da hayatta kalan benzerine göre 221 oranından önemli ölçüde daha yüksektir."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "E1",
+      "B2",
+      "C2",
+      "E2",
+      "B5",
+      "C5",
+      "E5",
+      "B6",
+      "C6",
+      "E6",
+      "B7",
+      "C7",
+      "E7",
+      "B8",
+      "C8",
+      "E8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_008",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "open_ended_reasoning",
+    "question": "Tüm şirketler arasında 'Mevcut oran'a göre önemli bir aykırı değer taşıyan şirket hangisidir ve hayatta kalma sonucu ne olmuştur?",
+    "answer": [
+      [
+        "'Yaka ve gömlek imalatı' sektöründeki şirket, 2525 'Mevcut oran' ile aykırı değerdir. Bu şirket hayatta kalmamıştır (Survive? = 0)."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_009",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "Bu veri setinde hayatta kalan ve hayatta kalmayan şirketlerin eşit sayıda temsil edildiği sektörler hangileridir?",
+    "answer": [
+      [
+        "Cotton textile industry of New England"
+      ],
+      [
+        "Meat-packing"
+      ],
+      [
+        "Phonographs and records manufacture"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_010",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "'Varlık verimliliği'ni 'Net değerin sabit varlıklara oranı' olarak tanımlarsak, en düşük Cari Oranlara sahip (13 ve 9 Numaralı Çift ID'ler) iki başarısız şirketten hangisi daha iyi varlık verimliliği gösterdi?",
+    "answer": [
+      [
+        "Phonographs and records manufacture"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "F1",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "F5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_011",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "open_ended_reasoning",
+    "question": "Hayatta kalan şirketlerle ilişkilendirilen finansal özellikler nelerdir?",
+    "answer": [
+      [
+        "Hayatta kalan şirketler genellikle daha yüksek cari ve likit oranları gösterir, bu da daha iyi likiditeyi ve kısa vadeli finansal sağlığı düşündürür."
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2",
+      "D4",
+      "E4",
+      "D8",
+      "E8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  }
+]

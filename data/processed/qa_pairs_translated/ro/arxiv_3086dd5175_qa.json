@@ -1,0 +1,229 @@
+[
+  {
+    "question_id": "arxiv_3086dd5175_001",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Câte opțiuni distincte sunt disponibile în total pentru toți hiperparametrii clasificați ca 'Categorical'?",
+    "answer": [
+      [
+        "11"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_002",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Care hiperparametri au cel mai mare număr de opțiuni discrete listate în câmpul lor 'Interval / Opțiuni'?",
+    "answer": [
+      [
+        "Hidden units"
+      ],
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_003",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Enumerați toți hiperparametrii non-categorici al căror interval numeric include valoarea 1.",
+    "answer": [
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_004",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Ce procent din hiperparametrii listați sunt de tipul 'Continuu'?",
+    "answer": [
+      [
+        "33.33%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_005",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Pentru hiperparametrul cu cele mai puține opțiuni discrete, care este tipul său?",
+    "answer": [
+      [
+        "Categorical"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C4",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_006",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Câte categorii unice de 'Tip' sunt listate în tabel și care sunt acestea?",
+    "answer": [
+      [
+        "Există 3 categorii unice de 'Tip' listate în tabel: Continuu, Categoric și Întreg."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_007",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Dacă intervalul 'Număr de straturi R-GCN' ar fi extins la '1 la 7' și un nou hiperparametru 'Categoric' 'Dimensiune lot' cu opțiunile '{16, 32, 64}' ar fi fost adăugat, care ar fi noul număr total de opțiuni discrete pe toate hiperparametrii non-continui?",
+    "answer": [
+      [
+        "21"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5",
+      "B6",
+      "C2",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_008",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Ce hiperparametru de tip 'Continuu' are un format de interval unic specificat comparativ cu celelalte de tipul său și ce îl face unic?",
+    "answer": [
+      [
+        "Rata de învățare' are un format unic. Spre deosebire de 'Rata de dropout', care are un interval numeric simplu, intervalul pentru 'Rata de învățare' este specificat folosind notație științifică și include o notă între paranteze '(log-uniform)' care indică o distribuție specifică de eșantionare."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_009",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Comparați complexitatea spațiului de căutare pentru hiperparametrii de tip 'Continuu' versus tipul 'Categoric', așa cum sunt descriși în tabel.",
+    "answer": [
+      [
+        "Pe baza tabelului, hiperparametrii de tip 'Continuu' au un spațiu de căutare infinit mai mare decât cei 'Categorici'. Parametrii 'Continui', cum ar fi 'Rata de învățare', pot lua orice valoare reală în limitele lor, creând posibilități infinite. În contrast, parametrii 'Categorici', cum ar fi 'Optimizatorul', au un set mic, finit de opțiuni listate, făcând spațiul lor de căutare discret și numărabil."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_010",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Care hiperparametru are opțiuni listate care sunt toate puteri ale lui 2?",
+    "answer": [
+      [
+        "Hidden units"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_011",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Care este tipul ratei de învățare?",
+    "answer": [
+      [
+        "Continuous"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

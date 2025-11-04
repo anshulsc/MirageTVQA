@@ -1,0 +1,285 @@
+[
+  {
+    "question_id": "wikisql_f791ddac33_001",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "Care sunt punctele totale acumulate de Elvis Presley din toate melodiile sale listate în clasament?",
+    "answer": [
+      [
+        "839"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "E5",
+      "B8",
+      "E8",
+      "B10",
+      "E10",
+      "B24",
+      "E24"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_002",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "Dintre artiștii cu cel puțin o melodie care a atins poziția maximă numărul 1, care artist are cele mai multe puncte medii per melodie listată?",
+    "answer": [
+      [
+        "Anita Lindblom"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "E5",
+      "B8",
+      "E8",
+      "B10",
+      "E10",
+      "B24",
+      "E24",
+      "D5",
+      "D10",
+      "D24",
+      "B12",
+      "D12",
+      "E12",
+      "B13",
+      "D13",
+      "E13",
+      "B21",
+      "D21",
+      "E21",
+      "B25",
+      "D25",
+      "E25"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_003",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "Enumerați titlurile cântecelor care au atins o 'Poziție maximă' de 2 și au acumulat mai mult de 200 de puncte.",
+    "answer": [
+      [
+        "\" Æille så ner som a Ingebjørg \""
+      ],
+      [
+        "\" I'm Lookin' Out the Window \""
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "E2",
+      "C6",
+      "D6",
+      "E6",
+      "C7",
+      "D7",
+      "E7",
+      "C9",
+      "D9",
+      "E9",
+      "C19",
+      "D19",
+      "E19"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_004",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "Cu câte puncte depășește melodia de la 'The Shadows' cu cea mai bună 'Poziție maximă' cealaltă melodie a lor listată?",
+    "answer": [
+      [
+        "121"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2",
+      "E2",
+      "B20",
+      "D20",
+      "E20"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_005",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "Ce procent din totalul punctelor obținute de toate melodiile din acest clasament au fost contribuite de melodiile care au atins poziția maximă numărul 1? Oferiți răspunsul rotunjit la două zecimale.",
+    "answer": [
+      [
+        "47.21%"
+      ]
+    ],
+    "evidence_cells": [
+      "D3",
+      "E3",
+      "D5",
+      "E5",
+      "D10",
+      "E10",
+      "D12",
+      "E12",
+      "D13",
+      "E13",
+      "D21",
+      "E21",
+      "D24",
+      "E24",
+      "D25",
+      "E25",
+      "E1",
+      "E2",
+      "E4",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E11",
+      "E14",
+      "E15",
+      "E16",
+      "E17",
+      "E18",
+      "E19",
+      "E20",
+      "E22",
+      "E23",
+      "E26",
+      "E27"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_006",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "Ce melodie care a atins o \"poziție maximă\" în top 3 are un total de puncte care este un valor aberant, fiind semnificativ mai mic decât alte melodii din acel nivel de performanță de top?",
+    "answer": [
+      [
+        "\" Telstar \""
+      ]
+    ],
+    "evidence_cells": [
+      "C16",
+      "D16",
+      "E16",
+      "D3",
+      "E3",
+      "D5",
+      "E5",
+      "D10",
+      "E10",
+      "D2",
+      "E2",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_007",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "open_ended_reasoning",
+    "question": "Descrie relația dintre \"Poziția cea mai înaltă\" a unui cântec și \"Punctele\" sale, pe baza datelor furnizate.",
+    "answer": [
+      [
+        "Există o puternică corelație negativă între numărul \"Poziției celei mai înalte\" și \"Punctele\" pe care le primește un cântec. O poziție \"Cea mai înaltă\" mai mică (de exemplu, 1 sau 2) este în mod constant asociată cu un total mai mare de puncte. De exemplu, cântecul cu cele mai multe puncte (383) a atins poziția 1, iar toate cântecele cu peste 250 de puncte au atins poziția 1 sau 2. În schimb, cântecele cu un număr mai mare al \"Poziției celei mai înalte\", precum \"Guitar Tango\" (poziția 10, 22 de puncte) și \"Swiss Maid\" (poziția 8, 75 de puncte), au semnificativ mai puține puncte, indicând faptul că o performanță mai bună în clasament duce la o acumulare mai mare de puncte."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D6",
+      "E6",
+      "D7",
+      "E7",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D10",
+      "E10",
+      "D11",
+      "E11",
+      "D12",
+      "E12",
+      "D13",
+      "E13",
+      "D14",
+      "E14",
+      "D15",
+      "E15",
+      "D16",
+      "E16",
+      "D17",
+      "E17",
+      "D18",
+      "E18",
+      "D19",
+      "E19",
+      "D20",
+      "E20",
+      "D21",
+      "E21",
+      "D22",
+      "E22",
+      "D23",
+      "E23",
+      "D24",
+      "E24",
+      "D25",
+      "E25",
+      "D26",
+      "E26",
+      "D27",
+      "E27"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_008",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "Ce melodie, cu o 'Poziție' finală în top 10 al acestui clasament, nu a reușit să ajungă pe prima poziție ca 'Cea mai înaltă poziție'?",
+    "answer": [
+      [
+        "\" Æille så ner som a Ingebjørg \""
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "A5",
+      "D5",
+      "A6",
+      "C6",
+      "D6",
+      "A21",
+      "D21",
+      "A25",
+      "D25"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  }
+]

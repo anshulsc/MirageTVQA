@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_6a1e911894_001",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Kung ang oras ng paghahatid T ay 30, aling SIDC variable ang kumakatawan sa pagsasara ng mga order book, at sa anong trading time t nangyayari ang kaganapang ito?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_002",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Ano ang pangunahing pagkakaiba sa pagitan ng mga panahon ng pangangalakal na tinukoy ng SIDCO at SIDCL kaugnay sa oras ng paghahatid?",
+    "answer": [
+      [
+        "Ang pangunahing pagkakaiba ay nakasalalay sa kanilang oras kumpara sa paghahatid. Tinutukoy ng SIDCO ang panahon kung kailan bukas ang mga order book, na dapat ay hindi bababa sa dalawang yunit ng oras bago ang paghahatid (T-t ≥ 2). Sa kabilang banda, tinutukoy ng SIDCL ang panahon pagkatapos magsara ang mga order book, na nasa loob ng dalawang yunit ng oras mula sa paghahatid (T-t ≤ 2)."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_003",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Ayon sa mga interpretasyon na ibinigay, ilang oras ang lumipas sa pagitan ng una at pangalawang alon ng pag-uugnay ng cross-border order book?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_004",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Batay sa mga kondisyon ng oras ng pangangalakal, aling SIDC event ang kumakatawan sa tiyak na sandali na kaagad na nauuna sa pagsisimula ng SIDCL period?",
+    "answer": [
+      [
+        "SIDCC"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_005",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Para sa isang produkto na may delivery time T=20, alin sa dalawang tinukoy na \"wave\" events (SIDC1 o SIDC2) ang hindi maaaring mangyari dahil ang trading time nito ay mahuhulog sa labas ng balidong bukas na panahon?",
+    "answer": [
+      [
+        "SIDC2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_006",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Kung ang ikalawang alon ng pag-uugnay (SIDC2) ay naantala at naganap sa t=30, ano ang magiging pinakamaliit na integer na oras ng paghahatid T na kinakailangan upang ang pangyayaring ito ay manatili sa loob ng pangkalahatang bukas na panahon na tinukoy ng SIDCO?",
+    "answer": [
+      [
+        "32"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_007",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Ano ang mga karaniwang parameter na ginagamit sa notasyong parang function para sa bawat variable na nakalista sa kolum na 'Variable'?",
+    "answer": [
+      [
+        "d"
+      ],
+      [
+        "h"
+      ],
+      [
+        "t"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_008",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Ang isang trade ay inilagay sa trading time na t=20 para sa isang produkto na may delivery time na T=25. Aling SIDC variable ang mga kondisyon nito ang natutugunan ng trade na ito?",
+    "answer": [
+      [
+        "SIDCO"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_009",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Aling variable ang nagmamarka ng transisyon mula sa panahon ng SIDCO patungo sa panahon ng SIDCL, at ano ang kondisyon ng trading time nito?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "T-t=2"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_010",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Ihambing ang saklaw ng oras ng variable na SIDCO sa variable na SIDC1 batay sa kanilang mga depinisyon.",
+    "answer": [
+      [
+        "Ang SIDCO ay kumakatawan sa isang tuloy-tuloy na panahon kung kailan bukas ang mga order book, na tinukoy ng saklaw na t≥12 at T-t≥2. Sa kabaligtaran, ang SIDC1 ay kumakatawan sa isang solong, tiyak na punto sa oras, t=12, na siyang nagmamarka ng eksaktong sandali ng unang kaganapan ng pag-uugnay sa simula ng panahon ng SIDCO."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_011",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Aling SIDC variable ang kumakatawan sa pagsasara ng mga cross-border order book at sa anong kondisyon ng trading time ito nangyayari?",
+    "answer": [
+      [
+        "Ang variable na SIDC꜀(d,h,t) ay kumakatawan sa pagsasara ng mga cross-border order book, at ito ay nangyayari kapag T − t = 2."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

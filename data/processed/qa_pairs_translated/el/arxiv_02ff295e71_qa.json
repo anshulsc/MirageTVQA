@@ -1,0 +1,202 @@
+[
+  {
+    "question_id": "arxiv_02ff295e71_001",
+    "table_id": "arxiv_02ff295e71",
+    "question_type": "value",
+    "question": "Ποια εργασία, 'StockFormer' ή 'EarnHFT', αναφέρει υψηλότερη ποσοστιαία αύξηση στα κύρια αποτελέσματά της;",
+    "answer": [
+      [
+        "StockFormer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_02ff295e71_002",
+    "table_id": "arxiv_02ff295e71",
+    "question_type": "value",
+    "question": "Ποιος είναι ο μέσος λόγος Sharpe (SR) που αναφέρεται για τις εργασίες που αναφέρουν ρητά αυτήν τη μετρική;",
+    "answer": [
+      [
+        "12.44"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_02ff295e71_003",
+    "table_id": "arxiv_02ff295e71",
+    "question_type": "value",
+    "question": "Ποια είναι η βασική καινοτομία της εργασίας που χρησιμοποιεί μια ιεραρχία PPO-DDPG στη μεθοδολογία της;",
+    "answer": [
+      [
+        "Integrated selection-execution"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_02ff295e71_004",
+    "table_id": "arxiv_02ff295e71",
+    "question_type": "value",
+    "question": "Ποια εργασία έχει σχεδιαστεί ρητά για να αντιμετωπίσει ένα οικονομικό πρόβλημα που ορίζεται από τη χρονική του φύση, συγκεκριμένα την ανίχνευση κραχ στην αγορά;",
+    "answer": [
+      [
+        "TRR"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_02ff295e71_005",
+    "table_id": "arxiv_02ff295e71",
+    "question_type": "value",
+    "question": "Απαριθμήστε τα έργα που χρησιμοποιούν κάποια μορφή «Ιεραρχικής» μάθησης στη μεθοδολογία τους και των οποίων τα αποτελέσματα καθορίζονται για αγορές «κρυπτονομισμάτων».",
+    "answer": [
+      [
+        "EarnHFT"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_02ff295e71_006",
+    "table_id": "arxiv_02ff295e71",
+    "question_type": "value",
+    "question": "Για την εργασία 'CPPI-MADDPG', υπολογίστε τον λόγο της Ετήσιας Απόδοσής της (AR) προς τον λόγο Sharpe (SR).",
+    "answer": [
+      [
+        "4.44"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "D7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_02ff295e71_007",
+    "table_id": "arxiv_02ff295e71",
+    "question_type": "value",
+    "question": "Αν ο χρόνος παραγωγής για το 'DRPO' βελτιωνόταν κατά 20%, ποιος θα ήταν ο νέος του χρόνος σε χιλιοστά του δευτερολέπτου;",
+    "answer": [
+      [
+        "332ms"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_02ff295e71_008",
+    "table_id": "arxiv_02ff295e71",
+    "question_type": "open_ended_reasoning",
+    "question": "Τι σχέση μπορεί να συναχθεί μεταξύ της χρήσης μεθοδολογιών Ενισχυτικής Μάθησης (RL) και των τύπων χρηματοοικονομικών προβλημάτων που επιλύονται σε αυτό το σύνολο δεδομένων;",
+    "answer": [
+      [
+        "Τα δεδομένα υποδηλώνουν ισχυρή συσχέτιση μεταξύ μεθοδολογιών που βασίζονται στην Ενισχυτική Μάθηση (RL) και του στόχου της βελτιστοποίησης δυναμικών, διαδοχικών εργασιών λήψης αποφάσεων. Εργασίες όπως το MacMic (Ιεραρχική RL για εκτέλεση εντολών), το EarnHFT (Q-learning για συναλλαγές), το CPPI-MADDPG (RL πολλαπλών παραγόντων για ασφάλιση χαρτοφυλακίου) και το HRT (PPO-DDPG για επιλογή-εκτέλεση) αξιοποιούν διαφορετικές μορφές RL για την ανάπτυξη προσαρμοστικών στρατηγικών για συναλλαγές, εκτέλεση και διαχείριση χαρτοφυλακίου, αντί για στατική πρόβλεψη."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_02ff295e71_009",
+    "table_id": "arxiv_02ff295e71",
+    "question_type": "value",
+    "question": "Ποια στήλη στον πίνακα αφιερώνεται κυρίως στην παρουσίαση ποσοτικών μετρικών απόδοσης;",
+    "answer": [
+      [
+        "Primary Results"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D4",
+      "D6",
+      "D7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_02ff295e71_010",
+    "table_id": "arxiv_02ff295e71",
+    "question_type": "value",
+    "question": "Ποια εργασία έχει ως κύριο αποτέλεσμα μια τιμή που αποτελεί απόκλιση, καθώς μετράται σε μονάδες χρόνου (λανθάνουσα κατάσταση) αντί για χρηματοοικονομική απόδοση ή ποιοτικό αποτέλεσμα;",
+    "answer": [
+      [
+        "DRPO"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_02ff295e71_011",
+    "table_id": "arxiv_02ff295e71",
+    "question_type": "open_ended_reasoning",
+    "question": "Ποια εργασία πέτυχε τις υψηλότερες ποσοστιαίες αποδόσεις σε σύγκριση με τη βάση αναφοράς της;",
+    "answer": [
+      [
+        "StockFormer με +40,3% αποδόσεις έναντι SAC"
+      ]
+    ],
+    "evidence_cells": [
+      "D2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

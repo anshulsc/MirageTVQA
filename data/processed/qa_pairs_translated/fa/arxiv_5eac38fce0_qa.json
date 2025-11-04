@@ -1,0 +1,216 @@
+[
+  {
+    "question_id": "arxiv_5eac38fce0_001",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "کدام استراتژی پورتفولیو بیشترین بهبود درصدی را در نسبت کالمار ارائه می‌دهد؟",
+    "answer": [
+      [
+        "AlphaSharpe"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_002",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "درصد بهبود کل در نسبت شارپ در صورتی که بهبود تمام استراتژی های غیر پایه را جمع بزنید چقدر است؟",
+    "answer": [
+      [
+        "147.91%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_003",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "استراتژی‌ای را که بیشترین بهبود را در نسبت شارپ داشته است شناسایی کنید و بهبود متناظر آن را در نسبت کلمار بیان کنید.",
+    "answer": [
+      [
+        "+10.44%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "C3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_004",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "فهرست استراتژی‌های پورتفولیو که در آنها بهبود نسبت کالمار کمتر از ۱۵٪ است و بهبود نسبت شارپ بیشتر از ۳۵٪ است.",
+    "answer": [
+      [
+        "Risk Parity"
+      ],
+      [
+        "Equal Risk Cont."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_005",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "درصد بهبود کلمار کل در تمام استراتژی‌های غیرپایه که توسط استراتژی 'AlphaSharpe' مشارکت شده است، چقدر است؟",
+    "answer": [
+      [
+        "84.83%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_006",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "اگر بهبود عملکرد استراتژی 'Risk Parity' برای هر دو معیار ۱۰ واحد درصد بیش از حد تخمین زده شده باشد، آیا همچنان نسبت به خط پایه 'Equal Weighted' برتری خواهد داشت؟",
+    "answer": [
+      [
+        "بله، همچنان برتری خواهد داشت. ΔSharpe تعدیل شده آن +۲۸.۳۲٪ و ΔCalmar تعدیل شده آن +۰.۳۶٪ خواهد بود. از آنجایی که هر دو مقدار همچنان بیشتر از ۰.۰۰٪ خط پایه 'Equal Weighted' هستند، نشان دهنده بهبود خواهند بود."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_007",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "آیا داده‌ها نشان‌دهنده یک رابطه خطی ثابت بین بهبود نسبت‌های شارپ و کالمار در بین تمام استراتژی‌های غیر پایه هستند؟ دلیل خود را توضیح دهید.",
+    "answer": [
+      [
+        "خیر، داده‌ها نشان‌دهنده یک رابطه خطی ثابت نیستند. در حالی که 'Risk Parity' و 'Equal Risk Cont.' نمایه مشابهی را نشان می‌دهند که در آن یک ΔSharpe بزرگ متناظر با یک ΔCalmar متوسط است، استراتژی 'AlphaSharpe' این الگو را مختل می‌کند. این استراتژی یک ΔCalmar عظیم را نشان می‌دهد که بسیار بیشتر از ΔSharpe آن است، که نشان می‌دهد رابطه بین این دو معیار غیرخطی است و به شدت به استراتژی بستگی دارد."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_008",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "چه تعداد از استراتژی‌ها در جدول، بهبود بیشتری در نسبت کالمر خود نسبت به نسبت شارپ خود دارند؟",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_009",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "کدام استراتژی پرتفوی از نظر تعادل بین بهبود نسبت شارپ و کالمار آن در مقایسه با سایر استراتژی‌های غیرپایه، یک داده پرت (outlier) محسوب می‌شود و چرا؟",
+    "answer": [
+      [
+        "استراتژی 'AlphaSharpe' یک داده پرت است. برای 'Risk Parity' و 'Equal Risk Cont.'، بهبود نسبت شارپ تقریباً 3.7 برابر بزرگتر از بهبود نسبت کالمار است. در مقابل، 'AlphaSharpe' این روند را معکوس می‌کند، به طوری که بهبود کالمار آن (+116.31%) به طور قابل توجهی بزرگتر از بهبود شارپ آن (+71.04%) است، که نشان‌دهنده بهبود پروفایل ریسک-بازده اساساً متفاوت است."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "A4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_010",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "استراتژی‌های 'Risk Parity' و 'Equal Risk Cont.' را مقایسه کنید. کدام یک نمایانگر عملکرد بهتری بر اساس معیارهای ارائه شده است و در هر معیار چقدر تفاوت دارد؟",
+    "answer": [
+      [
+        "'Equal Risk Cont.' نمایانگر عملکرد بهتری است. این استراتژی با 0.23 درصد واحد بهبود بیشتر در نسبت شارپ (38.55% در مقابل 38.32%) و 0.08 درصد واحد بهبود بیشتر در نسبت کالمار (10.44% در مقابل 10.36%) از 'Risk Parity' بهتر عمل می‌کند."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_011",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "مقدار ΔSharpe (%) برای استراتژی پرتفوی 'Equal Risk Cont.' در جدول چقدر است؟",
+    "answer": [
+      [
+        "+38.55%"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

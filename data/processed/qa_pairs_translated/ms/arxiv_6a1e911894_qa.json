@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_6a1e911894_001",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Jika masa penghantaran T ialah 30, pemboleh ubah SIDC manakah yang mewakili penutupan buku pesanan, dan pada masa dagangan t manakah peristiwa ini berlaku?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_002",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Apakah perbezaan asas antara tempoh dagangan yang ditakrifkan oleh SIDCO dan SIDCL berhubung dengan masa penghantaran?",
+    "answer": [
+      [
+        "Perbezaan asas terletak pada masanya berhubung dengan penghantaran. SIDCO mentakrifkan tempoh apabila buku pesanan dibuka, yang mesti sekurang-kurangnya dua unit masa sebelum penghantaran (T-t ≥ 2). Sebaliknya, SIDCL mentakrifkan tempoh selepas buku pesanan ditutup, yang berada dalam tempoh dua unit masa dari penghantaran (T-t ≤ 2)."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_003",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Berdasarkan tafsiran yang diberikan, berapakah tempoh masa dalam jam antara gelombang pertama dan kedua sambungan buku pesanan rentas sempadan?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_004",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Berdasarkan syarat masa dagangan, acara SIDC manakah yang mewakili detik spesifik yang mendahului tempoh SIDCL dengan serta-merta?",
+    "answer": [
+      [
+        "SIDCC"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_005",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Bagi produk dengan masa penghantaran T=20, peristiwa \"gelombang\" (SIDC1 atau SIDC2) yang manakah tidak dapat berlaku kerana masa dagangannya akan jatuh di luar tempoh sah dibuka?",
+    "answer": [
+      [
+        "SIDC2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_006",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Jika gelombang kedua penyambungan (SIDC2) ditangguhkan berlaku pada t=30, apakah masa penghantaran integer minimum T yang diperlukan agar peristiwa ini masih termasuk dalam tempoh terbuka umum yang ditakrifkan oleh SIDCO?",
+    "answer": [
+      [
+        "32"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_007",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Apakah parameter umum yang digunakan dalam notasi seperti fungsi untuk setiap pembolehubah yang disenaraikan dalam lajur 'Pembolehubah'?",
+    "answer": [
+      [
+        "d"
+      ],
+      [
+        "h"
+      ],
+      [
+        "t"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_008",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Satu dagangan diletakkan pada masa dagangan t=20 untuk produk dengan masa penghantaran T=25. Syarat pembolehubah SIDC yang manakah dipenuhi oleh dagangan ini?",
+    "answer": [
+      [
+        "SIDCO"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_009",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Pemboleh ubah manakah yang menandakan peralihan daripada tempoh SIDCO kepada tempoh SIDCL, dan apakah syarat masa dagangannya?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "T-t=2"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_010",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Bandingkan skop masa pemboleh ubah SIDCO dengan pemboleh ubah SIDC1 berdasarkan definisi mereka.",
+    "answer": [
+      [
+        "SIDCO mewakili tempoh masa berterusan apabila buku pesanan dibuka, ditakrifkan oleh julat t≥12 dan T-t≥2. Sebaliknya, SIDC1 mewakili satu titik masa yang diskret, t=12, yang menandakan detik spesifik acara sambungan pertama pada permulaan tempoh SIDCO."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_011",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Pembolehubah SIDC manakah yang mewakili penutupan buku pesanan rentas sempadan dan pada keadaan masa dagangan yang manakah ia berlaku?",
+    "answer": [
+      [
+        "Pembolehubah SIDC꜀(d,h,t) mewakili penutupan buku pesanan rentas sempadan, dan ia berlaku apabila T − t = 2."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

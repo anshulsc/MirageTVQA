@@ -1,0 +1,310 @@
+[
+  {
+    "question_id": "wikisql_592ca23134_001",
+    "table_id": "wikisql_592ca23134",
+    "question_type": "value",
+    "question": "Hvilket fylke hadde den minste prosentpoengforskjellen mellom Kerry og Bush?",
+    "answer": [
+      [
+        "Winnebago"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_592ca23134_002",
+    "table_id": "wikisql_592ca23134",
+    "question_type": "value",
+    "question": "Hva var det totale antallet stemmer avgitt for Bush i alle listede fylker?",
+    "answer": [
+      [
+        "534400"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12",
+      "E13",
+      "E14",
+      "E15",
+      "E16",
+      "E17",
+      "E18",
+      "E19",
+      "E20",
+      "E21",
+      "E22"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_592ca23134_003",
+    "table_id": "wikisql_592ca23134",
+    "question_type": "value",
+    "question": "I fylket med færrest avgitte stemmer totalt (Kerry# + Bush# + Others#), hva var Kerrys prosentandel av stemmene?",
+    "answer": [
+      [
+        "50.8%"
+      ]
+    ],
+    "evidence_cells": [
+      "A22",
+      "C22",
+      "E22",
+      "G22",
+      "B22"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_592ca23134_004",
+    "table_id": "wikisql_592ca23134",
+    "question_type": "value",
+    "question": "List alle fylker der Bush fikk over 60 % av stemmene OG Kerry fikk færre enn 5 000 stemmer.",
+    "answer": [
+      [
+        "Cumberland"
+      ],
+      [
+        "Johnson"
+      ],
+      [
+        "Ford"
+      ],
+      [
+        "Effingham"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "C3",
+      "A8",
+      "D8",
+      "C8",
+      "A9",
+      "D9",
+      "C9",
+      "A12",
+      "D12",
+      "C12",
+      "A15",
+      "D15",
+      "C15",
+      "A16",
+      "D16",
+      "C16",
+      "A17",
+      "D17",
+      "C17"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_592ca23134_005",
+    "table_id": "wikisql_592ca23134",
+    "question_type": "value",
+    "question": "Hvilken andel av Kers sine totale stemmer fra alle oppførte fylker kom fra det ene fylket der han hadde flest stemmer?",
+    "answer": [
+      [
+        "41.2%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11",
+      "C12",
+      "C13",
+      "C14",
+      "C15",
+      "C16",
+      "C17",
+      "C18",
+      "C19",
+      "C20",
+      "C21",
+      "C22"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_592ca23134_006",
+    "table_id": "wikisql_592ca23134",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvis stemmene for 'Andre' i Winnebago county ble omfordelt til Kerry, ville vinneren av det fylket ha endret seg?",
+    "answer": [
+      [
+        "Ja, vinneren ville ha endret seg fra Bush til Kerry. Opprinnelig vant Bush med 1 042 stemmer (60 782 mot 59 740). Hvis de 903 'Andre' stemmene ble omfordelt til Kerry, ville han ha fått 60 643 stemmer, noe som fortsatt er mindre enn Bushs totale antall. Derfor ville Bush fortsatt vinne, men med en mye mindre margin på 139 stemmer. Vent, la meg regne om. Kerrys nye total ville være 59 740 + 903 = 60 643. Bushs totale antall er 60 782. Bush vinner fortsatt. Min forrige konklusjon var feil. Vinneren ville IKKE ha endret seg."
+      ],
+      [
+        "Nei, vinneren ville ikke ha endret seg. Bush vant opprinnelig med 60 782 stemmer mot Kerrys 59 740. Å legge til de 903 'Andre' stemmene til Kerrys total gir 60 643 stemmer, noe som fortsatt er mindre enn Bushs totale antall. Bush ville forbli vinneren, men med en mye mindre margin på 139 stemmer."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "E6",
+      "G6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_592ca23134_007",
+    "table_id": "wikisql_592ca23134",
+    "question_type": "open_ended_reasoning",
+    "question": "Basert på dataene, er det et observerbart forhold mellom en høyere prosentandel stemmer for 'Andre' og et jevnere løp mellom Kerry og Bush?",
+    "answer": [
+      [
+        "Det er ingen konsekvent sammenheng. Fylket med høyest 'Andre'-prosent er Jackson (1,3 %), der løpet ikke var spesielt jevnt (en margin på 12,1 prosentpoeng for Kerry). Motsatt var det jevneste løpet i Winnebago (en margin på 0,9 prosentpoeng), som hadde en under gjennomsnittet 'Andre'-prosent på 0,7 %. Dette antyder at prestasjonen til tredjepartskandidater ikke er en pålitelig prediktor for marginen mellom de to hovedkandidatene i dette datasettet."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "D6",
+      "F6",
+      "B13",
+      "D13",
+      "F13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_592ca23134_008",
+    "table_id": "wikisql_592ca23134",
+    "question_type": "value",
+    "question": "Hvilket fylke er det mest signifikante avviket når det gjelder totale rå stemmer avgitt for alle kandidater samlet?",
+    "answer": [
+      [
+        "DuPage"
+      ]
+    ],
+    "evidence_cells": [
+      "A19",
+      "C19",
+      "E19",
+      "G19"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_592ca23134_009",
+    "table_id": "wikisql_592ca23134",
+    "question_type": "value",
+    "question": "Hva er det antatte totale antallet stemmer avgitt i Effingham fylke, basert på de oppgitte prosentandelene og rå antall stemmer for en enkelt kandidat?",
+    "answer": [
+      [
+        "16278"
+      ]
+    ],
+    "evidence_cells": [
+      "B16",
+      "C16",
+      "D16",
+      "E16"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_592ca23134_010",
+    "table_id": "wikisql_592ca23134",
+    "question_type": "value",
+    "question": "Hvilken kandidat, Kerry eller Bush, vant flere fylker totalt, og med hvor mange?",
+    "answer": [
+      [
+        "Bush"
+      ],
+      [
+        "10"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B4",
+      "D4",
+      "B5",
+      "D5",
+      "B6",
+      "D6",
+      "B7",
+      "D7",
+      "B8",
+      "D8",
+      "B9",
+      "D9",
+      "B10",
+      "D10",
+      "B11",
+      "D11",
+      "B12",
+      "D12",
+      "B13",
+      "D13",
+      "B14",
+      "D14",
+      "B15",
+      "D15",
+      "B16",
+      "D16",
+      "B17",
+      "D17",
+      "B18",
+      "D18",
+      "B19",
+      "D19",
+      "B20",
+      "D20",
+      "B21",
+      "D21",
+      "B22",
+      "D22"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_592ca23134_011",
+    "table_id": "wikisql_592ca23134",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvilket mønster observerer du mellom Kerry% og Bush% i de fleste fylker?",
+    "answer": [
+      [
+        "I de fleste fylker er den ene kandidatens prosentandel omvendt relatert til den andres, noe som viser klar topartikonkurranse med minimale stemmer for Andre."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B90",
+      "D90"
+    ],
+    "reasoning_category": "Correlation Inference"
+  }
+]

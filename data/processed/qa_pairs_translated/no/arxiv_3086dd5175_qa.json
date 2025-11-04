@@ -1,0 +1,229 @@
+[
+  {
+    "question_id": "arxiv_3086dd5175_001",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Hvor mange distinkte valgmuligheter finnes det totalt for alle hyperparametere klassifisert som 'Kategorisk'?",
+    "answer": [
+      [
+        "11"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_002",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Hvilke hyperparametere har det største antallet diskrete valg oppført i sitt 'Range / Options'?",
+    "answer": [
+      [
+        "Hidden units"
+      ],
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_003",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "List alle ikke-kategoriske hyperparametre hvis numeriske område inkluderer verdien 1.",
+    "answer": [
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_004",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Hvilken prosentandel av de opplistede hyperparameterne er av typen 'Continuous'?",
+    "answer": [
+      [
+        "33.33%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_005",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "For hyperparameteret med færrest diskrete alternativer, hva er dets type?",
+    "answer": [
+      [
+        "Categorical"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C4",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_006",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvor mange unike 'Type'-kategorier er listet i tabellen, og hva er de?",
+    "answer": [
+      [
+        "Det er 3 unike 'Type'-kategorier listet i tabellen: Continuous, Categorical og Integer."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_007",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Hvis 'Antall R-GCN-lag' sitt intervall ble utvidet til '1 til 7' og en ny 'Kategorisk' hyperparameter 'Batchstørrelse' med alternativene '{16, 32, 64}' ble lagt til, hva ville det nye totale antallet diskrete alternativer på tvers av alle ikke-kontinuerlige hyperparametere være?",
+    "answer": [
+      [
+        "21"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5",
+      "B6",
+      "C2",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_008",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvilken hyperparameter av typen 'Continuous' har et unikt spesifisert format for sitt intervall sammenlignet med de andre av sin type, og hva gjør den unik?",
+    "answer": [
+      [
+        "«Learning rate» har et unikt format. I motsetning til «Dropout rate», som har et enkelt numerisk intervall, er intervallet for «Learning rate» spesifisert ved bruk av vitenskapelig notasjon og inkluderer en parentetisk merknad («log-uniform») som indikerer en spesifikk samplingsfordeling."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_009",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Kontraster søkeromskompleksiteten for hyperparametre av typen 'Continuous' versus typen 'Categorical' som beskrevet i tabellen.",
+    "answer": [
+      [
+        "Basert på tabellen har hyperparametre av typen 'Continuous' et uendelig mye større søkerom enn 'Categorical' hyperparametre. 'Continuous' parametre som 'Learning rate' kan ta enhver reell verdi innenfor grensene sine, noe som skaper uendelige muligheter. I motsetning har 'Categorical' parametre som 'Optimizer' et lite, endelig sett med opplistede valg, noe som gjør søkerommet deres diskret og tellbart."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_010",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Hvilken hyperparameter sine opplistede alternativer er alle potenser av 2?",
+    "answer": [
+      [
+        "Hidden units"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_011",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Hva er typen for læringsrate?",
+    "answer": [
+      [
+        "Continuous"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

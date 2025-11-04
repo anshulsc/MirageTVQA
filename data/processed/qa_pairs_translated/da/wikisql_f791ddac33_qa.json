@@ -1,0 +1,372 @@
+[
+  {
+    "question_id": "wikisql_f791ddac33_001",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "Hvad er det samlede antal point akkumuleret af Elvis Presley fra alle hans sange, der er angivet i listen?",
+    "answer": [
+      [
+        "839"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "E5",
+      "B8",
+      "E8",
+      "B10",
+      "E10",
+      "B24",
+      "E24"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_002",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "Blandt kunstnere med mindst én sang, der nåede den højeste position som nummer 1, hvilken kunstner har de højeste gennemsnitlige point pr. sang på listen?",
+    "answer": [
+      [
+        "Anita Lindblom"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "E5",
+      "B8",
+      "E8",
+      "B10",
+      "E10",
+      "B24",
+      "E24",
+      "D5",
+      "D10",
+      "D24",
+      "B12",
+      "D12",
+      "E12",
+      "B13",
+      "D13",
+      "E13",
+      "B21",
+      "D21",
+      "E21",
+      "B25",
+      "D25",
+      "E25"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_003",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "List sangtitlerne, der nåede en 'Højeste placering' på 2 og også scorede mere end 200 point.",
+    "answer": [
+      [
+        "\" Æille så ner som a Ingebjørg \""
+      ],
+      [
+        "\" I'm Lookin' Out the Window \""
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "E2",
+      "C6",
+      "D6",
+      "E6",
+      "C7",
+      "D7",
+      "E7",
+      "C9",
+      "D9",
+      "E9",
+      "C19",
+      "D19",
+      "E19"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_004",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "Med hvor mange point overgår sangen af 'The Shadows' med den bedre 'Højeste position' deres anden listede sang?",
+    "answer": [
+      [
+        "121"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2",
+      "E2",
+      "B20",
+      "D20",
+      "E20"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_005",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "Hvilken procentdel af de samlede point fra alle sange på denne hitliste blev bidraget med af sange, der nåede den højeste position som nummer 1? Angiv svaret afrundet til to decimaler.",
+    "answer": [
+      [
+        "47.21%"
+      ]
+    ],
+    "evidence_cells": [
+      "D3",
+      "E3",
+      "D5",
+      "E5",
+      "D10",
+      "E10",
+      "D12",
+      "E12",
+      "D13",
+      "E13",
+      "D21",
+      "E21",
+      "D24",
+      "E24",
+      "D25",
+      "E25",
+      "E1",
+      "E2",
+      "E4",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E11",
+      "E14",
+      "E15",
+      "E16",
+      "E17",
+      "E18",
+      "E19",
+      "E20",
+      "E22",
+      "E23",
+      "E26",
+      "E27"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_006",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "Hvilken sang, der nåede en 'Højeste position' i top 3, har en pointtotal, der er en outlier, og er markant lavere end andre sange i det topydelsestrin?",
+    "answer": [
+      [
+        "\" Telstar \""
+      ]
+    ],
+    "evidence_cells": [
+      "C16",
+      "D16",
+      "E16",
+      "D3",
+      "E3",
+      "D5",
+      "E5",
+      "D10",
+      "E10",
+      "D2",
+      "E2",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_007",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv forholdet mellem en sangs 'Højeste placering' og dens 'Point' baseret på de givne data.",
+    "answer": [
+      [
+        "Der er en stærk negativ korrelation mellem tallet for 'Højeste placering' og 'Pointene' en sang modtager. En lavere 'Højeste placering' (f.eks. 1 eller 2) er konsekvent forbundet med en højere pointsum. For eksempel nåede sangen med flest point (383) placering 1, og alle sange med over 250 point toppede på placering 1 eller 2. Omvendt har sange med et højere 'Højeste placering'-tal, som \"Guitar Tango\" (placering 10, 22 point) og \"Swiss Maid\" (placering 8, 75 point), markant færre point, hvilket indikerer, at bedre hitlisteplacering fører til højere pointakkumulering."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D6",
+      "E6",
+      "D7",
+      "E7",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D10",
+      "E10",
+      "D11",
+      "E11",
+      "D12",
+      "E12",
+      "D13",
+      "E13",
+      "D14",
+      "E14",
+      "D15",
+      "E15",
+      "D16",
+      "E16",
+      "D17",
+      "E17",
+      "D18",
+      "E18",
+      "D19",
+      "E19",
+      "D20",
+      "E20",
+      "D21",
+      "E21",
+      "D22",
+      "E22",
+      "D23",
+      "E23",
+      "D24",
+      "E24",
+      "D25",
+      "E25",
+      "D26",
+      "E26",
+      "D27",
+      "E27"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_008",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "Hvilken sang, med en endelig 'Position' i top 10 på denne hitliste, nåede ikke den nummer 1 'Højeste position'?",
+    "answer": [
+      [
+        "\" Æille så ner som a Ingebjørg \""
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "A5",
+      "D5",
+      "A6",
+      "C6",
+      "D6",
+      "A21",
+      "D21",
+      "A25",
+      "D25"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_009",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "Hvis en 10% pointbonus blev tildelt alle sange fra kunstnere med mere end én optræden på denne hitliste, hvad ville den nye pointtotal for 'Wonderful Land' af The Shadows være?",
+    "answer": [
+      [
+        "157.3"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "E2",
+      "B5",
+      "B6",
+      "B8",
+      "B10",
+      "B20",
+      "B24",
+      "B26"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_010",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "Hvilken kunstner er mest repræsenteret på denne hitliste, og hvor mange sange har de listet?",
+    "answer": [
+      [
+        "Elvis Presley",
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13",
+      "B14",
+      "B15",
+      "B16",
+      "B17",
+      "B18",
+      "B19",
+      "B20",
+      "B21",
+      "B22",
+      "B23",
+      "B24",
+      "B25",
+      "B26",
+      "B27"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_011",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvilket mønster kan observeres mellem topplaceringer og samlede point?",
+    "answer": [
+      [
+        "Højere hitlisteplaceringer svarer generelt til højere point, men der findes undtagelser for sange med kortere hitlistevarighed."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D6",
+      "E1",
+      "E2",
+      "E3",
+      "E6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  }
+]

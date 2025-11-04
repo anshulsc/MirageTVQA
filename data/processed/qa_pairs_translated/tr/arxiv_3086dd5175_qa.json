@@ -1,0 +1,229 @@
+[
+  {
+    "question_id": "arxiv_3086dd5175_001",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Kategorik olarak sınıflandırılan tüm hiperparametreler için toplamda kaç farklı seçenek mevcuttur?",
+    "answer": [
+      [
+        "11"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_002",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Menzil / Seçenekler' sütununda en fazla sayıda ayrık seçeneğe sahip olan hiperparametreler hangileridir?",
+    "answer": [
+      [
+        "Hidden units"
+      ],
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_003",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "1 değerini içeren sayısal aralığa sahip, Kategorik olmayan tüm hiperparametreleri listele.",
+    "answer": [
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_004",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Listelenen hiperparametrelerin yüzde kaçı 'Sürekli' türündedir?",
+    "answer": [
+      [
+        "33.33%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_005",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "En az ayrık seçeneğe sahip hiperparametre hangisidir ve türü nedir?",
+    "answer": [
+      [
+        "Categorical"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C4",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_006",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Tabloda listelenen kaç tane benzersiz 'Tip' kategorisi var ve bunlar nelerdir?",
+    "answer": [
+      [
+        "Tabloda listelenen 3 tane benzersiz 'Tip' kategorisi vardır: Sürekli, Kategorik ve Tamsayı."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_007",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "'R-GCN katman sayısı' aralığı '1'den '7'ye' genişletilirse ve seçenekleri '{16, 32, 64}' olan yeni bir 'Kategorik' hiperparametre olan 'Batch size' eklenirse, tüm sürekli olmayan hiperparametreler arasındaki toplam ayrık seçenek sayısı ne olur?",
+    "answer": [
+      [
+        "21"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5",
+      "B6",
+      "C2",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_008",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "'Sürekli' türündeki hiperparametrelerden hangisinin, kendi türündeki diğerlerine kıyasla benzersiz bir aralık biçimine sahip olduğunu ve onu benzersiz yapan şeyin ne olduğunu açıklayınız?",
+    "answer": [
+      [
+        "'Öğrenme oranı' benzersiz bir formata sahiptir. Basit bir sayısal aralığa sahip olan 'Düşürme oranı'nın aksine, 'Öğrenme oranı' aralığı bilimsel gösterim kullanılarak belirtilir ve özel bir örnekleme dağılımını gösteren '(log-uniform)' şeklinde parantez içinde bir not içerir."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_009",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Tabloda belirtilen 'Sürekli' tipteki hiperparametreler ile 'Kategorik' tipteki hiperparametrelerin arama uzayı karmaşıklığını karşılaştırın.",
+    "answer": [
+      [
+        "Tabloya göre, 'Sürekli' tipteki hiperparametrelerin arama uzayı, 'Kategorik' olanlara göre sonsuz derecede daha büyüktür. 'Öğrenme oranı' gibi 'Sürekli' parametreler, sınırları dahilindeki herhangi bir reel değeri alabilir ve bu da sonsuz olasılık yaratır. Buna karşılık, 'Optimizatör' gibi 'Kategorik' parametreler, listelenmiş küçük, sonlu bir seçenek kümesine sahiptir, bu da arama uzaylarını ayrık ve sayılabilir hale getirir."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_010",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Listelenen seçenekleri 2'nin kuvvetleri olan hiperparametre hangisidir?",
+    "answer": [
+      [
+        "Hidden units"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_011",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Öğrenme oranının türü nedir?",
+    "answer": [
+      [
+        "Continuous"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

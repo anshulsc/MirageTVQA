@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_6a1e911894_001",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Jeśli czas dostawy T wynosi 30, która zmienna SIDC reprezentuje zamknięcie ksiąg zleceń i o którym czasie handlowym t następuje to zdarzenie?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_002",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Jaka jest fundamentalna różnica między okresami handlowymi zdefiniowanymi przez SIDCO i SIDCL w odniesieniu do czasu dostawy?",
+    "answer": [
+      [
+        "Fundamentalna różnica polega na ich czasie w stosunku do dostawy. SIDCO określa okres, w którym księgi zleceń są otwarte, co musi nastąpić co najmniej dwa jednostki czasu przed dostawą (T-t ≥ 2). Natomiast SIDCL określa okres po zamknięciu ksiąg zleceń, który przypada w ciągu dwóch jednostek czasu od dostawy (T-t ≤ 2)."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_003",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Zgodnie z podanymi interpretacjami, ile godzin mija między pierwszą a drugą falą łączenia zagranicznych ksiąg zleceń?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_004",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Biorąc pod uwagę warunki czasu handlu, które zdarzenie SIDC reprezentuje konkretny moment bezpośrednio poprzedzający rozpoczęcie okresu SIDCL?",
+    "answer": [
+      [
+        "SIDCC"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_005",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Dla produktu z czasem dostawy T=20, które z dwóch określonych zdarzeń „falowe” (SIDC1 czy SIDC2) nie mogło wystąpić, ponieważ jego czas handlu przypadałby poza ważnym otwartym okresem?",
+    "answer": [
+      [
+        "SIDC2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_006",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Jeśli druga fala sprzężenia (SIDC2) zostałaby opóźniona do godziny t=30, jaki byłby minimalny całkowity czas dostawy T wymagany, aby to zdarzenie nadal mieściło się w ogólnym okresie otwarcia zdefiniowanym przez SIDCO?",
+    "answer": [
+      [
+        "32"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_007",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Jakie są wspólne parametry używane w notacji przypominającej funkcję dla każdej zmiennej wymienionej w kolumnie 'Variable'?",
+    "answer": [
+      [
+        "d"
+      ],
+      [
+        "h"
+      ],
+      [
+        "t"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_008",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Transakcja jest realizowana w czasie handlu t=20 dla produktu z czasem dostawy T=25. Które warunki zmiennej SIDC spełnia ta transakcja?",
+    "answer": [
+      [
+        "SIDCO"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_009",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Która zmienna oznacza przejście z okresu SIDCO do okresu SIDCL i jaki jest jej warunek czasu handlu?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "T-t=2"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_010",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Porównaj zakres czasowy zmiennej SIDCO z zakresem zmiennej SIDC1 na podstawie ich definicji.",
+    "answer": [
+      [
+        "SIDCO reprezentuje ciągły okres czasu, w którym otwarte są księgi zleceń, zdefiniowany przez zakres t≥12 i T-t≥2. Natomiast SIDC1 reprezentuje pojedynczy, dyskretny punkt czasowy, t=12, który oznacza konkretny moment pierwszego zdarzenia sprzęgania na początku okresu SIDCO."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_011",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Która zmienna SIDC reprezentuje zamknięcie transgranicznych ksiąg zleceń i przy jakim warunku czasu handlu to następuje?",
+    "answer": [
+      [
+        "Zmienna SIDC꜀(d,h,t) reprezentuje zamknięcie transgranicznych ksiąg zleceń i następuje, gdy T − t = 2."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "question_id": "wikisql_1378433992_008",
+    "table_id": "wikisql_1378433992",
+    "question_type": "value",
+    "question": "Förutom 'DMA' och 'Market', vilka datakolumner innehåller identiska värden för de distinkta stationerna WARV-FM och WBBT-FM?",
+    "answer": [
+      [
+        "Branding"
+      ],
+      [
+        "Format"
+      ]
+    ],
+    "evidence_cells": [
+      "C8",
+      "E8",
+      "F8",
+      "C9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_1378433992_009",
+    "table_id": "wikisql_1378433992",
+    "question_type": "open_ended_reasoning",
+    "question": "Vilken stations 'Branding' är inkonsekvent med dess angivna 'Frequency'?",
+    "answer": [
+      [
+        "Stationen WARV-FM är ett anmärkningsvärt undantag. Dess varumärke är 'Big Oldies 107.3', vilket antyder en frekvens på 107.3, men dess faktiska angivna frekvens är 100.3."
+      ]
+    ],
+    "evidence_cells": [
+      "C8",
+      "D8",
+      "E8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_1378433992_010",
+    "table_id": "wikisql_1378433992",
+    "question_type": "value",
+    "question": "Vilket stationsformat finns i både marknaderna 'Louisville, KY' och 'Dayton, OH'?",
+    "answer": [
+      [
+        "Urban AC"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "F1",
+      "B2",
+      "F2",
+      "B3",
+      "F3",
+      "B4",
+      "F4",
+      "B5",
+      "F5",
+      "B10",
+      "F10",
+      "B11",
+      "F11",
+      "B12",
+      "F12",
+      "B13",
+      "F13",
+      "B14",
+      "F14"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_1378433992_011",
+    "table_id": "wikisql_1378433992",
+    "question_type": "value",
+    "question": "Vilken station i Louisville har frekvensen 101.3?",
+    "answer": [
+      [
+        "WMJM-FM"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

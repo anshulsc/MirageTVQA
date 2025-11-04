@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_6a1e911894_001",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "ပေးထားသော တန်ဖိုး T သည် 30 ဖြစ်လျှင်၊ မည်သည့် SIDC variable က order books ပိတ်ခြင်းကို ကိုယ်စားပြုပြီး မည်သည့် trading time t တွင် ဤဖြစ်ရပ် ဖြစ်ပေါ်မည်နည်း။",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_002",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "DELIVERY အချိန်နှင့်ပတ်သက်၍ SIDCO နှင့် SIDCL မှ သတ်မှတ်ထားသော ကုန်သွယ်မှု ကာလများအကြား အဓိက ကွာခြားချက်မှာ အဘယ်နည်း။",
+    "answer": [
+      [
+        "အဓိက ကွာခြားချက်မှာ DELIVERY အချိန်နှင့် ဆက်စပ်သည့် ၎င်းတို့၏ အချိန်သတ်မှတ်ချက်တွင် တည်ရှိပါသည်။ SIDCO သည် ORDER BOOK များ ဖွင့်လှစ်ထားသည့် ကာလကို သတ်မှတ်ထားပြီး၊ ၎င်းသည် DELIVERY မတိုင်မီ အနည်းဆုံး နှစ်နာရီ (T-t ≥ 2) ဖြစ်ရမည်။ ဆန့်ကျင်ဘက်အနေဖြင့် SIDCL သည် ORDER BOOK များ ပိတ်သိမ်းပြီးနောက် ကာလကို သတ်မှတ်ထားပြီး၊ ၎င်းသည် DELIVERY ၏ နှစ်နာရီအတွင်း (T-t ≤ 2) ဖြစ်ပါသည်။"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_003",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "ပေးထားသော အနက်ဖွင့်ဆိုချက်များအရ နယ်စပ်ဖြတ်ကျော် အော်ဒါစာအုပ်များ ပေါင်းစည်းခြင်း၏ ပထမလှိုင်းနှင့် ဒုတိယလှိုင်းကြားတွင် နာရီပေါင်းမည်မျှ ကုန်ဆုံးသနည်း။",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_004",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "ကုန်取引時間（Trading Time t𝑡titalic_t）၏အခြေအနေများအရ SIDCL ကာလ စတင်ချိန်ကို မည်သည့် SIDC ဖြစ်ရပ်က အတိအကျ ဖော်ပြသနည်း။",
+    "answer": [
+      [
+        "SIDCC"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_005",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "ပို့ဆောင်ချိန် T=20 ရှိသော ထုတ်ကုန်တစ်ခုအတွက်၊ သတ်မှတ်ထားသော \"လှိုင်း\" အဖြစ်အပျက်နှစ်ခု (SIDC1 သို့မဟုတ် SIDC2) အနက် မည်သည့်အဖြစ်အပျက်သည် ဖြစ်ပေါ်နိုင်မည်မဟုတ်သနည်း၊ အဘယ်ကြောင့်ဆိုသော် ၎င်း၏ကုန်သွယ်ရေးအချိန်သည် တရားဝင်ဖွင့်လှစ်သည့်ကာလထက် ကျော်လွန်နေမည်ဖြစ်သောကြောင့်နည်း။",
+    "answer": [
+      [
+        "SIDC2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_006",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "SIDC2 (coupling ၏ ဒုတိယလှိုင်း) ကို t=30 တွင် ဖြစ်ပွားရန် နောက်ကျစေခဲ့ပါက၊ SIDCO မှ သတ်မှတ်ထားသော ယေဘုယျဖွင့်လှစ်သည့်ကာလအတွင်း ဤဖြစ်ရပ်ကျရောက်စေရန် လိုအပ်သော အနည်းဆုံး အခါခန့်မှန်းချက် T မှာ အဘယ်နည်း။",
+    "answer": [
+      [
+        "32"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_007",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": " 'Variable' ကော်လံတွင်ဖော်ပြထားသော variable တိုင်းအတွက် function-like notation တွင် အသုံးပြုသော ပုံမှန် parameters များကား အဘယ်နည်း။",
+    "answer": [
+      [
+        "d"
+      ],
+      [
+        "h"
+      ],
+      [
+        "t"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_008",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "ကုန်ပစ္စည်း၏ ပို့ဆောင်ချိန် T=25 ဖြင့် ကုန်သွယ်မှု အချိန် t=20 တွင် အရောင်းအဝယ်တစ်ခု ပြုလုပ်ခဲ့သည်။ မည်သည့် SIDC variable ၏ အခြေအနေများနှင့် ကိုက်ညီသနည်း။",
+    "answer": [
+      [
+        "SIDCO"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_009",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "SIDCO ကာလမှ SIDCL ကာလသို့ ကူးပြောင်းမှုကို မည်သည့် variable က မှတ်သားပြီး ၎င်း၏ သတ်မှတ်ကုန်သွယ်ရေးအချိန် အခြေအနေကား အဘယ်နည်း။",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "T-t=2"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_010",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "SIDCO အättning ၏ အချိန်ကာလနှင့် SIDC1 အättning ၏ အချိန်ကာလတို့ကို ၎င်းတို့၏ အဓိပ္ပာယ်ဖွင့်ဆိုချက်များအပေါ် အခြေခံ၍ နှိုင်းယှဉ်ပြပါ။",
+    "answer": [
+      [
+        "SIDCO သည် အော်ဒါစာအုပ်များ ဖွင့်လှစ်ထားသည့် အဆက်မပြတ် အချိန်ကာလကို ကိုယ်စားပြုပြီး၊ ၎င်းကို t≥12 နှင့် T-t≥2 ဟူသည့် အကွာအဝေးဖြင့် သတ်မှတ်ထားသည်။ ဆန့်ကျင်ဘက်အားဖြင့်၊ SIDC1 သည် အချိန်၏ တစ်ခုတည်းသော၊ သီးခြားခွဲထုတ်နိုင်သည့် အမှတ်ကို ကိုယ်စားပြုသည်၊ t=12 ဖြစ်ပြီး၊ ၎င်းသည် SIDCO ကာလ၏ အစတွင် ပထမဆုံးသော ဆက်သွယ်မှု ဖြစ်ပွားသည့် အတိအကျ အချိန်ကို မှတ်သားပါသည်။"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_011",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "সীমান্ত_অর্ডার_বুক_বন্ধ_হওয়াকে_কোন_SIDC_ভেরিয়েবল_প্রতিনিধিত্ব_করে_এবং_কোন_ট্রেডিং_টাইম_শর্তে_এটি_সংঘটিত_হয়?",
+    "answer": [
+      [
+        "SIDC꜀(d,h,t) ভেরিয়েবলটি সীমান্ত_অর্ডার_বুক_বন্ধ_হওয়াকে_প্রতিনিধিত্ব_করে_এবং_এটি_তখন_সংঘটিত_হয়_যখন_T − t = 2।"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

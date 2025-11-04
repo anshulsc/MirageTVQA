@@ -1,0 +1,229 @@
+[
+  {
+    "question_id": "arxiv_3086dd5175_001",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Πόσες διακριτές επιλογές είναι διαθέσιμες συνολικά για όλες τις υπερπαραμέτρους που ταξινομούνται ως 'Κατηγορικές';",
+    "answer": [
+      [
+        "11"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_002",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Ποιες υπερπαράμετροι έχουν τον μεγαλύτερο αριθμό διακριτών επιλογών που αναφέρονται στο πεδίο 'Εύρος / Επιλογές';",
+    "answer": [
+      [
+        "Hidden units"
+      ],
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_003",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Απαριθμήστε όλες τις μη Κατηγορικές υπερπαραμέτρους των οποίων το αριθμητικό εύρος περιλαμβάνει την τιμή 1.",
+    "answer": [
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_004",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Τι ποσοστό των αναφερόμενων υπερπαραμέτρων είναι τύπου 'Continuous';",
+    "answer": [
+      [
+        "33.33%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_005",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Για την υπερπαράμετρο με τις λιγότερες διακριτές επιλογές, ποιος είναι ο τύπος της;",
+    "answer": [
+      [
+        "Categorical"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C4",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_006",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Πόσες μοναδικές κατηγορίες 'Τύπος' αναφέρονται στον πίνακα και ποιες είναι αυτές;",
+    "answer": [
+      [
+        "Υπάρχουν 3 μοναδικές κατηγορίες 'Τύπος' που αναφέρονται στον πίνακα: Συνεχής (Continuous), Κατηγορική (Categorical) και Ακέραιος (Integer)."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_007",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Αν το εύρος 'Αριθμός στρωμάτων R-GCN' επεκτεινόταν στο '1 έως 7' και προστίθετο μια νέα υπερπαράμετρος 'Μέγεθος παρτίδας' τύπου 'Κατηγορικό' με επιλογές '{16, 32, 64}', ποιος θα ήταν ο νέος συνολικός αριθμός διακριτών επιλογών σε όλες τις μη συνεχείς υπερπαραμέτρους;",
+    "answer": [
+      [
+        "21"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5",
+      "B6",
+      "C2",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_008",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Ποια υπερπαράμετρος τύπου 'Continuous' έχει μια μοναδικά καθορισμένη μορφή εύρους σε σύγκριση με τις άλλες του τύπου της, και τι την καθιστά μοναδική;",
+    "answer": [
+      [
+        "Ο 'Ρυθμός μάθησης' έχει μια μοναδική μορφή. Σε αντίθεση με τον 'Ρυθμό απόθεσης' που έχει ένα απλό αριθμητικό εύρος, το εύρος του 'Ρυθμού μάθησης' καθορίζεται χρησιμοποιώντας επιστημονική σημειογραφία και περιλαμβάνει μια παρένθετη σημείωση '(log-uniform)' που υποδεικνύει μια συγκεκριμένη κατανομή δειγματοληψίας."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_009",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Συγκρίνετε την πολυπλοκότητα του χώρου αναζήτησης για υπερπαραμέτρους τύπου 'Συνεχούς' έναντι τύπου 'Κατηγορικού', όπως περιγράφεται στον πίνακα.",
+    "answer": [
+      [
+        "Με βάση τον πίνακα, οι υπερπαράμετροι τύπου 'Συνεχούς' έχουν άπειρα μεγαλύτερο χώρο αναζήτησης από τους 'Κατηγορικούς'. Οι 'Συνεχείς' παράμετροι, όπως ο 'ρυθμός μάθησης', μπορούν να πάρουν οποιαδήποτε πραγματική τιμή εντός των ορίων τους, δημιουργώντας άπειρες δυνατότητες. Σε αντίθεση, οι 'Κατηγορικοί' παράμετροι, όπως ο 'βελτιστοποιητής', έχουν ένα μικρό, πεπερασμένο σύνολο καταγεγραμμένων επιλογών, καθιστώντας τον χώρο αναζήτησής τους διακριτό και μετρήσιμο."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_010",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Ποια υπερπαράμετρος έχει όλες τις επιλογές της ως δυνάμεις του 2;",
+    "answer": [
+      [
+        "Hidden units"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_011",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Ποιος είναι ο τύπος του Learning rate;",
+    "answer": [
+      [
+        "Continuous"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

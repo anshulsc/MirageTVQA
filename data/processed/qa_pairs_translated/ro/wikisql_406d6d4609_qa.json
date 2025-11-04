@@ -1,0 +1,79 @@
+[
+  {
+    "question_id": "wikisql_406d6d4609_009",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "open_ended_reasoning",
+    "question": "Care două coloane din setul de date prezintă probleme semnificative de calitate a datelor sub formă deioniertxt placeholders sau intrări nestandardizate și care sunt acele probleme?",
+    "answer": [
+      [
+        "Coloanele 'Avg Speed' (Viteză medie) și 'Margin of Victory' (Marja de victorie) prezintă probleme de calitate a datelor. 'Avg Speed' (Coloana H) conține doar un placeholder 'mph (km/h)' pentru fiecare intrare în loc de date reale. 'Margin of Victory' (Coloana I) conține intrări text nestandardizate precum 'UC' și 'UC/Called due to rain' amestecate cu secunde numerice, ceea ce împiedică o analiză cantitativă uniformă."
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6",
+      "H7",
+      "H8",
+      "H9",
+      "H10",
+      "H11",
+      "H12",
+      "H13",
+      "I2",
+      "I6",
+      "I10",
+      "I11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_010",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "open_ended_reasoning",
+    "question": "Ce victorie în cursă se remarcă ca fiind un caz atipic în ceea ce privește marja de victorie, comparativ cu alte victorii înregistrate numeric?",
+    "answer": [
+      [
+        "Victoria lui Clint Bowyer din 2007 este un caz atipic semnificativ, cu o marjă de victorie de 6,469 secunde. Aceasta este considerabil mai mare decât următoarea marjă cea mai mare de 5,47 secunde și mai mult decât triplul mediei celorlalte marje numerice, sugerând o performanță neobișnuit de dominantă."
+      ]
+    ],
+    "evidence_cells": [
+      "C12",
+      "I12",
+      "I1",
+      "I3",
+      "I4",
+      "I5",
+      "I7",
+      "I8",
+      "I9",
+      "I13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_011",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "value",
+    "question": "Ce pilot a reprezentat același sponsor în sezoane și curse multiple?",
+    "answer": [
+      [
+        "Jeff Burton (Exide Batteries)"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "C8",
+      "C9",
+      "C12",
+      "E5",
+      "E8",
+      "E9",
+      "E12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

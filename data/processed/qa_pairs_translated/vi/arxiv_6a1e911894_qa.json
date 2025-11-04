@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_6a1e911894_001",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Nếu thời gian giao hàng T là 30, biến SIDC nào đại diện cho việc đóng sổ lệnh và sự kiện này xảy ra tại thời điểm giao dịch t nào?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_002",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Sự khác biệt cơ bản giữa các khoảng thời gian giao dịch được định nghĩa bởi SIDCO và SIDCL liên quan đến thời gian giao hàng là gì?",
+    "answer": [
+      [
+        "Sự khác biệt cơ bản nằm ở thời điểm của chúng so với thời điểm giao hàng. SIDCO định nghĩa khoảng thời gian mà sổ lệnh mở cửa, điều này phải diễn ra ít nhất hai đơn vị thời gian trước khi giao hàng (T-t ≥ 2). Ngược lại, SIDCL định nghĩa khoảng thời gian sau khi sổ lệnh đã đóng cửa, điều này nằm trong vòng hai đơn vị thời gian tính từ lúc giao hàng (T-t ≤ 2)."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_003",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Theo các diễn giải được cung cấp, có bao nhiêu giờ trôi qua giữa làn sóng thứ nhất và làn sóng thứ hai của việc ghép nối sổ lệnh xuyên biên giới?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_004",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Dựa trên các điều kiện thời gian giao dịch, sự kiện SIDC nào đại diện cho thời điểm cụ thể ngay trước khi bắt đầu giai đoạn SIDCL?",
+    "answer": [
+      [
+        "SIDCC"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_005",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Đối với một sản phẩm có thời gian giao hàng T=20, sự kiện \"sóng\" nào trong hai sự kiện được chỉ định (SIDC1 hoặc SIDC2) không thể xảy ra vì thời gian giao dịch của nó sẽ nằm ngoài khoảng thời gian mở cửa hợp lệ?",
+    "answer": [
+      [
+        "SIDC2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_006",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Nếu làn sóng ghép nối thứ hai (SIDC2) bị trì hoãn đến t=30, thì thời gian giao hàng T tối thiểu theo số nguyên cần thiết để sự kiện này vẫn nằm trong khoảng thời gian mở chung được xác định bởi SIDCO là bao nhiêu?",
+    "answer": [
+      [
+        "32"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_007",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Các tham số chung nào được sử dụng trong ký hiệu giống như hàm cho mọi biến được liệt kê trong cột 'Variable'?",
+    "answer": [
+      [
+        "d"
+      ],
+      [
+        "h"
+      ],
+      [
+        "t"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_008",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Một giao dịch được đặt tại thời điểm giao dịch t=20 cho một sản phẩm có thời gian giao hàng T=25. Điều kiện của biến SIDC nào được giao dịch này thỏa mãn?",
+    "answer": [
+      [
+        "SIDCO"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_009",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Biến nào đánh dấu sự chuyển đổi từ giai đoạn SIDCO sang giai đoạn SIDCL, và điều kiện thời gian giao dịch xác định của nó là gì?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "T-t=2"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_010",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "So sánh phạm vi thời gian của biến SIDCO với biến SIDC1 dựa trên định nghĩa của chúng.",
+    "answer": [
+      [
+        "SIDCO đại diện cho một khoảng thời gian liên tục khi các sổ lệnh mở, được định nghĩa bởi phạm vi t≥12 và T-t≥2. Ngược lại, SIDC1 đại diện cho một điểm thời gian đơn lẻ, rời rạc, t=12, đánh dấu thời điểm cụ thể của sự kiện ghép nối đầu tiên vào đầu giai đoạn SIDCO."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_011",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Biến SIDC nào đại diện cho việc đóng sổ lệnh xuyên biên giới và điều kiện thời gian giao dịch nào xảy ra?",
+    "answer": [
+      [
+        "Biến SIDC꜀(d,h,t) đại diện cho việc đóng sổ lệnh xuyên biên giới và nó xảy ra khi T − t = 2."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

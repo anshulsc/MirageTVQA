@@ -1,0 +1,230 @@
+[
+  {
+    "question_id": "wikisql_dbb8316257_001",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "Von den Athleten, die ihren ersten Kampf gewonnen haben, wer hat anschließend seinen nächsten Kampf mit der größten Punktedifferenz verloren?",
+    "answer": [
+      [
+        "Driss Moussaid"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "A6",
+      "C6",
+      "D6",
+      "A9",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_003",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "Welcher Athlet war im 'Sechzehntelfinale' mit den höchsten erzielten Gesamtpunkten (Summe beider Punktzahlen) beteiligt, und wie hoch war diese Summe?",
+    "answer": [
+      [
+        "Driss Moussaid",
+        "25"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_004",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "Listen Sie alle Athleten auf, die in der 'Runde der letzten 32' mit einem Abstand von 10 Punkten oder mehr besiegt wurden.",
+    "answer": [
+      [
+        "Abdelillah Nhaila"
+      ],
+      [
+        "Tahar Tamsamani"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A7",
+      "C7",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_005",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "Von den Athleten, die in der \"Runde der letzten 16\" ausgeschieden sind, wer hat sein Spiel in der \"Runde der letzten 32\" mit einem größeren Punktunterschied gewonnen?",
+    "answer": [
+      [
+        "Driss Moussaid"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "A6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_006",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "Welcher Prozentsatz der Athleten, die in der 'Runde der letzten 32' angetreten sind, rückten in die 'Runde der letzten 16' vor?",
+    "answer": [
+      [
+        "25%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_007",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "open_ended_reasoning",
+    "question": "Verfolgen Sie den Wettkampfverlauf des Athleten, der am weitesten im Turnier vorangeschritten ist, und beschreiben Sie sein Ergebnis in jeder Runde.",
+    "answer": [
+      [
+        "Mohamed Arjaoui kam am weitesten und erreichte das Viertelfinale. Er hatte in der 'Runde der letzten 32' ein Freilos (Ergebnis N/A), gewann dann sein 'Achtelfinale'-Match gegen Pitt mit einem Ergebnis von 11:6. Er schied schließlich im 'Viertelfinale' nach einem 10:10-Unentschieden gegen Wilder durch eine Richterentscheidung aus."
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C9",
+      "D9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_008",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "Wenn Mohamed Arjaoui sein Viertelfinalspiel gewonnen hätte, anstatt zu verlieren, wie viele Athleten aus dieser Liste hätten im Halbfinale teilgenommen?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "E9",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_009",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "open_ended_reasoning",
+    "question": "Gibt es einen Zusammenhang zwischen der Gewichtsklasse eines Athleten und seinem Erfolg im Turnier? Erläutern Sie Ihre Begründung.",
+    "answer": [
+      [
+        "Ja, die Daten deuten auf einen positiven Zusammenhang zwischen Gewichtsklasse und Erfolg hin. Der Athlet in der schwersten Klasse, Mohamed Arjaoui (Schwergewicht), kam am weitesten bis ins Viertelfinale. Im Gegensatz dazu schieden alle Athleten in den fünf leichtesten Gewichtsklassen in ihrem ersten Kampf aus. Die beiden Athleten aus den mittleren Gewichtsklassen kamen eine Runde weiter, bevor sie ausschieden. Dieses Muster deutet darauf hin, dass schwerere Athleten in diesem Datensatz tendenziell besser abgeschnitten haben."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "B6",
+      "C6",
+      "D6",
+      "E6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "B9",
+      "C9",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_010",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "Welche Gewichtsklasse wird aufgeführt, die kein Wettbewerbsergebnis (Sieg/Niederlage) für die 'Runde der letzten 32' aufweist?",
+    "answer": [
+      [
+        "Heavyweight"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

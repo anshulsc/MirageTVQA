@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_6a1e911894_001",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Hvis leveringstiden T er 30, hvilken SIDC-variabel representerer lukkingen av ordrebøkene, og ved hvilken handelstid t skjer denne hendelsen?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_002",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Hva er den grunnleggende forskjellen mellom handelsperiodene definert av SIDCO og SIDCL i forhold til leveringstidspunktet?",
+    "answer": [
+      [
+        "Den grunnleggende forskjellen ligger i tidspunktet i forhold til levering. SIDCO definerer perioden da ordrebøkene er åpne, noe som må være minst to tidsenheter før levering (T-t ≥ 2). I motsetning definerer SIDCL perioden etter at ordrebøkene er stengt, noe som er innenfor to tidsenheter av levering (T-t ≤ 2)."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_003",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "I henhold til de oppgitte tolkningene, hvor mange timer går det mellom den første og andre bølgen av grensekryssende ordrebokkobling?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_004",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Basert på handelsvilkårene for tid, hvilket SIDC-hendelse representerer det spesifikke øyeblikket rett før starten av SIDCL-perioden?",
+    "answer": [
+      [
+        "SIDCC"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_005",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "For et produkt med leveringstid T=20, hvilken av de to spesifiserte \"bølge\"-hendelsene (SIDC1 eller SIDC2) kunne ikke skje fordi handelstiden ville falle utenfor den gyldige åpne perioden?",
+    "answer": [
+      [
+        "SIDC2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_006",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Hvis den andre bølgen av kobling (SIDC2) ble forsinket til å skje ved t=30, hva ville være den minste heltallige leveringstiden T som kreves for at denne hendelsen fortsatt skal falle innenfor den generelle åpne perioden definert av SIDCO?",
+    "answer": [
+      [
+        "32"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_007",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Hva er de felles parameterne som brukes i funksjonslignende notasjon for hver variabel listet i 'Variabel'-kolonnen?",
+    "answer": [
+      [
+        "d"
+      ],
+      [
+        "h"
+      ],
+      [
+        "t"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_008",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "En handel utføres til handelstid t=20 for et produkt med leveringstid T=25. Hvilke betingelser for SIDC-variabelen oppfyller denne handelen?",
+    "answer": [
+      [
+        "SIDCO"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_009",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Hvilken variabel markerer overgangen fra SIDCO-perioden til SIDCL-perioden, og hva er dens definerende handelsvilkår?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "T-t=2"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_010",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Kontraster det tidsmessige omfanget av SIDCO-variabelen med SIDC1-variabelens basert på deres definisjoner.",
+    "answer": [
+      [
+        "SIDCO representerer en kontinuerlig tidsperiode der ordrebøkene er åpne, definert av intervallet t≥12 og T-t≥2. I kontrast representerer SIDC1 et enkelt, diskret tidspunkt, t=12, som markerer det spesifikke øyeblikket for den første koblingshendelsen ved begynnelsen av SIDCO-perioden."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_011",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvilken SIDC-variabel representerer stenging av grensekryssende ordrebøker, og under hvilken handelsbetingelse skjer dette?",
+    "answer": [
+      [
+        "Variabelen SIDCC(d,h,t) representerer stenging av grensekryssende ordrebøker, og den forekommer når T − t = 2."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,254 @@
+[
+  {
+    "question_id": "wikisql_2c47965ad4_001",
+    "table_id": "wikisql_2c47965ad4",
+    "question_type": "value",
+    "question": "Країна, чиє шоу тривало найдовше, і скільки сезонів воно мало?",
+    "answer": [
+      [
+        "South Korea",
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "A2",
+      "G2",
+      "A3",
+      "G3",
+      "A4",
+      "G4",
+      "A5",
+      "G5",
+      "A6",
+      "G6",
+      "A7",
+      "G7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_2c47965ad4_002",
+    "table_id": "wikisql_2c47965ad4",
+    "question_type": "value",
+    "question": "Яка загальна кількість сезонів для всіх шоу, що вийшли до 2008 року?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "G1",
+      "E2",
+      "G2",
+      "E5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_2c47965ad4_003",
+    "table_id": "wikisql_2c47965ad4",
+    "question_type": "value",
+    "question": "Визначте ведучого шоу, яке вийшло вперше того ж року, що й малазійська версія, і транслювалося на каналі 'Slice Global'.",
+    "answer": [
+      [
+        "Iman"
+      ]
+    ],
+    "evidence_cells": [
+      "E5",
+      "E2",
+      "D2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_2c47965ad4_004",
+    "table_id": "wikisql_2c47965ad4",
+    "question_type": "value",
+    "question": "Якщо хронологічно впорядкувати шоу за датою їх першої прем'єри, прем'єра якого шоу спричинила найдовшу часову прогалину до прем'єри наступного шоу?",
+    "answer": [
+      [
+        "פרויקט מסלול Proyekt Maslul"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "E1",
+      "B2",
+      "E2",
+      "B3",
+      "E3",
+      "B4",
+      "E4",
+      "B5",
+      "E5",
+      "B6",
+      "E6",
+      "B7",
+      "E7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_2c47965ad4_005",
+    "table_id": "wikisql_2c47965ad4",
+    "question_type": "value",
+    "question": "Перелічіть назви всіх шоу, в яких серед постійних суддів є наставник, і які тривали більше одного сезону.",
+    "answer": [
+      [
+        "المصمم العربي El Musamim El Arabi"
+      ],
+      [
+        "Project Runway Canada"
+      ],
+      [
+        "프로젝트 런웨이 코리아 Project Runway Korea"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "F1",
+      "G1",
+      "B2",
+      "F2",
+      "G2",
+      "B4",
+      "F4",
+      "G4",
+      "B7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_2c47965ad4_006",
+    "table_id": "wikisql_2c47965ad4",
+    "question_type": "value",
+    "question": "Який відсоток із перелічених шоу тривав лише один сезон?",
+    "answer": [
+      [
+        "57.14%"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_2c47965ad4_007",
+    "table_id": "wikisql_2c47965ad4",
+    "question_type": "value",
+    "question": "Якби кількість сезонів для кожного шоу, яке вийшло в ефір у 2009 році, подвоїлася, якою була б нова загальна кількість сезонів лише для цих конкретних шоу?",
+    "answer": [
+      [
+        "12"
+      ]
+    ],
+    "evidence_cells": [
+      "E3",
+      "G3",
+      "E4",
+      "G4",
+      "E7",
+      "G7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_2c47965ad4_008",
+    "table_id": "wikisql_2c47965ad4",
+    "question_type": "open_ended_reasoning",
+    "question": "Чи існує помітна кореляція між тим, наскільки рано виходила програма, та її загальною кількістю сезонів? Поясніть свою відповідь.",
+    "answer": [
+      [
+        "Немає чіткої кореляції між датою прем'єри та кількістю сезонів. Наприклад, найраніша програма 2006 року тривала 2 сезони, тоді як програма з найбільшою кількістю сезонів (4) вийшла пізніше у 2009 році. Крім того, найновіша програма 2014 року має лише 1 сезон. Тривалість, схоже, не залежить від року прем'єри, оскільки програма 2009 року (Південна Корея) має вдвічі більше сезонів, ніж програми 2006 та 2007 років."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "G1",
+      "E2",
+      "G2",
+      "E3",
+      "G3",
+      "E4",
+      "G4",
+      "E5",
+      "G5",
+      "E6",
+      "G6",
+      "E7",
+      "G7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_2c47965ad4_009",
+    "table_id": "wikisql_2c47965ad4",
+    "question_type": "value",
+    "question": "Який стовпець даних явно розрізняє принаймні дві різні ролі талановитих людей на екрані (наприклад, суддя проти наставника) у своїх комірках?",
+    "answer": [
+      [
+        "Regular Judge"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F4",
+      "F7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_2c47965ad4_010",
+    "table_id": "wikisql_2c47965ad4",
+    "question_type": "value",
+    "question": "Яке шоу є значним позитивним викидом за кількістю сезонів порівняно з медіанною кількістю сезонів для всіх шоу в списку?",
+    "answer": [
+      [
+        "프로젝트 런웨이 코리아 Project Runway Korea"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_2c47965ad4_011",
+    "table_id": "wikisql_2c47965ad4",
+    "question_type": "value",
+    "question": "Скільки сезонів було вироблено для видання «Project Runway Malaysia»?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

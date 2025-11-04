@@ -1,0 +1,229 @@
+[
+  {
+    "question_id": "arxiv_3086dd5175_001",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Wie viele verschiedene Optionen gibt es insgesamt für alle Hyperparameter, die als 'kategorisch' klassifiziert sind?",
+    "answer": [
+      [
+        "11"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_002",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Welche Hyperparameter haben die größte Anzahl diskreter Optionen in ihrem 'Bereich / Optionen' aufgeführt?",
+    "answer": [
+      [
+        "Hidden units"
+      ],
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_003",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Listen Sie alle nicht-kategorischen Hyperparameter auf, deren numerischer Bereich den Wert 1 umfasst.",
+    "answer": [
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_004",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Wie viel Prozent der aufgelisteten Hyperparameter sind vom Typ 'Continuous'?",
+    "answer": [
+      [
+        "33.33%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_005",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Für den Hyperparameter mit den wenigsten diskreten Optionen, welche Art ist das?",
+    "answer": [
+      [
+        "Categorical"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C4",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_006",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Wie viele eindeutige 'Typ'-Kategorien sind in der Tabelle aufgeführt und wie lauten diese?",
+    "answer": [
+      [
+        "Es gibt 3 eindeutige 'Typ'-Kategorien, die in der Tabelle aufgeführt sind: Kontinuierlich, Kategorisch und Ganzzahl."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_007",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Wenn der Bereich für 'Anzahl der R-GCN-Schichten' auf '1 bis 7' erweitert und ein neuer 'kategorialer' Hyperparameter 'Batch-Größe' mit den Optionen '{16, 32, 64}' hinzugefügt würde, wie wäre die neue Gesamtzahl der diskreten Optionen über alle nicht-kontinuierlichen Hyperparameter?",
+    "answer": [
+      [
+        "21"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5",
+      "B6",
+      "C2",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_008",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Welcher Hyperparameter vom Typ 'Continuous' hat ein einzigartig spezifiziertes Bereichsformat im Vergleich zu den anderen seines Typs, und was macht ihn einzigartig?",
+    "answer": [
+      [
+        "Die 'Lernrate' hat ein einzigartiges Format. Im Gegensatz zur 'Dropout-Rate', die einen einfachen numerischen Bereich hat, wird der Bereich der 'Lernrate' in wissenschaftlicher Notation angegeben und enthält den Hinweis '(log-uniform)', der eine spezifische Stichprobenverteilung angibt."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_009",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Kontrastieren Sie die Komplexität des Suchraums für Hyperparameter vom Typ 'Continuous' im Vergleich zum Typ 'Categorical', wie in der Tabelle beschrieben.",
+    "answer": [
+      [
+        "Basierend auf der Tabelle haben Hyperparameter vom Typ 'Continuous' einen unendlich größeren Suchraum als 'Categorical'. 'Continuous'-Parameter wie 'Learning rate' können jeden reellen Wert innerhalb ihrer Grenzen annehmen, was unendliche Möglichkeiten schafft. Im Gegensatz dazu haben 'Categorical'-Parameter wie 'Optimizer' eine kleine, endliche Menge an aufgelisteten Optionen, was ihren Suchraum diskret und zählbar macht."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_010",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Welcher Hyperparameter hat Optionen, die alle Zweierpotenzen sind?",
+    "answer": [
+      [
+        "Hidden units"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_011",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Was ist der Typ von Lernrate?",
+    "answer": [
+      [
+        "Continuous"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

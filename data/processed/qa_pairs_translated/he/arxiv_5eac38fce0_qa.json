@@ -1,0 +1,216 @@
+[
+  {
+    "question_id": "arxiv_5eac38fce0_001",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "איזו אסטרטגיית פורטפוליו מציעה את השיפור באחוזים הגדול ביותר ביחס קלמר?",
+    "answer": [
+      [
+        "AlphaSharpe"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_002",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "מהו שיפור נקודות האחוז הכולל ביחס שארפ אם מסכמים את השיפורים של כל האסטרטגיות שאינן אסטרטגיות הבסיס?",
+    "answer": [
+      [
+        "147.91%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_003",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "זהה את האסטרטגיה עם השיפור השני הגבוה ביותר ביחס שארפ וציין את השיפור המתאים שלה ביחס קלמר.",
+    "answer": [
+      [
+        "+10.44%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "C3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_004",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "רשום את אסטרטגיות התיק שבהן השיפור ביחס קלמר נמוך מ-15% והשיפור ביחס שארפ גדול מ-35%.",
+    "answer": [
+      [
+        "Risk Parity"
+      ],
+      [
+        "Equal Risk Cont."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_005",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "מהו אחוז השיפור הכולל של 'AlphaSharpe' בתרומה לשיפור הקלמר (Calmar) בכל האסטרטגיות שאינן אסטרטגיות בסיס?",
+    "answer": [
+      [
+        "84.83%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_006",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "אם שיפור הביצועים של אסטרטגיית 'סיכון שוויוני' (Risk Parity) הוערך יתר על המידה ב-10 אחוזים עבור שני המדדים, האם היא עדיין תהיה עדיפה על קו הבסיס של 'משקולות שוות' (Equal Weighted)?",
+    "answer": [
+      [
+        "כן, היא עדיין תהיה עדיפה. ה-ΔSharpe המותאם שלה יהיה +28.32% וה-ΔCalmar המותאם שלה יהיה +0.36%. מכיוון ששני הערכים עדיין גדולים מ-0.00% של קו הבסיס של 'משקולות שוות', זה ייצג שיפור."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_007",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "האם הנתונים מצביעים על קשר ליניארי עקבי בין השיפורים ביחסי שארפ וקאלמר בכל האסטרטגיות שאינן בסיסיות? הסבירו את הנימוקים שלכם.",
+    "answer": [
+      [
+        "לא, הנתונים אינם מצביעים על קשר ליניארי עקבי. בעוד ש-'Risk Parity' ו-'Equal Risk Cont.' מציגות פרופיל דומה שבו ΔSharpe גדול מתאים ל-ΔCalmar צנוע, אסטרטגיית 'AlphaSharpe' משבשת דפוס זה. היא מציגה ΔCalmar עצום שחורג בהרבה מ-ΔSharpe שלה, מה שמצביע על כך שהקשר בין שני המדדים אינו ליניארי ותלוי במידה רבה באסטרטגיה."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_008",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "כמה אסטרטגיות בטבלה מציגות שיפור גבוה יותר ביחס קלמר שלהן מאשר ביחס שארפ שלהן?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_009",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "איזו אסטרטגיית תיק השקעות חורגת מבחינת האיזון בין שיפור יחסי שארפ ליחסי קלמר בהשוואה לאסטרטגיות האחרות שאינן אסטרטגיות בסיס, ומדוע?",
+    "answer": [
+      [
+        "אסטרטגיית 'AlphaSharpe' היא חריגה. עבור 'Risk Parity' ו-'Equal Risk Cont.', השיפור ביחס שארפ גדול בערך פי 3.7 מהשיפור ביחס קלמר. לעומת זאת, 'AlphaSharpe' הופכת מגמה זו, כאשר השיפור ביחס קלמר שלה (+116.31%) גדול באופן משמעותי מהשיפור ביחס שארפ שלה (+71.04%), מה שמצביע על שיפור בפרופיל סיכון-תשואה שונה באופן מהותי."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "A4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_010",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "השוו את האסטרטגיות 'סיכון שווה' ו-'סיכון שווה מבוקר'. איזו מהן מציעה פרופיל ביצועים טוב יותר בהתבסס על המדדים שסופקו, ובכמה בכל מדד?",
+    "answer": [
+      [
+        "'סיכון שווה מבוקר' מציע פרופיל ביצועים טוב יותר במעט. הוא עולה על 'סיכון שווה' עם שיפור של 0.23 נקודות אחוז נוספות ביחס שארפ (38.55%+ לעומת 38.32%+) ושיפור של 0.08 נקודות אחוז נוספות ביחס קלמר (10.44%+ לעומת 10.36%+)."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_011",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "מהו ערך ה-ΔSharpe (%) עבור אסטרטגיית התיק 'Equal Risk Cont.' בטבלה?",
+    "answer": [
+      [
+        "+38.55%"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

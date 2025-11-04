@@ -1,0 +1,97 @@
+[
+  {
+    "question_id": "wikisql_79290f461b_008",
+    "table_id": "wikisql_79290f461b",
+    "question_type": "open_ended_reasoning",
+    "question": "Com base neste conjunto de dados, existe uma correlação clara que sugere que as parcerias para wickets anteriores (por exemplo, 2º) marcam consistentemente mais corridas do que as parcerias para wickets posteriores (por exemplo, 3º ou 4º)?",
+    "answer": [
+      [
+        "Não, não há uma correlação clara neste conjunto de dados que sugira que os wickets anteriores marcam mais. A média de corridas para parcerias de 3º wicket (492,75) é ligeiramente superior à média para parcerias de 2º wicket (477,75). Além disso, a maior pontuação de parceria única de 624 corridas foi para o 3º wicket, o que contradiz a ideia de que as parcerias de wicket anteriores são sempre mais altas."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A8",
+      "B8",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_79290f461b_009",
+    "table_id": "wikisql_79290f461b",
+    "question_type": "open_ended_reasoning",
+    "question": "Qual parceria se destaca com um total de corridas como um valor atípico significativo em comparação com as outras na lista e o que a torna um valor atípico?",
+    "answer": [
+      [
+        "A parceria de 624 corridas de Mahela Jayawardene e Kumar Sangakkara é um valor atípico significativo. A maioria das pontuações está agrupada entre 429 e 467 corridas. A parceria de 624 corridas é 48 corridas maior que a segunda maior parceria (576) e 157 corridas maior que a terceira maior (467), colocando-a em uma classe própria dentro deste conjunto de dados."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "C1"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_79290f461b_010",
+    "table_id": "wikisql_79290f461b",
+    "question_type": "open_ended_reasoning",
+    "question": "A coluna 'Season' usa dois formatos distintos para representar o ano. Quais são esses dois formatos e qual deles é usado com mais frequência nesta tabela?",
+    "answer": [
+      [
+        "Os dois formatos são um único ano (AAAA) como '2006' e um ano dividido representando uma temporada que abrange dois anos civis (AAAA/AA) como '1990/91'. O formato de ano único (AAAA) é mais comum, aparecendo 5 vezes em comparação com as 4 aparições do formato de ano dividido."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_79290f461b_011",
+    "table_id": "wikisql_79290f461b",
+    "question_type": "value",
+    "question": "Quem marcou a maior parceria contra a Índia?",
+    "answer": [
+      [
+        "Roshan Mahanama and Sanath Jayasuriya"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "E2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  }
+]

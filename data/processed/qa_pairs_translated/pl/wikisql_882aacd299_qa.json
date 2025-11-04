@@ -1,0 +1,74 @@
+[
+  {
+    "question_id": "wikisql_882aacd299_007",
+    "table_id": "wikisql_882aacd299",
+    "question_type": "value",
+    "question": "Gdyby tematy dla 'Segment A' i 'Segment D' zostały zamienione w każdym odcinku, jaki byłby nowy temat dla 'Segment D' w odcinku odpowiadającym kodowi Netflix 'S05E14'?",
+    "answer": [
+      [
+        "Magnets"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "G1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_882aacd299_009",
+    "table_id": "wikisql_882aacd299",
+    "question_type": "value",
+    "question": "Która kolumna segmentu (Segment A, Segment B, Segment C czy Segment D) zawiera najwięcej tematów zaczynających się na literę 'C'?",
+    "answer": [
+      [
+        "Segment D"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E1",
+      "E5",
+      "F5",
+      "F10",
+      "G1",
+      "G4",
+      "G6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_882aacd299_010",
+    "table_id": "wikisql_882aacd299",
+    "question_type": "open_ended_reasoning",
+    "question": "Zidentyfikuj odcinek (kod 'Series Ep.'), który zawiera dwa segmenty na tematy bezpośrednio ze sobą powiązane, gdzie jeden jest kluczowym materiałem dla drugiego, i opisz tę relację.",
+    "answer": [
+      [
+        "Odcinek to '10-03'. Zawiera 'Materiały ścierne' w Segmencie C i 'Papier ścierny' w Segmencie D. Jest to przypadek szczególny pod względem połączenia tematycznego, ponieważ ziarna ścierne są kluczowym składnikiem używanym do produkcji papieru ściernego."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_882aacd299_011",
+    "table_id": "wikisql_882aacd299",
+    "question_type": "value",
+    "question": "Który odcinek zawiera „Sandpaper” w segmencie D?",
+    "answer": [
+      [
+        "10-03"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "G3"
+    ],
+    "reasoning_category": "Value Lookup"
+  }
+]

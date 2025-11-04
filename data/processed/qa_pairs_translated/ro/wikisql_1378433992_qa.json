@@ -1,0 +1,278 @@
+[
+  {
+    "question_id": "wikisql_1378433992_001",
+    "table_id": "wikisql_1378433992",
+    "question_type": "value",
+    "question": "Ce stație are cea mai mare frecvență dintre cele cu formatul 'Variety Hits'?",
+    "answer": [
+      [
+        "WWLB-FM"
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "D7",
+      "F7",
+      "C11",
+      "D11",
+      "F11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_1378433992_002",
+    "table_id": "wikisql_1378433992",
+    "question_type": "value",
+    "question": "Care este numărul total de posturi cu o frecvență sub 200 MHz?",
+    "answer": [
+      [
+        "16"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11",
+      "D12",
+      "D13",
+      "D14",
+      "D15",
+      "D16",
+      "D17",
+      "D18",
+      "D19"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_1378433992_003",
+    "table_id": "wikisql_1378433992",
+    "question_type": "value",
+    "question": "Care este formatul postului situat în piața cu cel mai mic cod DMA și cea mai mare frecvență în cadrul acelei piețe specifice?",
+    "answer": [
+      [
+        "Soft Adult Contemporary"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "F1",
+      "A2",
+      "D2",
+      "F2",
+      "A3",
+      "D3",
+      "F3",
+      "A4",
+      "D4",
+      "F4",
+      "A5",
+      "D5",
+      "F5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_1378433992_004",
+    "table_id": "wikisql_1378433992",
+    "question_type": "value",
+    "question": "Enumerați denumirile ('Branding') pentru toate posturile care au formatul 'Oldies' ȘI sunt pe banda AM (frecvență > 200).",
+    "answer": [
+      [
+        "True Oldies 96.3"
+      ]
+    ],
+    "evidence_cells": [
+      "D8",
+      "E8",
+      "F8",
+      "D9",
+      "E9",
+      "F9",
+      "D18",
+      "E18",
+      "F18",
+      "D19",
+      "E19",
+      "F19"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_1378433992_005",
+    "table_id": "wikisql_1378433992",
+    "question_type": "value",
+    "question": "Ce procent din stațiile din piața Hagerstown sunt stații AM (frecvență > 200)?",
+    "answer": [
+      [
+        "40%"
+      ]
+    ],
+    "evidence_cells": [
+      "B15",
+      "D15",
+      "B16",
+      "D16",
+      "B17",
+      "D17",
+      "B18",
+      "D18",
+      "B19",
+      "D19"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_1378433992_006",
+    "table_id": "wikisql_1378433992",
+    "question_type": "value",
+    "question": "Dacă un nou post, 'STAR 101.9', cu un format 'Pop', ar fi adăugat pe piața Dayton, OH, care ar fi noul număr mediu de posturi pe piață?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B6",
+      "B10",
+      "B15"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_1378433992_007",
+    "table_id": "wikisql_1378433992",
+    "question_type": "open_ended_reasoning",
+    "question": "Există o relație observabilă între tipul indicativului stației (terminat în -FM vs. -AM) și formatul stației fiind exclusiv muzică sau cuvânt rostit?",
+    "answer": [
+      [
+        "Nu există o relație definitivă în acest set de date. În timp ce majoritatea stațiilor care se termină în -FM sunt bazate pe muzică, stațiile care se termină în -AM nu sunt exclusiv cu cuvânt rostit. WING-AM are un format 'Sportiv', dar WCHA-AM și WHAG-AM au ambele un format 'Oldies' bazat pe muzică, indicând faptul că ambele tipuri de indicative pot fi asociate cu programare muzicală."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "F1",
+      "C2",
+      "F2",
+      "C3",
+      "F3",
+      "C4",
+      "F4",
+      "C5",
+      "F5",
+      "C6",
+      "F6",
+      "C7",
+      "F7",
+      "C8",
+      "F8",
+      "C9",
+      "F9",
+      "C10",
+      "F10",
+      "C11",
+      "F11",
+      "C12",
+      "F12",
+      "C13",
+      "F13",
+      "C14",
+      "F14",
+      "C15",
+      "F15",
+      "C16",
+      "F16",
+      "C17",
+      "F17",
+      "C18",
+      "F18",
+      "C19",
+      "F19"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_1378433992_008",
+    "table_id": "wikisql_1378433992",
+    "question_type": "value",
+    "question": "Pe lângă 'DMA' și 'Market', ce coloane de date conțin valori identice pentru posturile distincte WARV-FM și WBBT-FM?",
+    "answer": [
+      [
+        "Branding"
+      ],
+      [
+        "Format"
+      ]
+    ],
+    "evidence_cells": [
+      "C8",
+      "E8",
+      "F8",
+      "C9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_1378433992_009",
+    "table_id": "wikisql_1378433992",
+    "question_type": "open_ended_reasoning",
+    "question": "Ce stație are un 'Branding' inconsistent cu frecvența sa listată?",
+    "answer": [
+      [
+        "Stația WARV-FM este o excepție notabilă. Brandingul său este 'Big Oldies 107.3', ceea ce implică o frecvență de 107.3, dar frecvența sa reală listată este 100.3."
+      ]
+    ],
+    "evidence_cells": [
+      "C8",
+      "D8",
+      "E8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_1378433992_010",
+    "table_id": "wikisql_1378433992",
+    "question_type": "value",
+    "question": "Ce format de stație este prezent atât pe piața din 'Louisville, KY', cât și pe cea din 'Dayton, OH'?",
+    "answer": [
+      [
+        "Urban AC"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "F1",
+      "B2",
+      "F2",
+      "B3",
+      "F3",
+      "B4",
+      "F4",
+      "B5",
+      "F5",
+      "B10",
+      "F10",
+      "B11",
+      "F11",
+      "B12",
+      "F12",
+      "B13",
+      "F13",
+      "B14",
+      "F14"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  }
+]

@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_6a1e911894_001",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Dacă timpul de livrare T este 30, ce variabilă SIDC reprezintă închiderea registrelor de ordine și la ce timp de tranzacționare t are loc acest eveniment?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_002",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Care este diferența fundamentală între perioadele de tranzacționare definite de SIDCO și SIDCL în raport cu ora livrării?",
+    "answer": [
+      [
+        "Diferența fundamentală constă în momentul lor față de livrare. SIDCO definește perioada în care ordinele sunt deschise, care trebuie să fie cu cel puțin două unități de timp înainte de livrare (T-t ≥ 2). În contrast, SIDCL definește perioada după ce ordinele au fost închise, care este în termen de două unități de timp de la livrare (T-t ≤ 2)."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_003",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Conform interpretărilor furnizate, câte ore trec între prima și a doua undă de cuplare a registrelor de ordine transfrontaliere?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_004",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Pe baza condițiilor de timp de tranzacționare, ce eveniment SIDC reprezintă momentul specific care precede imediat începutul perioadei SIDCL?",
+    "answer": [
+      [
+        "SIDCC"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_005",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Pentru un produs cu un timp de livrare T=20, care dintre cele două evenimente specificate de \"val\" (SIDC1 sau SIDC2) nu ar putea avea loc deoarece timpul său de tranzacționare ar cădea în afara perioadei deschise valide?",
+    "answer": [
+      [
+        "SIDC2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_006",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Dacă a doua undă de cuplare (SIDC2) ar fi întârziată să apară la t=30, care ar fi timpul minim de livrare T, exprimat ca număr întreg, necesar pentru ca acest eveniment să se încadreze încă în perioada generală deschisă definită de SIDCO?",
+    "answer": [
+      [
+        "32"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_007",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Care sunt parametrii comuni utilizați în notația asemănătoare unei funcții pentru fiecare variabilă listată în coloana 'Variabilă'?",
+    "answer": [
+      [
+        "d"
+      ],
+      [
+        "h"
+      ],
+      [
+        "t"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_008",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "O tranzacție este plasată la timpul de tranzacționare t=20 pentru un produs cu un timp de livrare T=25. Condițiile cărei variabile SIDC sunt îndeplinite de această tranzacție?",
+    "answer": [
+      [
+        "SIDCO"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_009",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Ce variabilă marchează tranziția de la perioada SIDCO la perioada SIDCL și care este condiția sa definitoare de timp de tranzacționare?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "T-t=2"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_010",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Comparați scopul temporal al variabilei SIDCO cu cel al variabilei SIDC1 pe baza definițiilor lor.",
+    "answer": [
+      [
+        "SIDCO reprezintă o perioadă continuă de timp în care registrele de ordine sunt deschise, definită de intervalul t≥12 și T-t≥2. În contrast, SIDC1 reprezintă un singur punct discret în timp, t=12, care marchează momentul specific al primului eveniment de cuplare la începutul perioadei SIDCO."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_011",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Ce variabilă SIDC reprezintă închiderea registrelor de ordine transfrontaliere și în ce condiție de timp de tranzacționare apare aceasta?",
+    "answer": [
+      [
+        "Variabila SIDC꜀(d,h,t) reprezintă închiderea registrelor de ordine transfrontaliere și apare atunci când T − t = 2."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

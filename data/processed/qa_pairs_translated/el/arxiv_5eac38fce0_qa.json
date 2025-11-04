@@ -1,0 +1,216 @@
+[
+  {
+    "question_id": "arxiv_5eac38fce0_001",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Ποια στρατηγική χαρτοφυλακίου προσφέρει τη μεγαλύτερη ποσοστιαία βελτίωση στον δείκτη Calmar;",
+    "answer": [
+      [
+        "AlphaSharpe"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_002",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Ποια είναι η συνολική βελτίωση σε ποσοστιαίες μονάδες στον δείκτη Sharpe, αν αθροίσετε τις βελτιώσεις όλων των στρατηγικών που δεν είναι baseline;",
+    "answer": [
+      [
+        "147.91%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_003",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Προσδιορίστε τη στρατηγική με τη δεύτερη υψηλότερη βελτίωση στο λόγο Sharpe και αναφέρετε τη αντίστοιχη βελτίωση στο λόγο Calmar.",
+    "answer": [
+      [
+        "+10.44%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "C3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_004",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Απαριθμήστε τις στρατηγικές χαρτοφυλακίου όπου η βελτίωση στον δείκτη Calmar είναι μικρότερη από 15% ΚΑΙ η βελτίωση στον δείκτη Sharpe είναι μεγαλύτερη από 35%.",
+    "answer": [
+      [
+        "Risk Parity"
+      ],
+      [
+        "Equal Risk Cont."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_005",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Τι ποσοστό της συνολικής βελτίωσης Calmar σε όλες τις μη-βασικές στρατηγικές συνεισφέρει η στρατηγική 'AlphaSharpe';",
+    "answer": [
+      [
+        "84.83%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_006",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "Αν η βελτίωση της απόδοσης της στρατηγικής 'Risk Parity' υπερεκτιμήθηκε κατά 10 ποσοστιαίες μονάδες και για τις δύο μετρικές, θα εξακολουθούσε να είναι ανώτερη από τη βασική γραμμή 'Equal Weighted';",
+    "answer": [
+      [
+        "Ναι, θα εξακολουθούσε να είναι ανώτερη. Η προσαρμοσμένη ΔSharpe θα ήταν +28,32% και η προσαρμοσμένη ΔCalmar θα ήταν +0,36%. Δεδομένου ότι και οι δύο τιμές εξακολουθούν να είναι μεγαλύτερες από το 0,00% της βασικής γραμμής 'Equal Weighted', θα αντιπροσώπευε βελτίωση."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_007",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "Μήπως τα δεδομένα υποδεικνύουν μια σταθερή, γραμμική σχέση μεταξύ των βελτιώσεων στις αναλογίες Sharpe και Calmar σε όλες τις μη-βασικές στρατηγικές; Εξηγήστε το σκεπτικό σας.",
+    "answer": [
+      [
+        "Όχι, τα δεδομένα δεν υποδεικνύουν μια σταθερή γραμμική σχέση. Ενώ η 'Risk Parity' και η 'Equal Risk Cont.' παρουσιάζουν ένα παρόμοιο προφίλ όπου μια μεγάλη ΔSharpe αντιστοιχεί σε μια μέτρια ΔCalmar, η στρατηγική 'AlphaSharpe' διαταράσσει αυτό το μοτίβο. Εμφανίζει μια τεράστια ΔCalmar που υπερβαίνει κατά πολύ τη ΔSharpe της, υποδεικνύοντας ότι η σχέση μεταξύ των δύο μετρήσεων είναι μη γραμμική και εξαρτάται σε μεγάλο βαθμό από τη στρατηγική."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_008",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Πόσες στρατηγικές στον πίνακα έχουν μεγαλύτερη βελτίωση στον λόγο Calmar τους από ό,τι στον λόγο Sharpe τους;",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_009",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "Ποια στρατηγική χαρτοφυλακίου ξεχωρίζει ως ακραία όσον αφορά την ισορροπία μεταξύ των βελτιώσεων του λόγου Sharpe και Calmar σε σύγκριση με άλλες στρατηγικές που δεν αποτελούν τη βάση αναφοράς, και γιατί;",
+    "answer": [
+      [
+        "Η στρατηγική 'AlphaSharpe' είναι μια ακραία περίπτωση. Για τις στρατηγικές 'Risk Parity' και 'Equal Risk Cont.', η βελτίωση του λόγου Sharpe είναι περίπου 3,7 φορές μεγαλύτερη από τη βελτίωση του λόγου Calmar. Αντίθετα, η 'AlphaSharpe' αντιστρέφει αυτή την τάση, με τη βελτίωση του Calmar (+116,31%) να είναι σημαντικά μεγαλύτερη από τη βελτίωση του Sharpe (+71,04%), υποδεικνύοντας μια θεμελιωδώς διαφορετική βελτίωση στο προφίλ κινδύνου-απόδοσης."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "A4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_010",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "Συγκρίνετε τις στρατηγικές 'Risk Parity' και 'Equal Risk Cont.'. Ποια προσφέρει καλύτερο προφίλ απόδοσης με βάση τις παρεχόμενες μετρήσεις, και κατά πόσο σε κάθε μέτρηση;",
+    "answer": [
+      [
+        "Η 'Equal Risk Cont.' προσφέρει ένα οριακά καλύτερο προφίλ απόδοσης. Υπεραποδίδει έναντι της 'Risk Parity' με 0,23 ποσοστιαίες μονάδες υψηλότερη βελτίωση στην αναλογία Sharpe (+38,55% έναντι +38,32%) και 0,08 ποσοστιαίες μονάδες υψηλότερη βελτίωση στην αναλογία Calmar (+10,44% έναντι +10,36%)."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_011",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Ποια είναι η τιμή ΔSharpe (%) για τη στρατηγική χαρτοφυλακίου 'Equal Risk Cont.' στον πίνακα;",
+    "answer": [
+      [
+        "+38.55%"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,318 @@
+[
+  {
+    "question_id": "wikisql_9e5b0ed62e_001",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "value",
+    "question": "Welcher Spieler, David West oder Chris Paul, hatte eine höhere Gesamtpunktzahl in Spielen, in denen sie als Topscorer aufgeführt waren?",
+    "answer": [
+      [
+        "David West"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12",
+      "E13",
+      "E14"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_002",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "value",
+    "question": "Wie hoch war die durchschnittliche Zuschauerzahl für Spiele, die in der New Orleans Arena ausgetragen wurden?",
+    "answer": [
+      [
+        "16821"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H4",
+      "H5",
+      "H6",
+      "H8",
+      "H10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_003",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "value",
+    "question": "In welchem Spiel war die höchste Zuschauerzahl, wer führte das Team bei den Assists an und mit wie vielen?",
+    "answer": [
+      [
+        "Chris Paul (6)"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6",
+      "H7",
+      "H8",
+      "H9",
+      "H10",
+      "H11",
+      "H12",
+      "G9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_004",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "open_ended_reasoning",
+    "question": "Analysiere den Leistungstrend des Teams während der letzten vier Spiele, die in der Tabelle aufgeführt sind (Spiele 11-14).",
+    "answer": [
+      [
+        "Die Leistung des Teams zeigte einen deutlichen positiven Trend. Sie gewannen alle vier ihrer letzten verzeichneten Spiele und starteten eine Siegesserie. Dies wird durch das 'W' in der Spalte 'Score' für jedes Spiel von Spiel 11 bis 14 belegt, wodurch sich ihre Bilanz von 5-5 nach Spiel 10 auf 9-5 nach Spiel 14 verbesserte."
+      ]
+    ],
+    "evidence_cells": [
+      "D9",
+      "I9",
+      "D10",
+      "I10",
+      "D11",
+      "I11",
+      "D12",
+      "I12",
+      "I8"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_005",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "value",
+    "question": "Listen Sie die Gegner für alle Spiele auf, bei denen das Team verloren hat und der Austragungsort die New Orleans Arena war.",
+    "answer": [
+      [
+        "Atlanta"
+      ],
+      [
+        "L.A. Lakers"
+      ],
+      [
+        "Sacramento"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "H2",
+      "C5",
+      "D5",
+      "H5",
+      "C8",
+      "D8",
+      "H8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_006",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "value",
+    "question": "Welcher Anteil der insgesamt aufgezeichneten Spiele endete mit einer Niederlage?",
+    "answer": [
+      [
+        "41.67%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11",
+      "D12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_007",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "value",
+    "question": "Wenn die Zuschauerzahl bei jedem Auswärtsspiel (Symbol '@' in der Spalte 'Team') um 10 % höher gewesen wäre, wie hoch wäre dann die Gesamtzuschauerzahl bei allen 12 Spielen gewesen?",
+    "answer": [
+      [
+        "197307"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "H3",
+      "C7",
+      "H7",
+      "C9",
+      "H9",
+      "C11",
+      "H11",
+      "C12",
+      "H12",
+      "H1",
+      "H2",
+      "H4",
+      "H5",
+      "H6",
+      "H8",
+      "H10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_008",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "open_ended_reasoning",
+    "question": "Gibt es eine konsistente Beziehung zwischen der Anzahl der Rebounds des führenden Spielers des Teams und dem Spielausgang (Sieg/Niederlage)?",
+    "answer": [
+      [
+        "Es gibt keine konsistente Beziehung. Die Anzahl der Rebounds des führenden Spielers schwankt sowohl bei Siegen als auch bei Niederlagen stark. Zum Beispiel gewann das Team mit nur 6 Rebounds (Spiel 3) und mit bis zu 10 (Spiel 6, 12, 13). Sie verloren auch Spiele, in denen der Rebound-Führende 7 hatte (Spiel 4, 5), und gewannen Spiele mit der gleichen Anzahl (Spiel 8). Die höchste Rebound-Zahl (12 von David West) ereignete sich in einer Niederlage (Spiel 7), was darauf hindeutet, dass eine dominante Rebound-Leistung eines Spielers keinen Sieg garantiert."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6",
+      "D7",
+      "F7",
+      "D8",
+      "F8",
+      "D9",
+      "F9",
+      "D10",
+      "F10",
+      "D11",
+      "F11",
+      "D12",
+      "F12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_009",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "value",
+    "question": "Welche der drei Spalten für Spielerleistungen ('Höchste Punkte', 'Höchste Rebounds', 'Höchste Assists') weist die geringste Vielfalt an führenden Spielern auf?",
+    "answer": [
+      [
+        "High assists"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G10",
+      "G11",
+      "G12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_010",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "value",
+    "question": "Welches Spiel stellt einen Ausreißer für David West in Bezug auf erzielte Punkte dar, verglichen mit seinen anderen hochpunktreichen Spielen in diesem Zeitraum?",
+    "answer": [
+      [
+        "Game 12"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "E1",
+      "E4",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12",
+      "E13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_011",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "open_ended_reasoning",
+    "question": "Welcher Spieler taucht in der Spalte \"High Points\" am häufigsten auf?",
+    "answer": [
+      [
+        "David West taucht in fast jedem Spiel auf."
+      ]
+    ],
+    "evidence_cells": [
+      "E3",
+      "E4",
+      "E6",
+      "E8",
+      "E10",
+      "E11",
+      "E12",
+      "E13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  }
+]

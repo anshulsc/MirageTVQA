@@ -1,0 +1,299 @@
+[
+  {
+    "question_id": "wikisql_81e86b50e7_001",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "Jaki jest średni „wskaźnik bieżący” dla wszystkich firm, które nie przetrwały („Przetrwanie?” = 0)?",
+    "answer": [
+      [
+        "701"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B4",
+      "D4",
+      "B5",
+      "D5",
+      "B11",
+      "D11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_002",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "Wymień branże firm, które przetrwały i miały wskaźnik \"Wartość netto do aktywów trwałych\" większy niż 200.",
+    "answer": [
+      [
+        "Phonographs and records manufacture"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "F6",
+      "B7",
+      "F7",
+      "B8",
+      "F8",
+      "B9",
+      "F9",
+      "B10",
+      "F10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_003",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "Która firma, która przetrwała (pole 'Survive?' = 1), ma najsilniejszą pozycję płynności, wskazana przez najwyższy 'Quick ratio'?",
+    "answer": [
+      [
+        "Phonographs and records manufacture"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "E6",
+      "B7",
+      "C7",
+      "E7",
+      "B8",
+      "C8",
+      "E8",
+      "B9",
+      "C9",
+      "E9",
+      "B10",
+      "C10",
+      "E10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_004",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "Dla której branży z powiązanymi wynikami przeżycia, wskaźnik 'Wartość netto do aktywów trwałych' firmy, która przetrwała, jest ponad dwukrotnie wyższy niż firmy, która upadła?",
+    "answer": [
+      [
+        "Phonographs and records manufacture"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "F1",
+      "B7",
+      "C7",
+      "F7",
+      "B2",
+      "C2",
+      "F2",
+      "B8",
+      "C8",
+      "F8",
+      "B5",
+      "C5",
+      "F5",
+      "B6",
+      "C6",
+      "F6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_005",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "Jaki procent całkowitego 'wskaźnika bieżącego' wszystkich firm, które przetrwały, stanowi firma 'Steel products manufacture'? Zaokrąglij do jednego miejsca po przecinku.",
+    "answer": [
+      [
+        "26.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "D6",
+      "B7",
+      "D7",
+      "B8",
+      "D8",
+      "B9",
+      "C9",
+      "D9",
+      "B10",
+      "D10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_006",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "Gdyby znaleziono błąd księgowy i 'wskaźnik bieżący' dla upadłej firmy 'Pianos manufacture and sale' byłby faktycznie o 50 punktów niższy, jaki byłby nowy średni 'wskaźnik bieżący' dla wszystkich upadłych firm?",
+    "answer": [
+      [
+        "692.67"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B4",
+      "D4",
+      "B5",
+      "D5",
+      "B11",
+      "D11"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_007",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "open_ended_reasoning",
+    "question": "Czy wyższy 'Szybki wskaźnik' (Quick ratio) wydaje się mieć stałą pozytywną korelację z przeżywalnością, bazując na tych danych? Uzasadnij swoją odpowiedź danymi.",
+    "answer": [
+      [
+        "Nie, wyższy 'Szybki wskaźnik' nie wykazuje stałej pozytywnej korelacji z przeżywalnością. Chociaż w dwóch z trzech porównywanych branż ('Bawełna' i 'Gramofony i płyty'), firma, która przetrwała, miała wyższy wskaźnik, branża 'Przetwórstwo mięsa' stanowi bezpośredni przykład przeciwny. Upadła firma z branży 'Przetwórstwo mięsa' miała 'Szybki wskaźnik' wynoszący 302, co jest znacznie wyższe niż wskaźnik 221 jej porównywalnej, ale przetrwałej konkurentki."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "E1",
+      "B2",
+      "C2",
+      "E2",
+      "B5",
+      "C5",
+      "E5",
+      "B6",
+      "C6",
+      "E6",
+      "B7",
+      "C7",
+      "E7",
+      "B8",
+      "C8",
+      "E8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_008",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "open_ended_reasoning",
+    "question": "Która firma jest znaczącym odchyleniem od normy spośród wszystkich firm pod względem swojego „Wskaźnika bieżącego” i jaki był jej wynik pod względem przeżywalności?",
+    "answer": [
+      [
+        "Firmą z branży „produkcja kołnierzy i koszul” jest odchylenie od normy, ze „Wskaźnikiem bieżącym” wynoszącym 2525. Firma ta nie przetrwała (Przeżyła? = 0)."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_009",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "Które branże są reprezentowane przez równą liczbę firm, które przetrwały i nie przetrwały w tym zbiorze danych?",
+    "answer": [
+      [
+        "Cotton textile industry of New England"
+      ],
+      [
+        "Meat-packing"
+      ],
+      [
+        "Phonographs and records manufacture"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_010",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "Jeśli zdefiniujemy 'efektywność aktywów' jako wskaźnik 'Wartość netto do aktywów trwałych', która z dwóch upadłych firm o najniższym wskaźniku bieżącym (ID par 13 i 9) wykazała lepszą efektywność aktywów?",
+    "answer": [
+      [
+        "Phonographs and records manufacture"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "F1",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "F5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_011",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "open_ended_reasoning",
+    "question": "Jakie cechy finansowe wydają się być związane z firmami, które przetrwały?",
+    "answer": [
+      [
+        "Firmy, które przetrwały, często wykazują wyższe wskaźniki bieżącej i szybkiej płynności, co sugeruje lepszą płynność i krótkoterminową kondycję finansową."
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2",
+      "D4",
+      "E4",
+      "D8",
+      "E8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  }
+]

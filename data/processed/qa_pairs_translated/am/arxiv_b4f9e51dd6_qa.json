@@ -1,0 +1,156 @@
+[
+  {
+    "question_id": "arxiv_b4f9e51dd6_001",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "የትኛው የሞጁል ውቅር በረጅም ትንበያ መስኮት ላይ ዝቅተኛውን (ምርጥ) አፈጻጸም ያሳካል፣ MSE30?",
+    "answer": [
+      [
+        "Audio+Text+Eos+Ecs+Efo"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A3",
+      "F3",
+      "A4",
+      "F4",
+      "A5",
+      "F5",
+      "A6",
+      "F6",
+      "A7",
+      "F7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_002",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "በ 'Audio+Text' ውቅር ውስጥ ባካተቱት ሁሉም ሞጁሎች አማካይ MSE3 ውጤት ምንድነው?",
+    "answer": [
+      [
+        "0.614"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_006",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "ከ'ኦዲዮ+ጽሑፍ' ሞጁል ወደ በጣም የተወሳሰበ 'ኦዲዮ+ጽሑፍ+ኢኦኤስ+ኢሲኤስ+ኢኤፍኦ' ሞጁል ሲንቀሳቀሱ የMSE30 ስህተት በምን ያህል መቶኛ ይቀንሳል?",
+    "answer": [
+      [
+        "22.55%"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_007",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "የ 'Eos+Ecs+Efo' ሞጁል የ MSE_over ዋጋ በ15% ከቀነሰ፣ በሁሉም ሰባት ሞጁሎች አማካይ MSE_over ዋጋ ምን ይሆናል?",
+    "answer": [
+      [
+        "0.349"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_008",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "open_ended_reasoning",
+    "question": "በውሂቡ መሠረት፣ የአንድ ሞጁል የአጭር ጊዜ አፈጻጸም (MSE3) እና የረጅም ጊዜ አፈጻጸም (MSE30) መካከል የተስተካከለ ግንኙነት አለ? መልስዎን ያረጋግጡ።",
+    "answer": [
+      [
+        "አዎ፣ ጠንካራ አዎንታዊ ትስስር አለ። ዝቅተኛ የMSE3 ውጤቶች ያላቸው ሞጁሎች 'Audio+Text+Eos+Ecs+Efo' (0.553) እና 'Audio+Text+Efo' (0.579) ዝቅተኛውን የMSE30 ውጤቶች (በቅደም ተከተል 0.158 እና 0.165) ያሳያሉ። በተቃራኒው፣ ከፍተኛ የMSE3 ውጤቶች ያላቸው ሞጁሎች፣ ለምሳሌ 'Audio+Text' (0.645) እና 'Audio+Text+Ecs' (0.640) ከፍተኛውን የMSE30 ውጤቶች (0.204 እና 0.201) ያሳያሉ። ይህ የሚያሳየው አጭር ጊዜ ትንበያ ላይ በደንብ የሚሰሩ ሞጁሎች የረጅም ጊዜ ትንበያ ላይም እንዲሁ በደንብ የመስራት አዝማሚያ እንዳላቸው ነው።"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "F1",
+      "C2",
+      "F2",
+      "C3",
+      "F3",
+      "C4",
+      "F4",
+      "C5",
+      "F5",
+      "C6",
+      "F6",
+      "C7",
+      "F7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_010",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "በ MSE7 ፊት ላይ ከ'Audio+Text' ሞጁል የባሰ (ከፍተኛ MSE ያለው) የሚሰሩት ሞጁሎች የትኞቹ ናቸው፣ ይህም በዚህ የተለየ ነጥብ ላይ ያላቸውን አፈጻጸም ከተጠበቀው መሻሻል ጋር በማነፃፀር ልዩ ያደርገዋል?",
+    "answer": [
+      [
+        "Audio+Text+Eos"
+      ],
+      [
+        "Audio+Text+Ecs"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_011",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "የ ኦዲዮ+ጽሑፍ ሞጁሉ አማካይ MSE ምንድነው?",
+    "answer": [
+      [
+        "0.373"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

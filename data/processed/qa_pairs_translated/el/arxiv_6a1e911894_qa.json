@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_6a1e911894_001",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Εάν ο χρόνος παράδοσης T είναι 30, ποια μεταβλητή SIDC αντιπροσωπεύει το κλείσιμο των βιβλίων εντολών και σε ποιον χρόνο συναλλαγής t συμβαίνει αυτό το γεγονός;",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_002",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Ποια είναι η θεμελιώδης διαφορά μεταξύ των περιόδων συναλλαγών που ορίζονται από το SIDCO και το SIDCL σε σχέση με τον χρόνο παράδοσης;",
+    "answer": [
+      [
+        "Η θεμελιώδης διαφορά έγκειται στη χρονική στιγμή τους σε σχέση με την παράδοση. Το SIDCO ορίζει την περίοδο κατά την οποία τα βιβλία εντολών είναι ανοιχτά, η οποία πρέπει να είναι τουλάχιστον δύο χρονικές μονάδες πριν από την παράδοση (T-t ≥ 2). Αντίθετα, το SIDCL ορίζει την περίοδο μετά το κλείσιμο των βιβλίων εντολών, η οποία είναι εντός δύο χρονικών μονάδων από την παράδοση (T-t ≤ 2)."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_003",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Σύμφωνα με τις παρεχόμενες ερμηνείες, πόσες ώρες μεσολαβούν μεταξύ του πρώτου και του δεύτερου κύματος σύζευξης βιβλίων εντολών διασυνοριακών συναλλαγών;",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_004",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Με βάση τις συνθήκες του χρόνου συναλλαγών, ποιο γεγονός SIDC αντιπροσωπεύει τη συγκεκριμένη στιγμή που προηγείται αμέσως της έναρξης της περιόδου SIDCL;",
+    "answer": [
+      [
+        "SIDCC"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_005",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Για ένα προϊόν με χρόνο παράδοσης T=20, ποιο από τα δύο καθορισμένα συμβάντα \"κύματος\" (SIDC1 ή SIDC2) δεν θα μπορούσε να συμβεί επειδή ο χρόνος διαπραγμάτευσής του θα έπεφτε εκτός της έγκυρης ανοιχτής περιόδου;",
+    "answer": [
+      [
+        "SIDC2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_006",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Εάν το δεύτερο κύμα σύζευξης (SIDC2) καθυστερούσε να συμβεί στις t=30, ποιος θα ήταν ο ελάχιστος ακέραιος χρόνος παράδοσης T που απαιτείται για να εξακολουθήσει αυτό το γεγονός να εμπίπτει στη γενική ανοιχτή περίοδο που ορίζεται από το SIDCO;",
+    "answer": [
+      [
+        "32"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_007",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Ποιες είναι οι κοινές παράμετροι που χρησιμοποιούνται στην σημειογραφία που μοιάζει με συνάρτηση για κάθε μεταβλητή που αναφέρεται στη στήλη 'Variable';",
+    "answer": [
+      [
+        "d"
+      ],
+      [
+        "h"
+      ],
+      [
+        "t"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_008",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Μια συναλλαγή πραγματοποιείται στον χρόνο συναλλαγής t=20 για ένα προϊόν με χρόνο παράδοσης T=25. Ποιες συνθήκες της μεταβλητής SIDC ικανοποιούνται από αυτή τη συναλλαγή;",
+    "answer": [
+      [
+        "SIDCO"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_009",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Ποια μεταβλητή σηματοδοτεί τη μετάβαση από την περίοδο SIDCO στην περίοδο SIDCL και ποια είναι η συνθήκη χρονικής συναλλαγής που τη χαρακτηρίζει;",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "T-t=2"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_010",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Συγκρίνετε το χρονικό εύρος της μεταβλητής SIDCO με αυτό της μεταβλητής SIDC1 βάσει των ορισμών τους.",
+    "answer": [
+      [
+        "Το SIDCO αντιπροσωπεύει μια συνεχή χρονική περίοδο κατά την οποία τα βιβλία εντολών είναι ανοιχτά, οριζόμενη από το εύρος t≥12 και T-t≥2. Αντίθετα, το SIDC1 αντιπροσωπεύει ένα μοναδικό, διακριτό χρονικό σημείο, t=12, το οποίο σηματοδοτεί τη συγκεκριμένη στιγμή της πρώτης εκδήλωσης σύζευξης στην αρχή της περιόδου SIDCO."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_011",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Ποια μεταβλητή SIDC αντιπροσωπεύει το κλείσιμο των διασυνοριακών βιβλίων εντολών και υπό ποιες συνθήκες εμπορικής ώρας συμβαίνει;",
+    "answer": [
+      [
+        "Η μεταβλητή SIDC꜀(d,h,t) αντιπροσωπεύει το κλείσιμο των διασυνοριακών βιβλίων εντολών και συμβαίνει όταν T − t = 2."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

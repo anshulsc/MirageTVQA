@@ -1,0 +1,254 @@
+[
+  {
+    "question_id": "wikisql_406d6d4609_001",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "value",
+    "question": "En büyük farkla kazanan sürücü kimdi ve bu fark ne kadardı?",
+    "answer": [
+      [
+        "Clint Bowyer",
+        "6.469 sec"
+      ]
+    ],
+    "evidence_cells": [
+      "C12",
+      "I12",
+      "I1",
+      "I3",
+      "I4",
+      "I5",
+      "I7",
+      "I8",
+      "I9",
+      "I13"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_002",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "value",
+    "question": "Bu veri setinde Hendrick Motorsports tarafından kaç galibiyet elde edilmiştir?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "G4",
+      "G8",
+      "G10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_003",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "value",
+    "question": "Bu veri setinde en sık zafer kazanan araç markasını kullanan tüm kazanan sürücüleri belirleyin.",
+    "answer": [
+      [
+        "Joe Nemechek"
+      ],
+      [
+        "Jimmie Johnson"
+      ],
+      [
+        "Robby Gordon"
+      ],
+      [
+        "Kyle Busch"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "C2",
+      "C4",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_004",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "value",
+    "question": "Bu veri setinde kaydedilen en erken yarışı hangi otomobil markası kazandı ve en son yarışı hangi marka kazandı?",
+    "answer": [
+      [
+        "Pontiac Grand Prix",
+        "Toyota Camry"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "F9",
+      "A13",
+      "F13",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A10",
+      "A11",
+      "A12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_005",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "value",
+    "question": "Penske Racing adına 2000 yılından sonraki bir sezonda kazanan sürücüleri listeleyin.",
+    "answer": [
+      [
+        "Ryan Newman"
+      ],
+      [
+        "Kurt Busch"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "G1",
+      "A11",
+      "C11",
+      "G11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_007",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "open_ended_reasoning",
+    "question": "2008 yılındaki yarış galibiyeti veri kümesinden çıkarılsaydı, hangi takım en çok 'UC' (güvenlik aracı altında) galibiyetine sahip olurdu?",
+    "answer": [
+      [
+        "Kalan 'Güvenlik Aracı Altında' galibiyetleri olan takımlar Team SABCO, Roush Racing ve Hendrick Motorsports olurdu ve her biri birer galibiyete sahip olurdu. Bu nedenle, güvenlik aracı altında en çok galibiyet için üçlü bir beraberlik oluşurdu."
+      ]
+    ],
+    "evidence_cells": [
+      "G2",
+      "I2",
+      "G6",
+      "I6",
+      "G10",
+      "I10",
+      "G11",
+      "I11"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_008",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "open_ended_reasoning",
+    "question": "Verilere göre, belirli bir sponsor yalnızca tek bir yarış takımıyla mı ilişkilendiriliyor gibi görünüyor? Sonucunuzu desteklemek için bir örnek verin.",
+    "answer": [
+      [
+        "Hayır, sponsorlar yalnızca tek bir takımla ilişkili gibi görünmüyor. Örneğin, 'Lowe's' hem Hendrick Motorsports (2003'te) hem de Richard Childress Racing (2001'de) için sponsor olarak listelenmiştir."
+      ]
+    ],
+    "evidence_cells": [
+      "E4",
+      "G4",
+      "E7",
+      "G7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_009",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "open_ended_reasoning",
+    "question": "Veri setindeki hangi iki sütun, yer tutucular veya standartlaştırılmamış girişler şeklinde önemli veri kalitesi sorunlarına sahiptir ve bu sorunlar nelerdir?",
+    "answer": [
+      [
+        "'Ort. Hız' ve 'Zafer Farkı' sütunlarında veri kalitesi sorunları bulunmaktadır. 'Ort. Hız' (H Sütunu), gerçek veri yerine her girişte yalnızca 'mph (km/h)' yer tutucusu içermektedir. 'Zafer Farkı' (I Sütunu) ise, sayısal saniyelerle karışık olarak 'UC' ve 'UC/Called due to rain' gibi standart dışı metin girişleri içermektedir, bu da tekdüze nicel analizi engellemektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6",
+      "H7",
+      "H8",
+      "H9",
+      "H10",
+      "H11",
+      "H12",
+      "H13",
+      "I2",
+      "I6",
+      "I10",
+      "I11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_010",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "open_ended_reasoning",
+    "question": "Diğer sayısal olarak kaydedilen zaferlere kıyasla zafer marjı açısından hangi yarış zaferi bir aykırı değer olarak öne çıkıyor?",
+    "answer": [
+      [
+        "Clint Bowyer'ın 2007'deki zaferi, 6.469 saniyelik bir zafer marjı ile önemli bir aykırı değerdir. Bu, bir sonraki en yüksek marj olan 5.47 saniyeden kayda değer ölçüde daha büyüktür ve diğer sayısal marjların ortalamasının üç katından fazladır, bu da alışılmadık derecede dominant bir performansa işaret etmektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "C12",
+      "I12",
+      "I1",
+      "I3",
+      "I4",
+      "I5",
+      "I7",
+      "I8",
+      "I9",
+      "I13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_011",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "value",
+    "question": "Birden fazla sezonda ve yarışta aynı sponsoru temsil eden sürücü hangisiydi?",
+    "answer": [
+      [
+        "Jeff Burton (Exide Batteries)"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "C8",
+      "C9",
+      "C12",
+      "E5",
+      "E8",
+      "E9",
+      "E12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

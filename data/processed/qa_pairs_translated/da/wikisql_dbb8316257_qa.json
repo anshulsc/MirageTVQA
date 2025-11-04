@@ -1,0 +1,252 @@
+[
+  {
+    "question_id": "wikisql_dbb8316257_001",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "Af de atleter, der vandt deres første kamp, hvem tabte derefter deres næste kamp med den største pointforskel?",
+    "answer": [
+      [
+        "Driss Moussaid"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "A6",
+      "C6",
+      "D6",
+      "A9",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_002",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "Hvad var det samlede antal point scoret imod alle atleter kombineret i deres 'ottendedelsfinale'-kampe?",
+    "answer": [
+      [
+        "81"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_003",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "Hvilken atlet var involveret i '32-delsfinalen'-kampen med det højeste samlede antal scorede point (summen af begge scores), og hvad var det samlede antal?",
+    "answer": [
+      [
+        "Driss Moussaid",
+        "25"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_004",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "List alle atleter, der blev besejret i '32-delsfinalen' med en margin på 10 point eller mere.",
+    "answer": [
+      [
+        "Abdelillah Nhaila"
+      ],
+      [
+        "Tahar Tamsamani"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A7",
+      "C7",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_005",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "Blandt de atleter, der blev elimineret i 'ottendedelsfinalen', hvem vandt deres kamp i '32-delsfinalen' med en større pointmargin?",
+    "answer": [
+      [
+        "Driss Moussaid"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "A6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_006",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "Hvilken procentdel af atleterne, der konkurrerede i 'ottendedelsfinalen', avancerede til 'ottendedelsfinalen'?",
+    "answer": [
+      [
+        "25%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_007",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "open_ended_reasoning",
+    "question": "Spor den atlet, der nåede længst i turneringen, og beskriv deres resultat i hver runde.",
+    "answer": [
+      [
+        "Mohamed Arjaoui nåede længst og nåede kvartfinalen. Han havde en 'bye' i 'ottendedelsfinalen' (resultat N/A), vandt derefter sin kamp i 'ottendedelsfinalen' mod Pitt med en score på 11-6. Han blev i sidste ende elimineret i 'kvartfinalen' efter en 10-10 uafgjort mod Wilder, hvor han tabte på dommerafgørelse."
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C9",
+      "D9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_008",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "Hvis Mohamed Arjaoui havde vundet sin kvartfinalekamp i stedet for at tabe, hvor mange atleter fra denne liste ville have deltaget i semifinalerne?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "E9",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_009",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "open_ended_reasoning",
+    "question": "Indikerer data en sammenhæng mellem en atlets vægtklasse og deres succes i turneringen? Forklar din begrundelse.",
+    "answer": [
+      [
+        "Ja, dataene antyder en positiv sammenhæng mellem vægtklasse og succes. Atleten i den tungeste klasse, Mohamed Arjaoui (Tungvægt), avancerede længst til kvartfinalen. I modsætning hertil blev alle atleter i de fem letteste vægtklasser elimineret i deres første kamp. De to atleter fra de mellemtunge klasser avancerede én runde, før de blev elimineret. Dette mønster indikerer, at tungere atleter i dette datasæt havde tendens til at præstere bedre."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "B6",
+      "C6",
+      "D6",
+      "E6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "B9",
+      "C9",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_010",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "Hvilken er den eneste vægtklasse, der er angivet, og som ikke havde et konkurrenceresultat (sejr/tab) registreret for 'ottendedelsfinalerne'?",
+    "answer": [
+      [
+        "Heavyweight"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

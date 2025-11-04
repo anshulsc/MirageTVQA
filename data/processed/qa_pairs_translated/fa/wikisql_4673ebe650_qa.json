@@ -1,0 +1,357 @@
+[
+  {
+    "question_id": "wikisql_4673ebe650_001",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "تعداد کل سلول‌های داده در جدول که حاوی مقدار «فوریه» هستند، چقدر است؟",
+    "answer": [
+      [
+        "12"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11",
+      "C12"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_002",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "open_ended_reasoning",
+    "question": "داده‌های سطر مربوط به '2002 :' (سطر 2) را با سربرگ‌های ستون (سطر 0) مقایسه کنید. تفاوت ساختاری اصلی، به غیر از ستون اول، چیست؟",
+    "answer": [
+      [
+        "تفاوت ساختاری اصلی این است که سطر مربوط به '2002 :' بخشی از بدنه داده است، در حالی که سربرگ‌ها شمای جدول را تعریف می‌کنند. اگرچه مقادیر از ستون دوم به بعد ('ژانویه' تا 'دسامبر') هم در سطر سربرگ و هم در سطر '2002 :' یکسان هستند، اما عملکرد آنها متفاوت است: یکی یک برچسب است و دیگری یک نقطه داده."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "H2",
+      "I2",
+      "J2",
+      "K2",
+      "L2",
+      "M2",
+      "B0",
+      "C0",
+      "D0",
+      "E0",
+      "F0",
+      "G0",
+      "H0",
+      "I0",
+      "J0",
+      "K0",
+      "L0",
+      "M0"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_003",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "ماه ذکر شده در ستون نهم ردیفی که چهار ردیف بالاتر از ورودی '2011 :' است، چیست؟",
+    "answer": [
+      [
+        "August"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "I7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_004",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "open_ended_reasoning",
+    "question": "الگوی ترتیبی سال‌های ارائه‌شده در ستون اول مجموعه داده را توصیف کنید.",
+    "answer": [
+      [
+        "ستون اول یک پیشرفت زمانی ثابت را نشان می‌دهد، که هر سطر یک سال متوالی را از '2001 :' شروع کرده و به '2012 :' ختم می‌شود. توالی دقیقاً یک سال در هر سطر افزایش می‌یابد."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_005",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "تمام سال‌هایی را فهرست کنید که 'آوریل' در ستون پنجم و 'نوامبر' در ستون دوازدهم ظاهر می‌شود.",
+    "answer": [
+      [
+        "2001 :",
+        "2002 :",
+        "2003 :",
+        "2004 :",
+        "2005 :",
+        "2006 :",
+        "2007 :",
+        "2008 :",
+        "2009 :",
+        "2010 :",
+        "2011 :",
+        "2012 :"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "L1",
+      "A2",
+      "E2",
+      "L2",
+      "A3",
+      "E3",
+      "L3",
+      "A4",
+      "E4",
+      "L4",
+      "A5",
+      "E5",
+      "L5",
+      "A6",
+      "E6",
+      "L6",
+      "A7",
+      "E7",
+      "L7",
+      "A8",
+      "E8",
+      "L8",
+      "A9",
+      "E9",
+      "L9",
+      "A10",
+      "E10",
+      "L10",
+      "A11",
+      "E11",
+      "L11",
+      "A12",
+      "E12",
+      "L12"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_006",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "اگر جدول برای شامل شدن سطر '2013' گسترش یابد، مقدار مورد انتظار در سلول متناظر با ستون 'October' چه خواهد بود؟",
+    "answer": [
+      [
+        "October"
+      ]
+    ],
+    "evidence_cells": [
+      "K0",
+      "K1",
+      "K2",
+      "K3",
+      "K4",
+      "K5",
+      "K6",
+      "K7",
+      "K8",
+      "K9",
+      "K10",
+      "K11",
+      "K12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_007",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "open_ended_reasoning",
+    "question": "چه رابطه‌ای بین سرستون‌ها (از ستون دوم به بعد) و داده‌های درون ستون‌های مربوطه در سراسر جدول وجود دارد؟",
+    "answer": [
+      [
+        "یک رابطه هویت مستقیم یک به یک وجود دارد. برای هر ستون مشخص، از ستون دوم ('January') تا آخرین ستون ('December')، هر سلول داده در آن ستون حاوی یک مقدار متنی است که دقیقاً مشابه سرستون آن ستون است."
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "D0",
+      "E0",
+      "F0",
+      "G0",
+      "H0",
+      "I0",
+      "J0",
+      "K0",
+      "L0",
+      "M0",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1",
+      "H1",
+      "I1",
+      "J1",
+      "K1",
+      "L1",
+      "M1",
+      "B12",
+      "C12",
+      "D12",
+      "E12",
+      "F12",
+      "G12",
+      "H12",
+      "I12",
+      "J12",
+      "K12",
+      "L12",
+      "M12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_008",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "open_ended_reasoning",
+    "question": "آیا در کل جدول، مقدار سلول داده‌ای وجود دارد که با سربرگ ستون خود یا فرمت 'YYYY :' تعیین‌شده در ستون اول مطابقت نداشته باشد؟ داده‌ها را برای هر گونه ناهماهنگی تحلیل کنید.",
+    "answer": [
+      [
+        "خیر، هیچ داده پرت یا ناهماهنگی در داده‌ها وجود ندارد. هر سلول در ستون اول از فرمت 'YYYY :' برای سال‌های متوالی پیروی می‌کند، و هر سلول از ستون دوم تا ستون آخر کاملاً با سربرگ ماه-نام متناظر خود مطابقت دارد."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1",
+      "H1",
+      "I1",
+      "J1",
+      "K1",
+      "L1",
+      "M1",
+      "B12",
+      "C12",
+      "D12",
+      "E12",
+      "F12",
+      "G12",
+      "H12",
+      "I12",
+      "J12",
+      "K12",
+      "L12",
+      "M12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_009",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "چه نسبتی از ستون‌ها در بدنه داده شامل نام ماه‌ها هستند؟",
+    "answer": [
+      [
+        "0.923"
+      ]
+    ],
+    "evidence_cells": [
+      "A0",
+      "B0",
+      "C0",
+      "D0",
+      "E0",
+      "F0",
+      "G0",
+      "H0",
+      "I0",
+      "J0",
+      "K0",
+      "L0",
+      "M0"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_010",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "مقدار واقع در تقاطع آخرین سطر و ستون با نام 'July' چیست؟",
+    "answer": [
+      [
+        "July"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "H0",
+      "H12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_011",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "کدام سال بلافاصله پس از 2008 در این جدول می‌آید؟",
+    "answer": [
+      [
+        "2009 :"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "A10"
+    ],
+    "reasoning_category": "Sequential/Temporal Reasoning"
+  }
+]

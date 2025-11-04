@@ -1,0 +1,299 @@
+[
+  {
+    "question_id": "wikisql_81e86b50e7_001",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "Care este 'Current ratio' mediu pentru toate companiile care nu au supraviețuit ('Survive?' = 0)?",
+    "answer": [
+      [
+        "701"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B4",
+      "D4",
+      "B5",
+      "D5",
+      "B11",
+      "D11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_002",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "Enumerați industriile companiilor care au supraviețuit și au avut un raport 'Valoare netă la active fixe' mai mare de 200.",
+    "answer": [
+      [
+        "Phonographs and records manufacture"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "F6",
+      "B7",
+      "F7",
+      "B8",
+      "F8",
+      "B9",
+      "F9",
+      "B10",
+      "F10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_003",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "Ce companie supraviețuitoare ('Supraviețuiește?' = 1) deține cea mai bună poziție de lichiditate, indicată de cel mai mare 'Quick ratio'?",
+    "answer": [
+      [
+        "Phonographs and records manufacture"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "E6",
+      "B7",
+      "C7",
+      "E7",
+      "B8",
+      "C8",
+      "E8",
+      "B9",
+      "C9",
+      "E9",
+      "B10",
+      "C10",
+      "E10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_004",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "Pentru ce industrie, cu rezultate de supraviețuire pereche, valoarea „Capital propriu la active fixe” a companiei supraviețuitoare este mai mult decât dublul celei a companiei eșuate?",
+    "answer": [
+      [
+        "Phonographs and records manufacture"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "F1",
+      "B7",
+      "C7",
+      "F7",
+      "B2",
+      "C2",
+      "F2",
+      "B8",
+      "C8",
+      "F8",
+      "B5",
+      "C5",
+      "F5",
+      "B6",
+      "C6",
+      "F6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_005",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "Ce procent din 'Current ratio' total pentru toate companiile supraviețuitoare este contribuit de compania 'Steel products manufacture'? Rotunjește la o zecimală.",
+    "answer": [
+      [
+        "26.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "D6",
+      "B7",
+      "D7",
+      "B8",
+      "D8",
+      "B9",
+      "C9",
+      "D9",
+      "B10",
+      "D10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_006",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "Dacă s-ar fi găsit o eroare contabilă și 'Raportul curent' pentru compania eșuată 'Fabricarea și vânzarea de piane' ar fi fost de fapt cu 50 de puncte mai mic, care ar fi noul 'Raport curent' mediu pentru toate companiile eșuate?",
+    "answer": [
+      [
+        "692.67"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B4",
+      "D4",
+      "B5",
+      "D5",
+      "B11",
+      "D11"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_007",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "open_ended_reasoning",
+    "question": "Pe baza acestor date, pare să existe o corelație pozitivă constantă cu supraviețuirea pentru un 'Quick ratio' mai mare? Justificați-vă răspunsul cu date.",
+    "answer": [
+      [
+        "Nu, un 'Quick ratio' mai mare nu prezintă o corelație pozitivă constantă cu supraviețuirea. Deși în două din cele trei industrii pereche ('Textile din bumbac' și 'Fonografe'), compania supraviețuitoare a avut un raport mai mare, industria 'Procesare carne' prezintă un contraexemplu direct. Compania 'Procesare carne' care a eșuat a avut un 'Quick ratio' de 302, ceea ce este semnificativ mai mare decât raportul de 221 al omologului său supraviețuitor."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "E1",
+      "B2",
+      "C2",
+      "E2",
+      "B5",
+      "C5",
+      "E5",
+      "B6",
+      "C6",
+      "E6",
+      "B7",
+      "C7",
+      "E7",
+      "B8",
+      "C8",
+      "E8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_008",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "open_ended_reasoning",
+    "question": "Care companie este un valor aberant semnificativ dintre toate companiile, bazat pe 'Current ratio' (raportul curent) și care a fost rezultatul supraviețuirii sale?",
+    "answer": [
+      [
+        "Compania din industria 'Collars and shirts manufacture' (producția de gulere și cămăși) este valoarea aberantă, cu un 'Current ratio' (raportul curent) de 2525. Această companie nu a supraviețuit (Survive? = 0)."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_009",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "Ce industrii sunt reprezentate de un număr egal de companii supraviețuitoare și nesupraviețuitoare în acest set de date?",
+    "answer": [
+      [
+        "Cotton textile industry of New England"
+      ],
+      [
+        "Meat-packing"
+      ],
+      [
+        "Phonographs and records manufacture"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_010",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "Dacă definim 'eficiența activelor' ca fiind raportul 'Valoarea netă la activele imobilizate', care dintre cele două companii eșuate cu cele mai mici Rată Curentă (ID pereche 13 și 9) a prezentat o eficiență mai bună a activelor?",
+    "answer": [
+      [
+        "Phonographs and records manufacture"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "F1",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "F5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_011",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "open_ended_reasoning",
+    "question": "Ce caracteristici financiare par să fie asociate cu companiile care au supraviețuit?",
+    "answer": [
+      [
+        "Companiile care au supraviețuit prezintă adesea rapoarte curente și rapide mai mari, sugerând o lichiditate mai bună și o sănătate financiară pe termen scurt."
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2",
+      "D4",
+      "E4",
+      "D8",
+      "E8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  }
+]

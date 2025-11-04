@@ -1,0 +1,299 @@
+[
+  {
+    "question_id": "wikisql_81e86b50e7_001",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "Berapakah 'Nisbah Semasa' purata untuk semua syarikat yang tidak bertahan ('Tahan?' = 0)?",
+    "answer": [
+      [
+        "701"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B4",
+      "D4",
+      "B5",
+      "D5",
+      "B11",
+      "D11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_002",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "Senaraikan industri syarikat yang terus beroperasi dan mempunyai nisbah 'Nilai bersih kepada aset tetap' melebihi 200.",
+    "answer": [
+      [
+        "Phonographs and records manufacture"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "F6",
+      "B7",
+      "F7",
+      "B8",
+      "F8",
+      "B9",
+      "F9",
+      "B10",
+      "F10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_003",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "Syarikat manakah yang masih bertahan ('Survive?' = 1) yang mempunyai kedudukan kecairan terkuat seperti yang ditunjukkan oleh 'Quick ratio' tertinggi?",
+    "answer": [
+      [
+        "Phonographs and records manufacture"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "E6",
+      "B7",
+      "C7",
+      "E7",
+      "B8",
+      "C8",
+      "E8",
+      "B9",
+      "C9",
+      "E9",
+      "B10",
+      "C10",
+      "E10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_004",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "Bagi industri manakah dengan hasil kelangsungan hidup yang berpasangan, 'Nilai bersih kepada aset tetap' syarikat yang terselamat adalah lebih daripada dua kali ganda berbanding syarikat yang gagal?",
+    "answer": [
+      [
+        "Phonographs and records manufacture"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "F1",
+      "B7",
+      "C7",
+      "F7",
+      "B2",
+      "C2",
+      "F2",
+      "B8",
+      "C8",
+      "F8",
+      "B5",
+      "C5",
+      "F5",
+      "B6",
+      "C6",
+      "F6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_005",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "Berapakah peratusan yang disumbangkan oleh syarikat 'Steel products manufacture' kepada jumlah 'Current ratio' untuk semua syarikat yang masih hidup? Bundarkan kepada satu tempat perpuluhan.",
+    "answer": [
+      [
+        "26.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "D6",
+      "B7",
+      "D7",
+      "B8",
+      "D8",
+      "B9",
+      "C9",
+      "D9",
+      "B10",
+      "D10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_006",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "Jika terdapat ralat perakaunan dan 'Nisbah semasa' untuk syarikat 'Pembuatan dan penjualan piano' yang gagal sebenarnya 50 mata lebih rendah, apakah purata baharu 'Nisbah semasa' untuk semua syarikat yang gagal?",
+    "answer": [
+      [
+        "692.67"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B4",
+      "D4",
+      "B5",
+      "D5",
+      "B11",
+      "D11"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_007",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan data ini, adakah 'Nisbah Cepat' yang lebih tinggi kelihatan mempunyai korelasi positif yang konsisten dengan kelangsungan hidup? Justifikasikan jawapan anda dengan data.",
+    "answer": [
+      [
+        "Tidak, 'Nisbah Cepat' yang lebih tinggi tidak menunjukkan korelasi positif yang konsisten dengan kelangsungan hidup. Walaupun dalam dua daripada tiga industri berpasangan ('Tekstil Kapas' dan 'Fonograf'), syarikat yang terselamat mempunyai nisbah yang lebih tinggi, industri 'Pembungkusan Daging' membentangkan contoh balas langsung. Syarikat 'Pembungkusan Daging' yang gagal mempunyai 'Nisbah Cepat' sebanyak 302, yang jauh lebih tinggi daripada nisbah 221 bagi rakan sejawatnya yang terselamat."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "E1",
+      "B2",
+      "C2",
+      "E2",
+      "B5",
+      "C5",
+      "E5",
+      "B6",
+      "C6",
+      "E6",
+      "B7",
+      "C7",
+      "E7",
+      "B8",
+      "C8",
+      "E8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_008",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "open_ended_reasoning",
+    "question": "Syarikat manakah yang merupakan pencilan ketara di kalangan semua syarikat berdasarkan 'Nisbah Semasa' (Current ratio) mereka, dan apakah hasil kelangsungan hidupnya?",
+    "answer": [
+      [
+        "Syarikat dalam industri 'Pembuatan kolar dan baju' adalah pencilan, dengan 'Nisbah Semasa' sebanyak 2525. Syarikat ini tidak bertahan (Survive? = 0)."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_009",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "Industri manakah yang diwakili oleh bilangan syarikat yang terselamat dan tidak terselamat yang sama dalam dataset ini?",
+    "answer": [
+      [
+        "Cotton textile industry of New England"
+      ],
+      [
+        "Meat-packing"
+      ],
+      [
+        "Phonographs and records manufacture"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_010",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "Jika anda mentakrifkan 'kecekapan aset' sebagai nisbah 'Nilai bersih kepada aset tetap', manakah antara dua syarikat yang gagal dengan Nisbah Semasa terendah (ID Pasangan 13 dan 9) menunjukkan kecekapan aset yang lebih baik?",
+    "answer": [
+      [
+        "Phonographs and records manufacture"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "F1",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "F5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_011",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "open_ended_reasoning",
+    "question": "Apakah ciri-ciri kewangan yang kelihatan dikaitkan dengan syarikat yang terus bertahan?",
+    "answer": [
+      [
+        "Syarikat yang bertahan selalunya menunjukkan nisbah semasa dan nisbah pantas yang lebih tinggi, menunjukkan kecairan yang lebih baik dan kesihatan kewangan jangka pendek."
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2",
+      "D4",
+      "E4",
+      "D8",
+      "E8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  }
+]

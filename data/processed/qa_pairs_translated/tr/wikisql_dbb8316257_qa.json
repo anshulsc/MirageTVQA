@@ -1,0 +1,229 @@
+[
+  {
+    "question_id": "wikisql_dbb8316257_002",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "32 Turu'ndaki maçlarında tüm sporculara karşı atılan toplam puan sayısı kaçtır?",
+    "answer": [
+      [
+        "81"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_003",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "32. Tur maçında en yüksek toplam puana (iki skorun toplamı) sahip olan sporcu kimdi ve bu toplam kaçtı?",
+    "answer": [
+      [
+        "Driss Moussaid",
+        "25"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_004",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "'Son 32 Turu'nda' 10 veya daha fazla puan farkıyla yenilen tüm sporcuları listele.",
+    "answer": [
+      [
+        "Abdelillah Nhaila"
+      ],
+      [
+        "Tahar Tamsamani"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A7",
+      "C7",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_005",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "'Son 16' turunda elenen sporcular arasında, 'Son 32' turundaki maçlarını daha yüksek puan farkıyla kazanan kimdi?",
+    "answer": [
+      [
+        "Driss Moussaid"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "A6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_006",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "'Son 32 turu'nda yarışan sporcuların yüzde kaçı 'Son 16 turu'na yükseldi?",
+    "answer": [
+      [
+        "25%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_007",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "open_ended_reasoning",
+    "question": "Turnuvada en uzağa ilerleyen sporcunun rekabetçi ilerleyişini izleyin ve her turdaki sonucunu açıklayın.",
+    "answer": [
+      [
+        "Mohamed Arjaoui en uzağa ilerleyerek Çeyrek Finale ulaştı. 'Son 32' turunda bay (sonuç Yok/Belirtilmemiş) geçti, ardından 'Son 16' turunda Pitt'e karşı 11-6 skorla kazandı. Son olarak, Wilder ile 10-10 berabere kaldıktan sonra hakem kararıyla yenilerek 'Çeyrek Finalde' elendi."
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C9",
+      "D9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_008",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "Mohamed Arjaoui çeyrek final maçını kaybetmek yerine kazansaydı, bu listeden kaç atlet yarı finale katılırdı?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "E9",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_009",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "open_ended_reasoning",
+    "question": "Veriler, bir sporcunun kilo sınıfı ile turnuvadaki başarısı arasında bir korelasyon olduğunu mu gösteriyor? Gerekçenizi açıklayın.",
+    "answer": [
+      [
+        "Evet, veriler kilo sınıfı ile başarı arasında pozitif bir korelasyon olduğunu gösteriyor. En ağır sikletteki sporcu Mohamed Arjaoui (Ağır sıklet), Çeyrek Finallere kadar ilerlemiştir. Buna karşılık, en hafif beş sikletteki tüm sporcular ilk maçlarında elenmiştir. Orta sikletteki iki sporcu elenmeden önce bir tur ilerlemiştir. Bu örüntü, bu veri setindeki daha ağır sporcuların daha iyi performans gösterme eğiliminde olduğunu göstermektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "B6",
+      "C6",
+      "D6",
+      "E6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "B9",
+      "C9",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_010",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "Kayıtlarda 'Son 32 Turu' için (Galibiyet/Mağlubiyet) rekabetçi bir sonucu olmayan listelenen tek kilo sınıfı hangisidir?",
+    "answer": [
+      [
+        "Heavyweight"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

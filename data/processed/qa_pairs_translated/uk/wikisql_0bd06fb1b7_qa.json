@@ -1,0 +1,275 @@
+[
+  {
+    "question_id": "wikisql_0bd06fb1b7_001",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "Який гравець, що має щонайменше 5 перемог у одиночному розряді, має найвищий відсоток перемог у одиночному розряді?",
+    "answer": [
+      [
+        "Kim Young-Jun (474)"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "A5",
+      "D5",
+      "A8",
+      "D8",
+      "A12",
+      "D12",
+      "A13",
+      "D13"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_002",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "Яка загальна кількість перемог усіх гравців, чия кар'єра розпочалася у 1980-х роках?",
+    "answer": [
+      [
+        "33"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B15",
+      "C15",
+      "B17",
+      "C17"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_003",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "Перелічіть усіх гравців, які грали більше 5 років і завершили кар'єру з більшою кількістю загальних поразок, ніж перемог.",
+    "answer": [
+      [
+        "Chung Yong-Ho"
+      ],
+      [
+        "Kim Choon-Ho"
+      ],
+      [
+        "Im Kyu-tae (492)"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6",
+      "A8",
+      "B8",
+      "C8",
+      "A13",
+      "B13",
+      "C13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_004",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "Хто є найбільш значним викидом з точки зору непропорційно великої кількості загальних програшів порівняно з іншими гравцями?",
+    "answer": [
+      [
+        "Chung Yong-Ho"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11",
+      "C12",
+      "C13",
+      "C14",
+      "C15",
+      "C16",
+      "C17",
+      "C18"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_005",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "Якби Чун Хі-Сон виграв усі свої парні матчі замість результату 2-2, яким був би його новий загальний баланс перемог та поразок?",
+    "answer": [
+      [
+        "4-1"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "E4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_006",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "Який відсоток від загальної кількості матчів становили парні матчі для гравця з ідеальним балансом перемог і поразок у одиночному розряді (рівна кількість перемог та поразок)?",
+    "answer": [
+      [
+        "44%"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_007",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "Між Квон О Хі та Кім Сун Ён, хто мав кращий відсоток перемог у одиночному розряді?",
+    "answer": [
+      [
+        "Kwon Oh-Hee"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A9",
+      "D9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_008",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "open_ended_reasoning",
+    "question": "Зважаючи на роки початку кар'єри, як змінювався акцент на одиночні та парні змагання з 1980-х до 2000-х років?",
+    "answer": [
+      [
+        "Спостерігалося помітне зміщення в бік одиночних змагань. Гравці, які дебютували в 1980-х роках, такі як Сон Дон-Ук (Song Dong-Wook) та Ю Джін-Сон (Yoo Jin-Sun), мали відносно збалансовану кількість одиночних і парних матчів (наприклад, Ю Джін-Сон провів 13 одиночних і 16 парних матчів). На противагу цьому, гравці, які дебютували в 2000-х роках, як-от Кім Йонг-Джун (Kim Young-Jun) та Ім Кю-Те (Im Kyu-tae), грали значно більше одиночних матчів, ніж парних (наприклад, Кім Йонг-Джун провів 9 одиночних і 1 парний матч; Ім Кю-Те — 12 одиночних і 3 парних), що вказує на тенденцію до спеціалізації в одиночних змаганнях."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "D5",
+      "E5",
+      "B2",
+      "D2",
+      "E2",
+      "B4",
+      "D4",
+      "E4",
+      "B9",
+      "D9",
+      "E9",
+      "B12",
+      "D12",
+      "E12",
+      "B13",
+      "D13",
+      "E13"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_009",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "open_ended_reasoning",
+    "question": "Яка спільна характеристика щодо кар'єрної хронології об'єднує всіх гравців, чиї імена супроводжуються числом у дужках?",
+    "answer": [
+      [
+        "Всі гравці з числом у дужках після їхнього імені мали кар'єру, яка була активною в певний момент під час або після 2010 року. Жоден гравець без числа не грав у 2010-х роках."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "A12",
+      "B12",
+      "A13",
+      "B13",
+      "A14",
+      "B14"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_010",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "open_ended_reasoning",
+    "question": "Чи існує залежність між бездоганним послужним списком у парному розряді (нуль поразок) і тривалістю кар'єри, виходячи з цих даних?",
+    "answer": [
+      [
+        "Так, існує сильна негативна залежність. Чотири гравці з бездоганним послужним списком у парному розряді (0 поразок) мали короткі кар'єри лише по 1 або 2 роки (Лі Тонг-Вон, Кім Сун-Йон, Чо Сунг-Дже, Лі Ву-Рьонг). Навпаки, гравці з довгими кар'єрами від 6 років і більше мають численні поразки в парному розряді. Це свідчить про те, що підтримувати бездоганний послужний список у парному розряді надзвичайно малоймовірно протягом тривалої кар'єри."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "E1",
+      "B9",
+      "E9",
+      "B14",
+      "E14",
+      "B17",
+      "E17",
+      "B3",
+      "E3",
+      "B5",
+      "E5",
+      "B6",
+      "E6",
+      "B8",
+      "E8",
+      "B13",
+      "E13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_011",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "Яка загальна кількість перемог у парному розряді для Чун Хі-сука та Сон Дон-Ука разом?",
+    "answer": [
+      [
+        "12"
+      ]
+    ],
+    "evidence_cells": [
+      "A15",
+      "E15",
+      "A52",
+      "E52"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

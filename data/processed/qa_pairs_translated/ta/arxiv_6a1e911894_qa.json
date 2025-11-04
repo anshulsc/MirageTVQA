@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_6a1e911894_001",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Hvis leveringstidspunktet T er 30, hvilken SIDC-variabel representerer lukkingen av ordrebøkene, og på hvilket handelstidspunkt t skjer denne hendelsen?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_002",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "டெலிவரி நேரத்துடன் தொடர்புடைய SIDCO மற்றும் SIDCL ஆல் வரையறுக்கப்பட்ட வர்த்தக காலங்களுக்கு இடையிலான அடிப்படை வேறுபாடு என்ன?",
+    "answer": [
+      [
+        "அடிப்படை வேறுபாடு டெலிவரி நேரத்துடன் தொடர்புடையதாக உள்ளது. SIDCO ஆர்டர் புத்தகங்கள் திறந்திருக்கும் காலத்தை வரையறுக்கிறது, இது டெலிவரிக்கு குறைந்தது இரண்டு நேர அலகுகளுக்கு முன்பு இருக்க வேண்டும் (T-t ≥ 2). மாறாக, SIDCL ஆர்டர் புத்தகங்கள் மூடப்பட்ட பிறகு உள்ள காலத்தை வரையறுக்கிறது, இது டெலிவரியின் இரண்டு நேர அலகுகளுக்குள் உள்ளது (T-t ≤ 2)."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_003",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "வழங்கப்பட்டுள்ள விளக்கங்களின்படி, குறுக்கு எல்லை ஆர்டர் புத்தக இணைப்பு அலைகளின் முதல் மற்றும் இரண்டாவது அலைகளுக்கு இடையில் எத்தனை மணிநேரம் கடந்து செல்கிறது?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_004",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "வர்த்தக நேர நிபந்தனைகளின் அடிப்படையில், SIDCL காலத்தின் தொடக்கத்திற்கு உடனடியாக முந்தைய குறிப்பிட்ட கணத்தை எந்த SIDC நிகழ்வு குறிக்கிறது?",
+    "answer": [
+      [
+        "SIDCC"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_005",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "20 = T கொண்ட ஒரு பொருளுக்கு, அதன் வர்த்தக நேரம் செல்லுபடியாகும் திறந்த காலத்திற்கு வெளியே விழுவதால், குறிப்பிடப்பட்ட இரண்டு \"அலை\" நிகழ்வுகளில் (SIDC1 அல்லது SIDC2) எது நிகழ முடியாது?",
+    "answer": [
+      [
+        "SIDC2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_006",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "SIDC2 (இரண்டாவது அலை இணைப்பு) t=30 இல் தாமதமாக நிகழ்ந்தால், SIDCO ஆல் வரையறுக்கப்பட்ட பொதுவான திறந்த காலத்திற்குள் இந்த நிகழ்வு இன்னும் நிகழ, தேவையான குறைந்தபட்ச முழு எண் விநியோக நேரம் T என்னவாக இருக்கும்?",
+    "answer": [
+      [
+        "32"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_007",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "'Variable' நெடுவரிசையில் பட்டியலிடப்பட்டுள்ள ஒவ்வொரு மாறிக்கான செயல்பாடு போன்ற குறியீட்டில் பயன்படுத்தப்படும் பொதுவான அளவுருக்கள் யாவை?",
+    "answer": [
+      [
+        "d"
+      ],
+      [
+        "h"
+      ],
+      [
+        "t"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_008",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "ஒரு தயாரிப்பிற்கான வர்த்தக நேரம் t=20 மற்றும் விநியோக நேரம் T=25 ஆக இருக்கும்போது, ​​இந்த வர்த்தகமானது எந்த SIDC மாறியின் நிபந்தனைகளை பூர்த்தி செய்கிறது?",
+    "answer": [
+      [
+        "SIDCO"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_009",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "SIDCO காலத்திலிருந்து SIDCL காலத்திற்கு மாறும் மாறி எது, அதன் வரையறுக்கும் வர்த்தக நேர நிபந்தனை என்ன?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "T-t=2"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_010",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "SIDCO மாறியின் நேர வரம்பை, அதன் வரையறைகளின் அடிப்படையில் SIDC1 மாறியின் நேர வரம்புடன் ஒப்பிடுக.",
+    "answer": [
+      [
+        "SIDCO என்பது திறந்திருக்கும் ஆர்டர் புத்தகங்களின் தொடர்ச்சியான கால அளவைக் குறிக்கிறது, இது t≥12 மற்றும் T-t≥2 என்ற வரம்பால் வரையறுக்கப்படுகிறது. இதற்கு மாறாக, SIDC1 என்பது ஒரு குறிப்பிட்ட, தனித்த நேரப் புள்ளியைக் குறிக்கிறது, t=12, இது SIDCO காலத்தின் தொடக்கத்தில் முதல் இணைப்பு நிகழ்வைக் குறிக்கிறது."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_011",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "குறுக்கு எல்லை ஆர்டர் புத்தகங்கள் மூடப்படுவதைக் குறிக்கும் SIDC மாறி எது, அது எந்த வர்த்தக நேர நிபந்தனையின் கீழ் நிகழ்கிறது?",
+    "answer": [
+      [
+        "SIDC꜀(d,h,t) என்ற மாறி குறுக்கு எல்லை ஆர்டர் புத்தகங்களை மூடுவதைக் குறிக்கிறது, மேலும் இது T − t = 2 ஆக இருக்கும்போது நிகழ்கிறது."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,289 @@
+[
+  {
+    "question_id": "wikisql_c24d04a09e_001",
+    "table_id": "wikisql_c24d04a09e",
+    "question_type": "value",
+    "question": "Hvor mange film listet i tabellen opnåede et resultat bedre end 'Ikke nomineret'?",
+    "answer": [
+      [
+        "7"
+      ]
+    ],
+    "evidence_cells": [
+      "E7",
+      "E9",
+      "E13",
+      "E14",
+      "E15",
+      "E19",
+      "E20"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_c24d04a09e_002",
+    "table_id": "wikisql_c24d04a09e",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvilken instruktør havde det mest varierede sæt af resultater for deres film, lige fra at vinde den højeste pris til ikke at blive nomineret?",
+    "answer": [
+      [
+        "Pedro Almodóvar er instruktøren med de mest varierede resultater. Hans film 'All About My Mother' vandt en Oscar, 'Volver [4 ]' kom på januarudkastet, og 'High Heels' blev ikke nomineret, hvilket viser et fuldt spektrum af resultater fra top-succes til en tidlig afslutning."
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "E4",
+      "D7",
+      "E7",
+      "D13",
+      "E13"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_c24d04a09e_003",
+    "table_id": "wikisql_c24d04a09e",
+    "question_type": "value",
+    "question": "Hvad er titlerne på de film, der fik status 'Nominee' og blev instrueret af den samme person, som instruerede 'Cradle Song'?",
+    "answer": [
+      [
+        "The Grandfather"
+      ],
+      [
+        "Course Completed"
+      ]
+    ],
+    "evidence_cells": [
+      "B12",
+      "D12",
+      "B14",
+      "D14",
+      "E14",
+      "B15",
+      "D15",
+      "E15"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_c24d04a09e_004",
+    "table_id": "wikisql_c24d04a09e",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv tendensen for resultater for film indsendt i 1990'erne (ceremoniår 1991-1999) som præsenteret i denne tabel.",
+    "answer": [
+      [
+        "Indsendelserne i 1990'erne viser en markant opadgående tendens i succes. Årtiet begyndte med film fra 1991 og 1992, som ikke blev nomineret. Dette blev dog efterfulgt af store succeser, herunder to Oscar-sejre for film fra 1993 ('Belle Époque') og 1999 ('Alt om min mor'), og en nominering for en film fra 1998 ('Bedstefaren'). Dette tyder på en periode med stigende international anerkendelse for de indsendte film."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "E4",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A12",
+      "E12",
+      "A14",
+      "E14",
+      "A20",
+      "E20"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_c24d04a09e_005",
+    "table_id": "wikisql_c24d04a09e",
+    "question_type": "value",
+    "question": "List titlerne på alle film fra 1980'erne, der 'ikke blev nomineret'.",
+    "answer": [
+      [
+        "The Witching Hour"
+      ],
+      [
+        "Patrimonio nacional"
+      ],
+      [
+        "Love, Hate and Death"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "E3",
+      "A8",
+      "B8",
+      "E8",
+      "A16",
+      "B16",
+      "E16"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_c24d04a09e_006",
+    "table_id": "wikisql_c24d04a09e",
+    "question_type": "value",
+    "question": "Hvilken procentdel af filmene på denne liste fra 2000'erne (ceremonier 2000-2009) vandt en Oscar?",
+    "answer": [
+      [
+        "33.33%"
+      ]
+    ],
+    "evidence_cells": [
+      "A13",
+      "E13",
+      "A18",
+      "E18",
+      "A19",
+      "E19"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_c24d04a09e_007",
+    "table_id": "wikisql_c24d04a09e",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvis 'Tristana' i stedet for kun at være nomineret havde vundet Oscar-prisen, hvad ville det nye samlede antal vindende film instrueret af Luis Buñuel i dette datasæt være?",
+    "answer": [
+      [
+        "Det nye samlede antal ville være 1. I øjeblikket har Luis Buñuel nul vindende film på denne liste, så ændring af 'Tristanas' resultat fra 'Nomineret' til en sejr ville øge hans samlede antal fra 0 til 1."
+      ]
+    ],
+    "evidence_cells": [
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_c24d04a09e_008",
+    "table_id": "wikisql_c24d04a09e",
+    "question_type": "open_ended_reasoning",
+    "question": "Baseret på dataene, er der en tydelig sammenhæng mellem en films nomineringstitel, der er forskellig fra dens originale titel, og dens sandsynlighed for at vinde en Oscar?",
+    "answer": [
+      [
+        "Der er ingen tydelig sammenhæng. Af de tre film, der vandt en Oscar, havde to forskellige nomineringstitler ('All About My Mother' og 'The Sea Inside'), mens én havde samme titel ('Belle Époque'). Dette indikerer, at det ikke er en klar forudsigelse for at vinde, at have en oversat eller anderledes nomineringstitel."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "E7",
+      "B19",
+      "C19",
+      "E19",
+      "B20",
+      "C20",
+      "E20"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_c24d04a09e_009",
+    "table_id": "wikisql_c24d04a09e",
+    "question_type": "value",
+    "question": "Hvilken kolonne indeholder en konsekvent, overflødig tekststreng, der er tilføjet til hver eneste post?",
+    "answer": [
+      [
+        "Director"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11",
+      "D12",
+      "D13",
+      "D14",
+      "D15",
+      "D16",
+      "D17",
+      "D18",
+      "D19",
+      "D20",
+      "D21"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_c24d04a09e_010",
+    "table_id": "wikisql_c24d04a09e",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvilket årti, der er repræsenteret i dataene, er en outlier med hensyn til antallet af Oscar-vinder sammenlignet med andre årtier?",
+    "answer": [
+      [
+        "1990'erne er en outlier med to film ('Alt om min mor' og 'Belle Époque'), der vandt en Oscar. I modsætning hertil har 2000'erne kun én vinder, og alle andre repræsenterede årtier (1950'erne, 1960'erne, 1970'erne, 1980'erne, 2010'erne) har nul vindere, hvilket gør succesraten i 1990'erne usædvanlig høj for dette datasæt."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8",
+      "A9",
+      "E9",
+      "A10",
+      "E10",
+      "A11",
+      "E11",
+      "A12",
+      "E12",
+      "A13",
+      "E13",
+      "A14",
+      "E14",
+      "A15",
+      "E15",
+      "A16",
+      "E16",
+      "A17",
+      "E17",
+      "A18",
+      "E18",
+      "A19",
+      "E19",
+      "A20",
+      "E20",
+      "A21",
+      "E21"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_c24d04a09e_011",
+    "table_id": "wikisql_c24d04a09e",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvis Pedro Almodóvars film fra 1995 var blevet nomineret, hvordan ville det så ændre hans samlede antal nomineringer?",
+    "answer": [
+      [
+        "Det ville øge hans samlede antal nomineringer fra 4 til 5."
+      ]
+    ],
+    "evidence_cells": [
+      "B31",
+      "D31"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  }
+]

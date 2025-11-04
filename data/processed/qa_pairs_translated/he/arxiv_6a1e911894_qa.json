@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_6a1e911894_001",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "אם זמן האספקה T הוא 30, איזה משתנה SIDC מייצג את סגירת ספרי הפקודות, ובאיזה זמן מסחר t מתרחש אירוע זה?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_002",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "מהו ההבדל המהותי בין תקופות המסחר המוגדרות על ידי SIDCO ו-SIDCL ביחס לזמן האספקה?",
+    "answer": [
+      [
+        "ההבדל המהותי טמון בתזמון שלהם ביחס לאספקה. SIDCO מגדיר את התקופה שבה פנקסי ההזמנות פתוחים, אשר חייבים להיות לפחות שתי יחידות זמן לפני האספקה (T-t ≥ 2). לעומת זאת, SIDCL מגדיר את התקופה לאחר שפנקסי ההזמנות נסגרו, שהיא בתוך שתי יחידות זמן מהאספקה (T-t ≤ 2)."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_003",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "על פי הפרשנויות שסופקו, כמה שעות חולפות בין הגל הראשון והגל השני של צימוד ספרי פקודות חוצי גבולות?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_004",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "בהתבסס על תנאי זמן המסחר, איזה אירוע SIDC מייצג את הרגע הספציפי שקודם מיד לתחילת תקופת SIDCL?",
+    "answer": [
+      [
+        "SIDCC"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_005",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "עבור מוצר עם זמן אספקה T=20, איזה משני אירועי ה\"גל\" שצוינו (SIDC1 או SIDC2) לא יכול להתרחש מכיוון שזמן המסחר שלו יחול מחוץ לתקופה הפתוחה החוקית?",
+    "answer": [
+      [
+        "SIDC2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_006",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "אם הגל השני של הצימוד (SIDC2) התעכב והתרחש בשעה t=30, מהי זמן האספקה המינימלי בשלמים T הנדרש כדי שהאירוע הזה עדיין ייכלל במסגרת התקופה הפתוחה הכללית המוגדרת על ידי SIDCO?",
+    "answer": [
+      [
+        "32"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_007",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "מהם הפרמטרים המשותפים המשמשים בסימון דמוי-פונקציה עבור כל משתנה המופיע בעמודת 'Variable'?",
+    "answer": [
+      [
+        "d"
+      ],
+      [
+        "h"
+      ],
+      [
+        "t"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_008",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "עסקה מתבצעת בזמן מסחר t=20 עבור מוצר עם זמן אספקה T=25. אילו תנאים של משתנה SIDC ספציפי זה עונה עליהם?",
+    "answer": [
+      [
+        "SIDCO"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_009",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "איזה משתנה מסמן את המעבר מתקופת SIDCO לתקופת SIDCL, ומהו תנאי זמן המסחר המגדיר אותו?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "T-t=2"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_010",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "מהי ההגדרה של משתנה SIDCO מול משתנה SIDC1, בהתבסס על הטווחים שלהם?",
+    "answer": [
+      [
+        "SIDCO מייצג תקופת זמן רציפה שבה פנקסי ההזמנות פתוחים, המוגדרת בטווח t≥12 ו-T-t≥2. לעומת זאת, SIDC1 מייצג נקודת זמן אחת, דיסקרטית, t=12, המסמנת את הרגע הספציפי של אירוע הצימוד הראשון בתחילת תקופת SIDCO."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_011",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "איזה משתנה SIDC מייצג את סגירת ספרי ההזמנות חוצי הגבולות ובאיזה תנאי זמן מסחר הוא מתרחש?",
+    "answer": [
+      [
+        "המשתנה SIDC꜀(d,h,t) מייצג את סגירת ספרי ההזמנות חוצי הגבולות, והוא מתרחש כאשר T − t = 2."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

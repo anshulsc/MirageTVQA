@@ -1,0 +1,284 @@
+[
+  {
+    "question_id": "wikisql_1e099ac52f_001",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "Vilken president var yngst vid tiden för sitt första installationsdatum?",
+    "answer": [
+      [
+        "Jerry Rawlings"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "E3",
+      "B8",
+      "E8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_002",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "Vad var den ungefärliga genomsnittsåldern vid installationen för alla presidenter som tillträdde på 1970-talet?",
+    "answer": [
+      [
+        "47.3 years"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D6",
+      "E6",
+      "D7",
+      "E7",
+      "D8",
+      "E8",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_003",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "Vem var den omedelbara föregångaren till den president som hade kortast pensionstid i dagar (exklusive de med saknade, sittande eller nollvärden)?",
+    "answer": [
+      [
+        "Ignatius Acheampong"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "A7",
+      "B7",
+      "G1",
+      "G2",
+      "G3",
+      "G5",
+      "G6",
+      "G7",
+      "G9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_004",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv trenden för presidentperiodernas längd med start från Ignatius Acheampong till John Kufuor.",
+    "answer": [
+      [
+        "Trenden är mycket volatil utan något tydligt mönster. Den börjar med en relativt lång period för Acheampong (~6,5 år), följt av en mycket kort period för Akuffo (~11 månader), och en ännu kortare för Rawlings första period (~3,5 månader). Längden ökar sedan med Limann (~2,2 år), följt av en mycket lång period för Rawlings andra mandatperiod (19 år), innan den stabiliseras till en standardlängd för perioden med Kufuor (8 år)."
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "F6",
+      "D7",
+      "F7",
+      "D8",
+      "F8",
+      "D9",
+      "F9",
+      "D10",
+      "F10",
+      "D11",
+      "F11"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_005",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "Identifiera alla presidenter som installerades före sin 45-årsdag och vars mandatperiod slutade före 1980.",
+    "answer": [
+      [
+        "Akwasi Afrifa"
+      ],
+      [
+        "Ignatius Acheampong"
+      ],
+      [
+        "Fred Akuffo"
+      ],
+      [
+        "Jerry Rawlings"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "E3",
+      "F3",
+      "B6",
+      "E6",
+      "F6",
+      "B7",
+      "E7",
+      "F7",
+      "B8",
+      "E8",
+      "F8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_006",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "För vilken president utgjorde pensionstiden den största andelen av deras totala livslängd? (Beakta endast presidenter med pension och livslängd uttryckt i dagar, inte uppskattningar).",
+    "answer": [
+      [
+        "Joseph Ankrah"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "G1",
+      "I1",
+      "B2",
+      "G2",
+      "I2",
+      "B3",
+      "G3",
+      "I3",
+      "B5",
+      "G5",
+      "I5",
+      "B6",
+      "G6",
+      "I6",
+      "B7",
+      "G7",
+      "I7",
+      "B9",
+      "G9",
+      "I9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_007",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "Om Fred Akuffos mandatperiod hade avslutats samma dag som Ignatius Acheampongs (5 juli 1978), hur skulle hans \"pensioneringstid\" ha förändrats jämfört med det värde som visas i tabellen?",
+    "answer": [
+      [
+        "His retirement would have been 324 days longer."
+      ]
+    ],
+    "evidence_cells": [
+      "F6",
+      "D7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_008",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "open_ended_reasoning",
+    "question": "Baserat på data, vilken relation, om någon, kan härledas mellan en presidents ålder vid invigningen och deras livslängd?",
+    "answer": [
+      [
+        "Det finns ingen konsekvent korrelation över hela datasetet. Medan några av de äldsta presidenterna vid invigningen, som Nii Ollennu och Edward Akufo-Addo (båda ~64), hade långa livslängder (80 och 73 år), invigdes John A. Mills också vid 64 men hade en kortare livslängd på 68 år. Omvänt hade de yngsta presidenterna vid invigningen, Jerry Rawlings (31) och Akwasi Afrifa (32), livslängder på 66 respektive 43 år, vilket inte tyder på ett tydligt mönster. Därför stöder datan inte en stark korrelation mellan ålder vid invigningen och livslängd."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "I1",
+      "E2",
+      "I2",
+      "E3",
+      "I3",
+      "E4",
+      "I4",
+      "E5",
+      "I5",
+      "E6",
+      "I6",
+      "E7",
+      "I7",
+      "E8",
+      "I8",
+      "E9",
+      "I9",
+      "E10",
+      "I10",
+      "E11",
+      "I11",
+      "E12",
+      "I12",
+      "E13",
+      "I13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_009",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "Vems mandatperiod var en betydande avvikelse, som var betydligt kortare än någon annan president som listas?",
+    "answer": [
+      [
+        "Nii Ollennu"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "D4",
+      "F4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_010",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "Vilken kolumn i tabellen uppvisar de mest betydande formateringsmässiga inkonsekvenserna, med en blandning av exakta siffror, approximationer, text och saknade värden?",
+    "answer": [
+      [
+        "Length of retirement"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G10",
+      "G11",
+      "G12",
+      "G13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_011",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "Vem var den yngsta presidenten vid installationen?",
+    "answer": [
+      [
+        "Jerry Rawlings"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "E8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

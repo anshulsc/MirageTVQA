@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_6a1e911894_001",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Hvis leveringstiden T er 30, hvilken SIDC-variabel repræsenterer lukningen af ordrebøgerne, og på hvilket handelstidspunkt t sker denne begivenhed?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_002",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvad er den grundlæggende forskel mellem handelsperioderne defineret af SIDCO og SIDCL i forhold til leveringstidspunktet?",
+    "answer": [
+      [
+        "Den grundlæggende forskel ligger i deres timing i forhold til levering. SIDCO definerer perioden, hvor ordrebøgerne er åbne, hvilket skal være mindst to tidsenheder før levering (T-t ≥ 2). I modsætning hertil definerer SIDCL perioden efter ordrebøgerne er lukket, hvilket er inden for to tidsenheder af levering (T-t ≤ 2)."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_003",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Ifølge de givne fortolkninger, hvor mange timer går der mellem den første og anden bølge af kobling af grænseoverskridende ordre bøger?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_004",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Baseret på handelsvilkårene for tidspunktet, hvilken SIDC-begivenhed repræsenterer det specifikke øjeblik, der umiddelbart går forud for starten af SIDCL-perioden?",
+    "answer": [
+      [
+        "SIDCC"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_005",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "For et produkt med leveringstidspunkt T=20, hvilken af de to specificerede \"bølge\"-begivenheder (SIDC1 eller SIDC2) kunne ikke finde sted, fordi dens handelstid ville falde uden for den gyldige åbne periode?",
+    "answer": [
+      [
+        "SIDC2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_006",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Hvis den anden bølge af kobling (SIDC2) blev forsinket til at forekomme ved t=30, hvad ville så være den mindste heltals leveringstid T, der kræves for, at denne begivenhed stadig falder inden for den generelle åbne periode defineret af SIDCO?",
+    "answer": [
+      [
+        "32"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_007",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Hvad er de fælles parametre, der bruges i den funktionslignende notation for hver variabel angivet i kolonnen 'Variable'?",
+    "answer": [
+      [
+        "d"
+      ],
+      [
+        "h"
+      ],
+      [
+        "t"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_008",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "En handel placeres til handelstidspunktet t=20 for et produkt med en leveringstid T=25. Hvilke SIDC-variablers betingelser opfylder denne handel?",
+    "answer": [
+      [
+        "SIDCO"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_009",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Hvilken variabel markerer overgangen fra SIDCO-perioden til SIDCL-perioden, og hvad er dens definerende handelsbetingelse?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "T-t=2"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_010",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Kontrast den tidsmæssige omfang af SIDCO-variablen med den af SIDC1-variablen baseret på deres definitioner.",
+    "answer": [
+      [
+        "SIDCO repræsenterer en kontinuerlig tidsperiode, hvor ordrebøgerne er åbne, defineret ved intervallet t≥12 og T-t≥2. I modsætning hertil repræsenterer SIDC1 et enkelt, diskret tidspunkt, t=12, som markerer det specifikke tidspunkt for den første koblingshændelse ved begyndelsen af SIDCO-perioden."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_011",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvilken SIDC-variabel repræsenterer lukningen af ​​grænseoverskridende ordrebøger, og under hvilken handelsbetingelse opstår den?",
+    "answer": [
+      [
+        "Variablen SIDC꜀(d,h,t) repræsenterer lukningen af ​​grænseoverskridende ordrebøger, og den opstår, når T − t = 2."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

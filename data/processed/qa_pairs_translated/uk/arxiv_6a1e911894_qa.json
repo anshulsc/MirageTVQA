@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_6a1e911894_001",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Якщо час поставки T становить 30, яка змінна SIDC представляє закриття книг замовлень і в який торговий час t відбувається ця подія?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_002",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Яка фундаментальна відмінність між торговими періодами, визначеними SIDCO та SIDCL, щодо часу доставки?",
+    "answer": [
+      [
+        "Фундаментальна відмінність полягає в їхньому часі відносно доставки. SIDCO визначає період, коли книги заявок відкриті, що має бути щонайменше за дві одиниці часу до доставки (T-t ≥ 2). Натомість SIDCL визначає період після закриття книг заявок, що відбувається протягом двох одиниць часу до доставки (T-t ≤ 2)."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_003",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Згідно з наданими інтерпретаціями, скільки годин минає між першою та другою хвилями транскордонного зведення книги ордерів?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_004",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "З огляду на умови торгового часу, яка подія SIDC представляє конкретний момент, що безпосередньо передує початку періоду SIDCL?",
+    "answer": [
+      [
+        "SIDCC"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_005",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Для продукту з часом доставки T=20, яка з двох зазначених подій \"хвиль\" (SIDC1 або SIDC2) не могла статися, оскільки її час торгівлі припав би поза межами допустимого відкритого періоду?",
+    "answer": [
+      [
+        "SIDC2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_006",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Якщо друга хвиля злиття (SIDC2) була затримана до t=30, яким буде мінімальний цілочисельний час доставки T, необхідний для того, щоб ця подія все ще потрапляла до загального відкритого періоду, визначеного SIDCO?",
+    "answer": [
+      [
+        "32"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_007",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Які спільні параметри використовуються у позначенні, подібному до функціонального, для кожної змінної, переліченої в стовпці \"Variable\"?",
+    "answer": [
+      [
+        "d"
+      ],
+      [
+        "h"
+      ],
+      [
+        "t"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_008",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Торгівлю здійснено в час торгівлі t=20 для продукту з часом доставки T=25. Умові якої змінної SIDC відповідає ця торгівля?",
+    "answer": [
+      [
+        "SIDCO"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_009",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Яка змінна позначає перехід від періоду SIDCO до періоду SIDCL, і яка її визначальна умова торгового часу?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "T-t=2"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_010",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Порівняйте часовий проміжок змінної SIDCO з часовим проміжком змінної SIDC1 на основі їх визначень.",
+    "answer": [
+      [
+        "SIDCO представляє безперервний період часу, коли книги заявок відкриті, визначений діапазоном t≥12 і T-t≥2. На відміну від цього, SIDC1 представляє один, дискретний момент часу, t=12, який позначає конкретний момент першої події зчеплення на початку періоду SIDCO."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_011",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Яка змінна SIDC представляє закриття транскордонних книг замовлень і за якої умови торгового часу це відбувається?",
+    "answer": [
+      [
+        "Змінна SIDC꜀(d,h,t) представляє закриття транскордонних книг замовлень, і це відбувається, коли T − t = 2."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

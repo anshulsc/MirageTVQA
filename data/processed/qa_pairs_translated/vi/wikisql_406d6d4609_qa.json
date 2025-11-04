@@ -1,0 +1,239 @@
+[
+  {
+    "question_id": "wikisql_406d6d4609_003",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "value",
+    "question": "Hãy xác định tất cả các tay đua chiến thắng đã lái thương hiệu xe có nhiều lần chiến thắng nhất trong tập dữ liệu này.",
+    "answer": [
+      [
+        "Joe Nemechek"
+      ],
+      [
+        "Jimmie Johnson"
+      ],
+      [
+        "Robby Gordon"
+      ],
+      [
+        "Kyle Busch"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "C2",
+      "C4",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_004",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "value",
+    "question": "Nhãn hiệu xe nào đã thắng cuộc đua sớm nhất được ghi lại trong bộ dữ liệu này, và nhãn hiệu nào đã thắng cuộc đua gần đây nhất?",
+    "answer": [
+      [
+        "Pontiac Grand Prix",
+        "Toyota Camry"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "F9",
+      "A13",
+      "F13",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A10",
+      "A11",
+      "A12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_005",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "value",
+    "question": "Liệt kê những tay đua đã thắng cho đội Penske Racing trong mùa giải sau năm 2000.",
+    "answer": [
+      [
+        "Ryan Newman"
+      ],
+      [
+        "Kurt Busch"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "G1",
+      "A11",
+      "C11",
+      "G11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_006",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "value",
+    "question": "Tỷ lệ phần trăm các cuộc đua trong tập dữ liệu này được thắng bởi xe Chevrolet (bất kỳ mẫu nào) là bao nhiêu?",
+    "answer": [
+      [
+        "46.15%"
+      ]
+    ],
+    "evidence_cells": [
+      "F2",
+      "F4",
+      "F7",
+      "F8",
+      "F10",
+      "F12",
+      "F1",
+      "F3",
+      "F5",
+      "F6",
+      "F9",
+      "F11",
+      "F13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_007",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "open_ended_reasoning",
+    "question": "Nếu loại bỏ kết quả chiến thắng cuộc đua năm 2008 khỏi bộ dữ liệu, đội nào sẽ có nhiều chiến thắng nhất dưới tình huống \"UC\" (dưới cảnh báo)?",
+    "answer": [
+      [
+        "Các đội còn lại có chiến thắng \"Under Caution\" (UC) sẽ là Team SABCO, Roush Racing và Hendrick Motorsports, mỗi đội có một chiến thắng như vậy. Do đó, sẽ có ba đội đồng hạng nhất về số lần chiến thắng dưới cảnh báo."
+      ]
+    ],
+    "evidence_cells": [
+      "G2",
+      "I2",
+      "G6",
+      "I6",
+      "G10",
+      "I10",
+      "G11",
+      "I11"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_008",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "open_ended_reasoning",
+    "question": "Dựa trên dữ liệu, có vẻ như một nhà tài trợ cụ thể chỉ gắn liền với một đội đua duy nhất không? Cung cấp một ví dụ để hỗ trợ kết luận của bạn.",
+    "answer": [
+      [
+        "Không, các nhà tài trợ không có vẻ như chỉ gắn liền với một đội duy nhất. Ví dụ, 'Lowe\\'s' được liệt kê là nhà tài trợ cho cả Hendrick Motorsports (vào năm 2003) và Richard Childress Racing (vào năm 2001)."
+      ]
+    ],
+    "evidence_cells": [
+      "E4",
+      "G4",
+      "E7",
+      "G7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_009",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "open_ended_reasoning",
+    "question": "Trong tập dữ liệu, có hai cột nào có vấn đề về chất lượng dữ liệu đáng kể dưới dạng chỗ giữ chỗ hoặc mục không chuẩn hóa, và các vấn đề đó là gì?",
+    "answer": [
+      [
+        "Các cột 'Avg Speed' (Tốc độ trung bình) và 'Margin of Victory' (Khoảng cách chiến thắng) có vấn đề về chất lượng dữ liệu. 'Avg Speed' (Cột H) chỉ chứa một chỗ giữ chỗ 'mph (km/h)' cho mỗi mục nhập thay vì dữ liệu thực tế. 'Margin of Victory' (Cột I) chứa các mục văn bản không chuẩn hóa như 'UC' và 'UC/Called due to rain' xen lẫn với các giây số liệu, điều này ngăn cản phân tích định lượng đồng nhất."
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6",
+      "H7",
+      "H8",
+      "H9",
+      "H10",
+      "H11",
+      "H12",
+      "H13",
+      "I2",
+      "I6",
+      "I10",
+      "I11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_010",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "open_ended_reasoning",
+    "question": "Chiến thắng cuộc đua nào nổi bật như một trường hợp ngoại lệ về khoảng cách chiến thắng so với các chiến thắng khác được ghi nhận bằng số?",
+    "answer": [
+      [
+        "Chiến thắng của Clint Bowyer vào năm 2007 là một trường hợp ngoại lệ đáng kể, với khoảng cách chiến thắng là 6,469 giây. Con số này lớn hơn đáng kể so với khoảng cách cao thứ hai là 5,47 giây và gấp hơn ba lần mức trung bình của các khoảng cách số khác, cho thấy một màn trình diễn vượt trội bất thường."
+      ]
+    ],
+    "evidence_cells": [
+      "C12",
+      "I12",
+      "I1",
+      "I3",
+      "I4",
+      "I5",
+      "I7",
+      "I8",
+      "I9",
+      "I13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_011",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "value",
+    "question": "Những người lái xe nào đại diện cho cùng một nhà tài trợ trong nhiều mùa giải và cuộc đua?",
+    "answer": [
+      [
+        "Jeff Burton (Exide Batteries)"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "C8",
+      "C9",
+      "C12",
+      "E5",
+      "E8",
+      "E9",
+      "E12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

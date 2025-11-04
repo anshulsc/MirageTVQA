@@ -1,0 +1,219 @@
+[
+  {
+    "question_id": "wikisql_6bc6a489de_001",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "value",
+    "question": "איזה פרויקט היה בעל 'מספר בסדרה' הגבוה ביותר מבין אלו ששודרו באפריל 2011?",
+    "answer": [
+      [
+        "London Aquatics Centre"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "A2",
+      "G2",
+      "A3",
+      "G3",
+      "A4",
+      "G4",
+      "E4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_002",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "value",
+    "question": "כמה פרקים שודרו בין תחילת מאי לסוף יוני 2011?",
+    "answer": [
+      [
+        "2"
+      ]
+    ],
+    "evidence_cells": [
+      "G5",
+      "G6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_003",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "value",
+    "question": "מהי המדינה עבור הפרויקט המוצג בפרק ששודר מיד לאחר \"האצטדיון האולימפי למים של לונדון\"?",
+    "answer": [
+      [
+        "Serbia"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_004",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "value",
+    "question": "ארבעת הפרקים הראשונים שודרו במרווח שבועי עקבי. מה היה פער הזמן בימים בין הפרק הרביעי לחמישי, שייצג הפסקה בלוח השידורים?",
+    "answer": [
+      [
+        "50"
+      ]
+    ],
+    "evidence_cells": [
+      "G4",
+      "G5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_005",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "value",
+    "question": "רשום את הכותרות של כל הפרקים המציגים פרויקטים במדינות שאינן באירופה או בצפון אמריקה.",
+    "answer": [
+      [
+        "\"Drought-Proofing Australia\"",
+        "\"Azerbaijan's Amazing Transformation\"",
+        "\"Building Mumbai 's Modern Airport\""
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_006",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "value",
+    "question": "מהו אחוז הפרקים ברשימה ששודרו בחודשים שאינם אפריל?",
+    "answer": [
+      [
+        "42.86%"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_007",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "value",
+    "question": "אם הפרק \"Rebuilding New York City's Subway\" היה משודר שבועיים מוקדם יותר, מה היה תאריך השידור המקורי שלו?",
+    "answer": [
+      [
+        "March 25, 2011"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "G1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_008",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "open_ended_reasoning",
+    "question": "בהתבסס על הנתונים שסופקו, מהי הקשר בין העמודות 'מספר בסדרה' ל-'מספר בעונה'?",
+    "answer": [
+      [
+        "קיים קשר ליניארי חיובי ישיר ועקבי. עבור כל תוספת של 1 בעמודה 'מספר בעונה', גם העמודה 'מספר בסדרה' גדלה בדיוק ב-1. הדבר מרמז שהפרקים רשומים בסדר כרונולוגי מושלם לעונה הספציפית הזו."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_009",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "open_ended_reasoning",
+    "question": "באיזה עמודון במערך הנתונים יש ערך קבוע לכל רשומה, ומהו הערך הזה?",
+    "answer": [
+      [
+        "עמודת 'סטטוס הייצור' (Status at production) מכילה ערך קבוע של 'בבנייה' (Under construction) עבור כל הפרקים הרשומים."
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_010",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "open_ended_reasoning",
+    "question": "ארבעת הפרקים הראשונים שודרו בימי שישי עוקבים באפריל. זהה את הפרק הראשון ששובר את התבנית השבועית ותאר את האנומליה בתאריך השידור שלו.",
+    "answer": [
+      [
+        "הפרק \"בניית הגשר הגדול ביותר בסרביה\" הוא הראשון ששובר את התבנית. בעוד ארבעת הפרקים הראשונים שודרו בהפרש של בדיוק 7 ימים, פרק זה שודר ב-18 ביוני 2011, שהיה 50 יום לאחר הפרק הקודם ב-29 באפריל 2011, ושודר גם ביום שבת, לא ביום שישי."
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "G4",
+      "C5",
+      "G5",
+      "G1",
+      "G2",
+      "G3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_011",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "value",
+    "question": "באיזו מדינה היה פרויקט ששודר ביוני 2011?",
+    "answer": [
+      [
+        "Serbia",
+        "Netherlands"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  }
+]

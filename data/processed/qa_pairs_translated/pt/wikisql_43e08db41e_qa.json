@@ -1,0 +1,397 @@
+[
+  {
+    "question_id": "wikisql_43e08db41e_001",
+    "table_id": "wikisql_43e08db41e",
+    "question_type": "open_ended_reasoning",
+    "question": "Qual tipo de força policial, em média, atende uma comunidade com um custo per capita mais elevado: 'RCMP' ou outras forças policiais com nomes municipais?",
+    "answer": [
+      [
+        "As forças policiais com nomes municipais têm um custo per capital médio mais elevado. A média para Port Moody, Nelson, West Vancouver e Central Saanich é de $201,75, enquanto a média para todos os municípios atendidos pela RCMP é de $161,79."
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "I1",
+      "F2",
+      "I2",
+      "F3",
+      "I3",
+      "F4",
+      "I4",
+      "F5",
+      "I5",
+      "F6",
+      "I6",
+      "F7",
+      "I7",
+      "F8",
+      "I8",
+      "F9",
+      "I9",
+      "F10",
+      "I10",
+      "F11",
+      "I11",
+      "F12",
+      "I12",
+      "F13",
+      "I13",
+      "F14",
+      "I14",
+      "F15",
+      "I15",
+      "F16",
+      "I16",
+      "F17",
+      "I17",
+      "F18",
+      "I18",
+      "F19",
+      "I19",
+      "F20",
+      "I20",
+      "F21",
+      "I21",
+      "F22",
+      "I22",
+      "F23",
+      "I23"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_43e08db41e_002",
+    "table_id": "wikisql_43e08db41e",
+    "question_type": "value",
+    "question": "Qual é a população total servida por forças policiais que não são a RCMP?",
+    "answer": [
+      [
+        "101671"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "I2",
+      "B4",
+      "I4",
+      "B7",
+      "I7",
+      "B12",
+      "I12"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_43e08db41e_003",
+    "table_id": "wikisql_43e08db41e",
+    "question_type": "value",
+    "question": "Qual é o fardo de casos para o município que tem o menor custo per capita?",
+    "answer": [
+      [
+        "87"
+      ]
+    ],
+    "evidence_cells": [
+      "A20",
+      "F20",
+      "G20",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F17",
+      "F18",
+      "F19",
+      "F21",
+      "F22",
+      "F23"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_43e08db41e_004",
+    "table_id": "wikisql_43e08db41e",
+    "question_type": "value",
+    "question": "Identifique todos os municípios com uma população superior a 25.000 e uma taxa de criminalidade por 1.000 pessoas inferior a 100.",
+    "answer": [
+      [
+        "Port Moody"
+      ],
+      [
+        "West Vancouver"
+      ],
+      [
+        "North Cowichan"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "H2",
+      "A7",
+      "B7",
+      "H7",
+      "A14",
+      "B14",
+      "H14"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_43e08db41e_005",
+    "table_id": "wikisql_43e08db41e",
+    "question_type": "value",
+    "question": "Qual a percentagem do número total de policiais em todos os municípios listados que são empregados em Prince George?",
+    "answer": [
+      [
+        "16.69%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11",
+      "C12",
+      "C13",
+      "C14",
+      "C15",
+      "C16",
+      "C17",
+      "C18",
+      "C19",
+      "C20",
+      "C21",
+      "C22",
+      "C23"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_43e08db41e_006",
+    "table_id": "wikisql_43e08db41e",
+    "question_type": "value",
+    "question": "Se os custos totais de Whistler em 2005 tivessem sido 15% menores, qual teria sido o seu novo custo per capita, assumindo que a população permaneceu constante?",
+    "answer": [
+      [
+        "$258"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "E1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_43e08db41e_007",
+    "table_id": "wikisql_43e08db41e",
+    "question_type": "open_ended_reasoning",
+    "question": "Analise a relação entre 'Residentes por oficial' e 'Taxa de criminalidade por 1.000 pessoas'. Ter menos residentes por oficial se correlaciona com uma taxa de criminalidade menor neste conjunto de dados?",
+    "answer": [
+      [
+        "Não, os dados sugerem uma correlação inversa. Municípios com o maior número de residentes por oficial, como Spallumcheen (1902) e Summerland (1267), têm algumas das menores taxas de criminalidade (46 e 68, respectivamente). Inversamente, municípios com muito poucos residentes por oficial, como Prince Rupert (416) e Whistler (425), têm algumas das maiores taxas de criminalidade (204 e 202). Isso pode implicar que altas taxas de criminalidade levam a um aumento no efetivo policial (diminuindo assim a proporção de residentes por oficial), em vez de os níveis de efetivo causarem diretamente uma redução na criminalidade."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "H1",
+      "D2",
+      "H2",
+      "D3",
+      "H3",
+      "D4",
+      "H4",
+      "D5",
+      "H5",
+      "D6",
+      "H6",
+      "D7",
+      "H7",
+      "D8",
+      "H8",
+      "D9",
+      "H9",
+      "D10",
+      "H10",
+      "D11",
+      "H11",
+      "D12",
+      "H12",
+      "D13",
+      "H13",
+      "D14",
+      "H14",
+      "D15",
+      "H15",
+      "D16",
+      "H16",
+      "D17",
+      "H17",
+      "D18",
+      "H18",
+      "D19",
+      "H19",
+      "D20",
+      "H20",
+      "D21",
+      "H21",
+      "D22",
+      "H22",
+      "D23",
+      "H23"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_43e08db41e_008",
+    "table_id": "wikisql_43e08db41e",
+    "question_type": "value",
+    "question": "Quantas organizações de força policial únicas são explicitamente nomeadas na coluna 'Police force', excluindo a designação geral 'RCMP'?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "I2",
+      "I4",
+      "I7",
+      "I12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_43e08db41e_009",
+    "table_id": "wikisql_43e08db41e",
+    "question_type": "value",
+    "question": "Qual município é o outlier mais significativo em termos de número de residentes por policial e qual é esse valor?",
+    "answer": [
+      [
+        "Spallumcheen",
+        "1902"
+      ]
+    ],
+    "evidence_cells": [
+      "A20",
+      "D20",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11",
+      "D12",
+      "D13",
+      "D14",
+      "D15",
+      "D16",
+      "D17",
+      "D18",
+      "D19",
+      "D21",
+      "D22",
+      "D23"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_43e08db41e_010",
+    "table_id": "wikisql_43e08db41e",
+    "question_type": "value",
+    "question": "Qual município com população inferior a 15.000 tem a maior carga de casos por policial? Calcule este valor.",
+    "answer": [
+      [
+        "Parksville",
+        "12"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "G1",
+      "A3",
+      "B3",
+      "C3",
+      "G3",
+      "A4",
+      "B4",
+      "C4",
+      "G4",
+      "A5",
+      "B5",
+      "C5",
+      "G5",
+      "A6",
+      "B6",
+      "C6",
+      "G6",
+      "A13",
+      "B13",
+      "C13",
+      "G13",
+      "A17",
+      "B17",
+      "C17",
+      "G17",
+      "A18",
+      "B18",
+      "C18",
+      "G18",
+      "A19",
+      "B19",
+      "C19",
+      "G19",
+      "A20",
+      "B20",
+      "C20",
+      "G20",
+      "A22",
+      "B22",
+      "C22",
+      "G22"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_43e08db41e_011",
+    "table_id": "wikisql_43e08db41e",
+    "question_type": "value",
+    "question": "Qual é o número total de policiais em Abbotsford?",
+    "answer": [
+      [
+        "187"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Value Lookup"
+  }
+]

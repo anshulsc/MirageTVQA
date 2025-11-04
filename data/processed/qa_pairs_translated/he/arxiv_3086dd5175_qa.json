@@ -1,0 +1,229 @@
+[
+  {
+    "question_id": "arxiv_3086dd5175_001",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "כמה אפשרויות נפרדות זמינות בסך הכל עבור כל ההיפר-פרמטרים המסווגים כ'קטגוריים'?",
+    "answer": [
+      [
+        "11"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_002",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "אילו היפר-פרמטרים הם בעלי המספר הגדול ביותר של אפשרויות בדידות המפורטות ב'טווח / אפשרויות' שלהם?",
+    "answer": [
+      [
+        "Hidden units"
+      ],
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_003",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "רשום את כל ההיפר-פרמטרים שאינם קטגוריאליים והטווח המספרי שלהם כולל את הערך 1.",
+    "answer": [
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_004",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "איזה אחוז מההיפר-פרמטרים הרשומים הם מסוג 'Continuous'?",
+    "answer": [
+      [
+        "33.33%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_005",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "עבור ההיפר-פרמטר עם מספר האפשרויות הבדידות המועט ביותר, מהו סוגו?",
+    "answer": [
+      [
+        "Categorical"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C4",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_006",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "כמה קטגוריות 'סוג' ייחודיות מופיעות בטבלה, ומהן?",
+    "answer": [
+      [
+        "ישנן 3 קטגוריות 'סוג' ייחודיות המופיעות בטבלה: רציף, קטגורי ושלם."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_007",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "אם טווח 'מספר שכבות R-GCN' הורחב ל'1 עד 7' ונוסף היפרפרמטר חדש מסוג 'קטגוריאלי' בשם 'גודל אצווה' עם אפשרויות '{16, 32, 64}', מה תהיה הספירה הכוללת החדשה של אפשרויות בדידות בכל ההיפרפרמטרים שאינם רציפים?",
+    "answer": [
+      [
+        "21"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5",
+      "B6",
+      "C2",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_008",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "איזה היפרפרמטר מסוג 'רציף' (Continuous) מציג פורמט טווח ייחודי בהשוואה לאחרים מאותו הסוג, ומה מייחד אותו?",
+    "answer": [
+      [
+        "קצב הלמידה ('Learning rate') מציג פורמט ייחודי. בניגוד ל'קצב ניסיוג' ('Dropout rate') שיש לו טווח מספרי פשוט, הטווח של 'קצב הלמידה' מצוין באמצעות סימון מדעי וכולל הערה בסוגריים ('log-uniform') המציינת התפלגות דגימה ספציפית."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_009",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "השוו את מורכבות מרחב החיפוש עבור היפר-פרמטרים מסוג 'רציף' לעומת סוג 'קטגורי' כפי שתואר בטבלה.",
+    "answer": [
+      [
+        "על פי הטבלה, להיפר-פרמטרים מסוג 'רציף' יש מרחב חיפוש גדול לאין שיעור מאשר להיפר-פרמטרים מסוג 'קטגורי'. פרמטרים 'רציפים' כמו 'קצב למידה' יכולים לקבל כל ערך ממשי בגבולותיהם, מה שיוצר אינסוף אפשרויות. לעומת זאת, לפרמטרים 'קטגוריים' כמו 'אופטימייזר' יש קבוצה קטנה וסופית של אפשרויות רשומות, מה שהופך את מרחב החיפוש שלהם לדיסקרטי וניתן לספירה."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_010",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "איזה היפרפרמטר מהרשימה מורכב כולו מחזקות של 2?",
+    "answer": [
+      [
+        "Hidden units"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_011",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "מהו הסוג של קצב למידה?",
+    "answer": [
+      [
+        "Continuous"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

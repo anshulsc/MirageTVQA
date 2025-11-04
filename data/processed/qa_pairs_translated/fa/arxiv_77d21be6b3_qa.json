@@ -1,0 +1,271 @@
+[
+  {
+    "question_id": "arxiv_77d21be6b3_001",
+    "table_id": "arxiv_77d21be6b3",
+    "question_type": "value",
+    "question": "چند مدل در دسته \"پارامتری (PM)\" قرار می‌گیرند؟",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_77d21be6b3_002",
+    "table_id": "arxiv_77d21be6b3",
+    "question_type": "value",
+    "question": "کدام دسته از مدل‌ها بیشترین تعداد مدل را در جدول دارند؟",
+    "answer": [
+      [
+        "Parametric (PM)"
+      ],
+      [
+        "Neural network (NN)"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13",
+      "B14"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_77d21be6b3_003",
+    "table_id": "arxiv_77d21be6b3",
+    "question_type": "value",
+    "question": "نام تمام مدل‌هایی را که در ستون «یادداشت» (Note) آن‌ها به صراحت به «بازده سود» (return of yields) اشاره شده است، فهرست کنید.",
+    "answer": [
+      [
+        "AR_RET"
+      ],
+      [
+        "GARCH_RET"
+      ],
+      [
+        "GARCHt_RET"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "C6",
+      "D6",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_77d21be6b3_004",
+    "table_id": "arxiv_77d21be6b3",
+    "question_type": "value",
+    "question": "توضیحات کامل (Note) برای تنها مدلی در دسته 'Historical simulation (HS)' که فیلتر کردن را شامل می‌شود، چیست؟",
+    "answer": [
+      [
+        "Filtered historical simulation (EWMA)"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_77d21be6b3_005",
+    "table_id": "arxiv_77d21be6b3",
+    "question_type": "value",
+    "question": "چه درصدی از کل مدل‌های فهرست شده به عنوان «شبکه عصبی (NN)» طبقه‌بندی می‌شوند؟",
+    "answer": [
+      [
+        "42.86%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13",
+      "B14"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_77d21be6b3_006",
+    "table_id": "arxiv_77d21be6b3",
+    "question_type": "value",
+    "question": "کدام دسته از مدل‌ها کمترین نمایندگی را در جدول دارد و از نظر فراوانی یک استثنا محسوب می‌شود؟",
+    "answer": [
+      [
+        "Historical simulation (HS)"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13",
+      "B14"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_77d21be6b3_007",
+    "table_id": "arxiv_77d21be6b3",
+    "question_type": "value",
+    "question": "اگر تمام مدل‌هایی که بر روی «بازده بازده» کار می‌کنند به یک دسته جدید «مبتنی بر بازده» منتقل شوند، این دسته جدید چند مدل را شامل می‌شود؟",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "D6",
+      "D7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_77d21be6b3_008",
+    "table_id": "arxiv_77d21be6b3",
+    "question_type": "open_ended_reasoning",
+    "question": "چه پسوند مشترکی در «نام مدل» برای تمایز مدل‌هایی که بر روی «بازده سود» عمل می‌کنند با آن‌هایی که بر روی «سود» عمل می‌کنند، در دسته پارامتریک (Parametric) استفاده می‌شود؟",
+    "answer": [
+      [
+        "پسوند مشترک «_RET» است. این مورد با مقایسه «AR» (مدل سود) با «AR_RET» (مدل بازده سود) و «GARCH» با «GARCH_RET» مشاهده می‌شود."
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "D3",
+      "C4",
+      "D4",
+      "C5",
+      "D5",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_77d21be6b3_009",
+    "table_id": "arxiv_77d21be6b3",
+    "question_type": "open_ended_reasoning",
+    "question": "بر اساس داده‌های مربوط به 'CGAN-FC' و 'CGAN-LSTM'، چه رابطه‌ای را می‌توان بین نام یک مدل و معماری زیربنایی آن در دسته 'شبکه عصبی (NN)' استنباط کرد؟",
+    "answer": [
+      [
+        "یک رابطه مستقیم قابل استنباط است که در آن پسوند در 'نام مدل' (مانند '-FC'، '-LSTM') به صراحت نوع لایه‌های شبکه ('لایه‌های کاملاً متصل'، 'لایه‌های LSTM') را که در 'نکته' شرح داده شده است، توصیف می‌کند. این نشان‌دهنده یک قرارداد نام‌گذاری سیستماتیک برای شناسایی سریع معماری مدل است."
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "D9",
+      "C10",
+      "D10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_77d21be6b3_010",
+    "table_id": "arxiv_77d21be6b3",
+    "question_type": "open_ended_reasoning",
+    "question": "تنوع داخلی مدل‌ها را در دسته «مدل پارامتریک (PM)» در مقابل دسته «شبکه عصبی (NN)» مقایسه کنید. کدام دسته بر اساس توضیحاتشان، طیف وسیع‌تری از رویکردهای مدل‌سازی متمایز را نشان می‌دهد؟",
+    "answer": [
+      [
+        "دسته «شبکه عصبی (NN)» تنوع داخلی بیشتری را نشان می‌دهد. در حالی که مدل‌های «مدل پارامتریک (PM)» انواع مختلفی از چارچوب‌های آماری تثبیت شده مانند AR و GARCH هستند که عمدتاً بر اساس داده‌های ورودی (بازده یا بازدهی) یا توزیع خطا متفاوت هستند، دسته «شبکه عصبی (NN)» شامل معماری‌های اساساً متفاوتی است. این دسته شامل شبکه‌های تخاصمی مولد مختلف (CGAN, CWGAN)، یک مدل انتشار (Diffusion) و یک خودرمزگذار متغیر (VAE) است که طیف وسیع‌تری از تکنیک‌های متمایز یادگیری ماشین را نشان می‌دهد."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "B4",
+      "D4",
+      "B5",
+      "D5",
+      "B6",
+      "D6",
+      "B7",
+      "D7",
+      "B8",
+      "D8",
+      "B9",
+      "D9",
+      "B10",
+      "D10",
+      "B11",
+      "D11",
+      "B12",
+      "D12",
+      "B13",
+      "D13",
+      "B14",
+      "D14"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_77d21be6b3_011",
+    "table_id": "arxiv_77d21be6b3",
+    "question_type": "open_ended_reasoning",
+    "question": "PHS مخفف چیست و چه نوع مدلی است؟",
+    "answer": [
+      [
+        "PHS مخفف Plain Historical Simulation (شبیه‌سازی تاریخی ساده) است و یک مدل از نوع Historical simulation (HS) (شبیه‌سازی تاریخی) می‌باشد."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

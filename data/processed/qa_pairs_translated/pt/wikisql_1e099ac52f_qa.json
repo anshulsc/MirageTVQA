@@ -1,0 +1,284 @@
+[
+  {
+    "question_id": "wikisql_1e099ac52f_001",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "Qual presidente foi o mais jovem na época de sua primeira posse?",
+    "answer": [
+      [
+        "Jerry Rawlings"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "E3",
+      "B8",
+      "E8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_002",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "Qual foi a idade média aproximada na posse para todos os presidentes que assumiram o cargo na década de 1970?",
+    "answer": [
+      [
+        "47.3 years"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D6",
+      "E6",
+      "D7",
+      "E7",
+      "D8",
+      "E8",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_003",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "Quem foi o antecessor imediato do presidente que teve o menor tempo de aposentadoria em dias (excluindo aqueles com valores ausentes, incumbentes ou zero)?",
+    "answer": [
+      [
+        "Ignatius Acheampong"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "A7",
+      "B7",
+      "G1",
+      "G2",
+      "G3",
+      "G5",
+      "G6",
+      "G7",
+      "G9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_004",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "open_ended_reasoning",
+    "question": "Descreva a tendência da duração dos mandatos presidenciais a partir de Ignatius Acheampong até John Kufuor.",
+    "answer": [
+      [
+        "A tendência é altamente volátil, sem um padrão claro. Começa com um mandato relativamente longo para Acheampong (~6,5 anos), seguido por um mandato muito curto para Akuffo (~11 meses), e um ainda mais curto para o primeiro mandato de Rawlings (~3,5 meses). A duração aumenta depois com Limann (~2,2 anos), seguido por um mandato muito longo para o segundo período de Rawlings (19 anos), antes de se estabilizar em uma duração de mandato padrão com Kufuor (8 anos)."
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "F6",
+      "D7",
+      "F7",
+      "D8",
+      "F8",
+      "D9",
+      "F9",
+      "D10",
+      "F10",
+      "D11",
+      "F11"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_005",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "Identifique todos os presidentes que foram empossados antes do seu 45º aniversário e cujo mandato terminou antes de 1980.",
+    "answer": [
+      [
+        "Akwasi Afrifa"
+      ],
+      [
+        "Ignatius Acheampong"
+      ],
+      [
+        "Fred Akuffo"
+      ],
+      [
+        "Jerry Rawlings"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "E3",
+      "F3",
+      "B6",
+      "E6",
+      "F6",
+      "B7",
+      "E7",
+      "F7",
+      "B8",
+      "E8",
+      "F8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_006",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "Qual presidente teve seu período de aposentadoria como a maior proporção de sua vida total? (Considere apenas presidentes com aposentadoria e tempo de vida medidos explicitamente em dias, não aproximações).",
+    "answer": [
+      [
+        "Joseph Ankrah"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "G1",
+      "I1",
+      "B2",
+      "G2",
+      "I2",
+      "B3",
+      "G3",
+      "I3",
+      "B5",
+      "G5",
+      "I5",
+      "B6",
+      "G6",
+      "I6",
+      "B7",
+      "G7",
+      "I7",
+      "B9",
+      "G9",
+      "I9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_007",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "Se o mandato de Fred Akuffo tivesse terminado no mesmo dia que o de Ignatius Acheampong (5 de julho de 1978), como teria mudado o seu 'Tempo de aposentadoria' em relação ao valor mostrado na tabela?",
+    "answer": [
+      [
+        "His retirement would have been 324 days longer."
+      ]
+    ],
+    "evidence_cells": [
+      "F6",
+      "D7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_008",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "open_ended_reasoning",
+    "question": "Com base nos dados, que relação, se houver, pode ser inferida entre a idade de um presidente na posse e o seu tempo de vida?",
+    "answer": [
+      [
+        "Não há uma correlação consistente em todo o conjunto de dados. Embora alguns dos presidentes mais velhos na posse, como Nii Ollennu e Edward Akufo-Addo (ambos ~64 anos), tivessem longas vidas (80 e 73 anos), John A. Mills também foi empossado aos 64 anos, mas teve uma vida útil mais curta de 68 anos. Pelo contrário, os presidentes mais jovens na posse, Jerry Rawlings (31) e Akwasi Afrifa (32), tiveram vidas de 66 e 43 anos, respetivamente, o que não sugere um padrão claro. Portanto, os dados não suportam uma forte correlação entre a idade na posse e o tempo de vida."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "I1",
+      "E2",
+      "I2",
+      "E3",
+      "I3",
+      "E4",
+      "I4",
+      "E5",
+      "I5",
+      "E6",
+      "I6",
+      "E7",
+      "I7",
+      "E8",
+      "I8",
+      "E9",
+      "I9",
+      "E10",
+      "I10",
+      "E11",
+      "I11",
+      "E12",
+      "I12",
+      "E13",
+      "I13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_009",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "O mandato presidencial de quem foi um desvio significativo, sendo substancialmente mais curto do que o de qualquer outro presidente listado?",
+    "answer": [
+      [
+        "Nii Ollennu"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "D4",
+      "F4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_010",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "Qual coluna na tabela apresenta as inconsistências de formatação de dados mais significativas, contendo uma mistura de números precisos, aproximações, texto e valores ausentes?",
+    "answer": [
+      [
+        "Length of retirement"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G10",
+      "G11",
+      "G12",
+      "G13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_011",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "Quem foi o presidente mais jovem na época da posse?",
+    "answer": [
+      [
+        "Jerry Rawlings"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "E8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

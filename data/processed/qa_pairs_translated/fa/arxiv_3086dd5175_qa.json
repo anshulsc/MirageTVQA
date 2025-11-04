@@ -1,0 +1,229 @@
+[
+  {
+    "question_id": "arxiv_3086dd5175_001",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "در مجموع چند گزینه متمایز برای تمام هایپرپارامترهایی که به عنوان 'دسته‌ای' (Categorical) طبقه‌بندی شده‌اند، در دسترس است؟",
+    "answer": [
+      [
+        "11"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_002",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "کدام هایپرپارامترها بیشترین تعداد گزینه‌های گسسته را در ستون 'محدوده / گزینه‌ها' خود دارند؟",
+    "answer": [
+      [
+        "Hidden units"
+      ],
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_003",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "همه هایپرپارامترهای غیر دسته‌ای را که محدوده عددی آنها شامل مقدار 1 است، فهرست کنید.",
+    "answer": [
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_004",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "چه درصدی از هایپرپارامترهای ذکر شده از نوع 'پیوسته' (Continuous) هستند؟",
+    "answer": [
+      [
+        "33.33%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_005",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "برای ابرپارامتری که کمترین تعداد گزینه‌های گسسته را دارد، نوع آن چیست؟",
+    "answer": [
+      [
+        "Categorical"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C4",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_006",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "در جدول چند دسته 'نوع' منحصر به فرد فهرست شده است و آنها کدامند؟",
+    "answer": [
+      [
+        "3 دسته 'نوع' منحصر به فرد در جدول فهرست شده است: پیوسته، دسته‌ای و عدد صحیح."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_007",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "اگر محدوده 'تعداد لایه‌های R-GCN' به '1 تا 7' گسترش یابد و یک هایپرپارامتر جدید 'دسته‌ای' به نام 'اندازه دسته' با گزینه‌های '{16, 32, 64}' اضافه شود، تعداد کل گزینه‌های گسسته در تمام هایپرپارامترهای غیرپیوسته چقدر خواهد بود؟",
+    "answer": [
+      [
+        "21"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5",
+      "B6",
+      "C2",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_008",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "کدام هایپرپارامتر با نوع 'پیوسته' (Continuous) نسبت به سایرین از نوع خود، فرمت بازه مشخص شده منحصر به فردی دارد و چه چیزی آن را منحصر به فرد می کند؟",
+    "answer": [
+      [
+        "نرخ یادگیری (Learning rate) فرمت منحصر به فردی دارد. برخلاف نرخ ریزش (Dropout rate) که دارای بازه عددی ساده است، بازه نرخ یادگیری با استفاده از نماد علمی مشخص شده و شامل یادداشت داخل پرانتز '(log-uniform)' است که نشان دهنده یک توزیع نمونه‌برداری خاص است."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_009",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "فضای جستجوی پیچیدگی هایپراپارامترهای از نوع 'پیوسته' را در مقابل نوع 'دسته‌ای' طبق آنچه در جدول شرح داده شده است، مقایسه کنید.",
+    "answer": [
+      [
+        "بر اساس جدول، هایپراپارامترهای نوع 'پیوسته' فضای جستجوی بی‌نهایت بزرگتری نسبت به هایپراپارامترهای 'دسته‌ای' دارند. پارامترهای 'پیوسته' مانند 'نرخ یادگیری' می‌توانند هر مقدار حقیقی را در محدوده خود بگیرند که این امکان بی‌نهایت گزینه را ایجاد می‌کند. در مقابل، پارامترهای 'دسته‌ای' مانند 'بهینه‌ساز' مجموعه کوچک و متناهی از گزینه‌های فهرست شده دارند که فضای جستجوی آن‌ها را گسسته و قابل شمارش می‌کند."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_010",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "گزینه‌های فهرست شده کدام هایپرپارامتر همگی توان‌هایی از 2 هستند؟",
+    "answer": [
+      [
+        "Hidden units"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_011",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "نوع نرخ یادگیری چیست؟",
+    "answer": [
+      [
+        "Continuous"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

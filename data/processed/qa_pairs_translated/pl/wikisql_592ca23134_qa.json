@@ -1,0 +1,310 @@
+[
+  {
+    "question_id": "wikisql_592ca23134_001",
+    "table_id": "wikisql_592ca23134",
+    "question_type": "value",
+    "question": "Który hrabstwo miało najmniejszą różnicę punktów procentowych między Kerry a Bushem?",
+    "answer": [
+      [
+        "Winnebago"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_592ca23134_002",
+    "table_id": "wikisql_592ca23134",
+    "question_type": "value",
+    "question": "Jaka była łączna liczba głosów oddanych na Busha we wszystkich wymienionych hrabstwach?",
+    "answer": [
+      [
+        "534400"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12",
+      "E13",
+      "E14",
+      "E15",
+      "E16",
+      "E17",
+      "E18",
+      "E19",
+      "E20",
+      "E21",
+      "E22"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_592ca23134_003",
+    "table_id": "wikisql_592ca23134",
+    "question_type": "value",
+    "question": "W powiecie z najmniejszą łączną liczbą oddanych głosów (Kerry# + Bush# + Others#), jaki był procentowy udział głosów na Kerry'ego?",
+    "answer": [
+      [
+        "50.8%"
+      ]
+    ],
+    "evidence_cells": [
+      "A22",
+      "C22",
+      "E22",
+      "G22",
+      "B22"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_592ca23134_004",
+    "table_id": "wikisql_592ca23134",
+    "question_type": "value",
+    "question": "Wymień wszystkie hrabstwa, w których Bush otrzymał ponad 60% głosów ORAZ Kerry otrzymał mniej niż 5000 głosów.",
+    "answer": [
+      [
+        "Cumberland"
+      ],
+      [
+        "Johnson"
+      ],
+      [
+        "Ford"
+      ],
+      [
+        "Effingham"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "C3",
+      "A8",
+      "D8",
+      "C8",
+      "A9",
+      "D9",
+      "C9",
+      "A12",
+      "D12",
+      "C12",
+      "A15",
+      "D15",
+      "C15",
+      "A16",
+      "D16",
+      "C16",
+      "A17",
+      "D17",
+      "C17"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_592ca23134_005",
+    "table_id": "wikisql_592ca23134",
+    "question_type": "value",
+    "question": "Jaki procent łącznej liczby głosów na Kerry'ego ze wszystkich wymienionych hrabstw pochodził z pojedynczego hrabstwa, w którym zdobył najwięcej głosów?",
+    "answer": [
+      [
+        "41.2%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11",
+      "C12",
+      "C13",
+      "C14",
+      "C15",
+      "C16",
+      "C17",
+      "C18",
+      "C19",
+      "C20",
+      "C21",
+      "C22"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_592ca23134_006",
+    "table_id": "wikisql_592ca23134",
+    "question_type": "open_ended_reasoning",
+    "question": "Gdyby głosy na 'Inne' w hrabstwie Winnebago zostały ponownie przydzielone Kerry'emu, czy zwycięzca tego hrabstwa by się zmienił?",
+    "answer": [
+      [
+        "Tak, zwycięzca zmieniłby się z Busha na Kerry'ego. Pierwotnie Bush wygrał 1042 głosami (60 782 do 59 740). Ponowne przydzielenie 903 głosów 'Inne' do Kerry'ego dałoby mu 60 643 głosy, co wciąż jest mniej niż całkowita liczba głosów Busha. Dlatego Bush nadal by wygrał, ale znacznie mniejszą przewagą 139 głosów. Chwileczkę, przeliczmy jeszcze raz. Nowa suma Kerry'ego wyniosłaby 59 740 + 903 = 60 643. Suma Busha to 60 782. Bush nadal wygrywa. Moja poprzednia konkluzja była błędna. Zwycięzca NIE zmieniłby się."
+      ],
+      [
+        "Nie, zwycięzca by się nie zmienił. Bush pierwotnie wygrał 60 782 głosami do 59 740 głosów Kerry'ego. Dodanie 903 głosów 'Inne' do sumy Kerry'ego daje 60 643 głosy, co wciąż jest mniej niż suma Busha. Bush pozostałby zwycięzcą, choć znacznie mniejszą przewagą 139 głosów."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "E6",
+      "G6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_592ca23134_007",
+    "table_id": "wikisql_592ca23134",
+    "question_type": "open_ended_reasoning",
+    "question": "Czy na podstawie danych istnieje zauważalna zależność między wyższym procentem głosów na 'Innych' a wyrównaną walką między Kerrym a Bushem?",
+    "answer": [
+      [
+        "Nie ma spójnej zależności. Hrabstwo z najwyższym odsetkiem głosów na 'Innych' to Jackson (1,3%), gdzie walka nie była szczególnie wyrównana (różnica 12,1 punktu na korzyść Kerry'ego). Z kolei najbardziej wyrównana walka miała miejsce w Winnebago (różnica 0,9 punktu), gdzie odsetek głosów na 'Innych' był poniżej średniej i wynosił 0,7%. Sugeruje to, że wyniki kandydatów trzecich nie są wiarygodnym predyktorem różnicy między dwoma głównymi kandydatami w tym zbiorze danych."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "D6",
+      "F6",
+      "B13",
+      "D13",
+      "F13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_592ca23134_008",
+    "table_id": "wikisql_592ca23134",
+    "question_type": "value",
+    "question": "Który hrabstwo jest najbardziej znaczącym odchyleniem pod względem łącznej liczby głosów oddanych na wszystkich kandydatów łącznie?",
+    "answer": [
+      [
+        "DuPage"
+      ]
+    ],
+    "evidence_cells": [
+      "A19",
+      "C19",
+      "E19",
+      "G19"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_592ca23134_009",
+    "table_id": "wikisql_592ca23134",
+    "question_type": "value",
+    "question": "Jaka jest łączna sugerowana liczba głosów oddanych w hrabstwie Effingham, biorąc pod uwagę podane procenty i surową liczbę głosów dla dowolnego kandydata?",
+    "answer": [
+      [
+        "16278"
+      ]
+    ],
+    "evidence_cells": [
+      "B16",
+      "C16",
+      "D16",
+      "E16"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_592ca23134_010",
+    "table_id": "wikisql_592ca23134",
+    "question_type": "value",
+    "question": "Który kandydat, Kerry czy Bush, wygrał więcej hrabstw łącznie i o ile?",
+    "answer": [
+      [
+        "Bush"
+      ],
+      [
+        "10"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B4",
+      "D4",
+      "B5",
+      "D5",
+      "B6",
+      "D6",
+      "B7",
+      "D7",
+      "B8",
+      "D8",
+      "B9",
+      "D9",
+      "B10",
+      "D10",
+      "B11",
+      "D11",
+      "B12",
+      "D12",
+      "B13",
+      "D13",
+      "B14",
+      "D14",
+      "B15",
+      "D15",
+      "B16",
+      "D16",
+      "B17",
+      "D17",
+      "B18",
+      "D18",
+      "B19",
+      "D19",
+      "B20",
+      "D20",
+      "B21",
+      "D21",
+      "B22",
+      "D22"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_592ca23134_011",
+    "table_id": "wikisql_592ca23134",
+    "question_type": "open_ended_reasoning",
+    "question": "Jaki wzorzec można zaobserwować między Kerry% a Bush% w większości hrabstw?",
+    "answer": [
+      [
+        "W większości hrabstw procentowy udział jednego kandydata jest odwrotnie proporcjonalny do udziału drugiego, co pokazuje wyraźną rywalizację dwupartyjną z minimalną liczbą głosów dla pozostałych."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B90",
+      "D90"
+    ],
+    "reasoning_category": "Correlation Inference"
+  }
+]

@@ -1,0 +1,309 @@
+[
+  {
+    "question_id": "wikisql_a0d8092819_001",
+    "table_id": "wikisql_a0d8092819",
+    "question_type": "value",
+    "question": "Qual foi o público médio de todos os jogos disputados no Kingdome?",
+    "answer": [
+      [
+        "52707"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "G2",
+      "E4",
+      "G4",
+      "E5",
+      "G5",
+      "E8",
+      "G8",
+      "E10",
+      "G10",
+      "E11",
+      "G11",
+      "E12",
+      "G12",
+      "E14",
+      "G14"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_a0d8092819_002",
+    "table_id": "wikisql_a0d8092819",
+    "question_type": "value",
+    "question": "Qual jogo teve um público que se destaca significativamente em comparação com todos os outros jogos não cancelados, e qual foi o público?",
+    "answer": [
+      [
+        "at Detroit Lions",
+        "8,310"
+      ]
+    ],
+    "evidence_cells": [
+      "C6",
+      "G1",
+      "G2",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G10",
+      "G11",
+      "G12",
+      "G13",
+      "G14",
+      "G15"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_a0d8092819_003",
+    "table_id": "wikisql_a0d8092819",
+    "question_type": "value",
+    "question": "Qual foi o adversário no jogo vencido que teve o menor público?",
+    "answer": [
+      [
+        "at Detroit Lions"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "G2",
+      "D4",
+      "G4",
+      "D6",
+      "G6",
+      "D7",
+      "G7",
+      "D8",
+      "G8",
+      "D10",
+      "G10",
+      "D11",
+      "G11",
+      "D14",
+      "G14",
+      "D15",
+      "G15",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_a0d8092819_004",
+    "table_id": "wikisql_a0d8092819",
+    "question_type": "value",
+    "question": "Liste os adversários de todos os jogos disputados no Kingdome que resultaram em derrota.",
+    "answer": [
+      [
+        "Cincinnati Bengals"
+      ],
+      [
+        "Los Angeles Raiders"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "C12",
+      "D12",
+      "E12"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_a0d8092819_005",
+    "table_id": "wikisql_a0d8092819",
+    "question_type": "open_ended_reasoning",
+    "question": "Descreva a tendência de desempenho da equipe nas últimas quatro semanas da temporada (Semanas 12-15).",
+    "answer": [
+      [
+        "A equipe mostrou resiliência nas últimas quatro semanas. Após sofrer duas derrotas consecutivas nas Semanas 12 e 13, eles se recuperaram para vencer seus dois últimos jogos da temporada contra o Denver Broncos e o Chicago Bears, terminando a temporada em uma tendência positiva."
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "D12",
+      "A13",
+      "D13",
+      "A14",
+      "D14",
+      "A15",
+      "D15"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_a0d8092819_006",
+    "table_id": "wikisql_a0d8092819",
+    "question_type": "value",
+    "question": "Qual foi a porcentagem de vitórias da equipe em jogos fora de casa (jogos em que o nome do adversário começa com 'at')?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "C3",
+      "D3",
+      "C6",
+      "D6",
+      "C7",
+      "D7",
+      "C9",
+      "D9",
+      "C13",
+      "D13",
+      "C15",
+      "D15"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_a0d8092819_007",
+    "table_id": "wikisql_a0d8092819",
+    "question_type": "value",
+    "question": "Qual teve uma média de público maior: jogos em casa no Kingdome ou jogos fora? Forneça a média da maior das duas opções.",
+    "answer": [
+      [
+        "Away games",
+        "60117"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "G1",
+      "E2",
+      "G2",
+      "E4",
+      "G4",
+      "E5",
+      "G5",
+      "E6",
+      "G6",
+      "E7",
+      "G7",
+      "E8",
+      "G8",
+      "E9",
+      "G9",
+      "E10",
+      "G10",
+      "E11",
+      "G11",
+      "E12",
+      "G12",
+      "E13",
+      "G13",
+      "E14",
+      "G14",
+      "E15",
+      "G15"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_a0d8092819_008",
+    "table_id": "wikisql_a0d8092819",
+    "question_type": "value",
+    "question": "Se o jogo cancelado na Semana 3 tivesse ocorrido e resultado em uma vitória, qual teria sido o novo recorde da equipe no final da Semana 4?",
+    "answer": [
+      [
+        "3-1"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "F3",
+      "F2",
+      "F4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_a0d8092819_009",
+    "table_id": "wikisql_a0d8092819",
+    "question_type": "open_ended_reasoning",
+    "question": "Com base nos dados, qual é a aparente relação entre jogar em casa (Kingdome) e o resultado do jogo?",
+    "answer": [
+      [
+        "Os dados sugerem uma forte vantagem em casa. A equipe venceu 75% de seus jogos no Kingdome (6 vitórias em 8 jogos), enquanto sua porcentagem de vitórias em jogos fora de casa foi de apenas 50% (3 vitórias em 6 jogos). Isso indica uma correlação positiva entre jogar em casa e vencer."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D6",
+      "E6",
+      "D7",
+      "E7",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D10",
+      "E10",
+      "D11",
+      "E11",
+      "D12",
+      "E12",
+      "D13",
+      "E13",
+      "D14",
+      "E14",
+      "D15",
+      "E15"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_a0d8092819_010",
+    "table_id": "wikisql_a0d8092819",
+    "question_type": "value",
+    "question": "Qual motivo é fornecido na tabela de dados para a anomalia na programação da Semana 3?",
+    "answer": [
+      [
+        "Cancelled due to player's strike"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_a0d8092819_011",
+    "table_id": "wikisql_a0d8092819",
+    "question_type": "open_ended_reasoning",
+    "question": "O que pode explicar a variação no público entre diferentes partidas?",
+    "answer": [
+      [
+        "Diferenças na localização, nos oponentes e no momento em que os jogos ocorreram podem ter influenciado o número de fãs que compareceram a cada partida."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C15",
+      "G1",
+      "G15"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

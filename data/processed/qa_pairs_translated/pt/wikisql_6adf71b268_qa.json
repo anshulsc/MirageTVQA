@@ -1,0 +1,409 @@
+[
+  {
+    "question_id": "wikisql_6adf71b268_001",
+    "table_id": "wikisql_6adf71b268",
+    "question_type": "value",
+    "question": "Dos navios que entraram em serviço antes de 1890, qual teve a maior Tonelagem Bruta?",
+    "answer": [
+      [
+        "Berlin"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2",
+      "B6",
+      "D6",
+      "B8",
+      "D8",
+      "B9",
+      "D9",
+      "B10",
+      "D10",
+      "B11",
+      "D11",
+      "B13",
+      "D13",
+      "B14",
+      "D14",
+      "B15",
+      "D15",
+      "B16",
+      "D16",
+      "B18",
+      "D18"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_6adf71b268_002",
+    "table_id": "wikisql_6adf71b268",
+    "question_type": "value",
+    "question": "Qual é o Tonelagem Bruta total de todos os navios classificados como 'Paddle steamer'?",
+    "answer": [
+      [
+        "5470"
+      ]
+    ],
+    "evidence_cells": [
+      "E6",
+      "D6",
+      "E8",
+      "D8",
+      "E9",
+      "D9",
+      "E11",
+      "D11",
+      "E13",
+      "D13",
+      "E15",
+      "D15",
+      "E18",
+      "D18"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_6adf71b268_003",
+    "table_id": "wikisql_6adf71b268",
+    "question_type": "value",
+    "question": "Excluindo 'Paddle steamers', qual navio teve a menor duração de serviço em anos?",
+    "answer": [
+      [
+        "Copenhagen"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "E1",
+      "A2",
+      "B2",
+      "C2",
+      "E2",
+      "A3",
+      "B3",
+      "C3",
+      "E3",
+      "A4",
+      "B4",
+      "C4",
+      "E4",
+      "A5",
+      "B5",
+      "C5",
+      "E5",
+      "A7",
+      "B7",
+      "C7",
+      "E7",
+      "A10",
+      "B10",
+      "C10",
+      "E10",
+      "A12",
+      "B12",
+      "C12",
+      "E12",
+      "A14",
+      "B14",
+      "C14",
+      "E14",
+      "A16",
+      "B16",
+      "C16",
+      "E16",
+      "A17",
+      "B17",
+      "C17",
+      "E17",
+      "A19",
+      "B19",
+      "C19",
+      "E19"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_6adf71b268_004",
+    "table_id": "wikisql_6adf71b268",
+    "question_type": "open_ended_reasoning",
+    "question": "Como a Tonelagem Bruta média dos navios que entraram em serviço no século XX (a partir de 1900) se compara com aqueles que entraram no século XIX?",
+    "answer": [
+      [
+        "A tonelagem bruta média dos navios aumentou significativamente do século XIX para o século XX com base neste conjunto de dados. A tonelagem média para os 12 navios que entraram em serviço no século XIX foi de aproximadamente 1021, enquanto para os 7 navios que entraram no século XX, subiu para aproximadamente 1502. Isso sugere uma tendência para a construção de embarcações maiores ao longo do tempo."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B4",
+      "D4",
+      "B5",
+      "D5",
+      "B6",
+      "D6",
+      "B7",
+      "D7",
+      "B8",
+      "D8",
+      "B9",
+      "D9",
+      "B10",
+      "D10",
+      "B11",
+      "D11",
+      "B12",
+      "D12",
+      "B13",
+      "D13",
+      "B14",
+      "D14",
+      "B15",
+      "D15",
+      "B16",
+      "D16",
+      "B17",
+      "D17",
+      "B18",
+      "D18",
+      "B19",
+      "D19"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_6adf71b268_005",
+    "table_id": "wikisql_6adf71b268",
+    "question_type": "value",
+    "question": "Liste os nomes de todos os navios cujo serviço terminou devido a uma ação externa ('Requisitioned', 'Captured', ou 'Sunk') durante períodos de guerra (1914-1918).",
+    "answer": [
+      [
+        "Clacton"
+      ],
+      [
+        "Copenhagen"
+      ],
+      [
+        "Brussels"
+      ],
+      [
+        "Dresden"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A3",
+      "C3",
+      "A5",
+      "C5",
+      "A19",
+      "C19"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_6adf71b268_006",
+    "table_id": "wikisql_6adf71b268",
+    "question_type": "value",
+    "question": "Qual porcentagem dos navios nesta lista são do tipo 'Paddle steamer', arredondada para duas casas decimais?",
+    "answer": [
+      [
+        "36.84%"
+      ]
+    ],
+    "evidence_cells": [
+      "E6",
+      "E8",
+      "E9",
+      "E11",
+      "E13",
+      "E15",
+      "E18",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "A15",
+      "A16",
+      "A17",
+      "A18",
+      "A19"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_6adf71b268_007",
+    "table_id": "wikisql_6adf71b268",
+    "question_type": "value",
+    "question": "Se o Tonelagem Bruta de todos os navios que terminaram o serviço sendo 'Naufragado' ou 'Afundado' fosse aumentada em 20%, qual seria a sua nova Tonelagem Bruta combinada?",
+    "answer": [
+      [
+        "4260"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "C19",
+      "D19"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_6adf71b268_008",
+    "table_id": "wikisql_6adf71b268",
+    "question_type": "open_ended_reasoning",
+    "question": "Com base nos dados, existe uma relação observável entre o tipo de uma embarcação e a sua longevidade de serviço típica?",
+    "answer": [
+      [
+        "Sim, parece haver uma relação. Os 'Navios a Vapor de Hélice Tripla' neste conjunto de dados têm uma vida útil média notavelmente mais curta (8,5 anos) em comparação com outros tipos. Por exemplo, os 'Navios a Vapor de Rodas' serviram por uma média de cerca de 23 anos, e os 'Navios a Vapor de Carga de Hélice Dupla' por cerca de 20,5 anos. Isso sugere que a classificação tecnológica de uma embarcação pode correlacionar-se com a sua vida operacional, embora o pequeno tamanho da amostra para alguns tipos torne esta uma observação preliminar."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "E1",
+      "B2",
+      "C2",
+      "E2",
+      "B3",
+      "C3",
+      "E3",
+      "B4",
+      "C4",
+      "E4",
+      "B5",
+      "C5",
+      "E5",
+      "B6",
+      "C6",
+      "E6",
+      "B7",
+      "C7",
+      "E7",
+      "B8",
+      "C8",
+      "E8",
+      "B9",
+      "C9",
+      "E9",
+      "B10",
+      "C10",
+      "E10",
+      "B11",
+      "C11",
+      "E11",
+      "B12",
+      "C12",
+      "E12",
+      "B13",
+      "C13",
+      "E13",
+      "B14",
+      "C14",
+      "E14",
+      "B15",
+      "C15",
+      "E15",
+      "B16",
+      "C16",
+      "E16",
+      "B17",
+      "C17",
+      "E17",
+      "B18",
+      "C18",
+      "E18",
+      "B19",
+      "C19",
+      "E19"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_6adf71b268_009",
+    "table_id": "wikisql_6adf71b268",
+    "question_type": "value",
+    "question": "Qual o Gross Tonnage do navio que é o maior outlier em comparação com a tonelagem média do seu tipo de embarcação específico?",
+    "answer": [
+      [
+        "Dresden"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "E2",
+      "A5",
+      "D5",
+      "E5",
+      "A10",
+      "D10",
+      "E10",
+      "A14",
+      "D14",
+      "E14",
+      "A16",
+      "D16",
+      "E16",
+      "A19",
+      "D19",
+      "E19"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_6adf71b268_010",
+    "table_id": "wikisql_6adf71b268",
+    "question_type": "value",
+    "question": "Quantas categorias distintas para o fim do serviço de um navio, além de uma simples marcação de ano de aposentadoria, são mencionadas na coluna 'Ended service'?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C5",
+      "C19"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_6adf71b268_011",
+    "table_id": "wikisql_6adf71b268",
+    "question_type": "value",
+    "question": "Qual é a tonelagem bruta média dos navios que entraram em serviço em 1864?",
+    "answer": [
+      [
+        "683.25"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

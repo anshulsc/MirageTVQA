@@ -1,0 +1,284 @@
+[
+  {
+    "question_id": "wikisql_1e099ac52f_001",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "Який президент був наймолодшим на момент своєї першої інавгурації?",
+    "answer": [
+      [
+        "Jerry Rawlings"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "E3",
+      "B8",
+      "E8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_002",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "Яким був приблизний середній вік інавгурації всіх президентів, які вступили на посаду у 1970-х роках?",
+    "answer": [
+      [
+        "47.3 years"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D6",
+      "E6",
+      "D7",
+      "E7",
+      "D8",
+      "E8",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_003",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "Хто був безпосереднім попередником президента, який мав найкоротший термін виходу на пенсію в днях (виключаючи відсутні, чинні або нульові значення)?",
+    "answer": [
+      [
+        "Ignatius Acheampong"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "A7",
+      "B7",
+      "G1",
+      "G2",
+      "G3",
+      "G5",
+      "G6",
+      "G7",
+      "G9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_004",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "open_ended_reasoning",
+    "question": "Опишіть тенденцію тривалості президентських термінів, починаючи від Ігнатіуса Ачеампонга до Джона Куфуора.",
+    "answer": [
+      [
+        "Тенденція є дуже нестабільною, без чіткого патерну. Вона починається з відносно довгого терміну для Ачеампонга (~6,5 років), за яким слідує дуже короткий термін для Акуффо (~11 місяців), і ще коротший для першого терміну Роулінгса (~3,5 місяців). Потім тривалість збільшується з Ліманном (~2,2 роки), за яким слідує дуже довгий термін другого терміну Роулінгса (19 років), перш ніж стабілізуватися до стандартної тривалості терміну з Куфуором (8 років)."
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "F6",
+      "D7",
+      "F7",
+      "D8",
+      "F8",
+      "D9",
+      "F9",
+      "D10",
+      "F10",
+      "D11",
+      "F11"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_005",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "Визначте всіх президентів, які були інавгуровані до свого 45-річчя, і термін правління яких закінчився до 1980 року.",
+    "answer": [
+      [
+        "Akwasi Afrifa"
+      ],
+      [
+        "Ignatius Acheampong"
+      ],
+      [
+        "Fred Akuffo"
+      ],
+      [
+        "Jerry Rawlings"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "E3",
+      "F3",
+      "B6",
+      "E6",
+      "F6",
+      "B7",
+      "E7",
+      "F7",
+      "B8",
+      "E8",
+      "F8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_006",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "Для якого президента період виходу на пенсію становив найбільшу частку від загальної тривалості життя? (Розглядати лише президентів, у яких період виходу на пенсію та тривалість життя виміряні точно в днях, а не приблизно).",
+    "answer": [
+      [
+        "Joseph Ankrah"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "G1",
+      "I1",
+      "B2",
+      "G2",
+      "I2",
+      "B3",
+      "G3",
+      "I3",
+      "B5",
+      "G5",
+      "I5",
+      "B6",
+      "G6",
+      "I6",
+      "B7",
+      "G7",
+      "I7",
+      "B9",
+      "G9",
+      "I9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_007",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "Якби термін Фреда Акуффо закінчився того ж дня, що й термін Ігнатіуса Ачеампонга (5 липня 1978 року), як би змінилася його «Тривалість виходу на пенсію» порівняно зі значенням, показаним у таблиці?",
+    "answer": [
+      [
+        "His retirement would have been 324 days longer."
+      ]
+    ],
+    "evidence_cells": [
+      "F6",
+      "D7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_008",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "open_ended_reasoning",
+    "question": "Виходячи з даних, який зв'язок, якщо такий є, можна зробити між віком президента на інавгурації та тривалістю його життя?",
+    "answer": [
+      [
+        "У всьому наборі даних немає послідовної кореляції. Хоча деякі з найстарших президентів на інавгурації, такі як Ні Оллену та Едвард Акуфо-Аддо (обидва ~64 роки), мали тривалу тривалість життя (80 та 73 роки), Джон А. Міллс також був інавгурований у 64 роки, але мав коротшу тривалість життя – 68 років. Навпаки, наймолодші президенти на інавгурації, Джеррі Роулінгс (31 рік) та Аквсі Афріфа (32 роки), мали тривалість життя 66 та 43 роки відповідно, що не вказує на чіткий шаблон. Тому дані не підтверджують сильної кореляції між віком інавгурації та тривалістю життя."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "I1",
+      "E2",
+      "I2",
+      "E3",
+      "I3",
+      "E4",
+      "I4",
+      "E5",
+      "I5",
+      "E6",
+      "I6",
+      "E7",
+      "I7",
+      "E8",
+      "I8",
+      "E9",
+      "I9",
+      "E10",
+      "I10",
+      "E11",
+      "I11",
+      "E12",
+      "I12",
+      "E13",
+      "I13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_009",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "Чий термін президентства був суттєвим винятком, будучи значно коротшим, ніж у будь-якого іншого зазначеного президента?",
+    "answer": [
+      [
+        "Nii Ollennu"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "D4",
+      "F4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_010",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "Яка колонка в таблиці демонструє найбільші розбіжності у форматуванні даних, містячи суміш точних чисел, наближень, тексту та відсутніх значень?",
+    "answer": [
+      [
+        "Length of retirement"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G10",
+      "G11",
+      "G12",
+      "G13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_011",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "Хто був наймолодшим президентом на момент інавгурації?",
+    "answer": [
+      [
+        "Jerry Rawlings"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "E8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

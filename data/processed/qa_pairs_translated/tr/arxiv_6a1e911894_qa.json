@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_6a1e911894_001",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Teslimat süresi T 30 ise, hangi SIDC değişkeni emir defterlerinin kapanışını temsil eder ve bu olay hangi işlem zamanı t'de gerçekleşir?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_002",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "SIDCO ve SIDCL tarafından tanımlanan işlem dönemleri arasındaki temel fark, teslimat zamanına göre nedir?",
+    "answer": [
+      [
+        "Temel fark, teslimata göre zamanlamalarındadır. SIDCO, sipariş defterlerinin açık olduğu dönemi tanımlar ve bu, teslimattan en az iki zaman birimi önce olmalıdır (T-t ≥ 2). Buna karşılık SIDCL, sipariş defterlerinin kapandığı dönemi tanımlar ve bu, teslimata iki zaman birimi içindedir (T-t ≤ 2)."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_003",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Sağlanan yorumlara göre, sınır ötesi emir defteri eşleştirmesinin birinci ve ikinci dalgaları arasında kaç saat geçmektedir?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_004",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Ticaret saati koşullarına göre, SIDCL döneminin başlangıcından hemen önceki özel anı temsil eden SIDC olayı hangisidir?",
+    "answer": [
+      [
+        "SIDCC"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_005",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Teslimat süresi T=20 olan bir ürün için, belirtilen iki \"dalga\" olayından (SIDC1 veya SIDC2) hangisi gerçekleşemezdi, çünkü işlem süresi geçerli açık dönem dışına düşerdi?",
+    "answer": [
+      [
+        "SIDC2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_006",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Hisse senedi (SIDC2) ikinci eşleşme dalgasının t=30'da gerçekleşecek şekilde gecikmesi durumunda, bu olayın SIDCO tarafından tanımlanan genel açık dönem içinde kalması için gereken minimum tamsayı teslim süresi T ne olurdu?",
+    "answer": [
+      [
+        "32"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_007",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Her bir değişken için 'Değişken' sütununda listelenen işlev benzeri gösterimde kullanılan ortak parametreler nelerdir?",
+    "answer": [
+      [
+        "d"
+      ],
+      [
+        "h"
+      ],
+      [
+        "t"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_008",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Teslimat zamanı T=25 olan bir ürün için t=20 işlem zamanında bir işlem yapılıyor. Bu işlem hangi SIDC değişkeninin koşullarını sağlamaktadır?",
+    "answer": [
+      [
+        "SIDCO"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_009",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "SIDCO döneminden SIDCL dönemine geçişi hangi değişken işaretler ve bunun tanımlayıcı işlem süresi koşulu nedir?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "T-t=2"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_010",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Tanımlarına göre SIDCO değişkeninin zamansal kapsamını SIDC1 değişkeninin zamansal kapsamıyla karşılaştırın.",
+    "answer": [
+      [
+        "SIDCO, emir defterlerinin açık olduğu, t≥12 ve T-t≥2 aralığıyla tanımlanan sürekli bir zaman dilimini temsil eder. Buna karşılık SIDC1, SIDCO döneminin başlangıcındaki ilk eşleştirme olayının özel anını işaret eden, t=12 gibi tek, kesikli bir zaman noktasını temsil eder."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_011",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Sınır ötesi emir defterlerinin kapanışını temsil eden SIDC değişkeni hangisidir ve hangi işlem süresi koşulunda meydana gelir?",
+    "answer": [
+      [
+        "SIDC꜀(d,h,t) değişkeni sınır ötesi emir defterlerinin kapanışını temsil eder ve T − t = 2 olduğunda meydana gelir."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

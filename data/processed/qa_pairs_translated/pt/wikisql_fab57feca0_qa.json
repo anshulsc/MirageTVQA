@@ -1,0 +1,358 @@
+[
+  {
+    "question_id": "wikisql_fab57feca0_001",
+    "table_id": "wikisql_fab57feca0",
+    "question_type": "value",
+    "question": "Entre os cavalos que terminaram no top 5, qual carregou a menor quantidade de peso?",
+    "answer": [
+      [
+        "Dolphin Jo"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "E6",
+      "G6",
+      "B9",
+      "E9",
+      "G9",
+      "B12",
+      "E12",
+      "G12",
+      "B18",
+      "E18",
+      "G18"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_fab57feca0_002",
+    "table_id": "wikisql_fab57feca0",
+    "question_type": "value",
+    "question": "Qual foi o peso médio (em kg) carregado pelos cavalos treinados por David Hayes que não foram riscados da corrida?",
+    "answer": [
+      [
+        "54.75"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "G1",
+      "C2",
+      "E2",
+      "G2",
+      "C10",
+      "E10",
+      "G10",
+      "C13",
+      "E13",
+      "G13",
+      "C21",
+      "G21"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_fab57feca0_003",
+    "table_id": "wikisql_fab57feca0",
+    "question_type": "value",
+    "question": "Qual treinador teve o cavalo com a melhor colocação (menor número de colocação) entre todos os cavalos que largaram de um stater (barrier) com número superior a 15?",
+    "answer": [
+      [
+        "Luca Cumani"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "F4",
+      "G4",
+      "C5",
+      "F5",
+      "G5",
+      "C9",
+      "F9",
+      "G9",
+      "C10",
+      "F10",
+      "G10",
+      "C11",
+      "F11",
+      "G11",
+      "C12",
+      "F12",
+      "G12",
+      "C13",
+      "F13",
+      "G13",
+      "C15",
+      "F15",
+      "G15",
+      "C16",
+      "F16",
+      "G16",
+      "C20",
+      "F20",
+      "G20"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_fab57feca0_004",
+    "table_id": "wikisql_fab57feca0",
+    "question_type": "value",
+    "question": "Liste os nomes de todos os cavalos que não foram treinados por 'David Hayes' ou 'Graeme Rogerson', carregaram um peso de 53 kg ou menos e terminaram entre os 10 primeiros.",
+    "answer": [
+      [
+        "On a Jeune"
+      ],
+      [
+        "Sculptor (NZ)"
+      ],
+      [
+        "Dolphin Jo"
+      ]
+    ],
+    "evidence_cells": [
+      "B14",
+      "C14",
+      "E14",
+      "G14",
+      "B17",
+      "C17",
+      "E17",
+      "G17",
+      "B18",
+      "C18",
+      "E18",
+      "G18",
+      "C1",
+      "C2",
+      "C4",
+      "C6",
+      "C9",
+      "C10",
+      "C13",
+      "C21"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_fab57feca0_005",
+    "table_id": "wikisql_fab57feca0",
+    "question_type": "value",
+    "question": "Qual percentual de cavalos treinados por Graeme Rogerson terminou entre os 4 primeiros colocados?",
+    "answer": [
+      [
+        "66.67%"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "G4",
+      "C6",
+      "G6",
+      "C9",
+      "G9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_fab57feca0_006",
+    "table_id": "wikisql_fab57feca0",
+    "question_type": "value",
+    "question": "Se cada cavalo com um 'Scratched' (desistente) na colocação tivesse seu peso oficialmente registrado como 50 kg para este cálculo, qual seria o novo peso médio de todos os 23 cavalos?",
+    "answer": [
+      [
+        "53.5"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12",
+      "E13",
+      "E14",
+      "E15",
+      "E16",
+      "E17",
+      "E18",
+      "E19",
+      "E20",
+      "E21",
+      "E22",
+      "E23",
+      "G4",
+      "G7",
+      "G21"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_fab57feca0_007",
+    "table_id": "wikisql_fab57feca0",
+    "question_type": "open_ended_reasoning",
+    "question": "Examine a relação entre o peso que um cavalo carregou e sua colocação final para todos os cavalos não riscados. Os dados sugerem uma correlação clara (por exemplo, cavalos mais leves têm melhor desempenho)?",
+    "answer": [
+      [
+        "Os dados não sugerem uma correlação clara entre o peso de um cavalo e sua colocação final. Por exemplo, o cavalo vencedor, Efficient (NZ), carregou um peso relativamente alto de 54,5 kg, enquanto cavalos com peso ainda maior, como Tawqeet (USA) com 57 kg, terminaram muito mais abaixo (14º). Inversamente, um cavalo com peso leve, Dolphin Jo (51,5 kg), garantiu uma colocação entre os 5 primeiros, mas outros cavalos com pesos baixos semelhantes terminaram perto do final (por exemplo, Eskimo Queen com 51 kg terminou em 15º). As colocações são distribuídas em todo o espectro de peso, indicando que o peso é provavelmente um de muitos fatores e não um preditor dominante de sucesso nesta corrida."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "G1",
+      "E2",
+      "G2",
+      "E3",
+      "G3",
+      "E5",
+      "G5",
+      "E6",
+      "G6",
+      "E8",
+      "G8",
+      "E9",
+      "G9",
+      "E10",
+      "G10",
+      "E11",
+      "G11",
+      "E12",
+      "G12",
+      "E13",
+      "G13",
+      "E14",
+      "G14",
+      "E15",
+      "G15",
+      "E16",
+      "G16",
+      "E17",
+      "G17",
+      "E18",
+      "G18",
+      "E19",
+      "G19",
+      "E20",
+      "G20",
+      "E22",
+      "G22",
+      "E23",
+      "G23"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_fab57feca0_008",
+    "table_id": "wikisql_fab57feca0",
+    "question_type": "value",
+    "question": "Excluindo as colunas 'Cavalo', 'Treinador' e 'Jóquei', qual coluna contém uma mistura de dados numéricos e baseados em texto?",
+    "answer": [
+      [
+        "Placing"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G10",
+      "G11",
+      "G12",
+      "G13",
+      "G14",
+      "G15",
+      "G16",
+      "G17",
+      "G18",
+      "G19",
+      "G20",
+      "G21",
+      "G22",
+      "G23"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_fab57feca0_009",
+    "table_id": "wikisql_fab57feca0",
+    "question_type": "value",
+    "question": "Qual cavalo é um outlier de performance, tendo largado de uma barreira baixa muito vantajosa (menos de 5) mas alcançando um resultado muito ruim (colocação 15ª ou pior)?",
+    "answer": [
+      [
+        "Tungsten Strike (USA)"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "F1",
+      "G1",
+      "B8",
+      "F8",
+      "G8",
+      "B14",
+      "F14",
+      "G14",
+      "B18",
+      "F18",
+      "G18"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_fab57feca0_010",
+    "table_id": "wikisql_fab57feca0",
+    "question_type": "open_ended_reasoning",
+    "question": "Analisando os cavalos que largaram das barreiras consecutivas de 7 a 11, existe uma tendência consistente em suas colocações finais? Explique seu raciocínio.",
+    "answer": [
+      [
+        "Não há uma tendência consistente nas colocações finais para cavalos que largaram das barreiras 7 a 11. Os resultados são altamente variados: dois cavalos foram 'Desclassificados' (das barreiras 7 e 11), um colocou-se em 9º (barreira 8), outro em 13º (barreira 9), e o vencedor da corrida colocou-se em 1º (barreira 10). Os resultados são erráticos, indicando que a posição da barreira nesta faixa específica não foi um preditor confiável de desempenho."
+      ]
+    ],
+    "evidence_cells": [
+      "F6",
+      "G6",
+      "F7",
+      "G7",
+      "F17",
+      "G17",
+      "F21",
+      "G21",
+      "F23",
+      "G23"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_fab57feca0_011",
+    "table_id": "wikisql_fab57feca0",
+    "question_type": "open_ended_reasoning",
+    "question": "O que pode explicar por que alguns cavalos foram retirados da corrida?",
+    "answer": [
+      [
+        "Os cavalos podem ser retirados devido a lesões, doenças ou decisões estratégicas do treinador para evitar condições de corrida desfavoráveis."
+      ]
+    ],
+    "evidence_cells": [
+      "G4",
+      "G7",
+      "G21"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  }
+]

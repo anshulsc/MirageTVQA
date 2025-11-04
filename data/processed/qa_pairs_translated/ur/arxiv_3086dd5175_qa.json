@@ -1,0 +1,229 @@
+[
+  {
+    "question_id": "arxiv_3086dd5175_001",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "'Categorical' کے طور پر درجہ بندی کیے گئے تمام ہائپر پیرامیٹرز کے لیے مجموعی طور پر کتنے مختلف اختیارات دستیاب ہیں؟",
+    "answer": [
+      [
+        "11"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_002",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "کون سے ہائپر پیرامیٹرز کے 'رینج / اختیارات' میں سب سے زیادہ گنتی کے اختیارات درج ہیں؟",
+    "answer": [
+      [
+        "Hidden units"
+      ],
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_003",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "ان تمام غیر زمرہ بندی والے ہائپر پیرامیٹرز کی فہرست بنائیں جن کی عددی رینج میں ویلیو 1 شامل ہے۔",
+    "answer": [
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_004",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "فہرست کردہ ہائپر پیرامیٹرز کا کتنا فیصد 'Continuous' قسم کا ہے؟",
+    "answer": [
+      [
+        "33.33%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_005",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "اس ہائپر پیرامیٹر کے لیے جس کے سب سے کم اختیارات ہیں، اس کی قسم کیا ہے؟",
+    "answer": [
+      [
+        "Categorical"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C4",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_006",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "ٹیبل میں کتنے منفرد 'Type' زمرے درج ہیں، اور وہ کیا ہیں؟",
+    "answer": [
+      [
+        "ٹیبل میں 3 منفرد 'Type' زمرے درج ہیں: Continuous، Categorical، اور Integer۔"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_007",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "اگر 'Number of R-GCN layers' کی رینج کو '1 سے 7' تک بڑھا دیا جائے اور ایک نیا 'Categorical' ہائپر پیرامیٹر 'Batch size' جس کے اختیارات '{16, 32, 64}' ہوں، شامل کیا جائے، تو تمام غیر مسلسل ہائپر پیرامیٹرز میں کل نئے اختتامی اختیارات کا شمار کیا ہوگا؟",
+    "answer": [
+      [
+        "21"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5",
+      "B6",
+      "C2",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_008",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "کون سا 'Continuous' قسم کا ہائپر پیرامیٹر اپنی قسم کے دوسرے ہائپر پیرامیٹرز کے مقابلے میں ایک منفرد طور پر مخصوص رینج فارمیٹ رکھتا ہے، اور اسے کیا منفرد بناتا ہے؟",
+    "answer": [
+      [
+        "'Learning rate' کا ایک منفرد فارمیٹ ہے۔ 'Dropout rate' کے برخلاف جس میں ایک سادہ عددی رینج ہوتی ہے، 'Learning rate' کی رینج سائنسی نوٹیشن کا استعمال کرتے ہوئے بیان کی گئی ہے اور اس میں ایک مخصوص سیمپلنگ ڈسٹری بیوشن کی نشاندہی کرنے والا نوٹ '(log-uniform)' شامل ہے۔"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_009",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "جدول میں بیان کردہ 'Continuous' قسم کے ہائپر پیرامیٹرز کے سرچ اسپیس کی پیچیدگی کا 'Categorical' قسم کے مقابلے میں موازنہ کریں۔",
+    "answer": [
+      [
+        "جدول کی بنیاد پر، 'Continuous' قسم کے ہائپر پیرامیٹرز کا سرچ اسپیس 'Categorical' قسم کے مقابلے میں لامحدود طور پر بڑا ہوتا ہے۔ 'Continuous' پیرامیٹرز جیسے 'Learning rate' اپنی حدود کے اندر کوئی بھی حقیقی قدر اختیار کر سکتے ہیں، جس سے لامحدود امکانات پیدا ہوتے ہیں۔ اس کے برعکس، 'Categorical' پیرامیٹرز جیسے 'Optimizer' کے پاس درج اختیارات کا ایک چھوٹا، محدود سیٹ ہوتا ہے، جو ان کے سرچ اسپیس کو الگ اور قابل شمار بناتا ہے۔"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_010",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "کون سا ہائپر پیرامیٹر درج ذیل اختیارات تمام 2 کی طاقتیں ہیں؟",
+    "answer": [
+      [
+        "Hidden units"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_011",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Learning rate کی قسم کیا ہے؟",
+    "answer": [
+      [
+        "Continuous"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

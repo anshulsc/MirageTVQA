@@ -1,0 +1,275 @@
+[
+  {
+    "question_id": "wikisql_0bd06fb1b7_001",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "Welcher Spieler mit mindestens 5 Einzelsiegen hat die höchste Einzelgewinnquote?",
+    "answer": [
+      [
+        "Kim Young-Jun (474)"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "A5",
+      "D5",
+      "A8",
+      "D8",
+      "A12",
+      "D12",
+      "A13",
+      "D13"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_002",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "Was ist die kumulative Gesamtzahl der Siege für alle Spieler, deren Karrieren in den 1980er Jahren begannen?",
+    "answer": [
+      [
+        "33"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B15",
+      "C15",
+      "B17",
+      "C17"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_003",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "Listen Sie alle Spieler auf, die länger als 5 Jahre gespielt haben und ihre Karriere mit mehr Gesamtniederlagen als Siegen beendet haben.",
+    "answer": [
+      [
+        "Chung Yong-Ho"
+      ],
+      [
+        "Kim Choon-Ho"
+      ],
+      [
+        "Im Kyu-tae (492)"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6",
+      "A8",
+      "B8",
+      "C8",
+      "A13",
+      "B13",
+      "C13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_004",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "Wer ist in Bezug auf eine unverhältnismäßig hohe Anzahl von Gesamtverlusten im Vergleich zu den anderen Spielern der signifikanteste Ausreißer?",
+    "answer": [
+      [
+        "Chung Yong-Ho"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11",
+      "C12",
+      "C13",
+      "C14",
+      "C15",
+      "C16",
+      "C17",
+      "C18"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_005",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "Wenn Chung Hee-Sung anstelle einer Bilanz von 2-2 alle seine Doppelspiele gewonnen hätte, wie würde seine neue Bilanz \"Total W-L\" lauten?",
+    "answer": [
+      [
+        "4-1"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "E4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_006",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "Für den Spieler mit einer ausgeglichenen Einzelbilanz (gleich viele Siege und Niederlagen), wie viel Prozent seiner Gesamtspiele waren Doppelspiele?",
+    "answer": [
+      [
+        "44%"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_007",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "Wer von Kwon Oh-Hee und Kim Sun-Yong hatte eine bessere Einzel-Gewinnquote?",
+    "answer": [
+      [
+        "Kwon Oh-Hee"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A9",
+      "D9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_008",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "open_ended_reasoning",
+    "question": "Basierend auf den Einstiegsjahren in die Karriere, wie hat sich der Fokus auf Einzel- vs. Doppelspiele von den 1980er bis zu den 2000er Jahren entwickelt?",
+    "answer": [
+      [
+        "Es gab eine deutliche Verschiebung hin zum Einzelspiel. Spieler, die in den 1980er Jahren ihr Debüt gaben, wie Song Dong-Wook und Yoo Jin-Sun, hatten eine relativ ausgeglichene Anzahl von Einzel- und Doppelspielen (z. B. hatte Yoo Jin-Sun 13 Einzelspiele und 16 Doppelspiele). Im Gegensatz dazu spielten Spieler, die in den 2000er Jahren ihr Debüt gaben, wie Kim Young-Jun und Im Kyu-tae, signifikant mehr Einzelspiele als Doppelspiele (z. B. spielte Kim Young-Jun 9 Einzel zu 1 Doppel; Im Kyu-tae spielte 12 Einzel zu 3 Doppel), was auf einen Trend zur Spezialisierung auf Einzel hindeutet."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "D5",
+      "E5",
+      "B2",
+      "D2",
+      "E2",
+      "B4",
+      "D4",
+      "E4",
+      "B9",
+      "D9",
+      "E9",
+      "B12",
+      "D12",
+      "E12",
+      "B13",
+      "D13",
+      "E13"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_009",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "open_ended_reasoning",
+    "question": "Welche gemeinsame Eigenschaft bezüglich der Karrierezeit teilen alle Spieler, deren Namen eine Zahl in Klammern folgt?",
+    "answer": [
+      [
+        "Alle Spieler mit einer Zahl in Klammern nach ihrem Namen hatten eine Karriere, die zu einem bestimmten Zeitpunkt im oder nach dem Jahr 2010 aktiv war. Kein Spieler ohne eine Zahl spielte in den 2010er Jahren."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "A12",
+      "B12",
+      "A13",
+      "B13",
+      "A14",
+      "B14"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_010",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "open_ended_reasoning",
+    "question": "Gibt es basierend auf diesem Datensatz eine Korrelation zwischen einer perfekten Doppelbilanz (null Niederlagen) und beruflicher Langlebigkeit?",
+    "answer": [
+      [
+        "Ja, es gibt eine starke negative Korrelation. Die vier Spieler mit einer perfekten Doppelbilanz (0 Niederlagen) hatten alle kurze Karrieren von nur 1 oder 2 Jahren (Lee Tong-Won, Kim Sun-Yong, Cho Soong-Jae, Lee Woo-Ryong). Umgekehrt haben Spieler mit langen Karrieren von 6 Jahren oder mehr alle mehrere Doppel-Niederlagen. Dies deutet darauf hin, dass es über eine lange Karriere hinweg höchst unwahrscheinlich ist, eine perfekte Doppelbilanz aufrechtzuerhalten."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "E1",
+      "B9",
+      "E9",
+      "B14",
+      "E14",
+      "B17",
+      "E17",
+      "B3",
+      "E3",
+      "B5",
+      "E5",
+      "B6",
+      "E6",
+      "B8",
+      "E8",
+      "B13",
+      "E13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_011",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "Wie hoch ist die Gesamtzahl der Doppel-Siege von Chung Hee-sung und Song Dong-Wook zusammen?",
+    "answer": [
+      [
+        "12"
+      ]
+    ],
+    "evidence_cells": [
+      "A15",
+      "E15",
+      "A52",
+      "E52"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

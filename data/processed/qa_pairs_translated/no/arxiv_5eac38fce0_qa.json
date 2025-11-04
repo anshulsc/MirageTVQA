@@ -1,0 +1,216 @@
+[
+  {
+    "question_id": "arxiv_5eac38fce0_001",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Hvilken porteføljestrategi gir størst prosentvis forbedring i Calmar-ratioen?",
+    "answer": [
+      [
+        "AlphaSharpe"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_002",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Hva er den totale prosentvise forbedringen i Sharpe-forholdet hvis du summerer forbedringene for alle ikke-grunnlinjestrategier?",
+    "answer": [
+      [
+        "147.91%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_003",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Identifiser strategien som har den nest høyeste forbedringen i Sharpe-forholdet, og oppgi dens tilsvarende forbedring i Calmar-forholdet.",
+    "answer": [
+      [
+        "+10.44%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "C3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_004",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "List opp porteføljestrategiene der forbedringen i Calmar-ratioen er mindre enn 15 % OG forbedringen i Sharpe-ratioen er større enn 35 %.",
+    "answer": [
+      [
+        "Risk Parity"
+      ],
+      [
+        "Equal Risk Cont."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_005",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Hvilken prosentandel av den totale Calmar-forbedringen på tvers av alle ikke-baseline-strategier bidrar 'AlphaSharpe'-strategien med?",
+    "answer": [
+      [
+        "84.83%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_006",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvis ytelsesforbedringen for 'Risk Parity'-strategien ble overdrevet med 10 prosentpoeng for begge metrikkene, ville den fortsatt vært overlegen 'Equal Weighted'-grunnlinjen?",
+    "answer": [
+      [
+        "Ja, den ville fortsatt vært overlegen. Dens justerte ΔSharpe ville vært +28.32% og dens justerte ΔCalmar ville vært +0.36%. Siden begge verdiene fortsatt er større enn 0.00% for 'Equal Weighted'-grunnlinjen, ville det representert en forbedring."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_007",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "Indikerer dataene et konsistent, lineært forhold mellom forbedringene i Sharpe- og Calmar-ratioene på tvers av alle ikke-basisstrategier? Forklar begrunnelsen din.",
+    "answer": [
+      [
+        "Nei, dataene indikerer ikke et konsistent lineært forhold. Mens 'Risk Parity' og 'Equal Risk Cont.' viser en lignende profil der en stor ΔSharpe korresponderer med en beskjeden ΔCalmar, forstyrrer 'AlphaSharpe'-strategien dette mønsteret. Den viser en massiv ΔCalmar som langt overgår dens ΔSharpe, noe som indikerer at forholdet mellom de to metrikkene er ikke-lineært og avhenger sterkt av strategien."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_008",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Hvor mange strategier i tabellen har en høyere forbedring i Calmar-ratioen enn i Sharpe-ratioen?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_009",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvilken porteføljestrategi skiller seg ut når det gjelder balansen mellom forbedringene i Sharpe- og Calmar-forholdene sammenlignet med de andre ikke-baselinjestrategiene, og hvorfor?",
+    "answer": [
+      [
+        "Strategien 'AlphaSharpe' er en uteligger. For 'Risk Parity' og 'Equal Risk Cont.' er forbedringen i Sharpe-forholdet omtrent 3,7 ganger større enn forbedringen i Calmar-forholdet. I motsetning til dette snur 'AlphaSharpe' denne trenden, der dens Calmar-forbedring (+116,31 %) er betydelig større enn dens Sharpe-forbedring (+71,04 %), noe som indikerer en fundamentalt annerledes forbedring av risiko-avkastningsprofilen."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "A4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_010",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "Sammenlign 'Risk Parity'- og 'Equal Risk Cont.'-strategiene. Hvilken gir en bedre ytelsesprofil basert på de oppgitte metrikkene, og med hvor mye på hver metrikk?",
+    "answer": [
+      [
+        "'Equal Risk Cont.' gir en marginalt bedre ytelsesprofil. Den overgår 'Risk Parity' med 0,23 prosentpoeng høyere forbedring i Sharpe-ratioen (+38,55 % mot +38,32 %) og 0,08 prosentpoeng høyere forbedring i Calmar-ratioen (+10,44 % mot +10,36 %)."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_011",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Hva er ΔSharpe (%) -verdien for 'Equal Risk Cont.' porteføljestrategien i tabellen?",
+    "answer": [
+      [
+        "+38.55%"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

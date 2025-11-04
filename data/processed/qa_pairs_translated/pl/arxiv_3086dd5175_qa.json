@@ -1,0 +1,229 @@
+[
+  {
+    "question_id": "arxiv_3086dd5175_001",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Ile łącznie jest dostępnych różnych opcji dla wszystkich hiperparametrów sklasyfikowanych jako 'kategoryczne'?",
+    "answer": [
+      [
+        "11"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_002",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Które hiperparametry mają największą liczbę dyskretnych opcji wymienionych w ich 'Zakres / Opcje'?",
+    "answer": [
+      [
+        "Hidden units"
+      ],
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_003",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Wymień wszystkie niekategoryczne hiperparametry, których zakres liczbowy obejmuje wartość 1.",
+    "answer": [
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_004",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Jaki procent wymienionych hiperparametrów ma typ 'Ciągły'?",
+    "answer": [
+      [
+        "33.33%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_005",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Dla jakiego hiperparametru o najmniejszej liczbie dyskretnych opcji jest jego typ?",
+    "answer": [
+      [
+        "Categorical"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C4",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_006",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Ile unikalnych kategorii 'Typ' jest wymienionych w tabeli i jakie to kategorie?",
+    "answer": [
+      [
+        "W tabeli wymieniono 3 unikalne kategorie 'Typ': Ciągłe, Kategoryczne i Całkowite."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_007",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Gdyby zakres \"Liczba warstw R-GCN\" został rozszerzony do \"1 do 7\", a nowy hiperparametr typu \"Kategoryczny\" o nazwie \"Wielkość partii\" z opcjami \"{16, 32, 64}\" został dodany, jaka byłaby nowa całkowita liczba dyskretnych opcji we wszystkich hiperparametrach nieciągłych?",
+    "answer": [
+      [
+        "21"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5",
+      "B6",
+      "C2",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_008",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Który hiperparametr typu 'Ciągły' ma unikalny format zakresu w porównaniu do innych z tego samego typu i co czyni go unikalnym?",
+    "answer": [
+      [
+        "Współczynnik uczenia się ma unikalny format. W przeciwieństwie do współczynnika dropoutu, który ma prosty zakres liczbowy, zakres współczynnika uczenia się jest określony za pomocą notacji naukowej i zawiera uwagą w nawiasie '(log-uniform)', wskazującą na specyficzny rozkład próbkowania."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_009",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Porównaj złożoność przestrzeni poszukiwań dla hiperparametrów typu 'Ciągły' w porównaniu do typu 'Kategoryczny', zgodnie z opisem w tabeli.",
+    "answer": [
+      [
+        "Na podstawie tabeli, hiperparametry typu 'Ciągły' mają nieskończenie większą przestrzeń poszukiwań niż 'Kategoryczne'. Parametry 'Ciągłe', takie jak 'Współczynnik uczenia', mogą przyjmować dowolną wartość rzeczywistą w swoich granicach, tworząc nieskończone możliwości. Natomiast parametry 'Kategoryczne', takie jak 'Optymalizator', mają mały, skończony zestaw wymienionych opcji, co sprawia, że ich przestrzeń poszukiwań jest dyskretna i policzalna."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_010",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Którego hiperparametru wymienione opcje to potęgi liczby 2?",
+    "answer": [
+      [
+        "Hidden units"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_011",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Jaki jest typ parametru 'Learning rate'?",
+    "answer": [
+      [
+        "Continuous"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

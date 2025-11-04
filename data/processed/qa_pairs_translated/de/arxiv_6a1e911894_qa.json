@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_6a1e911894_001",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Wenn die Lieferzeit T 30 ist, welche SIDC-Variable repräsentiert das Schließen der Orderbücher und zu welcher Handelszeit t tritt dieses Ereignis auf?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_002",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Was ist der grundlegende Unterschied zwischen den Handelsperioden, die von SIDCO und SIDCL in Bezug auf die Lieferzeit definiert werden?",
+    "answer": [
+      [
+        "Der grundlegende Unterschied liegt in ihrem Timing relativ zur Lieferung. SIDCO definiert die Periode, in der die Orderbücher geöffnet sind, was mindestens zwei Zeiteinheiten vor der Lieferung liegen muss (T-t ≥ 2). Im Gegensatz dazu definiert SIDCL die Periode nach Schließung der Orderbücher, die innerhalb von zwei Zeiteinheiten vor der Lieferung liegt (T-t ≤ 2)."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_003",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Wie viele Stunden vergehen laut den bereitgestellten Interpretationen zwischen der ersten und der zweiten Welle der grenzüberschreitenden Orderbuchkopplung?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_004",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Welches SIDC-Ereignis stellt gemäß den Handelszeitbedingungen den spezifischen Zeitpunkt dar, der unmittelbar vor Beginn der SIDCL-Periode liegt?",
+    "answer": [
+      [
+        "SIDCC"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_005",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Für ein Produkt mit Lieferzeit T=20, welches der beiden spezifizierten \"Wellen\"-Ereignisse (SIDC1 oder SIDC2) könnte nicht eintreten, da seine Handelszeit außerhalb des gültigen offenen Zeitraums liegen würde?",
+    "answer": [
+      [
+        "SIDC2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_006",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Wenn die zweite Kopplungswelle (SIDC2) auf t=30 verschoben worden wäre, was wäre die minimale ganzzahlige Lieferzeit T, die erforderlich wäre, damit dieses Ereignis immer noch in die allgemeine offene Periode fällt, die durch SIDCO definiert ist?",
+    "answer": [
+      [
+        "32"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_007",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Was sind die gemeinsamen Parameter, die in der funktionsähnlichen Notation für jede Variable in der Spalte 'Variable' aufgeführt sind?",
+    "answer": [
+      [
+        "d"
+      ],
+      [
+        "h"
+      ],
+      [
+        "t"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_008",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Ein Handel wird zur Handelszeit t=20 für ein Produkt mit einer Lieferzeit T=25 platziert. Welche Bedingungen der SIDC-Variable erfüllt dieser Handel?",
+    "answer": [
+      [
+        "SIDCO"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_009",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Welche Variable markiert den Übergang von der SIDCO-Periode zur SIDCL-Periode und was ist ihre definierende Handelszeitbedingung?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "T-t=2"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_010",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Kontrastieren Sie den zeitlichen Umfang der SIDCO-Variable mit dem der SIDC1-Variable anhand ihrer Definitionen.",
+    "answer": [
+      [
+        "SIDCO repräsentiert einen kontinuierlichen Zeitraum, in dem die Orderbücher geöffnet sind, definiert durch die Bereiche t≥12 und T-t≥2. Im Gegensatz dazu repräsentiert SIDC1 einen einzigen, diskreten Zeitpunkt, t=12, der den spezifischen Moment der ersten Kopplung am Anfang des SIDCO-Zeitraums markiert."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_011",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Welche SIDC-Variable repräsentiert die Schließung grenzüberschreitender Orderbücher und unter welcher Handelszeitbedingung tritt sie auf?",
+    "answer": [
+      [
+        "Die Variable SIDC꜀(d,h,t) repräsentiert die Schließung grenzüberschreitender Orderbücher und tritt auf, wenn T − t = 2."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

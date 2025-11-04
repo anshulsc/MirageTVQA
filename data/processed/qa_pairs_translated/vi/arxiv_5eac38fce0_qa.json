@@ -1,0 +1,216 @@
+[
+  {
+    "question_id": "arxiv_5eac38fce0_001",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Chiến lược danh mục đầu tư nào mang lại sự cải thiện phần trăm lớn nhất về tỷ lệ Calmar?",
+    "answer": [
+      [
+        "AlphaSharpe"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_002",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Tổng tỷ lệ phần trăm cải thiện của tỷ lệ Sharpe là bao nhiêu nếu bạn cộng các cải thiện của tất cả các chiến lược không phải cơ sở?",
+    "answer": [
+      [
+        "147.91%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_003",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Xác định chiến lược có mức cải thiện tỷ lệ Sharpe cao thứ hai và cho biết mức cải thiện tương ứng của nó về tỷ lệ Calmar.",
+    "answer": [
+      [
+        "+10.44%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "C3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_004",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Liệt kê các chiến lược danh mục đầu tư mà sự cải thiện tỷ lệ Calmar nhỏ hơn 15% VÀ sự cải thiện tỷ lệ Sharpe lớn hơn 35%.",
+    "answer": [
+      [
+        "Risk Parity"
+      ],
+      [
+        "Equal Risk Cont."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_005",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Tỷ lệ cải thiện Calmar trên tổng số chiến lược không phải là cơ sở mà chiến lược 'AlphaSharpe' đóng góp là bao nhiêu phần trăm?",
+    "answer": [
+      [
+        "84.83%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_006",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "Nếu mức cải thiện hiệu suất của chiến lược 'Risk Parity' bị phóng đại lên 10 điểm phần trăm cho cả hai chỉ số, liệu nó có còn vượt trội hơn mức cơ sở 'Equal Weighted' không?",
+    "answer": [
+      [
+        "Có, nó vẫn sẽ vượt trội. Chỉ số ΔSharpe đã điều chỉnh của nó sẽ là +28.32% và chỉ số ΔCalmar đã điều chỉnh của nó sẽ là +0.36%. Vì cả hai giá trị này vẫn lớn hơn 0.00% của mức cơ sở 'Equal Weighted', nên nó sẽ thể hiện sự cải thiện."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_007",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "Dữ liệu có cho thấy mối quan hệ tuyến tính nhất quán giữa sự cải thiện của tỷ lệ Sharpe và Calmar trên tất cả các chiến lược không phải cơ sở không? Giải thích lý do của bạn.",
+    "answer": [
+      [
+        "Không, dữ liệu không cho thấy một mối quan hệ tuyến tính nhất quán. Mặc dù 'Risk Parity' và 'Equal Risk Cont.' cho thấy một hồ sơ tương tự, nơi ΔSharpe lớn tương ứng với ΔCalmar khiêm tốn, chiến lược 'AlphaSharpe' lại phá vỡ khuôn mẫu này. Nó thể hiện một ΔCalmar khổng lồ vượt xa ΔSharpe của nó, cho thấy mối quan hệ giữa hai chỉ số này là phi tuyến tính và phụ thuộc nhiều vào chiến lược."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_008",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Có bao nhiêu chiến lược trong bảng có sự cải thiện tỷ lệ Calmar cao hơn tỷ lệ Sharpe của chúng?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_009",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "Chiến lược danh mục đầu tư nào là ngoại lệ về sự cân bằng giữa cải thiện tỷ lệ Sharpe và Calmar của nó so với các chiến lược không cơ bản khác, và tại sao?",
+    "answer": [
+      [
+        "Chiến lược 'AlphaSharpe' là một ngoại lệ. Đối với 'Risk Parity' và 'Equal Risk Cont.', mức cải thiện tỷ lệ Sharpe lớn hơn khoảng 3,7 lần so với mức cải thiện tỷ lệ Calmar. Ngược lại, 'AlphaSharpe' đảo ngược xu hướng này, với mức cải thiện Calmar (+116,31%) lớn hơn đáng kể so với mức cải thiện Sharpe (+71,04%), cho thấy sự cải thiện hồ sơ rủi ro-lợi nhuận về cơ bản là khác nhau."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "A4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_010",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "So sánh hai chiến lược 'Risk Parity' và 'Equal Risk Cont.'. Chiến lược nào mang lại hồ sơ hiệu suất tốt hơn dựa trên các chỉ số được cung cấp và tốt hơn bao nhiêu cho mỗi chỉ số?",
+    "answer": [
+      [
+        "'Equal Risk Cont.' mang lại hồ sơ hiệu suất tốt hơn một chút. Nó vượt trội hơn 'Risk Parity' với mức cải thiện tỷ lệ Sharpe cao hơn 0,23 điểm phần trăm (+38,55% so với +38,32%) và mức cải thiện tỷ lệ Calmar cao hơn 0,08 điểm phần trăm (+10,44% so với +10,36%)."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_011",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Giá trị ΔSharpe (%) của chiến lược danh mục đầu tư 'Equal Risk Cont.' trong bảng là bao nhiêu?",
+    "answer": [
+      [
+        "+38.55%"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]
