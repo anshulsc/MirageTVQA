@@ -1,0 +1,254 @@
+[
+  {
+    "question_id": "arxiv_e9fe1a9aed_001",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "BC2 senaryoları (hem BC2_64 hem de BC2_28) için en düşük hata oranını hangi tahmin yöntemi elde etti?",
+    "answer": [
+      [
+        "Forward Feature Selection SARIMAX"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D9",
+      "E2",
+      "E3",
+      "E5",
+      "E7",
+      "E9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_002",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "'LASSO regresyon özellik seçimi' yöntemi için altı BC senaryosunun tamamındaki ortalama hata oranı nedir?",
+    "answer": [
+      [
+        "12.96"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_003",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Herhangi bir senaryo için en yüksek sayıda dışsal değişkeni kullanan özellik seçimi yöntemini belirleyin. Ardından, o belirli yöntem için BC3_64 senaryosundaki hata oranını bildirin.",
+    "answer": [
+      [
+        "6.35"
+      ]
+    ],
+    "evidence_cells": [
+      "F8",
+      "F7",
+      "A7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_004",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Tüm tahmin ayarları arasındaki en yüksek ve en düşük hata oranları arasındaki fark olarak tanımlanan performans farkı, hangi BC senaryosu için en büyüktür?",
+    "answer": [
+      [
+        "BC3_28"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "B2",
+      "B3",
+      "B5",
+      "B7",
+      "B9",
+      "C2",
+      "C3",
+      "C5",
+      "C7",
+      "C9",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D9",
+      "E2",
+      "E3",
+      "E5",
+      "E7",
+      "E9",
+      "F2",
+      "F3",
+      "F5",
+      "F7",
+      "F9",
+      "G2",
+      "G3",
+      "G5",
+      "G7",
+      "G9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_005",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "BC1_28 senaryosu için 5'ten fazla dışsal değişken kullanan ve hata oranı 16.0'ın altında olan tüm tahmin ayarlarını listeleyin.",
+    "answer": [
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Forward Feature Selection SARIMAX"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "C6",
+      "A7",
+      "C7",
+      "C8",
+      "A9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_006",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "BC2_28 senaryosunda, 'Forward Feature Selection SARIMAX' yönteminden kaynaklanan hata, temel 'Without exogenous variables' yönteminin hatasından yüzde kaç daha düşüktür?",
+    "answer": [
+      [
+        "84.38%"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_007",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "BC1_28 altındaki 'Korelasyon Tabanlı Seçim' için hata %75 oranında azaltılsaydı, tüm beş tahmin ayarında BC1_28 senaryosu için yeni ortalama hata ne olurdu?",
+    "answer": [
+      [
+        "12.18"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C5",
+      "C7",
+      "C9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_008",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "open_ended_reasoning",
+    "question": "Farklı özellik seçimi yöntemlerinde daha yüksek sayıda dışsal değişken kullanılması ile daha düşük bir hata oranına ulaşılması arasında tutarlı bir ilişki var mıdır?",
+    "answer": [
+      [
+        "Hayır, tutarlı bir ilişki yoktur. Örneğin, BC1_64 senaryosunda, 'Forward Feature Selection SARIMAX' yalnızca 1 değişken kullanır ve en düşük hatayı (5.64) elde ederken, 'Manual feature selection' 18 değişken kullanır ve çok daha yüksek bir hataya (13.99) sahiptir. Tersine, BC1_28 senaryosunda, 'Forward Feature Selection SARIMAX' için hata (15 değişkenle 5.94), 'LASSO'nun (10 değişkenle 15.38) hatasından daha düşüktür; bu da bazı durumlarda daha fazla değişkenin daha iyi olabileceğini düşündürmektedir. Bu durum, seçim yönteminin etkinliğinin, değişkenlerin salt miktarından daha kritik olduğunu göstermektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_009",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Korelasyon Tabanlı Seçim' yöntemi için hangi hata değeri, diğer senaryolardaki performansına kıyasla önemli bir aykırı değerdir?",
+    "answer": [
+      [
+        "26.47"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_010",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Bu tabloda, eksojen değişkenleri kullanan kaç farklı özellik seçimi metodolojisi karşılaştırılmaktadır?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "A5",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_011",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "BC2_28 için en düşük hatayı hangi tahmin yöntemi elde etti?",
+    "answer": [
+      [
+        "Forward Feature Selection SARIMAX"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "E7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

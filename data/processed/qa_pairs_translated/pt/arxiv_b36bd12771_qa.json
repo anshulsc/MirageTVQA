@@ -1,0 +1,170 @@
+[
+  {
+    "question_id": "arxiv_b36bd12771_001",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Qual coeficiente beta (β) mostra a evidência estatística mais forte de seu efeito, indicada pelo maior valor absoluto de t?",
+    "answer": [
+      [
+        "β₄"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "D8",
+      "D2",
+      "D4",
+      "D6",
+      "D10",
+      "D12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_002",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Qual é o erro padrão médio para todos os coeficientes alfa (α) que são estatisticamente significativos no nível de p < 0,05?",
+    "answer": [
+      [
+        "0.036"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "E3",
+      "A11",
+      "C11",
+      "E11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_003",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Para o componente do modelo (indexado pelo número do subscrito) cujo coeficiente β tem o intervalo de confiança de 95% mais amplo, qual é o valor p do coeficiente α correspondente?",
+    "answer": [
+      [
+        "0.005"
+      ]
+    ],
+    "evidence_cells": [
+      "F2",
+      "G2",
+      "F4",
+      "G4",
+      "F6",
+      "G6",
+      "F8",
+      "G8",
+      "F10",
+      "G10",
+      "F12",
+      "G12",
+      "A3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_004",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Descreva a tendência das magnitudes dos coeficientes β à medida que o subscrito aumenta de 1 para 6. Existe um padrão consistente?",
+    "answer": [
+      [
+        "Não há uma tendência monótona consistente. Os coeficientes β aumentam inicialmente de β₁ (0,7208) para β₂ (0,8237), mas depois caem drasticamente para β₃ (0,0025) e modelos subsequentes. Os valores para os dois primeiros componentes são ordens de magnitude maiores do que os dos componentes 3 a 6, que estão todos muito próximos de zero."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A6",
+      "B6",
+      "A8",
+      "B8",
+      "A10",
+      "B10",
+      "A12",
+      "B12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_005",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Identifique todos os modelos ajustados onde o coeficiente alfa (α) é estatisticamente insignificante (valor P > 0,4) E tem um erro padrão inferior a 0,03.",
+    "answer": [
+      [
+        "α₁"
+      ],
+      [
+        "α₃"
+      ],
+      [
+        "α₅"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "E1",
+      "A5",
+      "C5",
+      "E5",
+      "A9",
+      "C9",
+      "E9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_006",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Qual a porcentagem de todos os coeficientes do modelo ajustado (tanto α quanto β) que são estatisticamente significativos, definidos como tendo um valor p menor que 0.05?",
+    "answer": [
+      [
+        "66.67%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_007",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Se o erro padrão para o modelo α₁ fosse reduzido pela metade, qual seria sua nova estatística t? Com base na relação entre as estatísticas t e os valores p para outros modelos na tabela, é provável que essa mudança torne o coeficiente α₁ estatisticamente significativo (p < 0,05)?",
+    "answer": [
+      [
+        "A nova estatística t seria -1,593 (-0,0215 / (0,027 / 2)). É improvável que isso torne o coeficiente estatisticamente significativo. Para comparação, o modelo α₂ tem uma estatística t de -2,803 e um valor p de 0,005. Uma estatística t com um valor absoluto menor, como -1,593, teria um valor p maior, provavelmente permanecendo acima do limite de 0,05 para significância, que normalmente requer um valor t absoluto de cerca de 2 ou mais."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  }
+]

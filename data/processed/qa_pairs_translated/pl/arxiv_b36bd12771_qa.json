@@ -1,0 +1,254 @@
+[
+  {
+    "question_id": "arxiv_b36bd12771_001",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Który współczynnik beta (β) wykazuje najsilniejszy dowód statystyczny swojego wpływu, wskazany przez najwyższą bezwzględną wartość t?",
+    "answer": [
+      [
+        "β₄"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "D8",
+      "D2",
+      "D4",
+      "D6",
+      "D10",
+      "D12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_002",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Jaki jest średni błąd standardowy dla wszystkich współczynników alfa (α), które są statystycznie istotne na poziomie p < 0,05?",
+    "answer": [
+      [
+        "0.036"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "E3",
+      "A11",
+      "C11",
+      "E11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_003",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Dla składnika modelu (indeksowanego numerem w indeksie dolnym), którego współczynnik β ma najszerszy przedział ufności 95%, jakie jest p-wartość odpowiadającego mu współczynnika α?",
+    "answer": [
+      [
+        "0.005"
+      ]
+    ],
+    "evidence_cells": [
+      "F2",
+      "G2",
+      "F4",
+      "G4",
+      "F6",
+      "G6",
+      "F8",
+      "G8",
+      "F10",
+      "G10",
+      "F12",
+      "G12",
+      "A3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_004",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Opisz trend wielkości współczynników β wraz ze wzrostem indeksu od 1 do 6. Czy istnieje spójny wzorzec?",
+    "answer": [
+      [
+        "Nie ma spójnego monotonicznego trendu. Współczynniki β początkowo rosną od β₁ (0,7208) do β₂ (0,8237), ale następnie gwałtownie spadają dla β₃ (0,0025) i kolejnych modeli. Wartości dla pierwszych dwóch komponentów są o rzędy wielkości większe niż dla komponentów od 3 do 6, które są bardzo bliskie zeru."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A6",
+      "B6",
+      "A8",
+      "B8",
+      "A10",
+      "B10",
+      "A12",
+      "B12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_005",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Zidentyfikuj wszystkie dopasowane modele, w których współczynnik alfa (α) jest zarówno statystycznie nieistotny (wartość P > 0,4), JAK I ma błąd standardowy mniejszy niż 0,03.",
+    "answer": [
+      [
+        "α₁"
+      ],
+      [
+        "α₃"
+      ],
+      [
+        "α₅"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "E1",
+      "A5",
+      "C5",
+      "E5",
+      "A9",
+      "C9",
+      "E9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_006",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Jaki procent wszystkich dopasowanych współczynników modelu (zarówno α, jak i β) jest statystycznie istotny, zdefiniowany jako posiadający wartość p mniejszą niż 0,05?",
+    "answer": [
+      [
+        "66.67%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_007",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Gdyby błąd standardowy dla modelu α₁ został zmniejszony o połowę, jaka byłaby jego nowa statystyka t? Na podstawie zależności między statystykami t a wartościami p dla innych modeli w tabeli, czy jest prawdopodobne, że ta zmiana uczyniłaby współczynnik α₁ statystycznie istotnym (p < 0,05)?",
+    "answer": [
+      [
+        "Nowa statystyka t wyniosłaby -1,593 (-0,0215 / (0,027 / 2)). Jest mało prawdopodobne, aby uczyniło to współczynnik statystycznie istotnym. Dla porównania, model α₂ ma statystykę t wynoszącą -2,803 i wartość p wynoszącą 0,005. Statystyka t o mniejszej wartości bezwzględnej, takiej jak -1,593, miałaby wyższą wartość p, prawdopodobnie pozostając powyżej progu istotności 0,05, który zazwyczaj wymaga wartości t o wartości bezwzględnej równej około 2 lub więcej."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_008",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Przeanalizuj związek między wielkością współczynników β a ich odpowiadającymi statystykami t. Czy większy współczynnik konsekwentnie prowadzi do większej statystyki t?",
+    "answer": [
+      [
+        "Nie, większy współczynnik β nie prowadzi konsekwentnie do większej statystyki t. Na przykład, β₂ ma największy współczynnik (0,8237), ale jego statystyka t (8,418) jest znacznie mniejsza niż statystyka β₄ (126,061), który ma bardzo mały współczynnik (0,0041). Statystyka t jest stosunkiem współczynnika do jego błędu standardowego, więc bardzo mały błąd standardowy może skutkować bardzo dużą statystyką t nawet dla małego współczynnika, jak widać w przypadku modeli β₃ do β₆."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2",
+      "B4",
+      "D4",
+      "B6",
+      "D6",
+      "B8",
+      "D8",
+      "B10",
+      "D10",
+      "B12",
+      "D12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_009",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Zgodnie z zasadami statystyki, 95% przedział ufności, który nie zawiera zera, powinien odpowiadać wartości p mniejszej niż 0,05. Czy w tabeli znajdują się jakieś współczynniki dopasowanego modelu, dla których przedział ufności i wartość p są niespójne z tą zasadą?",
+    "answer": [
+      [
+        "Nie, wszystkie współczynniki w tabeli wykazują spójność między wartością p a 95% przedziałem ufności. Wszystkie współczynniki z wartością p mniejszą niż 0,05 (np. β₁, α₂, β₂) mają przedział ufności, który nie obejmuje zera. I odwrotnie, wszystkie współczynniki z wartością p większą niż 0,05 (np. α₁, α₃, α₄) mają przedział ufności, który zawiera zero."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "G1",
+      "E2",
+      "F2",
+      "G2",
+      "E3",
+      "F3",
+      "G3",
+      "E4",
+      "F4",
+      "G4",
+      "E5",
+      "F5",
+      "G5",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_010",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Który współczynnik alfa (α) ma najbardziej znaczący statystykę t-testu jako wartość odstającą w porównaniu do statystyk t-testu innych współczynników alfa?",
+    "answer": [
+      [
+        "α₆, ze statystyką t-testu wynoszącą 7.305, jest najbardziej znaczącą wartością odstającą. Pozostałe statystyki t-testu dla alfa wynoszą -0.787, -2.803, -0.269, 0.013 i 0.729. Większość tych wartości mieści się w przedziale od -3 do 1. Wartość 7.305 ma znacznie większą wartość bezwzględną i jest jedyną dużą wartością dodatnią, co sprawia, że wyraźnie wyróżnia się na tle pozostałych."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A3",
+      "D3",
+      "A5",
+      "D5",
+      "A7",
+      "D7",
+      "A9",
+      "D9",
+      "A11",
+      "D11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

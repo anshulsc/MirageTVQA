@@ -1,0 +1,254 @@
+[
+  {
+    "question_id": "arxiv_e9fe1a9aed_001",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Qual método de previsão alcançou a menor taxa de erro para os cenários BC2 (tanto BC2_64 quanto BC2_28)?",
+    "answer": [
+      [
+        "Forward Feature Selection SARIMAX"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D9",
+      "E2",
+      "E3",
+      "E5",
+      "E7",
+      "E9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_002",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Qual é a taxa de erro média para o método 'LASSO regression feature selection' em todos os seis cenários BC?",
+    "answer": [
+      [
+        "12.96"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_003",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Identifique o método de seleção de recursos que utilizou o maior número de variáveis exógenas em qualquer cenário. Em seguida, para esse método específico, informe sua taxa de erro no cenário BC3_64.",
+    "answer": [
+      [
+        "6.35"
+      ]
+    ],
+    "evidence_cells": [
+      "F8",
+      "F7",
+      "A7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_004",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Para qual cenário BC a lacuna de desempenho, definida como a diferença entre as maiores e menores taxas de erro entre todas as configurações de previsão, é a maior?",
+    "answer": [
+      [
+        "BC3_28"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "B2",
+      "B3",
+      "B5",
+      "B7",
+      "B9",
+      "C2",
+      "C3",
+      "C5",
+      "C7",
+      "C9",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D9",
+      "E2",
+      "E3",
+      "E5",
+      "E7",
+      "E9",
+      "F2",
+      "F3",
+      "F5",
+      "F7",
+      "F9",
+      "G2",
+      "G3",
+      "G5",
+      "G7",
+      "G9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_005",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Liste todas as configurações de previsão para o cenário BC1_28 que usaram mais de 5 variáveis exógenas e alcançaram uma taxa de erro abaixo de 16.0.",
+    "answer": [
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Forward Feature Selection SARIMAX"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "C6",
+      "A7",
+      "C7",
+      "C8",
+      "A9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_006",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "No cenário BC2_28, em que percentagem o erro do método 'Forward Feature Selection SARIMAX' é menor do que o erro do método base 'Without exogenous variables'?",
+    "answer": [
+      [
+        "84.38%"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_007",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Se o erro para 'Correlation-Based Selection' sob BC1_28 fosse reduzido em 75%, qual seria o novo erro médio para o cenário BC1_28 em todas as cinco configurações de previsão?",
+    "answer": [
+      [
+        "12.18"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C5",
+      "C7",
+      "C9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_008",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "open_ended_reasoning",
+    "question": "Existe uma relação consistente entre o uso de um maior número de variáveis exógenas e a obtenção de uma taxa de erro menor nos diferentes métodos de seleção de características?",
+    "answer": [
+      [
+        "Não, não há uma relação consistente. Por exemplo, no cenário BC1_64, 'Forward Feature Selection SARIMAX' usa apenas 1 variável e atinge o menor erro (5.64), enquanto 'Manual feature selection' usa 18 variáveis e tem um erro muito maior (13.99). Por outro lado, no cenário BC1_28, o erro para 'Forward Feature Selection SARIMAX' (5.94 com 15 variáveis) é menor do que o do 'LASSO' (15.38 com 10 variáveis), sugerindo que mais variáveis podem ser melhores em alguns casos. Isso indica que a eficácia do método de seleção é mais crítica do que a simples quantidade de variáveis."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_009",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Qual valor de erro para o método 'Correlation-Based Selection' é um valor atípico significativo em comparação com seu desempenho em outros cenários?",
+    "answer": [
+      [
+        "26.47"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_010",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Quantas metodologias distintas de seleção de características que utilizam variáveis exógenas estão sendo comparadas nesta tabela?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "A5",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_011",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Qual método de previsão obteve o menor erro para BC2_28?",
+    "answer": [
+      [
+        "Forward Feature Selection SARIMAX"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "E7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

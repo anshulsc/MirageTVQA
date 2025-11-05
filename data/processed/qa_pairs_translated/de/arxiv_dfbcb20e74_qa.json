@@ -1,0 +1,118 @@
+[
+  {
+    "question_id": "arxiv_dfbcb20e74_001",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Welche Hauptformel eines Modells beinhaltet explizit eine risikofreie Zinskomponente?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_002",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Wie hoch ist die Gesamtzahl der unterschiedlichen 'X'-Variablen, die als Eingaben in der Formel des Z-Score-Modells verwendet werden?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_003",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Identifizieren Sie das Modell, das 'Gesamtvermögen' als Nenner in mindestens drei seiner erklärten Parameter verwendet, und geben Sie dann an, welcher Parameter aus diesem Modell das Verhältnis des 'Marktwerts des Eigenkapitals' zum 'Gesamtkapital' darstellt.",
+    "answer": [
+      [
+        "Z-score Model"
+      ],
+      [
+        "X4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_004",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Welches Modell beinhaltet Parameter, die explizit als 'zu Zeitpunkt t' gemessen definiert sind?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_005",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Wenn das analytische Ziel darin besteht, die Wahrscheinlichkeit eines binären Ergebnisses (y=1) zu bestimmen, welches Modell aus der Tabelle ist die am besten geeignete Wahl?",
+    "answer": [
+      [
+        "Logistic Regression"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_006",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Was ist im Z-Score-Modell das Gewicht (der Koeffizient) der Variable, die das Verhältnis von 'Gewinn vor Zinsen und Steuern/Gesamtvermögen' darstellt, und wie verhält sich dieses Gewicht im Vergleich zu den anderen Variablen?",
+    "answer": [
+      [
+        "Der Koeffizient für X3 (Gewinn vor Zinsen und Steuern/Gesamtvermögen) beträgt 3,3. Dies ist das höchste Gewicht aller fünf Variablen und deutet darauf hin, dass sie die größte Auswirkung auf den endgültigen Z-Score hat im Vergleich zu Variablen wie X1 (1,2), X2 (1,4), X4 (0,6) und X5 (0,99)."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_007",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Wenn eine aktualisierte Version des Z-Score-Modells den Einfluss des 'Verhältnis von Betriebskapital zu Gesamtvermögen' um 50 % reduziert hätte, was wäre der neue Koeffizient für X1?",
+    "answer": [
+      [
+        "0.6"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  }
+]

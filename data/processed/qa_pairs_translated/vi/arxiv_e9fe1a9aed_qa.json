@@ -1,0 +1,254 @@
+[
+  {
+    "question_id": "arxiv_e9fe1a9aed_001",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Phương pháp dự báo nào đạt tỷ lệ lỗi thấp nhất cho các kịch bản BC2 (cả BC2_64 và BC2_28)?",
+    "answer": [
+      [
+        "Forward Feature Selection SARIMAX"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D9",
+      "E2",
+      "E3",
+      "E5",
+      "E7",
+      "E9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_002",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Tỷ lệ lỗi trung bình của phương pháp 'LASSO regression feature selection' trên cả sáu kịch bản BC là bao nhiêu?",
+    "answer": [
+      [
+        "12.96"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_003",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Xác định phương pháp chọn lọc đặc trưng đã sử dụng số lượng biến ngoại sinh cao nhất cho bất kỳ kịch bản đơn lẻ nào. Sau đó, đối với phương pháp cụ thể đó, hãy báo cáo tỷ lệ lỗi của nó trong kịch bản BC3_64.",
+    "answer": [
+      [
+        "6.35"
+      ]
+    ],
+    "evidence_cells": [
+      "F8",
+      "F7",
+      "A7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_004",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Đối với kịch bản BC nào, khoảng cách hiệu suất, được định nghĩa là sự khác biệt giữa tỷ lệ lỗi cao nhất và thấp nhất trong số tất cả các cài đặt dự báo, là lớn nhất?",
+    "answer": [
+      [
+        "BC3_28"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "B2",
+      "B3",
+      "B5",
+      "B7",
+      "B9",
+      "C2",
+      "C3",
+      "C5",
+      "C7",
+      "C9",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D9",
+      "E2",
+      "E3",
+      "E5",
+      "E7",
+      "E9",
+      "F2",
+      "F3",
+      "F5",
+      "F7",
+      "F9",
+      "G2",
+      "G3",
+      "G5",
+      "G7",
+      "G9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_005",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Liệt kê tất cả các cài đặt dự báo cho kịch bản BC1_28 đã sử dụng hơn 5 biến ngoại sinh và đạt tỷ lệ lỗi dưới 16.0.",
+    "answer": [
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Forward Feature Selection SARIMAX"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "C6",
+      "A7",
+      "C7",
+      "C8",
+      "A9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_006",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Trong kịch bản BC2_28, tỷ lệ phần trăm lỗi từ phương pháp 'Forward Feature Selection SARIMAX' thấp hơn so với lỗi từ phương pháp cơ sở 'Without exogenous variables' là bao nhiêu?",
+    "answer": [
+      [
+        "84.38%"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_007",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Nếu lỗi cho 'Correlation-Based Selection' dưới BC1_28 được giảm 75%, thì lỗi trung bình mới cho kịch bản BC1_28 trên tất cả năm thiết lập dự báo sẽ là bao nhiêu?",
+    "answer": [
+      [
+        "12.18"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C5",
+      "C7",
+      "C9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_008",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "open_ended_reasoning",
+    "question": "Có mối quan hệ nhất quán nào giữa việc sử dụng số lượng biến ngoại sinh cao hơn và đạt được tỷ lệ lỗi thấp hơn trên các phương pháp chọn đặc trưng khác nhau không?",
+    "answer": [
+      [
+        "Không, không có mối quan hệ nhất quán nào. Ví dụ, trong kịch bản BC1_64, 'Forward Feature Selection SARIMAX' chỉ sử dụng 1 biến và đạt được lỗi thấp nhất (5.64), trong khi 'Manual feature selection' sử dụng 18 biến và có lỗi cao hơn nhiều (13.99). Ngược lại, trong kịch bản BC1_28, lỗi của 'Forward Feature Selection SARIMAX' (5.94 với 15 biến) thấp hơn so với 'LASSO' (15.38 với 10 biến), cho thấy rằng nhiều biến hơn có thể tốt hơn trong một số trường hợp. Điều này chỉ ra rằng hiệu quả của phương pháp lựa chọn quan trọng hơn số lượng biến đơn thuần."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_009",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Giá trị lỗi nào của phương pháp 'Correlation-Based Selection' là một giá trị ngoại lệ đáng kể so với hiệu suất của nó trong các kịch bản khác?",
+    "answer": [
+      [
+        "26.47"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_010",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Có bao nhiêu phương pháp lựa chọn đặc trưng riêng biệt sử dụng các biến ngoại sinh đang được so sánh trong bảng này?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "A5",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_011",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Phương pháp dự báo nào đạt được sai số thấp nhất cho BC2_28?",
+    "answer": [
+      [
+        "Forward Feature Selection SARIMAX"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "E7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

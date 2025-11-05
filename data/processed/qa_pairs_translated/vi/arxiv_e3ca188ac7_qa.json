@@ -1,0 +1,293 @@
+[
+  {
+    "question_id": "arxiv_e3ca188ac7_001",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Chỉ số nào đạt điểm NDCG cao nhất?",
+    "answer": [
+      [
+        "αS⁢2subscript𝛼𝑆2\\alpha_{S2}italic_α start_POSTSUBSCRIPT italic_S 2 end_POSTSUBSCRIPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_002",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Tính điểm Kendall trung bình cho tất cả các chỉ số bắt đầu bằng 'αS'.",
+    "answer": [
+      [
+        "0.27075"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_003",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Điểm Spearman của chỉ số có điểm Kendall thấp nhất là bao nhiêu?",
+    "answer": [
+      [
+        "0.127"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_004",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "open_ended_reasoning",
+    "question": "Phân tích xu hướng của điểm Spearman đối với các chỉ số từ αS1 đến αS4. Xu hướng đó có tăng đều, giảm đều hay dao động?",
+    "answer": [
+      [
+        "Xu hướng của điểm Spearman từ αS1 đến αS4 là tăng đều. Các giá trị lần lượt tăng từ 0.39 cho αS1, lên 0.394 cho αS2, lên 0.4 cho αS3, và cuối cùng là 0.409 cho αS4, với mỗi chỉ số kế tiếp đều cho thấy điểm số cao hơn chỉ số trước đó."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_005",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Liệt kê tất cả các chỉ số trong đó điểm NDCG lớn hơn 0.55 và điểm Kendall lớn hơn 0.25.",
+    "answer": [
+      [
+        "αS⁢1subscript𝛼𝑆1\\alpha_{S1}italic_α start_POSTSUBSCRIPT italic_S 1 end_POSTSUBSCRIPT"
+      ],
+      [
+        "αS⁢2subscript𝛼𝑆2\\alpha_{S2}italic_α start_POSTSUBSCRIPT italic_S 2 end_POSTSUBSCRIPT"
+      ],
+      [
+        "αS⁢3subscript𝛼𝑆3\\alpha_{S3}italic_α start_POSTSUBSCRIPT italic_S 3 end_POSTSUBSCRIPT"
+      ],
+      [
+        "αS⁢4subscript𝛼𝑆4\\alpha_{S4}italic_α start_POSTSUBSCRIPT italic_S 4 end_POSTSUBSCRIPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_006",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Loạt chỉ số 'αS' kết hợp đóng góp bao nhiêu phần trăm vào tổng tất cả các điểm Spearman? Nêu câu trả lời của bạn dưới dạng phần trăm được làm tròn đến hai chữ số thập phân.",
+    "answer": [
+      [
+        "92.46%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_007",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Nếu điểm NDCG cho chỉ số 'PSR' được giả định điều chỉnh để khớp với điểm NDCG của 'Sharpe Ratio', thì điểm NDCG trung bình mới cho tất cả các chỉ số trong bảng sẽ là bao nhiêu?",
+    "answer": [
+      [
+        "0.533"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_008",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "open_ended_reasoning",
+    "question": "Quan sát mối quan hệ giữa các cột 'Kendall' và 'NDCG', có thể suy ra loại tương quan nào giữa hai thước đo này? Hãy giải thích câu trả lời của bạn dựa trên dữ liệu.",
+    "answer": [
+      [
+        "Có thể suy ra mối tương quan dương mạnh mẽ giữa điểm Kendall và NDCG. Các chỉ số có điểm Kendall thấp nhất (Chỉ số Sharpe ở mức 0.087 và PSR ở mức 0.085) cũng có điểm NDCG thấp nhất (0.393 và 0.388). Ngược lại, bốn chỉ số 'αS', có điểm Kendall cao hơn đáng kể (dao động từ 0.265 đến 0.278), cũng có điểm NDCG cao nhất (dao động từ 0.589 đến 0.636). Mô hình này cho thấy rằng khi điểm Kendall tăng lên, điểm NDCG cũng có xu hướng tăng theo."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_009",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Trong ba cột số (Spearman, Kendall, NDCG), cột nào có khoảng biến thiên lớn nhất giữa giá trị tối đa và tối thiểu của nó?",
+    "answer": [
+      [
+        "Spearman"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_010",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Các chỉ số 'Sharpe Ratio' và 'PSR' tạo thành một nhóm có điểm thấp so với các chỉ số 'αS'. Đối với thước đo nào (Spearman, Kendall, hoặc NDCG) thì chênh lệch tuyệt đối giữa điểm trung bình của nhóm thấp và điểm trung bình của nhóm cao là lớn nhất?",
+    "answer": [
+      [
+        "Spearman"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "A6",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_011",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Chỉ số nào cho thấy tương quan Kendall thấp nhất?",
+    "answer": [
+      [
+        "PSR"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

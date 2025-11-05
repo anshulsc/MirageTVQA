@@ -1,0 +1,254 @@
+[
+  {
+    "question_id": "arxiv_e9fe1a9aed_001",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Ποια μέθοδος πρόβλεψης πέτυχε το χαμηλότερο ποσοστό σφάλματος για τα σενάρια BC2 (τόσο το BC2_64 όσο και το BC2_28);",
+    "answer": [
+      [
+        "Forward Feature Selection SARIMAX"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D9",
+      "E2",
+      "E3",
+      "E5",
+      "E7",
+      "E9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_002",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Ποιο είναι το μέσο ποσοστό σφάλματος για τη μέθοδο 'LASSO regression feature selection' σε όλα τα έξι σενάρια BC;",
+    "answer": [
+      [
+        "12.96"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_003",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Προσδιορίστε τη μέθοδο επιλογής χαρακτηριστικών που χρησιμοποίησε τον υψηλότερο αριθμό εξωγενών μεταβλητών για οποιοδήποτε μεμονωμένο σενάριο. Στη συνέχεια, για αυτήν τη συγκεκριμένη μέθοδο, αναφέρετε το ποσοστό σφάλματός της στο σενάριο BC3_64.",
+    "answer": [
+      [
+        "6.35"
+      ]
+    ],
+    "evidence_cells": [
+      "F8",
+      "F7",
+      "A7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_004",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Για ποιο σενάριο BC είναι το κενό απόδοσης, που ορίζεται ως η διαφορά μεταξύ των υψηλότερων και χαμηλότερων ποσοστών σφάλματος μεταξύ όλων των ρυθμίσεων πρόβλεψης, το μεγαλύτερο;",
+    "answer": [
+      [
+        "BC3_28"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "B2",
+      "B3",
+      "B5",
+      "B7",
+      "B9",
+      "C2",
+      "C3",
+      "C5",
+      "C7",
+      "C9",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D9",
+      "E2",
+      "E3",
+      "E5",
+      "E7",
+      "E9",
+      "F2",
+      "F3",
+      "F5",
+      "F7",
+      "F9",
+      "G2",
+      "G3",
+      "G5",
+      "G7",
+      "G9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_005",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Αναφέρετε όλες τις ρυθμίσεις πρόβλεψης για το σενάριο BC1_28 που χρησιμοποίησαν περισσότερες από 5 εξωγενείς μεταβλητές και πέτυχαν ποσοστό σφάλματος κάτω από 16.0.",
+    "answer": [
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Forward Feature Selection SARIMAX"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "C6",
+      "A7",
+      "C7",
+      "C8",
+      "A9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_006",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Στο σενάριο BC2_28, κατά πόσο ποσοστό είναι το σφάλμα από τη μέθοδο 'Forward Feature Selection SARIMAX' χαμηλότερο από το σφάλμα από τη μέθοδο βάσης 'Without exogenous variables';",
+    "answer": [
+      [
+        "84.38%"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_007",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Εάν το σφάλμα για την 'Επιλογή βάσει συσχέτισης' στη ρύθμιση BC1_28 μειωνόταν κατά 75%, ποιο θα ήταν το νέο μέσο σφάλμα για το σενάριο BC1_28 σε όλες τις πέντε ρυθμίσεις πρόβλεψης;",
+    "answer": [
+      [
+        "12.18"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C5",
+      "C7",
+      "C9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_008",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "open_ended_reasoning",
+    "question": "Υπάρχει μια συνεπής σχέση μεταξύ της χρήσης μεγαλύτερου αριθμού εξωγενών μεταβλητών και της επίτευξης χαμηλότερου ποσοστού σφάλματος στις διάφορες μεθόδους επιλογής χαρακτηριστικών;",
+    "answer": [
+      [
+        "Όχι, δεν υπάρχει συνεπής σχέση. Για παράδειγμα, στο σενάριο BC1_64, το 'Forward Feature Selection SARIMAX' χρησιμοποιεί μόνο 1 μεταβλητή και επιτυγχάνει το χαμηλότερο σφάλμα (5.64), ενώ το 'Manual feature selection' χρησιμοποιεί 18 μεταβλητές και έχει πολύ υψηλότερο σφάλμα (13.99). Αντίθετα, στο σενάριο BC1_28, το σφάλμα για το 'Forward Feature Selection SARIMAX' (5.94 με 15 μεταβλητές) είναι χαμηλότερο από αυτό του 'LASSO' (15.38 με 10 μεταβλητές), υποδηλώνοντας ότι περισσότερες μεταβλητές μπορεί να είναι καλύτερες σε ορισμένες περιπτώσεις. Αυτό δείχνει ότι η αποτελεσματικότητα της μεθόδου επιλογής είναι πιο κρίσιμη από την απλή ποσότητα των μεταβλητών."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_009",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Ποια τιμή σφάλματος για τη μέθοδο 'Correlation-Based Selection' αποτελεί μια σημαντική ακραία τιμή σε σύγκριση με την απόδοσή της σε άλλα σενάρια;",
+    "answer": [
+      [
+        "26.47"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_010",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Πόσες διαφορετικές μεθοδολογίες επιλογής χαρακτηριστικών που χρησιμοποιούν εξωγενείς μεταβλητές συγκρίνονται σε αυτόν τον πίνακα;",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "A5",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_011",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Ποια μέθοδος πρόβλεψης πέτυχε το χαμηλότερο σφάλμα για το BC2_28;",
+    "answer": [
+      [
+        "Forward Feature Selection SARIMAX"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "E7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,293 @@
+[
+  {
+    "question_id": "arxiv_e3ca188ac7_001",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Welche Metrik erreichte den höchsten NDCG-Wert?",
+    "answer": [
+      [
+        "αS⁢2subscript𝛼𝑆2\\alpha_{S2}italic_α start_POSTSUBSCRIPT italic_S 2 end_POSTSUBSCRIPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_002",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Berechnen Sie den durchschnittlichen Kendall-Score für alle Metriken, die mit 'αS' beginnen.",
+    "answer": [
+      [
+        "0.27075"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_003",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Was ist der Spearman-Wert für die Metrik mit dem niedrigsten Kendall-Wert?",
+    "answer": [
+      [
+        "0.127"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_004",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "open_ended_reasoning",
+    "question": "Analysieren Sie den Trend des Spearman-Scores für die Metriken von αS1 bis αS4. Ist der Trend durchgehend steigend, fallend oder schwankend?",
+    "answer": [
+      [
+        "Der Trend für den Spearman-Score von αS1 bis αS4 ist durchgehend steigend. Die Werte entwickeln sich von 0,39 für αS1, über 0,394 für αS2, zu 0,4 für αS3 und schließlich zu 0,409 für αS4, wobei jede nachfolgende Metrik einen höheren Score aufweist als die vorherige."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_005",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Nennen Sie alle Metriken, bei denen der NDCG-Wert größer als 0,55 und der Kendall-Wert größer als 0,25 ist.",
+    "answer": [
+      [
+        "αS⁢1subscript𝛼𝑆1\\alpha_{S1}italic_α start_POSTSUBSCRIPT italic_S 1 end_POSTSUBSCRIPT"
+      ],
+      [
+        "αS⁢2subscript𝛼𝑆2\\alpha_{S2}italic_α start_POSTSUBSCRIPT italic_S 2 end_POSTSUBSCRIPT"
+      ],
+      [
+        "αS⁢3subscript𝛼𝑆3\\alpha_{S3}italic_α start_POSTSUBSCRIPT italic_S 3 end_POSTSUBSCRIPT"
+      ],
+      [
+        "αS⁢4subscript𝛼𝑆4\\alpha_{S4}italic_α start_POSTSUBSCRIPT italic_S 4 end_POSTSUBSCRIPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_006",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Welchen Anteil an der Gesamtsumme aller Spearman-Werte tragen die Metriken der 'αS'-Reihe zusammen bei? Geben Sie Ihre Antwort als Prozentsatz, auf zwei Dezimalstellen gerundet, an.",
+    "answer": [
+      [
+        "92.46%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_007",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Wenn der NDCG-Wert für die Metrik 'PSR' hypothetisch angepasst würde, um dem NDCG-Wert der 'Sharpe Ratio' zu entsprechen, wie hoch wäre dann der neue durchschnittliche NDCG-Wert für alle Metriken in der Tabelle?",
+    "answer": [
+      [
+        "0.533"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_008",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "open_ended_reasoning",
+    "question": "Betrachtet man die Beziehung zwischen den Spalten 'Kendall' und 'NDCG', welche Art von Korrelation lässt sich zwischen diesen beiden Maßen ableiten? Begründen Sie Ihre Antwort anhand der Daten.",
+    "answer": [
+      [
+        "Es lässt sich eine starke positive Korrelation zwischen den Kendall- und NDCG-Werten ableiten. Die Metriken mit den niedrigsten Kendall-Werten ('Sharpe Ratio' bei 0,087 und 'PSR' bei 0,085) weisen auch die niedrigsten NDCG-Werte auf (0,393 und 0,388). Umgekehrt weisen die vier 'αS'-Metriken, die deutlich höhere Kendall-Werte aufweisen (im Bereich von 0,265 bis 0,278), auch die höchsten NDCG-Werte auf (im Bereich von 0,589 bis 0,636). Dieses Muster zeigt, dass mit zunehmendem Kendall-Wert auch der NDCG-Wert tendenziell ansteigt."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_009",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Welche der drei numerischen Spalten (Spearman, Kendall, NDCG) hat die größte Spanne zwischen ihrem Maximal- und Minimalwert?",
+    "answer": [
+      [
+        "Spearman"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_010",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Die Metriken 'Sharpe Ratio' und 'PSR' bilden im Vergleich zu den 'αS'-Metriken eine Gruppe mit niedrigeren Werten. Für welche Messgröße (Spearman, Kendall oder NDCG) ist die absolute Differenz zwischen dem durchschnittlichen Wert der niedrigen Gruppe und dem durchschnittlichen Wert der hohen Gruppe am größten?",
+    "answer": [
+      [
+        "Spearman"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "A6",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_011",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Welche Metrik weist die niedrigste Kendall-Korrelation auf?",
+    "answer": [
+      [
+        "PSR"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

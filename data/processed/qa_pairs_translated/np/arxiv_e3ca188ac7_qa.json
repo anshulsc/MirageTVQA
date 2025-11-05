@@ -1,0 +1,293 @@
+[
+  {
+    "question_id": "arxiv_e3ca188ac7_001",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "कुन मेट्रिकले सबैभन्दा उच्च NDCG स्कोर प्राप्त गर्यो?",
+    "answer": [
+      [
+        "αS⁢2subscript𝛼𝑆2\\alpha_{S2}italic_α start_POSTSUBSCRIPT italic_S 2 end_POSTSUBSCRIPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_002",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "सबै मेट्रिक्सको औसत Kendall स्कोर गणना गर्नुहोस् जुन 'αS' बाट सुरु हुन्छ।",
+    "answer": [
+      [
+        "0.27075"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_003",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "सबैभन्दा कम केन्डल स्कोर भएको मेट्रिकको स्पियरम्यान स्कोर कति छ?",
+    "answer": [
+      [
+        "0.127"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_004",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "open_ended_reasoning",
+    "question": "αS1 देखि αS4 सम्मका मेट्रिक्सका लागि स्पियरम्यान स्कोरको प्रवृत्तिको विश्लेषण गर्नुहोस्। के प्रवृत्ति लगातार बढ्दो, घट्दो, वा उतारचढावपूर्ण छ?",
+    "answer": [
+      [
+        "αS1 देखि αS4 सम्मको स्पियरम्यान स्कोरको प्रवृत्ति लगातार बढिरहेको छ। मानहरू αS1 को लागि 0.39 बाट, αS2 को लागि 0.394, αS3 को लागि 0.4, र अन्तमा αS4 को लागि 0.409 मा प्रगति गर्छन्, प्रत्येक पछिल्लो मेट्रिकले अघिल्लो भन्दा उच्च स्कोर देखाउँछ।"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_005",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "सबै मेट्रिकहरू सूचीबद्ध गर्नुहोस् जहाँ NDCG स्कोर ०.५५ भन्दा बढी छ र Kendall स्कोर ०.२५ भन्दा बढी छ।",
+    "answer": [
+      [
+        "αS⁢1subscript𝛼𝑆1\\alpha_{S1}italic_α start_POSTSUBSCRIPT italic_S 1 end_POSTSUBSCRIPT"
+      ],
+      [
+        "αS⁢2subscript𝛼𝑆2\\alpha_{S2}italic_α start_POSTSUBSCRIPT italic_S 2 end_POSTSUBSCRIPT"
+      ],
+      [
+        "αS⁢3subscript𝛼𝑆3\\alpha_{S3}italic_α start_POSTSUBSCRIPT italic_S 3 end_POSTSUBSCRIPT"
+      ],
+      [
+        "αS⁢4subscript𝛼𝑆4\\alpha_{S4}italic_α start_POSTSUBSCRIPT italic_S 4 end_POSTSUBSCRIPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_006",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Spearman स्कोरहरूको कुल योगको कति प्रतिशत 'αS' मेट्रिकहरूको श्रृंखलाले संयुक्त रूपमा योगदान गर्दछ? आफ्नो उत्तरलाई दुई दशमलव स्थानमा पूर्णांक गरी प्रतिशतको रूपमा व्यक्त गर्नुहोस्।",
+    "answer": [
+      [
+        "92.46%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_007",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "यदि 'PSR' मेट्रिकको लागि NDCG स्कोरलाई 'Sharpe Ratio' को NDCG स्कोरसँग मिलाउन काल्पनिक रूपमा समायोजन गरियो भने, तालिकामा भएका सबै मेट्रिकहरूको नयाँ औसत NDCG स्कोर कति हुनेछ?",
+    "answer": [
+      [
+        "0.533"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_008",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "open_ended_reasoning",
+    "question": "Kendall र NDCG स्तम्भहरू बीचको सम्बन्ध अवलोकन गर्दा, यी दुई उपायहरू बीच कस्तो प्रकारको सहसम्बन्ध अनुमान गर्न सकिन्छ? डेटाको आधारमा आफ्नो उत्तर पुष्टि गर्नुहोस्।",
+    "answer": [
+      [
+        "Kendall र NDCG स्कोरहरू बीच एक बलियो सकारात्मक सहसम्बन्ध अनुमान गर्न सकिन्छ। सबैभन्दा कम Kendall स्कोरहरू भएका मेट्रिकहरू (Sharpe Ratio ०.०८७ र PSR ०.०८५) मा सबैभन्दा कम NDCG स्कोरहरू (०.३९३ र ०.३८८) पनि छन्। यसको विपरीत, चार 'αS' मेट्रिकहरू, जसमा उल्लेखनीय रूपमा उच्च Kendall स्कोरहरू (०.२६५ देखि ०.२७८ सम्म) छन्, मा सबैभन्दा उच्च NDCG स्कोरहरू (०.५८९ देखि ०.६३६ सम्म) पनि छन्। यो ढाँचाले देखाउँछ कि Kendall स्कोर बढ्दै जाँदा, NDCG स्कोर पनि बढ्ने गर्छ।"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_009",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "तीन वटा संख्यात्मक स्तम्भहरू (Spearman, Kendall, NDCG) मध्ये कुनको अधिकतम र न्यूनतम मान बीचको दायरा सबैभन्दा ठूलो छ?",
+    "answer": [
+      [
+        "Spearman"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_010",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "'Sharpe Ratio' र 'PSR' मेट्रिक्सहरू 'αS' मेट्रिक्सहरूको तुलनामा कम स्कोर गर्ने समूह बनाउँछन्। कुन मापन (Spearman, Kendall, वा NDCG) का लागि कम समूहको औसत स्कोर र उच्च समूहको औसत स्कोर बीचको निरपेक्ष भिन्नता सबैभन्दा ठूलो छ?",
+    "answer": [
+      [
+        "Spearman"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "A6",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_011",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "कुन मेट्रिकले सबैभन्दा कम केन्डल सहसंबंध देखाउँछ?",
+    "answer": [
+      [
+        "PSR"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

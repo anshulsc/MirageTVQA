@@ -1,0 +1,151 @@
+[
+  {
+    "question_id": "arxiv_dfbcb20e74_001",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Risk-free oran bileşeni içeren modelin ana formülü hangisidir?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_003",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "En az üç açıklanan parametresinde 'Toplam varlıklar'ı payda olarak kullanan modeli belirleyin ve ardından bu modelden 'Öz sermaye piyasa değeri'nin 'Toplam yükümlülükler'e oranını temsil eden parametreyi belirtin.",
+    "answer": [
+      [
+        "Z-score Model"
+      ],
+      [
+        "X4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_004",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "'T anında' ölçüldüğü açıkça belirtilen parametreleri içeren model hangisidir?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_005",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Analitik hedef, ikili bir sonucun (y=1) olasılığını belirlemekse, tabloda listelenen modellerden hangisi en uygun seçenektir?",
+    "answer": [
+      [
+        "Logistic Regression"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_006",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Z-skoru modelinde, 'Faiz ve vergi öncesi kazanç/Toplam varlıklar oranı' değişkeninin ağırlığı (katsayısı) nedir ve bu ağırlık diğer değişkenlerle nasıl karşılaştırılır?",
+    "answer": [
+      [
+        "X3 (Faiz ve vergi öncesi kazanç/Toplam varlıklar oranı) için katsayı 3.3'tür. Bu, beş değişkenin tümü arasında en yüksek ağırlıktır ve X1 (1.2), X2 (1.4), X4 (0.6) ve X5 (0.99) gibi değişkenlere kıyasla nihai Z-skoru üzerinde en önemli etkiye sahip olduğunu göstermektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_007",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Z-skoru modeli güncellenmiş bir versiyonunda 'Çalışma sermayesi/Toplam varlıklar oranı'nın etkisi %50 oranında azaltılsaydı, X1 için yeni katsayı ne olurdu?",
+    "answer": [
+      [
+        "0.6"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_008",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Z-skoru Modeli formülüne göre, bir şirketin toplam satışlarının toplam varlıklarına oranındaki değişim ile elde edilen Z-skoru arasında nasıl bir ilişki olduğu çıkarılabilir?",
+    "answer": [
+      [
+        "Toplam satış/toplam varlık oranı (X5) ile Z-skoru arasında pozitif bir korelasyon vardır. Formül, Z-skorunun beş oranın ağırlıklı bir toplamı olduğunu göstermektedir ve X5'in katsayısı pozitiftir (0.99). Bu nedenle, diğer tüm faktörler sabit tutulduğunda, toplam satışların toplam varlıklara oranındaki bir artış daha yüksek bir Z-skoruna yol açacaktır."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_009",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Üçüncü sütunda açıklanan en fazla sayıda farklı parametreye sahip model hangisidir?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_010",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Z-skor Modeli'nin formülündeki sayısal katsayıları incelerken, diğerlerine kıyasla aykırı olan hangi katsayı öne çıkmaktadır?",
+    "answer": [
+      [
+        "X3 değişkeni için 3.3 katsayısı belirgin bir aykırıdır. Formüldeki diğer katsayılar 1.2, 1.4, 0.6 ve 0.99'dur ve hepsi 0.6 ile 1.4 arasındaki bir aralıkta kümelenmiştir. 3.3 değeri, bir sonraki en yüksek katsayının (1.4) değerinin iki katından fazladır, bu da onu diğerlerinden önemli ölçüde daha büyük kılar."
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

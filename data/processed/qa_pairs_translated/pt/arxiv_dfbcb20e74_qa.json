@@ -1,0 +1,99 @@
+[
+  {
+    "question_id": "arxiv_dfbcb20e74_005",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Se o objetivo analítico for determinar a probabilidade de um resultado binário (y=1), qual modelo listado na tabela é a escolha mais apropriada?",
+    "answer": [
+      [
+        "Logistic Regression"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_006",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "No modelo Z-score, qual é o peso (coeficiente) da variável que representa a 'Lucros antes de juros e impostos/Rácio de ativos totais', e como este peso se compara às outras variáveis?",
+    "answer": [
+      [
+        "O coeficiente para X3 (Lucros antes de juros e impostos/Rácio de ativos totais) é 3,3. Este é o peso mais alto de todas as cinco variáveis, sugerindo que tem o impacto mais significativo no Z-score final em comparação com variáveis como X1 (1,2), X2 (1,4), X4 (0,6) e X5 (0,99)."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_007",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Se uma versão atualizada do modelo Z-score reduzisse a influência da 'Razão de capital de giro/Ativos totais' em 50%, qual seria o novo coeficiente para X1?",
+    "answer": [
+      [
+        "0.6"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_008",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Com base na fórmula do Modelo Z-score, qual é a relação inferida entre a proporção de vendas totais para ativos totais de uma empresa e seu Z-score resultante?",
+    "answer": [
+      [
+        "Existe uma correlação positiva entre a proporção de vendas totais/ativos totais (X5) e o Z-score. A fórmula mostra que o Z-score é uma soma ponderada de cinco proporções, e o coeficiente para X5 é positivo (0.99). Portanto, mantendo todos os outros fatores constantes, um aumento na proporção de vendas totais para ativos totais resultará em um Z-score mais alto."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_009",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Qual modelo inclui o maior número de parâmetros distintos que são explicados na terceira coluna?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_010",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Ao examinar os coeficientes numéricos na fórmula do Modelo Z-score, qual coeficiente se destaca como um valor atípico em comparação com os outros?",
+    "answer": [
+      [
+        "O coeficiente 3.3 para a variável X3 é um valor atípico significativo. Os outros coeficientes na fórmula são 1.2, 1.4, 0.6 e 0.99, que estão todos agrupados em um intervalo entre 0.6 e 1.4. O valor 3.3 é mais do que o dobro do valor do próximo coeficiente mais alto (1.4), tornando-o substancialmente maior que os demais."
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

@@ -1,0 +1,293 @@
+[
+  {
+    "question_id": "arxiv_e3ca188ac7_001",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Hangi metrik en yüksek NDCG skorunu elde etti?",
+    "answer": [
+      [
+        "αS⁢2subscript𝛼𝑆2\\alpha_{S2}italic_α start_POSTSUBSCRIPT italic_S 2 end_POSTSUBSCRIPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_002",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "'αS' ile başlayan tüm metrikler için ortalama Kendall skorunu hesaplayın.",
+    "answer": [
+      [
+        "0.27075"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_003",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "En düşük Kendall skoruna sahip metriğin Spearman skoru nedir?",
+    "answer": [
+      [
+        "0.127"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_004",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "open_ended_reasoning",
+    "question": "αS1'den αS4'e kadar olan metrikler için Spearman skorunun eğilimini analiz edin. Eğilim sürekli artıyor mu, azalıyor mu, yoksa dalgalanıyor mu?",
+    "answer": [
+      [
+        "αS1'den αS4'e kadar olan Spearman skoru eğilimi sürekli artmaktadır. Değerler αS1 için 0.39'dan, αS2 için 0.394'e, αS3 için 0.4'e ve son olarak αS4 için 0.409'a doğru ilerlemektedir; bir sonraki metriğin bir öncekine göre daha yüksek bir skor göstermesiyle."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_005",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "NDCG puanının 0.55'ten büyük ve Kendall puanının 0.25'ten büyük olduğu tüm metrikleri listeleyin.",
+    "answer": [
+      [
+        "αS⁢1subscript𝛼𝑆1\\alpha_{S1}italic_α start_POSTSUBSCRIPT italic_S 1 end_POSTSUBSCRIPT"
+      ],
+      [
+        "αS⁢2subscript𝛼𝑆2\\alpha_{S2}italic_α start_POSTSUBSCRIPT italic_S 2 end_POSTSUBSCRIPT"
+      ],
+      [
+        "αS⁢3subscript𝛼𝑆3\\alpha_{S3}italic_α start_POSTSUBSCRIPT italic_S 3 end_POSTSUBSCRIPT"
+      ],
+      [
+        "αS⁢4subscript𝛼𝑆4\\alpha_{S4}italic_α start_POSTSUBSCRIPT italic_S 4 end_POSTSUBSCRIPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_006",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Tüm Spearman puanlarının toplamının ne kadarlık bir oranını birleşik 'αS' metrik serisi oluşturur? Cevabınızı iki ondalık basamağa yuvarlanmış bir yüzde olarak belirtin.",
+    "answer": [
+      [
+        "92.46%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_007",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Eğer 'PSR' metriği için NDCG puanı, 'Sharpe Oranı'nın NDCG puanıyla eşleşecek şekilde varsayımsal olarak ayarlanırsa, tablodaki tüm metrikler için yeni ortalama NDCG puanı ne olurdu?",
+    "answer": [
+      [
+        "0.533"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_008",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "open_ended_reasoning",
+    "question": "'Kendall' ve 'NDCG' sütunları arasındaki ilişkiyi gözlemleyerek, bu iki ölçüt arasında ne tür bir korelasyon çıkarılabilir? Cevabınızı verilere dayanarak gerekçelendirin.",
+    "answer": [
+      [
+        "Kendall ve NDCG puanları arasında güçlü bir pozitif korelasyon çıkarılabilir. En düşük Kendall puanlarına sahip metrikler (0.087 ile 'Sharpe Oranı' ve 0.085 ile 'PSR'), aynı zamanda en düşük NDCG puanlarına (0.393 ve 0.388) sahiptir. Tersine, önemli ölçüde daha yüksek Kendall puanlarına sahip olan (0.265'ten 0.278'e kadar değişen) dört 'αS' metriği, aynı zamanda en yüksek NDCG puanlarına (0.589'dan 0.636'ya kadar değişen) sahiptir. Bu desen, Kendall puanı arttıkça NDCG puanının da artma eğiliminde olduğunu göstermektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_009",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Üç sayısal sütundan (Spearman, Kendall, NDCG) hangisi, maksimum ve minimum değeri arasında en geniş aralığa sahiptir?",
+    "answer": [
+      [
+        "Spearman"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_010",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "'Sharpe Oranı' ve 'PSR' metrikleri, 'αS' metriklerine kıyasla düşük puanlı bir grup oluşturmaktadır. Hangi ölçüm için (Spearman, Kendall veya NDCG) düşük grubun ortalama puanı ile yüksek grubun ortalama puanı arasındaki mutlak fark en büyüktür?",
+    "answer": [
+      [
+        "Spearman"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "A6",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_011",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Hangi metrik en düşük Kendall korelasyonunu gösterir?",
+    "answer": [
+      [
+        "PSR"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,201 @@
+[
+  {
+    "question_id": "arxiv_d9ebbb4fce_001",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Ποιο μοντέλο αναφέρεται ρητά ότι πέτυχε επιδόσεις αιχμής (SOTA) σε πολυάριθμα σημεία αναφοράς;",
+    "answer": [
+      [
+        "TimeMixer"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_002",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Πόσα από τα αναφερόμενα μοντέλα ενσωματώνουν την τεχνολογία 'transformer' είτε στην κύρια καινοτομία τους είτε στη μεθοδολογία τους;",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_003",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Ποια είναι η βασική καινοτομία του μοντέλου που χρησιμοποιεί στρατηγικές εκπαίδευσης με πολλαπλά σύνολα δεδομένων;",
+    "answer": [
+      [
+        "Open-source foundation model family"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_004",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Ποια μεθοδολογία μοντέλου περιλαμβάνει μοναδικά τη μετατροπή 1D χρονικών δεδομένων σε 2D αναπαράσταση για την ανάλυση προτύπων;",
+    "answer": [
+      [
+        "TimesNet"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_005",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Αναφέρετε τα μοντέλα που είτε περιγράφονται ως 'μοντέλο βάσης' είτε χρησιμοποιούν μια προσέγγιση 'προ-εκπαιδευμένου' στην καινοτομία τους.",
+    "answer": [
+      [
+        "Timer"
+      ],
+      [
+        "MOMENT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_006",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Ποιο ποσοστό των μοντέλων σε αυτή τη λίστα χρησιμοποιεί αρχιτεκτονική βασισμένη σε μετασχηματιστές;",
+    "answer": [
+      [
+        "60%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B5",
+      "C5",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_007",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Εάν ο πρωταρχικός περιορισμός μιας ερευνητικής ομάδας είναι μια πολύ μικρή ποσότητα δεδομένων εκπαίδευσης (1-5%), ποια αποτελέσματα μοντέλου υποδηλώνουν ότι θα ήταν η πιο αποτελεσματική επιλογή;",
+    "answer": [
+      [
+        "Timer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_008",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "open_ended_reasoning",
+    "question": "Με βάση τον πίνακα, ποια σχέση μπορεί να συναχθεί μεταξύ της μεθοδολογίας ενός μοντέλου και των πρωταρχικών αποτελεσμάτων του, ιδιαίτερα όσον αφορά τις αρχιτεκτονικές μετασχηματιστών;",
+    "answer": [
+      [
+        "Τα δεδομένα υποδηλώνουν μια συσχέτιση μεταξύ της υιοθέτησης αρχιτεκτονικών που βασίζονται σε μετασχηματιστές και της επίτευξης ισχυρών επιδόσεων σε συγκεκριμένα, απαιτητικά σενάρια. Για παράδειγμα, ο προεκπαιδευμένος μετασχηματιστής μόνο-αποκωδικοποιητή του Timer οδηγεί σε ισχυρή απόδοση με λίγες λήψεις (few-shot), ενώ ο ανεξάρτητος από κανάλια μετασχηματιστής του PatchTST έχει ως αποτέλεσμα μια σημαντική μείωση του MSE στην μακροπρόθεσμη πρόβλεψη. Αυτό υποδηλώνει ότι οι μεθοδολογίες που βασίζονται σε μετασχηματιστές είναι ιδιαίτερα αποτελεσματικές για εργασίες που απαιτούν είτε αποδοτικότητα δεδομένων (μάθηση με λίγες λήψεις) είτε καταγραφή εξαρτήσεων μεγάλης εμβέλειας (μακροπρόθεσμη πρόβλεψη)."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_009",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Ποια στήλη περιέχει πληροφορίες που περιγράφουν τη θεμελιώδη αλγοριθμική ή δομική προσέγγιση κάθε μοντέλου;",
+    "answer": [
+      [
+        "Methodology"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_010",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Το πρωταρχικό αποτέλεσμα ποιου μοντέλου ξεχωρίζει παρέχοντας μια συγκεκριμένη, ποσοτική μέτρηση απόδοσης αντί για μια ποιοτική περιγραφή όπως «ισχυρή» ή «ανώτερη» απόδοση;",
+    "answer": [
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_011",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Ποιο μοντέλο ξεπέρασε όλα τα μοντέλα σε 18 σύνολα δεδομένων αναφοράς;",
+    "answer": [
+      [
+        "TimeMixer"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

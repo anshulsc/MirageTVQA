@@ -1,0 +1,254 @@
+[
+  {
+    "question_id": "arxiv_b36bd12771_001",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Mutlak t-değeri en yüksek olan ve etkisinin en güçlü istatistiksel kanıtını gösteren beta katsayısı (β) hangisidir?",
+    "answer": [
+      [
+        "β₄"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "D8",
+      "D2",
+      "D4",
+      "D6",
+      "D10",
+      "D12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_002",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "p < 0.05 seviyesinde istatistiksel olarak anlamlı olan tüm alfa (α) katsayılarının ortalama standart hatası nedir?",
+    "answer": [
+      [
+        "0.036"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "E3",
+      "A11",
+      "C11",
+      "E11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_003",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "95% güven aralığı en geniş olan β katsayısına sahip model bileşeni (alt simge numarası ile belirtilen) için, karşılık gelen α katsayısının p-değeri nedir?",
+    "answer": [
+      [
+        "0.005"
+      ]
+    ],
+    "evidence_cells": [
+      "F2",
+      "G2",
+      "F4",
+      "G4",
+      "F6",
+      "G6",
+      "F8",
+      "G8",
+      "F10",
+      "G10",
+      "F12",
+      "G12",
+      "A3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_004",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Alt indis 1'den 6'ya artarken β katsayılarının büyüklüklerinin eğilimini tanımlayın. Tutarlı bir örüntü var mı?",
+    "answer": [
+      [
+        "Tutarlı monoton bir eğilim yoktur. β katsayıları başlangıçta β₁ (0.7208) 'den β₂ (0.8237) 'ye artar, ancak daha sonra β₃ (0.0025) ve sonraki modeller için önemli ölçüde düşer. İlk iki bileşen için değerler, sıfıra çok yakın olan 3 ila 6 arasındaki bileşenlerin değerlerinden büyüklük mertebeleriyle daha büyüktür."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A6",
+      "B6",
+      "A8",
+      "B8",
+      "A10",
+      "B10",
+      "A12",
+      "B12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_005",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Standart hatası 0.03'ten az VE katsayısı istatistiksel olarak anlamsız (P-değeri > 0.4) olan tüm uyumlu modelleri belirleyin.",
+    "answer": [
+      [
+        "α₁"
+      ],
+      [
+        "α₃"
+      ],
+      [
+        "α₅"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "E1",
+      "A5",
+      "C5",
+      "E5",
+      "A9",
+      "C9",
+      "E9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_006",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Tüm uyarlanmış model katsayılarının (hem α hem de β) %0.05'ten az bir p-değerine sahip olmasıyla tanımlanan istatistiksel olarak anlamlı olanlarının yüzdesi nedir?",
+    "answer": [
+      [
+        "66.67%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_007",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Eğer α₁ modeli için standart hata yarıya indirilirse, yeni t-istatistiği ne olur? Tablodaki diğer modellerin t-istatistikleri ve p-değerleri arasındaki ilişkiye dayanarak, bu değişikliğin α₁ katsayısını istatistiksel olarak anlamlı hale getirmesi muhtemel midir (p < 0.05)?",
+    "answer": [
+      [
+        "Yeni t-istatistiği -1.593 (-0.0215 / (0.027 / 2)) olurdu. Katsayının istatistiksel olarak anlamlı hale gelmesi muhtemel değildir. Karşılaştırma için, α₂ modelinin t-istatistiği -2.803 ve p-değeri 0.005'tir. -1.593 gibi daha küçük bir mutlak değere sahip bir t-istatistiği, tipik olarak 2 veya daha fazla mutlak t-değeri gerektiren anlamlılık eşiğinin üzerinde kalması muhtemel olan daha yüksek bir p-değerine sahip olacaktır."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_008",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "β katsayılarının büyüklüğü ile ilgili t-istatistikleri arasındaki ilişkiyi analiz edin. Daha büyük bir katsayı tutarlı bir şekilde daha büyük bir t-istatistiğine yol açar mı?",
+    "answer": [
+      [
+        "Hayır, daha büyük bir β katsayısı tutarlı bir şekilde daha büyük bir t-istatistiğine yol açmaz. Örneğin, β₂ en büyük katsayıya (0.8237) sahiptir, ancak t-istatistiği (8.418) çok küçük bir katsayıya (0.0041) sahip olan β₄'ün t-istatistiğinden (126.061) çok daha küçüktür. T-istatistiği, katsayının standart hatasına oranınıdır, bu nedenle çok küçük bir standart hata, β₃'ten β₆'ya kadar modellerde görüldüğü gibi, küçük bir katsayı için bile çok büyük bir t-istatistiği ile sonuçlanabilir."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2",
+      "B4",
+      "D4",
+      "B6",
+      "D6",
+      "B8",
+      "D8",
+      "B10",
+      "D10",
+      "B12",
+      "D12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_009",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "İstatistiksel prensiplere göre, sıfırı içermeyen %95 güven aralığı, 0.05'ten küçük bir p-değerine karşılık gelmelidir. Tabloda, güven aralığı ve p-değeri bu prensiple tutarsızlık gösteren herhangi bir uyumlandırılmış model katsayısı var mı?",
+    "answer": [
+      [
+        "Hayır, tablodaki tüm katsayılar p-değerleri ve %95 güven aralıkları arasında tutarlılık göstermektedir. 0.05'ten küçük p-değerine sahip tüm katsayılar (örneğin, β₁, α₂, β₂) sıfırı kapsamayan bir güven aralığına sahiptir. Tersine, 0.05'ten büyük p-değerine sahip tüm katsayılar (örneğin, α₁, α₃, α₄) sıfırı içeren bir güven aralığına sahiptir."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "G1",
+      "E2",
+      "F2",
+      "G2",
+      "E3",
+      "F3",
+      "G3",
+      "E4",
+      "F4",
+      "G4",
+      "E5",
+      "F5",
+      "G5",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_010",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Diğer alfa katsayılarının t-istatistikleriyle karşılaştırıldığında, hangi alfa (α) katsayısının t-istatistiği en anlamlı aykırı değerdir?",
+    "answer": [
+      [
+        "7.305 t-istatistiği ile α₆ en anlamlı aykırı değerdir. Diğer alfa t-istatistikleri -0.787, -2.803, -0.269, 0.013 ve 0.729'dur. Bu değerlerin çoğu -3 ile 1 arasında kümelenmiştir. 7.305 değeri büyüklük olarak çok daha fazladır ve grubun geri kalanından önemli ölçüde öne çıkan tek büyük pozitif değerdir."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A3",
+      "D3",
+      "A5",
+      "D5",
+      "A7",
+      "D7",
+      "A9",
+      "D9",
+      "A11",
+      "D11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

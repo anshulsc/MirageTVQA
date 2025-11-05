@@ -1,0 +1,293 @@
+[
+  {
+    "question_id": "arxiv_e3ca188ac7_001",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Qual métrica obteve a pontuação NDCG mais alta?",
+    "answer": [
+      [
+        "αS⁢2subscript𝛼𝑆2\\alpha_{S2}italic_α start_POSTSUBSCRIPT italic_S 2 end_POSTSUBSCRIPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_002",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Calcule a pontuação média de Kendall para todas as métricas que começam com 'αS'.",
+    "answer": [
+      [
+        "0.27075"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_003",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Qual é a pontuação de Spearman para a métrica que tem a menor pontuação de Kendall?",
+    "answer": [
+      [
+        "0.127"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_004",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "open_ended_reasoning",
+    "question": "Analise a tendência da pontuação de Spearman para as métricas de αS1 a αS4. A tendência é consistentemente crescente, decrescente ou flutuante?",
+    "answer": [
+      [
+        "A tendência da pontuação de Spearman de αS1 a αS4 é consistentemente crescente. Os valores progridem de 0.39 para αS1, para 0.394 para αS2, para 0.4 para αS3, e finalmente para 0.409 para αS4, com cada métrica subsequente mostrando uma pontuação mais alta que a anterior."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_005",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Liste todas as métricas onde a pontuação NDCG é maior que 0.55 e a pontuação Kendall é maior que 0.25.",
+    "answer": [
+      [
+        "αS⁢1subscript𝛼𝑆1\\alpha_{S1}italic_α start_POSTSUBSCRIPT italic_S 1 end_POSTSUBSCRIPT"
+      ],
+      [
+        "αS⁢2subscript𝛼𝑆2\\alpha_{S2}italic_α start_POSTSUBSCRIPT italic_S 2 end_POSTSUBSCRIPT"
+      ],
+      [
+        "αS⁢3subscript𝛼𝑆3\\alpha_{S3}italic_α start_POSTSUBSCRIPT italic_S 3 end_POSTSUBSCRIPT"
+      ],
+      [
+        "αS⁢4subscript𝛼𝑆4\\alpha_{S4}italic_α start_POSTSUBSCRIPT italic_S 4 end_POSTSUBSCRIPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_006",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Que proporção da soma total de todas as pontuações Spearman é contribuída pela série de métricas 'αS' combinada? Expresse sua resposta como uma porcentagem arredondada para duas casas decimais.",
+    "answer": [
+      [
+        "92.46%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_007",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Se a pontuação NDCG para a métrica 'PSR' fosse hipoteticamente ajustada para corresponder à pontuação NDCG do 'Sharpe Ratio', qual seria a nova pontuação NDCG média para todas as métricas na tabela?",
+    "answer": [
+      [
+        "0.533"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_008",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "open_ended_reasoning",
+    "question": "Observando a relação entre as colunas 'Kendall' e 'NDCG', que tipo de correlação pode ser inferida entre essas duas medidas? Justifique sua resposta com base nos dados.",
+    "answer": [
+      [
+        "Uma forte correlação positiva pode ser inferida entre as pontuações de Kendall e NDCG. As métricas com as menores pontuações de Kendall ('Sharpe Ratio' em 0.087 e 'PSR' em 0.085) também apresentam as menores pontuações de NDCG (0.393 e 0.388). Por outro lado, as quatro métricas 'αS', que possuem pontuações de Kendall significativamente mais altas (variando de 0.265 a 0.278), também apresentam as maiores pontuações de NDCG (variando de 0.589 a 0.636). Este padrão demonstra que, à medida que a pontuação de Kendall aumenta, a pontuação de NDCG também tende a aumentar."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_009",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Qual das três colunas numéricas (Spearman, Kendall, NDCG) tem a maior amplitude entre o seu valor máximo e mínimo?",
+    "answer": [
+      [
+        "Spearman"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_010",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "As métricas 'Sharpe Ratio' e 'PSR' formam um grupo com pontuações baixas em comparação com as métricas 'αS'. Para qual medida (Spearman, Kendall, ou NDCG) a diferença absoluta entre a pontuação média do grupo baixo e a pontuação média do grupo alto é a maior?",
+    "answer": [
+      [
+        "Spearman"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "A6",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_011",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Qual métrica apresenta a menor correlação Kendall?",
+    "answer": [
+      [
+        "PSR"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]
