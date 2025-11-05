@@ -1,0 +1,269 @@
+[
+  {
+    "question_id": "arxiv_a783ff97d3_001",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Qual método de seleção de recursos obteve o menor valor de erro para a configuração de previsão 'BC2_64'?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_002",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Qual é o número médio de variáveis exógenas usadas pelo método 'LASSO regression feature selection' em todas as configurações de previsão?",
+    "answer": [
+      [
+        "6.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_003",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Para a configuração de previsão 'BC3_28', qual é a métrica de erro do método que utiliza o maior número de variáveis exógenas?",
+    "answer": [
+      [
+        "18.23"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "G2",
+      "G3",
+      "A4",
+      "G4",
+      "G5",
+      "A6",
+      "G6",
+      "G7",
+      "A8",
+      "G8",
+      "G9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_004",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "O aumento do número de variáveis exógenas melhora consistentemente o desempenho (ou seja, reduz o valor do erro) para a configuração 'BC1_64'? Forneça uma breve análise.",
+    "answer": [
+      [
+        "Não, não há uma relação consistente. Para a configuração 'BC1_64', a 'Seleção Baseada em Correlação' usa 3 variáveis para um erro de 14.11, a 'regressão LASSO' também usa 3 variáveis, mas tem um erro maior de 14.55. A 'Seleção de Features Avançada NP' usa um número muito maior de variáveis (28) e atinge um erro significativamente melhor (menor) de 9.16. Isso sugere que, embora um número maior de variáveis possa ser melhor, o método de seleção específico é crítico e simplesmente adicionar variáveis não garante melhoria."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "B3",
+      "A4",
+      "B4",
+      "B5",
+      "A6",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_005",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Liste todos os métodos de seleção de recursos que resultaram em um valor de erro superior a 15 para a configuração 'BC3_64'.",
+    "answer": [
+      [
+        "Without exogenous variables"
+      ],
+      [
+        "Correlation-Based Selection"
+      ],
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Manual feature selection"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A4",
+      "F4",
+      "A6",
+      "F6",
+      "A8",
+      "F8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_006",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Qual percentual do número total de variáveis exógenas usadas por 'Forward Feature Selection NP' em todas as configurações foi alocado para a configuração 'BC1_64'?",
+    "answer": [
+      [
+        "28.57"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_007",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Se um erro de processamento de dados fez com que todas as métricas de erro para a configuração 'BC2_28' fossem 2,5 pontos inferiores às registradas, qual seria o novo erro para 'Seleção manual de features'?",
+    "answer": [
+      [
+        "13.57"
+      ]
+    ],
+    "evidence_cells": [
+      "E8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_008",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Entre os métodos de seleção de variáveis onde o número de variáveis é listado explicitamente, qual demonstra a maior instabilidade, medida pela amplitude (máximo menos mínimo) de variáveis selecionadas entre as diferentes configurações de forecasting?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "A6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "A8",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9",
+      "G9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_009",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Para o método 'LASSO regression feature selection', o valor de erro para 'BC3_28' é um outlier. Como o número correspondente de variáveis exógenas se compara às outras configurações para o mesmo método?",
+    "answer": [
+      [
+        "A configuração 'BC3_28', que apresenta o erro outlier elevado de 28,79 para LASSO, também utiliza o maior número de variáveis exógenas (16) para esse método. Isso é significativamente mais do que as outras configurações, que variam de 0 a 10 variáveis. Isso sugere um problema potencial onde o método LASSO selecionou um conjunto grande, mas com desempenho fraco, de características para este contexto de previsão específico."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5",
+      "E4",
+      "E5",
+      "F4",
+      "F5",
+      "G4",
+      "G5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_010",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Analisando o desempenho da linha de base 'Sem variáveis exógenas', descreva a tendência na métrica de erro à medida que você se move sequencialmente das configurações 'BC1' para 'BC2' e, em seguida, para 'BC3'.",
+    "answer": [
+      [
+        "O desempenho da linha de base 'Sem variáveis exógenas' mostra um padrão claro entre as configurações. Começa com valores de erro moderados para as configurações BC1 (11.14, 13.65). O desempenho melhora drasticamente para as configurações BC2, que têm os menores erros (3.75, 9.08). Finalmente, o erro aumenta novamente para as configurações BC3 (17.53, 9.06), com BC3_64 tendo o maior erro geral para este método. Isso indica que o modelo de linha de base é mais adequado para as condições do BC2."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_011",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Entre 'LASSO regression feature selection' e 'Forward Feature Selection NP', qual configuração de previsão atingiu um valor menor em BC2_64?",
+    "answer": [
+      [
+        "'Forward Feature Selection NP' atingiu um valor menor (2.9) em comparação com 'LASSO regression feature selection' (5.73) na configuração BC2_64."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "D5",
+      "D7"
+    ],
+    "reasoning_category": "Comaparative Reasoning"
+  }
+]

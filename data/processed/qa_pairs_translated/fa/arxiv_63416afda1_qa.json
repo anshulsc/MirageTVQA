@@ -1,0 +1,211 @@
+[
+  {
+    "question_id": "arxiv_63416afda1_001",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "برای مدلی که از داده‌های سطح سفارش با فرکانس بالا استفاده می‌کند، چه نوع قابلیت پیش‌بینی ارائه می‌دهد؟",
+    "answer": [
+      [
+        "Multi-step, sequence generation."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_002",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "اگر پروژه‌ای نیاز به پیش‌بینی عمومی از طریق شبیه‌سازی داشته باشد، کدام ویژگی مدل، علاوه بر وظیفه قابل اجرای آن، آن را برای این منظور مناسب‌تر از جایگزین می‌کند؟",
+    "answer": [
+      [
+        "MarS/LMM یک 'مدل بنیادی در مقیاس بزرگ' است که قادر به 'پیش‌بینی چندمرحله‌ای و تولید توالی' است، و آن را ذاتاً برای وظایف شبیه‌سازی عمومی نسبت به DeepLOB که به عنوان یک مدل 'کوچک، دست‌ساز و غیرقابل مقیاس‌بندی' با پیش‌بینی 'تک‌مرحله‌ای یا با طول ثابت' توصیف شده است، انعطاف‌پذیرتر و قدرتمندتر می‌کند."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_003",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "بر اساس جدول، چه رابطه استنباطی بین مقیاس یک مدل و انعطاف‌پذیری پیش‌بینی آن وجود دارد؟",
+    "answer": [
+      [
+        "داده‌ها یک همبستگی مستقیم را نشان می‌دهند: مدلی که به عنوان «کوچک، دست‌ساز و غیرقابل مقیاس‌بندی» (DeepLOB) توصیف شده است، پیش‌بینی‌های محدود «تک مرحله‌ای یا با طول ثابت» را ارائه می‌دهد، در حالی که «مدل بنیادین در مقیاس بزرگ» (MarS/LMM) پیش‌بینی‌های انعطاف‌پذیرتر «چند مرحله‌ای، تولید توالی» را فراهم می‌کند. این بدان معناست که مدل‌های بزرگ‌تر و با قابلیت مقیاس‌پذیری بیشتر، تمایل دارند قابلیت‌های پیش‌بینی پیشرفته‌تر و انعطاف‌پذیرتری داشته باشند."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_63416afda1_004",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "چند جنبه متمایز برای تمایز DeepLOB و MarS/LMM در این مجموعه داده استفاده شده است؟",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_005",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "مدلی را شناسایی کنید که به عنوان 'مدل بنیادین مقیاس بزرگ' توصیف نشده است و ویژگی‌های ورودی مشخص شده آن را فهرست کنید.",
+    "answer": [
+      [
+        "DeepLOB",
+        "Limit order book (LOB) data."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "B3",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_006",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "توصیف جنبه 'مدل' کدام مدل حاوی مجموعه‌ای منحصر به فرد از سه ویژگی محدودکننده متمایز است؟",
+    "answer": [
+      [
+        "DeepLOB"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_63416afda1_007",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "اگر DeepLOB قرار بود برای انجام «تولید توالی چند مرحله‌ای» اصلاح شود، کدام دو جنبه دیگر از جدول احتمالاً باید به طور اساسی تغییر کنند تا با ویژگی‌های مدلی که قبلاً این قابلیت را دارد، همسو شوند؟",
+    "answer": [
+      [
+        "برای دستیابی به تولید چند مرحله‌ای مانند MarS/LMM، «مدل» DeepLOB احتمالاً باید از «کوچک، دست‌ساز و غیرقابل مقیاس‌بندی» به یک «مدل بنیادی در مقیاس بزرگ» تکامل یابد، و «ویژگی‌های ورودی» آن ممکن است نیاز داشته باشد که از «داده‌های LOB» گسترش یابد تا بتواند «داده‌های سطح سفارش با فرکانس بالا» را مدیریت کند."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A3",
+      "B3",
+      "C3",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_008",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "الزامات داده ورودی برای این دو مدل را مقایسه کنید.",
+    "answer": [
+      [
+        "DeepLOB به «داده‌های دفترچه سفارش محدود (LOB)» نیاز دارد که نوع خاصی از ساختار داده مالی است. در مقابل، MarS/LMM از «داده‌های سطح سفارش با فرکانس بالا» استفاده می‌کند که کلی‌تر است و حجم و سرعت بیشتری از داده‌ها را شامل می‌شود."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_009",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "نوع مدل برای سیستمی که برای پیش‌بینی خاص وظیفه طراحی شده است، چیست؟",
+    "answer": [
+      [
+        "Small, handcrafted, and not scalable"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_010",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "اگر یک کاربر فقط «داده‌های دفتر سفارش محدود (LOB)» در دسترس داشته باشد و نیاز به انجام «پیش‌بینی عمومی از طریق شبیه‌سازی» داشته باشد، بر اساس جنبه‌های ارائه‌شده، کدام مدل تضاد ایجاد می‌کند و چرا؟",
+    "answer": [
+      [
+        "برای هر دو مدل تضاد وجود دارد. DeepLOB می‌تواند از داده‌های LOB استفاده کند اما برای «پیش‌بینی خاص وظیفه»، نه شبیه‌سازی عمومی، طراحی شده است. MarS/LMM برای «پیش‌بینی عمومی» طراحی شده است اما به «داده‌های سطح سفارش با فرکانس بالا»، نه داده‌های LOB، نیاز دارد. بنابراین، هیچ یک از مدل‌ها بدون تغییر یا مصالحه، یک راه‌حل کاملاً مناسب نیستند."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_011",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "وظایف قابل اجرای DeepLOB چیست؟",
+    "answer": [
+      [
+        "Task-specific forecasting."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

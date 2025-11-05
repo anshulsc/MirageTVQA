@@ -1,0 +1,305 @@
+[
+  {
+    "question_id": "arxiv_247c1897a1_001",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Những mô hình nào đạt hiệu suất tốt nhất (tức là thấp nhất) trên chỉ số MSE30, không bao gồm các mô hình có dữ liệu bị thiếu cho chỉ số đó?",
+    "answer": [
+      [
+        "HTML"
+      ],
+      [
+        "ECC Analyzer"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F8",
+      "F9",
+      "A6",
+      "A9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_002",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Giá trị MSE7 trung bình cho tất cả các mô hình có tên bắt đầu bằng chữ 'M' là bao nhiêu?",
+    "answer": [
+      [
+        "0.4275"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "A5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_003",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "Hãy xác định mô hình nào là ngoại lệ rõ ràng về hiệu suất và giải thích tại sao nó nổi bật so với phần còn lại.",
+    "answer": [
+      [
+        "Mô hình 'GPT-4-Turbo' là một ngoại lệ đáng kể. Giá trị Sai số Bình phương Trung bình (MSE) của nó trên tất cả các chân trời dự báo (từ 2.198 đến 11.824) cao hơn đáng kể so với tất cả các mô hình khác, thường dưới 2.0 và thường xuyên dưới 1.0. Điều này cho thấy độ chính xác dự báo thấp hơn đáng kể, làm cho hiệu suất của nó trở thành một điểm bất thường trong tập dữ liệu này."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "A6",
+      "B6",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "A8",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "A9",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_004",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Giá trị MSE tổng thể (MSE_over) cho mô hình có điểm MSE3 thấp thứ hai là bao nhiêu?",
+    "answer": [
+      [
+        "/"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_005",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Liệt kê tất cả các mô hình có giá trị MSE15 dưới 0,3 VÀ giá trị MSE30 dưới 0,2.",
+    "answer": [
+      [
+        "HTML"
+      ],
+      [
+        "ECC Analyzer"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "E2",
+      "F2",
+      "E3",
+      "F3",
+      "E4",
+      "F4",
+      "E5",
+      "F5",
+      "A6",
+      "E6",
+      "F6",
+      "E7",
+      "F7",
+      "E8",
+      "F8",
+      "A9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_006",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "Mô hình 'HTML' có xu hướng sai số dự báo như thế nào khi tầm nhìn dự báo kéo dài từ 3 đến 30 ngày?",
+    "answer": [
+      [
+        "Đối với mô hình 'HTML', sai số dự báo, được đo bằng Sai số bình phương trung bình (MSE), liên tục giảm khi tầm nhìn dự báo dài hơn. MSE giảm từ 0,845 ở ngày thứ 3, xuống 0,349 ở ngày thứ 7, 0,251 ở ngày thứ 15 và cuối cùng là 0,158 ở ngày thứ 30. Điều này cho thấy các dự đoán của mô hình trở nên chính xác hơn đối với các dự báo dài hạn hơn."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_007",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Tỷ lệ phần trăm của tổng lỗi MSE3, được tính tổng trên tất cả các mô hình, đóng góp bởi mô hình 'GPT-4-Turbo' là bao nhiêu? Làm tròn đến hai chữ số thập phân.",
+    "answer": [
+      [
+        "23.22%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_008",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "Nếu giá trị MSE15 của mô hình 'Classical Method' được cải thiện (giảm) 10%, thì xếp hạng mới của nó cho chỉ số đó sẽ là bao nhiêu so với các mô hình khác?",
+    "answer": [
+      [
+        "Nếu giá trị MSE15 của mô hình 'Classical Method' là 0.330 được giảm đi 10%, giá trị mới sẽ là 0.297. Thứ hạng ban đầu cho MSE15 là: AMA-LSTM (0.230), ECC Analyzer (0.237), HTML (0.251), MRDM (0.300), MT-LSTM-ATT (0.304), HAN (Glove) (0.308), LSTM (0.320), Classical Method (0.330), GPT-4-Turbo (7.959). Giá trị mới 0.297 sẽ đặt nó giữa HTML và MRDM, nâng xếp hạng của nó từ thứ 8 lên thứ 4 tốt nhất."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_009",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "Loại trừ 'GPT-4-Turbo' là trường hợp ngoại lệ, liệu có mối quan hệ rõ ràng nào giữa hiệu suất của mô hình trên chỉ số MSE tổng thể (MSE_over) và hiệu suất của nó trên dự báo 7 ngày (MSE7) không?",
+    "answer": [
+      [
+        "Có, dường như có một mối tương quan thuận. Nhìn chung, các mô hình có điểm MSE tổng thể thấp hơn (tốt hơn) cũng có điểm MSE7 thấp hơn. Ví dụ, 'ECC Analyzer' và 'HTML' có hai điểm MSE tổng thể thấp nhất (0,314 và 0,401) và cũng có hai điểm MSE7 thấp nhất (0,306 và 0,349). Ngược lại, các mô hình như 'MT-LSTM-ATT' và 'LSTM' có điểm MSE tổng thể cao nhất (0,739 và 0,746) trong nhóm này và cũng có điểm MSE7 tương đối cao (0,435 và 0,459). Điều này cho thấy khả năng dự đoán tổng quát của mô hình là nhất quán trên hai chỉ số cụ thể này."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B4",
+      "D4",
+      "B5",
+      "D5",
+      "B6",
+      "D6",
+      "B7",
+      "D7",
+      "B9",
+      "D9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_010",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Mô hình nào trong bảng có nhiều dữ liệu không hoàn chỉnh nhất, được biểu thị bằng các mục '/'?",
+    "answer": [
+      [
+        "AMA-LSTM"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "F7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_011",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Mô hình nào có MSE thấp nhất trong tất cả các mô hình?",
+    "answer": [
+      [
+        "ECC Analyzer."
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

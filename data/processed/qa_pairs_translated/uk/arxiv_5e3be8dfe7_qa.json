@@ -1,0 +1,208 @@
+[
+  {
+    "question_id": "arxiv_5e3be8dfe7_001",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Яка модель має найбільшу кількість різних пояснень параметрів, перелічених у таблиці?",
+    "answer": [
+      [
+        "Neural Networks"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_002",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Скільки окремих параметрів пояснюється загалом для всіх моделей, які використовують компонент сумування (Σ) у своїй основній формулі?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_003",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Перелічіть моделі, головна формула яких не включає експоненцію (наприклад, e^x).",
+    "answer": [
+      [
+        "Neural Networks"
+      ],
+      [
+        "Support Vector Machine"
+      ],
+      [
+        "Decision Tree"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_004",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Який відсоток з перелічених моделей використовує параметр, що представляє окремі вибірки або точки даних (наприклад, 'вибірка i') у своїй формулі?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "C8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_005",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Якщо кількість категорій вибірки 'm' у моделі \"Дерево рішень\" дорівнює 1, яким буде розраховане значення інформаційної ентропії 'Ent(D)' згідно з формулою?",
+    "answer": [
+      [
+        "0"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_006",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Яка модель має формулу, що докорінно відрізняється від інших, оскільки вона представлена як задача оптимізації (мінімізації), а не як прямий розрахунок вихідного значення?",
+    "answer": [
+      [
+        "Support Vector Machine"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B7",
+      "B9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_007",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "Виходячи з формул та параметрів, порівняйте ролі параметра 'β' у логістичній регресії з параметром 'w' у методі опорних векторів.",
+    "answer": [
+      [
+        "У логістичній регресії 'β' є вектор-рядком коефіцієнтів регресії, який разом із зсувом визначає ймовірність результату за допомогою логістичної функції. У методі опорних векторів 'w' є вектором параметрів, що визначає орієнтацію розділяючої гіперплощини. Мета SVM полягає в тому, щоб знайти 'w', який максимізує зазор між класами, мінімізуючи його L2-норму, тоді як у логістичній регресії 'β' зазвичай знаходиться шляхом максимізації правдоподібності спостережуваних даних."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C3",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_008",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "Як поняття 'шарів' у нейронних мережах та 'ентропії' у деревах рішень відображають їхні різні підходи до навчання на основі даних?",
+    "answer": [
+      [
+        "Поняття 'шарів' (l та l-1) у нейронних мережах відображає ієрархічний підхід до вивчення ознак. Модель навчається все більш складних представлень даних, пропускаючи активації через послідовні шари, коригуючи ваги ('w') та зміщення ('b'), щоб створити складний апроксиматор функції. На противагу цьому, поняття 'ентропії' (Ent(D)) у деревах рішень відображає жадібний, заснований на правилах підхід. Модель рекурсивно розбиває дані на більш чисті підмножини, обираючи ознаки, які призводять до найбільшого зменшення ентропії (інформаційного приросту), створюючи явний набір правил \"якщо-то\"."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_009",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Яка загальна кількість унікальних моделей, описаних у таблиці?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_010",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Який стовпець має основне призначення визначати змінні, що використовуються в суміжному стовпці?",
+    "answer": [
+      [
+        "Parameter and Explanation"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

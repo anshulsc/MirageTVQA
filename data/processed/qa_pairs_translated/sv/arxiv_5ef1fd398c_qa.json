@@ -1,0 +1,243 @@
+[
+  {
+    "question_id": "arxiv_5ef1fd398c_001",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Vilken 'Fokus Kategori' förekommer oftast i tabellen?",
+    "answer": [
+      [
+        "Financial Indicator"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "A15"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_002",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Hur många distinkta fokus-kategorier innehåller exakt tre fokus-objekt?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_003",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Inom kategorin som inkluderar 'Pension', vilket annat 'Focus Item' har frågor relaterade till kompensation och förmåner för anställda?",
+    "answer": [
+      [
+        "Salary"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_004",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Vilket 'Focus Item' har frågor som mest uttryckligen fokuserar på att jämföra prestationer över olika tidigare tidsperioder, såsom kvartal-över-kvartal och år-över-år?",
+    "answer": [
+      [
+        "Revenue"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_005",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Lista alla 'Focus Items' under kategorin 'Expansion' som inte specifikt nämner fysiska produkter.",
+    "answer": [
+      [
+        "Geographic Expansion"
+      ],
+      [
+        "Market Segmentation Expansion"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "B11",
+      "A12",
+      "B12",
+      "A13",
+      "B13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_006",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Vilken andel av 'Fokusobjekt' i kategorin 'Finansiell Indikator' är direkt relaterade till aktieägaravkastning (t.ex. utdelningar, ROE, återköp)?",
+    "answer": [
+      [
+        "2/4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_007",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "open_ended_reasoning",
+    "question": "Om fokusobjektet 'Utdelning' skulle omkategoriseras under en ny kategori 'Aktieägarvärde', hur skulle antalet objekt i kategorin 'Finansiell Indikator' förändras?",
+    "answer": [
+      [
+        "Antalet objekt skulle minska från 4 till 3."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_008",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "open_ended_reasoning",
+    "question": "Baserat på de givna frågorna, vilken koppling antyds mellan en förändring i företagets ledning och dess företag strategi?",
+    "answer": [
+      [
+        "Tabellen antyder en direkt orsakssamband, eftersom fråga Q3 för 'Management Change' (Ledningsförändring) explicit frågar om den förväntade effekten av sådana förändringar på företagets strategi. Detta tyder på att ledarskapsövergångar ses som viktiga drivkrafter för strategiska skiften."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_009",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Identifiera 'Fokusobjekt' som är strukturella extremvärden, där objektets namn är identiskt med dess kategori och det är det enda objektet i den kategorin.",
+    "answer": [
+      [
+        "Business"
+      ],
+      [
+        "Future Outlook"
+      ]
+    ],
+    "evidence_cells": [
+      "A14",
+      "B14",
+      "A15",
+      "B15"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_010",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "open_ended_reasoning",
+    "question": "Jämför det tematiska fokuset för frågorna om 'Finansiell indikator' jämfört med 'Anställningsansvarig' (Employee Manager).",
+    "answer": [
+      [
+        "Frågorna för 'Finansiell indikator'-objekt är externt fokuserade på kvantitativa prestationsmått som intäkter, utdelningar och vinster, främst för investeraranalys. I kontrast är frågorna för 'Anställningsansvarig' internt fokuserade på humankapital och administrativa aspekter, såsom löner, pensionsförpliktelser och effekten av chefsförändringar, vilket berör intern verksamhet och anställdas välbefinnande."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_011",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Hur många fokusobjekt finns under kategorin Finansiell indikator?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

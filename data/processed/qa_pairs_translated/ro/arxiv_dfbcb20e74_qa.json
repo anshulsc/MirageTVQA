@@ -1,0 +1,167 @@
+[
+  {
+    "question_id": "arxiv_dfbcb20e74_001",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Care model include explicit în formula sa principală o componentă de rată fără risc?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_002",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Care este numărul total de variabile distincte 'X' care sunt folosite ca intrări în formula Modelului Z-score?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_003",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Identificați modelul care utilizează 'Total active' ca numitor în cel puțin trei dintre parametrii săi explicați și apoi indicați care parametru din acel model reprezintă raportul dintre 'Valoarea de piață a capitalurilor proprii' și 'Datorii totale'.",
+    "answer": [
+      [
+        "Z-score Model"
+      ],
+      [
+        "X4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_004",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Care model încorporează parametri care sunt definiți explicit ca fiind măsurați „la momentul t”?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_005",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Dacă obiectivul analitic este determinarea probabilității unui rezultat binar (y=1), care model listat în tabel este cea mai potrivită alegere?",
+    "answer": [
+      [
+        "Logistic Regression"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_006",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "În modelul Z-score, care este ponderea (coeficientul) variabilei care reprezintă 'Câștiguri înainte de dobânzi și impozite/Raportul total al activelor' și cum se compară această pondere cu celelalte variabile?",
+    "answer": [
+      [
+        "Coeficientul pentru X3 (Câștiguri înainte de dobânzi și impozite/Raportul total al activelor) este 3,3. Aceasta este cea mai mare pondere dintre toate cele cinci variabile, sugerând că are cel mai semnificativ impact asupra scorului Z final comparativ cu variabile precum X1 (1,2), X2 (1,4), X4 (0,6) și X5 (0,99)."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_007",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Dacă o versiune actualizată a modelului Z-score ar reduce influența raportului 'Capital circulant/Total active' cu 50%, care ar fi noul coeficient pentru X1?",
+    "answer": [
+      [
+        "0.6"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_008",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Conform formulei pentru Modelul Z-score, care este relația inferată între raportul vânzărilor totale ale unei companii la activele totale și scorul Z rezultat?",
+    "answer": [
+      [
+        "Există o corelație pozitivă între raportul vânzări totale/active totale (X5) și scorul Z. Formula arată că scorul Z este o sumă ponderată a cinci rapoarte, iar coeficientul pentru X5 este pozitiv (0,99). Prin urmare, menținând toți ceilalți factori constanți, o creștere a raportului vânzări totale la active totale va duce la un scor Z mai mare."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_009",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Care model are cea mai mare număr de parametri distincti explicați în a treia coloană?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_010",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Analizând coeficienții numerici din formula Modelului Z-score, care coeficient se distinge ca un element aberant (outlier) în comparație cu ceilalți?",
+    "answer": [
+      [
+        "Coeficientul 3.3 pentru variabila X3 este un outlier semnificativ. Ceilalți coeficienți din formulă sunt 1.2, 1.4, 0.6 și 0.99, care sunt toți grupați într-un interval între 0.6 și 1.4. Valoarea 3.3 este de peste două ori mai mare decât valoarea următorului coeficient cel mai mare (1.4), făcându-l substanțial mai mare decât restul."
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

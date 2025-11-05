@@ -1,0 +1,258 @@
+[
+  {
+    "question_id": "arxiv_da116d1768_001",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "روش‌ها/مقالاتی را که از مدل LLM استفاده می‌کنند و جدیدتر یا پیشرفته‌تر از GPT3.5 در نظر گرفته می‌شوند، فهرست کنید.",
+    "answer": [
+      [
+        "MarketSenseAI [1]"
+      ],
+      [
+        "Ploutos [4]"
+      ],
+      [
+        "LLMoE [7]"
+      ],
+      [
+        "[48]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_002",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "چند مورد از روش‌ها/مقالات ذکر شده به صراحت از مدلی از خانواده GPT (شامل GPT-4، GPT3.5، GPT-4-Turbo یا مدل‌های عمومی مبتنی بر GPT) استفاده می‌کنند؟",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_da116d1768_003",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "چه مجموعه داده‌هایی توسط روش‌هایی که به طور خاص بر 'سرمایه‌گذاری' به عنوان کاربرد تمرکز دارند، استفاده شده است؟",
+    "answer": [
+      [
+        "S&P 100 stocks"
+      ],
+      [
+        "S&P 500 index"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "C1",
+      "D4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_004",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "open_ended_reasoning",
+    "question": "با در نظر گرفتن تکامل مدل‌های GPT از GPT3.5 به GPT-4، چه تغییری در تمرکز کاربرد یا داده‌ها بر اساس جدول مشاهده می‌شود؟",
+    "answer": [
+      [
+        "رویکردی که از GPT3.5 استفاده می‌کند (GPT-InvestAR) بر روی «سرمایه‌گذاری سهام» با استفاده از شاخص گسترده S&P 500 تمرکز دارد. رویکردهای استفاده‌کننده از GPT-4 پیشرفته‌تر (MarketSenseAI و Ploutos) کاربردهای خاص‌تری مانند «انتخاب سهام و بینش سرمایه‌گذاری» و «حرکت سهام» را هدف قرار می‌دهند و از مجموعه داده‌های شاخص S&P 100 و مقالات دانشگاهی استفاده می‌کنند. این امر نشان‌دهنده روندی به سمت کاربردهای تخصصی‌تر و تحلیلی‌تر با مدل‌های قدرتمندتر است."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "D4",
+      "C4",
+      "B1",
+      "D1",
+      "C1",
+      "B2",
+      "D2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_005",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "مدل‌های LLM را که توسط روش‌هایی استفاده می‌شوند که کاربرد آن‌ها شامل کلمه 'stock' است اما به طور مشخص 'Stock investment' نیست، شناسایی کنید.",
+    "answer": [
+      [
+        "GPT-4"
+      ],
+      [
+        "GPT-4-Turbo, LLaMA3"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "B1",
+      "D2",
+      "B2",
+      "D4",
+      "D6",
+      "B6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_006",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "چه درصدی از روش‌ها/مقالات ذکر شده از شاخص‌های بازار مالی (مانند S&P یا KOSPI) به عنوان منبع داده خود استفاده می‌کنند؟",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C4",
+      "C6",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_da116d1768_007",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "اگر الزام یک پروژه، انتخاب یک رویکرد موجود برای «پیش‌بینی بازار سهام» باشد اما استفاده از مدل‌های خانواده GPT محدود شده باشد، کدام مدل LLM خاص از جدول انتخاب می‌شود؟",
+    "answer": [
+      [
+        "GPT-4-Turbo"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_008",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "open_ended_reasoning",
+    "question": "بر اساس جدول، رابطه ظاهری بین میزان دقت مدل LLM ذکر شده و نوع داده‌ای که برای آن به کار رفته است، چیست؟",
+    "answer": [
+      [
+        "به نظر می‌رسد ارتباطی وجود دارد که در آن مدل‌های خاص‌تر و پیشرفته‌تر مانند GPT-4، GPT3.5 و Llama3.2 با مجموعه داده‌های مالی ساختاریافته (مانند شاخص‌های S&P، داده‌های MSFT-AAPL) همراه شده‌اند. در مقابل، «مدل‌های مبتنی بر GPT» که به طور کلی‌تر توصیف شده‌اند، با کرپوراهای بسیار گسترده و غیر تخصصی مانند Common Crawl و Wikipedia مرتبط هستند، که نشان می‌دهد مدل‌های عمومی برای تحلیل گسترده‌تر استفاده می‌شوند در حالی که مدل‌های خاص و پیشرفته برای وظایف مالی هدفمندتر آزمایش می‌شوند."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_da116d1768_009",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "کدام ستون حاوی متنوع‌ترین و توصیفی‌ترین انواع داده‌ها است، همانطور که با تنوع ورودی‌های آن که از نمادهای سهام خاص تا مجموعه‌های وب گسترده متغیر است، نشان داده می‌شود؟",
+    "answer": [
+      [
+        "Data"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_010",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "با توجه به دامنه کاربرد و کلیت منبع داده آن در مقایسه با سایرین که بر روی وظایف خاص بازار سهام متمرکز هستند، روش/کاغذی را که به عنوان یک مورد استثنایی برجسته است، شناسایی کنید.",
+    "answer": [
+      [
+        "ChainBuddy [10]"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "D1",
+      "D2",
+      "D4",
+      "D5",
+      "D6",
+      "C1",
+      "C2",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_da116d1768_011",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "چه تعداد روش/مقاله از مدل‌های GPT برای آموزش استفاده کرده‌اند؟",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A6",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

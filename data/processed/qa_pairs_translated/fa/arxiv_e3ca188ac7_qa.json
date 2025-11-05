@@ -1,0 +1,277 @@
+[
+  {
+    "question_id": "arxiv_e3ca188ac7_001",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "کدام معیار بالاترین امتیاز NDCG را کسب کرد؟",
+    "answer": [
+      [
+        "αS⁢2subscript𝛼𝑆2\\alpha_{S2}italic_α start_POSTSUBSCRIPT italic_S 2 end_POSTSUBSCRIPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_002",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "میانگین امتیاز کندال را برای تمام معیارهایی که با 'αS' شروع می‌شوند، محاسبه کنید.",
+    "answer": [
+      [
+        "0.27075"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_003",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "امتیاز اسپیرمن برای معیاری که کمترین امتیاز کندال را دارد چیست؟",
+    "answer": [
+      [
+        "0.127"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_004",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "open_ended_reasoning",
+    "question": "روند امتیاز اسپیرمن را برای معیارها از αS1 تا αS4 تحلیل کنید. آیا روند به طور مداوم در حال افزایش، کاهش یا نوسانی است؟",
+    "answer": [
+      [
+        "روند امتیاز اسپیرمن از αS1 تا αS4 به طور مداوم در حال افزایش است. مقادیر از 0.39 برای αS1، به 0.394 برای αS2، به 0.4 برای αS3، و در نهایت به 0.409 برای αS4 پیش می‌روند، به طوری که هر معیار بعدی امتیازی بالاتر از معیار قبلی نشان می‌دهد."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_005",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "معیارهای فهرست کنید که در آن‌ها امتیاز NDCG بزرگتر از 0.55 و امتیاز کندال بزرگتر از 0.25 است.",
+    "answer": [
+      [
+        "αS⁢1subscript𝛼𝑆1\\alpha_{S1}italic_α start_POSTSUBSCRIPT italic_S 1 end_POSTSUBSCRIPT"
+      ],
+      [
+        "αS⁢2subscript𝛼𝑆2\\alpha_{S2}italic_α start_POSTSUBSCRIPT italic_S 2 end_POSTSUBSCRIPT"
+      ],
+      [
+        "αS⁢3subscript𝛼𝑆3\\alpha_{S3}italic_α start_POSTSUBSCRIPT italic_S 3 end_POSTSUBSCRIPT"
+      ],
+      [
+        "αS⁢4subscript𝛼𝑆4\\alpha_{S4}italic_α start_POSTSUBSCRIPT italic_S 4 end_POSTSUBSCRIPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_006",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "چه نسبتی از مجموع کل امتیازات اسپیرمن توسط سری معیارهای 'αS' به طور ترکیبی در اختیار گرفته شده است؟ پاسخ خود را به صورت درصدی با دو رقم اعشار گرد شده بیان کنید.",
+    "answer": [
+      [
+        "92.46%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_007",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "اگر امتیاز NDCG برای معیار 'PSR' به طور فرضی با امتیاز NDCG 'Sharpe Ratio' مطابقت داده شود، میانگین امتیاز NDCG جدید برای تمام معیارها در جدول چقدر خواهد بود؟",
+    "answer": [
+      [
+        "0.533"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_008",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "open_ended_reasoning",
+    "question": "با توجه به رابطه بین ستون‌های 'Kendall' و 'NDCG'، چه نوع همبستگی بین این دو معیار قابل استنباط است؟ پاسخ خود را بر اساس داده‌ها توجیه کنید.",
+    "answer": [
+      [
+        "یک همبستگی مثبت قوی بین امتیازات Kendall و NDCG قابل استنباط است. معیارهایی که کمترین امتیاز Kendall را دارند ('Sharpe Ratio' با 0.087 و 'PSR' با 0.085) همچنین کمترین امتیاز NDCG را دارند (0.393 و 0.388). برعکس، چهار معیار 'αS'، که امتیازات Kendall به طور قابل توجهی بالاتری دارند (از 0.265 تا 0.278)، بالاترین امتیازات NDCG را نیز دارند (از 0.589 تا 0.636). این الگو نشان می‌دهد که با افزایش امتیاز Kendall، امتیاز NDCG نیز تمایل به افزایش دارد."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_009",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "کدام یک از سه ستون عددی (اسپیرمن، کندال، NDCG) بیشترین دامنه را بین حداکثر و حداقل مقدار خود دارد؟",
+    "answer": [
+      [
+        "Spearman"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_010",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "متریک‌های 'نسبت شارپ' و 'PSR' در مقایسه با متریک‌های 'αS' یک گروه با امتیاز پایین را تشکیل می‌دهند. برای کدام معیار (اسپیرمن، کندال یا NDCG) تفاوت مطلق بین میانگین امتیاز گروه کم و میانگین امتیاز گروه بالا بیشترین است؟",
+    "answer": [
+      [
+        "Spearman"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "A6",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

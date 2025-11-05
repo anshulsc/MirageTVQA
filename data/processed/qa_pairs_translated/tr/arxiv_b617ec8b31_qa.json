@@ -1,0 +1,202 @@
+[
+  {
+    "question_id": "arxiv_b617ec8b31_001",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "MarS yönteminin mevcut pazarı simüle edilmiş bir pazarla karşılaştırmayı içerdiği uygulama için, ilgili mevcut yöntem neyi karşılaştırır?",
+    "answer": [
+      [
+        "Diff⁡(marketn⁢o⁢w,marketp⁢a⁢s⁢t)"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_002",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Listelenen uygulamaların yüzde kaçı 'üretim' veya 'simülasyon' içeren bir 'MarS' yöntemini kullanıyor?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_003",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "'Detection' uygulaması için MarS yöntemi, 'Mevcut Yöntemler'de kullanılan zamana dayalı karşılaştırmayı nasıl değiştirir?",
+    "answer": [
+      [
+        " 'Detection' için 'Mevcut Yöntemler', mevcut piyasa durumu (market_now) ile geçmiş piyasa durumu (market_past) arasındaki farkı hesaplayarak geçmişe dayalı bir karşılaştırmaya dayanır. MarS yöntemi, bu geçmiş verilere olan bağımlılığı ortadan kaldırır. Bunun yerine, mevcut piyasayı (market_now) eş zamanlı olarak simüle edilmiş bir piyasa (simu-market_now) ile karşılaştırır, bu da karşılaştırmayı zamansal (şimdiye karşı o zaman) bir çerçeveden modele dayalı (gerçek vs. simüle edilmiş) bir çerçeveye kaydırır."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_004",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "'MarS' yönteminin bir 'pipeline' olarak tanımlandığı veya 'generation' içerdiği tüm uygulamalar için 'Mevcut Yöntemleri' listeleyin.",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ],
+      [
+        "online experiments, empirical formula"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B1",
+      "C3",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_005",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "'Mevcut Yöntemler' ve 'MarS' arasında, tarihsel bir karşılaştırmadan simüle edilmiş bir karşılaştırmaya geçiş yaparak yaklaşımda en temel değişikliği gösteren uygulama hangisidir?",
+    "answer": [
+      [
+        "En temel yaklaşım değişikliğini 'Tespit' uygulaması göstermektedir. Mevcut yöntem, zamansal, geçmişe dönük bir karşılaştırmaya dayanır (Diff(market_now, market_past)). Buna karşılık, MarS yöntemi, eşzamanlı bir simüle edilmiş gerçekliğe karşı bir karşılaştırma sunar (Diff(market_now, simu-market_now)). Bu, tablodaki diğer metodolojik değişimlere kıyasla, karşılaştırma için tarihsel bir temelden simüle edilmiş bir temele geçişin önemli bir kavramsal aykırı durum oluşturduğu anlamına gelir."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_006",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "'RL Ortamı' için 'MarS' yaklaşımı, aynı uygulama için 'Mevcut Yöntemlerin' veri kullanılabilirliğini kullanacak şekilde değiştirilirse, bu varsayımsal MarS yöntemini hangi iki özellik tanımlar?",
+    "answer": [
+      [
+        "finite data"
+      ],
+      [
+        "real P(st+1|st,at)"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_007",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "'RL Ortamı' uygulaması için 'Mevcut Yöntemler' ve 'MarS' arasındaki veri kullanılabilirliği ve olasılık dağılımı açısından temel fark nedir?",
+    "answer": [
+      [
+        "Temel fark hem veri hacminde hem de geçiş olasılığının özgünlüğündedir. 'Mevcut Yöntemler' 'sınırlı veriye' ve 'sahte' bir olasılık dağılımına (P(st+1|st,at)) dayanırken, 'MarS' 'sonsuz veri' ve 'gerçek' bir olasılık dağılımı kullanır."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_008",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "'Mevcut Yöntemler' veya 'MarS' için yöntem açıklamalarında 'veri' terimini içeren kaç farklı başvuru listelenmiştir?",
+    "answer": [
+      [
+        "2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_009",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Tabloya göre, MarS'nin Mevcut Yöntemlere kıyasla, özellikle veri ve gerçeklik temsili açısından görünen temel avantajı nedir?",
+    "answer": [
+      [
+        "Genel tema, MarS yöntemlerinin üretken ve simülasyon tabanlı yaklaşımlardan yararlanarak geçmiş veya sınırlı verilerin sınırlamalarının üstesinden gelmeyi amaçladığını öne sürüyor. MarS, ekstrapolasyondan üretime, tarihsel karşılaştırmadan simüle edilmiş karşılaştırmaya ve sonlu/sahte veri modellerinden sonsuz/gerçek veri modellerine geçiş yapar. Bu, analiz ve pekiştirmeli öğrenme için daha sağlam, esnek ve gerçekçi veri ortamları oluşturmada stratejik bir avantaj olduğunu gösteriyor."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_010",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Başlık satırı hariç, tabloda kaç farklı uygulama detaylandırılmıştır?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_011",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Tahminleme için kullanılan mevcut yöntem nedir?",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

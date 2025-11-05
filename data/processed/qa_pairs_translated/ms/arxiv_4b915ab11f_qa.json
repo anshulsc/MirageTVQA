@@ -1,0 +1,188 @@
+[
+  {
+    "question_id": "arxiv_4b915ab11f_001",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Model manakah, antara yang disenaraikan, yang menggunakan seni bina asas terbesar dari segi bilangan parameter?",
+    "answer": [
+      [
+        "XuanYuan2.0"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D1",
+      "D2",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_002",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Berapakah jumlah keseluruhan token dalam korpus yang digunakan untuk melatih BloomBergGPT?",
+    "answer": [
+      [
+        "708B"
+      ]
+    ],
+    "evidence_cells": [
+      "B1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_003",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Berapakah bajet latihan untuk model yang dibina pada seni bina T5?",
+    "answer": [
+      [
+        "Days/weeks"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_004",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Untuk model yang menyatakan proses data latihan dua peringkat, berapakah saiz korpus untuk peringkat pra-latihan?",
+    "answer": [
+      [
+        "366B"
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_005",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Kenal pasti LLM yang menggunakan seni bina berasaskan BLOOM dan mempunyai bajet latihan yang dikeluarkan secara umum dinyatakan dalam jam A100·",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_006",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Berapakah peratusan token awam daripada jumlah korpus latihan BloomBergGPT?",
+    "answer": [
+      [
+        "48.73%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_007",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "open_ended_reasoning",
+    "question": "Sekiranya bajet latihan XuanYuan2.0 didedahkan sebagai 2,500,000 jam A100, bagaimanakah ini akan menjejaskan kedudukan model mengikut bajet latihan?",
+    "answer": [
+      [
+        "Pada masa ini, BloomBergGPT mempunyai satu-satunya bajet numerik yang dinyatakan (1,300,000 jam A100), menjadikannya menduduki tempat pertama. Jika bajet XuanYuan2.0 ialah 2,500,000 jam A100, ia akan menjadi model dengan bajet latihan tertinggi yang diketahui, mengatasi BloomBergGPT. Kedudukan baharu untuk model dengan bajet numerik ialah 1. XuanYuan2.0 (2,500,000) dan 2. BloomBergGPT (1,300,000)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_008",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "open_ended_reasoning",
+    "question": "Adakah terdapat korelasi yang konsisten antara bilangan parameter seni bina model dan jumlah saiz korpus latihannya berdasarkan data ini?",
+    "answer": [
+      [
+        "Tidak, tiada korelasi positif yang konsisten kelihatan dalam data. Contohnya, XuanYuan2.0 mempunyai seni bina yang jauh lebih besar (176B parameter) berbanding BloomBergGPT (50B parameter), namun ia dilatih pada korpus yang lebih kecil (379B token vs 708B token). Ini menunjukkan bahawa model yang lebih besar tidak semestinya memerlukan korpus latihan yang lebih besar menurut set data ini."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_009",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Lajur data manakah yang menunjukkan variasi paling besar dalam format data, mengandungi integer besar, rentetan tidak didedahkan, dan julat berasaskan masa?",
+    "answer": [
+      [
+        "Training budget (A100·hours)"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_010",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Belanjawan latihan model manakah yang merupakan outlier positif yang ketara berbanding dengan maklumat belanjawan yang tersedia untuk model lain?",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_011",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "LLM pra terlatih manakah yang menggunakan seni bina model 50B-BLOOM?",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

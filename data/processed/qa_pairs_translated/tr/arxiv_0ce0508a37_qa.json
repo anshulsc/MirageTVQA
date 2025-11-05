@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "arxiv_0ce0508a37_001",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Hangi piyasa etkisi parametresinin katsayı değeri diğerinin tam iki katıdır?",
+    "answer": [
+      [
+        "Temporary impact coefficient"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C9",
+      "A10",
+      "C10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_002",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Sağlanan olası değerler kümesine göre 'Doğrusallık parametresi' için ortalama değer nedir?",
+    "answer": [
+      [
+        "0.567"
+      ]
+    ],
+    "evidence_cells": [
+      "C11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_003",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "'Piyasa Dinamikleri' altında listelenen en fazla sayıda farklı değere sahip parametrenin sembolü nedir?",
+    "answer": [
+      [
+        "V0subscript𝑉0\\sqrt{V_{0}}square-root start_ARG italic_V start_POSTSUBSCRIPT 0 end_POSTSUBSCRIPT end_ARG"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_004",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "'Başlangıç volatilite', 'Uzun vadeli volatilite' ve 'Ortalama geri dönme hızı' değerlerine dayanarak, modelin zaman içindeki volatilite davranışı hakkında ne gibi çıkarımlar yapılabilir?",
+    "answer": [
+      [
+        "Model, ortalamaya dönen bir volatilite sergiliyor. 'Uzun vadeli volatilite', bir çapa görevi gören 0.3 olarak sabitlenmiş durumda. 'Başlangıç volatilite' daha yüksek (0.4), daha düşük (0.2) veya uzun vadeli seviyede (0.3) başlayabilir. Başlangıç noktası ne olursa olsun, volatilitenin zamanla 0.3'e doğru sürüklenmesi bekleniyor; bu sürecin hızı, 2.0 olan 'Ortalama geri dönme hızı' tarafından yönetiliyor. Bu, yüksek veya düşük volatilite dönemlerinin kalıcı olmadığı anlamına gelir."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_005",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "'Market Dynamics' kategorisi altında, birden çok olası değer olarak sunulan ve listelenen tüm değerlerin negatif olmadığı parametreleri listele.",
+    "answer": [
+      [
+        "Drift rate"
+      ],
+      [
+        "Initial volatility"
+      ],
+      [
+        "Volatility of variance"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_006",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "'Risk aversion' tanımının risk toleransının tersi olduğu ve hem 'Permanent impact' hem de 'Temporary impact' değerlerinin 10 katına çıktığı varsayıldığında, 'Temporary impact coefficient' ile 'Risk aversion' arasındaki yeni oran ne olur?",
+    "answer": [
+      [
+        "50.0"
+      ]
+    ],
+    "evidence_cells": [
+      "C10",
+      "C13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_007",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "'Ortalama geri dönme hızı' %50 azalırsa ve 'varyansın oynaklığı' değerleri 0.1 artarsa, 'Ortalama geri dönme hızı' ile 'varyansın oynaklığı'nın maksimum değeri arasındaki yeni toplam ne olur?",
+    "answer": [
+      [
+        "1.4"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_008",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "Tabloda 'Korelasyon' değeri -0.7 olarak belirtilmiş. Finansal bir modelde, bu güçlü negatif değer tipik olarak bir varlığın fiyatı ile oynaklığı arasındaki ilişki hakkında ne anlama gelir?",
+    "answer": [
+      [
+        " -0.7 korelasyonu, kaldıraç etkisi olarak da bilinen güçlü bir ters ilişkiyi ifade eder. Bu, varlığın fiyatı düştükçe oynaklığının artma eğiliminde olduğu, tersine, varlığın fiyatı arttıkça oynaklığının azalma eğiliminde olduğu anlamına gelir. Bu, gerçekçi varlık fiyatı modellemesi ve türev fiyatlandırması için önemli bir özelliktir."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_009",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Tablodaki kaç parametre tek bir sabit değer yerine bir dizi olası değerle tanımlanmıştır?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_010",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Değeri tek negatif olan nitel bir aykırı değer hangi parametredir?",
+    "answer": [
+      [
+        "Correlation"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_011",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Modelde ortalama sıfırlama hızı ne olarak ayarlanmıştır?",
+    "answer": [
+      [
+        "2.0"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

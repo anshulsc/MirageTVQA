@@ -1,0 +1,255 @@
+[
+  {
+    "question_id": "arxiv_a92c4de096_001",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "सबैभन्दा धेरै विकल्पहरूको सूची भएको हाइपरप्यारामिटर कुन कुन हुन्?",
+    "answer": [
+      [
+        "Sequence size"
+      ],
+      [
+        "TRADES Layers"
+      ],
+      [
+        "Augmentation Dim."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_002",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "तिनीहरूको खोज अन्तरिक्षमा दुईभन्दा बढी सम्भावित मानहरू भएका कति हाइपरप्यारामिटरहरू परीक्षण गरियो?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_003",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "कुन हाइपरप्यारामिटरको लागि खोजी स्पेस त्यो हो जसमा सबैभन्दा सानो संख्यात्मक मान शून्यभन्दा ठूलो छ?",
+    "answer": [
+      [
+        "{10−3,10−4}superscript103superscript104\\{{10^{-3}},10^{-4}\\}{ 10 start_POSTSUPERSCRIPT - 3 end_POSTSUPERSCRIPT , 10 start_POSTSUPERSCRIPT - 4 end_POSTSUPERSCRIPT }"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_004",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "ती हाइपरप्यारामिटरहरूको सूची बनाउनुहोस् जसको लागि 'उत्तम विकल्प' तिनीहरूको सम्बन्धित 'खोज स्पेस'मा उपलब्ध उच्चतम मान थियो।",
+    "answer": [
+      [
+        "Learning Rate"
+      ],
+      [
+        "Dropout"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_005",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "संख्यात्मक हाइपरप्यारामिटरहरूको कति अंशको 'उत्तम छनोट' तिनीहरूको क्रमबद्ध 'खोज स्पेस' (अर्थात्, न्यूनतम वा अधिकतम मान नभएको) को बीचबाट चयन गरिएको थियो?",
+    "answer": [
+      [
+        "5/7"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_006",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "'TRADES Layers' को खोजी कार्य ८ भन्दा कम मानहरूमा मात्र सीमित गरिएको भए, यस हाइपरप्यारामिटरको लागि 'Best Choice' के हुन्थ्यो, यदि मूल खोजी स्थानबाट अर्को सबैभन्दा राम्रो उपलब्ध विकल्प रोजिएको थियो भने?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_007",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "हाइपरप्यारामिटरको खोज स्पेस (search space) को आकार र 'उत्कृष्ट छनोट' (Best Choice) न्यूनतम/अधिकतम जस्तो चरम वा बीचको मान हो कि होइन भन्ने बीच कुनै अवलोकन योग्य सम्बन्ध छ? आफ्नो तर्कको व्याख्या गर्नुहोस्।",
+    "answer": [
+      [
+        "हो, त्यहाँ एक स्पष्ट ढाँचा छ। दुई विकल्पहरूको सानो खोज स्पेस भएका हाइपरप्यारामिटरहरू (लर्निङ रेट, ड्रपआउट) का लागि, उत्कृष्ट छनोट अधिकतम मान थियो। तीन वा चार विकल्पहरूको ठूलो खोज स्पेस भएका सबै हाइपरप्यारामिटरहरूका लागि, इष्टतम मान दायराको बीचमा पाइयो, कहिल्यै पनि सीमाहरूमा होइन। यसले सुझाव दिन्छ कि यस मोडेलका लागि, फाइन-ट्यूनिङ प्रक्रिया लाभदायक छ, र प्रारम्भिक फराकिलो दायराहरूले परीक्षण गरिएको स्पेसको सीमामा नभएको इष्टतम क्षेत्रलाई सफलतापूर्वक समेटेको छ।"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_008",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "कुन हाइपरप्यारामिटरको सर्च स्पेस गैर-संख्यात्मक लेबल प्रयोग गरी वर्णन गरिएको छ?",
+    "answer": [
+      [
+        "Optimizer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_009",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "कुन हाइपरप्यारामिटरको 'उत्तम छनोट' मान संख्यात्मक रूपमा अरूभन्दा धेरै टाढा छ, जुन अर्को सबैभन्दा ठूलो संख्यात्मक 'उत्तम छनोट' भन्दा कम्तिमा चार गुणा बढी छ?",
+    "answer": [
+      [
+        "Sequence size"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_010",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "'Sequence size', 'TRADES Layers', 'Augmentation Dim.' जस्ता हाइपरप्यारामिटरहरूमा चारवटा विकल्पहरू भएकोमा, तिनीहरूको 'Best Choice' मानहरूमा के साझा विशेषता छ, र यसले ट्युनिङ रणनीतिको बारेमा के सङ्केत गर्छ?",
+    "answer": [
+      [
+        "साझा विशेषता यो हो कि तीनवटै हाइपरप्यारामिटरहरूको लागि, 'Best Choice' चरम (न्यूनतम वा अधिकतम) नभई मध्यवर्ती मान हो। 'Best Choices' क्रमशः २५६ (४ मध्ये तेस्रो), ८ (४ मध्ये तेस्रो), र ६४ (४ मध्ये दोस्रो) हुन्। यसले एक सफल ट्युनिङ रणनीतिको सङ्केत गर्छ जहाँ इष्टतम मानलाई कोष्ठकभित्र राख्नको लागि पर्याप्त विस्तृत खोज स्पेस थियो, जसले यी प्यारामीटरहरूको लागि कार्यसम्पादन मान बढाउनाले मात्र नबढ्ने तर परीक्षण गरिएको दायरा भित्र कतै चरम सीमामा पुग्ने देखाउँछ।"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_011",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Optimizer को लागि उत्कृष्ट छनोट के हो?",
+    "answer": [
+      [
+        "Adam"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

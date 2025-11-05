@@ -1,0 +1,306 @@
+[
+  {
+    "question_id": "arxiv_e9fef14615_001",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Hvilken model opnåede den højeste F1-score på 'ccfraud'-datasættet?",
+    "answer": [
+      [
+        "Gemini"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "E4",
+      "C4",
+      "D4",
+      "F4",
+      "G4",
+      "H4",
+      "I4",
+      "J4",
+      "K4",
+      "L4",
+      "M4",
+      "N4",
+      "O4",
+      "E10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_002",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Hvad er den gennemsnitlige 'Acc'-score for 'GPT 4'-modellen på tværs af alle datasæt, hvor denne metrik blev brugt?",
+    "answer": [
+      [
+        "0.543"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B5",
+      "D5",
+      "B9",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_003",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Identificer datasættet, hvor 'FinMA 7B' opnåede sin højeste score, og list derefter modellen(e), der scorede nul på den samme opgave.",
+    "answer": [
+      [
+        "taiwan",
+        "Falcon 7B"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "I11",
+      "L11",
+      "I1",
+      "I2",
+      "I3",
+      "I4",
+      "I5",
+      "I6",
+      "I7",
+      "I8",
+      "I9",
+      "I12",
+      "I10",
+      "L10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_004",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "På datasættet 'TSA', hvilken model udviser det største fald i ydeevne sammenlignet med modellen angivet i kolonnen umiddelbart til venstre for den, og hvad er værdien af dette fald?",
+    "answer": [
+      [
+        "FinGPT 7B-lora",
+        "0.80"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "I3",
+      "J3",
+      "I10",
+      "J10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_005",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Identificer alle datasæt, hvor 'Gemini'-modellen opnåede en score på 0,90 eller derover, OG hvor 'Chat GPT'-modellen scorede 0,20 eller derunder.",
+    "answer": [
+      [
+        "ccfraud"
+      ],
+      [
+        "taiwan"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "E4",
+      "A11",
+      "C11",
+      "E11",
+      "C10",
+      "E10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_006",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "For 'LendingClub'-datasættet, hvor stor en procentdel af den kumulative score fra alle modeller kan tilskrives de tre bedst ydende modeller til denne opgave? Rund til én decimal.",
+    "answer": [
+      [
+        "41.3%"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "G6",
+      "H6",
+      "I6",
+      "J6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "O6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_007",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Hvis enhver score for 'LLaMA2 70B'-modellen blev øget med 10%, hvad ville dens nye gennemsnitlige score være på tværs af alle evaluerede opgaver? Rund af til tre decimaler.",
+    "answer": [
+      [
+        "0.354"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G11",
+      "G12",
+      "G10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_008",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "open_ended_reasoning",
+    "question": "Undersøg de opgaver, der måles ved 'F1' eller 'MicroF1' metrikkerne. Er der et konsistent præstationsforhold mellem 'GPT 4' og 'Gemini' modellerne? Forklar din begrundelse.",
+    "answer": [
+      [
+        "Der er ingen stærk positiv korrelation, men der er et klart præstationshierarki. På de F1-baserede opgaver overgår Gemini konsekvent eller matcher GPT 4. For datasættene 'ccfraud' og 'taiwan' er Geminis score (0.90 og 0.95) væsentligt højere end GPT 4's score (0.55 for begge). For 'LendingClub' er Gemini (0.65) stadig moderat højere end GPT 4 (0.55). Kun på 'MLESG'-datasættet er deres scorer næsten identiske (0.35 vs. 0.34). Dette tyder på, at selvom deres præstation ikke er tæt korreleret, er Gemini generelt en bedre model til disse specifikke F1-målte opgaver."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "D4",
+      "E4",
+      "B6",
+      "D6",
+      "E6",
+      "B11",
+      "D11",
+      "E11",
+      "B12",
+      "D12",
+      "E12",
+      "D10",
+      "E10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_009",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Baseret på præstationsdataene, hvilke to datasæt viser scores på nul på tværs af enhver enkelt testet model, hvilket tyder på en potentiel evalueringsfejl eller en opgave, som ingen model kunne fuldføre?",
+    "answer": [
+      [
+        "FNXL"
+      ],
+      [
+        "ECTSUM"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "H7",
+      "I7",
+      "J7",
+      "K7",
+      "L7",
+      "M7",
+      "N7",
+      "O7",
+      "A8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "G8",
+      "H8",
+      "I8",
+      "J8",
+      "K8",
+      "L8",
+      "M8",
+      "N8",
+      "O8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_010",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "open_ended_reasoning",
+    "question": "For 'Gemini'-modellen, hvilken datasætscore repræsenterer den mest markante positive præstationsafvigelse, og hvorfor?",
+    "answer": [
+      [
+        "Scoren for 'taiwan'-datasættet (0.95) er den mest markante positive afvigelse for Gemini-modellen. Beregning af gennemsnittet af Geminis ikke-nul scores giver cirka 0.615. Scoren på 0.95 er den højeste værdi og længst væk fra dette gennemsnit sammenlignet med alle andre scores. Denne usædvanligt høje ydeevne antyder, at Gemini-modellen er exceptionelt velegnet til den opgave, der er defineret af 'taiwan'-datasættet og 'F1'-metrikken, eller at selve opgaven var væsentligt lettere for denne model end for de andre."
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "B11",
+      "E11",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E12",
+      "E10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_011",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvilken model demonstrerer robust generalisering på tværs af både entitetsekstraktion (NER, FINER-ORD) og sentimentklassificeringsopgaver (FPB, SC)?",
+    "answer": [
+      [
+        "GPT-4 præsterer konsekvent godt på tværs af både datasæt til entitetsekstraktion og sentimentklassificering, og opnår høje EntityF1- og F1-scorer sammenlignet med andre modeller."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A5",
+      "J5",
+      "A9",
+      "J9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

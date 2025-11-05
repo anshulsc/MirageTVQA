@@ -1,0 +1,243 @@
+[
+  {
+    "question_id": "arxiv_5ef1fd398c_001",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Welche 'Focus Category' kommt in der Tabelle am häufigsten vor?",
+    "answer": [
+      [
+        "Financial Indicator"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "A15"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_002",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Wie viele verschiedene Fokus-Kategorien enthalten genau drei Fokus-Elemente?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_003",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Welcher 'Focus Item' in der Kategorie, die 'Pension' einschließt, hat Fragen bezüglich der Vergütung und der Leistungen der Mitarbeiter?",
+    "answer": [
+      [
+        "Salary"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_004",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Welcher 'Focus Item' hat Fragen, die sich am explizitesten auf den Vergleich der Leistung über verschiedene vergangene Zeiträume, wie Quartal für Quartal und Jahr für Jahr, konzentrieren?",
+    "answer": [
+      [
+        "Revenue"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_005",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Listen Sie alle 'Focus Items' unter der Kategorie 'Expansion' auf, die nicht explizit physische Produkte erwähnen.",
+    "answer": [
+      [
+        "Geographic Expansion"
+      ],
+      [
+        "Market Segmentation Expansion"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "B11",
+      "A12",
+      "B12",
+      "A13",
+      "B13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_006",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Welcher Anteil der 'Focus Items' in der Kategorie 'Financial Indicator' befasst sich direkt mit Aktionärsrenditen (z. B. Dividenden, ROE, Aktienrückkäufe)?",
+    "answer": [
+      [
+        "2/4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_007",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "open_ended_reasoning",
+    "question": "Wenn der 'Dividend' Fokuspunkt unter einer neuen Kategorie 'Shareholder Value' neu kategorisiert würde, wie würde sich die Anzahl der Elemente in der Kategorie 'Financial Indicator' ändern?",
+    "answer": [
+      [
+        "Die Anzahl der Elemente würde von 4 auf 3 sinken."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_008",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "open_ended_reasoning",
+    "question": "Welche Beziehung wird impliziert zwischen einer Änderung des Unternehmensmanagements und dessen Unternehmensstrategie, basierend auf den bereitgestellten Fragen?",
+    "answer": [
+      [
+        "Die Tabelle impliziert eine direkte kausale Beziehung, da Frage Q3 für 'Management Change' explizit nach den erwarteten Auswirkungen solcher Änderungen auf die Unternehmensstrategie fragt. Dies deutet darauf hin, dass Führungswechsel als Schlüsseltreiber für strategische Verschiebungen angesehen werden."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_009",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Identifizieren Sie die 'Fokus-Elemente', die strukturelle Ausreißer darstellen, bei denen der Elementname mit seinem Kategorienamen identisch ist und es das einzige Element in dieser Kategorie ist.",
+    "answer": [
+      [
+        "Business"
+      ],
+      [
+        "Future Outlook"
+      ]
+    ],
+    "evidence_cells": [
+      "A14",
+      "B14",
+      "A15",
+      "B15"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_010",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "open_ended_reasoning",
+    "question": "Vergleichen Sie den thematischen Fokus der Fragen für 'Financial Indicator'-Elemente mit denen für 'Employee Manager'-Elemente.",
+    "answer": [
+      [
+        "Die Fragen zu 'Financial Indicator'-Elementen sind extern auf quantitative Leistungsmetriken wie Umsatz, Dividenden und Gewinne ausgerichtet, hauptsächlich für die Investorenanalyse. Im Gegensatz dazu konzentrieren sich die Fragen zu 'Employee Manager' intern auf Humankapital und administrative Aspekte wie Gehälter, Pensionsverpflichtungen und die Auswirkungen von Managementwechseln, die interne Abläufe und das Wohlbefinden der Mitarbeiter betreffen."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_011",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Wie viele Fokus-Elemente fallen unter die Kategorie \"Financial Indicator\"?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

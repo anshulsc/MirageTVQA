@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "arxiv_0ce0508a37_001",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "איזה פרמטר של השפעת שוק בעל מקדם שהוא בדיוק כפול מהשני?",
+    "answer": [
+      [
+        "Temporary impact coefficient"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C9",
+      "A10",
+      "C10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_002",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "מהי הערך הממוצע עבור 'מקדם אי-לינאריות' בהתבסס על קבוצת הערכים האפשריים שסופקו?",
+    "answer": [
+      [
+        "0.567"
+      ]
+    ],
+    "evidence_cells": [
+      "C11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_003",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "מהו הסמל לפרמטר תחת 'דינמיקת שוק' שיש לו את המספר הגדול ביותר של ערכים שונים המפורטים?",
+    "answer": [
+      [
+        "V0subscript𝑉0\\sqrt{V_{0}}square-root start_ARG italic_V start_POSTSUBSCRIPT 0 end_POSTSUBSCRIPT end_ARG"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_004",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "בהתבסס על הערכים עבור 'תנודתיות התחלתית', 'תנודתיות לטווח ארוך', ו-'מהירות חזרה לממוצע', מה ניתן להסיק לגבי התנהגות התנודתיות של המודל לאורך זמן?",
+    "answer": [
+      [
+        "המודל מפגין תנודתיות חוזרת לממוצע. 'התנודתיות לטווח ארוך' מקובעת על 0.3, המשמשת כעוגן. 'התנודתיות ההתחלתית' יכולה להתחיל גבוה יותר (0.4), נמוך יותר (0.2), או ברמת הטווח הארוך (0.3). ללא קשר לנקודת ההתחלה, התנודתיות צפויה להיסחף לכיוון 0.3 לאורך זמן, תהליך שקצב ההתקדמות שלו נשלט על ידי 'מהירות החזרה לממוצע' של 2.0. זה אומר שתקופות של תנודתיות גבוהה או נמוכה אינן קבועות."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_005",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "רשום את כל הפרמטרים תחת הקטגוריה 'דינמיקת שוק' המוצגים כמערך של ערכים אפשריים מרובים, כאשר כל הערכים הרשומים אינם שליליים.",
+    "answer": [
+      [
+        "Drift rate"
+      ],
+      [
+        "Initial volatility"
+      ],
+      [
+        "Volatility of variance"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_006",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "אם 'נטיות הסיכון' מוגדרות כיחס ההפוך לסבילות לסיכון, ושני הערכים של 'פגיעה קבועה' ו'פגיעה זמנית' יגדלו פי 10, מה יהיה היחס החדש בין 'מקדם הפגיעה הזמנית' ל'נטיות הסיכון'?",
+    "answer": [
+      [
+        "50.0"
+      ]
+    ],
+    "evidence_cells": [
+      "C10",
+      "C13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_007",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "אם 'מהירות חזרה לממוצע' הייתה יורדת ב-50%, וערכי 'תנודתיות התנודתיות' היו עולים ב-0.1, מה היה הסכום החדש של 'מהירות חזרה לממוצע' ושל 'תנודתיות התנודתיות' המקסימלית?",
+    "answer": [
+      [
+        "1.4"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_008",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "הטבלה מציינת ערך 'מתאם' של -0.7. במודל פיננסי, מה ערך שלילי חזק זה מרמז בדרך כלל על הקשר בין מחיר נכס לתנודתיות שלו?",
+    "answer": [
+      [
+        "מתאם של -0.7 מסמן קשר הפוך חזק, המכונה לעיתים קרובות 'אפקט המינוף'. הוא מרמז שכאשר מחיר הנכס יורד, התנודתיות שלו נוטה לעלות, ולהיפך, כאשר מחיר הנכס עולה, התנודתיות שלו נוטה לרדת. זוהי תכונה חיונית למודלים ריאליסטיים של מחירי נכסים ותמחור נגזרים."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_009",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "כמה פרמטרים בטבלה מוגדרים על ידי קבוצה של ערכים אפשריים מרובים ולא על ידי ערך קבוע יחיד?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_010",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "איזה פרמטר בודד הוא חריג איכותי מכיוון שהערך שלו הוא היחיד שהוא שלילי?",
+    "answer": [
+      [
+        "Correlation"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_011",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "מהי מהירות ההתכנסות לממוצע המוגדרת במודל?",
+    "answer": [
+      [
+        "2.0"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

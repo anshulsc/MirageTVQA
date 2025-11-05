@@ -1,0 +1,188 @@
+[
+  {
+    "question_id": "arxiv_4b915ab11f_001",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Care model, dintre cele enumerate, utilizează cea mai mare arhitectură de bază în ceea ce privește numărul de parametri?",
+    "answer": [
+      [
+        "XuanYuan2.0"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D1",
+      "D2",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_002",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Care este numărul total de tokeni din corpusul folosit pentru antrenarea BloomBergGPT?",
+    "answer": [
+      [
+        "708B"
+      ]
+    ],
+    "evidence_cells": [
+      "B1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_003",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Care este bugetul de antrenament pentru modelul construit pe arhitectura T5?",
+    "answer": [
+      [
+        "Days/weeks"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_004",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Pentru modelul care specifică un proces de date de antrenament în două etape, care a fost dimensiunea corpusului pentru etapa de pre-antrenament?",
+    "answer": [
+      [
+        "366B"
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_005",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Identifică LLM-ul care folosește o arhitectură bazată pe BLOOM și are un buget de antrenament lansat public specificat în ore A100·.",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_006",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Ce procent din corpusul total de antrenament al BloomBergGPT este format din token-uri publice?",
+    "answer": [
+      [
+        "48.73%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_007",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "open_ended_reasoning",
+    "question": "Dacă bugetul de antrenament al XuanYuan2.0 ar fi dezvăluit ca fiind de 2.500.000 de ore A100, cum ar afecta acest lucru clasamentul modelelor după bugetul de antrenament?",
+    "answer": [
+      [
+        "În prezent, BloomBergGPT are singurul buget numeric specificat (1.300.000 de ore A100), ceea ce îl face să ocupe primul loc. Dacă bugetul XuanYuan2.0 ar fi de 2.500.000 de ore A100, acesta ar deveni modelul cu cel mai mare buget de antrenament cunoscut, depășind BloomBergGPT. Noul clasament pentru modelele cu bugete numerice ar fi 1. XuanYuan2.0 (2.500.000) și 2. BloomBergGPT (1.300.000)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_008",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "open_ended_reasoning",
+    "question": "Există o corelație consistentă între numărul de parametri ai arhitecturii unui model și dimensiunea totală a corpusului său de antrenament, pe baza acestor date?",
+    "answer": [
+      [
+        "Nu, nu există o corelație pozitivă consistentă evidentă în date. De exemplu, XuanYuan2.0 are o arhitectură mult mai mare (176 miliarde de parametri) decât BloomBergGPT (50 miliarde de parametri), totuși a fost antrenat pe un corpus mai mic (379 miliarde de tokeni față de 708 miliarde de tokeni). Acest lucru sugerează că un model mai mare nu necesită neapărat un corpus de antrenament mai mare, conform acestui set de date."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_009",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Ce coloană de date prezintă cea mai mare variație în formatul datelor, conținând un număr întreg mare, un șir de nedezvăluire și un interval bazat pe timp?",
+    "answer": [
+      [
+        "Training budget (A100·hours)"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_010",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Al cărui model este bugetul de antrenament declarat un outlier pozitiv semnificativ în comparație cu informațiile despre buget disponibile pentru celelalte modele?",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_011",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Ce LLM pre-antrenat folosește arhitectura modelului 50B-BLOOM?",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,235 @@
+[
+  {
+    "question_id": "arxiv_146818ba46_001",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "Aling mga modelo ang nag-aalok ng Sublinear scalability, at ano ang pangunahing pagkakaiba sa kanilang mga suportadong feature ('Pre-training', 'Multi-task')?",
+    "answer": [
+      [
+        "Ang TimeMixer at PatchTST ay nag-aalok ng Sublinear scalability. Ang pangunahing pagkakaiba ay sinusuportahan ng TimeMixer ang pag-aaral ng Multi-task habang ang PatchTST ay hindi; wala sa mga modelong ito ang gumagamit ng Pre-training."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "E3",
+      "A5",
+      "B5",
+      "C5",
+      "E5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_002",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Ano ang kabuuang bilang ng mga modelo na sumusuporta sa alinman sa Pre-training o Multi-task learning, ngunit hindi pareho?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_146818ba46_003",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Tukuyin ang pangunahing aplikasyon ng model na may Linear scalability at Medium compute requirements.",
+    "answer": [
+      [
+        "Task Flexibility"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_004",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Kung ang isang proyekto sa pananaliksik ay nagsimula sa pangangailangan ng modelo para sa 'Long Sequences' at kalaunan ay nangailangan ng isa na may 'Task Flexibility', alin ang modelong angkop na pagpipilian sa ikalawang yugto?",
+    "answer": [
+      [
+        "TimesNet"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "F4",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_005",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Ilista ang mga modelo na hindi gumagamit ng pre-training at nag-aalok ng sublinear scalability.",
+    "answer": [
+      [
+        "TimeMixer"
+      ],
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "E3",
+      "A5",
+      "B5",
+      "E5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_006",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Anong proporsyon ng mga modelong nakalista ang nangangailangan ng 'High' na compute resources?",
+    "answer": [
+      [
+        "40%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_146818ba46_007",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "Kung ang 'TimesNet' ay pinahusay upang suportahan ang 'Pre-training', aling umiiral na modelo ang pinakamalapit na kahahawigan nito sa mga tuntunin ng mga tampok nito (Pre-training, Multi-task, Compute, Scalability)?",
+    "answer": [
+      [
+        "Ang pinahusay na TimesNet ay hindi lubos na kahahawig ng anumang iba pang solong modelo. Bagaman ito ay magbabahagi ng 'Pre-training', 'Multi-task', at 'Linear' scalability sa Timer at MOMENT, ang 'Medium' compute nito ay magpapatuloy na magpapaiba dito mula sa kanilang 'High' compute requirements."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "B4",
+      "C4",
+      "D4",
+      "E4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_008",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "Mayroon bang malinaw na ugnayan sa pagitan ng scalability ng isang modelo at ang pangunahing aplikasyon nito na nakatuon sa haba ng sequence o flexibility?",
+    "answer": [
+      [
+        "Oo, tila may ugnayan. Ang mga modelong may mas mahusay na 'Sublinear' scalability (TimeMixer, PatchTST) ay nauugnay sa mga aplikasyon na nagsasangkot ng mga kumplikadong pattern o mahahabang sequence ('Multiscale Patterns', 'Long Sequences'). Sa kabaligtaran, ang mga modelong may 'Linear' scalability ay karaniwang ginagamit sa mga gawain na nangangailangan ng flexibility o pag-aaral sa ilalim ng mga limitasyon ('Few-shot Learning', 'Limited Supervision', 'Task Flexibility')."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "E2",
+      "F2",
+      "E3",
+      "F3",
+      "E4",
+      "F4",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_146818ba46_009",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Aling column, maliban sa 'Model', ang naglalaman ng pinaka-diverse na hanay ng mga natatanging halaga?",
+    "answer": [
+      [
+        "Primary Application"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_010",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Aling modelo ang hindi sumusuporta sa Pre-training o Multi-task learning?",
+    "answer": [
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_146818ba46_011",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Ano ang pangunahing aplikasyon ng Timer?",
+    "answer": [
+      [
+        "Few-shot Learning"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

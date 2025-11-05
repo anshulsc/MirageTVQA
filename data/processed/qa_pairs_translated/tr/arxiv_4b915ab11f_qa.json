@@ -1,0 +1,188 @@
+[
+  {
+    "question_id": "arxiv_4b915ab11f_001",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Listelenen modeller arasında parametre sayısı açısından en büyük temel mimariyi hangisi kullanıyor?",
+    "answer": [
+      [
+        "XuanYuan2.0"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D1",
+      "D2",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_002",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "BloomBergGPT'yi eğitmek için kullanılan veri kümesindeki toplam belirteç sayısı nedir?",
+    "answer": [
+      [
+        "708B"
+      ]
+    ],
+    "evidence_cells": [
+      "B1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_003",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "T5 mimarisi üzerine kurulu modelin eğitim bütçesi nedir?",
+    "answer": [
+      [
+        "Days/weeks"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_004",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "İki aşamalı bir eğitim veri süreci belirten model için ön eğitim aşamasındaki derlem boyutu neydi?",
+    "answer": [
+      [
+        "366B"
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_005",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "BLOOM tabanlı bir mimari kullanan ve A100·saat olarak belirtilen kamuya açık bir eğitim bütçesine sahip olan LLM'yi tanımlayın.",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_006",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "BloomBergGPT'nin toplam eğitim veri kümesinin yüzde kaçı genel belirteçlerden oluşmaktadır?",
+    "answer": [
+      [
+        "48.73%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_007",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "open_ended_reasoning",
+    "question": "XuanYuan2.0'ın eğitim bütçesi 2.500.000 A100·saat olarak açıklanırsa, bu durum modellerin eğitim bütçesine göre sıralamasını nasıl etkiler?",
+    "answer": [
+      [
+        "Şu anda, BloomBergGPT'nin belirtilen tek sayısal bütçesi (1.300.000 A100·saat) bulunmaktadır, bu da onu birinci sıraya yerleştirmektedir. XuanYuan2.0'ın bütçesi 2.500.000 A100·saat olsaydı, BloomBergGPT'yi aşarak en yüksek bilinen eğitim bütçesine sahip model haline gelirdi. Sayısal bütçeli modeller için yeni sıralama şu şekilde olurdu: 1. XuanYuan2.0 (2.500.000) ve 2. BloomBergGPT (1.300.000)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_008",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "open_ended_reasoning",
+    "question": "Bu veriye göre, bir modelin mimarisinin parametre sayısı ile eğitim veri kümesinin toplam boyutu arasında tutarlı bir korelasyon var mı?",
+    "answer": [
+      [
+        "Hayır, veride tutarlı bir pozitif korelasyon görünmüyor. Örneğin, XuanYuan2.0, BloomBergGPT'den (50 milyar parametre) çok daha büyük bir mimariye (176 milyar parametre) sahip olmasına rağmen, daha küçük bir veri kümesi üzerinde eğitildi (379 milyar jeton - 708 milyar jetona karşılık). Bu, daha büyük bir modelin bu veri kümesine göre zorunlu olarak daha büyük bir eğitim veri kümesi gerektirmediğini düşündürmektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_009",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Veri formatında en fazla çeşitliliğe sahip olan, büyük bir tamsayı, açıklanmayan bir dize ve zamana dayalı bir aralık içeren veri sütunu hangisidir?",
+    "answer": [
+      [
+        "Training budget (A100·hours)"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_010",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Mevcut olan diğer modellerin bütçe bilgileriyle karşılaştırıldığında, hangi modelin belirtilen eğitim bütçesi önemli ölçüde pozitif bir aykırı değerdir?",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_011",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Hangi ön eğitimli LLM 50B-BLOOM model mimarisini kullanır?",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,214 @@
+[
+  {
+    "question_id": "arxiv_bed80d3901_001",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Qual consulta exige a análise do maior número de métricas financeiras primárias?",
+    "answer": [
+      [
+        "What were the return on average assets and ROWC of Halliburton co. and other companies in the energy sector from Apr 2016 to Jul 2017 compared to their Gross Profit Margin and CROAFA?"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "A3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_002",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Calcule o número total de 'Métricas Relacionadas' individuais listadas em todas as três consultas.",
+    "answer": [
+      [
+        "22"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_003",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Para a consulta que envolve a comparação de uma empresa com seus concorrentes, qual é o intervalo de datas exato especificado na 'Solicitação de Dados Estruturados' correspondente?",
+    "answer": [
+      [
+        "(1/9/2018 - 30/9/2018)"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_004",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Qual consulta em linguagem natural corresponde à solicitação estruturada que cobre o período de tempo mais longo?",
+    "answer": [
+      [
+        "What were the return on average assets and ROWC of Halliburton co. and other companies in the energy sector from Apr 2016 to Jul 2017 compared to their Gross Profit Margin and CROAFA?"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_005",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Liste todas as métricas primárias solicitadas para consultas que se referem especificamente a uma empresa com um identificador legal como 'plc' ou 'Co.' no campo 'Required Data'.",
+    "answer": [
+      [
+        "Quick Ratio"
+      ],
+      [
+        "Bid Size"
+      ],
+      [
+        "Cash Conversion Efficiency Ratio"
+      ],
+      [
+        "Return on Average Assets"
+      ],
+      [
+        "Return on Working Capital"
+      ],
+      [
+        "Gross Profit Margin"
+      ],
+      [
+        "Cash Return on Average Fixed Assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_006",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Para a consulta da Amcor plc, qual porcentagem de todas as métricas listadas na 'Solicitação de Dados Estruturados' contém explicitamente a palavra 'Cash'?",
+    "answer": [
+      [
+        "28.57%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_007",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "Se a consulta em linguagem natural para a Adobe fosse expandida para incluir uma solicitação de 'Retorno sobre Capital de Giro', como a lista de métricas na 'Solicitação de Dados Estruturados' seria modificada, usando as informações da consulta da Halliburton como modelo?",
+    "answer": [
+      [
+        "A seção de métricas da 'Solicitação de Dados Estruturados' seria atualizada para incluir 'Retorno sobre Capital de Giro' e seus componentes relacionados da consulta da Halliburton. Isso significaria adicionar 'Retorno sobre Capital de Giro; Lucro Líquido; Capital de Giro' à lista existente, resultando em: (Receita de Vendas; Receita Total; Valor Econômico Agregado; Lucro Operacional Líquido após Impostos (NOPAT); Custo de Capital; Retorno sobre Capital de Giro; Lucro Líquido; Capital de Giro)."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_008",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "Com base nos dados fornecidos, qual é a relação aparente entre a complexidade de uma 'Query' em linguagem natural e o número total de métricas especificadas na 'Structured Data Request'?",
+    "answer": [
+      [
+        "Parece haver uma correlação positiva. As duas consultas mais complexas (para Amcor e Halliburton) correspondem a um número significativamente maior de métricas em seus pedidos estruturados (14 e 12, respectivamente) em comparação com a consulta mais simples para Adobe, que tem apenas 5 métricas. Isso sugere que, à medida que a profundidade analítica da pergunta do usuário aumenta, a carga de dados necessária também aumenta."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_009",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Qual coluna serve à função de analisar a consulta de linguagem natural em um formato semiestruturado que lista explicitamente empresas, métricas primárias, submétricas relacionadas e o período de tempo solicitado?",
+    "answer": [
+      [
+        "Required Data"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_010",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "Analise as informações temporais nas colunas 'Required Data' e 'Structured Data Request'. Existe alguma consulta onde estas duas colunas apresentam um período de tempo conflitante? Se sim, identifique a consulta e descreva a discrepância.",
+    "answer": [
+      [
+        "Sim, a consulta da Amcor plc mostra uma discrepância significativa. A seção 'Required Data' especifica um período de 'nos últimos 6 meses', enquanto o 'Structured Data Request' correspondente especifica um período muito mais curto de 7 dias '(7/1/2024 - 7/7/2024)'. As outras duas consultas mostram consistência temporal entre as colunas."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_011",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Quantas empresas únicas são mencionadas nos dados?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

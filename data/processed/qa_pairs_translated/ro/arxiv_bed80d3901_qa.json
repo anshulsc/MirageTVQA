@@ -1,0 +1,214 @@
+[
+  {
+    "question_id": "arxiv_bed80d3901_001",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Care interogare necesită analiza celui mai mare număr de indicatori financiari primari?",
+    "answer": [
+      [
+        "What were the return on average assets and ROWC of Halliburton co. and other companies in the energy sector from Apr 2016 to Jul 2017 compared to their Gross Profit Margin and CROAFA?"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "A3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_002",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Calculează numărul total de 'Metrici Asociate' individuale listate în toate cele trei interogări.",
+    "answer": [
+      [
+        "22"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_003",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Pentru interogarea care implică compararea unei companii cu colegii săi, care este intervalul exact de date specificat în corespunzătorul 'Structured Data Request'?",
+    "answer": [
+      [
+        "(1/9/2018 - 30/9/2018)"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_004",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Ce interogare în limbaj natural corespunde cererii structurate care acoperă cea mai lungă perioadă de timp?",
+    "answer": [
+      [
+        "What were the return on average assets and ROWC of Halliburton co. and other companies in the energy sector from Apr 2016 to Jul 2017 compared to their Gross Profit Margin and CROAFA?"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_005",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Listați toate metricile primare solicitate pentru interogările care fac referire specifică la o companie cu un identificator legal precum 'plc' sau 'Co.' în câmpul 'Required Data'.",
+    "answer": [
+      [
+        "Quick Ratio"
+      ],
+      [
+        "Bid Size"
+      ],
+      [
+        "Cash Conversion Efficiency Ratio"
+      ],
+      [
+        "Return on Average Assets"
+      ],
+      [
+        "Return on Working Capital"
+      ],
+      [
+        "Gross Profit Margin"
+      ],
+      [
+        "Cash Return on Average Fixed Assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_006",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Pentru interogarea Amcor plc, ce procent din toate metricile listate în 'Structured Data Request' conțin explicit cuvântul 'Cash'?",
+    "answer": [
+      [
+        "28.57%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_007",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "Dacă interogarea în limbaj natural pentru Adobe ar fi extinsă pentru a include o cerere pentru 'Rentabilitatea capitalului circulant', cum ar fi modificată lista de metrici din 'Solicitarea de date structurate', folosind informațiile din interogarea Halliburton ca șablon?",
+    "answer": [
+      [
+        "Secțiunea de metrici din 'Solicitarea de date structurate' ar fi actualizată pentru a include 'Rentabilitatea capitalului circulant' și componentele sale conexe din interogarea Halliburton. Aceasta ar însemna adăugarea 'Rentabilitatea capitalului circulant; Profit net; Capital circulant' la lista existentă, rezultând: (Venituri din vânzări; Venituri totale; Valoare economică adăugată; Profit operațional net după impozitare (NOPAT); Costul capitalului; Rentabilitatea capitalului circulant; Profit net; Capital circulant)."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_008",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "Pe baza datelor furnizate, care este relația aparentă între complexitatea unei interogări ('Query') în limbaj natural și numărul total de metrici specificate în cererea de date structurate ('Structured Data Request')?",
+    "answer": [
+      [
+        "Există o corelație pozitivă. Cele două interogări mai complexe (pentru Amcor și Halliburton) corespund unui număr semnificativ mai mare de metrici în cererile lor structurate (14 și, respectiv, 12) comparativ cu interogarea mai simplă pentru Adobe, care are doar 5 metrici. Acest lucru sugerează că, pe măsură ce crește profunzimea analitică a întrebării utilizatorului, crește și volumul de date necesar."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_009",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Ce coloană îndeplinește funcția de analizare a interogării în limbaj natural într-un format semi-structurat care listează explicit companiile, metricile primare, sub-metricile aferente și intervalul de timp solicitat?",
+    "answer": [
+      [
+        "Required Data"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_010",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "Analizează informațiile temporale din coloanele 'Required Data' și 'Structured Data Request'. Există o interogare în care aceste două coloane prezintă un interval de timp conflictual? Dacă da, identifică interogarea și descrie discrepanța.",
+    "answer": [
+      [
+        "Da, interogarea Amcor plc prezintă o discrepanță semnificativă. Secțiunea 'Required Data' specifică un interval de timp de 'pentru ultimele 6 luni', în timp ce corespondentul 'Structured Data Request' specifică o perioadă mult mai scurtă, de 7 zile, de '(7/1/2024 - 7/7/2024)'. Celelalte două interogări prezintă o consistență temporală între coloane."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_011",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Câte companii unice sunt menționate în date?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

@@ -1,0 +1,208 @@
+[
+  {
+    "question_id": "arxiv_5e3be8dfe7_001",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "جدول میں سب سے زیادہ مخصوص پیرامیٹر وضاحتیں کس ماڈل میں ہیں؟",
+    "answer": [
+      [
+        "Neural Networks"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_002",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "تمام ماڈلز کے لیے جن کے مین فارمولا میں سمیشن کمپوننٹ (Σ) استعمال ہوتا ہے، کل کتنے منفرد پیرامیٹرز کی وضاحت کی گئی ہے؟",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_003",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "ان ماڈلز کی فہرست بنائیں جن کے مین فارمولا میں ایکسپونینشل (مثلاً e^x) شامل نہیں ہے۔",
+    "answer": [
+      [
+        "Neural Networks"
+      ],
+      [
+        "Support Vector Machine"
+      ],
+      [
+        "Decision Tree"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_004",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "درج کردہ ماڈلز میں سے کتنے فیصد اپنے فارمولے میں انفرادی نمونوں یا ڈیٹا پوائنٹس (مثلاً 'نمونہ i') کی نمائندگی کرنے والے پیرامیٹر کا استعمال کرتے ہیں؟",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "C8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_005",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "اگر ڈیسیژن ٹری ماڈل میں سیمپل کیٹیگریز کی تعداد 'm' 1 ہو، تو فارمولے کے مطابق انفارمیشن اینٹروپی 'Ent(D)' کی کیلکولیٹڈ ویلیو کیا ہوگی؟",
+    "answer": [
+      [
+        "0"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_006",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "کون سا ماڈل کا فارمولا دوسروں سے بنیادی طور پر مختلف ہے کیونکہ اسے براہ راست آؤٹ پٹ ویلیو کے حساب کے بجائے ایک آپٹیمائزیشن مسئلے (کم سے کم کرنا) کے طور پر پیش کیا گیا ہے؟",
+    "answer": [
+      [
+        "Support Vector Machine"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B7",
+      "B9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_007",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "فارمولا اور پیرامیٹرز کی بنیاد پر، لاجسٹک ریگریشن میں 'β' پیرامیٹر کے کردار کا موازنہ سپورٹ ویکٹر مشین میں 'w' پیرامیٹر سے کریں۔",
+    "answer": [
+      [
+        "لاجسٹک ریگریشن میں، 'β' ریگریشن کوفیشینٹس کا ایک صف ویکٹر ہے جو، انٹرسیپٹ کے ساتھ، لاجسٹک فنکشن کے ذریعے کسی نتیجے کے امکان کو متعین کرتا ہے۔ سپورٹ ویکٹر مشین میں، 'w' ایک پیرامیٹر ویکٹر ہے جو الگ کرنے والے ہائپرپلین کی سمت کو متعین کرتا ہے۔ SVM میں مقصد 'w' کو تلاش کرنا ہے جو کلاسوں کے درمیان مارجن کو زیادہ سے زیادہ کرے، اس کے L2 نارم کو کم کرکے، جبکہ لاجسٹک ریگریشن میں، 'β' عام طور پر مشاہدہ شدہ ڈیٹا کے امکان کو زیادہ سے زیادہ کرکے پایا جاتا ہے۔"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C3",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_008",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "نیورل نیٹ ورکس میں 'لیئرز' اور ڈیسین ٹریز میں 'اینٹروپی' کے تصورات ڈیٹا سے سیکھنے کے ان کے مختلف طریقوں کی عکاسی کیسے کرتے ہیں؟",
+    "answer": [
+      [
+        "نیورل نیٹ ورکس میں 'لیئرز' (l اور l-1) کا تصور ایک درجہ بندی خصوصیت سیکھنے کے طریقہ کار کی عکاسی کرتا ہے۔ ماڈل لگاتار لیئرز کے ذریعے ایکٹیویشنز کو گزار کر ڈیٹا کی بڑھتی ہوئی پیچیدہ نمائندگی سیکھتا ہے، اور ایک پیچیدہ فنکشن اپروکسیمیٹر بنانے کے لیے وزن ('w') اور بائسز ('b') کو ایڈجسٹ کرتا ہے۔ اس کے برعکس، ڈیسین ٹریز میں 'اینٹروپی' (Ent(D)) کا تصور ایک لالچی، اصول پر مبنی طریقہ کار کی عکاسی کرتا ہے۔ ماڈل وہ خصوصیات منتخب کرکے جو اینٹروپی (انفارمیشن گین) میں سب سے بڑی کمی کا سبب بنتی ہیں، ڈیٹا کو تعلیمی سب سیٹس میں بار بار تقسیم کرتا ہے، جس سے اگر-تو کے اصولوں کا ایک واضح سیٹ بنتا ہے۔"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_009",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "جدول میں بیان کردہ منفرد ماڈلز کی کل تعداد کیا ہے؟",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_010",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "کالم کا بنیادی مقصد اگلے کالم میں استعمال ہونے والے متغیرات کی تعریف کرنا ہے؟",
+    "answer": [
+      [
+        "Parameter and Explanation"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

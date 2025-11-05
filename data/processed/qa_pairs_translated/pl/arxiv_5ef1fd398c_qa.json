@@ -1,0 +1,243 @@
+[
+  {
+    "question_id": "arxiv_5ef1fd398c_001",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Która 'Kategoria główna' (Focus Category) pojawia się najczęściej w tabeli?",
+    "answer": [
+      [
+        "Financial Indicator"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "A15"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_002",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Ile unikalnych kategorii głównych zawiera dokładnie trzy pozycje główne?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_003",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "W ramach kategorii obejmującej 'Emeryturę', jaki inny 'Focus Item' ma pytania dotyczące wynagrodzeń i świadczeń pracowniczych?",
+    "answer": [
+      [
+        "Salary"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_004",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Który 'Focus Item' zawiera pytania najbardziej skoncentrowane na porównywaniu wyników w różnych przeszłych okresach, takich jak kwartał do kwartału i rok do roku?",
+    "answer": [
+      [
+        "Revenue"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_005",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Wymień wszystkie 'Focus Items' z kategorii 'Expansion', które nie odnoszą się bezpośrednio do produktów fizycznych.",
+    "answer": [
+      [
+        "Geographic Expansion"
+      ],
+      [
+        "Market Segmentation Expansion"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "B11",
+      "A12",
+      "B12",
+      "A13",
+      "B13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_006",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Jaki odsetek 'Focus Items' w kategorii 'Financial Indicator' dotyczy bezpośrednio zwrotów dla akcjonariuszy (np. dywidendy, ROE, wykupy akcji)?",
+    "answer": [
+      [
+        "2/4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_007",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "open_ended_reasoning",
+    "question": "Gdyby pozycja 'Dywidenda' została przeklasyfikowana do nowej kategorii 'Wartość dla akcjonariuszy', jak zmieniłaby się liczba pozycji w kategorii 'Wskaźnik finansowy'?",
+    "answer": [
+      [
+        "Liczba pozycji zmniejszyłaby się z 4 do 3."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_008",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "open_ended_reasoning",
+    "question": "Na podstawie podanych pytań, jaki związek sugeruje się między zmianą w zarządzie firmy a jej strategią korporacyjną?",
+    "answer": [
+      [
+        "Tabela sugeruje bezpośredni związek przyczynowy, ponieważ pytanie Q3 dotyczące 'Zmiany w Zarządzie' wyraźnie pyta o oczekiwany wpływ takich zmian na strategię firmy. Sugeruje to, że zmiany przywództwa są postrzegane jako kluczowe czynniki napędzające zmiany strategiczne."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_009",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Zidentyfikuj 'Elementy Główne' (Focus Items), które są wartościami odstającymi strukturalnie, gdzie nazwa elementu jest identyczna z nazwą jego kategorii i jest to jedyny element w tej kategorii.",
+    "answer": [
+      [
+        "Business"
+      ],
+      [
+        "Future Outlook"
+      ]
+    ],
+    "evidence_cells": [
+      "A14",
+      "B14",
+      "A15",
+      "B15"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_010",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "open_ended_reasoning",
+    "question": "Porównaj tematykę pytań dotyczących pozycji z kategorii 'Wskaźnik finansowy' z pozycjami z kategorii 'Menedżer ds. pracowników'.",
+    "answer": [
+      [
+        "Pytania dotyczące pozycji 'Wskaźnik finansowy' skupiają się zewnętrznie na ilościowych wskaźnikach wydajności, takich jak przychody, dywidendy i zyski, głównie na potrzeby analizy inwestorskiej. Natomiast pytania dotyczące 'Menedżera ds. pracowników' koncentrują się wewnętrznie na kapitale ludzkim i aspektach administracyjnych, takich jak wynagrodzenia, zobowiązania emerytalne i wpływ zmian w zarządzie, które dotyczą operacji wewnętrznych i dobrostanu pracowników."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_011",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Ile elementów skupienia znajduje się w kategorii Wskaźnik Finansowy?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

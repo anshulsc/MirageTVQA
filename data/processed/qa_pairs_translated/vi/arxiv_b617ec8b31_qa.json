@@ -1,0 +1,202 @@
+[
+  {
+    "question_id": "arxiv_b617ec8b31_001",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Đối với ứng dụng mà phương pháp MarS liên quan đến việc so sánh thị trường hiện tại với thị trường mô phỏng, phương pháp hiện tại tương ứng so sánh điều gì?",
+    "answer": [
+      [
+        "Diff⁡(marketn⁢o⁢w,marketp⁢a⁢s⁢t)"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_002",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Tỷ lệ phần trăm các ứng dụng được liệt kê sử dụng phương pháp 'MarS' liên quan đến 'sinh' hay 'mô phỏng' là bao nhiêu?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_003",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Phương pháp MarS cho ứng dụng 'Phát hiện' thay đổi cách so sánh dựa trên thời gian được sử dụng trong 'Phương pháp hiện tại' như thế nào?",
+    "answer": [
+      [
+        "Các 'Phương pháp hiện tại' cho 'Phát hiện' dựa vào so sánh lịch sử bằng cách tính toán sự khác biệt giữa trạng thái thị trường hiện tại (market_now) và trạng thái thị trường trong quá khứ (market_past). Phương pháp MarS loại bỏ sự phụ thuộc vào dữ liệu quá khứ này. Thay vào đó, nó so sánh thị trường hiện tại (market_now) với một thị trường mô phỏng đồng thời (simu-market_now), chuyển việc so sánh từ khung thời gian (hiện tại so với trước đây) sang khung dựa trên mô hình (thực tế so với mô phỏng)."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_004",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Liệt kê các 'Phương pháp Hiện tại' cho tất cả các ứng dụng mà phương pháp 'MarS' được mô tả là một 'pipeline' hoặc liên quan đến 'generation'.",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ],
+      [
+        "online experiments, empirical formula"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B1",
+      "C3",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_005",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Ứng dụng nào cho thấy sự thay đổi cơ bản nhất về cách tiếp cận giữa 'Phương pháp Hiện tại' và 'MarS', chuyển từ so sánh lịch sử sang so sánh mô phỏng?",
+    "answer": [
+      [
+        "Ứng dụng 'Phát hiện' cho thấy sự thay đổi cơ bản nhất. Phương pháp hiện tại dựa trên việc so sánh theo thời gian, nhìn về quá khứ (Diff(market_now, market_past)). Ngược lại, phương pháp MarS giới thiệu việc so sánh với một thực tế mô phỏng đồng thời (Diff(market_now, simu-market_now)). Sự thay đổi từ cơ sở lịch sử sang cơ sở mô phỏng để so sánh là một điểm khác biệt về mặt khái niệm đáng kể so với những thay đổi về phương pháp luận khác trong bảng."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_006",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Nếu phương pháp 'MarS' cho 'Môi trường RL' được sửa đổi để sử dụng khả năng sẵn có dữ liệu của 'Phương pháp Hiện tại' cho cùng một ứng dụng, thì hai đặc điểm nào sẽ định nghĩa phương pháp MarS giả định này?",
+    "answer": [
+      [
+        "finite data"
+      ],
+      [
+        "real P(st+1|st,at)"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_007",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Đối với ứng dụng 'Môi trường Học tăng cường (RL)', sự khác biệt chính về tính khả dụng của dữ liệu và phân phối xác suất giữa 'Phương pháp Hiện tại' và 'MarS' là gì?",
+    "answer": [
+      [
+        "Sự khác biệt chính nằm ở cả khối lượng dữ liệu và tính xác thực của xác suất chuyển đổi. 'Phương pháp Hiện tại' dựa vào 'dữ liệu hữu hạn' và phân phối xác suất 'giả' (P(st+1|st,at)), trong khi 'MarS' sử dụng 'dữ liệu vô hạn' và phân phối xác suất 'thực'."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_008",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Có bao nhiêu ứng dụng riêng biệt được liệt kê liên quan đến thuật ngữ 'dữ liệu' trong mô tả phương pháp của chúng cho 'Phương pháp Hiện tại' hoặc 'MarS'?",
+    "answer": [
+      [
+        "2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_009",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Dựa trên bảng, ưu điểm bao trùm rõ ràng của MarS so với Các phương pháp hiện tại là gì, đặc biệt liên quan đến dữ liệu và biểu diễn thực tế?",
+    "answer": [
+      [
+        "Chủ đề bao trùm gợi ý rằng các phương pháp MarS nhằm mục đích vượt qua những hạn chế của dữ liệu lịch sử hoặc hữu hạn bằng cách tận dụng các phương pháp dựa trên tạo sinh và mô phỏng. MarS chuyển từ ngoại suy sang tạo sinh, từ so sánh lịch sử sang so sánh mô phỏng, và từ các mô hình dữ liệu hữu hạn/giả sang mô hình dữ liệu vô hạn/thực tế. Điều này cho thấy một lợi thế chiến lược trong việc tạo ra các môi trường dữ liệu mạnh mẽ hơn, linh hoạt hơn và thực tế hơn cho phân tích và học tăng cường."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_010",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Không bao gồm hàng tiêu đề, có bao nhiêu ứng dụng riêng biệt được trình bày chi tiết trong bảng?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_011",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Phương pháp hiện tại được sử dụng cho Dự báo là gì?",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

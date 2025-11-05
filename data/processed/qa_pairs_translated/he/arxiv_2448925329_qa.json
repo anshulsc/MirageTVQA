@@ -1,0 +1,254 @@
+[
+  {
+    "question_id": "arxiv_2448925329_001",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "איזה מערך נתונים מציג את התאמת המודל החזקה ביותר כפי שמצוין על ידי ערך R-squared?",
+    "answer": [
+      [
+        "BTC/USD ΔM vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_002",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "מהו ערך הקורטוזיס הממוצע עבור כל מערכי הנתונים הכוללים BTC/USD?",
+    "answer": [
+      [
+        "7.7025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_2448925329_003",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "עבור המודל עם ערך R-בריבוע חיובי הנמוך ביותר, מהי הסטטיסטיקה ה-Durbin-Watson התואמת לו?",
+    "answer": [
+      [
+        "0.337"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "I2",
+      "B1",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_004",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "כיצד משתנה כוח ההסבר של המודל, כפי שנמדד על ידי R-בריבוע, עבור מערך הנתונים LUNA/USD כאשר מרווח הזמן מוגדל מ-1 שניות ל-10 שניות?",
+    "answer": [
+      [
+        "כוח ההסבר של מודל LUNA/USD, כפי שמצוין על ידי ערך R-בריבוע, גדל משמעותית מ-0.036 עבור מרווח של שנייה אחת ל-0.274 עבור מרווח של 10 שניות. זה מייצג עלייה של יותר משבעה אחוזים, מה שמרמז שהמודל יעיל באופן ניכר יותר בהסברת שינויי מחירים בפרק זמן ארוך יותר."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_005",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "רשום את כל מערכי הנתונים שבהם השיוריות של המודל מוטות באופן שלילי (Skew < 0) והסטטיסטיקה של דורבין-ווטסון גדולה מ-2, מה שמרמז על אוטוקורלציה שלילית.",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 1s",
+        "BTC/USD ΔM vs ΔP 1s"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "I1",
+      "A3",
+      "G3",
+      "I3",
+      "G2",
+      "I2",
+      "G4",
+      "I4",
+      "G5",
+      "I5",
+      "G6",
+      "I6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_006",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "מהו היחס מסך כל סטטיסטיקות ה-F המיוחס למודלים עם מרווח זמן של 10 שניות?",
+    "answer": [
+      [
+        "93.68%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A6",
+      "C6",
+      "C1",
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_2448925329_007",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "אם ערך ה-Kurtosis עבור המודל 'BTC/USD OFI vs ΔP 10s' היה מותאם לממוצע ה-Kurtosis של כל שאר המודלים, מה היה ערכו החדש?",
+    "answer": [
+      [
+        "5.700"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_008",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "האם קיים קשר עקבי בין סטטיסטי ה-F של מודל לסטטיסטי ה-Jarque-Bera (JB) שלו? נתח את התבנית.",
+    "answer": [
+      [
+        "אין קשר עקבי וחד משמעי בין סטטיסטי ה-F לסטטיסטי ה-Jarque-Bera (JB). לדוגמה, למודל עם סטטיסטי ה-F הגבוה ביותר (15890.0) יש סטטיסטי JB של 6560.394, בעוד שלמודל עם סטטיסטי ה-F השני הנמוך ביותר (137.0) יש JB קטן בהרבה של 816.435. עם זאת, למודל עם סטטיסטי ה-F הנמוך ביותר (70.87) יש סטטיסטי JB הגבוה ביותר (10204.282). זה מצביע על כך שהמובהקות הכוללת של המודל (סטטיסטי F) והנורמליות של השאריות שלו (סטטיסטי JB) אינן מתואמות ישירות במערך נתונים זה."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "J1",
+      "C2",
+      "J2",
+      "C3",
+      "J3",
+      "C4",
+      "J4",
+      "C5",
+      "J5",
+      "C6",
+      "J6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_2448925329_009",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "באיזה עמודה, למעט המזהה 'Dataset', יש את טווח הערכים הרחב ביותר מבחינת סדר גודל (מהקטן לגדול)?",
+    "answer": [
+      [
+        "עמודת 'Prob(JB)' מציגה את טווח הערכים הרחב ביותר לפי סדר גודל. היא מכילה ערכים הנמוכים עד כדי 0.0 (בפועל אינסופיים) וערכים גדולים כמו 4.26e-263, 1.93e-57, 5.17e-178 ו-9.05e-92, הנפרסים על פני מאות סדרי גודל, הרבה יותר מכל עמודה מספרית אחרת."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B6",
+      "C1",
+      "C6",
+      "D1",
+      "D6",
+      "E1",
+      "E6",
+      "F1",
+      "F6",
+      "G1",
+      "G6",
+      "H1",
+      "H6",
+      "I1",
+      "I6",
+      "J1",
+      "J6",
+      "K1",
+      "K6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_010",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "איזה מערך נתונים מציג סטטיסטיקת Jarque-Bera (JB) שהיא חריגה, והיא גדולה פי 5 מהערך JB הבא בגובהו?",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "J1",
+      "J2",
+      "J3",
+      "J4",
+      "J5",
+      "J6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_2448925329_011",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "בין BTC/USD ΔM לעומת ΔP 1s לבין LUNA/USD ΔM לעומת ΔP 1s, איזה מערך נתונים מציג כוח חיזוי גבוה יותר בהתבסס על R² ו-F-statistic?",
+    "answer": [
+      [
+        "BTC/USD ΔM לעומת ΔP 1s הדגים את כוח החיזוי הגבוה ביותר בהתבסס על R² ו-F-statistic, עם R² = 0.168 ו-F-statistic = 723.6. "
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

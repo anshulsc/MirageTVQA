@@ -1,0 +1,232 @@
+[
+  {
+    "question_id": "arxiv_0881976587_001",
+    "table_id": "arxiv_0881976587",
+    "question_type": "value",
+    "question": "Qual é o valor nominal total de todos os Títulos do Tesouro dos EUA listados no portfólio?",
+    "answer": [
+      [
+        "20000"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_0881976587_002",
+    "table_id": "arxiv_0881976587",
+    "question_type": "value",
+    "question": "Dos dois 'Contratos Futuros' listados, qual commodity subjacente é mantida em um número maior de unidades?",
+    "answer": [
+      [
+        "Crude Oil"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_0881976587_003",
+    "table_id": "arxiv_0881976587",
+    "question_type": "value",
+    "question": "Qual ativo tem o maior período de maturidade, com base em sua descrição?",
+    "answer": [
+      [
+        "10-year"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_0881976587_004",
+    "table_id": "arxiv_0881976587",
+    "question_type": "value",
+    "question": "Liste as descrições de todos os ativos não-títulos onde a quantidade detida é de 10.000 unidades ou mais.",
+    "answer": [
+      [
+        "Exxon Mobil"
+      ],
+      [
+        "AT&T"
+      ],
+      [
+        "Long EUR/USD"
+      ],
+      [
+        "Short USD/JPY"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_0881976587_005",
+    "table_id": "arxiv_0881976587",
+    "question_type": "value",
+    "question": "Qual é o tipo de ativo associado à moeda detida na maior quantia nominal?",
+    "answer": [
+      [
+        "Currency Pair"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_0881976587_006",
+    "table_id": "arxiv_0881976587",
+    "question_type": "value",
+    "question": "Se as participações em ações do portfólio forem limitadas aos ativos listados, qual porcentagem do número total de ações é investida em AT&T?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_0881976587_007",
+    "table_id": "arxiv_0881976587",
+    "question_type": "open_ended_reasoning",
+    "question": "Se a quantidade de ações da Exxon Mobil diminuísse em 25% e a quantidade de onças de Ouro aumentasse em 100%, quais seriam as novas quantidades para esses dois ativos?",
+    "answer": [
+      [
+        "A nova quantidade para Exxon Mobil seria de 7.500 ações, e a nova quantidade para Ouro seria de 1.200 onças."
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_0881976587_008",
+    "table_id": "arxiv_0881976587",
+    "question_type": "open_ended_reasoning",
+    "question": "Analisando as descrições dos ativos, que estratégia de investimento potencial ou correlação pode ser inferida entre as participações em ações e futuros do portfólio?",
+    "answer": [
+      [
+        "Pode ser inferida uma estratégia potencial focada no setor de energia. O portfólio detém tanto ações da Exxon Mobil, uma grande empresa de petróleo, quanto contratos futuros de Petróleo Bruto. Isso sugere um tema de investimento concentrado, onde o investidor pode estar especulando sobre os preços da energia ou usando os futuros para proteger sua posição em ações no mesmo setor."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_0881976587_009",
+    "table_id": "arxiv_0881976587",
+    "question_type": "open_ended_reasoning",
+    "question": "Ao comparar as quantidades nominais de todos os ativos, qual posição se destaca como um valor atípico numérico e por quê?",
+    "answer": [
+      [
+        "A posição 'Short USD/JPY' com uma quantidade de 10.000.000 JPY é um valor atípico numérico significativo. Sua quantidade é 100 vezes maior que o próximo valor mais alto (100.000 EUR) e várias ordens de magnitude maior que as outras posições, que variam de 600 a 10.000."
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_0881976587_010",
+    "table_id": "arxiv_0881976587",
+    "question_type": "open_ended_reasoning",
+    "question": "Qual coluna contém os tipos de dados mais variados, incorporando diferentes moedas e unidades de medida?",
+    "answer": [
+      [
+        "A coluna 'Quantity / Value' (Quantidade / Valor) possui os tipos de dados mais variados. Ela inclui valores expressos em dólares americanos ($), unidades físicas de commodities (onças, barris), contagens de ações (ações) e diferentes moedas estrangeiras (EUR, JPY)."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_0881976587_011",
+    "table_id": "arxiv_0881976587",
+    "question_type": "value",
+    "question": "Qual é o valor total de todos os Títulos do Tesouro dos EUA?",
+    "answer": [
+      [
+        "$20,000"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

@@ -1,0 +1,253 @@
+[
+  {
+    "question_id": "arxiv_306d90c626_001",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Họ mô hình LLM nào (ví dụ: GPT, Llama) xuất hiện trong nhiều bài báo nghiên cứu được liệt kê nhất?",
+    "answer": [
+      [
+        "GPT"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_002",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Tổng cộng có bao nhiêu bài nghiên cứu sử dụng các mô hình do OpenAI phát triển (ChatGPT, GPT-3, GPT-4 và các biến thể của chúng)?",
+    "answer": [
+      [
+        "9"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B7",
+      "B8",
+      "B9",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_306d90c626_003",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Đối với các phương pháp sử dụng FinBERT, ứng dụng chính mà chúng được sử dụng cho là gì?",
+    "answer": [
+      [
+        "Stock price prediction"
+      ],
+      [
+        "Financial Portfolio Optimisation"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "D5",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_004",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Xác định các phương pháp nghiên cứu cho thấy sự tiến triển theo thời gian trong lựa chọn mô hình bằng cách sử dụng ít nhất hai thế hệ khác nhau từ cùng một họ mô hình (ví dụ: GPT-3 và GPT-4).",
+    "answer": [
+      [
+        "FLLM [11]"
+      ],
+      [
+        "Few-Shot Stock Trend Prediction [15]"
+      ],
+      [
+        "Hybrid LLM-based framework [36]"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_005",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Liệt kê 'Phương thức/Bài báo' nào sử dụng mô hình thuộc họ Llama và không sử dụng dữ liệu S&P 500.",
+    "answer": [
+      [
+        "FLLM [11]"
+      ],
+      [
+        "Hybrid LLM-based framework [36]"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_006",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "open_ended_reasoning",
+    "question": "S&P 500 được đề cập là nguồn dữ liệu trong 50% các nghiên cứu được liệt kê. Việc sử dụng tần suất cao này ngụ ý gì về vai trò của nó trong nghiên cứu LLM tài chính?",
+    "answer": [
+      [
+        "Việc S&P 500 được sử dụng thường xuyên, xuất hiện trong một nửa số nghiên cứu, cho thấy nó đóng vai trò là một tập dữ liệu chuẩn để đánh giá trong nghiên cứu tài chính liên quan đến LLM. Các đặc điểm của nó—là một tập dữ liệu nổi tiếng, công khai, rộng lớn và có tính thanh khoản—làm cho nó trở nên lý tưởng để kiểm tra và so sánh hiệu suất của các mô hình và phương pháp khác nhau cho các nhiệm vụ như dự đoán cổ phiếu và lựa chọn danh mục đầu tư. Sự phụ thuộc này cho thấy các nhà nghiên cứu cần chứng minh hiệu quả của mô hình của họ trên một tiêu chuẩn được chấp nhận rộng rãi trước khi áp dụng nó vào dữ liệu chuyên biệt hoặc độc quyền hơn."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C4",
+      "C5",
+      "C6",
+      "C10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_306d90c626_007",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Nếu có một ràng buộc mới yêu cầu tất cả các nghiên cứu sử dụng dữ liệu đa phương thức (ví dụ: tin tức và dữ liệu thị trường), phương pháp nào sẽ không còn tuân thủ dựa trên dữ liệu được mô tả?",
+    "answer": [
+      [
+        "FLLM [11]"
+      ],
+      [
+        "MuSA [26]"
+      ],
+      [
+        "SEP [28]"
+      ],
+      [
+        "Hybrid LLM-based framework [36]"
+      ],
+      [
+        "[45]"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_008",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "open_ended_reasoning",
+    "question": "Dựa trên bảng, mối quan hệ giữa độ phức tạp của 'Ứng dụng' và sự đa dạng của 'Mô hình LLM' được sử dụng là gì? Ví dụ, các ứng dụng rộng hơn có sử dụng nhiều mô hình đa dạng hơn không?",
+    "answer": [
+      [
+        "Dữ liệu cho thấy một mối quan hệ nghịch đảo. Các ứng dụng phức tạp và cụ thể hơn như 'Dự đoán diễn biến giá cổ phiếu' hoặc 'Phân tích tài chính' có xu hướng tận dụng một bộ mô hình đa dạng, bao gồm nhiều thế hệ và họ mô hình (ví dụ: 'GPT-3, GPT-4, LLaMA-2, LLaMA-3'). Ngược lại, các ứng dụng có vẻ tập trung vào một mục tiêu duy nhất, như 'Lựa chọn danh mục đầu tư' hoặc 'Xu hướng thị trường chứng khoán', được thể hiện là sử dụng một mô hình duy nhất như ChatGPT. Điều này ngụ ý rằng việc giải quyết các nhiệm vụ tài chính phức tạp có thể được hưởng lợi từ phương pháp tập thể hoặc so sánh bằng cách sử dụng nhiều LLM tiên tiến."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B9",
+      "D9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_306d90c626_009",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Cột nào, 'LLM Model' hay 'Data', chứa ô có số lượng mục được liệt kê riêng biệt lớn nhất?",
+    "answer": [
+      [
+        "LLM Model"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_010",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Trong các bài nghiên cứu, bài nào là ngoại lệ về ứng dụng, tập trung vào một vấn đề hệ thống rộng lớn thay vì một nhiệm vụ dự đoán hoặc đầu tư cụ thể?",
+    "answer": [
+      [
+        "[32]"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_306d90c626_011",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Dữ liệu nào được sử dụng trong Lựa chọn danh mục đầu tư dựa trên ChatGPT [2]?",
+    "answer": [
+      [
+        "S&P500 market"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

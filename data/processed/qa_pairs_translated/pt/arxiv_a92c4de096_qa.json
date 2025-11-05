@@ -1,0 +1,255 @@
+[
+  {
+    "question_id": "arxiv_a92c4de096_001",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Quais hiperparâmetros têm o maior número de opções listadas em seu espaço de busca?",
+    "answer": [
+      [
+        "Sequence size"
+      ],
+      [
+        "TRADES Layers"
+      ],
+      [
+        "Augmentation Dim."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_002",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Quantos hiperparâmetros foram testados com mais de dois valores possíveis em seu espaço de busca?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_003",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Qual foi o espaço de busca para o hiperparâmetro cuja melhor escolha é o menor valor numérico maior que zero?",
+    "answer": [
+      [
+        "{10−3,10−4}superscript103superscript104\\{{10^{-3}},10^{-4}\\}{ 10 start_POSTSUPERSCRIPT - 3 end_POSTSUPERSCRIPT , 10 start_POSTSUPERSCRIPT - 4 end_POSTSUPERSCRIPT }"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_004",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Liste todos os hiperparâmetros para os quais a 'Melhor Escolha' foi o valor mais alto disponível em seus respectivos 'Espaço de Busca'.",
+    "answer": [
+      [
+        "Learning Rate"
+      ],
+      [
+        "Dropout"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_005",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Qual a proporção dos hiperparâmetros numéricos teve sua 'Melhor Escolha' selecionada do meio de seu 'Espaço de Busca' ordenado (ou seja, não o valor mínimo ou máximo)?",
+    "answer": [
+      [
+        "5/7"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_006",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Se a busca por 'TRADES Layers' tivesse sido restrita apenas a valores menores que 8, qual teria sido a 'Best Choice' para este hiperparâmetro, assumindo que a próxima melhor opção disponível no espaço de busca original fosse escolhida?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_007",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "Existe uma relação observável entre o tamanho do espaço de busca de um hiperparâmetro e se a 'Melhor Escolha' é um valor extremo (mínimo/máximo) ou um valor do meio? Explique seu raciocínio.",
+    "answer": [
+      [
+        "Sim, há um padrão claro. Para hiperparâmetros com um pequeno espaço de busca de duas opções (Taxa de Aprendizagem, Dropout), a melhor escolha foi o valor máximo. Para todos os hiperparâmetros com um espaço de busca maior de três ou quatro opções, o valor ótimo foi encontrado no meio do intervalo, nunca nos extremos. Isso sugere que, para este modelo, um processo de ajuste fino é benéfico, e os intervalos amplos iniciais abrangeram com sucesso uma região ótima que não estava nas fronteiras do espaço testado."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_008",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Qual espaço de busca de hiperparâmetro é descrito usando rótulos não numéricos?",
+    "answer": [
+      [
+        "Optimizer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_009",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Qual valor 'Melhor Escolha' de hiperparâmetro é um valor atípico numérico, sendo pelo menos quatro vezes maior que o próximo 'Melhor Escolha' numérico mais alto?",
+    "answer": [
+      [
+        "Sequence size"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_010",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "Considerando os hiperparâmetros com quatro opções em seu espaço de busca ('Sequence size', 'TRADES Layers', 'Augmentation Dim.'), qual característica comum os valores de 'Best Choice' compartilham, e o que isso pode implicar sobre a estratégia de ajuste?",
+    "answer": [
+      [
+        "A característica comum é que, para todos os três hiperparâmetros, o 'Best Choice' é um valor intermediário, não um extremo (mínimo ou máximo). As 'Best Choices' são 256 (3º de 4), 8 (3º de 4) e 64 (2º de 4). Isso implica uma estratégia de ajuste bem-sucedida onde o espaço de busca foi suficientemente amplo para abranger o valor ótimo, sugerindo que o desempenho para esses parâmetros não aumenta monotonicamente com o valor, mas sim atinge o pico em algum lugar dentro da faixa testada."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_011",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Qual é a melhor escolha de Otimizador?",
+    "answer": [
+      [
+        "Adam"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,167 @@
+[
+  {
+    "question_id": "arxiv_dfbcb20e74_001",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Яка основна формула моделі явно включає компонент безризикової ставки?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_002",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Яка загальна кількість унікальних змінних 'X', що використовуються як вхідні дані у формулі Z-score Model?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_003",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Визначте модель, яка використовує \"Загальні активи\" як знаменник щонайменше у трьох своїх пояснених параметрах, а потім назвіть, який параметр з цієї моделі представляє співвідношення \"Ринкова вартість власного капіталу\" до \"Загальних зобов'язань\".",
+    "answer": [
+      [
+        "Z-score Model"
+      ],
+      [
+        "X4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_004",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Яка модель включає параметри, явно визначені як виміряні 'на момент часу t'?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_005",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Якщо аналітичною метою є визначення ймовірності бінарного результату (y=1), яка модель, перелічена в таблиці, є найбільш підходящим вибором?",
+    "answer": [
+      [
+        "Logistic Regression"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_006",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "У моделі Z-оцінки, якою є вага (коефіцієнт) змінної, що представляє співвідношення 'прибуток до сплати відсотків та податків / загальні активи', і як ця вага порівнюється з іншими змінними?",
+    "answer": [
+      [
+        "Коефіцієнт для X3 (прибуток до сплати відсотків та податків / загальні активи) становить 3.3. Це найвища вага серед усіх п'яти змінних, що свідчить про її найбільший вплив на кінцеву Z-оцінку порівняно зі змінними, такими як X1 (1.2), X2 (1.4), X4 (0.6) та X5 (0.99)."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_007",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Якщо оновлена версія моделі Z-score зменшила вплив 'Співвідношення оборотного капіталу до загальних активів' на 50%, яким буде новий коефіцієнт для X1?",
+    "answer": [
+      [
+        "0.6"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_008",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Виходячи з формули Z-score моделі, який виявлений зв'язок між коефіцієнтом загального обсягу продажів компанії до загальних активів та її результуючим Z-score?",
+    "answer": [
+      [
+        "Існує позитивна кореляція між коефіцієнтом загального обсягу продажів до загальних активів (X5) та Z-score. Формула показує, що Z-score є зваженою сумою п'яти коефіцієнтів, і коефіцієнт для X5 є позитивним (0.99). Тому, за умови сталості інших факторів, збільшення співвідношення загального обсягу продажів до загальних активів призведе до вищого Z-score."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_009",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Яка модель має найбільшу кількість окремих параметрів, що пояснюються у третьому стовпці?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_010",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Розглядаючи числові коефіцієнти у формулі моделі Z-score, який коефіцієнт виділяється як викид порівняно з іншими?",
+    "answer": [
+      [
+        "Коефіцієнт 3.3 для змінної X3 є значним викидом. Інші коефіцієнти у формулі становлять 1.2, 1.4, 0.6 та 0.99, які всі групуються в діапазоні від 0.6 до 1.4. Значення 3.3 більш ніж удвічі перевищує значення наступного найбільшого коефіцієнта (1.4), що робить його суттєво більшим за решту."
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

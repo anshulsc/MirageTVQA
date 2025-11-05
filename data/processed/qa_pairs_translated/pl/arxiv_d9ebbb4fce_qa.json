@@ -1,0 +1,201 @@
+[
+  {
+    "question_id": "arxiv_d9ebbb4fce_001",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Który model jest wyraźnie wspomniany jako ten, który osiągnął wydajność State-of-the-Art (SOTA) na wielu benchmarkach?",
+    "answer": [
+      [
+        "TimeMixer"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_002",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Ile z wymienionych modeli wykorzystuje technologię „transformer” w swoich kluczowych innowacjach lub metodologii?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_003",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Jaka jest kluczowa innowacja modelu, który wykorzystuje strategie trenowania na wielu zbiorach danych?",
+    "answer": [
+      [
+        "Open-source foundation model family"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_004",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Metodologia którego modelu unikalnie polega na przekształcaniu jednowymiarowych danych czasowych w reprezentację dwuwymiarową w celu analizy wzorców?",
+    "answer": [
+      [
+        "TimesNet"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_005",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Wymień modele, które są opisane jako „model fundamentowy” lub wykorzystują podejście „wstępnie wytrenowane” w swojej innowacji.",
+    "answer": [
+      [
+        "Timer"
+      ],
+      [
+        "MOMENT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_006",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Jaki procent modeli na tej liście wykorzystuje architekturę opartą na transformatorach?",
+    "answer": [
+      [
+        "60%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B5",
+      "C5",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_007",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Jeśli głównym ograniczeniem zespołu badawczego jest bardzo mała ilość danych treningowych (1-5%), wyniki którego modelu sugerują, że byłby to najskuteczniejszy wybór?",
+    "answer": [
+      [
+        "Timer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_008",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "open_ended_reasoning",
+    "question": "Na podstawie tabeli, jaki związek można wywnioskować między metodyką modelu a jego głównymi wynikami, szczególnie w odniesieniu do architektur transformatorowych?",
+    "answer": [
+      [
+        "Dane sugerują korelację między przyjęciem architektur opartych na transformatorach a osiąganiem wysokiej wydajności w specyficznych, wymagających scenariuszach. Na przykład, wstępnie wytrenowany transformator Timer'a tylko z dekoderem prowadzi do silnej wydajności w uczeniu się z małą liczbą próbek (few-shot performance), podczas gdy niezależny od kanałów transformator PatchTST skutkuje znaczną redukcją MSE w prognozowaniu długoterminowym. Oznacza to, że metodyki oparte na transformatorach są szczególnie skuteczne w zadaniach wymagających zarówno efektywności danych (uczenie się z małą liczbą próbek), jak i wychwytywania długoterminowych zależności (prognozowanie długoterminowe)."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_009",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Która kolumna zawiera informacje opisujące fundamentalne podejście algorytmiczne lub strukturalne każdego modelu?",
+    "answer": [
+      [
+        "Methodology"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_010",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Którego modelu główny wynik wyróżnia się podaniem konkretnego, ilościowego wskaźnika wydajności zamiast jakościowego opisu, takiego jak „silna” lub „doskonała” wydajność?",
+    "answer": [
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_011",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Który model przewyższył wszystkie modele w 18 zbiorach danych referencyjnych?",
+    "answer": [
+      [
+        "TimeMixer"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

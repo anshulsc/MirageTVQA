@@ -1,0 +1,269 @@
+[
+  {
+    "question_id": "arxiv_a783ff97d3_001",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC2_64' tahmin ayarı için hangi özellik seçme yöntemi en düşük hata değerini elde etti?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_002",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'LASSO regression feature selection' yöntemi tarafından tüm tahmin ayarları boyunca kullanılan ortalama dışsal değişken sayısı nedir?",
+    "answer": [
+      [
+        "6.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_003",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC3_28' tahmin ayarı için, en yüksek sayıda dışsal değişkeni kullanan yöntemin hata metriği nedir?",
+    "answer": [
+      [
+        "18.23"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "G2",
+      "G3",
+      "A4",
+      "G4",
+      "G5",
+      "A6",
+      "G6",
+      "G7",
+      "A8",
+      "G8",
+      "G9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_004",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'BC1_64' ayarı için dışsal değişken sayısını artırmak performansı tutarlı bir şekilde iyileştirir mi (yani, hata değerini düşürür mü)? Kısa bir analiz yapın.",
+    "answer": [
+      [
+        "Hayır, tutarlı bir ilişki yok. 'BC1_64' ayarı için 'Korelasyon Tabanlı Seçim' 14.11 hata değeri için 3 değişken kullanır, 'LASSO regresyonu' da 3 değişken kullanır ancak 14.55 gibi daha yüksek bir hataya sahiptir. 'Forward Feature Selection NP' ise çok daha fazla sayıda değişken (28) kullanır ve anlamlı derecede daha iyi (daha düşük) bir hata olan 9.16'yı elde eder. Bu durum, daha fazla değişkenin daha iyi olabileceğini öne sürse de, belirli seçim yönteminin kritik olduğunu ve sadece değişken eklemenin bir iyileştirme garantisi olmadığını göstermektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "B3",
+      "A4",
+      "B4",
+      "B5",
+      "A6",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_005",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC3_64' ayarı için 15'ten büyük bir hata değeriyle sonuçlanan tüm özellik seçim yöntemlerini listeleyin.",
+    "answer": [
+      [
+        "Without exogenous variables"
+      ],
+      [
+        "Correlation-Based Selection"
+      ],
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Manual feature selection"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A4",
+      "F4",
+      "A6",
+      "F6",
+      "A8",
+      "F8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_006",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'Forward Feature Selection NP' tarafından kullanılan toplam dışsal değişken sayısının, tüm ayarlarda 'BC1_64' ayarlarına ayrılan yüzdesi nedir?",
+    "answer": [
+      [
+        "28.57"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_007",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC2_28' ayarı için tüm hata metrikleri kaydedilenden 2,5 puan daha düşük olsaydı, 'Manuel özellik seçimi' için yeni hata ne olurdu?",
+    "answer": [
+      [
+        "13.57"
+      ]
+    ],
+    "evidence_cells": [
+      "E8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_008",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Değişken sayısının açıkça listelendiği özellik seçimi yöntemleri arasında, farklı tahmin ayarlarına göre seçilen değişkenlerin aralığı (maksimum eksi minimum) ile ölçülen en büyük istikrarsızlığı hangisi göstermektedir?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "A6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "A8",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9",
+      "G9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_009",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'LASSO regresyon özellik seçimi' yöntemi için 'BC3_28' değerinin aykırı bir değer olduğunu varsayarsak, bu değere karşılık gelen dışsal değişken sayısı, aynı yöntem için diğer ayarlarla nasıl karşılaştırılır?",
+    "answer": [
+      [
+        "LASSO için 28.79 gibi aykırı bir hataya sahip olan 'BC3_28' ayarı, bu yöntem için en yüksek dışsal değişken sayısını (16) da kullanmaktadır. Bu, 0 ile 10 değişken arasında değişen diğer ayarlardan önemli ölçüde daha fazladır. Bu durum, LASSO yönteminin bu özel tahmin bağlamı için büyük ama kötü performans gösteren bir özellik kümesi seçtiği potansiyel bir soruna işaret etmektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5",
+      "E4",
+      "E5",
+      "F4",
+      "F5",
+      "G4",
+      "G5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_010",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'Harici değişkenler olmadan' temel ayarının performansını analiz ederek, 'BC1' ayarlarından 'BC2' ve ardından 'BC3'e sıralı olarak ilerledikçe hata metriğindeki eğilimi açıklayın.",
+    "answer": [
+      [
+        "'Harici değişkenler olmadan' temel ayarının performansı ayarlar boyunca net bir örüntü göstermektedir. BC1 ayarları için orta hata değerleriyle başlar (11.14, 13.65). Performans, en düşük hatalara sahip olan BC2 ayarları için dramatik bir şekilde iyileşir (3.75, 9.08). Son olarak, BC3 ayarları için hata tekrar artar (17.53, 9.06) ve bu yöntem için BC3_64 genel olarak en yüksek hataya sahiptir. Bu, temel modelin BC2 koşulları için en uygun olduğunu göstermektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_011",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'LASSO regresyon özellik seçimi' ve 'İleri Özellik Seçimi NP' arasında, BC2_64 yapılandırmasında hangi tahmin ayarı daha düşük bir değere ulaştı?",
+    "answer": [
+      [
+        "'İleri Özellik Seçimi NP', BC2_64 yapılandırmasında 'LASSO regresyon özellik seçimi'ne (5.73) kıyasla daha düşük bir değere (2.9) ulaştı."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "D5",
+      "D7"
+    ],
+    "reasoning_category": "Comaparative Reasoning"
+  }
+]

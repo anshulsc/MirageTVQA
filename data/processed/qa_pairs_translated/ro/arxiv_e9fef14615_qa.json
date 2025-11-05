@@ -1,0 +1,306 @@
+[
+  {
+    "question_id": "arxiv_e9fef14615_001",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Ce model a obținut cel mai mare scor F1 pe setul de date 'ccfraud'?",
+    "answer": [
+      [
+        "Gemini"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "E4",
+      "C4",
+      "D4",
+      "F4",
+      "G4",
+      "H4",
+      "I4",
+      "J4",
+      "K4",
+      "L4",
+      "M4",
+      "N4",
+      "O4",
+      "E10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_002",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Care este scorul mediu de acuratețe ('Acc') pentru modelul 'GPT 4' pe toate seturile de date unde a fost utilizată această metrică?",
+    "answer": [
+      [
+        "0.543"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B5",
+      "D5",
+      "B9",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_003",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Identifică setul de date unde 'FinMA 7B' a obținut cel mai mare scor, apoi listează modelul/modelele care au obținut zero la aceeași sarcină.",
+    "answer": [
+      [
+        "taiwan",
+        "Falcon 7B"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "I11",
+      "L11",
+      "I1",
+      "I2",
+      "I3",
+      "I4",
+      "I5",
+      "I6",
+      "I7",
+      "I8",
+      "I9",
+      "I12",
+      "I10",
+      "L10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_004",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Pe setul de date 'TSA', care model prezintă cea mai mare scădere a performanței comparativ cu modelul listat în coloana imediat din stânga sa și care este valoarea acestei scăderi?",
+    "answer": [
+      [
+        "FinGPT 7B-lora",
+        "0.80"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "I3",
+      "J3",
+      "I10",
+      "J10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_005",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Identifica toate seturile de date unde modelul 'Gemini' a obținut un scor de 0.90 sau mai mare, ȘI modelul 'Chat GPT' a avut un scor de 0.20 sau mai mic.",
+    "answer": [
+      [
+        "ccfraud"
+      ],
+      [
+        "taiwan"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "E4",
+      "A11",
+      "C11",
+      "E11",
+      "C10",
+      "E10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_006",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Pentru setul de date 'LendingClub', ce procent din scorul cumulativ de la toate modelele poate fi atribuit celor mai performante trei modele pentru această sarcină? Rotunjește la o zecimală.",
+    "answer": [
+      [
+        "41.3%"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "G6",
+      "H6",
+      "I6",
+      "J6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "O6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_007",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Dacă fiecare scor pentru modelul 'LLaMA2 70B' ar fi crescut cu 10%, care ar fi noul scor mediu pe toate sarcinile evaluate? Rotunjiți la trei zecimale.",
+    "answer": [
+      [
+        "0.354"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G11",
+      "G12",
+      "G10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_008",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "open_ended_reasoning",
+    "question": "Analizează sarcinile măsurate de metricile 'F1' sau 'MicroF1'. Există o relație de performanță constantă între modelele 'GPT 4' și 'Gemini'? Explică raționamentul.",
+    "answer": [
+      [
+        "Nu există o corelație pozitivă puternică, dar există o ierarhie clară de performanță. Pe sarcinile bazate pe F1, Gemini depășește constant sau egalează GPT 4. Pentru seturile de date 'ccfraud' și 'taiwan', scorurile Gemini (0.90 și respectiv 0.95) sunt considerabil mai mari decât scorul GPT 4 (0.55 pentru ambele). Pentru 'LendingClub', Gemini (0.65) este totuși moderat mai mare decât GPT 4 (0.55). Doar pe setul de date 'MLESG' scorurile lor sunt aproape identice (0.35 vs 0.34). Acest lucru sugerează că, deși performanța lor nu este strâns corelată, Gemini este, în general, un model superior pentru aceste sarcini specifice măsurate cu F1."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "D4",
+      "E4",
+      "B6",
+      "D6",
+      "E6",
+      "B11",
+      "D11",
+      "E11",
+      "B12",
+      "D12",
+      "E12",
+      "D10",
+      "E10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_009",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Pe baza datelor de performanță, care două seturi de date prezintă scoruri zero pentru fiecare model testat, sugerând o posibilă eșec de evaluare sau o sarcină pe care niciun model nu a putut să o finalizeze?",
+    "answer": [
+      [
+        "FNXL"
+      ],
+      [
+        "ECTSUM"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "H7",
+      "I7",
+      "J7",
+      "K7",
+      "L7",
+      "M7",
+      "N7",
+      "O7",
+      "A8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "G8",
+      "H8",
+      "I8",
+      "J8",
+      "K8",
+      "L8",
+      "M8",
+      "N8",
+      "O8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_010",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "open_ended_reasoning",
+    "question": "Pentru modelul 'Gemini', care scor de set de date reprezintă cel mai semnificativ outlier pozitiv de performanță și de ce?",
+    "answer": [
+      [
+        "Scorul pentru setul de date 'taiwan' (0.95) este cel mai semnificativ outlier pozitiv pentru modelul Gemini. Calculând media scorurilor non-zero ale Gemini, obținem aproximativ 0.615. Scorul de 0.95 este cea mai mare valoare și cea mai îndepărtată de această medie în comparație cu toate celelalte scoruri. Această performanță neobișnuit de ridicată sugerează că modelul Gemini este excepțional de potrivit pentru sarcina definită de setul de date 'taiwan' și metrica 'F1', sau că sarcina în sine a fost substanțial mai ușoară pentru acest model decât pentru celelalte."
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "B11",
+      "E11",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E12",
+      "E10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_011",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "open_ended_reasoning",
+    "question": "Ce model demonstrează o generalizare robustă atât pentru sarcinile de extragere a entităților (NER, FINER-ORD), cât și pentru cele de clasificare a sentimentelor (FPB, SC)?",
+    "answer": [
+      [
+        "GPT-4 performează constant bine atât pe seturile de date pentru extragerea entităților, cât și pentru clasificarea sentimentelor, obținând scoruri EntityF1 și F1 ridicate în comparație cu alte modele."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A5",
+      "J5",
+      "A9",
+      "J9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

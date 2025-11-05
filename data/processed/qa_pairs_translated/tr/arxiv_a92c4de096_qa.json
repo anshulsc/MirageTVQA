@@ -1,0 +1,255 @@
+[
+  {
+    "question_id": "arxiv_a92c4de096_001",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Arama alanlarında listelenen en fazla seçeneğe sahip hiperparametreler hangileridir?",
+    "answer": [
+      [
+        "Sequence size"
+      ],
+      [
+        "TRADES Layers"
+      ],
+      [
+        "Augmentation Dim."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_002",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Arama uzaylarında iki'den fazla olası değere sahip kaç hiperparametre test edildi?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_003",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "En küçük sıfırdan büyük sayısal değere sahip hiperparametrenin arama alanı neydi?",
+    "answer": [
+      [
+        "{10−3,10−4}superscript103superscript104\\{{10^{-3}},10^{-4}\\}{ 10 start_POSTSUPERSCRIPT - 3 end_POSTSUPERSCRIPT , 10 start_POSTSUPERSCRIPT - 4 end_POSTSUPERSCRIPT }"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_004",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Arama Uzayı'ndaki ilgili değerlerinden en yüksek değere sahip 'En İyi Seçim' olan tüm hiperparametreleri listeleyin.",
+    "answer": [
+      [
+        "Learning Rate"
+      ],
+      [
+        "Dropout"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_005",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Sayısal hiperparametrelerin 'En İyi Seçimi', sıralanmış 'Arama Alanlarının' ortasından mı (yani minimum veya maksimum değer değil) seçildi? Oran nedir?",
+    "answer": [
+      [
+        "5/7"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_006",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "'TRADES Layers' hiperparametresi için arama alanı sadece 8'den küçük değerlerle sınırlandırılsaydı, orijinal arama alanındaki bir sonraki en iyi uygun seçenek tercih edildiği varsayılarak, bu hiperparametre için 'En İyi Seçim' ne olurdu?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_007",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "Bir hiperparametre arama uzayının boyutu ile 'En İyi Seçim'in uç (min/maks) bir değer mi yoksa orta bir değer mi olduğu arasında gözlemlenebilir bir ilişki var mı? Gerekçenizi açıklayın.",
+    "answer": [
+      [
+        "Evet, açık bir örüntü var. İki seçenekli küçük bir arama uzayına sahip hiperparametreler (Öğrenme Oranı, Düşürme), en iyi seçim maksimum değerdi. Üç veya dört seçenekli daha büyük bir arama uzayına sahip tüm hiperparametreler için, optimum değer aralığın ortasında bulundu, hiçbir zaman uç noktalarda değil. Bu, bu model için ince ayar işleminin faydalı olduğunu ve başlangıçtaki geniş aralıkların, test edilen alanın sınırlarında olmayan optimum bir bölgeyi başarıyla çevrelediğini göstermektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_008",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Sayısal olmayan etiketlerle açıklanan arama alanına sahip hiperparametre hangisidir?",
+    "answer": [
+      [
+        "Optimizer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_009",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "En yüksek bir sonraki sayısal 'En İyi Seçim' değerinden en az dört kat daha büyük olan, sayısal bir aykırı değer olan 'En İyi Seçim' değeri hangi hiperparametrenin?",
+    "answer": [
+      [
+        "Sequence size"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_010",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "Arama uzaylarında dört seçeneği olan hiperparametreler ('Dizi boyutu', 'TRADES Katmanları', 'Artırma Boyutu') göz önüne alındığında, 'En İyi Seçim' değerlerinin ortak özelliği nedir ve bu durum ayarlama stratejisi hakkında ne anlama gelebilir?",
+    "answer": [
+      [
+        "Ortak özellik, üç hiperparametre için de 'En İyi Seçim'in bir uç değer (minimum veya maksimum) değil, ara bir değer olmasıdır. 'En İyi Seçimler' şunlardır: 256 (%75 olasılıkla 4 değerden 3.'sü), 8 (4 değerden 3.'sü) ve 64 (4 değerden 2.'si). Bu, arama uzayının optimum değeri kapsayacak kadar geniş olduğu başarılı bir ayarlama stratejisi anlamına gelir ve bu parametreler için performansın değerle birlikte monotonik olarak artmadığını, daha ziyade test edilen aralık içinde bir yerde zirveye ulaştığını düşündürmektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_011",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Optimizer için en iyi seçim nedir?",
+    "answer": [
+      [
+        "Adam"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

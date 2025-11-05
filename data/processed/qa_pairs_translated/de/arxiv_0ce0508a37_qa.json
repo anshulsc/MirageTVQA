@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "arxiv_0ce0508a37_001",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Welcher Marktparameter hat einen Koeffizientenwert, der genau doppelt so hoch ist wie der des anderen?",
+    "answer": [
+      [
+        "Temporary impact coefficient"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C9",
+      "A10",
+      "C10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_002",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Was ist der Durchschnittswert für den 'Nichtlinearitätsparameter' basierend auf der Menge der angegebenen möglichen Werte?",
+    "answer": [
+      [
+        "0.567"
+      ]
+    ],
+    "evidence_cells": [
+      "C11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_003",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Was ist das Symbol für den Parameter unter 'Market Dynamics', der die höchste Anzahl unterschiedlicher Werte aufweist?",
+    "answer": [
+      [
+        "V0subscript𝑉0\\sqrt{V_{0}}square-root start_ARG italic_V start_POSTSUBSCRIPT 0 end_POSTSUBSCRIPT end_ARG"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_004",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "Basierend auf den Werten für 'Anfängliche Volatilität', 'Langfristige Volatilität' und 'Mean Reversion Speed', was kann über das Volatilitätsverhalten des Modells im Zeitverlauf abgeleitet werden?",
+    "answer": [
+      [
+        "Das Modell weist eine mean-revertierende Volatilität auf. Die 'Langfristige Volatilität' ist fest auf 0,3 eingestellt und dient als Anker. Die 'Anfängliche Volatilität' kann höher (0,4), niedriger (0,2) oder auf dem langfristigen Niveau (0,3) beginnen. Unabhängig vom Startpunkt wird erwartet, dass die Volatilität im Laufe der Zeit auf 0,3 driftet. Dieser Prozess wird durch die 'Mean Reversion Speed' von 2,0 gesteuert. Das bedeutet, dass Perioden hoher oder niedriger Volatilität nicht von Dauer sind."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_005",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Listen Sie alle Parameter unter der Kategorie 'Market Dynamics' auf, die als eine Menge möglicher Werte dargestellt werden und bei denen alle aufgeführten Werte nicht negativ sind.",
+    "answer": [
+      [
+        "Drift rate"
+      ],
+      [
+        "Initial volatility"
+      ],
+      [
+        "Volatility of variance"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_006",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Wenn 'Risikoaversion' als der Kehrwert der Risikobereitschaft definiert ist und sowohl die Werte für 'permanenter Einfluss' als auch für 'temporärer Einfluss' um den Faktor 10 steigen würden, wie wäre das neue Verhältnis des 'Koeffizienten des temporären Einflusses' zur 'Risikoaversion'?",
+    "answer": [
+      [
+        "50.0"
+      ]
+    ],
+    "evidence_cells": [
+      "C10",
+      "C13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_007",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Wenn sich die 'Mittlere Rückkehrgeschwindigkeit' um 50 % verringern und die Werte für die 'Volatilität der Varianz' beide um 0,1 erhöht würden, was wäre die neue Summe aus der 'Mittleren Rückkehrgeschwindigkeit' und der maximalen 'Volatilität der Varianz'?",
+    "answer": [
+      [
+        "1.4"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_008",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "Der Tisch gibt einen 'Korrelations'-Wert von -0.7 an. Was impliziert dieser stark negative Wert typischerweise in einem Finanzmodell über die Beziehung zwischen dem Preis eines Vermögenswerts und seiner Volatilität?",
+    "answer": [
+      [
+        "Eine Korrelation von -0.7 bedeutet eine starke inverse Beziehung, die oft als Leverage-Effekt bezeichnet wird. Sie impliziert, dass mit sinkendem Preis des Vermögenswerts dessen Volatilität tendenziell steigt und umgekehrt, mit steigendem Preis des Vermögenswerts dessen Volatilität tendenziell sinkt. Dies ist ein entscheidendes Merkmal für die realistische Modellierung von Vermögenspreisen und die Preisgestaltung von Derivaten."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_009",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Wie viele Parameter in der Tabelle sind durch eine Menge mehrerer möglicher Werte und nicht durch einen einzigen festen Wert definiert?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_010",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Welcher einzelne Parameter ist ein qualitativer Ausreißer, da sein Wert der einzige ist, der negativ ist?",
+    "answer": [
+      [
+        "Correlation"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_011",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Was ist die Einstellgeschwindigkeit für Mittelrückkehr im Modell?",
+    "answer": [
+      [
+        "2.0"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

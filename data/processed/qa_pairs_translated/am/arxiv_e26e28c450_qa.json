@@ -1,0 +1,271 @@
+[
+  {
+    "question_id": "arxiv_e26e28c450_001",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "የአጠቃላይ አማካይ የካሬ ስህተት (MSE_over) ዝቅተኛውን የሚያገኘው የትኛው ከብዙ-ተግባር ያልሆነ ሞዴል ነው?",
+    "answer": [
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "H1",
+      "A2",
+      "B2",
+      "H2",
+      "A3",
+      "B3",
+      "H3",
+      "A4",
+      "B4",
+      "H4",
+      "A5",
+      "B5",
+      "H5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_002",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "የ 'Multi-Task' ምልክት የተደረገባቸውን ሁሉንም ሞዴሎች አማካይ የ7-ቀን ሆራይዘን (MSE7) MSE አስሉ።",
+    "answer": [
+      [
+        "0.820"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "H6",
+      "D7",
+      "H7",
+      "D8",
+      "H8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_003",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "በሁለተኛ ደረጃ ከፍተኛ (በሁለተኛ ደረጃ የከፋ) MSE3 ዋጋ ላለው ሞዴል፣ ተዛማጅ የሆነው MSE30 ዋጋው ምንድነው?",
+    "answer": [
+      [
+        "0.233"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "F3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_004",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "የኤችቲኤምኤል (HTML) ሞዴልን አማካይ የተሳሳተ ስህተት (MSE) ከ3 ቀናት ወደ 30 ቀናት የትንበያ ጊዜ ሲራዘም ያለውን አዝማሚያ ይተነትኑ። በጊዜ ሂደት የትንበያ ትክክለኝነቱ ይሻሻል ወይስ እየተባባሰ ይሄዳል?",
+    "answer": [
+      [
+        "የኤችቲኤምኤል (HTML) ሞዴል የትንበያ ትክክለኝነት እየጨመረ ሲሄድ ይሻሻላል። የMSE እሴቶቹ ከMSE3 (0.845) ወደ MSE7 (0.349)፣ MSE15 (0.251) እና በመጨረሻም MSE30 (0.158) በወጥነት እየቀነሱ ይሄዳሉ፣ ይህም ዝቅተኛ ስህተት እና ለረጅም ጊዜ ትንበያዎች የተሻለ አፈጻጸም ያሳያል።"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_005",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "\"Multi-Task\" ተብለው ያልተመደቡ እና የMSE15 ዋጋቸው ከ0.31 በታች የሆኑ ሁሉንም ሞዴሎች ይለዩ።",
+    "answer": [
+      [
+        "MT-LSTM-ATT"
+      ],
+      [
+        "HAN"
+      ],
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "H1",
+      "A2",
+      "E2",
+      "H2",
+      "A3",
+      "E3",
+      "H3",
+      "A4",
+      "E4",
+      "H4",
+      "A5",
+      "E5",
+      "H5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_006",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "በሁሉም የMSE መለኪያዎች ውስጥ ግልጽ የሆነ የአፈጻጸም ልዩነት ያለውን ሞዴል ይለዩ እና ለምን እንደሆነ ያብራሩ?",
+    "answer": [
+      [
+        "GPT-3.5-Turbo ሞዴል ግልጽ የሆነ የአፈጻጸም ልዩነት አለው። በሁሉም የጊዜ ገደቦች (MSE_over: 2.198, MSE3: 2.152, MSE7: 1.793, MSE15: 2.514, MSE30: 2.332) ያለው የMSE እሴቶች ከሌሎች ሞዴሎች በእጅጉ ከፍ ያሉ ናቸው፣ አብዛኛዎቹ የMSE እሴቶች ከ1.0 በታች ናቸው። ይህ ከሌሎች ከተዘረዘሩት ሞዴሎች ጋር ሲነፃፀር በከፍተኛ ሁኔታ የከፋ የትንበያ አፈጻጸምን ያሳያል።"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_007",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "በሁሉም ሞዴሎች ላይ የተደመረው ጠቅላላ MSE3 ድርሻ ለ GPT-3.5-Turbo ሞዴል ምን ያህል ነው? መልስዎን እንደ መቶኛ በአንድ አስርዮሽ ቦታ ዙሪያ ይስጡት።",
+    "answer": [
+      [
+        "19.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_008",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "የRiskLabs ሞዴል የMSE_over ዋጋ በ25% ቢሻሻል (ማለትም በ25% ቢቀንስ) አዲሱ ዋጋው ምን ያህል ይሆናል፣ እና ከHTML ሞዴል MSE_over ጋር ሲነጻጸር እንዴት ደረጃ ይይዛል?",
+    "answer": [
+      [
+        "ለRiskLabs አዲሱ MSE_over 0.243 ይሆናል። ይህ ዋጋ ከHTML ሞዴል MSE_over 0.401 ያነሰና የተሻለ ነው።"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_009",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "በሰንጠረዡ መሠረት፣ 'ብዙ ስራ' (Multi-Task) ተብሎ ከተመደበው ሞዴል እና 'VaR' ውጤት መገኘት መካከል ያለው ግንኙነት ምንድነው?",
+    "answer": [
+      [
+        "ጠንካራ ግንኙነት አለ። 'ብዙ ስራ' (Multi-Task) ተብለው የተመደቡት ሞዴሎች ብቻ (GPT-3.5-Turbo እና RiskLabs) የተዘገበ የቁጥር 'VaR' ውጤት አላቸው። ሆኖም ግን፣ ሁሉም 'ብዙ ስራ' ሞዴሎች የVaR ውጤት የላቸውም (ለምሳሌ፣ HTML)፣ እና 'ብዙ ስራ' ያልሆኑ ሞዴሎች ምንም የላቸውም፣ ይህም የVaR የማስላት ችሎታ በዚህ የውሂብ ስብስብ ውስጥ በዋናነት ከ'ብዙ ስራ' ሞዴሎች ጋር የተያያዘ ባህሪ መሆኑን ይጠቁማል።"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "H1",
+      "G2",
+      "H2",
+      "G3",
+      "H3",
+      "G4",
+      "H4",
+      "G5",
+      "H5",
+      "G6",
+      "H6",
+      "G7",
+      "H7",
+      "G8",
+      "H8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_010",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "የትኛው የአፈጻጸም መለኪያ ዓምድ የቁጥር ያልሆኑ የቦታ ያዥ መረጃዎችን የያዘ ሲሆን፣ ለእነዚህም የትኞቹ ሞዴሎች ይህ መረጃ የጎደላቸው ናቸው?",
+    "answer": [
+      [
+        "\"VaR\" የተሰኘው ዓምድ የቁጥር ያልሆኑ መረጃዎችን ('/') የያዘ ነው። ይህ መረጃ ለሚከተሉት ሞዴሎች የጎደላቸው ናቸው፦ Classical Method, LSTM, MT-LSTM-ATT, HAN, MRDM, እና HTML።"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_011",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "በተለያዩ የጊዜ ገደቦች (MSE3–MSE30) መካከል ያለውን ትንበያ ትክክለኝነት እና የঝুঁকি ግምትን (VaR) በተመለከተ በጣም ጥሩ ሚዛን የሚያሳይ ሞዴል የቱ ነው?",
+    "answer": [
+      [
+        "የRiskLabs ሞዴል በጣም ጥሩ አጠቃላይ ሚዛን በማሳየት ሁሉንም የጊዜ ገደቦች ዝቅተኛ የMSE እሴቶችን እና ዝቅተኛውን VaR (0.049) በማስጠበቅ የላቀ ነው። ይህም ጠንካራ የትንበያ ትክክለኝነት እና አስተማማኝ የঝুঁকি ግምትን ያሳያል።"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "G8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

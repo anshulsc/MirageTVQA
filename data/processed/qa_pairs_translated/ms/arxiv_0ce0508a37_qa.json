@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "arxiv_0ce0508a37_001",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Apakah parameter impak pasaran yang mempunyai nilai pekali dua kali ganda daripada yang lain?",
+    "answer": [
+      [
+        "Temporary impact coefficient"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C9",
+      "A10",
+      "C10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_002",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Berapakah nilai purata untuk 'Parameter ketidaklinear' berdasarkan set nilai yang mungkin disediakan?",
+    "answer": [
+      [
+        "0.567"
+      ]
+    ],
+    "evidence_cells": [
+      "C11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_003",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Apakah simbol untuk parameter di bawah 'Market Dynamics' yang mempunyai bilangan nilai tersendiri tertinggi yang disenaraikan?",
+    "answer": [
+      [
+        "V0subscript𝑉0\\sqrt{V_{0}}square-root start_ARG italic_V start_POSTSUBSCRIPT 0 end_POSTSUBSCRIPT end_ARG"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_004",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan nilai bagi 'Initial volatility', 'Long-term volatility', dan 'Mean reversion speed', apa yang boleh disimpulkan tentang tingkah laku volatiliti model dari semasa ke semasa?",
+    "answer": [
+      [
+        "Model ini menunjukkan volatiliti yang kembali kepada min. 'Long-term volatility' ditetapkan pada 0.3, yang bertindak sebagai penambat. 'Initial volatility' boleh bermula lebih tinggi (0.4), lebih rendah (0.2), atau pada tahap jangka panjang (0.3). Tanpa mengira titik permulaan, volatiliti dijangka akan bergerak ke arah 0.3 dari semasa ke semasa, suatu proses yang kelajuannya dikawal oleh 'Mean reversion speed' sebanyak 2.0. Ini bermakna tempoh volatiliti tinggi atau rendah tidak kekal."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_005",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Senaraikan semua parameter di bawah kategori 'Market Dynamics' yang dipersembahkan sebagai satu set nilai berganda, di mana semua nilai yang disenaraikan adalah bukan negatif.",
+    "answer": [
+      [
+        "Drift rate"
+      ],
+      [
+        "Initial volatility"
+      ],
+      [
+        "Volatility of variance"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_006",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Jika 'Penghindaran Risiko' ditakrifkan sebagai songsangan kepada toleransi risiko, dan kedua-dua nilai 'Kesan Kekal' dan 'Kesan Sementara' meningkat sebanyak 10 kali ganda, apakah nisbah baharu 'pekali Kesan Sementara' kepada 'Penghindaran Risiko'?",
+    "answer": [
+      [
+        "50.0"
+      ]
+    ],
+    "evidence_cells": [
+      "C10",
+      "C13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_007",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Jika 'Mean reversion speed' berkurang sebanyak 50%, dan nilai 'Volatility of variance' kedua-duanya meningkat sebanyak 0.1, apakah jumlah baharu bagi 'Mean reversion speed' dan 'Volatility of variance' maksimum?",
+    "answer": [
+      [
+        "1.4"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_008",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "Jadual menetapkan nilai 'Korelasi' sebanyak -0.7. Dalam model kewangan, apakah yang lazimnya tersirat oleh nilai negatif yang kuat ini tentang hubungan antara harga aset dan volatilitinya?",
+    "answer": [
+      [
+        "Korelasi sebanyak -0.7 menandakan hubungan songsang yang kuat, yang sering dirujuk sebagai kesan leverage. Ia membayangkan bahawa apabila harga aset menurun, volatilitinya cenderung meningkat, dan sebaliknya, apabila harga aset meningkat, volatilitinya cenderung menurun. Ini adalah ciri penting untuk pemodelan harga aset yang realistik dan penetapan harga derivatif."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_009",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Berapa banyak parameter dalam jadual yang ditakrifkan oleh satu set nilai pelbagai berbanding satu nilai tetap?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_010",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Parameter tunggal manakah yang merupakan outlier kualitatif kerana nilainya adalah satu-satunya yang negatif?",
+    "answer": [
+      [
+        "Correlation"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_011",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Berapakah kelajuan pemulihan min yang ditetapkan dalam model?",
+    "answer": [
+      [
+        "2.0"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

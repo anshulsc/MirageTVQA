@@ -1,0 +1,269 @@
+[
+  {
+    "question_id": "arxiv_a783ff97d3_001",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Ce metodă de selecție a caracteristicilor a obținut cea mai mică valoare de eroare pentru setarea de prognoză 'BC2_64'?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_002",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Care este numărul mediu de variabile exogene utilizate de metoda 'LASSO regression feature selection' în toate setările de prognoză?",
+    "answer": [
+      [
+        "6.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_003",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Pentru setarea de prognoză 'BC3_28', care este metrica de eroare a metodei care utilizează cel mai mare număr de variabile exogene?",
+    "answer": [
+      [
+        "18.23"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "G2",
+      "G3",
+      "A4",
+      "G4",
+      "G5",
+      "A6",
+      "G6",
+      "G7",
+      "A8",
+      "G8",
+      "G9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_004",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Creșterea numărului de variabile exogene îmbunătățește în mod constant performanța (adică scade valoarea erorii) pentru setarea 'BC1_64'? Oferiți o scurtă analiză.",
+    "answer": [
+      [
+        "Nu, nu există o relație consecventă. Pentru setarea 'BC1_64', 'Selecția bazată pe corelație' folosește 3 variabile pentru o eroare de 14,11, 'regresia LASSO' folosește tot 3 variabile, dar are o eroare mai mare de 14,55. 'Selecția de caracteristici Forward NP' folosește un număr mult mai mare de variabile (28) și obține o eroare semnificativ mai bună (mai mică) de 9,16. Acest lucru sugerează că, deși un număr mai mare de variabile poate fi mai bun, metoda specifică de selecție este critică, iar simpla adăugare de variabile nu garantează îmbunătățiri."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "B3",
+      "A4",
+      "B4",
+      "B5",
+      "A6",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_005",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Enumerați toate metodele de selecție a caracteristicilor care au rezultat într-o valoare a erorii mai mare de 15 pentru setarea 'BC3_64'.",
+    "answer": [
+      [
+        "Without exogenous variables"
+      ],
+      [
+        "Correlation-Based Selection"
+      ],
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Manual feature selection"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A4",
+      "F4",
+      "A6",
+      "F6",
+      "A8",
+      "F8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_006",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Ce procent din numărul total de variabile exogene utilizate de 'Forward Feature Selection NP' în toate setările a fost alocat setării 'BC1_64'?",
+    "answer": [
+      [
+        "28.57"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_007",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Dacă o eroare de procesare a datelor a făcut ca toate metricile de eroare pentru setarea 'BC2_28' să fie cu 2,5 puncte mai mici decât cele înregistrate, care ar fi noua eroare pentru 'Selecție manuală de caracteristici'?",
+    "answer": [
+      [
+        "13.57"
+      ]
+    ],
+    "evidence_cells": [
+      "E8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_008",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Dintre metodele de selecție a caracteristicilor unde numărul de variabile este listat explicit, care demonstrează cea mai mare instabilitate, măsurată prin intervalul (maxim minus minim) al variabilelor selectate în diferitele setări de prognoză?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "A6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "A8",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9",
+      "G9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_009",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Pentru metoda 'LASSO regression feature selection', valoarea erorii pentru 'BC3_28' este o valoare aberantă. Cum se compară numărul corespunzător de variabile exogene cu celelalte setări pentru aceeași metodă?",
+    "answer": [
+      [
+        "Setarea 'BC3_28', care are eroarea aberantă mare de 28,79 pentru LASSO, folosește și cel mai mare număr de variabile exogene (16) pentru acea metodă. Acesta este semnificativ mai mare decât celelalte setări, care variază de la 0 la 10 variabile. Acest lucru sugerează o problemă potențială în care metoda LASSO a selectat un set mare, dar slab performant, de caracteristici pentru acest context specific de prognoză."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5",
+      "E4",
+      "E5",
+      "F4",
+      "F5",
+      "G4",
+      "G5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_010",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Analizând performanța baseline-ului 'Fără variabile exogene', descrieți tendința metricii de eroare pe măsură ce vă deplasați secvențial de la setările 'BC1' la 'BC2' și apoi la 'BC3'.",
+    "answer": [
+      [
+        "Performanța baseline-ului 'Fără variabile exogene' prezintă un model clar pe parcursul setărilor. Începe cu valori moderate ale erorii pentru setările BC1 (11,14, 13,65). Performanța se îmbunătățește dramatic pentru setările BC2, care au cele mai mici erori (3,75, 9,08). În final, eroarea crește din nou pentru setările BC3 (17,53, 9,06), BC3_64 având cea mai mare eroare generală pentru această metodă. Acest lucru indică faptul că modelul baseline este cel mai potrivit pentru condițiile BC2."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_011",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Între 'LASSO regression feature selection' și 'Forward Feature Selection NP', ce setare de prognoză a obținut o valoare mai mică în configurația BC2_64?",
+    "answer": [
+      [
+        "'Forward Feature Selection NP' a obținut o valoare mai mică (2,9) comparativ cu 'LASSO regression feature selection' (5,73) în configurația BC2_64."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "D5",
+      "D7"
+    ],
+    "reasoning_category": "Comaparative Reasoning"
+  }
+]

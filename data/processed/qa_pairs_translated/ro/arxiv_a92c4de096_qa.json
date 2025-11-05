@@ -1,0 +1,255 @@
+[
+  {
+    "question_id": "arxiv_a92c4de096_001",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Ce hiperparametri au cel mai mare număr de opțiuni listate în spațiul lor de căutare?",
+    "answer": [
+      [
+        "Sequence size"
+      ],
+      [
+        "TRADES Layers"
+      ],
+      [
+        "Augmentation Dim."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_002",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Câți hiperparametri au fost testați cu mai mult de două valori posibile în spațiul lor de căutare?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_003",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Care a fost spațiul de căutare pentru hiperparametrul a cărui cea mai bună alegere este cea mai mică valoare numerică mai mare decât zero?",
+    "answer": [
+      [
+        "{10−3,10−4}superscript103superscript104\\{{10^{-3}},10^{-4}\\}{ 10 start_POSTSUPERSCRIPT - 3 end_POSTSUPERSCRIPT , 10 start_POSTSUPERSCRIPT - 4 end_POSTSUPERSCRIPT }"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_004",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Enumerați toți hiperparametrii pentru care 'Cea mai bună alegere' a fost cea mai mare valoare disponibilă în spațiul de căutare respectiv.",
+    "answer": [
+      [
+        "Learning Rate"
+      ],
+      [
+        "Dropout"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_005",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Ce proporție dintre hiperparametrii numerici au avut 'Best Choice' selectat din mijlocul spațiului lor de căutare ('Search Space') (adică, nu valoarea minimă sau maximă)?",
+    "answer": [
+      [
+        "5/7"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_006",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Dacă căutarea pentru 'TRADES Layers' ar fi fost restricționată doar la valori mai mici de 8, care ar fi fost 'Best Choice' pentru acest hiperparametru, presupunând că s-a ales următoarea cea mai bună opțiune disponibilă din spațiul de căutare original?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_007",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "Există o relație observabilă între mărimea spațiului de căutare al unui hiperparametru și dacă 'Cea mai bună alegere' este o valoare extremă (min/max) sau o valoare din mijloc? Explicați raționamentul.",
+    "answer": [
+      [
+        "Da, există un model clar. Pentru hiperparametrii cu un spațiu de căutare mic, cu două opțiuni (Rata de învățare, Dropout), cea mai bună alegere a fost valoarea maximă. Pentru toți hiperparametrii cu un spațiu de căutare mai mare, cu trei sau patru opțiuni, valoarea optimă a fost găsită în mijlocul intervalului, niciodată la extreme. Acest lucru sugerează că, pentru acest model, un proces de reglare fină este benefic, iar intervalele largi inițiale au delimitat cu succes o regiune optimă care nu se afla la limitele spațiului testat."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_008",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Ce hiperparametru are spațiul de căutare descris folosind etichete non-numerice?",
+    "answer": [
+      [
+        "Optimizer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_009",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Care valoare 'Best Choice' a unui hiperparametru este o valoare aberantă numerică, fiind cel puțin de patru ori mai mare decât următoarea cea mai mare valoare numerică 'Best Choice'?",
+    "answer": [
+      [
+        "Sequence size"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_010",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "Având în vedere hiperparametrii cu patru opțiuni în spațiul lor de căutare ('Sequence size', 'TRADES Layers', 'Augmentation Dim.'), ce caracteristică comună au valorile lor 'Best Choice' și ce ar putea implica aceasta despre strategia de ajustare?",
+    "answer": [
+      [
+        "Caracteristica comună este că, pentru toți cei trei hiperparametri, 'Best Choice' este o valoare intermediară, nu una extremă (minimă sau maximă). Cele mai bune alegeri sunt 256 (al 3-lea din 4), 8 (al 3-lea din 4) și 64 (al 2-lea din 4). Aceasta implică o strategie de ajustare reușită, în care spațiul de căutare a fost suficient de larg pentru a încadra valoarea optimă, sugerând că performanța pentru acești parametri nu crește monotonic odată cu valoarea, ci mai degrabă atinge un punct maxim undeva în intervalul testat."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_011",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Care este cea mai bună alegere pentru Optimizer?",
+    "answer": [
+      [
+        "Adam"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

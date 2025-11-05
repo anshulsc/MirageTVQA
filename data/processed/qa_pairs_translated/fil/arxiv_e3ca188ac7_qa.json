@@ -1,0 +1,293 @@
+[
+  {
+    "question_id": "arxiv_e3ca188ac7_001",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Aling metric ang nakakuha ng pinakamataas na marka sa NDCG?",
+    "answer": [
+      [
+        "αS⁢2subscript𝛼𝑆2\\alpha_{S2}italic_α start_POSTSUBSCRIPT italic_S 2 end_POSTSUBSCRIPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_002",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Kalkulahin ang average na Kendall score para sa lahat ng metrics na nagsisimula sa 'αS'.",
+    "answer": [
+      [
+        "0.27075"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_003",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Ano ang Spearman score para sa metric na may pinakamababang Kendall score?",
+    "answer": [
+      [
+        "0.127"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_004",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "open_ended_reasoning",
+    "question": "Suriin ang takbo ng Spearman score para sa mga metric mula αS1 hanggang αS4. Ang takbo ba ay palaging pataas, pababa, o pabago-bago?",
+    "answer": [
+      [
+        "Ang takbo para sa Spearman score mula αS1 hanggang αS4 ay palaging pataas. Ang mga halaga ay umuusad mula 0.39 para sa αS1, patungong 0.394 para sa αS2, patungong 0.4 para sa αS3, at sa wakas ay patungong 0.409 para sa αS4, kung saan ang bawat kasunod na metric ay nagpapakita ng mas mataas na iskor kaysa sa nauna."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_005",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Ilista ang lahat ng metriks kung saan ang iskor ng NDCG ay mas mataas sa 0.55 at ang iskor ng Kendall ay mas mataas sa 0.25.",
+    "answer": [
+      [
+        "αS⁢1subscript𝛼𝑆1\\alpha_{S1}italic_α start_POSTSUBSCRIPT italic_S 1 end_POSTSUBSCRIPT"
+      ],
+      [
+        "αS⁢2subscript𝛼𝑆2\\alpha_{S2}italic_α start_POSTSUBSCRIPT italic_S 2 end_POSTSUBSCRIPT"
+      ],
+      [
+        "αS⁢3subscript𝛼𝑆3\\alpha_{S3}italic_α start_POSTSUBSCRIPT italic_S 3 end_POSTSUBSCRIPT"
+      ],
+      [
+        "αS⁢4subscript𝛼𝑆4\\alpha_{S4}italic_α start_POSTSUBSCRIPT italic_S 4 end_POSTSUBSCRIPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_006",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Ano ang proporsyon ng kabuuang bilang ng lahat ng Spearman scores na ibinibigay ng seryeng 'αS' ng mga sukatan na pinagsama-sama? Ipahayag ang iyong sagot bilang porsyento na naka-round sa dalawang decimal place.",
+    "answer": [
+      [
+        "92.46%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_007",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Kung ang NDCG score para sa 'PSR' metric ay hipotetikal na iaakma upang tumugma sa NDCG score ng 'Sharpe Ratio', ano ang magiging bagong average na NDCG score para sa lahat ng metrics sa talahanayan?",
+    "answer": [
+      [
+        "0.533"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_008",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "open_ended_reasoning",
+    "question": "Sa pagtingin sa relasyon sa pagitan ng mga column na 'Kendall' at 'NDCG', anong uri ng korelasyon ang maaaring mahinuha sa pagitan ng dalawang sukat na ito? Patunayan ang iyong sagot batay sa datos.",
+    "answer": [
+      [
+        "Isang malakas na positibong korelasyon ang maaaring mahinuha sa pagitan ng mga marka ng Kendall at NDCG. Ang mga sukatan na may pinakamababang marka ng Kendall ('Sharpe Ratio' sa 0.087 at 'PSR' sa 0.085) ay mayroon ding pinakamababang marka ng NDCG (0.393 at 0.388). Sa kabaligtaran, ang apat na 'αS' metrics, na may makabuluhang mas mataas na marka ng Kendall (nasa pagitan ng 0.265 hanggang 0.278), ay mayroon ding pinakamataas na marka ng NDCG (nasa pagitan ng 0.589 hanggang 0.636). Ipinapakita ng pattern na ito na habang tumataas ang marka ng Kendall, ang marka ng NDCG ay may tendensiyang tumaas din."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_009",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Alin sa tatlong numerical column (Spearman, Kendall, NDCG) ang may pinakamalaking range sa pagitan ng maximum at minimum value nito?",
+    "answer": [
+      [
+        "Spearman"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_010",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Ang mga sukatan na 'Sharpe Ratio' at 'PSR' ay bumubuo ng isang pangkat na may mababang marka kumpara sa mga sukatan na 'αS'. Para sa aling sukat (Spearman, Kendall, o NDCG) ang pinakamalaki ang ganap na pagkakaiba sa pagitan ng average na marka ng mababang pangkat at ng average na marka ng mataas na pangkat?",
+    "answer": [
+      [
+        "Spearman"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "A6",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_011",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Aling sukatan ang nagpapakita ng pinakamababang kaugnayan ng Kendall?",
+    "answer": [
+      [
+        "PSR"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,266 @@
+[
+  {
+    "question_id": "arxiv_2ffada3c04_001",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "Ce model proiectat pentru piețele 'Multi-asset' are cea mai mică cerință de calcul?",
+    "answer": [
+      [
+        "DRPO"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A6",
+      "D6",
+      "E6",
+      "A9",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_002",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "Care este numărul total de modele care utilizează o strategie de execuție 'Directă'?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_003",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "Dintre modelele cu cerințe de calcul 'Înalte', care listează 'Extragere robustă de modele' ca un punct forte cheie?",
+    "answer": [
+      [
+        "StockFormer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "F1",
+      "A4",
+      "E4",
+      "F4",
+      "A5",
+      "E5",
+      "F5",
+      "A8",
+      "E8",
+      "F8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_004",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "Identifică toate modelele care operează pe piața 'Equities' și utilizează o metodă de execuție 'Indirect'.",
+    "answer": [
+      [
+        "CPPI-MADDPG"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "A7",
+      "C7",
+      "D7",
+      "A8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_005",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "Ce procent din toate modelele listate au o cerință de calcul 'Mare' sau 'Foarte Mare'?",
+    "answer": [
+      [
+        "55.6%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_006",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "Dacă infrastructura unei companii ar putea suporta doar modele cu cerințe de calcul 'Medii' sau 'Scăzute', ce strategii de tranzacționare enumerate în tabel ar fi complet indisponibile pentru ei?",
+    "answer": [
+      [
+        "Predictive"
+      ],
+      [
+        "Hybrid"
+      ],
+      [
+        "Signal"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "E1",
+      "B4",
+      "E4",
+      "B5",
+      "E5",
+      "B6",
+      "E6",
+      "B8",
+      "E8",
+      "B9",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_007",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "open_ended_reasoning",
+    "question": "Conform datelor, care este relația aparentă între tipul de 'Execuție' al unui model și nivelul său de cerință de 'Compute'?",
+    "answer": [
+      [
+        "Pare să existe o corelație între tipul de execuție și cerințele de calcul. Toate cele patru modele cu 'Compute' ridicat (StockFormer, EarnHFT, MacroHFT, HRT) și cel cu 'Compute' foarte ridicat (TRR) sunt împărțite între execuția 'Directă' (3) și 'Indirectă' (2). Cu toate acestea, modelele cu cerințe de calcul 'Medii' sau 'Scăzute' sunt predominant 'Directe' (3 din 4), doar unul utilizând execuția 'Indirectă'. Acest lucru sugerează că, în timp ce modelele cu cerințe mari de calcul pot fi directe sau indirecte, modelele cu cerințe mai scăzute de calcul din acest set de date utilizează mai probabil o strategie de execuție directă, posibil pentru a minimiza supraîncărcarea de latență pe care o strat indirect ar putea-o introduce."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C2",
+      "E2",
+      "C3",
+      "E3",
+      "C4",
+      "E4",
+      "C5",
+      "E5",
+      "C6",
+      "E6",
+      "C7",
+      "E7",
+      "C8",
+      "E8",
+      "C9",
+      "E9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_008",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "Ce model este unic prin faptul că are o cerință de calcul 'Foarte ridicată', ceea ce îl face un caz aparte în ceea ce privește cererea computațională?",
+    "answer": [
+      [
+        "TRR"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_009",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "Ce modele sunt limitate de un design 'specific pieței' sau 'focalizat pe o singură piață', dar nu operează pe piața 'Crypto'?",
+    "answer": [
+      [
+        "MacMic"
+      ],
+      [
+        "IMM"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "G2",
+      "A3",
+      "D3",
+      "G3",
+      "A5",
+      "D5",
+      "G5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_010",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "open_ended_reasoning",
+    "question": "Un manager de portofoliu dorește un model cu protecție împotriva scăderilor pentru acțiuni, dar este preocupat de complexitate. Pe baza datelor, care sunt principalele compromisuri pentru cel mai potrivit model?",
+    "answer": [
+      [
+        "Cel mai potrivit model este CPPI-MADDPG, care se concentrează pe piața 'Acțiuni' cu o strategie de 'Portofoliu' și enumeră explicit 'Protecția împotriva scăderilor' ca un punct forte cheie. Principalele compromisuri, așa cum sunt indicate în 'Limitările cheie', sunt 'Costul de coordonare' și 'Adaptarea mai lentă'. Aceasta înseamnă că managerul obține siguranța portofoliului cu prețul unei complexități operaționale crescute și al unei capacități reduse de a reacționa rapid la schimbările pieței."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "D7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_011",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "Ce model de tranzacționare utilizează o strategie predictivă și necesită un calcul ridicat?",
+    "answer": [
+      [
+        "StockFormer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "E1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

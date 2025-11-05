@@ -1,0 +1,305 @@
+[
+  {
+    "question_id": "arxiv_247c1897a1_001",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Aling mga modelo ang nagtala ng pinakamahusay (pinakamababa) na performance sa MSE30 metric, hindi kasama ang mga may kulang na data para sa metric na iyon?",
+    "answer": [
+      [
+        "HTML"
+      ],
+      [
+        "ECC Analyzer"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F8",
+      "F9",
+      "A6",
+      "A9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_002",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Ano ang average na halaga ng MSE7 para sa lahat ng modelong nagsisimula sa letrang 'M'?",
+    "answer": [
+      [
+        "0.4275"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "A5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_003",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "Tukuyin ang modelo na malinaw na outlier pagdating sa performance at ipaliwanag kung bakit ito naiiba sa iba.",
+    "answer": [
+      [
+        "Ang modelong 'GPT-4-Turbo' ay isang malaking outlier. Ang mga halaga ng Mean Squared Error (MSE) nito sa lahat ng prediction horizons (mula 2.198 hanggang 11.824) ay mas mataas kaysa sa lahat ng iba pang modelo, na karaniwang mas mababa sa 2.0 at kadalasang mas mababa sa 1.0. Ipinapakita nito ang mas mababang prediction accuracy, na ginagawang anomaly ang performance nito sa dataset na ito."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "A6",
+      "B6",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "A8",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "A9",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_004",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Ano ang kabuuang halaga ng MSE (MSE_over) para sa modelong may pangalawang pinakamababang marka ng MSE3?",
+    "answer": [
+      [
+        "/"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_005",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Ilista ang lahat ng model na may MSE15 na halaga na mas mababa sa 0.3 AT MSE30 na halaga na mas mababa sa 0.2.",
+    "answer": [
+      [
+        "HTML"
+      ],
+      [
+        "ECC Analyzer"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "E2",
+      "F2",
+      "E3",
+      "F3",
+      "E4",
+      "F4",
+      "E5",
+      "F5",
+      "A6",
+      "E6",
+      "F6",
+      "E7",
+      "F7",
+      "E8",
+      "F8",
+      "A9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_006",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "Ilarawan ang takbo ng prediction error para sa modelong 'HTML' habang ang prediction horizon ay lumalawak mula 3 hanggang 30 araw.",
+    "answer": [
+      [
+        "Para sa modelong 'HTML', ang prediction error, ayon sa pagsukat ng Mean Squared Error (MSE), ay patuloy na bumababa habang humahaba ang prediction horizon. Ang MSE ay bumaba mula 0.845 sa loob ng 3 araw, patungong 0.349 sa loob ng 7 araw, 0.251 sa loob ng 15 araw, at sa huli ay 0.158 sa loob ng 30 araw. Ipinapahiwatig nito na ang mga prediksyon ng modelo ay nagiging mas tumpak para sa mga pangmatagalang hula."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_007",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Ano ang porsyento ng kabuuang error na MSE3, na pinagsama-sama sa lahat ng mga modelo, na iniambag ng modelong 'GPT-4-Turbo'? I-round sa dalawang decimal na lugar.",
+    "answer": [
+      [
+        "23.22%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_008",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "Kung ang halaga ng MSE15 ng modelong 'Classical Method' ay bumuti (bumaba) ng 10%, ano ang magiging bagong ranggo nito para sa metrikong iyon kumpara sa ibang mga modelo?",
+    "answer": [
+      [
+        "Kung ang halaga ng MSE15 na 0.330 ng modelong 'Classical Method' ay bumaba ng 10%, ang magiging bagong halaga nito ay 0.297. Ang orihinal na ranggo para sa MSE15 ay: AMA-LSTM (0.230), ECC Analyzer (0.237), HTML (0.251), MRDM (0.300), MT-LSTM-ATT (0.304), HAN (Glove) (0.308), LSTM (0.320), Classical Method (0.330), GPT-4-Turbo (7.959). Ang bagong halaga na 0.297 ay ilalagay ito sa pagitan ng HTML at MRDM, na magpapataas ng ranggo nito mula sa ika-8 patungo sa ika-4 na pinakamahusay."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_009",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "Hindi isinasama ang 'GPT-4-Turbo' na outlier, mayroon bang malinaw na relasyon sa pagganap ng isang modelo sa kabuuang sukatan ng MSE (MSE_over) at sa pagganap nito sa 7-araw na forecast (MSE7)?",
+    "answer": [
+      [
+        "Oo, mukhang may positibong ugnayan. Sa pangkalahatan, ang mga modelong may mas mababa (mas maganda) na kabuuang MSE ay mayroon ding mas mababang MSE7. Halimbawa, ang 'ECC Analyzer' at 'HTML' ay may dalawang pinakamababang kabuuang MSE scores (0.314 at 0.401) at dalawa rin sa pinakamababang MSE7 scores (0.306 at 0.349). Sa kabilang banda, ang mga modelong tulad ng 'MT-LSTM-ATT' at 'LSTM' ay may pinakamataas na kabuuang MSE scores (0.739 at 0.746) sa grupong ito at mayroon ding medyo mataas na MSE7 scores (0.435 at 0.459). Ipinapahiwatig nito na ang pangkalahatang kakayahan sa paghula ng isang modelo ay pare-pareho sa dalawang partikular na sukatan na ito."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B4",
+      "D4",
+      "B5",
+      "D5",
+      "B6",
+      "D6",
+      "B7",
+      "D7",
+      "B9",
+      "D9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_010",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Aling modelo sa talahanayan ang may pinakamaraming hindi kumpletong datos, na ipinahihiwatig ng mga entry na '/'?",
+    "answer": [
+      [
+        "AMA-LSTM"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "F7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_011",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Aling modelo ang may pinakamababang MSE sa kabuuan sa lahat ng mga modelo?",
+    "answer": [
+      [
+        "ECC Analyzer."
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

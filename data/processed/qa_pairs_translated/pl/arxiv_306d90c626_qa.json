@@ -1,0 +1,253 @@
+[
+  {
+    "question_id": "arxiv_306d90c626_001",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Która rodzina modeli LLM (np. GPT, Llama) pojawia się w największej liczbie wymienionych artykułów badawczych?",
+    "answer": [
+      [
+        "GPT"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_002",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Jaka jest łączna liczba artykułów badawczych, które wykorzystują modele opracowane przez OpenAI (ChatGPT, GPT-3, GPT-4 i ich warianty)?",
+    "answer": [
+      [
+        "9"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B7",
+      "B8",
+      "B9",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_306d90c626_003",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Dla metod wykorzystujących FinBERT, jakie jest ich główne zastosowanie?",
+    "answer": [
+      [
+        "Stock price prediction"
+      ],
+      [
+        "Financial Portfolio Optimisation"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "D5",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_004",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Wymień metody badawcze, które wykazują postęp czasowy w wyborze modelu, używając co najmniej dwóch odrębnych generacji z tej samej rodziny modeli (np. GPT-3 i GPT-4).",
+    "answer": [
+      [
+        "FLLM [11]"
+      ],
+      [
+        "Few-Shot Stock Trend Prediction [15]"
+      ],
+      [
+        "Hybrid LLM-based framework [36]"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_005",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Wymień „Metodę/Publikację”, która wykorzystuje model z rodziny Llama i nie korzysta z danych S&P 500.",
+    "answer": [
+      [
+        "FLLM [11]"
+      ],
+      [
+        "Hybrid LLM-based framework [36]"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_006",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "open_ended_reasoning",
+    "question": "S&P 500 jest wymieniany jako źródło danych w 50% wymienionych badań. Co sugeruje tak wysoka częstotliwość jego wykorzystania co do jego roli w badaniach nad finansowymi LLM?",
+    "answer": [
+      [
+        "Częste wykorzystanie S&P 500, pojawiające się w połowie badań, sugeruje, że służy on jako standardowy zbiór danych referencyjnych dla badań finansowych z wykorzystaniem LLM. Jego cechy — bycie znanym, publicznym, obszernym i płynnym zbiorem danych — czynią go idealnym do testowania i porównywania wydajności różnych modeli i metod w zadaniach takich jak prognozowanie cen akcji i wybór portfela. To oparcie sugeruje potrzebę wykazania przez badaczy skuteczności swojego modelu na powszechnie akceptowanym standardzie, zanim zostanie on zastosowany do bardziej niszowych lub zastrzeżonych danych."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C4",
+      "C5",
+      "C6",
+      "C10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_306d90c626_007",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Gdyby nowe ograniczenie wymagało, aby wszystkie badania wykorzystywały dane multimodalne (np. wiadomości i dane rynkowe), która metoda nie byłaby już zgodna na podstawie opisanych danych?",
+    "answer": [
+      [
+        "FLLM [11]"
+      ],
+      [
+        "MuSA [26]"
+      ],
+      [
+        "SEP [28]"
+      ],
+      [
+        "Hybrid LLM-based framework [36]"
+      ],
+      [
+        "[45]"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_008",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "open_ended_reasoning",
+    "question": "Na podstawie tabeli, jaka jest zależność między złożonością 'Zastosowania' a różnorodnością używanych 'Modeli LLM'? Na przykład, czy szersze zastosowania wykorzystują bardziej zróżnicowane modele?",
+    "answer": [
+      [
+        "Dane sugerują odwrotną zależność. Bardziej złożone i specyficzne zastosowania, takie jak 'Prognozowanie zmian cen akcji' czy 'Analiza finansowa', zazwyczaj wykorzystują zróżnicowany zestaw modeli, w tym wiele generacji i rodzin (np. 'GPT-3, GPT-4, LLaMA-2, LLaMA-3'). W przeciwieństwie do tego, zastosowania o pozornie jednolitym ukierunkowaniu, takie jak 'Selekcja portfela inwestycyjnego' czy 'Trend na rynku akcji', pokazują użycie pojedynczego modelu, jak ChatGPT. Sugeruje to, że rozwiązywanie złożonych zadań finansowych może korzystać z podejścia zespołowego lub porównawczego z wykorzystaniem kilku zaawansowanych LLM."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B9",
+      "D9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_306d90c626_009",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Która kolumna, 'LLM Model' czy 'Data', zawiera komórkę z największą liczbą wymienionych unikalnych elementów?",
+    "answer": [
+      [
+        "LLM Model"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_010",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Która praca badawcza jest odstająca pod względem zastosowania, koncentrując się na szerokim problemie systemowym zamiast na specyficznym zadaniu predykcyjnym lub inwestycyjnym?",
+    "answer": [
+      [
+        "[32]"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_306d90c626_011",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Które dane są wykorzystywane w doborze portfela inwestycyjnego w oparciu o ChatGPT [2]?",
+    "answer": [
+      [
+        "S&P500 market"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

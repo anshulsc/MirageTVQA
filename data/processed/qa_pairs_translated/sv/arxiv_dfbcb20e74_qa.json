@@ -1,0 +1,167 @@
+[
+  {
+    "question_id": "arxiv_dfbcb20e74_001",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Vilken modells huvudformel inkluderar explicit en riskfri ränta-komponent?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_002",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Vad är det totala antalet distinkta 'X'-variabler som används som indata i Z-score-modellens formel?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_003",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Identifiera modellen som använder 'Totala tillgångar' som nämnare i minst tre av sina förklarade parametrar, och ange sedan vilken parameter från den modellen som representerar förhållandet mellan 'Marknadsvärde på eget kapital' och 'Totala skulder'.",
+    "answer": [
+      [
+        "Z-score Model"
+      ],
+      [
+        "X4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_004",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Vilken modell inkluderar parametrar som uttryckligen definieras som mätta 'vid tidpunkt t'?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_005",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Om det analytiska målet är att bestämma sannolikheten för ett binärt utfall (y=1), vilken modell som anges i tabellen är det mest lämpliga valet?",
+    "answer": [
+      [
+        "Logistic Regression"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_006",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "I Z-poängmodellen, vad är vikten (koefficienten) för variabeln som representerar 'Vinst före räntor och skatt/Totala tillgångar-kvot', och hur jämför sig denna vikt med de andra variablerna?",
+    "answer": [
+      [
+        "Koefficienten för X3 (Vinst före räntor och skatt/Totala tillgångar-kvot) är 3.3. Detta är den högsta vikten av alla fem variabler, vilket tyder på att den har störst inverkan på den slutliga Z-poängen jämfört med variabler som X1 (1.2), X2 (1.4), X4 (0.6) och X5 (0.99)."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_007",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Om en uppdaterad version av Z-score-modellen minskade inflytandet av 'Arbetskapital/Totala tillgångar-kvot' med 50%, vad skulle den nya koefficienten för X1 vara?",
+    "answer": [
+      [
+        "0.6"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_008",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Baserat på formeln för Z-score-modellen, vad är det för samband mellan ett företags totala försäljning i förhållande till totala tillgångar och dess resulterande Z-score?",
+    "answer": [
+      [
+        "Det finns ett positivt samband mellan förhållandet total försäljning/totala tillgångar (X5) och Z-score. Formeln visar att Z-score är en viktad summa av fem nyckeltal, och koefficienten för X5 är positiv (0.99). Därför, om alla andra faktorer hålls konstanta, kommer en ökning av förhållandet total försäljning till totala tillgångar att resultera i en högre Z-score."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_009",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Vilken modells beskrivning inkluderar det största antalet distinkta parametrar som förklaras i den tredje kolumnen?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_010",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "När man undersöker de numeriska koefficienterna i Z-score-modellens formel, vilken koefficient sticker ut som en avvikande jämfört med de andra?",
+    "answer": [
+      [
+        "Koefficienten 3.3 för variabeln X3 är en signifikant avvikare. De andra koefficienterna i formeln är 1.2, 1.4, 0.6 och 0.99, vilka alla ligger i ett intervall mellan 0.6 och 1.4. Värdet 3.3 är mer än dubbelt så stort som den näst högsta koefficienten (1.4), vilket gör det betydligt större än resten."
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

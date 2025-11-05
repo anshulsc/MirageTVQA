@@ -1,0 +1,245 @@
+[
+  {
+    "question_id": "arxiv_b4f9e51dd6_001",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Aling konfigurasyon ng module ang nakakamit ng pinakamababa (pinakamahusay) na pagganap sa pinakamahabang 'prediction horizon', ang MSE30?",
+    "answer": [
+      [
+        "Audio+Text+Eos+Ecs+Efo"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A3",
+      "F3",
+      "A4",
+      "F4",
+      "A5",
+      "F5",
+      "A6",
+      "F6",
+      "A7",
+      "F7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_002",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Ano ang average na MSE3 score sa lahat ng module na naglalaman ng 'Audio+Text' sa kanilang konpigurasyon?",
+    "answer": [
+      [
+        "0.614"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_003",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Para sa module na nagpapakita ng pinakamahusay na pangkalahatang pagganap (pinakamababang halaga sa column ng MSE_over), ano ang partikular na score nito sa MSE7?",
+    "answer": [
+      [
+        "0.306"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "D7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_004",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "open_ended_reasoning",
+    "question": "Ilarawan ang takbo ng Mean Squared Error (MSE) para sa 'Audio+Text+Efo' na module habang lumalawak ang saklaw ng prediksyon mula MSE3 hanggang MSE30.",
+    "answer": [
+      [
+        "Ang MSE para sa 'Audio+Text+Efo' na module ay nagpapakita ng malinaw na takbo ng pagpapabuti (bumababang error) habang lumalawak ang saklaw ng prediksyon. Nagsisimula ito sa pinakamataas nitong error na 0.579 para sa MSE3, pagkatapos ay bumaba nang malaki sa 0.323 para sa MSE7, at patuloy na bumababa nang tuloy-tuloy sa 0.230 para sa MSE15 at umabot sa pinakamababang punto nito na 0.165 para sa MSE30."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_005",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Ilista ang lahat ng module configuration na may MSE15 score na mas mababa sa 0.25 AT MSE30 score na mas mababa sa 0.18.",
+    "answer": [
+      [
+        "Audio+Text+Efo"
+      ],
+      [
+        "Eos+Ecs+Efo"
+      ],
+      [
+        "Audio+Text+Eos+Ecs+Efo"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E5",
+      "F5",
+      "A6",
+      "E6",
+      "F6",
+      "A7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_006",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Sa anong porsyento bumababa ang error ng MSE30 kapag lumipat mula sa baseline na 'Audio+Text' na module patungo sa pinakakumplikadong 'Audio+Text+Eos+Ecs+Efo' na module?",
+    "answer": [
+      [
+        "22.55%"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_007",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Kung ang pagpapabuti sa data preprocessing ay nagpababa sa halaga ng MSE_over para sa 'Eos+Ecs+Efo' module ng 15%, ano ang magiging bagong average na halaga ng MSE_over sa lahat ng pitong modules?",
+    "answer": [
+      [
+        "0.349"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_008",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "open_ended_reasoning",
+    "question": "Batay sa datos, mayroon bang pare-parehong ugnayan sa pagitan ng panandaliang pagganap ng isang module (MSE3) at ng pangmatagalang pagganap nito (MSE30)? Ipaliwanag ang iyong sagot.",
+    "answer": [
+      [
+        "Oo, mayroong malakas na positibong korelasyon. Ang mga module na may pinakamababang marka ng MSE3, ang 'Audio+Text+Eos+Ecs+Efo' (0.553) at 'Audio+Text+Efo' (0.579), ay mayroon ding pinakamababang marka ng MSE30 (0.158 at 0.165, ayon sa pagkakabanggit). Sa kabilang banda, ang mga module na may pinakamataas na marka ng MSE3, tulad ng 'Audio+Text' (0.645) at 'Audio+Text+Ecs' (0.640), ay nagpapakita ng pinakamataas na marka ng MSE30 (0.204 at 0.201). Iminumungkahi nito na ang mga module na mahusay ang pagganap sa mga panandaliang prediksyon ay mahusay din ang pagganap sa mga pangmatagalang prediksyon."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "F1",
+      "C2",
+      "F2",
+      "C3",
+      "F3",
+      "C4",
+      "F4",
+      "C5",
+      "F5",
+      "C6",
+      "F6",
+      "C7",
+      "F7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_009",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Ano ang agwat sa bilang sa pagitan ng mga prediction horizon ng MSE7 at MSE15 sa istruktura ng talahanayan?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_010",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Aling mga module ang nagpakita ng mas mababang pagganap (may mas mataas na MSE) sa MSE7 horizon kaysa sa baseline na module na 'Audio+Text', na ginagawang isang outlier ang kanilang pagganap sa partikular na puntong ito kumpara sa inaasahang pagpapabuti mula sa pagdaragdag ng mga feature?",
+    "answer": [
+      [
+        "Audio+Text+Eos"
+      ],
+      [
+        "Audio+Text+Ecs"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_011",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Ano ang average na MSE ng module na Audio+Text?",
+    "answer": [
+      [
+        "0.373"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

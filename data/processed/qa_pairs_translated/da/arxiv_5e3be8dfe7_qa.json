@@ -1,0 +1,208 @@
+[
+  {
+    "question_id": "arxiv_5e3be8dfe7_001",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Hvilken model har det højeste antal distinkte parameterforklaringer angivet i tabellen?",
+    "answer": [
+      [
+        "Neural Networks"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_002",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Hvor mange distinkte parametre forklares der i alt for alle modeller, der bruger en sumkomponent (Σ) i deres hovedformel?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_003",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "List modellerne, hvis hovedformel ikke involverer eksponentiering (f.eks. e^x).",
+    "answer": [
+      [
+        "Neural Networks"
+      ],
+      [
+        "Support Vector Machine"
+      ],
+      [
+        "Decision Tree"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_004",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Hvilken procentdel af de listede modeller anvender en parameter, der repræsenterer individuelle stikprøver eller datapunkter (f.eks. 'stikprøve i') i deres formulering?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "C8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_005",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Hvis antallet af stikprøvekategorier 'm' i en beslutningstræmodel er 1, hvad ville så være den beregnede værdi af informationens entropi 'Ent(D)' ifølge formlen?",
+    "answer": [
+      [
+        "0"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_006",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Hvilken models formel er fundamentalt anderledes end de andre, da den præsenteres som et optimeringsproblem (minimering) snarere end en direkte beregning af en outputværdi?",
+    "answer": [
+      [
+        "Support Vector Machine"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B7",
+      "B9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_007",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "Baseret på formlerne og parametrene, kontrastér 'β'-parameterens rolle i Logistisk Regression med 'w'-parameterens rolle i Support Vector Machine.",
+    "answer": [
+      [
+        "I Logistisk Regression er 'β' en rækkevektor af regressionskoefficienter, der sammen med skæringspunktet bestemmer sandsynligheden for et udfald via den logistiske funktion. I Support Vector Machine er 'w' en parametervektor, der definerer orienteringen af den separerende hyperplan. Målet i SVM er at finde det 'w', der maksimerer marginen mellem klasserne ved at minimere dens L2-norm, mens i Logistisk Regression findes 'β' typisk ved at maksimere sandsynligheden for de observerede data."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C3",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_008",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvordan afspejler begreberne 'lag' i neurale netværk og 'entropi' i beslutningstræer deres forskellige tilgange til at lære af data?",
+    "answer": [
+      [
+        "Begrebet 'lag' (l og l-1) i neurale netværk afspejler en hierarkisk tilgang til feature-læring. Modellen lærer gradvist mere komplekse repræsentationer af data ved at sende aktiveringer gennem successive lag og justere vægte ('w') og biases ('b') for at skabe en kompleks funktionsapproksimator. I modsætning hertil afspejler begrebet 'entropi' (Ent(D)) i beslutningstræer en grådig, regelbaseret tilgang. Modellen partitionerer rekursivt data i renere delmængder ved at vælge features, der resulterer i den største reduktion i entropi (information gain), og skaber et eksplicit sæt af hvis-så regler."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_009",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Hvad er det samlede antal unikke modeller beskrevet i tabellen?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_010",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Hvilken kolonne har til formål at definere de variabler, der bruges i den tilstødende kolonne?",
+    "answer": [
+      [
+        "Parameter and Explanation"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

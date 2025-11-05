@@ -1,0 +1,235 @@
+[
+  {
+    "question_id": "arxiv_146818ba46_001",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "کون سے ماڈلز سب لینیئر سکلیبلٹی پیش کرتے ہیں، اور ان کے تعاون یافتہ فیچرز ('پری ٹریننگ'، 'ملٹی ٹاسک') میں کلیدی فرق کیا ہے؟",
+    "answer": [
+      [
+        "ٹائم مکسر اور پیچ ٹی ایس ٹی سب لینیئر سکلیبلٹی پیش کرتے ہیں۔ کلیدی فرق یہ ہے کہ ٹائم مکسر ملٹی ٹاسک لرننگ کو سپورٹ کرتا ہے جبکہ پیچ ٹی ایس ٹی نہیں کرتا؛ دونوں میں سے کوئی بھی ماڈل پری ٹریننگ استعمال نہیں کرتا۔"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "E3",
+      "A5",
+      "B5",
+      "C5",
+      "E5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_002",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "ان ماڈلز کی کل تعداد کیا ہے جو یا تو پری ٹریننگ یا ملٹی ٹاسک لرننگ کو سپورٹ کرتے ہیں، لیکن دونوں کو نہیں؟",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_146818ba46_003",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "اس ماڈل کی بنیادی ایپلی کیشن کی نشاندہی کریں جس میں لکیری سکلیبلٹی اور درمیانی کمپیوٹ ضروریات ہیں؟",
+    "answer": [
+      [
+        "Task Flexibility"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_004",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "اگر کوئی تحقیقی منصوبہ 'طویل تسلسلات' کے لیے ماڈل کی ضرورت سے شروع ہو کر بعد میں 'کام کی لچک' والے ماڈل کی ضرورت میں تبدیل ہو جائے، تو دوسرے مرحلے میں کون سا ماڈل مناسب انتخاب ہوگا؟",
+    "answer": [
+      [
+        "TimesNet"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "F4",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_005",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "ان ماڈلز کی فہرست بنائیں جو پری ٹریننگ استعمال نہیں کرتے اور سب لینیئر سکیلیبلٹی پیش کرتے ہیں۔",
+    "answer": [
+      [
+        "TimeMixer"
+      ],
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "E3",
+      "A5",
+      "B5",
+      "E5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_006",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "درج کردہ ماڈلز کا کتنا تناسب 'High' کمپیوٹ وسائل کا متقاضی ہے؟",
+    "answer": [
+      [
+        "40%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_146818ba46_007",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "'TimesNet' کو 'Pre-training' کی حمایت کے لیے بہتر بنایا جائے تو، خصوصیات (Pre-training, Multi-task, Compute, Scalability) کے لحاظ سے یہ کس موجودہ ماڈل سے سب سے زیادہ مشابہت رکھتا؟",
+    "answer": [
+      [
+        "بہتر بنایا گیا TimesNet کسی دوسرے اکیلے ماڈل سے زیادہ مشابہت نہیں رکھتا۔ اگرچہ یہ Timer اور MOMENT کے ساتھ 'Pre-training'، 'Multi-task'، اور 'Linear' scalability کا اشتراک کرے گا، لیکن اس کا 'Medium' compute پھر بھی اسے ان کی 'High' compute کی ضروریات سے ممتاز کرے گا۔"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "B4",
+      "C4",
+      "D4",
+      "E4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_008",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "کیا ماڈل کی سکلیبلٹی اور اس کی بنیادی ایپلی کیشن کے سیکوینس کی لمبائی یا لچک پر توجہ کے درمیان کوئی واضح تعلق ہے؟",
+    "answer": [
+      [
+        "جی ہاں، ایسا لگتا ہے کہ ایک تعلق موجود ہے۔ زیادہ موثر 'سب لینیئر' سکلیبلٹی ('ٹائم مکسر'، 'پیچ ٹی ایس ٹی') والے ماڈلز پیچیدہ پیٹرن یا طویل تسلسل ('ملٹی اسکیل پیٹرنز'، 'لانگ سیکوینسز') سے متعلق ایپلی کیشنز سے وابستہ ہیں۔ اس کے برعکس، 'لینیئر' سکلیبلٹی والے ماڈلز کو ایسے کاموں پر لاگو کیا جاتا ہے جن میں لچک یا پابندیوں کے تحت سیکھنے کی ضرورت ہوتی ہے ('فیو شاٹ لرننگ'، 'محدود نگرانی'، 'ٹاسک فلیکسیبلٹی')۔"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "E2",
+      "F2",
+      "E3",
+      "F3",
+      "E4",
+      "F4",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_146818ba46_009",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "'ماڈل' کے علاوہ کون سا کالم منفرد اقدار کا سب سے متنوع سیٹ رکھتا ہے؟",
+    "answer": [
+      [
+        "Primary Application"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_010",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "کون سا ماڈل پری ٹریننگ یا ملٹی ٹاسک لرننگ میں سے کسی کو بھی سپورٹ نہ کرنے کی وجہ سے ایک آؤٹ لائر ہے؟",
+    "answer": [
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_146818ba46_011",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Timer کی بنیادی ایپلی کیشن کیا ہے؟",
+    "answer": [
+      [
+        "Few-shot Learning"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,235 @@
+[
+  {
+    "question_id": "arxiv_146818ba46_001",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvilke modeller tilbyder sublineær skalerbarhed, og hvad er den primære forskel i deres understøttede funktioner ('Pre-training', 'Multi-task')?",
+    "answer": [
+      [
+        "TimeMixer og PatchTST tilbyder sublineær skalerbarhed. Den primære forskel er, at TimeMixer understøtter multi-task learning, mens PatchTST ikke gør; ingen af modellerne bruger pre-training."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "E3",
+      "A5",
+      "B5",
+      "C5",
+      "E5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_002",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Hvad er det samlede antal modeller, der understøtter enten Pre-training eller Multi-task learning, men ikke begge?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_146818ba46_003",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Identificer den primære anvendelse af modellen, der har lineær skalerbarhed og mellemstore computerkrav.",
+    "answer": [
+      [
+        "Task Flexibility"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_004",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Hvis et forskningsprojekt udvikler sig fra at kræve en model til 'Long Sequences' til senere at have brug for en med 'Task Flexibility', hvilken model ville så være det passende valg i det andet stadie?",
+    "answer": [
+      [
+        "TimesNet"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "F4",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_005",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Angiv modellerne, der ikke bruger fortræning og tilbyder sublineær skalerbarhed.",
+    "answer": [
+      [
+        "TimeMixer"
+      ],
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "E3",
+      "A5",
+      "B5",
+      "E5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_006",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Hvilken andel af de anførte modeller kræver 'High' beregningsressourcer?",
+    "answer": [
+      [
+        "40%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_146818ba46_007",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvis 'TimesNet' blev forbedret til at understøtte 'Pre-training', hvilket eksisterende model ville den så mest ligne med hensyn til dens funktioner (Pre-training, Multi-task, Compute, Scalability)?",
+    "answer": [
+      [
+        "Den forbedrede TimesNet ville ikke ligne nogen anden enkeltstående model tæt. Selvom den ville dele 'Pre-training', 'Multi-task' og 'Linear' skalerbarhed med Timer og MOMENT, ville dens 'Medium' compute stadig adskille den fra deres 'High' compute-krav."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "B4",
+      "C4",
+      "D4",
+      "E4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_008",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "Er der en mærkbar sammenhæng mellem en models skalerbarhed og dens primære anvendelsesformål med fokus på sekvenslængde eller fleksibilitet?",
+    "answer": [
+      [
+        "Ja, der ser ud til at være en sammenhæng. Modeller med mere effektiv 'Sublinear' skalerbarhed (TimeMixer, PatchTST) er forbundet med anvendelser, der involverer komplekse mønstre eller lange sekvenser ('Multiscale Patterns', 'Long Sequences'). I modsætning hertil har modeller med 'Linear' skalerbarhed tendens til at blive anvendt til opgaver, der kræver fleksibilitet eller læring under begrænsninger ('Few-shot Learning', 'Limited Supervision', 'Task Flexibility')."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "E2",
+      "F2",
+      "E3",
+      "F3",
+      "E4",
+      "F4",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_146818ba46_009",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Hvilken kolonne, bortset fra 'Model', indeholder det mest forskelligartede sæt af unikke værdier?",
+    "answer": [
+      [
+        "Primary Application"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_010",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Hvilken model er en outlier for ikke at understøtte hverken Pre-training eller Multi-task learning?",
+    "answer": [
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_146818ba46_011",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Hvad er den primære anvendelse af Timer?",
+    "answer": [
+      [
+        "Few-shot Learning"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

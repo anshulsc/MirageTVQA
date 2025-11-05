@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "arxiv_0ce0508a37_001",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Який параметр впливу на ринок має коефіцієнт, що вдвічі перевищує значення іншого?",
+    "answer": [
+      [
+        "Temporary impact coefficient"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C9",
+      "A10",
+      "C10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_002",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Яке середнє значення для 'параметра нелінійності' на основі набору наданих можливих значень?",
+    "answer": [
+      [
+        "0.567"
+      ]
+    ],
+    "evidence_cells": [
+      "C11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_003",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Який символ для параметра в розділі 'Динаміка ринку' має найбільшу кількість різних значень?",
+    "answer": [
+      [
+        "V0subscript𝑉0\\sqrt{V_{0}}square-root start_ARG italic_V start_POSTSUBSCRIPT 0 end_POSTSUBSCRIPT end_ARG"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_004",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "Виходячи зі значень 'Початкова волатильність', 'Довгострокова волатильність' та 'Швидкість повернення до середнього', що можна зробити висновок про поведінку волатильності моделі з часом?",
+    "answer": [
+      [
+        "Модель демонструє повернення до середнього рівня волатильності. 'Довгострокова волатильність' зафіксована на рівні 0,3, що слугує орієнтиром. 'Початкова волатильність' може бути вищою (0,4), нижчою (0,2) або відповідати довгостроковому рівню (0,3). Незалежно від початкової точки, очікується, що волатильність з часом буде наближатися до 0,3, процес, темп якого регулюється 'Швидкістю повернення до середнього' 2,0. Це означає, що періоди високої або низької волатильності не є постійними."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_005",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Перерахуйте всі параметри в категорії 'Динаміка ринку', які представлені як набір кількох можливих значень, де всі перелічені значення є невід'ємними.",
+    "answer": [
+      [
+        "Drift rate"
+      ],
+      [
+        "Initial volatility"
+      ],
+      [
+        "Volatility of variance"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_006",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Якщо 'Несприйняття ризику' (Risk aversion) визначається як обернене значення толерантності до ризику, і обидва значення 'Постійний вплив' (Permanent impact) та 'Тимчасовий вплив' (Temporary impact) збільшилися б у 10 разів, яким би був новий коефіцієнт співвідношення 'Коефіцієнт тимчасового впливу' (Temporary impact coefficient) до 'Несприйняття ризику' (Risk aversion)?",
+    "answer": [
+      [
+        "50.0"
+      ]
+    ],
+    "evidence_cells": [
+      "C10",
+      "C13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_007",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Якби \"Швидкість повернення до середнього\" зменшилася на 50%, а значення \"Волатильність дисперсії\" збільшилися б на 0.1, якою була б нова сума \"Швидкості повернення до середнього\" та максимальної \"Волатильності дисперсії\"?",
+    "answer": [
+      [
+        "1.4"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_008",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "Таблиця вказує значення 'Кореляція' -0.7. Що зазвичай означає таке сильне негативне значення у фінансовій моделі щодо взаємозв'язку між ціною активу та його волатильністю?",
+    "answer": [
+      [
+        "Кореляція -0.7 означає сильний зворотний зв'язок, який часто називають ефектом важеля. Це означає, що зі зниженням ціни активу його волатильність, як правило, зростає, і навпаки, зі зростанням ціни активу його волатильність, як правило, зменшується. Це є ключовою особливістю для реалістичного моделювання цін активів та оцінки похідних фінансових інструментів."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_009",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Скільки параметрів у таблиці визначено множиною можливих значень, а не одним фіксованим значенням?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_010",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Який єдиний параметр є якісним викидом, оскільки його значення є єдиним, що є від'ємним?",
+    "answer": [
+      [
+        "Correlation"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_011",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Якою є швидкість повернення до середнього, встановлена в моделі?",
+    "answer": [
+      [
+        "2.0"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

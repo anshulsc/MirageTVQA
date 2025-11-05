@@ -1,0 +1,235 @@
+[
+  {
+    "question_id": "arxiv_146818ba46_001",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "Które modele oferują skalowalność podliniową i jaka jest kluczowa różnica w ich obsługiwanych funkcjach ('Pre-training', 'Multi-task')?",
+    "answer": [
+      [
+        "TimeMixer i PatchTST oferują skalowalność podliniową. Kluczowa różnica polega na tym, że TimeMixer obsługuje uczenie wielozadaniowe (Multi-task), podczas gdy PatchTST tego nie robi; żaden z modeli nie wykorzystuje wstępnego trenowania (Pre-training)."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "E3",
+      "A5",
+      "B5",
+      "C5",
+      "E5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_002",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Jaka jest łączna liczba modeli, które obsługują albo wstępne uczenie, albo uczenie wielozadaniowe, ale nie oba?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_146818ba46_003",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Podaj główne zastosowanie modelu, który ma liniową skalowalność i średnie wymagania obliczeniowe.",
+    "answer": [
+      [
+        "Task Flexibility"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_004",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Jeśli projekt badawczy ewoluuje od potrzebowania modelu dla 'Długich sekwencji' do późniejszego zapotrzebowania na model o 'Elastyczności zadań', który model byłby odpowiednim wyborem na drugim etapie?",
+    "answer": [
+      [
+        "TimesNet"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "F4",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_005",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Wymień modele, które nie wykorzystują wstępnego uczenia i oferują podliniowe skalowanie.",
+    "answer": [
+      [
+        "TimeMixer"
+      ],
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "E3",
+      "A5",
+      "B5",
+      "E5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_006",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Jaki odsetek wymienionych modeli wymaga 'wysokich' zasobów obliczeniowych?",
+    "answer": [
+      [
+        "40%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_146818ba46_007",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "Gdyby 'TimesNet' został ulepszony, aby obsługiwać 'Pre-training', z którym istniejącym modelem najbardziej przypominałby swoje cechy (Pre-training, Multi-task, Compute, Scalability)?",
+    "answer": [
+      [
+        "Ulepszony TimesNet nie przypominałby zbytnio żadnego innego pojedynczego modelu. Chociaż dzieliłby 'Pre-training', 'Multi-task' i 'Linear' scalability z Timer i MOMENT, jego 'Medium' compute nadal odróżniałby go od ich wymagań 'High' compute."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "B4",
+      "C4",
+      "D4",
+      "E4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_008",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "Czy istnieje zauważalna korelacja między skalowalnością modelu a skupieniem jego głównego zastosowania na długości sekwencji lub elastyczności?",
+    "answer": [
+      [
+        "Tak, wydaje się, że taka korelacja istnieje. Modele z bardziej wydajną skalowalnością 'Sublinear' (TimeMixer, PatchTST) są powiązane z zastosowaniami obejmującymi złożone wzorce lub długie sekwencje ('Multiscale Patterns', 'Long Sequences'). Natomiast modele o skalowalności 'Linear' są zazwyczaj stosowane do zadań wymagających elastyczności lub uczenia się w ograniczonych warunkach ('Few-shot Learning', 'Limited Supervision', 'Task Flexibility')."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "E2",
+      "F2",
+      "E3",
+      "F3",
+      "E4",
+      "F4",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_146818ba46_009",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Która kolumna, oprócz 'Model', zawiera najbardziej zróżnicowany zestaw unikalnych wartości?",
+    "answer": [
+      [
+        "Primary Application"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_010",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Który model jest odstający, ponieważ nie obsługuje ani wstępnego trenowania, ani uczenia wielozadaniowego?",
+    "answer": [
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_146818ba46_011",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Jaka jest główna aplikacja modelu Timer?",
+    "answer": [
+      [
+        "Few-shot Learning"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,214 @@
+[
+  {
+    "question_id": "arxiv_bed80d3901_001",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "En fazla sayıda birincil finansal metriğin analizini gerektiren sorgu hangisidir?",
+    "answer": [
+      [
+        "What were the return on average assets and ROWC of Halliburton co. and other companies in the energy sector from Apr 2016 to Jul 2017 compared to their Gross Profit Margin and CROAFA?"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "A3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_002",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Tüm üç sorguda listelenen bireysel 'İlgili Metriklerin' toplam sayısını hesaplayın.",
+    "answer": [
+      [
+        "22"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_003",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Bir şirketin akranlarıyla karşılaştırılmasını içeren sorgu için, 'Yapılandırılmış Veri İsteği'nde belirtilen tam tarih aralığı nedir?",
+    "answer": [
+      [
+        "(1/9/2018 - 30/9/2018)"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_004",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "En uzun zaman dilimini kapsayan yapılandırılmış isteğe karşılık gelen doğal dil sorgusu hangisidir?",
+    "answer": [
+      [
+        "What were the return on average assets and ROWC of Halliburton co. and other companies in the energy sector from Apr 2016 to Jul 2017 compared to their Gross Profit Margin and CROAFA?"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_005",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "'plc' veya 'Co.' gibi bir yasal kimliğe sahip bir şirketi özel olarak belirten sorgular için 'Gerekli Veri' alanında istenen tüm birincil metrikleri listeleyin.",
+    "answer": [
+      [
+        "Quick Ratio"
+      ],
+      [
+        "Bid Size"
+      ],
+      [
+        "Cash Conversion Efficiency Ratio"
+      ],
+      [
+        "Return on Average Assets"
+      ],
+      [
+        "Return on Working Capital"
+      ],
+      [
+        "Gross Profit Margin"
+      ],
+      [
+        "Cash Return on Average Fixed Assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_006",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Amcor plc sorgusu için 'Yapılandırılmış Veri İsteği'nde listelenen tüm metriklerin yüzde kaçı açıkça 'Nakit' kelimesini içeriyor?",
+    "answer": [
+      [
+        "28.57%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_007",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "Adobe için doğal dil sorgusu, 'Çalışma Sermayesi Getirisi'ni içerecek şekilde genişletilirse, Halliburton sorgusundaki bilgileri şablon olarak kullanarak 'Yapılandırılmış Veri Talebi'ndeki metrikler listesi nasıl değiştirilirdi?",
+    "answer": [
+      [
+        "\"Yapılandırılmış Veri Talebi\"nin metrikler bölümü, Halliburton sorgusundaki 'Çalışma Sermayesi Getirisi' ve ilgili bileşenlerini içerecek şekilde güncellenirdi. Bu, mevcut listeye 'Çalışma Sermayesi Getirisi; Net gelir; Çalışma sermayesi' eklenmesi anlamına gelirdi, sonuç olarak: (Satış Geliri; Toplam Gelir; Ekonomik Katma Değer; Vergi Sonrası Net Faaliyet Karı (NOPAT); Sermaye Maliyeti; Çalışma Sermayesi Getirisi; Net gelir; Çalışma sermayesi) olurdu."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_008",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "Sağlanan verilere göre, bir doğal dil 'Query'sinin karmaşıklığı ile 'Structured Data Request' bölümünde belirtilen metriklerin toplam sayısı arasında nasıl bir ilişki var?",
+    "answer": [
+      [
+        "Pozitif bir korelasyon olduğu görülüyor. Daha karmaşık olan iki sorgu (Amcor ve Halliburton için), Adobe'nin daha basit sorgusuna kıyasla yapılandırılmış isteklerinde önemli ölçüde daha fazla metrik içeriyor (sırasıyla 14 ve 12'ye karşılık 5 metrik). Bu durum, kullanıcının sorusunun analitik derinliği arttıkça gerekli veri yükünün de arttığını göstermektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_009",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Şirketleri, birincil metrikleri, ilgili alt metrikleri ve istenen zaman dilimini açıkça listeleyen, doğal dil sorgusunu yarı yapılandırılmış bir formata ayrıştırma işlevini hangi sütun yerine getirir?",
+    "answer": [
+      [
+        "Required Data"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_010",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "'Gerekli Veri' ve 'Yapılandırılmış Veri Talebi' sütunlarındaki zamansal bilgileri analiz edin. Bu iki sütunun çelişkili bir zaman dilimi sunduğu bir sorgu var mı? Varsa, sorguyu belirleyin ve tutarsızlığı açıklayın.",
+    "answer": [
+      [
+        "Evet, Amcor plc sorgusu önemli bir tutarsızlık gösteriyor. 'Gerekli Veri' bölümü 'son 6 ay'lık bir zaman dilimi belirtirken, buna karşılık gelen 'Yapılandırılmış Veri Talebi' '(7/1/2024 - 7/7/2024)' şeklinde çok daha kısa, 7 günlük bir dönem belirtiyor. Diğer iki sorgu sütunlar arasında zamansal tutarlılık gösteriyor."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_011",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Verilerde kaç farklı şirket adı geçiyor?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

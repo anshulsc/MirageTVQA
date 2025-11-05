@@ -1,0 +1,245 @@
+[
+  {
+    "question_id": "arxiv_b4f9e51dd6_001",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Vilken modulkonfiguration uppnår den lägsta (bästa) prestandan på den längsta prediktionshorisonten, MSE30?",
+    "answer": [
+      [
+        "Audio+Text+Eos+Ecs+Efo"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A3",
+      "F3",
+      "A4",
+      "F4",
+      "A5",
+      "F5",
+      "A6",
+      "F6",
+      "A7",
+      "F7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_002",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Vad är den genomsnittliga MSE3-poängen över alla moduler som inkluderar 'Audio+Text' i sin konfiguration?",
+    "answer": [
+      [
+        "0.614"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_003",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "För modulen som uppvisar den bästa övergripande prestandan (lägsta värdet i kolumnen MSE_over), vad är dess specifika MSE7-värde?",
+    "answer": [
+      [
+        "0.306"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "D7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_004",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv trenden för Mean Squared Error (MSE) för modulen 'Audio+Text+Efo' när prediktionshorisonten ökar från MSE3 till MSE30.",
+    "answer": [
+      [
+        "MSE för modulen 'Audio+Text+Efo' visar en tydlig trend av förbättring (minskande fel) när prediktionshorisonten förlängs. Det börjar vid sin högsta felpunkt på 0.579 för MSE3, faller sedan markant till 0.323 för MSE7, och fortsätter att minska stadigt till 0.230 för MSE15 och når sin lägsta punkt på 0.165 för MSE30."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_005",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Lista alla modulkonfigurationer som har ett MSE15-värde lägre än 0.25 OCH ett MSE30-värde lägre än 0.18.",
+    "answer": [
+      [
+        "Audio+Text+Efo"
+      ],
+      [
+        "Eos+Ecs+Efo"
+      ],
+      [
+        "Audio+Text+Eos+Ecs+Efo"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E5",
+      "F5",
+      "A6",
+      "E6",
+      "F6",
+      "A7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_006",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Med hur många procent minskar MSE30-felet när man går från baslinjemodulen 'Audio+Text' till den mest komplexa modulen 'Audio+Text+Eos+Ecs+Efo'?",
+    "answer": [
+      [
+        "22.55%"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_007",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Om en förbättring av databearbetningen sänkte MSE_over-värdet för modulen 'Eos+Ecs+Efo' med 15%, vad skulle det nya genomsnittliga MSE_over-värdet vara för alla sju moduler?",
+    "answer": [
+      [
+        "0.349"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_008",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "open_ended_reasoning",
+    "question": "Finns det, baserat på data, ett konsekvent samband mellan en moduls kortvariga prestanda (MSE3) och dess långvariga prestanda (MSE30)? Motivera ditt svar.",
+    "answer": [
+      [
+        "Ja, det finns en stark positiv korrelation. Modulerna med de lägsta MSE3-värdena, 'Audio+Text+Eos+Ecs+Efo' (0.553) och 'Audio+Text+Efo' (0.579), har också de lägsta MSE30-värdena (0.158 respektive 0.165). Omvänt uppvisar moduler med de högsta MSE3-värdena, som 'Audio+Text' (0.645) och 'Audio+Text+Ecs' (0.640), de högsta MSE30-värdena (0.204 och 0.201). Detta tyder på att moduler som presterar väl vid kortvariga förutsägelser också tenderar att prestera väl vid långvariga förutsägelser."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "F1",
+      "C2",
+      "F2",
+      "C3",
+      "F3",
+      "C4",
+      "F4",
+      "C5",
+      "F5",
+      "C6",
+      "F6",
+      "C7",
+      "F7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_009",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Vad är det numeriska intervallet mellan prediktionshorisonterna MSE7 och MSE15 i tabellens struktur?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_010",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Vilka moduler presterar sämre (har ett högre MSE) vid MSE7-horisonten än baslinjemodulen 'Audio+Text', vilket gör deras prestanda vid denna specifika punkt till en avvikelse jämfört med den förväntade förbättringen från att lägga till funktioner?",
+    "answer": [
+      [
+        "Audio+Text+Eos"
+      ],
+      [
+        "Audio+Text+Ecs"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_011",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Vad är det genomsnittliga MSE för modulen Audio+Text?",
+    "answer": [
+      [
+        "0.373"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

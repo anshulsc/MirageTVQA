@@ -1,0 +1,235 @@
+[
+  {
+    "question_id": "arxiv_146818ba46_001",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "Які моделі пропонують сублінійну масштабованість, і яка ключова відмінність у їхніх підтримуваних функціях ('Попереднє навчання', 'Багатозадачність')?",
+    "answer": [
+      [
+        "TimeMixer та PatchTST пропонують сублінійну масштабованість. Ключова відмінність полягає в тому, що TimeMixer підтримує багатозадачне навчання, тоді як PatchTST ні; жодна з моделей не використовує попереднє навчання."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "E3",
+      "A5",
+      "B5",
+      "C5",
+      "E5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_002",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Яка загальна кількість моделей, що підтримують або попереднє навчання, або багатозадачне навчання, але не обидва?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_146818ba46_003",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Визначте основне застосування моделі, яка має лінійну масштабованість і потребує обчислень середнього рівня.",
+    "answer": [
+      [
+        "Task Flexibility"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_004",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Якщо дослідницький проєкт еволюціонує від потреби в моделі для \"довгих послідовностей\" до пізнішої потреби в моделі з \"гнучкістю завдань\", яку модель слід обрати на другому етапі?",
+    "answer": [
+      [
+        "TimesNet"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "F4",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_005",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Перелічіть моделі, які не використовують попереднє навчання та пропонують сублінійну масштабованість.",
+    "answer": [
+      [
+        "TimeMixer"
+      ],
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "E3",
+      "A5",
+      "B5",
+      "E5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_006",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Яка частка моделей, що вимагають \"High\" обчислювальних ресурсів?",
+    "answer": [
+      [
+        "40%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_146818ba46_007",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "Якби 'TimesNet' було покращено для підтримки 'Pre-training', якій існуючій моделі воно б найбільше відповідало за своїми характеристиками (Pre-training, Multi-task, Compute, Scalability)?",
+    "answer": [
+      [
+        "Покращений TimesNet не надто нагадував би жодну іншу окрему модель. Хоча він би мав спільні риси 'Pre-training', 'Multi-task' та 'Linear' масштабованість з Timer і MOMENT, його 'Medium' обчислювальні потужності все одно відрізняли б його від їхніх 'High' обчислювальних вимог."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "B4",
+      "C4",
+      "D4",
+      "E4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_008",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "Чи існує помітний зв'язок між масштабованістю моделі та фокусом її основного застосування на довжині послідовності або гнучкості?",
+    "answer": [
+      [
+        "Так, такий зв'язок, здається, існує. Моделі з більш ефективною \"підлінійною\" масштабованістю (TimeMixer, PatchTST) асоціюються із застосуваннями, що включають складні закономірності або довгі послідовності (\"Multiscale Patterns\", \"Long Sequences\"). Натомість моделі з \"лінійною\" масштабованістю, як правило, застосовуються до завдань, що вимагають гнучкості або навчання в умовах обмежень (\"Few-shot Learning\", \"Limited Supervision\", \"Task Flexibility\")."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "E2",
+      "F2",
+      "E3",
+      "F3",
+      "E4",
+      "F4",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_146818ba46_009",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Який стовпець, окрім «Model», містить найбільш різноманітний набір унікальних значень?",
+    "answer": [
+      [
+        "Primary Application"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_010",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Яка модель є винятком, оскільки не підтримує ні попереднього навчання, ні багатозадачне навчання?",
+    "answer": [
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_146818ba46_011",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Яке основне застосування Timer?",
+    "answer": [
+      [
+        "Few-shot Learning"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

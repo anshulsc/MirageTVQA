@@ -1,0 +1,269 @@
+[
+  {
+    "question_id": "arxiv_a783ff97d3_001",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC2_64' पूर्वानुमान सेटिङको लागि कुन फिचर चयन विधिले सबैभन्दा कम त्रुटि मान हासिल गर्‍यो?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_002",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'LASSO regression feature selection' विधिले सबै पूर्वानुमान सेटिङहरूमा प्रयोग गर्ने औसत बाह्य चरहरूको संख्या कति हो?",
+    "answer": [
+      [
+        "6.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_003",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC3_28' पूर्वानुमान सेटिङका लागि, उच्चतम संख्यामा बाह्य चरहरू प्रयोग गर्ने विधिको त्रुटि मेट्रिक के हो?",
+    "answer": [
+      [
+        "18.23"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "G2",
+      "G3",
+      "A4",
+      "G4",
+      "G5",
+      "A6",
+      "G6",
+      "G7",
+      "A8",
+      "G8",
+      "G9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_004",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'BC1_64' सेटिङको लागि बाह्य चरहरूको सङ्ख्या बढाउँदा प्रदर्शन (अर्थात्, त्रुटि मान कम हुँदा) लगातार सुधार हुन्छ?",
+    "answer": [
+      [
+        "होइन, कुनै सुसंगत सम्बन्ध छैन। 'BC1_64' सेटिङको लागि, 'Correlation-Based Selection' ले 14.11 को त्रुटिका लागि 3 चरहरू प्रयोग गर्दछ, 'LASSO regression' ले पनि 3 चरहरू प्रयोग गर्दछ तर 14.55 को उच्च त्रुटि छ। 'Forward Feature Selection NP' ले धेरै ठूलो सङ्ख्यामा चरहरू (28) प्रयोग गर्दछ र 9.16 को धेरै राम्रो (कम) त्रुटि हासिल गर्दछ। यसले सुझाव दिन्छ कि चरहरूको सङ्ख्या बढी हुँदा राम्रो हुन सक्छ, चयन विधि महत्त्वपूर्ण छ र केवल चरहरू थप्दा सुधारको ग्यारेन्टी हुँदैन।"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "B3",
+      "A4",
+      "B4",
+      "B5",
+      "A6",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_005",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC3_64' सेटिङका लागि 15 भन्दा बढी त्रुटि मान भएका सबै फिचर चयन विधिहरूको सूची बनाउनुहोस्।",
+    "answer": [
+      [
+        "Without exogenous variables"
+      ],
+      [
+        "Correlation-Based Selection"
+      ],
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Manual feature selection"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A4",
+      "F4",
+      "A6",
+      "F6",
+      "A8",
+      "F8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_006",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'Forward Feature Selection NP' द्वारा सबै सेटिङहरूमा प्रयोग गरिएका कुल बाह्य चरहरूको कति प्रतिशत 'BC1_64' सेटिङमा छुट्याइएको थियो?",
+    "answer": [
+      [
+        "28.57"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_007",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC2_28' सेटिङका लागि सबै त्रुटि मेट्रिक्स रेकर्ड गरिएको भन्दा २.५ अंकले कम भएमा, 'Manual feature selection' का लागि नयाँ त्रुटि कति हुनेछ?",
+    "answer": [
+      [
+        "13.57"
+      ]
+    ],
+    "evidence_cells": [
+      "E8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_008",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "स्पष्ट रूपमा चरहरूको सङ्ख्या सूचीबद्ध गरिएका फिचर चयन विधिहरूमध्ये, कुनले विभिन्न पूर्वानुमान सेटिङहरूमा चयन गरिएका चरहरूको दायरा (अधिकतम माइनस न्यूनतम) द्वारा मापन गरिएको सबैभन्दा ठूलो अस्थिरता देखाउँछ?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "A6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "A8",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9",
+      "G9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_009",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'LASSO regression feature selection' विधिका लागि, 'BC3_28' को त्रुटि मान एक आउटलायर हो। सोही विधिको अन्य सेटिङहरूसँग यसको सम्बन्धित बाह्य चरहरूको सङ्ख्याको तुलना कसरी हुन्छ?",
+    "answer": [
+      [
+        "LASSO का लागि २८.७९ को आउटलायर उच्च त्रुटि भएको 'BC3_28' सेटिङले सो विधिको लागि सबैभन्दा बढी बाह्य चरहरूको सङ्ख्या (१६) पनि प्रयोग गर्दछ। यो अन्य सेटिङहरूको तुलनामा धेरै हो, जुन ० देखि १० चरहरू सम्म हुन्छन्। यसले एउटा सम्भावित समस्या औंल्याउँछ जहाँ LASSO विधिले यो विशेष पूर्वानुमान सन्दर्भका लागि धेरै, तर खराब प्रदर्शन गर्ने, सुविधाहरूको सेट चयन गर्‍यो।"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5",
+      "E4",
+      "E5",
+      "F4",
+      "F5",
+      "G4",
+      "G5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_010",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'बाह्य चरहरू बिना' आधारभूत स्थितिको कार्यसम्पादनको विश्लेषण गर्नुहोस्, जब तपाईं क्रमिक रूपमा 'BC1' सेटिङहरूबाट 'BC2' र त्यसपछि 'BC3' मा जानुहुन्छ तब त्रुटि मेट्रिकमा प्रवृत्ति वर्णन गर्नुहोस्।",
+    "answer": [
+      [
+        "'बाह्य चरहरू बिना' आधारभूत स्थितिको कार्यसम्पादनले सेटिङहरूमा एक स्पष्ट ढाँचा देखाउँछ। यो BC1 सेटिङहरू (11.14, 13.65) का लागि मध्यम त्रुटि मानहरूबाट सुरु हुन्छ। BC2 सेटिङहरूका लागि कार्यसम्पादनमा उल्लेखनीय सुधार हुन्छ, जसमा सबैभन्दा कम त्रुटिहरू (3.75, 9.08) छन्। अन्तमा, BC3 सेटिङहरू (17.53, 9.06) का लागि त्रुटि फेरि बढ्छ, जहाँ BC3_64 ले यस विधिका लागि समग्रमा सबैभन्दा बढी त्रुटि देखाउँछ। यसले संकेत गर्छ कि आधारभूत मोडेल BC2 को अवस्थाहरूका लागि सबैभन्दा उपयुक्त छ।"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_011",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'LASSO regression feature selection' र 'Forward Feature Selection NP' मध्ये, BC2_64 कन्फिगरेसनमा कुन पूर्वानुमान सेटिङले कम मान प्राप्त गर्‍यो?",
+    "answer": [
+      [
+        "'Forward Feature Selection NP' ले 'LASSO regression feature selection' (5.73) को तुलनामा BC2_64 कन्फिगरेसनमा कम मान (2.9) प्राप्त गर्‍यो।"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "D5",
+      "D7"
+    ],
+    "reasoning_category": "Comaparative Reasoning"
+  }
+]

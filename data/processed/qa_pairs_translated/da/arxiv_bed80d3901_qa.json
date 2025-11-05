@@ -1,0 +1,214 @@
+[
+  {
+    "question_id": "arxiv_bed80d3901_001",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Hvilken forespørgsel kræver analyse af det højeste antal primære finansielle metrics?",
+    "answer": [
+      [
+        "What were the return on average assets and ROWC of Halliburton co. and other companies in the energy sector from Apr 2016 to Jul 2017 compared to their Gross Profit Margin and CROAFA?"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "A3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_002",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Beregn det samlede antal individuelle 'Relaterede Metrikker', der er angivet på tværs af alle tre forespørgsler.",
+    "answer": [
+      [
+        "22"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_003",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "For den forespørgsel, der involverer at sammenligne et firma med dets konkurrenter, hvad er det præcise datointerval specificeret i den tilsvarende 'Structured Data Request'?",
+    "answer": [
+      [
+        "(1/9/2018 - 30/9/2018)"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_004",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Hvilken naturlig sproglig forespørgsel svarer til den strukturerede anmodning, der dækker den længste tidsperiode?",
+    "answer": [
+      [
+        "What were the return on average assets and ROWC of Halliburton co. and other companies in the energy sector from Apr 2016 to Jul 2017 compared to their Gross Profit Margin and CROAFA?"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_005",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Angiv alle primære metrics, der er anmodet om for forespørgsler, som specifikt refererer til et selskab med en juridisk identifikator som 'plc' eller 'Co.' i feltet 'Required Data'.",
+    "answer": [
+      [
+        "Quick Ratio"
+      ],
+      [
+        "Bid Size"
+      ],
+      [
+        "Cash Conversion Efficiency Ratio"
+      ],
+      [
+        "Return on Average Assets"
+      ],
+      [
+        "Return on Working Capital"
+      ],
+      [
+        "Gross Profit Margin"
+      ],
+      [
+        "Cash Return on Average Fixed Assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_006",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "For Amcor plc-forespørgslen, hvor mange procent af alle metrikker, der er angivet i 'Structured Data Request', indeholder eksplicit ordet 'Cash'?",
+    "answer": [
+      [
+        "28.57%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_007",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvis den naturlige sprogforespørgsel for Adobe blev udvidet til at inkludere en anmodning om 'Return on Working Capital', hvordan ville listen over metrikker i 'Structured Data Request' blive modificeret, ved brug af information fra Halliburton-forespørgslen som skabelon?",
+    "answer": [
+      [
+        "Metrics-sektionen af 'Structured Data Request' ville blive opdateret til at inkludere 'Return on Working Capital' og dens relaterede komponenter fra Halliburton-forespørgslen. Dette ville betyde at tilføje 'Return on Working Capital; Net income; Working capital' til den eksisterende liste, hvilket resulterer i: (Sales Revenue; Total Revenue; Economic Value Added; Net operating profit after tax (NOPAT); Cost of capital; Return on Working Capital; Net income; Working capital)."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_008",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "Baseret på de angivne data, hvad er det tilsyneladende forhold mellem kompleksiteten af en naturlig sproglig 'Query' og det samlede antal metrikker specificeret i 'Structured Data Request'?",
+    "answer": [
+      [
+        "Der ser ud til at være en positiv korrelation. De to mere komplekse forespørgsler (for Amcor og Halliburton) svarer til et markant højere antal metrikker i deres strukturerede anmodninger (henholdsvis 14 og 12) sammenlignet med den simplere forespørgsel for Adobe, som kun har 5 metrikker. Dette tyder på, at efterhånden som den analytiske dybde af brugerens spørgsmål øges, øges den nødvendige datamængde også."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_009",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Hvilken kolonne tjener funktionen med at parse den naturlige sprogforespørgsel til et semi-struktureret format, der eksplicit angiver virksomheder, primære metrics, relaterede undermetrics og den ønskede tidsramme?",
+    "answer": [
+      [
+        "Required Data"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_010",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyser den tidsmæssige information i kolonnerne 'Required Data' og 'Structured Data Request'. Er der en forespørgsel, hvor disse to kolonner præsenterer en modstridende tidsramme? Hvis ja, identificer forespørgslen og beskriv uoverensstemmelsen.",
+    "answer": [
+      [
+        "Ja, Amcor plc-forespørgslen viser en markant uoverensstemmelse. Sektionen 'Required Data' specificerer en tidsramme på 'for de sidste 6 måneder', mens den tilsvarende 'Structured Data Request' specificerer en meget kortere periode på 7 dage '(7/1/2024 - 7/7/2024)'. De to andre forespørgsler viser tidsmæssig konsistens mellem kolonnerne."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_011",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Hvor mange unikke virksomheder nævnes i dataene?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

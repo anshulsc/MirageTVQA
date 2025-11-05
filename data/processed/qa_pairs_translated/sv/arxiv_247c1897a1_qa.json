@@ -1,0 +1,305 @@
+[
+  {
+    "question_id": "arxiv_247c1897a1_001",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Vilka modeller uppnådde bäst (dvs. lägst) prestanda på MSE30-måttet, exklusive de med saknade data för det måttet?",
+    "answer": [
+      [
+        "HTML"
+      ],
+      [
+        "ECC Analyzer"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F8",
+      "F9",
+      "A6",
+      "A9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_002",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Vad är det genomsnittliga MSE7-värdet för alla modeller vars namn börjar på bokstaven 'M'?",
+    "answer": [
+      [
+        "0.4275"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "A5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_003",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifiera modellen som är en tydlig avvikelse vad gäller prestanda och förklara varför den sticker ut från resten.",
+    "answer": [
+      [
+        "Modellen 'GPT-4-Turbo' är en signifikant avvikelse. Dess medelkvadratfelvärden över alla prediktionshorisonter (från 2,198 till 11,824) är dramatiskt högre än för alla andra modeller, vilka generellt ligger under 2,0 och ofta under 1,0. Detta indikerar en väsentligt lägre prediktionsnoggrannhet, vilket gör dess prestanda till en anomali i denna dataset."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "A6",
+      "B6",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "A8",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "A9",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_004",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Vad är det övergripande MSE-värdet (MSE_över) för modellen som har den näst lägsta MSE3-poängen?",
+    "answer": [
+      [
+        "/"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_005",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Lista alla modeller som har ett MSE15-värde under 0,3 OCH ett MSE30-värde under 0,2.",
+    "answer": [
+      [
+        "HTML"
+      ],
+      [
+        "ECC Analyzer"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "E2",
+      "F2",
+      "E3",
+      "F3",
+      "E4",
+      "F4",
+      "E5",
+      "F5",
+      "A6",
+      "E6",
+      "F6",
+      "E7",
+      "F7",
+      "E8",
+      "F8",
+      "A9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_006",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv trenden i prediktionsfel för 'HTML'-modellen när prediktionshorisonten sträcker sig från 3 till 30 dagar.",
+    "answer": [
+      [
+        "För 'HTML'-modellen minskar prediktionsfelet, mätt som medelkvadratfel (MSE), konsekvent när prediktionshorisonten blir längre. MSE sjunker från 0,845 vid 3 dagar, till 0,349 vid 7 dagar, 0,251 vid 15 dagar och slutligen till 0,158 vid 30 dagar. Detta indikerar att modellens förutsägelser blir mer exakta för långsiktiga prognoser."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_007",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Vilken procentandel av det totala MSE3-felet, summerat över alla modeller, bidras med av modellen 'GPT-4-Turbo'? Avrunda till två decimaler.",
+    "answer": [
+      [
+        "23.22%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_008",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "Om 'Classical Method'-modellens MSE15-värde skulle förbättras (minskas) med 10%, vad skulle dess nya rang vara för den mätningen jämfört med de andra modellerna?",
+    "answer": [
+      [
+        "Om 'Classical Method'-modellens MSE15-värde på 0.330 skulle minskas med 10%, skulle det nya värdet bli 0.297. Den ursprungliga rankningen för MSE15 är: AMA-LSTM (0.230), ECC Analyzer (0.237), HTML (0.251), MRDM (0.300), MT-LSTM-ATT (0.304), HAN (Glove) (0.308), LSTM (0.320), Classical Method (0.330), GPT-4-Turbo (7.959). Det nya värdet på 0.297 skulle placera den mellan HTML och MRDM, vilket flyttar dess rang från 8:e till 4:e bästa."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_009",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "Med undantag för 'GPT-4-Turbo'-utliggaren, finns det ett tydligt samband mellan en modells prestanda på den övergripande MSE-metriken (MSE_over) och dess prestanda på 7-dagars prognosen (MSE7)?",
+    "answer": [
+      [
+        "Ja, det verkar finnas ett positivt samband. Generellt sett har modeller med en lägre (bättre) övergripande MSE också en lägre MSE7. Till exempel har 'ECC Analyzer' och 'HTML' de två lägsta övergripande MSE-poängen (0,314 och 0,401) och även två av de lägsta MSE7-poängen (0,306 och 0,349). Omvänt har modeller som 'MT-LSTM-ATT' och 'LSTM' de högsta övergripande MSE-poängen (0,739 och 0,746) bland denna grupp och har även relativt höga MSE7-poäng (0,435 och 0,459). Detta tyder på att en modells allmänna prediktiva förmåga är konsekvent över dessa två specifika mått."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B4",
+      "D4",
+      "B5",
+      "D5",
+      "B6",
+      "D6",
+      "B7",
+      "D7",
+      "B9",
+      "D9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_010",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Vilken modell i tabellen har mest ofullständig data, indikerad av '/' poster?",
+    "answer": [
+      [
+        "AMA-LSTM"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "F7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_011",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Vilken modell har lägst MSE totalt sett bland alla modeller?",
+    "answer": [
+      [
+        "ECC Analyzer."
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

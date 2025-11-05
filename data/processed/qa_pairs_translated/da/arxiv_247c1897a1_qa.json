@@ -1,0 +1,305 @@
+[
+  {
+    "question_id": "arxiv_247c1897a1_001",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Hvilke modeller opnåede den bedste (dvs. laveste) ydeevne på MSE30-metrikken, eksklusive dem med manglende data for den pågældende metrik?",
+    "answer": [
+      [
+        "HTML"
+      ],
+      [
+        "ECC Analyzer"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F8",
+      "F9",
+      "A6",
+      "A9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_002",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Hvad er den gennemsnitlige MSE7-værdi for alle modeller, hvis navne starter med bogstavet 'M'?",
+    "answer": [
+      [
+        "0.4275"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "A5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_003",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "Identificer modellen, der er en klar outlier med hensyn til ydeevne, og forklar, hvorfor den skiller sig ud fra resten.",
+    "answer": [
+      [
+        "Modellen 'GPT-4-Turbo' er en markant outlier. Dens Mean Squared Error (MSE)-værdier på tværs af alle forudsigelseshuller (fra 2,198 til 11,824) er dramatisk højere end dem for alle andre modeller, som generelt er under 2,0 og ofte under 1,0. Dette indikerer en væsentligt lavere forudsigelsesnøjagtighed, hvilket gør dens ydeevne til en anomali i dette datasæt."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "A6",
+      "B6",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "A8",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "A9",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_004",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Hvad er den samlede MSE-værdi (MSE_over) for modellen, der har den næstlaveste MSE3-score?",
+    "answer": [
+      [
+        "/"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_005",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "List alle modeller, der har en MSE15-værdi under 0,3 OG en MSE30-værdi under 0,2.",
+    "answer": [
+      [
+        "HTML"
+      ],
+      [
+        "ECC Analyzer"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "E2",
+      "F2",
+      "E3",
+      "F3",
+      "E4",
+      "F4",
+      "E5",
+      "F5",
+      "A6",
+      "E6",
+      "F6",
+      "E7",
+      "F7",
+      "E8",
+      "F8",
+      "A9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_006",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv tendensen i forudsigelsesfejlen for 'HTML'-modellen, efterhånden som forudsigelseshorisonten strækker sig fra 3 til 30 dage.",
+    "answer": [
+      [
+        "For 'HTML'-modellen falder forudsigelsesfejlen, målt ved Mean Squared Error (MSE), konsekvent, efterhånden som forudsigelseshorisonten bliver længere. MSE falder fra 0,845 ved 3 dage, til 0,349 ved 7 dage, 0,251 ved 15 dage og endelig til 0,158 ved 30 dage. Dette indikerer, at modellens forudsigelser bliver mere nøjagtige for længerevarende prognoser."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_007",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Hvilken procentdel af den samlede MSE3-fejl, summeret på tværs af alle modeller, bidrages af 'GPT-4-Turbo'-modellen? Rund af til to decimaler.",
+    "answer": [
+      [
+        "23.22%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_008",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvis 'Classical Method'-modellens MSE15-værdi blev forbedret (reduceret) med 10%, hvad ville dens nye rangering være for den metrik sammenlignet med de andre modeller?",
+    "answer": [
+      [
+        "Hvis 'Classical Method'-modellens MSE15-værdi på 0,330 blev reduceret med 10%, ville den nye værdi være 0,297. Den oprindelige rangering for MSE15 er: AMA-LSTM (0,230), ECC Analyzer (0,237), HTML (0,251), MRDM (0,300), MT-LSTM-ATT (0,304), HAN (Glove) (0,308), LSTM (0,320), Classical Method (0,330), GPT-4-Turbo (7,959). Den nye værdi på 0,297 ville placere den mellem HTML og MRDM, hvilket flytter dens rangering fra 8. til 4. bedste."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_009",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "Eksklusive 'GPT-4-Turbo' outlieren, er der et tydeligt forhold mellem en models præstation på den samlede MSE-metrik (MSE_over) og dens præstation på 7-dages prognosen (MSE7)?",
+    "answer": [
+      [
+        "Ja, der ser ud til at være en positiv korrelation. Generelt har modeller med en lavere (bedre) samlet MSE også en lavere MSE7. For eksempel har 'ECC Analyzer' og 'HTML' de to laveste samlede MSE-scorer (0.314 og 0.401) og også to af de laveste MSE7-scorer (0.306 og 0.349). Omvendt har modeller som 'MT-LSTM-ATT' og 'LSTM' de højeste samlede MSE-scorer (0.739 og 0.746) i denne gruppe og har også relativt høje MSE7-scorer (0.435 og 0.459). Dette tyder på, at en models generelle forudsigelseskraft er konsistent på tværs af disse to specifikke metrikker."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B4",
+      "D4",
+      "B5",
+      "D5",
+      "B6",
+      "D6",
+      "B7",
+      "D7",
+      "B9",
+      "D9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_010",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Hvilken model i tabellen har flest ufuldstændige data, angivet med '/' poster?",
+    "answer": [
+      [
+        "AMA-LSTM"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "F7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_011",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Hvilken model har den samlet laveste MSE blandt alle modellerne?",
+    "answer": [
+      [
+        "ECC Analyzer."
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

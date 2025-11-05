@@ -1,0 +1,208 @@
+[
+  {
+    "question_id": "arxiv_5e3be8dfe7_001",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Vilken modell har det högsta antalet distinkta parameterförklaringar listade i tabellen?",
+    "answer": [
+      [
+        "Neural Networks"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_002",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Hur många distinkta parametrar förklaras totalt för alla modeller som använder en summationskomponent (Σ) i sin huvudformel?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_003",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Lista modellerna vars huvudformel inte involverar exponentiering (t.ex. e^x).",
+    "answer": [
+      [
+        "Neural Networks"
+      ],
+      [
+        "Support Vector Machine"
+      ],
+      [
+        "Decision Tree"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_004",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Vilken procentandel av de listade modellerna använder en parameter som representerar enskilda sampel eller datapunkter (t.ex. 'sample i') i sin formulering?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "C8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_005",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Om antalet sampelkategorier 'm' i en besluts träd-modell är 1, vad skulle det beräknade värdet av information entropi 'Ent(D)' vara enligt formeln?",
+    "answer": [
+      [
+        "0"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_006",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Vilken modells formel skiljer sig fundamentalt från de andra genom att den presenteras som ett optimeringsproblem (minimering) snarare än en direkt beräkning av ett utdatavärde?",
+    "answer": [
+      [
+        "Support Vector Machine"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B7",
+      "B9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_007",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "Baserat på formlerna och parametrarna, kontrastera rollen för parametern 'β' i logistisk regression med parametern 'w' i Support Vector Machine.",
+    "answer": [
+      [
+        "I logistisk regression är 'β' en radvektor av regressionskoefficienter som, tillsammans med interceptet, bestämmer sannolikheten för ett utfall via den logistiska funktionen. I Support Vector Machine är 'w' en parametervektor som definierar orienteringen av den separerande hyperplanen. Målet i SVM är att hitta 'w' som maximerar marginalen mellan klasserna genom att minimera dess L2-norm, medan i logistisk regression hittas 'β' typiskt genom att maximera likelihood för de observerade data."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C3",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_008",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "Hur återspeglar koncepten 'lager' i neurala nätverk och 'entropi' i beslutsträd deras olika metoder för att lära sig från data?",
+    "answer": [
+      [
+        "Konceptet 'lager' (l och l-1) i neurala nätverk återspeglar ett hierarkiskt tillvägagångssätt för att lära sig egenskaper. Modellen lär sig allt mer komplexa representationer av data genom att skicka aktiveringar genom successiva lager, och justerar vikter ('w') och bias ('b') för att skapa en komplex funktionsapproximator. I kontrast återspeglar konceptet 'entropi' (Ent(D)) i beslutsträd ett girigt, regelbaserat tillvägagångssätt. Modellen partitionerar rekursivt data i renare delmängder genom att välja funktioner som resulterar i den största minskningen av entropi (informationsvinst), vilket skapar en explicit uppsättning om-då-regler."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_009",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Hur många unika modeller beskrivs i tabellen?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_010",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Vilken kolumns primära syfte är att definiera variablerna som används i den angränsande kolumnen?",
+    "answer": [
+      [
+        "Parameter and Explanation"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

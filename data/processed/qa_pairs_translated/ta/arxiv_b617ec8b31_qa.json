@@ -1,0 +1,202 @@
+[
+  {
+    "question_id": "arxiv_b617ec8b31_001",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "MarS முறையானது தற்போதைய சந்தையை உருவகப்படுத்தப்பட்ட சந்தையுடன் ஒப்பிடும் பயன்பாட்டிற்கு, அதனுடன் தொடர்புடைய தற்போதைய முறை எதை ஒப்பிடுகிறது?",
+    "answer": [
+      [
+        "Diff⁡(marketn⁢o⁢w,marketp⁢a⁢s⁢t)"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_002",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "'MarS' முறையைப் பயன்படுத்தும் பயன்பாடுகளில் 'generation' அல்லது 'simulation' ஆகியவற்றை உள்ளடக்கியவற்றின் சதவீதம் என்ன?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_003",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "'கண்டறிதல்' பயன்பாட்டிற்கான MarS முறை, 'தற்போதைய முறைகள்' பயன்படுத்தும் நேர அடிப்படையிலான ஒப்பீட்டை எவ்வாறு மாற்றுகிறது?",
+    "answer": [
+      [
+        "கண்டறிதலுக்கான 'தற்போதைய முறைகள்' என்பது தற்போதைய சந்தை நிலை (market_now) மற்றும் கடந்தகால சந்தை நிலை (market_past) ஆகியவற்றுக்கு இடையேயான வேறுபாட்டைக் கணக்கிடுவதன் மூலம் ஒரு வரலாற்று ஒப்பீட்டை நம்பியுள்ளது. MarS முறை கடந்தகால தரவுகளின் மீதான இந்த சார்பை நீக்குகிறது. அதற்கு பதிலாக, இது தற்போதைய சந்தையை (market_now) தற்போதைய உருவகப்படுத்தப்பட்ட சந்தையுடன் (simu-market_now) ஒப்பிடுகிறது, ஒப்பீட்டை காலப்போக்கில் (இப்போது எதிர் அப்போது) இருந்து மாதிரி அடிப்படையிலான (உண்மை எதிர் உருவகப்படுத்தப்பட்டது) கட்டமைப்பிற்கு மாற்றுகிறது."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_004",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "எந்தெந்தப் பயன்பாடுகளுக்கு 'MarS' முறையானது 'pipeline' அல்லது 'generation' என விவரிக்கப்படுகிறதோ, அவற்றிற்கான 'தற்போதைய முறைகள்' என்னென்ன?",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ],
+      [
+        "online experiments, empirical formula"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B1",
+      "C3",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_005",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "'தற்போதைய முறைகள்' மற்றும் 'MarS' ஆகியவற்றுக்கு இடையே, வரலாற்று ஒப்பீட்டிலிருந்து உருவகப்படுத்தப்பட்ட ஒன்றுக்கு மாறுவதன் மூலம், அணுகுமுறையில் மிகவும் அடிப்படையான மாற்றத்தைக் காட்டும் பயன்பாடு எது?",
+    "answer": [
+      [
+        "கண்டறிதல்' பயன்பாடு மிகவும் அடிப்படையான மாற்றத்தைக் காட்டுகிறது. தற்போதைய முறை ஒரு கால, பின்னோக்கிய ஒப்பீட்டை (Diff(market_now, market_past)) நம்பியுள்ளது. இதற்கு மாறாக, MarS முறை ஒரு சமகால உருவகப்படுத்தப்பட்ட யதார்த்தத்திற்கு (Diff(market_now, simu-market_now)) எதிரான ஒப்பீட்டை அறிமுகப்படுத்துகிறது. வரலாற்று அடிப்படையிலிருந்து ஒப்பீட்டிற்கான உருவகப்படுத்தப்பட்ட அடிப்படையான இந்த மாற்றம், அட்டவணையில் உள்ள மற்ற முறையியல் மாற்றங்களுடன் ஒப்பிடும்போது ஒரு குறிப்பிடத்தக்க கருத்தியல் outlier ஆகும்."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_006",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "'RL Environment'க்கான 'MarS' அணுகுமுறை, அதே பயன்பாட்டிற்கான 'Current Methods' தரவு கிடைக்கும் தன்மையைப் பயன்படுத்தும்படி மாற்றியமைக்கப்பட்டால், இந்த கருத்தியலான MarS முறையை வரையறுக்கும் இரண்டு பண்புகள் யாவை?",
+    "answer": [
+      [
+        "finite data"
+      ],
+      [
+        "real P(st+1|st,at)"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_007",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "'RL Environment' பயன்பாட்டிற்கான, 'Current Methods' மற்றும் 'MarS' இடையே தரவு கிடைக்கும் தன்மை மற்றும் நிகழ்தகவு பரவலில் உள்ள முக்கிய வேறுபாடு என்ன?",
+    "answer": [
+      [
+        "தரவு அளவு மற்றும் மாற்ற நிகழ்தகவின் நம்பகத்தன்மை ஆகிய இரண்டிலும் முக்கிய வேறுபாடு உள்ளது. 'Current Methods' 'finite data' மற்றும் 'fake' நிகழ்தகவு பரவலை (P(st+1|st,at)) சார்ந்துள்ளது, அதேசமயம் 'MarS' 'infinite data' மற்றும் 'real' நிகழ்தகவு பரவலைப் பயன்படுத்துகிறது."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_008",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "'தற்போதைய முறைகள்' அல்லது 'MarS' ஆகியவற்றின் முறை விளக்கங்களில் 'தரவு' என்ற சொல் இடம்பெற்றுள்ள எத்தனை தனித்துவமான பயன்பாடுகள் பட்டியலிடப்பட்டுள்ளன?",
+    "answer": [
+      [
+        "2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_009",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "அட்டவணையின்படி, தரவு மற்றும் உண்மை பிரதிநிதித்துவம் தொடர்பாக தற்போதைய முறைகளுடன் ஒப்பிடும்போது MarS இன் வெளிப்படையான ஒட்டுமொத்த நன்மை என்ன?",
+    "answer": [
+      [
+        "ஒட்டுமொத்த கருப்பொருள், MarS முறைகள் உருவாக்கம் மற்றும் உருவகப்படுத்துதல் அடிப்படையிலான அணுகுமுறைகளைப் பயன்படுத்துவதன் மூலம் வரலாற்று அல்லது வரையறுக்கப்பட்ட தரவுகளின் வரம்புகளை சமாளிக்க முயல்கின்றன என்று கூறுகிறது. MarS ஆனது பிரித்தெடுத்தலில் இருந்து உருவாக்கத்திற்கும், வரலாற்று ஒப்பீட்டிலிருந்து உருவகப்படுத்தப்பட்ட ஒப்பீட்டிற்கும், வரையறுக்கப்பட்ட/போலி தரவு மாதிரிகளிலிருந்து எல்லையற்ற/உண்மையான தரவு மாதிரிகளுக்கும் மாறுகிறது. இது பகுப்பாய்வு மற்றும் வலுவூட்டல் கற்றலுக்கான மிகவும் வலுவான, நெகிழ்வான மற்றும் யதார்த்தமான தரவு சூழல்களை உருவாக்குவதில் ஒரு மூலோபாய நன்மையைக் குறிக்கிறது."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_010",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "தலைப்பு வரிசையைத் தவிர்த்து, அட்டவணையில் எத்தனை தனித்துவமான பயன்பாடுகள் விவரிக்கப்பட்டுள்ளன?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_011",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "கணிப்புக்கு (Forecasting) பயன்படுத்தப்படும் தற்போதைய முறை என்ன?",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

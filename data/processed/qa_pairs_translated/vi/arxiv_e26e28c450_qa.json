@@ -1,0 +1,271 @@
+[
+  {
+    "question_id": "arxiv_e26e28c450_001",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Mô hình nào không sử dụng đa nhiệm đạt được Sai số Bình phương Trung bình (MSE_over) thấp nhất?",
+    "answer": [
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "H1",
+      "A2",
+      "B2",
+      "H2",
+      "A3",
+      "B3",
+      "H3",
+      "A4",
+      "B4",
+      "H4",
+      "A5",
+      "B5",
+      "H5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_002",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Tính giá trị trung bình của MSE ở chân trời 7 ngày (MSE7) cho tất cả các mô hình được đánh dấu là 'Multi-Task'.",
+    "answer": [
+      [
+        "0.820"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "H6",
+      "D7",
+      "H7",
+      "D8",
+      "H8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_003",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Đối với mô hình có giá trị MSE3 cao thứ hai (tệ thứ hai), giá trị MSE30 tương ứng của nó là bao nhiêu?",
+    "answer": [
+      [
+        "0.233"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "F3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_004",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Phân tích xu hướng Sai số Bình phương Trung bình (MSE) cho mô hình HTML khi chân trời dự báo mở rộng từ 3 đến 30 ngày. Độ chính xác dự báo của nó có cải thiện hay xấu đi theo thời gian?",
+    "answer": [
+      [
+        "Độ chính xác dự báo của mô hình HTML được cải thiện khi chân trời dự báo mở rộng. Các giá trị MSE của nó liên tục giảm từ MSE3 (0,845) xuống MSE7 (0,349), MSE15 (0,251) và cuối cùng là MSE30 (0,158), cho thấy sai số thấp hơn và do đó hiệu suất tốt hơn đối với các dự báo dài hạn hơn."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_005",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Hãy xác định tất cả các mô hình không được chỉ định là 'Multi-Task' và cũng có giá trị MSE15 thấp hơn 0.31.",
+    "answer": [
+      [
+        "MT-LSTM-ATT"
+      ],
+      [
+        "HAN"
+      ],
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "H1",
+      "A2",
+      "E2",
+      "H2",
+      "A3",
+      "E3",
+      "H3",
+      "A4",
+      "E4",
+      "H4",
+      "A5",
+      "E5",
+      "H5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_006",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Xác định mô hình nào là ngoại lệ rõ ràng về hiệu suất trên tất cả các chỉ số MSE và giải thích tại sao.",
+    "answer": [
+      [
+        "Mô hình GPT-3.5-Turbo là một ngoại lệ rõ ràng về hiệu suất. Các giá trị MSE của nó trên tất cả các khoảng thời gian (MSE_over: 2.198, MSE3: 2.152, MSE7: 1.793, MSE15: 2.514, MSE30: 2.332) cao hơn đáng kể so với tất cả các mô hình khác, phần lớn trong số đó có giá trị MSE dưới 1.0. Điều này cho thấy hiệu suất dự đoán kém hơn đáng kể so với các mô hình khác được liệt kê."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_007",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Tỷ lệ phần trăm của tổng MSE3 được tính theo tổng của tất cả các mô hình mà mô hình GPT-3.5-Turbo chiếm dụng là bao nhiêu? Cung cấp câu trả lời dưới dạng phần trăm làm tròn đến một chữ số thập phân.",
+    "answer": [
+      [
+        "19.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_008",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Nếu MSE_over của mô hình RiskLabs cải thiện 25% (tức là giảm 25%), giá trị mới của nó sẽ là bao nhiêu và nó sẽ xếp hạng như thế nào so với MSE_over của mô hình HTML?",
+    "answer": [
+      [
+        "MSE_over mới cho RiskLabs sẽ là 0.243. Giá trị này thấp hơn, do đó tốt hơn, so với MSE_over là 0.401 của mô hình HTML."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_009",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Dựa trên bảng, mối quan hệ giữa một mô hình được phân loại là 'Đa nhiệm' và sự sẵn có của điểm 'VaR' là gì?",
+    "answer": [
+      [
+        "Có một mối tương quan mạnh mẽ. Chỉ các mô hình được chỉ định là 'Đa nhiệm' (GPT-3.5-Turbo và RiskLabs) mới có điểm 'VaR' số được báo cáo. Tuy nhiên, không phải tất cả các mô hình 'Đa nhiệm' đều có điểm VaR (ví dụ: HTML), và không có mô hình không phải 'Đa nhiệm' nào có điểm này, cho thấy khả năng tính toán VaR là một tính năng chủ yếu liên quan đến các mô hình 'Đa nhiệm' trong tập dữ liệu này."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "H1",
+      "G2",
+      "H2",
+      "G3",
+      "H3",
+      "G4",
+      "H4",
+      "G5",
+      "H5",
+      "G6",
+      "H6",
+      "G7",
+      "H7",
+      "G8",
+      "H8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_010",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Cột thước đo hiệu suất nào chứa dữ liệu giữ chỗ không phải dạng số, và dữ liệu này bị thiếu đối với những mô hình cụ thể nào?",
+    "answer": [
+      [
+        "Cột 'VaR' chứa dữ liệu không phải dạng số ('/'). Dữ liệu này bị thiếu đối với các mô hình sau: Phương pháp Cổ điển, LSTM, MT-LSTM-ATT, HAN, MRDM và HTML."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_011",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Mô hình nào cho thấy sự cân bằng tổng thể tốt nhất giữa độ chính xác dự đoán trên các khoảng thời gian khác nhau (MSE3–MSE30) và ước tính rủi ro (VaR)?",
+    "answer": [
+      [
+        "Mô hình RiskLabs đạt được sự cân bằng tổng thể tốt nhất, duy trì giá trị MSE thấp nhất trên tất cả các khoảng thời gian và VaR thấp nhất (0.049), cho thấy cả độ chính xác dự đoán mạnh mẽ và ước tính rủi ro đáng tin cậy."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "G8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

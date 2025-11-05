@@ -1,0 +1,235 @@
+[
+  {
+    "question_id": "arxiv_146818ba46_001",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "Model manakah yang menawarkan skalabiliti Sublinear, dan apakah perbezaan utama dalam ciri yang disokong mereka ('Pre-training', 'Multi-task')?",
+    "answer": [
+      [
+        "TimeMixer dan PatchTST menawarkan skalabiliti Sublinear. Perbezaan utama ialah TimeMixer menyokong pembelajaran Multi-task manakala PatchTST tidak; tiada model yang menggunakan Pre-training."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "E3",
+      "A5",
+      "B5",
+      "C5",
+      "E5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_002",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Berapakah jumlah keseluruhan model yang menyokong sama ada Pra-latihan atau pembelajaran Pelbagai tugas, tetapi bukan kedua-duanya?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_146818ba46_003",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Nyatakan aplikasi utama model yang mempunyai skalabiliti Linear dan keperluan pengiraan Sederhana.",
+    "answer": [
+      [
+        "Task Flexibility"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_004",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Jika projek penyelidikan berkembang daripada memerlukan model untuk 'Urutan Panjang' kepada kemudiannya memerlukan satu dengan 'Fleksibiliti Tugas', model manakah yang akan menjadi pilihan yang sesuai pada peringkat kedua?",
+    "answer": [
+      [
+        "TimesNet"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "F4",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_005",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Senaraikan model yang tidak menggunakan pra-latihan dan menawarkan skalabiliti sublinear.",
+    "answer": [
+      [
+        "TimeMixer"
+      ],
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "E3",
+      "A5",
+      "B5",
+      "E5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_006",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Berapakah kadar model yang disenaraikan memerlukan sumber pengkomputeran 'Tinggi'?",
+    "answer": [
+      [
+        "40%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_146818ba46_007",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "Jika 'TimesNet' ditingkatkan untuk menyokong 'Pra-latihan', model sedia ada manakah yang paling hampir menyerupainya dari segi ciri-cirinya (Pra-latihan, Multi-tugas, Pengkomputan, Skalabiliti)?",
+    "answer": [
+      [
+        "TimesNet yang dipertingkat tidak akan menyerupai mana-mana model tunggal yang lain. Walaupun ia akan berkongsi 'Pra-latihan', 'Multi-tugas', dan skalabiliti 'Linear' dengan Timer dan MOMENT, pengkomputan 'Sederhana'nya masih akan membezakannya daripada keperluan 'Tinggi' mereka."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "B4",
+      "C4",
+      "D4",
+      "E4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_008",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "Adakah terdapat korelasi yang dapat dilihat antara skalabiliti model dan fokus aplikasi utamanya pada panjang urutan atau fleksibiliti?",
+    "answer": [
+      [
+        "Ya, nampaknya terdapat korelasi. Model dengan skalabiliti 'Sublinear' yang lebih cekap (TimeMixer, PatchTST) dikaitkan dengan aplikasi yang melibatkan corak kompleks atau urutan panjang ('Multiscale Patterns', 'Long Sequences'). Sebaliknya, model dengan skalabiliti 'Linear' cenderung digunakan untuk tugasan yang memerlukan fleksibiliti atau pembelajaran di bawah kekangan ('Few-shot Learning', 'Limited Supervision', 'Task Flexibility')."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "E2",
+      "F2",
+      "E3",
+      "F3",
+      "E4",
+      "F4",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_146818ba46_009",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Kolom mana, selain daripada 'Model', yang mengandungi set nilai unik yang paling pelbagai?",
+    "answer": [
+      [
+        "Primary Application"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_010",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Model manakah yang merupakan pengecualian kerana tidak menyokong Pembelajaran Pra-latih atau Pembelajaran Pelbagai Tugasan?",
+    "answer": [
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_146818ba46_011",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Apakah aplikasi utama Timer?",
+    "answer": [
+      [
+        "Few-shot Learning"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

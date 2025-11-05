@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "arxiv_6e5eaf404b_001",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "በMASA ወይስ በTrendTrader ምርምር ስራዎች መካከል የትኛው ሰፊ እና የተለያዩ ዓለም አቀፍ የሼር መረጃ ጠቋሚዎች ላይ ውጤታማ እንደሆነ ተረጋግጧል?",
+    "answer": [
+      [
+        "MASA Li et al. (2024e) ሰፊ በሆነ ክልል ላይ ውጤታማ እንደሆነ ተረጋግጧል ምክንያቱም ውጤቶቹ ከቻይና እና ከአሜሪካ የተውጣጡ ሶስት ዋና ዋና መረጃ ጠቋሚዎችን (CSI300, DJIA, S&P500) ያጠቃልላሉ። የTrendTrader ውጤቶች በሁለት መረጃ ጠቋሚዎች (DJIA, SSE-50) ላይ ተወስነዋል።"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_002",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "ከቀረቡት የጥናት ስራዎች መካከል በቻይና የአክሲዮን ገበያ መረጃ ጠቋሚዎች (CSI300 ወይም SSE-50) ላይ የላቀ አፈጻጸም እንዳሳዩ በግልፅ የጠቀሱት ስንት ናቸው?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_003",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "የ \"Spatial-temporal RL framework\" ዘዴን የሚጠቀም ማዕቀፍ ቁልፍ ፈጠራ ምንድን ነው?",
+    "answer": [
+      [
+        "Multimodal fusion of price and sentiment"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_004",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "የትኛው የምርምር ወረቀት ከገበያ መመዘኛው በላይ በ60 በመቶ ከፍ ያለ ከፍተኛ አዎንታዊ አፈጻጸም ያሳየውን ውጤት ዘግቧል?",
+    "answer": [
+      [
+        "LLM-Alpha Kou et al. (2024)"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "D7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_005",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "የቁልፍ ፈጠራዎቻቸው መነሻ በማድረግ የዋጋ ንቅናቄን ከመተንበይ ይልቅ በፖርትፎሊዮ መስፋፋት ወይም የንብረት ምርጫ ላይ የሚያተኩሩ ስራዎችን ዘርዝር።",
+    "answer": [
+      [
+        "EarnMore Zhang et al. (2024d)",
+        "Network-EDM Hui and Wang (2024)",
+        "Market-Graph Yamagata and Ono (2024)"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_006",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "ከዋና ፈጠራቸው ውስጥ ስሜት ወይም የኔትወርክ ቲዎሪን የመሳሰሉ የዋጋ ያልሆኑ መረጃዎችን በግልፅ የሚያካትቱት የጥናት ስራዎች ምን ያህሉ ናቸው?",
+    "answer": [
+      [
+        "28.57%"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_007",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "የ 'EarnMore' ማዕቀፍ የትርፍ ጭማሪ በ15 በመቶ ነጥቦች (ከ +40% ወደ +25% ቀንሶ ቢሆን) አዲሱ ዋና ውጤቱ ምን ይሆን፣ እና ትርፉ በከፍተኛ ሁኔታ ዝቅተኛ በሆነበት ጊዜ 'ሊወዳደር የሚችል የঝুঁኪ ደረጃ' የሚለውን የይገባኛል ጥያቄ እንዴት ሊጎዳው ይችላል?",
+    "answer": [
+      [
+        "አዲሱ ዋና ውጤት 'ትርፍ፦ +25%፣ ሊወዳደር የሚችል የঝুঁኪ ደረጃዎች' ይሆናል። የ 25% ዝቅተኛ ትርፍ በተመሳሳይ የঝুঁኪ ደረጃ ላይ መቆየት ስልቱን ያነሰ ማራኪ ያደርገዋል። የঝুঁኪ-ማስተካከያ ገቢ ዝቅተኛ ይሆናል፣ ይህም የঝুঁኪ ደረጃን ከቀነሰው ገቢ አንጻር 'ሊወዳደር የሚችል' ወይም ተቀባይነት ያለው እንዳይሆን ሊያደርገው ይችላል።"
+      ]
+    ],
+    "evidence_cells": [
+      "D3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_008",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "ሠንጠረዡን መሰረት በማድረግ፣ የብዙ ወኪል ሥርዓቶችን መጠቀም እና ሪፖርት የተደረጉት የመጀመሪያ ውጤቶች ተፈጥሮ መካከል ያለው ግንኙነት ምን ይመስላል?",
+    "answer": [
+      [
+        "የብዙ ወኪል ሥርዓቶችን መጠቀም እና የላቀ፣ ሊለካ የሚችል ገቢ ማግኘት መካከል አዎንታዊ ግንኙነት እንዳለ ይታያል። ይህንን አካሄድ የተጠቀሙት ሁለቱ ስራዎች፣ MASA እና LLM-Alpha፣ በቅደም ተከተል 'የላቀ የዋጋ-ማስተካከያ ገቢ' እና '+53.17%' የተወሰነ ከፍተኛ ገቢ ሪፖርት ያደርጋሉ። ይህ የሚያሳየው የብዙ ወኪል ማዕቀፎች ጠንካራ፣ ሊለካ የሚችል የገንዘብ ብልጫ ለማፍራት ውጤታማ መሆናቸውን ነው።"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_009",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "ለገበያ ገበታ-ተኮር የቡድን አሰራር አቀራረብ ለፈጠራ ላበረከቱት ስራ ዋና ውጤት ምንድነው?",
+    "answer": [
+      [
+        "Higher Sharpe ratios on S&P500"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_010",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "በ 'ቁልፍ ፈጠራ' ወይም 'ዘዴያዊ' ከሚሉት ውስጥ ምርምሩ እንዴት እንደተካሄደ የሚያሳይ የበለጠ ዝርዝር፣ ቴክኒካል ማብራሪያ የሚሰጠው የትኛው ዓምድ ነው?",
+    "answer": [
+      [
+        "በ 'ዘዴያዊ' (Methodological) ዓምድ ውስጥ የበለጠ ዝርዝር፣ ቴክኒካል ማብራሪያዎች ይሰጣሉ። ለምሳሌ፣ 'ቁልፍ ፈጠራ' (Key Innovation) 'ድግግሞሽ ডোমেইন ትንተና' (Frequency domain analysis) (FreQuant) ወይም 'LLM-የተመሰረተ አልፋ ፋክተር ማዕድን' (LLM-based alpha factor mining) (LLM-Alpha) ያሉ ሰፊ ጽንሰ-ሀሳቦችን ቢገልጽም፣ 'ዘዴያዊ' (Methodological) ዓምድ በቅደም ተከተል 'በDFT አማካይነት የብዙ-ግራኑላር የንብረት ውክልና' (Multi-granular asset representation through DFT) እና 'ተለዋዋጭ ክብደት-መግቢያ ያለው ባለብዙ-ఏጀንት ሲስተም' (Multi-agent system with dynamic weight-gating) ያሉ ትክክለኛ ቴክኒኮችን ይገልጻል።"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_011",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "በ MASA Li et al. (2024e) ውስጥ ያለው ዋና ፈጠራ ምንድነው?",
+    "answer": [
+      [
+        "ልዩ የሆኑ የঝুঁকি እና የትርፍ ወኪሎችን ያካተተ ባለብዙ ወኪል ማዕቀፍ።"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Content Reasoning"
+  }
+]

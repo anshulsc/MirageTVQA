@@ -1,0 +1,190 @@
+[
+  {
+    "question_id": "arxiv_4d9e33301e_001",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "Qual empresa teve uma margem de lucro (Receita Líquida / Receita Total) maior no período mais recente?",
+    "answer": [
+      [
+        "Coca-Cola Co"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_002",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "Qual foi a receita total combinada em milhares para a PepsiCo e a Coca-Cola no período mais recente registrado?",
+    "answer": [
+      [
+        "34294000"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_003",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "Qual empresa alcançou o maior aumento absoluto no Lucro Bruto (Receita Total - Custo da Receita) do período anterior para o período mais recente?",
+    "answer": [
+      [
+        "PepsiCo, Inc."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_004",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "open_ended_reasoning",
+    "question": "Analise a tendência do lucro líquido da Coca-Cola entre os dois períodos registados e contraste-a com a tendência da sua receita total.",
+    "answer": [
+      [
+        "O lucro líquido da Coca-Cola diminuiu de 3.107.000 para 2.547.000 (em milhares), enquanto sua receita total aumentou de 10.980.000 para 11.972.000 (em milhares). Esta divergência indica que, embora as vendas tenham crescido, a lucratividade diminuiu, sugerindo que os aumentos nos custos ou despesas superaram o crescimento da receita."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_005",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "Qual empresa experimentou um crescimento nas despesas operacionais superior a 1.000.000 mil, enquanto suas despesas com juros cresceram em 1.000 mil ou menos?",
+    "answer": [
+      [
+        "PepsiCo, Inc."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "G1",
+      "E2",
+      "G2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_006",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "Para o período mais recente, que percentagem da receita total da PepsiCo foi consumida pela soma do seu Custo de Receita e Despesa Operacional?",
+    "answer": [
+      [
+        "83.61%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_007",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "Se o Custo das Receitas da Coca-Cola no período mais recente tivesse sido 10% menor, qual teria sido o seu novo Lucro Líquido (em milhares), assumindo que nenhum outro valor se alterasse?",
+    "answer": [
+      [
+        "3038200"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_008",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "open_ended_reasoning",
+    "question": "Com base nos dados de ambas as empresas, qual é a relação aparente entre a mudança na Receita Total e a mudança na Despesa Operacional entre os dois períodos?",
+    "answer": [
+      [
+        "Parece haver uma correlação positiva. Tanto para a PepsiCo quanto para a Coca-Cola, um aumento na Receita Total do período anterior para o recente é acompanhado por um aumento na Despesa Operacional. Isso sugere que, à medida que a receita cresce, também crescem os gastos necessários para apoiar esse crescimento, como custos de marketing e administrativos."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C2",
+      "E2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_009",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "Para a Coca-Cola Co, qual categoria de despesa é uma exceção em que a direção de sua tendência (aumento/diminuição) é oposta às tendências tanto do Custo da Receita quanto da Despesa Operacional?",
+    "answer": [
+      [
+        "Depreciation and Amortization"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_010",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "open_ended_reasoning",
+    "question": "As métricas financeiras são apresentadas como uma lista de dois elementos (por exemplo, [valor1, valor2]). Dado o contexto de relatórios trimestrais, qual é o significado mais provável dessa estrutura?",
+    "answer": [
+      [
+        "Essa estrutura provavelmente representa uma comparação ano a ano para o trimestre. O primeiro valor tipicamente corresponde ao resultado financeiro do mesmo trimestre do ano anterior, enquanto o segundo valor representa o resultado do trimestre atual. Esse formato é padrão para avaliar tendências de desempenho e crescimento ao longo do tempo."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_011",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "open_ended_reasoning",
+    "question": "Qual é o lucro líquido trimestral (em milhares) da PepsiCo, Inc.?",
+    "answer": [
+      [
+        "A PepsiCo obteve um lucro líquido entre US$ 1,9 bilhão e US$ 2,7 bilhões neste trimestre."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

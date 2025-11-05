@@ -1,0 +1,305 @@
+[
+  {
+    "question_id": "arxiv_247c1897a1_001",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Quais modelos alcançaram o melhor desempenho (ou seja, o menor) na métrica MSE30, excluindo aqueles com dados ausentes para essa métrica?",
+    "answer": [
+      [
+        "HTML"
+      ],
+      [
+        "ECC Analyzer"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F8",
+      "F9",
+      "A6",
+      "A9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_002",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Qual é o valor médio de MSE7 para todos os modelos cujos nomes começam com a letra 'M'?",
+    "answer": [
+      [
+        "0.4275"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "A5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_003",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifique o modelo que é um claro desvio em termos de desempenho e explique por que ele se destaca dos demais.",
+    "answer": [
+      [
+        "O modelo 'GPT-4-Turbo' é um desvio significativo. Seus valores de Erro Quadrático Médio (MSE) em todos os horizontes de predição (de 2.198 a 11.824) são dramaticamente mais altos do que os de todos os outros modelos, que geralmente estão abaixo de 2.0 e frequentemente abaixo de 1.0. Isso indica uma precisão de predição substancialmente menor, tornando seu desempenho uma anomalia neste conjunto de dados."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "A6",
+      "B6",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "A8",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "A9",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_004",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Qual é o valor MSE geral (MSE_over) para o modelo que tem a segunda menor pontuação MSE3?",
+    "answer": [
+      [
+        "/"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_005",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Liste todos os modelos que têm um valor MSE15 inferior a 0.3 E um valor MSE30 inferior a 0.2.",
+    "answer": [
+      [
+        "HTML"
+      ],
+      [
+        "ECC Analyzer"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "E2",
+      "F2",
+      "E3",
+      "F3",
+      "E4",
+      "F4",
+      "E5",
+      "F5",
+      "A6",
+      "E6",
+      "F6",
+      "E7",
+      "F7",
+      "E8",
+      "F8",
+      "A9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_006",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "Descreva a tendência no erro de previsão para o modelo 'HTML' à medida que o horizonte de previsão se estende de 3 a 30 dias.",
+    "answer": [
+      [
+        "Para o modelo 'HTML', o erro de previsão, medido pelo Erro Quadrático Médio (MSE), diminui consistentemente à medida que o horizonte de previsão se torna mais longo. O MSE cai de 0,845 em 3 dias, para 0,349 em 7 dias, 0,251 em 15 dias e, finalmente, para 0,158 em 30 dias. Isso indica que as previsões do modelo se tornam mais precisas para previsões de longo prazo."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_007",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Qual a porcentagem do erro MSE3 total, somado em todos os modelos, que é contribuída pelo modelo 'GPT-4-Turbo'? Arredonde para duas casas decimais.",
+    "answer": [
+      [
+        "23.22%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_008",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "Se o valor de MSE15 do modelo 'Classical Method' fosse melhorado (diminuído) em 10%, qual seria sua nova classificação para essa métrica em comparação com os outros modelos?",
+    "answer": [
+      [
+        "Se o valor de MSE15 do modelo 'Classical Method' de 0.330 fosse diminuído em 10%, o novo valor seria 0.297. A classificação original para MSE15 é: AMA-LSTM (0.230), ECC Analyzer (0.237), HTML (0.251), MRDM (0.300), MT-LSTM-ATT (0.304), HAN (Glove) (0.308), LSTM (0.320), Classical Method (0.330), GPT-4-Turbo (7.959). O novo valor de 0.297 o colocaria entre HTML e MRDM, movendo sua classificação de 8ª para 4ª melhor."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_009",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "Excluindo o valor atípico 'GPT-4-Turbo', existe uma relação discernível entre o desempenho de um modelo na métrica geral de MSE (MSE_over) e seu desempenho na previsão de 7 dias (MSE7)?",
+    "answer": [
+      [
+        "Sim, parece haver uma correlação positiva. Geralmente, modelos com um MSE geral mais baixo (melhor) também têm um MSE7 mais baixo. Por exemplo, 'ECC Analyzer' e 'HTML' têm as duas pontuações MSE gerais mais baixas (0,314 e 0,401) e também duas das pontuações MSE7 mais baixas (0,306 e 0,349). Inversamente, modelos como 'MT-LSTM-ATT' e 'LSTM' têm as pontuações MSE gerais mais altas (0,739 e 0,746) entre este grupo e também têm pontuações MSE7 relativamente altas (0,435 e 0,459). Isso sugere que o poder preditivo geral de um modelo é consistente entre essas duas métricas específicas."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B4",
+      "D4",
+      "B5",
+      "D5",
+      "B6",
+      "D6",
+      "B7",
+      "D7",
+      "B9",
+      "D9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_010",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Qual modelo na tabela possui a maioria dos dados incompletos, indicados por entradas '/'?",
+    "answer": [
+      [
+        "AMA-LSTM"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "F7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_011",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Qual modelo tem o menor MSE geral entre todos os modelos?",
+    "answer": [
+      [
+        "ECC Analyzer."
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

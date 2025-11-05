@@ -1,0 +1,233 @@
+[
+  {
+    "question_id": "arxiv_2448925329_001",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Który zbiór danych wykazuje najlepsze dopasowanie modelu, zgodnie ze wskaźnikiem R-kwadrat?",
+    "answer": [
+      [
+        "BTC/USD ΔM vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_002",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Jaka jest średnia wartość Kurtosis dla wszystkich zbiorów danych związanych z BTC/USD?",
+    "answer": [
+      [
+        "7.7025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_2448925329_003",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Dla modelu z najniższą dodatnią wartością R-kwadrat, jaka jest odpowiadająca jej statystyka Durbina-Watsona?",
+    "answer": [
+      [
+        "0.337"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "I2",
+      "B1",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_004",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Jak zmienia się moc objaśniająca modelu, mierzona wskaźnikiem R-kwadrat, dla zbioru danych LUNA/USD, gdy interwał czasowy jest zwiększany z 1s do 10s?",
+    "answer": [
+      [
+        "Moc objaśniająca modelu LUNA/USD, wskazana przez wartość R-kwadrat, znacznie wzrasta z 0,036 dla interwału 1-sekundowego do 0,274 dla interwału 10-sekundowego. Stanowi to ponad siedmiokrotny wzrost, sugerując, że model jest znacznie skuteczniejszy w wyjaśnianiu zmian cen w dłuższym okresie czasowym."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_005",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Wymień wszystkie zbiory danych, w których reszty modelu mają ujemne skośność (Skew < 0), a statystyka Durbina-Watsona jest większa niż 2, co sugeruje negatywną autokorelację.",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 1s",
+        "BTC/USD ΔM vs ΔP 1s"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "I1",
+      "A3",
+      "G3",
+      "I3",
+      "G2",
+      "I2",
+      "G4",
+      "I4",
+      "G5",
+      "I5",
+      "G6",
+      "I6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_006",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Jaki odsetek całkowitej sumy wszystkich statystyk F przypada na modele z interwałem 10s?",
+    "answer": [
+      [
+        "93.68%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A6",
+      "C6",
+      "C1",
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_2448925329_007",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Gdyby kurtoza dla modelu 'BTC/USD OFI vs ΔP 10s' została dostosowana do średniej kurtozy wszystkich innych modeli, jaka byłaby jej nowa wartość?",
+    "answer": [
+      [
+        "5.700"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_008",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Czy istnieje spójny związek między statystyką F modelu a jego statystyką Jarque-Bera (JB)? Przeanalizuj ten wzorzec.",
+    "answer": [
+      [
+        "Nie ma spójnego, jednoznacznego związku między statystyką F a statystyką Jarque-Bera (JB). Na przykład model z najwyższą statystyką F (15890,0) ma statystykę JB wynoszącą 6560,394, podczas gdy model z drugą najniższą statystyką F (137,0) ma znacznie mniejszą wartość JB wynoszącą 816,435. Jednak model z najniższą statystyką F (70,87) ma najwyższą statystykę JB (10204,282). Wskazuje to, że ogólne znaczenie modelu (statystyka F) i normalność jego reszt (statystyka JB) nie są bezpośrednio skorelowane w tym zbiorze danych."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "J1",
+      "C2",
+      "J2",
+      "C3",
+      "J3",
+      "C4",
+      "J4",
+      "C5",
+      "J5",
+      "C6",
+      "J6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_2448925329_009",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Która kolumna, wykluczając identyfikator 'Dataset', zawiera największy zakres wartości pod względem rzędu wielkości (od najmniejszej do największej)?",
+    "answer": [
+      [
+        "Kolumna 'Prob(JB)' wykazuje największy zakres wartości pod względem rzędu wielkości. Zawiera wartości tak małe jak 0,0 (skutecznie nieskończenie małe) i wartości tak duże jak 4,26e-263, 1,93e-57, 5,17e-178 i 9,05e-92, obejmując wiele setek rzędów wielkości, znacznie więcej niż jakakolwiek inna kolumna numeryczna."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B6",
+      "C1",
+      "C6",
+      "D1",
+      "D6",
+      "E1",
+      "E6",
+      "F1",
+      "F6",
+      "G1",
+      "G6",
+      "H1",
+      "H6",
+      "I1",
+      "I6",
+      "J1",
+      "J6",
+      "K1",
+      "K6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_011",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Porównując zbiory danych BTC/USD ΔM vs ΔP 1s oraz LUNA/USD ΔM vs ΔP 1s, który z nich wykazuje większą moc predykcyjną na podstawie R² i statystyki F?",
+    "answer": [
+      [
+        "BTC/USD ΔM vs ΔP 1s wykazał najwyższą moc predykcyjną na podstawie R² i statystyki F, ze wskaźnikiem R² = 0,168 i statystyką F = 723,6."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

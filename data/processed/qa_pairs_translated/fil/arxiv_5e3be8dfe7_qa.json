@@ -1,0 +1,208 @@
+[
+  {
+    "question_id": "arxiv_5e3be8dfe7_001",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Aling modelo ang may pinakamaraming natatanging paliwanag ng parameter na nakalista sa talahanayan?",
+    "answer": [
+      [
+        "Neural Networks"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_002",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Ilan ang kabuuang bilang ng mga natatanging parameter na ipinapaliwanag para sa lahat ng modelo na gumagamit ng summation component (Σ) sa kanilang pangunahing formula?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_003",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Ilista ang mga modelong ang pangunahing pormula ay hindi nagsasangkot ng exponentiation (hal., e^x).",
+    "answer": [
+      [
+        "Neural Networks"
+      ],
+      [
+        "Support Vector Machine"
+      ],
+      [
+        "Decision Tree"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_004",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Anong porsyento ng mga modelong nakalista ang gumagamit ng parameter na kumakatawan sa mga indibidwal na sample o data point (hal., 'sample i') sa kanilang pormulasyon?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "C8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_005",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Kung ang bilang ng mga kategorya ng sample na 'm' sa isang Decision Tree model ay 1, ano ang magiging nakalkulang halaga ng information entropy na 'Ent(D)' ayon sa formula?",
+    "answer": [
+      [
+        "0"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_006",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Aling modelo ang may pormulang kakaiba sa iba dahil ito ay ipinapakita bilang isang optimization problem (minimization) sa halip na direktang pagkalkula ng isang output value?",
+    "answer": [
+      [
+        "Support Vector Machine"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B7",
+      "B9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_007",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "Batay sa mga formula at parameter, ano ang pagkakaiba sa tungkulin ng parameter na 'β' sa Logistic Regression kumpara sa parameter na 'w' sa Support Vector Machine?",
+    "answer": [
+      [
+        "Sa Logistic Regression, ang 'β' ay isang row vector ng mga regression coefficient na, kasama ang intercept, ay tumutukoy sa posibilidad ng isang kinalabasan sa pamamagitan ng logistic function. Sa Support Vector Machine, ang 'w' ay isang parameter vector na tumutukoy sa oryentasyon ng separating hyperplane. Ang layunin sa SVM ay hanapin ang 'w' na nagpapalaki sa margin sa pagitan ng mga klase sa pamamagitan ng pagpapaliit ng L2 norm nito, samantalang sa Logistic Regression, ang 'β' ay karaniwang hinahanap sa pamamagitan ng pagpapalaki ng likelihood ng mga naobserbahang data."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C3",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_008",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "Paano ipinapakita ng mga konsepto ng 'layers' sa Neural Networks at 'entropy' sa Decision Trees ang kanilang magkakaibang pamamaraan sa pag-aaral mula sa datos?",
+    "answer": [
+      [
+        "Ang konsepto ng 'layers' (l at l-1) sa Neural Networks ay nagpapakita ng isang hierarchical na pamamaraan sa pag-aaral ng feature. Natututo ang modelo ng pataas na mas kumplikadong representasyon ng datos sa pamamagitan ng pagpasa ng mga activation sa mga sunud-sunod na layer, pag-aayos ng mga 'weight' (w) at 'bias' (b) upang lumikha ng isang kumplikadong function approximator. Sa kabilang banda, ang konsepto ng 'entropy' (Ent(D)) sa Decision Trees ay nagpapakita ng isang 'greedy', rule-based na pamamaraan. Paulit-ulit na hinahati ng modelo ang datos sa mas purong mga subset sa pamamagitan ng pagpili ng mga feature na nagreresulta sa pinakamalaking pagbaba sa entropy (information gain), na lumilikha ng isang malinaw na hanay ng mga if-then rule."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_009",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Ano ang kabuuang bilang ng mga natatanging modelo na inilarawan sa talahanayan?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_010",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Aling column ang pangunahing layunin ay upang tukuyin ang mga variable na ginamit sa katabing column?",
+    "answer": [
+      [
+        "Parameter and Explanation"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

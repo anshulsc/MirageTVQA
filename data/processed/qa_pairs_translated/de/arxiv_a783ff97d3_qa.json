@@ -1,0 +1,269 @@
+[
+  {
+    "question_id": "arxiv_a783ff97d3_001",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Welche Feature-Selektionsmethode erzielte den niedrigsten Fehlerwert für die Prognoseeinstellung 'BC2_64'?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_002",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Was ist die durchschnittliche Anzahl von exogenen Variablen, die von der Methode 'LASSO-Regressions-Merkmalsauswahl' für alle Prognoseeinstellungen verwendet werden?",
+    "answer": [
+      [
+        "6.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_003",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Für die Prognose-Einstellung 'BC3_28', welcher Fehlerwert gehört zu der Methode, die die höchste Anzahl von exogenen Variablen verwendet?",
+    "answer": [
+      [
+        "18.23"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "G2",
+      "G3",
+      "A4",
+      "G4",
+      "G5",
+      "A6",
+      "G6",
+      "G7",
+      "A8",
+      "G8",
+      "G9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_004",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Verbessert die Erhöhung der Anzahl exogener Variablen die Leistung (d. h. senkt den Fehlerwert) für die Einstellung 'BC1_64' durchweg? Geben Sie eine kurze Analyse.",
+    "answer": [
+      [
+        "Nein, es gibt keinen durchgängigen Zusammenhang. Für die Einstellung 'BC1_64' verwendet 'Correlation-Based Selection' 3 Variablen bei einem Fehler von 14,11, 'LASSO regression' verwendet ebenfalls 3 Variablen, hat aber einen höheren Fehler von 14,55. 'Forward Feature Selection NP' verwendet eine deutlich höhere Anzahl von Variablen (28) und erzielt einen signifikant besseren (niedrigeren) Fehler von 9,16. Dies deutet darauf hin, dass eine höhere Anzahl von Variablen zwar besser sein kann, die spezifische Auswahlmethode jedoch entscheidend ist und das bloße Hinzufügen von Variablen keine Garantie für eine Verbesserung ist."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "B3",
+      "A4",
+      "B4",
+      "B5",
+      "A6",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_005",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Listen Sie alle Feature-Selektionsmethoden auf, die für die Einstellung 'BC3_64' einen Fehlerwert größer als 15 ergaben.",
+    "answer": [
+      [
+        "Without exogenous variables"
+      ],
+      [
+        "Correlation-Based Selection"
+      ],
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Manual feature selection"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A4",
+      "F4",
+      "A6",
+      "F6",
+      "A8",
+      "F8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_006",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Welcher Prozentsatz der Gesamtzahl der von 'Forward Feature Selection NP' in allen Einstellungen verwendeten exogenen Variablen wurde der Einstellung 'BC1_64' zugewiesen?",
+    "answer": [
+      [
+        "28.57"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_007",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Wenn ein Datenverarbeitungsfehler dazu geführt hätte, dass alle Fehlermetriken für die Einstellung 'BC2_28' 2,5 Punkte niedriger als aufgezeichnet wären, wie hoch wäre der neue Fehler für 'Manuelle Merkmalsauswahl'?",
+    "answer": [
+      [
+        "13.57"
+      ]
+    ],
+    "evidence_cells": [
+      "E8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_008",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Unter den Methoden zur Merkmalsauswahl, bei denen die Anzahl der Variablen explizit aufgeführt ist, welche weist die größte Instabilität auf, gemessen an der Spannweite (Maximum minus Minimum) der über die verschiedenen Prognoseeinstellungen ausgewählten Variablen?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "A6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "A8",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9",
+      "G9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_009",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Für die Methode 'LASSO regression feature selection' ist der Fehlerwert für 'BC3_28' ein Ausreißer. Wie verhält sich die entsprechende Anzahl von exogenen Variablen im Vergleich zu den anderen Einstellungen für dieselbe Methode?",
+    "answer": [
+      [
+        "Die Einstellung 'BC3_28' mit dem Ausreißer-hohen Fehler von 28,79 für LASSO verwendet auch die höchste Anzahl an exogenen Variablen (16) für diese Methode. Dies ist signifikant mehr als die anderen Einstellungen, die von 0 bis 10 Variablen reichen. Dies deutet auf ein potenzielles Problem hin, bei dem die LASSO-Methode eine große, aber schlecht funktionierende Auswahl von Merkmalen für diesen spezifischen Prognosekontext ausgewählt hat."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5",
+      "E4",
+      "E5",
+      "F4",
+      "F5",
+      "G4",
+      "G5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_010",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Analysieren Sie die Leistung der Baseline 'Ohne exogene Variablen' und beschreiben Sie den Trend der Fehlermetrik, wenn Sie sequenziell von den 'BC1'-Einstellungen zu 'BC2' und dann zu 'BC3' wechseln.",
+    "answer": [
+      [
+        "Die Leistung der Baseline 'Ohne exogene Variablen' zeigt ein klares Muster über die Einstellungen hinweg. Sie beginnt mit moderaten Fehlern für die BC1-Einstellungen (11.14, 13.65). Die Leistung verbessert sich dramatisch für die BC2-Einstellungen, die die niedrigsten Fehler aufweisen (3.75, 9.08). Schließlich steigen die Fehler für die BC3-Einstellungen wieder an (17.53, 9.06), wobei BC3_64 den insgesamt höchsten Fehler für diese Methode aufweist. Dies deutet darauf hin, dass das Basismodell am besten für die Bedingungen von BC2 geeignet ist."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_011",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Zwischen 'LASSO regression feature selection' und 'Forward Feature Selection NP', welche Prognose-Einstellung erreichte einen niedrigeren Wert in der BC2_64-Konfiguration?",
+    "answer": [
+      [
+        "'Forward Feature Selection NP' erreichte einen niedrigeren Wert (2,9) im Vergleich zu 'LASSO regression feature selection' (5,73) in der BC2_64-Konfiguration."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "D5",
+      "D7"
+    ],
+    "reasoning_category": "Comaparative Reasoning"
+  }
+]

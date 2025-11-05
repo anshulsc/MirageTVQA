@@ -1,0 +1,271 @@
+[
+  {
+    "question_id": "arxiv_e26e28c450_001",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Vilken icke-multi-task-modell uppnår lägst totalt medelkvadratfel (MSE_över)?",
+    "answer": [
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "H1",
+      "A2",
+      "B2",
+      "H2",
+      "A3",
+      "B3",
+      "H3",
+      "A4",
+      "B4",
+      "H4",
+      "A5",
+      "B5",
+      "H5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_002",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Beräkna genomsnittligt MSE vid 7-dagars horisont (MSE7) för alla modeller som är markerade som 'Multi-Task'.",
+    "answer": [
+      [
+        "0.820"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "H6",
+      "D7",
+      "H7",
+      "D8",
+      "H8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_003",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "För modellen med det näst högsta (näst sämsta) MSE3-värdet, vad är dess motsvarande MSE30-värde?",
+    "answer": [
+      [
+        "0.233"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "F3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_004",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Analysera trenden för Mean Squared Error (MSE) för HTML-modellen när prediktionshorisonten utökas från 3 till 30 dagar. Förbättras eller försämras dess prediktiva noggrannhet över tid?",
+    "answer": [
+      [
+        "HTML-modellens prediktiva noggrannhet förbättras när prediktionshorisonten utökas. Dess MSE-värden minskar konsekvent från MSE3 (0.845) till MSE7 (0.349), MSE15 (0.251) och slutligen MSE30 (0.158), vilket indikerar lägre fel och därmed bättre prestanda på långsiktiga prediktioner."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_005",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Identifiera alla modeller som inte är betecknade som 'Multi-Task' och som också har ett MSE15-värde lägre än 0,31.",
+    "answer": [
+      [
+        "MT-LSTM-ATT"
+      ],
+      [
+        "HAN"
+      ],
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "H1",
+      "A2",
+      "E2",
+      "H2",
+      "A3",
+      "E3",
+      "H3",
+      "A4",
+      "E4",
+      "H4",
+      "A5",
+      "E5",
+      "H5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_006",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifiera modellen som är en tydlig prestandaavvikelse över alla MSE-metriker och förklara varför.",
+    "answer": [
+      [
+        "GPT-3.5-Turbo-modellen är en tydlig prestandaavvikelse. Dess MSE-värden över alla tidshorisonter (MSE_over: 2.198, MSE3: 2.152, MSE7: 1.793, MSE15: 2.514, MSE30: 2.332) är avsevärt högre än alla andra modeller, varav de flesta har MSE-värden under 1.0. Detta indikerar betydligt sämre prediktiv prestanda jämfört med de andra listade modellerna."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_007",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Vilken procentandel av den totala summerade MSE3 över alla modeller kan tillskrivas GPT-3.5-Turbo-modellen? Ange svaret som en procentandel avrundad till en decimal.",
+    "answer": [
+      [
+        "19.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_008",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Om MSE_över för RiskLabs-modellen skulle förbättras med 25 % (dvs. minska med 25 %), vad skulle dess nya värde vara, och hur skulle det rankas jämfört med HTML-modellens MSE_över?",
+    "answer": [
+      [
+        "Det nya MSE_över för RiskLabs skulle vara 0.243. Detta värde är lägre, och därmed bättre, än HTML-modellens MSE_över på 0.401."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_009",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Baserat på tabellen, vad är sambandet mellan att en modell kategoriseras som 'Multi-Task' och tillgängligheten av en 'VaR'-poäng?",
+    "answer": [
+      [
+        "Det finns en stark korrelation. Endast modeller som betecknas som 'Multi-Task' (GPT-3.5-Turbo och RiskLabs) har en rapporterad numerisk 'VaR'-poäng. Dock har inte alla 'Multi-Task'-modeller en VaR-poäng (t.ex. HTML), och inga icke-'Multi-Task'-modeller har en, vilket tyder på att förmågan att beräkna VaR är en egenskap som huvudsakligen är associerad med 'Multi-Task'-modellerna i denna datamängd."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "H1",
+      "G2",
+      "H2",
+      "G3",
+      "H3",
+      "G4",
+      "H4",
+      "G5",
+      "H5",
+      "G6",
+      "H6",
+      "G7",
+      "H7",
+      "G8",
+      "H8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_010",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Vilken kolumn med prestationsmått innehåller icke-numerisk platshållardata, och för vilka specifika modeller saknas denna data?",
+    "answer": [
+      [
+        "Kolumnen 'VaR' innehåller icke-numerisk data ('/'). Denna data saknas för följande modeller: Classical Method, LSTM, MT-LSTM-ATT, HAN, MRDM och HTML."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_011",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Vilken modell visar den bästa övergripande balansen mellan prediktionsnoggrannhet över olika tidshorisonter (MSE3–MSE30) och riskbedömning (VaR)?",
+    "answer": [
+      [
+        "RiskLabs-modellen uppnår den bästa övergripande balansen, med de lägsta MSE-värdena över alla tidshorisonter och det lägsta VaR (0.049), vilket indikerar både stark prediktiv noggrannhet och pålitlig riskbedömning."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "G8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

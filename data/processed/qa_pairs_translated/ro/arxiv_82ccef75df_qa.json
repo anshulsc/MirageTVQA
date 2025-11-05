@@ -1,0 +1,260 @@
+[
+  {
+    "question_id": "arxiv_82ccef75df_001",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Câte dintre metodele listate folosesc un LLM din familia 'Llama' (de exemplu, Llama2, LLaMA-2, FinLlama, etc.)?",
+    "answer": [
+      [
+        "7"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B5",
+      "B7",
+      "B8",
+      "B9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_002",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Ce aplicație este susținută de cel mai divers set de surse de date listate?",
+    "answer": [
+      [
+        "Financial sentiment analysis and return prediction"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_003",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Care este sursa de date pentru metoda care utilizează modelul 'StockGPT'?",
+    "answer": [
+      [
+        "AlphaFin"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_004",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Enumerați intrările 'Metodă/Lucrare' care utilizează un model cu 'GPT' în nume ȘI sunt aplicate la predicția mișcărilor bursiere.",
+    "answer": [
+      [
+        "[25]"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "D5",
+      "B1",
+      "D1"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_005",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Ce procent din metodele listate au o aplicație care implică explicit „predicție”, „prezicere” sau „tendințe”?",
+    "answer": [
+      [
+        "55.56%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_006",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Care metodă utilizează o sursă de date care este o platformă denumită unic ('AlphaFin') în loc de o descriere generală a tipurilor de date?",
+    "answer": [
+      [
+        "Stock-Chain framework [27]"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_007",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "open_ended_reasoning",
+    "question": "Dacă creatorii 'FinLlama [35]' ar fi încorporat 'S&P 500' și 'indici de piață' în datele lor, cu ce aplicație existentă din tabel ar deveni cel mai aliniat proiectul lor și de ce?",
+    "answer": [
+      [
+        "Proiectul ar deveni cel mai aliniat cu 'Predicția mișcărilor bursiere'. Acest lucru se datorează faptului că metoda '[25]' utilizează o combinație de date foarte similară ('S&P 500', 'rapoarte financiare', 'indici de piață') pentru acea aplicație specifică, iar FinLlama utilizează deja 'rapoarte de câștiguri'."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_008",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "open_ended_reasoning",
+    "question": "Pe baza tabelului, există o relație observabilă între numărul de modele LLM utilizate și numărul de surse de date pentru o anumită metodă?",
+    "answer": [
+      [
+        "Da, pare să existe o corelație. Metodele care listează mai multe modele LLM (Multimodal Gen-AI [9], Fine-tuning LLMs [8], [25]) tind, de asemenea, să folosească multiple surse de date diverse (4, 1 și respectiv 4). Invers, metodele care specifică un singur LLM folosesc adesea, deși nu întotdeauna, mai puține surse de date sau surse de date mai focusate (de exemplu, Stock-Chain framework [27] sau SAPPO [37]). Acest lucru sugerează că abordările mai complexe, multi-model pot fi concepute pentru a sintetiza informații dintr-o gamă mai largă de intrări de date."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_009",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Ce coloană, 'LLM Model' sau 'Data', conține mai multe intrări care listează mai multe elemente distincte (separate prin virgulă sau 'and')?",
+    "answer": [
+      [
+        "Data"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B5",
+      "C1",
+      "C3",
+      "C5",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_010",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Identificați toate aplicațiile care sunt alimentate de un model din familia Llama și antrenate pe o formă de date de 'știri'.",
+    "answer": [
+      [
+        "AI-assisted investment analysis"
+      ],
+      [
+        "Stock return prediction"
+      ],
+      [
+        "Financial sentiment analysis and return prediction"
+      ],
+      [
+        "Trading strategies"
+      ],
+      [
+        "Portfolio optimization"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "C3",
+      "D3",
+      "B7",
+      "C7",
+      "D7",
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_011",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "open_ended_reasoning",
+    "question": "Ce modele LLM au fost aplicate pentru predicția prețului acțiunilor și ce seturi de date au fost utilizate?",
+    "answer": [
+      [
+        "Pentru predicția prețului acțiunilor, au fost utilizate modelele Distilled RoBERT și LLaMA3-8B. Seturile de date utilizate au fost date din știri financiare, S&P- Bigdata23, Bigdata22, ACL18 și CIKM1."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B8",
+      "D4",
+      "D8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

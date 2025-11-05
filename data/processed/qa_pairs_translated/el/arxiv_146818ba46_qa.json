@@ -1,0 +1,235 @@
+[
+  {
+    "question_id": "arxiv_146818ba46_001",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "Ποια μοντέλα προσφέρουν υπογραμμική επεκτασιμότητα και ποια είναι η κύρια διαφορά στις υποστηριζόμενες λειτουργίες τους ('Προ-εκπαίδευση', 'Πολλαπλές εργασίες');",
+    "answer": [
+      [
+        "Τα TimeMixer και PatchTST προσφέρουν υπογραμμική επεκτασιμότητα. Η κύρια διαφορά είναι ότι το TimeMixer υποστηρίζει μάθηση πολλαπλών εργασιών, ενώ το PatchTST όχι· κανένα από τα δύο μοντέλα δεν χρησιμοποιεί προ-εκπαίδευση."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "E3",
+      "A5",
+      "B5",
+      "C5",
+      "E5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_002",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Ποιος είναι ο συνολικός αριθμός μοντέλων που υποστηρίζουν είτε Pre-training είτε Multi-task learning, αλλά όχι και τα δύο;",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_146818ba46_003",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Ποια είναι η κύρια εφαρμογή του μοντέλου που έχει Γραμμική επεκτασιμότητα και απαιτήσεις υπολογιστικής ισχύος Μεσαίες;",
+    "answer": [
+      [
+        "Task Flexibility"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_004",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Εάν ένα ερευνητικό έργο εξελιχθεί από την απαίτηση ενός μοντέλου για 'Μεγάλες Ακολουθίες' στην ανάγκη αργότερα για ένα με 'Ευελιξία Εργασιών', ποιο μοντέλο θα ήταν η κατάλληλη επιλογή στο δεύτερο στάδιο;",
+    "answer": [
+      [
+        "TimesNet"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "F4",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_005",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Λίστα με τα μοντέλα που δεν χρησιμοποιούν προ-εκπαίδευση και προσφέρουν υπογραμμική επεκτασιμότητα.",
+    "answer": [
+      [
+        "TimeMixer"
+      ],
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "E3",
+      "A5",
+      "B5",
+      "E5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_006",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Τι ποσοστό των μοντέλων που αναφέρονται απαιτούν 'Υψηλούς' υπολογιστικούς πόρους;",
+    "answer": [
+      [
+        "40%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_146818ba46_007",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "Εάν το 'TimesNet' βελτιωνόταν για να υποστηρίζει 'Pre-training', με ποιο υπάρχον μοντέλο θα έμοιαζε περισσότερο όσον αφορά τα χαρακτηριστικά του (Pre-training, Multi-task, Compute, Scalability);",
+    "answer": [
+      [
+        "Το βελτιωμένο TimesNet δεν θα έμοιαζε στενά με κανένα άλλο μεμονωμένο μοντέλο. Ενώ θα μοιραζόταν το 'Pre-training', το 'Multi-task' και την 'Linear' κλιμάκωση με τα Timer και MOMENT, ο 'Medium' υπολογιστικός του πόρος θα το διαφοροποιούσε ακόμα από τις 'High' απαιτήσεις υπολογιστικού πόρου τους."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "B4",
+      "C4",
+      "D4",
+      "E4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_008",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "Υπάρχει κάποια διακριτή συσχέτιση μεταξύ της επεκτασιμότητας ενός μοντέλου και της κύριας εφαρμογής του που εστιάζει στο μήκος ακολουθίας ή την ευελιξία;",
+    "answer": [
+      [
+        "Ναι, φαίνεται να υπάρχει συσχέτιση. Μοντέλα με πιο αποδοτική 'Υπογραμμική' επεκτασιμότητα (TimeMixer, PatchTST) συνδέονται με εφαρμογές που περιλαμβάνουν πολύπλοκα μοτίβα ή μεγάλες ακολουθίες ('Πολυλιγκοστοχαστικά Μοτίβα', 'Μεγάλες Ακολουθίες'). Αντίθετα, μοντέλα με 'Γραμμική' επεκτασιμότητα τείνουν να εφαρμόζονται σε εργασίες που απαιτούν ευελιξία ή μάθηση υπό περιορισμούς ('Μάθηση με Λίγα Παραδείγματα', 'Περιορισμένη Εποπτεία', 'Ευελιξία Εργασίας')."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "E2",
+      "F2",
+      "E3",
+      "F3",
+      "E4",
+      "F4",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_146818ba46_009",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Ποια στήλη, εκτός από το 'Μοντέλο', περιέχει το πιο ποικιλόμορφο σύνολο μοναδικών τιμών;",
+    "answer": [
+      [
+        "Primary Application"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_010",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Ποιο μοντέλο αποτελεί εξαίρεση καθώς δεν υποστηρίζει ούτε την προ-εκπαίδευση ούτε τη μάθηση πολλαπλών εργασιών;",
+    "answer": [
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_146818ba46_011",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Ποια είναι η κύρια εφαρμογή του Timer;",
+    "answer": [
+      [
+        "Few-shot Learning"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

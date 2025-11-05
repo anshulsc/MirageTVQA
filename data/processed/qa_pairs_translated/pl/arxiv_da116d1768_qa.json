@@ -1,0 +1,258 @@
+[
+  {
+    "question_id": "arxiv_da116d1768_001",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Wymień metody/artykuły, które wykorzystują model LLM uważany za nowszy lub bardziej zaawansowany niż GPT3.5.",
+    "answer": [
+      [
+        "MarketSenseAI [1]"
+      ],
+      [
+        "Ploutos [4]"
+      ],
+      [
+        "LLMoE [7]"
+      ],
+      [
+        "[48]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_002",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Ile z wymienionych metod/prac jawnie wspomina o użyciu modelu z rodziny GPT (w tym GPT-4, GPT3.5, GPT-4-Turbo lub ogólnych modeli opartych na GPT)?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_da116d1768_003",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Jakie zbiory danych są wykorzystywane przez metody skupiające się konkretnie na 'inwestycjach' jako zastosowaniu?",
+    "answer": [
+      [
+        "S&P 100 stocks"
+      ],
+      [
+        "S&P 500 index"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "C1",
+      "D4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_004",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "open_ended_reasoning",
+    "question": "Biorąc pod uwagę ewolucję modeli GPT od GPT3.5 do GPT-4, jaki można zaobserwować przesunięcie w zakresie zastosowań lub danych w oparciu o tabelę?",
+    "answer": [
+      [
+        "Metoda wykorzystująca GPT3.5 (GPT-InvestAR) skupia się na 'Inwestycjach giełdowych' przy użyciu szerokiego indeksu S&P 500. Metody wykorzystujące bardziej zaawansowany GPT-4 (MarketSenseAI i Ploutos) ukierunkowane są na bardziej specyficzne zastosowania, takie jak 'Selekcja akcji i wgląd w inwestycje' oraz 'Ruchy cen akcji', wykorzystując zarówno dane S&P 100, jak i zbiory danych z artykułów naukowych. Sugeruje to trend w kierunku bardziej wyspecjalizowanych i analitycznych zastosowań z potężniejszymi modelami."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "D4",
+      "C4",
+      "B1",
+      "D1",
+      "C1",
+      "B2",
+      "D2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_005",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Zidentyfikuj modele LLM używane przez metody, których zastosowanie obejmuje słowo 'stock', ale nie jest to jednoznacznie 'Stock investment'.",
+    "answer": [
+      [
+        "GPT-4"
+      ],
+      [
+        "GPT-4-Turbo, LLaMA3"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "B1",
+      "D2",
+      "B2",
+      "D4",
+      "D6",
+      "B6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_006",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Jaki procent wymienionych metod/publikacji wykorzystuje jako źródło danych wskaźniki rynków finansowych (takie jak S&P czy KOSPI)?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C4",
+      "C6",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_da116d1768_007",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Jeśli wymaganiem projektu byłoby wybranie istniejącego podejścia do 'Prognozowania rynku akcji', ale ograniczono by się do użycia tylko modeli z rodziny GPT, który konkretny model LLM z tabeli zostałby wybrany?",
+    "answer": [
+      [
+        "GPT-4-Turbo"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_008",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "open_ended_reasoning",
+    "question": "Na podstawie tabeli, jaka jest widoczna zależność między specyfiką wymienionego modelu LLM a rodzajem danych, do których jest on stosowany?",
+    "answer": [
+      [
+        "Wydaje się istnieć korelacja, w której bardziej specyficzne i zaawansowane modele, takie jak GPT-4, GPT3.5 i Llama3.2, są łączone ze strukturalnymi zbiorami danych finansowych (np. indeksy S&P, dane MSFT-AAPL). Natomiast bardziej ogólnie opisane 'modele oparte na GPT' są powiązane z bardzo szerokimi, niedomenowymi korpusami, takimi jak Common Crawl i Wikipedia, co sugeruje, że modele ogólne są używane do szerszej analizy, podczas gdy specyficzne, najnowocześniejsze modele są testowane na bardziej ukierunkowanych zadaniach finansowych."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_da116d1768_009",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Która kolumna zawiera najbardziej opisowe i zróżnicowane typy danych, sądząc po różnorodności jej wpisów, od konkretnych symboli giełdowych po szerokie korpusy internetowe?",
+    "answer": [
+      [
+        "Data"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_010",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Zidentyfikuj metodę/publikację, która wyróżnia się zakresem zastosowania i ogólnością źródła danych w porównaniu do innych, które koncentrują się na konkretnych zadaniach związanych z rynkiem akcji.",
+    "answer": [
+      [
+        "ChainBuddy [10]"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "D1",
+      "D2",
+      "D4",
+      "D5",
+      "D6",
+      "C1",
+      "C2",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_da116d1768_011",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Ile metod/prac wykorzystało modele GPT do trenowania?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A6",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

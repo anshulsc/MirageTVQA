@@ -1,0 +1,188 @@
+[
+  {
+    "question_id": "arxiv_4b915ab11f_001",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Яка модель, серед перелічених, використовує найбільшу базову архітектуру за кількістю параметрів?",
+    "answer": [
+      [
+        "XuanYuan2.0"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D1",
+      "D2",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_002",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Яка загальна кількість токенів у корпусі, використаному для навчання BloomBergGPT?",
+    "answer": [
+      [
+        "708B"
+      ]
+    ],
+    "evidence_cells": [
+      "B1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_003",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Який бюджет навчання для моделі, побудованої на архітектурі T5?",
+    "answer": [
+      [
+        "Days/weeks"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_004",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Для моделі, яка визначає двоступеневий процес обробки навчальних даних, який розмір корпусу був для етапу попереднього навчання?",
+    "answer": [
+      [
+        "366B"
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_005",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Визначте LLM, який використовує архітектуру на основі BLOOM і має публічно оголошений бюджет тренування, вказаний у годинах A100·.",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_006",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Який відсоток загального навчального корпусу BloomBergGPT складають публічні токени?",
+    "answer": [
+      [
+        "48.73%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_007",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "open_ended_reasoning",
+    "question": "Якби тренувальний бюджет XuanYuan2.0 становив 2 500 000 годин A100, як би це вплинуло на рейтинг моделей за тренувальним бюджетом?",
+    "answer": [
+      [
+        "Наразі BloomBergGPT має єдиний визначений числовий бюджет (1 300 000 годин A100), що ставить його на перше місце. Якби бюджет XuanYuan2.0 становив 2 500 000 годин A100, він став би моделлю з найвищим відомим тренувальним бюджетом, випередивши BloomBergGPT. Новий рейтинг моделей з числовими бюджетами виглядав би так: 1. XuanYuan2.0 (2 500 000) і 2. BloomBergGPT (1 300 000)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_008",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "open_ended_reasoning",
+    "question": "Чи існує послідовна кореляція між кількістю параметрів архітектури моделі та загальним розміром її навчального корпусу на основі цих даних?",
+    "answer": [
+      [
+        "Ні, послідовної позитивної кореляції, очевидної з даних, немає. Наприклад, XuanYuan2.0 має набагато більшу архітектуру (176 млрд параметрів), ніж BloomBergGPT (50 млрд параметрів), але при цьому він навчався на меншому корпусі (379 млрд токенів проти 708 млрд токенів). Це свідчить про те, що більшій моделі не обов'язково потрібен більший навчальний корпус згідно з цим набором даних."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_009",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Який стовпець даних демонструє найбільшу варіативність у форматі даних, містячи велике ціле число, рядок із забороною розголошення та діапазон на основі часу?",
+    "answer": [
+      [
+        "Training budget (A100·hours)"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_010",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Бюджет навчання якої моделі значно виділяється як позитивний викид порівняно з інформацією про бюджет, доступною для інших моделей?",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_011",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Яка попередньо навчена LLM використовує архітектуру моделі 50B-BLOOM?",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

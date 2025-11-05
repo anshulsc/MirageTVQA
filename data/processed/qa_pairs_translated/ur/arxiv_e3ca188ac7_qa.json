@@ -1,0 +1,293 @@
+[
+  {
+    "question_id": "arxiv_e3ca188ac7_001",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "کس میٹرک نے سب سے زیادہ NDCG سکور حاصل کیا؟",
+    "answer": [
+      [
+        "αS⁢2subscript𝛼𝑆2\\alpha_{S2}italic_α start_POSTSUBSCRIPT italic_S 2 end_POSTSUBSCRIPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_002",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "'αS' سے شروع ہونے والے تمام میٹرکس کے لیے اوسط کینڈل سکور کا حساب لگائیں۔",
+    "answer": [
+      [
+        "0.27075"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_003",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "اس میٹرک کا سپرمین سکور کیا ہے جس کا کینڈل سکور سب سے کم ہے؟",
+    "answer": [
+      [
+        "0.127"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_004",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "open_ended_reasoning",
+    "question": "αS1 سے αS4 تک کے میٹرکس کے لیے Spearman سکور کے رجحان کا تجزیہ کریں۔ کیا رجحان مسلسل بڑھ رہا ہے، کم ہو رہا ہے، یا اتار چڑھاؤ کا شکار ہے؟",
+    "answer": [
+      [
+        "αS1 سے αS4 تک Spearman سکور کا رجحان مسلسل بڑھ رہا ہے۔ αS1 کے لیے قدریں 0.39 سے شروع ہو کر، αS2 کے لیے 0.394، αS3 کے لیے 0.4، اور آخر میں αS4 کے لیے 0.409 تک پہنچتی ہیں، جس میں ہر اگلی میٹرک پچھلے سے زیادہ سکور دکھاتی ہے۔"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_005",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "تمام وہ میٹرکس درج کریں جہاں NDCG اسکور 0.55 سے زیادہ ہے اور Kendall اسکور 0.25 سے زیادہ ہے؟",
+    "answer": [
+      [
+        "αS⁢1subscript𝛼𝑆1\\alpha_{S1}italic_α start_POSTSUBSCRIPT italic_S 1 end_POSTSUBSCRIPT"
+      ],
+      [
+        "αS⁢2subscript𝛼𝑆2\\alpha_{S2}italic_α start_POSTSUBSCRIPT italic_S 2 end_POSTSUBSCRIPT"
+      ],
+      [
+        "αS⁢3subscript𝛼𝑆3\\alpha_{S3}italic_α start_POSTSUBSCRIPT italic_S 3 end_POSTSUBSCRIPT"
+      ],
+      [
+        "αS⁢4subscript𝛼𝑆4\\alpha_{S4}italic_α start_POSTSUBSCRIPT italic_S 4 end_POSTSUBSCRIPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_006",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "تمام سپرمین اسکورز کے کل مجموعے میں 'αS' سیریز کے میٹرکس کا مجموعی حصہ کتنا ہے؟ اپنے جواب کو دو اعشار اعشارہ تک فیصد میں ظاہر کریں۔",
+    "answer": [
+      [
+        "92.46%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_007",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "اگر 'PSR' میٹرک کے لیے NDCG سکور کو فرضی طور پر 'Sharpe Ratio' کے NDCG سکور سے ملنے کے لیے ایڈجسٹ کیا جائے، تو ٹیبل میں موجود تمام میٹرکس کے لیے نیا اوسط NDCG سکور کیا ہوگا؟",
+    "answer": [
+      [
+        "0.533"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_008",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "open_ended_reasoning",
+    "question": "'Kendall' اور 'NDCG' کالموں کے درمیان تعلق کا مشاہدہ کرتے ہوئے، ان دو پیمائشوں کے درمیان کس قسم کا تعلق اخذ کیا جا سکتا ہے؟ ڈیٹا کی بنیاد پر اپنے جواب کی توثیق کریں۔",
+    "answer": [
+      [
+        "Kendall اور NDCG سکور کے درمیان ایک مضبوط مثبت تعلق اخذ کیا جا سکتا ہے۔ سب سے کم Kendall سکور والے میٹرکس ('Sharpe Ratio' 0.087 پر اور 'PSR' 0.085 پر) سب سے کم NDCG سکور (بالترتیب 0.393 اور 0.388) بھی رکھتے ہیں۔ اس کے برعکس، چار 'αS' میٹرکس، جن کے Kendall سکور کافی زیادہ ہیں (0.265 سے 0.278 تک)، سب سے زیادہ NDCG سکور (0.589 سے 0.636 تک) بھی رکھتے ہیں۔ یہ پیٹرن ظاہر کرتا ہے کہ جیسے جیسے Kendall سکور میں اضافہ ہوتا ہے، NDCG سکور میں بھی اضافہ ہوتا ہے۔"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_009",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "تین عددی کالموں (Spearman, Kendall, NDCG) میں سے کس میں اس کے زیادہ سے زیادہ اور کم سے کم قدر کے درمیان سب سے بڑا فرق ہے؟",
+    "answer": [
+      [
+        "Spearman"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_010",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "'Sharpe Ratio' اور 'PSR' کے معیارات 'αS' کے معیارات کے مقابلے میں کم سکور والا گروپ بناتے ہیں۔ کس پیمائش (Spearman، Kendall، یا NDCG) کے لیے کم گروپ کے اوسط سکور اور اونچے گروپ کے اوسط سکور کے درمیان مطلق فرق سب سے زیادہ ہے؟",
+    "answer": [
+      [
+        "Spearman"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "A6",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_011",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "کون سا میٹرک سب سے کم کینڈل کو ریلیشن دکھاتا ہے؟",
+    "answer": [
+      [
+        "PSR"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

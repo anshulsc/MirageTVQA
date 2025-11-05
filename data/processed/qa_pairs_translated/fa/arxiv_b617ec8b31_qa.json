@@ -1,0 +1,202 @@
+[
+  {
+    "question_id": "arxiv_b617ec8b31_001",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "برای کاربردی که در آن روش MarS شامل مقایسه بازار فعلی با بازار شبیه‌سازی شده است، روش فعلی مربوطه چه چیزی را مقایسه می‌کند؟",
+    "answer": [
+      [
+        "Diff⁡(marketn⁢o⁢w,marketp⁢a⁢s⁢t)"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_002",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "چه درصدی از برنامه های کاربردی ذکر شده از روش 'MarS' استفاده می کنند که شامل 'تولید' یا 'شبیه سازی' می شود؟",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_003",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "روش MarS برای کاربرد «تشخیص» چگونه مقایسه مبتنی بر زمان را که در «روش‌های فعلی» استفاده می‌شود، تغییر می‌دهد؟",
+    "answer": [
+      [
+        "«روش‌های فعلی» برای «تشخیص» بر اساس مقایسه تاریخی با محاسبه اختلاف بین وضعیت فعلی بازار (market_now) و وضعیت گذشته بازار (market_past) استوار هستند. روش MarS این وابستگی به داده‌های گذشته را از بین می‌برد. در عوض، بازار فعلی (market_now) را با یک بازار شبیه‌سازی شده همزمان (simu-market_now) مقایسه می‌کند و مقایسه را از یک چارچوب زمانی (اکنون در مقابل آن زمان) به یک چارچوب مبتنی بر مدل (واقعی در مقابل شبیه‌سازی شده) منتقل می‌کند."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_004",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "روش‌های «فعلی» را برای تمام کاربردهایی که روش «MarS» به عنوان یک «پایپ‌لاین» یا شامل «تولید» توصیف شده است، فهرست کنید.",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ],
+      [
+        "online experiments, empirical formula"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B1",
+      "C3",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_005",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "کدام برنامه، بیشترین تغییر بنیادی در رویکرد را بین «روش‌های فعلی» و «MarS» نشان می‌دهد و از مقایسه‌ی تاریخی به مقایسه‌ی شبیه‌سازی شده تغییر می‌کند؟",
+    "answer": [
+      [
+        "برنامه «تشخیص» (Detection) بیشترین تغییر بنیادی را نشان می‌دهد. روش فعلی بر اساس مقایسه‌ی زمانی و نگاه به گذشته (Diff(market_now, market_past)) استوار است. در مقابل، روش MarS مقایسه‌ای را با یک واقعیت شبیه‌سازی شده‌ی همزمان معرفی می‌کند (Diff(market_now, simu-market_now)). این تغییر از مبنای تاریخی به مبنای شبیه‌سازی شده برای مقایسه، در مقایسه با سایر تغییرات روش‌شناختی در جدول، یک نقطه‌ی تمایز مفهومی قابل توجه است."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_006",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "اگر رویکرد 'MarS' برای 'محیط RL' برای استفاده از در دسترس بودن داده‌های 'روش‌های فعلی' برای همان کاربرد اصلاح شود، چه دو ویژگی این روش فرضی MarS را تعریف می‌کند؟",
+    "answer": [
+      [
+        "finite data"
+      ],
+      [
+        "real P(st+1|st,at)"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_007",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "برای کاربرد 'محیط RL'، تفاوت کلیدی در دسترسی به داده‌ها و توزیع احتمال بین 'روش‌های فعلی' و 'MarS' چیست؟",
+    "answer": [
+      [
+        "تفاوت کلیدی هم در حجم داده‌ها و هم در اصالت احتمال انتقال نهفته است. 'روش‌های فعلی' بر 'داده‌های محدود' و توزیع احتمال 'جعلی' (P(st+1|st,at)) تکیه دارند، در حالی که 'MarS' از 'داده‌های نامحدود' و توزیع احتمال 'واقعی' استفاده می‌کند."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_008",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "چند مورد از کاربردهای ذکر شده شامل اصطلاح 'داده' در توضیحات روش آن‌ها برای 'روش‌های فعلی' یا 'MarS' هستند؟",
+    "answer": [
+      [
+        "2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_009",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "بر اساس جدول، مزیت کلی آشکار MarS در مقایسه با روش‌های فعلی چیست، به ویژه در رابطه با داده‌ها و نمایش واقعیت؟",
+    "answer": [
+      [
+        "موضوع اصلی نشان می‌دهد که روش‌های MarS با بهره‌گیری از رویکردهای تولیدی و مبتنی بر شبیه‌سازی، قصد دارند بر محدودیت‌های داده‌های تاریخی یا محدود غلبه کنند. MarS از برون‌یابی به تولید، از مقایسه تاریخی به مقایسه شبیه‌سازی شده، و از مدل‌های داده محدود/جعلی به مدل‌های داده نامحدود/واقعی تغییر می‌کند. این نشان‌دهنده یک مزیت استراتژیک در ایجاد محیط‌های داده‌ای قوی‌تر، انعطاف‌پذیرتر و واقع‌گرایانه‌تر برای تجزیه و تحلیل و یادگیری تقویتی است."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_010",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "بدون در نظر گرفتن ردیف سربرگ، چند برنامه متمایز در جدول شرح داده شده است؟",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_011",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "روش فعلی مورد استفاده برای پیش‌بینی چیست؟",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

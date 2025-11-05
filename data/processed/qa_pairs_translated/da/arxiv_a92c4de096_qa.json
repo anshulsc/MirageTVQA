@@ -1,0 +1,255 @@
+[
+  {
+    "question_id": "arxiv_a92c4de096_001",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Hvilke hyperparametre har det største antal muligheder angivet i deres søgeplads?",
+    "answer": [
+      [
+        "Sequence size"
+      ],
+      [
+        "TRADES Layers"
+      ],
+      [
+        "Augmentation Dim."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_002",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Hvor mange hyperparametre blev testet med mere end to mulige værdier i deres søgerum?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_003",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Hvad var søgerummet for hyperparameteren, hvis bedste valg er den mindste numeriske værdi større end nul?",
+    "answer": [
+      [
+        "{10−3,10−4}superscript103superscript104\\{{10^{-3}},10^{-4}\\}{ 10 start_POSTSUPERSCRIPT - 3 end_POSTSUPERSCRIPT , 10 start_POSTSUPERSCRIPT - 4 end_POSTSUPERSCRIPT }"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_004",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Angiv alle hyperparametre, hvor 'Bedste valg' var den højeste tilgængelige værdi i deres respektive 'Søgerum'.",
+    "answer": [
+      [
+        "Learning Rate"
+      ],
+      [
+        "Dropout"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_005",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Hvilken andel af de numeriske hyperparametre havde deres 'Bedste valg' valgt fra midten af deres sorterede 'Søgerum' (dvs. ikke minimums- eller maksimumsværdien)?",
+    "answer": [
+      [
+        "5/7"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_006",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Hvis søgningen efter 'TRADES Layers' var blevet begrænset til kun værdier under 8, hvad ville 'Best Choice' for denne hyperparameter have været, forudsat at den næstbedste tilgængelige mulighed fra det oprindelige søgerum blev valgt?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_007",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "Er der et observerbart forhold mellem størrelsen på en hyperparameters søgeområde og hvorvidt 'Bedste valg' er en ekstrem (min/max) eller en mellemliggende værdi? Forklar din begrundelse.",
+    "answer": [
+      [
+        "Ja, der er et tydeligt mønster. For hyperparametre med et lille søgeområde på to muligheder (Learning Rate, Dropout) var det bedste valg den maksimale værdi. For alle hyperparametre med et større søgeområde på tre eller fire muligheder blev den optimale værdi fundet midt i intervallet, aldrig ved ekstremerne. Dette tyder på, at for denne model er en finjusteringsproces gavnlig, og at brede, indledende intervaller succesfuldt indrammede et optimalt område, der ikke var ved grænserne af det testede rum."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_008",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Hvilken hyperparameters søgerum er beskrevet ved hjælp af ikke-numeriske etiketter?",
+    "answer": [
+      [
+        "Optimizer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_009",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Hvilken hyperparameters 'Bedste valg'-værdi er en numerisk outlier, idet den er mindst fire gange større end det næsthøjeste numeriske 'Bedste valg'?",
+    "answer": [
+      [
+        "Sequence size"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_010",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "Med tanke på hyperparametrene med fire muligheder i deres søgerum ('Sequence size', 'TRADES Layers', 'Augmentation Dim.'), hvilken fælles karakteristik deler deres 'Best Choice'-værdier, og hvad kan dette indebære om tuningstrategien?",
+    "answer": [
+      [
+        "Den fælles karakteristik er, at for alle tre hyperparametre er 'Best Choice' en mellemliggende værdi, ikke en ekstrem (minimum eller maksimum). 'Best Choices' er 256 (3. ud af 4), 8 (3. ud af 4) og 64 (2. ud af 4). Dette indebærer en succesfuld tuningstrategi, hvor søgerummet var tilstrækkeligt bredt til at indramme den optimale værdi, hvilket antyder, at ydeevnen for disse parametre ikke stiger monotont med værdien, men snarere topper et sted inden for det testede område."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_011",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Hvad er det bedste valg af optimeringsfunktion?",
+    "answer": [
+      [
+        "Adam"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

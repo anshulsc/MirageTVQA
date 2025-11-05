@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "arxiv_0ce0508a37_001",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Thông số tác động thị trường nào có hệ số bằng gấp đôi thông số kia?",
+    "answer": [
+      [
+        "Temporary impact coefficient"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C9",
+      "A10",
+      "C10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_002",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Giá trị trung bình cho 'Tham số phi tuyến tính' là bao nhiêu dựa trên tập hợp các giá trị có thể được cung cấp?",
+    "answer": [
+      [
+        "0.567"
+      ]
+    ],
+    "evidence_cells": [
+      "C11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_003",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Tham số nào thuộc 'Market Dynamics' có số lượng giá trị riêng biệt được liệt kê nhiều nhất?",
+    "answer": [
+      [
+        "V0subscript𝑉0\\sqrt{V_{0}}square-root start_ARG italic_V start_POSTSUBSCRIPT 0 end_POSTSUBSCRIPT end_ARG"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_004",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "Dựa trên các giá trị của 'Độ biến động ban đầu', 'Độ biến động dài hạn' và 'Tốc độ hoàn về trung bình', có thể suy luận gì về hành vi biến động của mô hình theo thời gian?",
+    "answer": [
+      [
+        "Mô hình thể hiện sự biến động hoàn về trung bình. 'Độ biến động dài hạn' được cố định ở mức 0,3, đóng vai trò là điểm neo. 'Độ biến động ban đầu' có thể bắt đầu cao hơn (0,4), thấp hơn (0,2) hoặc ở mức dài hạn (0,3). Bất kể điểm bắt đầu là gì, độ biến động dự kiến sẽ trôi về 0,3 theo thời gian, một quá trình có tốc độ được chi phối bởi 'Tốc độ hoàn về trung bình' là 2,0. Điều này có nghĩa là các giai đoạn có độ biến động cao hoặc thấp không phải là vĩnh viễn."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_005",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Liệt kê tất cả các tham số thuộc danh mục 'Động lực thị trường' được trình bày dưới dạng một tập hợp nhiều giá trị có thể có, trong đó tất cả các giá trị được liệt kê đều không âm.",
+    "answer": [
+      [
+        "Drift rate"
+      ],
+      [
+        "Initial volatility"
+      ],
+      [
+        "Volatility of variance"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_006",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Nếu 'Mức độ né tránh rủi ro' được định nghĩa là nghịch đảo của khả năng chấp nhận rủi ro, và cả giá trị 'Tác động vĩnh viễn' và 'Tác động tạm thời' đều tăng gấp 10 lần, thì tỷ lệ mới giữa 'Hệ số tác động tạm thời' và 'Mức độ né tránh rủi ro' sẽ là bao nhiêu?",
+    "answer": [
+      [
+        "50.0"
+      ]
+    ],
+    "evidence_cells": [
+      "C10",
+      "C13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_007",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Nếu 'Tốc độ hoàn lại về trung bình' giảm 50% và các giá trị 'Độ biến động của phương sai' đều tăng thêm 0,1, thì tổng mới của 'Tốc độ hoàn lại về trung bình' và 'Độ biến động của phương sai' tối đa sẽ là bao nhiêu?",
+    "answer": [
+      [
+        "1.4"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_008",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "Bảng dữ liệu chỉ định giá trị 'Tương quan' là -0.7. Trong một mô hình tài chính, giá trị âm mạnh này thường ám chỉ điều gì về mối quan hệ giữa giá tài sản và mức độ biến động của nó?",
+    "answer": [
+      [
+        "Tương quan -0.7 biểu thị một mối quan hệ nghịch đảo mạnh mẽ, thường được gọi là hiệu ứng đòn bẩy. Điều này ngụ ý rằng khi giá tài sản giảm, mức độ biến động có xu hướng tăng và ngược lại, khi giá tài sản tăng, mức độ biến động có xu hướng giảm. Đây là một đặc điểm quan trọng để mô hình hóa giá tài sản thực tế và định giá các công cụ phái sinh."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_009",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Có bao nhiêu tham số trong bảng được định nghĩa bởi một tập hợp các giá trị khả dĩ thay vì một giá trị cố định duy nhất?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_010",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Tham số nào là ngoại lệ về mặt định tính vì giá trị của nó là giá trị duy nhất mang dấu âm?",
+    "answer": [
+      [
+        "Correlation"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_011",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Tốc độ hoàn lại trung bình (mean reversion speed) trong mô hình được đặt là bao nhiêu?",
+    "answer": [
+      [
+        "2.0"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

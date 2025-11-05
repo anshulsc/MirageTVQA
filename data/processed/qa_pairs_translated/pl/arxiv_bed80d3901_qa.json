@@ -1,0 +1,214 @@
+[
+  {
+    "question_id": "arxiv_bed80d3901_001",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Które zapytanie wymaga analizy największej liczby podstawowych wskaźników finansowych?",
+    "answer": [
+      [
+        "What were the return on average assets and ROWC of Halliburton co. and other companies in the energy sector from Apr 2016 to Jul 2017 compared to their Gross Profit Margin and CROAFA?"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "A3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_002",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Oblicz całkowitą liczbę poszczególnych 'Related Metrics' wymienionych we wszystkich trzech zapytaniach.",
+    "answer": [
+      [
+        "22"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_003",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Dla zapytania, które obejmuje porównanie firmy do jej konkurentów, jaki jest dokładny zakres dat określony w odpowiadającym mu 'Structured Data Request'?",
+    "answer": [
+      [
+        "(1/9/2018 - 30/9/2018)"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_004",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Które zapytanie w języku naturalnym odpowiada ustrukturyzowanemu żądaniu obejmującemu najdłuższy okres?",
+    "answer": [
+      [
+        "What were the return on average assets and ROWC of Halliburton co. and other companies in the energy sector from Apr 2016 to Jul 2017 compared to their Gross Profit Margin and CROAFA?"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_005",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Wylistuj wszystkie główne wskaźniki wymagane dla zapytań, które konkretnie odnoszą się do firmy z identyfikatorem prawnym, takim jak 'plc' lub 'Co.', w polu 'Wymagane Dane'.",
+    "answer": [
+      [
+        "Quick Ratio"
+      ],
+      [
+        "Bid Size"
+      ],
+      [
+        "Cash Conversion Efficiency Ratio"
+      ],
+      [
+        "Return on Average Assets"
+      ],
+      [
+        "Return on Working Capital"
+      ],
+      [
+        "Gross Profit Margin"
+      ],
+      [
+        "Cash Return on Average Fixed Assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_006",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Dla zapytania Amcor plc, jaki procent wszystkich metryk wymienionych w 'Structured Data Request' zawiera słowo 'Cash'?",
+    "answer": [
+      [
+        "28.57%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_007",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "Gdyby zapytanie w języku naturalnym dla Adobe zostało rozszerzone o prośbę o 'Zwrot z kapitału obrotowego', jak zostałaby zmodyfikowana lista wskaźników w 'Structured Data Request', używając informacji z zapytania o Halliburton jako szablonu?",
+    "answer": [
+      [
+        "Sekcja metryk w 'Structured Data Request' zostałaby zaktualizowana o 'Zwrot z kapitału obrotowego' i jego powiązane składniki z zapytania o Halliburton. Oznaczałoby to dodanie 'Zwrot z kapitału obrotowego; Zysk netto; Kapitał obrotowy' do istniejącej listy, w wyniku czego otrzymalibyśmy: (Przychody ze sprzedaży; Całkowite przychody; Wartość dodana ekonomiczna; Zysk operacyjny netto po opodatkowaniu (NOPAT); Koszt kapitału; Zwrot z kapitału obrotowego; Zysk netto; Kapitał obrotowy)."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_008",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "Na podstawie dostarczonych danych, jaka jest widoczna zależność między złożonością zapytania w języku naturalnym a całkowitą liczbą metryk określonych w \"Structured Data Request\"?",
+    "answer": [
+      [
+        "Wydaje się, że istnieje pozytywna korelacja. Dwa bardziej złożone zapytania (dla Amcor i Halliburton) odpowiadają znacznie większej liczbie metryk w ich ustrukturyzowanych żądaniach (odpowiednio 14 i 12) w porównaniu do prostszego zapytania dla Adobe, które zawiera tylko 5 metryk. Sugeruje to, że w miarę wzrostu głębokości analitycznej pytania użytkownika, rośnie również wymagany ładunek danych."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_009",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Która kolumna służy do parsowania zapytania w języku naturalnym na półustrukturyzowany format, który jawnie wymienia firmy, podstawowe wskaźniki, powiązane podwskaźniki i żądany przedział czasowy?",
+    "answer": [
+      [
+        "Required Data"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_010",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "Przeanalizuj informacje czasowe w kolumnach „Required Data” i „Structured Data Request”. Czy istnieje zapytanie, w którym te dwie kolumny przedstawiają sprzeczny przedział czasowy? Jeśli tak, zidentyfikuj zapytanie i opisz rozbieżność.",
+    "answer": [
+      [
+        "Tak, zapytanie dotyczące Amcor plc wykazuje znaczącą rozbieżność. Sekcja „Required Data” określa ramy czasowe „przez ostatnie 6 miesięcy”, podczas gdy odpowiadające jej „Structured Data Request” określa znacznie krótszy, 7-dniowy okres „(7/1/2024 - 7/7/2024)”. Dwa pozostałe zapytania wykazują spójność czasową między kolumnami."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_011",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Ile unikalnych firm jest wymienionych w danych?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

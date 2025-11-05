@@ -1,0 +1,255 @@
+[
+  {
+    "question_id": "arxiv_a92c4de096_001",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Які гіперпараметри мають найбільшу кількість варіантів у своєму просторі пошуку?",
+    "answer": [
+      [
+        "Sequence size"
+      ],
+      [
+        "TRADES Layers"
+      ],
+      [
+        "Augmentation Dim."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_002",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Скільки гіперпараметрів було протестовано з більш ніж двома можливими значеннями в їхньому просторі пошуку?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_003",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Який був простір пошуку для гіперпараметра, найкращим вибором якого було найменше числове значення, більше за нуль?",
+    "answer": [
+      [
+        "{10−3,10−4}superscript103superscript104\\{{10^{-3}},10^{-4}\\}{ 10 start_POSTSUPERSCRIPT - 3 end_POSTSUPERSCRIPT , 10 start_POSTSUPERSCRIPT - 4 end_POSTSUPERSCRIPT }"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_004",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Перелічіть усі гіперпараметри, для яких \"Найкращий вибір\" було найвищим значенням, доступним у відповідному \"Просторі пошуку\".",
+    "answer": [
+      [
+        "Learning Rate"
+      ],
+      [
+        "Dropout"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_005",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Яка частка числових гіперпараметрів, для яких 'Найкращий вибір' було обрано із середини їхнього відсортованого 'Діапазону пошуку' (тобто, не мінімальне чи максимальне значення)?",
+    "answer": [
+      [
+        "5/7"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_006",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Якби пошук 'TRADES Layers' був обмежений лише значеннями меншими за 8, яким би був 'Best Choice' для цього гіперпараметра, за умови вибору наступного найкращого доступного варіанту з початкового простору пошуку?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_007",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "Чи існує помітний зв'язок між розміром простору пошуку гіперпараметра та тим, чи є «Найкращий вибір» екстремальним (мін/макс) значенням, чи значенням посередині? Поясніть свою міркування.",
+    "answer": [
+      [
+        "Так, є чітка закономірність. Для гіперпараметрів з малим простором пошуку з двох варіантів (Швидкість навчання, Dropout) найкращим вибором було максимальне значення. Для всіх гіперпараметрів з більшим простором пошуку з трьох або чотирьох варіантів оптимальне значення було знайдено посередині діапазону, ніколи не на крайніх межах. Це свідчить про те, що для цієї моделі корисним є процес тонкого налаштування, і початкові широкі діапазони успішно охопили оптимальну область, яка не знаходилася на межах протестованого простору."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_008",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Пошуковий простір якого гіперпараметра описано за допомогою нечислових міток?",
+    "answer": [
+      [
+        "Optimizer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_009",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Яке значення гіперпараметра 'Найкращий вибір' є числом-викиднем, будучи щонайменше в чотири рази більшим за наступне найвище числове значення 'Найкращий вибір'?",
+    "answer": [
+      [
+        "Sequence size"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_010",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "Враховуючи гіперпараметри з чотирма варіантами у просторі пошуку ('Розмір послідовності', 'Шари TRADES', 'Розмір аугментації'), яку спільну характеристику мають їхні значення 'Найкращий вибір' і що це може означати щодо стратегії налаштування?",
+    "answer": [
+      [
+        "Спільна характеристика полягає в тому, що для всіх трьох гіперпараметрів 'Найкращий вибір' є проміжним значенням, а не крайнім (мінімальним або максимальним). 'Найкращі вибори': 256 (3-й з 4), 8 (3-й з 4) та 64 (2-й з 4). Це свідчить про успішну стратегію налаштування, коли простір пошуку був достатньо широким, щоб охопити оптимальне значення, припускаючи, що продуктивність для цих параметрів не збільшується монотонно зі зростанням значення, а радше досягає піку десь у межах протестованого діапазону."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_011",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Який найкращий вибір оптимізатора?",
+    "answer": [
+      [
+        "Adam"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

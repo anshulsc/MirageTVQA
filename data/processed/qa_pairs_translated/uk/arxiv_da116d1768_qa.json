@@ -1,0 +1,258 @@
+[
+  {
+    "question_id": "arxiv_da116d1768_001",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Перелічіть методи/публікації, які використовують LLM-модель, що вважається новішою або просунутішою за GPT3.5.",
+    "answer": [
+      [
+        "MarketSenseAI [1]"
+      ],
+      [
+        "Ploutos [4]"
+      ],
+      [
+        "LLMoE [7]"
+      ],
+      [
+        "[48]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_002",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Скільки із зазначених методів/статей явно згадують використання моделі з сімейства GPT (включаючи GPT-4, GPT3.5, GPT-4-Turbo або загальні моделі на основі GPT)?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_da116d1768_003",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Які набори даних використовуються методами, що спеціалізуються на \"інвестиціях\" як застосуванні?",
+    "answer": [
+      [
+        "S&P 100 stocks"
+      ],
+      [
+        "S&P 500 index"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "C1",
+      "D4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_004",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "open_ended_reasoning",
+    "question": "Враховуючи еволюцію моделей GPT від GPT3.5 до GPT-4, яке зміщення у фокусі застосувань або даних можна спостерігати на основі таблиці?",
+    "answer": [
+      [
+        "Метод, що використовує GPT3.5 (GPT-InvestAR), зосереджується на 'Інвестиціях у акції' з використанням широкого індексу S&P 500. Методи, що використовують більш просунутий GPT-4 (MarketSenseAI та Ploutos), націлені на більш специфічні застосування, такі як 'Відбір акцій та інвестиційні інсайти' та 'Рух акцій', використовуючи як індекс S&P 100, так і набори даних з наукових статей. Це свідчить про тенденцію до більш спеціалізованих та аналітичних застосувань з потужнішими моделями."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "D4",
+      "C4",
+      "B1",
+      "D1",
+      "C1",
+      "B2",
+      "D2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_005",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Визначте моделі LLM, які використовуються методами, чия сфера застосування містить слово 'stock' (акції), але явно не є 'Stock investment' (Інвестиції в акції).",
+    "answer": [
+      [
+        "GPT-4"
+      ],
+      [
+        "GPT-4-Turbo, LLaMA3"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "B1",
+      "D2",
+      "B2",
+      "D4",
+      "D6",
+      "B6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_006",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Який відсоток перелічених методів/статей використовують фінансові ринкові індекси (як S&P або KOSPI) як джерело даних?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C4",
+      "C6",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_da116d1768_007",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Якщо вимога проєкту полягала у виборі існуючого підходу для 'Прогнозування фондового ринку', але обмежувалася використанням лише моделей сімейства GPT, яку конкретну модель LLM із таблиці було б обрано?",
+    "answer": [
+      [
+        "GPT-4-Turbo"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_008",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "open_ended_reasoning",
+    "question": "Виходячи з таблиці, який, здається, існує взаємозв'язок між специфічністю згаданої моделі LLM та типом даних, до яких вона застосовується?",
+    "answer": [
+      [
+        "Здається, існує кореляція, коли більш специфічні та просунуті моделі, такі як GPT-4, GPT3.5 і Llama3.2, поєднуються зі структурованими фінансовими наборами даних (наприклад, індексами S&P, даними MSFT-AAPL). На відміну від цього, більш загально описані «моделі на основі GPT» пов'язані з дуже широкими, неспецифічними для домену корпусами, такими як Common Crawl і Wikipedia, що свідчить про те, що загальні моделі використовуються для ширшого аналізу, тоді як специфічні, найсучасніші моделі тестуються на більш цільових фінансових завданнях."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_da116d1768_009",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Який стовпець містить найбільш описові та різноманітні типи даних, про що свідчить різноманітність його записів, від конкретних біржових символів до широких веб-корпусів?",
+    "answer": [
+      [
+        "Data"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_010",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Визначте метод/статтю, яка виділяється як виняток за обсягом її застосування та загальністю джерела даних порівняно з іншими, зосередженими на конкретних завданнях фондового ринку.",
+    "answer": [
+      [
+        "ChainBuddy [10]"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "D1",
+      "D2",
+      "D4",
+      "D5",
+      "D6",
+      "C1",
+      "C2",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_da116d1768_011",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Скільки методів/статей використовували GPT-моделі для навчання?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A6",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

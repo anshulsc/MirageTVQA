@@ -1,0 +1,271 @@
+[
+  {
+    "question_id": "arxiv_e26e28c450_001",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "کون سا نان-ملٹی ٹاسک ماڈل سب سے کم مجموعی مین سکوائرڈ ایرر (MSE_over) حاصل کرتا ہے؟",
+    "answer": [
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "H1",
+      "A2",
+      "B2",
+      "H2",
+      "A3",
+      "B3",
+      "H3",
+      "A4",
+      "B4",
+      "H4",
+      "A5",
+      "B5",
+      "H5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_002",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "تمام ماڈلز کے لیے 7-دن کے افق (MSE7) پر اوسط MSE کا حساب لگائیں جو 'ملٹی ٹاسک' کے طور پر نشان زد ہیں؟",
+    "answer": [
+      [
+        "0.820"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "H6",
+      "D7",
+      "H7",
+      "D8",
+      "H8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_003",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "دوسرے سب سے زیادہ (دوسرے بدترین) MSE3 قدر والے ماڈل کے لیے، اس کا متعلقہ MSE30 قدر کیا ہے؟",
+    "answer": [
+      [
+        "0.233"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "F3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_004",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "HTML ماڈل کے لیے مین سکوائرڈ ایرر (MSE) کے رجحان کا تجزیہ کریں جب پیشین گوئی کا افق 3 سے 30 دن تک بڑھایا جاتا ہے۔ کیا وقت کے ساتھ ساتھ اس کی پیشین گوئی کی درستگی بہتر ہوتی ہے یا خراب؟",
+    "answer": [
+      [
+        "پیشین گوئی کے افق میں توسیع کے ساتھ HTML ماڈل کی پیشین گوئی کی درستگی بہتر ہوتی ہے۔ اس کے MSE کے اقدار مسلسل MSE3 (0.845) سے MSE7 (0.349)، MSE15 (0.251)، اور آخر کار MSE30 (0.158) تک کم ہوتے ہیں، جو لمبی مدت کی پیشین گوئیوں پر کم خرابی اور اس لیے بہتر کارکردگی کا اشارہ دیتے ہیں۔"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_005",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "ان تمام ماڈلز کی نشاندہی کریں جو 'ملٹی ٹاسک' کے طور پر نامزد نہیں ہیں اور ان کا MSE15 کا قدر 0.31 سے کم ہے۔",
+    "answer": [
+      [
+        "MT-LSTM-ATT"
+      ],
+      [
+        "HAN"
+      ],
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "H1",
+      "A2",
+      "E2",
+      "H2",
+      "A3",
+      "E3",
+      "H3",
+      "A4",
+      "E4",
+      "H4",
+      "A5",
+      "E5",
+      "H5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_006",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "اس ماڈل کی شناخت کریں جو تمام MSE میٹرکس میں ایک واضح کارکردگی کا فرق رکھتا ہے اور اس کی وضاحت کریں؟",
+    "answer": [
+      [
+        "GPT-3.5-Turbo ماڈل کارکردگی کے لحاظ سے ایک واضح فرق ہے۔ تمام ہورائزنز پر اس کے MSE ویلیوز (MSE_over: 2.198, MSE3: 2.152, MSE7: 1.793, MSE15: 2.514, MSE30: 2.332) دوسرے تمام ماڈلز کے مقابلے میں نمایاں طور پر زیادہ ہیں، جن میں سے زیادہ تر کے MSE ویلیوز 1.0 سے کم ہیں۔ یہ درج کردہ دیگر ماڈلز کے مقابلے میں نمایاں طور پر بدتر پیشین گوئی کی کارکردگی کی نشاندہی کرتا ہے۔"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_007",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "تمام ماڈلز میں کل جمع شدہ MSE3 کا کتنے فیصد GPT-3.5-Turbo ماڈل سے منسوب کیا جا سکتا ہے؟ جواب فیصد میں ایک اعشاریہ پانچ کے حساب سے دیں،",
+    "answer": [
+      [
+        "19.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_008",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "اگر RiskLabs ماڈل کے لیے MSE_over میں 25% کا اضافہ (یعنی 25% کمی) ہوتا، تو اس کی نئی قدر کیا ہوتی، اور HTML ماڈل کے MSE_over کے مقابلے میں اس کی درجہ بندی کیا ہوتی؟",
+    "answer": [
+      [
+        "RiskLabs کے لیے نئی MSE_over 0.243 ہوگی۔ یہ قدر HTML ماڈل کے MSE_over 0.401 سے کم، اور اس لیے بہتر ہے۔"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_009",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "ٹیبل کی بنیاد پر، 'ملٹی ٹاسک' کے طور پر درجہ بندی کیے جانے والے ماڈل اور 'VaR' سکور کی دستیابی کے درمیان کیا تعلق ہے؟",
+    "answer": [
+      [
+        "ایک مضبوط تعلق ہے۔ صرف 'ملٹی ٹاسک' (GPT-3.5-Turbo اور RiskLabs) کے طور پر نامزد کردہ ماڈلز کا ایک عددی 'VaR' سکور رپورٹ کیا گیا ہے۔ تاہم، تمام 'ملٹی ٹاسک' ماڈلز کا VaR سکور نہیں ہوتا (مثلاً، HTML)، اور کوئی بھی غیر 'ملٹی ٹاسک' ماڈل کا VaR سکور نہیں ہوتا، جس سے یہ ظاہر ہوتا ہے کہ VaR کا حساب کرنے کی صلاحیت اس ڈیٹا سیٹ میں 'ملٹی ٹاسک' ماڈلز سے بنیادی طور پر وابستہ خصوصیت ہے۔"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "H1",
+      "G2",
+      "H2",
+      "G3",
+      "H3",
+      "G4",
+      "H4",
+      "G5",
+      "H5",
+      "G6",
+      "H6",
+      "G7",
+      "H7",
+      "G8",
+      "H8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_010",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "کارکردگی کا کون سا میٹرک کالم غیر عددی پلیسہولڈر ڈیٹا پر مشتمل ہے، اور یہ ڈیٹا کن مخصوص ماڈلز کے لیے غائب ہے؟",
+    "answer": [
+      [
+        "\"VaR\" کالم میں غیر عددی ڈیٹا ('/') شامل ہے۔ یہ ڈیٹا مندرجہ ذیل ماڈلز کے لیے غائب ہے: Classical Method, LSTM, MT-LSTM-ATT, HAN, MRDM, اور HTML."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_011",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "کون سا ماڈل مختلف افق (MSE3–MSE30) میں پیشین گوئی کی درستگی اور رسک کے تخمینے (VaR) کے درمیان بہترین مجموعی توازن ظاہر کرتا ہے؟",
+    "answer": [
+      [
+        "RiskLabs ماڈل بہترین مجموعی توازن حاصل کرتا ہے، تمام افق میں سب سے کم MSE اقدار اور سب سے کم VaR (0.049) کو برقرار رکھتا ہے، جو مضبوط پیشین گوئی کی درستگی اور قابل اعتماد رسک کے تخمینے دونوں کی نشاندہی کرتا ہے۔"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "G8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

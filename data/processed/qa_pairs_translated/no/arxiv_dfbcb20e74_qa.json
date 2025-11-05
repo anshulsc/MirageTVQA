@@ -1,0 +1,167 @@
+[
+  {
+    "question_id": "arxiv_dfbcb20e74_001",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Hvilken modells hovedformel inkluderer eksplisitt en risikofri rentekomponent?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_002",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Hva er det totale antallet distinkte 'X'-variabler som brukes som input i Z-scoremodellens formel?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_003",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Identifiser modellen som bruker 'Total assets' som nevner i minst tre av sine forklarte parametere, og angi deretter hvilken parameter fra den modellen som representerer forholdet mellom 'Market value of equity' og 'Total liabilities'.",
+    "answer": [
+      [
+        "Z-score Model"
+      ],
+      [
+        "X4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_004",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Hvilken modell inkluderer parametere som eksplisitt er definert som målt 'på tidspunkt t'?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_005",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Hvis det analytiske målet er å bestemme sannsynligheten for et binært utfall (y=1), hvilket modell oppført i tabellen er det mest passende valget?",
+    "answer": [
+      [
+        "Logistic Regression"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_006",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "I Z-score-modellen, hva er vekten (koeffisienten) til variabelen som representerer 'resultat før renter og skatt/totale eiendeler', og hvordan sammenlignes denne vekten med de andre variablene?",
+    "answer": [
+      [
+        "Koeffisienten for X3 (resultat før renter og skatt/totale eiendeler) er 3.3. Dette er den høyeste vekten av alle de fem variablene, noe som tyder på at den har størst innvirkning på den endelige Z-scoren sammenlignet med variabler som X1 (1.2), X2 (1.4), X4 (0.6) og X5 (0.99)."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_007",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Hvis en oppdatert versjon av Z-score-modellen reduserte innflytelsen til 'Arbeidskapital/totale aktiva-forholdet' med 50 %, hva ville den nye koeffisienten for X1 vært?",
+    "answer": [
+      [
+        "0.6"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_008",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Basert på formelen for Z-skår-modellen, hva er det utledede forholdet mellom et selskaps totale salgsforhold til totale eiendeler og dets resulterende Z-skår?",
+    "answer": [
+      [
+        "Det er en positiv korrelasjon mellom forholdet totale salg/totale eiendeler (X5) og Z-skåren. Formelen viser at Z-skåren er en vektet sum av fem forhold, og koeffisienten for X5 er positiv (0.99). Derfor, hvis alle andre faktorer holdes konstante, vil en økning i forholdet totale salg til totale eiendeler resultere i en høyere Z-skår."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_009",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Hvilken modells beskrivelse inkluderer det største antallet distinkte parametere som er forklart i den tredje kolonnen?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_010",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Når man ser på de numeriske koeffisientene i Z-score-modellens formel, hvilken koeffisient skiller seg ut som en uteligger sammenlignet med de andre?",
+    "answer": [
+      [
+        "Koeffisienten 3,3 for variabelen X3 er en betydelig uteligger. De andre koeffisientene i formelen er 1,2, 1,4, 0,6 og 0,99, som alle er gruppert i et område mellom 0,6 og 1,4. Verdien 3,3 er mer enn dobbelt så stor som den nest høyeste koeffisienten (1,4), noe som gjør den vesentlig større enn resten."
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

@@ -1,0 +1,188 @@
+[
+  {
+    "question_id": "arxiv_4b915ab11f_001",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "فہرست میں شامل ماڈلز میں سے کون سا ماڈل پیرامیٹر گنتی کے لحاظ سے سب سے بڑا بنیادی فن تعمیر استعمال کرتا ہے؟",
+    "answer": [
+      [
+        "XuanYuan2.0"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D1",
+      "D2",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_002",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "BloomBergGPT کی تربیت کے لیے استعمال ہونے والے کارپس میں ٹوکنز کی کل تعداد کتنی ہے؟",
+    "answer": [
+      [
+        "708B"
+      ]
+    ],
+    "evidence_cells": [
+      "B1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_003",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "T5 آرکیٹیکچر پر مبنی ماڈل کے لیے تربیتی بجٹ کیا ہے؟",
+    "answer": [
+      [
+        "Days/weeks"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_004",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "اس ماڈل کے لیے جو دو مرحلوں والے تربیتی ڈیٹا کے عمل کی وضاحت کرتا ہے، پری ٹریننگ مرحلے کے لیے کارپس کا سائز کیا تھا؟",
+    "answer": [
+      [
+        "366B"
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_005",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "اس LLM کی شناخت کریں جو BLOOM پر مبنی فن تعمیر استعمال کرتا ہے اور جس کے ٹریننگ بجٹ A100·hours میں ظاہر کیا گیا ہے؟",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_006",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "BloomBergGPT کے کل تربیتی کارپس کا کتنے فیصد عوامی ٹوکنز پر مشتمل ہے؟",
+    "answer": [
+      [
+        "48.73%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_007",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "open_ended_reasoning",
+    "question": "اگر XuanYuan2.0 کے تربیتی بجٹ کا انکشاف 2,500,000 A100·hours ہو، تو اس سے تربیتی بجٹ کے لحاظ سے ماڈلز کی درجہ بندی پر کیا اثر پڑے گا؟",
+    "answer": [
+      [
+        "فی الحال، BloomBergGPT کا واحد مخصوص عددی بجٹ (1,300,000 A100·hours) ہے، جو اسے پہلے نمبر پر رکھتا ہے۔ اگر XuanYuan2.0 کا بجٹ 2,500,000 A100·hours ہوتا، تو یہ BloomBergGPT کو پیچھے چھوڑ کر سب سے زیادہ معلوم تربیتی بجٹ والا ماڈل بن جاتا۔ عددی بجٹ والے ماڈلز کی نئی درجہ بندی یہ ہوگی: 1. XuanYuan2.0 (2,500,000) اور 2. BloomBergGPT (1,300,000)۔"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_008",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "open_ended_reasoning",
+    "question": "کیا اس ڈیٹا کی بنیاد پر، ماڈل آرکیٹیکچر کے پیرامیٹر کی تعداد اور اس کے تربیتی کارپس کے کل سائز کے درمیان کوئی مستقل تعلق ہے؟",
+    "answer": [
+      [
+        "نہیں، ڈیٹا میں کوئی مستقل مثبت تعلق ظاہر نہیں ہوتا ہے۔ مثال کے طور پر، XuanYuan2.0 میں BloomBergGPT (50B پیرامیٹرز) کے مقابلے میں بہت بڑی آرکیٹیکچر (176B پیرامیٹرز) ہے، پھر بھی اسے چھوٹے کارپس (379B ٹوکن بمقابلہ 708B ٹوکن) پر تربیت دی گئی تھی۔ یہ بتاتا ہے کہ اس ڈیٹا سیٹ کے مطابق، بڑے ماڈل کے لیے ضروری نہیں کہ ایک بڑے تربیتی کارپس کی ضرورت ہو۔"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_009",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "کون سا ڈیٹا کالم فارمیٹ میں سب سے زیادہ تغیر دکھاتا ہے، جس میں ایک بڑا عدد، ایک نان ڈسکلوژر سٹرنگ، اور ایک وقت پر مبنی رینج شامل ہے؟",
+    "answer": [
+      [
+        "Training budget (A100·hours)"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_010",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "کس ماڈل کا بیان کردہ تربیتی بجٹ دیگر ماڈلز کے لیے دستیاب بجٹ کی معلومات کے مقابلے میں نمایاں طور پر زیادہ ہے؟",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_011",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "کون سا پری ٹرینڈ LLM 50B-BLOOM ماڈل آرکیٹیکچر استعمال کرتا ہے؟",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

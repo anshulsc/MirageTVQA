@@ -1,0 +1,202 @@
+[
+  {
+    "question_id": "arxiv_b617ec8b31_001",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "MarS ක්‍රමය මඟින් වත්මන් වෙළෙඳපොළ සහ අනුකරණය කරන ලද වෙළෙඳපොළ සංසන්දනය කිරීම යෙදෙන යෙදුම සඳහා, අනුරූප වත්මන් ක්‍රමය කුමක්ද සංසන්දනය කරන්නේ?",
+    "answer": [
+      [
+        "Diff⁡(marketn⁢o⁢w,marketp⁢a⁢s⁢t)"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_002",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "ဖော်ပြထားသော အပလီကေးရှင်းများ၏ မည်သည့်ရာခိုင်နှုန်းသည် 'မျိုးဆက်' သို့မဟုတ် 'ပုံတူကူးခြင်း' ပါဝင်သည့် 'MarS' နည်းလမ်းကို အသုံးပြုသနည်း။",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_003",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "'Detection' အပလီကေးရှင်းအတွက် MarS နည်းလမ်းသည် 'Current Methods' တွင်အသုံးပြုသော အချိန်-အခြေခံ နှိုင်းယှဉ်မှုကို မည်သို့ပြောင်းလဲသနည်း။",
+    "answer": [
+      [
+        "'Detection' အတွက် 'Current Methods' သည် လက်ရှိစျေးကွက်အခြေအနေ (market_now) နှင့် အတိတ်စျေးကွက်အခြေအနေ (market_past) တို့၏ ကွာခြားချက်ကို တွက်ချက်ခြင်းဖြင့် သမိုင်းကြောင်းနှိုင်းယှဉ်မှုအပေါ် မူတည်ပါသည်။ MarS နည်းလမ်းသည် အတိတ်ဒေတာအပေါ် ဤမှီခိုမှုကို ဖယ်ရှားပေးပါသည်။ အစား၊ ၎င်းသည် လက်ရှိစျေးကွက် (market_now) ကို လက်ရှိအချိန်နှင့်တပြေးညီ အတုယူထားသောစျေးကွက် (simu-market_now) နှင့် နှိုင်းယှဉ်သည်၊ ၎င်းသည် နှိုင်းယှဉ်မှုကို အချိန်ပိုင်း (ယခု နှင့် ထိုအချိန်) မှ မော်ဒယ်-အခြေခံ (အစစ် နှင့် အတုယူထားသော) ပုံစံသို့ ပြောင်းလဲစေသည်။"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_004",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "MarS' ක්‍රමවේදය 'pipeline' ලෙස විස්තර කර ඇති හෝ 'generation' ඇතුළත් යෙදුම් සියල්ල සඳහා 'Current Methods' ලැයිස්තුගත කරන්න.",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ],
+      [
+        "online experiments, empirical formula"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B1",
+      "C3",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_005",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "'လက်ရှိနည်းလမ်းများ' နှင့် 'MarS' တို့ကြား သမိုင်းကြောင်းနှိုင်းယှဉ်မှုမှ ပုံတူနှိပ်ခြင်းသို့ ပြောင်းလဲခဲ့သည့် မည်သည့်အပလီကေးရှင်းသည် အလွန်အမင်း အခြေခံကျသော ပြောင်းလဲမှု ကို ပြသသနည်း။",
+    "answer": [
+      [
+        "အဆိုပါ 'Detection' အပလီကေးရှင်းသည် အလွန်အမင်း အခြေခံကျသော ပြောင်းလဲမှုကို ပြသနေသည်။ လက်ရှိနည်းလမ်းသည် အချိန်နှင့် စပ်လျဉ်း၍ နောက်ပြန်ကြည့်သော နှိုင်းယှဉ်မှု (Diff(market_now, market_past)) အပေါ် အခြေခံသည်။ ဆန့်ကျင်ဘက်အနေဖြင့် MarS နည်းလမ်းသည် လက်ရှိအချိန်နှင့် တပြိုင်နက်တည်း ပုံတူကူးထားသော အဖြစ်မှန် (Diff(market_now, simu-market_now)) နှင့် နှိုင်းယှဉ်မှုကို မိတ်ဆက်ပေးသည်။ သမိုင်းကြောင်း အခြေခံမှ ပုံတူကူးထားသော အခြေခံသို့ ဤပြောင်းလဲမှုသည် ဇယားရှိ အခြားနည်းလမ်းဆိုင်ရာ ပြောင်းလဲမှုများနှင့် နှိုင်းယှဉ်ပါက အယူအဆအရ သိသာထင်ရှားသော ကွဲပြားမှုတစ်ခု ဖြစ်သည်။"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_006",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "RL Environment အတွက် 'MarS' နည်းလမ်းကို အလားတူ အသုံးချမှုအတွက် 'Current Methods' ၏ data ရရှိနိုင်မှု ကိုအသုံးပြုရန် ပြောင်းလဲခဲ့လျှင်၊ ဤ ဤ ဤ ဤ ဤ MarS နည်းလမ်းကို မည်သည့် နှစ်ခုသော လက္ခဏာရပ်များက သတ်မှတ်မည်နည်း။",
+    "answer": [
+      [
+        "finite data"
+      ],
+      [
+        "real P(st+1|st,at)"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_007",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "'RL Environment' အပလီကေးရှင်းအတွက် 'လက်ရှိနည်းလမ်းများ' နှင့် 'MarS' တို့၏ ဒေတာရရှိနိုင်မှုနှင့် ဖြစ်နိုင်ခြေခွဲဝေမှုအကြား အဓိကကွာခြားချက်မှာ အဘယ်နည်း။",
+    "answer": [
+      [
+        "အဓိက ကွာခြားချက်မှာ ဒေတာပမာဏနှင့် ကူးပြောင်းရေး ဖြစ်နိုင်ခြေ၏ ခိုင်လုံမှု နှစ်ခုလုံးတွင် တည်ရှိသည်။ 'လက်ရှိနည်းလမ်းများ' သည် 'ကန့်သတ်ထားသော ဒေတာ' နှင့် 'အတု' ဖြစ်နိုင်ခြေခွဲဝေမှု (P(st+1|st,at)) ကို မှီခိုနေရပြီး၊ 'MarS' သည် 'အကန့်အသတ်မရှိသော ဒေတာ' နှင့် 'အစစ်' ဖြစ်နိုင်ခြေခွဲဝေမှုကို အသုံးပြုသည်။"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_008",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "ဖော်ပြပါ 'Current Methods' သို့မဟုတ် 'MarS' အတွက် ၎င်းတို့၏ နည်းလမ်းဖော်ပြချက်များတွင် 'data' ဟူသော အသုံးအနှုန်းပါဝင်သည့် သီးခြားအပလီကေးရှင်းမည်မျှရှိသနည်း။",
+    "answer": [
+      [
+        "2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_009",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "ဇယားအရ၊ MarS သည် လက်ရှိနည်းလမ်းများနှင့် နှိုင်းယှဉ်ပါက မည်သည့် သိသာထင်ရှားသော အားသာချက်ကို ပိုင်ဆိုင်ထားသနည်း၊ အထူးသဖြင့် data နှင့် reality ကို ကိုယ်စားပြုမှုနှင့် ပတ်သက်၍ မည်သို့နည်း။",
+    "answer": [
+      [
+        "အဓိကအကြောင်းအရာအရ MarS နည်းလမ်းများသည် မျိုးဆက်နှင့် simulation အခြေခံနည်းလမ်းများကို အသုံးချခြင်းဖြင့် သမိုင်း သို့မဟုတ် ကန့်သတ်ထားသော data ၏ ကန့်သတ်ချက်များကို ကျော်လွှားရန် ရည်ရွယ်ကြောင်း ဖော်ပြသည်။ MarS သည် extrapolation မှ generation သို့၊ သမိုင်းဆိုင်ရာ နှိုင်းယှဉ်မှုမှ simulation ဖြင့် နှိုင်းယှဉ်မှုသို့၊ နှင့် ကန့်သတ်/အတု data မော်ဒယ်များမှ အဆုံးမဲ့/အစစ် data မော်ဒယ်များသို့ ပြောင်းလဲသည်။ ၎င်းသည် ခွဲခြမ်းစိတ်ဖြာမှုနှင့် အားဖြည့်သင်ယူမှုအတွက် ပိုမိုခိုင်မာသော၊ ပြောင်းလွယ်ပြင်လွယ်နှင့် လက်တွေ့ကျသော data ပတ်ဝန်းကျင်များကို ဖန်တီးရာတွင် မဟာဗျူဟာမြောက် အားသာချက်ကို ညွှန်ပြသည်။"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_010",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "ဇယားတွင် ခေါင်းစဉ်အတန်းကို မပါဝင်စေဘဲ မည်မျှသော မတူညီသည့် အပလီကေးရှင်းများကို ဖော်ပြထားသနည်း။",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_011",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Forecasting အတွက် အသုံးပြုနေတဲ့ လက်ရှိနည်းလမ်းက ဘာလဲ?",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

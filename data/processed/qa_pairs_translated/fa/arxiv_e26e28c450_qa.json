@@ -1,0 +1,271 @@
+[
+  {
+    "question_id": "arxiv_e26e28c450_001",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "کدام مدل غیر چند وظیفه ای کمترین میانگین مربعات خطا (MSE_over) را به دست می آورد؟",
+    "answer": [
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "H1",
+      "A2",
+      "B2",
+      "H2",
+      "A3",
+      "B3",
+      "H3",
+      "A4",
+      "B4",
+      "H4",
+      "A5",
+      "B5",
+      "H5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_002",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "میانگین MSE را در افق 7 روزه (MSE7) برای تمام مدل‌هایی که به عنوان 'چند وظیفه ای' (Multi-Task) علامت‌گذاری شده‌اند، محاسبه کنید.",
+    "answer": [
+      [
+        "0.820"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "H6",
+      "D7",
+      "H7",
+      "D8",
+      "H8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_003",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "برای مدلی که بالاترین مقدار MSE3 (بدترین دوم) را دارد، مقدار MSE30 متناظر آن چقدر است؟",
+    "answer": [
+      [
+        "0.233"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "F3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_004",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "روند خطای میانگین مربعات (MSE) را برای مدل HTML به عنوان افق پیش‌بینی از 3 تا 30 روز افزایش می‌یابد، تجزیه و تحلیل کنید. آیا دقت پیش‌بینی آن در طول زمان بهبود می‌یابد یا بدتر می‌شود؟",
+    "answer": [
+      [
+        "دقت پیش‌بینی مدل HTML با افزایش افق پیش‌بینی بهبود می‌یابد. مقادیر MSE آن به طور مداوم از MSE3 (0.845) به MSE7 (0.349)، MSE15 (0.251) و در نهایت MSE30 (0.158) کاهش می‌یابد که نشان‌دهنده خطای کمتر و در نتیجه عملکرد بهتر در پیش‌بینی‌های بلندمدت است."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_005",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "تمام مدل‌هایی را که به عنوان 'چند وظیفه‌ای' (Multi-Task) مشخص نشده‌اند و همچنین مقدار MSE15 آن‌ها کمتر از 0.31 است، شناسایی کنید.",
+    "answer": [
+      [
+        "MT-LSTM-ATT"
+      ],
+      [
+        "HAN"
+      ],
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "H1",
+      "A2",
+      "E2",
+      "H2",
+      "A3",
+      "E3",
+      "H3",
+      "A4",
+      "E4",
+      "H4",
+      "A5",
+      "E5",
+      "H5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_006",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "مدلی را که یک استثنای آشکار در عملکرد در تمام معیارهای MSE است، شناسایی کرده و دلیل آن را توضیح دهید.",
+    "answer": [
+      [
+        "مدل GPT-3.5-Turbo یک استثنای آشکار در عملکرد است. مقادیر MSE آن در تمام افق‌ها (MSE_over: 2.198، MSE3: 2.152، MSE7: 1.793، MSE15: 2.514، MSE30: 2.332) به طور قابل توجهی بالاتر از سایر مدل‌ها است، که اکثر آن‌ها مقادیر MSE زیر 1.0 دارند. این نشان‌دهنده عملکرد پیش‌بینی ضعیف‌تری نسبت به سایر مدل‌های ذکر شده است."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_007",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "چه درصدی از کل مجموع MSE3 در بین تمام مدل‌ها به مدل GPT-3.5-Turbo نسبت داده می‌شود؟ پاسخ را به صورت درصدی و با دقت یک رقم اعشار ارائه دهید.",
+    "answer": [
+      [
+        "19.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_008",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "اگر MSE_over برای مدل RiskLabs ۲۵٪ بهبود یابد (یعنی ۲۵٪ کاهش یابد)، مقدار جدید آن چقدر خواهد بود و در مقایسه با MSE_over مدل HTML چگونه رتبه بندی می شود؟",
+    "answer": [
+      [
+        "مقدار جدید MSE_over برای RiskLabs 0.243 خواهد بود. این مقدار کمتر و در نتیجه بهتر از MSE_over مدل HTML یعنی 0.401 است."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_009",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "بر اساس جدول، چه رابطه‌ای بین دسته‌بندی یک مدل به عنوان «چند وظیفه‌ای» (Multi-Task) و در دسترس بودن امتیاز «VaR» وجود دارد؟",
+    "answer": [
+      [
+        "همبستگی قوی وجود دارد. تنها مدل‌هایی که به عنوان «چند وظیفه‌ای» (Multi-Task) تعیین شده‌اند (GPT-3.5-Turbo و RiskLabs) دارای امتیاز عددی «VaR» گزارش شده هستند. با این حال، همه مدل‌های «چند وظیفه‌ای» امتیاز VaR ندارند (به عنوان مثال، HTML)، و هیچ مدلی که «چند وظیفه‌ای» نباشد، آن را ندارد. این نشان می‌دهد که قابلیت محاسبه VaR، ویژگی است که عمدتاً با مدل‌های «چند وظیفه‌ای» در این مجموعه داده مرتبط است."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "H1",
+      "G2",
+      "H2",
+      "G3",
+      "H3",
+      "G4",
+      "H4",
+      "G5",
+      "H5",
+      "G6",
+      "H6",
+      "G7",
+      "H7",
+      "G8",
+      "H8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_010",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "کدام ستون معیار عملکرد حاوی داده‌های جایگزین غیرعددی است و این داده‌ها برای کدام مدل‌های خاصی وجود ندارد؟",
+    "answer": [
+      [
+        "ستون 'VaR' حاوی داده‌های غیرعددی ('/') است. این داده‌ها برای مدل‌های زیر وجود ندارند: Classical Method، LSTM، MT-LSTM-ATT، HAN، MRDM و HTML."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_011",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "کدام مدل بهترین تعادل کلی را بین دقت پیش‌بینی در افق‌های مختلف (MSE3–MSE30) و تخمین ریسک (VaR) نشان می‌دهد؟",
+    "answer": [
+      [
+        "مدل RiskLabs بهترین تعادل کلی را دستیابی می‌کند، با حفظ پایین‌ترین مقادیر MSE در تمام افق‌ها و کمترین VaR (0.049)، که نشان‌دهنده دقت پیش‌بینی قوی و تخمین ریسک قابل اعتماد است."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "G8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

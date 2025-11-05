@@ -1,0 +1,269 @@
+[
+  {
+    "question_id": "arxiv_a783ff97d3_001",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "کدام روش انتخاب ویژگی کمترین مقدار خطا را برای تنظیمات پیش‌بینی 'BC2_64' به دست آورد؟",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_002",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "تعداد میانگین متغیرهای اگزوژنوس مورد استفاده توسط روش 'انتخاب ویژگی رگرسیون LASSO' در تمام تنظیمات پیش‌بینی چقدر است؟",
+    "answer": [
+      [
+        "6.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_003",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "برای تنظیم پیش‌بینی 'BC3_28'، معیار خطا برای روشی که بیشترین تعداد متغیرهای خارجی را استفاده می‌کند، چیست؟",
+    "answer": [
+      [
+        "18.23"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "G2",
+      "G3",
+      "A4",
+      "G4",
+      "G5",
+      "A6",
+      "G6",
+      "G7",
+      "A8",
+      "G8",
+      "G9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_004",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "آیا افزایش تعداد متغیرهای خارجی به طور مداوم عملکرد را بهبود می‌بخشد (یعنی مقدار خطا را کاهش می‌دهد) برای تنظیمات 'BC1_64'؟ لطفاً تحلیل مختصری ارائه دهید.",
+    "answer": [
+      [
+        "خیر، رابطه ثابتی وجود ندارد. برای تنظیمات 'BC1_64'، 'انتخاب مبتنی بر همبستگی' از 3 متغیر با خطای 14.11 استفاده می‌کند، 'رگرسیون LASSO' نیز از 3 متغیر استفاده می‌کند اما خطای بالاتری معادل 14.55 دارد. 'انتخاب ویژگی رو به جلو NP' از تعداد بسیار بیشتری متغیر (28) استفاده می‌کند و خطای به طور قابل توجهی بهتر (کمتر) 9.16 را به دست می‌آورد. این نشان می‌دهد که در حالی که تعداد بیشتر متغیرها می‌تواند بهتر باشد، روش انتخاب خاص حیاتی است و صرفاً افزودن متغیرها تضمینی برای بهبود نیست."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "B3",
+      "A4",
+      "B4",
+      "B5",
+      "A6",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_005",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "تمام روش‌های انتخاب ویژگی را که برای تنظیم 'BC3_64' مقدار خطای بیشتر از 15 را نشان دادند، فهرست کنید.",
+    "answer": [
+      [
+        "Without exogenous variables"
+      ],
+      [
+        "Correlation-Based Selection"
+      ],
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Manual feature selection"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A4",
+      "F4",
+      "A6",
+      "F6",
+      "A8",
+      "F8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_006",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "درصد کل تعداد متغیرهای خارجی که توسط 'انتخاب ویژگی پیشرو NP' در تمام تنظیمات استفاده شده است، به تنظیم 'BC1_64' اختصاص داده شده است؟",
+    "answer": [
+      [
+        "28.57"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_007",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "اگر خطای پردازش داده باعث شود تمام معیارهای خطا برای تنظیم 'BC2_28' 2.5 امتیاز کمتر از مقدار ثبت شده باشد، خطای جدید برای 'انتخاب دستی ویژگی' چقدر خواهد بود؟",
+    "answer": [
+      [
+        "13.57"
+      ]
+    ],
+    "evidence_cells": [
+      "E8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_008",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "در میان روش‌های انتخاب ویژگی که تعداد متغیرها به صراحت ذکر شده است، کدام یک ناپایداری بیشتری را بر اساس دامنه (حداکثر منهای حداقل) متغیرهای انتخاب شده در تنظیمات مختلف پیش‌بینی نشان می‌دهد؟",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "A6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "A8",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9",
+      "G9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_009",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "برای روش 'انتخاب ویژگی رگرسیون LASSO'، مقدار خطا برای 'BC3_28' یک مقدار پرت است. تعداد متغیرهای بیرونی متناظر آن در مقایسه با تنظیمات دیگر برای همان روش چگونه است؟",
+    "answer": [
+      [
+        "تنظیم 'BC3_28'، که دارای خطای بالای پرت 28.79 برای LASSO است، بالاترین تعداد متغیرهای بیرونی (16) را نیز برای آن روش استفاده می‌کند. این به طور قابل توجهی بیشتر از تنظیمات دیگر است که بین 0 تا 10 متغیر متغیر است. این نشان‌دهنده یک مشکل احتمالی است که در آن روش LASSO مجموعه بزرگی، اما با عملکرد ضعیف، از ویژگی‌ها را برای این زمینه پیش‌بینی خاص انتخاب کرده است."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5",
+      "E4",
+      "E5",
+      "F4",
+      "F5",
+      "G4",
+      "G5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_010",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "با تجزیه و تحلیل عملکرد خط پایه 'بدون متغیرهای خارجی'، روند معیار خطا را هنگام حرکت متوالی از تنظیمات 'BC1' به 'BC2' و سپس 'BC3' توصیف کنید.",
+    "answer": [
+      [
+        "عملکرد خط پایه 'بدون متغیرهای خارجی' الگوی واضحی را در تنظیمات نشان می‌دهد. این امر با مقادیر خطای متوسط برای تنظیمات BC1 (11.14، 13.65) شروع می‌شود. عملکرد به طور چشمگیری برای تنظیمات BC2 که کمترین خطاها را دارند (3.75، 9.08) بهبود می‌یابد. در نهایت، خطا برای تنظیمات BC3 (17.53، 9.06) دوباره افزایش می‌یابد و BC3_64 بالاترین خطا را در کل برای این روش دارد. این نشان می‌دهد که مدل خط پایه بهترین تناسب را با شرایط BC2 دارد."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_011",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "در بین «انتخاب ویژگی رگرسیون LASSO» و «انتخاب ویژگی پیشرو NP»، کدام تنظیم پیش‌بینی در پیکربندی BC2_64 مقدار کمتری به دست آورد؟",
+    "answer": [
+      [
+        "'انتخاب ویژگی پیشرو NP' در پیکربندی BC2_64 مقدار کمتری (2.9) نسبت به 'انتخاب ویژگی رگرسیون LASSO' (5.73) به دست آورد."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "D5",
+      "D7"
+    ],
+    "reasoning_category": "Comaparative Reasoning"
+  }
+]

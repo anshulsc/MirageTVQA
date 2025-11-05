@@ -1,0 +1,202 @@
+[
+  {
+    "question_id": "arxiv_b617ec8b31_001",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "በ MarS ዘዴው የአሁኑን ገበያ ከሲሙሌትድ ገበያ ጋር በማነፃፀር ለሚመለከተው አፕሊኬሽን፣ ተጓዳኝ የአሁኑ ዘዴ ምን ያነፃፅራል?",
+    "answer": [
+      [
+        "Diff⁡(marketn⁢o⁢w,marketp⁢a⁢s⁢t)"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_002",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "በ 'ማርኤስ' ዘዴ ከሚጠቀሙት ከሚቀርቡት መተግበሪያዎች ውስጥ የ 'ትውልድ' ወይም 'ሲሙሌሽን' ዘዴዎችን የሚያካትተው ምን ያህሉ ነው?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_003",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "የ 'ወቅታዊ ዘዴዎች' ጥቅም ላይ የዋለውን ከጊዜ ጋር የተያያዘ ንጽጽር የ MarS ዘዴ 'ማወቅ' ለሚለው ትግበራ እንዴት ይቀይረዋል?",
+    "answer": [
+      [
+        "ለ 'ማወቅ' 'ወቅታዊ ዘዴዎች' በአሁኑ የገበያ ሁኔታ (market_now) እና ያለፈው የገበያ ሁኔታ (market_past) መካከል ያለውን ልዩነት በማስላት በታሪክ ላይ የተመሠረተ ንጽጽር ያደርጋሉ። የ MarS ዘዴ የዚህን ያለፈው ዳታ ጥገኝነት ያስወግዳል። ይልቁንም የአሁኑን ገበያ (market_now) ከዘመናዊው በተመሰለ ገበያ (simu-market_now) ጋር ያነፃፀራል፤ ይህም ንጽጽሩን ከጊዜያዊ (አሁን vs торонто) ወደ ሞዴል-ఆధారిత (እውነተኛ vs. simulated) ማዕቀፍ ይለውጠዋል።"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_004",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "ለ 'pipeline' እንደሆነ ወይም 'generation' የሚያካትት እንደሆነ ከተገለጸው 'MarS' ዘዴ ጋር ለተያያዙት ሁሉንም መተግበሪያዎች 'የአሁኑ ዘዴዎች' ዝርዝር ይዘርዝሩ።",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ],
+      [
+        "online experiments, empirical formula"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B1",
+      "C3",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_005",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "የትኛው አፕሊኬሽን 'የአሁኑ ዘዴዎች' እና 'MarS' መካከል ባለው አቀራረብ ላይ ከፍተኛ መሠረታዊ ለውጥ ያሳያል፣ ከታሪካዊ ንፅፅር ወደ ሰው ሰራሽ ንፅፅር በመሸጋገር?",
+    "answer": [
+      [
+        "በ 'ማወቂያ' (Detection) አፕሊኬሽን ላይ ነው ከፍተኛ መሠረታዊ ለውጥ የሚያሳየው። የአሁኑ ዘዴ የሚሠራው በጊዜ ሂደት ላይ በተመሰረተ፣ ወደ ኋላ ተመልክቶ በሚደረግ ንፅፅር (Diff(market_now, market_past)) ላይ ነው። በንፅፅር፣ የMarS ዘዴ አሁን ካለበት አስመሳይ እውነታ ጋር ንፅፅርን ያካትታል (Diff(market_now, simu-market_now))። ከታሪካዊ መረጃ ይልቅ አስመሳይን ለንፅፅር መነሻ ማድረግ፣ ከሌሎች ዘዴዎች በተለየ መልኩ ትልቅ ፅንሰ-ሀሳባዊ ለውጥ ነው።"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_006",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "የ 'RL Environment' 'MarS' አካሄድ ለዚሁ መተግበሪያ 'Current Methods' ያለውን የውሂብ ተገኝነት እንዲጠቀም ከተደረገ፣ ይህን ምናባዊ የMarS ዘዴ የሚገልጹት የትኞቹ ሁለት ባህሪያት ናቸው?",
+    "answer": [
+      [
+        "finite data"
+      ],
+      [
+        "real P(st+1|st,at)"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_007",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "ለ 'RL Environment' ማመልከቻ፣ 'Current Methods' እና 'MarS' መካከል ባለው የውሂብ ተገኝነት እና የፕሮባቢሊቲ ስርጭት ቁልፍ ልዩነት ምንድነው?",
+    "answer": [
+      [
+        "ቁልፍ ልዩነቱ የውሂብ መጠን እና የሽግግር ፕሮባቢሊቲ ትክክለኛነት ላይ ነው። 'Current Methods' በ'finite data' እና በ'fake' ፕሮባቢሊቲ ስርጭት (P(st+1|st,at)) ላይ የሚተማመን ሲሆን 'MarS' ደግሞ 'infinite data' እና 'real' ፕሮባቢሊቲ ስርጭትን ይጠቀማል።"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_008",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "በ\"የአሁኑ ዘዴዎች\" ወይም \"MarS\" ውስጥ በዘዴዎቻቸው መግለጫዎች ውስጥ 'ውሂብ' የሚለውን ቃል የሚያካትቱ ስንት የተለያዩ መተግበሪያዎች ተዘርዝረዋል?",
+    "answer": [
+      [
+        "2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_009",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "ሠንጠረዡን መሠረት በማድረግ፣ በተለይም በተመለከተ ዳታ እና የእውነታ ውክልና የ\"Current Methods\" ጋር ሲነፃፀር \"MarS\" ያለው ግልጽ የሆነ የላቀ ጥቅም ምንድነው?",
+    "answer": [
+      [
+        "አጠቃላይ ጭብጡ የሚያመለክተው MarS ዘዴዎች ከታሪካዊ ወይም ውስን ዳታ ገደቦች በላይ ለመሄድ በፈጠራ እና በሲሙሌሽን ላይ በተመሠረቱ አቀራረቦች ለመጠቀም እንደሚፈልጉ ነው። MarS ከኤክስትራፖሌሽን ወደ ጀነሬሽን፣ ከታሪካዊ ንፅፅር ወደ ሲሙሌትድ ንፅፅር፣ እና ከውስን/ሐሰተኛ ዳታ ሞዴሎች ወደ ማለቂያ የለሽ/እውነተኛ ዳታ ሞዴሎች ይሸጋገራል። ይህ ትንታኔ እና ማጠናከሪያ ትምህርት (reinforcement learning) ይበልጥ ጠንካራ፣ ተለዋዋጭ እና ተጨባጭ የዳታ አካባቢዎችን ለመፍጠር ስልታዊ ጠቀሜታ እንዳለው ያሳያል።"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_010",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "ከመግቢያው ረድፍ ውጭ፣ በሰንጠረዡ ውስጥ ስንት የተለያዩ አፕሊኬሽኖች ተገልጸዋል?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_011",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "ለመተንበይ (Forecasting) ጥቅም ላይ የሚውለው የአሁኑ ዘዴ ምንድን ነው?",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

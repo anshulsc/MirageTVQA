@@ -1,0 +1,254 @@
+[
+  {
+    "question_id": "arxiv_b36bd12771_001",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Manakah pekali beta (β) yang menunjukkan bukti statistik terkuat tentang kesannya, seperti yang ditunjukkan oleh nilai t mutlak tertinggi?",
+    "answer": [
+      [
+        "β₄"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "D8",
+      "D2",
+      "D4",
+      "D6",
+      "D10",
+      "D12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_002",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Berapakah ralat piawai purata bagi semua pekali alfa (α) yang signifikan secara statistik pada tahap p < 0.05?",
+    "answer": [
+      [
+        "0.036"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "E3",
+      "A11",
+      "C11",
+      "E11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_003",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Bagi komponen model (yang dizwaki oleh nombor subskrip) yang pekali βnya mempunyai selang keyakinan 95% yang paling lebar, apakah nilai-p bagi pekali α yang sepadan?",
+    "answer": [
+      [
+        "0.005"
+      ]
+    ],
+    "evidence_cells": [
+      "F2",
+      "G2",
+      "F4",
+      "G4",
+      "F6",
+      "G6",
+      "F8",
+      "G8",
+      "F10",
+      "G10",
+      "F12",
+      "G12",
+      "A3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_004",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Huraikan trend bagi magnitud pekali β apabila subskrip meningkat dari 1 hingga 6. Adakah terdapat corak yang konsisten?",
+    "answer": [
+      [
+        "Tiada trend monotonik yang konsisten. Pekali β pada mulanya meningkat dari β₁ (0.7208) kepada β₂ (0.8237), tetapi kemudiannya menjunam mendadak untuk β₃ (0.0025) dan model seterusnya. Nilai untuk dua komponen pertama adalah berorders of magnitude lebih besar daripada komponen 3 hingga 6, yang kesemuanya sangat hampir dengan sifar."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A6",
+      "B6",
+      "A8",
+      "B8",
+      "A10",
+      "B10",
+      "A12",
+      "B12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_005",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Kenal pasti semua model yang dipasang di mana pekali alfa (α) adalah tidak signifikan secara statistik (nilai P > 0.4) DAN mempunyai ralat piawai kurang daripada 0.03.",
+    "answer": [
+      [
+        "α₁"
+      ],
+      [
+        "α₃"
+      ],
+      [
+        "α₅"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "E1",
+      "A5",
+      "C5",
+      "E5",
+      "A9",
+      "C9",
+      "E9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_006",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Berapakah peratusan pekali model yang dipasang (kedua-dua α dan β) yang signifikan secara statistik, ditakrifkan sebagai mempunyai nilai p kurang daripada 0.05?",
+    "answer": [
+      [
+        "66.67%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_007",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Jika ralat piawai untuk model α₁ didarab dua (dikurangkan separuh), apakah statistik-t baharunya? Berdasarkan hubungan antara statistik-t dan nilai-p untuk model lain dalam jadual, adakah perubahan ini berkemungkinan menjadikan pekali α₁ signifikan secara statistik (p < 0.05)?",
+    "answer": [
+      [
+        "Statistik-t baharu ialah -1.593 (-0.0215 / (0.027 / 2)). Ini tidak mungkin menjadikan pekali itu signifikan secara statistik. Sebagai perbandingan, model α₂ mempunyai statistik-t sebanyak -2.803 dan nilai-p sebanyak 0.005. Statistik-t dengan nilai mutlak yang lebih kecil seperti -1.593 akan mempunyai nilai-p yang lebih tinggi, kemungkinan kekal di atas ambang 0.05 untuk kesignifikanan, yang biasanya memerlukan nilai-t mutlak sekitar 2 atau lebih."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_008",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Analisis hubungan antara magnitud pekali β dan statistik-t yang sepadan dengannya. Adakah pekali yang lebih besar secara konsisten membawa kepada statistik-t yang lebih besar?",
+    "answer": [
+      [
+        "Tidak, pekali β yang lebih besar tidak secara konsisten membawa kepada statistik-t yang lebih besar. Contohnya, β₂ mempunyai pekali terbesar (0.8237) tetapi statistik-t-nya (8.418) jauh lebih kecil daripada β₄ (126.061), yang mempunyai pekali yang sangat kecil (0.0041). Statistik-t ialah nisbah pekali kepada ralat piawainya, jadi ralat piawai yang sangat kecil boleh menghasilkan statistik-t yang sangat besar walaupun pekali kecil, seperti yang dilihat dengan model β₃ hingga β₆."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2",
+      "B4",
+      "D4",
+      "B6",
+      "D6",
+      "B8",
+      "D8",
+      "B10",
+      "D10",
+      "B12",
+      "D12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_009",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan prinsip statistik, selang keyakinan 95% yang tidak mengandungi sifar sepatutnya berpadanan dengan nilai p kurang daripada 0.05. Adakah terdapat sebarang pekali model yang dipasang dalam jadual di mana selang keyakinan dan nilai p tidak konsisten dengan prinsip ini?",
+    "answer": [
+      [
+        "Tidak, semua pekali dalam jadual menunjukkan konsistensi antara nilai p dan selang keyakinan 95% mereka. Semua pekali dengan nilai p kurang daripada 0.05 (cth., β₁, α₂, β₂) mempunyai selang keyakinan yang tidak merangkumi sifar. Sebaliknya, semua pekali dengan nilai p lebih besar daripada 0.05 (cth., α₁, α₃, α₄) mempunyai selang keyakinan yang merangkumi sifar."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "G1",
+      "E2",
+      "F2",
+      "G2",
+      "E3",
+      "F3",
+      "G3",
+      "E4",
+      "F4",
+      "G4",
+      "E5",
+      "F5",
+      "G5",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_010",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Manakah pekali alfa (α) yang statistik t-nya merupakan outlier paling ketara jika dibandingkan dengan statistik t pekali alfa yang lain?",
+    "answer": [
+      [
+        "α₆, dengan statistik t sebanyak 7.305, adalah outlier paling ketara. Statistik t alfa yang lain ialah -0.787, -2.803, -0.269, 0.013, dan 0.729. Kebanyakan nilai ini terkumpul di antara -3 dan 1. Nilai 7.305 adalah lebih besar dalam magnitud dan merupakan satu-satunya nilai positif yang besar, menjadikannya menonjol dengan ketara daripada kumpulan yang lain."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A3",
+      "D3",
+      "A5",
+      "D5",
+      "A7",
+      "D7",
+      "A9",
+      "D9",
+      "A11",
+      "D11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

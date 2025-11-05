@@ -1,0 +1,202 @@
+[
+  {
+    "question_id": "arxiv_b617ec8b31_001",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Για την εφαρμογή όπου η μέθοδος MarS περιλαμβάνει τη σύγκριση της τρέχουσας αγοράς με μια προσομοιωμένη αγορά, τι συγκρίνει η αντίστοιχη τρέχουσα μέθοδος;",
+    "answer": [
+      [
+        "Diff⁡(marketn⁢o⁢w,marketp⁢a⁢s⁢t)"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_002",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Τι ποσοστό των εφαρμογών που αναφέρονται χρησιμοποιεί μια μέθοδο 'MarS' που περιλαμβάνει είτε 'παραγωγή' είτε 'προσομοίωση';",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_003",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Πώς η μέθοδος MarS για την εφαρμογή 'Ανίχνευση' τροποποιεί τη χρονική σύγκριση που χρησιμοποιείται στις 'Τρέχουσες Μεθόδους';",
+    "answer": [
+      [
+        "Οι 'Τρέχουσες Μέθοδοι' για την 'Ανίχνευση' βασίζονται σε μια ιστορική σύγκριση υπολογίζοντας τη διαφορά μεταξύ της τρέχουσας κατάστασης της αγοράς (market_now) και μιας παρελθούσας κατάστασης της αγοράς (market_past). Η μέθοδος MarS εξαλείφει αυτή την εξάρτηση από παρελθοντικά δεδομένα. Αντ' αυτού, συγκρίνει την τρέχουσα αγορά (market_now) με μια ταυτόχρονα προσομοιωμένη αγορά (simu-market_now), μετατοπίζοντας τη σύγκριση από ένα χρονικό (τώρα έναντι τότε) σε ένα μοντελο-βασισμένο (πραγματικό έναντι προσομοιωμένου) πλαίσιο."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_004",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Απαριθμήστε τις 'Τρέχουσες Μεθόδους' για όλες τις εφαρμογές όπου η μέθοδος 'MarS' περιγράφεται ως 'pipeline' ή περιλαμβάνει 'generation'.",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ],
+      [
+        "online experiments, empirical formula"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B1",
+      "C3",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_005",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Ποια εφαρμογή παρουσιάζει την πιο θεμελιώδη αλλαγή στην προσέγγιση μεταξύ των 'Τρεχουσών Μεθόδων' και του 'MarS', μεταβαίνοντας από μια ιστορική σύγκριση σε μια προσομοιωμένη;",
+    "answer": [
+      [
+        "Η εφαρμογή 'Ανίχνευση' παρουσιάζει τη θεμελιωδέστερη αλλαγή. Η τρέχουσα μέθοδος βασίζεται σε μια χρονική, αναδρομική σύγκριση (Diff(market_now, market_past)). Αντίθετα, η μέθοδος MarS εισάγει μια σύγκριση με μια ταυτόχρονη προσομοιωμένη πραγματικότητα (Diff(market_now, simu-market_now)). Αυτή η αλλαγή από μια ιστορική βάση σε μια προσομοιωμένη βάση για σύγκριση αποτελεί ένα σημαντικό εννοιολογικό απόκλιση σε σύγκριση με τις άλλες μεθοδολογικές αλλαγές στον πίνακα."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_006",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Αν η προσέγγιση 'MarS' για το 'RL Environment' τροποποιούνταν ώστε να χρησιμοποιεί τη διαθεσιμότητα δεδομένων των 'Current Methods' για την ίδια εφαρμογή, ποια δύο χαρακτηριστικά θα όριζαν αυτή τη υποθετική μέθοδο MarS;",
+    "answer": [
+      [
+        "finite data"
+      ],
+      [
+        "real P(st+1|st,at)"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_007",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Για την εφαρμογή 'RL Environment', ποια είναι η βασική διαφορά στην διαθεσιμότητα δεδομένων και την κατανομή πιθανότητας μεταξύ των 'Current Methods' και του 'MarS'?",
+    "answer": [
+      [
+        "Η βασική διαφορά έγκειται τόσο στον όγκο των δεδομένων όσο και στην αυθεντικότητα της πιθανότητας μετάβασης. Οι 'Current Methods' βασίζονται σε 'πεπερασμένα δεδομένα' και σε μια 'ψεύτικη' κατανομή πιθανότητας (P(st+1|st,at)), ενώ το 'MarS' χρησιμοποιεί 'άπειρα δεδομένα' και μια 'πραγματική' κατανομή πιθανότητας."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_008",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Πόσες διακριτές εφαρμογές που αναφέρονται περιλαμβάνουν τον όρο 'δεδομένα' στις περιγραφές μεθόδων τους είτε για τις 'Τρέχουσες Μεθόδους' είτε για το 'MarS';",
+    "answer": [
+      [
+        "2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_009",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Με βάση τον πίνακα, ποιο είναι το προφανές υπέρτατο πλεονέκτημα του MarS σε σύγκριση με τις Τρέχουσες Μεθόδους, ειδικά όσον αφορά την αναπαράσταση δεδομένων και πραγματικότητας;",
+    "answer": [
+      [
+        "Το υπέρτατο θέμα υποδηλώνει ότι οι μέθοδοι MarS στοχεύουν να ξεπεράσουν τους περιορισμούς των ιστορικών ή πεπερασμένων δεδομένων, αξιοποιώντας γενετικές και βασισμένες σε προσομοίωση προσεγγίσεις. Το MarS μετατοπίζεται από την εξαγωγή σε παραγωγή, από την ιστορική σύγκριση σε σύγκριση μέσω προσομοίωσης, και από πεπερασμένα/ψεύτικα μοντέλα δεδομένων σε άπειρα/πραγματικά μοντέλα δεδομένων. Αυτό υποδηλώνει ένα στρατηγικό πλεονέκτημα στη δημιουργία πιο στιβαρών, ευέλικτων και ρεαλιστικών περιβαλλόντων δεδομένων για ανάλυση και ενισχυτική μάθηση."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_010",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Εξαιρουμένης της γραμμής κεφαλίδας, πόσες διακριτές εφαρμογές περιγράφονται λεπτομερώς στον πίνακα;",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_011",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Ποια είναι η τρέχουσα μέθοδος που χρησιμοποιείται για την Πρόβλεψη;",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

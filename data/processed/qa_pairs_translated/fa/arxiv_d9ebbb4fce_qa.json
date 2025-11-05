@@ -1,0 +1,201 @@
+[
+  {
+    "question_id": "arxiv_d9ebbb4fce_001",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "کدام مدل به صراحت ذکر شده است که عملکرد SOTA (پیشرفته‌ترین) را در معیارهای متعدد به دست آورده است؟",
+    "answer": [
+      [
+        "TimeMixer"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_002",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "چند مورد از مدل‌های ذکر شده، فناوری «ترانسفورمر» را در نوآوری کلیدی یا روش‌شناسی خود به کار می‌برند؟",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_003",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "نوآوری کلیدی مدلی که از استراتژی‌های آموزش چندمجموعه داده‌ای استفاده می‌کند، چیست؟",
+    "answer": [
+      [
+        "Open-source foundation model family"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_004",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "متدولوژی کدام مدل به طور منحصر به فرد شامل تبدیل داده‌های زمانی 1 بعدی به یک نمایش 2 بعدی برای تحلیل الگوها است؟",
+    "answer": [
+      [
+        "TimesNet"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_005",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "مدل‌هایی را فهرست کنید که یا به عنوان 'مدل بنیادین' توصیف شده‌اند یا در نوآوری خود از رویکرد 'پیش‌آموزش‌دیده' استفاده می‌کنند.",
+    "answer": [
+      [
+        "Timer"
+      ],
+      [
+        "MOMENT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_006",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "چند درصد از مدل‌های این فهرست از معماری مبتنی بر ترانسفورمرها استفاده می‌کنند؟",
+    "answer": [
+      [
+        "60%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B5",
+      "C5",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_007",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "اگر محدودیت اصلی یک تیم تحقیقاتی مقدار بسیار کمی از داده‌های آموزشی (۱-۵٪) باشد، نتایج کدام مدل نشان می‌دهد که مؤثرترین انتخاب خواهد بود؟",
+    "answer": [
+      [
+        "Timer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_008",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "open_ended_reasoning",
+    "question": "بر اساس جدول، چه رابطه‌ای بین روش‌شناسی یک مدل و نتایج اصلی آن، به ویژه در مورد معماری‌های ترنسفورمر، می‌توان استنباط کرد؟",
+    "answer": [
+      [
+        "داده‌ها نشان‌دهنده همبستگی بین به‌کارگیری معماری‌های مبتنی بر ترنسفورمر و دستیابی به عملکرد قوی در سناریوهای خاص و چالش‌برانگیز هستند. به عنوان مثال، ترنسفورمرِ فقط رمزگشای از پیش آموزش‌دیده (pre-trained decoder-only transformer) مدل Timer به عملکرد قوی در یادگیری چند شاتی (few-shot performance) منجر می‌شود، در حالی که ترنسفورمر مستقل از کانال (channel-independent transformer) مدل PatchTST باعث کاهش قابل توجه MSE در پیش‌بینی بلندمدت می‌گردد. این موضوع نشان می‌دهد که روش‌شناسی‌های مبتنی بر ترنسفورمر به ویژه برای وظایفی که نیاز به کارایی داده (یادگیری چند شاتی) یا ثبت وابستگی‌های طولانی‌مدت (پیش‌بینی بلندمدت) دارند، مؤثر هستند."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_009",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "کدام ستون حاوی اطلاعاتی است که رویکرد الگوریتمی یا ساختاری بنیادی هر مدل را توصیف می‌کند؟",
+    "answer": [
+      [
+        "Methodology"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_010",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "نتیجه اصلی کدام مدل به جای توضیحات کیفی مانند عملکرد «قوی» یا «برتر»، با ارائه یک معیار عملکرد کمی و مشخص متمایز می‌شود؟",
+    "answer": [
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_011",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "کدام مدل در ۱۸ مجموعه داده معیار از همه مدل‌ها بهتر عمل کرد؟",
+    "answer": [
+      [
+        "TimeMixer"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,208 @@
+[
+  {
+    "question_id": "arxiv_5e3be8dfe7_001",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "איזה מודל מכיל את המספר הרב ביותר של הסברים פרמטריים נפרדים המפורטים בטבלה?",
+    "answer": [
+      [
+        "Neural Networks"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_002",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "כמה פרמטרים נפרדים מוסברים בסך הכל עבור כל המודלים המשתמשים ברכיב סכום (Σ) בנוסחה הראשית שלהם?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_003",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "ציין את המודלים שהנוסחה הראשית שלהם אינה כוללת העלאה בחזקת e (לדוגמה, e^x).",
+    "answer": [
+      [
+        "Neural Networks"
+      ],
+      [
+        "Support Vector Machine"
+      ],
+      [
+        "Decision Tree"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_004",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "איזה אחוז מהמודלים המפורטים משתמשים בפרמטר המייצג דגימות אינדיבידואליות או נקודות נתונים (למשל, 'מדגם i') בנוסחה שלהם?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "C8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_005",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "אם מספר קטגוריות הדגימה 'm' במודל עץ החלטה הוא 1, מה יהיה הערך המחושב של אנטרופיית המידע 'Ent(D)' לפי הנוסחה?",
+    "answer": [
+      [
+        "0"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_006",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "איזה מודל, המוצג כבעיית אופטימיזציה (מזעור) ולא כחישוב ישיר של ערך פלט, שונה מהותית מאחרים?",
+    "answer": [
+      [
+        "Support Vector Machine"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B7",
+      "B9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_007",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "בהתבסס על הנוסחאות והפרמטרים, מהם ההבדלים בתפקידים של הפרמטר 'β' ברגרסיה לוגיסטית לעומת הפרמטר 'w' במכונת וקטורים תומכים?",
+    "answer": [
+      [
+        "ברגרסיה לוגיסטית, 'β' הוא וקטור שורה של מקדמי רגרסיה אשר, יחד עם נקודת החיתוך, קובע את ההסתברות לתוצאה דרך הפונקציה הלוגיסטית. במכונת וקטורים תומכים (SVM), 'w' הוא וקטור פרמטרים המגדיר את כיוון ההיפר-מישור המפריד. המטרה ב-SVM היא למצוא את 'w' שממקסם את השוליים בין הקבוצות על ידי מזעור הנורמה L2 שלו, בעוד שברגרסיה לוגיסטית, 'β' נמצא בדרך כלל על ידי מקסום פונקציית הנראות של הנתונים הנצפים."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C3",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_008",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "כיצד המושגים 'שכבות' ברשתות נוירונים ו'אנטרופיה' בעצי החלטה משקפים את הגישות השונות שלהם ללמידה מנתונים?",
+    "answer": [
+      [
+        "המושג 'שכבות' (l ו-l-1) ברשתות נוירונים משקף גישת למידת תכונות היררכית. המודל לומד ייצוגים מורכבים יותר ויותר של הנתונים על ידי העברת אקטיבציות דרך שכבות עוקבות, תוך התאמת משקולות ('w') והטיות ('b') ליצירת מקורב פונקציה מורכב. לעומת זאת, המושג 'אנטרופיה' (Ent(D)) בעצי החלטה משקף גישה חמדנית, מבוססת כללים. המודל מחלק באופן רקורסיבי את הנתונים לתת-קבוצות טהורות יותר על ידי בחירת תכונות המובילות לירידה הגדולה ביותר באנטרופיה (רווח מידע), ויצירת סט מפורש של כללי 'אם-אז'."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_009",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "מהי ספירת המודלים הייחודיים המתוארים בטבלה?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_010",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "באיזה עמודה המטרה העיקרית היא להגדיר את המשתנים המשמשים בעמודה הסמוכה?",
+    "answer": [
+      [
+        "Parameter and Explanation"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

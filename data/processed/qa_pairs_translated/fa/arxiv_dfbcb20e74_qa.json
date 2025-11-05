@@ -1,0 +1,167 @@
+[
+  {
+    "question_id": "arxiv_dfbcb20e74_001",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "فرمول اصلی کدام مدل به صراحت شامل مولفه نرخ بدون ریسک است؟",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_002",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "تعداد متغیرهای متمایز 'X' که به عنوان ورودی در فرمول مدل Z-score استفاده می شوند، چقدر است؟",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_003",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "مدلی را که در آن «کل دارایی‌ها» به عنوان مخرج در حداقل سه پارامتر توضیح داده شده استفاده می‌شود، شناسایی کنید و سپس بیان کنید کدام پارامتر از آن مدل نشان‌دهنده نسبت «ارزش بازار سهام» به «کل بدهی‌ها» است.",
+    "answer": [
+      [
+        "Z-score Model"
+      ],
+      [
+        "X4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_004",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "کدام مدل شامل پارامترهایی است که به صراحت به عنوان \"در زمان t\" اندازه‌گیری شده تعریف شده‌اند؟",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_005",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "اگر هدف تحلیلی تعیین احتمال یک نتیجه دوتایی (y=1) باشد، کدام مدل فهرست شده در جدول مناسب‌ترین گزینه است؟",
+    "answer": [
+      [
+        "Logistic Regression"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_006",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "در مدل Z-score، ضریب متغیر 'درآمد قبل از بهره و مالیات به کل دارایی‌ها' چیست و این ضریب در مقایسه با سایر متغیرها چگونه است؟",
+    "answer": [
+      [
+        "ضریب X3 (درآمد قبل از بهره و مالیات به کل دارایی‌ها) برابر با 3.3 است. این بالاترین وزن در بین تمام پنج متغیر است و نشان می‌دهد که بیشترین تأثیر را بر Z-score نهایی نسبت به متغیرهایی مانند X1 (1.2)، X2 (1.4)، X4 (0.6) و X5 (0.99) دارد."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_007",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "اگر نسخه به روز شده مدل امتیاز Z، تاثیر «نسبت سرمایه در گردش به کل دارایی‌ها» را 50 درصد کاهش دهد، ضریب جدید برای X1 چقدر خواهد بود؟",
+    "answer": [
+      [
+        "0.6"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_008",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "بر اساس فرمول مدل امتیاز Z (Z-score)، رابطه استنباط شده بین نسبت کل فروش به کل دارایی‌های یک شرکت و امتیاز Z حاصل از آن چیست؟",
+    "answer": [
+      [
+        "رابطه همبستگی مثبتی بین نسبت کل فروش به کل دارایی‌ها (X5) و امتیاز Z وجود دارد. فرمول نشان می‌دهد که امتیاز Z مجموع وزنی پنج نسبت است و ضریب X5 مثبت (0.99) است. بنابراین، با ثابت نگه داشتن سایر عوامل، افزایش نسبت کل فروش به کل دارایی‌ها منجر به امتیاز Z بالاتری خواهد شد."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_009",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "کدام مدل شامل بیشترین تعداد پارامترهای متمایز است که در ستون سوم توضیح داده شده‌اند؟",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_010",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "هنگام بررسی ضرایب عددی در فرمول مدل امتیاز Z، کدام ضریب به عنوان یک مقدار پرت نسبت به بقیه برجسته می شود؟",
+    "answer": [
+      [
+        "ضریب 3.3 برای متغیر X3 یک مقدار پرت قابل توجه است. ضرایب دیگر در فرمول 1.2، 1.4، 0.6 و 0.99 هستند که همگی در محدوده بین 0.6 و 1.4 قرار دارند. مقدار 3.3 بیش از دو برابر مقدار ضریب بالاتر بعدی (1.4) است و به طور قابل توجهی بزرگتر از بقیه است."
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

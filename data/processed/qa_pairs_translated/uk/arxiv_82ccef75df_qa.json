@@ -1,0 +1,260 @@
+[
+  {
+    "question_id": "arxiv_82ccef75df_001",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Скільки із зазначених методів використовують LLM із сімейства 'Llama' (наприклад, Llama2, LLaMA-2, FinLlama тощо)?",
+    "answer": [
+      [
+        "7"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B5",
+      "B7",
+      "B8",
+      "B9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_002",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Яка програма підтримується найбільшою кількістю різноманітних перелічених джерел даних?",
+    "answer": [
+      [
+        "Financial sentiment analysis and return prediction"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_003",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Яким є джерело даних для методу, що використовує модель 'StockGPT'?",
+    "answer": [
+      [
+        "AlphaFin"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_004",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Перерахуйте записи 'Метод/Стаття', які використовують модель з 'GPT' у назві ТА застосовуються для прогнозування рухів акцій.",
+    "answer": [
+      [
+        "[25]"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "D5",
+      "B1",
+      "D1"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_005",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Який відсоток із перелічених методів має застосування, що явно включає «прогнозування», «передбачення» або «тренди»?",
+    "answer": [
+      [
+        "55.56%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_006",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Який метод використовує джерело даних, що є унікально названою платформою ('AlphaFin'), а не загальним описом типів даних?",
+    "answer": [
+      [
+        "Stock-Chain framework [27]"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_007",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "open_ended_reasoning",
+    "question": "Якби творці 'FinLlama [35]' включили 'S&P 500' та 'ринкові індекси' до своїх даних, яка існуюча заявка з таблиці стала б найбільш близькою до їхнього проекту, і чому?",
+    "answer": [
+      [
+        "Проект став би найбільш близьким до 'Прогнозування рухів акцій'. Це тому, що метод '[25]' використовує дуже схожу комбінацію даних ('S&P 500', 'фінансові звіти', 'ринкові індекси') для цієї конкретної заявки, а FinLlama вже використовує 'звіти про прибутки'."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_008",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "open_ended_reasoning",
+    "question": "Чи існує, згідно з таблицею, помітний зв'язок між кількістю використаних LLM моделей та кількістю джерел даних для певного методу?",
+    "answer": [
+      [
+        "Так, кореляція здається очевидною. Методи, що перелічують кілька LLM моделей (Multimodal Gen-AI [9], Fine-tuning LLMs [8], [25]), також, як правило, використовують численні, різноманітні джерела даних (відповідно 4, 1 і 4). Навпаки, методи, що вказують на одну LLM, часто, хоча й не завжди, використовують менше або більш сфокусовані джерела даних (наприклад, Stock-Chain framework [27] або SAPPO [37]). Це свідчить про те, що більш складні, мультимодельні підходи можуть бути розроблені для синтезу інформації з ширшого спектру вхідних даних."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_009",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Який стовпець, «LLM Model» чи «Data», містить більше записів, що перелічують кілька окремих елементів (розділених комами або «and»)?",
+    "answer": [
+      [
+        "Data"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B5",
+      "C1",
+      "C3",
+      "C5",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_010",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Визначте всі застосування, які працюють на моделі сімейства Llama та навчені на певних типах даних «новин».",
+    "answer": [
+      [
+        "AI-assisted investment analysis"
+      ],
+      [
+        "Stock return prediction"
+      ],
+      [
+        "Financial sentiment analysis and return prediction"
+      ],
+      [
+        "Trading strategies"
+      ],
+      [
+        "Portfolio optimization"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "C3",
+      "D3",
+      "B7",
+      "C7",
+      "D7",
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_011",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "open_ended_reasoning",
+    "question": "Які моделі LLM застосовувалися для прогнозування цін на акції, і які набори даних для цього використовувалися?",
+    "answer": [
+      [
+        "Для прогнозування цін на акції використовувалися моделі Distilled RoBERT та LLaMA3-8B. Використані набори даних: Financial news data, S&P- Bigdata23, Bigdata22, ACL18 та CIKM1."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B8",
+      "D4",
+      "D8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

@@ -1,0 +1,258 @@
+[
+  {
+    "question_id": "arxiv_da116d1768_001",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "רשום את השיטות/מאמרים המשתמשים במודל LLM שנחשב עדכני או מתקדם יותר מ-GPT3.5.",
+    "answer": [
+      [
+        "MarketSenseAI [1]"
+      ],
+      [
+        "Ploutos [4]"
+      ],
+      [
+        "LLMoE [7]"
+      ],
+      [
+        "[48]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_002",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "כמה מהשיטות/מאמרים המוזכרים משתמשים במפורש במודל ממשפחת GPT (כולל GPT-4, GPT3.5, GPT-4-Turbo, או מודלים כלליים מבוססי GPT)?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_da116d1768_003",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "אילו מערכי נתונים משמשים בשיטות המתמקדות ספציפית ב'השקעה' כאפליקציה?",
+    "answer": [
+      [
+        "S&P 100 stocks"
+      ],
+      [
+        "S&P 500 index"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "C1",
+      "D4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_004",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "open_ended_reasoning",
+    "question": "בהתחשב באבולוציה של מודלי GPT מ-GPT3.5 ל-GPT-4, איזה שינוי ביישום או במיקוד הנתונים ניתן לראות בהתבסס על הטבלה?",
+    "answer": [
+      [
+        "השיטה המשתמשת ב-GPT3.5 (GPT-InvestAR) מתמקדת ב'השקעות במניות' תוך שימוש במדד S&P 500 הרחב. השיטות המשתמשות ב-GPT-4 המתקדם יותר (MarketSenseAI ו-Ploutos) מכוונות ליישומים ספציפיים יותר כמו 'בחירת מניות ותובנות השקעה' ו'תנועות מניות', תוך שימוש הן במדד S&P 100 והן במאגרי נתונים של מאמרים אקדמיים. זה מרמז על מגמה לקראת יישומים ממוקדים וניתוחיים יותר עם מודלים חזקים יותר."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "D4",
+      "C4",
+      "B1",
+      "D1",
+      "C1",
+      "B2",
+      "D2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_005",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "זהה את מודלי ה-LLM ששימשו בשיטות שהיישום שלהן כולל את המילה 'מניה' אך אינו 'השקעת מניות' באופן מפורש.",
+    "answer": [
+      [
+        "GPT-4"
+      ],
+      [
+        "GPT-4-Turbo, LLaMA3"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "B1",
+      "D2",
+      "B2",
+      "D4",
+      "D6",
+      "B6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_006",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "איזה אחוז מהשיטות/מאמרים המפורטים משתמשים במדדי שוק ההון (כמו S&P או KOSPI) כמקור הנתונים שלהם?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C4",
+      "C6",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_da116d1768_007",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "אם דרישת פרויקט הייתה לבחור גישה קיימת עבור 'חיזוי שוק המניות' אך הוגבלה לשימוש במודלים ממשפחת GPT בלבד, איזה מודל LLM ספציפי מהטבלה היה נבחר?",
+    "answer": [
+      [
+        "GPT-4-Turbo"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_008",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "open_ended_reasoning",
+    "question": "בהתבסס על הטבלה, מה הקשר הנראה לעין בין הספציפיות של מודל ה-LLM המוזכר לסוג הנתונים שהוא מיושם עליו?",
+    "answer": [
+      [
+        "נראה שיש קורלציה שבה מודלים ספציפיים ומתקדמים יותר כמו GPT-4, GPT3.5 ו-Llama3.2 משויכים למאגרי נתונים פיננסיים מובנים (למשל, מדדי S&P, נתוני MSFT-AAPL). לעומת זאת, 'מודלים מבוססי GPT' המתוארים באופן כללי יותר משויכים לקורפוסים רחבים מאוד, לא ספציפיים לתחום, כמו Common Crawl וויקיפדיה, מה שמרמז שמודלים כלליים משמשים לניתוח רחב יותר בעוד שמודלים ספציפיים ומתקדמים נבדקים במשימות פיננסיות ממוקדות יותר."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_da116d1768_009",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "איזה עמודה מכילה את סוגי הנתונים הכי תיאוריים ומגוונים, כפי שמעידה על ידי הגיוון של הערכים שלה הנעים מסמלי מניות ספציפיים ועד לקורפוסים רחבים מהאינטרנט?",
+    "answer": [
+      [
+        "Data"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_010",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "זהה את השיטה/המאמר שבלט כחריג מבחינת היקף היישום שלו ומקור הנתונים הכללי שלו בהשוואה לאחרים, המתמקדים במשימות ספציפיות בשוק המניות.",
+    "answer": [
+      [
+        "ChainBuddy [10]"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "D1",
+      "D2",
+      "D4",
+      "D5",
+      "D6",
+      "C1",
+      "C2",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_da116d1768_011",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "כמה שיטות/מאמרים השתמשו במודלי GPT לאימון?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A6",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

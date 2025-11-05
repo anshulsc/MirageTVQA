@@ -1,0 +1,253 @@
+[
+  {
+    "question_id": "arxiv_306d90c626_001",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Ce familie de modele LLM (de exemplu, GPT, Llama) apare în cel mai mare număr de lucrări de cercetare enumerate?",
+    "answer": [
+      [
+        "GPT"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_002",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Care este numărul total de lucrări de cercetare care utilizează modele dezvoltate de OpenAI (ChatGPT, GPT-3, GPT-4 și variantele lor)?",
+    "answer": [
+      [
+        "9"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B7",
+      "B8",
+      "B9",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_306d90c626_003",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Pentru metodele care utilizează FinBERT, care este aplicația principală pentru care sunt folosite?",
+    "answer": [
+      [
+        "Stock price prediction"
+      ],
+      [
+        "Financial Portfolio Optimisation"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "D5",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_004",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Identificați metodele de cercetare care demonstrează o progresie temporală în alegerea modelului, utilizând cel puțin două generații distincte din aceeași familie de modele (de exemplu, GPT-3 și GPT-4).",
+    "answer": [
+      [
+        "FLLM [11]"
+      ],
+      [
+        "Few-Shot Stock Trend Prediction [15]"
+      ],
+      [
+        "Hybrid LLM-based framework [36]"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_005",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Enumerați 'Metoda/Lucrarea' care utilizează un model din familia Llama și nu folosește date S&P 500.",
+    "answer": [
+      [
+        "FLLM [11]"
+      ],
+      [
+        "Hybrid LLM-based framework [36]"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_006",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "open_ended_reasoning",
+    "question": "S&P 500 este menționat ca sursă de date în 50% din studiile listate. Ce implică această frecvență ridicată de utilizare despre rolul său în cercetarea LLM-urilor financiare?",
+    "answer": [
+      [
+        "Utilizarea frecventă a S&P 500, apărând în jumătate dintre studii, implică faptul că acesta servește ca un set de date standard de referință pentru cercetarea financiară care implică LLM-uri. Caracteristicile sale – fiind un set de date binecunoscut, public, extins și lichid – îl fac ideal pentru testarea și compararea performanței diferitelor modele și metode pentru sarcini precum predicția bursieră și selecția portofoliului. Această dependență sugerează nevoia ca cercetătorii să demonstreze eficacitatea modelului lor pe un standard larg acceptat înainte de a-l aplica la date mai nișate sau proprietare."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C4",
+      "C5",
+      "C6",
+      "C10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_306d90c626_007",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Dacă o nouă constrângere ar impune ca toate cercetările să utilizeze date multimodale (de exemplu, știri și date de piață), care metodă nu ar mai fi conformă, pe baza datelor descrise?",
+    "answer": [
+      [
+        "FLLM [11]"
+      ],
+      [
+        "MuSA [26]"
+      ],
+      [
+        "SEP [28]"
+      ],
+      [
+        "Hybrid LLM-based framework [36]"
+      ],
+      [
+        "[45]"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_008",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "open_ended_reasoning",
+    "question": "Conform tabelului, care este relația dintre complexitatea 'Aplicației' și diversitatea 'Modelelor LLM' utilizate? De exemplu, aplicațiile mai generale folosesc modele mai diverse?",
+    "answer": [
+      [
+        "Datele sugerează o relație inversă. Aplicațiile mai complexe și specifice, cum ar fi 'Predicția mișcării prețurilor acțiunilor' sau 'Analiza financiară', tind să utilizeze un set divers de modele, incluzând multiple generații și familii (de ex., 'GPT-3, GPT-4, LLaMA-2, LLaMA-3'). În contrast, aplicațiile cu un focus aparent singular, cum ar fi 'Selecția portofoliului de investiții' sau 'Tendința pieței bursiere', sunt prezentate utilizând un singur model precum ChatGPT. Acest lucru implică faptul că abordarea sarcinilor financiare nuanțate poate beneficia de un ansamblu sau o abordare comparativă utilizând mai multe LLM-uri avansate."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B9",
+      "D9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_306d90c626_009",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Care coloană, 'Model LLM' sau 'Date', conține celula cu cel mai mare număr de elemente distincte listate?",
+    "answer": [
+      [
+        "LLM Model"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_010",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Care lucrare de cercetare este o excepție din punct de vedere al aplicației sale, concentrându-se pe o problemă sistemică largă, mai degrabă decât pe o sarcină specifică de predicție sau investiție?",
+    "answer": [
+      [
+        "[32]"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_306d90c626_011",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Ce date sunt utilizate în ChatGPT-based Investment Portfolio Selection [2]?",
+    "answer": [
+      [
+        "S&P500 market"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

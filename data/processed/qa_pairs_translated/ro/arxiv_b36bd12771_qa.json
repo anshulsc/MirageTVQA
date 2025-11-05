@@ -1,0 +1,254 @@
+[
+  {
+    "question_id": "arxiv_b36bd12771_001",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Care coeficient beta (β) prezintă cea mai puternică dovadă statistică a efectului său, indicată de cea mai mare valoare absolută a lui t?",
+    "answer": [
+      [
+        "β₄"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "D8",
+      "D2",
+      "D4",
+      "D6",
+      "D10",
+      "D12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_002",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Care este eroarea standard medie pentru toți coeficienții alfa (α) care sunt statistic semnificativi la nivelul p < 0,05?",
+    "answer": [
+      [
+        "0.036"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "E3",
+      "A11",
+      "C11",
+      "E11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_003",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Pentru componenta modelului (indexată prin numărul subscript), al cărei coeficient β are cel mai larg interval de confidență de 95%, care este valoarea p pentru coeficientul α corespunzător?",
+    "answer": [
+      [
+        "0.005"
+      ]
+    ],
+    "evidence_cells": [
+      "F2",
+      "G2",
+      "F4",
+      "G4",
+      "F6",
+      "G6",
+      "F8",
+      "G8",
+      "F10",
+      "G10",
+      "F12",
+      "G12",
+      "A3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_004",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Descrieți tendința magnitudinilor coeficienților β pe măsură ce indicele crește de la 1 la 6. Există un model consecvent?",
+    "answer": [
+      [
+        "Nu există o tendință monotonică consecventă. Coeficienții β cresc inițial de la β₁ (0.7208) la β₂ (0.8237), dar apoi scad dramatic pentru β₃ (0.0025) și modelele ulterioare. Valorile pentru primele două componente sunt de ordine de mărime mai mari decât cele pentru componentele de la 3 la 6, care sunt toate foarte apropiate de zero."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A6",
+      "B6",
+      "A8",
+      "B8",
+      "A10",
+      "B10",
+      "A12",
+      "B12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_005",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Identificați toate modelele ajustate unde coeficientul alpha (α) este atât nesemnificativ statistic (valoare P > 0.4) CÂT ȘI are o eroare standard mai mică de 0.03.",
+    "answer": [
+      [
+        "α₁"
+      ],
+      [
+        "α₃"
+      ],
+      [
+        "α₅"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "E1",
+      "A5",
+      "C5",
+      "E5",
+      "A9",
+      "C9",
+      "E9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_006",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Care este procentul din toți coeficienții modelului ajustat (atât α, cât și β) care sunt statistic semnificativi, definiți ca având o valoare p mai mică de 0,05?",
+    "answer": [
+      [
+        "66.67%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_007",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Dacă eroarea standard pentru modelul α₁ ar fi înjumătățită, care ar fi noua sa statistică t? Bazându-ne pe relația dintre statisticile t și valorile p pentru alte modele din tabel, este probabil ca această modificare să facă coeficientul α₁ statistic semnificativ (p < 0,05)?",
+    "answer": [
+      [
+        "Noua statistică t ar fi -1,593 (-0,0215 / (0,027 / 2)). Este puțin probabil ca acest lucru să facă coeficientul statistic semnificativ. Pentru comparație, modelul α₂ are o statistică t de -2,803 și o valoare p de 0,005. O statistică t cu o valoare absolută mai mică, precum -1,593, ar avea o valoare p mai mare, rămânând probabil peste pragul de 0,05 pentru semnificație, care necesită în mod obișnuit o valoare t absolută de aproximativ 2 sau mai mult."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_008",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Analizați relația dintre magnitudinea coeficienților β și statisticile t corespunzătoare acestora. Un coeficient mai mare duce în mod constant la o statistică t mai mare?",
+    "answer": [
+      [
+        "Nu, un coeficient β mai mare nu duce în mod constant la o statistică t mai mare. De exemplu, β₂ are cel mai mare coeficient (0,8237), dar statistica sa t (8,418) este mult mai mică decât cea a lui β₄ (126,061), care are un coeficient foarte mic (0,0041). Statistica t este un raport al coeficientului la eroarea standard corespunzătoare, astfel încât o eroare standard foarte mică poate rezulta într-o statistică t foarte mare chiar și pentru un coeficient mic, așa cum se vede la modelele β₃ până la β₆."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2",
+      "B4",
+      "D4",
+      "B6",
+      "D6",
+      "B8",
+      "D8",
+      "B10",
+      "D10",
+      "B12",
+      "D12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_009",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Bazat pe principii statistice, un interval de încredere de 95% care nu conține zero ar trebui să corespundă unei valori p mai mici de 0,05. Există coeficienți ai modelului ajustat în tabel unde intervalul de încredere și valoarea p sunt inconsistente cu acest principiu?",
+    "answer": [
+      [
+        "Nu, toți coeficienții din tabel prezintă coerență între valoarea p și intervalul de încredere de 95%. Toți coeficienții cu o valoare p mai mică de 0,05 (de exemplu, β₁, α₂, β₂) au un interval de încredere care nu include zero. Invers, toți coeficienții cu o valoare p mai mare de 0,05 (de exemplu, α₁, α₃, α₄) au un interval de încredere care include zero."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "G1",
+      "E2",
+      "F2",
+      "G2",
+      "E3",
+      "F3",
+      "G3",
+      "E4",
+      "F4",
+      "G4",
+      "E5",
+      "F5",
+      "G5",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_010",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Care coeficient alfa (α) are o statistică t care este cel mai semnificativ outlier atunci când este comparat cu statisticile t ale celorlalți coeficienți alfa?",
+    "answer": [
+      [
+        "α₆, cu o statistică t de 7.305, este cel mai semnificativ outlier. Celelalte statistici t pentru alfa sunt -0.787, -2.803, -0.269, 0.013 și 0.729. Majoritatea acestor valori sunt grupate între -3 și 1. Valoarea 7.305 este mult mai mare în magnitudine și este singura valoare pozitivă mare, făcând-o să iasă în evidență semnificativ față de restul grupului."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A3",
+      "D3",
+      "A5",
+      "D5",
+      "A7",
+      "D7",
+      "A9",
+      "D9",
+      "A11",
+      "D11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

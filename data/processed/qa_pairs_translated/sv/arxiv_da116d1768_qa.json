@@ -1,0 +1,258 @@
+[
+  {
+    "question_id": "arxiv_da116d1768_001",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Lista de metoder/uppsatser som använder en LLM-modell som anses vara mer ny eller avancerad än GPT3.5.",
+    "answer": [
+      [
+        "MarketSenseAI [1]"
+      ],
+      [
+        "Ploutos [4]"
+      ],
+      [
+        "LLMoE [7]"
+      ],
+      [
+        "[48]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_002",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Hur många av de listade metoderna/rapporterna nämner uttryckligen användningen av en modell från GPT-familjen (inklusive GPT-4, GPT3.5, GPT-4-Turbo eller allmänna GPT-baserade modeller)?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_da116d1768_003",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Vilka dataset används av metoderna som specifikt fokuserar på 'investering' som applikation?",
+    "answer": [
+      [
+        "S&P 100 stocks"
+      ],
+      [
+        "S&P 500 index"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "C1",
+      "D4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_004",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "open_ended_reasoning",
+    "question": "Med tanke på utvecklingen av GPT-modeller från GPT3.5 till GPT-4, vilken förändring i tillämpning eller datamålsättning kan observeras baserat på tabellen?",
+    "answer": [
+      [
+        "Metoden som använder GPT3.5 (GPT-InvestAR) fokuserar på 'aktieinvestering' med hjälp av det breda S&P 500-indexet. Metoderna som använder den mer avancerade GPT-4 (MarketSenseAI och Ploutos) riktar sig mot mer specifika tillämpningar som 'aktieval och investeringsinsikter' och 'aktierörelser', och utnyttjar både S&P 100 och datamängder från akademiska artiklar. Detta tyder på en trend mot mer specialiserade och analytiska tillämpningar med kraftfullare modeller."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "D4",
+      "C4",
+      "B1",
+      "D1",
+      "C1",
+      "B2",
+      "D2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_005",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Identifiera LLM-modellerna som används av metoder vars applikation involverar ordet 'stock' men inte uttryckligen 'Stock investment'.",
+    "answer": [
+      [
+        "GPT-4"
+      ],
+      [
+        "GPT-4-Turbo, LLaMA3"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "B1",
+      "D2",
+      "B2",
+      "D4",
+      "D6",
+      "B6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_006",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Vilken procentandel av de listade metoderna/rapporterna använder finansiella marknadsindex (som S&P eller KOSPI) som datakälla?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C4",
+      "C6",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_da116d1768_007",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Om ett projekts krav var att välja en befintlig metod för 'Aktiemarknadsförutsägelse' men begränsades till att endast använda modeller från GPT-familjen, vilken specifik LLM-modell från tabellen skulle väljas?",
+    "answer": [
+      [
+        "GPT-4-Turbo"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_008",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "open_ended_reasoning",
+    "question": "Baserat på tabellen, vad är det uppenbara sambandet mellan specificiteten hos den nämnda LLM-modellen och vilken typ av data den tillämpas på?",
+    "answer": [
+      [
+        "Det verkar finnas en korrelation där mer specifika och avancerade modeller som GPT-4, GPT3.5 och Llama3.2 paras ihop med strukturerade finansiella datamängder (t.ex. S&P-index, MSFT-AAPL-data). I kontrast associeras de mer generellt beskrivna 'GPT-baserade modellerna' med mycket breda, icke-domänspecifika korpusar som Common Crawl och Wikipedia, vilket tyder på att allmänna modeller används för bredare analys medan specifika, toppmoderna modeller testas på mer målinriktade finansiella uppgifter."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_da116d1768_009",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Vilken kolumn innehåller de mest beskrivande och varierade datatyperna, vilket indikeras av mångfalden i dess poster som sträcker sig från specifika aktiesymboler till breda webbkorpusar?",
+    "answer": [
+      [
+        "Data"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_010",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Identifiera metoden/artikeln som sticker ut som en avvikelse när det gäller dess applikations omfattning och dess datakällas generalitet jämfört med de andra, som fokuserar på specifika aktiemarknads uppgifter.",
+    "answer": [
+      [
+        "ChainBuddy [10]"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "D1",
+      "D2",
+      "D4",
+      "D5",
+      "D6",
+      "C1",
+      "C2",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_da116d1768_011",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Hur många metoder/artiklar använde GPT-modeller för träning?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A6",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

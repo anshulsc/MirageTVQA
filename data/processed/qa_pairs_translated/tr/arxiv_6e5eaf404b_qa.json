@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "arxiv_6e5eaf404b_001",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "MASA mı yoksa TrendTrader araştırma çalışması mı, daha geniş ve daha çeşitli uluslararası hisse senedi endeksleri arasında etkili olduğu gösterilmiştir?",
+    "answer": [
+      [
+        "MASA Li et al. (2024e), sonuçları hem Çin'den hem de ABD'den üç büyük endeksi (CSI300, DJIA, S&P500) kapsadığı için daha geniş bir yelpazede etkili olduğu gösterilmiştir. TrendTrader'ın sonuçları ise iki endeks (DJIA, SSE-50) için belirtilmiştir."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_002",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "Listelenen araştırma çalışmalarından kaç tanesi Çin borsa endekslerinde (CSI300 veya SSE-50) üstün performans elde edildiğini açıkça belirtmektedir?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_003",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "Metodolojisi olarak 'Mekansal-zamansal RL çerçevesi'ni kullanan çerçeve için temel yenilik nedir?",
+    "answer": [
+      [
+        "Multimodal fusion of price and sentiment"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_004",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "Performans sonucu piyasa referansından %60'ın üzerinde daha yüksek bir getiri gösteren, aşırı pozitif aykırı bir değer bildiren araştırma makalesi hangisidir?",
+    "answer": [
+      [
+        "LLM-Alpha Kou et al. (2024)"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "D7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_005",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "Anahtar yeniliklerine göre, fiyat hareketlerini tahmin etmek yerine portföy çeşitlendirmesi veya varlık seçimine odaklanan çalışmaları listeleyin.",
+    "answer": [
+      [
+        "EarnMore Zhang et al. (2024d)",
+        "Network-EDM Hui and Wang (2024)",
+        "Market-Graph Yamagata and Ono (2024)"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_006",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "Temel yeniliklerinde, örneğin duygu veya ağ teorisi gibi, fiyat dışı verileri açıkça içeren listelenen araştırma çalışmalarının yüzdesi nedir?",
+    "answer": [
+      [
+        "28.57%"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_007",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "'EarnMore' çerçevesinin kar artışı 15 yüzdelik puan azalsaydı (40%'dan %25'e), yeni birincil sonucu ne olurdu ve karı önemli ölçüde düşükken 'Karşılaştırılabilir risk seviyeleri' iddiasını nasıl etkileyebilirdi?",
+    "answer": [
+      [
+        "Yeni birincil sonuç 'Kar: +%25, Karşılaştırılabilir risk seviyeleri' olurdu. Aynı risk seviyesini korurken %25'lik daha düşük bir kar, stratejiyi daha az çekici hale getirir. Risk ayarlı getiri daha düşük olurdu, bu da risk seviyesini azalan getirilerle kıyaslandığında daha az 'karşılaştırılabilir' veya kabul edilebilir hale getirebilir."
+      ]
+    ],
+    "evidence_cells": [
+      "D3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_008",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "Tabloya göre, çoklu ajan sistemlerinin kullanımı ile bildirilen birincil sonuçların doğası arasında nasıl bir ilişki çıkarılabilir?",
+    "answer": [
+      [
+        "Çoklu ajan sistemlerinin kullanılması ile üstün, ölçülebilir getiriler elde edilmesi arasında olumlu bir korelasyon olduğu görülüyor. Bu yaklaşımı kullanan iki çalışma, MASA ve LLM-Alpha, sırasıyla 'Üstün risk-ayarlı getiriler' ve '+%53.17' gibi belirli bir yüksek getiri bildiriyor. Bu durum, çoklu ajan çerçevelerinin güçlü, ölçülebilir finansal performans üretmede etkili olduğunu düşündürmektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_009",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "Pazar grafiği tabanlı kümeleme yaklaşımıyla yenilik yapan çalışma için temel sonuç nedir?",
+    "answer": [
+      [
+        "Higher Sharpe ratios on S&P500"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_010",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "Araştırmanın nasıl yürütüldüğüne dair daha spesifik, teknik uygulama ayrıntılarını 'Temel Yenilik' veya 'Metodolojik' sütunlarından hangisi sağlıyor?",
+    "answer": [
+      [
+        "Metodolojik' sütunu daha spesifik, teknik ayrıntılar sağlıyor. Örneğin, 'Temel Yenilik' 'Frekans alanı analizi' (FreQuant) veya 'Yapay Zeka Tabanlı alfa faktör madenciliği' (LLM-Alpha) gibi geniş bir kavramı belirtse de, 'Metodolojik' sütun sırasıyla 'DFT aracılığıyla çok granüllü varlık temsili' ve 'Dinamik ağırlık geçişli çoklu ajan sistemi' gibi kullanılan kesin teknikleri belirtiyor."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_011",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "MASA Li et al. (2024e) çalışmasının temel yeniliği nedir?",
+    "answer": [
+      [
+        "Uzmanlaşmış risk ve getiri ajanlarına sahip çoklu ajan çerçevesi."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Content Reasoning"
+  }
+]

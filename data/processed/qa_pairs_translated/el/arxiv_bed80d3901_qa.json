@@ -1,0 +1,214 @@
+[
+  {
+    "question_id": "arxiv_bed80d3901_001",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Ποιο ερώτημα απαιτεί την ανάλυση του υψηλότερου αριθμού κύριων χρηματοοικονομικών δεικτών;",
+    "answer": [
+      [
+        "What were the return on average assets and ROWC of Halliburton co. and other companies in the energy sector from Apr 2016 to Jul 2017 compared to their Gross Profit Margin and CROAFA?"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "A3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_002",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Υπολογίστε τον συνολικό αριθμό των μεμονωμένων 'Σχετικών Μετρικών' που αναφέρονται και στις τρεις αναζητήσεις.",
+    "answer": [
+      [
+        "22"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_003",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Για το ερώτημα που αφορά τη σύγκριση μιας εταιρείας με τους ομοειδείς της, ποιο είναι το ακριβές εύρος ημερομηνιών που καθορίζεται στο αντίστοιχο 'Structured Data Request';",
+    "answer": [
+      [
+        "(1/9/2018 - 30/9/2018)"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_004",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Ποιο ερώτημα φυσικής γλώσσας αντιστοιχεί στο δομημένο αίτημα που καλύπτει τη μεγαλύτερη χρονική περίοδο;",
+    "answer": [
+      [
+        "What were the return on average assets and ROWC of Halliburton co. and other companies in the energy sector from Apr 2016 to Jul 2017 compared to their Gross Profit Margin and CROAFA?"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_005",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Απαριθμήστε όλες τις κύριες μετρικές που ζητήθηκαν για ερωτήματα που αναφέρονται συγκεκριμένα σε μια εταιρεία με νομικό αναγνωριστικό όπως 'plc' ή 'Co.' στο πεδίο 'Απαιτούμενα Δεδομένα'.",
+    "answer": [
+      [
+        "Quick Ratio"
+      ],
+      [
+        "Bid Size"
+      ],
+      [
+        "Cash Conversion Efficiency Ratio"
+      ],
+      [
+        "Return on Average Assets"
+      ],
+      [
+        "Return on Working Capital"
+      ],
+      [
+        "Gross Profit Margin"
+      ],
+      [
+        "Cash Return on Average Fixed Assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_006",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Για το ερώτημα της Amcor plc, τι ποσοστό από όλες τις μετρήσεις που αναφέρονται στο 'Αίτημα Δομημένων Δεδομένων' περιέχουν ρητά τη λέξη 'Cash';",
+    "answer": [
+      [
+        "28.57%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_007",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "Εάν το ερώτημα φυσικής γλώσσας για την Adobe επεκτεινόταν ώστε να περιλαμβάνει αίτημα για 'Απόδοση Εργασιακών Κεφαλαίων', πώς θα τροποποιούνταν η λίστα των μετρικών στην 'Αίτηση Δομημένων Δεδομένων', χρησιμοποιώντας πληροφορίες από το ερώτημα της Halliburton ως πρότυπο;",
+    "answer": [
+      [
+        "Η ενότητα των μετρικών της 'Αίτησης Δομημένων Δεδομένων' θα ενημερωνόταν για να περιλάβει την 'Απόδοση Εργασιακών Κεφαλαίων' και τα σχετικά στοιχεία της από το ερώτημα της Halliburton. Αυτό θα σήμαινε την προσθήκη 'Απόδοση Εργασιακών Κεφαλαίων; Καθαρό εισόδημα; Εργασιακά Κεφάλαια' στην υπάρχουσα λίστα, με αποτέλεσμα: (Έσοδα από Πωλήσεις; Συνολικά Έσοδα; Οικονομική Προστιθέμενη Αξία; Καθαρό λειτουργικό κέρδος μετά φόρων (NOPAT); Κόστος Κεφαλαίου; Απόδοση Εργασιακών Κεφαλαίων; Καθαρό εισόδημα; Εργασιακά Κεφάλαια)."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_008",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "Με βάση τα παρεχόμενα δεδομένα, ποια είναι η φαινομενική σχέση μεταξύ της πολυπλοκότητας ενός φυσικού γλωσσικού 'Query' και του συνολικού αριθμού των μετρήσεων που καθορίζονται στο 'Structured Data Request';",
+    "answer": [
+      [
+        "Φαίνεται να υπάρχει θετική συσχέτιση. Τα δύο πιο σύνθετα ερωτήματα (για την Amcor και την Halliburton) αντιστοιχούν σε σημαντικά υψηλότερο αριθμό μετρήσεων στα δομημένα αιτήματά τους (14 και 12, αντίστοιχα) σε σύγκριση με το απλούστερο ερώτημα για την Adobe, το οποίο έχει μόνο 5 μετρήσεις. Αυτό υποδηλώνει ότι καθώς αυξάνεται το αναλυτικό βάθος της ερώτησης του χρήστη, αυξάνεται και η απαιτούμενη φόρτωση δεδομένων."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_009",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Ποια στήλη εξυπηρετεί τη λειτουργία της ανάλυσης του ερωτήματος φυσικής γλώσσας σε μια ημι-δομημένη μορφή που παραθέτει ρητά εταιρείες, κύριες μετρήσεις, σχετικές υπο-μετρήσεις και το ζητούμενο χρονικό πλαίσιο;",
+    "answer": [
+      [
+        "Required Data"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_010",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "Αναλύστε τις χρονικές πληροφορίες στις στήλες 'Απαιτούμενα Δεδομένα' και 'Αίτημα Δομημένων Δεδομένων'. Υπάρχει κάποιο ερώτημα όπου αυτές οι δύο στήλες παρουσιάζουν χρονικό πλαίσιο σε σύγκρουση; Αν ναι, εντοπίστε το ερώτημα και περιγράψτε την αναντιστοιχία.",
+    "answer": [
+      [
+        "Ναι, το ερώτημα της Amcor plc δείχνει σημαντική απόκλιση. Η ενότητα 'Απαιτούμενα Δεδομένα' καθορίζει ένα χρονικό πλαίσιο 'για τους προηγούμενους 6 μήνες', ενώ η αντίστοιχη 'Αίτημα Δομημένων Δεδομένων' καθορίζει μια πολύ μικρότερη, 7ήμερη περίοδο '(7/1/2024 - 7/7/2024)'. Τα άλλα δύο ερωτήματα δείχνουν χρονική συνέπεια μεταξύ των στηλών."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_011",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Πόσες μοναδικές εταιρείες αναφέρονται στα δεδομένα;",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

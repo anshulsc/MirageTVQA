@@ -1,0 +1,167 @@
+[
+  {
+    "question_id": "arxiv_dfbcb20e74_001",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Którego modelu główny wzór zawiera składnik stopy wolnej od ryzyka?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_002",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Jaka jest łączna liczba unikalnych zmiennych 'X' używanych jako dane wejściowe we wzorze Modelu Z-score?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_003",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Zidentyfikuj model, który wykorzystuje 'Całkowite aktywa' jako mianownik w co najmniej trzech z jego wyjaśnionych parametrów, a następnie podaj, który parametr z tego modelu reprezentuje stosunek 'Wartości rynkowej kapitału własnego' do 'Całkowitych zobowiązań'.",
+    "answer": [
+      [
+        "Z-score Model"
+      ],
+      [
+        "X4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_004",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Który model zawiera parametry, które są jawnie zdefiniowane jako mierzone 'w czasie t'?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_005",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Jeśli celem analitycznym jest określenie prawdopodobieństwa binarnego wyniku (y=1), który model z tabeli jest najbardziej odpowiedni?",
+    "answer": [
+      [
+        "Logistic Regression"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_006",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "W modelu Z-score, jaki jest współczynnik (waga) zmiennej reprezentującej 'Zyski przed odsetkami i opodatkowaniem / Aktywa ogółem' i jak ta waga porównuje się do innych zmiennych?",
+    "answer": [
+      [
+        "Współczynnik dla X3 (Zyski przed odsetkami i opodatkowaniem / Aktywa ogółem) wynosi 3,3. Jest to najwyższa waga spośród wszystkich pięciu zmiennych, co sugeruje, że ma ona największy wpływ na końcowy wynik Z w porównaniu do zmiennych takich jak X1 (1,2), X2 (1,4), X4 (0,6) i X5 (0,99)."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_007",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Gdyby zaktualizowana wersja modelu Z-score zmniejszyła wpływ \"wskaźnika kapitału obrotowego do aktywów ogółem\" o 50%, jaki byłby nowy współczynnik dla X1?",
+    "answer": [
+      [
+        "0.6"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_008",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Opierając się na wzorze modelu Z-score, jaki jest wnioskowany związek między stosunkiem całkowitej sprzedaży do aktywów firmy a wynikającym z tego wynikiem Z-score?",
+    "answer": [
+      [
+        "Istnieje pozytywna korelacja między wskaźnikiem całkowitej sprzedaży do aktywów (X5) a wynikiem Z-score. Wzór pokazuje, że wynik Z-score jest ważoną sumą pięciu wskaźników, a współczynnik dla X5 jest dodatni (0,99). Dlatego, przy założeniu, że wszystkie inne czynniki pozostają niezmienione, wzrost wskaźnika całkowitej sprzedaży do aktywów spowoduje wyższy wynik Z-score."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_009",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Który model w swojej opisie zawiera największą liczbę różnych parametrów wyjaśnionych w trzeciej kolumnie?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_010",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Analizując współczynniki liczbowe w formule Modelu Z-score, który współczynnik wyróżnia się jako wartość odstająca w porównaniu do pozostałych?",
+    "answer": [
+      [
+        "Współczynnik 3,3 dla zmiennej X3 jest znaczącą wartością odstającą. Pozostałe współczynniki w formule to 1,2, 1,4, 0,6 i 0,99, które mieszczą się w zakresie od 0,6 do 1,4. Wartość 3,3 jest ponad dwukrotnie większa od wartości kolejnego najwyższego współczynnika (1,4), co czyni ją znacznie większą od pozostałych."
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "arxiv_0ce0508a37_001",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "कुन मार्केट इम्प्याक्ट प्यारामिटरको गुणांक मूल्य अर्कोको भन्दा ठ्याक्कै दोब्बर छ?",
+    "answer": [
+      [
+        "Temporary impact coefficient"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C9",
+      "A10",
+      "C10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_002",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "प्रदान गरिएको सम्भावित मानहरूको सेटको आधारमा 'Non-linearity parameter' को औसत मान कति छ?",
+    "answer": [
+      [
+        "0.567"
+      ]
+    ],
+    "evidence_cells": [
+      "C11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_003",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "'Market Dynamics' अन्तर्गत सबैभन्दा धेरै फरक मानहरू भएको प्यारामिटरको प्रतीक के हो?",
+    "answer": [
+      [
+        "V0subscript𝑉0\\sqrt{V_{0}}square-root start_ARG italic_V start_POSTSUBSCRIPT 0 end_POSTSUBSCRIPT end_ARG"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_004",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "'प्रारम्भिक अस्थिरता', 'दीर्घकालीन अस्थिरता', र 'मध्यवर्ती पुनरावृत्ति गति' को मानहरूमा आधारित, समयसँगै मोडेलको अस्थिरता व्यवहारको बारेमा के अनुमान गर्न सकिन्छ?",
+    "answer": [
+      [
+        "मोडेलले अर्थ-उत्स्थिर अस्थिरता देखाउँछ। 'दीर्घकालीन अस्थिरता' 0.3 मा निश्चित छ, जसले एंकरको रूपमा काम गर्दछ। 'प्रारम्भिक अस्थिरता' उच्च (0.4), कम (0.2), वा दीर्घकालीन स्तर (0.3) मा सुरु हुन सक्छ। सुरुको बिन्दु जेसुकै भए पनि, अस्थिरता समयसँगै 0.3 तिर बढ्ने अपेक्षा गरिन्छ, जसको गति 2.0 को 'मध्यवर्ती पुनरावृत्ति गति' द्वारा शासित हुन्छ। यसको मतलब उच्च वा कम अस्थिरताका अवधिहरू स्थायी हुँदैनन्।"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_005",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "'Market Dynamics' वर्ग अन्तर्गतका सबै प्यारामिटरहरूको सूची दिनुहोस् जुन सम्भावित मानहरूको सेटको रूपमा प्रस्तुत गरिएको छ, जहाँ सूचीबद्ध सबै मानहरू गैर-नकारात्मक छन्।",
+    "answer": [
+      [
+        "Drift rate"
+      ],
+      [
+        "Initial volatility"
+      ],
+      [
+        "Volatility of variance"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_006",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "यदि 'जोखिमबाट बच्नु' (Risk aversion) लाई जोखिम सहनशीलताको उल्टो (inverse) को रूपमा परिभाषित गरिएको छ, र 'स्थायी प्रभाव' (Permanent impact) र 'अस्थायी प्रभाव' (Temporary impact) दुवैका मानहरू १० को गुणनले बढाउने हो भने, 'अस्थायी प्रभाव गुणांक' (Temporary impact coefficient) र 'जोखिमबाट बच्नु' (Risk aversion) बीचको नयाँ अनुपात कति हुन्छ?",
+    "answer": [
+      [
+        "50.0"
+      ]
+    ],
+    "evidence_cells": [
+      "C10",
+      "C13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_007",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "'Mean reversion speed' ५०% ले घट्यो भने, र 'Volatility of variance' को मानहरू ०.१ ले बढ्यो भने, 'Mean reversion speed' र अधिकतम 'Volatility of variance' को नयाँ योग कति हुन्छ?",
+    "answer": [
+      [
+        "1.4"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_008",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "तालिकाले '-0.7' को 'सहसंबंध' (Correlation) मान निर्दिष्ट गरेको छ। वित्तीय मोडेलमा, यो बलियो नकारात्मक मानले सम्पत्तिको मूल्य र यसको अस्थिरता बीचको सम्बन्धको बारेमा सामान्यतया के सङ्केत गर्छ?",
+    "answer": [
+      [
+        "0.7 को सहसंबंध एक बलियो विपरीत सम्बन्धलाई सङ्केत गर्दछ, जसलाई प्रायः लिभरेज प्रभाव (leverage effect) भनिन्छ। यसले सङ्केत गर्छ कि सम्पत्तिको मूल्य घट्दा, यसको अस्थिरता बढ्ने प्रवृत्ति हुन्छ, र यसको विपरीत, सम्पत्तिको मूल्य बढ्दा, यसको अस्थिरता घट्ने प्रवृत्ति हुन्छ। यो सम्पत्तिको मूल्यको यथार्थपरक मोडेलिङ र डेरिभेटिभ मूल्य निर्धारणका लागि एक महत्वपूर्ण विशेषता हो।"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_009",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "तालिकामा एकल निश्चित मानको सट्टा धेरै सम्भावित मानहरूको सेटद्वारा परिभाषित गरिएका कतिवटा प्यारामिटरहरू छन्?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_010",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "कुन एकल मापदण्ड गुणात्मक रूपमा बाहिर छ किनभने यसको मान मात्र ऋणात्मक छ?",
+    "answer": [
+      [
+        "Correlation"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_011",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "मोडेलमा औसत रिभर्सन गति कतिमा सेट गरिएको छ?",
+    "answer": [
+      [
+        "2.0"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

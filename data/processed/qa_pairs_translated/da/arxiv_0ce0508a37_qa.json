@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "arxiv_0ce0508a37_001",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Hvilken markedspåvirkningparameter har en koefficientværdi, der er præcis dobbelt så stor som den anden?",
+    "answer": [
+      [
+        "Temporary impact coefficient"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C9",
+      "A10",
+      "C10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_002",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Hvad er gennemsnitsværdien for 'Non-linearity parameter' baseret på det angivne sæt af mulige værdier?",
+    "answer": [
+      [
+        "0.567"
+      ]
+    ],
+    "evidence_cells": [
+      "C11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_003",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Hvad er symbolet for parameteren under 'Market Dynamics', som har det højeste antal forskellige værdier angivet?",
+    "answer": [
+      [
+        "V0subscript𝑉0\\sqrt{V_{0}}square-root start_ARG italic_V start_POSTSUBSCRIPT 0 end_POSTSUBSCRIPT end_ARG"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_004",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "Baseret på værdierne for 'Initial volatility', 'Long-term volatility' og 'Mean reversion speed', hvad kan udledes om modellens volatilitetsadfærd over tid?",
+    "answer": [
+      [
+        "Modellen udviser mean-reverting volatilitet. Den 'Long-term volatility' er fastsat til 0.3, hvilket fungerer som et anker. 'Initial volatility' kan starte højere (0.4), lavere (0.2) eller på langsigtsniveauet (0.3). Uanset udgangspunktet forventes volatiliteten at drive mod 0.3 over tid, en proces hvis tempo styres af 'Mean reversion speed' på 2.0. Dette betyder, at perioder med høj eller lav volatilitet ikke er permanente."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_005",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "List alle parametre under kategorien 'Market Dynamics', der præsenteres som et sæt af flere mulige værdier, hvor alle anførte værdier er ikke-negative.",
+    "answer": [
+      [
+        "Drift rate"
+      ],
+      [
+        "Initial volatility"
+      ],
+      [
+        "Volatility of variance"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_006",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Hvis 'Risikoaversion' defineres som den inverse af risiko tolerance, og både 'Permanent impact' og 'Temporary impact' værdierne skulle stige med en faktor 10, hvad ville det nye forhold mellem 'Temporary impact coefficient' og 'Risk aversion' være?",
+    "answer": [
+      [
+        "50.0"
+      ]
+    ],
+    "evidence_cells": [
+      "C10",
+      "C13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_007",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Hvis 'Mean reversion speed' blev reduceret med 50%, og 'Volatility of variance' værdierne begge blev øget med 0.1, hvad ville den nye sum af 'Mean reversion speed' og den maksimale 'Volatility of variance' være?",
+    "answer": [
+      [
+        "1.4"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_008",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "Tabellen angiver en 'Korrelation'-værdi på -0,7. Hvad indebærer denne stærke negative værdi typisk om forholdet mellem et aktivs pris og dets volatilitet i en finansiel model?",
+    "answer": [
+      [
+        "En korrelation på -0,7 betyder et stærkt omvendt forhold, ofte kaldet gearingseffekten. Det indebærer, at når aktivets pris falder, har dets volatilitet en tendens til at stige, og omvendt, når aktivets pris stiger, har dets volatilitet en tendens til at falde. Dette er et afgørende træk for realistisk prismodellering af aktiver og prissætning af derivater."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_009",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Hvor mange parametre i tabellen er defineret af et sæt af flere mulige værdier snarere end en enkelt fast værdi?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_010",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Hvilken enkelt parameter er en kvalitativ outlier, fordi dens værdi er den eneste, der er negativ?",
+    "answer": [
+      [
+        "Correlation"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_011",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Hvad er hastigheden for middeltilbagevenden sat til i modellen?",
+    "answer": [
+      [
+        "2.0"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

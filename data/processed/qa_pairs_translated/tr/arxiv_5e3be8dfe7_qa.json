@@ -1,0 +1,208 @@
+[
+  {
+    "question_id": "arxiv_5e3be8dfe7_001",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Tabloda listelenen, birbirinden farklı parametre açıklamalarının en yüksek sayısına sahip model hangisidir?",
+    "answer": [
+      [
+        "Neural Networks"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_002",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Ana formülünde toplama bileşeni (Σ) kullanan tüm modeller için toplamda kaç farklı parametre açıklanmaktadır?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_003",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Üstel (örneğin, e^x) içermeyen ana formüle sahip modelleri listeleyin.",
+    "answer": [
+      [
+        "Neural Networks"
+      ],
+      [
+        "Support Vector Machine"
+      ],
+      [
+        "Decision Tree"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_004",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Listelenen modellerin yüzde kaçı formülasyonlarında bireysel örnekleri veya veri noktalarını (örneğin, 'örnek i') temsil eden bir parametre kullanır?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "C8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_005",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Bir Karar Ağacı modelinde 'm' örnek kategorisi sayısı 1 ise, formüle göre bilgi entropisi 'Ent(D)' için hesaplanan değer ne olur?",
+    "answer": [
+      [
+        "0"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_006",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Hangisinin formülü, bir çıktı değerinin doğrudan hesaplanmasından ziyade bir optimizasyon problemi (minimize etme) olarak sunulduğu için diğerlerinden temelde farklıdır?",
+    "answer": [
+      [
+        "Support Vector Machine"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B7",
+      "B9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_007",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "Formüllere ve parametrelere dayanarak, Lojistik Regresyon'daki 'β' parametresinin, Destek Vektör Makinelerindeki 'w' parametresiyle olan rollerini karşılaştırın.",
+    "answer": [
+      [
+        "Lojistik Regresyon'da 'β', regresyon katsayılarının bir satır vektörüdür ve kesişimle birlikte, lojistik fonksiyon aracılığıyla bir sonucun olasılığını belirler. Destek Vektör Makinelerinde 'w', ayırıcı hiperdüzlemin yönelimini tanımlayan bir parametre vektörüdür. SVM'deki amaç, L2 normunu minimize ederek sınıflar arasındaki marjı maksimize eden 'w'yi bulmaktır, oysa Lojistik Regresyon'da 'β' genellikle gözlemlenen verilerin olasılığını maksimize ederek bulunur."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C3",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_008",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "Sinir Ağları'ndaki 'katmanlar' ve Karar Ağaçları'ndaki 'entropi' kavramları, veriden öğrenmeye yönelik farklı yaklaşımlarını nasıl yansıtır?",
+    "answer": [
+      [
+        "Sinir Ağları'ndaki 'katmanlar' (l ve l-1) kavramı, hiyerarşik bir özellik öğrenme yaklaşımını yansıtır. Model, ardışık katmanlardan aktivasyonları geçirerek, karmaşık bir fonksiyon yaklaştırıcı oluşturmak için ağırlıkları ('w') ve sapmaları ('b') ayarlayarak verinin giderek daha karmaşık temsillerini öğrenir. Buna karşılık, Karar Ağaçları'ndaki 'entropi' (Ent(D)) kavramı, açgözlü, kural tabanlı bir yaklaşımı yansıtır. Model, entropideki en büyük azalmaya (bilgi kazancı) neden olan özellikleri seçerek veriyi özyinelemeli olarak daha saf alt kümelere böler ve açık bir eğer-o zaman kuralları kümesi oluşturur."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_009",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Tabloda açıklanan benzersiz modellerin toplam sayısı kaçtır?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_010",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Hangi sütunun temel amacı, bitişik sütunda kullanılan değişkenleri tanımlamaktır?",
+    "answer": [
+      [
+        "Parameter and Explanation"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

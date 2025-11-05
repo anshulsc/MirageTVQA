@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "arxiv_0ce0508a37_001",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Care parametru de impact asupra pieței are o valoare a coeficientului dublă față de celălalt?",
+    "answer": [
+      [
+        "Temporary impact coefficient"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C9",
+      "A10",
+      "C10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_002",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Care este valoarea medie pentru 'Parametrul de neliniaritate', pe baza setului de valori posibile furnizate?",
+    "answer": [
+      [
+        "0.567"
+      ]
+    ],
+    "evidence_cells": [
+      "C11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_003",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Care este simbolul pentru parametrul de sub 'Dinamica pieței' care are cel mai mare număr de valori distincte listate?",
+    "answer": [
+      [
+        "V0subscript𝑉0\\sqrt{V_{0}}square-root start_ARG italic_V start_POSTSUBSCRIPT 0 end_POSTSUBSCRIPT end_ARG"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_004",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "Pe baza valorilor pentru 'Volatilitate inițială', 'Volatilitate pe termen lung' și 'Viteza de revenire la medie', ce se poate deduce despre comportamentul volatilității modelului în timp?",
+    "answer": [
+      [
+        "Modelul prezintă o volatilitate cu revenire la medie. 'Volatilitatea pe termen lung' este fixată la 0,3, acționând ca un punct de ancorare. 'Volatilitatea inițială' poate începe mai sus (0,4), mai jos (0,2) sau la nivelul pe termen lung (0,3). Indiferent de punctul de plecare, se așteaptă ca volatilitatea să tindă spre 0,3 în timp, un proces al cărui ritm este guvernat de 'Viteza de revenire la medie' de 2,0. Aceasta înseamnă că perioadele de volatilitate ridicată sau scăzută nu sunt permanente."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_005",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Enumerați toți parametrii din categoria 'Dinamica pieței' care sunt prezentați ca un set de valori multiple, unde toate valorile listate sunt non-negative.",
+    "answer": [
+      [
+        "Drift rate"
+      ],
+      [
+        "Initial volatility"
+      ],
+      [
+        "Volatility of variance"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_006",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Dacă 'Aversiunea față de risc' este definită ca inversul toleranței la risc, iar atât valorile 'Impact permanent', cât și 'Impact temporar' ar crește de 10 ori, care ar fi noul raport dintre 'Coeficientul de impact temporar' și 'Aversiunea față de risc'?",
+    "answer": [
+      [
+        "50.0"
+      ]
+    ],
+    "evidence_cells": [
+      "C10",
+      "C13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_007",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Dacă 'Viteza de revenire la medie' ar scădea cu 50%, iar valorile pentru 'Volatilitatea varianței' ar crește ambele cu 0.1, care ar fi noua sumă a 'Vitezei de revenire la medie' și a 'Volatilității varianței' maximă?",
+    "answer": [
+      [
+        "1.4"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_008",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "Tabelul specifică o valoare de 'Corelație' de -0.7. Într-un model financiar, ce implică de obicei această valoare negativă puternică despre relația dintre prețul unui activ și volatilitatea sa?",
+    "answer": [
+      [
+        "O corelație de -0.7 semnifică o relație inversă puternică, adesea denumită efect de levier. Implică faptul că, pe măsură ce prețul activului scade, volatilitatea sa tinde să crească și, invers, pe măsură ce prețul activului crește, volatilitatea sa tinde să scadă. Aceasta este o caracteristică crucială pentru modelarea realistă a prețurilor activelor și pentru stabilirea prețurilor derivatelor."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_009",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Câți parametri din tabel sunt definiți printr-un set de valori multiple, spre deosebire de o singură valoare fixă?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_010",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Care singur parametru este un valor neobișnuit calitativ, deoarece valoarea sa este singura negativă?",
+    "answer": [
+      [
+        "Correlation"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_011",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Care este viteza de revenire la medie setată în model?",
+    "answer": [
+      [
+        "2.0"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "question_id": "arxiv_7638040826_001",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Vilket dataset fokuserar specifikt på det språk som används av en centralbank för att förstå penningpolitikens inflytande, och vem publicerade det?",
+    "answer": [
+      [
+        "Trillion Dollar Words",
+        "Shah et al. (2023a)"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_002",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Lista alla resurser som publicerats efter 2020 och som uttryckligen beskrivs som mänskligt annoterade eller skrivna av experter.",
+    "answer": [
+      [
+        "SEntFiN 1.0"
+      ],
+      [
+        "Gold Commodity Dataset"
+      ],
+      [
+        "FINQA"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7",
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_003",
+    "table_id": "arxiv_7638040826",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv utvecklingen av fokus i dessa finansiella datamängder från början av 2010-talet till 2020-talet, baserat på publiceringsdatum.",
+    "answer": [
+      [
+        "Datamängderna visar en utveckling från grundläggande sentimentanalys i början av 2010-talet till mer komplexa, specialiserade uppgifter under 2020-talet. Tidiga resurser som SentiWordNet (2010) och Financial Phrase Bank (2014) hanterade allmän sentiment för ord/fraser. Däremot tacklar resurser från 2020-talet som SEntFiN 1.0 (entitetsspecifik sentiment), REFinD (relationsutvinning) och FINQA (djupgående resonemang) mer granulära och komplexa NLP-problem, vilket indikerar en mognad inom området mot en mer nyanserad förståelse av finansiella texter."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B6",
+      "C6",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_004",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Hur många av de listade resurserna fokuserar primärt på sentimentanalys (tilldelar positiva, negativa eller neutrala etiketter)?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_7638040826_005",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Vilken resurs har ett geografiskt fokus som skiljer sig från de andra?",
+    "answer": [
+      [
+        "Financial Phrase Bank"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_7638040826_006",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Vilken procentandel av de listade datamängderna publicerades år 2023?",
+    "answer": [
+      [
+        "40%"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "C6",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_7638040826_007",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Om datasetet 'SEntFiN 1.0' skulle tas bort, vilken skulle vara den senast publicerade resursen fokuserad på att analysera nyhetsrubriker?",
+    "answer": [
+      [
+        "MULTIFIN"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_008",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Vilken författare eller författargrupp har bidragit med det högsta antalet distinkta resurser i denna lista?",
+    "answer": [
+      [
+        "Shah et al."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "C8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_009",
+    "table_id": "arxiv_7638040826",
+    "question_type": "open_ended_reasoning",
+    "question": "Jämför den primära NLP-uppgiften som 'FiNER' hanterar med den för 'REFinD'.",
+    "answer": [
+      [
+        "'FiNER' är utformad för en grundläggande NLP-uppgift, Named Entity Recognition (NER), som innebär att identifiera och klassificera entiteter som finansiella företag. 'REFinD' hanterar en mer komplex, efterföljande uppgift av relationsutvinning, som syftar till att identifiera relationerna mellan redan identifierade entiteter (t.ex. person-titel, org-pengar). Därför fokuserar FiNER på att identifiera 'aktörerna' medan REFinD fokuserar på att identifiera deras 'interaktioner'."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_010",
+    "table_id": "arxiv_7638040826",
+    "question_type": "open_ended_reasoning",
+    "question": "Baserat på beskrivningarna, finns det ett samband mellan dataset som fokuserar på 'rubriker' och hur nyligen deras publikationsår är? Förklara ditt resonemang.",
+    "answer": [
+      [
+        "Ja, det verkar finnas ett positivt samband. Alla tre dataset som uttryckligen nämner 'rubriker' i sina beskrivningar (SEntFiN 1.0, Gold Commodity Dataset och MULTIFIN) publicerades 2021 eller senare. Dataset som publicerades tidigare, på 2010-talet, nämner inte detta specifika fokus. Detta tyder på ett växande forskningsintresse för att analysera det korta och slagkraftiga språket i finansiella nyhetsrubriker under senare år."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "B7",
+      "C7",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_7638040826_011",
+    "table_id": "arxiv_7638040826",
+    "question_type": "open_ended_reasoning",
+    "question": "Vad är SentiWordNets huvudsakliga syfte jämfört med SenticNet i analys av finansiella texter?",
+    "answer": [
+      [
+        "SentiWordNet tilldelar sentimentpoäng till individuella ordsinnen för att kvantifiera positivitet, negativitet eller objektivitet, medan SenticNet kombinerar AI och Semantic Web-teknologier för att tolka och bearbeta åsikter inom finansiella kontexter."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A3",
+      "B1",
+      "B3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

@@ -1,0 +1,254 @@
+[
+  {
+    "question_id": "arxiv_2448925329_001",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "R-kare değerine göre hangi veri seti en güçlü model uyumunu göstermektedir?",
+    "answer": [
+      [
+        "BTC/USD ΔM vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_002",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "BTC/USD içeren tüm veri kümeleri için ortalama Kurtosis değeri nedir?",
+    "answer": [
+      [
+        "7.7025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_2448925329_003",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "En düşük pozitif R-kare değerine sahip model için, buna karşılık gelen Durbin-Watson istatistiği nedir?",
+    "answer": [
+      [
+        "0.337"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "I2",
+      "B1",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_004",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "R-kare ile ölçülen modelin açıklayıcı gücü, LUNA/USD veri seti için zaman aralığı 1 saniyeden 10 saniyeye çıkarıldığında nasıl değişiyor?",
+    "answer": [
+      [
+        "LUNA/USD modelinin R-kare değeriyle belirtilen açıklayıcı gücü, 1 saniyelik aralık için 0.036'dan 10 saniyelik aralık için 0.274'e önemli ölçüde artmaktadır. Bu, yedi kattan fazla bir artışı temsil etmektedir ve modelin daha uzun zaman diliminde fiyat değişikliklerini açıklamada önemli ölçüde daha etkili olduğunu göstermektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_005",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Model kalıntılarının negatif çarpık olduğu (Çarpıklık < 0) ve Durbin-Watson istatistiğinin 2'den büyük olup negatif otokorelasyonu gösterdiği tüm veri setlerini listeleyin.",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 1s",
+        "BTC/USD ΔM vs ΔP 1s"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "I1",
+      "A3",
+      "G3",
+      "I3",
+      "G2",
+      "I2",
+      "G4",
+      "I4",
+      "G5",
+      "I5",
+      "G6",
+      "I6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_006",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "10 saniyelik aralığa sahip modeller, tüm F-istatistiklerinin toplamının yüzde kaçını oluşturmaktadır?",
+    "answer": [
+      [
+        "93.68%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A6",
+      "C6",
+      "C1",
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_2448925329_007",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Eğer 'BTC/USD OFI vs ΔP 10s' modelinin Kurtosis değeri, diğer tüm modellerin ortalama Kurtosis değerine ayarlanırsa, yeni değeri ne olurdu?",
+    "answer": [
+      [
+        "5.700"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_008",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Bir modelin F-istatistiği ile Jarque-Bera (JB) istatistiği arasında tutarlı bir ilişki var mı? Deseni analiz edin.",
+    "answer": [
+      [
+        "F-istatistiği ile Jarque-Bera (JB) istatistiği arasında tutarlı, net bir ilişki yoktur. Örneğin, en yüksek F-istatistiğine (15890.0) sahip modelin JB istatistiği 6560.394 iken, ikinci en düşük F-istatistiğine (137.0) sahip modelin JB istatistiği çok daha küçüktür (816.435). Ancak, en düşük F-istatistiğine (70.87) sahip modelin en yüksek JB istatistiği (10204.282) vardır. Bu durum, modelin genel anlamlılığının (F-istatistiği) ve hata terimlerinin normalliğinin (JB istatistiği) bu veri setinde doğrudan ilişkili olmadığını göstermektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "J1",
+      "C2",
+      "J2",
+      "C3",
+      "J3",
+      "C4",
+      "J4",
+      "C5",
+      "J5",
+      "C6",
+      "J6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_2448925329_009",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "'Dataset' tanımlayıcısı hariç hangi sütun, büyüklük sırasını (en küçükten en büyüğe) göz önünde bulundurarak en geniş değer aralığını içerir?",
+    "answer": [
+      [
+        "'Prob(JB)' sütunu, büyüklük sırasına göre en geniş değer aralığını göstermektedir. Bu sütun, 0.0 (etkin bir şekilde sonsuz küçük) kadar küçük değerler ile 4.26e-263, 1.93e-57, 5.17e-178 ve 9.05e-92 gibi büyük değerleri içerir. Bu, diğer sayısal sütunlardan çok daha geniş, yüzlerce büyüklük sırasını kapsayan bir aralıktır."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B6",
+      "C1",
+      "C6",
+      "D1",
+      "D6",
+      "E1",
+      "E6",
+      "F1",
+      "F6",
+      "G1",
+      "G6",
+      "H1",
+      "H6",
+      "I1",
+      "I6",
+      "J1",
+      "J6",
+      "K1",
+      "K6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_010",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Jarque-Bera (JB) istatistiği, bir sonraki en yüksek JB değerinden 5 kattan daha büyük olan aykırı bir değer teşkil eden veri seti hangisidir?",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "J1",
+      "J2",
+      "J3",
+      "J4",
+      "J5",
+      "J6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_2448925329_011",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "BTC/USD ΔM vs ΔP 1s ve LUNA/USD ΔM vs ΔP 1s arasında, R² ve F-istatistiğine göre hangi veri seti daha yüksek tahmine dayalı güç göstermektedir?",
+    "answer": [
+      [
+        "BTC/USD ΔM vs ΔP 1s, R² ve F-istatistiğine göre en yüksek tahmine dayalı gücü R² = 0.168 ve F-istatistiği = 723.6 ile göstermiştir."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

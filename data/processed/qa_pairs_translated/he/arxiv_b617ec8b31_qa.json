@@ -1,0 +1,202 @@
+[
+  {
+    "question_id": "arxiv_b617ec8b31_001",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "עבור היישום שבו שיטת MarS כרוכה בהשוואת השוק הנוכחי לשוק מדומה, מה השיטה הנוכחית המתאימה משווה?",
+    "answer": [
+      [
+        "Diff⁡(marketn⁢o⁢w,marketp⁢a⁢s⁢t)"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_002",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "איזה אחוז מהיישומים המפורטים משתמשים בשיטת 'MarS' הכוללת 'יצירה' או 'סימולציה'?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_003",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "כיצד שיטת MarS עבור היישום 'זיהוי' משנה את ההשוואה מבוססת הזמן המשמשת ב'שיטות קיימות'?",
+    "answer": [
+      [
+        "ה'שיטות הקיימות' עבור 'זיהוי' מסתמכות על השוואה היסטורית על ידי חישוב ההבדל בין מצב השוק הנוכחי (market_now) למצב שוק קודם (market_past). שיטת MarS מבטלת את התלות בנתונים מהעבר. במקום זאת, היא משווה את השוק הנוכחי (market_now) לשוק מדומה בן זמננו (simu-market_now), ומעבירה את ההשוואה ממסגרת זמנית (עכשיו מול אז) למסגרת מבוססת מודל (אמיתי מול מדומה)."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_004",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "פרט את 'שיטות נוכחיות' עבור כל היישומים שבהם שיטת 'MarS' מתוארת כ'pipeline' או כרוכה ב'generation'.",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ],
+      [
+        "online experiments, empirical formula"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B1",
+      "C3",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_005",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "באיזו אפליקציה נצפה השינוי היסודי ביותר בגישה בין 'שיטות נוכחיות' ל-'MarS', תוך מעבר מהשוואה היסטורית להשוואה מדומה?",
+    "answer": [
+      [
+        "אפליקציית 'זיהוי' מציגה את השינוי היסודי ביותר. השיטה הנוכחית מסתמכת על השוואה זמנית, המשקיפה אחורה (Diff(market_now, market_past)). לעומת זאת, שיטת MarS מציגה השוואה למציאות מדומה מקבילה (Diff(market_now, simu-market_now)). שינוי זה מבסיס היסטורי לבסיס מדומה לצורך השוואה מהווה חריג מושגי משמעותי בהשוואה לשינויים מתודולוגיים אחרים בטבלה."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_006",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "אם גישת 'MarS' עבור 'סביבת RL' הייתה משונה להשתמש בזמינות הנתונים של 'שיטות נוכחיות' עבור אותה יישום, אילו שני מאפיינים היו מגדירים את שיטת MarS ההיפותטית הזו?",
+    "answer": [
+      [
+        "finite data"
+      ],
+      [
+        "real P(st+1|st,at)"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_007",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "עבור יישום 'סביבת RL', מהו ההבדל המרכזי בזמינות הנתונים והתפלגות ההסתברות בין 'שיטות נוכחיות' ל-'MarS'?",
+    "answer": [
+      [
+        "ההבדל המרכזי טמון הן בנפח הנתונים והן באותנטיות של הסתברות המעבר. 'שיטות נוכחיות' מסתמכות על 'נתונים סופיים' ועל התפלגות הסתברות 'מזויפת' (P(st+1|st,at)), בעוד ש-'MarS' משתמש ב-'נתונים אינסופיים' ובהתפלגות הסתברות 'אמיתית'."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_008",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "כמה יישומים שונים הרשומים כוללים את המונח 'נתונים' בתיאורי השיטות שלהם עבור 'שיטות נוכחיות' או 'MarS'?",
+    "answer": [
+      [
+        "2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_009",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "בהתבסס על הטבלה, מהו היתרון המרכזי של MarS בהשוואה לשיטות הנוכחיות, במיוחד בנוגע לייצוג נתונים ומציאות?",
+    "answer": [
+      [
+        "הנושא המרכזי מרמז כי שיטות MarS נועדו להתגבר על מגבלות של נתונים היסטוריים או סופיים על ידי ניצול גישות גנרטיביות ומבוססות סימולציה. MarS עובר מאקסטרפולציה ליצירה, מהשוואה היסטורית להשוואה מדומה, וממודלים של נתונים סופיים/מזויפים למודלים של נתונים אינסופיים/אמיתיים. הדבר מצביע על יתרון אסטרטגי ביצירת סביבות נתונים חזקות, גמישות ומציאותיות יותר לניתוח ולמידת חיזוק."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_010",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "למעט שורת הכותרת, כמה יישומים שונים מפורטים בטבלה?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_011",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "מהי השיטה הנוכחית המשמשת לחיזוי?",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

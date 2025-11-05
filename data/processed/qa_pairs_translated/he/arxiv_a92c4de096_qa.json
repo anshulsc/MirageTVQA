@@ -1,0 +1,255 @@
+[
+  {
+    "question_id": "arxiv_a92c4de096_001",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "אילו היפר-פרמטרים מכילים את המספר הגדול ביותר של אפשרויות במרחב החיפוש שלהם?",
+    "answer": [
+      [
+        "Sequence size"
+      ],
+      [
+        "TRADES Layers"
+      ],
+      [
+        "Augmentation Dim."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_002",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "כמה היפרפרמטרים נבדקו עם יותר משני ערכים אפשריים במרחב החיפוש שלהם?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_003",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "מה היה מרחב החיפוש עבור ההיפרפרמטר שהערך הטוב ביותר שלו הוא הערך המספרי הקטן ביותר שגדול מאפס?",
+    "answer": [
+      [
+        "{10−3,10−4}superscript103superscript104\\{{10^{-3}},10^{-4}\\}{ 10 start_POSTSUPERSCRIPT - 3 end_POSTSUPERSCRIPT , 10 start_POSTSUPERSCRIPT - 4 end_POSTSUPERSCRIPT }"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_004",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "רשום את כל ההיפר-פרמטרים שעבורם 'הבחירה הטובה ביותר' הייתה הערך הגבוה ביותר הזמין במרחב החיפוש המתאים להם.",
+    "answer": [
+      [
+        "Learning Rate"
+      ],
+      [
+        "Dropout"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_005",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "איזה שיעור מההיפר-פרמטרים המספריים נבחרו עבורם 'הבחירה הטובה ביותר' מאמצע מרחב החיפוש הממוין שלהם (כלומר, לא הערך המינימלי או המקסימלי)?",
+    "answer": [
+      [
+        "5/7"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_006",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "אם החיפוש אחר 'TRADES Layers' היה מוגבל לערכים שקטנים מ-8 בלבד, מה הייתה 'הבחירה הטובה ביותר' עבור היפר-פרמטר זה, בהנחה שנבחרה האפשרות הזמינה הטובה ביותר הבאה ממרחב החיפוש המקורי?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_007",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "האם יש קשר נצפה בין גודל מרחב החיפוש של היפרפרמטר לבין האם 'הבחירה הטובה ביותר' היא ערך קיצוני (מינימלי/מקסימלי) או ערך אמצעי? הסבר את הנימוק שלך.",
+    "answer": [
+      [
+        "כן, יש דפוס ברור. עבור היפרפרמטרים עם מרחב חיפוש קטן של שתי אפשרויות (קצב למידה, נישירה), הבחירה הטובה ביותר הייתה הערך המקסימלי. עבור כל ההיפרפרמטרים עם מרחב חיפוש גדול יותר של שלוש או ארבע אפשרויות, הערך האופטימלי נמצא באמצע הטווח, לעולם לא בקצוות. הדבר מרמז שעבור מודל זה, תהליך כוונון עדין מועיל, וטווחים רחבים ראשוניים מיסגרו בהצלחה אזור אופטימלי שלא היה בגבולות המרחב שנבדק."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_008",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "איזה היפר-פרמטר מוצג באמצעות תוויות שאינן מספריות?",
+    "answer": [
+      [
+        "Optimizer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_009",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "איזה היפרפרמטר' 'הבחירה הטובה ביותר' שלו הוא חריג מספרי, בהיותו גדול לפחות פי ארבעה מהבחירה המספרית הבאה הגבוהה ביותר?",
+    "answer": [
+      [
+        "Sequence size"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_010",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "בהתחשב בהיפר-פרמטרים עם ארבע אפשרויות במרחב החיפוש שלהם ('גודל רצף', 'שכבות TRADES', 'מימד אוגמנטציה'), מהי מאפיין משותף לערכי 'הבחירה הטובה ביותר' שלהם, ומה ניתן להסיק מכך לגבי אסטרטגיית הכוונון?",
+    "answer": [
+      [
+        "המאפיין המשותף הוא שלגבי כל שלושת ההיפר-פרמטרים, 'הבחירה הטובה ביותר' היא ערך ביניים, לא קיצוני (מינימום או מקסימום). 'הבחירות הטובות ביותר' הן 256 (3 מתוך 4), 8 (3 מתוך 4), ו-64 (2 מתוך 4). הדבר מרמז על אסטרטגיית כוונון מוצלחת שבה מרחב החיפוש היה רחב מספיק כדי לעטוף את הערך האופטימלי, מה שמרמז שהביצועים עבור פרמטרים אלו אינם גדלים באופן מונוטוני עם הערך אלא מגיעים לשיא במקום כלשהו בטווח הנבדק."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_011",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "מהי הבחירה הטובה ביותר עבור Optimizer?",
+    "answer": [
+      [
+        "Adam"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

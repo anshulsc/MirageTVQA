@@ -1,0 +1,208 @@
+[
+  {
+    "question_id": "arxiv_5e3be8dfe7_001",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Który model ma najwięcej odrębnych wyjaśnień parametrów wymienionych w tabeli?",
+    "answer": [
+      [
+        "Neural Networks"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_002",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Ile rozróżnialnych parametrów jest wyjaśnionych łącznie dla wszystkich modeli, które używają składnika sumy (Σ) w swoim głównym wzorze?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_003",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Wymień modele, których główny wzór nie zawiera potęgowania (np. e^x).",
+    "answer": [
+      [
+        "Neural Networks"
+      ],
+      [
+        "Support Vector Machine"
+      ],
+      [
+        "Decision Tree"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_004",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Jaki procent wymienionych modeli wykorzystuje w swojej formule parametr reprezentujący pojedyncze próbki lub punkty danych (np. 'próbka i')?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "C8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_005",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Jeśli liczba kategorii próbek 'm' w modelu drzewa decyzyjnego wynosi 1, jaka byłaby obliczona wartość entropii informacyjnej 'Ent(D)' zgodnie ze wzorem?",
+    "answer": [
+      [
+        "0"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_006",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Którego modelu formuła jest fundamentalnie inna od pozostałych, ponieważ jest przedstawiona jako problem optymalizacji (minimalizacji), a nie bezpośrednie obliczenie wartości wyjściowej?",
+    "answer": [
+      [
+        "Support Vector Machine"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B7",
+      "B9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_007",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "Bazując na wzorach i parametrach, porównaj role parametru 'β' w regresji logistycznej z parametrem 'w' w maszynie wektorów nośnych.",
+    "answer": [
+      [
+        "W regresji logistycznej 'β' jest wektorem wierszowym współczynników regresji, który wraz z wyrazem wolnym określa prawdopodobieństwo wyniku za pomocą funkcji logistycznej. W maszynie wektorów nośnych 'w' jest wektorem parametrów definiującym orientację hiperpłaszczyzny rozdzielającej. Celem w SVM jest znalezienie 'w' maksymalizującego margines między klasami poprzez minimalizację jego normy L2, podczas gdy w regresji logistycznej 'β' jest zazwyczaj znajdowane przez maksymalizację wiarygodności obserwowanych danych."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C3",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_008",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "Jak koncepcje 'warstw' w sieciach neuronowych i 'entropii' w drzewach decyzyjnych odzwierciedlają ich różne podejścia do uczenia się z danych?",
+    "answer": [
+      [
+        "Koncepcja 'warstw' (l i l-1) w sieciach neuronowych odzwierciedla hierarchiczne podejście do uczenia cech. Model uczy się coraz bardziej złożonych reprezentacji danych, przepuszczając aktywacje przez kolejne warstwy, dostosowując wagi ('w') i odchylenia ('b'), aby stworzyć złożony aproksymator funkcji. W przeciwieństwie do tego, koncepcja 'entropii' (Ent(D)) w drzewach decyzyjnych odzwierciedla zachłanne, oparte na regułach podejście. Model rekursywnie dzieli dane na czystsze podzbiory, wybierając cechy, które powodują największy spadek entropii (przyrost informacji), tworząc wyraźny zestaw reguł typu 'jeśli-to'."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_009",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Jaka jest łączna liczba unikalnych modeli opisanych w tabeli?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_010",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Która kolumna ma na celu zdefiniowanie zmiennych używanych w sąsiedniej kolumnie?",
+    "answer": [
+      [
+        "Parameter and Explanation"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

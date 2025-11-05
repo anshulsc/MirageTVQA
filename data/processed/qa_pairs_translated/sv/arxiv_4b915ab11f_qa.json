@@ -1,0 +1,188 @@
+[
+  {
+    "question_id": "arxiv_4b915ab11f_001",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Vilken modell, bland de listade, använder den största basarkitekturen när det gäller antalet parametrar?",
+    "answer": [
+      [
+        "XuanYuan2.0"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D1",
+      "D2",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_002",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Vad är det totala antalet tokens i korpusen som användes för att träna BloomBergGPT?",
+    "answer": [
+      [
+        "708B"
+      ]
+    ],
+    "evidence_cells": [
+      "B1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_003",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Vad är träningsbudgeten för modellen byggd på T5-arkitekturen?",
+    "answer": [
+      [
+        "Days/weeks"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_004",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "För modellen som specificerar en tvåstegsträningsdat process, vad var korpusstorleken för förträningssteget?",
+    "answer": [
+      [
+        "366B"
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_005",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Identifiera LLM som använder en BLOOM-baserad arkitektur och har en offentligt släppt träningsbudget angiven i A100·timmar.",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_006",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Vilken procentandel av BloomBergGPT:s totala träningskorpus består av publika tokens?",
+    "answer": [
+      [
+        "48.73%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_007",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "open_ended_reasoning",
+    "question": "Om XuanYuan2.0:s träningsbudget avslöjades vara 2 500 000 A100·timmar, hur skulle detta påverka rangordningen av modeller efter träningsbudget?",
+    "answer": [
+      [
+        "För närvarande har BloomBergGPT den enda angivna numeriska budgeten (1 300 000 A100·timmar), vilket gör att den rankas först. Om XuanYuan2.0:s budget var 2 500 000 A100·timmar, skulle den bli modellen med den högsta kända träningsbudgeten och överträffa BloomBergGPT. Den nya rangordningen för modeller med numeriska budgetar skulle vara 1. XuanYuan2.0 (2 500 000) och 2. BloomBergGPT (1 300 000)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_008",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "open_ended_reasoning",
+    "question": "Finns det ett konsekvent samband mellan antalet parametrar i en modells arkitektur och den totala storleken på dess träningskorpus, baserat på dessa data?",
+    "answer": [
+      [
+        "Nej, det finns inget konsekvent positivt samband tydligt i datan. Till exempel har XuanYuan2.0 en mycket större arkitektur (176 miljarder parametrar) än BloomBergGPT (50 miljarder parametrar), men den tränades ändå på en mindre korpus (379 miljarder tokens jämfört med 708 miljarder tokens). Detta tyder på att en större modell inte nödvändigtvis kräver en större träningskorpus enligt denna datamängd."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_009",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Vilken datakolumn uppvisar mest variation i dataformat, innehållande ett stort heltal, en sträng med \"ej offentliggjord\"-information och ett tidsbaserat intervall?",
+    "answer": [
+      [
+        "Training budget (A100·hours)"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_010",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Vilken modells angivna träningsbudget är en signifikant positiv anomali jämfört med budgetinformationen som finns tillgänglig för de andra modellerna?",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_011",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Vilken förtränad LLM använder 50B-BLOOM-modellarkitekturen?",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

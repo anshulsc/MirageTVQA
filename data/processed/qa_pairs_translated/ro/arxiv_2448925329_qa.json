@@ -1,0 +1,233 @@
+[
+  {
+    "question_id": "arxiv_2448925329_001",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Ce set de date prezintă cea mai bună potrivire a modelului, indicată prin valoarea R-pătrat?",
+    "answer": [
+      [
+        "BTC/USD ΔM vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_002",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Care este valoarea medie a Kurtosis pentru toate seturile de date care implică BTC/USD?",
+    "answer": [
+      [
+        "7.7025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_2448925329_003",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Pentru modelul cu cea mai mică valoare pozitivă a R-pătrat, care este statisticul său Durbin-Watson corespunzător?",
+    "answer": [
+      [
+        "0.337"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "I2",
+      "B1",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_004",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Cum se modifică puterea explicativă a modelului, măsurată prin R-pătrat, pentru setul de date LUNA/USD atunci când intervalul de timp este mărit de la 1s la 10s?",
+    "answer": [
+      [
+        "Puterea explicativă a modelului LUNA/USD, indicată de valoarea R-pătrat, crește semnificativ de la 0,036 pentru intervalul de 1 secundă la 0,274 pentru intervalul de 10 secunde. Aceasta reprezintă o creștere de peste șapte ori, sugerând că modelul este substanțial mai eficient în explicarea modificărilor de preț pe termen mai lung."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_005",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Enumerați toate seturile de date în care reziduurile modelului sunt asimetrice negativ (Skew < 0) și statistica Durbin-Watson este mai mare decât 2, sugerând autocorelare negativă.",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 1s",
+        "BTC/USD ΔM vs ΔP 1s"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "I1",
+      "A3",
+      "G3",
+      "I3",
+      "G2",
+      "I2",
+      "G4",
+      "I4",
+      "G5",
+      "I5",
+      "G6",
+      "I6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_006",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Ce proporție din suma totală a tuturor statisticilor F este atribuită modelelor cu un interval de 10s?",
+    "answer": [
+      [
+        "93.68%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A6",
+      "C6",
+      "C1",
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_2448925329_007",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Dacă valoarea Kurtosis pentru modelul 'BTC/USD OFI vs ΔP 10s' ar fi ajustată la Kurtosis-ul mediu al tuturor celorlalte modele, care ar fi noua sa valoare?",
+    "answer": [
+      [
+        "5.700"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_008",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Există o relație consecventă între statistica F a unui model și statistica sa Jarque-Bera (JB)? Analizați tiparul.",
+    "answer": [
+      [
+        "Nu există o relație consecventă, clară între statistica F și statistica Jarque-Bera (JB). De exemplu, modelul cu cea mai mare statistică F (15890.0) are o statistică JB de 6560.394, în timp ce modelul cu a doua cea mai mică statistică F (137.0) are o statistică JB mult mai mică, de 816.435. Cu toate acestea, modelul cu cea mai mică statistică F (70.87) are cea mai mare statistică JB (10204.282). Acest lucru indică faptul că semnificația generală a modelului (statistica F) și normalitatea reziduurilor sale (statistica JB) nu sunt direct corelate în acest set de date."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "J1",
+      "C2",
+      "J2",
+      "C3",
+      "J3",
+      "C4",
+      "J4",
+      "C5",
+      "J5",
+      "C6",
+      "J6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_2448925329_009",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Care coloană, excluzând identificatorul 'Dataset', conține cel mai larg interval de valori, luând în considerare ordinul de mărime (de la cel mai mic la cel mai mare)?",
+    "answer": [
+      [
+        "Coloana 'Prob(JB)' arată cel mai larg interval de valori în funcție de ordinul de mărime. Aceasta conține valori de la 0,0 (efectiv infinitzimale) până la valori de 4,26e-263, 1,93e-57, 5,17e-178 și 9,05e-92, acoperind multe sute de ordine de mărime, mult mai mult decât orice altă coloană numerică."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B6",
+      "C1",
+      "C6",
+      "D1",
+      "D6",
+      "E1",
+      "E6",
+      "F1",
+      "F6",
+      "G1",
+      "G6",
+      "H1",
+      "H6",
+      "I1",
+      "I6",
+      "J1",
+      "J6",
+      "K1",
+      "K6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_011",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Între BTC/USD ΔM vs ΔP 1s și LUNA/USD ΔM vs ΔP 1s, care set de date prezintă o putere predictivă mai mare bazată pe R² și statistica F?",
+    "answer": [
+      [
+        "BTC/USD ΔM vs ΔP 1s a demonstrat cea mai mare putere predictivă bazată pe R² și statistica F, cu R² = 0,168 și statistică F = 723,6."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

@@ -1,0 +1,243 @@
+[
+  {
+    "question_id": "arxiv_5ef1fd398c_001",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Hvilken 'Fokus Kategori' optræder oftest i tabellen?",
+    "answer": [
+      [
+        "Financial Indicator"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "A15"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_002",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Hvor mange distinkte fokusområder indeholder præcis tre fokusfelter?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_003",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Inden for den kategori, der inkluderer 'Pension', hvilket andet 'Focus Item' har spørgsmål relateret til medarbejderløn og -goder?",
+    "answer": [
+      [
+        "Salary"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_004",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Hvilket 'Focus Item' har spørgsmål, der mest eksplicit fokuserer på at sammenligne præstationer på tværs af forskellige tidligere tidsperioder, såsom kvartal-over-kvartal og år-til-år?",
+    "answer": [
+      [
+        "Revenue"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_005",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "List alle 'Fokusområder' under 'Udvidelse'-kategorien, der ikke specifikt nævner fysiske produkter.",
+    "answer": [
+      [
+        "Geographic Expansion"
+      ],
+      [
+        "Market Segmentation Expansion"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "B11",
+      "A12",
+      "B12",
+      "A13",
+      "B13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_006",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Hvilken andel af 'Fokusposter' i kategorien 'Finansiel Indikator' vedrører direkte aktionærafkast (f.eks. udbytte, ROE, tilbagekøb)?",
+    "answer": [
+      [
+        "2/4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_007",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvis 'Dividend' fokuspunktet blev omkategoriseret under en ny 'Shareholder Value' kategori, hvordan ville antallet af elementer i kategorien 'Financial Indicator' ændre sig?",
+    "answer": [
+      [
+        "Antallet af elementer ville falde fra 4 til 3."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_008",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "open_ended_reasoning",
+    "question": "Baseret på de givne spørgsmål, hvilken sammenhæng antydes der mellem en ændring i virksomhedsledelsen og dens virksomhedsstrategi?",
+    "answer": [
+      [
+        "Tabellen antyder en direkte årsagssammenhæng, da spørgsmål Q3 for 'Ledelsesændring' eksplicit spørger til den forventede indvirkning af sådanne ændringer på virksomhedens strategi. Dette indikerer, at ledelsesovergange betragtes som centrale drivkræfter for strategiske skift."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_009",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Identificer de 'Fokus-emner', der er strukturelle outliers, hvor emnenavnet er identisk med dets kategorinavn, og det er det eneste emne i den kategori.",
+    "answer": [
+      [
+        "Business"
+      ],
+      [
+        "Future Outlook"
+      ]
+    ],
+    "evidence_cells": [
+      "A14",
+      "B14",
+      "A15",
+      "B15"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_010",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "open_ended_reasoning",
+    "question": "Sammenlign det tematiske fokus for spørgsmålene om 'Financial Indicator'-elementer med 'Employee Manager'-elementer.",
+    "answer": [
+      [
+        "Spørgsmålene til 'Financial Indicator'-elementer er eksternt fokuserede på kvantitative præstationsmålinger som omsætning, udbytte og indtjening, primært til investoranalyse. I modsætning hertil er 'Employee Manager'-spørgsmålene internt fokuserede på humankapital og administrative aspekter, såsom lønninger, pensionsforpligtelser og virkningen af ledelsesændringer, som vedrører interne operationer og medarbejdernes velfærd."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_011",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Hvor mange fokus-emner er der under kategorien Finansiel indikator?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

@@ -1,0 +1,258 @@
+[
+  {
+    "question_id": "arxiv_da116d1768_001",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "List metodene/papirene som bruker en LLM-modell som anses som nyere eller mer avansert enn GPT3.5.",
+    "answer": [
+      [
+        "MarketSenseAI [1]"
+      ],
+      [
+        "Ploutos [4]"
+      ],
+      [
+        "LLMoE [7]"
+      ],
+      [
+        "[48]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_002",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Hvor mange av de oppførte metodene/artiklene nevner eksplisitt bruk av en modell fra GPT-familien (inkludert GPT-4, GPT3.5, GPT-4-Turbo eller generelle GPT-baserte modeller)?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_da116d1768_003",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Hvilke datasett brukes av metodene som spesifikt fokuserer på 'investering' som en applikasjon?",
+    "answer": [
+      [
+        "S&P 100 stocks"
+      ],
+      [
+        "S&P 500 index"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "C1",
+      "D4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_004",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "open_ended_reasoning",
+    "question": "Med tanke på utviklingen av GPT-modeller fra GPT3.5 til GPT-4, hvilken endring i applikasjon eller datofokus kan observeres basert på tabellen?",
+    "answer": [
+      [
+        "Metoden som bruker GPT3.5 (GPT-InvestAR) fokuserer på 'aksjeinvestering' ved bruk av det brede S&P 500-indeksen. Metodene som bruker den mer avanserte GPT-4 (MarketSenseAI og Ploutos) retter seg mot mer spesifikke applikasjoner som 'Aksjeutvelgelse og investeringsinnsikt' og 'Aksjebevegelser', og bruker både S&P 100 og datasett fra akademiske artikler. Dette antyder en trend mot mer spesialiserte og analytiske applikasjoner med kraftigere modeller."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "D4",
+      "C4",
+      "B1",
+      "D1",
+      "C1",
+      "B2",
+      "D2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_005",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Identifiser LLM-modellene som brukes av metoder der applikasjonen involverer ordet 'stock', men ikke eksplisitt 'Stock investment'.",
+    "answer": [
+      [
+        "GPT-4"
+      ],
+      [
+        "GPT-4-Turbo, LLaMA3"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "B1",
+      "D2",
+      "B2",
+      "D4",
+      "D6",
+      "B6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_006",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Hvilken prosentandel av de oppførte metodene/artiklene bruker finansielle markedsindekser (som S&P eller KOSPI) som datakilde?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C4",
+      "C6",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_da116d1768_007",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Hvis et prosjekts krav var å velge en eksisterende tilnærming for 'aksjemarkedsprediksjon', men var begrenset til kun å bruke modeller fra GPT-familien, hvilken spesifikk LLM-modell fra tabellen ville blitt valgt?",
+    "answer": [
+      [
+        "GPT-4-Turbo"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_008",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "open_ended_reasoning",
+    "question": "Basert på tabellen, hva er det tilsynelatende forholdet mellom spesifisiteten til LLM-modellen som nevnes og typen data den brukes på?",
+    "answer": [
+      [
+        "Det ser ut til å være en korrelasjon der mer spesifikke og avanserte modeller som GPT-4, GPT3.5 og Llama3.2 pares med strukturerte finansielle datasett (f.eks. S&P-indekser, MSFT-AAPL-data). I kontrast er de mer generelt beskrevne 'GPT-baserte modellene' assosiert med svært brede, ikke-domenespesifikke korpora som Common Crawl og Wikipedia, noe som tyder på at generelle modeller brukes til bredere analyse mens spesifikke, toppmoderne modeller testes på mer målrettede finansielle oppgaver."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_da116d1768_009",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Hvilken kolonne inneholder de mest beskrivende og varierte datatypene, som indikert av mangfoldet av oppføringene som spenner fra spesifikke aksjesymboler til brede web-korpora?",
+    "answer": [
+      [
+        "Data"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_010",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Identifiser metoden/artikkelen som skiller seg ut som en outlier når det gjelder applikasjonens omfang og generellheten i datakilden sammenlignet med de andre, som er fokusert på spesifikke aksjemarkeds-oppgaver.",
+    "answer": [
+      [
+        "ChainBuddy [10]"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "D1",
+      "D2",
+      "D4",
+      "D5",
+      "D6",
+      "C1",
+      "C2",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_da116d1768_011",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Hvor mange metoder/artikler brukte GPT-modeller for trening?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A6",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

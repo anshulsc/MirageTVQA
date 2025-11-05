@@ -1,0 +1,266 @@
+[
+  {
+    "question_id": "arxiv_2ffada3c04_001",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "کس ماڈل کو 'ملٹی-ایسٹ' مارکیٹوں کے لیے ڈیزائن کیا گیا ہے اور اس میں سب سے کم کمپیوٹ ضرورت ہے؟",
+    "answer": [
+      [
+        "DRPO"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A6",
+      "D6",
+      "E6",
+      "A9",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_002",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "کتنے ماڈلز 'Direct' ایگزیکیوشن سٹریٹیجی استعمال کرتے ہیں؟",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_003",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "'High' کمپیوٹ ریکوائرمنٹس والے ماڈلز میں سے، کس کے اہم مضبوط پہلوؤں میں 'Robust pattern extraction' شامل ہے؟",
+    "answer": [
+      [
+        "StockFormer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "F1",
+      "A4",
+      "E4",
+      "F4",
+      "A5",
+      "E5",
+      "F5",
+      "A8",
+      "E8",
+      "F8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_004",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "'Equities' مارکیٹ میں کام کرنے والے اور 'Indirect' ایگزیکیوشن کا طریقہ استعمال کرنے والے تمام ماڈلز کی شناخت کریں؟",
+    "answer": [
+      [
+        "CPPI-MADDPG"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "A7",
+      "C7",
+      "D7",
+      "A8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_005",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "درج کردہ تمام ماڈلز میں سے کتنے فیصد کا 'High' یا 'Very High' کمپیوٹ ریکوائرمنٹ ہے؟",
+    "answer": [
+      [
+        "55.6%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_006",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "اگر کسی فرم کے انفراسٹرکچر میں صرف 'میڈیم' یا 'لو' کمپیوٹ کی ضروریات والے ماڈلز کی سپورٹ ہو تو، جدول میں درج کون سی ٹریڈنگ سٹریٹجیز ان کے لیے مکمل طور پر ناقابلِ دستیابی ہوں گی؟",
+    "answer": [
+      [
+        "Predictive"
+      ],
+      [
+        "Hybrid"
+      ],
+      [
+        "Signal"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "E1",
+      "B4",
+      "E4",
+      "B5",
+      "E5",
+      "B6",
+      "E6",
+      "B8",
+      "E8",
+      "B9",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_007",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "open_ended_reasoning",
+    "question": "ڈیٹا کے مطابق، ماڈل کی 'Execution' قسم اور اس کی 'Compute' ضرورت کی سطح کے درمیان کیا تعلق ظاہر ہوتا ہے؟",
+    "answer": [
+      [
+        "ایگزیکیوشن کی قسم اور کمپیوٹ کی ضروریات کے درمیان ایک تعلق ظاہر ہوتا ہے۔ 'High' کمپیوٹ والے تمام چار ماڈلز (StockFormer, EarnHFT, MacroHFT, HRT) اور 'Very High' کمپیوٹ والا ایک ماڈل (TRR) 'Direct' (3) اور 'Indirect' (2) ایگزیکیوشن کے درمیان تقسیم ہیں۔ تاہم، 'Medium' یا 'Low' کمپیوٹ کی ضروریات والے ماڈلز زیادہ تر 'Direct' (4 میں سے 3) ہیں، جن میں سے صرف ایک 'Indirect' ایگزیکیوشن استعمال کرتا ہے۔ یہ بتاتا ہے کہ اگرچہ ہائی کمپیوٹ والے ماڈلز براہ راست یا بالواسطہ ہو سکتے ہیں، اس ڈیٹا سیٹ میں کم کمپیوٹ والے ماڈلز میں براہ راست ایگزیکیوشن کی حکمت عملی کو اپنانے کا زیادہ امکان ہے، ممکنہ طور پر لیٹنسی اوور ہیڈ کو کم کرنے کے لیے جو ایک بالواسطہ پرت متعارف کروا سکتی ہے۔"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C2",
+      "E2",
+      "C3",
+      "E3",
+      "C4",
+      "E4",
+      "C5",
+      "E5",
+      "C6",
+      "E6",
+      "C7",
+      "E7",
+      "C8",
+      "E8",
+      "C9",
+      "E9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_008",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "کون سا ماڈل 'بہت زیادہ' کمپیوٹ ریکوائرمنٹ رکھنے کی وجہ سے منفرد ہے، جس کی وجہ سے یہ کمپیوٹیشنل ڈیمانڈ کے لحاظ سے ایک آؤٹ لائر ہے؟",
+    "answer": [
+      [
+        "TRR"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_009",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "کون سے ماڈلز 'مارکیٹ اسپیسفک' یا 'سنگل مارکیٹ فوکس' کے ڈیزائن کی وجہ سے محدود ہیں لیکن 'کرپٹو' مارکیٹ میں کام نہیں کرتے؟",
+    "answer": [
+      [
+        "MacMic"
+      ],
+      [
+        "IMM"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "G2",
+      "A3",
+      "D3",
+      "G3",
+      "A5",
+      "D5",
+      "G5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_010",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "open_ended_reasoning",
+    "question": "ایک پورٹ فولیو منیجر کو ایکویٹی کے لیے ڈاؤن سائیڈ پروٹیکشن والا ماڈل چاہیے، لیکن وہ پیچیدگی کے بارے میں فکر مند ہے۔ ڈیٹا کی بنیاد پر، سب سے موزوں ماڈل کے لیے بنیادی سمجھوتہ کیا ہے؟",
+    "answer": [
+      [
+        "سب سے موزوں ماڈل CPPI-MADDPG ہے، جو 'ایکویٹی' مارکیٹ پر 'پورٹ فولیو' حکمت عملی کے ساتھ توجہ مرکوز کرتا ہے اور واضح طور پر 'ڈاؤن سائیڈ پروٹیکشن' کو ایک کلیدی مضبوطی کے طور پر درج کرتا ہے۔ اس کے 'کلیدی حدود' میں بیان کردہ بنیادی سمجھوتے 'کوارڈینیشن اوور ہیڈ' اور 'سلوور اڈاپٹیشن' ہیں۔ اس کا مطلب یہ ہے کہ مینیجر کو بڑھتی ہوئی آپریشنل پیچیدگی اور مارکیٹ کی تبدیلیوں پر تیزی سے ردعمل ظاہر کرنے کی کم صلاحیت کی قیمت پر پورٹ فولیو کی حفاظت حاصل ہوتی ہے۔"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "D7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_011",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "کون سا ٹریڈنگ ماڈل پیشین گوئی کی حکمت عملی اور زیادہ کمپیوٹ کی ضروریات استعمال کرتا ہے؟",
+    "answer": [
+      [
+        "StockFormer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "E1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,269 @@
+[
+  {
+    "question_id": "arxiv_a783ff97d3_001",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC2_64' فارکاسٹنگ سیٹنگ کے لیے کس فیچر سلیکشن میتھڈ نے سب سے کم ایرر ویلیو حاصل کی؟",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_002",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'LASSO regression feature selection' کے طریقے سے تمام فورکاسٹنگ سیٹنگز میں استعمال ہونے والے ایکسوجینس ویری ایبلز کی اوسط تعداد کیا ہے؟",
+    "answer": [
+      [
+        "6.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_003",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC3_28' فورکاسٹنگ سیٹنگ کے لیے، وہ طریقہ کار جو سب سے زیادہ غیر ملکی متغیرات استعمال کرتا ہے، اس کی خرابی کا میٹرک کیا ہے؟",
+    "answer": [
+      [
+        "18.23"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "G2",
+      "G3",
+      "A4",
+      "G4",
+      "G5",
+      "A6",
+      "G6",
+      "G7",
+      "A8",
+      "G8",
+      "G9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_004",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'BC1_64' سیٹنگ کے لیے، کیا غیر ملکی متغیرات کی تعداد میں اضافہ مستقل طور پر کارکردگی کو بہتر بناتا ہے (یعنی، غلطی کی قدر کو کم کرتا ہے)؟ مختصر تجزیہ فراہم کریں۔",
+    "answer": [
+      [
+        "نہیں، کوئی مستقل تعلق نہیں ہے۔ 'BC1_64' سیٹنگ کے لیے، 'Correlation-Based Selection' 14.11 کی غلطی کے لیے 3 متغیرات استعمال کرتا ہے، 'LASSO regression' بھی 3 متغیرات استعمال کرتا ہے لیکن اس میں 14.55 کی زیادہ غلطی ہے۔ 'Forward Feature Selection NP' بہت بڑی تعداد میں متغیرات (28) استعمال کرتا ہے اور 9.16 کی نمایاں طور پر بہتر (کم) غلطی حاصل کرتا ہے۔ یہ بتاتا ہے کہ جب کہ متغیرات کی زیادہ تعداد بہتر ہو سکتی ہے، مخصوص انتخاب کا طریقہ بہت اہم ہے اور صرف متغیرات کو شامل کرنا بہتری کی ضمانت نہیں ہے۔"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "B3",
+      "A4",
+      "B4",
+      "B5",
+      "A6",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_005",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC3_64' سیٹنگ کے لیے 15 سے زیادہ کی غلطی کی قیمت کے نتیجے میں آنے والے تمام فیچر سلیکشن کے طریقے درج کریں۔",
+    "answer": [
+      [
+        "Without exogenous variables"
+      ],
+      [
+        "Correlation-Based Selection"
+      ],
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Manual feature selection"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A4",
+      "F4",
+      "A6",
+      "F6",
+      "A8",
+      "F8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_006",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'فارورڈ فیچر سلیکشن این پی' کے ذریعے تمام سیٹنگز میں استعمال کیے جانے والے مجموعی غیر ملکی متغیرات میں سے کتنے فیصد 'BC1_64' سیٹنگ کو مختص کیے گئے تھے؟",
+    "answer": [
+      [
+        "28.57"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_007",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "اگر ڈیٹا پروسیسنگ کی غلطی کی وجہ سے 'BC2_28' سیٹنگ کے لیے تمام خرابی کے میٹرکس ریکارڈ شدہ سے 2.5 پوائنٹس کم ہو گئے، تو 'Manual feature selection' کے لیے نئی خرابی کیا ہوگی؟",
+    "answer": [
+      [
+        "13.57"
+      ]
+    ],
+    "evidence_cells": [
+      "E8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_008",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "ان فیچر سلیکشن طریقوں میں جہاں متغیرات کی تعداد واضح طور پر درج ہے، کون سا مختلف فارکاسٹنگ سیٹنگز میں منتخب کردہ متغیرات کی رینج (زیادہ سے کم تک) کے لحاظ سے سب سے زیادہ عدم استحکام ظاہر کرتا ہے؟",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "A6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "A8",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9",
+      "G9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_009",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'LASSO regression feature selection' کے طریقے کے لیے، 'BC3_28' کی خرابی کی قدر ایک آؤٹ لائر ہے۔ اسی طریقے کے لیے دیگر سیٹنگز کے مقابلے میں اس کے متعلقہ غیر ملکی متغیرات کی تعداد کا موازنہ کیسے کیا جاتا ہے؟",
+    "answer": [
+      [
+        "LASSO کے لیے 28.79 کی بلند ترین آؤٹ لائر غلطی کے حامل 'BC3_28' سیٹنگ میں سب سے زیادہ غیر ملکی متغیرات (16) بھی استعمال ہوتے ہیں۔ یہ دیگر سیٹنگز سے نمایاں طور پر زیادہ ہے، جن میں 0 سے 10 تک متغیرات شامل ہیں۔ یہ اس بات کی طرف اشارہ کرتا ہے کہ LASSO کا طریقہ اس مخصوص پیشن گوئی کے تناظر میں خصوصیات کا ایک بڑا، لیکن خراب کارکردگی کا مظاہرہ کرنے والا سیٹ منتخب کرتا ہے۔"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5",
+      "E4",
+      "E5",
+      "F4",
+      "F5",
+      "G4",
+      "G5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_010",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'بغیر بیرونی متغیرات' کے بیس لائن کی کارکردگی کا تجزیہ کرتے ہوئے، جب آپ ترتیب وار 'BC1' سیٹنگز سے 'BC2' اور پھر 'BC3' کی طرف بڑھتے ہیں تو ایرر میٹرک کے رجحان کو بیان کریں۔",
+    "answer": [
+      [
+        "'بغیر بیرونی متغیرات' کے بیس لائن کی کارکردگی سیٹنگز میں ایک واضح نمونہ دکھاتی ہے۔ یہ BC1 سیٹنگز (11.14، 13.65) کے لیے درمیانے درجے کی ایرر ویلیوز سے شروع ہوتی ہے۔ BC2 سیٹنگز کے لیے کارکردگی میں نمایاں بہتری آتی ہے، جن میں سب سے کم ایرر (3.75، 9.08) ہیں۔ آخر میں، BC3 سیٹنگز (17.53، 9.06) کے لیے ایرر دوبارہ بڑھ جاتا ہے، جس میں BC3_64 اس طریقے کے لیے مجموعی طور پر سب سے زیادہ ایرر رکھتا ہے۔ یہ ظاہر کرتا ہے کہ بیس لائن ماڈل BC2 کے حالات کے لیے سب سے موزوں ہے۔"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_011",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'LASSO regression feature selection' اور 'Forward Feature Selection NP' میں سے، BC2_64 کنفیگریشن میں کس فورکاسٹنگ سیٹنگ نے کم قدر حاصل کی؟",
+    "answer": [
+      [
+        "'Forward Feature Selection NP' نے 'LASSO regression feature selection' (5.73) کے مقابلے میں BC2_64 کنفیگریشن میں کم قدر (2.9) حاصل کی۔"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "D5",
+      "D7"
+    ],
+    "reasoning_category": "Comaparative Reasoning"
+  }
+]

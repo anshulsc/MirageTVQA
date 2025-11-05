@@ -1,0 +1,269 @@
+[
+  {
+    "question_id": "arxiv_a783ff97d3_001",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Kaedah pemilihan ciri manakah yang mencapai nilai ralat terendah untuk tetapan ramalan 'BC2_64'?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_002",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Berapakah purata bilangan pembolehubah eksogen yang digunakan oleh kaedah 'LASSO regression feature selection' merentasi semua tetapan ramalan?",
+    "answer": [
+      [
+        "6.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_003",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Bagi tetapan ramalan 'BC3_28', apakah metrik ralat bagi kaedah yang menggunakan bilangan pembolehubah eksogen tertinggi?",
+    "answer": [
+      [
+        "18.23"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "G2",
+      "G3",
+      "A4",
+      "G4",
+      "G5",
+      "A6",
+      "G6",
+      "G7",
+      "A8",
+      "G8",
+      "G9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_004",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Adakah peningkatan bilangan pembolehubah eksogen secara konsisten meningkatkan prestasi (iaitu, menurunkan nilai ralat) untuk tetapan 'BC1_64'? Berikan analisis ringkas.",
+    "answer": [
+      [
+        "Tidak, tiada hubungan yang konsisten. Untuk tetapan 'BC1_64', 'Correlation-Based Selection' menggunakan 3 pembolehubah untuk ralat sebanyak 14.11, 'LASSO regression' juga menggunakan 3 pembolehubah tetapi mempunyai ralat yang lebih tinggi sebanyak 14.55. 'Forward Feature Selection NP' menggunakan bilangan pembolehubah yang jauh lebih besar (28) dan mencapai ralat yang jauh lebih baik (lebih rendah) sebanyak 9.16. Ini menunjukkan bahawa walaupun bilangan pembolehubah yang lebih tinggi boleh menjadi lebih baik, kaedah pemilihan tertentu adalah kritikal dan penambahan pembolehubah semata-mata bukanlah jaminan peningkatan."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "B3",
+      "A4",
+      "B4",
+      "B5",
+      "A6",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_005",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Senaraikan semua kaedah pemilihan ciri yang menghasilkan nilai ralat lebih besar daripada 15 untuk tetapan 'BC3_64'.",
+    "answer": [
+      [
+        "Without exogenous variables"
+      ],
+      [
+        "Correlation-Based Selection"
+      ],
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Manual feature selection"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A4",
+      "F4",
+      "A6",
+      "F6",
+      "A8",
+      "F8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_006",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Berapakah peratus daripada jumlah keseluruhan pembolehubah eksogen yang digunakan oleh 'Forward Feature Selection NP' di semua tetapan yang diperuntukkan kepada tetapan 'BC1_64'?",
+    "answer": [
+      [
+        "28.57"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_007",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Jika ralat pemprosesan data menyebabkan semua metrik ralat untuk tetapan 'BC2_28' menjadi 2.5 mata lebih rendah daripada yang direkodkan, apakah ralat baharu untuk 'Manual feature selection'?",
+    "answer": [
+      [
+        "13.57"
+      ]
+    ],
+    "evidence_cells": [
+      "E8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_008",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Dalam kalangan kaedah pemilihan ciri di mana bilangan pembolehubah disenaraikan secara eksplisit, kaedah manakah yang menunjukkan ketidakstabilan terbesar, diukur dengan julat (maksimum tolak minimum) pembolehubah yang dipilih merentasi tetapan ramalan yang berbeza?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "A6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "A8",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9",
+      "G9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_009",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Untuk kaedah 'LASSO regression feature selection', nilai ralat untuk 'BC3_28' adalah luar biasa. Bagaimana bilangan pembolehubah eksogen yang sepadan dengannya dibandingkan dengan tetapan lain untuk kaedah yang sama?",
+    "answer": [
+      [
+        "Tetapan 'BC3_28', yang mempunyai ralat luar biasa tinggi sebanyak 28.79 untuk LASSO, juga menggunakan bilangan pembolehubah eksogen tertinggi (16) untuk kaedah tersebut. Ini jauh lebih tinggi daripada tetapan lain, yang julatnya dari 0 hingga 10 pembolehubah. Ini menunjukkan potensi masalah di mana kaedah LASSO memilih set ciri yang besar, tetapi berprestasi buruk, untuk konteks ramalan khusus ini."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5",
+      "E4",
+      "E5",
+      "F4",
+      "F5",
+      "G4",
+      "G5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_010",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Menganalisis prestasi asas 'Tanpa pembolehubah eksogen', huraikan trend dalam metrik ralat apabila anda bergerak secara berurutan daripada tetapan 'BC1' kepada 'BC2' dan kemudian 'BC3'.",
+    "answer": [
+      [
+        "Prestasi asas 'Tanpa pembolehubah eksogen' menunjukkan corak yang jelas di seluruh tetapan. Ia bermula dengan nilai ralat yang sederhana untuk tetapan BC1 (11.14, 13.65). Prestasi bertambah baik secara dramatik untuk tetapan BC2, yang mempunyai ralat terendah (3.75, 9.08). Akhir sekali, ralat meningkat semula untuk tetapan BC3 (17.53, 9.06), dengan BC3_64 mempunyai ralat tertinggi secara keseluruhan untuk kaedah ini. Ini menunjukkan model asas paling sesuai untuk keadaan BC2."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_011",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Antara 'LASSO regression feature selection' dan 'Forward Feature Selection NP', tetapan ramalan manakah yang mencapai nilai lebih rendah dalam konfigurasi BC2_64?",
+    "answer": [
+      [
+        "'Forward Feature Selection NP' mencapai nilai yang lebih rendah (2.9) berbanding 'LASSO regression feature selection' (5.73) dalam konfigurasi BC2_64."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "D5",
+      "D7"
+    ],
+    "reasoning_category": "Comaparative Reasoning"
+  }
+]

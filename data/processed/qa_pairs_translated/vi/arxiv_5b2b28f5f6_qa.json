@@ -1,0 +1,190 @@
+[
+  {
+    "question_id": "arxiv_5b2b28f5f6_001",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Mô hình bộ dữ liệu nào được xây dựng dựa trên bộ sưu tập điểm dữ liệu số và văn bản thô phong phú nhất được đề cập trong bảng?",
+    "answer": [
+      [
+        "FNSPID"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_002",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Tổng số bản ghi giá và tin tức kết hợp trong khuôn khổ FNSPID là bao nhiêu?",
+    "answer": [
+      [
+        "45.4M"
+      ]
+    ],
+    "evidence_cells": [
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_003",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Đối với tập dữ liệu tập trung vào 'tâm lý nhà đầu tư', loại tính năng nào được đề cập rõ ràng là đóng góp vào kết quả chính là dự đoán được cải thiện?",
+    "answer": [
+      [
+        "emotional features"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_004",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Kết quả chính của bộ dữ liệu nào được xác thực trong một khoảng thời gian đa thập kỷ cụ thể, và năm bắt đầu cũng như năm kết thúc của khoảng thời gian đó là gì?",
+    "answer": [
+      [
+        "Market-GAN",
+        "2000-2023"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_005",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Xác định các tập dữ liệu mà 'Kết quả chính' của chúng bao gồm một chỉ số hiệu suất định lượng (như phần trăm hoặc điểm số thống kê).",
+    "answer": [
+      [
+        "FNSPID"
+      ],
+      [
+        "AlphaFin"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A3",
+      "D3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_006",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Đối với tập dữ liệu FNSPID, tỷ lệ xấp xỉ giữa số bản ghi tin tức và số bản ghi giá là bao nhiêu?",
+    "answer": [
+      [
+        "Approximately 0.53 to 1 (15.7M / 29.7M)"
+      ]
+    ],
+    "evidence_cells": [
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_007",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Nếu tỷ suất lợi nhuận hàng năm được báo cáo bởi AlphaFin giảm 10% so với giá trị hiện tại của nó, thì tỷ lệ phần trăm mới sẽ là bao nhiêu?",
+    "answer": [
+      [
+        "27.72%"
+      ]
+    ],
+    "evidence_cells": [
+      "D3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_008",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "open_ended_reasoning",
+    "question": "Dựa trên mô tả cho FNSPID và StockEmotions, mối quan hệ nào có thể suy ra giữa 'Đổi mới chính' của một tập dữ liệu và 'Đặc điểm dữ liệu' của nó?",
+    "answer": [
+      [
+        "Tồn tại mối tương quan thuận mạnh mẽ, trong đó sự đổi mới chính được hỗ trợ trực tiếp và tùy chỉnh theo bản chất cụ thể của dữ liệu được thu thập. Ví dụ, sự đổi mới của FNSPID trong 'tích hợp giá-tin tức' chỉ có thể thực hiện được nhờ việc thu thập quy mô lớn các bản ghi giá và tin tức. Tương tự, sự đổi mới của StockEmotions trong 'tâm lý nhà đầu tư' bắt nguồn từ tập dữ liệu độc đáo về 'bình luận được chú thích' với các lớp cảm xúc."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_009",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Cột nào trong bảng được thiết kế để tóm tắt đóng góp cốt lõi mới hoặc phương pháp độc đáo của mỗi mô hình?",
+    "answer": [
+      [
+        "Key Innovation"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_010",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Trong số các kết quả chính được liệt kê, bộ dữ liệu nào báo cáo một kết quả chính tập trung vào tính minh bạch và khả năng giải thích của mô hình, khiến nó trở thành một trường hợp ngoại lệ so với những bộ khác chủ yếu tập trung vào độ chính xác, lợi nhuận hoặc độ trung thực của mô phỏng?",
+    "answer": [
+      [
+        "AlphaFin"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_011",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Bộ dữ liệu nào cho kết quả độ chính xác rất cao trong mô phỏng DJIA?",
+    "answer": [
+      [
+        "Market-GAN"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

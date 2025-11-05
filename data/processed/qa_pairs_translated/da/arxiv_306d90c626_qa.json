@@ -1,0 +1,253 @@
+[
+  {
+    "question_id": "arxiv_306d90c626_001",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Hvilken LLM-model familie (f.eks. GPT, Llama) optræder i det højeste antal forskningsartikler angivet?",
+    "answer": [
+      [
+        "GPT"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_002",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Hvad er det samlede antal forskningsartikler, der anvender modeller udviklet af OpenAI (ChatGPT, GPT-3, GPT-4 og deres varianter)?",
+    "answer": [
+      [
+        "9"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B7",
+      "B8",
+      "B9",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_306d90c626_003",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "For de metoder, der anvender FinBERT, hvad er den primære anvendelse, de bruges til?",
+    "answer": [
+      [
+        "Stock price prediction"
+      ],
+      [
+        "Financial Portfolio Optimisation"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "D5",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_004",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Identificer de forskningsmetoder, der viser en tidsmæssig progression i modelvalg ved at bruge mindst to forskellige generationer fra samme modelfamilie (f.eks. GPT-3 og GPT-4).",
+    "answer": [
+      [
+        "FLLM [11]"
+      ],
+      [
+        "Few-Shot Stock Trend Prediction [15]"
+      ],
+      [
+        "Hybrid LLM-based framework [36]"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_005",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "List 'Metode/Papir', der anvender en model fra Llama-familien og ikke bruger S&P 500-data.",
+    "answer": [
+      [
+        "FLLM [11]"
+      ],
+      [
+        "Hybrid LLM-baseret rammeværk [36]"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_006",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "open_ended_reasoning",
+    "question": "S&P 500 nævnes som datakilde i 50% af de anførte undersøgelser. Hvad indebærer denne høje brugsfrekvens om dens rolle i finansiel LLM-forskning?",
+    "answer": [
+      [
+        "Den hyppige brug af S&P 500, som forekommer i halvdelen af undersøgelserne, indebærer, at det fungerer som et standard benchmark datasæt til finansiel forskning, der involverer LLM'er. Dets karakteristika – at være et velkendt, offentligt, omfattende og likvidt datasæt – gør det ideelt til at teste og sammenligne ydeevnen af forskellige modeller og metoder til opgaver som aktieprognoser og porteføljevalg. Denne afhængighed antyder et behov for, at forskere demonstrerer deres models effektivitet på en bredt accepteret standard, før de anvender den på mere nicheprægede eller proprietære data."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C4",
+      "C5",
+      "C6",
+      "C10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_306d90c626_007",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Hvis en ny begrænsning krævede, at al forskning skulle bruge multimodale data (f.eks. nyheds- og markedsdata), hvilken metode ville så ikke længere være i overensstemmelse med de beskrevne data?",
+    "answer": [
+      [
+        "FLLM [11]"
+      ],
+      [
+        "MuSA [26]"
+      ],
+      [
+        "SEP [28]"
+      ],
+      [
+        "Hybrid LLM-baseret framework [36]"
+      ],
+      [
+        "[45]"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_008",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "open_ended_reasoning",
+    "question": "Baseret på tabellen, hvad er forholdet mellem kompleksiteten af 'Applikation' og diversiteten af brugte 'LLM Modeller'? For eksempel, bruger bredere applikationer mere diverse modeller?",
+    "answer": [
+      [
+        "Dataene antyder et omvendt forhold. Mere komplekse og specifikke applikationer som 'Forudsigelse af aktiekursbevægelser' eller 'Finansiel analyse' har en tendens til at udnytte et forskelligartet sæt af modeller, herunder flere generationer og familier (f.eks. 'GPT-3, GPT-4, LLaMA-2, LLaMA-3'). I modsætning hertil vises applikationer med et tilsyneladende enkelt fokus, som 'Valg af investeringsportefølje' eller 'Aktiemarkedstrend', at bruge en enkelt model som ChatGPT. Dette indebærer, at håndtering af nuancerede finansielle opgaver kan drage fordel af en ensemble- eller komparativ tilgang ved hjælp af flere avancerede LLM'er."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B9",
+      "D9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_306d90c626_009",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Hvilken kolonne, 'LLM Model' eller 'Data', indeholder cellen med det største antal forskellige elementer listet?",
+    "answer": [
+      [
+        "LLM Model"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_010",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Hvilket forskningspapir er en outlier med hensyn til dets anvendelse, idet det fokuserer på et bredt systemisk problem snarere end en specifik forudsigende eller investeringsopgave?",
+    "answer": [
+      [
+        "[32]"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_306d90c626_011",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Hvilke data bruges i ChatGPT-baseret investeringsporteføljeselektion [2]?",
+    "answer": [
+      [
+        "S&P500 market"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

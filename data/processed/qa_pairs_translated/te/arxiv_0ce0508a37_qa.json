@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "arxiv_0ce0508a37_001",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "మరొకదాని కంటే రెట్టింపు గుణకం విలువ కలిగిన మార్కెట్ ఇంపాక్ట్ పారామీటర్ ఏది?",
+    "answer": [
+      [
+        "Temporary impact coefficient"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C9",
+      "A10",
+      "C10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_002",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "'నాన్-లీనియారిటీ పారామీటర్' కోసం అందించిన సాధ్యమైన విలువల సమితి ఆధారంగా సగటు విలువ ఎంత?",
+    "answer": [
+      [
+        "0.567"
+      ]
+    ],
+    "evidence_cells": [
+      "C11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_003",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "'మార్కెట్ డైనమిక్స్' కింద అత్యధిక సంఖ్యలో విభిన్న విలువలను కలిగి ఉన్న పారామీటర్ యొక్క చిహ్నం ఏమిటి?",
+    "answer": [
+      [
+        "V0subscript𝑉0\\sqrt{V_{0}}square-root start_ARG italic_V start_POSTSUBSCRIPT 0 end_POSTSUBSCRIPT end_ARG"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_004",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "'ప్రారంభ అస్థిరత', 'దీర్ఘకాలిక అస్థిరత', మరియు 'సగటు పునఃస్థితి వేగం' కోసం ఇచ్చిన విలువల ఆధారంగా, కాలక్రమేణా మోడల్ యొక్క అస్థిరత ప్రవర్తన గురించి ఏమి ఊహించవచ్చు?",
+    "answer": [
+      [
+        "ఈ నమూనా సగటు-తిరిగి వెళ్ళే అస్థిరతను ప్రదర్శిస్తుంది. 'దీర్ఘకాలిక అస్థిరత' 0.3 వద్ద స్థిరంగా ఉంటుంది, ఇది ఒక లంగరుగా పనిచేస్తుంది. 'ప్రారంభ అస్థిరత' ఎక్కువగా (0.4), తక్కువగా (0.2), లేదా దీర్ఘకాలిక స్థాయి (0.3) వద్ద ప్రారంభం కావచ్చు. ప్రారంభ స్థానంతో సంబంధం లేకుండా, అస్థిరత కాలక్రమేణా 0.3కి డ్రిఫ్ట్ అవుతుందని ఆశించబడుతుంది, ఈ ప్రక్రియ 2.0 యొక్క 'సగటు పునఃస్థితి వేగం' ద్వారా నియంత్రించబడుతుంది. దీని అర్థం అధిక లేదా తక్కువ అస్థిరత కాలాలు శాశ్వతంగా ఉండవు."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_005",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "'మార్కెట్ డైనమిక్స్' వర్గంలోని ఏయే పారామితులకు బహుళ సాధ్యమైన విలువలు ఉన్నాయో, జాబితా చేయబడిన అన్ని విలువలు రుణాత్మకం కానివి అయితే, వాటిని జాబితా చేయండి.",
+    "answer": [
+      [
+        "Drift rate"
+      ],
+      [
+        "Initial volatility"
+      ],
+      [
+        "Volatility of variance"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_006",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "'రిస్క్ అయిష్టత' (Risk aversion) అనేది రిస్క్ టాలరెన్స్ యొక్క విలోమం (inverse) గా నిర్వచించబడితే, మరియు 'శాశ్వత ప్రభావం' (Permanent impact) మరియు 'తాత్కాలిక ప్రభావం' (Temporary impact) రెండింటి విలువలు 10 రెట్లు పెరిగితే, 'తాత్కాలిక ప్రభావ గుణకం' (Temporary impact coefficient) మరియు 'రిస్క్ అయిష్టత' (Risk aversion) ల మధ్య కొత్త నిష్పత్తి ఏమిటి?",
+    "answer": [
+      [
+        "50.0"
+      ]
+    ],
+    "evidence_cells": [
+      "C10",
+      "C13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_007",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "'మీన్ రివర్షన్ స్పీడ్' 50% తగ్గితే, మరియు 'వోలటిలిటీ ఆఫ్ వేరియన్స్' విలువలు రెండూ 0.1 పెరిగితే, 'మీన్ రివర్షన్ స్పీడ్' మరియు గరిష్ట 'వోలటిలిటీ ఆఫ్ వేరియన్స్' ల కొత్త మొత్తం ఎంత అవుతుంది?",
+    "answer": [
+      [
+        "1.4"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_008",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "టేబుల్ 'కొరిలేషన్' విలువను -0.7గా పేర్కొంది. ఫైనాన్షియల్ మోడల్‌లో, ఆస్తి ధర మరియు దాని అస్థిరత మధ్య సంబంధం గురించి ఈ బలమైన ప్రతికూల విలువ సాధారణంగా ఏమి సూచిస్తుంది?",
+    "answer": [
+      [
+        "–0.7 కొరిలేషన్ అనేది ఒక బలమైన విలోమ సంబంధాన్ని సూచిస్తుంది, దీనిని తరచుగా లెవరేజ్ ఎఫెక్ట్ అని అంటారు. ఆస్తి ధర తగ్గినప్పుడు, దాని అస్థిరత పెరిగే అవకాశం ఉందని, మరియు దీనికి విరుద్ధంగా, ఆస్తి ధర పెరిగినప్పుడు, దాని అస్థిరత తగ్గే అవకాశం ఉందని ఇది సూచిస్తుంది. వాస్తవిక ఆస్తి ధర మోడలింగ్ మరియు డెరివేటివ్స్ ధరలకు ఇది ఒక కీలకమైన లక్షణం."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_009",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "పట్టికలో ఒకే స్థిర విలువకు బదులుగా బహుళ సంభావ్య విలువల సమితి ద్వారా నిర్వచించబడిన పారామితులు ఎన్ని ఉన్నాయి?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_010",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "విలువలో ఏ ఒక్క పరామితి మాత్రమే రుణాత్మకంగా ఉంది, తద్వారా అది గుణాత్మక అవుట్‌లైయర్‌గా నిలుస్తుంది?",
+    "answer": [
+      [
+        "Correlation"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_011",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "మోడల్‌లో మీన్ రివర్షన్ స్పీడ్ ఎంతకు సెట్ చేయబడింది?",
+    "answer": [
+      [
+        "2.0"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

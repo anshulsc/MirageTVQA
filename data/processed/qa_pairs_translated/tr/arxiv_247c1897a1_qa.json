@@ -1,0 +1,305 @@
+[
+  {
+    "question_id": "arxiv_247c1897a1_001",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "MSE30 metriğinde, o metrik için eksik verisi olmayanları hariç tutarak en iyi (yani en düşük) performansı hangi modeller elde etti?",
+    "answer": [
+      [
+        "HTML"
+      ],
+      [
+        "ECC Analyzer"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F8",
+      "F9",
+      "A6",
+      "A9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_002",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Adı 'M' harfiyle başlayan tüm modellerin ortalama MSE7 değeri nedir?",
+    "answer": [
+      [
+        "0.4275"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "A5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_003",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "Performans açısından bariz bir aykırı model belirleyin ve neden diğerlerinden öne çıktığını açıklayın.",
+    "answer": [
+      [
+        "GPT-4-Turbo' modeli önemli bir aykırıdır. Tüm tahmin ufuklarındaki Ortalama Kare Hata (MSE) değerleri (2.198'den 11.824'e kadar), genellikle 2.0'ın altında ve sıklıkla 1.0'ın altında olan diğer tüm modellerden dramatik olarak daha yüksektir. Bu, önemli ölçüde daha düşük bir tahmin doğruluğu gösterir ve performansını bu veri kümesinde bir anomali haline getirir."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "A6",
+      "B6",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "A8",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "A9",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_004",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "En düşük ikinci MSE3 değerine sahip modelin genel MSE (MSE_over) değeri nedir?",
+    "answer": [
+      [
+        "/"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_005",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "MSE15 değeri 0,3'ün altında VE MSE30 değeri 0,2'nin altında olan tüm modelleri listeleyin.",
+    "answer": [
+      [
+        "HTML"
+      ],
+      [
+        "ECC Analyzer"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "E2",
+      "F2",
+      "E3",
+      "F3",
+      "E4",
+      "F4",
+      "E5",
+      "F5",
+      "A6",
+      "E6",
+      "F6",
+      "E7",
+      "F7",
+      "E8",
+      "F8",
+      "A9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_006",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "'HTML' modelinin tahmin ufku 3 günden 30 güne uzadıkça tahmin hatasındaki eğilimi açıklar mısınız?",
+    "answer": [
+      [
+        "'HTML' modeli için Ortalama Karesel Hata (MSE) ile ölçülen tahmin hatası, tahmin ufku uzadıkça sürekli olarak azalmaktadır. MSE, 3 günde 0.845'ten 7 günde 0.349'a, 15 günde 0.251'e ve son olarak 30 günde 0.158'e düşmektedir. Bu durum, modelin tahminlerinin daha uzun vadeli tahminlerde daha doğru hale geldiğini göstermektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_007",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Toplam MSE3 hatasının yüzde kaçı, tüm modeller üzerinden toplanan 'GPT-4-Turbo' modeli tarafından katkıda bulunmuştur? İki ondalık basamağa yuvarlayın.",
+    "answer": [
+      [
+        "23.22%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_008",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "'Klasik Yöntem' modelinin MSE15 değeri %10 iyileştirilirse (azalırsa), diğer modellere kıyasla bu metrikteki yeni sıralaması ne olur?",
+    "answer": [
+      [
+        "Eğer 'Klasik Yöntem' modelinin 0.330 olan MSE15 değeri %10 azaltılırsa, yeni değer 0.297 olacaktır. MSE15 için orijinal sıralama şöyledir: AMA-LSTM (0.230), ECC Analyzer (0.237), HTML (0.251), MRDM (0.300), MT-LSTM-ATT (0.304), HAN (Glove) (0.308), LSTM (0.320), Klasik Yöntem (0.330), GPT-4-Turbo (7.959). Yeni değer olan 0.297, onu HTML ve MRDM arasına yerleştirerek, sıralamasını 8. en iyiden 4. sıraya taşıyacaktır."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_009",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "'GPT-4-Turbo' aykırı değerini hariç tuttuğumuzda, bir modelin genel MSE metriğindeki (MSE_over) performansıyla 7 günlük tahmindeki (MSE7) performansına ilişkin ölçülebilir bir ilişki var mı?",
+    "answer": [
+      [
+        "Evet, pozitif bir korelasyon olduğu görülüyor. Genel olarak, daha düşük (daha iyi) genel MSE'ye sahip modellerin MSE7'si de daha düşüktür. Örneğin, 'ECC Analyzer' ve 'HTML' en düşük genel MSE puanlarına (0,314 ve 0,401) ve aynı zamanda en düşük MSE7 puanlarından bazılarına (0,306 ve 0,349) sahiptir. Buna karşılık, 'MT-LSTM-ATT' ve 'LSTM' gibi modeller bu gruptaki en yüksek genel MSE puanlarına (0,739 ve 0,746) sahiptir ve ayrıca nispeten yüksek MSE7 puanlarına (0,435 ve 0,459) sahiptir. Bu durum, bir modelin genel tahmin gücünün bu iki özel metrikte tutarlı olduğunu göstermektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B4",
+      "D4",
+      "B5",
+      "D5",
+      "B6",
+      "D6",
+      "B7",
+      "D7",
+      "B9",
+      "D9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_010",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Tablodaki hangi modelin '/' ile belirtilen en çok eksik veriye sahip?",
+    "answer": [
+      [
+        "AMA-LSTM"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "F7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_011",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Tüm modeller arasında genel olarak en düşük MSE'ye sahip model hangisidir?",
+    "answer": [
+      [
+        "ECC Analyzer."
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

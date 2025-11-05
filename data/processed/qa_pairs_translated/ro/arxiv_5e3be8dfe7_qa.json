@@ -1,0 +1,208 @@
+[
+  {
+    "question_id": "arxiv_5e3be8dfe7_001",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Ce model are cel mai mare număr de explicații distincte ale parametrilor listate în tabel?",
+    "answer": [
+      [
+        "Neural Networks"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_002",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Câți parametri distincți sunt explicați în total pentru toate modelele care folosesc o componentă de sumă (Σ) în formula lor principală?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_003",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Enumerați modelele a căror formulă principală nu implică exponențierea (de exemplu, e^x).",
+    "answer": [
+      [
+        "Neural Networks"
+      ],
+      [
+        "Support Vector Machine"
+      ],
+      [
+        "Decision Tree"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_004",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Ce procent din modelele enumerate utilizează un parametru care reprezintă eșantioane sau puncte de date individuale (de exemplu, „eșantionul i”) în formularea lor?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "C8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_005",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Dacă numărul de categorii de eșantioane 'm' într-un model de Arbore de Decizie este 1, care ar fi valoarea calculată a entropiei informaționale 'Ent(D)' conform formulei?",
+    "answer": [
+      [
+        "0"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_006",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Care model are o formulă fundamental diferită față de celelalte, fiind prezentată ca o problemă de optimizare (minimizare) în loc de o calculare directă a unei valori de ieșire?",
+    "answer": [
+      [
+        "Support Vector Machine"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B7",
+      "B9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_007",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "Pe baza formulelor și parametrilor, comparați rolurile parametrului 'β' în Regresia Logistică cu parametrul 'w' în Mașina cu Vectori Suport.",
+    "answer": [
+      [
+        "În Regresia Logistică, 'β' este un vector rând de coeficienți de regresie care, împreună cu termenul liber, determină probabilitatea unui rezultat prin funcția logistică. În Mașina cu Vectori Suport, 'w' este un vector de parametri care definește orientarea hiperplanului de separare. Scopul în SVM este de a găsi 'w' care maximizează marja dintre clase prin minimizarea normei sale L2, în timp ce în Regresia Logistică, 'β' este de obicei găsit prin maximizarea verosimilității datelor observate."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C3",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_008",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "Cum reflectă conceptele de 'straturi' în Rețele Neuronale și 'entropie' în Arbori de Decizie abordările lor diferite de învățare din date?",
+    "answer": [
+      [
+        "Conceptul de 'straturi' (l și l-1) în Rețelele Neuronale reflectă o abordare ierarhică de învățare a caracteristicilor. Modelul învață reprezentări din ce în ce mai complexe ale datelor prin trecerea activărilor prin straturi succesive, ajustând ponderile ('w') și bias-urile ('b') pentru a crea un aproximant complex de funcție. În contrast, conceptul de 'entropie' (Ent(D)) în Arborii de Decizie reflectă o abordare lacomă, bazată pe reguli. Modelul împarte recursiv datele în subseturi mai pure, selectând caracteristici care duc la cea mai mare scădere a entropiei (câștig de informație), creând un set explicit de reguli dacă-atunci."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_009",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Care este numărul total de modele unice descrise în tabel?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_010",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Care coloană are scopul principal de a defini variabilele utilizate în coloana adiacentă?",
+    "answer": [
+      [
+        "Parameter and Explanation"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

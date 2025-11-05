@@ -1,0 +1,255 @@
+[
+  {
+    "question_id": "arxiv_a92c4de096_001",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "کون سے ہائپر پیرامیٹرز میں ان کے سرچ اسپیس میں سب سے زیادہ اختیارات درج ہیں؟",
+    "answer": [
+      [
+        "Sequence size"
+      ],
+      [
+        "TRADES Layers"
+      ],
+      [
+        "Augmentation Dim."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_002",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "تلاش کی جگہ میں دو سے زیادہ ممکنہ اقدار کے ساتھ کتنے ہائپر پیرامیٹرز کا تجربہ کیا گیا؟",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_003",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "اس ہائپر پیرامیٹر کے لیے سرچ اسپیس کیا تھی جس کا بہترین انتخاب صفر سے بڑا سب سے چھوٹا عددی قدر ہے؟",
+    "answer": [
+      [
+        "{10−3,10−4}superscript103superscript104\\{{10^{-3}},10^{-4}\\}{ 10 start_POSTSUPERSCRIPT - 3 end_POSTSUPERSCRIPT , 10 start_POSTSUPERSCRIPT - 4 end_POSTSUPERSCRIPT }"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_004",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "ان تمام ہائپر پیرامیٹرز کی فہرست بنائیں جن کے لیے 'بہترین انتخاب' ان کے متعلقہ 'سرچ اسپیس' میں دستیاب سب سے زیادہ قدر تھی۔",
+    "answer": [
+      [
+        "Learning Rate"
+      ],
+      [
+        "Dropout"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_005",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "عددی ہائپر پیرامیٹرز میں سے کتنے فیصد کا 'بہترین انتخاب' ان کے ترتیب شدہ 'سرچ اسپیس' کے درمیان سے منتخب کیا گیا تھا (یعنی کم از کم یا زیادہ سے زیادہ قدر نہیں)؟",
+    "answer": [
+      [
+        "5/7"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_006",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "اگر 'TRADES Layers' کی تلاش صرف 8 سے کم اقدار تک محدود کر دی جائے، تو اس ہائپر پیرامیٹر کے لیے 'Best Choice' کیا ہوتا، یہ فرض کرتے ہوئے کہ اصل تلاش کی جگہ سے اگلی بہترین دستیاب آپشن کا انتخاب کیا گیا تھا؟",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_007",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "کیا کسی ہائپر پیرامیٹر کے سرچ اسپیس کے سائز اور 'بہترین انتخاب' کے کنارے (کم ترین/زیادہ سے زیادہ) یا درمیانی قدر ہونے کے درمیان کوئی قابل مشاہدہ تعلق ہے؟ اپنی دلیل کی وضاحت کریں؟",
+    "answer": [
+      [
+        "جی ہاں، ایک واضح نمونہ موجود ہے۔ ان ہائپر پیرامیٹرز کے لیے جن کے سرچ اسپیس میں دو آپشنز (Learning Rate, Dropout) تھے، بہترین انتخاب زیادہ سے زیادہ قدر تھی۔ تین یا چار آپشنز والے تمام ہائپر پیرامیٹرز کے لیے، بہترین قدر رینج کے وسط میں پائی گئی، کبھی بھی کنارے پر نہیں۔ یہ تجویز کرتا ہے کہ اس ماڈل کے لیے، فائن ٹیوننگ کا عمل فائدہ مند ہے، اور ابتدائی وسیع رینج نے کامیابی سے ایک بہترین علاقہ قائم کیا جو آزمائشی جگہ کی حدود پر نہیں تھا۔"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_008",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "کون سا ہائپر پیرامیٹر کا سرچ اسپیس غیر عددی لیبل استعمال کر کے بیان کیا گیا ہے؟",
+    "answer": [
+      [
+        "Optimizer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_009",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "کون سے ہائپر پیرامیٹر کی 'بہترین پسند' قدر عددی طور پر سب سے نمایاں ہے، جو کہ اگلی سب سے بڑی عددی 'بہترین پسند' سے کم از کم چار گنا زیادہ ہے؟",
+    "answer": [
+      [
+        "Sequence size"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_010",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "ان ہائپر پیرامیٹرز پر غور کرتے ہوئے جن کے سرچ اسپیس میں چار آپشنز ہیں ('Sequence size', 'TRADES Layers', 'Augmentation Dim.')، ان کے 'Best Choice' ویلیوز میں کیا مشترکہ خصوصیت ہے، اور اس سے ٹیوننگ کی حکمت عملی کے بارے میں کیا پتہ چل سکتا ہے؟",
+    "answer": [
+      [
+        "مشترکہ خصوصیت یہ ہے کہ تینوں ہائپر پیرامیٹرز کے لیے، 'Best Choice' ایک درمیانی قدر ہے، نہ کہ انتہائی (کم از کم یا زیادہ سے زیادہ)۔ 'Best Choices' 256 (4 میں سے 3)، 8 (4 میں سے 3)، اور 64 (4 میں سے 2) ہیں۔ اس سے یہ ظاہر ہوتا ہے کہ ایک کامیاب ٹیوننگ کی حکمت عملی ہے جہاں سرچ اسپیس بہترین قدر کو ظاہر کرنے کے لیے کافی وسیع تھا، جس سے یہ پتہ چلتا ہے کہ ان پیرامیٹرز کے لیے کارکردگی قدر کے ساتھ یکساں طور پر نہیں بڑھتی بلکہ آزمائشی حد کے اندر کہیں نہ کہیں بلند ہوتی ہے۔"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_011",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "آپٹیمائزر کا بہترین انتخاب کیا ہے؟",
+    "answer": [
+      [
+        "Adam"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

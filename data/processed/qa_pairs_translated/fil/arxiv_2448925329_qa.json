@@ -1,0 +1,254 @@
+[
+  {
+    "question_id": "arxiv_2448925329_001",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Aling dataset ang nagpapakita ng pinakamalakas na modelo na akma gaya ng ipinahihiwatig ng R-squared value?",
+    "answer": [
+      [
+        "BTC/USD ΔM vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_002",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Ano ang average na halaga ng Kurtosis para sa lahat ng dataset na may kinalaman sa BTC/USD?",
+    "answer": [
+      [
+        "7.7025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_2448925329_003",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Para sa modelong may pinakamababang positibong R-squared value, ano ang katumbas nitong Durbin-Watson statistic?",
+    "answer": [
+      [
+        "0.337"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "I2",
+      "B1",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_004",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Paano nagbabago ang kakayahang magpaliwanag ng modelo para sa LUNA/USD dataset, na sinusukat ng R-squared, kapag ang time interval ay nadagdagan mula 1s hanggang 10s?",
+    "answer": [
+      [
+        "Ang kakayahang magpaliwanag ng modelo ng LUNA/USD, na ipinahihiwatig ng halaga ng R-squared, ay makabuluhang tumaas mula 0.036 para sa 1-segundong interval patungong 0.274 para sa 10-segundong interval. Ito ay kumakatawan sa higit sa pitong beses na pagtaas, na nagmumungkahi na ang modelo ay mas epektibo sa pagpapaliwanag ng mga pagbabago sa presyo sa mas mahabang timeframe."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_005",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Ilista ang lahat ng dataset kung saan ang mga residual ng modelo ay negatibong naka-skew (Skew < 0) at ang Durbin-Watson statistic ay mas mataas sa 2, na nagpapahiwatig ng negatibong autocorrelation.",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 1s",
+        "BTC/USD ΔM vs ΔP 1s"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "I1",
+      "A3",
+      "G3",
+      "I3",
+      "G2",
+      "I2",
+      "G4",
+      "I4",
+      "G5",
+      "I5",
+      "G6",
+      "I6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_006",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Anong proporsyon ng kabuuang suma ng lahat ng F-statistics ang tinataglay ng mga modelong may 10s interval?",
+    "answer": [
+      [
+        "93.68%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A6",
+      "C6",
+      "C1",
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_2448925329_007",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Kung ang Kurtosis para sa modelong 'BTC/USD OFI vs ΔP 10s' ay iaakma sa average na Kurtosis ng lahat ng iba pang mga modelo, ano ang magiging bagong halaga nito?",
+    "answer": [
+      [
+        "5.700"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_008",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Mayroon bang pare-parehong relasyon sa pagitan ng F-statistic ng isang modelo at ng Jarque-Bera (JB) statistic nito? Suriin ang pattern.",
+    "answer": [
+      [
+        "Walang pare-pareho, malinaw na relasyon sa pagitan ng F-statistic at ng Jarque-Bera (JB) statistic. Halimbawa, ang modelong may pinakamataas na F-statistic (15890.0) ay may JB statistic na 6560.394, habang ang modelong may pangalawang pinakamababang F-statistic (137.0) ay may mas maliit na JB na 816.435. Gayunpaman, ang modelong may pinakamababang F-statistic (70.87) ay may pinakamataas na JB statistic (10204.282). Ipinapakita nito na ang pangkalahatang kabuluhan ng modelo (F-statistic) at ang normalidad ng mga residual nito (JB statistic) ay hindi direktang magkaugnay sa dataset na ito."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "J1",
+      "C2",
+      "J2",
+      "C3",
+      "J3",
+      "C4",
+      "J4",
+      "C5",
+      "J5",
+      "C6",
+      "J6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_2448925329_009",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Aling column, maliban sa 'Dataset' identifier, ang naglalaman ng pinakamalawak na saklaw ng mga halaga kapag isinasaalang-alang ang order of magnitude (mula pinakamaliit hanggang pinakamalaki)?",
+    "answer": [
+      [
+        "Ang column na 'Prob(JB)' ang nagpapakita ng pinakamalawak na saklaw ng mga halaga ayon sa order of magnitude. Naglalaman ito ng mga halagang kasingliit ng 0.0 (halos wala) at kasinglaki ng 4.26e-263, 1.93e-57, 5.17e-178, at 9.05e-92, na sumasaklaw sa daan-daang orders of magnitude, na mas malaki kaysa sa anumang iba pang numerical column."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B6",
+      "C1",
+      "C6",
+      "D1",
+      "D6",
+      "E1",
+      "E6",
+      "F1",
+      "F6",
+      "G1",
+      "G6",
+      "H1",
+      "H6",
+      "I1",
+      "I6",
+      "J1",
+      "J6",
+      "K1",
+      "K6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_010",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Aling dataset ang mayroong Jarque-Bera (JB) statistic na isang outlier, na mahigit 5 beses na mas malaki kaysa sa susunod na pinakamataas na halaga ng JB?",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "J1",
+      "J2",
+      "J3",
+      "J4",
+      "J5",
+      "J6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_2448925329_011",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Sa pagitan ng BTC/USD ΔM vs ΔP 1s at LUNA/USD ΔM vs ΔP 1s, aling dataset ang nagpapakita ng mas mataas na predictive power batay sa R² at F-statistic?",
+    "answer": [
+      [
+        "Ang BTC/USD ΔM vs ΔP 1s ang nagpakita ng pinakamataas na predictive power batay sa R² at F-statistic, na may R² = 0.168 at F-statistic = 723.6."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

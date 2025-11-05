@@ -1,0 +1,208 @@
+[
+  {
+    "question_id": "arxiv_5e3be8dfe7_001",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Mô hình nào có số lượng giải thích tham số khác nhau được liệt kê trong bảng nhiều nhất?",
+    "answer": [
+      [
+        "Neural Networks"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_002",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Có bao nhiêu tham số riêng biệt được giải thích cho tất cả các mô hình sử dụng thành phần tổng (Σ) trong công thức chính của chúng?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_003",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Liệt kê các mô hình mà công thức chính của chúng không liên quan đến lũy thừa (ví dụ: e^x).",
+    "answer": [
+      [
+        "Neural Networks"
+      ],
+      [
+        "Support Vector Machine"
+      ],
+      [
+        "Decision Tree"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_004",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Tỷ lệ phần trăm các mô hình được liệt kê sử dụng tham số đại diện cho các mẫu hoặc điểm dữ liệu riêng lẻ (ví dụ: 'mẫu i') trong công thức của chúng là bao nhiêu?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "C8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_005",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Trong mô hình Decision Tree, nếu số lượng các loại mẫu 'm' là 1, giá trị tính toán của entropy thông tin 'Ent(D)' theo công thức sẽ là bao nhiêu?",
+    "answer": [
+      [
+        "0"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_006",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Công thức của mô hình nào khác biệt cơ bản so với các mô hình còn lại vì nó được trình bày dưới dạng một bài toán tối ưu hóa (tìm kiếm giá trị nhỏ nhất) thay vì tính toán trực tiếp giá trị đầu ra?",
+    "answer": [
+      [
+        "Support Vector Machine"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B7",
+      "B9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_007",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "Dựa trên các công thức và tham số, hãy nêu bật sự khác biệt về vai trò của tham số 'β' trong Hồi quy Logistic và tham số 'w' trong Máy học Vector Hỗ trợ.",
+    "answer": [
+      [
+        "Trong Hồi quy Logistic, 'β' là một vector hàng các hệ số hồi quy, cùng với hệ số chặn, xác định xác suất của một kết quả thông qua hàm logistic. Trong Máy học Vector Hỗ trợ, 'w' là một vector tham số xác định hướng của siêu phẳng phân tách. Mục tiêu trong SVM là tìm 'w' sao cho tối đa hóa lề giữa các lớp bằng cách tối thiểu hóa chuẩn L2 của nó, trong khi trong Hồi quy Logistic, 'β' thường được tìm thấy bằng cách tối đa hóa khả năng xảy ra của dữ liệu quan sát được."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C3",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_008",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "Khái niệm 'lớp' (l và l-1) trong Mạng nơ-ron và 'entropy' trong Cây quyết định phản ánh cách tiếp cận học dữ liệu khác nhau như thế nào?",
+    "answer": [
+      [
+        "Khái niệm 'lớp' (l và l-1) trong Mạng nơ-ron phản ánh cách tiếp cận học đặc trưng phân cấp. Mô hình học các biểu diễn ngày càng phức tạp của dữ liệu bằng cách truyền các kích hoạt qua các lớp liên tiếp, điều chỉnh các trọng số ('w') và độ lệch ('b') để tạo ra một hàm xấp xỉ phức tạp. Ngược lại, khái niệm 'entropy' (Ent(D)) trong Cây quyết định phản ánh một cách tiếp cận tham lam, dựa trên quy tắc. Mô hình phân chia dữ liệu một cách đệ quy thành các tập con thuần khiết hơn bằng cách chọn các đặc trưng mang lại sự giảm entropy lớn nhất (tăng thông tin), tạo ra một tập hợp rõ ràng các quy tắc nếu-thì."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_009",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Có bao nhiêu mô hình duy nhất được mô tả trong bảng?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_010",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Cột nào có mục đích chính là để định nghĩa các biến được sử dụng trong cột liền kề?",
+    "answer": [
+      [
+        "Parameter and Explanation"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,232 @@
+[
+  {
+    "question_id": "arxiv_0881976587_001",
+    "table_id": "arxiv_0881976587",
+    "question_type": "value",
+    "question": "Vad är det totala nominella värdet för alla amerikanska statsobligationer som anges i portföljen?",
+    "answer": [
+      [
+        "20000"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_0881976587_002",
+    "table_id": "arxiv_0881976587",
+    "question_type": "value",
+    "question": "Av de två 'Futures Contracts' som listas, vilken underliggande råvara innehas i ett större antal enheter?",
+    "answer": [
+      [
+        "Crude Oil"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_0881976587_003",
+    "table_id": "arxiv_0881976587",
+    "question_type": "value",
+    "question": "Vilken tillgång har den längsta löptiden, baserat på dess beskrivning?",
+    "answer": [
+      [
+        "10-year"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_0881976587_004",
+    "table_id": "arxiv_0881976587",
+    "question_type": "value",
+    "question": "Lista beskrivningarna för alla tillgångar som inte är obligationer där den innehavda kvantiteten är 10 000 enheter eller mer.",
+    "answer": [
+      [
+        "Exxon Mobil"
+      ],
+      [
+        "AT&T"
+      ],
+      [
+        "Long EUR/USD"
+      ],
+      [
+        "Short USD/JPY"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_0881976587_005",
+    "table_id": "arxiv_0881976587",
+    "question_type": "value",
+    "question": "Vilken tillgångstyp är associerad med den valuta som innehas till det största nominella beloppet?",
+    "answer": [
+      [
+        "Currency Pair"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_0881976587_006",
+    "table_id": "arxiv_0881976587",
+    "question_type": "value",
+    "question": "Om portföljens aktieinnehav är begränsade till de listade tillgångarna, vilken procentandel av det totala antalet aktier är investerat i AT&T?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_0881976587_007",
+    "table_id": "arxiv_0881976587",
+    "question_type": "open_ended_reasoning",
+    "question": "Om antalet Exxon Mobil-aktier minskade med 25% och antalet guldunsar ökade med 100%, vad skulle de nya kvantiteterna för dessa två tillgångar vara?",
+    "answer": [
+      [
+        "Den nya kvantiteten för Exxon Mobil skulle vara 7 500 aktier, och den nya kvantiteten för guld skulle vara 1 200 uns."
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_0881976587_008",
+    "table_id": "arxiv_0881976587",
+    "question_type": "open_ended_reasoning",
+    "question": "Med tanke på tillgångsbeskrivningarna, vilken potentiell investeringsstrategi eller korrelation kan utläsas mellan portföljens aktieinnehav och terminskontrakt?",
+    "answer": [
+      [
+        "En potentiell strategi med fokus på energisektorn kan utläsas. Portföljen innehåller både aktier i Exxon Mobil, ett stort oljebolag, och terminskontrakt för råolja. Detta tyder på ett koncentrerat investeringstema, där investeraren kan spekulera i energipriser eller använda terminskontrakten för att säkra sin aktieposition inom samma sektor."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_0881976587_009",
+    "table_id": "arxiv_0881976587",
+    "question_type": "open_ended_reasoning",
+    "question": "När de nominella kvantiteterna för alla tillgångar jämförs, vilken post sticker ut som en numerisk outlier, och varför?",
+    "answer": [
+      [
+        "Positionen 'Short USD/JPY' med en kvantitet på 10 000 000 JPY är en betydande numerisk outlier. Dess kvantitet är 100 gånger större än nästa högsta värde (100 000 EUR) och flera tiopotenser större än de andra innehaven, som sträcker sig från 600 till 10 000."
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_0881976587_010",
+    "table_id": "arxiv_0881976587",
+    "question_type": "open_ended_reasoning",
+    "question": "Vilken kolumn innehåller de mest varierade datatyperna, med olika valutor och måttenheter?",
+    "answer": [
+      [
+        "Kolumnen 'Quantity / Value' har de mest varierade datatyperna. Den inkluderar värden uttryckta i US-dollar ($), fysiska råvaruenheter (ounces, barrels), aktieantal (shares) och olika utländska valutor (EUR, JPY)."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_0881976587_011",
+    "table_id": "arxiv_0881976587",
+    "question_type": "value",
+    "question": "Vad är det totala värdet av alla amerikanska statsobligationer?",
+    "answer": [
+      [
+        "$20,000"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

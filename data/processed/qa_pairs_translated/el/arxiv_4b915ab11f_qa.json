@@ -1,0 +1,188 @@
+[
+  {
+    "question_id": "arxiv_4b915ab11f_001",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Ποιο μοντέλο, από αυτά που αναφέρονται, χρησιμοποιεί την μεγαλύτερη βασική αρχιτεκτονική ως προς τον αριθμό των παραμέτρων;",
+    "answer": [
+      [
+        "XuanYuan2.0"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D1",
+      "D2",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_002",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Ποιος είναι ο συνολικός αριθμός των tokens στο σώμα κειμένων που χρησιμοποιήθηκε για την εκπαίδευση του BloomBergGPT;",
+    "answer": [
+      [
+        "708B"
+      ]
+    ],
+    "evidence_cells": [
+      "B1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_003",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Ποιος είναι ο προϋπολογισμός εκπαίδευσης για το μοντέλο που βασίζεται στην αρχιτεκτονική T5;",
+    "answer": [
+      [
+        "Days/weeks"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_004",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Για το μοντέλο που καθορίζει μια διαδικασία δεδομένων εκπαίδευσης δύο σταδίων, ποιο ήταν το μέγεθος του σώματος κειμένων για το στάδιο της προ-εκπαίδευσης;",
+    "answer": [
+      [
+        "366B"
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_005",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Προσδιορίστε το LLM που χρησιμοποιεί αρχιτεκτονική βασισμένη σε BLOOM και έχει δημόσια ανακοινωμένο προϋπολογισμό εκπαίδευσης σε ώρες A100·.",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_006",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Τι ποσοστό του συνολικού συνόλου εκπαίδευσης του BloomBergGPT αποτελείται από δημόσια tokens;",
+    "answer": [
+      [
+        "48.73%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_007",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "open_ended_reasoning",
+    "question": "Αν ο προϋπολογισμός εκπαίδευσης του XuanYuan2.0 αποκαλυπτόταν ότι είναι 2.500.000 ώρες A100, πώς θα επηρεαζόταν η κατάταξη των μοντέλων βάσει του προϋπολογισμού εκπαίδευσης;",
+    "answer": [
+      [
+        "Επί του παρόντος, το BloomBergGPT έχει τον μοναδικό καθορισμένο αριθμητικό προϋπολογισμό (1.300.000 ώρες A100), καθιστώντας το πρώτο. Εάν ο προϋπολογισμός του XuanYuan2.0 ήταν 2.500.000 ώρες A100, θα γινόταν το μοντέλο με τον υψηλότερο γνωστό προϋπολογισμό εκπαίδευσης, ξεπερνώντας το BloomBergGPT. Η νέα κατάταξη για τα μοντέλα με αριθμητικούς προϋπολογισμούς θα ήταν 1. XuanYuan2.0 (2.500.000) και 2. BloomBergGPT (1.300.000)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_008",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "open_ended_reasoning",
+    "question": "Υπάρχει μια συνεπής συσχέτιση μεταξύ του αριθμού των παραμέτρων της αρχιτεκτονικής ενός μοντέλου και του συνολικού μεγέθους του εκπαιδευτικού του σώματος, με βάση αυτά τα δεδομένα;",
+    "answer": [
+      [
+        "Όχι, δεν υπάρχει συνεπής θετική συσχέτιση εμφανής στα δεδομένα. Για παράδειγμα, το XuanYuan2.0 έχει πολύ μεγαλύτερη αρχιτεκτονική (176 δισ. παράμετροι) από το BloomBergGPT (50 δισ. παράμετροι), παρόλο που εκπαιδεύτηκε σε μικρότερο σώμα (379 δισ. tokens έναντι 708 δισ. tokens). Αυτό υποδηλώνει ότι ένα μεγαλύτερο μοντέλο δεν απαιτεί απαραίτητα μεγαλύτερο εκπαιδευτικό σώμα σύμφωνα με αυτό το σύνολο δεδομένων."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_009",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Ποια στήλη δεδομένων παρουσιάζει τη μεγαλύτερη ποικιλομορφία στη μορφή δεδομένων, περιέχοντας έναν μεγάλο ακέραιο, μια συμβολοσειρά μη αποκάλυψης και ένα εύρος βασισμένο στον χρόνο;",
+    "answer": [
+      [
+        "Training budget (A100·hours)"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_010",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Ποιου μοντέλου ο δηλωμένος προϋπολογισμός εκπαίδευσης αποτελεί σημαντικό θετικό ακραίο σημείο σε σύγκριση με τις διαθέσιμες πληροφορίες προϋπολογισμού για τα άλλα μοντέλα;",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_011",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Ποιο προεκπαιδευμένο LLM χρησιμοποιεί την αρχιτεκτονική μοντέλου 50B-BLOOM;",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

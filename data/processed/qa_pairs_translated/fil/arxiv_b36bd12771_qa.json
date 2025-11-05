@@ -1,0 +1,254 @@
+[
+  {
+    "question_id": "arxiv_b36bd12771_001",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Aling beta coefficient (β) ang nagpapakita ng pinakamalakas na ebidensyang pang-estadistika ng epekto nito, ayon sa pinakamataas na absolute t-value?",
+    "answer": [
+      [
+        "β₄"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "D8",
+      "D2",
+      "D4",
+      "D6",
+      "D10",
+      "D12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_002",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Ano ang average na standard error para sa lahat ng alpha (α) coefficients na statistically significant sa p < 0.05 level?",
+    "answer": [
+      [
+        "0.036"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "E3",
+      "A11",
+      "C11",
+      "E11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_003",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Para sa bahagi ng modelo (na may indeks na numero ng subscript) na ang β coefficient ay may pinakamalawak na 95% confidence interval, ano ang p-value ng katumbas nitong α coefficient?",
+    "answer": [
+      [
+        "0.005"
+      ]
+    ],
+    "evidence_cells": [
+      "F2",
+      "G2",
+      "F4",
+      "G4",
+      "F6",
+      "G6",
+      "F8",
+      "G8",
+      "F10",
+      "G10",
+      "F12",
+      "G12",
+      "A3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_004",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Ilarawan ang takbo ng mga magnitude ng koepisyenteng β habang ang subscript ay tumataas mula 1 hanggang 6. Mayroon bang pare-parehong pattern?",
+    "answer": [
+      [
+        "Walang pare-parehong monotonic na takbo. Ang mga koepisyenteng β ay unang tumataas mula sa β₁ (0.7208) hanggang sa β₂ (0.8237), ngunit pagkatapos ay biglang bumaba para sa β₃ (0.0025) at mga sumunod na modelo. Ang mga halaga para sa unang dalawang bahagi ay mas malaki nang ilang order of magnitude kaysa sa mga para sa bahagi 3 hanggang 6, na lahat ay napakalapit sa zero."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A6",
+      "B6",
+      "A8",
+      "B8",
+      "A10",
+      "B10",
+      "A12",
+      "B12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_005",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Tukuyin ang lahat ng fitted model kung saan ang alpha (α) coefficient ay parehong statistically insignificant (P-value > 0.4) AT may standard error na mas mababa sa 0.03.",
+    "answer": [
+      [
+        "α₁"
+      ],
+      [
+        "α₃"
+      ],
+      [
+        "α₅"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "E1",
+      "A5",
+      "C5",
+      "E5",
+      "A9",
+      "C9",
+      "E9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_006",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Ano ang porsyento ng lahat ng fitted model coefficients (parehong α at β) na statistically significant, na tinukoy bilang pagkakaroon ng p-value na mas mababa sa 0.05?",
+    "answer": [
+      [
+        "66.67%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_007",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Kung mahahati sa dalawa ang standard error para sa α₁ na modelo, ano ang magiging bagong t-statistic nito? Batay sa relasyon sa pagitan ng t-statistics at p-values para sa ibang mga modelo sa talahanayan, malamang bang magiging statistically significant ang α₁ coefficient (p < 0.05)?",
+    "answer": [
+      [
+        "Ang bagong t-statistic ay magiging -1.593 (-0.0215 / (0.027 / 2)). Hindi ito malamang na maging statistically significant ang coefficient. Bilang paghahambing, ang α₂ na modelo ay may t-statistic na -2.803 at p-value na 0.005. Ang isang t-statistic na may mas maliit na absolute value tulad ng -1.593 ay magkakaroon ng mas mataas na p-value, na malamang na manatili sa itaas ng 0.05 na threshold para sa significance, na karaniwang nangangailangan ng absolute t-value na humigit-kumulang 2 o higit pa."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_008",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Suriin ang ugnayan sa pagitan ng laki ng mga β coefficient at ng kanilang mga katumbas na t-statistic. Ang mas malaking coefficient ba ay palaging humahantong sa mas malaking t-statistic?",
+    "answer": [
+      [
+        "Hindi, ang mas malaking β coefficient ay hindi palaging humahantong sa mas malaking t-statistic. Halimbawa, ang β₂ ay may pinakamalaking coefficient (0.8237) ngunit ang t-statistic nito (8.418) ay mas maliit kaysa sa β₄ (126.061), na may napakaliit na coefficient (0.0041). Ang t-statistic ay isang ratio ng coefficient sa standard error nito, kaya ang napakaliit na standard error ay maaaring magresulta sa isang napakalaking t-statistic kahit para sa isang maliit na coefficient, gaya ng nakikita sa mga modelong β₃ hanggang β₆."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2",
+      "B4",
+      "D4",
+      "B6",
+      "D6",
+      "B8",
+      "D8",
+      "B10",
+      "D10",
+      "B12",
+      "D12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_009",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Batay sa mga prinsipyo ng estadistika, ang 95% confidence interval na hindi naglalaman ng zero ay dapat tumutugma sa isang p-value na mas mababa sa 0.05. Mayroon bang anumang fitted model coefficients sa talahanayan kung saan ang confidence interval at p-value ay hindi naaayon sa prinsipyong ito?",
+    "answer": [
+      [
+        "Wala, lahat ng coefficients sa talahanayan ay nagpapakita ng pagkakapare-pareho sa pagitan ng kanilang p-value at 95% confidence interval. Lahat ng coefficients na may p-value na mas mababa sa 0.05 (hal., β₁, α₂, β₂) ay may confidence interval na hindi saklaw ang zero. Sa kabaligtaran, lahat ng coefficients na may p-value na mas mataas sa 0.05 (hal., α₁, α₃, α₄) ay may confidence interval na kasama ang zero."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "G1",
+      "E2",
+      "F2",
+      "G2",
+      "E3",
+      "F3",
+      "G3",
+      "E4",
+      "F4",
+      "G4",
+      "E5",
+      "F5",
+      "G5",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_010",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Alin sa mga alpha (α) coefficient ang may pinakamalaking pagkakaiba sa t-statistic kumpara sa ibang mga alpha coefficient?",
+    "answer": [
+      [
+        "Ang α₆, na may t-statistic na 7.305, ang pinaka-makabuluhang outlier. Ang iba pang alpha t-statistics ay -0.787, -2.803, -0.269, 0.013, at 0.729. Karamihan sa mga halagang ito ay nasa pagitan ng -3 at 1. Ang halagang 7.305 ay mas malaki ang magnitude at ito lamang ang malaking positibong halaga, kaya't kitang-kita itong naiiba sa iba."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A3",
+      "D3",
+      "A5",
+      "D5",
+      "A7",
+      "D7",
+      "A9",
+      "D9",
+      "A11",
+      "D11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

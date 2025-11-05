@@ -1,0 +1,202 @@
+[
+  {
+    "question_id": "arxiv_b617ec8b31_001",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Pentru aplicația unde metoda MarS implică compararea pieței curente cu o piață simulată, ce compară metoda curentă corespunzătoare?",
+    "answer": [
+      [
+        "Diff⁡(marketn⁢o⁢w,marketp⁢a⁢s⁢t)"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_002",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Ce procent din aplicațiile listate utilizează o metodă 'MarS' care implică fie 'generare', fie 'simulare'?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_003",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Cum modifică metoda MarS pentru aplicația „Detectare” comparația bazată pe timp utilizată în „Metode curente”?",
+    "answer": [
+      [
+        "Metodele curente” pentru „Detectare” se bazează pe o comparație istorică prin calcularea diferenței dintre starea curentă a pieței (market_now) și o stare anterioară a pieței (market_past). Metoda MarS elimină această dependență de datele din trecut. În schimb, compară piața curentă (market_now) cu o piață simulată contemporan (simu-market_now), mutând comparația dintr-un cadru temporal (acum vs. atunci) într-un cadru bazat pe model (real vs. simulat)."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_004",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Enumerați „Metodele curente” pentru toate aplicațiile în care metoda „MarS” este descrisă ca un „pipeline” sau implică „generare”.",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ],
+      [
+        "online experiments, empirical formula"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B1",
+      "C3",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_005",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Ce aplicație prezintă cea mai fundamentală schimbare de abordare între 'Metode Curente' și 'MarS', trecând de la o comparație istorică la una simulată?",
+    "answer": [
+      [
+        "Aplicația 'Detecție' prezintă cea mai fundamentală schimbare. Metoda curentă se bazează pe o comparație temporală, retrospectivă (Diff(market_now, market_past)). În contrast, metoda MarS introduce o comparație cu o realitate simulată concurrentă (Diff(market_now, simu-market_now)). Această trecere de la o bază istorică la una simulată pentru comparație este un element conceptual semnificativ, comparativ cu celelalte schimbări metodologice din tabel."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_006",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Dacă abordarea 'MarS' pentru 'RL Environment' ar fi modificată pentru a utiliza disponibilitatea datelor metodelor 'Current Methods' pentru aceeași aplicație, ce două caracteristici ar defini această metodă MarS ipotetică?",
+    "answer": [
+      [
+        "finite data"
+      ],
+      [
+        "real P(st+1|st,at)"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_007",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Pentru aplicația 'RL Environment', care este diferența cheie în disponibilitatea datelor și distribuția probabilităților între 'Metodele actuale' și 'MarS'?",
+    "answer": [
+      [
+        "Diferența cheie constă atât în volumul datelor, cât și în autenticitatea probabilității de tranziție. 'Metodele actuale' se bazează pe 'date finite' și pe o distribuție de probabilitate 'falsă' (P(st+1|st,at)), în timp ce 'MarS' utilizează 'date infinite' și o distribuție de probabilitate 'reală'."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_008",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Câte aplicații distincte listate implică termenul 'date' în descrierile metodelor lor fie pentru 'Metode Curente', fie pentru 'MarS'?",
+    "answer": [
+      [
+        "2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_009",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Bazat pe tabel, care este avantajul general aparent al MarS comparativ cu Metodele Curente, în special în ceea ce privește reprezentarea datelor și a realității?",
+    "answer": [
+      [
+        "Tema generală sugerează că metodele MarS vizează depășirea limitărilor datelor istorice sau finite prin valorificarea abordărilor generative și bazate pe simulare. MarS trece de la extrapolarea la generare, de la comparația istorică la comparația simulată și de la modele cu date finite/false la modele cu date infinite/reale. Aceasta indică un avantaj strategic în crearea unor medii de date mai robuste, flexibile și realiste pentru analiză și învățare prin consolidare."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_010",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Excluzând rândul antet, câte aplicații distincte sunt detaliate în tabel?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_011",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Care este metoda curentă utilizată pentru prognoză?",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,211 @@
+[
+  {
+    "question_id": "arxiv_63416afda1_001",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Який тип можливостей прогнозування пропонує модель, що використовує високочастотні дані рівня замовлень?",
+    "answer": [
+      [
+        "Multi-step, sequence generation."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_002",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Якщо проєкт вимагає загального прогнозування за допомогою симуляції, яка характеристика моделі, окрім її застосовного завдання, робить її кращим вибором, ніж альтернатива?",
+    "answer": [
+      [
+        "MarS/LMM є 'масштабною фундаментальною моделлю', здатною до 'багатоетапної генерації послідовностей', що робить її за своєю суттю гнучкішою та потужнішою для загальних симуляційних завдань порівняно з DeepLOB, яка описується як 'мала, створена вручну та не масштабована' модель з 'одноступеневим або фіксованої довжини' прогнозуванням."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_003",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "На основі таблиці, який висновок можна зробити щодо зв'язку між масштабом моделі та її гнучкістю прогнозування?",
+    "answer": [
+      [
+        "Дані свідчать про пряму кореляцію: модель, описана як «Мала, створена вручну і не масштабована» (DeepLOB), пропонує обмежені прогнози «Однокрокові або фіксованої довжини», тоді як «Масштабна фундаментальна модель» (MarS/LMM) забезпечує більш гнучке «Багатокрокове, генерацію послідовностей». Це означає, що більші, більш масштабовані моделі, як правило, мають більш досконалі та гнучкі можливості прогнозування."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_63416afda1_004",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Скільки окремих аспектів використовується для розрізнення DeepLOB і MarS/LMM у цьому наборі даних?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_005",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Визначте модель, яка НЕ описується як 'Large-scale foundation model', та перелічіть її зазначені вхідні ознаки.",
+    "answer": [
+      [
+        "DeepLOB",
+        "Limit order book (LOB) data."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "B3",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_006",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Опис якої моделі за її аспектом «Модель» містить унікальний набір з трьох окремих обмежувальних характеристик?",
+    "answer": [
+      [
+        "DeepLOB"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_63416afda1_007",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Якби DeepLOB було модифіковано для виконання 'Багатоетапної генерації послідовностей', які ще два аспекти з таблиці, ймовірно, потрібно було б докорінно змінити, щоб узгодити їх із характеристиками моделі, яка вже має таку можливість?",
+    "answer": [
+      [
+        "Щоб досягти багатоетапної генерації, як у MarS/LMM, 'Модель' DeepLOB, ймовірно, потрібно було б розвинути від 'Маленька, створена вруч і не масштабована' до 'Масштабна фундаментальна модель', а її 'Вхідні ознаки', можливо, потрібно було б розширити від 'даних книги лімітних замовлень (LOB)' для обробки 'Високочастотних даних на рівні замовлень'."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A3",
+      "B3",
+      "C3",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_008",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Порівняйте вимоги до вхідних даних для двох моделей.",
+    "answer": [
+      [
+        "DeepLOB вимагає 'дані книги лімітних ордерів (LOB)', що є специфічним типом фінансової структури даних. На противагу цьому, MarS/LMM використовує 'високочастотні дані рівня ордерів', які є більш загальними і передбачають більший обсяг та швидкість даних."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_009",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Який тип моделі використовується для системи, розробленої для цільового прогнозування?",
+    "answer": [
+      [
+        "Small, handcrafted, and not scalable"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_010",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Якщо користувач має лише доступні дані книги лімітних замовлень (LOB) і йому потрібно виконати «загальне прогнозування за допомогою симуляції», яка модель створює конфлікт на основі наданих аспектів, і чому?",
+    "answer": [
+      [
+        "Конфлікт існує для обох моделей. DeepLOB може використовувати дані LOB, але розроблена для «прогнозування, специфічного для завдання», а не для загальної симуляції. MarS/LMM розроблена для «загального прогнозування», але потребує «високочастотних даних рівня замовлень», а не даних LOB. Таким чином, жодна з моделей не є ідеальною без модифікації або компромісу."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_011",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Які застосовні завдання DeepLOB?",
+    "answer": [
+      [
+        "Task-specific forecasting."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

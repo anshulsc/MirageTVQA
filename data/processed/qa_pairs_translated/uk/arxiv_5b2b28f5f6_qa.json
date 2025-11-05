@@ -1,0 +1,190 @@
+[
+  {
+    "question_id": "arxiv_5b2b28f5f6_001",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Яка модель набору даних побудована на основі найширшої колекції необроблених числових та текстових точок даних, згаданих у таблиці?",
+    "answer": [
+      [
+        "FNSPID"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_002",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Яка загальна кількість записів про ціни та новини разом у рамках FNSPID?",
+    "answer": [
+      [
+        "45.4M"
+      ]
+    ],
+    "evidence_cells": [
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_003",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Для набору даних, зосередженого на \"психології інвесторів\", який тип ознак чітко згадується як такий, що сприяє його основному результату покращення прогнозування?",
+    "answer": [
+      [
+        "emotional features"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_004",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Який набір даних має первинні результати, що перевіряються протягом певного багаторічного періоду, і які роки початку та завершення цього періоду?",
+    "answer": [
+      [
+        "Market-GAN",
+        "2000-2023"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_005",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Визначте набори даних, результати яких ('Primary Results') містять кількісний показник ефективності (наприклад, відсоток або статистичну оцінку).",
+    "answer": [
+      [
+        "FNSPID"
+      ],
+      [
+        "AlphaFin"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A3",
+      "D3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_006",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Для набору даних FNSPID, яка приблизна співвідношення записів новин до записів цін?",
+    "answer": [
+      [
+        "Approximately 0.53 to 1 (15.7M / 29.7M)"
+      ]
+    ],
+    "evidence_cells": [
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_007",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Якщо річна дохідність, про яку повідомила AlphaFin, зменшиться на 10% від її поточного значення, яким буде новий відсоток?",
+    "answer": [
+      [
+        "27.72%"
+      ]
+    ],
+    "evidence_cells": [
+      "D3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_008",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "open_ended_reasoning",
+    "question": "Виходячи з описів FNSPID та StockEmotions, який зв'язок можна вивести між \"Ключовими інноваціями\" набору даних та його \"Характеристиками даних\"?",
+    "answer": [
+      [
+        "Існує сильна позитивна кореляція, де ключова інновація безпосередньо зумовлена та пристосована до специфіки зібраних даних. Наприклад, інновація FNSPID у \"інтеграції ціни та новин\" можлива лише завдяки великому збору записів про ціни та новини. Аналогічно, інновація StockEmotions у \"психології інвесторів\" випливає з його унікального набору даних \"анотованих коментарів\" з класами емоцій."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_009",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Яка колонка в таблиці призначена для підсумування основного нового внеску або унікального підходу кожної моделі?",
+    "answer": [
+      [
+        "Key Innovation"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_010",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Серед перелічених основних результатів, який датасет повідомляє про ключовий результат, зосереджений на прозорості та пояснюваності моделі, що робить його винятком порівняно з іншими, які зосереджені переважно на точності, прибутковості чи достовірності симуляції?",
+    "answer": [
+      [
+        "AlphaFin"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_011",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Який набір даних показав дуже високу точність у симуляції DJIA?",
+    "answer": [
+      [
+        "Market-GAN"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

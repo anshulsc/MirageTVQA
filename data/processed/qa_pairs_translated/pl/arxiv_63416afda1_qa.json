@@ -1,0 +1,211 @@
+[
+  {
+    "question_id": "arxiv_63416afda1_001",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Jakiego rodzaju możliwości przewidywania oferuje model, który wykorzystuje dane wysokiej częstotliwości na poziomie zamówień?",
+    "answer": [
+      [
+        "Multi-step, sequence generation."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_002",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Jeśli projekt wymaga ogólnego prognozowania za pomocą symulacji, która cecha modelu, oprócz jego zastosowania, sprawia, że pasuje on lepiej niż alternatywa?",
+    "answer": [
+      [
+        "MarS/LMM to 'wielkoskalowy model podstawowy' zdolny do 'wielostopniowego generowania sekwencji', co czyni go z natury bardziej elastycznym i wydajnym w ogólnych zadaniach symulacyjnych w porównaniu do DeepLOB, który jest opisywany jako 'mały, ręcznie tworzony i nieskalowalny' model z prognozowaniem 'jednostopniowym lub o stałej długości'."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_003",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Na podstawie tabeli, jaka jest wywnioskowana zależność między skalą modelu a elastycznością jego prognozowania?",
+    "answer": [
+      [
+        "Dane sugerują bezpośrednią korelację: model opisany jako 'Mały, ręcznie tworzony i nieskalowalny' (DeepLOB) oferuje ograniczone prognozy 'Jednostopniowe lub o stałej długości', podczas gdy 'Wielkoskalowy model podstawowy' (MarS/LMM) zapewnia bardziej elastyczne 'Wieloetapowe generowanie sekwencji'. Oznacza to, że większe, bardziej skalowalne modele mają zazwyczaj bardziej zaawansowane i elastyczne możliwości prognozowania."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_63416afda1_004",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Ile różnych aspektów jest używanych do rozróżnienia DeepLOB i MarS/LMM w tym zbiorze danych?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_005",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Zidentyfikuj model, który NIE jest opisany jako 'Duży model bazowy', i wymień jego określone cechy wejściowe.",
+    "answer": [
+      [
+        "DeepLOB",
+        "Limit order book (LOB) data."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "B3",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_006",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Opis którego modelu w aspekcie „Model” zawiera unikalny zestaw trzech odrębnych cech ograniczających?",
+    "answer": [
+      [
+        "DeepLOB"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_63416afda1_007",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Gdyby DeepLOB został zmodyfikowany w celu wykonywania 'generowania sekwencji wieloetapowych', jakie dwa inne aspekty z tabeli prawdopodobnie wymagałyby fundamentalnej zmiany, aby dostosować się do charakterystyki modelu, który już posiada tę zdolność?",
+    "answer": [
+      [
+        "Aby osiągnąć generowanie wieloetapowe podobne do MarS/LMM, „Model” DeepLOB-a prawdopodobnie musiałby ewoluować z „małego, ręcznie tworzonego i nieskalowalnego” w „duży model fundamentowy”, a jego „Cechy wejściowe” mogłyby wymagać rozszerzenia z „danych LOB”, aby obsłużyć „dane na poziomie zleceń o wysokiej częstotliwości”."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A3",
+      "B3",
+      "C3",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_008",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Porównaj wymagania dotyczące danych wejściowych dla obu modeli.",
+    "answer": [
+      [
+        "DeepLOB wymaga „danych z arkusza zleceń (LOB)”, co jest specyficznym typem struktury danych finansowych. Z kolei MarS/LMM wykorzystuje „dane wysokiej częstotliwości na poziomie zlecenia”, które są bardziej ogólne i implikują większą objętość oraz szybkość danych."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_009",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Jaki jest typ modelu dla systemu zaprojektowanego do prognozowania specyficznego dla zadania?",
+    "answer": [
+      [
+        "Small, handcrafted, and not scalable"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_010",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Jeśli użytkownik dysponuje wyłącznie 'danymi z arkusza zleceń (LOB)' i potrzebuje wykonać 'ogólne prognozowanie poprzez symulację', który model przedstawia konflikt na podstawie przedstawionych aspektów i dlaczego?",
+    "answer": [
+      [
+        "Konflikt występuje w przypadku obu modeli. DeepLOB może używać danych LOB, ale jest zaprojektowany do 'prognozowania specyficznego dla zadania', a nie do ogólnej symulacji. MarS/LMM jest zaprojektowany do 'ogólnego prognozowania', ale wymaga 'wysokoczęstotliwościowych danych na poziomie zleceń', a nie danych LOB. Dlatego żaden z modeli nie jest idealnym rozwiązaniem bez modyfikacji lub kompromisu."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_011",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Jakie są odpowiednie zadania DeepLOB?",
+    "answer": [
+      [
+        "Task-specific forecasting."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

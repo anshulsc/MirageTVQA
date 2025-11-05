@@ -1,0 +1,182 @@
+[
+  {
+    "question_id": "arxiv_2448925329_001",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "کون سا ڈیٹا سیٹ سب سے مضبوط ماڈل فٹ دکھاتا ہے جیسا کہ R-squared ویلیو سے ظاہر ہوتا ہے؟",
+    "answer": [
+      [
+        "BTC/USD ΔM vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_002",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "BTC/USD سے متعلقہ تمام ڈیٹاسیٹس کے لیے اوسط Kurtosis ویلیو کیا ہے؟",
+    "answer": [
+      [
+        "7.7025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_2448925329_003",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "سب سے کم مثبت R-squared ویلیو والے ماڈل کے لیے، اس کا متعلقہ Durbin-Watson statistic کیا ہے؟",
+    "answer": [
+      [
+        "0.337"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "I2",
+      "B1",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_004",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "LUNA/USD کے ڈیٹاسیٹ کے لیے، جب ٹائم انٹرول کو 1s سے بڑھا کر 10s کر دیا جاتا ہے تو ماڈل کیوضاحتی طاقت R-squared کے مطابق کیسے بدلتی ہے؟",
+    "answer": [
+      [
+        "LUNA/USD ماڈل کیوضاحتی طاقت، جو کہ R-squared ویلیو سے ظاہر ہوتی ہے، 1-سیکنڈ کے وقفے کے لیے 0.036 سے بڑھ کر 10-سیکنڈ کے وقفے کے لیے 0.274 ہو جاتی ہے۔ یہ سات گنا سے زیادہ اضافہ ہے، جو یہ بتاتا ہے کہ طویل ٹائم فریم میں قیمت میں تبدیلیوں کی وضاحت کرنے میں ماڈل نمایاں طور پر زیادہ مؤثر ہے۔"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_005",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "تمام وہ ڈیٹاسیٹ کی فہرست بنائیں جہاں ماڈل کے بقایا جات منفی طور پر ترچھے ہیں (Skew < 0) اور ڈربن-واٹسن کا اعدادوشمار 2 سے زیادہ ہے، جو منفی خودکار تعلق کو ظاہر کرتا ہے۔",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 1s",
+        "BTC/USD ΔM vs ΔP 1s"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "I1",
+      "A3",
+      "G3",
+      "I3",
+      "G2",
+      "I2",
+      "G4",
+      "I4",
+      "G5",
+      "I5",
+      "G6",
+      "I6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_006",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "10s کے وقفے والے ماڈلز کے کل F-statistics کے مجموعے کا کتنا تناسب ہے؟",
+    "answer": [
+      [
+        "93.68%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A6",
+      "C6",
+      "C1",
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_2448925329_007",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "اگر 'BTC/USD OFI vs ΔP 10s' ماڈل کے لیے Kurtosis کو تمام دوسرے ماڈلز کے اوسط Kurtosis میں ایڈجسٹ کیا جائے، تو اس کی نئی قدر کیا ہوگی؟",
+    "answer": [
+      [
+        "5.700"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_008",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "کیا ماڈل کے F-statistic اور اس کے Jarque-Bera (JB) statistic کے درمیان کوئی مستقل تعلق موجود ہے؟ اس نمونے کا تجزیہ کریں؟",
+    "answer": [
+      [
+        "F-statistic اور Jarque-Bera (JB) statistic کے درمیان کوئی مستقل، واضح تعلق موجود نہیں ہے۔ مثال کے طور پر، سب سے زیادہ F-statistic (15890.0) والے ماڈل کا JB statistic 6560.394 ہے، جبکہ دوسرے سب سے کم F-statistic (137.0) والے ماڈل کا JB بہت کم 816.435 ہے۔ تاہم، سب سے کم F-statistic (70.87) والے ماڈل کا JB statistic سب سے زیادہ (10204.282) ہے۔ یہ ظاہر کرتا ہے کہ اس ڈیٹا سیٹ میں ماڈل کی مجموعی اہمیت (F-statistic) اور اس کے residuals کی normality (JB statistic) براہ راست متعلق نہیں ہیں۔"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "J1",
+      "C2",
+      "J2",
+      "C3",
+      "J3",
+      "C4",
+      "J4",
+      "C5",
+      "J5",
+      "C6",
+      "J6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  }
+]

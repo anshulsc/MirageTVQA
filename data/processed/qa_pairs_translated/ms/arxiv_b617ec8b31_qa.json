@@ -1,0 +1,202 @@
+[
+  {
+    "question_id": "arxiv_b617ec8b31_001",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Untuk aplikasi di mana kaedah MarS melibatkan perbandingan pasaran semasa dengan pasaran simulasi, apakah kaedah semasa yang sepadan bandingkan?",
+    "answer": [
+      [
+        "Diff⁡(marketn⁢o⁢w,marketp⁢a⁢s⁢t)"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_002",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Berapakah peratus aplikasi yang disenaraikan menggunakan kaedah 'MarS' yang melibatkan 'penjanaan' atau 'simulasi'?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_003",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Bagaimanakah kaedah MarS untuk aplikasi 'Pengesanan' mengubah perbandingan berasaskan masa yang digunakan dalam 'Kaedah Semasa'?",
+    "answer": [
+      [
+        "Kaedah 'Semasa' untuk 'Pengesanan' bergantung pada perbandingan sejarah dengan mengira perbezaan antara keadaan pasaran semasa (market_now) dan keadaan pasaran lepas (market_past). Kaedah MarS menghapuskan kebergantungan pada data lepas ini. Sebaliknya, ia membandingkan pasaran semasa (market_now) dengan pasaran simulasi kontemporari (simu-market_now), menukar perbandingan daripada rangka kerja temporal (sekarang vs. dahulu) kepada rangka kerja berasaskan model (sebenar vs. simulasi)."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_004",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Senaraikan 'Kaedah Semasa' untuk semua aplikasi di mana kaedah 'MarS' diterangkan sebagai 'pipeline' atau melibatkan 'penjanaan'.",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ],
+      [
+        "online experiments, empirical formula"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B1",
+      "C3",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_005",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Aplikasi manakah yang menunjukkan peralihan paling asas dalam pendekatan antara 'Kaedah Semasa' dan 'MarS', beralih daripada perbandingan sejarah kepada perbandingan simulasi?",
+    "answer": [
+      [
+        "Aplikasi 'Pengesanan' menunjukkan peralihan paling asas. Kaedah semasa bergantung pada perbandingan tempoh masa, melihat ke belakang (Diff(market_now, market_past)). Sebaliknya, kaedah MarS memperkenalkan perbandingan terhadap realiti simulasi yang berlaku serentak (Diff(market_now, simu-market_now)). Perubahan daripada asas sejarah kepada asas simulasi untuk perbandingan ini merupakan satu pengecualian konseptual yang ketara berbanding perubahan metodologi lain dalam jadual."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_006",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Jika pendekatan 'MarS' untuk 'Persekitaran RL' diubah suai untuk menggunakan ketersediaan data 'Kaedah Semasa' untuk aplikasi yang sama, apakah dua ciri yang akan mendefinisikan kaedah MarS hipotetis ini?",
+    "answer": [
+      [
+        "finite data"
+      ],
+      [
+        "real P(st+1|st,at)"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_007",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Untuk aplikasi 'Persekitaran RL', apakah perbezaan utama dalam ketersediaan data dan taburan kebarangkalian antara 'Kaedah Semasa' dan 'MarS'?",
+    "answer": [
+      [
+        "Perbezaan utama terletak pada jumlah data dan ketulenan kebarangkalian peralihan. 'Kaedah Semasa' bergantung pada 'data terhad' dan taburan kebarangkalian 'palsu' (P(st+1|st,at)), manakala 'MarS' menggunakan 'data tak terhingga' dan taburan kebarangkalian 'sebenar'."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_008",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Berapakah bilangan aplikasi berbeza yang disenaraikan melibatkan istilah 'data' dalam penerangan kaedah mereka sama ada untuk 'Kaedah Semasa' atau 'MarS'?",
+    "answer": [
+      [
+        "2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_009",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan jadual, apakah kelebihan utama MarS berbanding Kaedah Semasa, terutamanya berkaitan dengan perwakilan data dan realiti?",
+    "answer": [
+      [
+        "Tema menyeluruh menunjukkan bahawa kaedah MarS bertujuan untuk mengatasi batasan data sejarah atau terhingga dengan memanfaatkan pendekatan penjanaan dan berasaskan simulasi. MarS beralih daripada ekstrapolasi kepada penjanaan, daripada perbandingan sejarah kepada perbandingan simulasi, dan daripada model data terhingga/palsu kepada model data tak terhingga/sebenar. Ini menunjukkan kelebihan strategik dalam mencipta persekitaran data yang lebih teguh, fleksibel, dan realistik untuk analisis dan pembelajaran pengukuhan."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_010",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Selain baris pengepala, berapakah bilangan aplikasi berbeza yang diperincikan dalam jadual?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_011",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Apakah kaedah semasa yang digunakan untuk Ramalan?",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

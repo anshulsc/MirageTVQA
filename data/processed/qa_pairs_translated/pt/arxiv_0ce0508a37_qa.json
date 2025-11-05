@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "arxiv_0ce0508a37_001",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Qual parâmetro de impacto no mercado tem um valor de coeficiente exatamente o dobro do outro?",
+    "answer": [
+      [
+        "Temporary impact coefficient"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C9",
+      "A10",
+      "C10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_002",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Qual é o valor médio do 'Parâmetro de não linearidade' com base no conjunto de valores possíveis fornecidos?",
+    "answer": [
+      [
+        "0.567"
+      ]
+    ],
+    "evidence_cells": [
+      "C11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_003",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Qual é o símbolo do parâmetro em 'Dinâmica de Mercado' que possui o maior número de valores distintos listados?",
+    "answer": [
+      [
+        "V0subscript𝑉0\\sqrt{V_{0}}square-root start_ARG italic_V start_POSTSUBSCRIPT 0 end_POSTSUBSCRIPT end_ARG"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_004",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "Com base nos valores de 'Volatilidade inicial', 'Volatilidade de longo prazo' e 'Velocidade de reversão à média', o que pode ser inferido sobre o comportamento da volatilidade do modelo ao longo do tempo?",
+    "answer": [
+      [
+        "O modelo exibe volatilidade com reversão à média. A 'Volatilidade de longo prazo' é fixada em 0,3, atuando como âncora. A 'Volatilidade inicial' pode começar mais alta (0,4), mais baixa (0,2) ou no nível de longo prazo (0,3). Independentemente do ponto de partida, espera-se que a volatilidade se aproxime de 0,3 ao longo do tempo, um processo cuja velocidade é governada pela 'Velocidade de reversão à média' de 2,0. Isso significa que períodos de volatilidade alta ou baixa não são permanentes."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_005",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Liste todos os parâmetros da categoria 'Market Dynamics' que são apresentados como um conjunto de múltiplos valores possíveis, onde todos os valores listados são não negativos.",
+    "answer": [
+      [
+        "Drift rate"
+      ],
+      [
+        "Initial volatility"
+      ],
+      [
+        "Volatility of variance"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_006",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Se a 'Aversão ao Risco' for definida como o inverso da tolerância ao risco, e os valores de 'Impacto Permanente' e 'Impacto Temporário' fossem aumentados em um fator de 10, qual seria a nova razão entre o 'Coeficiente de Impacto Temporário' e a 'Aversão ao Risco'?",
+    "answer": [
+      [
+        "50.0"
+      ]
+    ],
+    "evidence_cells": [
+      "C10",
+      "C13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_007",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Se a 'Velocidade de reversão à média' diminuísse em 50% e os valores da 'Volatilidade da variância' aumentassem 0,1 cada, qual seria a nova soma da 'Velocidade de reversão à média' e da 'Volatilidade da variância' máxima?",
+    "answer": [
+      [
+        "1.4"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_008",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "A tabela especifica um valor de 'Correlação' de -0,7. Em um modelo financeiro, o que esse forte valor negativo geralmente implica sobre a relação entre o preço de um ativo e sua volatilidade?",
+    "answer": [
+      [
+        "Uma correlação de -0,7 significa uma forte relação inversa, frequentemente referida como o efeito alavancagem. Isso implica que, à medida que o preço do ativo diminui, sua volatilidade tende a aumentar e, inversamente, à medida que o preço do ativo aumenta, sua volatilidade tende a diminuir. Esta é uma característica crucial para a modelagem realista de preços de ativos e precificação de derivativos."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_009",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Quantos parâmetros na tabela são definidos por um conjunto de múltiplos valores possíveis em vez de um único valor fixo?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_010",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Qual parâmetro único é um valor atípico qualitativo porque seu valor é o único que é negativo?",
+    "answer": [
+      [
+        "Correlation"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_011",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Qual é a velocidade de reversão à média definida no modelo?",
+    "answer": [
+      [
+        "2.0"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

@@ -1,0 +1,211 @@
+[
+  {
+    "question_id": "arxiv_63416afda1_001",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "उच्च-फ्रिक्वेन्सी अर्डर-स्तर डेटा प्रयोग गर्ने मोडेलले कस्तो प्रकारको पूर्वानुमान क्षमता प्रदान गर्दछ?",
+    "answer": [
+      [
+        "Multi-step, sequence generation."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_002",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "यदि कुनै परियोजनालाई सिमुलेशन मार्फत सामान्य पूर्वानुमान आवश्यक छ भने, यसको लागू हुने कार्य बाहेक कुन मोडेलको विशेषताले यसलाई अर्को विकल्प भन्दा राम्रो बनाउँछ?",
+    "answer": [
+      [
+        "MarS/LMM एउटा 'ठूलो-स्तरको फाउन्डेसन मोडेल' हो जुन 'बहु-चरण, अनुक्रम उत्पादन' गर्न सक्षम छ, जसले यसलाई सामान्य सिमुलेशन कार्यहरूको लागि अन्तर्निहित रूपमा बढी लचिलो र शक्तिशाली बनाउँछ। DeepLOB को तुलनामा, जसलाई 'सानो, हस्तनिर्मित र स्केलेबल नभएको' मोडेलको रूपमा वर्णन गरिएको छ र यसमा 'एकल-चरण वा निश्चित-लम्बाइको' भविष्यवाणी हुन्छ।"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_003",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "तालिकाको आधारमा, मोडेलको आकार (स्केल) र यसको पूर्वानुमान लचिलोपन बीचको अनुमानित सम्बन्ध के हो?",
+    "answer": [
+      [
+        "डाटाले सीधा सम्बन्ध देखाउँछ: 'सानो, हस्तनिर्मित, र स्केलेबल नहुने' (DeepLOB) को रूपमा वर्णन गरिएको मोडेलले सीमित 'एकल-चरण वा निश्चित-लम्बाइ' पूर्वानुमानहरू प्रदान गर्दछ, जबकि 'ठूलो-स्तरको फाउन्डेसन मोडेल' (MarS/LMM) ले बढी लचिलो 'बहु-चरण, अनुक्रम उत्पादन' प्रदान गर्दछ। यसको मतलब यो हो कि ठूला, बढी स्केलेबल मोडेलहरूमा प्रायः थप उन्नत र लचिलो पूर्वानुमान क्षमताहरू हुन्छन्।"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_63416afda1_004",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "यस डेटासेटमा DeepLOB र MarS/LMM छुट्याउन कति फरक पक्षहरू प्रयोग गरिएका छन्?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_005",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "'Large-scale foundation model' को रूपमा वर्णन नगरिएको मोडेल कुन हो पत्ता लगाउनुहोस् र यसको निर्दिष्ट इनपुट सुविधाहरू सूचीबद्ध गर्नुहोस्।",
+    "answer": [
+      [
+        "DeepLOB",
+        "Limit order book (LOB) data."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "B3",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_006",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "कुन मोडेलको 'मोडेल' पक्षको विवरणमा तीन भिन्न सीमित विशेषताहरूको अद्वितीय सेट समावेश छ?",
+    "answer": [
+      [
+        "DeepLOB"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_63416afda1_007",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "यदि DeepLOB लाई 'Multi-step, sequence generation' गर्ने गरी परिमार्जन गरिने हो भने, यो क्षमता पहिले नै भएको मोडेलका विशेषताहरूसँग मिलाउन तालिकामा दिइएका अन्य कुन दुई पक्षहरूमा आधारभूत परिवर्तन गर्नुपर्ने सम्भावना हुन्छ?",
+    "answer": [
+      [
+        "MarS/LMM जस्तै multi-step generation प्राप्त गर्नका लागि, DeepLOB को 'Model' लाई 'Small, handcrafted, and not scalable' बाट 'Large-scale foundation model' मा विकसित गर्नुपर्ने सम्भावना हुन्छ, र यसको 'Input Features' लाई 'LOB data' बाट 'High-frequency order-level data' ह्यान्डल गर्न सक्ने गरी विस्तार गर्नुपर्ने हुन सक्छ।"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A3",
+      "B3",
+      "C3",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_008",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "यी दुई मोडेलका लागि इनपुट डेटा आवश्यकताहरूलाई तुलना गर्नुहोस्।",
+    "answer": [
+      [
+        "DeepLOB लाई 'लिमिट अर्डर बुक (LOB) डेटा' चाहिन्छ, जुन एक विशेष प्रकारको वित्तीय डेटा संरचना हो। यसको विपरीत, MarS/LMM ले 'उच्च-आवृत्ति अर्डर-स्तर डेटा' प्रयोग गर्छ, जुन बढी सामान्य छ र ठूलो मात्रा र डेटाको गतिलाई संकेत गर्दछ।"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_009",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "कार्य-विशेष पूर्वानुमानको लागि डिजाइन गरिएको प्रणालीको मोडेल प्रकार के हो?",
+    "answer": [
+      [
+        "Small, handcrafted, and not scalable"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_010",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "यदि प्रयोगकर्तासँग केवल 'लिमिट अर्डर बुक (LOB) डेटा' उपलब्ध छ र 'सिमुलेशन मार्फत सामान्य पूर्वानुमान' गर्न आवश्यक छ भने, प्रदान गरिएका पक्षहरूको आधारमा कुन मोडेलले असंगति देखाउँछ र किन?",
+    "answer": [
+      [
+        "दुवै मोडेलमा असंगति छ। DeepLOB ले LOB डेटा प्रयोग गर्न सक्छ तर यो 'कार्य विशिष्ट पूर्वानुमान' को लागि डिजाइन गरिएको हो, सामान्य सिमुलेशनको लागि होइन। MarS/LMM 'सामान्य पूर्वानुमान' को लागि डिजाइन गरिएको हो तर यसलाई LOB डेटा नभई 'उच्च-फ्रिक्वेन्सी अर्डर-स्तर डेटा' चाहिन्छ। त्यसैले, परिमार्जन वा सम्झौता बिना दुवै मोडेल उपयुक्त छैनन्।"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_011",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "DeepLOB का लागू हुने कार्यहरू के-के हुन्?",
+    "answer": [
+      [
+        "Task-specific forecasting."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

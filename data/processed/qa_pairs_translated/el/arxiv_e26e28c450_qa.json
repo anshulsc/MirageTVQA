@@ -1,0 +1,271 @@
+[
+  {
+    "question_id": "arxiv_e26e28c450_001",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Ποιο μοντέλο που δεν είναι πολλαπλών εργασιών επιτυγχάνει το χαμηλότερο συνολικό Μέσο Τετραγωνικό Σφάλμα (MSE_over);",
+    "answer": [
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "H1",
+      "A2",
+      "B2",
+      "H2",
+      "A3",
+      "B3",
+      "H3",
+      "A4",
+      "B4",
+      "H4",
+      "A5",
+      "B5",
+      "H5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_002",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Υπολογίστε τον μέσο όρο MSE στον ορίζοντα 7 ημερών (MSE7) για όλα τα μοντέλα που σημειώνονται ως 'Multi-Task'.",
+    "answer": [
+      [
+        "0.820"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "H6",
+      "D7",
+      "H7",
+      "D8",
+      "H8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_003",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Για το μοντέλο με τη δεύτερη υψηλότερη (δεύτερη χειρότερη) τιμή MSE3, ποια είναι η αντίστοιχη τιμή MSE30;",
+    "answer": [
+      [
+        "0.233"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "F3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_004",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Αναλύστε την τάση του Μέσου Τετραγωνικού Σφάλματος (MSE) για το μοντέλο HTML καθώς ο ορίζοντας πρόβλεψης επεκτείνεται από 3 σε 30 ημέρες. Βελτιώνεται ή χειροτερεύει η προβλεπτική του ακρίβεια με την πάροδο του χρόνου;",
+    "answer": [
+      [
+        "Η προβλεπτική ακρίβεια του μοντέλου HTML βελτιώνεται καθώς ο ορίζοντας πρόβλεψης επεκτείνεται. Οι τιμές MSE του μειώνονται σταθερά από MSE3 (0.845) σε MSE7 (0.349), MSE15 (0.251) και τέλος MSE30 (0.158), υποδεικνύοντας χαμηλότερο σφάλμα και επομένως καλύτερη απόδοση σε προβλέψεις μεγαλύτερης διάρκειας."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_005",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Προσδιορίστε όλα τα μοντέλα που δεν έχουν οριστεί ως 'Multi-Task' και έχουν επίσης τιμή MSE15 μικρότερη από 0.31.",
+    "answer": [
+      [
+        "MT-LSTM-ATT"
+      ],
+      [
+        "HAN"
+      ],
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "H1",
+      "A2",
+      "E2",
+      "H2",
+      "A3",
+      "E3",
+      "H3",
+      "A4",
+      "E4",
+      "H4",
+      "A5",
+      "E5",
+      "H5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_006",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Ποιο μοντέλο αποτελεί σαφή απόκλιση στις επιδόσεις σε όλες τις μετρικές MSE και γιατί;",
+    "answer": [
+      [
+        "Το μοντέλο GPT-3.5-Turbo αποτελεί σαφή απόκλιση στις επιδόσεις. Οι τιμές MSE σε όλους τους χρονικούς ορίζοντες (MSE_over: 2.198, MSE3: 2.152, MSE7: 1.793, MSE15: 2.514, MSE30: 2.332) είναι σημαντικά υψηλότερες από όλες τις άλλες μοντέλα, με τα περισσότερα από τα οποία έχουν τιμές MSE κάτω από 1.0. Αυτό υποδεικνύει σημαντικά χειρότερη προγνωστική απόδοση σε σύγκριση με τα άλλα μοντέλα που αναφέρονται."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_007",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Ποιο ποσοστό του συνολικού αθροίσματος MSE3 σε όλα τα μοντέλα αποδίδεται στο μοντέλο GPT-3.5-Turbo; Δώστε την απάντηση ως ποσοστό στρογγυλοποιημένο σε μία δεκαδική θέση.",
+    "answer": [
+      [
+        "19.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_008",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Αν το MSE_over για το μοντέλο RiskLabs βελτιωνόταν κατά 25% (δηλαδή, μειωνόταν κατά 25%), ποια θα ήταν η νέα του τιμή και πώς θα κατατασσόταν σε σύγκριση με το MSE_over του μοντέλου HTML;",
+    "answer": [
+      [
+        "Το νέο MSE_over για το RiskLabs θα ήταν 0.243. Αυτή η τιμή είναι χαμηλότερη, και επομένως καλύτερη, από το MSE_over του μοντέλου HTML που είναι 0.401."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_009",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Με βάση τον πίνακα, ποια είναι η σχέση μεταξύ ενός μοντέλου που κατηγοριοποιείται ως 'Multi-Task' και της διαθεσιμότητας μιας βαθμολογίας 'VaR';",
+    "answer": [
+      [
+        "Υπάρχει ισχυρή συσχέτιση. Μόνο τα μοντέλα που ορίζονται ως 'Multi-Task' (GPT-3.5-Turbo και RiskLabs) έχουν αναφερόμενη αριθμητική βαθμολογία 'VaR'. Ωστόσο, δεν έχουν όλα τα μοντέλα 'Multi-Task' βαθμολογία VaR (π.χ. HTML), και κανένα μοντέλο που δεν είναι 'Multi-Task' δεν έχει, υποδηλώνοντας ότι η ικανότητα υπολογισμού του VaR είναι ένα χαρακτηριστικό που συνδέεται κυρίως με τα μοντέλα 'Multi-Task' σε αυτό το σύνολο δεδομένων."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "H1",
+      "G2",
+      "H2",
+      "G3",
+      "H3",
+      "G4",
+      "H4",
+      "G5",
+      "H5",
+      "G6",
+      "H6",
+      "G7",
+      "H7",
+      "G8",
+      "H8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_010",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Ποια στήλη μετρικής απόδοσης περιέχει μη αριθμητικά δεδομένα-πλέγμα, και για ποια συγκεκριμένα μοντέλα λείπουν αυτά τα δεδομένα;",
+    "answer": [
+      [
+        "Η στήλη 'VaR' περιέχει μη αριθμητικά δεδομένα ('/'). Αυτά τα δεδομένα λείπουν για τα ακόλουθα μοντέλα: Classical Method, LSTM, MT-LSTM-ATT, HAN, MRDM και HTML."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_011",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Ποιο μοντέλο παρουσιάζει την καλύτερη συνολική ισορροπία μεταξύ της ακρίβειας πρόβλεψης σε διαφορετικούς ορίζοντες (MSE3–MSE30) και της εκτίμησης κινδύνου (VaR);",
+    "answer": [
+      [
+        "Το μοντέλο RiskLabs επιτυγχάνει την καλύτερη συνολική ισορροπία, διατηρώντας τις χαμηλότερες τιμές MSE σε όλους τους ορίζοντες και το χαμηλότερο VaR (0.049), υποδεικνύοντας τόσο ισχυρή ακρίβεια πρόβλεψης όσο και αξιόπιστη εκτίμηση κινδύνου."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "G8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

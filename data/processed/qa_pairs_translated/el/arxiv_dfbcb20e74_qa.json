@@ -1,0 +1,167 @@
+[
+  {
+    "question_id": "arxiv_dfbcb20e74_001",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Ποιος τύπος κύριου τύπου περιλαμβάνει ρητά ένα στοιχείο επιτοκίου χωρίς κίνδυνο;",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_002",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Ποιος είναι ο συνολικός αριθμός των διακριτών μεταβλητών 'X' που χρησιμοποιούνται ως εισόδους στον τύπο του Μοντέλου Z-score;",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_003",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Προσδιορίστε το μοντέλο που χρησιμοποιεί τα «Συνολικά περιουσιακά στοιχεία» ως παρονομαστή σε τουλάχιστον τρεις από τις εξηγούμενες παραμέτρους του, και στη συνέχεια δηλώστε ποια παράμετρος από αυτό το μοντέλο αντιπροσωπεύει τον λόγο της «Αγοραίας αξίας των ιδίων κεφαλαίων» προς τις «Συνολικές υποχρεώσεις».",
+    "answer": [
+      [
+        "Z-score Model"
+      ],
+      [
+        "X4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_004",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Ποιο μοντέλο ενσωματώνει παραμέτρους που ορίζονται ρητά ως μετρούμενες «την χρονική στιγμή t»;",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_005",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Εάν ο αναλυτικός στόχος είναι ο προσδιορισμός της πιθανότητας ενός δυαδικού αποτελέσματος (y=1), ποιο μοντέλο που αναφέρεται στον πίνακα είναι η καταλληλότερη επιλογή;",
+    "answer": [
+      [
+        "Logistic Regression"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_006",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Στο μοντέλο Z-score, ποιο είναι το βάρος (συντελεστής) της μεταβλητής που αναπαριστά την 'Περίοδο προ τόκων και φόρων/Σύνολο ενεργητικού', και πώς συγκρίνεται αυτό το βάρος με τις άλλες μεταβλητές;",
+    "answer": [
+      [
+        "Ο συντελεστής για το X3 (Κέρδη προ τόκων και φόρων/Σύνολο ενεργητικού) είναι 3.3. Αυτό είναι το υψηλότερο βάρος από όλες τις πέντε μεταβλητές, υποδηλώνοντας ότι έχει τον πιο σημαντικό αντίκτυπο στο τελικό Z-score σε σύγκριση με μεταβλητές όπως X1 (1.2), X2 (1.4), X4 (0.6) και X5 (0.99)."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_007",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Αν μια ενημερωμένη έκδοση του μοντέλου Z-score μείωνε την επίδραση της «Λόγου κυκλοφοριακής πολιτικής/Συνολικών περιουσιακών στοιχείων» κατά 50%, ποιος θα ήταν ο νέος συντελεστής για το X1;",
+    "answer": [
+      [
+        "0.6"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_008",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Με βάση τον τύπο για το Μοντέλο Z-score, ποια είναι η συναγόμενη σχέση μεταξύ του λόγου των συνολικών πωλήσεων προς τα συνολικά περιουσιακά στοιχεία μιας εταιρείας και του προκύπτοντος Z-score;",
+    "answer": [
+      [
+        "Υπάρχει θετική συσχέτιση μεταξύ του λόγου συνολικών πωλήσεων/συνολικών περιουσιακών στοιχείων (X5) και του Z-score. Ο τύπος δείχνει ότι το Z-score είναι ένα σταθμισμένο άθροισμα πέντε λόγων, και ο συντελεστής για το X5 είναι θετικός (0.99). Επομένως, διατηρώντας όλους τους άλλους παράγοντες σταθερούς, μια αύξηση στον λόγο των συνολικών πωλήσεων προς τα συνολικά περιουσιακά στοιχεία θα οδηγήσει σε υψηλότερο Z-score."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_009",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Ποιο μοντέλο περιλαμβάνει στην περιγραφή του τον μεγαλύτερο αριθμό διακριτών παραμέτρων που εξηγούνται στην τρίτη στήλη;",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_010",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Εξετάζοντας τους αριθμητικούς συντελεστές στον τύπο του Μοντέλου Z-score, ποιος συντελεστής ξεχωρίζει ως ακραία τιμή σε σύγκριση με τους άλλους;",
+    "answer": [
+      [
+        "Ο συντελεστής 3.3 για τη μεταβλητή X3 αποτελεί σημαντική ακραία τιμή. Οι άλλοι συντελεστές στον τύπο είναι 1.2, 1.4, 0.6 και 0.99, οι οποίοι ομαδοποιούνται σε ένα εύρος μεταξύ 0.6 και 1.4. Η τιμή 3.3 είναι περισσότερο από διπλάσια της τιμής του επόμενου υψηλότερου συντελεστή (1.4), καθιστώντας την σημαντικά μεγαλύτερη από τις υπόλοιπες."
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

@@ -1,0 +1,211 @@
+[
+  {
+    "question_id": "arxiv_63416afda1_001",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "For den model, der bruger data på ordreniveau med høj frekvens, hvilken type forudsigelsesmulighed tilbyder den?",
+    "answer": [
+      [
+        "Multi-step, sequence generation."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_002",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvis et projekt kræver generel prognose gennem simulering, hvilken modelkarakteristik, udover dens anvendelige opgave, gør den til et bedre valg end alternativet?",
+    "answer": [
+      [
+        "MarS/LMM er en 'Large-scale foundation model' (storstilet grundmodel) i stand til 'Multi-step, sequence generation' (fler-trins sekvensgenerering), hvilket gør den iboende mere fleksibel og kraftfuld til generelle simuleringsopgaver sammenlignet med DeepLOB, som beskrives som en 'Small, handcrafted, and not scalable' (lille, håndlavet og ikke-skalerbar) model med 'Single-step or fixed-length' (enkelt-trins eller fastlængde) forudsigelse."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_003",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Baseret på tabellen, hvad er det udledte forhold mellem en models skala og dens forudsigelsesfleksibilitet?",
+    "answer": [
+      [
+        "Dataene indikerer en direkte sammenhæng: modellen beskrevet som 'Lille, håndlavet og ikke skalerbar' (DeepLOB) tilbyder begrænsede 'Et-trins eller fast længde' forudsigelser, hvorimod den 'Storskala grundmodel' (MarS/LMM) leverer mere fleksibel 'Multi-trins, sekvensgenerering.' Dette indebærer, at større, mere skalerbare modeller typisk har mere avancerede og fleksible forudsigelsesevner."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_63416afda1_004",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Hvor mange forskellige aspekter bruges til at differentiere DeepLOB og MarS/LMM i dette datasæt?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_005",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Identificer den model, der IKKE er beskrevet som en 'Large-scale foundation model', og angiv dens specificerede inputfunktioner.",
+    "answer": [
+      [
+        "DeepLOB",
+        "Limit order book (LOB) data."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "B3",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_006",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Hvilken models beskrivelse af dens 'Model'-aspekt indeholder et unikt sæt af tre distinkte begrænsende karakteristika?",
+    "answer": [
+      [
+        "DeepLOB"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_63416afda1_007",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvis DeepLOB skulle modificeres til at udføre 'Multi-step, sequence generation', hvilke andre to aspekter fra tabellen ville sandsynligvis skulle ændres fundamentalt for at stemme overens med karakteristikaene for den model, der allerede har denne kapacitet?",
+    "answer": [
+      [
+        "For at opnå multi-step generering som MarS/LMM, ville DeepLOB's 'Model' sandsynligvis skulle udvikle sig fra 'Small, handcrafted, and not scalable' til en 'Large-scale foundation model', og dens 'Input Features' ville måske skulle udvides fra 'LOB data' til at håndtere 'High-frequency order-level data'."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A3",
+      "B3",
+      "C3",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_008",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Kontrastér inputdatakravene for de to modeller.",
+    "answer": [
+      [
+        "DeepLOB kræver 'Limit order book (LOB) data', som er en specifik type finansiel datastruktur. I modsætning hertil anvender MarS/LMM 'højfrekvente ordre-niveau data', som er mere generelle og indebærer et større volumen og en højere datahastighed."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_009",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Hvilken modeltype er der for systemet, der er designet til opgavespecifikke prognoser?",
+    "answer": [
+      [
+        "Small, handcrafted, and not scalable"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_010",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvis en bruger kun har 'Limit order book (LOB)-data' tilgængelige og skal udføre 'generel prognose gennem simulering', hvilken model præsenterer så en konflikt baseret på de angivne aspekter, og hvorfor?",
+    "answer": [
+      [
+        "Der er en konflikt for begge modeller. DeepLOB kan bruge LOB-dataene, men er designet til 'opgavespecifik prognose', ikke generel simulering. MarS/LMM er designet til 'generel prognose', men kræver 'højfrekvent ordre-niveau data', ikke LOB-data. Derfor er ingen af modellerne en perfekt løsning uden ændring eller kompromis."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_011",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Hvad er de anvendelige opgaver for DeepLOB?",
+    "answer": [
+      [
+        "Task-specific forecasting."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

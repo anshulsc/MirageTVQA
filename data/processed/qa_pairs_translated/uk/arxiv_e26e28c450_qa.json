@@ -1,0 +1,271 @@
+[
+  {
+    "question_id": "arxiv_e26e28c450_001",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Яка не багатозадачна модель досягає найнижчої загальної середньоквадратичної похибки (MSE_over)?",
+    "answer": [
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "H1",
+      "A2",
+      "B2",
+      "H2",
+      "A3",
+      "B3",
+      "H3",
+      "A4",
+      "B4",
+      "H4",
+      "A5",
+      "B5",
+      "H5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_002",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Обчисліть середнє значення MSE на 7-денному горизонті (MSE7) для всіх моделей, позначених як 'Multi-Task'.",
+    "answer": [
+      [
+        "0.820"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "H6",
+      "D7",
+      "H7",
+      "D8",
+      "H8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_003",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Для моделі з другим найвищим (другим найгіршим) значенням MSE3, яке відповідне значення MSE30?",
+    "answer": [
+      [
+        "0.233"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "F3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_004",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Проаналізуйте тенденцію середньоквадратичної помилки (MSE) для моделі HTML, оскільки горизонт прогнозування розширюється з 3 до 30 днів. Чи покращується або погіршується її прогностична точність з часом?",
+    "answer": [
+      [
+        "Прогностична точність моделі HTML покращується зі збільшенням горизонту прогнозування. Значення MSE послідовно зменшуються від MSE3 (0.845) до MSE7 (0.349), MSE15 (0.251) і, нарешті, MSE30 (0.158), що свідчить про меншу помилку і, отже, кращу продуктивність при довгострокових прогнозах."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_005",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Визначте всі моделі, які не позначені як 'Multi-Task' і мають значення MSE15 нижче 0.31.",
+    "answer": [
+      [
+        "MT-LSTM-ATT"
+      ],
+      [
+        "HAN"
+      ],
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "H1",
+      "A2",
+      "E2",
+      "H2",
+      "A3",
+      "E3",
+      "H3",
+      "A4",
+      "E4",
+      "H4",
+      "A5",
+      "E5",
+      "H5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_006",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Визначте модель, яка є очевидним винятком за всіма показниками MSE, і поясніть чому.",
+    "answer": [
+      [
+        "Модель GPT-3.5-Turbo є явним винятком за показниками продуктивності. Її значення MSE на всіх горизонтах (MSE_over: 2.198, MSE3: 2.152, MSE7: 1.793, MSE15: 2.514, MSE30: 2.332) суттєво вищі, ніж у всіх інших моделей, більшість з яких мають значення MSE нижче 1.0. Це вказує на значно гіршу прогностичну продуктивність порівняно з іншими моделями, наведеними в таблиці."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_007",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Який відсоток від загальної суми MSE3 для всіх моделей припадає на модель GPT-3.5-Turbo? Надайте відповідь у відсотках, заокруглену до одного десяткового знака.",
+    "answer": [
+      [
+        "19.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_008",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Якщо б MSE_over для моделі RiskLabs покращився на 25% (тобто зменшився на 25%), яким би стало його нове значення, і як би воно ранжувалося порівняно з MSE_over моделі HTML?",
+    "answer": [
+      [
+        "Нове значення MSE_over для RiskLabs становитиме 0.243. Це значення є нижчим, а отже, кращим, ніж MSE_over моделі HTML, яке становить 0.401."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_009",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Виходячи з таблиці, який зв'язок між моделлю, позначеною як \"Multi-Task\", та наявністю показника \"VaR\"?",
+    "answer": [
+      [
+        "Існує сильна кореляція. Лише моделі, позначені як \"Multi-Task\" (GPT-3.5-Turbo та RiskLabs), мають зареєстрований числове значення \"VaR\". Однак не всі \"Multi-Task\" моделі мають показник VaR (наприклад, HTML), і жодна модель, що не є \"Multi-Task\", не має його, що свідчить про те, що здатність розраховувати VaR є характеристикою, яка переважно асоціюється з \"Multi-Task\" моделями в цьому наборі даних."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "H1",
+      "G2",
+      "H2",
+      "G3",
+      "H3",
+      "G4",
+      "H4",
+      "G5",
+      "H5",
+      "G6",
+      "H6",
+      "G7",
+      "H7",
+      "G8",
+      "H8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_010",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Який стовпець з показниками ефективності містить нечислові дані-заповнювачі, і для яких конкретних моделей ці дані відсутні?",
+    "answer": [
+      [
+        "Стовпець 'VaR' містить нечислові дані ('/'). Ці дані відсутні для наступних моделей: Classical Method, LSTM, MT-LSTM-ATT, HAN, MRDM та HTML."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_011",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Яка модель демонструє найкращий загальний баланс між точністю прогнозу на різних часових горизонтах (MSE3–MSE30) та оцінкою ризиків (VaR)?",
+    "answer": [
+      [
+        "Модель RiskLabs досягає найкращого загального балансу, зберігаючи найнижчі значення MSE на всіх горизонтах та найнижчий VaR (0.049), що свідчить як про високу точність прогнозування, так і про надійну оцінку ризиків."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "G8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

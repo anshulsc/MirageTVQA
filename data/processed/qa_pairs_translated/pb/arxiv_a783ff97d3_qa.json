@@ -1,0 +1,269 @@
+[
+  {
+    "question_id": "arxiv_a783ff97d3_001",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC2_64' ਫੋਰਕਾਸਟਿੰਗ ਸੈਟਿੰਗ ਲਈ ਕਿਹੜੀ ਫੀਚਰ ਚੋਣ ਵਿਧੀ ਨੇ ਸਭ ਤੋਂ ਘੱਟ ਗਲਤੀ ਮੁੱਲ ਪ੍ਰਾਪਤ ਕੀਤਾ?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_002",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'LASSO regression feature selection' method द्वारा सभी forecasting settings में उपयोग किए जाने वाले exogenous variables की औसत संख्या क्या है?",
+    "answer": [
+      [
+        "6.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_003",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC3_28' ਫੋਰਕਾਸਟਿੰਗ ਸੈਟਿੰਗ ਲਈ, ਸਭ ਤੋਂ ਵੱਧ ਬਾਹਰੀ ਵੇਰੀਏਬਲਾਂ ਦੀ ਵਰਤੋਂ ਕਰਨ ਵਾਲੀ ਵਿਧੀ ਦਾ ਗਲਤੀ ਮੈਟ੍ਰਿਕ ਕੀ ਹੈ?",
+    "answer": [
+      [
+        "18.23"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "G2",
+      "G3",
+      "A4",
+      "G4",
+      "G5",
+      "A6",
+      "G6",
+      "G7",
+      "A8",
+      "G8",
+      "G9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_004",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "ਕੀ ਬਾਹਰੀ ਵੇਰੀਏਬਲਾਂ ਦੀ ਗਿਣਤੀ ਵਧਾਉਣ ਨਾਲ 'BC1_64' ਸੈਟਿੰਗ ਲਈ ਪ੍ਰਦਰਸ਼ਨ (ਭਾਵ, ਗਲਤੀ ਮੁੱਲ ਘੱਟਣਾ) ਵਿੱਚ ਲਗਾਤਾਰ ਸੁਧਾਰ ਹੁੰਦਾ ਹੈ? ਇੱਕ ਸੰਖੇਪ ਵਿਸ਼ਲੇਸ਼ਣ ਪ੍ਰਦਾਨ ਕਰੋ।",
+    "answer": [
+      [
+        "ਨਹੀਂ, ਕੋਈ ਲਗਾਤਾਰ ਸਬੰਧ ਨਹੀਂ ਹੈ। 'BC1_64' ਸੈਟਿੰਗ ਲਈ, 'Correlation-Based Selection' 14.11 ਦੀ ਗਲਤੀ ਲਈ 3 ਵੇਰੀਏਬਲ ਦੀ ਵਰਤੋਂ ਕਰਦਾ ਹੈ, 'LASSO regression' ਵੀ 3 ਵੇਰੀਏਬਲ ਦੀ ਵਰਤੋਂ ਕਰਦਾ ਹੈ ਪਰ 14.55 ਦੀ ਉੱਚ ਗਲਤੀ ਹੈ। 'Forward Feature Selection NP' ਵੇਰੀਏਬਲਾਂ ਦੀ ਬਹੁਤ ਵੱਡੀ ਗਿਣਤੀ (28) ਦੀ ਵਰਤੋਂ ਕਰਦਾ ਹੈ ਅਤੇ 9.16 ਦੀ ਬਹੁਤ ਬਿਹਤਰ (ਘੱਟ) ਗਲਤੀ ਪ੍ਰਾਪਤ ਕਰਦਾ ਹੈ। ਇਹ ਦੱਸਦਾ ਹੈ ਕਿ ਜਦੋਂ ਕਿ ਵੇਰੀਏਬਲਾਂ ਦੀ ਉੱਚ ਗਿਣਤੀ ਬਿਹਤਰ ਹੋ ਸਕਦੀ ਹੈ, ਖਾਸ ਚੋਣ ਵਿਧੀ ਮਹੱਤਵਪੂਰਨ ਹੈ ਅਤੇ ਸਿਰਫ਼ ਵੇਰੀਏਬਲ ਜੋੜਨਾ ਸੁਧਾਰ ਦੀ ਗਾਰੰਟੀ ਨਹੀਂ ਹੈ।"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "B3",
+      "A4",
+      "B4",
+      "B5",
+      "A6",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_005",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC3_64' ਸੈਟਿੰਗ ਲਈ 15 ਤੋਂ ਵੱਧ ਗਲਤੀ ਮੁੱਲ ਵਾਲੀਆਂ ਸਾਰੀਆਂ ਫੀਚਰ ਚੋਣ ਵਿਧੀਆਂ ਦੀ ਸੂਚੀ ਬਣਾਓ।",
+    "answer": [
+      [
+        "Without exogenous variables"
+      ],
+      [
+        "Correlation-Based Selection"
+      ],
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Manual feature selection"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A4",
+      "F4",
+      "A6",
+      "F6",
+      "A8",
+      "F8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_006",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'ਫਾਰਵਰਡ ਫੀਚਰ ਸਿਲੈਕਸ਼ਨ ਐਨਪੀ' ਦੁਆਰਾ ਸਾਰੇ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਵਰਤੇ ਗਏ ਬਾਹਰੀ ਵੇਰੀਏਬਲਾਂ ਦੀ ਕੁੱਲ ਗਿਣਤੀ ਦਾ ਕਿੰਨਾ ਪ੍ਰਤੀਸ਼ਤ 'ਬੀਸੀ1_64' ਸੈਟਿੰਗ ਨੂੰ ਅਲਾਟ ਕੀਤਾ ਗਿਆ ਸੀ?",
+    "answer": [
+      [
+        "28.57"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_007",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "ਜੇਕਰ ਡਾਟਾ ਪ੍ਰੋਸੈਸਿੰਗ ਦੀ ਕੋਈ ਗਲਤੀ BC2_28 ਸੈਟਿੰਗ ਲਈ ਸਾਰੇ ਗਲਤੀ ਮੈਟ੍ਰਿਕਸ ਨੂੰ ਰਿਕਾਰਡ ਕੀਤੇ ਗਏ ਮੁੱਲ ਨਾਲੋਂ 2.5 ਪੁਆਇੰਟ ਘੱਟ ਕਰ ਦਿੰਦੀ ਹੈ, ਤਾਂ 'ਮੈਨੂਅਲ ਫੀਚਰ ਸਿਲੈਕਸ਼ਨ' ਲਈ ਨਵੀਂ ਗਲਤੀ ਕੀ ਹੋਵੇਗੀ?",
+    "answer": [
+      [
+        "13.57"
+      ]
+    ],
+    "evidence_cells": [
+      "E8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_008",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "ਉਹਨਾਂ ਫੀਚਰ ਚੋਣ ਵਿਧੀਆਂ ਵਿੱਚੋਂ ਜਿੱਥੇ ਵੇਰੀਏਬਲਾਂ ਦੀ ਗਿਣਤੀ ਸਪਸ਼ਟ ਤੌਰ 'ਤੇ ਸੂਚੀਬੱਧ ਹੈ, ਕਿਹੜੀ ਵਿਧੀ ਵੱਖ-ਵੱਖ ਫੋਰਕਾਸਟਿੰਗ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਚੁਣੇ ਗਏ ਵੇਰੀਏਬਲਾਂ ਦੀ ਰੇਂਜ (ਵੱਧ ਤੋਂ ਘੱਟ) ਦੁਆਰਾ ਮਾਪੀ ਗਈ ਸਭ ਤੋਂ ਵੱਧ ਅਸਥਿਰਤਾ ਨੂੰ ਦਰਸਾਉਂਦੀ ਹੈ?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "A6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "A8",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9",
+      "G9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_009",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'LASSO ਰਿਗਰੈਸ਼ਨ ਫੀਚਰ ਚੋਣ' ਵਿਧੀ ਲਈ, 'BC3_28' ਦਾ ਗਲਤੀ ਮੁੱਲ ਇੱਕ ਆਊਟਲਾਇਰ ਹੈ। ਇਸ ਵਿਧੀ ਲਈ ਇਸਦੇ ਸੰਬੰਧਿਤ ਬਾਹਰੀ ਵੇਰੀਏਬਲਜ਼ ਦੀ ਸੰਖਿਆ ਹੋਰ ਸੈਟਿੰਗਾਂ ਦੀ ਤੁਲਨਾ ਵਿੱਚ ਕਿਵੇਂ ਹੈ?",
+    "answer": [
+      [
+        "LASSO ਲਈ 28.79 ਦੀ ਆਊਟਲਾਇਰ ਉੱਚ ਗਲਤੀ ਵਾਲਾ 'BC3_28' ਸੈਟਿੰਗ, ਇਸ ਵਿਧੀ ਲਈ ਬਾਹਰੀ ਵੇਰੀਏਬਲਜ਼ (16) ਦੀ ਸਭ ਤੋਂ ਵੱਧ ਸੰਖਿਆ ਦੀ ਵਰਤੋਂ ਵੀ ਕਰਦਾ ਹੈ। ਇਹ ਹੋਰ ਸੈਟਿੰਗਾਂ ਨਾਲੋਂ ਕਾਫ਼ੀ ਜ਼ਿਆਦਾ ਹੈ, ਜੋ 0 ਤੋਂ 10 ਵੇਰੀਏਬਲਜ਼ ਤੱਕ ਹੈ। ਇਹ ਇੱਕ ਸੰਭਾਵੀ ਮੁੱਦੇ ਦਾ ਸੁਝਾਅ ਦਿੰਦਾ ਹੈ ਜਿੱਥੇ LASSO ਵਿਧੀ ਨੇ ਇਸ ਖਾਸ ਪੂਰਵ ਅਨੁਮਾਨ ਦੇ ਸੰਦਰਭ ਲਈ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਦਾ ਇੱਕ ਵੱਡਾ, ਪਰ ਮਾੜਾ ਪ੍ਰਦਰਸ਼ਨ ਕਰਨ ਵਾਲਾ ਸਮੂਹ ਚੁਣਿਆ।"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5",
+      "E4",
+      "E5",
+      "F4",
+      "F5",
+      "G4",
+      "G5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_010",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'ਬਿਨਾਂ ਬਾਹਰੀ ਵੇਰੀਏਬਲਾਂ' ਦੇ ਬੇਸਲਾਈਨ ਦੀ ਕਾਰਗੁਜ਼ਾਰੀ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰਦੇ ਹੋਏ, ਜਿਵੇਂ ਕਿ 'BC1' ਸੈਟਿੰਗਜ਼ ਤੋਂ 'BC2' ਅਤੇ ਫਿਰ 'BC3' ਤੱਕ ਲੜੀਵਾਰ ਚੱਲਦੇ ਹੋ, ਤਰੁੱਟੀ ਮੈਟ੍ਰਿਕ ਵਿੱਚ ਰੁਝਾਨ ਦਾ ਵਰਣਨ ਕਰੋ।",
+    "answer": [
+      [
+        "'ਬਿਨਾਂ ਬਾਹਰੀ ਵੇਰੀਏਬਲਾਂ' ਦੇ ਬੇਸਲਾਈਨ ਦੀ ਕਾਰਗੁਜ਼ਾਰੀ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਇੱਕ ਸਪੱਸ਼ਟ ਪੈਟਰਨ ਦਿਖਾਉਂਦੀ ਹੈ। ਇਹ BC1 ਸੈਟਿੰਗਾਂ (11.14, 13.65) ਲਈ ਦਰਮਿਆਨੇ ਤਰੁੱਟੀ ਮੁੱਲਾਂ ਨਾਲ ਸ਼ੁਰੂ ਹੁੰਦੀ ਹੈ। BC2 ਸੈਟਿੰਗਾਂ ਲਈ ਕਾਰਗੁਜ਼ਾਰੀ ਵਿੱਚ ਨਾਟਕੀ ਢੰਗ ਨਾਲ ਸੁਧਾਰ ਹੁੰਦਾ ਹੈ, ਜਿਨ੍ਹਾਂ ਵਿੱਚ ਸਭ ਤੋਂ ਘੱਟ ਤਰੁੱਟੀਆਂ (3.75, 9.08) ਹੁੰਦੀਆਂ ਹਨ। ਅੰਤ ਵਿੱਚ, BC3 ਸੈਟਿੰਗਾਂ (17.53, 9.06) ਲਈ ਤਰੁੱਟੀ ਦੁਬਾਰਾ ਵਧ ਜਾਂਦੀ ਹੈ, ਜਿਸ ਵਿੱਚ BC3_64 ਇਸ ਵਿਧੀ ਲਈ ਸਮੁੱਚੇ ਤੌਰ 'ਤੇ ਸਭ ਤੋਂ ਵੱਧ ਤਰੁੱਟੀ ਹੁੰਦੀ ਹੈ। ਇਹ ਦਰਸਾਉਂਦਾ ਹੈ ਕਿ ਬੇਸਲਾਈਨ ਮਾਡਲ BC2 ਦੀਆਂ ਸਥਿਤੀਆਂ ਲਈ ਸਭ ਤੋਂ ਢੁਕਵਾਂ ਹੈ।"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_011",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'LASSO regression feature selection' ਅਤੇ 'Forward Feature Selection NP' ਵਿੱਚੋਂ, BC2_64 ਕੌਂਫਿਗਰੇਸ਼ਨ ਵਿੱਚ ਕਿਹੜੀ ਫੋਰਕਾਸਟਿੰਗ ਸੈਟਿੰਗ ਨੇ ਘੱਟ ਮੁੱਲ ਪ੍ਰਾਪਤ ਕੀਤਾ?",
+    "answer": [
+      [
+        "'Forward Feature Selection NP' ਨੇ 'LASSO regression feature selection' (5.73) ਦੇ ਮੁਕਾਬਲੇ BC2_64 ਕੌਂਫਿਗਰੇਸ਼ਨ ਵਿੱਚ ਘੱਟ ਮੁੱਲ (2.9) ਪ੍ਰਾਪਤ ਕੀਤਾ।"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "D5",
+      "D7"
+    ],
+    "reasoning_category": "Comaparative Reasoning"
+  }
+]

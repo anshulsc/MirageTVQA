@@ -1,0 +1,254 @@
+[
+  {
+    "question_id": "arxiv_e9fe1a9aed_001",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "کدام روش پیش‌بینی کمترین نرخ خطا را برای سناریوهای BC2 (هم BC2_64 و هم BC2_28) داشت؟",
+    "answer": [
+      [
+        "Forward Feature Selection SARIMAX"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D9",
+      "E2",
+      "E3",
+      "E5",
+      "E7",
+      "E9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_002",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "میانگین نرخ خطا برای روش «انتخاب ویژگی رگرسیون LASSO» در تمام شش سناریوی BC چقدر است؟",
+    "answer": [
+      [
+        "12.96"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_003",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "روش انتخاب ویژگی را که بیشترین تعداد متغیرهای برون‌زا را برای هر سناریوی تکی استفاده کرده است، شناسایی کنید. سپس، برای آن روش خاص، نرخ خطای آن را در سناریوی BC3_64 گزارش دهید.",
+    "answer": [
+      [
+        "6.35"
+      ]
+    ],
+    "evidence_cells": [
+      "F8",
+      "F7",
+      "A7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_004",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "برای کدام سناریوی BC، شکاف عملکردی، که به عنوان تفاوت بین بالاترین و پایین‌ترین نرخ خطا در میان تمام تنظیمات پیش‌بینی تعریف می‌شود، بیشترین است؟",
+    "answer": [
+      [
+        "BC3_28"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "B2",
+      "B3",
+      "B5",
+      "B7",
+      "B9",
+      "C2",
+      "C3",
+      "C5",
+      "C7",
+      "C9",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D9",
+      "E2",
+      "E3",
+      "E5",
+      "E7",
+      "E9",
+      "F2",
+      "F3",
+      "F5",
+      "F7",
+      "F9",
+      "G2",
+      "G3",
+      "G5",
+      "G7",
+      "G9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_005",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "تمام تنظیمات پیش‌بینی را برای سناریوی BC1_28 که بیش از ۵ متغیر برون‌زا استفاده کردند و نرخ خطای کمتر از ۱۶.۰ داشتند، فهرست کنید.",
+    "answer": [
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Forward Feature Selection SARIMAX"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "C6",
+      "A7",
+      "C7",
+      "C8",
+      "A9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_006",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "در سناریوی BC2_28، خطای روش «Forward Feature Selection SARIMAX» چند درصد کمتر از خطای روش پایه «Without exogenous variables» است؟",
+    "answer": [
+      [
+        "84.38%"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_007",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "اگر خطای «Correlation-Based Selection» تحت BC1_28 به میزان 75% کاهش می‌یافت، خطای متوسط جدید برای سناریوی BC1_28 در بین هر پنج تنظیمات پیش‌بینی چقدر خواهد بود؟",
+    "answer": [
+      [
+        "12.18"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C5",
+      "C7",
+      "C9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_008",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "open_ended_reasoning",
+    "question": "آیا رابطه ثابتی بین استفاده از تعداد بیشتر متغیرهای برون‌زا و دستیابی به نرخ خطای کمتر در روش‌های مختلف انتخاب ویژگی وجود دارد؟",
+    "answer": [
+      [
+        "خیر، رابطه ثابتی وجود ندارد. به عنوان مثال، در سناریوی BC1_64، 'Forward Feature Selection SARIMAX' تنها از 1 متغیر استفاده می‌کند و به کمترین خطا (5.64) دست می‌یابد، در حالی که 'Manual feature selection' از 18 متغیر استفاده می‌کند و خطای بسیار بالاتری (13.99) دارد. برعکس، در سناریوی BC1_28، خطای 'Forward Feature Selection SARIMAX' (5.94 با 15 متغیر) کمتر از 'LASSO' (15.38 با 10 متغیر) است، که نشان می‌دهد در برخی موارد، متغیرهای بیشتر می‌توانند بهتر باشند. این نشان می‌دهد که اثربخشی روش انتخاب از صرفاً تعداد متغیرها حیاتی‌تر است."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_009",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "کدام مقدار خطا برای روش «Correlation-Based Selection» در مقایسه با عملکرد آن در سناریوهای دیگر، یک داده پرت قابل توجه است؟",
+    "answer": [
+      [
+        "26.47"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_010",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "چند متدولوژی متمایز برای انتخاب ویژگی که از متغیرهای برون‌زا استفاده می‌کنند، در این جدول مقایسه شده‌اند؟",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "A5",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_011",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "کدام روش پیش‌بینی کمترین خطا را برای BC2_28 به دست آورد؟",
+    "answer": [
+      [
+        "Forward Feature Selection SARIMAX"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "E7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

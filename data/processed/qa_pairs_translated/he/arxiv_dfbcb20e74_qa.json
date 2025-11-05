@@ -1,0 +1,167 @@
+[
+  {
+    "question_id": "arxiv_dfbcb20e74_001",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "באיזה מודל הפורמולה הראשית כוללת במפורש רכיב של ריבית חסרת סיכון?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_002",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "מהו המספר הכולל של משתני 'X' ייחודיים המשמשים כקלט בנוסחה של מודל ציון Z?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_003",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "זהה את המודל המשתמש ב'סך הנכסים' כמכנה בלפחות שלושה מהפרמטרים המוסברים שלו, ולאחר מכן ציין איזה פרמטר ממודל זה מייצג את היחס בין 'שווי שוק של הון עצמי' ל'סך התחייבויות'.",
+    "answer": [
+      [
+        "Z-score Model"
+      ],
+      [
+        "X4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_004",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "איזה מודל משלב פרמטרים המוגדרים במפורש כנמדדים 'בזמן t'?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_005",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "אם המטרה האנליטית היא לקבוע את ההסתברות של תוצאה בינארית (y=1), איזה מודל המפורט בטבלה הוא הבחירה המתאימה ביותר?",
+    "answer": [
+      [
+        "Logistic Regression"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_006",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "במודל ציון Z, מהו המשקל (המקדם) של המשתנה המייצג את 'הרווחים לפני ריבית ומסים/יחס הנכסים הכולל', וכיצד משקל זה משתווה למשתנים האחרים?",
+    "answer": [
+      [
+        "המקדם עבור X3 (רווחים לפני ריבית ומסים/יחס נכסים כולל) הוא 3.3. זהו המשקל הגבוה ביותר מבין כל חמשת המשתנים, מה שמרמז שיש לו את ההשפעה המשמעותית ביותר על ציון ה-Z הסופי בהשוואה למשתנים כמו X1 (1.2), X2 (1.4), X4 (0.6), ו-X5 (0.99)."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_007",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "אם גרסה מעודכנת של מודל ציון Z הפחיתה את ההשפעה של 'יחס הון חוזר/סך הנכסים' ב-50%, מה יהיה המקדם החדש עבור X1?",
+    "answer": [
+      [
+        "0.6"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_008",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "בהתבסס על הנוסחה של מודל ציון Z, מהי ההשערה לגבי הקשר בין יחס מכירות כולל לנכסים כוללים של חברה לבין ציון ה-Z שלה?",
+    "answer": [
+      [
+        "קיים קשר חיובי בין יחס המכירות הכולל לנכסים הכוללים (X5) לבין ציון ה-Z. הנוסחה מראה שציון ה-Z הוא סכום משוקלל של חמישה יחסים, והמקדם עבור X5 חיובי (0.99). לכן, תוך שמירה על כל שאר הגורמים קבועים, עלייה ביחס המכירות הכולל לנכסים הכוללים תביא לציון Z גבוה יותר."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_009",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "איזה מודל כולל את התיאור של מספר הפרמטרים הגדול ביותר המוסברים בעמודה השלישית?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_010",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "בעת בחינת המקדמים המספריים בנוסחת מודל ציון ה-Z, איזה מקדם בולט כחריג בהשוואה לאחרים?",
+    "answer": [
+      [
+        "המקדם 3.3 עבור המשתנה X3 הוא חריג משמעותי. שאר המקדמים בנוסחה הם 1.2, 1.4, 0.6 ו-0.99, אשר כולם מקובצים בטווח שבין 0.6 ל-1.4. הערך 3.3 גדול פי שניים מהערך של המקדם הגבוה הבא (1.4), מה שהופך אותו לגדול באופן משמעותי משאר המקדמים."
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

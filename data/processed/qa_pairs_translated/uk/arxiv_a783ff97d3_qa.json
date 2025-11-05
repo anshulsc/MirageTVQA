@@ -1,0 +1,269 @@
+[
+  {
+    "question_id": "arxiv_a783ff97d3_001",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Який метод відбору ознак досяг найнижчого значення помилки для налаштування прогнозування 'BC2_64'?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_002",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Яка середня кількість зовнішніх змінних, що використовується методом 'LASSO regression feature selection' для всіх налаштувань прогнозування?",
+    "answer": [
+      [
+        "6.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_003",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Для налаштування прогнозування 'BC3_28', яке показник помилки методу, що використовує найбільшу кількість зовнішніх змінних?",
+    "answer": [
+      [
+        "18.23"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "G2",
+      "G3",
+      "A4",
+      "G4",
+      "G5",
+      "A6",
+      "G6",
+      "G7",
+      "A8",
+      "G8",
+      "G9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_004",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Чи послідовно покращує продуктивність (тобто знижує значення помилки) збільшення кількості зовнішніх змінних для налаштування 'BC1_64'? Надайте короткий аналіз.",
+    "answer": [
+      [
+        "Ні, послідовного зв'язку немає. Для налаштування 'BC1_64' метод 'Correlation-Based Selection' використовує 3 змінні з помилкою 14.11, 'LASSO regression' також використовує 3 змінні, але має вищу помилку 14.55. Метод 'Forward Feature Selection NP' використовує значно більшу кількість змінних (28) і досягає суттєво кращої (нижчої) помилки 9.16. Це свідчить про те, що хоча більша кількість змінних може бути кращою, конкретний метод вибору є критично важливим, і просте додавання змінних не гарантує покращення."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "B3",
+      "A4",
+      "B4",
+      "B5",
+      "A6",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_005",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Перелічіть усі методи відбору ознак, які призвели до значення помилки, що перевищує 15, для налаштування 'BC3_64'.",
+    "answer": [
+      [
+        "Without exogenous variables"
+      ],
+      [
+        "Correlation-Based Selection"
+      ],
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Manual feature selection"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A4",
+      "F4",
+      "A6",
+      "F6",
+      "A8",
+      "F8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_006",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Який відсоток від загальної кількості зовнішніх змінних, використаних 'Forward Feature Selection NP' у всіх налаштуваннях, було виділено для налаштування 'BC1_64'?",
+    "answer": [
+      [
+        "28.57"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_007",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Якби помилка обробки даних призвела до того, що всі показники помилок для налаштування 'BC2_28' були на 2,5 пункти нижчими, ніж записано, яким би новим показником помилки було 'Ручний відбір ознак'?",
+    "answer": [
+      [
+        "13.57"
+      ]
+    ],
+    "evidence_cells": [
+      "E8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_008",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Серед методів відбору ознак, де явно вказано кількість змінних, який метод демонструє найбільшу нестабільність, виміряну як діапазон (максимум мінус мінімум) обраних змінних у різних налаштуваннях прогнозування?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "A6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "A8",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9",
+      "G9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_009",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Для методу 'LASSO regression feature selection' значення помилки для 'BC3_28' є викидом. Як його відповідна кількість екзогенних змінних порівнюється з іншими налаштуваннями для того ж методу?",
+    "answer": [
+      [
+        "Налаштування 'BC3_28', яке має аномально високу помилку 28.79 для LASSO, також використовує найбільшу кількість екзогенних змінних (16) для цього методу. Це значно більше, ніж інші налаштування, які варіюються від 0 до 10 змінних. Це свідчить про потенційну проблему, коли метод LASSO вибрав великий, але погано працюючий набір ознак для цього конкретного контексту прогнозування."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5",
+      "E4",
+      "E5",
+      "F4",
+      "F5",
+      "G4",
+      "G5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_010",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Аналізуючи ефективність базової моделі «Без зовнішніх змінних», опишіть тенденцію показника помилки при послідовному переході від налаштувань «BC1» до «BC2», а потім до «BC3».",
+    "answer": [
+      [
+        "Ефективність базової моделі «Без зовнішніх змінних» демонструє чітку закономірність у різних налаштуваннях. Вона починається з помірних значень помилки для налаштувань BC1 (11.14, 13.65). Ефективність різко покращується для налаштувань BC2, які мають найнижчі помилки (3.75, 9.08). Нарешті, помилка знову зростає для налаштувань BC3 (17.53, 9.06), причому BC3_64 має найвищу загальну помилку для цього методу. Це свідчить про те, що базова модель найкраще підходить для умов BC2."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_011",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Між 'LASSO regression feature selection' та 'Forward Feature Selection NP', яка настройка прогнозування досягла нижчого значення в конфігурації BC2_64?",
+    "answer": [
+      [
+        "'Forward Feature Selection NP' досягла нижчого значення (2.9) порівняно з 'LASSO regression feature selection' (5.73) в конфігурації BC2_64."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "D5",
+      "D7"
+    ],
+    "reasoning_category": "Comaparative Reasoning"
+  }
+]

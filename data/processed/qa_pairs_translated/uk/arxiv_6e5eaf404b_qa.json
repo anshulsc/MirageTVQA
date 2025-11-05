@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "arxiv_6e5eaf404b_001",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "Яка робота, MASA чи TrendTrader, продемонструвала ефективність на ширшому та різноманітнішому наборі міжнародних фондових індексів?",
+    "answer": [
+      [
+        "MASA Li et al. (2024e) показала ефективність на ширшому діапазоні, оскільки її результати охоплюють три основні індекси (CSI300, DJIA, S&P500) як з Китаю, так і з США. Результати TrendTrader вказані для двох індексів (DJIA, SSE-50)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_002",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "Скільки із зазначених дослідницьких робіт явно вказують на досягнення вищої ефективності на китайських фондових ринкових індексах (CSI300 або SSE-50)?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_003",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "Яке ключове нововведення в рамках, що використовує \"просторовий часовий RL фреймворк\" як свою методологію?",
+    "answer": [
+      [
+        "Multimodal fusion of price and sentiment"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_004",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "Яке дослідження повідомляє про результат ефективності, який є надзвичайно позитивним викидом, показуючи прибутковість більш ніж на 60 процентних пунктів вищу за ринковий бенчмарк?",
+    "answer": [
+      [
+        "LLM-Alpha Kou et al. (2024)"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "D7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_005",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "Перерахуйте роботи, які, виходячи з їхньої ключової інновації, зосереджені на диверсифікації портфеля або виборі активів, а не на прогнозуванні рухів цін.",
+    "answer": [
+      [
+        "EarnMore Zhang et al. (2024d)",
+        "Network-EDM Hui and Wang (2024)",
+        "Market-Graph Yamagata and Ono (2024)"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_006",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "Який відсоток перелічених дослідницьких робіт явно включає нецінові дані, такі як настрої чи теорія мереж, у свої ключові інновації?",
+    "answer": [
+      [
+        "28.57%"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_007",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "Якби прибуток фреймворку 'EarnMore' зменшився на 15 відсоткових пунктів (з +40% до +25%), яким був би його новий основний результат, і як це могло б вплинути на його твердження про 'Порівнянні рівні ризику', коли його прибуток значно нижчий?",
+    "answer": [
+      [
+        "Новим основним результатом було б 'Прибуток: +25%, Порівнянні рівні ризику'. Нижчий прибуток у +25% при збереженні того ж рівня ризику робить стратегію менш привабливою. Скоригований на ризик дохід був би нижчим, потенційно роблячи його рівень ризику менш 'порівнянним' або прийнятним відносно зменшеного доходу."
+      ]
+    ],
+    "evidence_cells": [
+      "D3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_008",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "Виходячи з таблиці, який виявлено зв'язок між використанням багатоагентних систем та характером представлених основних результатів?",
+    "answer": [
+      [
+        "Здається, існує позитивна кореляція між використанням багатоагентних систем та досягненням вищих, кількісно вимірних прибутків. Дві роботи, що використовують цей підхід, MASA та LLM-Alpha, повідомляють відповідно про «Вищі прибутки з урахуванням ризику» та конкретний високий прибуток «+53,17%». Це свідчить про те, що багатоагентні системи ефективні для генерації сильних, вимірних фінансових показників."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_009",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "Яким є основний результат роботи, що впровадила інновації через підхід кластеризації на основі ринкового графа?",
+    "answer": [
+      [
+        "Higher Sharpe ratios on S&P500"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_010",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "Який стовпець, 'Ключова інновація' чи 'Методологія', надає більш конкретні, технічні деталі реалізації щодо того, як було проведено дослідження?",
+    "answer": [
+      [
+        "Стовпець 'Методологія' надає більш конкретні, технічні деталі. Наприклад, тоді як 'Ключова інновація' може містити загальну концепцію, таку як 'Аналіз у частотній області' (FreQuant) або 'Видобування факторів альфа на основі LLM' (LLM-Alpha), стовпець 'Методологія' уточнює конкретні використані техніки, такі як 'Багатогранулярне представлення активів за допомогою DFT' та 'Багатоагентна система з динамічним відхиленням ваги' відповідно."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_011",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "Яка ключова інновація у MASA Li et al. (2024e)?",
+    "answer": [
+      [
+        "Багатоагентна система зі спеціалізованими агентами ризику та прибутковості."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Content Reasoning"
+  }
+]

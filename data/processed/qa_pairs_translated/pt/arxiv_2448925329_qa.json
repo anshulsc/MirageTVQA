@@ -1,0 +1,254 @@
+[
+  {
+    "question_id": "arxiv_2448925329_001",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Qual conjunto de dados mostra o ajuste de modelo mais forte, conforme indicado pelo valor R-quadrado?",
+    "answer": [
+      [
+        "BTC/USD ΔM vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_002",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Qual é o valor médio de Curtose para todos os conjuntos de dados envolvendo BTC/USD?",
+    "answer": [
+      [
+        "7.7025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_2448925329_003",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Para o modelo com o menor valor positivo de R-quadrado, qual é a sua estatística Durbin-Watson correspondente?",
+    "answer": [
+      [
+        "0.337"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "I2",
+      "B1",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_004",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Como o poder explicativo do modelo, medido pelo R-quadrado, muda para o conjunto de dados LUNA/USD quando o intervalo de tempo é aumentado de 1s para 10s?",
+    "answer": [
+      [
+        "O poder explicativo do modelo LUNA/USD, indicado pelo valor de R-quadrado, aumenta significativamente de 0,036 para o intervalo de 1 segundo para 0,274 para o intervalo de 10 segundos. Isso representa um aumento de mais de sete vezes, sugerindo que o modelo é substancialmente mais eficaz na explicação das mudanças de preço em um período de tempo mais longo."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_005",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Listar todos os conjuntos de dados onde os resíduos do modelo são negativamente assimétricos (Skew < 0) e a estatística Durbin-Watson é maior que 2, sugerindo autocorrelação negativa.",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 1s",
+        "BTC/USD ΔM vs ΔP 1s"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "I1",
+      "A3",
+      "G3",
+      "I3",
+      "G2",
+      "I2",
+      "G4",
+      "I4",
+      "G5",
+      "I5",
+      "G6",
+      "I6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_006",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Que proporção da soma total de todas as estatísticas F é representada pelos modelos com um intervalo de 10s?",
+    "answer": [
+      [
+        "93.68%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A6",
+      "C6",
+      "C1",
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_2448925329_007",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Se a Curtose para o modelo 'BTC/USD OFI vs ΔP 10s' fosse ajustada para a Curtose média de todos os outros modelos, qual seria o seu novo valor?",
+    "answer": [
+      [
+        "5.700"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_008",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Existe uma relação consistente entre o F-statistic de um modelo e o seu Jarque-Bera (JB) statistic? Analise o padrão.",
+    "answer": [
+      [
+        "Não há uma relação consistente e clara entre o F-statistic e o Jarque-Bera (JB) statistic. Por exemplo, o modelo com o maior F-statistic (15890.0) tem um JB statistic de 6560.394, enquanto o modelo com o segundo menor F-statistic (137.0) tem um JB muito menor de 816.435. No entanto, o modelo com o menor F-statistic (70.87) tem o maior JB statistic (10204.282). Isso indica que a significância geral do modelo (F-statistic) e a normalidade dos seus resíduos (JB statistic) não estão diretamente correlacionadas neste conjunto de dados."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "J1",
+      "C2",
+      "J2",
+      "C3",
+      "J3",
+      "C4",
+      "J4",
+      "C5",
+      "J5",
+      "C6",
+      "J6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_2448925329_009",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Qual coluna, excluindo o identificador 'Dataset', contém a maior amplitude de valores ao considerar a ordem de magnitude (do menor para o maior)?",
+    "answer": [
+      [
+        "A coluna 'Prob(JB)' mostra a maior amplitude de valores por ordem de magnitude. Ela contém valores tão pequenos quanto 0.0 (efetivamente infinitesimais) e valores tão grandes quanto 4.26e-263, 1.93e-57, 5.17e-178 e 9.05e-92, abrangendo muitas centenas de ordens de magnitude, muito maior do que qualquer outra coluna numérica."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B6",
+      "C1",
+      "C6",
+      "D1",
+      "D6",
+      "E1",
+      "E6",
+      "F1",
+      "F6",
+      "G1",
+      "G6",
+      "H1",
+      "H6",
+      "I1",
+      "I6",
+      "J1",
+      "J6",
+      "K1",
+      "K6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_010",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Qual conjunto de dados possui uma estatística Jarque-Bera (JB) que é um valor discrepante, sendo mais de 5 vezes maior que o próximo valor JB mais alto?",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "J1",
+      "J2",
+      "J3",
+      "J4",
+      "J5",
+      "J6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_2448925329_011",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Entre BTC/USD ΔM vs ΔP 1s e LUNA/USD ΔM vs ΔP 1s, qual conjunto de dados apresenta um maior poder preditivo com base no R² e no F-estatístico?",
+    "answer": [
+      [
+        "BTC/USD ΔM vs ΔP 1s demonstrou o maior poder preditivo com base no R² e no F-estatístico, com R² = 0.168 e F-estatístico = 723.6."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

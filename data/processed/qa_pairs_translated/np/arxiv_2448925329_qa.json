@@ -1,0 +1,254 @@
+[
+  {
+    "question_id": "arxiv_2448925329_001",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "R-squared मानले संकेत गरे अनुसार कुन डेटासेटले सबैभन्दा बलियो मोडेल फिट देखाउँछ?",
+    "answer": [
+      [
+        "BTC/USD ΔM vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_002",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "BTC/USD समावेश भएका सबै डेटासेटहरूको औसत कर्टोसिस मान कति हो?",
+    "answer": [
+      [
+        "7.7025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_2448925329_003",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "सबैभन्दा कम धनात्मक R-squared मान भएको मोडेलको लागि, त्यसको सम्बन्धित डर्बिन-वाटसन तथ्यांक के हो?",
+    "answer": [
+      [
+        "0.337"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "I2",
+      "B1",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_004",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "समय अन्तराल १ सेकेन्डबाट १० सेकेन्डमा बढाइँदा LUNA/USD डेटासेटको लागि R-squared द्वारा मापन गरिएअनुसार मोडेलको व्याख्यात्मक शक्ति कसरी परिवर्तन हुन्छ?",
+    "answer": [
+      [
+        "R-squared मानले संकेत गरेअनुसार LUNA/USD मोडेलको व्याख्यात्मक शक्ति १-सेकेन्डको अन्तरालको लागि ०.०३६ बाट १०-सेकेन्डको अन्तरालको लागि ०.२७४ मा उल्लेखनीय रूपमा बढ्छ। यो सात गुणा भन्दा बढी वृद्धि हो, जसले गर्दा मोडेल लामो समयसीमामा मूल्य परिवर्तनहरू व्याख्या गर्नका लागि पर्याप्त रूपमा बढी प्रभावकारी रहेको सुझाव दिन्छ।"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_005",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "सबै डेटासेटहरू सूचीबद्ध गर्नुहोस् जहाँ मोडेलका अवशेषहरू नकारात्मक रूपमा स्क्युड छन् (स्क्यु < ०) र डर्बिन-वाटसन तथ्यांक २ भन्दा बढी छ, जसले नकारात्मक अटोकोरिलेसनलाई संकेत गर्दछ।",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 1s",
+        "BTC/USD ΔM vs ΔP 1s"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "I1",
+      "A3",
+      "G3",
+      "I3",
+      "G2",
+      "I2",
+      "G4",
+      "I4",
+      "G5",
+      "I5",
+      "G6",
+      "I6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_006",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "सबै F-स्ट्याटिस्टिक्सको कुल योगमा, १० सेकेन्डको अन्तराल भएका मोडेलहरूको अनुपात कति छ?",
+    "answer": [
+      [
+        "93.68%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A6",
+      "C6",
+      "C1",
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_2448925329_007",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "यदि 'BTC/USD OFI vs ΔP 10s' मोडेलको कुर्टोसिसलाई अन्य सबै मोडेलहरूको औसत कुर्टोसिसमा समायोजन गरिएको भए, यसको नयाँ मान कति हुने थियो?",
+    "answer": [
+      [
+        "5.700"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_008",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "के एउटा मोडेलको F-statistic र यसको Jarque-Bera (JB) statistic बीच सुसंगत सम्बन्ध छ? ढाँचाको विश्लेषण गर्नुहोस्।",
+    "answer": [
+      [
+        "F-statistic र Jarque-Bera (JB) statistic बीच कुनै सुसंगत, स्पष्ट सम्बन्ध छैन। उदाहरणका लागि, सबैभन्दा उच्च F-statistic (15890.0) भएको मोडेलको JB statistic 6560.394 छ, जबकि दोस्रो-निम्न F-statistic (137.0) भएको मोडेलको JB 816.435 भन्दा धेरै कम छ। यद्यपि, सबैभन्दा कम F-statistic (70.87) भएको मोडेलको JB statistic सबैभन्दा उच्च (10204.282) छ। यसले देखाउँछ कि मोडेलको समग्र महत्व (F-statistic) र यसको अवशेषहरूको सामान्यता (JB statistic) यस डेटासेटमा प्रत्यक्ष रूपमा सम्बन्धित छैनन्।"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "J1",
+      "C2",
+      "J2",
+      "C3",
+      "J3",
+      "C4",
+      "J4",
+      "C5",
+      "J5",
+      "C6",
+      "J6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_2448925329_009",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "'Dataset' पहिचानकर्ता बाहेक, मानहरूको फराकिलो दायरा (सबैभन्दा सानो देखि सबैभन्दा ठूलो क्रममा) कुन स्तम्भमा समावेश छ?",
+    "answer": [
+      [
+        "'Prob(JB)' स्तम्भले मानहरूको फराकिलो दायरा क्रमको आधारमा देखाउँछ। यसमा 0.0 (प्रभावकारी रूपमा अनन्त सानो) जस्ता साना मानहरू र 4.26e-263, 1.93e-57, 5.17e-178, र 9.05e-92 जस्ता ठूला मानहरू छन्, जसले धेरै सयौं म्याग्निच्युडको क्रमलाई समेट्छ, जुन अन्य कुनै पनि संख्यात्मक स्तम्भभन्दा धेरै ठूलो हो।"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B6",
+      "C1",
+      "C6",
+      "D1",
+      "D6",
+      "E1",
+      "E6",
+      "F1",
+      "F6",
+      "G1",
+      "G6",
+      "H1",
+      "H6",
+      "I1",
+      "I6",
+      "J1",
+      "J6",
+      "K1",
+      "K6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_010",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "कुन डेटासेटमा Jarque-Bera (JB) तथ्याङ्क एक आउटलियर हो, जुन अर्को सबैभन्दा उच्च JB मानभन्दा ५ गुणा बढी छ?",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "J1",
+      "J2",
+      "J3",
+      "J4",
+      "J5",
+      "J6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_2448925329_011",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "BTC/USD ΔM vs ΔP 1s र LUNA/USD ΔM vs ΔP 1s मध्ये, R² र F-statistic को आधारमा कुन डेटासेटले उच्च पूर्वानुमान शक्ति देखाउँछ?",
+    "answer": [
+      [
+        "BTC/USD ΔM vs ΔP 1s ले R² र F-statistic को आधारमा उच्चतम पूर्वानुमान शक्ति प्रदर्शन गर्‍यो, जसमा R² = 0.168 र F-statistic = 723.6 रहेको छ।"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

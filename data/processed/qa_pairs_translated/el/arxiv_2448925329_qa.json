@@ -1,0 +1,254 @@
+[
+  {
+    "question_id": "arxiv_2448925329_001",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Ποιο σύνολο δεδομένων παρουσιάζει την ισχυρότερη προσαρμογή μοντέλου, όπως υποδεικνύεται από την τιμή R-τετράγωνο;",
+    "answer": [
+      [
+        "BTC/USD ΔM vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_002",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Ποια είναι η μέση τιμή Kurtosis για όλα τα σύνολα δεδομένων που περιλαμβάνουν BTC/USD;",
+    "answer": [
+      [
+        "7.7025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_2448925329_003",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Για το μοντέλο με τη χαμηλότερη θετική τιμή R-τετράγωνο, ποια είναι η αντίστοιχη στατιστική Durbin-Watson;",
+    "answer": [
+      [
+        "0.337"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "I2",
+      "B1",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_004",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Πώς αλλάζει η επεξηγηματική δύναμη του μοντέλου, όπως μετράται από το R-τετράγωνο, για το σύνολο δεδομένων LUNA/USD όταν το χρονικό διάστημα αυξάνεται από 1 δευτερόλεπτο σε 10 δευτερόλεπτα;",
+    "answer": [
+      [
+        "Η επεξηγηματική δύναμη του μοντέλου LUNA/USD, όπως υποδεικνύεται από την τιμή R-τετράγωνο, αυξάνεται σημαντικά από 0,036 για το διάστημα 1 δευτερολέπτου σε 0,274 για το διάστημα 10 δευτερολέπτων. Αυτό αντιπροσωπεύει αύξηση άνω των επτά φορών, υποδηλώνοντας ότι το μοντέλο είναι ουσιαστικά πιο αποτελεσματικό στην εξήγηση των μεταβολών των τιμών στο μεγαλύτερο χρονικό πλαίσιο."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_005",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Λίστα όλων των συνόλων δεδομένων όπου τα κατάλοιπα του μοντέλου έχουν αρνητική ασυμμετρία (Skew < 0) και η στατιστική Durbin-Watson είναι μεγαλύτερη από 2, υποδηλώνοντας αρνητική αυτοσυσχέτιση.",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 1s",
+        "BTC/USD ΔM vs ΔP 1s"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "I1",
+      "A3",
+      "G3",
+      "I3",
+      "G2",
+      "I2",
+      "G4",
+      "I4",
+      "G5",
+      "I5",
+      "G6",
+      "I6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_006",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Τι αναλογία του συνολικού αθροίσματος όλων των F-στατιστικών αντιπροσωπεύουν τα μοντέλα με διάστημα 10 δευτερολέπτων;",
+    "answer": [
+      [
+        "93.68%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A6",
+      "C6",
+      "C1",
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_2448925329_007",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Αν η Κύρτωση (Kurtosis) για το μοντέλο 'BTC/USD OFI vs ΔP 10s' προσαρμοζόταν στη μέση Κύρτωση όλων των άλλων μοντέλων, ποια θα ήταν η νέα της τιμή;",
+    "answer": [
+      [
+        "5.700"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_008",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Υπάρχει μια σταθερή σχέση μεταξύ του F-statistic ενός μοντέλου και του στατιστικού Jarque-Bera (JB) του; Αναλύστε το μοτίβο.",
+    "answer": [
+      [
+        "Δεν υπάρχει μια σταθερή, ξεκάθαρη σχέση μεταξύ του F-statistic και του στατιστικού Jarque-Bera (JB). Για παράδειγμα, το μοντέλο με το υψηλότερο F-statistic (15890.0) έχει ένα JB statistic 6560.394, ενώ το μοντέλο με το δεύτερο χαμηλότερο F-statistic (137.0) έχει ένα πολύ μικρότερο JB 816.435. Ωστόσο, το μοντέλο με το χαμηλότερο F-statistic (70.87) έχει το υψηλότερο JB statistic (10204.282). Αυτό υποδεικνύει ότι η συνολική σημαντικότητα του μοντέλου (F-statistic) και η κανονικότητα των καταλοίπων του (JB statistic) δεν συσχετίζονται άμεσα σε αυτό το σύνολο δεδομένων."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "J1",
+      "C2",
+      "J2",
+      "C3",
+      "J3",
+      "C4",
+      "J4",
+      "C5",
+      "J5",
+      "C6",
+      "J6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_2448925329_009",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Ποια στήλη, εξαιρουμένου του αναγνωριστικού 'Dataset', περιέχει το ευρύτερο εύρος τιμών, λαμβάνοντας υπόψη τη σειρά μεγέθους (από τη μικρότερη στη μεγαλύτερη);",
+    "answer": [
+      [
+        "Η στήλη 'Prob(JB)' παρουσιάζει το ευρύτερο εύρος τιμών κατά τάξη μεγέθους. Περιέχει τιμές τόσο μικρές όσο 0,0 (ουσιαστικά απειροελάχιστες) όσο και τιμές τόσο μεγάλες όσο 4,26e-263, 1,93e-57, 5,17e-178 και 9,05e-92, καλύπτοντας πολλές εκατοντάδες τάξεις μεγέθους, πολύ μεγαλύτερες από οποιαδήποτε άλλη αριθμητική στήλη."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B6",
+      "C1",
+      "C6",
+      "D1",
+      "D6",
+      "E1",
+      "E6",
+      "F1",
+      "F6",
+      "G1",
+      "G6",
+      "H1",
+      "H6",
+      "I1",
+      "I6",
+      "J1",
+      "J6",
+      "K1",
+      "K6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_010",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Ποιο σύνολο δεδομένων έχει στατιστικό Jarque-Bera (JB) που αποτελεί ακραία τιμή, όντας πάνω από 5 φορές μεγαλύτερο από την επόμενη υψηλότερη τιμή JB;",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "J1",
+      "J2",
+      "J3",
+      "J4",
+      "J5",
+      "J6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_2448925329_011",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Μεταξύ των BTC/USD ΔM έναντι ΔP 1s και LUNA/USD ΔM έναντι ΔP 1s, ποιο σύνολο δεδομένων παρουσιάζει υψηλότερη προγνωστική δύναμη βάσει του R² και του στατιστικού F;",
+    "answer": [
+      [
+        "Το BTC/USD ΔM έναντι ΔP 1s επέδειξε την υψηλότερη προγνωστική δύναμη βάσει του R² και του στατιστικού F, με R² = 0,168 και στατιστικό F = 723,6."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

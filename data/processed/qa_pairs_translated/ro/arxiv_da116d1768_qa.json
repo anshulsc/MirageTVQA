@@ -1,0 +1,258 @@
+[
+  {
+    "question_id": "arxiv_da116d1768_001",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Enumerați metodele/articolele care utilizează un model LLM considerat mai recent sau mai avansat decât GPT3.5.",
+    "answer": [
+      [
+        "MarketSenseAI [1]"
+      ],
+      [
+        "Ploutos [4]"
+      ],
+      [
+        "LLMoE [7]"
+      ],
+      [
+        "[48]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_002",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Câte dintre metodele/articolele listate menționează în mod explicit utilizarea unui model din familia GPT (inclusiv GPT-4, GPT3.5, GPT-4-Turbo sau modele generale bazate pe GPT)?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_da116d1768_003",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Ce seturi de date sunt utilizate de metodele axate specific pe „investiții” ca aplicație?",
+    "answer": [
+      [
+        "S&P 100 stocks"
+      ],
+      [
+        "S&P 500 index"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "C1",
+      "D4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_004",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "open_ended_reasoning",
+    "question": "Având în vedere evoluția modelelor GPT de la GPT3.5 la GPT-4, ce schimbare în aplicație sau focus pe date poate fi observată pe baza tabelului?",
+    "answer": [
+      [
+        "Metoda care utilizează GPT3.5 (GPT-InvestAR) se concentrează pe 'Investiții în acțiuni' utilizând indicele larg S&P 500. Metodele care utilizează GPT-4 mai avansat (MarketSenseAI și Ploutos) vizează aplicații mai specifice precum 'Selecția de acțiuni și perspective de investiții' și 'Mișcarea acțiunilor', utilizând atât seturile de date S&P 100, cât și cele din lucrări academice. Acest lucru sugerează o tendință către aplicații mai specializate și analitice cu modele mai puternice."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "D4",
+      "C4",
+      "B1",
+      "D1",
+      "C1",
+      "B2",
+      "D2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_005",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Identifică modelele LLM utilizate de metodele ale căror aplicații implică cuvântul 'stock', dar nu sunt explicit 'Stock investment'.",
+    "answer": [
+      [
+        "GPT-4"
+      ],
+      [
+        "GPT-4-Turbo, LLaMA3"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "B1",
+      "D2",
+      "B2",
+      "D4",
+      "D6",
+      "B6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_006",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Ce procent din metodele/articolele listate utilizează indici ai pieței financiare (cum ar fi S&P sau KOSPI) ca sursă de date?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C4",
+      "C6",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_da116d1768_007",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Dacă cerința unui proiect ar fi fost să selecteze o abordare existentă pentru „Predicția pieței bursiere”, dar ar fi fost limitat la utilizarea doar a modelelor din familia GPT, ce model LLM specific din tabel ar fi fost ales?",
+    "answer": [
+      [
+        "GPT-4-Turbo"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_008",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "open_ended_reasoning",
+    "question": "Conform tabelului, care este relația aparentă între specificitatea modelului LLM menționat și tipul de date la care este aplicat?",
+    "answer": [
+      [
+        "Pare să existe o corelație în care modele mai specifice și avansate, precum GPT-4, GPT3.5 și Llama3.2, sunt asociate cu seturi de date financiare structurate (de exemplu, indici S&P, date MSFT-AAPL). În contrast, 'modelele bazate pe GPT' descrise mai general sunt asociate cu corpusuri foarte largi, nespecifice domeniului, precum Common Crawl și Wikipedia, sugerând că modelele generale sunt utilizate pentru analize mai ample, în timp ce modelele specifice, de ultimă generație, sunt testate pe sarcini financiare mai țintite."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_da116d1768_009",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Care coloană conține cele mai descriptive și variate tipuri de date, așa cum indică diversitatea intrărilor sale, de la simboluri bursiere specifice la corpusuri web largi?",
+    "answer": [
+      [
+        "Data"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_010",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Identifica metoda/lucrarea care se distinge ca un caz aparte în ceea ce privește scopul aplicației sale și generalitatea sursei de date, comparativ cu celelalte, care se concentrează pe sarcini specifice ale pieței bursiere.",
+    "answer": [
+      [
+        "ChainBuddy [10]"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "D1",
+      "D2",
+      "D4",
+      "D5",
+      "D6",
+      "C1",
+      "C2",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_da116d1768_011",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Câte metode/articole au folosit modele GPT pentru antrenament?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A6",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

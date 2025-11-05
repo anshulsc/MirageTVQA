@@ -1,0 +1,202 @@
+[
+  {
+    "question_id": "arxiv_b617ec8b31_001",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "MarS పద్ధతిలో ప్రస్తుత మార్కెట్‌ను అనుకరణ మార్కెట్‌తో పోల్చడానికి సంబంధించిన అప్లికేషన్ కోసం, సంబంధిత ప్రస్తుత పద్ధతి దేనిని పోలుస్తుంది?",
+    "answer": [
+      [
+        "Diff⁡(marketn⁢o⁢w,marketp⁢a⁢s⁢t)"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_002",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "'MarS' పద్ధతిని ఉపయోగించే అప్లికేషన్లలో 'జనరేషన్' లేదా 'సిమ్యులేషన్'తో కూడినవి ఎన్ని శాతం ఉన్నాయి?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_003",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "'Detection' అప్లికేషన్ కోసం MarS పద్ధతి 'Current Methods'లో ఉపయోగించే సమయం-ఆధారిత పోలికను ఎలా మారుస్తుంది?",
+    "answer": [
+      [
+        "'Detection' కోసం 'Current Methods' గత మార్కెట్ స్థితి (market_past) మరియు ప్రస్తుత మార్కెట్ స్థితి (market_now) మధ్య వ్యత్యాసాన్ని లెక్కించడం ద్వారా చారిత్రక పోలికపై ఆధారపడతాయి. MarS పద్ధతి గత డేటాపై ఈ ఆధారపడటాన్ని తొలగిస్తుంది. బదులుగా, ఇది ప్రస్తుత మార్కెట్‌ను (market_now) సమకాలీనంగా అనుకరించబడిన మార్కెట్‌తో (simu-market_now) పోలుస్తుంది, పోలికను కాలక్రమేణా (ఇప్పుడు vs. అప్పుడు) నుండి మోడల్-ఆధారిత (వాస్తవ vs. అనుకరణ) ఫ్రేమ్‌వర్క్‌కు మారుస్తుంది."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_004",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "'MarS' పద్ధతిని 'పైప్‌లైన్'గా వివరించబడిన లేదా 'జనరేషన్'ను కలిగి ఉన్న అన్ని అప్లికేషన్‌ల కోసం 'ప్రస్తుత పద్ధతుల' జాబితాను ఇవ్వండి.",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ],
+      [
+        "online experiments, empirical formula"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B1",
+      "C3",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_005",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "'ప్రస్తుత పద్ధతులు' (Current Methods) మరియు 'MarS' మధ్య చారిత్రక పోలిక నుండి అనుకరణ పోలిక వరకు ఒక ప్రాథమిక పద్ధతి మార్పును చూపించే అప్లికేషన్ ఏది?",
+    "answer": [
+      [
+        "డిటెక్షన్' (Detection) అప్లికేషన్ అత్యంత ప్రాథమిక మార్పును చూపుతుంది. ప్రస్తుత పద్ధతి కాలక్రమేణా, గతానికి సంబంధించిన పోలికపై (Diff(market_now, market_past)) ఆధారపడుతుంది. దీనికి విరుద్ధంగా, MarS పద్ధతి సమకాలీన అనుకరణ వాస్తవంతో (Diff(market_now, simu-market_now)) పోలికను పరిచయం చేస్తుంది. చారిత్రక ఆధారం నుండి పోలిక కోసం అనుకరణ ఆధారం వరకు ఈ మార్పు, పట్టికలోని ఇతర పద్ధతి మార్పులతో పోలిస్తే ఒక ముఖ్యమైన సంభావిత వ్యత్యాసం."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_006",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "'RL Environment' కోసం 'MarS' విధానం, అదే అప్లికేషన్ కోసం 'Current Methods' యొక్క డేటా లభ్యతను ఉపయోగించడానికి సవరించబడితే, ఈ ఊహాజనిత MarS పద్ధతిని ఏ రెండు లక్షణాలు నిర్వచిస్తాయి?",
+    "answer": [
+      [
+        "finite data"
+      ],
+      [
+        "real P(st+1|st,at)"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_007",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "'RL Environment' అప్లికేషన్ కోసం, 'Current Methods' మరియు 'MarS' మధ్య డేటా లభ్యత మరియు సంభావ్యత పంపిణీలో కీలక వ్యత్యాసం ఏమిటి?",
+    "answer": [
+      [
+        "డేటా పరిమాణం మరియు పరివర్తన సంభావ్యత యొక్క ప్రామాణికత రెండింటిలోనూ కీలక వ్యత్యాసం ఉంది. 'Current Methods' 'పరిమిత డేటా' మరియు 'నకిలీ' సంభావ్యత పంపిణీపై (P(st+1|st,at)) ఆధారపడతాయి, అయితే 'MarS' 'అపరిమిత డేటా' మరియు 'నిజమైన' సంభావ్యత పంపిణీని ఉపయోగిస్తుంది."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_008",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "'ప్రస్తుత పద్ధతులు' లేదా 'MarS' కొరకు వాటి పద్ధతి వివరణలలో 'డేటా' అనే పదాన్ని కలిగి ఉన్న విభిన్న అప్లికేషన్లు ఎన్ని జాబితా చేయబడ్డాయి?",
+    "answer": [
+      [
+        "2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_009",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "పట్టిక ఆధారంగా, ప్రస్తుత పద్ధతులతో పోలిస్తే MarS యొక్క స్పష్టమైన ప్రధాన ప్రయోజనం ఏమిటి, ప్రత్యేకించి డేటా మరియు వాస్తవ ప్రాతినిధ్యం విషయంలో?",
+    "answer": [
+      [
+        "మొత్తం మీద, MarS పద్ధతులు చారిత్రక లేదా పరిమిత డేటా యొక్క పరిమితులను అధిగమించి, ఉత్పాదక మరియు అనుకరణ-ఆధారిత విధానాలను ఉపయోగించుకోవాలని లక్ష్యంగా పెట్టుకున్నాయని సూచిస్తుంది. MarS బహిర్గతం (extrapolation) నుండి ఉత్పత్తి (generation)కి, చారిత్రక పోలిక నుండి అనుకరణ పోలికకి, మరియు పరిమిత/నకిలీ డేటా నమూనాల నుండి అనంతమైన/వాస్తవ డేటా నమూనాలకు మారుతుంది. విశ్లేషణ మరియు రీఇన్‌ఫోర్స్‌మెంట్ లెర్నింగ్ కోసం మరింత పటిష్టమైన, సౌకర్యవంతమైన మరియు వాస్తవిక డేటా వాతావరణాలను సృష్టించడంలో ఇది వ్యూహాత్మక ప్రయోజనాన్ని సూచిస్తుంది."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_010",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "శీర్షిక వరుస మినహాయించి, పట్టికలో ఎన్ని విభిన్న అప్లికేషన్లు వివరించబడ్డాయి?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_011",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Forecasting కోసం ఉపయోగించే ప్రస్తుత పద్ధతి ఏమిటి?",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

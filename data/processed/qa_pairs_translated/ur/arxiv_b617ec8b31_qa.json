@@ -1,0 +1,202 @@
+[
+  {
+    "question_id": "arxiv_b617ec8b31_001",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "اس ایپلیکیشن کے لیے جہاں MarS طریقہ موجودہ مارکیٹ کا نقلی مارکیٹ سے موازنہ کرنے میں شامل ہے، اس کے مطابق موجودہ طریقہ کیا موازنہ کرتا ہے؟",
+    "answer": [
+      [
+        "Diff⁡(marketn⁢o⁢w,marketp⁢a⁢s⁢t)"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_002",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "درخواستوں کا کتنا فیصد 'MarS' طریقہ کار استعمال کرتا ہے جس میں 'جنریشن' یا 'سمولیشن' شامل ہے؟",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_003",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "MarS کا طریقہ 'Detection' ایپلیکیشن کے لیے 'Current Methods' میں استعمال ہونے والے وقت پر مبنی موازنے کو کس طرح بدلتا ہے؟",
+    "answer": [
+      [
+        "'Detection' کے لیے 'Current Methods' ایک تاریخی موازنے پر انحصار کرتی ہیں، جو موجودہ مارکیٹ کی حالت (market_now) اور ماضی کی مارکیٹ کی حالت (market_past) کے درمیان فرق کا حساب لگا کر کی جاتی ہے۔ MarS کا طریقہ ماضی کے ڈیٹا پر اس انحصار کو ختم کرتا ہے۔ اس کے بجائے، یہ موجودہ مارکیٹ (market_now) کا موازنہ ایک ہم عصر نقلی مارکیٹ (simu-market_now) سے کرتا ہے، جس سے موازنہ وقتی (اب بمقابلہ اس وقت) سے ماڈل پر مبنی (حقیقی بمقابلہ نقلی) فریم ورک کی طرف منتقل ہو جاتا ہے۔"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_004",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "'MarS' کے طریقے کو 'pipeline' کے طور پر بیان کرنے یا 'generation' میں شامل ہونے والی تمام درخواستوں کے لیے 'موجودہ طریقے' کی فہرست بنائیں۔",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ],
+      [
+        "online experiments, empirical formula"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B1",
+      "C3",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_005",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "کون سی ایپلی کیشن 'موجودہ طریقے' اور 'MarS' کے درمیان نقطہ نظر میں سب سے بنیادی تبدیلی دکھاتی ہے، جو تاریخی موازنے سے نقلی موازنے کی طرف بڑھ رہی ہے؟",
+    "answer": [
+      [
+        "ڈیٹیکشن' ایپلی کیشن نقطہ نظر میں سب سے بنیادی تبدیلی دکھاتی ہے۔ موجودہ طریقہ ایک زمانی، ماضی کے مقابلے پر انحصار کرتا ہے (Diff(market_now, market_past))۔ اس کے برعکس، MarS طریقہ ایک ہم عصر نقلی حقیقت کے مقابلے میں متعارف کراتا ہے (Diff(market_now, simu-market_now))۔ موازنے کی بنیاد کے لیے تاریخی اساس سے نقلی اساس میں یہ تبدیلی، جدول میں دیگر طریقہ کار کی تبدیلیوں کے مقابلے میں ایک اہم تصوراتی فرق ہے۔"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_006",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "اگر 'RL Environment' کے لیے 'MarS' کے طریقہ کار کو اسی درخواست کے لیے 'Current Methods' کی ڈیٹا کی دستیابی کو استعمال کرنے کے لیے تبدیل کیا جائے، تو اس فرضی MarS طریقہ کار کی کون سی دو خصوصیات بیان کریں گی؟",
+    "answer": [
+      [
+        "finite data"
+      ],
+      [
+        "real P(st+1|st,at)"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_007",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "'RL Environment' کی درخواست کے لیے، 'موجودہ طریقے' اور 'MarS' کے درمیان ڈیٹا کی دستیابی اور امکان کی تقسیم میں کلیدی فرق کیا ہے؟",
+    "answer": [
+      [
+        "اہم فرق ڈیٹا کے حجم اور منتقلی کے امکان کی صداقت دونوں میں ہے۔ 'موجودہ طریقے' 'محدود ڈیٹا' اور 'جعلی' امکان کی تقسیم (P(st+1|st,at)) پر انحصار کرتے ہیں، جبکہ 'MarS' 'لامحدود ڈیٹا' اور 'حقیقی' امکان کی تقسیم کا استعمال کرتا ہے۔"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_008",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "کتنی مختلف ایپلی کیشنز میں 'موجودہ طریقے' یا 'MarS' کے لیے ان کے طریقہ کار کی تفصیلات میں 'ڈیٹا' کا لفظ شامل ہے؟",
+    "answer": [
+      [
+        "2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_009",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "جدول کی بنیاد پر، موجودہ طریقوں کے مقابلے میں MarS کا بظاہر بڑا فائدہ کیا ہے، خاص طور پر ڈیٹا اور حقیقت کے نمائندگی کے حوالے سے؟",
+    "answer": [
+      [
+        "بڑا تھیم یہ بتاتا ہے کہ MarS کے طریقے تخلیقی اور تخروتی مبنی طریقوں سے فائدہ اٹھا کر تاریخی یا محدود ڈیٹا کی حدود پر قابو پانے کا ارادہ رکھتے ہیں۔ MarS توسیعی عمل سے جنریشن کی طرف، تاریخی موازنہ سے تخروتی موازنہ کی طرف، اور محدود/جعلی ڈیٹا کے ماڈلز سے لامتناہی/حقیقی ڈیٹا کے ماڈلز کی طرف منتقل ہوتا ہے۔ یہ تجزیہ اور مضبوطی سیکھنے کے لیے زیادہ مضبوط، لچکدار، اور حقیقت پسندانہ ڈیٹا کے ماحول بنانے میں ایک اسٹریٹجک فائدہ ظاہر کرتا ہے۔"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_010",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "ہیڈر قطار کو چھوڑ کر، ٹیبل میں کتنی مختلف ایپلی کیشنز کی تفصیل دی گئی ہے؟",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_011",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "فورکاسٹنگ کے لیے کون سا موجودہ طریقہ استعمال کیا جاتا ہے؟",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

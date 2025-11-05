@@ -1,0 +1,254 @@
+[
+  {
+    "question_id": "arxiv_2448925329_001",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Tập dữ liệu nào cho thấy sự phù hợp mô hình mạnh nhất như được chỉ ra bởi giá trị R-bình phương?",
+    "answer": [
+      [
+        "BTC/USD ΔM vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_002",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Giá trị Kurtosis trung bình cho tất cả các tập dữ liệu liên quan đến BTC/USD là bao nhiêu?",
+    "answer": [
+      [
+        "7.7025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_2448925329_003",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Đối với mô hình có giá trị R-bình phương dương thấp nhất, thống kê Durbin-Watson tương ứng của nó là bao nhiêu?",
+    "answer": [
+      [
+        "0.337"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "I2",
+      "B1",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_004",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Khả năng giải thích của mô hình, được đo bằng R-squared, thay đổi như thế nào đối với tập dữ liệu LUNA/USD khi khoảng thời gian tăng từ 1 giây lên 10 giây?",
+    "answer": [
+      [
+        "Khả năng giải thích của mô hình LUNA/USD, được chỉ ra bởi giá trị R-squared, tăng đáng kể từ 0.036 cho khoảng thời gian 1 giây lên 0.274 cho khoảng thời gian 10 giây. Điều này thể hiện mức tăng hơn bảy lần, cho thấy mô hình hiệu quả hơn đáng kể trong việc giải thích sự thay đổi giá trong khung thời gian dài hơn."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_005",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Liệt kê tất cả các tập dữ liệu trong đó phần dư của mô hình bị lệch âm (Độ xiên < 0) và thống kê Durbin-Watson lớn hơn 2, cho thấy tương quan tự động âm.",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 1s",
+        "BTC/USD ΔM vs ΔP 1s"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "I1",
+      "A3",
+      "G3",
+      "I3",
+      "G2",
+      "I2",
+      "G4",
+      "I4",
+      "G5",
+      "I5",
+      "G6",
+      "I6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_006",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Các mô hình có khoảng thời gian 10 giây chiếm tỷ lệ bao nhiêu trong tổng tất cả các F-statistic?",
+    "answer": [
+      [
+        "93.68%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A6",
+      "C6",
+      "C1",
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_2448925329_007",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Nếu giá trị Kurtosis của mô hình 'BTC/USD OFI vs ΔP 10s' được điều chỉnh thành giá trị Kurtosis trung bình của tất cả các mô hình khác, thì giá trị mới của nó sẽ là bao nhiêu?",
+    "answer": [
+      [
+        "5.700"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_008",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Liệu có mối quan hệ nhất quán giữa thống kê F và thống kê Jarque-Bera (JB) của một mô hình không? Phân tích mô hình này.",
+    "answer": [
+      [
+        "Không có mối quan hệ nhất quán, rõ ràng giữa thống kê F và thống kê Jarque-Bera (JB). Chẳng hạn, mô hình có thống kê F cao nhất (15890.0) có thống kê JB là 6560.394, trong khi mô hình có thống kê F thấp thứ hai (137.0) có thống kê JB nhỏ hơn nhiều là 816.435. Tuy nhiên, mô hình có thống kê F thấp nhất (70.87) lại có thống kê JB cao nhất (10204.282). Điều này cho thấy rằng ý nghĩa tổng thể của mô hình (thống kê F) và tính chuẩn của phần dư (thống kê JB) không tương quan trực tiếp trong tập dữ liệu này."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "J1",
+      "C2",
+      "J2",
+      "C3",
+      "J3",
+      "C4",
+      "J4",
+      "C5",
+      "J5",
+      "C6",
+      "J6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_2448925329_009",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Cột nào, không tính định danh 'Dataset', chứa phạm vi giá trị rộng nhất khi xét về thứ tự độ lớn (từ nhỏ nhất đến lớn nhất)?",
+    "answer": [
+      [
+        "Cột 'Prob(JB)' cho thấy phạm vi giá trị rộng nhất theo thứ tự độ lớn. Nó chứa các giá trị nhỏ tới 0.0 (thực tế là vô cùng nhỏ) và các giá trị lớn như 4.26e-263, 1.93e-57, 5.17e-178, và 9.05e-92, bao trùm hàng trăm thứ tự độ lớn, vượt xa bất kỳ cột số nào khác."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B6",
+      "C1",
+      "C6",
+      "D1",
+      "D6",
+      "E1",
+      "E6",
+      "F1",
+      "F6",
+      "G1",
+      "G6",
+      "H1",
+      "H6",
+      "I1",
+      "I6",
+      "J1",
+      "J6",
+      "K1",
+      "K6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_010",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Tập dữ liệu nào có chỉ số Jarque-Bera (JB) là một giá trị ngoại lai, lớn hơn 5 lần so với giá trị JB cao thứ hai?",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "J1",
+      "J2",
+      "J3",
+      "J4",
+      "J5",
+      "J6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_2448925329_011",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Trong số BTC/USD ΔM vs ΔP 1s và LUNA/USD ΔM vs ΔP 1s, tập dữ liệu nào thể hiện sức mạnh dự đoán cao hơn dựa trên R² và thống kê F (F-statistic)?",
+    "answer": [
+      [
+        "BTC/USD ΔM vs ΔP 1s đã thể hiện sức mạnh dự đoán cao nhất dựa trên R² và thống kê F (F-statistic), với R² = 0.168 và thống kê F = 723.6."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

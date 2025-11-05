@@ -1,0 +1,255 @@
+[
+  {
+    "question_id": "arxiv_a92c4de096_001",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Những siêu tham số nào có nhiều tùy chọn nhất trong không gian tìm kiếm của chúng?",
+    "answer": [
+      [
+        "Sequence size"
+      ],
+      [
+        "TRADES Layers"
+      ],
+      [
+        "Augmentation Dim."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_002",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Có bao nhiêu siêu tham số đã được thử nghiệm với nhiều hơn hai giá trị có thể có trong không gian tìm kiếm của chúng?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_003",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Không gian tìm kiếm cho siêu tham số có lựa chọn tốt nhất là giá trị số nhỏ nhất lớn hơn 0 là gì?",
+    "answer": [
+      [
+        "{10−3,10−4}superscript103superscript104\\{{10^{-3}},10^{-4}\\}{ 10 start_POSTSUPERSCRIPT - 3 end_POSTSUPERSCRIPT , 10 start_POSTSUPERSCRIPT - 4 end_POSTSUPERSCRIPT }"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_004",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Liệt kê tất cả các siêu tham số mà 'Lựa chọn Tốt nhất' là giá trị cao nhất có sẵn trong 'Không gian Tìm kiếm' tương ứng của chúng.",
+    "answer": [
+      [
+        "Learning Rate"
+      ],
+      [
+        "Dropout"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_005",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Tỷ lệ bao nhiêu trong số các siêu tham số số có 'Lựa chọn tốt nhất' được chọn từ giữa 'Không gian tìm kiếm' đã được sắp xếp của chúng (tức là, không phải giá trị nhỏ nhất hoặc lớn nhất)?",
+    "answer": [
+      [
+        "5/7"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_006",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Nếu việc tìm kiếm 'Số lớp TRADES' chỉ bị giới hạn ở các giá trị nhỏ hơn 8, thì 'Lựa chọn tốt nhất' cho siêu tham số này sẽ là gì, giả sử lựa chọn tốt nhất tiếp theo có sẵn từ không gian tìm kiếm ban đầu đã được chọn?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_007",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "Có mối quan hệ có thể quan sát được giữa kích thước không gian tìm kiếm của một siêu tham số và việc 'Lựa chọn Tốt nhất' có phải là một giá trị cực đoan (nhỏ nhất/lớn nhất) hay một giá trị ở giữa không? Giải thích lý do của bạn.",
+    "answer": [
+      [
+        "Có, có một quy luật rõ ràng. Đối với các siêu tham số có không gian tìm kiếm nhỏ với hai tùy chọn (Tốc độ Học, Giảm nhiễu), lựa chọn tốt nhất là giá trị lớn nhất. Đối với tất cả các siêu tham số có không gian tìm kiếm lớn hơn với ba hoặc bốn tùy chọn, giá trị tối ưu được tìm thấy ở giữa phạm vi, không bao giờ ở các điểm cực đoan. Điều này cho thấy rằng đối với mô hình này, quá trình tinh chỉnh là có lợi, và các phạm vi rộng ban đầu đã bao quát thành công một vùng tối ưu không nằm ở ranh giới của không gian đã thử nghiệm."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_008",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Không gian tìm kiếm của siêu tham số nào được mô tả bằng các nhãn không phải là số?",
+    "answer": [
+      [
+        "Optimizer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_009",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Giá trị 'Lựa chọn tốt nhất' của siêu tham số nào là ngoại lệ về mặt số học, lớn hơn ít nhất bốn lần so với 'Lựa chọn tốt nhất' số học cao tiếp theo?",
+    "answer": [
+      [
+        "Sequence size"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_010",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "Xem xét các siêu tham số có bốn tùy chọn trong không gian tìm kiếm của chúng ('Sequence size', 'TRADES Layers', 'Augmentation Dim.'), đặc điểm chung nào mà các giá trị 'Best Choice' của chúng chia sẻ, và điều này có thể ngụ ý gì về chiến lược tinh chỉnh?",
+    "answer": [
+      [
+        "Đặc điểm chung là đối với cả ba siêu tham số, 'Best Choice' là một giá trị trung gian, không phải là giá trị cực đoan (tối thiểu hoặc tối đa). Các 'Best Choice' là 256 (vị trí thứ 3 trong 4), 8 (vị trí thứ 3 trong 4), và 64 (vị trí thứ 2 trong 4). Điều này ngụ ý một chiến lược tinh chỉnh thành công, nơi không gian tìm kiếm đủ rộng để bao trùm giá trị tối ưu, cho thấy hiệu suất của các tham số này không tăng đơn điệu theo giá trị mà đạt đỉnh ở đâu đó trong phạm vi đã kiểm tra."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_011",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Lựa chọn tốt nhất cho Optimizer là gì?",
+    "answer": [
+      [
+        "Adam"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

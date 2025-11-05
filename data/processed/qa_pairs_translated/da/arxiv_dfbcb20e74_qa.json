@@ -1,0 +1,151 @@
+[
+  {
+    "question_id": "arxiv_dfbcb20e74_001",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Hvilken models hovedformel inkluderer eksplicit en risikofri renteskomponent?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_002",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Hvad er det samlede antal unikke 'X'-variable, der bruges som input i Z-scoremodellens formel?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_003",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Identificer modellen, der anvender 'Total assets' som nævner i mindst tre af dens forklarede parametre, og angiv derefter, hvilken parameter fra den model der repræsenterer forholdet mellem 'Market value of equity' og 'Total liabilities'.",
+    "answer": [
+      [
+        "Z-score Model"
+      ],
+      [
+        "X4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_004",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Hvilken model inkorporerer parametre, der eksplicit er defineret som målt 'på tidspunkt t'?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_005",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Hvis det analytiske mål er at bestemme sandsynligheden for et binært udfald (y=1), hvilken model angivet i tabellen er så det mest passende valg?",
+    "answer": [
+      [
+        "Logistic Regression"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_007",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Hvis en opdateret version af Z-score-modellen reducerede indflydelsen af 'Working capital/Total assets ratio' med 50%, hvad ville den nye koefficient for X1 være?",
+    "answer": [
+      [
+        "0.6"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_008",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Baseret på formlen for Z-score Modellen, hvad er det afledte forhold mellem et selskabs samlede salg i forhold til samlede aktiver og dets resulterende Z-score?",
+    "answer": [
+      [
+        "Der er en positiv korrelation mellem forholdet mellem samlet salg og samlede aktiver (X5) og Z-scoren. Formlen viser, at Z-scoren er en vægtet sum af fem forhold, og koefficienten for X5 er positiv (0,99). Derfor vil en stigning i forholdet mellem samlet salg og samlede aktiver, alt andet lige, resultere i en højere Z-score."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_009",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Hvilken models beskrivelse inkluderer det største antal distinkte parametre, der forklares i den tredje kolonne?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_010",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Når man undersøger de numeriske koefficienter i Z-score-modellens formel, hvilken koefficient skiller sig ud som en outlier sammenlignet med de andre?",
+    "answer": [
+      [
+        "Koefficienten 3,3 for variablen X3 er en markant outlier. De andre koefficienter i formlen er 1,2, 1,4, 0,6 og 0,99, som alle er samlet i et interval mellem 0,6 og 1,4. Værdien 3,3 er mere end dobbelt så stor som værdien af den næsthøjeste koefficient (1,4), hvilket gør den væsentligt større end resten."
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

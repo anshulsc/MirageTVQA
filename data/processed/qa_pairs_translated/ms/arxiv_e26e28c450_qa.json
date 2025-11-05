@@ -1,0 +1,271 @@
+[
+  {
+    "question_id": "arxiv_e26e28c450_001",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Model bukan multi-tugas manakah yang mencapai Ralat Kuasa Dua Min (MSE_over) keseluruhan terendah?",
+    "answer": [
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "H1",
+      "A2",
+      "B2",
+      "H2",
+      "A3",
+      "B3",
+      "H3",
+      "A4",
+      "B4",
+      "H4",
+      "A5",
+      "B5",
+      "H5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_002",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Kira MSE purata pada ufuk 7 hari (MSE7) untuk semua model yang ditandai sebagai 'Multi-Task'.",
+    "answer": [
+      [
+        "0.820"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "H6",
+      "D7",
+      "H7",
+      "D8",
+      "H8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_003",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Bagi model dengan nilai MSE3 tertinggi kedua (terburuk kedua), apakah nilai MSE30 yang sepadan dengannya?",
+    "answer": [
+      [
+        "0.233"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "F3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_004",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Analisis aliran Rata-rata Ralat Kuasa Dua (MSE) untuk model HTML apabila ufuk ramalan memanjang dari 3 hingga 30 hari. Adakah ketepatan ramalannya bertambah baik atau merosot dari semasa ke semasa?",
+    "answer": [
+      [
+        "Ketepatan ramalan model HTML bertambah baik apabila ufuk ramalan memanjang. Nilai MSEnya secara konsisten berkurangan daripada MSE3 (0.845) kepada MSE7 (0.349), MSE15 (0.251), dan akhirnya MSE30 (0.158), menunjukkan ralat yang lebih rendah dan oleh itu prestasi yang lebih baik pada ramalan jangka panjang."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_005",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Senaraikan semua model yang tidak dilabel sebagai 'Multi-Task' dan mempunyai nilai MSE15 yang lebih rendah daripada 0.31.",
+    "answer": [
+      [
+        "MT-LSTM-ATT"
+      ],
+      [
+        "HAN"
+      ],
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "H1",
+      "A2",
+      "E2",
+      "H2",
+      "A3",
+      "E3",
+      "H3",
+      "A4",
+      "E4",
+      "H4",
+      "A5",
+      "E5",
+      "H5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_006",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Kenal pasti model yang merupakan luar biasa ketara merentasi semua metrik MSE dan jelaskan sebabnya.",
+    "answer": [
+      [
+        "Model GPT-3.5-Turbo merupakan luar biasa ketara. Nilai MSEnya merentasi semua ufuk (MSE_over: 2.198, MSE3: 2.152, MSE7: 1.793, MSE15: 2.514, MSE30: 2.332) adalah lebih tinggi secara ketara berbanding semua model lain, kebanyakan daripadanya mempunyai nilai MSE di bawah 1.0. Ini menunjukkan prestasi ramalan yang jauh lebih teruk berbanding model lain yang disenaraikan."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_007",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Berapakah peratus daripada jumlah MSE3 yang dijumlahkan merentasi semua model yang boleh dikaitkan dengan model GPT-3.5-Turbo? Berikan jawapan sebagai peratusan yang dibundarkan kepada satu tempat perpuluhan.",
+    "answer": [
+      [
+        "19.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_008",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Jika MSE_over untuk model RiskLabs meningkat sebanyak 25% (iaitu, berkurang sebanyak 25%), apakah nilai baharunya, dan bagaimanakah kedudukannya berbanding dengan MSE_over model HTML?",
+    "answer": [
+      [
+        "MSE_over baharu untuk RiskLabs ialah 0.243. Nilai ini lebih rendah, dan oleh itu lebih baik, daripada MSE_over model HTML iaitu 0.401."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_009",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan jadual, apakah hubungan antara model yang dikategorikan sebagai 'Multi-Task' dan ketersediaan skor 'VaR'?",
+    "answer": [
+      [
+        "Terdapat korelasi yang kuat. Hanya model yang ditetapkan sebagai 'Multi-Task' (GPT-3.5-Turbo dan RiskLabs) mempunyai skor 'VaR' numerik yang dilaporkan. Walau bagaimanapun, tidak semua model 'Multi-Task' mempunyai skor VaR (cth., HTML), dan tiada model bukan 'Multi-Task' yang mempunyainya, menunjukkan bahawa keupayaan untuk mengira VaR adalah ciri yang kebanyakannya dikaitkan dengan model 'Multi-Task' dalam set data ini."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "H1",
+      "G2",
+      "H2",
+      "G3",
+      "H3",
+      "G4",
+      "H4",
+      "G5",
+      "H5",
+      "G6",
+      "H6",
+      "G7",
+      "H7",
+      "G8",
+      "H8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_010",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Lajur metrik prestasi manakah yang mengandungi data penahan bukan numerik, dan untuk model spesifik manakah data ini tiada?",
+    "answer": [
+      [
+        "Lajur 'VaR' mengandungi data bukan numerik ('/'). Data ini tiada untuk model berikut: Classical Method, LSTM, MT-LSTM-ATT, HAN, MRDM, dan HTML."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_011",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Model manakah yang menunjukkan keseimbangan keseluruhan terbaik antara ketepatan ramalan merentasi ufuk yang berbeza (MSE3–MSE30) dan anggaran risiko (VaR)?",
+    "answer": [
+      [
+        "Model RiskLabs mencapai keseimbangan keseluruhan terbaik, mengekalkan nilai MSE terendah merentasi semua ufuk dan VaR terendah (0.049), menunjukkan ketepatan ramalan yang kukuh dan anggaran risiko yang boleh dipercayai."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "G8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

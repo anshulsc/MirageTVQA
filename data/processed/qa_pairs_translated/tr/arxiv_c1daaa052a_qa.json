@@ -1,0 +1,203 @@
+[
+  {
+    "question_id": "arxiv_c1daaa052a_001",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "'Getiriler'de en yüksek yüzde artışı hangi çalışma göstermiştir ve bu oran ne kadardır?",
+    "answer": [
+      [
+        "RT-GCN Zheng et al. (2023)"
+      ],
+      [
+        "+40.4%"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_002",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "Listelenen tüm araştırma çalışmalarında değerlendirilen farklı borsa pazarlarının toplam sayısı kaçtır?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_003",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "CSI piyasasında doğrulanmış modelin ana yeniliğini belirleyin.",
+    "answer": [
+      [
+        "Pure convolutional temporal-relational modeling"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "B4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_004",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "open_ended_reasoning",
+    "question": "2023 yılındaki çalışmayı 2024 yılındakilerle karşılaştırarak, 'Temel Yenilik' odağında ne gibi temel bir değişim yaşanmıştır?",
+    "answer": [
+      [
+        "Temel yenilik odağı, mimari verimlilik ve yeni modelleme ('2023'te 'Saf evrişimsel zamansal-ilişkisel modelleme') yerine 2024'te daha karmaşık veri ve piyasa dinamiklerini ele almaya kaymıştır. 2024 yenilikleri, kanal bağımsızlığı, yanlılık azaltma ve piyasa rejim değişikliklerine uyum sağlama gibi zorlukları ele almakta olup, yalnızca yeni ağ yapılarına odaklanmak yerine daha sağlam ve uyarlanabilir modeller oluşturma eğilimini göstermektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_005",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "Metodolojilerinde bir tür rakip öğrenme veya eğitim kullanan 2024 yılında yayınlanan tüm çalışmaları listeyin.",
+    "answer": [
+      [
+        "ADB-TRM Chen et al. (2024)"
+      ],
+      [
+        "RSAP-DFM Xiang et al. (2024)"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_006",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "Listelenen araştırma çalışmalarının yüzde kaçı 2024 yılında yayınlanmıştır?",
+    "answer": [
+      [
+        "75%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_007",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "'ADB-TRM Chen et al. (2024)' için 'Getiriler' kazancı 10.3 puan daha düşük olsaydı, RSAP-DFM Xiang et al. (2024) ile karşılaştırıldığında hangisi daha yüksek bir performans artışı bildirirdi?",
+    "answer": [
+      [
+        "RSAP-DFM Xiang et al. (2024)"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D3",
+      "A3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_008",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "open_ended_reasoning",
+    "question": "Metodolojilerinde düşman öğrenme (adversarial learning) kullanımına ilişkin, modellerin test edildiği piyasaların coğrafi çeşitliliği ile arasında gözlemlenebilir bir örüntü var mı?",
+    "answer": [
+      [
+        "Evet, metodolojilerinde açıkça düşman öğrenme (adversarial learning) belirten her iki çalışma da (ADB-TRM ve RSAP-DFM) hem ABD hem de ABD dışı piyasaların (sırasıyla TSE ve A-share market) bir kombinasyonu üzerinde test edilmiştir. Buna karşılık, düşman öğrenmeden bahsetmeyen diğer iki çalışma, yalnızca ABD piyasalarında (CI-STHPAN) veya Çin CSI piyasasını içeren bir karışım (RT-GCN) üzerinde test edilmiştir. Bu, gelişmiş düşman tekniklerinin kullanımını daha geniş, daha küresel olarak çeşitli finansal piyasalarda doğrulama ile potansiyel bir ilişki olduğunu göstermektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_009",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "Hangi çalışma, yüzde artışı yerine hızın bir katı olan bir performans sonucu bildiriyor?",
+    "answer": [
+      [
+        "RT-GCN Zheng et al. (2023)"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_010",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "'İkili rejim kaydırma mekanizması'nı tanıtan çalışmanın metodolojik katkısı nedir?",
+    "answer": [
+      [
+        "Gradient-based posterior factors with adversarial learning"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_011",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "CI-STHPAN Xia tarafından yapılan çalışmanın temel yeniliği nedir?",
+    "answer": [
+      [
+        "Channel-independent pre-training with dynamic hypergraph learning"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

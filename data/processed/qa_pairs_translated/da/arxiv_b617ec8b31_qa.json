@@ -1,0 +1,202 @@
+[
+  {
+    "question_id": "arxiv_b617ec8b31_001",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "For applikationen hvor MarS-metoden involverer at sammenligne det nuværende marked med et simuleret marked, hvad sammenligner den tilsvarende nuværende metode?",
+    "answer": [
+      [
+        "Diff⁡(marketn⁢o⁢w,marketp⁢a⁢s⁢t)"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_002",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Hvilken procentdel af de anførte applikationer anvender en 'MarS'-metode, der involverer enten 'generering' eller 'simulering'?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_003",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvordan ændrer MarS-metoden til 'Detektion'-applikationen den tidsbaserede sammenligning, der bruges i 'Nuværende metoder'?",
+    "answer": [
+      [
+        "De 'Nuværende metoder' til 'Detektion' baserer sig på en historisk sammenligning ved at beregne forskellen mellem den nuværende markedstilstand (market_now) og en tidligere markedstilstand (market_past). MarS-metoden eliminerer denne afhængighed af tidligere data. I stedet sammenligner den det aktuelle marked (market_now) med et samtidigt simuleret marked (simu-market_now), hvilket flytter sammenligningen fra et tidsmæssigt (nu vs. dengang) til et modelbaseret (virkeligt vs. simuleret) framework."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_004",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Oplist de 'Nuværende metoder' for alle applikationer, hvor 'MarS'-metoden beskrives som en 'pipeline' eller involverer 'generering'.",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ],
+      [
+        "online experiments, empirical formula"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B1",
+      "C3",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_005",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvilken applikation viser det mest fundamentale skift i tilgang mellem 'Nuværende Metoder' og 'MarS', der bevæger sig fra en historisk sammenligning til en simuleret?",
+    "answer": [
+      [
+        "Applikationen 'Detektion' viser det mest fundamentale skift. Den nuværende metode bygger på en tidsmæssig, bagudskuende sammenligning (Diff(market_now, market_past)). I modsætning hertil introducerer MarS-metoden en sammenligning med en samtidig simuleret virkelighed (Diff(market_now, simu-market_now)). Denne ændring fra et historisk grundlag til et simuleret grundlag for sammenligning er en signifikant konceptuel outlier sammenlignet med de andre metodiske skift i tabellen."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_006",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Hvis 'MarS'-tilgangen for 'RL Environment' blev modificeret til at bruge datatilgængeligheden af 'Current Methods' til den samme applikation, hvilke to karakteristika ville definere denne hypotetiske MarS-metode?",
+    "answer": [
+      [
+        "finite data"
+      ],
+      [
+        "real P(st+1|st,at)"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_007",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "For 'RL Environment'-applikationen, hvad er den centrale forskel i datatilgængelighed og sandsynlighedsfordeling mellem 'Current Methods' og 'MarS'?",
+    "answer": [
+      [
+        "Den centrale forskel ligger i både datamængde og ægthed af overgangssandsynligheden. 'Current Methods' er afhængig af 'begrænsede data' og en 'falsk' sandsynlighedsfordeling (P(st+1|st,at)), hvorimod 'MarS' udnytter 'uendelige data' og en 'reel' sandsynlighedsfordeling."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_008",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Hvor mange distinkte applikationer, der er angivet, involverer termen 'data' i deres metodedeskriptioner for enten 'Current Methods' eller 'MarS'?",
+    "answer": [
+      [
+        "2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_009",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Baseret på tabellen, hvad er den åbenlyse overordnede fordel ved MarS sammenlignet med Current Methods, især med hensyn til data og realitetsrepræsentation?",
+    "answer": [
+      [
+        "Det overordnede tema antyder, at MarS-metoder sigter mod at overvinde begrænsningerne ved historiske eller endelige data ved at udnytte generative og simulationsbaserede tilgange. MarS skifter fra ekstrapolation til generering, fra historisk sammenligning til simuleret sammenligning og fra endelige/fake datamodeller til uendelige/reelle datamodeller. Dette indikerer en strategisk fordel i at skabe mere robuste, fleksible og realistiske datamiljøer til analyse og forstærkningslæring."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_010",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Eksklusive header-rækken, hvor mange forskellige applikationer er der beskrevet i tabellen?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_011",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Hvad er den nuværende metode brugt til Forecasting?",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

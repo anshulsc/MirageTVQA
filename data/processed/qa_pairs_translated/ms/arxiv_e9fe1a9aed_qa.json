@@ -1,0 +1,254 @@
+[
+  {
+    "question_id": "arxiv_e9fe1a9aed_001",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Kaedah ramalan manakah yang mencapai kadar ralat terendah untuk senario BC2 (kedua-dua BC2_64 dan BC2_28)?",
+    "answer": [
+      [
+        "Forward Feature Selection SARIMAX"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D9",
+      "E2",
+      "E3",
+      "E5",
+      "E7",
+      "E9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_002",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Berapakah kadar ralat purata bagi kaedah 'pemilihan ciri regresi LASSO' merentasi kesemua enam senario BC?",
+    "answer": [
+      [
+        "12.96"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_003",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Kenal pasti kaedah pemilihan ciri yang menggunakan bilangan pemboleh ubah eksogen tertinggi untuk mana-mana satu senario. Kemudian, untuk kaedah khusus itu, laporkan kadar ralatnya dalam senario BC3_64.",
+    "answer": [
+      [
+        "6.35"
+      ]
+    ],
+    "evidence_cells": [
+      "F8",
+      "F7",
+      "A7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_004",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Untuk senario BC yang manakah jurang prestasi, ditakrifkan sebagai perbezaan antara kadar ralat tertinggi dan terendah dalam semua tetapan ramalan, adalah yang terbesar?",
+    "answer": [
+      [
+        "BC3_28"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "B2",
+      "B3",
+      "B5",
+      "B7",
+      "B9",
+      "C2",
+      "C3",
+      "C5",
+      "C7",
+      "C9",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D9",
+      "E2",
+      "E3",
+      "E5",
+      "E7",
+      "E9",
+      "F2",
+      "F3",
+      "F5",
+      "F7",
+      "F9",
+      "G2",
+      "G3",
+      "G5",
+      "G7",
+      "G9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_005",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Senaraikan semua tetapan ramalan untuk senario BC1_28 yang menggunakan lebih daripada 5 pemboleh ubah eksogen dan mencapai kadar ralat di bawah 16.0.",
+    "answer": [
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Forward Feature Selection SARIMAX"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "C6",
+      "A7",
+      "C7",
+      "C8",
+      "A9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_006",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Dalam senario BC2_28, berapakah peratusan ralat daripada kaedah 'Forward Feature Selection SARIMAX' lebih rendah berbanding ralat daripada kaedah 'Without exogenous variables' (tanpa pemboleh ubah eksogen)?",
+    "answer": [
+      [
+        "84.38%"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_007",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Jika ralat untuk 'Pemilihan Berdasarkan Korelasi' di bawah BC1_28 dikurangkan sebanyak 75%, apakah ralat purata baharu untuk senario BC1_28 merentasi kelima-lima tetapan ramalan?",
+    "answer": [
+      [
+        "12.18"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C5",
+      "C7",
+      "C9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_008",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "open_ended_reasoning",
+    "question": "Adakah terdapat hubungan yang konsisten antara penggunaan bilangan pemboleh ubah eksogen yang lebih tinggi dan mencapai kadar ralat yang lebih rendah merentasi kaedah pemilihan ciri yang berbeza?",
+    "answer": [
+      [
+        "Tidak, tiada hubungan yang konsisten. Sebagai contoh, dalam senario BC1_64, 'Forward Feature Selection SARIMAX' menggunakan hanya 1 pemboleh ubah dan mencapai ralat terendah (5.64), manakala 'Manual feature selection' menggunakan 18 pemboleh ubah dan mempunyai ralat yang jauh lebih tinggi (13.99). Sebaliknya, dalam senario BC1_28, ralat untuk 'Forward Feature Selection SARIMAX' (5.94 dengan 15 pemboleh ubah) adalah lebih rendah daripada 'LASSO' (15.38 dengan 10 pemboleh ubah), menunjukkan lebih banyak pemboleh ubah boleh menjadi lebih baik dalam beberapa kes. Ini menunjukkan keberkesanan kaedah pemilihan adalah lebih kritikal daripada kuantiti pemboleh ubah semata-mata."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_009",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Nilai ralat mana untuk kaedah 'Correlation-Based Selection' adalah pencilan yang ketara berbanding prestasinya dalam senario lain?",
+    "answer": [
+      [
+        "26.47"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_010",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Berapa banyak metodologi pemilihan ciri yang berbeza yang menggunakan pemboleh ubah eksogen sedang dibandingkan dalam jadual ini?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "A5",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_011",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Kaedah ramalan manakah yang mencapai ralat terendah untuk BC2_28?",
+    "answer": [
+      [
+        "Forward Feature Selection SARIMAX"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "E7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

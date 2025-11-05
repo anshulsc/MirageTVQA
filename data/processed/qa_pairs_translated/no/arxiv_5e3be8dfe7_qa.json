@@ -1,0 +1,208 @@
+[
+  {
+    "question_id": "arxiv_5e3be8dfe7_001",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Hvilken modell har flest distinkte parameterforklaringer listet i tabellen?",
+    "answer": [
+      [
+        "Neural Networks"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_002",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Hvor mange distinkte parametere forklares totalt for alle modellene som bruker en summasjonskomponent (Σ) i sin hovedformel?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_003",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "List modellene der hovedformelen ikke involverer eksponensialfunksjonen (f.eks. e^x).",
+    "answer": [
+      [
+        "Neural Networks"
+      ],
+      [
+        "Support Vector Machine"
+      ],
+      [
+        "Decision Tree"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_004",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Hvilken prosentandel av modellene som er oppført, bruker en parameter som representerer individuelle utvalg eller datapunkter (f.eks. 'utvalg i') i sin formulering?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "C8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_005",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Hvis antallet utvalgskategorier 'm' i en beslutningstremodell er 1, hva vil være den beregnede verdien av informasjonentropien 'Ent(D)' ifølge formelen?",
+    "answer": [
+      [
+        "0"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_006",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Hvilken modell sin formel er fundamentalt forskjellig fra de andre, da den presenteres som et optimaliseringsproblem (minimering) snarere enn en direkte beregning av en utgangsverdi?",
+    "answer": [
+      [
+        "Support Vector Machine"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B7",
+      "B9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_007",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "Basert på formlene og parameterne, hvordan kan rollene til 'β'-parameteren i logistisk regresjon og 'w'-parameteren i Support Vector Machine kontrasteres?",
+    "answer": [
+      [
+        "I logistisk regresjon er 'β' en radvektor av regresjonskoeffisienter som, sammen med skjæringspunktet, bestemmer sannsynligheten for et utfall via den logistiske funksjonen. I Support Vector Machine er 'w' en parametervektor som definerer orienteringen til den separerende hyperplanen. Målet i SVM er å finne 'w' som maksimerer marginen mellom klassene ved å minimere L2-normen, mens i logistisk regresjon blir 'β' vanligvis funnet ved å maksimere sannsynligheten for de observerte dataene."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C3",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_008",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvordan reflekterer konseptene 'lag' i nevrale nettverk og 'entropi' i beslutningstrær deres ulike tilnærminger til å lære fra data?",
+    "answer": [
+      [
+        "Konseptet med 'lag' (l og l-1) i nevrale nettverk reflekterer en hierarkisk tilnærming til funksjonslæring. Modellen lærer stadig mer komplekse representasjoner av dataene ved å sende aktiveringer gjennom etterfølgende lag, og justerer vekter ('w') og biaser ('b') for å skape en kompleks funksjonsapproksimator. I kontrast reflekterer konseptet med 'entropi' (Ent(D)) i beslutningstrær en grådig, regelbasert tilnærming. Modellen partisjonerer rekursivt dataene i renere delmengder ved å velge trekk som resulterer i størst reduksjon i entropi (informasjonsgevinst), og skaper et eksplisitt sett med hvis-så-regler."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_009",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Hva er det totale antallet unike modeller beskrevet i tabellen?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_010",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Hvilken kolonne sin primære hensikt er å definere variablene som brukes i den tilstøtende kolonnen?",
+    "answer": [
+      [
+        "Parameter and Explanation"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

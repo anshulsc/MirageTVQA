@@ -1,0 +1,254 @@
+[
+  {
+    "question_id": "arxiv_2448925329_001",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "کدام مجموعه داده بهترین برازش مدل را بر اساس مقدار R-squared نشان می‌دهد؟",
+    "answer": [
+      [
+        "BTC/USD ΔM vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_002",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "مقدار میانگین Kurtosis برای تمام مجموعه داده‌های مربوط به BTC/USD چقدر است؟",
+    "answer": [
+      [
+        "7.7025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_2448925329_003",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "برای مدلی که کمترین مقدار مثبت R-squared را دارد، آماره Durbin-Watson مربوط به آن چیست؟",
+    "answer": [
+      [
+        "0.337"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "I2",
+      "B1",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_004",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "قدرت توضیح‌دهندگی مدل، که با R-squared اندازه‌گیری می‌شود، برای مجموعه داده LUNA/USD چگونه تغییر می‌کند وقتی بازه زمانی از 1 ثانیه به 10 ثانیه افزایش می‌یابد؟",
+    "answer": [
+      [
+        "قدرت توضیح‌دهندگی مدل LUNA/USD، که با مقدار R-squared نشان داده می‌شود، از 0.036 برای بازه زمانی 1 ثانیه‌ای به 0.274 برای بازه زمانی 10 ثانیه‌ای به طور قابل توجهی افزایش می‌یابد. این نشان‌دهنده بیش از هفت برابر افزایش است، که نشان می‌دهد مدل در توضیح تغییرات قیمت در بازه زمانی طولانی‌تر بسیار مؤثرتر است."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_005",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "لیست تمام مجموعه داده‌هایی که در آن‌ها باقی‌مانده‌های مدل به صورت منفی چولگی دارند (Skew < 0) و آماره دوربین-واتسون بزرگتر از 2 است که نشان‌دهنده خودهمبستگی منفی است.",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 1s",
+        "BTC/USD ΔM vs ΔP 1s"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "I1",
+      "A3",
+      "G3",
+      "I3",
+      "G2",
+      "I2",
+      "G4",
+      "I4",
+      "G5",
+      "I5",
+      "G6",
+      "I6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_006",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "چه نسبتی از مجموع کل آماره‌های F به مدل‌هایی با فاصله زمانی 10 ثانیه اختصاص دارد؟",
+    "answer": [
+      [
+        "93.68%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A6",
+      "C6",
+      "C1",
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_2448925329_007",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "اگر مقدار Kurtosis برای مدل 'BTC/USD OFI vs ΔP 10s' به میانگین Kurtosis تمام مدل‌های دیگر تعدیل شود، مقدار جدید آن چقدر خواهد بود؟",
+    "answer": [
+      [
+        "5.700"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_008",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "آیا رابطه ثابتی بین آماره F یک مدل و آماره جارک-برا (JB) آن وجود دارد؟ الگو را تحلیل کنید.",
+    "answer": [
+      [
+        "هیچ رابطه ثابت و مشخصی بین آماره F و آماره جارک-برا (JB) وجود ندارد. به عنوان مثال، مدلی با بالاترین آماره F (15890.0) دارای آماره JB معادل 6560.394 است، در حالی که مدلی با دومین آماره F پایین (137.0) دارای JB بسیار کوچکتر 816.435 است. با این حال، مدلی با پایین‌ترین آماره F (70.87) دارای بالاترین آماره JB (10204.282) است. این نشان می‌دهد که اهمیت کلی مدل (آماره F) و نرمال بودن باقیمانده‌های آن (آماره JB) در این مجموعه داده مستقیماً همبستگی ندارند."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "J1",
+      "C2",
+      "J2",
+      "C3",
+      "J3",
+      "C4",
+      "J4",
+      "C5",
+      "J5",
+      "C6",
+      "J6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_2448925329_009",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "کدام ستون، با حذف شناسه 'Dataset'، گسترده‌ترین طیف مقادیر را با در نظر گرفتن ترتیب بزرگی (از کوچکترین به بزرگترین) دارد؟",
+    "answer": [
+      [
+        "ستون 'Prob(JB)' گسترده‌ترین طیف مقادیر را از نظر بزرگی نشان می‌دهد. این ستون شامل مقادیری به کوچکی 0.0 (عملاً بی‌نهایت کوچک) و مقادیری به بزرگی 4.26e-263، 1.93e-57، 5.17e-178 و 9.05e-92 است که صدها برابر بزرگتر از هر ستون عددی دیگر است و دامنه بسیار وسیعی را پوشش می‌دهد."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B6",
+      "C1",
+      "C6",
+      "D1",
+      "D6",
+      "E1",
+      "E6",
+      "F1",
+      "F6",
+      "G1",
+      "G6",
+      "H1",
+      "H6",
+      "I1",
+      "I6",
+      "J1",
+      "J6",
+      "K1",
+      "K6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_010",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "کدام مجموعه داده آماره جارک-برا (JB) را به عنوان داده پرت دارد که بیش از 5 برابر مقدار JB بعدی باشد؟",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "J1",
+      "J2",
+      "J3",
+      "J4",
+      "J5",
+      "J6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_2448925329_011",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "در بین BTC/USD ΔM در مقابل ΔP 1s و LUNA/USD ΔM در مقابل ΔP 1s، کدام مجموعه داده بر اساس R² و آماره F، قدرت پیش‌بینی بالاتری را نشان می‌دهد؟",
+    "answer": [
+      [
+        "BTC/USD ΔM در مقابل ΔP 1s بالاترین قدرت پیش‌بینی را بر اساس R² و آماره F با R² = 0.168 و آماره F = 723.6 نشان داد."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

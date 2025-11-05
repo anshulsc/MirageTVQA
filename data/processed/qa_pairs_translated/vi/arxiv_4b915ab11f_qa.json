@@ -1,0 +1,188 @@
+[
+  {
+    "question_id": "arxiv_4b915ab11f_001",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Trong số các mô hình được liệt kê, mô hình nào sử dụng kiến trúc cơ sở lớn nhất về số lượng tham số?",
+    "answer": [
+      [
+        "XuanYuan2.0"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D1",
+      "D2",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_002",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Tổng số token trong tập dữ liệu được sử dụng để huấn luyện BloomBergGPT là bao nhiêu?",
+    "answer": [
+      [
+        "708B"
+      ]
+    ],
+    "evidence_cells": [
+      "B1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_003",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Ngân sách đào tạo cho mô hình được xây dựng trên kiến trúc T5 là bao nhiêu?",
+    "answer": [
+      [
+        "Days/weeks"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_004",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Đối với mô hình quy định quy trình dữ liệu đào tạo hai giai đoạn, kích thước tập dữ liệu cho giai đoạn tiền đào tạo là bao nhiêu?",
+    "answer": [
+      [
+        "366B"
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_005",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Xác định LLM nào sử dụng kiến trúc dựa trên BLOOM và có ngân sách đào tạo được công bố tính bằng giờ A100·hours.",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_006",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Phần trăm tổng số corpus đào tạo của BloomBergGPT bao gồm các token công khai là bao nhiêu?",
+    "answer": [
+      [
+        "48.73%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_007",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "open_ended_reasoning",
+    "question": "Nếu ngân sách đào tạo của XuanYuan2.0 được tiết lộ là 2.500.000 giờ A100, điều này sẽ ảnh hưởng như thế nào đến thứ hạng của các mô hình theo ngân sách đào tạo?",
+    "answer": [
+      [
+        "Hiện tại, BloomBergGPT có ngân sách số duy nhất được chỉ định (1.300.000 giờ A100), đưa nó lên hạng nhất. Nếu ngân sách của XuanYuan2.0 là 2.500.000 giờ A100, nó sẽ trở thành mô hình có ngân sách đào tạo đã biết cao nhất, vượt qua BloomBergGPT. Thứ hạng mới cho các mô hình có ngân sách số sẽ là 1. XuanYuan2.0 (2.500.000) và 2. BloomBergGPT (1.300.000)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_008",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "open_ended_reasoning",
+    "question": "Dựa trên dữ liệu này, có một mối tương quan nhất quán giữa số lượng tham số của kiến trúc mô hình và tổng kích thước của kho ngữ liệu đào tạo của nó không?",
+    "answer": [
+      [
+        "Không, không có mối tương quan thuận nhất quán nào rõ ràng trong dữ liệu. Ví dụ, XuanYuan2.0 có kiến trúc lớn hơn nhiều (176B tham số) so với BloomBergGPT (50B tham số), nhưng nó được đào tạo trên một kho ngữ liệu nhỏ hơn (379B token so với 708B token). Điều này cho thấy rằng một mô hình lớn hơn không nhất thiết yêu cầu một kho ngữ liệu đào tạo lớn hơn theo bộ dữ liệu này."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_009",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Cột dữ liệu nào có sự khác biệt lớn nhất về định dạng dữ liệu, chứa một số nguyên lớn, một chuỗi không tiết lộ và một phạm vi dựa trên thời gian?",
+    "answer": [
+      [
+        "Training budget (A100·hours)"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_010",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Ngân sách đào tạo được nêu của mô hình nào là một điểm ngoại lệ dương đáng kể so với thông tin ngân sách có sẵn cho các mô hình khác?",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_011",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Kiến trúc mô hình 50B-BLOOM được sử dụng bởi LLM tiền huấn luyện nào?",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,269 @@
+[
+  {
+    "question_id": "arxiv_a783ff97d3_001",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Vilken funktionsvalsmetod uppnådde lägst felvärde för 'BC2_64' prognosinställning?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_002",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Vad är det genomsnittliga antalet exogena variabler som används av metoden 'LASSO regression feature selection' över alla prognosinställningar?",
+    "answer": [
+      [
+        "6.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_003",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "För 'BC3_28' prognosinställning, vad är felmåttet för metoden som använder det högsta antalet externa variabler?",
+    "answer": [
+      [
+        "18.23"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "G2",
+      "G3",
+      "A4",
+      "G4",
+      "G5",
+      "A6",
+      "G6",
+      "G7",
+      "A8",
+      "G8",
+      "G9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_004",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Förbättrar en ökning av antalet exogena variabler konsekvent prestandan (d.v.s. sänker felvärdet) för inställningen 'BC1_64'? Ge en kort analys.",
+    "answer": [
+      [
+        "Nej, det finns inget konsekvent samband. För inställningen 'BC1_64' använder 'Correlation-Based Selection' 3 variabler för ett fel på 14.11, 'LASSO regression feature selection' använder också 3 variabler men har ett högre fel på 14.55. 'Forward Feature Selection NP' använder ett mycket större antal variabler (28) och uppnår ett betydligt bättre (lägre) fel på 9.16. Detta tyder på att även om ett högre antal variabler kan vara bättre, är den specifika urvalsmetoden kritisk och att enbart lägga till variabler är ingen garanti för förbättring."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "B3",
+      "A4",
+      "B4",
+      "B5",
+      "A6",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_005",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Lista alla funktionsvalmetoder som resulterade i ett felfelvärde större än 15 för inställningen 'BC3_64'.",
+    "answer": [
+      [
+        "Without exogenous variables"
+      ],
+      [
+        "Correlation-Based Selection"
+      ],
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Manual feature selection"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A4",
+      "F4",
+      "A6",
+      "F6",
+      "A8",
+      "F8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_006",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Vilken procentandel av det totala antalet externa variabler som används av 'Forward Feature Selection NP' över alla inställningar allokerades till inställningen 'BC1_64'?",
+    "answer": [
+      [
+        "28.57"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_007",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Om ett databehandlingsfel orsakade att alla felfunktioner för inställningen 'BC2_28' blev 2,5 poäng lägre än registrerat, vad skulle det nya felet för 'Manuell urvalsmetod' vara?",
+    "answer": [
+      [
+        "13.57"
+      ]
+    ],
+    "evidence_cells": [
+      "E8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_008",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Bland de metoderna för funktionsval där antalet variabler explicit listas, vilken visar störst instabilitet, mätt som intervallet (max minus min) av variabler som valts över de olika prognosinställningarna?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "A6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "A8",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9",
+      "G9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_009",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "För metoden 'LASSO regression feature selection', är felvärdet för 'BC3_28' en extremvärde. Hur jämför sig dess motsvarande antal exogena variabler med de andra inställningarna för samma metod?",
+    "answer": [
+      [
+        "Inställningen 'BC3_28', som har det extremt höga felet på 28.79 för LASSO, använder också det högsta antalet exogena variabler (16) för den metoden. Detta är betydligt mer än de andra inställningarna, som ligger mellan 0 och 10 variabler. Detta tyder på ett potentiellt problem där LASSO-metoden valde en stor, men dåligt presterande, uppsättning funktioner för just detta prognossammanhang."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5",
+      "E4",
+      "E5",
+      "F4",
+      "F5",
+      "G4",
+      "G5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_010",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Analysera prestandan för baslinjen 'Utan exogena variabler' och beskriv trenden i felmetriken när du rör dig sekventiellt från 'BC1'-inställningarna till 'BC2' och sedan 'BC3'.",
+    "answer": [
+      [
+        "Prestandan för baslinjen 'Utan exogena variabler' visar ett tydligt mönster över inställningarna. Den börjar med måttliga felvärden för BC1-inställningarna (11.14, 13.65). Prestandan förbättras dramatiskt för BC2-inställningarna, som har de lägsta felen (3.75, 9.08). Slutligen ökar felet igen för BC3-inställningarna (17.53, 9.06), där BC3_64 har det högsta felet totalt sett för denna metod. Detta indikerar att basmodellen är bäst lämpad för förhållandena i BC2."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_011",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Mellan 'LASSO regression feature selection' och 'Forward Feature Selection NP', vilken prognosinställning uppnådde ett lägre värde i BC2_64-konfigurationen?",
+    "answer": [
+      [
+        "'Forward Feature Selection NP' uppnådde ett lägre värde (2,9) jämfört med 'LASSO regression feature selection' (5,73) i BC2_64-konfigurationen."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "D5",
+      "D7"
+    ],
+    "reasoning_category": "Comaparative Reasoning"
+  }
+]

@@ -1,0 +1,266 @@
+[
+  {
+    "question_id": "arxiv_2ffada3c04_001",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "Welches Modell, das für 'Multi-Asset'-Märkte entwickelt wurde, hat den geringsten Rechenaufwand?",
+    "answer": [
+      [
+        "DRPO"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A6",
+      "D6",
+      "E6",
+      "A9",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_002",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "Wie hoch ist die Gesamtzahl der Modelle, die eine 'Direct'-Ausführungsstrategie verwenden?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_003",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "Welches Modell mit 'hohen' Rechenanforderungen führt 'Robuste Mustererkennung' als Stärke an?",
+    "answer": [
+      [
+        "StockFormer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "F1",
+      "A4",
+      "E4",
+      "F4",
+      "A5",
+      "E5",
+      "F5",
+      "A8",
+      "E8",
+      "F8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_004",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "Identifizieren Sie alle Modelle, die im 'Equities'-Markt operieren und eine 'Indirect'-Ausführungsmethode verwenden.",
+    "answer": [
+      [
+        "CPPI-MADDPG"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "A7",
+      "C7",
+      "D7",
+      "A8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_005",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "Welcher Prozentsatz aller aufgeführten Modelle hat einen 'hohen' oder 'sehr hohen' Rechenaufwand?",
+    "answer": [
+      [
+        "55.6%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_006",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "Wenn eine Unternehmensinfrastruktur nur Modelle mit 'mittlerem' oder 'niedrigem' Rechenaufwand unterstützen könnte, welche Handelsstrategien, die in der Tabelle aufgeführt sind, wären ihnen dann vollständig nicht verfügbar?",
+    "answer": [
+      [
+        "Predictive"
+      ],
+      [
+        "Hybrid"
+      ],
+      [
+        "Signal"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "E1",
+      "B4",
+      "E4",
+      "B5",
+      "E5",
+      "B6",
+      "E6",
+      "B8",
+      "E8",
+      "B9",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_007",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "open_ended_reasoning",
+    "question": "Welche scheinbare Beziehung gibt es basierend auf den Daten zwischen dem 'Execution'-Typ eines Modells und seinem 'Compute'-Anforderungsniveau?",
+    "answer": [
+      [
+        "Es scheint eine Korrelation zwischen dem Ausführungstyp und den Rechenanforderungen zu geben. Alle vier Modelle mit 'hohen' Rechenanforderungen (StockFormer, EarnHFT, MacroHFT, HRT) und das Modell mit 'sehr hohen' Rechenanforderungen (TRR) sind auf 'Direct' (3) und 'Indirect' (2) Ausführung aufgeteilt. Modelle mit 'mittleren' oder 'niedrigen' Rechenanforderungen sind jedoch überwiegend 'Direct' (3 von 4), wobei nur eines eine 'Indirect'-Ausführung verwendet. Dies deutet darauf hin, dass zwar rechenintensive Modelle entweder direkt oder indirekt sein können, niedrigere Rechenmodelle in diesem Datensatz aber eher eine direkte Ausführungsstrategie anwenden, möglicherweise um den Latenz-Overhead zu minimieren, den eine indirekte Schicht einführen könnte."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C2",
+      "E2",
+      "C3",
+      "E3",
+      "C4",
+      "E4",
+      "C5",
+      "E5",
+      "C6",
+      "E6",
+      "C7",
+      "E7",
+      "C8",
+      "E8",
+      "C9",
+      "E9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_008",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "Welches Modell hat einen 'Sehr hohen' Rechenaufwand und ist damit in Bezug auf den Rechenbedarf ein Ausreißer?",
+    "answer": [
+      [
+        "TRR"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_009",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "Welche Modelle sind durch ein 'Marktspezifisches'- oder 'Fokus auf einen Markt'-Design eingeschränkt, operieren aber nicht im 'Krypto'-Markt?",
+    "answer": [
+      [
+        "MacMic"
+      ],
+      [
+        "IMM"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "G2",
+      "A3",
+      "D3",
+      "G3",
+      "A5",
+      "D5",
+      "G5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_010",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "open_ended_reasoning",
+    "question": "Ein Portfoliomanager wünscht sich ein Modell mit Abwärtsrisikoschutz für Aktien, ist aber besorgt über die Komplexität. Was sind basierend auf den Daten die primären Kompromisse für das am besten geeignete Modell?",
+    "answer": [
+      [
+        "Das am besten geeignete Modell ist CPPI-MADDPG, das sich auf den Markt für 'Aktien' mit einer 'Portfolio'-Strategie konzentriert und explizit 'Abwärtsrisikoschutz' als Kernstärke aufführt. Die primären Kompromisse, wie in den 'Key Limitations' (Schlüsseleinschränkungen) angegeben, sind 'Coordination overhead' (Koordinationsaufwand) und 'Slower adaptation' (langsamere Anpassung). Das bedeutet, der Manager erhält Portfoliosicherheit auf Kosten erhöhter betrieblicher Komplexität und einer verringerten Fähigkeit, schnell auf Marktveränderungen zu reagieren."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "D7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_011",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "Welches Handelsmodell verwendet eine prädiktive Strategie und hohen Rechenaufwand?",
+    "answer": [
+      [
+        "StockFormer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "E1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,254 @@
+[
+  {
+    "question_id": "arxiv_2448925329_001",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Hvilket datasæt viser den stærkeste modeltilpasning, som angivet ved R-squared-værdien?",
+    "answer": [
+      [
+        "BTC/USD ΔM vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_002",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Hvad er den gennemsnitlige Kurtosis-værdi for alle datasæt, der involverer BTC/USD?",
+    "answer": [
+      [
+        "7.7025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_2448925329_003",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "For modellen med den laveste positive R-squared-værdi, hvad er dens tilsvarende Durbin-Watson-statistik?",
+    "answer": [
+      [
+        "0.337"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "I2",
+      "B1",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_004",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvordan ændrer modellens forklaringsevne, målt ved R-squared, sig for LUNA/USD datasættet, når tidsintervallet øges fra 1s til 10s?",
+    "answer": [
+      [
+        "LUNA/USD-modellens forklaringsevne, angivet ved R-squared-værdien, stiger markant fra 0,036 for 1-sekunders intervallet til 0,274 for 10-sekunders intervallet. Dette repræsenterer en stigning på mere end syv gange, hvilket tyder på, at modellen er væsentligt mere effektiv til at forklare prisændringer over den længere tidsramme."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_005",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "List alle datasæt, hvor modellens residualer er negativt skæve (Skew < 0) og Durbin-Watson-statistikken er større end 2, hvilket indikerer negativ autokorrelation.",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 1s",
+        "BTC/USD ΔM vs ΔP 1s"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "I1",
+      "A3",
+      "G3",
+      "I3",
+      "G2",
+      "I2",
+      "G4",
+      "I4",
+      "G5",
+      "I5",
+      "G6",
+      "I6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_006",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Hvilken andel af den samlede sum af alle F-statistikker udgøres af modeller med et 10s interval?",
+    "answer": [
+      [
+        "93.68%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A6",
+      "C6",
+      "C1",
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_2448925329_007",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Hvis Kurtosis for modellen 'BTC/USD OFI vs ΔP 10s' blev justeret til den gennemsnitlige Kurtosis for alle andre modeller, hvad ville dens nye værdi være?",
+    "answer": [
+      [
+        "5.700"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_008",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Er der et konsistent forhold mellem en models F-statistik og dens Jarque-Bera (JB) statistik? Analyser mønsteret.",
+    "answer": [
+      [
+        "Der er intet konsistent, entydigt forhold mellem F-statistikken og Jarque-Bera (JB) statistikken. For eksempel har modellen med den højeste F-statistik (15890,0) en JB-statistik på 6560,394, mens modellen med den næstlaveste F-statistik (137,0) har en meget mindre JB på 816,435. Dog har modellen med den laveste F-statistik (70,87) den højeste JB-statistik (10204,282). Dette indikerer, at modellens samlede signifikans (F-statistik) og normaliteten af dens residualer (JB-statistik) ikke er direkte korreleret i dette datasæt."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "J1",
+      "C2",
+      "J2",
+      "C3",
+      "J3",
+      "C4",
+      "J4",
+      "C5",
+      "J5",
+      "C6",
+      "J6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_2448925329_009",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvilken kolonne, eksklusive 'Dataset'-identifikatoren, indeholder det bredeste værdiområde, når man betragter størrelsesordenen (fra mindst til størst)?",
+    "answer": [
+      [
+        "Kolonnen 'Prob(JB)' viser det bredeste værdiområde i forhold til størrelsesordenen. Den indeholder værdier så små som 0,0 (effektivt infinitesimalt) og værdier så store som 4,26e-263, 1,93e-57, 5,17e-178 og 9,05e-92, hvilket spænder over mange hundrede størrelsesordener, langt større end nogen anden numerisk kolonne."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B6",
+      "C1",
+      "C6",
+      "D1",
+      "D6",
+      "E1",
+      "E6",
+      "F1",
+      "F6",
+      "G1",
+      "G6",
+      "H1",
+      "H6",
+      "I1",
+      "I6",
+      "J1",
+      "J6",
+      "K1",
+      "K6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_010",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Hvilket datasæt har en Jarque-Bera (JB) statistik, der er en outlier, hvilket er mere end 5 gange større end den næsthøjeste JB-værdi?",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "J1",
+      "J2",
+      "J3",
+      "J4",
+      "J5",
+      "J6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_2448925329_011",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Mellem BTC/USD ΔM vs ΔP 1s og LUNA/USD ΔM vs ΔP 1s, hvilket datasæt viser en højere prædiktiv kraft baseret på R² og F-statistik?",
+    "answer": [
+      [
+        "BTC/USD ΔM vs ΔP 1s demonstrerede den højeste prædiktive kraft baseret på R² og F-statistik, med R² = 0,168 og F-statistik = 723,6."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

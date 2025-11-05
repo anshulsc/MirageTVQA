@@ -1,0 +1,269 @@
+[
+  {
+    "question_id": "arxiv_a783ff97d3_001",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC2_64' ఫోర్‌కాస్టింగ్ సెట్టింగ్ కోసం ఏ ఫీచర్ సెలెక్షన్ పద్ధతి అత్యల్ప ఎర్రర్ విలువను సాధించింది?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_002",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'LASSO రిగ్రెషన్ ఫీచర్ సెలెక్షన్' పద్ధతి అన్ని ఫోర్కాస్టింగ్ సెట్టింగులలో ఉపయోగించే సగటు ఎక్సోజెనస్ వేరియబుల్స్ సంఖ్య ఎంత?",
+    "answer": [
+      [
+        "6.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_003",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC3_28' ఫోర్కాస్టింగ్ సెట్టింగ్ కోసం, అత్యధిక సంఖ్యలో ఎక్సోజెనస్ వేరియబుల్స్‌ను ఉపయోగించే పద్ధతి యొక్క ఎర్రర్ మెట్రిక్ ఏమిటి?",
+    "answer": [
+      [
+        "18.23"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "G2",
+      "G3",
+      "A4",
+      "G4",
+      "G5",
+      "A6",
+      "G6",
+      "G7",
+      "A8",
+      "G8",
+      "G9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_004",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'BC1_64' సెట్టింగ్ కోసం, ఎక్సోజెనస్ వేరియబుల్స్ సంఖ్యను పెంచడం వల్ల పనితీరు స్థిరంగా మెరుగుపడుతుందా (అంటే, లోపం విలువ తగ్గుతుందా)? సంక్షిప్త విశ్లేషణను అందించండి.",
+    "answer": [
+      [
+        "లేదు, స్థిరమైన సంబంధం లేదు. 'BC1_64' సెట్టింగ్ కోసం, 'Correlation-Based Selection' 3 వేరియబుల్స్‌ను 14.11 లోపంతో ఉపయోగిస్తుంది, 'LASSO regression' కూడా 3 వేరియబుల్స్‌ను ఉపయోగిస్తుంది కానీ 14.55 లోపంతో ఎక్కువగా ఉంది. 'Forward Feature Selection NP' చాలా ఎక్కువ సంఖ్యలో వేరియబుల్స్‌ను (28) ఉపయోగిస్తుంది మరియు గణనీయంగా మెరుగైన (తక్కువ) లోపం 9.16 ను సాధిస్తుంది. దీని ప్రకారం, ఎక్కువ సంఖ్యలో వేరియబుల్స్ మెరుగ్గా ఉన్నప్పటికీ, నిర్దిష్ట ఎంపిక పద్ధతి కీలకం మరియు కేవలం వేరియబుల్స్‌ను జోడించడం మెరుగుదలకు హామీ ఇవ్వదు."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "B3",
+      "A4",
+      "B4",
+      "B5",
+      "A6",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_005",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC3_64' సెట్టింగ్ కోసం 15 కంటే ఎక్కువ ఎర్రర్ విలువను అందించిన అన్ని ఫీచర్ ఎంపిక పద్ధతులను జాబితా చేయండి.",
+    "answer": [
+      [
+        "Without exogenous variables"
+      ],
+      [
+        "Correlation-Based Selection"
+      ],
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Manual feature selection"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A4",
+      "F4",
+      "A6",
+      "F6",
+      "A8",
+      "F8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_006",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'ఫార్వర్డ్ ఫీచర్ సెలెక్షన్ NP' ద్వారా ఉపయోగించబడిన మొత్తం ఎక్సోజెనస్ వేరియబుల్స్‌లో 'BC1_64' సెట్టింగ్‌కు ఎంత శాతం కేటాయించబడింది?",
+    "answer": [
+      [
+        "28.57"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_007",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC2_28' సెట్టింగ్‌కు సంబంధించి అన్ని ఎర్రర్ మెట్రిక్‌లు రికార్డ్ చేసిన దానికంటే 2.5 పాయింట్లు తక్కువగా ఉంటే, 'మాన్యువల్ ఫీచర్ సెలెక్షన్'కు కొత్త ఎర్రర్ ఎంత ఉంటుంది?",
+    "answer": [
+      [
+        "13.57"
+      ]
+    ],
+    "evidence_cells": [
+      "E8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_008",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "వివిధ అంచనా సెట్టింగ్‌లలో ఎంచుకున్న వేరియబుల్స్ పరిధి (గరిష్ట మైనస్ కనిష్ట) ద్వారా కొలవబడిన అతిపెద్ద అస్థిరతను ప్రదర్శించే, వేరియబుల్స్ సంఖ్య స్పష్టంగా జాబితా చేయబడిన ఫీచర్ ఎంపిక పద్ధతులలో ఏది?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "A6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "A8",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9",
+      "G9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_009",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'LASSO regression feature selection' పద్ధతి కోసం, 'BC3_28' యొక్క ఎర్రర్ విలువ ఒక ఔట్‌లయర్. అదే పద్ధతిలోని ఇతర సెట్టింగ్‌లతో పోలిస్తే దీనికి సంబంధించిన ఎక్సోజీనస్ వేరియబుల్స్ సంఖ్య ఎలా ఉంది?",
+    "answer": [
+      [
+        "LASSO కోసం 28.79 అనే అసాధారణంగా అధిక ఎర్రర్‌ను కలిగి ఉన్న 'BC3_28' సెట్టింగ్, ఆ పద్ధతికి అత్యధిక సంఖ్యలో ఎక్సోజీనస్ వేరియబుల్స్ (16)ను కూడా ఉపయోగిస్తుంది. ఇది ఇతర సెట్టింగ్‌ల కంటే చాలా ఎక్కువ, అవి 0 నుండి 10 వేరియబుల్స్ వరకు ఉంటాయి. ఈ నిర్దిష్ట ఫోర్‌కాస్టింగ్ సందర్భంలో LASSO పద్ధతి పెద్ద, కానీ తక్కువ పనితీరు కనబరిచే ఫీచర్ల సెట్‌ను ఎంచుకుందని ఇది సూచిస్తుంది."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5",
+      "E4",
+      "E5",
+      "F4",
+      "F5",
+      "G4",
+      "G5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_010",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'ఎక్సోజీనస్ వేరియబుల్స్ లేకుండా' అనే బేస్‌లైన్ పనితీరును విశ్లేషిస్తూ, 'BC1' సెట్టింగ్‌ల నుండి 'BC2'కి, ఆపై 'BC3'కి క్రమంగా వెళ్లే కొద్దీ ఎర్రర్ మెట్రిక్‌లో ట్రెండ్‌ను వివరించండి.",
+    "answer": [
+      [
+        "'ఎక్సోజీనస్ వేరియబుల్స్ లేకుండా' అనే బేస్‌లైన్ పనితీరు సెట్టింగ్‌ల అంతటా స్పష్టమైన నమూనాను చూపుతుంది. ఇది BC1 సెట్టింగ్‌లకు (11.14, 13.65) మధ్యస్తమైన ఎర్రర్ విలువలతో ప్రారంభమవుతుంది. BC2 సెట్టింగ్‌ల కోసం పనితీరు నాటకీయంగా మెరుగుపడుతుంది, ఇది అతి తక్కువ ఎర్రర్‌లను (3.75, 9.08) కలిగి ఉంటుంది. చివరగా, BC3 సెట్టింగ్‌ల (17.53, 9.06) కోసం ఎర్రర్ మళ్లీ పెరుగుతుంది, ఈ పద్ధతికి BC3_64 మొత్తంమీద అత్యధిక ఎర్రర్‌ను కలిగి ఉంటుంది. ఇది బేస్‌లైన్ మోడల్ BC2 పరిస్థితులకు ఉత్తమంగా సరిపోతుందని సూచిస్తుంది."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_011",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'LASSO regression feature selection' మరియు 'Forward Feature Selection NP' లలో, BC2_64 కాన్ఫిగరేషన్‌లో తక్కువ విలువను ఏ ఫోర్కాస్టింగ్ సెట్టింగ్ సాధించింది?",
+    "answer": [
+      [
+        "'Forward Feature Selection NP' BC2_64 కాన్ఫిగరేషన్‌లో 'LASSO regression feature selection' (5.73) తో పోలిస్తే తక్కువ విలువను (2.9) సాధించింది."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "D5",
+      "D7"
+    ],
+    "reasoning_category": "Comaparative Reasoning"
+  }
+]

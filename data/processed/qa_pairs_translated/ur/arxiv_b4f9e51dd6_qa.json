@@ -1,0 +1,245 @@
+[
+  {
+    "question_id": "arxiv_b4f9e51dd6_001",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "کون سی ماڈیول کنفیگریشن سب سے طویل پیش گوئی کے دورانیے، MSE30، پر سب سے کم (بہترین) کارکردگی حاصل کرتی ہے؟",
+    "answer": [
+      [
+        "Audio+Text+Eos+Ecs+Efo"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A3",
+      "F3",
+      "A4",
+      "F4",
+      "A5",
+      "F5",
+      "A6",
+      "F6",
+      "A7",
+      "F7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_002",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "ان تمام ماڈیولز میں MSE3 کا اوسط سکور کیا ہے جن کی کنفیگریشن میں 'Audio+Text' شامل ہے؟",
+    "answer": [
+      [
+        "0.614"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_003",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "اس ماڈیول کے لیے جو بہترین مجموعی کارکردگی کا مظاہرہ کرتا ہے (MSE_over کالم میں سب سے کم قیمت)، اس کا مخصوص MSE7 سکور کیا ہے؟",
+    "answer": [
+      [
+        "0.306"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "D7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_004",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "open_ended_reasoning",
+    "question": "جب پیش گوئی کا افق MSE3 سے MSE30 تک بڑھتا ہے تو 'Audio+Text+Efo' ماڈیول کے لیے Mean Squared Error (MSE) کے رجحان کو بیان کریں۔",
+    "answer": [
+      [
+        "'Audio+Text+Efo' ماڈیول کے لیے MSE پیش گوئی کے افق میں توسیع کے ساتھ بہتری (غلطی میں کمی) کا واضح رجحان دکھاتا ہے۔ یہ MSE3 کے لیے 0.579 کی اپنی سب سے زیادہ غلطی کی سطح سے شروع ہوتا ہے، پھر MSE7 کے لیے نمایاں طور پر کم ہو کر 0.323 ہو جاتا ہے، اور MSE15 کے لیے 0.230 تک مسلسل کم ہوتا رہتا ہے اور MSE30 کے لیے اپنی سب سے کم سطح 0.165 تک پہنچ جاتا ہے۔"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_005",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "ان تمام ماڈیول کنفیگریشنز کی فہرست بنائیں جن کا MSE15 سکور 0.25 سے کم ہو اور MSE30 سکور 0.18 سے کم ہو۔",
+    "answer": [
+      [
+        "Audio+Text+Efo"
+      ],
+      [
+        "Eos+Ecs+Efo"
+      ],
+      [
+        "Audio+Text+Eos+Ecs+Efo"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E5",
+      "F5",
+      "A6",
+      "E6",
+      "F6",
+      "A7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_006",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "بیس لائن 'Audio+Text' ماڈیول سے سب سے پیچیدہ 'Audio+Text+Eos+Ecs+Efo' ماڈیول پر منتقل ہونے پر MSE30 ایرر میں کتنے فیصد کمی واقع ہوتی ہے؟",
+    "answer": [
+      [
+        "22.55%"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_007",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "اگر ڈیٹا پری پروسیسنگ میں بہتری نے 'Eos+Ecs+Efo' ماڈیول کے لیے MSE_over قدر کو 15% کم کر دیا، تو تمام سات ماڈیولز میں نئی اوسط MSE_over قدر کیا ہوگی؟",
+    "answer": [
+      [
+        "0.349"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_008",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "open_ended_reasoning",
+    "question": "ڈیٹا کی بنیاد پر، کیا کسی ماڈیول کی قلیل مدتی کارکردگی (MSE3) اور اس کی طویل مدتی کارکردگی (MSE30) کے درمیان کوئی مستقل تعلق ہے؟ اپنے جواب کی وضاحت کریں۔",
+    "answer": [
+      [
+        "جی ہاں، ایک مضبوط مثبت تعلق ہے۔ سب سے کم MSE3 اسکور والے ماڈیولز، 'Audio+Text+Eos+Ecs+Efo' (0.553) اور 'Audio+Text+Efo' (0.579) کے MSE30 اسکور بھی سب سے کم ہیں (بالترتیب 0.158 اور 0.165)۔ اس کے برعکس، سب سے زیادہ MSE3 اسکور والے ماڈیولز، جیسے 'Audio+Text' (0.645) اور 'Audio+Text+Ecs' (0.640)، سب سے زیادہ MSE30 اسکور ظاہر کرتے ہیں (0.204 اور 0.201)۔ یہ اس بات کی نشاندہی کرتا ہے کہ جو ماڈیولز قلیل مدتی پیشین گوئیوں پر اچھی کارکردگی دکھاتے ہیں، وہ طویل مدتی پیشین گوئیوں پر بھی اچھی کارکردگی دکھانے کا رجحان رکھتے ہیں۔"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "F1",
+      "C2",
+      "F2",
+      "C3",
+      "F3",
+      "C4",
+      "F4",
+      "C5",
+      "F5",
+      "C6",
+      "F6",
+      "C7",
+      "F7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_009",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "جدول کی ساخت میں MSE7 اور MSE15 کے پیش گوئی کے افق کے درمیان عددی فرق کتنا ہے؟",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_010",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "کون سے ماڈیولز MSE7 ہورائزن پر بیس لائن 'آڈیو+ٹیکسٹ' ماڈیول کے مقابلے میں بدتر کارکردگی کا مظاہرہ کرتے ہیں (یعنی ان کا MSE زیادہ ہے)، جس کی وجہ سے اس خاص مقام پر ان کی کارکردگی، فیچرز شامل کرنے سے متوقع بہتری کے مقابلے میں، ایک آؤٹ لائر بن جاتی ہے؟",
+    "answer": [
+      [
+        "Audio+Text+Eos"
+      ],
+      [
+        "Audio+Text+Ecs"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_011",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "آڈیو+ٹیکسٹ ماڈیول کا اوسط MSE کیا ہے؟",
+    "answer": [
+      [
+        "0.373"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

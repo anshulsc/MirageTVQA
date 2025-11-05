@@ -1,0 +1,235 @@
+[
+  {
+    "question_id": "arxiv_146818ba46_001",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "کدام مدل‌ها مقیاس‌پذیری زیرخطی (Sublinear) را ارائه می‌دهند و تفاوت کلیدی در ویژگی‌های پشتیبانی شده آن‌ها ('پیش‌آموزش'، 'چند وظیفه‌ای') چیست؟",
+    "answer": [
+      [
+        "TimeMixer و PatchTST مقیاس‌پذیری زیرخطی (Sublinear) را ارائه می‌دهند. تفاوت کلیدی این است که TimeMixer از یادگیری چند وظیفه‌ای (Multi-task) پشتیبانی می‌کند در حالی که PatchTST اینطور نیست؛ هیچ‌کدام از این مدل‌ها از پیش‌آموزش (Pre-training) استفاده نمی‌کنند."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "E3",
+      "A5",
+      "B5",
+      "C5",
+      "E5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_002",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "تعداد کل مدل‌هایی که از پیش‌آموزش یا یادگیری چندوظیفه‌ای پشتیبانی می‌کنند، اما نه هر دو، چقدر است؟",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_146818ba46_003",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "برنامه اصلی مدلی را که مقیاس‌پذیری خطی و الزامات محاسباتی متوسط دارد، شناسایی کنید.",
+    "answer": [
+      [
+        "Task Flexibility"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_004",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "اگر یک پروژه تحقیقاتی از نیاز به مدلی برای 'دنباله‌های طولانی' شروع شود و بعداً به مدلی با 'انعطاف‌پذیری وظیفه' نیاز پیدا کند، کدام مدل در مرحله دوم انتخاب مناسبی خواهد بود؟",
+    "answer": [
+      [
+        "TimesNet"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "F4",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_005",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "مدل‌هایی را که از پیش‌آموزش استفاده نمی‌کنند و مقیاس‌پذیری زیرخطی را ارائه می‌دهند، فهرست کنید.",
+    "answer": [
+      [
+        "TimeMixer"
+      ],
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "E3",
+      "A5",
+      "B5",
+      "E5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_006",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "چه نسبتی از مدل‌های فهرست شده به منابع محاسباتی 'بالا' نیاز دارند؟",
+    "answer": [
+      [
+        "40%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_146818ba46_007",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "اگر 'TimesNet' برای پشتیبانی از 'پیش‌آموزش' تقویت شود، کدام مدل موجود از نظر ویژگی‌ها (پیش‌آموزش، چندوظیفه‌ای، محاسبات، مقیاس‌پذیری) به آن نزدیک‌تر خواهد بود؟",
+    "answer": [
+      [
+        "TimesNet تقویت‌شده به هیچ مدل واحد دیگری شباهت زیادی نخواهد داشت. در حالی که 'پیش‌آموزش'، 'چندوظیفه‌ای' و مقیاس‌پذیری 'خطی' را با Timer و MOMENT به اشتراک می‌گذارد، محاسبات 'متوسط' آن همچنان آن را از الزامات 'بالا'ی محاسباتی آنها متمایز می‌کند."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "B4",
+      "C4",
+      "D4",
+      "E4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_008",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "آیا ارتباط قابل تشخیصی بین مقیاس‌پذیری یک مدل و تمرکز کاربرد اصلی آن بر طول توالی یا انعطاف‌پذیری وجود دارد؟",
+    "answer": [
+      [
+        "بله، به نظر می‌رسد ارتباطی وجود دارد. مدل‌هایی با مقیاس‌پذیری کارآمدتر «زیرخطی» (TimeMixer، PatchTST) با کاربردهایی که شامل الگوهای پیچیده یا توالی‌های طولانی ('الگوهای چندمقیاسی'، 'توالی‌های طولانی') هستند، مرتبط می‌باشند. در مقابل، مدل‌هایی با مقیاس‌پذیری «خطی» تمایل دارند برای وظایفی که نیاز به انعطاف‌پذیری یا یادگیری تحت محدودیت‌ها ('یادگیری چند نمونه‌ای'، 'نظارت محدود'، 'انعطاف‌پذیری وظیفه') دارند، به کار گرفته شوند."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "E2",
+      "F2",
+      "E3",
+      "F3",
+      "E4",
+      "F4",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_146818ba46_009",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "کدام ستون، به غیر از 'مدل'، متنوع‌ترین مجموعه مقادیر منحصربه‌فرد را دارد؟",
+    "answer": [
+      [
+        "Primary Application"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_010",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "کدام مدل به دلیل عدم پشتیبانی از پیش‌آموزش یا یادگیری چندوظیفه‌ای، یک مورد استثنا محسوب می‌شود؟",
+    "answer": [
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_146818ba46_011",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "کاربرد اصلی Timer چیست؟",
+    "answer": [
+      [
+        "Few-shot Learning"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

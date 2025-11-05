@@ -1,0 +1,260 @@
+[
+  {
+    "question_id": "arxiv_82ccef75df_001",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "'Llama' ailesinden (örneğin Llama2, LLaMA-2, FinLlama vb.) bir LLM kullanan listelenen yöntemlerden kaç tanesi vardır?",
+    "answer": [
+      [
+        "7"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B5",
+      "B7",
+      "B8",
+      "B9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_002",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "En çok çeşitli veri kaynakları tarafından desteklenen uygulama hangisidir?",
+    "answer": [
+      [
+        "Financial sentiment analysis and return prediction"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_003",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "'StockGPT' modelini kullanan yöntem için veri kaynağı nedir?",
+    "answer": [
+      [
+        "AlphaFin"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_004",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Model adında 'GPT' geçen VE hisse senedi hareketlerini tahmin etmek için uygulanan 'Yöntem/Makale' girişlerini listeleyin.",
+    "answer": [
+      [
+        "[25]"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "D5",
+      "B1",
+      "D1"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_005",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Listelenen yöntemlerin yüzde kaçının başvurusunda açıkça 'tahmin', 'tahmin etme' veya 'trendler' yer almaktadır?",
+    "answer": [
+      [
+        "55.56%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_006",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Genel veri türleri tanımları yerine ('AlphaFin') benzersiz bir şekilde adlandırılmış bir platform olan bir veri kaynağı kullanan yöntem hangisidir?",
+    "answer": [
+      [
+        "Stock-Chain framework [27]"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_007",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "open_ended_reasoning",
+    "question": "'FinLlama [35]'nin oluşturucuları, 'S&P 500' ve 'piyasa endekslerini' verilerine dahil etselerdi, projeleri tabloya göre hangi mevcut uygulamayla en çok örtüşürdü ve neden?",
+    "answer": [
+      [
+        "Proje 'Hisse senedi hareketlerini tahmin etme' ile en çok örtüşürdü. Bunun nedeni, '[25]' yönteminin bu özel uygulama için çok benzer bir veri kombinasyonu ('S&P 500', 'finansal raporlar', 'piyasa endeksleri') kullanması ve FinLlama'nın zaten 'Kazanç raporlarını' kullanmasıdır."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_008",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "open_ended_reasoning",
+    "question": "Tabloya göre, kullanılan LLM modeli sayısı ile belirli bir yöntem için veri kaynağı sayısı arasında gözlemlenebilir bir ilişki var mı?",
+    "answer": [
+      [
+        "Evet, bir korelasyon olduğu görülüyor. Birden fazla LLM modeli listeleyen yöntemler (Multimodal Gen-AI [9], Fine-tuning LLMs [8], [25]) aynı zamanda birden fazla, çeşitli veri kaynağı kullanma eğilimindedir (sırasıyla 4, 1 ve 4). Tersine, tek bir LLM belirten yöntemler genellikle, her zaman olmasa da, daha az veya daha odaklanmış veri kaynağı kullanır (örneğin, Stock-Chain framework [27] veya SAPPO [37]). Bu, daha karmaşık, çoklu model yaklaşımlarının daha geniş bir veri girdisi dizisinden bilgi sentezlemek üzere tasarlanmış olabileceğini göstermektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_009",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "'LLM Modeli' veya 'Veri' sütunlarından hangisi daha fazla birden fazla farklı öğe (virgülle veya 've' ile ayrılmış) içeren girdi barındırıyor?",
+    "answer": [
+      [
+        "Data"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B5",
+      "C1",
+      "C3",
+      "C5",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_010",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Llama ailesinden bir model tarafından desteklenen ve herhangi bir 'haber' verisiyle eğitilen tüm uygulamaları belirleyin.",
+    "answer": [
+      [
+        "AI-assisted investment analysis"
+      ],
+      [
+        "Stock return prediction"
+      ],
+      [
+        "Financial sentiment analysis and return prediction"
+      ],
+      [
+        "Trading strategies"
+      ],
+      [
+        "Portfolio optimization"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "C3",
+      "D3",
+      "B7",
+      "C7",
+      "D7",
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_011",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "open_ended_reasoning",
+    "question": "Hisse senedi fiyatı tahmini için hangi LLM modelleri uygulandı ve hangi veri kümeleri kullanıldı?",
+    "answer": [
+      [
+        "Hisse senedi fiyatı tahmini için Distilled RoBERT ve LLaMA3-8B modelleri kullanıldı. Kullanılan veri kümeleri Finansal haber verileri, S&P- Bigdata23, Bigdata22, ACL18 ve CIKM1 idi."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B8",
+      "D4",
+      "D8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

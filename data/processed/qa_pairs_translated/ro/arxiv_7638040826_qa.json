@@ -1,0 +1,222 @@
+[
+  {
+    "question_id": "arxiv_7638040826_001",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Ce set de date se concentrează în mod specific pe limbajul utilizat de o bancă centrală pentru a înțelege influența politicii monetare și cine l-a publicat?",
+    "answer": [
+      [
+        "Trillion Dollar Words",
+        "Shah et al. (2023a)"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_002",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Enumerați toate resursele publicate după 2020, care sunt descrise explicit ca fiind adnotate de oameni sau scrise de experți.",
+    "answer": [
+      [
+        "SEntFiN 1.0"
+      ],
+      [
+        "Gold Commodity Dataset"
+      ],
+      [
+        "FINQA"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7",
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_003",
+    "table_id": "arxiv_7638040826",
+    "question_type": "open_ended_reasoning",
+    "question": "Pe baza datelor de publicare, descrieți evoluția focalizării în aceste seturi de date financiare de la începutul anilor 2010 până în anii 2020.",
+    "answer": [
+      [
+        "Seturile de date arată o evoluție de la analiza fundamentală a sentimentului la începutul anilor 2010 către sarcini mai complexe și specializate în anii 2020. Resursele timpurii, cum ar fi SentiWordNet (2010) și Financial Phrase Bank (2014), se ocupau de sentimentul general al cuvintelor/expresiilor. În contrast, resursele din anii 2020, cum ar fi SEntFiN 1.0 (sentiment specific entității), REFinD (extragerea relațiilor) și FINQA (raționament profund), abordează probleme NLP mai granulare și complexe, indicând o maturizare a domeniului către o înțelegere mai nuanțată a textelor financiare."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B6",
+      "C6",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_004",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Câte dintre resursele enumerate se concentrează în principal pe analiza sentimentelor (atribuind etichete pozitive, negative sau neutre)?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_7638040826_005",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Ce resursă reprezintă un caz atipic în focalizarea sa geografică specifică, comparativ cu celelalte?",
+    "answer": [
+      [
+        "Financial Phrase Bank"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_7638040826_006",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Care este procentul de seturi de date enumerate care au fost publicate în 2023?",
+    "answer": [
+      [
+        "40%"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "C6",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_7638040826_007",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Dacă setul de date 'SEntFiN 1.0' ar fi eliminat, care ar fi cel mai recent resursă publicată axată pe analiza titlurilor de știri?",
+    "answer": [
+      [
+        "MULTIFIN"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_008",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Care autor sau grup de autori a contribuit cu cel mai mare număr de resurse distincte din această listă?",
+    "answer": [
+      [
+        "Shah et al."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "C8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_009",
+    "table_id": "arxiv_7638040826",
+    "question_type": "open_ended_reasoning",
+    "question": "Comparați principala sarcină NLP abordată de 'FiNER' cu cea a 'REFinD'.",
+    "answer": [
+      [
+        "'FiNER' este proiectat pentru o sarcină NLP fundamentală, Recunoașterea Entităților Denumite (NER), care implică identificarea și clasificarea entităților precum companiile financiare. 'REFinD' abordează o sarcină mai complexă, ulterioară, de extragere a relațiilor, având ca scop identificarea relațiilor dintre entitățile deja identificate (de exemplu, persoană-titlu, organizație-bani). Prin urmare, FiNER se concentrează pe identificarea 'actorilor', în timp ce REFinD se concentrează pe identificarea 'interacțiunilor' acestora."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_010",
+    "table_id": "arxiv_7638040826",
+    "question_type": "open_ended_reasoning",
+    "question": "Pe baza descrierilor, există o corelație între seturile de date care se concentrează pe 'titluri' și recența anului lor de publicare? Explicați raționamentul.",
+    "answer": [
+      [
+        "Da, pare să existe o corelație pozitivă. Toate cele trei seturi de date care menționează explicit 'titluri' în descrierile lor (SEntFiN 1.0, Gold Commodity Dataset și MULTIFIN) au fost publicate în 2021 sau ulterior. Seturile de date publicate mai devreme, în anii 2010, nu menționează acest accent specific. Acest lucru sugerează un interes crescând în cercetare pentru analiza limbajului concis și de impact al titlurilor știrilor financiare în ultimii ani."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "B7",
+      "C7",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_7638040826_011",
+    "table_id": "arxiv_7638040826",
+    "question_type": "open_ended_reasoning",
+    "question": "Care este scopul principal al SentiWordNet comparativ cu SenticNet în analiza textelor financiare?",
+    "answer": [
+      [
+        "SentiWordNet atribuie scoruri de sentiment unor sensuri individuale ale cuvintelor pentru a cuantifica pozitivitatea, negativitatea sau obiectivitatea, în timp ce SenticNet combină inteligența artificială și tehnologiile Semantic Web pentru a interpreta și procesa opinii în contexte financiare."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A3",
+      "B1",
+      "B3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

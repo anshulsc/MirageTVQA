@@ -1,0 +1,245 @@
+[
+  {
+    "question_id": "arxiv_b4f9e51dd6_001",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Ce configurație de modul atinge cea mai scăzută (cea mai bună) performanță pe cel mai lung orizont de predicție, MSE30?",
+    "answer": [
+      [
+        "Audio+Text+Eos+Ecs+Efo"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A3",
+      "F3",
+      "A4",
+      "F4",
+      "A5",
+      "F5",
+      "A6",
+      "F6",
+      "A7",
+      "F7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_002",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Care este scorul mediu MSE3 pentru toate modulele care includ 'Audio+Text' în configurația lor?",
+    "answer": [
+      [
+        "0.614"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_003",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Pentru modulul care demonstrează cea mai bună performanță generală (cea mai mică valoare în coloana MSE_over), care este scorul său specific MSE7?",
+    "answer": [
+      [
+        "0.306"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "D7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_004",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "open_ended_reasoning",
+    "question": "Descrie tendința Eroarei Pătratice Medii (MSE) pentru modulul 'Audio+Text+Efo' pe măsură ce orizontul de predicție crește de la MSE3 la MSE30.",
+    "answer": [
+      [
+        "MSE pentru modulul 'Audio+Text+Efo' prezintă o tendință clară de îmbunătățire (eroare în scădere) pe măsură ce orizontul de predicție se extinde. Începe de la cel mai înalt punct de eroare de 0.579 pentru MSE3, apoi scade semnificativ la 0.323 pentru MSE7 și continuă să scadă constant la 0.230 pentru MSE15, atingând cel mai scăzut punct de 0.165 pentru MSE30."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_005",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Listează toate configurațiile de module care au un scor MSE15 mai mic de 0.25 ȘI un scor MSE30 mai mic de 0.18.",
+    "answer": [
+      [
+        "Audio+Text+Efo"
+      ],
+      [
+        "Eos+Ecs+Efo"
+      ],
+      [
+        "Audio+Text+Eos+Ecs+Efo"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E5",
+      "F5",
+      "A6",
+      "E6",
+      "F6",
+      "A7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_006",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Cu cât la sută scade eroarea MSE30 la trecerea de la modulul de referință 'Audio+Text' la cel mai complex modul 'Audio+Text+Eos+Ecs+Efo'?",
+    "answer": [
+      [
+        "22.55%"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_007",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Dacă o îmbunătățire a preprocesării datelor ar reduce valoarea MSE_over pentru modulul 'Eos+Ecs+Efo' cu 15%, care ar fi noua valoare medie a MSE_over pentru toate cele șapte module?",
+    "answer": [
+      [
+        "0.349"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_008",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "open_ended_reasoning",
+    "question": "Pe baza datelor, există o relație consistentă între performanța pe termen scurt a unui modul (MSE3) și performanța sa pe termen lung (MSE30)? Justificați-vă răspunsul.",
+    "answer": [
+      [
+        "Da, există o corelație pozitivă puternică. Modulele cu cele mai mici scoruri MSE3, 'Audio+Text+Eos+Ecs+Efo' (0.553) și 'Audio+Text+Efo' (0.579), au, de asemenea, cele mai mici scoruri MSE30 (0.158 și 0.165, respectiv). În mod invers, modulele cu cele mai mari scoruri MSE3, cum ar fi 'Audio+Text' (0.645) și 'Audio+Text+Ecs' (0.640), prezintă cele mai mari scoruri MSE30 (0.204 și 0.201). Acest lucru sugerează că modulele care performează bine la predicțiile pe termen scurt tind să performeze bine și la predicțiile pe termen lung."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "F1",
+      "C2",
+      "F2",
+      "C3",
+      "F3",
+      "C4",
+      "F4",
+      "C5",
+      "F5",
+      "C6",
+      "F6",
+      "C7",
+      "F7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_009",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Care este intervalul numeric dintre orizonturile de predicție MSE7 și MSE15 în structura tabelului?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_010",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Care module au o performanță mai slabă (au un MSE mai mare) la orizontul MSE7 decât modulul de referință 'Audio+Text', făcând ca performanța lor în acest punct specific să fie o valoare atipică comparativ cu îmbunătățirea așteptată prin adăugarea de caracteristici?",
+    "answer": [
+      [
+        "Audio+Text+Eos"
+      ],
+      [
+        "Audio+Text+Ecs"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_011",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Care este MSE-ul mediu al modulului Audio+Text?",
+    "answer": [
+      [
+        "0.373"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

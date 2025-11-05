@@ -1,0 +1,253 @@
+[
+  {
+    "question_id": "arxiv_306d90c626_001",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "איזו משפחת מודלי LLM (למשל, GPT, Llama) מופיעה במספר הגבוה ביותר של מאמרים מחקריים המפורטים?",
+    "answer": [
+      [
+        "GPT"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_002",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "מהי הספירה הכוללת של מאמרי מחקר המשתמשים במודלים שפותחו על ידי OpenAI (ChatGPT, GPT-3, GPT-4 והגרסאות שלהם)?",
+    "answer": [
+      [
+        "9"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B7",
+      "B8",
+      "B9",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_306d90c626_003",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "עבור השיטות המשתמשות ב-FinBERT, מהי האפליקציה העיקרית שהן משמשות לה?",
+    "answer": [
+      [
+        "Stock price prediction"
+      ],
+      [
+        "Financial Portfolio Optimisation"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "D5",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_004",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "זהה את שיטות המחקר שמפגינות התקדמות עתית בבחירת המודל על ידי שימוש בלפחות שני דורות נפרדים מאותה משפחת מודלים (לדוגמה, GPT-3 ו-GPT-4).",
+    "answer": [
+      [
+        "FLLM [11]"
+      ],
+      [
+        "Few-Shot Stock Trend Prediction [15]"
+      ],
+      [
+        "Hybrid LLM-based framework [36]"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_005",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "ציין את ה'שיטה/מאמר' המשתמש במודל ממשפחת Llama ואינו משתמש בנתוני S&P 500.",
+    "answer": [
+      [
+        "FLLM [11]"
+      ],
+      [
+        "Hybrid LLM-based framework [36]"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_006",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "open_ended_reasoning",
+    "question": "מדד S&P 500 מוזכר כמקור נתונים ב-50% מהמחקרים המפורטים. מה משתמע מתדירות השימוש הגבוהה הזו לגבי תפקידו במחקר LLM פיננסי?",
+    "answer": [
+      [
+        "השימוש התכוף במדד S&P 500, המופיע במחצית מהמחקרים, מרמז על כך שהוא משמש כמדד בנצ'מארק סטנדרטי למחקר פיננסי הכולל LLMs. מאפייניו - היותו מאגר נתונים מוכר, ציבורי, נרחב ובעל נזילות גבוהה - הופכים אותו לאידיאלי לבדיקה והשוואה של ביצועי מודלים ושיטות שונות למשימות כמו חיזוי מניות ובחירת תיקים. הסתמכות זו מצביעה על צורך מצד חוקרים להדגים את יעילות המודל שלהם על סטנדרט מקובל באופן נרחב לפני יישומו על נתונים נישתיים יותר או קנייניים."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C4",
+      "C5",
+      "C6",
+      "C10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_306d90c626_007",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "אם דרישה חדשה תחייב את כל המחקרים להשתמש בנתונים מולטי-מודאליים (לדוגמה, חדשות ונתוני שוק), איזו שיטה כבר לא תעמוד בדרישות בהתבסס על הנתונים המתוארים?",
+    "answer": [
+      [
+        "FLLM [11]"
+      ],
+      [
+        "MuSA [26]"
+      ],
+      [
+        "SEP [28]"
+      ],
+      [
+        "Hybrid LLM-based framework [36]"
+      ],
+      [
+        "[45]"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_008",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "open_ended_reasoning",
+    "question": "בהתבסס על הטבלה, מה הקשר בין מורכבות ה'יישום' (Application) לבין מגוון ה'מודלי LLM' (LLM Models) בהם נעשה שימוש? לדוגמה, האם יישומים רחבים יותר משתמשים במודלים מגוונים יותר?",
+    "answer": [
+      [
+        "הנתונים מצביעים על קשר הפוך. יישומים מורכבים וספציפיים יותר, כמו 'חיזוי תנועת מחירי מניות' (Stock price movement prediction) או 'ניתוח פיננסי' (Financial analysis), נוטים למנף סט מגוון של מודלים, הכולל דורות ומשפחות מרובות (למשל, 'GPT-3, GPT-4, LLaMA-2, LLaMA-3'). לעומת זאת, יישומים עם התמקדות לכאורה יחידה, כמו 'בחירת תיק השקעות' (Investment portfolio selection) או 'מגמת שוק המניות' (Stock market trend), מוצגים תוך שימוש במודל יחיד כמו ChatGPT. מכך משתמע שהתמודדות עם משימות פיננסיות מורכבות עשויה להפיק תועלת מגישה משולבת או השוואתית המשתמשת במספר LLMs מתקדמים."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B9",
+      "D9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_306d90c626_009",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "באיזה עמודה, 'LLM Model' או 'Data', נמצא התא עם המספר הגדול ביותר של פריטים נפרדים ברשימה?",
+    "answer": [
+      [
+        "LLM Model"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_010",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "באיזה מאמר מחקר יש חריגה מבחינת היישום שלו, המתמקד בסוגיה מערכתית רחבה ולא במשימת חיזוי או השקעה ספציפית?",
+    "answer": [
+      [
+        "[32]"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_306d90c626_011",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "באיזו בחירת תיק השקעות מבוססת ChatGPT [2] משתמשים?",
+    "answer": [
+      [
+        "S&P500 market"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

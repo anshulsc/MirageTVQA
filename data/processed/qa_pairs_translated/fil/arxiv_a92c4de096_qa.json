@@ -1,0 +1,255 @@
+[
+  {
+    "question_id": "arxiv_a92c4de096_001",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Alin sa mga hyperparameter ang may pinakamaraming opsyon na nakalista sa kanilang search space?",
+    "answer": [
+      [
+        "Sequence size"
+      ],
+      [
+        "TRADES Layers"
+      ],
+      [
+        "Augmentation Dim."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_002",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Ilan sa mga hyperparameter ang sinubukan na may higit sa dalawang posibleng halaga sa kanilang search space?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_003",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Ano ang search space para sa hyperparameter na ang pinakamahusay na pagpipilian ay ang pinakamaliit na numerical value na mas malaki sa zero?",
+    "answer": [
+      [
+        "{10−3,10−4}superscript103superscript104\\{{10^{-3}},10^{-4}\\}{ 10 start_POSTSUPERSCRIPT - 3 end_POSTSUPERSCRIPT , 10 start_POSTSUPERSCRIPT - 4 end_POSTSUPERSCRIPT }"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_004",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Ilista ang lahat ng hyperparameters kung saan ang 'Pinakamahusay na Pagpipilian' ay ang pinakamataas na halaga na magagamit sa kani-kanilang 'Saklaw ng Paghahanap'.",
+    "answer": [
+      [
+        "Learning Rate"
+      ],
+      [
+        "Dropout"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_005",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Ilang porsyento ng mga numerical hyperparameter ang nagkaroon ng kanilang 'Pinakamahusay na Pinili' mula sa gitna ng kanilang naka-sort na 'Search Space' (ibig sabihin, hindi ang pinakamababa o pinakamataas na halaga)?",
+    "answer": [
+      [
+        "5/7"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_006",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Kung ang paghahanap para sa 'TRADES Layers' ay nilimitahan lamang sa mga halagang mas mababa sa 8, ano ang magiging 'Best Choice' para sa hyperparameter na ito, sa pag-aakalang ang susunod na pinakamahusay na opsyon mula sa orihinal na search space ang napili?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_007",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "Mayroon bang nakikitang ugnayan sa pagitan ng laki ng search space ng isang hyperparameter at kung ang 'Best Choice' ay isang extreme (min/max) o isang gitnang halaga? Ipaliwanag ang iyong pangangatwiran.",
+    "answer": [
+      [
+        "Oo, may malinaw na pattern. Para sa mga hyperparameter na may maliit na search space na dalawang opsyon (Learning Rate, Dropout), ang pinakamahusay na pagpipilian ay ang pinakamataas na halaga. Para sa lahat ng hyperparameter na may mas malaking search space na tatlo o apat na opsyon, ang pinakamainam na halaga ay natagpuan sa gitna ng saklaw, hindi kailanman sa mga dulo. Ipinapahiwatig nito na para sa modelong ito, ang proseso ng fine-tuning ay kapaki-pakinabang, at ang mga paunang malawak na saklaw ay matagumpay na nakapaloob sa isang pinakamainam na rehiyon na hindi nasa mga hangganan ng sinubukang espasyo."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_008",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Alin sa mga hyperparameter ang ang search space ay inilarawan gamit ang mga label na hindi numerikal?",
+    "answer": [
+      [
+        "Optimizer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_009",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Alin sa mga hyperparameter ang may 'Best Choice' na halaga na isang numerical outlier, na apat na beses na mas malaki kaysa sa susunod na pinakamataas na numerical na 'Best Choice'?",
+    "answer": [
+      [
+        "Sequence size"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_010",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "Kung isasaalang-alang ang mga hyperparameter na may apat na pagpipilian sa kanilang search space ('Sequence size', 'TRADES Layers', 'Augmentation Dim.'), ano ang pangkaraniwang katangian ng kanilang mga 'Best Choice' na halaga, at ano ang maaaring ipahiwatig nito tungkol sa diskarte sa pag-tune?",
+    "answer": [
+      [
+        "Ang pangkaraniwang katangian ay para sa tatlong hyperparameter, ang 'Best Choice' ay isang intermediate na halaga, hindi isang sukdulan (minimum o maximum). Ang mga 'Best Choices' ay 256 (ika-3 sa 4), 8 (ika-3 sa 4), at 64 (ika-2 sa 4). Ito ay nagpapahiwatig ng isang matagumpay na diskarte sa pag-tune kung saan ang search space ay sapat na malawak upang masakop ang pinakamainam na halaga, na nagmumungkahi na ang performance para sa mga parameter na ito ay hindi monotonically na tumataas kasama ang halaga ngunit sa halip ay nag-peak sa isang lugar sa loob ng sinubukan na saklaw."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_011",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Ano ang pinakamahusay na pagpipilian para sa Optimizer?",
+    "answer": [
+      [
+        "Adam"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

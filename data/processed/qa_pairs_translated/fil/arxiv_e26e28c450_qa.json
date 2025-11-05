@@ -1,0 +1,271 @@
+[
+  {
+    "question_id": "arxiv_e26e28c450_001",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Aling model na hindi multi-task ang nakakuha ng pinakamababang kabuuang Mean Squared Error (MSE_over)?",
+    "answer": [
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "H1",
+      "A2",
+      "B2",
+      "H2",
+      "A3",
+      "B3",
+      "H3",
+      "A4",
+      "B4",
+      "H4",
+      "A5",
+      "B5",
+      "H5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_002",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Kalkulahin ang average na MSE sa 7-araw na horizon (MSE7) para sa lahat ng modelong minarkahan bilang 'Multi-Task'.",
+    "answer": [
+      [
+        "0.820"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "H6",
+      "D7",
+      "H7",
+      "D8",
+      "H8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_003",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Para sa modelong may pangalawang pinakamataas (pangalawang pinakamalala) na halaga ng MSE3, ano ang katumbas nitong halaga ng MSE30?",
+    "answer": [
+      [
+        "0.233"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "F3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_004",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Suriin ang takbo ng Mean Squared Error (MSE) para sa modelong HTML habang ang prediction horizon ay lumalawak mula 3 hanggang 30 araw. Tumaas ba o bumaba ang predictive accuracy nito sa paglipas ng panahon?",
+    "answer": [
+      [
+        "Ang predictive accuracy ng modelong HTML ay bumubuti habang lumalawak ang prediction horizon. Ang mga halaga ng MSE nito ay tuluy-tuloy na bumababa mula MSE3 (0.845) hanggang MSE7 (0.349), MSE15 (0.251), at sa wakas ay MSE30 (0.158), na nagpapahiwatig ng mas mababang error at samakatuwid ay mas mahusay na performance sa mas mahabang mga prediksyon."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_005",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Tukuyin ang lahat ng modelo na hindi nakatalagang 'Multi-Task' at mayroon ding MSE15 na mas mababa sa 0.31.",
+    "answer": [
+      [
+        "MT-LSTM-ATT"
+      ],
+      [
+        "HAN"
+      ],
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "H1",
+      "A2",
+      "E2",
+      "H2",
+      "A3",
+      "E3",
+      "H3",
+      "A4",
+      "E4",
+      "H4",
+      "A5",
+      "E5",
+      "H5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_006",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Tukuyin ang modelong malinaw na naiiba sa pagganap sa lahat ng mga sukatan ng MSE at ipaliwanag kung bakit.",
+    "answer": [
+      [
+        "Ang modelong GPT-3.5-Turbo ay malinaw na naiiba sa pagganap. Ang mga halaga ng MSE nito sa lahat ng mga horizon (MSE_over: 2.198, MSE3: 2.152, MSE7: 1.793, MSE15: 2.514, MSE30: 2.332) ay mas mataas kaysa sa lahat ng iba pang mga modelo, na karamihan ay may mga halaga ng MSE na mas mababa sa 1.0. Ito ay nagpapahiwatig ng mas malubhang predictive performance kumpara sa iba pang mga modelong nakalista."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_007",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Ano ang porsyento ng kabuuang pinagsama-samang MSE3 sa lahat ng modelo na maiuugnay sa modelo ng GPT-3.5-Turbo? Ibigay ang sagot bilang porsyento na naka-round sa isang decimal place.",
+    "answer": [
+      [
+        "19.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_008",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Kung ang MSE_over para sa modelong RiskLabs ay bumuti ng 25% (ibig sabihin, bumaba ng 25%), ano ang magiging bagong halaga nito, at paano ito iraranggo kumpara sa MSE_over ng modelong HTML?",
+    "answer": [
+      [
+        "Ang bagong MSE_over para sa RiskLabs ay magiging 0.243. Ang halagang ito ay mas mababa, at samakatuwid ay mas mahusay, kaysa sa MSE_over ng modelong HTML na 0.401."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_009",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Batay sa talahanayan, ano ang kaugnayan ng modelo na nakategorya bilang 'Multi-Task' at ang pagkakaroon ng 'VaR' score?",
+    "answer": [
+      [
+        "Mayroong malakas na ugnayan. Tanging mga modelong itinalaga bilang 'Multi-Task' (GPT-3.5-Turbo at RiskLabs) ang may naiulat na numerikal na 'VaR' score. Gayunpaman, hindi lahat ng 'Multi-Task' na modelo ay may VaR score (halimbawa, HTML), at walang mga modelong hindi 'Multi-Task' ang mayroon nito, na nagpapahiwatig na ang kakayahang kalkulahin ang VaR ay isang feature na nangingibabaw na nauugnay sa mga 'Multi-Task' na modelo sa dataset na ito."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "H1",
+      "G2",
+      "H2",
+      "G3",
+      "H3",
+      "G4",
+      "H4",
+      "G5",
+      "H5",
+      "G6",
+      "H6",
+      "G7",
+      "H7",
+      "G8",
+      "H8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_010",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Aling performance metric column ang naglalaman ng non-numeric placeholder data, at para sa aling mga partikular na modelo ang data na ito ay nawawala?",
+    "answer": [
+      [
+        "Ang column na 'VaR' ay naglalaman ng non-numeric data ('/'). Ang data na ito ay nawawala para sa mga sumusunod na modelo: Classical Method, LSTM, MT-LSTM-ATT, HAN, MRDM, at HTML."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_011",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Aling modelo ang nagpapakita ng pinakamahusay na pangkalahatang balanse sa pagitan ng katumpakan ng hula sa iba't ibang mga abot-tanaw (MSE3–MSE30) at pagtatantya ng panganib (VaR)?",
+    "answer": [
+      [
+        "Ang modelo ng RiskLabs ang nakakamit ng pinakamahusay na pangkalahatang balanse, pinapanatili ang pinakamababang halaga ng MSE sa lahat ng mga abot-tanaw at ang pinakamababang VaR (0.049), na nagpapahiwatig ng parehong malakas na katumpakan sa paghula at maaasahang pagtatantya ng panganib."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "G8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

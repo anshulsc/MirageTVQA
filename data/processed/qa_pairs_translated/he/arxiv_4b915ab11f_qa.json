@@ -1,0 +1,188 @@
+[
+  {
+    "question_id": "arxiv_4b915ab11f_001",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "איזו ארכיטקטורה בסיסית, מבין המודלים הרשומים, מנצלת את מספר הפרמטרים הגדול ביותר?",
+    "answer": [
+      [
+        "XuanYuan2.0"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D1",
+      "D2",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_002",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "מהו המספר הכולל של הטוקנים בקורפוס ששימש לאימון BloomBergGPT?",
+    "answer": [
+      [
+        "708B"
+      ]
+    ],
+    "evidence_cells": [
+      "B1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_003",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "מהו תקציב האימון עבור המודל שנבנה על ארכיטקטורת T5?",
+    "answer": [
+      [
+        "Days/weeks"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_004",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "עבור המודל שמציין תהליך נתוני אימון דו-שלבי, מה היה גודל הקורפוס עבור שלב האימון המקדים?",
+    "answer": [
+      [
+        "366B"
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_005",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "זהה את ה-LLM שמשתמש בארכיטקטורה מבוססת BLOOM ויש לו תקציב אימון שפורסם באופן ציבורי המצוין בשעות A100.",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_006",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "איזה אחוז מכלל קורפוס האימון של BloomBergGPT מורכב מאסימונים ציבוריים?",
+    "answer": [
+      [
+        "48.73%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_007",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "open_ended_reasoning",
+    "question": "אם תקציב האימון של XuanYuan2.0 היה מתגלה כ-2,500,000 שעות A100, כיצד זה ישפיע על דירוג המודלים לפי תקציב אימון?",
+    "answer": [
+      [
+        "נכון לעכשיו, ל-BloomBergGPT יש את התקציב המספרי היחיד שצוין (1,300,000 שעות A100), מה שהופך אותו למדורג ראשון. אם תקציב ה-XuanYuan2.0 היה 2,500,000 שעות A100, הוא יהפוך למודל עם תקציב האימון הידוע הגבוה ביותר, כשהוא עוקף את BloomBergGPT. הדירוג החדש למודלים עם תקציבים מספריים יהיה 1. XuanYuan2.0 (2,500,000) ו-2. BloomBergGPT (1,300,000)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_008",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "open_ended_reasoning",
+    "question": "האם קיים קשר עקבי בין מספר הפרמטרים בארכיטקטורת המודל לבין הגודל הכולל של קורפוס האימון שלו, בהתבסס על נתונים אלה?",
+    "answer": [
+      [
+        "לא, אין קשר חיובי עקבי המופיע בנתונים. לדוגמה, ל-XuanYuan2.0 יש ארכיטקטורה גדולה הרבה יותר (176 מיליארד פרמטרים) מאשר ל-BloomBergGPT (50 מיליארד פרמטרים), אך הוא אומן על קורפוס קטן יותר (379 מיליארד טוקנים לעומת 708 מיליארד טוקנים). זה מרמז שמודל גדול יותר לא בהכרח דורש קורפוס אימון גדול יותר, על פי מערך נתונים זה."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_009",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "איזה עמוד נתונים מציג את השונות הגדולה ביותר בפורמט הנתונים, המכיל מספר שלם גדול, מחרוזת אי-גילוי וטווח מבוסס זמן?",
+    "answer": [
+      [
+        "Training budget (A100·hours)"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_010",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "איזה מודל, מבין המודלים האחרים, מציג תקציב אימון גבוה באופן חריג וחיובי?",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_011",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "איזה מודל שפה גדול שאומן מראש משתמש בארכיטקטורת המודל 50B-BLOOM?",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

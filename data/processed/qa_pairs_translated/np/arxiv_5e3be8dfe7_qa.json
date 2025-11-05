@@ -1,0 +1,208 @@
+[
+  {
+    "question_id": "arxiv_5e3be8dfe7_001",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "तालिकामा सूचीकृत सबैभन्दा बढी स्पष्ट प्यारामिटर स्पष्टीकरण भएको मोडेल कुन हो?",
+    "answer": [
+      [
+        "Neural Networks"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_002",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "मुख्य सूत्रमा जोड (Σ) को प्रयोग गर्ने सबै मोडेलहरूको लागि कुल कतिवटा छुट्टै प्यारामिटरहरू व्याख्या गरिएको छ?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_003",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "मुख्य सूत्रमा एक्सपोनेंशियल (जस्तै, e^x) समावेश नभएका मोडेलहरूको सूची दिनुहोस्।",
+    "answer": [
+      [
+        "Neural Networks"
+      ],
+      [
+        "Support Vector Machine"
+      ],
+      [
+        "Decision Tree"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_004",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "सूचीबद्ध गरिएका मोडलहरूमध्ये कति प्रतिशतले आफ्नो सूत्रमा व्यक्तिगत नमूना वा डाटा पोइन्टहरू (जस्तै, 'नमूना i') को प्रतिनिधित्व गर्ने प्यारामिटर प्रयोग गर्दछ?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "C8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_005",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "यदि डिसिजन ट्री (Decision Tree) मोडेलमा नमूना वर्गहरूको सङ्ख्या 'm' १ छ भने, सूत्र अनुसार सूचना एन्ट्रोपी 'Ent(D)' को गणना गरिएको मान कति हुन्छ?",
+    "answer": [
+      [
+        "0"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_006",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "कुन मोडेलको सूत्र अरूभन्दा मौलिक रूपमा फरक छ किनभने यसलाई आउटपुट मानको प्रत्यक्ष गणनाको सट्टा अप्टिमाइजेसन समस्या (न्यूनतम) को रूपमा प्रस्तुत गरिएको छ?",
+    "answer": [
+      [
+        "Support Vector Machine"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B7",
+      "B9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_007",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "Logistic Regression मा 'β' प्यारामिटरको भूमिका र Support Vector Machine मा 'w' प्यारामिटरको भूमिकाको तुलना गर्नुहोस्।",
+    "answer": [
+      [
+        "Logistic Regression मा, 'β' रिग्रेसन कोफिसिन्टहरूको रो भेक्टर हो जसले, इन्टरसेप्टसँगै, लजिस्टिक फङ्क्शन मार्फत कुनै घटनाको सम्भाव्यता निर्धारण गर्दछ। Support Vector Machine मा, 'w' एक प्यारामिटर भेक्टर हो जसले छुट्याउने हाइपरप्लेनको अभिमुखीकरण परिभाषित गर्दछ। SVM मा लक्ष्य 'w' फेला पार्नु हो जसले यसको L2 नर्मलाई न्यूनतम गरेर क्लासहरू बीचको मार्जिनलाई अधिकतम गर्दछ, जबकि Logistic Regression मा, 'β' सामान्यतया अवलोकन गरिएको डेटाको सम्भाव्यतालाई अधिकतम गरेर फेला पार्छ।"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C3",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_008",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "न्युरल नेटवर्कमा 'लेयर्स' र डिसिजन ट्रीमा 'एन्ट्रोपी'को अवधारणाले डेटाबाट सिक्ने तिनीहरूको फरक दृष्टिकोणलाई कसरी प्रतिबिम्बित गर्दछ?",
+    "answer": [
+      [
+        "न्युरल नेटवर्कमा 'लेयर्स' (l र l-1) को अवधारणाले अनुक्रमिक फिचर लर्निंग दृष्टिकोणलाई प्रतिबिम्बित गर्दछ। मोडेलले क्रमिक लेयर्सहरू मार्फत एक्टिभेशन्सहरू पास गरेर डेटाको बढ्दो जटिल प्रतिनिधित्वहरू सिक्छ, जटिल प्रकार्यको अनुमानक सिर्जना गर्नका लागि तौल ('w') र बायस ('b') समायोजन गर्दछ। यसको विपरीत, डिसिजन ट्रीमा 'एन्ट्रोपी' (Ent(D)) को अवधारणाले एक लोभी, नियम-आधारित दृष्टिकोणलाई प्रतिबिम्बित गर्दछ। मोडेलले एन्ट्रोपी (सूचना लाभ) मा सबैभन्दा ठूलो कमी ल्याउने सुविधाहरू चयन गरेर डेटालाई पुनरावर्ती रूपमा शुद्ध उपसमूहहरूमा विभाजन गर्दछ, यदि-त्यसो भए नियमहरूको स्पष्ट सेट सिर्जना गर्दछ।"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_009",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "तालिकामा वर्णन गरिएका अद्वितीय मोडेलहरूको कुल संख्या कति छ?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_010",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "कुन स्तम्भको मुख्य उद्देश्य नजिकको स्तम्भमा प्रयोग हुने चरहरू परिभाषित गर्नु हो?",
+    "answer": [
+      [
+        "Parameter and Explanation"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,293 @@
+[
+  {
+    "question_id": "arxiv_e3ca188ac7_001",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Ποια μετρική πέτυχε την υψηλότερη βαθμολογία NDCG;",
+    "answer": [
+      [
+        "αS⁢2subscript𝛼𝑆2\\alpha_{S2}italic_α start_POSTSUBSCRIPT italic_S 2 end_POSTSUBSCRIPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_002",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Υπολογίστε τον μέσο όρο του σκορ Kendall για όλες τις μετρικές που ξεκινούν με 'αS'.",
+    "answer": [
+      [
+        "0.27075"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_003",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Ποια είναι η βαθμολογία Spearman για τη μετρική που έχει τη χαμηλότερη βαθμολογία Kendall;",
+    "answer": [
+      [
+        "0.127"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_004",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "open_ended_reasoning",
+    "question": "Αναλύστε την τάση της βαθμολογίας Spearman για τις μετρικές από το αS1 έως το αS4. Είναι η τάση σταθερά αυξανόμενη, φθίνουσα ή κυμαινόμενη;",
+    "answer": [
+      [
+        "Η τάση για τη βαθμολογία Spearman από το αS1 έως το αS4 είναι σταθερά αυξανόμενη. Οι τιμές προχωρούν από 0,39 για το αS1, σε 0,394 για το αS2, σε 0,4 για το αS3 και τέλος σε 0,409 για το αS4, με κάθε επόμενη μετρική να παρουσιάζει υψηλότερη βαθμολογία από την προηγούμενη."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_005",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Λίστα όλων των μετρήσεων όπου η βαθμολογία NDCG είναι μεγαλύτερη από 0,55 και η βαθμολογία Kendall είναι μεγαλύτερη από 0,25.",
+    "answer": [
+      [
+        "αS⁢1subscript𝛼𝑆1\\alpha_{S1}italic_α start_POSTSUBSCRIPT italic_S 1 end_POSTSUBSCRIPT"
+      ],
+      [
+        "αS⁢2subscript𝛼𝑆2\\alpha_{S2}italic_α start_POSTSUBSCRIPT italic_S 2 end_POSTSUBSCRIPT"
+      ],
+      [
+        "αS⁢3subscript𝛼𝑆3\\alpha_{S3}italic_α start_POSTSUBSCRIPT italic_S 3 end_POSTSUBSCRIPT"
+      ],
+      [
+        "αS⁢4subscript𝛼𝑆4\\alpha_{S4}italic_α start_POSTSUBSCRIPT italic_S 4 end_POSTSUBSCRIPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_006",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Τι αναλογία του συνολικού αθροίσματος όλων των βαθμολογιών Spearman συνεισφέρει η σειρά μετρικών 'αS' συνδυαστικά; Εκφράστε την απάντησή σας ως ποσοστό στρογγυλοποιημένο σε δύο δεκαδικά ψηφία.",
+    "answer": [
+      [
+        "92.46%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_007",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Αν η βαθμολογία NDCG για τη μετρική 'PSR' προσαρμοζόταν υποθετικά ώστε να ταιριάζει με τη βαθμολογία NDCG της 'Sharpe Ratio', ποια θα ήταν η νέα μέση βαθμολογία NDCG για όλες τις μετρικές στον πίνακα;",
+    "answer": [
+      [
+        "0.533"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_008",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "open_ended_reasoning",
+    "question": "Παρατηρώντας τη σχέση μεταξύ των στηλών 'Kendall' και 'NDCG', τι είδους συσχέτιση μπορεί να συναχθεί μεταξύ αυτών των δύο μέτρων; Αιτιολογήστε την απάντησή σας με βάση τα δεδομένα.",
+    "answer": [
+      [
+        "Μπορεί να συναχθεί μια ισχυρή θετική συσχέτιση μεταξύ των βαθμολογιών Kendall και NDCG. Οι μετρικές με τις χαμηλότερες βαθμολογίες Kendall ('Sharpe Ratio' στο 0,087 και 'PSR' στο 0,085) έχουν επίσης τις χαμηλότερες βαθμολογίες NDCG (0,393 και 0,388). Αντίθετα, οι τέσσερις μετρικές 'αS', οι οποίες έχουν σημαντικά υψηλότερες βαθμολογίες Kendall (που κυμαίνονται από 0,265 έως 0,278), έχουν επίσης τις υψηλότερες βαθμολογίες NDCG (που κυμαίνονται από 0,589 έως 0,636). Αυτό το μοτίβο καταδεικνύει ότι καθώς η βαθμολογία Kendall αυξάνεται, η βαθμολογία NDCG τείνει επίσης να αυξάνεται."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_009",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Ποια από τις τρεις αριθμητικές στήλες (Spearman, Kendall, NDCG) έχει το μεγαλύτερο εύρος μεταξύ της μέγιστης και της ελάχιστης τιμής της;",
+    "answer": [
+      [
+        "Spearman"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_010",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Οι μετρικές 'Sharpe Ratio' και 'PSR' σχηματίζουν μια ομάδα χαμηλών επιδόσεων σε σύγκριση με τις μετρικές 'αS'. Για ποιο μέτρο (Spearman, Kendall ή NDCG) η απόλυτη διαφορά μεταξύ του μέσου όρου βαθμολογίας της χαμηλής ομάδας και του μέσου όρου βαθμολογίας της υψηλής ομάδας είναι η μεγαλύτερη;",
+    "answer": [
+      [
+        "Spearman"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "A6",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e3ca188ac7_011",
+    "table_id": "arxiv_e3ca188ac7",
+    "question_type": "value",
+    "question": "Ποια μετρική εμφανίζει τη χαμηλότερη συσχέτιση Kendall;",
+    "answer": [
+      [
+        "PSR"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

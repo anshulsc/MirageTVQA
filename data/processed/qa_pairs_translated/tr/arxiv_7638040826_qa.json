@@ -1,0 +1,222 @@
+[
+  {
+    "question_id": "arxiv_7638040826_001",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Merkez bankasının para politikasının etkisini anlamak için kullandığı dile odaklanan veri kümesi hangisidir ve kim yayınlamıştır?",
+    "answer": [
+      [
+        "Trillion Dollar Words",
+        "Shah et al. (2023a)"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_002",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "2020'den sonra yayınlanan ve açıkça insan tarafından etiketlendiği veya uzmanlar tarafından yazıldığı açıklanan tüm kaynakları listeleyin.",
+    "answer": [
+      [
+        "SEntFiN 1.0"
+      ],
+      [
+        "Gold Commodity Dataset"
+      ],
+      [
+        "FINQA"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7",
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_003",
+    "table_id": "arxiv_7638040826",
+    "question_type": "open_ended_reasoning",
+    "question": "Yayın tarihlerine göre, bu finansal veri kümelerindeki odaklanmanın 2010'ların başından 2020'lere doğru evrimini açıklayın.",
+    "answer": [
+      [
+        "Veri kümeleri, 2010'ların başındaki temel duygu analizinden 2020'lerde daha karmaşık, özel görevlere doğru bir evrim göstermektedir. SentiWordNet (2010) ve Financial Phrase Bank (2014) gibi erken kaynaklar genel kelime/ifade duygu düzeyindeyken, SEntFiN 1.0 (varlığa özgü duygu), REFinD (ilişki çıkarma) ve FINQA (derinlemesine akıl yürütme) gibi 2020'lerden kalma kaynaklar daha ayrıntılı ve karmaşık Doğal Dil İşleme sorunlarını ele almaktadır. Bu durum, alanın daha incelikli finansal metin anlama yönünde olgunlaştığını göstermektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B6",
+      "C6",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_004",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Listelenen kaynaklardan kaç tanesi öncelikli olarak duygu analizine (pozitif, negatif veya nötr etiketler atama) odaklanmaktadır?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_7638040826_005",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Diğerlerine kıyasla coğrafi odaklanmada aykırı olan kaynak hangisidir?",
+    "answer": [
+      [
+        "Financial Phrase Bank"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_7638040826_006",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Listelenen veri kümelerinin yüzde kaçı 2023'te yayınlandı?",
+    "answer": [
+      [
+        "40%"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "C6",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_7638040826_007",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "'SEntFiN 1.0' veri kümesi kaldırılırsa, haber başlıklarını analiz etmeye odaklanan en son yayınlanan kaynak hangisi olurdu?",
+    "answer": [
+      [
+        "MULTIFIN"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_008",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Bu listede en yüksek sayıda farklı kaynağa katkıda bulunan yazar veya yazar grubu hangisidir?",
+    "answer": [
+      [
+        "Shah et al."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "C8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_009",
+    "table_id": "arxiv_7638040826",
+    "question_type": "open_ended_reasoning",
+    "question": "'FiNER'ın ele aldığı temel NLP görevini 'REFinD'ınkiyle karşılaştırın.",
+    "answer": [
+      [
+        "'FiNER', finansal şirketler gibi varlıkları tanımlamayı ve sınıflandırmayı içeren temel bir NLP görevi olan Adlandırılmış Varlık Tanıma (NER) için tasarlanmıştır. 'REFinD' ise, önceden tanımlanmış varlıklar arasındaki ilişkileri (örneğin, kişi-unvan, organizasyon-para) belirlemeyi amaçlayan, daha karmaşık ve sonraki bir görev olan ilişki çıkarma işlemini ele alır. Dolayısıyla, FiNER 'aktörleri' belirlemeye odaklanırken, REFinD onların 'etkileşimlerini' belirlemeye odaklanır."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_010",
+    "table_id": "arxiv_7638040826",
+    "question_type": "open_ended_reasoning",
+    "question": "Açıklamalara dayanarak, 'başlıklara' odaklanan veri setleri ile yayın yıllarının güncelliği arasında bir korelasyon var mı? Gerekçenizi açıklayın.",
+    "answer": [
+      [
+        "Evet, pozitif bir korelasyon olduğu görülüyor. Açıklamalarında açıkça 'başlıklar' (SEntFiN 1.0, Gold Commodity Dataset ve MULTIFIN) geçen üç veri setinin tümü 2021 veya sonrasında yayınlanmıştır. Daha önce, 2010'larda yayınlanan veri setlerinde bu özel odak noktasından bahsedilmemektedir. Bu durum, son yıllarda finans haberlerinin başlıklarının özlü ve etkili dilini analiz etmeye yönelik artan bir araştırma ilgisini göstermektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "B7",
+      "C7",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_7638040826_011",
+    "table_id": "arxiv_7638040826",
+    "question_type": "open_ended_reasoning",
+    "question": "Finansal metin analizinde SentiWordNet'in SenticNet'e kıyasla temel amacı nedir?",
+    "answer": [
+      [
+        "SentiWordNet, pozitifliği, negatifliği veya nesnelliği ölçmek için bireysel kelime anlamlarına duygu puanları atarken, SenticNet, finansal bağlamlardaki görüşleri yorumlamak ve işlemek için yapay zeka ve Semantik Web teknolojilerini birleştirir."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A3",
+      "B1",
+      "B3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

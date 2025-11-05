@@ -1,0 +1,208 @@
+[
+  {
+    "question_id": "arxiv_5e3be8dfe7_001",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Welches Modell hat die höchste Anzahl an unterschiedlichen Parametererklärungen in der Tabelle aufgeführt?",
+    "answer": [
+      [
+        "Neural Networks"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_002",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Wie viele verschiedene Parameter werden insgesamt für alle Modelle erklärt, die eine Summenkomponente (Σ) in ihrer Hauptformel verwenden?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_003",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Listen Sie die Modelle auf, deren Hauptformel keine Exponentiation (z. B. e^x) beinhaltet.",
+    "answer": [
+      [
+        "Neural Networks"
+      ],
+      [
+        "Support Vector Machine"
+      ],
+      [
+        "Decision Tree"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_004",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Wie viel Prozent der aufgelisteten Modelle verwenden in ihrer Formulierung einen Parameter, der einzelne Stichproben oder Datenpunkte darstellt (z. B. 'Stichprobe i')?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "C8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_005",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Wenn die Anzahl der Stichprobenkategorien 'm' in einem Entscheidungsbaummodell 1 beträgt, was wäre der berechnete Wert der Information Entropie 'Ent(D)' gemäß der Formel?",
+    "answer": [
+      [
+        "0"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_006",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Welches Modell hat eine Formel, die sich grundlegend von den anderen unterscheidet, da es als Optimierungsproblem (Minimierung) und nicht als direkte Berechnung eines Ausgabewerts dargestellt wird?",
+    "answer": [
+      [
+        "Support Vector Machine"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B7",
+      "B9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_007",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "Basierend auf den Formeln und Parametern, vergleichen Sie die Rollen des 'β'-Parameters in der Logistischen Regression mit der Rolle des 'w'-Parameters in der Support Vector Machine.",
+    "answer": [
+      [
+        "Bei der Logistischen Regression ist 'β' ein Zeilenvektor von Regressionskoeffizienten, der zusammen mit dem Achsenabschnitt die Wahrscheinlichkeit eines Ergebnisses über die logistische Funktion bestimmt. Bei der Support Vector Machine ist 'w' ein Parametervektor, der die Ausrichtung der trennenden Hyperebene definiert. Das Ziel bei SVM ist es, das 'w' zu finden, das den Abstand zwischen den Klassen maximiert, indem seine L2-Norm minimiert wird, während bei der Logistischen Regression 'β' typischerweise durch Maximierung der Likelihood der beobachteten Daten gefunden wird."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C3",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_008",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "Wie spiegeln die Konzepte von 'Schichten' in neuronalen Netzen und 'Entropie' in Entscheidungsbäumen ihre unterschiedlichen Ansätze beim Lernen aus Daten wider?",
+    "answer": [
+      [
+        "Das Konzept der 'Schichten' (l und l-1) in neuronalen Netzen spiegelt einen hierarchischen Ansatz des Feature-Learnings wider. Das Modell lernt zunehmend komplexere Darstellungen der Daten, indem es Aktivierungen durch aufeinanderfolgende Schichten leitet und Gewichte ('w') und Biases ('b') anpasst, um einen komplexen Funktionsapproximator zu erstellen. Im Gegensatz dazu spiegelt das Konzept der 'Entropie' (Ent(D)) in Entscheidungsbäumen einen gierigen, regelbasierten Ansatz wider. Das Modell teilt die Daten rekursiv in reinere Teilmengen auf, indem es Merkmale auswählt, die zu einer größten Verringerung der Entropie (Informationsgewinn) führen, und erstellt so eine explizite Menge von Wenn-Dann-Regeln."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_009",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Wie hoch ist die Gesamtzahl der eindeutigen Modelle, die in der Tabelle beschrieben sind?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_010",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Welche Spalte definiert hauptsächlich die Variablen, die in der daneben liegenden Spalte verwendet werden?",
+    "answer": [
+      [
+        "Parameter and Explanation"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

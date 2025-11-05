@@ -1,0 +1,235 @@
+[
+  {
+    "question_id": "arxiv_146818ba46_001",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "ਕਿਹੜੇ ਮਾਡਲਾਂ ਵਿੱਚ ਸਬਲੀਨੀਅਰ ਸਕੇਲੇਬਿਲਟੀ ਹੈ, ਅਤੇ ਉਹਨਾਂ ਦੀਆਂ ਸਮਰਥਿਤ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ('ਪ੍ਰੀ-ਟਰੇਨਿੰਗ', 'ਮਲਟੀ-ਟਾਸਕ') ਵਿੱਚ ਮੁੱਖ ਅੰਤਰ ਕੀ ਹੈ?",
+    "answer": [
+      [
+        "TimeMixer ਅਤੇ PatchTST ਸਬਲੀਨੀਅਰ ਸਕੇਲੇਬਿਲਟੀ ਪੇਸ਼ ਕਰਦੇ ਹਨ। ਮੁੱਖ ਅੰਤਰ ਇਹ ਹੈ ਕਿ TimeMixer ਮਲਟੀ-ਟਾਸਕ ਲਰਨਿੰਗ ਦਾ ਸਮਰਥਨ ਕਰਦਾ ਹੈ ਜਦੋਂ ਕਿ PatchTST ਨਹੀਂ ਕਰਦਾ; ਕੋਈ ਵੀ ਮਾਡਲ ਪ੍ਰੀ-ਟਰੇਨਿੰਗ ਦੀ ਵਰਤੋਂ ਨਹੀਂ ਕਰਦਾ।"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "E3",
+      "A5",
+      "B5",
+      "C5",
+      "E5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_002",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "ਕਿੰਨੇ ਮਾਡਲਾਂ ਵਿੱਚ ਪ੍ਰੀ-ਟਰੇਨਿੰਗ ਜਾਂ ਮਲਟੀ-ਟਾਸਕ ਲਰਨਿੰਗ ਦਾ ਸਮਰਥਨ ਹੈ, ਪਰ ਦੋਵੇਂ ਨਹੀਂ?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_146818ba46_003",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "ਉਸ ਮਾਡਲ ਦੀ ਮੁੱਖ ਐਪਲੀਕੇਸ਼ਨ ਦੀ ਪਛਾਣ ਕਰੋ ਜਿਸ ਵਿੱਚ ਲੀਨੀਅਰ ਸਕੇਲੇਬਿਲਟੀ ਅਤੇ ਮੀਡੀਅਮ ਕੰਪਿਊਟ ਲੋੜਾਂ ਹਨ।",
+    "answer": [
+      [
+        "Task Flexibility"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_004",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "ਜੇਕਰ ਕੋਈ ਖੋਜ ਪ੍ਰੋਜੈਕਟ 'ਲੰਬੀਆਂ ਸੀਕਵੈਂਸਾਂ' (Long Sequences) ਲਈ ਇੱਕ ਮਾਡਲ ਦੀ ਲੋੜ ਤੋਂ ਵਿਕਸਿਤ ਹੋ ਕੇ ਬਾਅਦ ਵਿੱਚ 'ਟਾਸਕ ਫਲੈਕਸੀਬਿਲਟੀ' (Task Flexibility) ਵਾਲੇ ਮਾਡਲ ਦੀ ਲੋੜ ਬਣ ਜਾਂਦੀ ਹੈ, ਤਾਂ ਦੂਜੇ ਪੜਾਅ 'ਤੇ ਕਿਹੜਾ ਮਾਡਲ ਢੁਕਵਾਂ ਵਿਕਲਪ ਹੋਵੇਗਾ?",
+    "answer": [
+      [
+        "TimesNet"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "F4",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_005",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "ਉਹਨਾਂ ਮਾਡਲਾਂ ਦੀ ਸੂਚੀ ਬਣਾਓ ਜੋ ਪ੍ਰੀ-ਟ੍ਰੇਨਿੰਗ ਦੀ ਵਰਤੋਂ ਨਹੀਂ ਕਰਦੇ ਅਤੇ ਸਬ-ਲਾਈਨਿਅਰ ਸਕੇਲੇਬਿਲਟੀ ਦੀ ਪੇਸ਼ਕਸ਼ ਕਰਦੇ ਹਨ।",
+    "answer": [
+      [
+        "TimeMixer"
+      ],
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "E3",
+      "A5",
+      "B5",
+      "E5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_006",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "ਲਿਸਟ ਕੀਤੇ ਮਾਡਲਾਂ ਵਿੱਚੋਂ ਕਿੰਨੇ ਫੀਸਦੀ ਮਾਡਲਾਂ ਲਈ 'High' ਕੰਪਿਊਟ ਸਰੋਤਾਂ ਦੀ ਲੋੜ ਪੈਂਦੀ ਹੈ?",
+    "answer": [
+      [
+        "40%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_146818ba46_007",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "'TimesNet' ਨੂੰ 'Pre-training' ਦਾ ਸਮਰਥਨ ਕਰਨ ਲਈ ਵਧਾਇਆ ਜਾਂਦਾ ਹੈ, ਤਾਂ ਇਸਦੇ ਫੀਚਰਜ਼ (Pre-training, Multi-task, Compute, Scalability) ਦੇ ਮਾਮਲੇ ਵਿੱਚ ਇਹ ਕਿਹੜੇ ਮੌਜੂਦਾ ਮਾਡਲ ਵਰਗਾ ਹੋਵੇਗਾ?",
+    "answer": [
+      [
+        "ਵਧਾਇਆ ਗਿਆ TimesNet ਕਿਸੇ ਹੋਰ ਇੱਕ ਮਾਡਲ ਨਾਲ ਨੇੜਤਾ ਨਾਲ ਮੇਲ ਨਹੀਂ ਖਾਂਦਾ। ਜਦੋਂ ਕਿ ਇਹ Timer ਅਤੇ MOMENT ਨਾਲ 'Pre-training', 'Multi-task', ਅਤੇ 'Linear' scalability ਸਾਂਝਾ ਕਰੇਗਾ, ਇਸਦਾ 'Medium' compute ਇਸਨੂੰ ਉਹਨਾਂ ਦੀਆਂ 'High' compute ਲੋੜਾਂ ਤੋਂ ਵੱਖ ਕਰੇਗਾ।"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "B4",
+      "C4",
+      "D4",
+      "E4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_008",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "ਕੀ ਮਾਡਲ ਦੀ ਸਕੇਲੇਬਿਲਟੀ ਅਤੇ ਉਸਦੇ ਪ੍ਰਾਇਮਰੀ ਐਪਲੀਕੇਸ਼ਨ ਦੇ ਸੀਕਵੈਂਸ ਲੰਬਾਈ ਜਾਂ ਲਚਕਤਾ 'ਤੇ ਫੋਕਸ ਹੋਣ ਵਿਚਕਾਰ ਕੋਈ ਵੱਖਰਾ ਸਬੰਧ ਹੈ?",
+    "answer": [
+      [
+        "ਹਾਂ, ਇੱਕ ਸਬੰਧ ਜਾਪਦਾ ਹੈ। ਵਧੇਰੇ ਕੁਸ਼ਲ 'ਸਬਲਾਈਨੀਅਰ' ਸਕੇਲੇਬਿਲਟੀ (TimeMixer, PatchTST) ਵਾਲੇ ਮਾਡਲ, ਗੁੰਝਲਦਾਰ ਪੈਟਰਨਾਂ ਜਾਂ ਲੰਬੇ ਸੀਕਵੈਂਸਾਂ ('ਮਲਟੀਸਕੇਲ ਪੈਟਰਨ', 'ਲੰਬੇ ਸੀਕਵੈਂਸ') ਨਾਲ ਸਬੰਧਤ ਐਪਲੀਕੇਸ਼ਨਾਂ ਨਾਲ ਜੁੜੇ ਹੋਏ ਹਨ। ਇਸ ਦੇ ਉਲਟ, 'ਲਾਈਨੀਅਰ' ਸਕੇਲੇਬਿਲਟੀ ਵਾਲੇ ਮਾਡਲ, ਲਚਕਤਾ ਜਾਂ ਸੀਮਾਵਾਂ ਹੇਠਾਂ ਸਿੱਖਣ ਦੀ ਲੋੜ ਵਾਲੇ ਕੰਮਾਂ ('ਫਿਊ-ਸ਼ਾਟ ਲਰਨਿੰਗ', 'ਸੀਮਤ ਸੁਪਰਵੀਜ਼ਨ', 'ਟਾਸਕ ਫਲੈਕਸੀਬਿਲਟੀ') 'ਤੇ ਲਾਗੂ ਕਰਨ ਲਈ ਹੁੰਦੇ ਹਨ।"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "E2",
+      "F2",
+      "E3",
+      "F3",
+      "E4",
+      "F4",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_146818ba46_009",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "'ਮਾਡਲ' ਤੋਂ ਇਲਾਵਾ, ਕਿਹੜੇ ਕਾਲਮ ਵਿੱਚ ਵਿਲੱਖਣ ਮੁੱਲਾਂ ਦਾ ਸਭ ਤੋਂ ਵਿਭਿੰਨ ਸਮੂਹ ਹੈ?",
+    "answer": [
+      [
+        "Primary Application"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_010",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "ਕਿਹੜਾ ਮਾਡਲ ਪ੍ਰੀ-ਟਰੇਨਿੰਗ ਜਾਂ ਮਲਟੀ-ਟਾਸਕ ਸਿੱਖਣ ਦੋਵਾਂ ਦਾ ਸਮਰਥਨ ਨਾ ਕਰਨ ਕਰਕੇ ਇੱਕ ਆਊਟਲਾਇਰ ਹੈ?",
+    "answer": [
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_146818ba46_011",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Timer ਦੀ ਮੁੱਖ ਐਪਲੀਕੇਸ਼ਨ ਕੀ ਹੈ?",
+    "answer": [
+      [
+        "Few-shot Learning"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

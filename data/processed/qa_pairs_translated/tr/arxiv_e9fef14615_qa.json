@@ -1,0 +1,306 @@
+[
+  {
+    "question_id": "arxiv_e9fef14615_001",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "'ccfraud' veri setinde en yüksek F1 puanını hangi model elde etti?",
+    "answer": [
+      [
+        "Gemini"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "E4",
+      "C4",
+      "D4",
+      "F4",
+      "G4",
+      "H4",
+      "I4",
+      "J4",
+      "K4",
+      "L4",
+      "M4",
+      "N4",
+      "O4",
+      "E10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_002",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Kullanılan metrikler arasında 'GPT 4' modelinin tüm veri setlerindeki ortalama doğruluk ('Acc') puanı nedir?",
+    "answer": [
+      [
+        "0.543"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B5",
+      "D5",
+      "B9",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_003",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "'FinMA 7B' modelinin en yüksek skorunu elde ettiği veri kümesini belirleyin ve ardından aynı görevde sıfır puan alan modeli/modelleri listeleyin.",
+    "answer": [
+      [
+        "taiwan",
+        "Falcon 7B"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "I11",
+      "L11",
+      "I1",
+      "I2",
+      "I3",
+      "I4",
+      "I5",
+      "I6",
+      "I7",
+      "I8",
+      "I9",
+      "I12",
+      "I10",
+      "L10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_004",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "'TSA' veri setinde, solundaki sütunda listelenen modele kıyasla performansta en büyük düşüşü gösteren model hangisidir ve bu düşüşün değeri nedir?",
+    "answer": [
+      [
+        "FinGPT 7B-lora",
+        "0.80"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "I3",
+      "J3",
+      "I10",
+      "J10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_005",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "'Gemini' modelünün 0.90 veya daha yüksek, 'Chat GPT' modelinin ise 0.20 veya daha düşük puan aldığı tüm veri kümelerini belirleyin.",
+    "answer": [
+      [
+        "ccfraud"
+      ],
+      [
+        "taiwan"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "E4",
+      "A11",
+      "C11",
+      "E11",
+      "C10",
+      "E10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_006",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "'LendingClub' veri kümesi için, bu görevdeki en iyi performans gösteren üç modelin kümülatif puanının yüzde kaçı, tüm modellerin kümülatif puanına atfedilebilir? Bir ondalık basamağa yuvarlayın.",
+    "answer": [
+      [
+        "41.3%"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "G6",
+      "H6",
+      "I6",
+      "J6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "O6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_007",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "'LLaMA2 70B' modelinin tüm değerlendirilen görevlerdeki puanları %10 artırılırsa, yeni ortalama puanı ne olur? Üç ondalık basamağa yuvarlayın.",
+    "answer": [
+      [
+        "0.354"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G11",
+      "G12",
+      "G10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_008",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "open_ended_reasoning",
+    "question": "'F1' veya 'MicroF1' metrikleriyle ölçülen görevleri inceleyin. 'GPT 4' ve 'Gemini' modelleri arasında tutarlı bir performans ilişkisi var mı? Nedenini açıklayın.",
+    "answer": [
+      [
+        "Güçlü bir pozitif korelasyon yok, ancak açık bir performans hiyerarşisi var. F1 tabanlı görevlerde Gemini, GPT 4'ü sürekli olarak geride bırakıyor veya ona eşit performans gösteriyor. 'ccfraud' ve 'taiwan' veri kümelerinde Gemini'nin puanları (sırasıyla 0.90 ve 0.95), GPT 4'ün puanından (her ikisi için 0.55) önemli ölçüde daha yüksek. 'LendingClub' için Gemini (0.65), hala GPT 4'ten (0.55) orta derecede daha yüksek. Sadece 'MLESG' veri kümesinde puanları neredeyse aynı (0.35'e karşı 0.34). Bu, performansları sıkı bir şekilde ilişkili olmasa da, Gemini'nin bu özel F1 ile ölçülen görevler için genellikle daha üstün bir model olduğunu göstermektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "D4",
+      "E4",
+      "B6",
+      "D6",
+      "E6",
+      "B11",
+      "D11",
+      "E11",
+      "B12",
+      "D12",
+      "E12",
+      "D10",
+      "E10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_009",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Performans verilerine göre, her bir test edilen modelde sıfır skor gösteren ve potansiyel bir değerlendirme hatasına veya hiçbir modelin tamamlayamadığı bir göreve işaret eden iki veri kümesi hangileridir?",
+    "answer": [
+      [
+        "FNXL"
+      ],
+      [
+        "ECTSUM"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "H7",
+      "I7",
+      "J7",
+      "K7",
+      "L7",
+      "M7",
+      "N7",
+      "O7",
+      "A8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "G8",
+      "H8",
+      "I8",
+      "J8",
+      "K8",
+      "L8",
+      "M8",
+      "N8",
+      "O8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_010",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "open_ended_reasoning",
+    "question": "'Gemini' modeli için, hangi veri kümesi skoru en anlamlı pozitif performans aykırı değerini temsil ediyor ve neden?",
+    "answer": [
+      [
+        "Tayvan veri kümesi için elde edilen skor (0.95), Gemini modeli için en anlamlı pozitif aykırı değerdir. Gemini'nin sıfır olmayan skorlarının ortalaması alındığında yaklaşık 0.615 elde edilir. 0.95 skoru, diğer tüm skorlara kıyasla bu ortalamadan en uzak olan en yüksek değerdir. Bu olağanüstü yüksek performans, Gemini modelinin 'tayvan' veri kümesi ve 'F1' metriği tarafından tanımlanan görev için olağanüstü uygun olduğunu veya görevin kendisinin bu model için diğerlerinden önemli ölçüde daha kolay olduğunu düşündürmektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "B11",
+      "E11",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E12",
+      "E10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_011",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "open_ended_reasoning",
+    "question": "Hem varlık çıkarma (NER, FINER-ORD) hem de duygu sınıflandırma (FPB, SC) görevlerinde sağlam genelleme gösteren model hangisidir?",
+    "answer": [
+      [
+        "GPT-4, diğer modellere kıyasla yüksek EntityF1 ve F1 puanları elde ederek hem varlık çıkarma hem de duygu sınıflandırma veri kümelerinde tutarlı bir şekilde iyi performans gösterir."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A5",
+      "J5",
+      "A9",
+      "J9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

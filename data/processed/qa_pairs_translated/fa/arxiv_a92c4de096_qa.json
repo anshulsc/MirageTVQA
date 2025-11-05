@@ -1,0 +1,255 @@
+[
+  {
+    "question_id": "arxiv_a92c4de096_001",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "بیشترین تعداد گزینه‌های لیست شده در فضای جستجو مربوط به کدام هایپرپارامترها هستند؟",
+    "answer": [
+      [
+        "Sequence size"
+      ],
+      [
+        "TRADES Layers"
+      ],
+      [
+        "Augmentation Dim."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_002",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "چند هایپرپارامتر در فضای جستجوی خود بیش از دو مقدار ممکن داشتند؟",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_003",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "فضای جستجوی هایپرپارامتری که بهترین انتخاب آن کوچکترین مقدار عددی بزرگتر از صفر بود، چه بود؟",
+    "answer": [
+      [
+        "{10−3,10−4}superscript103superscript104\\{{10^{-3}},10^{-4}\\}{ 10 start_POSTSUPERSCRIPT - 3 end_POSTSUPERSCRIPT , 10 start_POSTSUPERSCRIPT - 4 end_POSTSUPERSCRIPT }"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_004",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "لیست تمام هایپرپارامترهایی که 'بهترین انتخاب' آنها بالاترین مقدار موجود در 'فضای جستجوی' مربوطه بوده است را بنویسید.",
+    "answer": [
+      [
+        "Learning Rate"
+      ],
+      [
+        "Dropout"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_005",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "چه نسبتی از ابرپارامترهای عددی، «بهترین انتخاب» آن‌ها از وسط «فضای جستجو» مرتب‌شده‌شان (یعنی نه حداقل و نه حداکثر مقدار) انتخاب شده است؟",
+    "answer": [
+      [
+        "5/7"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_006",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "اگر جستجو برای «TRADES Layers» فقط به مقادیر کمتر از ۸ محدود شده بود، «بهترین انتخاب» برای این هایپرپارامتر چه بود، با فرض اینکه بهترین گزینه بعدی از فضای جستجوی اصلی انتخاب شده باشد؟",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_007",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "آیا بین اندازه فضای جستجوی یک ابرپارامتر و اینکه آیا «بهترین انتخاب» یک مقدار افراطی (حداقل/حداکثر) است یا یک مقدار میانه، رابطه‌ی قابل مشاهده‌ای وجود دارد؟ دلیل خود را توضیح دهید.",
+    "answer": [
+      [
+        "بله، یک الگوی واضح وجود دارد. برای ابرپارامترهایی با فضای جستجوی کوچک دو گزینه‌ای (نرخ یادگیری، دراپ‌اوت)، بهترین انتخاب مقدار حداکثر بود. برای تمام ابرپارامترهایی با فضای جستجوی بزرگتر سه یا چهار گزینه‌ای، مقدار بهینه در میانه دامنه یافت شد، هرگز در مقادیر افراطی. این نشان می‌دهد که برای این مدل، فرآیند تنظیم دقیق مفید است و دامنه‌های اولیه وسیع، یک منطقه بهینه را که در مرزهای فضای آزمایش شده قرار نداشت، با موفقیت مشخص کرده‌اند."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_008",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "فضای جستجوی کدام هایپرپارامتر با برچسب‌های غیرعددی توصیف شده است؟",
+    "answer": [
+      [
+        "Optimizer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_009",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "مقدار «بهترین انتخاب» کدام هایپرپارامتر، یک داده پرت عددی است و حداقل چهار برابر بزرگتر از «بهترین انتخاب» عددی بعدی است؟",
+    "answer": [
+      [
+        "Sequence size"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_010",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "با در نظر گرفتن ابرپارامترهایی که در فضای جستجوی خود چهار گزینه دارند ('اندازه توالی'، 'لایه‌های TRADES'، 'بعد افزایش'), چه ویژگی مشترکی در مقادیر 'بهترین انتخاب' آنها وجود دارد و این امر در مورد استراتژی تنظیم چه چیزی را می‌تواند نشان دهد؟",
+    "answer": [
+      [
+        "ویژگی مشترک این است که برای هر سه ابرپارامتر، 'بهترین انتخاب' یک مقدار میانی است، نه یک مقدار افراطی (حداقل یا حداکثر). 'بهترین انتخاب‌ها' عبارتند از 256 (سوم از 4)، 8 (سوم از 4) و 64 (دوم از 4). این نشان‌دهنده یک استراتژی تنظیم موفق است که در آن فضای جستجو به اندازه کافی گسترده بوده تا مقدار بهینه را در بر گیرد، که نشان می‌دهد عملکرد برای این پارامترها با افزایش مقدار به صورت یکنواخت افزایش نمی‌یابد، بلکه در محدوده‌ی آزمایش شده به اوج خود می‌رسد."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_011",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "بهترین انتخاب برای بهینه‌ساز (Optimizer) چیست؟",
+    "answer": [
+      [
+        "Adam"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

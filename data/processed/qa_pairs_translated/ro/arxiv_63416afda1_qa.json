@@ -1,0 +1,211 @@
+[
+  {
+    "question_id": "arxiv_63416afda1_001",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Pentru modelul care utilizează date de nivel de comandă de înaltă frecvență, ce tip de capacitate de predicție oferă?",
+    "answer": [
+      [
+        "Multi-step, sequence generation."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_002",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Dacă un proiect necesită previziuni generale prin simulare, ce caracteristică a modelului, pe lângă sarcina sa aplicabilă, îl face o alegere mai bună decât alternativa?",
+    "answer": [
+      [
+        "MarS/LMM este un 'model fundamental la scară largă' capabil de 'generare de secvențe multi-pas', făcându-l inerent mai flexibil și mai puternic pentru sarcini generale de simulare, comparativ cu DeepLOB, care este descris ca un model 'mic, realizat manual și nu scalabil' cu predicție 'într-un singur pas sau de lungime fixă'."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_003",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Pe baza tabelului, care este relația inferată între scara unui model și flexibilitatea predicției sale?",
+    "answer": [
+      [
+        "Datele sugerează o corelație directă: modelul descris ca fiind „Mic, realizat manual și ne-scalabil” (DeepLOB) oferă predicții limitate de tip „Pas unic sau lungime fixă”, în timp ce „modelul fundamental la scară largă” (MarS/LMM) oferă o „Generare de secvențe în mai mulți pași” mai flexibilă. Acest lucru implică faptul că modelele mai mari, mai scalabile, tind să aibă capacități de predicție mai avansate și mai flexibile."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_63416afda1_004",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Câte aspecte distincte sunt folosite pentru a diferenția DeepLOB și MarS/LMM în acest set de date?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_005",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Identificați modelul care NU este descris ca un 'model fundamental la scară largă' și enumerați caracteristicile sale de intrare specificate.",
+    "answer": [
+      [
+        "DeepLOB",
+        "Limit order book (LOB) data."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "B3",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_006",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Care model are o descriere a aspectului său „Model” care conține un set unic de trei caracteristici limitative distincte?",
+    "answer": [
+      [
+        "DeepLOB"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_63416afda1_007",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Dacă DeepLOB ar fi modificat pentru a efectua „generarea de secvențe în mai mulți pași”, ce alte două aspecte din tabel ar trebui probabil modificate fundamental pentru a se alinia cu caracteristicile modelului care are deja această capacitate?",
+    "answer": [
+      [
+        "Pentru a realiza generarea în mai mulți pași, similară cu MarS/LMM, „Modelul” DeepLOB ar trebui probabil să evolueze de la „mic, realizat manual și nescalabil” la un „model fundamental la scară largă”, iar „Caracteristicile sale de intrare” ar putea necesita extinderea de la „datele LOB” pentru a gestiona „datele la nivel de comandă de înaltă frecvență”."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A3",
+      "B3",
+      "C3",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_008",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Comparați cerințele de date de intrare pentru cele două modele.",
+    "answer": [
+      [
+        "DeepLOB necesită „date din cartea de ordine limită (LOB)”, care este un tip specific de structură de date financiare. În contrast, MarS/LMM utilizează „date de înaltă frecvență la nivel de comandă”, care sunt mai generale și implică un volum și o viteză mai mari ale datelor."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_009",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Care este tipul de model pentru sistemul conceput pentru prognoze specifice sarcinii?",
+    "answer": [
+      [
+        "Small, handcrafted, and not scalable"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_010",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Dacă un utilizator are disponibile doar „date din registrul de ordine limită (LOB)” și trebuie să realizeze „previziuni generale prin simulare”, ce model prezintă un conflict, pe baza aspectelor furnizate, și de ce?",
+    "answer": [
+      [
+        "Există un conflict pentru ambele modele. DeepLOB poate utiliza datele LOB, dar este conceput pentru „previziuni specifice sarcinii”, nu pentru simulare generală. MarS/LMM este conceput pentru „previziuni generale”, dar necesită „date de nivelul ordinelor de înaltă frecvență”, nu date LOB. Prin urmare, niciunul dintre modele nu se potrivește perfect fără modificări sau compromisuri."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_011",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Care sunt sarcinile aplicabile ale DeepLOB?",
+    "answer": [
+      [
+        "Task-specific forecasting."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,245 @@
+[
+  {
+    "question_id": "arxiv_b4f9e51dd6_001",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "ਕਿਹੜੀ ਮਾਡਿਊਲ ਕੌਨਫਿਗਰੇਸ਼ਨ ਸਭ ਤੋਂ ਲੰਬੇ ਪੂਰਵ-ਅਨੁਮਾਨ ਦੇ ਖੇਤਰ, MSE30 'ਤੇ ਸਭ ਤੋਂ ਘੱਟ (ਸਭ ਤੋਂ ਵਧੀਆ) ਪ੍ਰਦਰਸ਼ਨ ਪ੍ਰਾਪਤ ਕਰਦੀ ਹੈ?",
+    "answer": [
+      [
+        "Audio+Text+Eos+Ecs+Efo"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A3",
+      "F3",
+      "A4",
+      "F4",
+      "A5",
+      "F5",
+      "A6",
+      "F6",
+      "A7",
+      "F7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_002",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "ਉਹਨਾਂ ਸਾਰੇ ਮੌਡਿਊਲਾਂ ਵਿੱਚੋਂ MSE3 ਸਕੋਰ ਦਾ ਔਸਤ ਕੀ ਹੈ ਜਿਨ੍ਹਾਂ ਦੀ ਸੰਰਚਨਾ ਵਿੱਚ 'ਆਡੀਓ+ਟੈਕਸਟ' ਸ਼ਾਮਲ ਹੈ?",
+    "answer": [
+      [
+        "0.614"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_003",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "ਉਸ ਮੋਡਿਊਲ ਲਈ ਜੋ ਸਭ ਤੋਂ ਵਧੀਆ ਸਮੁੱਚੀ ਕਾਰਗੁਜ਼ਾਰੀ (MSE_over ਕਾਲਮ ਵਿੱਚ ਸਭ ਤੋਂ ਘੱਟ ਮੁੱਲ) ਦਿਖਾਉਂਦਾ ਹੈ, ਇਸਦਾ ਖਾਸ MSE7 ਸਕੋਰ ਕੀ ਹੈ?",
+    "answer": [
+      [
+        "0.306"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "D7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_004",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "open_ended_reasoning",
+    "question": "MSE3 ਤੋਂ MSE30 ਤੱਕ ਭਵਿੱਖਬਾਣੀ ਦੇ ਖੇਤਰ ਦੇ ਵਧਣ ਨਾਲ 'Audio+Text+Efo' ਮੋਡਿਊਲ ਲਈ Mean Squared Error ਦੇ ਰੁਝਾਨ ਦਾ ਵਰਣਨ ਕਰੋ।",
+    "answer": [
+      [
+        "'Audio+Text+Efo' ਮੋਡਿਊਲ ਲਈ MSE ਭਵਿੱਖਬਾਣੀ ਦੇ ਖੇਤਰ ਦੇ ਵਧਣ ਦੇ ਨਾਲ ਸੁਧਾਰ (ਘਟਦੀ ਗਲਤੀ) ਦਾ ਇੱਕ ਸਪੱਸ਼ਟ ਰੁਝਾਨ ਦਰਸਾਉਂਦਾ ਹੈ। ਇਹ MSE3 ਲਈ 0.579 ਦੇ ਆਪਣੇ ਸਭ ਤੋਂ ਉੱਚੇ ਗਲਤੀ ਬਿੰਦੂ ਤੋਂ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ, ਫਿਰ MSE7 ਲਈ ਮਹੱਤਵਪੂਰਨ ਤੌਰ 'ਤੇ ਘੱਟ ਕੇ 0.323 ਹੋ ਜਾਂਦਾ ਹੈ, ਅਤੇ MSE15 ਲਈ ਲਗਾਤਾਰ ਘਟਦਾ ਹੋਇਆ 0.230 ਤੱਕ ਪਹੁੰਚ ਜਾਂਦਾ ਹੈ ਅਤੇ MSE30 ਲਈ 0.165 ਦੇ ਆਪਣੇ ਸਭ ਤੋਂ ਨੀਵੇਂ ਬਿੰਦੂ 'ਤੇ ਪਹੁੰਚ ਜਾਂਦਾ ਹੈ।"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_005",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "ਉਹਨਾਂ ਸਾਰੀਆਂ ਮੋਡੀਊਲ ਸੰਰਚਨਾਵਾਂ ਦੀ ਸੂਚੀ ਬਣਾਓ ਜਿਹਨਾਂ ਦਾ MSE15 ਸਕੋਰ 0.25 ਤੋਂ ਘੱਟ ਹੈ ਅਤੇ MSE30 ਸਕੋਰ 0.18 ਤੋਂ ਘੱਟ ਹੈ।",
+    "answer": [
+      [
+        "Audio+Text+Efo"
+      ],
+      [
+        "Eos+Ecs+Efo"
+      ],
+      [
+        "Audio+Text+Eos+Ecs+Efo"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E5",
+      "F5",
+      "A6",
+      "E6",
+      "F6",
+      "A7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_006",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "ਬੇਸਲਾਈਨ 'ਆਡੀਓ+ਟੈਕਸਟ' ਮੋਡਿਊਲ ਤੋਂ ਸਭ ਤੋਂ ਗੁੰਝਲਦਾਰ 'ਆਡੀਓ+ਟੈਕਸਟ+ਈਓਐਸ+ਈਸੀਐਸ+ਈਐਫਓ' ਮੋਡਿਊਲ ਵਿੱਚ ਜਾਣ 'ਤੇ MSE30 ਤਰੁੱਟੀ ਕਿੰਨੇ ਪ੍ਰਤੀਸ਼ਤ ਘੱਟ ਜਾਂਦੀ ਹੈ?",
+    "answer": [
+      [
+        "22.55%"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_007",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "ਜੇਕਰ ਡਾਟਾ ਪ੍ਰੀਪ੍ਰੋਸੈਸਿੰਗ ਸੁਧਾਰ ਨੇ 'Eos+Ecs+Efo' ਮੋਡੀਊਲ ਲਈ MSE_over ਮੁੱਲ ਨੂੰ 15% ਘਟਾ ਦਿੱਤਾ, ਤਾਂ ਸਾਰੇ ਸੱਤ ਮੋਡੀਊਲਾਂ ਵਿੱਚ ਨਵਾਂ ਔਸਤ MSE_over ਮੁੱਲ ਕੀ ਹੋਵੇਗਾ?",
+    "answer": [
+      [
+        "0.349"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_008",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "open_ended_reasoning",
+    "question": "ਡਾਟਾ ਦੇ ਆਧਾਰ 'ਤੇ, ਕੀ ਇੱਕ ਮਾਡਿਊਲ ਦੀ ਥੋੜ੍ਹੇ ਸਮੇਂ ਦੀ ਕਾਰਗੁਜ਼ਾਰੀ (MSE3) ਅਤੇ ਇਸਦੀ ਲੰਬੇ ਸਮੇਂ ਦੀ ਕਾਰਗੁਜ਼ਾਰੀ (MSE30) ਵਿਚਕਾਰ ਕੋਈ ਸਥਿਰ ਸਬੰਧ ਹੈ? ਆਪਣੇ ਜਵਾਬ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ।",
+    "answer": [
+      [
+        "ਹਾਂ, ਇੱਕ ਮਜ਼ਬੂਤ ਸਕਾਰਾਤਮਕ ਸਬੰਧ ਹੈ। ਸਭ ਤੋਂ ਘੱਟ MSE3 ਸਕੋਰ ਵਾਲੇ ਮਾਡਿਊਲ, 'Audio+Text+Eos+Ecs+Efo' (0.553) ਅਤੇ 'Audio+Text+Efo' (0.579), ਦੇ ਸਭ ਤੋਂ ਘੱਟ MSE30 ਸਕੋਰ (ਕ੍ਰਮਵਾਰ 0.158 ਅਤੇ 0.165) ਵੀ ਹਨ। ਇਸਦੇ ਉਲਟ, ਸਭ ਤੋਂ ਵੱਧ MSE3 ਸਕੋਰ ਵਾਲੇ ਮਾਡਿਊਲ, ਜਿਵੇਂ ਕਿ 'Audio+Text' (0.645) ਅਤੇ 'Audio+Text+Ecs' (0.640), ਦੇ ਸਭ ਤੋਂ ਵੱਧ MSE30 ਸਕੋਰ (0.204 ਅਤੇ 0.201) ਹਨ। ਇਹ ਦਰਸਾਉਂਦਾ ਹੈ ਕਿ ਜਿਹੜੇ ਮਾਡਿਊਲ ਥੋੜ੍ਹੇ ਸਮੇਂ ਦੀਆਂ ਭਵਿੱਖਬਾਣੀਆਂ 'ਤੇ ਵਧੀਆ ਪ੍ਰਦਰਸ਼ਨ ਕਰਦੇ ਹਨ, ਉਹ ਲੰਬੇ ਸਮੇਂ ਦੀਆਂ ਭਵਿੱਖਬਾਣੀਆਂ 'ਤੇ ਵੀ ਵਧੀਆ ਪ੍ਰਦਰਸ਼ਨ ਕਰਦੇ ਹਨ।"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "F1",
+      "C2",
+      "F2",
+      "C3",
+      "F3",
+      "C4",
+      "F4",
+      "C5",
+      "F5",
+      "C6",
+      "F6",
+      "C7",
+      "F7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_009",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "ਸਾਰਣੀ ਦੀ ਬਣਤਰ ਵਿੱਚ MSE7 ਅਤੇ MSE15 ਭਵਿੱਖਬਾਣੀ ਸੀਮਾਵਾਂ ਦੇ ਵਿਚਕਾਰ ਸੰਖਿਆਤਮਕ ਅੰਤਰਾਲ ਕੀ ਹੈ?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_010",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "ਕਿਹੜੇ ਮੋਡਿਊਲ ਬੇਸਲਾਈਨ 'ਆਡੀਓ+ਟੈਕਸਟ' ਮੋਡਿਊਲ ਨਾਲੋਂ MSE7 ਹੋਰਾਈਜ਼ਨ 'ਤੇ ਬਦਤਰ ਪ੍ਰਦਰਸ਼ਨ ਕਰਦੇ ਹਨ (ਭਾਵ, ਉਨ੍ਹਾਂ ਦਾ MSE ਵੱਧ ਹੈ), ਜਿਸ ਕਾਰਨ ਇਸ ਖਾਸ ਬਿੰਦੂ 'ਤੇ ਉਨ੍ਹਾਂ ਦਾ ਪ੍ਰਦਰਸ਼ਨ, ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਜੋੜਨ ਤੋਂ ਉਮੀਦ ਕੀਤੇ ਸੁਧਾਰ ਦੇ ਮੁਕਾਬਲੇ, ਇੱਕ ਅਸਾਧਾਰਨ ਬਣ ਜਾਂਦਾ ਹੈ?",
+    "answer": [
+      [
+        "Audio+Text+Eos"
+      ],
+      [
+        "Audio+Text+Ecs"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_011",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Audio+Text ਮੋਡੀਊਲ ਦਾ ਔਸਤ MSE ਕੀ ਹੈ?",
+    "answer": [
+      [
+        "0.373"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

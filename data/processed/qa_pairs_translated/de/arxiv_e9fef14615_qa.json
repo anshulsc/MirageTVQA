@@ -1,0 +1,306 @@
+[
+  {
+    "question_id": "arxiv_e9fef14615_001",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Welches Modell hat den höchsten F1-Score auf dem Datensatz 'ccfraud' erzielt?",
+    "answer": [
+      [
+        "Gemini"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "E4",
+      "C4",
+      "D4",
+      "F4",
+      "G4",
+      "H4",
+      "I4",
+      "J4",
+      "K4",
+      "L4",
+      "M4",
+      "N4",
+      "O4",
+      "E10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_002",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Was ist der durchschnittliche Genauigkeits ('Acc')-Wert für das Modell 'GPT 4' über alle Datensätze hinweg, bei denen diese Metrik verwendet wurde?",
+    "answer": [
+      [
+        "0.543"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B5",
+      "D5",
+      "B9",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_003",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Identifizieren Sie den Datensatz, bei dem 'FinMA 7B' seine höchste Punktzahl erzielte, und listen Sie dann das Modell (die Modelle) auf, das (die) bei derselben Aufgabe null Punkte erhielt.",
+    "answer": [
+      [
+        "taiwan",
+        "Falcon 7B"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "I11",
+      "L11",
+      "I1",
+      "I2",
+      "I3",
+      "I4",
+      "I5",
+      "I6",
+      "I7",
+      "I8",
+      "I9",
+      "I12",
+      "I10",
+      "L10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_004",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Auf dem 'TSA'-Datensatz, welches Modell weist die größte Leistungsabnahme im Vergleich zum Modell in der unmittelbar links daneben liegenden Spalte auf und wie hoch ist diese Abnahme?",
+    "answer": [
+      [
+        "FinGPT 7B-lora",
+        "0.80"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "I3",
+      "J3",
+      "I10",
+      "J10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_005",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Identifizieren Sie alle Datensätze, bei denen das Modell 'Gemini' eine Punktzahl von 0,90 oder höher erreichte UND das Modell 'Chat GPT' eine Punktzahl von 0,20 oder niedriger erzielte.",
+    "answer": [
+      [
+        "ccfraud"
+      ],
+      [
+        "taiwan"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "E4",
+      "A11",
+      "C11",
+      "E11",
+      "C10",
+      "E10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_006",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Für den Datensatz 'LendingClub', welcher Prozentsatz der kumulativen Punktzahl aller Modelle kann den drei Spitzenmodellen für diese Aufgabe zugeordnet werden? Runden Sie auf eine Dezimalstelle.",
+    "answer": [
+      [
+        "41.3%"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "G6",
+      "H6",
+      "I6",
+      "J6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "O6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_007",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Wenn jeder Score für das Modell 'LLaMA2 70B' um 10% erhöht würde, wie wäre sein neuer Durchschnittswert über alle bewerteten Aufgaben? Runden Sie auf drei Dezimalstellen.",
+    "answer": [
+      [
+        "0.354"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G11",
+      "G12",
+      "G10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_008",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "open_ended_reasoning",
+    "question": "Untersuchen Sie die Aufgaben, die mit den Metriken 'F1' oder 'MicroF1' gemessen werden. Gibt es eine konsistente Leistungsbeziehung zwischen den Modellen 'GPT 4' und 'Gemini'? Erklären Sie Ihre Begründung.",
+    "answer": [
+      [
+        "Es gibt keine starke positive Korrelation, aber eine klare Leistungshierarchie. Bei den auf F1 basierenden Aufgaben übertrifft Gemini GPT 4 durchweg oder erreicht dessen Leistung. Für die Datensätze 'ccfraud' und 'taiwan' sind die Werte von Gemini (0,90 bzw. 0,95) erheblich höher als die von GPT 4 (0,55 für beide). Für 'LendingClub' ist Gemini (0,65) immer noch moderat höher als GPT 4 (0,55). Nur beim Datensatz 'MLESG' sind ihre Werte nahezu identisch (0,35 vs. 0,34). Dies deutet darauf hin, dass ihre Leistung zwar nicht eng korreliert ist, Gemini jedoch im Allgemeinen ein überlegenes Modell für diese spezifischen, mit F1 gemessenen Aufgaben ist."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "D4",
+      "E4",
+      "B6",
+      "D6",
+      "E6",
+      "B11",
+      "D11",
+      "E11",
+      "B12",
+      "D12",
+      "E12",
+      "D10",
+      "E10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_009",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Welche zwei Datensätze zeigen über jedes einzelne getestete Modell hinweg Nullenwerte, was auf ein mögliches Bewertungsversagen oder eine Aufgabe hindeutet, die kein Modell erfüllen konnte?",
+    "answer": [
+      [
+        "FNXL"
+      ],
+      [
+        "ECTSUM"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "H7",
+      "I7",
+      "J7",
+      "K7",
+      "L7",
+      "M7",
+      "N7",
+      "O7",
+      "A8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "G8",
+      "H8",
+      "I8",
+      "J8",
+      "K8",
+      "L8",
+      "M8",
+      "N8",
+      "O8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_010",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "open_ended_reasoning",
+    "question": "Welcher Datensatz-Score stellt für das Modell 'Gemini' den signifikantesten positiven Ausreißer dar und warum?",
+    "answer": [
+      [
+        "Der Score für den Datensatz 'taiwan' (0,95) ist der signifikanteste positive Ausreißer für das Gemini-Modell. Die Berechnung des Durchschnitts der Nicht-Null-Scores von Gemini ergibt ungefähr 0,615. Der Score von 0,95 ist der höchste Wert und liegt am weitesten von diesem Durchschnitt entfernt im Vergleich zu allen anderen Scores. Diese ungewöhnlich hohe Leistung deutet darauf hin, dass das Gemini-Modell für die durch den Datensatz 'taiwan' und die Metrik 'F1' definierte Aufgabe außergewöhnlich gut geeignet ist, oder dass die Aufgabe selbst für dieses Modell wesentlich einfacher war als für die anderen."
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "B11",
+      "E11",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E12",
+      "E10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_011",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "open_ended_reasoning",
+    "question": "Welches Modell zeigt eine robuste Generalisierung sowohl bei Aufgaben zur Entitätsextraktion (NER, FINER-ORD) als auch bei der Sentimentklassifizierung (FPB, SC)?",
+    "answer": [
+      [
+        "GPT-4 schneidet über alle Datensätze zur Entitätsextraktion und Sentimentklassifizierung hinweg konstant gut ab und erzielt im Vergleich zu anderen Modellen hohe EntityF1- und F1-Scores."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A5",
+      "J5",
+      "A9",
+      "J9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]
