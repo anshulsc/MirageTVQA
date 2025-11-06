@@ -1,0 +1,232 @@
+[
+  {
+    "question_id": "finqa_21abc3652e_001",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Med undantag för 'total commercialcommitments', vilket åtagande har det största totala värdet?",
+    "answer": [
+      [
+        "credit facilities [a]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_002",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Vad är summan av alla kommersiella åtaganden, i miljoner, som förfaller under åren 2015 och 2016 tillsammans?",
+    "answer": [
+      [
+        "78"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_21abc3652e_003",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Lista året och det motsvarande anläggningsnamnet för varje fall där en enskild anläggning står för mer än 98 % av årets totala förfall.",
+    "answer": [
+      [
+        "2017",
+        "receivables securitization facility [b]"
+      ],
+      [
+        "2019",
+        "credit facilities [a]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "G5",
+      "A2",
+      "E2",
+      "E5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_004",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv trenden för totala åtagandeskulder från 2015 till 2019.",
+    "answer": [
+      [
+        "Trenden är mycket volatil och visar inget stadigt mönster. Den börjar på 46 miljoner dollar 2015, sjunker till 32 miljoner dollar 2016, och skjuter sedan upp till en topp på 660 miljoner dollar 2017. Därefter rasar den till endast 11 miljoner dollar 2018 innan den ökar till sin högsta punkt på 1708 miljoner dollar 2019. Mönstret kännetecknas av extrema fluktuationer snarare än konsekvent tillväxt eller nedgång."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_005",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Identifiera alla åtagandetyper som har ett utgångsbelopp större än noll både 2016 och 2019.",
+    "answer": [
+      [
+        "guarantees [c]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "G1",
+      "A2",
+      "D2",
+      "G2",
+      "A3",
+      "D3",
+      "G3",
+      "A4",
+      "D4",
+      "G4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_006",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Vilken procentandel av åtagandet 'garantier [c]' totalt löper ut efter 2019?",
+    "answer": [
+      [
+        "18.29%"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "H3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_21abc3652e_007",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Om åtagandet för 'kreditfaciliteter [a]' vore 50% lägre, vad skulle det nya värdet för 'totala kommersiella åtaganden' vara?",
+    "answer": [
+      [
+        "$ 1622"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_008",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "open_ended_reasoning",
+    "question": "Baserat på de angivna uppgifterna, vilken relation kan härledas mellan det totala beloppet för en specifik åtagande och tidsfördelningen av dess förfall?",
+    "answer": [
+      [
+        "Det verkar finnas ett omvänt samband. De två största åtagandena ('kreditfaciliteter' till 1700 miljoner USD och 'fordringssecuritiseringsfacilitet' till 650 miljoner USD) förfaller i en enda klumpsumma under ett specifikt år. Däremot har de mindre åtagandena ('garantier' och 'standby-åtaganden') sina förfallandebelopp spridda över flera perioder."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "G1",
+      "A2",
+      "B2",
+      "E2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_21abc3652e_009",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Vilket årsspecifikt kolumn (2015-2019) har det minsta antalet individuella åtaganden med ett utgångsvärde större än noll?",
+    "answer": [
+      [
+        "amount of commitment expiration per period 2018"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_010",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Om vi tittar på raden 'total commercialcommitments', vilket års utgångsbelopp är den mest betydande avvikelsen jämfört med medianen för perioden 2015 till efter 2019?",
+    "answer": [
+      [
+        "2019"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "H5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_21abc3652e_011",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Vad är de totala kommersiella åtagandena (i miljoner) under åren 2015–2019?",
+    "answer": [
+      [
+        "2457"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

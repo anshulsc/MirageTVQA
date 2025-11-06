@@ -1,0 +1,258 @@
+[
+  {
+    "question_id": "finqa_7029f59db3_001",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Welcher Reaktortyp hat eine höhere durchschnittliche Kapazität und wie hoch ist diese durchschnittliche Kapazität in MW?",
+    "answer": [
+      [
+        "Pressurized Water",
+        "960"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_002",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Was ist die gesamte kombinierte Kapazität (in MW) aller Kraftwerke im Bundesstaat New York (NY)?",
+    "answer": [
+      [
+        "2907"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "F2",
+      "E3",
+      "F3",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7029f59db3_003",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Was ist das Ablaufdatum der Lizenz für das Kraftwerk im Markt 'nyiso', das am längsten in Betrieb ist?",
+    "answer": [
+      [
+        "2013 ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B2",
+      "B3",
+      "B4",
+      "C2",
+      "C3",
+      "C4",
+      "G4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_004",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Berechnen Sie die durchschnittliche Anzahl der Jahre zwischen dem 'Inbetriebnahmejahr' und dem 'Lizenzablaufdatum' für alle Kraftwerke, die nach dem Jahr 2000 erworben wurden.",
+    "answer": [
+      [
+        "52.25"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "G4",
+      "C5",
+      "D5",
+      "G5",
+      "C6",
+      "D6",
+      "G6",
+      "C3",
+      "D3",
+      "G3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_005",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Listen Sie die Namen aller Kraftwerke auf, die nicht auf dem 'nyiso'-Markt tätig sind und eine Kapazität von mehr als 700 MW haben.",
+    "answer": [
+      [
+        "palisades ( e )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "F1",
+      "A5",
+      "B5",
+      "F5",
+      "A6",
+      "B6",
+      "F6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_006",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Welchen Anteil an der Gesamtkapazität aller aufgeführten Kraftwerke tragen Kraftwerke mit Siedewasserreaktoren bei? Geben Sie die Antwort als Prozentsatz, gerundet auf zwei Dezimalstellen, an.",
+    "answer": [
+      [
+        "42.53%"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7029f59db3_007",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Wenn die Kapazität aller 'druckwasserbetriebenen' Reaktoren um 10 % aufgerüstet würde, was wäre die neue Gesamtkapazität für das 'indian point 3 ( c )' Kraftwerk?",
+    "answer": [
+      [
+        "1145.1 mw"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "F3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_008",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "open_ended_reasoning",
+    "question": "Analysieren Sie die Beziehung zwischen dem Jahr, in dem ein Kraftwerk erworben wurde, und seiner lizenzierten Betriebsdauer (Ablaufdatum der Lizenz minus Inbetriebnahmejahr). Gibt es ein erkennbares Muster?",
+    "answer": [
+      [
+        "Es gibt keine klare Korrelation zwischen dem Erwerbsjahr und der lizenzierten Betriebsdauer. Die Dauern sind: Pilgrim (erworben 1999) - 60 Jahre, FitzPatrick (2000) - 59 Jahre, Indian Point 3 (2000) - 39 Jahre, Indian Point 2 (2001) - 39 Jahre, Vermont Yankee (2002) - 60 Jahre und Palisades (2007) - 60 Jahre. Jüngst erworbene Anlagen (z.B. Palisades im Jahr 2007) haben lange Laufzeiten (60 Jahre), während einige früher erworbene Anlagen (z.B. die Indian-Point-Anlagen in den Jahren 2000/2001) deutlich kürzere Laufzeiten (39 Jahre) haben. Die Dauer scheint unabhängig vom Erwerbsdatum zu sein."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "G1",
+      "C2",
+      "D2",
+      "G2",
+      "C3",
+      "D3",
+      "G3",
+      "C4",
+      "D4",
+      "G4",
+      "C5",
+      "D5",
+      "G5",
+      "C6",
+      "D6",
+      "G6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7029f59db3_009",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Welches Kraftwerk hat ein 'In-Service-Jahr', das im Vergleich zum durchschnittlichen 'In-Service-Jahr' der anderen Kraftwerke am selben Standort der größte Ausreißer ist?",
+    "answer": [
+      [
+        "fitzpatrick ( b )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "A3",
+      "C3",
+      "E3",
+      "A4",
+      "C4",
+      "E4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7029f59db3_010",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Welche zwei Spalten im Datensatz, mit Ausnahme der Spalte 'capacity - reactor type', enthalten Datenfelder mit Klammerzusätzen, was darauf hindeutet, dass sie sich auf Fußnoten oder zusätzliche Details beziehen könnten, die in der Tabelle nicht vorhanden sind?",
+    "answer": [
+      [
+        "power plant",
+        "license expiration date"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_011",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Welches Kraftwerk wurde zuletzt erworben?",
+    "answer": [
+      [
+        "Palisades"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  }
+]

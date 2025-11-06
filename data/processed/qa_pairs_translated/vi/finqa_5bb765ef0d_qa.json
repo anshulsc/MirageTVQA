@@ -1,0 +1,276 @@
+[
+  {
+    "question_id": "finqa_5bb765ef0d_001",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "Lớp khu vực ban đầu nào dẫn đến số lượng cổ phiếu cao nhất sau khi chuyển đổi true-up?",
+    "answer": [
+      [
+        "class usa ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_002",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "Tổng số cổ phiếu loại 'class c ( series i )' được tạo ra sau khi điều chỉnh từ tất cả các loại khu vực đóng góp là bao nhiêu?",
+    "answer": [
+      [
+        "284160835"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "E5",
+      "B6",
+      "E6",
+      "B7",
+      "E7",
+      "B8",
+      "E8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_003",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "Lớp khu vực nào có sự chênh lệch tuyệt đối lớn nhất giữa số lượng cổ phiếu trước và sau khi điều chỉnh true-up?",
+    "answer": [
+      [
+        "class usa ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "E1",
+      "A2",
+      "C2",
+      "E2",
+      "A3",
+      "C3",
+      "E3",
+      "A4",
+      "C4",
+      "E4",
+      "A5",
+      "C5",
+      "E5",
+      "A6",
+      "C6",
+      "E6",
+      "A7",
+      "C7",
+      "E7",
+      "A8",
+      "C8",
+      "E8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_004",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "Liệt kê tất cả các hạng mục khu vực có số lượng cổ phiếu tăng lên do quá trình tái tổ chức và điều chỉnh.",
+    "answer": [
+      [
+        "class ap"
+      ],
+      [
+        "class lac"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "D6",
+      "A7",
+      "D7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_005",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "Lớp khu vực nào có tỷ lệ chuyển đổi điều chỉnh thấp nhất, cho thấy sự sụt giảm theo tỷ lệ lớn nhất về cổ phiếu?",
+    "answer": [
+      [
+        "class usa ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6",
+      "A7",
+      "D7",
+      "A8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_006",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "Tỷ lệ phần trăm cổ phiếu ban đầu (phát hành trong đợt tái tổ chức) mà 'class usa ( 1 )' chiếm giữ là bao nhiêu?",
+    "answer": [
+      [
+        "55.01%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_007",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "Trong số các lớp khu vực được chuyển đổi thành 'class c ( series i )', hãy liệt kê tất cả các lớp có tỷ lệ chuyển đổi điều chỉnh nhỏ hơn 1.0.",
+    "answer": [
+      [
+        "class canada"
+      ],
+      [
+        "class cemea"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "D5",
+      "A8",
+      "B8",
+      "D8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_008",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "Nếu tỷ lệ chuyển đổi điều chỉnh cho 'class canada' được thay đổi thành 1.1, số lượng cổ phiếu đã chuyển đổi mới cho lớp cụ thể đó sẽ là bao nhiêu?",
+    "answer": [
+      [
+        "24238154"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_009",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "open_ended_reasoning",
+    "question": "Có mối tương quan rõ ràng nào giữa số lượng cổ phiếu ban đầu trong một hạng mục khu vực và tỷ lệ chuyển đổi điều chỉnh của nó không? Hãy giải thích phát hiện của bạn.",
+    "answer": [
+      [
+        "Không có mối tương quan rõ ràng nào có thể nhìn thấy trong dữ liệu. Ví dụ, hạng mục có số lượng cổ phiếu ban đầu cao nhất, 'class usa ( 1 )' (426 triệu), có tỷ lệ chuyển đổi dưới 1,0 (0,93870), dẫn đến sự suy giảm. Ngược lại, 'class ap', với số lượng cổ phiếu ban đầu cao thứ hai (119 triệu), có tỷ lệ chuyển đổi cao nhất (1,19043), dẫn đến sự gia tăng. Các hạng mục nhỏ hơn như các dòng 'class eu' có tỷ lệ ổn định là 1,0. Sự thiếu vắng một xu hướng nhất quán này cho thấy tỷ lệ chuyển đổi được xác định bởi các yếu tố khác ngoài khối lượng cổ phiếu ban đầu."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C4",
+      "D4",
+      "C5",
+      "D5",
+      "C6",
+      "D6",
+      "C7",
+      "D7",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_010",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "Các lớp và chuỗi khu vực có số lượng lớn nhất đã được hợp nhất vào lớp và chuỗi chuyển đổi duy nhất nào?",
+    "answer": [
+      [
+        "class c ( series i )"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_011",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "open_ended_reasoning",
+    "question": "Trong số các lớp AP hoặc LAC, lớp khu vực nào có sự tăng trưởng lớn hơn sau khi điều chỉnh thực tế?",
+    "answer": [
+      [
+        "Lớp AP có mức tăng trưởng lớn hơn, tăng từ 119.100.481 lên 141.780.635 cổ phiếu, trong khi Lớp LAC tăng từ 80.137.915 lên 85.835.549 cổ phiếu."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "E6",
+      "A7",
+      "C7",
+      "E7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

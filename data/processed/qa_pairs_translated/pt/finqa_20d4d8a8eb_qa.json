@@ -1,0 +1,239 @@
+[
+  {
+    "question_id": "finqa_20d4d8a8eb_001",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "value",
+    "question": "Qual categoria de despesa, excluindo ganhos e totais, registrou a maior diminuição absoluta de valor de 2006 para 2007?",
+    "answer": [
+      [
+        "consulting and professional fees"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A9",
+      "C9",
+      "D9",
+      "A10",
+      "C10",
+      "D10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_002",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "value",
+    "question": "Qual foi o custo combinado de 'consultoria e honorários profissionais', 'rescisão e retenção de funcionários' e 'integração de tecnologia da informação' em 2008?",
+    "answer": [
+      [
+        "12.9"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_003",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "value",
+    "question": "Qual a percentagem do custo total de 'integração de aquisições e outros' foi representada por 'pesquisa e desenvolvimento em andamento' no seu ano de maior custo (2008)?",
+    "answer": [
+      [
+        "56.2%"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "A11",
+      "B11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_004",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "open_ended_reasoning",
+    "question": "Descreva a tendência financeira para 'pesquisa e desenvolvimento em andamento' de 2006 a 2008.",
+    "answer": [
+      [
+        "O custo para 'pesquisa e desenvolvimento em andamento' demonstrou uma tendência de alta significativa e acelerada. Começou em $2,9 milhões em 2006, mais do que dobrou para $6,5 milhões em 2007, e depois aumentou quase seis vezes para $38,5 milhões em 2008, tornando-se o item de custo dominante no final do período."
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "C5",
+      "B5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_005",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "value",
+    "question": "Identifique todas as categorias de despesas que tiveram um custo superior a US$ 7 milhões em 2008 E superior a US$ 4 milhões em 2007.",
+    "answer": [
+      [
+        "in-process research & development"
+      ],
+      [
+        "distributor acquisitions"
+      ],
+      [
+        "sales agent and lease contract terminations"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_006",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "value",
+    "question": "Em 2006, qual era a proporção dos custos de 'honorários de consultoria e profissionais' para 'rescisão e retenção de funcionários'?",
+    "answer": [
+      [
+        "2.67:1"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_007",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "value",
+    "question": "Se o 'ajuste de ganho na alienação' em 2008 tivesse sido zero em vez de um ganho de US$ 9,0 milhões (um valor de -9,0), qual teria sido o novo total para 'integração de aquisição e outros'?",
+    "answer": [
+      [
+        "$77.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B11"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_008",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "open_ended_reasoning",
+    "question": "Com base nos dados, que relação pode ser inferida entre as tendências dos custos de 'integração de tecnologia da informação' e os custos de 'pesquisa e desenvolvimento em andamento' de 2006 a 2008?",
+    "answer": [
+      [
+        "Pode-se inferir uma relação inversa entre as duas categorias. Enquanto os custos de 'pesquisa e desenvolvimento em andamento' aumentaram drasticamente de US$ 2,9 milhões para US$ 38,5 milhões, os custos de 'integração de tecnologia da informação' mostraram uma tendência de declínio consistente, diminuindo de US$ 3,0 milhões para US$ 0,9 milhão no mesmo período. Isso sugere uma potencial mudança nas prioridades de gastos, afastando-se da integração interna de TI em direção à aquisição de P&D externo."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_009",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "value",
+    "question": "Qual ano tem o maior número de entradas de dados ausentes ou não padronizadas (representadas pelo valor '2013')?",
+    "answer": [
+      [
+        "2007"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "C7",
+      "D8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_010",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "value",
+    "question": "Em 2008, qual única categoria de despesa representa um valor atípico positivo, contribuindo com mais da metade do custo total de 'integração de aquisições e outros' para aquele ano?",
+    "answer": [
+      [
+        "in-process research & development"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_011",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "open_ended_reasoning",
+    "question": "Qual categoria apresenta um valor excepcionalmente alto em comparação com as outras em 2008?",
+    "answer": [
+      [
+        "Pesquisa e desenvolvimento em andamento"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A8",
+      "B8",
+      "A9",
+      "B9",
+      "A10",
+      "B10",
+      "A11",
+      "B11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

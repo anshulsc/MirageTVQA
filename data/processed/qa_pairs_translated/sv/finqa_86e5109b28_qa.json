@@ -1,0 +1,259 @@
+[
+  {
+    "question_id": "finqa_86e5109b28_001",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Vilket kommersiellt åtagande, exklusive totalerna, har det enskilt största utgångsbeloppet under något år från 2014 till 2017?",
+    "answer": [
+      [
+        "credit facilities [a]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_002",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Vad är summan av alla individuella åtagandeupphöranden för åren 2016 och 2017 kombinerat?",
+    "answer": [
+      [
+        "40"
+      ]
+    ],
+    "evidence_cells": [
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_86e5109b28_003",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Identifiera den åtagandetyp som har utgångar spridda över flest tidsperioder, och ange dess totala värde.",
+    "answer": [
+      [
+        "guarantees [c]"
+      ],
+      [
+        "307"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "C1",
+      "E1",
+      "C2",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_004",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv det temporala mönstret för utgången av 'totala kommersiella åtaganden' från 2013 till 2016.",
+    "answer": [
+      [
+        "Mönstret är mycket volatilt. Det börjar på 632 miljoner dollar 2013, sjunker med cirka 66 % till 215 miljoner dollar 2014, ökar sedan dramatiskt till en rekordhög nivå på 1812 miljoner dollar 2015, innan det rasar med över 98 % till endast 30 miljoner dollar 2016. Det finns ingen konsekvent tillväxt eller nedgång."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_005",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Lista de engagemangstyper som har ett utgångsbelopp större än 0 USD år 2013 men inga utgångar från och med 2015.",
+    "answer": [
+      [
+        "receivables securitization facility [b]"
+      ],
+      [
+        "standby letters of credit [d]"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "F2",
+      "G2",
+      "H2",
+      "A4",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "H4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_006",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Vilken andel av de totala förfallen för 2013 kan hänföras till 'receivables securitization facility'?",
+    "answer": [
+      [
+        "94.94%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_86e5109b28_007",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Om de 1800 miljonerna dollar för 'kreditfaciliteter' som förfaller 2015 istället skulle fördelas jämnt mellan 2016 och 2017, vad skulle den nya totalsumman för 'totala kommersiella åtaganden' vara för 2016?",
+    "answer": [
+      [
+        "$ 930"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_008",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "open_ended_reasoning",
+    "question": "Baserat på tabellen, finns det ett observerbart samband mellan det totala beloppet för en åtagande och antalet år över vilka den löper ut?",
+    "answer": [
+      [
+        "Nej, det finns inget direkt samband. Data antyder faktiskt ett omvänt förhållande. Det största åtagandet, 'kreditfaciliteter' (1800 miljoner dollar), löper ut helt inom ett år (2015). Omvänt är 'garantier' (307 miljoner dollar), ett av de mindre åtagandena, spritt över alla sex angivna tidsperioder."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "E1",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_86e5109b28_009",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Vilket utgångsår har färst antal individuella åtagandetyper med ett icke-nollvärde?",
+    "answer": [
+      [
+        "amount of commitment expiration per period 2016"
+      ],
+      [
+        "amount of commitment expiration per period 2017"
+      ],
+      [
+        "amount of commitment expiration per period after 2017"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_010",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifiera det år vars totala utgångsbelopp är en betydande avvikelse jämfört med de andra perioderna, och motivera ditt resonemang.",
+    "answer": [
+      [
+        "År 2015 är en klar avvikelse med en total utgång på 1812 miljoner dollar. Denna summa är exceptionellt hög, mer än 2,8 gånger den näst största årsutgången (632 miljoner dollar år 2013) och betydligt större än alla andra perioder, som sträcker sig från 10 miljoner dollar till 215 miljoner dollar."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "H5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_86e5109b28_011",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Vad är de totala kommersiella åtagandena från 2013 till 2017?",
+    "answer": [
+      [
+        "2,699"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

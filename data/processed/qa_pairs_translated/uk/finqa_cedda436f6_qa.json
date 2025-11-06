@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "finqa_cedda436f6_001",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "У якому році 'дохід від операцій до оподаткування' був найвищим?",
+    "answer": [
+      [
+        "2013"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_002",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Які загальні витрати на податок на прибуток у мільйонах доларів за всі три роки, показані в таблиці?",
+    "answer": [
+      [
+        "238"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cedda436f6_003",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "За рік з найнижчими чистими продажами, яким був відповідний показник 'чистого прибутку від припинених операцій (що належить PPG)' у мільйонах доларів?",
+    "answer": [
+      [
+        "2197"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_004",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "Опишіть динаміку \"чистого продажу\" за період з 2011 по 2013 рік.",
+    "answer": [
+      [
+        "Чистий продаж показав невелике зниження з 1732 мільйонів у 2011 році до 1688 мільйонів у 2012 році, за яким послідувало різке падіння до 108 мільйонів у 2013 році. Це свідчить про значну негативну тенденцію, особливо в останній рік періоду."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_005",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Перелічіть усі фінансові показники, для яких значення у 2013 році перевищило сукупну суму значень за 2012 та 2011 роки.",
+    "answer": [
+      [
+        "income from operations before income tax"
+      ],
+      [
+        "income from discontinued operations net of tax"
+      ],
+      [
+        "net income from discontinued operations ( attributable to ppg )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "A7",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_006",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "На скільки відсотків зріс показник \"чистий прибуток від припиненої діяльності (належить PPG)\" з 2012 по 2013 рік?",
+    "answer": [
+      [
+        "921.9%"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cedda436f6_007",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Якби «чистий прибуток від виділення та злиття» у 2013 році був на 25% нижчим, і це зниження безпосередньо зменшило «дохід від операційної діяльності до оподаткування», яким би був новий дохід від операційної діяльності за цей рік?",
+    "answer": [
+      [
+        "1466"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_008",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "Проаналізуйте взаємозв'язок між \"чистим продажем\" та \"операційним прибутком до оподаткування\" за три роки на основі даних. Чи існує послідовна кореляція?",
+    "answer": [
+      [
+        "Послідовної кореляції немає. З 2011 по 2012 рік показники демонструють позитивну кореляцію, оскільки незначне зниження продажів (з 1732 млн до 1688 млн доларів) відповідає зниженню прибутку (з 376 млн до 345 млн доларів). Однак цей взаємозв'язок різко змінюється у 2013 році, коли масове падіння чистого продажу до 108 млн доларів супроводжується сплеском прибутку до 2014 млн доларів. Це свідчить про те, що у 2013 році прибуток визначався факторами, відмінними від основного продажу, такими як \"чистий прибуток від відокремлення та злиття бізнесу з хімічних товарів\"."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cedda436f6_009",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Який фінансовий показник показує значення \"$ 2014\" мільйонів в один рік та \"2014\" мільйонів у два інші роки, що висвітлює неузгодженість у форматуванні даних для однакового числового значення?",
+    "answer": [
+      [
+        "less : net income attributable to non-controlling interests discontinued operations"
+      ],
+      [
+        "net gain from separation and merger of commodity chemicals business"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "A6",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_010",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "Який пункт за 2013 рік представляє найбільш значущу фінансову подію порівняно з нульовим або майже нульовим значенням в інші роки, і як це, ймовірно, вплинуло на \"дохід від операційної діяльності\" за той рік?",
+    "answer": [
+      [
+        "\"Чистий прибуток від продажу та злиття бізнесу з хімікатами\" із вартістю 2192 мільйони у 2013 році є найбільш значущою фінансовою подією. Цей одноразовий прибуток, схоже, є основним чинником незвично високого \"доходу від операційної діяльності до оподаткування\" у розмірі 2014 мільйонів доларів у тому ж році, що є суттєвим відхиленням порівняно з 345 мільйонами доларів та 376 мільйонами доларів, задекларованими відповідно у 2012 та 2011 роках."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cedda436f6_011",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Які видатки на податок на прибуток були до кінця 2011 року?",
+    "answer": [
+      [
+        "126"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

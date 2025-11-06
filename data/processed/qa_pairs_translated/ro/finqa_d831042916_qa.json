@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "finqa_d831042916_001",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "În ce an a înregistrat compania cel mai mare '(pierdere) din operațiuni continue'?",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_002",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Care au fost cheltuielile operaționale totale pentru perioada de trei ani de la 2007 la 2009?",
+    "answer": [
+      [
+        "$3743"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d831042916_003",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Care a fost valoarea 'veniturilor non-dobânzi' în singurul an în care compania a raportat un 'profit net (pierdere)' pozitiv?",
+    "answer": [
+      [
+        "422"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "B12",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_004",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Descrieți tendința \"veniturilor totale nete de cheltuielile cu dobânzile\" din 2007 până în 2009.",
+    "answer": [
+      [
+        "Tendința a fost covârșitor negativă și volatilă. Veniturile totale au arătat o îmbunătățire minoră, de la o pierdere de 2310 milioane USD în 2007 la o pierdere de 2258 milioane USD în 2008. Cu toate acestea, aceasta a fost urmată de un declin catastrofal în 2009, unde pierderea a crescut dramatic la 10556 milioane USD, indicând un declin sever în activitățile de bază ale companiei de generare a veniturilor."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_005",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Enumerați 'impozitele pe venit (beneficii)' pentru toți anii în care '(pierdere) din operațiuni continue' a fost mai mare de 2.500 milioane USD.",
+    "answer": [
+      [
+        "-4369 ( 4369 )"
+      ],
+      [
+        "-1446 ( 1446 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "D7",
+      "B8",
+      "D8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_006",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "În 2009, ce procent din „veniturile totale nete de cheltuielile cu dobânzile” a fost format din „venituri nelegate de dobânzi”?",
+    "answer": [
+      [
+        "84.25%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d831042916_007",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Dacă 'totalul cheltuielilor operaționale' din 2008 ar fi crescut cu 20%, care ar fi fost noua valoare pentru '(pierdere) din operațiuni curente înainte de impozitare' pentru acel an?",
+    "answer": [
+      [
+        "$ -2871 ( 2871 )"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_008",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Pe baza datelor, există o corelație constantă între 'cheltuielile operaționale totale' mai mici și un 'profit net (pierdere)' mai mare?",
+    "answer": [
+      [
+        "Nu, nu se observă o corelație constantă. Deși anul 2008 a avut cele mai mici cheltuieli operaționale (510 milioane USD) și cel mai mare profit net (1820 milioane USD), sugerând o relație inversă, acest tipar este întrerupt de ceilalți ani. În 2009, cheltuielile operaționale (1420 milioane USD) au fost mai mici decât în 2007 (1813 milioane USD), însă anul 2009 a înregistrat o pierdere netă drastic mai mare (-8051 milioane USD) comparativ cu 2007 (-1968 milioane USD). Acest lucru indică faptul că alți factori, cum ar fi scăderea severă a veniturilor, au avut un impact mult mai mare asupra profitului net decât cheltuielile operaționale singure."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "A12",
+      "B4",
+      "C4",
+      "D4",
+      "B12",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d831042916_009",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Examinând ultimele trei rânduri, este calculul pentru 'venit net (pierdere)' aplicat consecvent pe parcursul celor trei ani? Explică descoperirea ta.",
+    "answer": [
+      [
+        "Nu, metoda de calcul este inconsistentă. În 2007, 'venitul net (pierdere)' (-1968 milioane USD) este derivat corect prin scăderea 'venitului net atribuit intereselor non-controlante' (2 milioane USD) din 'venitul net (pierdere) înainte de atribuirea...' (-1966 milioane USD). Cu toate acestea, atât în 2008, cât și în 2009, valoarea 'venitului net (pierdere)' este identică cu valoarea 'venitului net (pierdere) înainte de atribuirea...', ignorând incorect suma atribuită intereselor non-controlante. Acest lucru indică o inconsecvență în raportare în structura tabelului pentru 2008 și 2009."
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "A11",
+      "A12",
+      "B10",
+      "B11",
+      "B12",
+      "C10",
+      "C11",
+      "C12",
+      "D10",
+      "D11",
+      "D12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_010",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Ce element din situațiile financiare din 2008 reprezintă un punct pozitiv semnificativ comparativ cu ceilalți ani și care a fost efectul său asupra rezultatului final al companiei?",
+    "answer": [
+      [
+        "Elementul 'venit (pierdere) din operațiuni întrerupte net de impozite' din 2008, cu o valoare de 4002 milioane USD, este un punct pozitiv semnificativ comparativ cu o pierdere de 445 milioane USD în 2009 și un câștig mai mic de 708 milioane USD în 2007. Acest element a fost crucial, deoarece a transformat o pierdere substanțială din 'operațiuni continue' de 2182 milioane USD într-un 'profit net' final pozitiv de 1820 milioane USD pentru acel an."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "A9",
+      "A12",
+      "B9",
+      "C8",
+      "C9",
+      "C12",
+      "D9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d831042916_011",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Luând în considerare atât operațiunile curente, cât și operațiunile întrerupte, care a fost modificarea totală a profitului net de la 2008 la 2009?",
+    "answer": [
+      [
+        "În 2008, profitul net a fost de 1.820 milioane USD. În 2009, profitul net a fost de -8.051 milioane USD. Modificarea totală a profitului net de la 2008 la 2009 este o scădere de 9.871 milioane USD."
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "C12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

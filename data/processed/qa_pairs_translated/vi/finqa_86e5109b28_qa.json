@@ -1,0 +1,259 @@
+[
+  {
+    "question_id": "finqa_86e5109b28_001",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Ngoại trừ các khoản tổng cộng, cam kết thương mại nào có khoản thanh lý lớn nhất trong bất kỳ năm nào từ 2014 đến 2017?",
+    "answer": [
+      [
+        "credit facilities [a]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_002",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Tổng các khoản cam kết hết hạn riêng lẻ cho năm 2016 và 2017 cộng lại là bao nhiêu?",
+    "answer": [
+      [
+        "40"
+      ]
+    ],
+    "evidence_cells": [
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_86e5109b28_003",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Xác định loại cam kết có thời hạn đáo hạn trải dài trên nhiều khoảng thời gian nhất và nêu giá trị tổng của nó.",
+    "answer": [
+      [
+        "guarantees [c]"
+      ],
+      [
+        "307"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "C1",
+      "E1",
+      "C2",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_004",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "open_ended_reasoning",
+    "question": "Mô tả xu hướng thời gian của các khoản 'tổng cam kết thương mại' đáo hạn từ năm 2013 đến năm 2016.",
+    "answer": [
+      [
+        "Xu hướng này rất biến động. Nó bắt đầu ở mức 632 triệu USD vào năm 2013, giảm khoảng 66% xuống còn 215 triệu USD vào năm 2014, sau đó tăng vọt lên mức cao nhất mọi thời đại là 1812 triệu USD vào năm 2015, trước khi giảm mạnh hơn 98% xuống chỉ còn 30 triệu USD vào năm 2016. Không có sự tăng trưởng hay suy giảm nhất quán nào."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_005",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Liệt kê các loại cam kết có giá trị đáo hạn lớn hơn 0 đô la vào năm 2013 nhưng không có khoản đáo hạn nào từ năm 2015 trở đi.",
+    "answer": [
+      [
+        "receivables securitization facility [b]"
+      ],
+      [
+        "standby letters of credit [d]"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "F2",
+      "G2",
+      "H2",
+      "A4",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "H4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_006",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Tỷ lệ các khoản thanh lý đáo hạn vào năm 2013 của 'khoản vay chứng khoán hóa các khoản phải thu' là bao nhiêu?",
+    "answer": [
+      [
+        "94.94%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_86e5109b28_007",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Nếu khoản tín dụng 1800 triệu đô la cho 'cơ sở tín dụng' hết hạn vào năm 2015 được chia đều cho năm 2016 và 2017, thì tổng cam kết thương mại mới cho năm 2016 sẽ là bao nhiêu?",
+    "answer": [
+      [
+        "$ 930"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_008",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "open_ended_reasoning",
+    "question": "Dựa trên bảng, có mối tương quan có thể quan sát được giữa tổng số tiền của một cam kết và số năm mà nó đáo hạn không?",
+    "answer": [
+      [
+        "Không, không có mối tương quan trực tiếp nào. Trên thực tế, dữ liệu cho thấy một mối quan hệ ngược chiều. Khoản cam kết lớn nhất, 'tín dụng' (1800 triệu USD), đáo hạn hoàn toàn trong một năm (2015). Ngược lại, 'bảo lãnh' (307 triệu USD), một trong những cam kết nhỏ hơn, được trải rộng trên cả sáu khoảng thời gian được liệt kê."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "E1",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_86e5109b28_009",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Cột năm hết hạn nào có ít loại cam kết riêng lẻ với giá trị khác không nhất?",
+    "answer": [
+      [
+        "amount of commitment expiration per period 2016"
+      ],
+      [
+        "amount of commitment expiration per period 2017"
+      ],
+      [
+        "amount of commitment expiration per period after 2017"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_010",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "open_ended_reasoning",
+    "question": "Xác định năm có tổng số tiền đáo hạn là một mức ngoại lệ đáng kể so với các giai đoạn khác, và giải thích lý do của bạn.",
+    "answer": [
+      [
+        "Năm 2015 là một năm ngoại lệ rõ ràng với tổng số tiền đáo hạn là 1812 triệu đô la. Con số này cao bất thường, gấp hơn 2,8 lần so với tổng số lớn thứ hai hàng năm (632 triệu đô la vào năm 2013) và lớn hơn đáng kể so với tất cả các giai đoạn khác, dao động từ 10 triệu đô la đến 215 triệu đô la."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "H5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_86e5109b28_011",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Tổng các cam kết thương mại từ năm 2013 đến năm 2017 là bao nhiêu?",
+    "answer": [
+      [
+        "2,699"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

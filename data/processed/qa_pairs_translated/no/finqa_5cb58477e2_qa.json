@@ -1,0 +1,337 @@
+[
+  {
+    "question_id": "finqa_5cb58477e2_001",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Hva er det totale antallet rom på alle hotellene som ligger i Florida?",
+    "answer": [
+      [
+        "3537"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A9",
+      "B9",
+      "A12",
+      "B12",
+      "A14",
+      "B14"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_002",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Hvilket 'eid' hotell har færrest rom?",
+    "answer": [
+      [
+        "loews hotel vogue montreal canada"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A9",
+      "B9",
+      "C9",
+      "A11",
+      "B11",
+      "C11",
+      "A16",
+      "B16",
+      "C16",
+      "A18",
+      "B18",
+      "C18"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_003",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Hva er gjennomsnittlig antall rom for hoteller som opererer under en 'land lease'-avtale?",
+    "answer": [
+      [
+        "398.33"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B7",
+      "C7",
+      "B13",
+      "C13"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_004",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Hvilken hotells leieavtale eller kontraktsforvaltning har det tidligste utløpsåret nevnt i dataene?",
+    "answer": [
+      [
+        "loews regency hotel new york new york"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A7",
+      "C7",
+      "A8",
+      "C8",
+      "A10",
+      "C10",
+      "A13",
+      "C13",
+      "A15",
+      "C15",
+      "A17",
+      "C17"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_005",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "List navnene på alle hotellene i Orlando som har mer enn 700 rom og drives under en forvaltningskontrakt.",
+    "answer": [
+      [
+        "loews portofino bay hotel at universal orlando orlando florida"
+      ],
+      [
+        "loews royal pacific resort at universal orlando orlando florida"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A12",
+      "B12",
+      "C12",
+      "A14",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_006",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Hvilken prosentandel av den totale porteføljens rom er lokalisert i det ene hotellet med flest rom?",
+    "answer": [
+      [
+        "12.48%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13",
+      "B14",
+      "B15",
+      "B16",
+      "B17",
+      "B18"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_007",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Hvis alle hotellene med 'landleie'-avtaler ble konvertert til 'eid'-status, og en 10 % romutvidelse ble utført på dem, hva ville det nye totale romantallet for kategorien 'eid' være?",
+    "answer": [
+      [
+        "3581"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B7",
+      "C7",
+      "B9",
+      "C9",
+      "B11",
+      "C11",
+      "B13",
+      "C13",
+      "B16",
+      "C16",
+      "B18",
+      "C18"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_008",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "open_ended_reasoning",
+    "question": "Er det et observerbart forhold mellom hotellets eierskapsmodell og størrelse? Begrunn svaret ditt.",
+    "answer": [
+      [
+        "Ja, det er et observerbart forhold. Hoteller under en 'forvaltningskontrakt' har en tendens til å være betydelig større i gjennomsnitt (ca. 513 rom) enn 'eide' hoteller (ca. 377 rom) og de som er på en 'tomtefestekontrakt' (ca. 398 rom). Dette er tydelig da de tre største hotellene, alle lokalisert i Orlando, er under forvaltningskontrakter, noe som tyder på en strategi om å forvalte, snarere enn å eie, de største feriested-lignende eiendommene."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9",
+      "B10",
+      "C10",
+      "B11",
+      "C11",
+      "B12",
+      "C12",
+      "B13",
+      "C13",
+      "B14",
+      "C14",
+      "B15",
+      "C15",
+      "B16",
+      "C16",
+      "B17",
+      "C17",
+      "B18",
+      "C18"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_009",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "open_ended_reasoning",
+    "question": "Kolonnen 'eies, leies eller administreres' kombinerer en primærkategori med supplerende, variable detaljer. Gi et eksempel på en celle der denne strukturen er tydelig, og list opp de distinkte informasjonsdelene.",
+    "answer": [
+      [
+        "Kolonnen 'eies, leies eller administreres' viser denne strukturen. For eksempel inneholder celle C13 primærkategorien 'land lease' sammen med de supplerende detaljene 'expiring 2013 with renewal option for 47 years'."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11",
+      "C12",
+      "C13",
+      "C14",
+      "C15",
+      "C16",
+      "C17",
+      "C18"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_010",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvilket hotells romantall er det mest signifikante positive avviket sammenlignet med gjennomsnittet, og med hvilken metrikk?",
+    "answer": [
+      [
+        "Loews Royal Pacific Resort er det mest signifikante positive avviket. Dets 1000 rom er det høyeste på listen og er omtrent 124 % større enn porteføljegjennomsnittet på omtrent 445 rom, noe som gjør det betydelig større enn noen annen eiendom."
+      ]
+    ],
+    "evidence_cells": [
+      "A14",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13",
+      "B14",
+      "B15",
+      "B16",
+      "B17",
+      "B18"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_011",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Hvor mange hoteller er under eierskap?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A3",
+      "A9",
+      "A11",
+      "A16",
+      "A18",
+      "C1",
+      "C3",
+      "C9",
+      "C11",
+      "C16",
+      "C18"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

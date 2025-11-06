@@ -1,0 +1,222 @@
+[
+  {
+    "question_id": "finqa_ff87244fa0_001",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Care este totalul combinat al plăților scadente până la 31 decembrie 2012 și 31 decembrie 2013, pentru toate obligațiile contractuale?",
+    "answer": [
+      [
+        "$ 6219"
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_002",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Ce procent din obligația totală de 'datorie [a]' este programată să fie plătită după 31 decembrie 2016?",
+    "answer": [
+      [
+        "71.68%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "H1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_003",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Ce obligație contractuală are cea mai mare plată scadentă până la 31 decembrie 2012?",
+    "answer": [
+      [
+        "purchase obligations [d]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_004",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Pentru obligația contractuală cu al doilea cel mai mare total, care este plata scadentă până la 31 decembrie 2014?",
+    "answer": [
+      [
+        "$ 560"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "E4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_005",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "open_ended_reasoning",
+    "question": "Descrieți tendința plăților pentru 'leasinguri operaționale [b]' în anii 2012-2016.",
+    "answer": [
+      [
+        "Plățile pentru 'leasinguri operaționale [b]' prezintă o tendință constantă de scădere de la an la an, din 2012 până în 2016, începând cu 525 milioane USD în 2012 și scăzând în fiecare an până la 347 milioane USD în 2016."
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_006",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Enumerați toate obligațiile contractuale care au o plată scadentă până la 31 decembrie 2015, mai mare de 300 de milioane de dolari.",
+    "answer": [
+      [
+        "debt [a]"
+      ],
+      [
+        "operating leases [b]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A3",
+      "F3",
+      "A4",
+      "F4",
+      "A5",
+      "F5",
+      "A6",
+      "F6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_007",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Dacă plățile pentru „obligațiuni de cumpărare [d]” scadente până la sfârșitul anilor 2012, 2013 și 2014 ar fi amânate și adăugate la suma scadentă „după 2016”, care ar fi acest nou total „după 2016” pentru acea obligație?",
+    "answer": [
+      [
+        "$ 4584"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "E4",
+      "H4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_008",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "open_ended_reasoning",
+    "question": "Ce obligație contractuală are o plată într-un singur an între 2012 și 2016 care este o valoare aberantă, fiind semnificativ mai mare decât plățile sale în ceilalți ani din acea perioadă?",
+    "answer": [
+      [
+        "Categoria „obligații de cumpărare [d]” prezintă o valoare aberantă semnificativă. Plata de 2598 milioane USD datorată în 2012 este de peste patru ori mai mare decât plata din anul următor cu cea mai mare valoare (568 milioane USD în 2013), iar plățile scad substanțial în anii următori, făcând cifra din 2012 o anomalie."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_009",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Ce perioadă de plată (de la 'plăți scadente până la 31 decembrie 2012' la 'plăți scadente până la 31 decembrie altele') conține cele mai multe înregistrări de plată lipsă sau neaplicabile, indicate prin '-'?",
+    "answer": [
+      [
+        "payments due by december 31 other"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "E6",
+      "F6",
+      "G6",
+      "H6",
+      "I1",
+      "I2",
+      "I3",
+      "I5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_010",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "open_ended_reasoning",
+    "question": "Pe baza datelor, care este relația aparentă între valoarea „totală” a unei obligații și proporția din acea obligație scadență „după 2016”?",
+    "answer": [
+      [
+        "În general, pare să existe o relație pozitivă, în care obligațiile cu o valoare totală mai mare, precum „datorii [a]” și „leasinguri operaționale [b]”, tind să aibă o parte semnificativă din plățile lor programate pentru după 2016, sugerând că acestea sunt angajamente financiare pe termen lung. Cu toate acestea, aceasta nu este o regulă universală, deoarece „obligațiile de achiziție [d]”, deși reprezintă a doua cea mai mare obligație totală, au o proporție comparativ mică (aproximativ 16,7%) scadentă după 2016, indicând că este un angajament pe termen scurt spre mediu."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "H1",
+      "B2",
+      "H2",
+      "B3",
+      "H3",
+      "B4",
+      "H4",
+      "B5",
+      "H5",
+      "B6",
+      "H6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  }
+]

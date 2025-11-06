@@ -1,0 +1,337 @@
+[
+  {
+    "question_id": "finqa_5cb58477e2_001",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Qual é o número total de quartos em todos os hotéis localizados na Flórida?",
+    "answer": [
+      [
+        "3537"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A9",
+      "B9",
+      "A12",
+      "B12",
+      "A14",
+      "B14"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_002",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Qual hotel 'próprio' tem o menor número de quartos?",
+    "answer": [
+      [
+        "loews hotel vogue montreal canada"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A9",
+      "B9",
+      "C9",
+      "A11",
+      "B11",
+      "C11",
+      "A16",
+      "B16",
+      "C16",
+      "A18",
+      "B18",
+      "C18"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_003",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Qual é o número médio de quartos para hotéis que operam sob um contrato de 'arrendamento de terreno'?",
+    "answer": [
+      [
+        "398.33"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B7",
+      "C7",
+      "B13",
+      "C13"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_004",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Qual contrato de arrendamento ou gestão de hotel tem o ano de expiração mais antigo mencionado nos dados?",
+    "answer": [
+      [
+        "loews regency hotel new york new york"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A7",
+      "C7",
+      "A8",
+      "C8",
+      "A10",
+      "C10",
+      "A13",
+      "C13",
+      "A15",
+      "C15",
+      "A17",
+      "C17"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_005",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Liste os nomes de todos os hotéis localizados em Orlando que têm mais de 700 quartos e são operados sob um contrato de gestão.",
+    "answer": [
+      [
+        "loews portofino bay hotel at universal orlando orlando florida"
+      ],
+      [
+        "loews royal pacific resort at universal orlando orlando florida"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A12",
+      "B12",
+      "C12",
+      "A14",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_006",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Qual a porcentagem do total de quartos do portfólio que estão localizados no único hotel com o maior número de quartos?",
+    "answer": [
+      [
+        "12.48%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13",
+      "B14",
+      "B15",
+      "B16",
+      "B17",
+      "B18"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_007",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Se todos os hotéis com acordos de 'arrendamento de terreno' fossem convertidos para a condição de 'propriedade', e uma expansão de 10% nos quartos fosse realizada neles, qual seria a nova contagem total de quartos para a categoria 'propriedade'?",
+    "answer": [
+      [
+        "3581"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B7",
+      "C7",
+      "B9",
+      "C9",
+      "B11",
+      "C11",
+      "B13",
+      "C13",
+      "B16",
+      "C16",
+      "B18",
+      "C18"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_008",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "open_ended_reasoning",
+    "question": "Existe uma relação observável entre o modelo de propriedade do hotel e seu tamanho? Justifique sua resposta.",
+    "answer": [
+      [
+        "Sim, existe uma relação observável. Hotéis sob um 'contrato de gestão' tendem a ser significativamente maiores em média (aprox. 513 quartos) do que hotéis 'próprios' (aprox. 377 quartos) e aqueles com 'arrendamento de terreno' (aprox. 398 quartos). Isso é evidente, pois os três maiores hotéis, todos localizados em Orlando, estão todos sob contratos de gestão, sugerindo uma estratégia de gerenciar, em vez de possuir, as maiores propriedades em estilo resort."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9",
+      "B10",
+      "C10",
+      "B11",
+      "C11",
+      "B12",
+      "C12",
+      "B13",
+      "C13",
+      "B14",
+      "C14",
+      "B15",
+      "C15",
+      "B16",
+      "C16",
+      "B17",
+      "C17",
+      "B18",
+      "C18"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_009",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "open_ended_reasoning",
+    "question": "A coluna 'owned leased or managed' combina uma categoria primária com detalhes suplementares e variáveis. Forneça um exemplo de uma célula onde esta estrutura é evidente e liste as diferentes informações.",
+    "answer": [
+      [
+        "A coluna 'owned leased or managed' demonstra esta estrutura. Por exemplo, a célula C13 contém a categoria primária 'land lease' juntamente com os detalhes suplementares 'expiring 2013 with renewal option for 47 years'."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11",
+      "C12",
+      "C13",
+      "C14",
+      "C15",
+      "C16",
+      "C17",
+      "C18"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_010",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "open_ended_reasoning",
+    "question": "Qual hotel possui o número de quartos que é o outlier positivo mais significativo em comparação com a média geral, e por qual métrica?",
+    "answer": [
+      [
+        "O Loews Royal Pacific Resort é o outlier positivo mais significativo. Seus 1000 quartos são o número mais alto da lista e são aproximadamente 124% maiores que a média do portfólio de cerca de 445 quartos, tornando-o substancialmente maior do que qualquer outra propriedade."
+      ]
+    ],
+    "evidence_cells": [
+      "A14",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13",
+      "B14",
+      "B15",
+      "B16",
+      "B17",
+      "B18"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_011",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Quantos hotéis são de propriedade?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A3",
+      "A9",
+      "A11",
+      "A16",
+      "A18",
+      "C1",
+      "C3",
+      "C9",
+      "C11",
+      "C16",
+      "C18"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

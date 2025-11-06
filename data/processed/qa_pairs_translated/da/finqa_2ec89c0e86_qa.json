@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "finqa_2ec89c0e86_001",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "value",
+    "question": "Hvilket år havde det største absolutte netto pengestrøm fra finansieringsaktiviteter?",
+    "answer": [
+      [
+        "2011"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "B0",
+      "C0",
+      "D0"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_002",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "value",
+    "question": "Hvad var den samlede netto kontantstrøm anvendt til investeringsaktiviteter over alle tre år (2011-2013)?",
+    "answer": [
+      [
+        "-42434"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_003",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "value",
+    "question": "I det år med den højeste netto kontantstrøm fra driftsaktiviteter, hvad var den tilsvarende netto stigning eller fald i likvide midler?",
+    "answer": [
+      [
+        "$ -433 ( 433 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "D5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_004",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv den årlige ændring og den overordnede tendens i 'netto kontanter leveret af driftsaktiviteter' fra 2011 til 2013.",
+    "answer": [
+      [
+        "Netto kontanter leveret af driftsaktiviteter viste volatilitet. Det faldt markant med 2.079 mio. dollars fra 2011 til 2012 (20.963 til 18.884 dollars) og genoprettedes derefter med en stigning på 1.892 mio. dollars fra 2012 til 2013 (18.884 til 20.776 dollars), hvilket næsten vendte tilbage til niveauet i 2011."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_005",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "value",
+    "question": "I hvilket/hvilke år var den absolutte værdi af kontanter anvendt til investeringsaktiviteter større end den absolutte værdi af kontanter anvendt til finansieringsaktiviteter?",
+    "answer": [
+      [
+        "2013"
+      ],
+      [
+        "2012"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "C2",
+      "C3",
+      "D2",
+      "D3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_006",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "value",
+    "question": "I 2012, hvor stor en procentdel af 'netto kontanter leveret af driftsaktiviteter' udgjorde 'netto kontanter anvendt til finansieringsaktiviteter'?",
+    "answer": [
+      [
+        "7.46%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_007",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "value",
+    "question": "Hvis 'netto kontantstrøm anvendt til investeringsaktiviteter' i 2013 havde været 20% lavere, hvad ville 'netto stigning (fald) i likvider og likvide beholdninger' have været for det år, under antagelse af at alle andre værdier forblev konstante?",
+    "answer": [
+      [
+        "810.6"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_008",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "open_ended_reasoning",
+    "question": "Er der et konsistent forhold mellem mængden af likviditet fra driften og nettoændringen i likvide midler over denne treårige periode?",
+    "answer": [
+      [
+        "Nej, der er ikke et konsistent forhold. I 2011 resulterede den højeste driftslikviditet (20.963 mio. USD) i en nettoformindskelse af likviditet (-433 mio. USD). I 2012 resulterede den laveste driftslikviditet (18.884 mio. USD) i en stor nettoforøgelse af likviditet (3.413 mio. USD). Dette indikerer, at investerings- og finansieringsaktiviteter havde en mere signifikant indvirkning på nettoændringen i likviditet end driftsaktiviteter alene."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_009",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvilket års 'netto stigning (fald) i likvide midler' er en outlier, og hvorfor?",
+    "answer": [
+      [
+        "2012 er en outlier, fordi det er det eneste år med en positiv netto stigning i likvide midler (3.413 mio. dollars), hvorimod både 2011 og 2013 oplevede et netto fald (-433 mio. dollars og -2.804 mio. dollars, henholdsvis)."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_010",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "value",
+    "question": "Ved at summere de fire pengestrømskategorier for 2011, beregn 'netto stigning (fald) i likvider og pengelignende poster' for at verificere tabellens struktur.",
+    "answer": [
+      [
+        "-433"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_011",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvis virksomhedens netto pengestrøm fra driften steg i 2013 sammenlignet med 2012, men den netto brugte kontantstrøm til investeringsaktiviteter også steg i samme periode, hvad antyder dette om virksomhedens samlede likviditetsstyring i 2013?",
+    "answer": [
+      [
+        "Det antyder, at mens virksomheden genererede mere kontanter fra driften i 2013 end i 2012, brugte den også mere på investeringer. Dette indikerer, at virksomheden muligvis har brugt den ekstra operationelle pengestrøm til at finansiere højere investeringsaktiviteter."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

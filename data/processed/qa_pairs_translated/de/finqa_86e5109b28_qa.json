@@ -1,0 +1,259 @@
+[
+  {
+    "question_id": "finqa_86e5109b28_001",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Welche kommerzielle Verpflichtung, ausgenommen die Gesamtsummen, hat in einem beliebigen Jahr von 2014 bis 2017 den höchsten Fälligkeitsbetrag?",
+    "answer": [
+      [
+        "credit facilities [a]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_002",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Wie hoch ist die Summe aller einzelnen Verpflichtungsausläufe für die Jahre 2016 und 2017 zusammen?",
+    "answer": [
+      [
+        "40"
+      ]
+    ],
+    "evidence_cells": [
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_86e5109b28_003",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Identifizieren Sie die Verpflichtungsart, deren Fälligkeiten sich über die meisten Zeiträume erstrecken, und geben Sie ihren Gesamtwert an.",
+    "answer": [
+      [
+        "guarantees [c]"
+      ],
+      [
+        "307"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "C1",
+      "E1",
+      "C2",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_004",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "open_ended_reasoning",
+    "question": "Beschreiben Sie das zeitliche Muster der Fälligkeiten der 'total commercial commitments' von 2013 bis 2016.",
+    "answer": [
+      [
+        "Das Muster ist stark volatil. Es beginnt mit 632 Millionen US-Dollar im Jahr 2013, sinkt um etwa 66 % auf 215 Millionen US-Dollar im Jahr 2014, steigt dann dramatisch auf einen Höchststand von 1812 Millionen US-Dollar im Jahr 2015, bevor es um über 98 % auf nur noch 30 Millionen US-Dollar im Jahr 2016 abstürzt. Es gibt kein konsistentes Wachstum oder Rückgang."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_005",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Listen Sie die Zusagetypen auf, die im Jahr 2013 einen Fälligkeitsbetrag von mehr als 0 $ aufweisen, aber ab 2015 keine Fälligkeiten mehr haben.",
+    "answer": [
+      [
+        "receivables securitization facility [b]"
+      ],
+      [
+        "standby letters of credit [d]"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "F2",
+      "G2",
+      "H2",
+      "A4",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "H4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_006",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Welchen Anteil an den gesamten Auslaufen im Jahr 2013 entfällt auf die 'receivables securitization facility'?",
+    "answer": [
+      [
+        "94.94%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_86e5109b28_007",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Wenn die 1800 Mio. $ für 'Kreditfazilitäten', die 2015 auslaufen, stattdessen gleichmäßig auf 2016 und 2017 aufgeteilt würden, wie hoch wäre dann der neue Gesamtwert für 'gesamte kommerzielle Verpflichtungen' für 2016?",
+    "answer": [
+      [
+        "$ 930"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_008",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "open_ended_reasoning",
+    "question": "Gibt es basierend auf der Tabelle eine erkennbare Korrelation zwischen dem Gesamtbetrag einer Verpflichtung und der Anzahl der Jahre, über die sie ausläuft?",
+    "answer": [
+      [
+        "Nein, es gibt keine direkte Korrelation. Tatsächlich deuten die Daten auf eine inverse Beziehung hin. Die größte Verpflichtung, 'Kreditfazilitäten' (1800 Mio. USD), läuft innerhalb eines Jahres (2015) vollständig aus. Umgekehrt sind die 'Garantien' (307 Mio. USD), eine der kleineren Verpflichtungen, über alle sechs aufgeführten Zeiträume verteilt."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "E1",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_86e5109b28_009",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Welche Spalte mit Ablaufjahr hat die geringste Anzahl von einzelnen Verpflichtungsarten mit einem Nicht-Null-Wert?",
+    "answer": [
+      [
+        "amount of commitment expiration per period 2016"
+      ],
+      [
+        "amount of commitment expiration per period 2017"
+      ],
+      [
+        "amount of commitment expiration per period after 2017"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_010",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifizieren Sie das Jahr, dessen gesamter Ablaufbetrag einen signifikanten Ausreißer im Vergleich zu den anderen Zeiträumen darstellt, und begründen Sie Ihre Argumentation.",
+    "answer": [
+      [
+        "Das Jahr 2015 ist mit einem Gesamtablaufbetrag von 1812 Millionen US-Dollar ein klarer Ausreißer. Dieser Wert ist mit mehr als dem 2,8-fachen des nächsthöheren jährlichen Gesamtbetrags (632 Millionen US-Dollar im Jahr 2013) und signifikant höher als alle anderen Zeiträume, die zwischen 10 Millionen US-Dollar und 215 Millionen US-Dollar liegen."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "H5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_86e5109b28_011",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Wie hoch sind die gesamten kommerziellen Verpflichtungen von 2013 bis 2017?",
+    "answer": [
+      [
+        "2,699"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

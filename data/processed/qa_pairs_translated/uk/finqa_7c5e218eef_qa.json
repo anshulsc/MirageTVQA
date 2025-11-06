@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "finqa_7c5e218eef_001",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Яка категорія витрат зазнала найбільшої абсолютної річної зміни в доларах, незалежно від того, було це збільшення чи зменшення?",
+    "answer": [
+      [
+        "loss on datacenter and related legal fees"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_002",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Яка сума всіх скорочень витрат (негативних змін), зазначених у мільйонах доларів?",
+    "answer": [
+      [
+        "-23.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_003",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Яка була загальна зміна в доларах для категорій витрат, кожна з яких становила збільшення на 2% у відсотках від витрат 2015 року?",
+    "answer": [
+      [
+        "53.0"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_004",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "open_ended_reasoning",
+    "question": "Виходячи із загальних показників, якою була загальна фінансова тенденція для цих категорій витрат у річному вимірі? Обґрунтуйте свою відповідь.",
+    "answer": [
+      [
+        "Загальною фінансовою тенденцією було зростання витрат. Про це свідчить рядок 'total' (усього), який показує позитивну чисту річну зміну на 54,4 мільйона доларів, що відповідає зростанню на 4% порівняно з витратами 2015 року. Хоча були деякі скорочення витрат, їх значно переважили збільшення витрат в інших сферах."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_005",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Перелічіть усі категорії витрат, які мали позитивну річну зміну, більшу ніж 15 мільйонів доларів.",
+    "answer": [
+      [
+        "loss on datacenter and related legal fees"
+      ],
+      [
+        "professional fees and outside services"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_006",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Обчисліть співвідношення загального збільшення в доларах до загального абсолютного зменшення в доларах за окремими статтями витрат, округлене до двох знаків після коми.",
+    "answer": [
+      [
+        "3.29:1"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_007",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Якби «коливання обмінного курсу валют» було економією в 13,2 мільйона доларів замість зростання витрат, якою була б нова загальна річна зміна?",
+    "answer": [
+      [
+        "$ 28.0"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_008",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "open_ended_reasoning",
+    "question": "Порівнюючи категорії з однаковою відсотковою зміною (наприклад, 2% або 1%), що можна виснувати про взаємозв'язок між абсолютною зміною в доларах та відсотковою зміною? Якої інформації бракує для підтвердження цього?",
+    "answer": [
+      [
+        "Можна зробити висновок, що абсолютна зміна в доларах не є прямо пропорційною відсотковій зміні в різних категоріях. Наприклад, «збитки від центру обробки даних» ($28.6 млн) та «професійні гонорари» ($24.4 млн) обидва мали 2% зміну, що означає, що їхні базові витрати 2015 року були різними. Відсутня інформація, необхідна для підтвердження, це фактична сума витрат за 2015 рік для кожної категорії."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_009",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "open_ended_reasoning",
+    "question": "Яка клітинка у стовпці 'зміна у відсотках від витрат 2015 року' містить дані, несумісні з очевидним типом даних стовпця, і яке аномальне значення?",
+    "answer": [
+      [
+        "Клітинка C7, що відповідає 'інші чисті витрати', містить значення '2014'. Це аномально, оскільки всі інші значення у стовпці є відсотками або числами, що представляють відсотки, тоді як '2014' виглядає як рік."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_010",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Річна зміна для 'втрат від дата-центру та пов'язаних судових витрат' є найбільшим зростанням. На скільки відсотків це зростання більше, ніж друге за величиною зростання ('професійні гонорари та зовнішні послуги')? Округліть до одного знака після коми.",
+    "answer": [
+      [
+        "17.2%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_011",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Яка категорія витрат продемонструвала найбільше річне зростання?",
+    "answer": [
+      [
+        "Loss on data center and related legal fees"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

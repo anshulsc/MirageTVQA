@@ -1,0 +1,337 @@
+[
+  {
+    "question_id": "finqa_5cb58477e2_001",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Jaka jest łączna liczba pokoi we wszystkich hotelach zlokalizowanych na Florydzie?",
+    "answer": [
+      [
+        "3537"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A9",
+      "B9",
+      "A12",
+      "B12",
+      "A14",
+      "B14"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_002",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Który hotel z kategorii 'posiadane' ma najmniejszą liczbę pokoi?",
+    "answer": [
+      [
+        "loews hotel vogue montreal canada"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A9",
+      "B9",
+      "C9",
+      "A11",
+      "B11",
+      "C11",
+      "A16",
+      "B16",
+      "C16",
+      "A18",
+      "B18",
+      "C18"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_003",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Jaka jest średnia liczba pokoi w hotelach działających na podstawie umowy \"dzierżawy gruntu\"?",
+    "answer": [
+      [
+        "398.33"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B7",
+      "C7",
+      "B13",
+      "C13"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_004",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Która umowa najmu lub kontrakt menedżerski hotelu ma najwcześniejszy rok wygaśnięcia wymieniony w danych?",
+    "answer": [
+      [
+        "loews regency hotel new york new york"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A7",
+      "C7",
+      "A8",
+      "C8",
+      "A10",
+      "C10",
+      "A13",
+      "C13",
+      "A15",
+      "C15",
+      "A17",
+      "C17"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_005",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Wymień nazwy wszystkich hoteli w Orlando, które mają ponad 700 pokoi i są zarządzane na podstawie umowy o zarządzanie.",
+    "answer": [
+      [
+        "loews portofino bay hotel at universal orlando orlando florida"
+      ],
+      [
+        "loews royal pacific resort at universal orlando orlando florida"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A12",
+      "B12",
+      "C12",
+      "A14",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_006",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Jaki procent całkowitej liczby pokoi w portfelu znajduje się w pojedynczym hotelu z największą liczbą pokoi?",
+    "answer": [
+      [
+        "12.48%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13",
+      "B14",
+      "B15",
+      "B16",
+      "B17",
+      "B18"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_007",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Gdyby wszystkie hotele z umowami 'dzierżawy gruntu' zostały przekształcone w status 'posiadane', i wykonano by na nich 10% ekspansję pokojów, jaka byłaby nowa łączna liczba pokoi w kategorii 'posiadane'?",
+    "answer": [
+      [
+        "3581"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B7",
+      "C7",
+      "B9",
+      "C9",
+      "B11",
+      "C11",
+      "B13",
+      "C13",
+      "B16",
+      "C16",
+      "B18",
+      "C18"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_008",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "open_ended_reasoning",
+    "question": "Czy istnieje zauważalna zależność między modelem własności hotelu a jego wielkością? Uzasadnij swoją odpowiedź.",
+    "answer": [
+      [
+        "Tak, istnieje zauważalna zależność. Hotele objęte umową o zarządzanie ('management contract') są średnio znacznie większe (około 513 pokoi) niż hotele będące własnością ('owned') (około 377 pokoi) i te na zasadzie dzierżawy gruntu ('land lease') (około 398 pokoi). Jest to widoczne, ponieważ trzy największe hotele, wszystkie zlokalizowane w Orlando, podlegają umowom o zarządzanie, co sugeruje strategię zarządzania, a nie posiadania, największych obiektów w stylu kurortów."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9",
+      "B10",
+      "C10",
+      "B11",
+      "C11",
+      "B12",
+      "C12",
+      "B13",
+      "C13",
+      "B14",
+      "C14",
+      "B15",
+      "C15",
+      "B16",
+      "C16",
+      "B17",
+      "C17",
+      "B18",
+      "C18"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_009",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "open_ended_reasoning",
+    "question": "Kolumna „posiadane, dzierżawione lub zarządzane” łączy główną kategorię z dodatkowymi, zmiennymi szczegółami. Podaj przykład komórki, w której ta struktura jest widoczna, i wymień poszczególne informacje.",
+    "answer": [
+      [
+        "Kolumna „posiadane, dzierżawione lub zarządzane” pokazuje tę strukturę. Na przykład komórka C13 zawiera główną kategorię „dzierżawa” wraz z dodatkowymi szczegółami „wygaśnięcie w 2013 r. z opcją odnowienia na 47 lat”."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11",
+      "C12",
+      "C13",
+      "C14",
+      "C15",
+      "C16",
+      "C17",
+      "C18"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_010",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "open_ended_reasoning",
+    "question": "Który hotel ma liczbę pokoi będącą najbardziej znaczącym pozytywnym odchyleniem od średniej ogólnej i według jakiej miary?",
+    "answer": [
+      [
+        "Loews Royal Pacific Resort jest najbardziej znaczącym pozytywnym odchyleniem. Posiada 1000 pokoi, co jest najwyższą liczbą na liście i stanowi około 124% więcej niż średnia dla portfela wynosząca około 445 pokoi, co czyni go znacznie większym od innych obiektów."
+      ]
+    ],
+    "evidence_cells": [
+      "A14",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13",
+      "B14",
+      "B15",
+      "B16",
+      "B17",
+      "B18"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_011",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Ile hoteli jest pod własnością?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A3",
+      "A9",
+      "A11",
+      "A16",
+      "A18",
+      "C1",
+      "C3",
+      "C9",
+      "C11",
+      "C16",
+      "C18"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

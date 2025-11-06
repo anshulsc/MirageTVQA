@@ -1,0 +1,237 @@
+[
+  {
+    "question_id": "finqa_7a4236b86f_001",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "کدام محصول، نفت یا NGL، افزایش درصد بیشتری در حجم تولید/فروش از سال 2007 تا 2008 داشته است؟",
+    "answer": [
+      [
+        "Oil"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_002",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "حجم کل تولید/فروش نفت و NGL (مجموعاً) بر حسب \"mbbls\" در سال ۲۰۰۸ چقدر بود؟",
+    "answer": [
+      [
+        "3858.7"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_003",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "کدام سال درآمد کل محاسبه شده از فروش نفت بیشتر بوده است؟",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_004",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "open_ended_reasoning",
+    "question": "روند کلی قیمت‌های واقعی میانگین برای تمام کالاهای منفرد (گاز، NGL، نفت) از سال 2007 تا 2008 را توصیف کنید.",
+    "answer": [
+      [
+        "قیمت‌های واقعی میانگین برای تمام کالاهای منفرد ذکر شده، روند مثبتی را نشان دادند و از سال 2007 تا 2008 افزایش یافتند. قیمت گاز به طور قابل توجهی از 5.95 دلار به 8.25 دلار در هر mcf افزایش یافت، قیمت نفت از 83.37 دلار به 95.26 دلار در هر bbl افزایش یافت و قیمت NGL افزایش جزئی از 51.02 دلار به 51.26 دلار در هر bbl را تجربه کرد."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8",
+      "A9",
+      "B9",
+      "C9",
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_005",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "دسته‌بندی‌های تولید/فروش را که حجم در سال ۲۰۰۸ بیش از ۲.۲۵ برابر حجم در سال ۲۰۰۷ بوده است، فهرست کنید.",
+    "answer": [
+      [
+        "gas production ( bcf )"
+      ],
+      [
+        "oil production/sales ( mbbls )"
+      ],
+      [
+        "ngl production/sales ( mbbls )"
+      ],
+      [
+        "equivalent production ( bcfe )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_006",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "چه درصدی از کل «تولید معادل (bcfe)» در سال 2008 مستقیماً به «تولید گاز (bcf)» اختصاص داشت؟",
+    "answer": [
+      [
+        "77.35"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_007",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "اگر میانگین قیمت تحقق یافته برای نفت در سال ۲۰۰۸ ۱۵٪ کمتر بود، درآمد محاسبه شده از فروش نفت چقدر (به میلیون دلار) کاهش می‌یافت؟",
+    "answer": [
+      [
+        "5019.80"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_008",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "open_ended_reasoning",
+    "question": "با تحلیل تغییرات سال به سال، رابطه آشکار بین حجم تولید/فروش و میانگین قیمت‌های واقعی برای کالا‌های منفرد فهرست شده چیست؟",
+    "answer": [
+      [
+        "یک همبستگی مثبت پایدار برای تمام کالا‌های منفرد بین سال‌های 2007 و 2008 وجود دارد. در هر مورد (گاز، NGL و نفت)، افزایش قابل توجهی در حجم تولید/فروش از سال 2007 تا 2008 با افزایش میانگین قیمت واقعی همراه است که نشان می‌دهد تقاضای قوی بازار احتمالاً هم حجم و هم قیمت را در این دوره افزایش داده است."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B8",
+      "C8",
+      "B9",
+      "C9",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_009",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "متن سطری که به عنوان زیرمجموعه عمل می کند و هیچ داده عددی مرتبطی در ستون های 2008 و 2007 ندارد چیست؟",
+    "answer": [
+      [
+        "average realized prices without hedging results:"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_010",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "کدام دسته تولید/فروش، با احتساب معیارهای 'معادل'، بیشترین افزایش نسبی (رشد درصدی) را از سال 2007 تا 2008 داشته است؟",
+    "answer": [
+      [
+        "oil production/sales ( mbbls )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_011",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "کل تولید ترکیبی نفت و ان‌جی‌ال در سال ۲۰۰۸ چقدر بود؟",
+    "answer": [
+      [
+        "3,858.7 mbbls"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

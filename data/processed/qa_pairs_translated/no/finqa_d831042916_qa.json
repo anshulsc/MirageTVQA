@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "finqa_d831042916_001",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "I hvilket år opplevde selskapet det største '(tap) fra fortsatte operasjoner'?",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_002",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Hva var de totale driftskostnadene for treårsperioden fra 2007 til 2009?",
+    "answer": [
+      [
+        "$3743"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d831042916_003",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Hva var verdien av 'renteinntekter utenom renter' i det eneste året selskapet rapporterte et positivt 'nettoresultat (tap)'?",
+    "answer": [
+      [
+        "422"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "B12",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_004",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv trenden for 'totale inntekter netto etter rentekostnader' fra 2007 til 2009.",
+    "answer": [
+      [
+        "Utviklingen var overveldende negativ og volatil. Totale inntekter viste en liten forbedring fra et tap på 2310 millioner dollar i 2007 til et tap på 2258 millioner dollar i 2008. Dette ble imidlertid fulgt av en katastrofal nedgang i 2009, der tapet dramatisk økte til 10556 millioner dollar, noe som indikerer en alvorlig nedgang i selskapets kjerneinntektsgenererende aktiviteter."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_005",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "List opp 'inntektsskatt (fordeler)' for alle år der '(tap) fra ordinær drift' var større enn 2 500 millioner dollar.",
+    "answer": [
+      [
+        "-4369 ( 4369 )"
+      ],
+      [
+        "-1446 ( 1446 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "D7",
+      "B8",
+      "D8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_006",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "I 2009, hvilken prosentandel av 'total inntekt etter renter' ble utgjort av 'ikke-renteinntekter'?",
+    "answer": [
+      [
+        "84.25%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d831042916_007",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Hvis 'total operating expenses' i 2008 hadde økt med 20%, hva ville da den nye '(loss) from continuing operations before taxes' vært for det året?",
+    "answer": [
+      [
+        "$ -2871 ( 2871 )"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_008",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Basert på dataene, er det en konsekvent sammenheng mellom lavere 'totale driftskostnader' og høyere 'nettoresultat (tap)?",
+    "answer": [
+      [
+        "Nei, en konsekvent sammenheng kan ikke observeres. Selv om 2008 hadde de laveste driftskostnadene (510 millioner dollar) og det høyeste nettoresultatet (1820 millioner dollar), noe som tyder på et omvendt forhold, brytes dette mønsteret av de andre årene. I 2009 var driftskostnadene (1420 millioner dollar) lavere enn i 2007 (1813 millioner dollar), men 2009 så et drastisk dårligere nettotap (-8051 millioner dollar) sammenlignet med 2007 (-1968 millioner dollar). Dette indikerer at andre faktorer, som det kraftige fallet i inntektene, hadde en mye større innvirkning på nettoresultatet enn driftskostnadene alene."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "A12",
+      "B4",
+      "C4",
+      "D4",
+      "B12",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d831042916_009",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Ved å se på de tre siste radene, er beregningen for 'netto resultat (tap)' konsekvent anvendt på tvers av alle tre årene? Forklar funnet ditt.",
+    "answer": [
+      [
+        "Nei, beregningsmetoden er inkonsekvent. I 2007 er 'netto resultat (tap)' (-1968 millioner dollar) korrekt utledet ved å trekke fra 'netto resultat tilknyttet ikke-kontrollerende interesser' (2 millioner dollar) fra 'netto resultat (tap) før tilordning...' (-1966 millioner dollar). I både 2008 og 2009 er imidlertid verdien for 'netto resultat (tap)' identisk med verdien for 'netto resultat (tap) før tilordning...', noe som feilaktig ignorerer beløpet som tilfaller ikke-kontrollerende interesser. Dette peker på en rapporteringsinkonsekvens i tabellens struktur for 2008 og 2009."
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "A11",
+      "A12",
+      "B10",
+      "B11",
+      "B12",
+      "C10",
+      "C11",
+      "C12",
+      "D10",
+      "D11",
+      "D12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_010",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvilken finansiell post i 2008 representerer et betydelig positivt avvik sammenlignet med de andre årene, og hva var effekten på selskapets resultat?",
+    "answer": [
+      [
+        "\"Inntekter (tap) fra avhendede virksomheter netto etter skatt\" i 2008, med en verdi på 4002 millioner dollar, er et betydelig positivt avvik sammenlignet med et tap på 445 millioner dollar i 2009 og en mindre gevinst på 708 millioner dollar i 2007. Dette avviket var avgjørende da det gjorde om et betydelig \"(tap) fra fortsatt drift\" på 2182 millioner dollar til et endelig positivt \"netto resultat\" på 1820 millioner dollar for det året."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "A9",
+      "A12",
+      "B9",
+      "C8",
+      "C9",
+      "C12",
+      "D9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d831042916_011",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Medregnet både løpende drift og avviklet drift, hva var den totale endringen i nettoresultat fra 2008 til 2009?",
+    "answer": [
+      [
+        "I 2008 var nettoresultatet 1 820 millioner dollar. I 2009 var nettoresultatet -8 051 millioner dollar. Den totale endringen i nettoresultat fra 2008 til 2009 er en nedgang på 9 871 millioner dollar."
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "C12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

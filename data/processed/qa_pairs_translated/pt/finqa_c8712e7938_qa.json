@@ -1,0 +1,204 @@
+[
+  {
+    "question_id": "finqa_c8712e7938_001",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "Descreva a tendência da 'perda líquida reportada' de 2003 a 2005.",
+    "answer": [
+      [
+        "A 'perda líquida reportada' mostra uma tendência consistente de queda, indicando melhora financeira. A perda diminuiu de $ 325.321 em 2003 para $ 247.587 em 2004, e reduziu ainda mais para $ 171.590 em 2005."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_002",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "Em que ano a diferença absoluta entre a 'perda líquida pro-forma' e a 'perda líquida reportada' foi a maior?",
+    "answer": [
+      [
+        "2003"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B4",
+      "C1",
+      "C4",
+      "D1",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_003",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "Qual foi a despesa total com 'compensação de funcionários baseada em ações' adicionada de volta em todos os três anos mostrados?",
+    "answer": [
+      [
+        "11478"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_c8712e7938_004",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "Para o ano com a menor 'perda líquida básica e diluída por ação reportada', qual foi a razão entre a 'perda líquida pro-forma' absoluta e a 'perda líquida reportada' absoluta? Arredonde para três casas decimais.",
+    "answer": [
+      [
+        "1.088"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "B1",
+      "B4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_005",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "Liste os anos em que o valor absoluto de 'despesa total de remuneração de funcionários baseada em ações, determinada pelo método baseado no valor justo' foi superior a $ 25.000.",
+    "answer": [
+      [
+        "2003"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_006",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "Em 2004, qual porcentagem da 'perda líquida pro forma' absoluta pode ser atribuída ao ajuste de 'despesa total de compensação baseada em ações para funcionários'? Arredonde para duas casas decimais.",
+    "answer": [
+      [
+        "8.88%"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_c8712e7938_007",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "Se a 'despesa com compensação de funcionários baseada em ações' adicionada em 2005 fosse 50% menor, qual teria sido a nova 'perda líquida pro-forma' para aquele ano?",
+    "answer": [
+      [
+        "$ -190276 ( 190276 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_008",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "Qual item de linha de ajuste de despesa ('adicionar' ou 'subtrair') apresentou a mudança percentual mais drástica ano a ano, e entre quais dois anos ela ocorreu?",
+    "answer": [
+      [
+        "O item 'adicionar: despesa de remuneração de funcionários baseada em ações' apresentou a mudança mais drástica. Aumentou em mais de 209% de $ 2.297 em 2004 para $ 7.104 em 2005, representando um valor atípico significativo em comparação com outras mudanças ano a ano na tabela."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_c8712e7938_009",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "Qual é a relação entre a 'perda líquida reportada' e a 'perda líquida pro-forma' ao longo dos três anos?",
+    "answer": [
+      [
+        "Existe uma relação direta e consistente, onde a 'perda líquida pro-forma' é sempre maior em magnitude do que a 'perda líquida reportada' para cada ano. Ambas as métricas mostram a mesma tendência de melhoria (diminuição da perda) de 2003 a 2005, sugerindo que, embora os ajustes de remuneração baseada em ações aumentem a perda calculada, a tendência subjacente do desempenho do negócio é consistente em ambas as medidas."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B4",
+      "C1",
+      "C4",
+      "D1",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_c8712e7938_010",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "Com base na estrutura da tabela, qual operação aritmética conecta a 'perda líquida reportada', o item 'adicionar' e o item 'menos' à 'perda líquida pro-forma'? Verifique com os dados de 2003.",
+    "answer": [
+      [
+        "A fórmula é: ('perda líquida reportada') + ('adicionar: despesa de remuneração com ações para funcionários...') - ('total despesa de remuneração com ações...'). Usando os dados de 2003: (-325321) + (2077) - (31156) = -354400, o que corresponde à 'perda líquida pro-forma' para aquele ano."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_011",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "Como a perda líquida reportada mudou de 2003 para 2005?",
+    "answer": [
+      [
+        "A perda líquida reportada diminuiu de $ 325.321 em 2003 para $ 171.590 em 2005."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

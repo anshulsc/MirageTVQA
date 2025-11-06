@@ -1,0 +1,214 @@
+[
+  {
+    "question_id": "finqa_bc4731cd2f_001",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Berapakah jumlah perbelanjaan operasi, dalam juta dolar, untuk gabungan tiga tahun (2008, 2009, 2010)?",
+    "answer": [
+      [
+        "32101"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_002",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Apakah metrik kewangan yang mengalami peningkatan mata peratusan terbesar dari 2008 hingga 2009?",
+    "answer": [
+      [
+        "net credit losses"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_003",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Pada tahun dengan 'jumlah hasil pendapatan selain faedah' tertinggi, berapakah 'pendapatan (rugi) bersih' yang sepadan?",
+    "answer": [
+      [
+        "$ -8369 ( 8369 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "D14"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_004",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "open_ended_reasoning",
+    "question": "Huraikan trend 'pendapatan bukan faedah' dari tahun 2008 hingga 2010.",
+    "answer": [
+      [
+        " 'Pendapatan bukan faedah' menunjukkan trend penurunan yang konsisten dan mendadak sepanjang tempoh tiga tahun. Ia bermula pada $6,362 juta pada tahun 2008, turun sebanyak 25% kepada $4,770 juta pada tahun 2009, dan kemudian mengalami penurunan yang lebih dramatik sebanyak 58% kepada $1,995 juta pada tahun 2010."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_005",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Senaraikan semua kategori kewangan di mana nilai mutlak kerugian atau perbelanjaan berkurangan pada tahun 2010 berbanding 2009.",
+    "answer": [
+      [
+        "total operating expenses"
+      ],
+      [
+        "net credit losses"
+      ],
+      [
+        "provision for benefits and claims"
+      ],
+      [
+        "provisions for credit losses and for benefits and claims"
+      ],
+      [
+        "( loss ) from continuing operations before taxes"
+      ],
+      [
+        "( loss ) from continuing operations"
+      ],
+      [
+        "net ( loss )"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A7",
+      "B7",
+      "C7",
+      "A9",
+      "B9",
+      "C9",
+      "A10",
+      "B10",
+      "C10",
+      "A12",
+      "B12",
+      "C12",
+      "A14",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_006",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Berapakah nisbah 'jumlah perbelanjaan operasi' kepada 'jumlah hasil selepas ditolak perbelanjaan faedah' pada tahun 2010? Ungkapkan jawapan anda sebagai peratusan dibundarkan kepada dua tempat perpuluhan.",
+    "answer": [
+      [
+        "50.95%"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_007",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Jika 'simpanan kredit dibina (dilepaskan)' pada tahun 2010 merupakan simpanan sebanyak $1000 juta dan bukannya pelepasan sebanyak $1771 juta, apakah 'peruntukan untuk kerugian kredit dan untuk faedah serta tuntutan' baharu bagi tahun tersebut?",
+    "answer": [
+      [
+        "$ 18815 million"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6",
+      "B7",
+      "B9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_008",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "open_ended_reasoning",
+    "question": "Adakah terdapat hubungan yang konsisten antara perubahan tahun ke tahun dalam 'purata aset' dan perubahan tahun ke tahun dalam 'pendapatan faedah bersih'?",
+    "answer": [
+      [
+        "Tidak, tidak ada hubungan yang konsisten. Dari tahun 2008 hingga 2009, purata aset menurun sebanyak 16%, dan pendapatan faedah bersih juga menurun sebanyak 24%. Ini menunjukkan kemungkinan korelasi positif. Walau bagaimanapun, dari tahun 2009 hingga 2010, purata aset sekali lagi menurun sebanyak 8%, tetapi kali ini pendapatan faedah bersih meningkat sebanyak 6%, memecah pola sebelumnya."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A15",
+      "D15",
+      "E15"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_009",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "open_ended_reasoning",
+    "question": "Item baris manakah yang mempunyai nilai perubahan bukan numerik, bukan peratusan 'nm' untuk tempoh perubahan 2010 vs. 2009, dan mengapa ini berkemungkinan berlaku?",
+    "answer": [
+      [
+        "\"credit reserve build ( release )\" mempunyai 'nm' (tidak bermakna) untuk perubahan 2010 vs. 2009. Ini berkemungkinan kerana nilai tersebut berubah daripada nombor positif ($5799 juta binaan) pada tahun 2009 kepada nombor negatif (-$1771 juta pelepasan) pada tahun 2010, dan pengiraan perubahan peratusan merentasi perubahan tanda (positif kepada negatif) adalah tidak tertakrif secara matematik atau dianggap tidak bermakna dalam pelaporan kewangan."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_010",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Penunjuk kewangan manakah yang menunjukkan perubahan negatif paling ketara antara dua tempoh perubahan tahun ke tahun (iaitu, ia mempunyai perubahan positif atau negatif kecil dari 2008-2009, tetapi perubahan negatif besar dari 2009-2010)?",
+    "answer": [
+      [
+        "non-interest revenue"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

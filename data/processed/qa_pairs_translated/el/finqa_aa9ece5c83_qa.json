@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_aa9ece5c83_001",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Ποιο σύνολο δεδομένων, αυτό που ξεκινά στη στήλη Β ή αυτό στη στήλη Ε, είχε υψηλότερο «προσαρμοσμένο» λειτουργικό εισόδημα για το έτος που έληξε στις 31 Δεκεμβρίου 2016;",
+    "answer": [
+      [
+        "The data set starting in column B ($4050 million)"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "G1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_002",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Ποιο είναι το καθαρό άθροισμα όλων των προσαρμογών 'αλλαγή λογιστικής αρχής' βάσει δολαρίων για το πρώτο σύνολο δεδομένων (στήλη C);",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_003",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Ποιο ήταν το περιθώριο προσαρμοσμένου EBITDA 'as filed' για το σύνολο δεδομένων όπου η 'αλλαγή στην λογιστική αρχή' για τα έσοδα από τόκους ήταν '-414 ( 414 )';",
+    "answer": [
+      [
+        "30% ( 30 % )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "F2",
+      "A6",
+      "E6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_004",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Για το πρώτο σύνολο δεδομένων (στήλες B-D), ποιος είναι ο λόγος του καθαρού εισοδήματος 'όπως κατατέθηκε' προς το προσαρμοσμένο EBITDA 'όπως κατατέθηκε', στρογγυλοποιημένος σε τρία δεκαδικά ψηφία;",
+    "answer": [
+      [
+        "0.141"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_005",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Για το σύνολο δεδομένων που παρουσιάζεται στις στήλες B έως D, προσδιορίστε τη μετρική όπου η τιμή 'προσαρμοσμένη' (as adjusted) είναι μικρότερη από την τιμή 'όπως υποβλήθηκε' (as filed).",
+    "answer": [
+      [
+        "interest income"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A5",
+      "B5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_006",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "Στις γραμμές 'καθαρό εισόδημα ως ποσοστό των εσόδων από υπηρεσίες', ποια τιμή 'αλλαγής λογιστικής αρχής' εμφανίζεται ανώμαλη και γιατί;",
+    "answer": [
+      [
+        "Η τιμή 'αλλαγή λογιστικής αρχής' '2014% ( 2014 % )' στα κελιά C4 και F4 είναι ανώμαλη. Και για τα δύο σύνολα δεδομένων, το 'καθαρό εισόδημα ως ποσοστό των εσόδων από υπηρεσίες' παραμένει αμετάβλητο μεταξύ των στοιχείων 'όπως υποβλήθηκε' και 'όπως προσαρμόστηκε' (5% σε 5% και 3% σε 3%, αντίστοιχα). Μια λογική αλλαγή θα ήταν 0%, καθιστώντας το '2014%' ένα σαφές ακραίο εύρημα, πιθανότατα αποτέλεσμα σφάλματος εισαγωγής δεδομένων."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_007",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Εάν η 'αλλαγή στην λογιστική αρχή' για το λειτουργικό εισόδημα στο δεύτερο σύνολο δεδομένων ήταν μείωση κατά 50 εκατομμύρια δολάρια αντί για την εμφανιζόμενη τιμή, ποιο θα ήταν το νέο 'προσαρμοσμένο' λειτουργικό εισόδημα;",
+    "answer": [
+      [
+        "$ 2015"
+      ]
+    ],
+    "evidence_cells": [
+      "E1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_008",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "Υπάρχει μια συνεπής σχέση μεταξύ των λογιστικών προσαρμογών για τα λειτουργικά κέρδη και τα προσαρμοσμένα EBITDA και στα δύο σύνολα δεδομένων;",
+    "answer": [
+      [
+        "Ναι, υπάρχει μια συνεπής θετική σχέση. Στο πρώτο σύνολο δεδομένων, η μεταβολή για τα λειτουργικά κέρδη (+$248) είναι πανομοιότυπη με τη μεταβολή για τα προσαρμοσμένα EBITDA (+$248). Στο δεύτερο σύνολο δεδομένων, η μεταβολή για τα λειτουργικά κέρδη (+$414) είναι επίσης πανομοιότυπη με τη μεταβολή για τα προσαρμοσμένα EBITDA (+$414). Αυτό υποδηλώνει ότι η αλλαγή στην λογιστική αρχή που επηρεάζει τα λειτουργικά κέρδη μεταφέρεται άμεσα στα προσαρμοσμένα EBITDA κατά το ίδιο ποσό."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "F1",
+      "F5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_009",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "Ποιο είναι το πιο σημαντικό δομικό πρόβλημα με τις επικεφαλίδες των στηλών που θα μπορούσε να οδηγήσει σε σύγχυση κατά την ερμηνεία του πίνακα;",
+    "answer": [
+      [
+        "Το κύριο δομικό πρόβλημα είναι η διπλή χρήση των επικεφαλίδων στηλών χωρίς μια υψηλότερη ομαδοποίηση. Οι επικεφαλίδες 'year ended december 31 2016 as filed' και 'year ended december 31 2016 change in accounting principle' χρησιμοποιούνται για δύο διαφορετικά σύνολα στηλών (B και E· C και F). Αυτή η ασάφεια αναγκάζει τον χρήστη να υποθέσει ότι συγκρίνονται δύο ξεχωριστές οντότητες ή σενάρια, αντί να δηλώνεται ρητά."
+      ]
+    ],
+    "evidence_cells": [],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_010",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Χρησιμοποιώντας τις τιμές 'as adjusted', υπολογίστε τα σimplied έσοδα από υπηρεσίες για και τα δύο σύνολα δεδομένων (Adjusted EBITDA / Adjusted EBITDA margin) και αναφέρετε τη διαφορά σε εκατομμύρια μεταξύ των δύο (πρώτο σύνολο μείον δεύτερο σύνολο), στρογγυλοποιημένη στο πλησιέστερο ακέραιο εκατομμύριο.",
+    "answer": [
+      [
+        "$2,814"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D6",
+      "G5",
+      "G6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_011",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Κατά πόσο αυξήθηκε το λειτουργικό εισόδημα (σε εκατομμύρια) για το πρώτο σύνολο δεδομένων μετά την προσαρμογή από το 'As Filed' στο 'As Adjusted';",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "finqa_5b4c0c0847_001",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "Vilken kapitalkomponent (exklusive totaler, tillgångar och kvoter) upplevde den största absoluta ökningen i dollarbelopp från 2012 till 2013?",
+    "answer": [
+      [
+        "basel i tier 1 common capital"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_002",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "Vad var nettototalen av alla 'regulatoriska kapitalkorrigeringar' i miljoner dollar för år 2013?",
+    "answer": [
+      [
+        "-1028"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_003",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "Med hur många procent överträffade tillväxten av 'Uppskattat fullt implementerat Basel III tier 1 common capital' tillväxten av 'Basel I tier 1 common capital' mellan 2012 och 2013? Avrunda till en decimal.",
+    "answer": [
+      [
+        "40.2%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_004",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "open_ended_reasoning",
+    "question": "Analysera förändringen i företagets kapitalposition från år till år från 2012 till 2013, med beaktande av både kapitalrelationer och deras underliggande komponenter.",
+    "answer": [
+      [
+        "Företaget stärkte sin kapitalposition avsevärt från 2012 till 2013. Den pro forma Basel III Advanced Approaches Tier 1 Common Capital Ratio ökade från 7,5 % till 9,5 %. Denna förbättring drevs av två faktorer: en betydande ökning av det uppskattade Tier 1 common capital (från 22 501 miljoner USD till 27 456 miljoner USD) och en samtidigt minskning av de uppskattade riskvägda tillgångarna (från 301 006 miljoner USD till 290 080 miljoner USD). Införandet av Standardized Approach-kvoten på starka 9,4 % år 2013 understryker ytterligare denna förbättrade kapitaltäckning."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_005",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "Identifiera alla radposter som hade ett negativt värde 2012 och ett positivt värde 2013.",
+    "answer": [
+      [
+        "all other adjustments"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_006",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "Vad var 'Beräknat fullt infört Basel III tier 1 eget kapital' i procent av 'Basel I eget kärnkapital' för år 2012? Avrunda till närmaste hela procent.",
+    "answer": [
+      [
+        "90%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_007",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "Om justeringen för 'Basel III kvantitativa gränser' för 2013 hade varit -2 000 miljoner dollar istället för det rapporterade värdet, vad skulle det nya 'Uppskattade fullt implementerade Basel III Tier 1 vanliga kapitalet' ha varit för det året?",
+    "answer": [
+      [
+        "$ 26842"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_008",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "open_ended_reasoning",
+    "question": "Vad tyder datan på gällande sambandet mellan förändringen i 'Uppskattade Basel III Avancerade Metoder Riskvägda Tillgångar' och 'Pro forma helt implementerad Basel III Avancerade Metoder Tier 1 Gemensamt Kapitalförhållande' mellan 2012 och 2013?",
+    "answer": [
+      [
+        "Datan tyder på ett omvänt samband. Mellan 2012 och 2013 minskade de uppskattade riskvägda tillgångarna (nämnaren i förhållandet) från 301 006 miljoner USD till 290 080 miljoner USD. Samtidigt ökade förhållandet Tier 1 Gemensamt Kapital (resultatet av Kapital / RWA) från 7,5 % till 9,5 %. Detta indikerar att en minskning av riskvägda tillgångar positivt bidrog till förbättringen av kapitalförhållandet."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_009",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "Vilka två relaterade mått gällande 'Standard Approach' rapporterades för 2013 men markerades som ej tillämpliga ('n/a') för 2012?",
+    "answer": [
+      [
+        "estimated basel iii standardized approach risk-weighted assets"
+      ],
+      [
+        "pro forma fully phased-in basel iii standardized approach tier 1 common capitalratio"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C9",
+      "A10",
+      "C10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_010",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "Vilken specifik post för kapitaljustering visade en förändring från år till år som negativt påverkade kapitalberäkningen, och vad var värdet på denna negativa förändring?",
+    "answer": [
+      [
+        "accumulated other comprehensive income ( a )",
+        "-$80 million"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_011",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "open_ended_reasoning",
+    "question": "Om bankens riskvägda tillgångar enligt de avancerade metoderna skulle minska samtidigt som dess kärnprimärkapital (Tier 1 common capital) förblev detsamma, vad skulle hända med kärnprimärkapitalrelationen (Tier 1 common capital ratio)?",
+    "answer": [
+      [
+        "Kärnprimärkapitalrelationen skulle öka, eftersom lägre riskvägda tillgångar med samma kapital resulterar i en högre kapitalrelation."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A8",
+      "B8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  }
+]

@@ -1,0 +1,189 @@
+[
+  {
+    "question_id": "finqa_a2bbef41ac_001",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Ano ang kabuuang halaga ng mga asset ('pamumuhunan' at 'iba pang asset') noong Disyembre 31, 2007?",
+    "answer": [
+      [
+        "3254"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_002",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Aling kategorya ng asset, ang 'investments' o 'other assets', ang nakaranas ng mas malaking ganap na netong pagkalugi mula sa 'realized and unrealized gains / ( losses ) net'?",
+    "answer": [
+      [
+        "investments"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_003",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "I-verify kung ang panapos na balanse ng 'investments' noong Disyembre 31, 2008, ay akma sa panimulang balanse nito at sa mga sumunod na transaksyon na nakalista. Ipakita ang iyong kalkulasyon.",
+    "answer": [
+      [
+        "Oo, ang balanse ay akma. Ang kalkulasyon ay: $1240 (panimulang balanse) - $409 (mga kita/pagkalugi) + $11 (mga pagbili/benta) - $29 (netong paglilipat) = $813, na tumutugma sa iniulat na panapos na balanse."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_004",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Ano ang kabuuang netong pagbabago sa halaga ng asset para sa buong panahon, mula Disyembre 31, 2007, hanggang Disyembre 31, 2008?",
+    "answer": [
+      [
+        "-2377"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_005",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Para sa aling mga kategorya ng asset nagresulta ang 'net transfers in and/or out of level 3' sa positibong ambag sa halaga ng asset?",
+    "answer": [
+      [
+        "other assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_006",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Ilang porsiyento ng 'kabuuang net (pagkalugi) para sa yugto na kasama sa kita' ang nagmula sa 'mga pamumuhunan'?",
+    "answer": [
+      [
+        "95.54%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_007",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Kung ang 'realized and unrealized gains / ( losses ) net' para sa 'iba pang mga asset' ay naging zero sa halip na $-16, ano ang magiging bagong closing balance para sa 'iba pang mga asset' sa December 31, 2008?",
+    "answer": [
+      [
+        "80"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_008",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Batay sa datos para sa 'investments', ano ang ugnayan sa pagitan ng 'realized and unrealized gains / ( losses ) net' at 'total net ( losses ) ... relating to assets still held at the reporting date'?",
+    "answer": [
+      [
+        "Mayroong malakas at direktang ugnayan. Ang 'total net ( losses ) ... relating to assets still held' ($-366) ay bumubuo ng 89.5% ng kabuuang 'realized and unrealized gains / ( losses ) net' ($-409). Ipinahihiwatig nito na ang karamihan sa netong pagkalugi ng 'investments' para sa panahong iyon ay hindi natanto at nauugnay sa mga ari-arian na hindi pa nabebenta sa pagtatapos ng panahon ng pag-uulat."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_009",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Anong kombensyon sa accounting ang ipinahihiwatig ng format ng datos na ginamit para sa mga negatibong halaga, tulad ng '-409 ( 409 )'?",
+    "answer": [
+      [
+        "Ang format ng pagpapakita ng negatibong numero na sinusundan ng absolute value nito sa panaklong ay isang karaniwang kombensyon sa accounting upang malinaw at bigyang-diin ang mga negatibong halaga sa pananalapi tulad ng mga pagkalugi, gastos, o mga halaga ng contra-asset."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_010",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Aling item ang kumakatawan sa pinakamalaking nag-iisang negatibong epekto sa pinagsamang halaga ng asset sa loob ng panahon?",
+    "answer": [
+      [
+        "realized and unrealized gains / ( losses ) net"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_011",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Magkano ang ibinaba ng mga pamumuhunan mula 2007 hanggang 2008?",
+    "answer": [
+      [
+        "$427"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A5",
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

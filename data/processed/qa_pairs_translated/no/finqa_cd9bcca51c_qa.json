@@ -1,0 +1,235 @@
+[
+  {
+    "question_id": "finqa_cd9bcca51c_001",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "Hva er det totale okkuperte kvadratfotarealet for alle eiendommer samlet?",
+    "answer": [
+      [
+        "3348000"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_002",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "Hvilken eiendom har en leieavtaledato som er en uteligger, og er den seneste med god margin sammenlignet med de andre?",
+    "answer": [
+      [
+        "200 e . randolph street chicago illinois"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_003",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "List eiendommene med okkupert bruksareal over 350 000 kvm som også har en leieavtale som utløper i år 2020.",
+    "answer": [
+      [
+        "2601 research forest drive the woodlands texas"
+      ],
+      [
+        "2300 discovery drive orlando florida"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_004",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "Hva er gjennomsnittlig kvadratmeter for eiendommer der den siste leieutløpsdatoen er før 2020?",
+    "answer": [
+      [
+        "316666.67"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_005",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "Sammenligner de to eiendommene i Illinois, hva er forskjellen i deres okkuperte areal?",
+    "answer": [
+      [
+        "828000"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_006",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "Hvilken prosentandel av det totale okkuperte kvadratfotarealet kommer fra eiendommen som ligger i New York?",
+    "answer": [
+      [
+        "9.53%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "A6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_007",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "Hvilken eiendom har det bredeste spennet av år mellom de tidligste og seneste leieavtalenes utløpsdatoer?",
+    "answer": [
+      [
+        "4 overlook point and other locations lincolnshire illinois"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_008",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "Hvis alle leieavtaler for eiendommen 'dlf city and unitech cyber park gurgaon india' ble forlenget med 7 år, hva ville dens nye sett med utløpsdatoer for leieavtalene være?",
+    "answer": [
+      [
+        "2021 2020 2022"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_009",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "Hvilken kolonne inneholder oppføringer der en enkelt eiendom kan ha flere distinkte datapunkter listet i én celle?",
+    "answer": [
+      [
+        "leaseexpiration dates"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_010",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "open_ended_reasoning",
+    "question": "Er det en merkbar sammenheng mellom et eiendoms okkuperte kvadratmeter og antall separate leieutløpsdatoer den har? Begrunn svaret ditt basert på dataene.",
+    "answer": [
+      [
+        "Det er ingen klar sammenheng. Eiendommen med størst kvadratmeter (1 224 000 i Lincolnshire) har flere utløpsdatoer, noe som kan tyde på en positiv sammenheng. Den nest største eiendommen (414 000 i The Woodlands) har imidlertid bare én, mens den tredje største (413 000 i Gurgaon) har flere. Denne inkonsekvensen, der store eiendommer har både enkeltstående og flere utløpsdatoer, indikerer at kvadratmeter ikke er en pålitelig prediktor for antall leieavtaler for en eiendom basert på dette datasettet."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_011",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "Hvor mange eiendommer har opptatt bruksareal større enn 400 000?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "BD3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

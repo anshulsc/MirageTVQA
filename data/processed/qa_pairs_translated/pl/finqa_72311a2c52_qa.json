@@ -1,0 +1,275 @@
+[
+  {
+    "question_id": "finqa_72311a2c52_001",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "value",
+    "question": "Która kategoria kredytów odnotowała największy bezwzględny spadek wartości całkowitej od 31 grudnia 2017 r. do 31 grudnia 2018 r.?",
+    "answer": [
+      [
+        "revolving open-end loans secured by one- to four-family residential properties"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A2",
+      "D2",
+      "E2",
+      "A3",
+      "D3",
+      "E3",
+      "A4",
+      "D4",
+      "E4",
+      "A5",
+      "D5",
+      "E5",
+      "A6",
+      "D6",
+      "E6",
+      "A7",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_72311a2c52_002",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "value",
+    "question": "Jaki procent całości zobowiązań z 2018 roku stanowi kategoria kredytów o najwyższej wartości poza USA?",
+    "answer": [
+      [
+        "28.34%"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "D6",
+      "D8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_72311a2c52_003",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "value",
+    "question": "Gdyby wartość w USA dla 'budownictwa komercyjnych nieruchomości i rozwoju terenów' była o 10% niższa w 2018 roku, jaka byłaby nowa 'suma' na dzień 31 grudnia 2018 r.?",
+    "answer": [
+      [
+        "$ 1017937.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "D8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_72311a2c52_004",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "value",
+    "question": "Wymień wszystkie kategorie zobowiązań, w których część w USA była większa niż 100 000 milionów dolarów, a całkowita wartość wzrosła od 2017 do 2018 roku.",
+    "answer": [
+      [
+        "credit card lines"
+      ],
+      [
+        "commercial and other consumer loan commitments"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "D5",
+      "E5",
+      "A6",
+      "B6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_72311a2c52_005",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "value",
+    "question": "Jaka była średnia zmiana rok do roku całkowitej wartości dla wszystkich wymienionych kategorii zobowiązań (z wyłączeniem wiersza całkowitego) między 2017 a 2018 rokiem?",
+    "answer": [
+      [
+        "$ 4817.14"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D6",
+      "E6",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_72311a2c52_006",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "value",
+    "question": "Dla kategorii 'weksle handlowe i podobne akredytywy', jaki jest stosunek wartości w USA do wartości poza USA na dzień 31 grudnia 2018 r.?",
+    "answer": [
+      [
+        "0.18"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_72311a2c52_007",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "open_ended_reasoning",
+    "question": "Która kategoria jest wartością odstającą pod względem jej wkładu w całkowite zobowiązania w USA i jaki procent stanowi ona tej całości?",
+    "answer": [
+      [
+        "Kategoria „linie kart kredytowych” jest znaczącą wartością odstającą, stanowiącą około 74,27% całkowitych zobowiązań w USA na dzień 31 grudnia 2018 r."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_72311a2c52_008",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "open_ended_reasoning",
+    "question": "Przeanalizuj trend wzrostu rok do roku dla \"linii kredytowych kart kredytowych\" w porównaniu do ogólnego wzrostu całego portfela od 2017 do 2018 roku.",
+    "answer": [
+      [
+        "Kategoria \"linie kredytowe kart kredytowych\" wzrosła o około 2,61% od 2017 do 2018 roku (z 678 300 mln USD do 696 007 mln USD). Dla porównania, cały portfel wzrósł o około 3,42% (z 985 174 mln USD do 1 018 894 mln USD). Wskazuje to, że chociaż \"linie kredytowe kart kredytowych\" są największą pojedynczą kategorią, ich tempo wzrostu nieznacznie ustępowało wzrostowi całego portfela w tym okresie."
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "E5",
+      "D8",
+      "E8"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_72311a2c52_009",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "open_ended_reasoning",
+    "question": "Czy na podstawie danych istnieje spójna korelacja między wielkością wartości zobowiązania w USA a jego całkowitym wzrostem rok do roku od 2017 do 2018 roku?",
+    "answer": [
+      [
+        "Nie, nie ma spójnej korelacji. Na przykład dwie największe kategorie w USA, 'linie kart kredytowych' i 'zobowiązania handlowe i inne konsumenckie', odnotowały znaczący wzrost. Jednak trzecia co do wielkości kategoria w USA, 'kredyty rewolwingowe otwarte zabezpieczone nieruchomościami mieszkalnymi jednorodzinnymi i cztero-rodzinnymi', odnotowała największy spadek bezwzględny. Pokazuje to, że duża wartość w USA nie gwarantuje pozytywnego wzrostu rok do roku."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "E1",
+      "B2",
+      "D2",
+      "E2",
+      "B3",
+      "D3",
+      "E3",
+      "B4",
+      "D4",
+      "E4",
+      "B5",
+      "D5",
+      "E5",
+      "B6",
+      "D6",
+      "E6",
+      "B7",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_72311a2c52_010",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "open_ended_reasoning",
+    "question": "Której kolumny wartości dla każdej kategorii zobowiązań są obliczane na podstawie wartości dwóch innych kolumn w tabeli? Wyjaśnij tę zależność.",
+    "answer": [
+      [
+        "Kolumna 'december 312018' jest pochodną innych kolumn. Dla każdej kategorii jej wartość jest sumą wartości z kolumny 'u.s .' i kolumny 'outside ofu.s .'. Na przykład, w pierwszym wierszu, 823 USD (B1) + 4638 USD (C1) równa się 5461 USD (D1)."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "C3",
+      "D3",
+      "B4",
+      "C4",
+      "D4",
+      "B5",
+      "C5",
+      "D5",
+      "B6",
+      "C6",
+      "D6",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_72311a2c52_011",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "value",
+    "question": "Jaki jest stosunek całkowitych zobowiązań w USA do całkowitych zobowiązań poza USA na dzień 31 grudnia 2018 r.?",
+    "answer": [
+      [
+        "4.02 : 1"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

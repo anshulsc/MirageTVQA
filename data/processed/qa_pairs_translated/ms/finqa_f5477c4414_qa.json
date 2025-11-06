@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_f5477c4414_001",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Berapakah jumlah untuk 'pinjaman 2013 dilaporkan' untuk tahun 2012 (kolom E), jika dikira dengan menjumlahkan jenis pinjaman penyusunnya daripada lajur yang sama?",
+    "answer": [
+      [
+        "1717"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f5477c4414_002",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Kategori pinjaman manakah, tidak termasuk 'pinjaman 2013 dilaporkan', yang mengalami pertumbuhan peratusan terbesar dalam baki 31 Disembernya dari 2012 hingga 2013?",
+    "answer": [
+      [
+        "loans held-for-sale"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_003",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Berapakah nilai 'komitmen berkaitan pinjaman' untuk hujung tahun apabila 'aset berkaitan kredit borong keseluruhan' berada pada tahap minimum?",
+    "answer": [
+      [
+        "$ 434814"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_004",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Berapakah peratusan daripada 'jumlah pendedahan kredit borong' pada 31 Disember 2013, yang dikaitkan dengan 'komitmen berkaitan pinjaman'?",
+    "answer": [
+      [
+        "51.87%"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "B9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f5477c4414_005",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Senaraikan semua kategori aset atau liabiliti di mana nilai pada 31 Disember 2013 berkurangan berbanding 31 Disember 2012.",
+    "answer": [
+      [
+        "loans at fair value ( a )"
+      ],
+      [
+        "derivative receivables"
+      ],
+      [
+        "liquid securities and other cash collateral held against derivatives"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A11",
+      "B11",
+      "C11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_006",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Jika nilai untuk 'receivables from customers and other (b)' dalam lajur '2013' (lajur D) adalah 25% lebih tinggi, apakah 'total wholesale credit-related assets' baharu untuk lajur itu?",
+    "answer": [
+      [
+        "1962.5"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "D7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_007",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Kenal pasti item kewangan (daripada lajur A) yang menunjukkan perubahan paling luar biasa antara lajur '2013' dan '2012' (D dan E), yang dicirikan oleh perbezaan mutlak terbesar.",
+    "answer": [
+      [
+        "loans 2013 reported"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A2",
+      "D2",
+      "E2",
+      "A3",
+      "D3",
+      "E3",
+      "A4",
+      "D4",
+      "E4",
+      "A5",
+      "D5",
+      "E5",
+      "A6",
+      "D6",
+      "E6",
+      "A7",
+      "D7",
+      "E7",
+      "A8",
+      "D8",
+      "E8",
+      "A9",
+      "D9",
+      "E9",
+      "A10",
+      "D10",
+      "E10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f5477c4414_008",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Kenal pasti sel (sel) yang mengandungi teks bukan numerik ('na') yang menghalang penjumlahan langsung lajur masing-masing.",
+    "answer": [
+      [
+        "D11"
+      ],
+      [
+        "E11"
+      ]
+    ],
+    "evidence_cells": [
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_009",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "open_ended_reasoning",
+    "question": "Analisis trend dari akhir tahun 2012 hingga 2013 untuk 'total pendedahan kredit borong' dan pemacu utamanya.",
+    "answer": [
+      [
+        "Pendedahan kredit borong' meningkat sedikit daripada $846,628 juta pada tahun 2012 kepada $860,299 juta pada tahun 2013. Pertumbuhan ini terutamanya didorong oleh peningkatan ketara dalam 'pinjaman yang dipegang untuk dijual' (naik 156%) dan peningkatan dalam 'komitmen berkaitan pinjaman' (naik 2.6%). Walau bagaimanapun, pertumbuhan ini sebahagiannya diimbangi oleh penurunan ketara sebanyak 12.3% dalam 'terimaan derivatif' dan penurunan 21.3% dalam 'pinjaman pada nilai saksama', menunjukkan perubahan dalam komposisi portfolio kredit."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B8",
+      "C8",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_010",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan perubahan dari 2012 hingga 2013 dalam baki akhir tahun, apakah hubungan yang ketara antara 'akaun belum terima derivatif' dan 'jumlah aset berkaitan kredit borong'?",
+    "answer": [
+      [
+        "Terdapat hubungan songsang dalam set data yang terhad ini. Dari akhir tahun 2012 hingga 2013, 'akaun belum terima derivatif' berkurangan daripada $74,983 juta kepada $65,759 juta. Secara serentak, 'jumlah aset berkaitan kredit borong' meningkat daripada $411,814 juta kepada $414,067 juta. Ini menunjukkan bahawa apabila nilai akaun belum terima derivatif jatuh, aset lain berkembang untuk lebih daripada pampasan, yang membawa kepada peningkatan keseluruhan dalam jumlah aset. Walau bagaimanapun, korelasi yang muktamad tidak dapat ditubuhkan hanya daripada dua titik data."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f5477c4414_011",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Pada tahun berapakah pinjaman yang dikekalkan adalah tertinggi?",
+    "answer": [
+      [
+        "2013"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

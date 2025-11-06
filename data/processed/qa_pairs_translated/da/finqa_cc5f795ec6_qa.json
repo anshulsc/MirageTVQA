@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "finqa_cc5f795ec6_001",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Hvilken aktivitet havde en større negativ indvirkning på 'total egenkapital': 'dividender' eller 'tilbagekøb af ordinære aktier'?",
+    "answer": [
+      [
+        "dividends"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "K4",
+      "A6",
+      "K6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_002",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Hvad er nettoændringen i 'indskudt kapital' fra alle de aktiviteter, der er anført mellem balancetidspunkterne i 2011 og 2012?",
+    "answer": [
+      [
+        "590"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D11",
+      "D13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_003",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Hvad var den samlede egenkapitalpåvirkning af transaktionen, der involverede en stigning på 662 i 'indbetalt kapital'?",
+    "answer": [
+      [
+        "1147"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "K5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_004",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyser ændringen i 'total egenkapital' fra den 31. december 2011 til den 31. december 2012, og identificer den primære drivkraft bag denne ændring.",
+    "answer": [
+      [
+        "Den samlede egenkapital faldt fra $70.078 til $65.428, et nettofald på $4.650. Selvom der var flere medvirkende faktorer, var den enkelt største drivkraft bag dette fald 'reklassificering til tilbagekøbspligtig minoritetsinteresse', som alene stod for en negativ påvirkning på $4.288, hvilket repræsenterer over 92% af den samlede nettofald."
+      ]
+    ],
+    "evidence_cells": [
+      "K1",
+      "K14",
+      "A12",
+      "K12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_005",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "List alle finansielle aktiviteter, der resulterede i et fald i 'indrejste kapital', men som ikke påvirkede 'opsparet overskud'.",
+    "answer": [
+      [
+        "purchase of additional stake in the wealth management joint venture"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_006",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Hvilken procentdel af de oprindelige 'opsparet indtjening' fra 31. december 2011 blev udbetalt som 'dividender' i perioden?",
+    "answer": [
+      [
+        "-1.23%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_007",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Hvis 'valutaomregningsjusteringer' havde en neutral indvirkning (dvs. nul) på den samlede egenkapital, hvad ville den samlede egenkapital ved udgangen af ​​december 2012 have været?",
+    "answer": [
+      [
+        "65681"
+      ]
+    ],
+    "evidence_cells": [
+      "K9",
+      "K14"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_008",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "open_ended_reasoning",
+    "question": "Baseret på start- og slutbalancer samt transaktionslinjen for 'aktier udstedt under medarbejderplaner', hvad er sammenhængen mellem 'employee stock trust' og 'common stock issued to employee trust'?",
+    "answer": [
+      [
+        "Der er en konsekvent omvendt sammenhæng. Værdien i kolonnen 'common stock issued to employee trust' er altid det nøjagtige negative af værdien i kolonnen 'employee stock trust' for en given række (f.eks. $3166 mod -$3166 i åbningsbalancen; -$234 mod $234 for udstedte aktier). Dette indikerer, at de er modkontoer til hinanden, designet til at udligne deres effekt inden for den samlede egenkapitalberegning."
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "I1",
+      "F5",
+      "I5",
+      "F14",
+      "I14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_009",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Hvad er den mest hyppigt forekommende værdi i datasættet fra kolonne B til K, eksklusive de første og sidste rækker, der beskriver saldi?",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "F2",
+      "G2",
+      "H2",
+      "I2",
+      "J2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "I3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_010",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Blandt alle transaktioner, der påvirker 'total egenkapital', hvilken enkelt post skiller sig ud som den største negative outlier?",
+    "answer": [
+      [
+        "reclassification to redeemable noncontrolling interests"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "K12",
+      "K2",
+      "K3",
+      "K4",
+      "K5",
+      "K6",
+      "K7",
+      "K8",
+      "K9",
+      "K10",
+      "K11",
+      "K13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_011",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Hvad var den samlede foretrukne aktie primo 31. december 2012?",
+    "answer": [
+      [
+        "$1508"
+      ]
+    ],
+    "evidence_cells": [
+      "A16",
+      "B16"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,217 @@
+[
+  {
+    "question_id": "finqa_16910e868d_001",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Jaki konkretny rodzaj zobowiązania stanowi największą płatność wymagalną w okresie 'rok fiskalny 2022 i 2023'?",
+    "answer": [
+      [
+        "long-term debt including current portionexcluding capital lease obligations ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_002",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Jaka jest łączna kwota wszystkich zobowiązań związanych z leasingiem (operacyjnym i kapitałowym) przypadająca do spłaty w okresie 'rok fiskalny 2020 i 2021'?",
+    "answer": [
+      [
+        "206.6"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_16910e868d_003",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Dla typu zobowiązania z najmniejszą płatnością należną w roku fiskalnym 2019, jaka jest odpowiadająca kwota płatności należna w późniejszym okresie?",
+    "answer": [
+      [
+        "138.1"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "F3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_004",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "Opisz trend płatności dla 'zobowiązań z tytułu leasingu operacyjnego' w określonych okresach budżetowych.",
+    "answer": [
+      [
+        "Płatności z tytułu 'zobowiązań z tytułu leasingu operacyjnego' wykazują trend skoncentrowany na najbliższych latach. Zaczynają się od 132,1 mln USD w 2019 r., osiągają szczyt 199,9 mln USD w okresie 2020-2021, a następnie spadają do 118,4 mln USD w latach 2022-2023, z ostateczną kwotą 165,4 mln USD należną później. Sugeruje to, że wiele umów leasingowych było aktywnych w najbliższym okresie, z mniejszą liczbą zobowiązań długoterminowych w porównaniu do okresu szczytowego."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_005",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Wymień wszystkie kategorie zobowiązań, w których łączna kwota do zapłaty jest mniejsza niż 1000 milionów USD, a kwota do zapłaty 'później' jest większa niż 150 milionów USD.",
+    "answer": [
+      [
+        "operating lease obligations ( 2 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "F1",
+      "A2",
+      "B2",
+      "F2",
+      "A3",
+      "B3",
+      "F3",
+      "A4",
+      "B4",
+      "F4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_006",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Jaki procent całkowitego 'długu długoterminowego' przypada na okres 'późniejszy'?",
+    "answer": [
+      [
+        "51.94%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "F1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_16910e868d_007",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Gdyby wszystkie 'zobowiązania z tytułu umów leasingu kapitałowego' zostały umorzone i usunięte z tabeli, jakie byłyby nowe 'łączna' płatności należne za rok obrotowy 2019?",
+    "answer": [
+      [
+        "$ 2535.3"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_008",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "Opierając się na danych, jaka jest fundamentalna różnica w strukturze zapadalności między \"długoterminowymi zobowiązaniami\" a \"zobowiązaniami z tytułu zakupu i innymi\"?",
+    "answer": [
+      [
+        "Istnieje wyraźna odwrotna zależność w ich strukturach zapadalności. Długoterminowe zobowiązania\" są znacząco \"załadowane\" na końcu, z ponad połową ich całości (3136,6 mln USD z 6039,0 mln USD) przypadającą na okres „później\". Natomiast \"zobowiązania z tytułu zakupu i inne\" są w dużej mierze \"załadowane\" na początku, z ogromną większością (1676,6 mln USD z 2210,5 mln USD) przypadającą na najwcześniejszy okres, rok obrotowy 2019, co wskazuje, że są to głównie zobowiązania krótkoterminowe."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "F1",
+      "B4",
+      "C4",
+      "F4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_16910e868d_009",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "Jak obliczona jest wartość w komórce E5, czyli suma dla 'rok fiskalny 2022 i 2023', z innych danych w tabeli?",
+    "answer": [
+      [
+        "Wartość w komórce E5 (1587,0 USD) jest sumą pionową płatności należnych w okresie 'rok fiskalny 2022 i 2023' dla każdej z czterech kategorii zobowiązań wymienionych powyżej: 1351,0 USD (E1), 118,4 USD (E2), 2,7 USD (E3) i 114,9 USD (E4)."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_010",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "Który okres płatności stanowi znaczące odstępstwo pod względem jego proporcji w całkowitych zobowiązaniach i co jest przyczyną tej anomalii?",
+    "answer": [
+      [
+        "Rok fiskalny 2019 jest odstępstwem. Jego całkowita kwota 2540,3 mln USD jest znacznie wyższa niż w dwóch kolejnych okresach (1255,5 mln USD i 1587,0 mln USD). Ta anomalia jest napędzana prawie całkowicie przez kategorię 'zobowiązania z tytułu zakupu i inne', która ma nietypowo dużą płatność w wysokości 1676,6 mln USD przypadającą na ten rok, stanowiącą około 66% całkowitej kwoty okresu."
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_16910e868d_011",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Jaka jest łączna suma wszystkich zobowiązań leasingowych (operacyjnych i kapitałowych) w milionach, które przypadają do spłaty do roku fiskalnego 2019 i łącznie za lata 2020–2021?",
+    "answer": [
+      [
+        "$343.7"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

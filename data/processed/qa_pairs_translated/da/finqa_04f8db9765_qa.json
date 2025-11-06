@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_04f8db9765_001",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv tendensen for 'netto tab som rapporteret' fra år 2000 til 2002.",
+    "answer": [
+      [
+        "Det 'netto tab som rapporteret' viser en tendens til accelererende tab over treårsperioden. Tabene mere end fordobledes fra 194.628 dollars i 2000 til 450.094 dollars i 2001, og fordobledes derefter igen til 1.141.879 dollars i 2002, hvilket indikerer en markant forværring af den finansielle performance hvert år."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_002",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Hvad var det samlede 'pro-forma netto tab' akkumuleret over alle de tre år, der præsenteres i tabellen?",
+    "answer": [
+      [
+        "-1926453"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_04f8db9765_003",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "I hvilket år var den absolutte forskel mellem 'som rapporteret' og 'pro-forma' basiske og udvandede netto tab per aktie den mindste?",
+    "answer": [
+      [
+        "2002"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_004",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Beregn 'total medarbejderkompensation baseret på aktier' som en procentdel af 'netto tab som rapporteret' for året 2001.",
+    "answer": [
+      [
+        "11.23%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_04f8db9765_005",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Hvilket år, hvis nogen, havde et absolut 'net loss as reported' større end $400.000, men et absolut 'pro-forma net loss' mindre end $600.000?",
+    "answer": [
+      [
+        "2001"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3",
+      "C1",
+      "C3",
+      "D1",
+      "D3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_006",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "I hvilket år voksede det pro forma netto tab med det største absolutte beløb sammenlignet med året før?",
+    "answer": [
+      [
+        "2002"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_04f8db9765_007",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Hvis 'total stock-based employee compensation expense' for 2000 havde været 20% højere, hvad ville 'pro-forma net loss' have været for det år?",
+    "answer": [
+      [
+        "-256041.2"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_008",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Hvilken metrik havde en højere størrelsesorden i 2002: 'net loss as reported' eller 'pro-forma net loss'?",
+    "answer": [
+      [
+        "pro-forma net loss"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_009",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "open_ended_reasoning",
+    "question": "Baseret på de leverede data, hvad er det tilsyneladende forhold mellem 'net loss as reported' (rapporteret netto tab) og 'stock-based employee compensation expense' (aktiebaseret medarbejderkompensation) over treårsperioden?",
+    "answer": [
+      [
+        "Der er et omvendt forhold mellem de to målinger. Efterhånden som 'net loss as reported' (rapporteret netto tab) steg markant i størrelsesorden fra 2000 til 2002, faldt 'stock-based employee compensation expense' (aktiebaseret medarbejderkompensation) hvert år. Dette tyder på, at virksomheden kan have reduceret aktiebaseret kompensation, efterhånden som tabene voksede."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "C1",
+      "C2",
+      "D1",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_04f8db9765_010",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvad er den konsekvente effekt af 'pro-forma' justeringen på 'grundlæggende og fortyndet netto tab pr. aktie' sammenlignet med 'som rapporteret' tallet for alle år?",
+    "answer": [
+      [
+        "Den 'pro-forma' justering øger konsekvent størrelsen af tabet pr. aktie i alle viste år. Dette indikerer, at de poster, der justeres for, såsom aktiebaseret kompensation, altid resulterer i et større beregnet tab pr. aktie."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_011",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Hvad er det samlede tab rapporteret i 2001?",
+    "answer": [
+      [
+        "$ -450094 ( 450094 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

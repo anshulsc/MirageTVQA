@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "finqa_d831042916_001",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "W którym roku firma odnotowała największą „(strata) z działalności kontynuowanej”?",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_002",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Jakie były całkowite koszty operacyjne za trzyletni okres od 2007 do 2009 roku?",
+    "answer": [
+      [
+        "$3743"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d831042916_003",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Jaka była wartość 'przychodów pozaodsetkowych' w jedynym roku, w którym firma odnotowała dodatni 'zysk (strata) netto'?",
+    "answer": [
+      [
+        "422"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "B12",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_004",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Opisz trend 'całkowitych przychodów pomniejszonych o koszt odsetek' od 2007 do 2009 roku.",
+    "answer": [
+      [
+        "Trend był zdecydowanie negatywny i zmienny. Całkowite przychody wykazały niewielką poprawę ze straty 2310 milionów dolarów w 2007 roku do straty 2258 milionów dolarów w 2008 roku. Nastąpił jednak katastrofalny spadek w 2009 roku, kiedy strata dramatycznie wzrosła do 10556 milionów dolarów, wskazując na poważne załamanie podstawowych działań firmy generujących przychody."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_005",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Wymień 'podatki dochodowe (ulgi)' dla wszystkich lat, w których '(strata) z działalności kontynuowanej' była większa niż 2500 milionów dolarów.",
+    "answer": [
+      [
+        "-4369 ( 4369 )"
+      ],
+      [
+        "-1446 ( 1446 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "D7",
+      "B8",
+      "D8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_006",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "W 2009 roku, jaki procent 'całkowitych przychodów pomniejszonych o koszty odsetek' stanowiły 'przychody pozaodsetkowe'?",
+    "answer": [
+      [
+        "84.25%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d831042916_007",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Gdyby 'całkowite koszty operacyjne' w 2008 roku wzrosły o 20%, jaki byłby nowy '(strata) z działalności kontynuowanej przed opodatkowaniem' za ten rok?",
+    "answer": [
+      [
+        "$ -2871 ( 2871 )"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_008",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Na podstawie danych, czy istnieje spójna korelacja między niższymi 'łącznymi kosztami operacyjnymi' a wyższym 'zyskiem (stratą) netto'?",
+    "answer": [
+      [
+        "Nie, spójna korelacja nie jest zauważalna. Chociaż rok 2008 miał najniższe koszty operacyjne (510 mln USD) i najwyższy zysk netto (1820 mln USD), co sugeruje odwrotną zależność, ten wzorzec jest przerywany przez pozostałe lata. W 2009 roku koszty operacyjne (1420 mln USD) były niższe niż w 2007 roku (1813 mln USD), jednak w 2009 roku odnotowano drastycznie gorszą stratę netto (-8051 mln USD) w porównaniu do 2007 roku (-1968 mln USD). Wskazuje to, że inne czynniki, takie jak poważny spadek przychodów, miały znacznie większy wpływ na zysk netto niż same koszty operacyjne."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "A12",
+      "B4",
+      "C4",
+      "D4",
+      "B12",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d831042916_009",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Analizując ostatnie trzy wiersze, czy obliczenie dla 'zysku netto (straty)' jest stosowane konsekwentnie we wszystkich trzech latach? Wyjaśnij swoje ustalenia.",
+    "answer": [
+      [
+        "Nie, metoda obliczeniowa jest niespójna. W 2007 roku 'zysk netto (strata)' (-1968 mln USD) jest poprawnie uzyskany przez odjęcie 'zysku netto przypadającego na mniejszościowe udziały' (2 mln USD) od 'zysku netto (straty) przed alokacją...' (-1966 mln USD). Jednakże, zarówno w 2008, jak i 2009 roku, wartość 'zysku netto (straty)' jest identyczna z wartością 'zysku netto (straty) przed alokacją...', błędnie ignorując kwotę przypadającą na mniejszościowe udziały. Wskazuje to na niespójność raportowania w strukturze tabeli dla lat 2008 i 2009."
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "A11",
+      "A12",
+      "B10",
+      "B11",
+      "B12",
+      "C10",
+      "C11",
+      "C12",
+      "D10",
+      "D11",
+      "D12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_010",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Która pozycja finansowa w 2008 roku stanowi znaczący pozytywny odczyt wartości odstającej w porównaniu z innymi latami i jaki był jej wpływ na wynik finansowy firmy?",
+    "answer": [
+      [
+        "„Dochód (strata) z zaniechanych działalności, netto po opodatkowaniu” w 2008 roku, ze wartością 4002 mln USD, stanowi znaczącą pozytywną wartość odstającą w porównaniu ze stratą w wysokości 445 mln USD w 2009 roku i mniejszym zyskiem w wysokości 708 mln USD w 2007 roku. Ta wartość odstająca była kluczowa, ponieważ przekształciła znaczącą „(stratę) z działalności kontynuowanej” w wysokości 2182 mln USD w ostateczny dodatni „zysk netto” w wysokości 1820 mln USD za ten rok."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "A9",
+      "A12",
+      "B9",
+      "C8",
+      "C9",
+      "C12",
+      "D9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d831042916_011",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Biorąc pod uwagę zarówno operacje kontynuowane, jak i zaprzestane, jaka była całkowita zmiana zysku netto od 2008 do 2009 roku?",
+    "answer": [
+      [
+        "W 2008 roku zysk netto wyniósł 1 820 mln USD. W 2009 roku zysk netto wyniósł -8 051 mln USD. Całkowita zmiana zysku netto od 2008 do 2009 roku to spadek o 9 871 mln USD."
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "C12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

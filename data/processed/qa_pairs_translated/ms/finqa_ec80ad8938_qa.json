@@ -1,0 +1,186 @@
+[
+  {
+    "question_id": "finqa_ec80ad8938_001",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Berapakah jumlah jumlah yang dibawa untuk semua aset (kedua-dua aset dagangan dan pinjaman) yang dilaporkan merentasi kedua-dua set data yang dibentangkan?",
+    "answer": [
+      [
+        "26557"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_002",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Dalam set data kedua (kolom D dan E), kategori aset manakah—aset dagangan atau pinjaman—yang mempunyai 'baki prinsipal tertunggak agregat melebihi nilai saksama' yang lebih tinggi?",
+    "answer": [
+      [
+        "loans"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_003",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Bagi set pinjaman pertama (kolum C), berapakah peratusan daripada jumlah 'carrying amount' yang diwakili oleh 'balance of non-accrual loans'?",
+    "answer": [
+      [
+        "0.03%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_004",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Berapakah jumlah jumlah jumlah amaun yang dibawa bagi jenis aset (Aset Perdagangan atau Pinjaman) yang mempunyai 'jumlah pinjaman bukan faedah atau pinjaman lewat bayar lebih 90 hari' yang lebih rendah merentasi kedua-dua set data?",
+    "answer": [
+      [
+        "7598"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_005",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Senaraikan jumlah amaun yang dibawa bagi semua portfolio aset di mana 'baki pinjaman bukan faedah atau pinjaman lewat bayar lebih 90 hari' adalah tepat $1 juta.",
+    "answer": [
+      [
+        "$ 3224"
+      ],
+      [
+        "$ 4374"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C3",
+      "E3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_006",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Jika jumlah yang dibawa bagi aset dagangan dalam set data pertama (kolom B) diselaraskan dengan menolak 'baki jumlah prinsipal yang belum dibayar melebihi nilai saksama', berapakah jumlah yang dibawa yang baharu?",
+    "answer": [
+      [
+        "9673"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_007",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Menganalisis 'baki pinjaman bukan faedah', baki jenis aset manakah yang merupakan pencilan ketara berbanding yang lain, dan apakah implikasinya terhadap profil risiko relatif mereka?",
+    "answer": [
+      [
+        "Aset Dagangan dalam kedua-dua set data menunjukkan baki bukan faedah sebanyak $2,014 juta, yang merupakan pencilan ekstrem berbanding $1 juta untuk Pinjaman dalam kedua-dua set. Perbezaan ketara ini menunjukkan bahawa portfolio Aset Dagangan membawa risiko kredit yang jauh lebih tinggi atau telah mengalami peristiwa lalai utama, manakala portfolio Pinjaman kelihatan dalam keadaan yang sangat baik dengan hampir tiada baki bukan faedah."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_008",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Adakah data menunjukkan korelasi positif yang konsisten antara 'jumlah nilai bawa' aset dan 'baki prinsipal tertunggak terkumpul melebihi nilai saksama' untuk kategori Aset Perdagangan?",
+    "answer": [
+      [
+        "Tidak, korelasi positif yang konsisten tidak ditunjukkan. Set pertama aset perdagangan mempunyai jumlah nilai bawa yang lebih tinggi ($10,108M berbanding $8,851M) tetapi baki prinsipal tertunggak terkumpul melebihi nilai saksama yang lebih rendah ($435M berbanding $623M). Ini menunjukkan bahawa saiz portfolio yang lebih besar tidak semestinya membawa kepada kerugian tertunggak yang lebih besar secara berkadar dalam set data ini."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_009",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Kenal pasti mana-mana baris yang mengandungi data berulang atau kelihatan berlebihan dan terangkan polanya.",
+    "answer": [
+      [
+        "Ketidaklebihan data hadir dalam baris 3 dan 4. Dalam baris 3, 'baki pinjaman bukan faedah...', nilai untuk aset dagangan ialah $2,014 juta dalam kedua-dua set (B3, D3) dan $1 juta untuk pinjaman dalam kedua-dua set (C3, E3). Dalam baris 4, nilai $2,014 juta diulang tiga kali untuk kedua-dua set aset dagangan dan set pertama pinjaman (B4, C4, D4), menunjukkan sama ada corak kemasukan data atau artifak pelaporan kewangan tertentu."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_010",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Bagi set data (Set 1: lajur B,C atau Set 2: lajur D,E) dengan jumlah jumlah pembawaan yang lebih tinggi, hitung 'peratus kerugian belum direalisasi' keseluruhan portfolio (jumlah 'baki prinsipal yang belum dibayar melebihi nilai saksama' dibahagikan dengan jumlah 'jumlah pembawaan').",
+    "answer": [
+      [
+        "8.82%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

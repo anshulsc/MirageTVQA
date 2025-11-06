@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "finqa_d831042916_001",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "I hvilket år oplevede virksomheden det største '(tab) fra fortsatte operationer'?",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_002",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Hvad var de samlede driftsomkostninger for treårsperioden fra 2007 til 2009?",
+    "answer": [
+      [
+        "$3743"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d831042916_003",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Hvad var værdien af 'non-interest revenue' i det eneste år, hvor virksomheden rapporterede et positivt 'net income (loss)'?",
+    "answer": [
+      [
+        "422"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "B12",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_004",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv tendensen for 'samlede indtægter netto efter renteudgifter' fra 2007 til 2009.",
+    "answer": [
+      [
+        "Tendensen var overvældende negativ og volatil. Samlede indtægter viste en mindre forbedring fra et tab på 2310 millioner dollars i 2007 til et tab på 2258 millioner dollars i 2008. Dette blev dog efterfulgt af en katastrofal nedgang i 2009, hvor tabet dramatisk steg til 10556 millioner dollars, hvilket indikerer en alvorlig nedgang i virksomhedens kerneindtægtsgenererende aktiviteter."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_005",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Angiv 'indkomstskatter (tilskud)' for alle år, hvor '(tab) fra fortsatte aktiviteter' var større end 2.500 millioner dollars.",
+    "answer": [
+      [
+        "-4369 ( 4369 )"
+      ],
+      [
+        "-1446 ( 1446 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "D7",
+      "B8",
+      "D8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_006",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "I 2009, hvor stor en procentdel af 'samlede indtægter fratrukket renteudgifter' udgjordes af 'ikke-renteindtægter'?",
+    "answer": [
+      [
+        "84.25%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d831042916_007",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Hvis 'total operating expenses' i 2008 var steget med 20%, hvad ville den nye '(loss) from continuing operations before taxes' have været for det år?",
+    "answer": [
+      [
+        "$ -2871 ( 2871 )"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_008",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Baseret på dataene, er der en konsistent sammenhæng mellem lavere 'samlede driftsomkostninger' og højere 'nettoindkomst (tab)?",
+    "answer": [
+      [
+        "Nej, en konsistent sammenhæng kan ikke observeres. Mens 2008 havde de laveste driftsomkostninger (510 mio. USD) og den højeste nettoindkomst (1820 mio. USD), hvilket tyder på et omvendt forhold, brydes dette mønster af de andre år. I 2009 var driftsomkostningerne (1420 mio. USD) lavere end i 2007 (1813 mio. USD), men alligevel oplevede 2009 et drastisk dårligere nettotab (-8051 mio. USD) sammenlignet med 2007 (-1968 mio. USD). Dette indikerer, at andre faktorer, såsom det kraftige fald i indtægter, havde en meget større indvirkning på nettoindkomsten end selve driftsomkostningerne."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "A12",
+      "B4",
+      "C4",
+      "D4",
+      "B12",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d831042916_009",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Ved at undersøge de sidste tre rækker, anvendes beregningen for 'nettoresultat (tab)' konsekvent på tværs af alle tre år? Forklar din konklusion.",
+    "answer": [
+      [
+        "Nej, beregningsmetoden er inkonsistent. I 2007 er 'nettoresultat (tab)' (-$1968M) korrekt udledt ved at trække 'nettoresultat, der kan henføres til ikke-kontrollerende interesser' ($2M) fra 'nettoresultat (tab) før henføring...' (-$1966M). I både 2008 og 2009 er værdien for 'nettoresultat (tab)' identisk med værdien for 'nettoresultat (tab) før henføring...', hvilket forkert ignorerer det beløb, der kan henføres til ikke-kontrollerende interesser. Dette peger på en rapporteringsmæssig inkonsistens i tabellens struktur for 2008 og 2009."
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "A11",
+      "A12",
+      "B10",
+      "B11",
+      "B12",
+      "C10",
+      "C11",
+      "C12",
+      "D10",
+      "D11",
+      "D12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_010",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvilken finansiel post i 2008 repræsenterer en markant positiv afvigelse sammenlignet med de andre år, og hvilken effekt havde den på virksomhedens nettoresultat?",
+    "answer": [
+      [
+        "Den 'indkomst (tab) fra ophørende aktiviteter efter skat' i 2008, med en værdi på 4002 mio. dollars, er en markant positiv afvigelse sammenlignet med et tab på 445 mio. dollars i 2009 og en mindre gevinst på 708 mio. dollars i 2007. Denne afvigelse var afgørende, da den konverterede et betydeligt '(tab) fra fortsatte operationer' på 2182 mio. dollars til en endelig positiv 'nettoindkomst' på 1820 mio. dollars for det pågældende år."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "A9",
+      "A12",
+      "B9",
+      "C8",
+      "C9",
+      "C12",
+      "D9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d831042916_011",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Medregnet både fortsatte og ophørte operationer, hvad var den samlede ændring i nettoresultat fra 2008 til 2009?",
+    "answer": [
+      [
+        "I 2008 var nettoresultatet 1.820 millioner dollars. I 2009 var nettoresultatet -8.051 millioner dollars. Den samlede ændring i nettoresultatet fra 2008 til 2009 er et fald på 9.871 millioner dollars."
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "C12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

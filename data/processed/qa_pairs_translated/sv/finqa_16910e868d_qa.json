@@ -1,0 +1,217 @@
+[
+  {
+    "question_id": "finqa_16910e868d_001",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Vilken specifik skyldighetstyp står för den största betalningen som förfaller under perioden 'räkenskapsår 2022 och 2023'?",
+    "answer": [
+      [
+        "long-term debt including current portionexcluding capital lease obligations ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_002",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Vilket är det totala beloppet för alla leasingrelaterade skulder (rörelse- och finansiella leasingavtal) som förfaller under perioden 'räkenskapsår 2020 och 2021'?",
+    "answer": [
+      [
+        "206.6"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_16910e868d_003",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "För den skyldighetstyp med den minsta förfallna betalningen under räkenskapsåret 2019, vad är det motsvarande förfallna betalningsbeloppet 'därefter'?",
+    "answer": [
+      [
+        "138.1"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "F3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_004",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv betalningstrenden för 'leasingförpliktelser för rörelsefastigheter' under de specificerade räkenskapsperioderna.",
+    "answer": [
+      [
+        "Betalningarna för 'leasingförpliktelser för rörelsefastigheter' visar en trend med tidig topp. De börjar på 132,1 miljoner USD under 2019, når en topp på 199,9 miljoner USD under perioden 2020-2021, och sjunker sedan till 118,4 miljoner USD under 2022-2023, med ytterligare 165,4 miljoner USD därefter. Detta tyder på att många leasingavtal var aktiva på kort sikt med färre långsiktiga åtaganden jämfört med deras toppperiod."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_005",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Lista alla kategorier av förpliktelser där det totala beloppet som ska betalas är mindre än 1000 miljoner USD och beloppet som ska betalas 'därefter' är mer än 150 miljoner USD.",
+    "answer": [
+      [
+        "operating lease obligations ( 2 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "F1",
+      "A2",
+      "B2",
+      "F2",
+      "A3",
+      "B3",
+      "F3",
+      "A4",
+      "B4",
+      "F4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_006",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Vilken procentandel av den totala 'långfristiga skulden' förfaller 'därefter'?",
+    "answer": [
+      [
+        "51.94%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "F1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_16910e868d_007",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Om alla 'kapitalhyresskulder' skulle efterskänkas och tas bort från tabellen, vad skulle de nya 'totala' avtalade betalningarna för 'räkenskapsåret 2019' vara?",
+    "answer": [
+      [
+        "$ 2535.3"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_008",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "Baserat på data, vad är den grundläggande skillnaden i löptidsstruktur mellan 'långfristiga skulder' och 'köpskulder och annat'?",
+    "answer": [
+      [
+        "Det finns ett tydligt omvänt förhållande i deras löptidsstrukturer. 'Långfristiga skulder' är signifikant viktade mot slutet, med över hälften av dess totala ($3136,6M av $6039,0M) förfallande i perioden 'därefter'. Omvänt är 'köpskulder och annat' kraftigt viktade mot början, med den stora majoriteten ($1676,6M av $2210,5M) förfallande i den tidigaste perioden, räkenskapsåret 2019, vilket indikerar att dessa främst är kortfristiga åtaganden."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "F1",
+      "B4",
+      "C4",
+      "F4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_16910e868d_009",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "Hur beräknas värdet i cell E5, totalen för 'räkenskapsår 2022 och 2023', från andra siffror i tabellen?",
+    "answer": [
+      [
+        "Värdet i cell E5 (1587,0 USD) är den vertikala summan av betalningar som förfaller under perioden 'räkenskapsår 2022 och 2023' för var och en av de fyra skyldighetskategorierna som listas ovanför den: 1351,0 USD (E1), 118,4 USD (E2), 2,7 USD (E3) och 114,9 USD (E4)."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_010",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "Vilken betalningsperiod representerar en signifikant avvikelse vad gäller dess andel av de totala åtagandena, och vad driver denna anomali?",
+    "answer": [
+      [
+        "Räkenskapsåret 2019 är en avvikelse. Dess totala belopp på 2540,3 miljoner dollar är betydligt högre än de efterföljande två perioderna (1255,5 miljoner dollar och 1587,0 miljoner dollar). Denna anomali drivs nästan helt av kategorin 'köpförpliktelser och annat', som har en ovanligt stor betalning på 1676,6 miljoner dollar som förfaller det året, vilket representerar cirka 66% av periodens totala belopp."
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_16910e868d_011",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Vad är summan av alla leasingåtaganden (rörelse och kapital) i miljoner som förfaller senast räkenskapsåret 2019 och 2020–2021 kombinerat?",
+    "answer": [
+      [
+        "$343.7"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

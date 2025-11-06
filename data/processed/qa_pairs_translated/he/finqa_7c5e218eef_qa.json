@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "finqa_7c5e218eef_001",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "איזו קטגוריית הוצאות חוותה את השינוי המוחלט הגדול ביותר משנה לשנה בדולרים, ללא קשר אם מדובר בעלייה או ירידה?",
+    "answer": [
+      [
+        "loss on datacenter and related legal fees"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_002",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "מהו סכום כל הפחתות ההוצאות (שינויים שליליים) שדווחו במיליוני דולרים?",
+    "answer": [
+      [
+        "-23.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_003",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "מה היה השינוי הכולל בדולרים עבור קטגוריות הוצאה שכל אחת מהן ייצגה עלייה של 2% כאחוז מהוצאות 2015?",
+    "answer": [
+      [
+        "53.0"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_004",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "open_ended_reasoning",
+    "question": "בהתבסס על הנתונים הכוללים, מה הייתה המגמה הפיננסית הכוללת עבור קטגוריות הוצאות אלו משנה לשנה? נמק את תשובתך.",
+    "answer": [
+      [
+        "המגמה הפיננסית הכוללת הייתה עלייה בעלויות. זה מתבטא בשורת ה'סה\"כ', המציגה שינוי נטו חיובי משנה לשנה של 54.4 מיליון דולר, המהווה עלייה של 4% ביחס להוצאות של 2015. בעוד שהיו הפחתות מסוימות בעלויות, הן התגמדו באופן משמעותי על ידי עליות בעלויות בתחומים אחרים."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_005",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "רשום את כל קטגוריות ההוצאות שלהן היה שינוי חיובי משנה לשנה הגדול מ-15 מיליון דולר.",
+    "answer": [
+      [
+        "loss on datacenter and related legal fees"
+      ],
+      [
+        "professional fees and outside services"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_006",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "חשב את היחס בין סך העלייה בדולרים לבין סך הירידה המוחלטת בדולרים מסעיפי ההוצאות הבודדים, מעוגל לשתי ספרות עשרוניות.",
+    "answer": [
+      [
+        "3.29:1"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_007",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "אילו 'תנודות בשערי חליפין' היוו חיסכון בעלות של 13.2 מיליון דולר במקום עלייה בעלות, מה היה השינוי הכולל החדש משנה לשנה?",
+    "answer": [
+      [
+        "$ 28.0"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_008",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "open_ended_reasoning",
+    "question": "על ידי השוואת קטגוריות עם אותו שינוי באחוזים (לדוגמה, 2% או 1%), מה ניתן להסיק לגבי הקשר בין השינוי המוחלט בדולרים לבין השינוי באחוזים? איזה מידע חסר כדי לאשר זאת?",
+    "answer": [
+      [
+        "ניתן להסיק שהשינוי המוחלט בדולרים אינו פרופורציונלי ישירות לשינוי באחוזים על פני קטגוריות שונות. לדוגמה, 'הפסד ממרכז נתונים' (28.6 מיליון דולר) ו'עמלות מקצועיות' (24.4 מיליון דולר) הציגו שניהם שינוי של 2%, מה שמרמז שהוצאות הבסיס שלהם לשנת 2015 היו שונות. המידע החסר הדרוש לאישור הוא ערך ההוצאה בפועל לשנת 2015 עבור כל קטגוריה."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_009",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "open_ended_reasoning",
+    "question": "איזה תא בעמודה 'שינוי כאחוז מהוצאות 2015' מכיל נתונים שאינם עקביים עם סוג הנתונים הנראה של העמודה, ומהו הערך החריג?",
+    "answer": [
+      [
+        "תא C7, המתאים ל-'הוצאות אחרות נטו', מכיל את הערך '2014'. זה חריג מכיוון שכל שאר הערכים בעמודה הם אחוזים או מספרים המייצגים אחוזים, בעוד ש-'2014' נראה כשנה."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_010",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "השינוי משנה לשנה עבור 'loss on datacenter and related legal fees' הוא העלייה הגדולה ביותר. באיזה אחוז עלייה זו גדולה יותר מהעלייה השנייה בגודלה ('professional fees and outside services')? עגל למקום עשרוני אחד.",
+    "answer": [
+      [
+        "17.2%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_011",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "איזו קטגוריית הוצאות הציגה את העלייה הגבוהה ביותר משנה לשנה?",
+    "answer": [
+      [
+        "Loss on data center and related legal fees"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

@@ -1,0 +1,240 @@
+[
+  {
+    "question_id": "finqa_c8b3934b16_001",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "In welchem Jahr waren die 'Gesamteinnahmen abzüglich Zinsaufwand' am höchsten?",
+    "answer": [
+      [
+        "2016"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_002",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "Wie hoch war die Gesamtsumme der 'Netto-Kreditverluste' über alle drei Jahre (2016, 2017 und 2018)?",
+    "answer": [
+      [
+        "605"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_003",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "Wie hoch war die 'Nettozinsertrag' in dem Jahr mit den höchsten 'Gesamtbetriebskosten'?",
+    "answer": [
+      [
+        "$ 3045"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_004",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "open_ended_reasoning",
+    "question": "Beschreiben Sie den Dreijahrestrend für 'Netto-Kreditverluste' von 2016 bis 2018.",
+    "answer": [
+      [
+        "Die 'Netto-Kreditverluste' zeigen einen konstanten und signifikanten Abwärtstrend, der von 435 Millionen US-Dollar im Jahr 2016 auf 149 Millionen US-Dollar im Jahr 2017 und weiter auf 21 Millionen US-Dollar im Jahr 2018 gesunken ist. Dieser starke Rückgang von 66 % und dann 86 % im Jahresvergleich deutet auf eine erhebliche Verbesserung im Kreditrisikomanagement oder in der Vermögensqualität des Unternehmens hin."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_005",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "Listen Sie die Finanzposten auf, die 2018 einen positiven Wert, 2017 aber einen negativen Wert (Verlust) aufwiesen.",
+    "answer": [
+      [
+        "income ( loss ) from continuing operations before taxes"
+      ],
+      [
+        "income ( loss ) from continuing operations"
+      ],
+      [
+        "net income ( loss ) before attribution of noncontrolling interests"
+      ],
+      [
+        "noncontrolling interests"
+      ],
+      [
+        "net income ( loss )"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10",
+      "A12",
+      "B12",
+      "C12",
+      "A14",
+      "B14",
+      "C14",
+      "A15",
+      "B15",
+      "C15",
+      "A16",
+      "B16",
+      "C16"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_006",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "Wie viel Prozent der 'Gesamteinnahmen abzüglich Zinsaufwand' wurden im Jahr 2018 von den 'gesamten Betriebskosten' verbraucht?",
+    "answer": [
+      [
+        "109.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_007",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "Wenn die 'Kreditreservebildung (Auflösung)' im Jahr 2018 anstelle einer Auflösung von 218 Millionen US-Dollar null gewesen wäre, wie hoch wäre dann das 'Ergebnis (Verlust) aus fortgeführten Geschäftsbereichen vor Steuern' gewesen?",
+    "answer": [
+      [
+        "$ -205"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_008",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "open_ended_reasoning",
+    "question": "Gibt es über die drei Jahre eine direkte positive Korrelation zwischen 'Gesamtumsatz abzüglich Zinsaufwand' und 'Nettogewinn (Verlust)'? Erklären Sie.",
+    "answer": [
+      [
+        "Nein, eine direkte positive Korrelation ist nicht ersichtlich. Während die Umsätze von 5.233 Mio. USD im Jahr 2016 auf 2.083 Mio. USD im Jahr 2018 stetig zurückgingen, schwankte der Nettogewinn dramatisch von einem Gewinn von 521 Mio. USD zu einem Verlust von -19.676 Mio. USD und zurück zu einem Gewinn von 107 Mio. USD. Der massive Verlust im Jahr 2017, obwohl höhere Umsätze als 2018 erzielt wurden, wurde hauptsächlich durch einen anomalen Posten 'Ertragsteuern (Vorteile)' von 19.064 Mio. USD verursacht, nicht allein durch Umsatzänderungen."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "B11",
+      "C11",
+      "B16",
+      "C16",
+      "D16"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_009",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "Welche Spalte, die die jährliche Veränderung darstellt, hat die meisten 'nm'-Einträge (nicht aussagekräftig)?",
+    "answer": [
+      [
+        "% (  % ) change2017 vs . 2016"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12",
+      "E13",
+      "E14",
+      "E15",
+      "E16",
+      "F2",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_010",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifizieren Sie den Finanzposten für 2017, der im Vergleich zu demselben Posten in 2016 und 2018 ein klarer Ausreißer ist, und erklären Sie seine Auswirkungen auf die Gesamtergebnisse.",
+    "answer": [
+      [
+        "Die 'Einkommensteuern (Erträge)' von 19.064 Millionen US-Dollar im Jahr 2017 sind ein massiver Ausreißer im Vergleich zu den Werten von -455 Millionen US-Dollar im Jahr 2016 und -113 Millionen US-Dollar im Jahr 2018. Diese außergewöhnlich hohe Steuerlast war der Hauptgrund dafür, dass ein Vorsteuerverlust von 507 Millionen US-Dollar zu einem erstaunlichen Nachsteuerverlust aus fortgeführten Geschäftsbereichen von 19.571 Millionen US-Dollar wurde, was sie zur wirkungsvollsten Anomalie in den Daten für dieses Jahr macht."
+      ]
+    ],
+    "evidence_cells": [
+      "C10",
+      "B11",
+      "C11",
+      "D11",
+      "C12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_011",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "Um wie viel hat sich der Nettogewinn (Verlust) in Millionen von 2016 bis 2018 verringert?",
+    "answer": [
+      [
+        "$414"
+      ]
+    ],
+    "evidence_cells": [
+      "A16",
+      "B16",
+      "D16"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_1333011494_001",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Ce proprietate are cea mai mare valoare a 'clădirii'?",
+    "answer": [
+      [
+        "1515 broadway"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "B2",
+      "C2",
+      "D2",
+      "F2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_002",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Care este 'alocarea prețului de achiziție' totală pentru toate proprietățile listate în tabel?",
+    "answer": [
+      [
+        "2097772"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_1333011494_003",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Care este 'valoarea netă a considerației finanțate de noi la momentul încheierii' pentru proprietatea care are cea mai mică valoare la 'leasinguri achiziționate la fața locului'?",
+    "answer": [
+      [
+        "$ 81632"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "B11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_004",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Pentru proprietatea '1515 broadway', ce procent din valoarea sa 'active achiziționate' provine din suma valorilor sale 'teren' și 'clădire'?",
+    "answer": [
+      [
+        "89.65%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_1333011494_005",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Identifică toate proprietățile unde 'datoria asumată' este de peste trei ori mai mare decât 'investiția în capital propriu și/sau datorie deținută'.",
+    "answer": [
+      [
+        "110 east 42nd street"
+      ],
+      [
+        "1515 broadway"
+      ]
+    ],
+    "evidence_cells": [
+      "D12",
+      "D13",
+      "E12",
+      "E13",
+      "F12",
+      "F13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_006",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Dacă un ajustare contabilă ar reevalua valoarea 'clădirii' pentru '110 east 42nd street' cu 10% mai mică, care ar fi noua valoare a 'activelor achiziționate' pentru acea proprietate?",
+    "answer": [
+      [
+        "81989"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_007",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "Valoarea ajustării \"fair value\" la nota ipotecară de plată pentru \"1515 broadway\" este negativă, în timp ce pentru majoritatea celorlalte proprietăți este o valoare pozitivă și uniformă. Ce sugerează acest rezultat semnificativ diferit despre finanțarea proprietății respective?",
+    "answer": [
+      [
+        "Valoarea negativă de \"-3693\" pentru \"1515 broadway\" în categoria \"fair value adjustment to mortgage note payable\" este un rezultat distinct diferit comparativ cu valoarea pozitivă uniformă de \"2014\" pentru celelalte proprietăți. Acest lucru sugerează că nota ipotecară asociată achiziției 1515 Broadway a avut termeni mai favorabili decât ratele pieței predominante la momentul achiziției, creând un activ (o ajustare negativă a pasivului). În contrast, celelalte proprietăți ar fi putut avea ipoteci la ratele pieței sau aproape de acestea, necesitând o ajustare standard, nominală."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_1333011494_008",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "Conform datelor, există o corelație pozitivă directă între „alocarea prețului de achiziție” al unei proprietăți și „considerația netă finanțată de noi la închidere”?",
+    "answer": [
+      [
+        "Nu, nu există o corelație pozitivă directă. De exemplu, „180 maiden lane” are al doilea cel mai mare preț de achiziție (442.325 USD), dar considerația netă (81.835 USD) este aproape identică cu cea a „51 east 42nd street”, care are un preț de achiziție mult mai mic (80.000 USD). Mai mult, „1515 broadway” are cel mai mare preț de achiziție cu o marjă mare (1.234.000 USD), dar nu și cea mai mare considerație netă. Acest lucru indică faptul că alți factori, cum ar fi „datoria asumată” (care este foarte mare pentru „1515 broadway”), influențează semnificativ considerația netă necesară la închidere."
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10",
+      "B11",
+      "C11",
+      "D11",
+      "E11",
+      "F11",
+      "B13",
+      "C13",
+      "D13",
+      "E13",
+      "F13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_1333011494_009",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Calculați 'datorii asumate' totale pentru proprietățile care au o 'valoare de leasing peste piață' mai mică de 6.000 USD.",
+    "answer": [
+      [
+        "33817"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "F3",
+      "B9",
+      "D9",
+      "F9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_010",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "Valoarea '2014' apare în mod repetat în patru categorii financiare diferite, adesea pentru aceleași proprietăți. Ce sugerează utilizarea constantă a acestui număr specific, nenegociat, în contexte diferite despre natura sa?",
+    "answer": [
+      [
+        "Valoarea '2014' apare în 'alte active nete de alte datorii', 'ajustarea valorii juste la obligațiunea ipotecară', 'participație de capitaluri proprii și/sau datorii deținute' și 'datorii asumate'. Utilizarea sa repetată ca o valoare identică, relativ mică, în diferite categorii și proprietăți sugerează că nu este o valoare de piață măsurată, ci mai degrabă un substituent nominal, o valoare minimă standard utilizată în scopuri contabile sau, posibil, o referire la un eveniment specific sau anul reglementării (de exemplu, o tranzacție din 2014). Aceasta semnifică o intrare standardizată, mai degrabă decât o evaluare unică pentru fiecare instanță."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "A12",
+      "A13",
+      "B5",
+      "C5",
+      "D5",
+      "F5",
+      "B7",
+      "C7",
+      "D7",
+      "F7",
+      "B12",
+      "C12",
+      "B13",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_011",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Cât costă achiziționarea terenului de la 1515 Broadway?",
+    "answer": [
+      [
+        "$462,700"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

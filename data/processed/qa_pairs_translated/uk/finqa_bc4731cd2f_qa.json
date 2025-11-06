@@ -1,0 +1,214 @@
+[
+  {
+    "question_id": "finqa_bc4731cd2f_001",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Якими були загальні операційні витрати, у мільйонах доларів, за три роки разом (2008, 2009, 2010)?",
+    "answer": [
+      [
+        "32101"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_002",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Який фінансовий показник зазнав найбільшого відсоткового зростання з 2008 по 2009 рік?",
+    "answer": [
+      [
+        "net credit losses"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_003",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "У році з найбільшим показником «загальний дохід мінус витрати за відсотками», яким був відповідний показник «чистий (збиток)»?",
+    "answer": [
+      [
+        "$ -8369 ( 8369 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "D14"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_004",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "open_ended_reasoning",
+    "question": "Опишіть тенденцію 'непроцентних доходів' з 2008 по 2010 рік.",
+    "answer": [
+      [
+        "«Непроцентні доходи» демонструють послідовну та різку тенденцію до зниження протягом трирічного періоду. Вони почалися з 6 362 мільйонів доларів у 2008 році, впали на 25% до 4 770 мільйонів доларів у 2009 році, а потім зазнали ще більш драматичного падіння на 58% до 1 995 мільйонів доларів у 2010 році."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_005",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Перелічіть усі фінансові категорії, де абсолютне значення збитку або витрат зменшилося у 2010 році порівняно з 2009 роком.",
+    "answer": [
+      [
+        "total operating expenses"
+      ],
+      [
+        "net credit losses"
+      ],
+      [
+        "provision for benefits and claims"
+      ],
+      [
+        "provisions for credit losses and for benefits and claims"
+      ],
+      [
+        "( loss ) from continuing operations before taxes"
+      ],
+      [
+        "( loss ) from continuing operations"
+      ],
+      [
+        "net ( loss )"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A7",
+      "B7",
+      "C7",
+      "A9",
+      "B9",
+      "C9",
+      "A10",
+      "B10",
+      "C10",
+      "A12",
+      "B12",
+      "C12",
+      "A14",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_006",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Яким було співвідношення \"загальних операційних витрат\" до \"загальних доходів за вирахуванням процентних витрат\" у 2010 році? Виразіть свою відповідь у відсотках, округлену до двох знаків після коми.",
+    "answer": [
+      [
+        "50.95%"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_007",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Якби \"накопичення (зменшення) резерву на кредити\" у 2010 році становило накопичення в розмірі 1000 мільйонів доларів США замість зменшення на 1771 мільйон доларів США, якими були б нові \"резерви на кредитні збитки та на виплати і претензії\" за той рік?",
+    "answer": [
+      [
+        "$ 18815 million"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6",
+      "B7",
+      "B9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_008",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "open_ended_reasoning",
+    "question": "Чи існує послідовний зв'язок між щорічною зміною \"середніх активів\" та щорічною зміною \"чистого процентного доходу\"?",
+    "answer": [
+      [
+        "Ні, послідовного зв'язку не існує. З 2008 по 2009 рік середні активи зменшилися на 16%, а чистий процентний дохід також зменшився на 24%. Це вказує на можливу позитивну кореляцію. Однак з 2009 по 2010 рік середні активи знову зменшилися на 8%, але цього разу чистий процентний дохід зріс на 6%, що порушило попередню закономірність."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A15",
+      "D15",
+      "E15"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_009",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "open_ended_reasoning",
+    "question": "Який пункт рядка має нечислове, невідсоткове значення зміни 'nm' для періоду порівняння 2010 проти 2009, і чому це, ймовірно, так?",
+    "answer": [
+      [
+        "Пункт 'резерв на покриття збитків (відшкодування)' має значення 'nm' (не має значення) для зміни у 2010 порівняно з 2009. Це, ймовірно, тому, що значення змінилося з позитивного числа (збільшення на $5799 млн) у 2009 році до негативного числа (зменшення на $1771 млн) у 2010 році, а розрахунок відсоткової зміни при зміні знаку (з позитивного на негативний) є математично невизначеним або вважається несуттєвим у фінансовій звітності."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_010",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Який фінансовий показник демонструє найбільш драматичний негативний поворот між двома періодами щорічної зміни (тобто, він мав позитивну або невелику негативну зміну з 2008 по 2009 рік, але значну негативну зміну з 2009 по 2010 рік)?",
+    "answer": [
+      [
+        "non-interest revenue"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

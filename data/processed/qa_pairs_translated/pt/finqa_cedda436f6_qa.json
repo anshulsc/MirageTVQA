@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "finqa_cedda436f6_001",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Em que ano a 'receita de operações antes do imposto de renda' foi a mais alta?",
+    "answer": [
+      [
+        "2013"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_002",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Qual foi a despesa total com imposto de renda em milhões de dólares em todos os três anos mostrados na tabela?",
+    "answer": [
+      [
+        "238"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cedda436f6_003",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Para o ano com as menores vendas líquidas, qual foi o 'lucro líquido de operações descontinuadas (atribuível à PPG)' correspondente, em milhões de dólares?",
+    "answer": [
+      [
+        "2197"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_004",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "Descreva a tendência de 'vendas líquidas' do ano encerrado em 2011 a 2013.",
+    "answer": [
+      [
+        "As vendas líquidas apresentaram uma ligeira diminuição de $1732 milhões em 2011 para $1688 milhões em 2012, seguida por uma queda drástica para $108 milhões em 2013. Isso indica uma tendência negativa significativa, especialmente no último ano do período."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_005",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Liste todas as métricas financeiras para as quais o valor em 2013 excedeu o total combinado dos valores de 2012 e 2011.",
+    "answer": [
+      [
+        "income from operations before income tax"
+      ],
+      [
+        "income from discontinued operations net of tax"
+      ],
+      [
+        "net income from discontinued operations ( attributable to ppg )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "A7",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_006",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Qual foi o percentual de aumento do 'lucro líquido de operações descontinuadas (atribuível à PPG)' de 2012 para 2013?",
+    "answer": [
+      [
+        "921.9%"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cedda436f6_007",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Se o 'ganho líquido da separação e fusão' em 2013 tivesse sido 25% menor, e essa redução tivesse diminuído diretamente a 'receita de operações antes do imposto de renda', qual teria sido a nova receita de operações para aquele ano?",
+    "answer": [
+      [
+        "1466"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_008",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "Com base nos dados, analise a relação entre 'vendas líquidas' e 'renda das operações antes do imposto de renda' ao longo dos três anos. Existe uma correlação consistente?",
+    "answer": [
+      [
+        "Não há uma correlação consistente. De 2011 a 2012, as métricas mostram uma correlação positiva, pois uma ligeira diminuição nas vendas (de $ 1732M para $ 1688M) corresponde a uma diminuição na renda (de $ 376M para $ 345M). No entanto, essa relação inverte drasticamente em 2013, onde uma queda massiva nas vendas líquidas para $ 108M é acompanhada por um aumento na renda para $ 2014M. Isso sugere que, em 2013, a renda foi impulsionada por fatores que não as vendas principais, como o 'ganho líquido da separação e fusão do negócio de produtos químicos de commodities'."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cedda436f6_009",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Qual métrica financeira mostra um valor de '$ 2014' milhão em um ano e '2014' milhão em outros dois anos, destacando uma inconsistência na formatação de dados para o mesmo valor numérico?",
+    "answer": [
+      [
+        "less : net income attributable to non-controlling interests discontinued operations"
+      ],
+      [
+        "net gain from separation and merger of commodity chemicals business"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "A6",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_010",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "Qual item de linha para o ano de 2013 representa o evento financeiro mais significativo quando comparado ao seu valor zero ou próximo de zero em outros anos, e como isso provavelmente afetou a 'renda das operações' desse ano?",
+    "answer": [
+      [
+        "O 'ganho líquido da separação e fusão do negócio de produtos químicos de commodities' com um valor de 2192 milhões em 2013 é o evento financeiro mais significativo. Esse ganho único parece ser o principal impulsionador da 'renda das operações antes do imposto de renda' incomumente alta de $ 2014 milhões no mesmo ano, o que é um desvio substancial em comparação com os $ 345 milhões e $ 376 milhões reportados em 2012 e 2011, respectivamente."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cedda436f6_011",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Qual é a despesa com imposto de renda até o final de 2011?",
+    "answer": [
+      [
+        "126"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

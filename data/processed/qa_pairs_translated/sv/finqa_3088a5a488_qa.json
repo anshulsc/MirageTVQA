@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "finqa_3088a5a488_001",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "value",
+    "question": "Vilket år registrerade företaget sina högsta försäljnings- och serviceintäkter?",
+    "answer": [
+      [
+        "2010"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_3088a5a488_002",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "value",
+    "question": "Vad var det genomsnittliga värdet av 'totala tillgångar' i miljoner dollar över alla fem angivna åren?",
+    "answer": [
+      [
+        "5529.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_3088a5a488_003",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "value",
+    "question": "Vad var 'fritt kassaflöde' under det år då företaget upplevde sin största 'rörelseförlust'?",
+    "answer": [
+      [
+        "121"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "F8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3088a5a488_004",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv trenden för 'långfristiga skulder' från 2008 till 2012. Var det en stabil ökning, minskning, eller visade den betydande fluktuationer?",
+    "answer": [
+      [
+        "De 'långfristiga skulderna' visade betydande fluktuationer. De var stabila från 2008 till 2009 på 283 miljoner dollar, sjönk sedan kraftigt till 105 miljoner dollar 2010. Detta följdes av en massiv ökning till 1830 miljoner dollar 2011, innan en liten minskning till 1779 miljoner dollar 2012. Därför var trenden inte stabil utan mycket volatil."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_3088a5a488_005",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "value",
+    "question": "Lista alla år där företaget rapporterade en 'nettoförlust' (negativ nettoresultat) men ändå upprätthöll ett positivt 'fritt kassaflöde'.",
+    "answer": [
+      [
+        "2011"
+      ],
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "F4",
+      "C8",
+      "F8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_3088a5a488_006",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "value",
+    "question": "Vilken procentandel av 'totala tillgångar' utgjorde 'totala långfristiga skulder' vid slutet av i_sk.året 2012?",
+    "answer": [
+      [
+        "67.91%"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_3088a5a488_007",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "value",
+    "question": "Om 'nedskrivning av goodwill' år 2012 var hälften av vad som rapporterats, vad skulle då det nya 'rörelseresultatet' vara för det året, under antagande att inga andra ändringar skett?",
+    "answer": [
+      [
+        "1365"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_3088a5a488_008",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "open_ended_reasoning",
+    "question": "Om man analyserar data från 2008 till 2011, finns det en konsekvent korrelation mellan en ökning av 'sales and service revenues' och en ökning av 'net earnings'?",
+    "answer": [
+      [
+        "Nej, det finns ingen konsekvent positiv korrelation. Till exempel, från 2009 till 2010 ökade försäljningen från 6292 miljoner USD till 6723 miljoner USD, och nettoresultatet ökade också från 119 miljoner USD till 131 miljoner USD. Men från 2008 till 2009 ökade försäljningen från 6189 miljoner USD till 6292 miljoner USD, medan nettoresultatet förbättrades från en massiv förlust på -2397 miljoner USD till en vinst på 119 miljoner USD, en förändring som är oproportionerlig jämfört med intäktsökningen, troligen driven av andra faktorer som minskningen av goodwillnedskrivningar. Därför, även om de ofta är relaterade, påverkar andra stora kostnader det slutliga nettoresultatet avsevärt."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_3088a5a488_009",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "value",
+    "question": "Vilken finansiell metrik, exklusive belopp per aktie, rapporterar en förlust eller ett negativt värde under flest antal år?",
+    "answer": [
+      [
+        "net earnings ( loss )"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C3",
+      "F3",
+      "C4",
+      "F4",
+      "E8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_3088a5a488_010",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "value",
+    "question": "Vilket år såg den mest betydande ökningen från år till år av 'långfristiga skulder', och vad var den ungefärliga procentuella ökningen jämfört med föregående år?",
+    "answer": [
+      [
+        "2011",
+        "1642.86%"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_3088a5a488_011",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "value",
+    "question": "Vilket år hade de högsta försäljnings- och serviceintäkterna?",
+    "answer": [
+      [
+        "2010"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

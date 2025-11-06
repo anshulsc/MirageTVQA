@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_f5477c4414_001",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "مجموع \"وام های گزارش شده در سال 2013\" برای سال 2012 (ستون E) چقدر بود، اگر با جمع کردن انواع وام های تشکیل دهنده آن از همان ستون محاسبه شود؟",
+    "answer": [
+      [
+        "1717"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f5477c4414_002",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "کدام دسته از وام‌ها، با استثنای «وام‌های گزارش شده در سال ۲۰۱۳»، بیشترین رشد درصدی را در موجودی ۳۱ دسامبر خود از سال ۲۰۱۲ تا ۲۰۱۳ تجربه کرده است؟",
+    "answer": [
+      [
+        "loans held-for-sale"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_003",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "ارزش 'تعهدات مرتبط با وام' در پایان سالی که 'کل دارایی‌های مرتبط با اعتبار عمده‌فروشی' در حداقل مقدار خود بود، چقدر بود؟",
+    "answer": [
+      [
+        "$ 434814"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_004",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "درصد \"کل تعهدات اعتباری عمده فروشی\" در تاریخ ۳۱ دسامبر ۲۰۱۳ که به \"تعهدات مرتبط با وام\" اختصاص داشت، چقدر بود؟",
+    "answer": [
+      [
+        "51.87%"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "B9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f5477c4414_005",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "فهرست تمام دسته بندی های دارایی یا بدهی که ارزش آنها در تاریخ 31 دسامبر 2013 نسبت به 31 دسامبر 2012 کاهش یافته است.",
+    "answer": [
+      [
+        "loans at fair value ( a )"
+      ],
+      [
+        "derivative receivables"
+      ],
+      [
+        "liquid securities and other cash collateral held against derivatives"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A11",
+      "B11",
+      "C11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_006",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "اگر ارزش \"دریافتنی از مشتریان و سایر (ب)\" در ستون \"2013\" (ستون D) ۲۵٪ بیشتر بود، \"کل دارایی‌های مرتبط با اعتبار عمده فروشی\" برای آن ستون چقدر می‌شد؟",
+    "answer": [
+      [
+        "1962.5"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "D7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_007",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "مورد مالی (از ستون A) را که بیشترین تغییر غیرعادی را بین ستون‌های '2013' و '2012' (D و E) نشان می‌دهد، با بزرگترین تفاوت مطلق مشخص کنید.",
+    "answer": [
+      [
+        "loans 2013 reported"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A2",
+      "D2",
+      "E2",
+      "A3",
+      "D3",
+      "E3",
+      "A4",
+      "D4",
+      "E4",
+      "A5",
+      "D5",
+      "E5",
+      "A6",
+      "D6",
+      "E6",
+      "A7",
+      "D7",
+      "E7",
+      "A8",
+      "D8",
+      "E8",
+      "A9",
+      "D9",
+      "E9",
+      "A10",
+      "D10",
+      "E10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f5477c4414_008",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "سلول(های) حاوی متن غیر عددی ('na') که مانع از جمع مستقیم ستون های مربوطه می شوند را شناسایی کنید.",
+    "answer": [
+      [
+        "D11"
+      ],
+      [
+        "E11"
+      ]
+    ],
+    "evidence_cells": [
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_009",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "open_ended_reasoning",
+    "question": "روند 'کل سرمایه‌گذاری اعتباری عمده فروشی' را از پایان سال 2012 تا 2013 و عوامل اصلی آن تحلیل کنید.",
+    "answer": [
+      [
+        " 'کل سرمایه‌گذاری اعتباری عمده فروشی' به طور متواضعانه‌ای از 846,628 میلیون دلار در سال 2012 به 860,299 میلیون دلار در سال 2013 افزایش یافت. این رشد عمدتاً ناشی از افزایش قابل توجهی در 'وام‌های نگهداری شده برای فروش' (افزایش 156%) و افزایش 'تعهدهای مربوط به وام' (افزایش 2.6%) بود. با این حال، این رشد تا حدی با کاهش قابل توجه 12.3 درصدی در 'دریافتی‌های مشتق' و کاهش 21.3 درصدی در 'وام‌ها به ارزش منصفانه' جبران شد که نشان‌دهنده تغییر در ترکیب پرتفوی اعتباری است."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B8",
+      "C8",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_010",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "open_ended_reasoning",
+    "question": "با توجه به تغییرات مانده پایان سال از سال 2012 تا 2013، رابطه ظاهری بین 'دریافتی‌های مشتق' و 'کل دارایی‌های مرتبط با اعتبار عمده فروشی' چیست؟",
+    "answer": [
+      [
+        "به نظر می‌رسد در این مجموعه داده محدود، یک رابطه معکوس وجود دارد. از پایان سال 2012 تا 2013، 'دریافتی‌های مشتق' از 74,983 میلیون دلار به 65,759 میلیون دلار کاهش یافته است. همزمان، 'کل دارایی‌های مرتبط با اعتبار عمده فروشی' از 411,814 میلیون دلار به 414,067 میلیون دلار افزایش یافته است. این نشان می‌دهد که با کاهش ارزش دریافتی‌های مشتق، سایر دارایی‌ها برای جبران بیش از حد رشد کرده‌اند و منجر به افزایش کلی کل دارایی‌ها شده‌اند. با این حال، از تنها دو نقطه داده نمی‌توان همبستگی قطعی را برقرار کرد."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f5477c4414_011",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "در کدام سال بیشترین میزان وام نگهداری شده است؟",
+    "answer": [
+      [
+        "2013"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

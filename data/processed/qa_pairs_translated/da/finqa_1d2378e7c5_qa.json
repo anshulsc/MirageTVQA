@@ -1,0 +1,215 @@
+[
+  {
+    "question_id": "finqa_1d2378e7c5_001",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "For den 31. december 2015, hvilken regulatorisk tilgang, 'Avanceret' eller 'Standardiseret', resulterede i en højere rapporteret 'Total Kapital', og hvor meget i millioner af dollars?",
+    "answer": [
+      [
+        "Standardized approach",
+        "12558"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_002",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Hvad var det gennemsnitlige 'Tier 1 Capital' i millioner af dollars på tværs af alle fire rapporterede kolonner?",
+    "answer": [
+      [
+        "156051"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_003",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Identificer de 'samlede risikojusterede aktiver', der svarer til kolonnen med det laveste 'samlede kapitalprocent'.",
+    "answer": [
+      [
+        "1292605"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "B7",
+      "C7",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_004",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "Forudsat at de sidste to kolonner repræsenterer data fra forrige år, beskriv tendensen fra år til år for 'Common Equity Tier 1 Capital Ratio' under 'Standardized Approach'.",
+    "answer": [
+      [
+        "\"Common Equity Tier 1 Capital Ratio\" for \"Standardized Approach\" viste en positiv tendens, idet den steg med 1,51 procentpoint fra 11,12% i den foregående periode til 12,63% pr. 31. december 2015."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "E5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_005",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Hvilke kapitalforhold under '31. december 2015 Standardiseret Tilgang' var under 15%?",
+    "answer": [
+      [
+        "12.63% ( 12.63 % )"
+      ],
+      [
+        "14.11"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A6",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_006",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "For '31. december 2015 Avancerede Tilgange', hvilken andel af 'Total Kapital' kan tilskrives 'Tier 2 Kapital'? (Bemærk: Tier 2 Kapital = Total Kapital - Tier 1 Kapital)",
+    "answer": [
+      [
+        "11.85%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_007",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Hvis 'Total Risk-Weighted Assets' under 'December 31, 2015 Standardized Approach' hypotetisk var 10% højere, hvad ville den nye 'Tier 1 Capital Ratio' være, forudsat at 'Tier 1 Capital' forblev konstant?",
+    "answer": [
+      [
+        "12.83"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_008",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvilket forhold kan udledes mellem 'Total Risikovægtede Aktiver' og de kapitalratioer, der præsenteres i tabellen? Brug datopunkter til at understøtte din konklusion.",
+    "answer": [
+      [
+        "Der er en omvendt sammenhæng mellem 'Total Risikovægtede Aktiver' og kapitalratioerne. Når de risikovægtede aktiver (nævneren i ratio-beregningen) stiger, falder kapitalratioerne. For eksempel rapporterer kolonnen med de højeste aktiver (1.292.605 mio. USD) den laveste 'Total Kapitalratio' (12,80), mens kolonnen med de laveste aktiver (1.162.884 mio. USD) rapporterer den højeste 'Total Kapitalratio' (17,08)."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "B7",
+      "C7",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_009",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvilken finansiel metrik for den 31. december 2015 viser en usædvanlig stor uoverensstemmelse mellem 'avancerede' og 'standardiserede' tilgange, givet at dens primære komponenter er identiske?",
+    "answer": [
+      [
+        "Total kapital viser en usædvanlig stor uoverensstemmelse. Både almindelig egenkapital tier 1-kapital og tier 1-kapital har identiske værdier under begge tilgange for 2015. Dog afviger den samlede kapital med over 12 milliarder dollars (186.097 millioner dollars vs. 198.655 millioner dollars), hvilket indikerer, at hele forskellen skyldes beregningen af Tier 2-kapital, hvilket gør den til en outlier."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_010",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "På trods af de inkonsistente kolonneoverskrifter for de to viste perioder, hvilke kapitalkonti (i millioner dollars) rapporteres med identiske værdier for både 'Avanceret' og 'Standardiseret' tilgang i hver respektive periode?",
+    "answer": [
+      [
+        "Common equity tier 1 capital"
+      ],
+      [
+        "Tier 1 capital"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_011",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvis bankens samlede risikovægtede aktiver under den avancerede tilgang skulle stige, mens den samlede kapital forblev konstant, hvad ville der så ske med den samlede kapitalratio?",
+    "answer": [
+      [
+        "Den samlede kapitalratio ville falde, fordi højere risikovægtede aktiver med uændret kapital reducerer kapitalratioen."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  }
+]

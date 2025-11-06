@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_1333011494_001",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Vilken fastighet har det högsta 'byggnads'-värdet?",
+    "answer": [
+      [
+        "1515 broadway"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "B2",
+      "C2",
+      "D2",
+      "F2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_002",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Vad är den totala 'köpeskillingens fördelning' för alla fastigheter som listas i tabellen?",
+    "answer": [
+      [
+        "2097772"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_1333011494_003",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Vad är 'nettoersättning finansierad av oss vid avslut' för fastigheten som har det lägsta värdet för 'förvärvade befintliga hyresavtal'?",
+    "answer": [
+      [
+        "$ 81632"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "B11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_004",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "För fastigheten '1515 broadway', vilken procentandel av dess 'förvärvade tillgångar' kommer från summan av dess 'mark' och 'byggnad'-värden?",
+    "answer": [
+      [
+        "89.65%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_1333011494_005",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Identifiera alla fastigheter där 'skuld som övertagits' är mer än tre gånger 'investering i eget kapital och/eller skuld som innehas'.",
+    "answer": [
+      [
+        "110 east 42nd street"
+      ],
+      [
+        "1515 broadway"
+      ]
+    ],
+    "evidence_cells": [
+      "D12",
+      "D13",
+      "E12",
+      "E13",
+      "F12",
+      "F13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_006",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Om en redovisningsjustering omvärderade 'byggnadens' värde för '110 east 42nd street' till att vara 10 % lägre, vad skulle det nya värdet för 'förvärvade tillgångar' vara för den fastigheten?",
+    "answer": [
+      [
+        "81989"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_007",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "Värderingsjusteringen av inteckningslånet ('fair value adjustment to mortgage note payable') för '1515 broadway' är ett negativt värde, medan det är ett positivt, enhetligt värde för de flesta andra fastigheter. Vad antyder denna betydande avvikelse om den specifika fastighetens finansiering?",
+    "answer": [
+      [
+        "Det negativa värdet på '-3693' för '1515 broadway' i kategorin 'fair value adjustment to mortgage note payable' är en tydlig avvikelse jämfört med det enhetliga positiva värdet på '2014' för de andra fastigheterna. Detta antyder att inteckningslånet som var kopplat till förvärvet av 1515 Broadway hade villkor som var mer fördelaktiga än de rådande marknadsräntorna vid tidpunkten för förvärvet, vilket skapade en tillgång (en negativ justering av skulder). I kontrast kan de andra fastigheterna ha haft inteckningar till eller nära marknadsräntor, vilket krävde en standardiserad, nominell justering."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_1333011494_008",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "Baserat på datan, finns det en direkt positiv korrelation mellan en fastighets 'purchase price allocation' och dess 'net consideration funded by us at closing'?",
+    "answer": [
+      [
+        "Nej, det finns ingen direkt positiv korrelation. Till exempel har '180 maiden lane' den näst högsta köpeskillingen (442 325 USD) men dess nettopris (81 835 USD) är nästan identiskt med '51 east 42nd street', som har en mycket lägre köpeskilling (80 000 USD). Dessutom har '1515 broadway' den högsta köpeskillingen med stor marginal (1 234 000 USD) men inte det högsta nettopriset. Detta indikerar att andra faktorer, såsom 'debt assumed' (vilket är mycket högt för '1515 broadway'), signifikant påverkar det nettopris som krävs vid tillträdet."
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10",
+      "B11",
+      "C11",
+      "D11",
+      "E11",
+      "F11",
+      "B13",
+      "C13",
+      "D13",
+      "E13",
+      "F13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_1333011494_009",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Beräkna den totala \"ökade hyreskostnaden\" för fastigheter som har ett \"över marknadshyresvärde\" som är mindre än 6 000 USD.",
+    "answer": [
+      [
+        "33817"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "F3",
+      "B9",
+      "D9",
+      "F9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_010",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "Värdet '2014' förekommer upprepade gånger inom fyra olika finansiella kategorier, ofta för samma fastigheter. Vad antyder den konsekventa användningen av detta specifika, icke-avrundade nummer i olika sammanhang om dess natur?",
+    "answer": [
+      [
+        "Värdet '2014' förekommer under 'andra tillgångar netto av andra skulder', 'justering till verkligt värde av bolåneskuld', 'innehav av eget kapital och/eller skuldinvesteringar' och 'skuld övertagen'. Dess upprepade användning som ett relativt litet, identiskt värde över olika kategorier och fastigheter antyder att det inte är ett uppmätt marknadsvärde utan snarare en nominell platshållare, ett standardmässigt minimivärde som används för redovisningsändamål, eller möjligen en hänvisning till ett specifikt händelse- eller regleringsår (t.ex. en transaktion från 2014). Det signalerar en standardiserad post snarare än en unik värdering för varje förekomst."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "A12",
+      "A13",
+      "B5",
+      "C5",
+      "D5",
+      "F5",
+      "B7",
+      "C7",
+      "D7",
+      "F7",
+      "B12",
+      "C12",
+      "B13",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_011",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Hur mycket kostar det att köpa marken på 1515 Broadway?",
+    "answer": [
+      [
+        "$462,700"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

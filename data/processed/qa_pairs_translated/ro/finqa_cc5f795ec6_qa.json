@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "finqa_cc5f795ec6_001",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Ce activitate a avut un impact negativ mai mare asupra 'totalului capitalului propriu': 'dividende' sau 'răscumpărări de acțiuni ordinare'?",
+    "answer": [
+      [
+        "dividends"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "K4",
+      "A6",
+      "K6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_002",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Care este modificarea netă a 'capitalului vărsat' din toate activitățile enumerate între datele de bilanț din 2011 și 2012?",
+    "answer": [
+      [
+        "590"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D11",
+      "D13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_003",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Care a fost impactul total asupra capitalurilor proprii al tranzacției care a implicat o creștere de 662 în 'capitalul subscris și vărsat'?",
+    "answer": [
+      [
+        "1147"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "K5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_004",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "open_ended_reasoning",
+    "question": "Analizați modificarea 'totalului capitalului propriu' de la 31 decembrie 2011 la 31 decembrie 2012 și identificați principalul factor al acestei modificări.",
+    "answer": [
+      [
+        "Totalul capitalului propriu a scăzut de la 70.078 USD la 65.428 USD, o reducere netă de 4.650 USD. Deși au existat mai mulți factori contributivi, cel mai mare factor unic al acestei scăderi a fost 'reclasificarea către interesele minoritare răscumpărabile', care singură a reprezentat un impact negativ de 4.288 USD, reprezentând peste 92% din reducerea netă totală."
+      ]
+    ],
+    "evidence_cells": [
+      "K1",
+      "K14",
+      "A12",
+      "K12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_005",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Enumerați toate activitățile financiare care au rezultat într-o scădere a 'capitalului plătit', dar nu au afectat 'profiturile reținute'.",
+    "answer": [
+      [
+        "purchase of additional stake in the wealth management joint venture"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_006",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Ce procent din 'profitul nerepartizat' inițial de la 31 decembrie 2011 a fost plătit sub formă de 'dividende' în perioada respectivă?",
+    "answer": [
+      [
+        "-1.23%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_007",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Dacă 'ajustările de curs valutar' ar fi avut un impact neutru (adică zero) asupra capitaluluiuri total, care ar fi fost soldul final al capitalului total la 31 decembrie 2012?",
+    "answer": [
+      [
+        "65681"
+      ]
+    ],
+    "evidence_cells": [
+      "K9",
+      "K14"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_008",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "open_ended_reasoning",
+    "question": "Pe baza soldurilor de deschidere și închidere și a rândului de tranzacții pentru 'acțiuni emise prin planuri pentru angajați', care este relația dintre 'fondul de acțiuni pentru angajați' și 'acțiunile ordinare emise către fondul pentru angajați'?",
+    "answer": [
+      [
+        "Există o relație inversă constantă. Valoarea din coloana 'acțiuni ordinare emise către fondul pentru angajați' este întotdeauna exact opusul negativ al valorii din coloana 'fondul de acțiuni pentru angajați' pentru orice rând dat (de exemplu, 3166 $ față de -3166 $ în soldul de deschidere; -234 $ față de 234 $ pentru acțiunile emise). Acest lucru indică faptul că sunt conturi contrare unul față de celălalt, concepute pentru a le echilibra efectul în calculul capitalului propriu total."
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "I1",
+      "F5",
+      "I5",
+      "F14",
+      "I14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_009",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Excluzând primele și ultimele rânduri care descriu soldurile, care este valoarea care apare cel mai frecvent în setul de date de la coloanele B la K?",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "F2",
+      "G2",
+      "H2",
+      "I2",
+      "J2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "I3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_010",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Dintre toate tranzacțiile care afectează 'totalul capitalurilor proprii', care singur element se distinge ca fiind cel mai mare element negativ aberant?",
+    "answer": [
+      [
+        "reclassification to redeemable noncontrolling interests"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "K12",
+      "K2",
+      "K3",
+      "K4",
+      "K5",
+      "K6",
+      "K7",
+      "K8",
+      "K9",
+      "K10",
+      "K11",
+      "K13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_011",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Care a fost totalul acțiunilor preferențiale la data de 31 decembrie 2012?",
+    "answer": [
+      [
+        "$1508"
+      ]
+    ],
+    "evidence_cells": [
+      "A16",
+      "B16"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

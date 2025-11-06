@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_aa9ece5c83_001",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "איזה מערך נתונים פיננסי, זה שמתחיל בעמודה B או זה שבעמודה E, היה 'מותאם' גבוה יותר בהכנסה התפעולית לשנה שהסתיימה ב-31 בדצמבר 2016?",
+    "answer": [
+      [
+        "The data set starting in column B ($4050 million)"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "G1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_002",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "מהי הסכום נטו של כל ההתאמות ב'שינוי עקרון חשבונאי' מבוסס דולר עבור מערך הנתונים הראשון (עמודה C)?",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_003",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "מה היה 'as filed' של שיעור ה-adjusted EBITDA עבור קבוצת הנתונים שבה השינוי בעקרון החשבונאי להכנסות מריבית היה '-414 ( 414 )'?",
+    "answer": [
+      [
+        "30% ( 30 % )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "F2",
+      "A6",
+      "E6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_004",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "עבור קבוצת הנתונים הראשונה (עמודות B-D), מה היחס בין \"כפי שהוגש\" של הרווח הנקי ל\"כפי שהוגש\" של ה-EBITDA המתואם, מעוגל לשלושה מקומות אחרי הנקודה העשרונית?",
+    "answer": [
+      [
+        "0.141"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_005",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "עבור קבוצת הנתונים המוצגת בעמודות B עד D, זהה את המדד שבו הערך 'מותאם' נמוך מהערך 'כפי שהוגש'.",
+    "answer": [
+      [
+        "interest income"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A5",
+      "B5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_006",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "בשורה של 'רווח נקי כאחוז מהכנסות משירותים', איזה ערך של 'שינוי בעיקרון חשבונאי' נראה חריג, ומדוע?",
+    "answer": [
+      [
+        "הערך של 'שינוי בעיקרון חשבונאי' של '2014% (2014%)' בתאים C4 ו-F4 חריג. עבור שתי קבוצות הנתונים, 'הרווח הנקי כאחוז מהכנסות משירותים' נשאר ללא שינוי בין הנתונים 'כפי שהוגשו' לנתונים 'מותאמים' (5% ל-5% ו-3% ל-3%, בהתאמה). שינוי הגיוני היה 0%, מה שהופך את '2014%' לחריג בבירור, ככל הנראה כתוצאה משגיאת הזנת נתונים."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_007",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "אם 'שינוי בעיקרון החשבונאי' להכנסה תפעולית במערך הנתונים השני היה הפחתה של 50 מיליון דולר במקום הערך המוצג, מה הייתה ההכנסה התפעולית החדשה 'מותאמת'?",
+    "answer": [
+      [
+        "$ 2015"
+      ]
+    ],
+    "evidence_cells": [
+      "E1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_008",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "האם יש קשר עקבי בין התאמות החשבונאיות להכנסה התפעולית ל-EBITDA מתואם בשני מערכי הנתונים?",
+    "answer": [
+      [
+        "כן, יש קשר חיובי עקבי. במערך הנתונים הראשון, השינוי בהכנסה התפעולית (248$+) זהה לשינוי ב-EBITDA המתואם (248$+). במערך הנתונים השני, השינוי בהכנסה התפעולית (414$+) זהה גם כן לשינוי ב-EBITDA המתואם (414$+). הדבר מצביע על כך ששינוי עקרון החשבונאות המשפיע על ההכנסה התפעולית עובר ישירות ל-EBITDA המתואם באותו סכום."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "F1",
+      "F5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_009",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "מהי הבעיה המבנית המשמעותית ביותר בכותרות העמודות שעלולה להוביל לבלבול בעת פירוש הטבלה?",
+    "answer": [
+      [
+        "הבעיה המבנית העיקרית היא הכפלה של כותרות העמודות ללא קיבוץ ברמה גבוהה יותר. הכותרות 'שנה שהסתיימה ב-31 בדצמבר 2016 כפי שהוגש' ו-'שנה שהסתיימה ב-31 בדצמבר 2016 שינוי בעיקרון החשבונאי' משמשות עבור שתי קבוצות שונות של עמודות (B ו-E; C ו-F). עמימות זו מאלצת את המשתמש להסיק שמוצגים או תרחישים נפרדים מושווים, במקום שזה ייאמר במפורש."
+      ]
+    ],
+    "evidence_cells": [],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_010",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "באמצעות הערכים 'as adjusted', חשב את הכנסות השירות המשוערות עבור שני מערכי הנתונים (Adjusted EBITDA / Adjusted EBITDA margin) ודווח על ההפרש במיליונים בין השניים (קבוצה ראשונה פחות קבוצה שנייה), מעוגל למיליון השלם הקרוב ביותר.",
+    "answer": [
+      [
+        "$2,814"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D6",
+      "G5",
+      "G6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_011",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "בכמה השתנה הרווח התפעולי (במיליונים) עבור קבוצת הנתונים הראשונה לאחר ההתאמה מ-'As Filed' ל-'As Adjusted'?",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

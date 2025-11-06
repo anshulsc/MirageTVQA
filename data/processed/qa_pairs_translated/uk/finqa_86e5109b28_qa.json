@@ -1,0 +1,259 @@
+[
+  {
+    "question_id": "finqa_86e5109b28_001",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Яке комерційне зобов'язання, виключаючи загальні суми, має найбільшу суму погашення в будь-якому році з 2014 по 2017?",
+    "answer": [
+      [
+        "credit facilities [a]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_002",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Якою є сума всіх індивідуальних термінів дії зобов'язань за 2016 та 2017 роки разом?",
+    "answer": [
+      [
+        "40"
+      ]
+    ],
+    "evidence_cells": [
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_86e5109b28_003",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Визначте тип зобов'язань, термін дії яких охоплює найбільшу кількість періодів, та вкажіть його загальну вартість.",
+    "answer": [
+      [
+        "guarantees [c]"
+      ],
+      [
+        "307"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "C1",
+      "E1",
+      "C2",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_004",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "open_ended_reasoning",
+    "question": "Опишіть часову динаміку загальних комерційних зобов'язань, термін виконання яких закінчується з 2013 по 2016 рік.",
+    "answer": [
+      [
+        "Динаміка є вкрай мінливою. Вона починається з 632 мільйонів доларів у 2013 році, знижується приблизно на 66% до 215 мільйонів доларів у 2014 році, потім різко зростає до найвищого показника за весь час у 1812 мільйонів доларів у 2015 році, перш ніж впасти більш ніж на 98% до лише 30 мільйонів доларів у 2016 році. Не спостерігається стабільного зростання чи спаду."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_005",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Перелічіть типи зобов'язань, які мають суму строку дії, що перевищує 0 доларів США у 2013 році, але не мають строку дії з 2015 року і далі.",
+    "answer": [
+      [
+        "receivables securitization facility [b]"
+      ],
+      [
+        "standby letters of credit [d]"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "F2",
+      "G2",
+      "H2",
+      "A4",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "H4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_006",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Яку частку від загальних термінів погашення за 2013 рік становить «facility сек'юритизації дебіторської заборгованості»?",
+    "answer": [
+      [
+        "94.94%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_86e5109b28_007",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Якби 1800 мільйонів доларів за \"кредитними лініями\", термін дії яких закінчується у 2015 році, були б рівномірно розподілені між 2016 та 2017 роками, яким був би новий загальний показник \"загальних комерційних зобов'язань\" за 2016 рік?",
+    "answer": [
+      [
+        "$ 930"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_008",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "open_ended_reasoning",
+    "question": "Виходячи з таблиці, чи існує помітна кореляція між загальною сумою зобов'язання та кількістю років, протягом яких воно погашається?",
+    "answer": [
+      [
+        "Ні, прямої кореляції немає. Насправді дані свідчать про зворотний зв'язок. Найбільше зобов'язання, «кредитні fasilitas» (1800 млн доларів США), погашається повністю за один рік (2015). Натомість «гарантії» (307 млн доларів США), одне з найменших зобов'язань, розподілене на всі шість зазначених періодів часу."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "E1",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_86e5109b28_009",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Який рік закінчення терміну дії має найменшу кількість окремих типів зобов'язань з ненульовим значенням?",
+    "answer": [
+      [
+        "amount of commitment expiration per period 2016"
+      ],
+      [
+        "amount of commitment expiration per period 2017"
+      ],
+      [
+        "amount of commitment expiration per period after 2017"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_010",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "open_ended_reasoning",
+    "question": "Визначте рік, загальна сума якого є значним викидом порівняно з іншими періодами, та обґрунтуйте свою відповідь.",
+    "answer": [
+      [
+        "2015 рік є очевидним викидом із загальною сумою погашення 1812 мільйонів доларів. Ця цифра надзвичайно висока, більш ніж у 2,8 рази перевищує наступну найбільшу річну суму (632 мільйони доларів у 2013 році) і значно більша за всі інші періоди, які коливаються від 10 мільйонів до 215 мільйонів доларів."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "H5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_86e5109b28_011",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Які загальні комерційні зобов'язання з 2013 по 2017 рік?",
+    "answer": [
+      [
+        "2,699"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

@@ -1,0 +1,288 @@
+[
+  {
+    "question_id": "finqa_3c9d56f213_001",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Care este totalul de MW brut generați de toate proiectele alimentate cu vânt listate în tabel?",
+    "answer": [
+      [
+        "311"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "C6",
+      "D6",
+      "C7",
+      "D7",
+      "C8",
+      "D8",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_002",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Ce tip de combustibil, Cărbune sau Hidro, are un debit mediu mai mare în Megawați brute, pe parcursul proiectelor listate?",
+    "answer": [
+      [
+        "Coal"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C5",
+      "D5",
+      "C10",
+      "D10",
+      "C11",
+      "D11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_003",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Enumerați numele tuturor proiectelor situate în China care utilizează o sursă de combustibil regenerabilă (Hidro sau Eolian).",
+    "answer": [
+      [
+        "jhrh ( 1 )"
+      ],
+      [
+        "dong qi ( 3 )"
+      ],
+      [
+        "huanghua ii ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_004",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Care este Megawattul brut efectiv atribuit AES pentru proiectul cu cel mai mare Megawatt brut situat în Chile?",
+    "answer": [
+      [
+        "193.12"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_005",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Ce procent din MW-ul brut total din toate proiectele este contribuit de proiectele în care AES are un interes de capital de 100%?",
+    "answer": [
+      [
+        "54.43%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D10",
+      "D11"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_006",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifică proiectul cu cel mai anormal randament brut în MW și explică de ce se distinge față de toate celelalte proiecte din setul de date.",
+    "answer": [
+      [
+        "Proiectul 'ballylumford' este cel mai semnificativ factor de diferențiere. Puterea sa brută în MW de 1246 este de peste trei ori mai mare decât a următorului proiect ca mărime, 'jhrh' (379 MW) și de peste 25 de ori mai mare decât media brută în MW a întregului set de date (49 MW). Această diferență vastă de magnitudine face ca capacitatea sa de generare de energie să fie anormală în comparație cu oricare alt proiect listat."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_007",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Dacă interesul AES în toate proiectele din Turcia s-ar dubla față de nivelul actual, care ar fi noul total efectiv de Megawați brut din Turcia, atribuit AES?",
+    "answer": [
+      [
+        "44.88"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "D10",
+      "E10",
+      "B11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_008",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "Pe baza datelor, există o corelație observabilă între Megawatt-ii brute ai unui proiect și nivelul de interes de capital propriu al AES? Explicați raționamentul.",
+    "answer": [
+      [
+        "Nu există o corelație clară sau consecventă între Megawatt-ii brute ai unui proiect și interesul de capital propriu al AES. De exemplu, proiectul cu cei mai mulți Megawatt-ii brute ('ballylumford', 1246 MW) are un interes de 100%, dar al doilea cel mai mare ('jhrh', 379 MW) are un interes scăzut de 35%. Invers, un proiect cu MW foarte scăzut ('north rhins', 22 MW) are, de asemenea, un interes de 100%. Distribuția largă a participațiilor de capital propriu la diferite dimensiuni ale proiectelor sugerează că scara proiectului nu determină direct nivelul investiției AES."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D6",
+      "E6",
+      "D7",
+      "E7",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D10",
+      "E10",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_009",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "Coloana 'aes equity interest ( percent rounded )' conține informații redundante. Descrieți modelul acestei redundanțe.",
+    "answer": [
+      [
+        "Coloana prezintă un model constant de redundanță, unde fiecare celulă conține o valoare procentuală urmată de aceeași valoare repetată între paranteze, cum ar fi '71% ( 71 % )'. Informația din interiorul parantezelor este o duplicare directă a informației care o precede."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_010",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Ce țară are cea mai mică valoare combinată efectivă de Megawați brut (Gross MW) atribuită AES, luând în considerare doar țările cu multiple proiecte listate în tabel?",
+    "answer": [
+      [
+        "Turkey"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2",
+      "E2",
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "D5",
+      "E5",
+      "B6",
+      "D6",
+      "E6",
+      "B7",
+      "D7",
+      "E7",
+      "B10",
+      "D10",
+      "E10",
+      "B11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_011",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Câte proiecte folosesc energia eoliană ca principal combustibil?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

@@ -1,0 +1,253 @@
+[
+  {
+    "question_id": "finqa_7d819ab37b_001",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "Qual categoria de despesa, excluindo totais, experimentou a maior diminuição percentual do ano encerrado em dezembro de 2010 para o ano encerrado em dezembro de 2012?",
+    "answer": [
+      [
+        "occupancy"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A3",
+      "B3",
+      "D3",
+      "A4",
+      "B4",
+      "D4",
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6",
+      "A7",
+      "B7",
+      "D7",
+      "A8",
+      "B8",
+      "D8",
+      "A9",
+      "B9",
+      "D9",
+      "A10",
+      "B10",
+      "D10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_002",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "Qual foi a média de 'total operating expenses' nas três anos fornecidas na tabela, em milhões de dólares?",
+    "answer": [
+      [
+        "$ 23955.67"
+      ]
+    ],
+    "evidence_cells": [
+      "B12",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_003",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "Para o ano com o maior número de funcionários no final do período, qual foi a despesa de remuneração e benefícios por funcionário, em milhões de dólares?",
+    "answer": [
+      [
+        "$ 0.4307 million"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "B13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_004",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "open_ended_reasoning",
+    "question": "Descreva a tendência de 'despesas totais não relacionadas à remuneração' de 2010 a 2012 e infira uma razão potencial para essa tendência com base em outros dados da tabela.",
+    "answer": [
+      [
+        "As 'despesas totais não relacionadas à remuneração' mostram uma tendência de declínio leve, porém consistente, de US$ 10.428 milhões em 2010 para US$ 10.419 milhões em 2011, e depois para US$ 10.012 milhões em 2012. Essa tendência se correlaciona com a diminuição constante de 'total de pessoal no final do período' no mesmo período, sugerindo que uma redução na força de trabalho pode ter levado a custos não relacionados à remuneração menores, como as despesas de 'ocupação', que também diminuíram significativamente."
+      ]
+    ],
+    "evidence_cells": [
+      "B11",
+      "C11",
+      "D11",
+      "B13",
+      "C13",
+      "D13",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_005",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "Liste todas as categorias de despesas (excluindo totais) onde a despesa em 2012 foi maior que a despesa em 2011.",
+    "answer": [
+      [
+        "compensation and benefits"
+      ],
+      [
+        "insurance reserves1"
+      ],
+      [
+        "other expenses"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7",
+      "A8",
+      "B8",
+      "C8",
+      "A9",
+      "B9",
+      "C9",
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_006",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "Qual a proporção das 'despesas operacionais totais' em 2010 foi atribuída a 'compensação e benefícios'?",
+    "answer": [
+      [
+        "58.54%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_007",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "Se as 'outras despesas' em 2012 tivessem sido 20% menores, quais teriam sido as novas 'despesas operacionais totais' para esse ano, assumindo que todos os outros valores permaneceram constantes?",
+    "answer": [
+      [
+        "$ 22469"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "B12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_008",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "open_ended_reasoning",
+    "question": "Existe uma correlação perceptível entre o 'total de funcionários no final do período' e as despesas de 'ocupação' de 2010 a 2012? Explique seu raciocínio.",
+    "answer": [
+      [
+        "Sim, há uma forte correlação positiva. À medida que o 'total de funcionários no final do período' diminuiu constantemente de 35.700 em 2010 para 32.400 em 2012, as despesas de 'ocupação' também registraram um declínio consistente e significativo de US$ 1.086 milhões para US$ 875 milhões no mesmo período. Isso sugere que uma força de trabalho menor exigiu menos espaço de escritório ou levou à consolidação de instalações, reduzindo assim os custos de ocupação."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "B13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_009",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "Qual linha na tabela contém valores numéricos para 2011 e 2012 que são inconsistentes com o formato monetário ('$ X') usado para a maioria dos outros itens de despesa?",
+    "answer": [
+      [
+        "u.k . bank payrolltax"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_010",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "Identifique a categoria de despesa que foi o outlier mais significativo em 2010, onde seu valor foi drasticamente maior do que nos dois anos subsequentes.",
+    "answer": [
+      [
+        "compensation and benefits"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_011",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "Em que ano as reservas de seguro foram as mais altas?",
+    "answer": [
+      [
+        "2012"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

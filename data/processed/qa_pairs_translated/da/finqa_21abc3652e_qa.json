@@ -1,0 +1,232 @@
+[
+  {
+    "question_id": "finqa_21abc3652e_001",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Eksklusive 'total commercialcommitments', hvilken forpligtelse har den største samlede værdi?",
+    "answer": [
+      [
+        "credit facilities [a]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_002",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Hvad er summen af alle kommercielle forpligtelser, i millioner, som udløber i årene 2015 og 2016 tilsammen?",
+    "answer": [
+      [
+        "78"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_21abc3652e_003",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Angiv årstallet og det tilsvarende facilitetsnavn for hver instans, hvor en enkelt facilitet udgør mere end 98 % af det pågældende års samlede udløb.",
+    "answer": [
+      [
+        "2017",
+        "receivables securitization facility [b]"
+      ],
+      [
+        "2019",
+        "credit facilities [a]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "G5",
+      "A2",
+      "E2",
+      "E5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_004",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv tendensen for samlede forpligtelsesudløb fra 2015 til 2019.",
+    "answer": [
+      [
+        "Tendensen er meget volatil og viser intet stabilt mønster. Den begynder på 46 millioner dollars i 2015, falder til 32 millioner dollars i 2016, og stiger derefter til et højdepunkt på 660 millioner dollars i 2017. Den falder derefter til kun 11 millioner dollars i 2018, før den stiger til sit højeste punkt på 1708 millioner dollars i 2019. Mønsteret er præget af ekstreme udsving snarere end en ensartet vækst eller fald."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_005",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Identificer alle engagementstyper, der har et udløbsbeløb større end nul i både 2016 og 2019.",
+    "answer": [
+      [
+        "guarantees [c]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "G1",
+      "A2",
+      "D2",
+      "G2",
+      "A3",
+      "D3",
+      "G3",
+      "A4",
+      "D4",
+      "G4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_006",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Hvilken procentdel af den samlede forpligtelse for 'garantier [c]' udløber efter 2019?",
+    "answer": [
+      [
+        "18.29%"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "H3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_21abc3652e_007",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Hvis forpligtelsen 'credit facilities [a]' var 50 % lavere, hvad ville den nye værdi for 'total commercialcommitments' så være?",
+    "answer": [
+      [
+        "$ 1622"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_008",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "open_ended_reasoning",
+    "question": "Baseret på de leverede data, hvilken sammenhæng kan udledes mellem det samlede beløb for en specifik forpligtelse og tidsfordelingen af dens udløb?",
+    "answer": [
+      [
+        "En omvendt sammenhæng ser ud til at eksistere. De to største forpligtelser ('kreditfaciliteter' til $ 1700 mio. og 'fordringspartnerskab' til $ 650 mio.) udløber i én stor sum i et specifikt år. I modsætning hertil har de mindre forpligtelser ('garantier' og 'standby remburs' ) deres udløbsbeløb fordelt over flere perioder."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "G1",
+      "A2",
+      "B2",
+      "E2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_21abc3652e_009",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Hvilken årsspecifik kolonne (2015-2019) har det laveste antal individuelle forpligtelser med en udløbsværdi større end nul?",
+    "answer": [
+      [
+        "amount of commitment expiration per period 2018"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_010",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Når vi ser på rækken 'total commercialcommitments', hvilken års udløbsbeløb er den mest markante outlier sammenlignet med medianen for perioden fra 2015 til efter 2019?",
+    "answer": [
+      [
+        "2019"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "H5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_21abc3652e_011",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Hvad er de samlede kommercielle forpligtelser (i millioner) i perioden 2015-2019?",
+    "answer": [
+      [
+        "2457"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

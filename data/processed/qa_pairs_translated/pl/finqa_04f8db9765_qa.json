@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_04f8db9765_001",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "open_ended_reasoning",
+    "question": "Opisz trend 'straty netto zgodnie z raportem' od roku 2000 do 2002.",
+    "answer": [
+      [
+        "Wykres 'straty netto zgodnie z raportem' pokazuje trend przyspieszających strat w ciągu trzyletniego okresu. Strata ponad dwukrotnie wzrosła z 194 628 USD w 2000 roku do 450 094 USD w 2001 roku, a następnie ponad dwukrotnie wzrosła ponownie do 1 141 879 USD w 2002 roku, wskazując na znaczące pogorszenie wyników finansowych każdego roku."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_002",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Jaka była łączna strata „netto pro-forma” skumulowana we wszystkich trzech latach przedstawionych w tabeli?",
+    "answer": [
+      [
+        "-1926453"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_04f8db9765_003",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "W którym roku bezwzględna różnica między stratą na akcję (podstawową i rozwodnioną) 'jak podano' a stratą 'pro-forma' była najmniejsza?",
+    "answer": [
+      [
+        "2002"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_004",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Oblicz 'całkowity koszt wynagrodzenia pracowniczego w postaci akcji' jako procent 'straty netto zgodnie z raportem' za rok 2001.",
+    "answer": [
+      [
+        "11.23%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_04f8db9765_005",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Który rok, jeśli w ogóle, miał bezwzględną 'strata netto zgodnie z raportem' większą niż 400 000 USD, ale bezwzględną 'strata netto pro-forma' mniejszą niż 600 000 USD?",
+    "answer": [
+      [
+        "2001"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3",
+      "C1",
+      "C3",
+      "D1",
+      "D3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_006",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "W którym roku strata pro-forma wzrosła o największą kwotę bezwzględną w porównaniu do roku poprzedniego?",
+    "answer": [
+      [
+        "2002"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_04f8db9765_007",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Gdyby 'łączny koszt wynagrodzeń pracowników oparty na akcjach' za rok 2000 był o 20% wyższy, jaki byłby 'pro-forma strata netto' za ten rok?",
+    "answer": [
+      [
+        "-256041.2"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_008",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Która metryka miała większą wartość bezwzględną w 2002 roku: 'strata netto wg sprawozdania' czy 'strata netto skorygowana (pro-forma)'?",
+    "answer": [
+      [
+        "pro-forma net loss"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_009",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "open_ended_reasoning",
+    "question": "Opierając się na dostarczonych danych, jaki jest widoczny związek między \"strata netto zgodnie z raportem\" a \"całkowitym kosztem wynagrodzeń pracowniczych w formie akcji\" w ciągu trzyletniego okresu?",
+    "answer": [
+      [
+        "Istnieje odwrotna zależność między tymi dwiema metrykami. Ponieważ \"strata netto zgodnie z raportem\" znacząco wzrosła pod względem wielkości od 2000 do 2002 roku, \"całkowity koszt wynagrodzeń pracowniczych w formie akcji\" malał każdego roku. Sugeruje to, że w miarę wzrostu strat firmy mogła ona zmniejszyć wynagrodzenia w formie akcji."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "C1",
+      "C2",
+      "D1",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_04f8db9765_010",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "open_ended_reasoning",
+    "question": "Jaki jest spójny wpływ korekty 'pro-forma' na 'strata netto na akcję podstawową i rozwodnioną' w porównaniu do figury 'zgodnie z raportem' we wszystkich latach?",
+    "answer": [
+      [
+        "Korekta 'pro-forma' konsekwentnie zwiększa wielkość straty na akcję w każdym przedstawionym roku. Wskazuje to, że uwzględnione pozycje, takie jak wynagrodzenia akcyjne, zawsze skutkują większą obliczoną stratą na akcję."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_011",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Jaka jest łączna strata zgłoszona w 2001 roku?",
+    "answer": [
+      [
+        "$ -450094 ( 450094 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

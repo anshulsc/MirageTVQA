@@ -1,0 +1,258 @@
+[
+  {
+    "question_id": "finqa_7029f59db3_001",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Ce tip de reactor are o capacitate medie mai mare și care este acea capacitate medie în MW?",
+    "answer": [
+      [
+        "Pressurized Water",
+        "960"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_002",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Care este capacitatea totală combinată (în MW) a tuturor centralelor electrice situate în statul New York (NY)?",
+    "answer": [
+      [
+        "2907"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "F2",
+      "E3",
+      "F3",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7029f59db3_003",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Care este data de expirare a licenței pentru centrala din piața 'nyiso' care este în funcțiune de cel mai mult timp?",
+    "answer": [
+      [
+        "2013 ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B2",
+      "B3",
+      "B4",
+      "C2",
+      "C3",
+      "C4",
+      "G4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_004",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Calculați numărul mediu de ani între 'anul de punere în funcțiune' și 'data de expirare a licenței' pentru toate centralele achiziționate după anul 2000.",
+    "answer": [
+      [
+        "52.25"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "G4",
+      "C5",
+      "D5",
+      "G5",
+      "C6",
+      "D6",
+      "G6",
+      "C3",
+      "D3",
+      "G3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_005",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Enumerați numele tuturor centralelor electrice care nu se află pe piața 'nyiso' și au o capacitate mai mare de 700 MW.",
+    "answer": [
+      [
+        "palisades ( e )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "F1",
+      "A5",
+      "B5",
+      "F5",
+      "A6",
+      "B6",
+      "F6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_006",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Ce proporție din capacitatea totală a tuturor centralelor enumerate este contribuită de centralele cu reactoare cu apă fiartă? Exprimați răspunsul ca procent, rotunjit la două zecimale.",
+    "answer": [
+      [
+        "42.53%"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7029f59db3_007",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Dacă capacitatea tuturor reactoarelor de tip 'apă presurizată' ar fi mărită cu 10%, care ar fi noua capacitate totală pentru centrala 'indian point 3 ( c )'?",
+    "answer": [
+      [
+        "1145.1 mw"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "F3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_008",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "open_ended_reasoning",
+    "question": "Analizați relația dintre anul în care a fost achiziționată o centrală și durata sa operațională licențiată (anul expirării licenței minus anul intrării în funcțiune). Există un model discernământ?",
+    "answer": [
+      [
+        "Nu există o corelație clară între anul achiziției și durata operațională licențiată. Duratele sunt: Pilgrim (achiziționat 1999) - 60 de ani, FitzPatrick (2000) - 59 de ani, Indian Point 3 (2000) - 39 de ani, Indian Point 2 (2001) - 39 de ani, Vermont Yankee (2002) - 60 de ani și Palisades (2007) - 60 de ani. Centralele achiziționate mai recent (de ex., Palisades în 2007) au durate lungi (60 de ani), în timp ce altele achiziționate mai devreme (de ex., centralele Indian Point în 2000/2001) au durate mult mai scurte (39 de ani). Durata pare să fie independentă de data achiziției."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "G1",
+      "C2",
+      "D2",
+      "G2",
+      "C3",
+      "D3",
+      "G3",
+      "C4",
+      "D4",
+      "G4",
+      "C5",
+      "D5",
+      "G5",
+      "C6",
+      "D6",
+      "G6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7029f59db3_009",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Ce centrală electrică are un 'an de punere în funcțiune' care reprezintă cel mai mare element atipic comparativ cu media anilor de punere în funcțiune a altor centrale din aceeași locație?",
+    "answer": [
+      [
+        "fitzpatrick ( b )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "A3",
+      "C3",
+      "E3",
+      "A4",
+      "C4",
+      "E4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7029f59db3_010",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Excluzând coloana 'capacity - reactor type', care două coloane din setul de date conțin calificative între paranteze în intrările lor de date, sugerând că ar putea face legătura cu note de subsol sau detalii suplimentare care nu sunt prezente în tabel?",
+    "answer": [
+      [
+        "power plant",
+        "license expiration date"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_011",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Ce centrală electrică a fost achiziționată cel mai recent?",
+    "answer": [
+      [
+        "Palisades"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  }
+]

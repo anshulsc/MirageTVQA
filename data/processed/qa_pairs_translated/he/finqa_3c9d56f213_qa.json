@@ -1,0 +1,288 @@
+[
+  {
+    "question_id": "finqa_3c9d56f213_001",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "מהו סך כל ה-MW הגולמיים המיוצרים על ידי כל הפרויקטים המופעלים באמצעות רוח המפורטים בטבלה?",
+    "answer": [
+      [
+        "311"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "C6",
+      "D6",
+      "C7",
+      "D7",
+      "C8",
+      "D8",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_002",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "איזה סוג דלק, פחם או הידרו, מציג תפוקת MW גולמית ממוצעת גבוהה יותר בפרויקטים המפורטים?",
+    "answer": [
+      [
+        "Coal"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C5",
+      "D5",
+      "C10",
+      "D10",
+      "C11",
+      "D11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_003",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "פרט את שמות כל הפרויקטים הממוקמים בסין המשתמשים במקור דלק מתחדש (הידרו או רוח).",
+    "answer": [
+      [
+        "jhrh ( 1 )"
+      ],
+      [
+        "dong qi ( 3 )"
+      ],
+      [
+        "huanghua ii ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_004",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "מהו ה-Gross MW האפקטיבי המיוחס ל-AES עבור הפרויקט עם ה-Gross MW הגבוה ביותר הממוקם בצ'ילה?",
+    "answer": [
+      [
+        "193.12"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_005",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "איזה אחוז מסך ה-Gross MW מכל הפרויקטים נתרם על ידי פרויקטים שבהם ל-AES יש 100% בעלות?",
+    "answer": [
+      [
+        "54.43%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D10",
+      "D11"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_006",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "זהה את הפרויקט עם תפוקת ה-Gross MW החריגה ביותר והסבר מדוע הוא בולט מכל שאר הפרויקטים במאגר הנתונים.",
+    "answer": [
+      [
+        "פרויקט 'ballylumford' הוא החריג המשמעותי ביותר. ה-Gross MW שלו של 1246 גדול פי שלושה מהפרויקט הגדול הבא, 'jhrh' (379 MW), ולמעלה מפי 25 מה-Gross MW החציון של כל מאגר הנתונים (49 MW). הבדל עצום זה בעוצמה הופך את קיבולת ייצור החשמל שלו לחריגה בהשוואה לכל פרויקט אחר ברשימה."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_007",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "אם התעניינות ההון של AES בכל הפרויקטים הטורקיים תוכפל מרמתה הנוכחית, מה יהיה סך ה-Gross MW האפקטיבי החדש מטורקיה המיוחס ל-AES?",
+    "answer": [
+      [
+        "44.88"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "D10",
+      "E10",
+      "B11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_008",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "בהתבסס על הנתונים, האם קיימת קורלציה נצפית בין ה-MW הגולמי של פרויקט לבין רמת ההחזקה של AES? הסבירו את הנימוק שלכם.",
+    "answer": [
+      [
+        "אין קורלציה ברורה או עקבית בין ה-MW הגולמי של פרויקט לבין ההחזקה של AES. לדוגמה, לפרויקט עם ה-MW הגולמי הגבוה ביותר ('ballylumford', 1246 MW) יש 100% החזקה, אך לפרויקט השני בגודלו ('jhrh', 379 MW) יש החזקה נמוכה של 35%. לעומת זאת, לפרויקט בעל MW נמוך מאוד ('north rhins', 22 MW) יש גם 100% החזקה. הפיזור הרחב של נתחי ההחזקה בין גדלי פרויקטים שונים מרמז שקנה המידה של הפרויקט אינו קובע ישירות את רמת ההשקעה של AES."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D6",
+      "E6",
+      "D7",
+      "E7",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D10",
+      "E10",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_009",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "עמודת 'aes equity interest ( percent rounded )' מכילה מידע כפול. תאר את הדפוס של כפילות זו.",
+    "answer": [
+      [
+        "העמודה מציגה דפוס עקבי של כפילות, כאשר כל תא מכיל ערך באחוזים ואחריו אותו ערך בדיוק חוזר בסוגריים, למשל '71% ( 71 % )'. המידע שבתוך הסוגריים הוא כפילות ישירה של המידע שלפניו."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_010",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "באיזו מדינה יש את הסכום הנמוך ביותר של מגה-וואט ברוטו אפקטיבי המיוחס ל-AES, בהתחשב רק במדינות עם מספר פרויקטים הרשומים בטבלה?",
+    "answer": [
+      [
+        "Turkey"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2",
+      "E2",
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "D5",
+      "E5",
+      "B6",
+      "D6",
+      "E6",
+      "B7",
+      "D7",
+      "E7",
+      "B10",
+      "D10",
+      "E10",
+      "B11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_011",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "כמה פרויקטים משתמשים ברוח כדלק העיקרי שלהם?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

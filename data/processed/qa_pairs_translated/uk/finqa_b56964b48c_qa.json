@@ -1,0 +1,256 @@
+[
+  {
+    "question_id": "finqa_b56964b48c_001",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "Яка з двох статей, пов'язаних із пільгами, «зобов'язання щодо виплат після виходу на пенсію» чи «пенсійні та інші балансові рахунки виплат після виходу на пенсію», мала вищу вартість у 2018 році?",
+    "answer": [
+      [
+        "postretirement benefit liability"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_b56964b48c_002",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "Якою була загальна вартість усіх зобов'язань у 2017 році, виключаючи \"резерв за законом TCJA щодо доходів\" та \"стягнуті через тарифи податки на прибуток\"?",
+    "answer": [
+      [
+        "422"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_b56964b48c_003",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "Визначте статтю, яка мала найбільше відсоткове зростання з 2017 по 2018 рік, та вкажіть це відсоткове зростання, округлене до двох знаків після коми.",
+    "answer": [
+      [
+        "postretirement benefit liability",
+        "533.33%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_b56964b48c_004",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "Який пункт зобов'язань продемонстрував найбільшу стабільність, що визначається як найменша абсолютна відсоткова зміна, між 2017 та 2018 роками?",
+    "answer": [
+      [
+        "removal costs recovered through rates"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_b56964b48c_005",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "Перелічіть усі категорії зобов'язань, де вартість зменшилася з 2017 по 2018 рік.",
+    "answer": [
+      [
+        "removal costs recovered through rates"
+      ],
+      [
+        "pension and other postretirement benefit balancing accounts"
+      ],
+      [
+        "tcja reserve on revenue"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_b56964b48c_006",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "Який відсоток від «загальних регуляторних зобов'язань» у 2018 році був віднесений до «відшкодованих через тарифи податків на прибуток»? Округлити до найближчого цілого відсотка.",
+    "answer": [
+      [
+        "67%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_b56964b48c_007",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "Якби «резерв щодо доходу TCJA» не змінився порівняно зі значенням 2017 року, якою була б розрахункова сума окремих зобов'язань за 2018 рік?",
+    "answer": [
+      [
+        "$ 3885"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_b56964b48c_008",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "open_ended_reasoning",
+    "question": "Виходячи з наданих даних, яке висновки можна зробити щодо фінансового впливу TCJA (Закону про податки та робочі місця) на зобов'язання компанії між 2017 та 2018 роками?",
+    "answer": [
+      [
+        "Дані свідчать про те, що TCJA мав значний, але, ймовірно, одноразовий фінансовий вплив. 'Резерв TCJA щодо доходів' зазнав різкого скорочення більш ніж на 98% з 2014 доларів у 2017 році до 36 доларів у 2018 році. Це свідчить про те, що великий резерв, створений у 2017 році, ймовірно, збігаючись із прийняттям закону, був суттєво врегульований, використаний або переоцінений наступного року, що призвело до значно менших зобов'язань у цій конкретній категорії за 2018 рік."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_b56964b48c_009",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "Визначте розбіжність між сумою окремих статей зобов'язань за 2017 рік (рядки 1-6), отриманою шляхом ручного додавання, та наданим значенням \"загальні регуляторні зобов'язання\" за цей рік.",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_b56964b48c_010",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "Який пункт списку представляє фінансовий виняток через найбільшу абсолютну зміну значення між 2017 та 2018 роками?",
+    "answer": [
+      [
+        "tcja reserve on revenue"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_b56964b48c_011",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "На скільки зросли податки на прибуток, відшкодовані за тарифами, з 2017 по 2018 рік?",
+    "answer": [
+      [
+        "$37 million"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

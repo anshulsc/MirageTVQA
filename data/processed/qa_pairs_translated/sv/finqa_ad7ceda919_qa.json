@@ -1,0 +1,271 @@
+[
+  {
+    "question_id": "finqa_ad7ceda919_001",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "value",
+    "question": "Bland de individuella förmånstagarna som listas (från steven p. jobs till jerome b. york), vem innehar flest aktier i stamaktier?",
+    "answer": [
+      [
+        "steven p . jobs"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A8",
+      "B8",
+      "A9",
+      "B9",
+      "A10",
+      "B10",
+      "A11",
+      "B11",
+      "A12",
+      "B12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_002",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "value",
+    "question": "Vad är det totala antalet aktier som ägs av de tre individerna med minst antal aktier listade i tabellen?",
+    "answer": [
+      [
+        "40484"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B10",
+      "B11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_003",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "value",
+    "question": "Hur många fler aktier äger Fidelity Investments jämfört med den kombinerade totalen för 'alla nuvarande verkställande direktörer och styrelseledamöter som en grupp'?",
+    "answer": [
+      [
+        "48231474"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B13"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_004",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "value",
+    "question": "Lista namnen på alla individuella förmånstagare som äger mer än 250 000 men färre än 400 000 aktier.",
+    "answer": [
+      [
+        "tony fadell"
+      ],
+      [
+        "arthur d . levinson"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_005",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "value",
+    "question": "Vilken procentandel av de totala aktierna som innehas av 'alla nuvarande verkställande direktörer och styrelseledamöter som grupp' ägs av Ronald B. Johnson?",
+    "answer": [
+      [
+        "17.37%"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "B13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_006",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "value",
+    "question": "Om Millard S. Drexler förvärvade tillräckligt många ytterligare aktier för att öka sitt innehav med 15 %, vad skulle hans nya totala antal aktier vara?",
+    "answer": [
+      [
+        "264500"
+      ]
+    ],
+    "evidence_cells": [
+      "B5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_007",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "open_ended_reasoning",
+    "question": "Baserat på datan, vad är det uppenbara sambandet mellan typen av förmånstagare (individuell vs. institutionell/grupp) och informationen som ges i kolumnen 'procent av utestående stamaktier'?",
+    "answer": [
+      [
+        "Det finns ett tydligt mönster där stora institutionella innehavare (Fidelity Investments) och samlade grupper ('alla nuvarande verkställande direktörer...') har en specifik procentandel av utestående aktier angiven. I motsats till detta har varje enskild ägare en asterisk ('*') i denna kolumn. Detta tyder på att de individuella innehaven alla ligger under en viss rapporteringströskel för procentuell upplysning, medan de större enheternas innehav är tillräckligt betydande för att motivera specifik procentuell rapportering."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6",
+      "A7",
+      "D7",
+      "A8",
+      "D8",
+      "A9",
+      "D9",
+      "A10",
+      "D10",
+      "A11",
+      "D11",
+      "A12",
+      "D12",
+      "A13",
+      "D13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_008",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "open_ended_reasoning",
+    "question": "Vilken förmånstagares aktieinnehav är den mest betydande avvikelsen jämfört med de andra individuella ägarna (rader 2-12)? Motivera ditt svar.",
+    "answer": [
+      [
+        "Steven P. Jobs är den mest betydande avvikelsen. Medianantalet aktier för en individ på denna lista (rader 2-12) är 112 900. Steven P. Jobs innehav på 5 546 451 aktier är nästan 50 gånger större än medianen och över 3,8 gånger större än nästa högsta individuella aktieägare (Ronald B. Johnson), vilket gör det till en tydlig avvikelse."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_009",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "value",
+    "question": "Med undantag för rubriker, vilken kolumn efter position (1, 2, 3 eller 4) används främst för fotnoter eller anmärkningar snarare än primära datavärden?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11",
+      "C12",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_010",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "open_ended_reasoning",
+    "question": "Beräkna det genomsnittliga antalet aktier som innehas per person inom gruppen 'alla nuvarande verkställande direktörer och styrelseledamöter'. Hur jämför sig Arthur D. Levinsons innehav med detta genomsnitt?",
+    "answer": [
+      [
+        "Det genomsnittliga antalet aktier per person i gruppen är cirka 596 600 (8 352 396 aktier dividerat med 14 personer). Arthur D. Levinsons innehav på 365 015 aktier är betydligt under detta beräknade genomsnitt med över 230 000 aktier."
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "B9",
+      "A13",
+      "B13"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_011",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "value",
+    "question": "Vilken verklig huvudman äger flest aktier i stamaktier?",
+    "answer": [
+      [
+        "Fidelity Investments"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A8",
+      "B8",
+      "A9",
+      "B9",
+      "A10",
+      "B10",
+      "A11",
+      "B11",
+      "A12",
+      "B12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

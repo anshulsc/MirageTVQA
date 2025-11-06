@@ -1,0 +1,201 @@
+[
+  {
+    "question_id": "finqa_044a2c2f0f_001",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "value",
+    "question": "Hva var det samlede beløpet (i millioner) for 'aksjebasert kompensasjon' og 'omstruktureringsnedskrivninger og andre avslutningskostnader' for regnskapsåret 2018?",
+    "answer": [
+      [
+        "203.0"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_002",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "value",
+    "question": "Hva var verdien for 'utsatt inntektsskatt' i regnskapsåret som hadde høyest 'nettoinntekt inkludert inntekt som kan tilskrives innløsbare og ikke-kontrollerende andeler'?",
+    "answer": [
+      [
+        "-504.3"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_003",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "open_ended_reasoning",
+    "question": "Hva hadde en større endring fra år til år i absolutte tall: endringen i 'nettoinntekt' fra 2017 til 2018, eller endringen i 'netto kontantstrøm fra operasjonelle aktiviteter' fra 2016 til 2017?",
+    "answer": [
+      [
+        "Endringen i 'nettoinntekt' fra 2017 til 2018"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_004",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv treårstrenden for 'pensjons- og andre etteroppgjørskostnader for pensjonsordninger' fra regnskapsårene 2016 til 2018.",
+    "answer": [
+      [
+        "Kostnadene for 'pensjons- og andre etteroppgjørskostnader for pensjonsordninger' viser en jevn og betydelig fallende trend over treårsperioden. Kostnadene falt fra 118,1 millioner dollar i 2016 til 35,7 millioner dollar i 2017, og falt deretter skarpt igjen til bare 4,6 millioner dollar i 2018."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_005",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "value",
+    "question": "I regnskapsåret 2018, hvilken prosentandel av 'netto kontantstrøm fra operasjonelle aktiviteter' ble representert av 'nettoinntekter, inkludert inntekter som kan tilskrives konvertible og ikke-kontrollerende interesser'? Rund av til én desimal.",
+    "answer": [
+      [
+        "76.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_006",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "value",
+    "question": "List de finansielle kategoriene som hadde en positiv verdi i regnskapsåret 2017, men som ble en negativ verdi i regnskapsåret 2018.",
+    "answer": [
+      [
+        "deferred income taxes"
+      ],
+      [
+        "pension and other postretirement benefit plan costs"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_007",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifiser det finansielle posten som viser den mest uvanlige oppførselen i regnskapsåret 2018 sammenlignet med de to foregående årene, og forklar hvorfor den er en avvik.",
+    "answer": [
+      [
+        "'utsatt skatt' er den mest signifikante avviker. I regnskapsårene 2016 og 2017 var det en positiv inntekt på henholdsvis $ 120,6 millioner og $ 183,9 millioner. I 2018 snudde det imidlertid dramatisk til en negativ verdi på -504,3 millioner dollar. Denne svingningen på nesten $ 700 millioner fra året før, som gikk fra en positiv til en stor negativ, er langt mer ekstrem enn svingningene som sees i noen annen kategori."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_008",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "value",
+    "question": "Hvis 'tap (gevinst) ved frasalg' for regnskapsåret 2018 hadde vært en gevinst på 50,0 millioner dollar i stedet for null ('-'), hva ville 'netto kontantstrøm fra operasjonelle aktiviteter' ha vært for det året, forutsatt at alle andre tall forble uendret?",
+    "answer": [
+      [
+        "$ 2891.0"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "B13"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_009",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "value",
+    "question": "Hvilken finansiell kategori er den eneste som inneholder en ikke-numerisk, ikke-monetær verdi i en av kolonnene for regnskapsåret?",
+    "answer": [
+      [
+        "divestitures loss ( gain )"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_010",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "open_ended_reasoning",
+    "question": "Basert på de oppgitte dataene, er det en observerbar korrelasjon mellom 'nettoinntekt' og 'netto kontantstrøm fra operasjonelle aktiviteter' over de tre regnskapsårene? Forklar begrunnelsen din.",
+    "answer": [
+      [
+        "Ja, det er en observerbar positiv korrelasjon. Fra 2016 til 2017 falt 'nettoinntekt' fra 1736,8 millioner dollar til 1701,1 millioner dollar, og tilsvarende falt også 'netto kontantstrøm fra operasjonelle aktiviteter' fra 2764,2 millioner dollar til 2415,2 millioner dollar. Fra 2017 til 2018 økte 'nettoinntekt' betydelig til 2163,0 millioner dollar, og 'netto kontantstrøm' steg også til 2841,0 millioner dollar. I begge tilfeller beveget de to tallene seg i samme retning, noe som tyder på at høyere inntekter er assosiert med høyere operasjonell kontantstrøm."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_011",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "value",
+    "question": "I hvilket år registrerte selskapet den minimale aksjebaserte kompensasjonen?",
+    "answer": [
+      [
+        "2018"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

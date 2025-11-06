@@ -1,0 +1,249 @@
+[
+  {
+    "question_id": "finqa_d4ff6b23c2_001",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "2016 yılı için, başlangıç ve bitiş bakiyeleri arasındaki listelenen işlemsel faaliyetlere dayanarak, tanınmamış vergi faydalarındaki toplam net değişimi hesaplayın.",
+    "answer": [
+      [
+        "64"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_002",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "2017 yılında, 2016 yılına kıyasla daha küçük bir mutlak finansal değişimi temsil eden satır kalemleri hangileridir?",
+    "answer": [
+      [
+        "additions for tax positions related to prior years"
+      ],
+      [
+        "reductions for tax positions related to prior years"
+      ],
+      [
+        "reductions for settlements2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_003",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "'31 Aralık 2017'deki bakiye'nin tanınması halinde efektif vergi oranını ETKİLEMEYECEK' yüzdesi nedir?",
+    "answer": [
+      [
+        "5.99%"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_004",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "2017 yılındaki tüm eksiltmelerin toplamı ile 2016 yılındaki tüm eksiltmelerin toplamı arasındaki fark, 2017 yılındaki 'vade sonu nedeniyle eksiltmeler' satırındaki standart olmayan değer hariç tutulduğunda ne kadardır?",
+    "answer": [
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_005",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "2017 yılındaki 'önceki yıllara ait vergi pozisyonlarına ilişkin eklemeler' tutarı 2016 yılındaki tutarla aynı olsaydı, 31 Aralık 2017 tarihindeki 'dengesi' ne kadar olurdu?",
+    "answer": [
+      [
+        "$ 1321"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_006",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Mali büyüklük açısından her iki yıla ait tüm diğer eklemeler ve indirimlerle karşılaştırıldığında 2017 yılından tek bir kalem olarak en önemli aykırı değeri belirleyin.",
+    "answer": [
+      [
+        "additions for tax positions related to current year"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_007",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Mutabakata göre, '31 Aralık 2017 itibarıyla bakiye', başlangıç bakiyesine sonraki eklemeler ve düşüşler eklenerek hesaplanır. 2017 sütunundaki hangi hücre bu hesaplamayla tutarsız ve gereksiz görünen bir değere sahiptir?",
+    "answer": [
+      [
+        "B6"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_008",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "2017 yılındaki, hem eklemeler hem de eksiltmeler dahil olmak üzere, mutlak değeri 15 milyon doların üzerinde olan tüm faaliyetleri listeleyin.",
+    "answer": [
+      [
+        "additions for tax positions related to current year"
+      ],
+      [
+        "additions for tax positions related to prior years"
+      ],
+      [
+        "reductions for tax positions related to prior years"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_009",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "2016 yılı sonundan 2017 yılı sonuna kadar toplam bakiyedeki değişimi analiz edin. Bu değişimin ardındaki temel etkenler nelerdi?",
+    "answer": [
+      [
+        "Tanınmayan vergi faydalarının toplam bakiyesi, 2016 yılı sonunda 1032 milyon dolardan 2017 yılı sonunda 1286 milyon dolara çıkarak 254 milyon dolar arttı. Bu artışın temel nedeni, 2017 yılındaki 'mevcut yıla ait vergi pozisyonlarına eklemeler' için belirtilen 270 milyon dolar oldu; bu rakam, her iki yıldaki diğer tekil ekleme veya indirimlerden önemli ölçüde daha büyüktü. 2017'de toplam 36 milyon dolarlık indirimler yapılmış olsa da, bu indirimler büyük eklemeleri dengelemeye yetmedi."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_010",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "2016 ve 2017 yılları arasındaki tanınmamış vergi faydalarının kompozisyonunda, vergi oranını etkileyecek yıl sonu bakiyesinin oranına göre anlamlı bir değişiklik olduğuna dair bir kanıt var mıdır?",
+    "answer": [
+      [
+        "Kompozisyonda anlamlı bir değişiklik olduğuna dair bir kanıt yoktur. 2016 yılında, vergi oranını etkileyecek kısım, 1032 milyon dolarlık bakiyenin 963 milyon dolarıydı, yani %93,3 idi. 2017'de bu kısım, 1286 milyon dolarlık bakiyenin 1209 milyon dolarıydı, yani %94,0 idi. Oran çok istikrarlı kaldı ve bakiyenin genel artışına rağmen temel vergi pozisyonlarının yıl bazında tutarlı bir kompozisyonunu düşündürüyor."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_011",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "Vergi pozisyonlarının toplam bakiyesi 2016'dan 2017'ye nasıl değişti ve bu değişime hangi faktörler katkıda bulundu?",
+    "answer": [
+      [
+        "Vergi pozisyonlarının toplam bakiyesi 2016'da 1.032 milyon dolardan 2017'de 1.286 milyon dolara yükseldi. Artışın ana nedenleri, cari yıl vergi pozisyonları (+270 milyon $) ve önceki yıl vergi pozisyonları (+20 milyon $) için yapılan eklemelerdir; bu, önceki yıl pozisyonları (-27 milyon $) ve mutabakatlar (-9 milyon $) için yapılan indirimlerle kısmen dengelenmiştir."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

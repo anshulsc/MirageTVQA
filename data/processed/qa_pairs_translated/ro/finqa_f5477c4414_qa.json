@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_f5477c4414_001",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Care a fost totalul pentru 'împrumuturi raportate 2013' pentru anul 2012 (coloana E), dacă este calculat prin însumarea tipurilor de împrumuturi din aceeași coloană?",
+    "answer": [
+      [
+        "1717"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f5477c4414_002",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Ce categorie de împrumuturi, excluzând 'împrumuturi raportate 2013', a înregistrat cea mai mare creștere procentuală a soldului său la 31 decembrie, de la 2012 la 2013?",
+    "answer": [
+      [
+        "loans held-for-sale"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_003",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Care a fost valoarea angajamentelor de creditare la sfârșitul anului, când activele totale legate de creditele de tip wholesale au atins valoarea minimă?",
+    "answer": [
+      [
+        "$ 434814"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_004",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Ce procent din „totalul expunerii la creditul comercial” la data de 31 decembrie 2013 a fost atribuit „angajamentelor de creditare”?",
+    "answer": [
+      [
+        "51.87%"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "B9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f5477c4414_005",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Enumerați toate categoriile de active sau pasive unde valoarea la 31 decembrie 2013 a scăzut comparativ cu 31 decembrie 2012.",
+    "answer": [
+      [
+        "loans at fair value ( a )"
+      ],
+      [
+        "derivative receivables"
+      ],
+      [
+        "liquid securities and other cash collateral held against derivatives"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A11",
+      "B11",
+      "C11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_006",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Dacă valoarea pentru 'creanțe de la clienți și altele ( b )' din coloana '2013' (coloana D) ar fi fost cu 25% mai mare, care ar fi fost noile 'total active legate de credite wholesale' pentru acea coloană?",
+    "answer": [
+      [
+        "1962.5"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "D7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_007",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Identificați elementul financiar (din coloana A) care prezintă cea mai anomală modificare între coloanele '2013' și '2012' (D și E), caracterizată prin cea mai mare diferență absolută.",
+    "answer": [
+      [
+        "loans 2013 reported"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A2",
+      "D2",
+      "E2",
+      "A3",
+      "D3",
+      "E3",
+      "A4",
+      "D4",
+      "E4",
+      "A5",
+      "D5",
+      "E5",
+      "A6",
+      "D6",
+      "E6",
+      "A7",
+      "D7",
+      "E7",
+      "A8",
+      "D8",
+      "E8",
+      "A9",
+      "D9",
+      "E9",
+      "A10",
+      "D10",
+      "E10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f5477c4414_008",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Identificați celula(ele) care conține text non-numeric ('na') care împiedică o sumare directă a coloanelor respective.",
+    "answer": [
+      [
+        "D11"
+      ],
+      [
+        "E11"
+      ]
+    ],
+    "evidence_cells": [
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_009",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "open_ended_reasoning",
+    "question": "Analizați tendința de la sfârșitul anului 2012 până în 2013 pentru 'totalul expunerii totale la credite de tip wholesale' și principalii factori determinanți.",
+    "answer": [
+      [
+        "Expunerea totală la credite de tip wholesale a crescut modest de la 846.628 milioane USD în 2012 la 860.299 milioane USD în 2013. Această creștere a fost determinată în principal de o creștere semnificativă a 'împrumuturilor deținute pentru vânzare' (în creștere cu 156%) și o creștere a 'angajamentelor de creditare' (în creștere cu 2,6%). Cu toate acestea, această creștere a fost parțial compensată de o scădere notabilă de 12,3% a 'creanțelor din instrumente derivate' și o scădere de 21,3% a 'împrumuturilor la valoarea justă', indicând o schimbare în compoziția portofoliului de credite."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B8",
+      "C8",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_010",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "open_ended_reasoning",
+    "question": "Pe baza modificărilor din 2012-2013 în soldurile de la sfârșitul anului, care este relația aparentă între „creanțe din instrumente derivate” și „active totale legate de credite în wholesale”?",
+    "answer": [
+      [
+        "Pare să existe o relație inversă în cadrul acestui set de date limitat. De la sfârșitul anului 2012 la 2013, „creanțele din instrumente derivate” au scăzut de la 74.983 milioane USD la 65.759 milioane USD. Concomitent, „activele totale legate de credite în wholesale” au crescut de la 411.814 milioane USD la 414.067 milioane USD. Acest lucru sugerează că, pe măsură ce valoarea creanțelor din instrumente derivate a scăzut, alte active au crescut pentru a compensa mai mult decât suficient, ducând la o creștere generală a activelor totale. Cu toate acestea, o corelație definitivă nu poate fi stabilită doar din două puncte de date."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f5477c4414_011",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "În ce an este cea mai mare valoare a creditelor reținute?",
+    "answer": [
+      [
+        "2013"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

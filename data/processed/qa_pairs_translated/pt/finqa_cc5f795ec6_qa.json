@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "finqa_cc5f795ec6_001",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Qual atividade teve um impacto negativo maior no 'patrimônio líquido total': 'dividendos' ou 'recompra de ações ordinárias'?",
+    "answer": [
+      [
+        "dividends"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "K4",
+      "A6",
+      "K6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_002",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Qual é a alteração líquida no 'capital integralizado' de todas as atividades listadas entre as datas de balanço de 2011 e 2012?",
+    "answer": [
+      [
+        "590"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D11",
+      "D13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_003",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Qual foi o impacto total no patrimônio líquido da transação que envolveu um aumento de $662 no 'capital integralizado'?",
+    "answer": [
+      [
+        "1147"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "K5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_004",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "open_ended_reasoning",
+    "question": "Analise a variação do 'patrimônio líquido total' de 31 de dezembro de 2011 a 31 de dezembro de 2012 e identifique o principal fator dessa variação.",
+    "answer": [
+      [
+        "O patrimônio líquido total diminuiu de US$ 70.078 para US$ 65.428, uma redução líquida de US$ 4.650. Embora tenha havido vários fatores contribuintes, o principal fator dessa diminuição foi a 'reclassificação para interesses minoritários redimíveis', que por si só representou um impacto negativo de US$ 4.288, respondendo por mais de 92% da redução líquida total."
+      ]
+    ],
+    "evidence_cells": [
+      "K1",
+      "K14",
+      "A12",
+      "K12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_005",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Liste todas as atividades financeiras que resultaram em uma diminuição do 'capital pago' e não afetaram os 'lucros retidos'.",
+    "answer": [
+      [
+        "purchase of additional stake in the wealth management joint venture"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_006",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Qual porcentagem dos 'lucros retidos' iniciais em 31 de dezembro de 2011 foi paga como 'dividendos' durante o período?",
+    "answer": [
+      [
+        "-1.23%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_007",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Se os 'ajustes de tradução de moeda estrangeira' tivessem um impacto neutro (ou seja, zero) no patrimônio líquido total, qual teria sido o saldo final do patrimônio líquido total em 31 de dezembro de 2012?",
+    "answer": [
+      [
+        "65681"
+      ]
+    ],
+    "evidence_cells": [
+      "K9",
+      "K14"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_008",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "open_ended_reasoning",
+    "question": "Com base nos saldos de abertura e fecho, e na linha de transações para 'ações emitidas sob planos de funcionários', qual é a relação entre 'trust de ações para funcionários' e 'ações ordinárias emitidas para o trust de funcionários'?",
+    "answer": [
+      [
+        "Existe uma relação inversa consistente. O valor na coluna 'ações ordinárias emitidas para o trust de funcionários' é sempre o negativo exato do valor na coluna 'trust de ações para funcionários' para qualquer linha dada (por exemplo, $3166 vs -$3166 no saldo de abertura; -$234 vs $234 para ações emitidas). Isso indica que são contas contra uma da outra, projetadas para equilibrar seu efeito no cálculo do patrimônio líquido total."
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "I1",
+      "F5",
+      "I5",
+      "F14",
+      "I14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_009",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Excluindo a primeira e a última linhas que descrevem saldos, qual é o valor mais frequente no conjunto de dados das colunas B a K?",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "F2",
+      "G2",
+      "H2",
+      "I2",
+      "J2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "I3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_010",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Entre todas as transações que afetam o 'total de patrimônio líquido', qual item único se destaca como o maior valor negativo?",
+    "answer": [
+      [
+        "reclassification to redeemable noncontrolling interests"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "K12",
+      "K2",
+      "K3",
+      "K4",
+      "K5",
+      "K6",
+      "K7",
+      "K8",
+      "K9",
+      "K10",
+      "K11",
+      "K13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_011",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Qual foi o valor total do capital preferencial no final de 31 de dezembro de 2012?",
+    "answer": [
+      [
+        "$1508"
+      ]
+    ],
+    "evidence_cells": [
+      "A16",
+      "B16"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

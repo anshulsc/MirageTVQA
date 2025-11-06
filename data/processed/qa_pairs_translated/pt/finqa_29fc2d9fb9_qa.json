@@ -1,0 +1,364 @@
+[
+  {
+    "question_id": "finqa_29fc2d9fb9_001",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Qual tipo de serviço de televisão, 'fta' ou 'pay', tem um número médio maior de assinantes por canal?",
+    "answer": [
+      [
+        "fta"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9",
+      "B10",
+      "C10",
+      "B11",
+      "C11",
+      "B12",
+      "C12",
+      "B13",
+      "C13",
+      "B14",
+      "C14",
+      "B15",
+      "C15",
+      "B16",
+      "C16",
+      "B17",
+      "C17",
+      "B18",
+      "C18",
+      "B19",
+      "C19"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_002",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Qual é o número total de assinantes, em milhões, para todos os serviços de televisão listados que não são de acesso gratuito (fta)?",
+    "answer": [
+      [
+        "125"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B10",
+      "C10",
+      "B11",
+      "C11",
+      "B12",
+      "C12",
+      "B13",
+      "C13",
+      "B14",
+      "C14",
+      "B15",
+      "C15",
+      "B16",
+      "C16",
+      "B17",
+      "C17",
+      "B18",
+      "C18",
+      "B19",
+      "C19"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_003",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Qual é o nome do canal com a contagem mediana de assinantes entre todos os serviços 'pay'?",
+    "answer": [
+      [
+        "discovery history"
+      ]
+    ],
+    "evidence_cells": [
+      "A14",
+      "B10",
+      "C10",
+      "B11",
+      "C11",
+      "B12",
+      "C12",
+      "B13",
+      "C13",
+      "B14",
+      "C14",
+      "B15",
+      "C15",
+      "B16",
+      "C16",
+      "B17",
+      "C17",
+      "B18",
+      "C18",
+      "B19",
+      "C19"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_004",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Liste os nomes de todos os canais 'fta' que têm mais de 25 milhões de assinantes.",
+    "answer": [
+      [
+        "quest"
+      ],
+      [
+        "dsport"
+      ],
+      [
+        "quest red"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_005",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "A audiência do 'quest' constitui que porcentagem da audiência total de todos os canais 'fta' combinados? Arredonde para uma casa decimal.",
+    "answer": [
+      [
+        "23.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B1",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_006",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Se a contagem de assinantes para cada serviço 'pay' que atualmente tem 10 milhões ou menos de assinantes aumentasse em 50%, qual seria o novo número total de assinantes apenas para esses canais específicos?",
+    "answer": [
+      [
+        "66"
+      ]
+    ],
+    "evidence_cells": [
+      "B14",
+      "C14",
+      "B15",
+      "C15",
+      "B16",
+      "C16",
+      "B17",
+      "C17",
+      "B18",
+      "C18",
+      "B19",
+      "C19"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_007",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "open_ended_reasoning",
+    "question": "Com base na tabela, qual é a relação aparente entre o tipo de serviço ('pay' vs. 'fta') e os números de audiência? Um tipo atrai consistentemente mais espectadores do que o outro?",
+    "answer": [
+      [
+        "Os dados indicam uma forte relação em que os serviços 'fta' (free-to-air) geralmente atraem significativamente mais audiência do que os serviços 'pay'. Os dois principais canais, 'quest' (66M) e 'dsport' (43M), são ambos 'fta'. O canal 'pay' de maior audiência, 'discovery hd world', tem apenas 17 milhões de assinantes, o que é inferior aos quatro principais canais 'fta'. Além disso, a audiência média de um canal 'fta' (31,8 milhões) é mais do que o triplo da média de um canal 'pay' (10,1 milhões), sugerindo que os serviços gratuitos têm um alcance muito maior neste conjunto de dados."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9",
+      "B10",
+      "C10",
+      "B11",
+      "C11",
+      "B12",
+      "C12",
+      "B13",
+      "C13",
+      "B14",
+      "C14",
+      "B15",
+      "C15",
+      "B16",
+      "C16",
+      "B17",
+      "C17",
+      "B18",
+      "C18",
+      "B19",
+      "C19"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_008",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Qual canal é o outlier positivo mais significativo em termos de contagem de assinantes quando comparado ao número médio de assinantes do seu próprio tipo de serviço ('fta')?",
+    "answer": [
+      [
+        "quest"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_009",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Quantos canais compartilham a contagem de assinantes mais comum e qual é essa contagem?",
+    "answer": [
+      [
+        "5",
+        "25"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_010",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Qual é o total de espectadores de todos os canais cujos nomes contêm a palavra 'discovery' e são oferecidos como serviço 'pay'?",
+    "answer": [
+      [
+        "64"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10",
+      "A13",
+      "B13",
+      "C13",
+      "A14",
+      "B14",
+      "C14",
+      "A15",
+      "B15",
+      "C15",
+      "A16",
+      "B16",
+      "C16",
+      "A17",
+      "B17",
+      "C17",
+      "A18",
+      "B18",
+      "C18",
+      "A19",
+      "B19",
+      "C19"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_011",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Qual é o número de assinantes/espectadores internacionais (em milhões) do serviço de televisão quest?",
+    "answer": [
+      [
+        "66"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

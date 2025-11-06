@@ -1,0 +1,259 @@
+[
+  {
+    "question_id": "finqa_86e5109b28_001",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Hvilken kommersiell forpliktelse, ekskludert totalene, har det høyeste utløpsbeløpet i et hvilket som helst år fra 2014 til 2017?",
+    "answer": [
+      [
+        "credit facilities [a]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_002",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Hva er summen av alle individuelle forpliktelsesutløp for årene 2016 og 2017 samlet?",
+    "answer": [
+      [
+        "40"
+      ]
+    ],
+    "evidence_cells": [
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_86e5109b28_003",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Identifiser forpliktelsestypen som har utløp spredt over flest tidsperioder, og oppgi dens totale verdi.",
+    "answer": [
+      [
+        "guarantees [c]"
+      ],
+      [
+        "307"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "C1",
+      "E1",
+      "C2",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_004",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv det tidsmessige mønsteret for utløp av 'totale kommersielle forpliktelser' fra 2013 til 2016.",
+    "answer": [
+      [
+        "Mønsteret er svært volatilt. Det starter på 632 millioner dollar i 2013, faller med omtrent 66 % til 215 millioner dollar i 2014, stiger deretter dramatisk til en all-time high på 1812 millioner dollar i 2015, før det stuper med over 98 % til bare 30 millioner dollar i 2016. Det er ingen jevn vekst eller nedgang."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_005",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "List hvilke forpliktelsestyper som har et utløpsbeløp større enn 0 dollar i 2013, men ingen utløp fra og med 2015.",
+    "answer": [
+      [
+        "receivables securitization facility [b]"
+      ],
+      [
+        "standby letters of credit [d]"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "F2",
+      "G2",
+      "H2",
+      "A4",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "H4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_006",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Hvilken andel av de totale utløpene for 2013 kan tilskrives 'foreldelses securitiseringsfasilitet'?",
+    "answer": [
+      [
+        "94.94%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_86e5109b28_007",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Hvis '$ 1800' millioner for 'kredittfasiliteter' som utløper i 2015 i stedet ble jevnt fordelt mellom 2016 og 2017, hva ville det nye totalbeløpet for 'totale kommersielle forpliktelser' være for 2016?",
+    "answer": [
+      [
+        "$ 930"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_008",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "open_ended_reasoning",
+    "question": "Basert på tabellen, er det en observerbar sammenheng mellom den totale forpliktelsen og antall år den utløper over?",
+    "answer": [
+      [
+        "Nei, det er ingen direkte sammenheng. Dataene antyder faktisk et omvendt forhold. Den største forpliktelsen, 'kredittfasiliteter' (1800 millioner dollar), utløper helt i løpet av ett år (2015). Motsatt er 'garantier' (307 millioner dollar), en av de mindre forpliktelsene, spredt over alle de seks oppførte tidsperiodene."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "E1",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_86e5109b28_009",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Hvilken utløpsårkolonne har færrest individuelle forpliktelsestyper med en ikke-null verdi?",
+    "answer": [
+      [
+        "amount of commitment expiration per period 2016"
+      ],
+      [
+        "amount of commitment expiration per period 2017"
+      ],
+      [
+        "amount of commitment expiration per period after 2017"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_010",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifiser året der det totale utløpsbeløpet er en betydelig uteligger sammenlignet med de andre periodene, og begrunn resonnementet ditt.",
+    "answer": [
+      [
+        "Året 2015 er en klar uteligger med en totalutløp på 1812 millioner dollar. Dette tallet er eksepsjonelt høyt, og mer enn 2,8 ganger det nest høyeste årlige totalbeløpet (632 millioner dollar i 2013) og betydelig større enn alle andre perioder, som varierer fra 10 millioner dollar til 215 millioner dollar."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "H5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_86e5109b28_011",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Hva er de totale kommersielle forpliktelsene fra 2013 til 2017?",
+    "answer": [
+      [
+        "2,699"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

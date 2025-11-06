@@ -1,0 +1,201 @@
+[
+  {
+    "question_id": "finqa_044a2c2f0f_001",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "value",
+    "question": "Hvad var det samlede beløb (i millioner) af 'aktiebaseret kompensation' og 'omstruktureringsnedskrivninger og andre exit-omkostninger' for regnskabsåret 2018?",
+    "answer": [
+      [
+        "203.0"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_002",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "value",
+    "question": "Hvad var værdien for 'udskudte indkomstskatter' i det regnskabsår, der havde den højeste 'nettoindtjening inklusive indtjening, der kan henføres til indløselige og ikke-kontrollerende ejerandele'?",
+    "answer": [
+      [
+        "-504.3"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_003",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvilken oplevede en større ændring fra år til år i absolutte tal: ændringen i 'nettoindtjening' fra 2017 til 2018, eller ændringen i 'netto kontantstrøm fra driftsaktiviteter' fra 2016 til 2017?",
+    "answer": [
+      [
+        "Ændringen i 'nettoindtjening' fra 2017 til 2018"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_004",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv treårstendensen for 'pensions- og andre omkostninger til efterlønspensioner' fra regnskabsårene 2016 til 2018.",
+    "answer": [
+      [
+        "Omkostningerne til 'pensions- og andre omkostninger til efterlønspensioner' viser en konsekvent og markant faldende tendens over treårsperioden. Omkostningerne faldt fra 118,1 mio. dollars i 2016 til 35,7 mio. dollars i 2017 og faldt derefter igen markant til kun 4,6 mio. dollars i 2018."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_005",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "value",
+    "question": "I regnskabsåret 2018, hvor stor en procentdel af 'netto kontantstrøm fra driftsaktiviteter' udgjorde 'nettoindtjening inklusive indtjening, der kan henføres til indløselige og ikke-kontrollerende interesser'? Rund af til én decimal.",
+    "answer": [
+      [
+        "76.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_006",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "value",
+    "question": "List de finansielle kategorier, der havde en positiv værdi i regnskabsåret 2017, men blev en negativ værdi i regnskabsåret 2018.",
+    "answer": [
+      [
+        "deferred income taxes"
+      ],
+      [
+        "pension and other postretirement benefit plan costs"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_007",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "open_ended_reasoning",
+    "question": "Identificer den finansielle post, der udviser den mest usædvanlige adfærd i regnskabsåret 2018 sammenlignet med de to foregående år, og forklar, hvorfor den er en outlier.",
+    "answer": [
+      [
+        "'udskudte indkomstskatter' er den mest betydningsfulde outlier. I regnskabsårene 2016 og 2017 var det en positiv indkomst på henholdsvis 120,6 mio. USD og 183,9 mio. USD. I 2018 vendte den imidlertid dramatisk til en negativ værdi på -504,3 mio. USD. Denne udsving på næsten 700 mio. USD fra året før, der skiftede fra en positiv til en stor negativ, er langt mere ekstrem end de udsving, der ses i enhver anden kategori."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_008",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "value",
+    "question": "Hvis 'afståelsestab (gevinst)' for regnskabsåret 2018 havde været en gevinst på 50,0 mio. dollars i stedet for nul ('-'), hvad ville da have været 'netto kontantstrøm fra driftsaktiviteter' for det år, forudsat at alle andre tal forblev uændrede?",
+    "answer": [
+      [
+        "$ 2891.0"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "B13"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_009",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "value",
+    "question": "Hvilken finansiel kategori er den eneste, der indeholder en ikke-numerisk, ikke-monetær værdi i en af regnskabsårskolonnerne?",
+    "answer": [
+      [
+        "divestitures loss ( gain )"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_010",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "open_ended_reasoning",
+    "question": "Baseret på de givne data, er der en observerbar sammenhæng mellem 'nettoindtjening' og 'netto kontantstrøm fra driftsaktiviteter' på tværs af de tre regnskabsår? Forklar din begrundelse.",
+    "answer": [
+      [
+        "Ja, der er en observerbar positiv sammenhæng. Fra 2016 til 2017 faldt 'nettoindtjeningen' fra 1736,8 mio. USD til 1701,1 mio. USD, og tilsvarende faldt 'netto kontantstrøm fra driftsaktiviteter' også fra 2764,2 mio. USD til 2415,2 mio. USD. Fra 2017 til 2018 steg 'nettoindtjeningen' markant til 2163,0 mio. USD, og 'netto kontantstrøm' steg også til 2841,0 mio. USD. I begge tilfælde bevægede de to tal sig i samme retning, hvilket tyder på, at højere indtjening er forbundet med højere driftsmæssig pengestrøm."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_011",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "value",
+    "question": "I hvilket år registrerede virksomheden den mindste aktiebaserede kompensation?",
+    "answer": [
+      [
+        "2018"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

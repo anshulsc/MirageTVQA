@@ -1,0 +1,249 @@
+[
+  {
+    "question_id": "finqa_d4ff6b23c2_001",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Calculați modificarea netă totală a beneficiilor fiscale nerealizate pentru anul 2016, pe baza activităților tranzacționale listate între soldurile de început și cele de sfârșit.",
+    "answer": [
+      [
+        "64"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_002",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Care elemente de linie reprezintă o schimbare financiară absolută mai mică în 2017 comparativ cu schimbarea corespunzătoare din 2016?",
+    "answer": [
+      [
+        "additions for tax positions related to prior years"
+      ],
+      [
+        "reductions for tax positions related to prior years"
+      ],
+      [
+        "reductions for settlements2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_003",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Ce procent din 'soldul la 31 decembrie 2017' NU ar afecta rata efectivă de impozitare dacă ar fi recunoscut?",
+    "answer": [
+      [
+        "5.99%"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_004",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Care a fost diferența dintre suma tuturor reducerilor în 2017 și suma tuturor reducerilor în 2016, ignorând valoarea non-standard din 'reduceri pentru expirarea termenului de prescripție' pentru 2017?",
+    "answer": [
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_005",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Dacă „adăugările pentru pozițiile fiscale aferente anilor anteriori” în 2017 ar fi corespuns sumei din 2016, care ar fi fost „soldul ajustat la 31 decembrie 2017”?",
+    "answer": [
+      [
+        "$ 1321"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_006",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Identifica singura poziție din 2017 care a fost cea mai semnificativă abatere în ceea ce privește magnitudinea financiară, comparativ cu toate celelalte adăugări și reduceri din ambii ani.",
+    "answer": [
+      [
+        "additions for tax positions related to current year"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_007",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Conform reconcilierii, 'soldul la 31 decembrie 2017' este calculat din soldul inițial plus adăugările și reducerile ulterioare. Care celulă din coloana 2017 conține o valoare inconsistentă cu acest calcul și pare a fi neesențială?",
+    "answer": [
+      [
+        "B6"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_008",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Enumerați toate activitățile din 2017, atât adăugiri, cât și reduceri, care au avut o valoare absolută mai mare de 15 milioane de dolari.",
+    "answer": [
+      [
+        "additions for tax positions related to current year"
+      ],
+      [
+        "additions for tax positions related to prior years"
+      ],
+      [
+        "reductions for tax positions related to prior years"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_009",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "Analizați modificarea soldului total de la sfârșitul anului 2016 până la sfârșitul anului 2017. Care au fost principalele cauze ale acestei modificări?",
+    "answer": [
+      [
+        "Soldul total al beneficiilor fiscale nedeclarate a crescut cu 254 milioane USD, de la 1032 milioane USD la sfârșitul anului 2016 la 1286 milioane USD la sfârșitul anului 2017. Principalul factor al acestei creșteri a fost suma de '270 milioane USD' din 'adăugări pentru poziții fiscale legate de anul curent' în 2017, care a fost considerabil mai mare decât orice altă adăugare sau reducere unică din oricare dintre ani. Deși au existat reduceri însumând 36 milioane USD în 2017, acestea nu au fost suficiente pentru a compensa adăugirile mari."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_010",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "Există dovezi ale unei schimbări semnificative în compoziția beneficiilor fiscale nerealizate între 2016 și 2017, bazat pe proporția soldului de la sfârșitul anului care ar impacta rata efectivă a impozitului?",
+    "answer": [
+      [
+        "Nu există dovezi ale unei schimbări semnificative în compoziție. În 2016, partea care ar impacta rata efectivă a impozitului a fost de 963 milioane USD dintr-un sold de 1032 milioane USD, sau 93,3%. În 2017, această parte a fost de 1209 milioane USD dintr-un sold de 1286 milioane USD, sau 94,0%. Proporția a rămas foarte stabilă, sugerând o compoziție constantă a pozițiilor fiscale subiacente de la an la an, în ciuda creșterii generale a soldului."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_011",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "Cum a evoluat soldul total al pozițiilor fiscale din 2016 până în 2017 și ce factori au contribuit la această schimbare?",
+    "answer": [
+      [
+        "Soldul total al pozițiilor fiscale a crescut de la 1.032 milioane USD în 2016 la 1.286 milioane USD în 2017. Creșterea a fost cauzată în principal de adăugări pentru poziții fiscale din anul curent ( + 270 milioane USD ) și poziții fiscale din anii anteriori ( + 20 milioane USD ), parțial compensate de reduceri pentru poziții din anii anteriori ( - 27 milioane USD ) și decontări ( - 9 milioane USD )."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

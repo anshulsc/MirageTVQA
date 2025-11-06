@@ -1,0 +1,265 @@
+[
+  {
+    "question_id": "finqa_3669fd2d00_001",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Dalam kalangan tempoh komitmen dari 2012 hingga 2016, tahun manakah yang mempunyai jumlah amaun luput terbesar?",
+    "answer": [
+      [
+        "2015"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_002",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Berapakah purata jumlah luput komitmen tahunan untuk 'jaminan [c]' bagi tempoh 2012 hingga 2016?",
+    "answer": [
+      [
+        "53"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_003",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Kenal pasti jenis komitmen dengan jumlah luput terbesar 'selepas 2016'. Kemudian, untuk jenis komitmen khusus itu, hitung jumlah luputnya untuk tahun 2013 dan 2014.",
+    "answer": [
+      [
+        "222"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "A3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_004",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "open_ended_reasoning",
+    "question": "Huraikan trend luput komitmen untuk 'jaminan [c]' dari tahun 2012 hingga 'selepas 2016'.",
+    "answer": [
+      [
+        "Luput komitmen untuk 'jaminan [c]' menunjukkan trend yang sangat tidak menentu. Bermula dengan $18 juta pada tahun 2012, ia susut kepada $8 juta pada tahun 2013, kemudian melonjak mendadak kepada $214 juta pada tahun 2014. Selepas puncak ini, luput susut dengan ketara kepada $12 juta pada tahun 2015 dan $13 juta pada tahun 2016, sebelum meningkat kepada $60 juta untuk tempoh selepas 2016. Coraknya tidak linear atau konsisten, tetapi didominasi oleh puncak tahun 2014."
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_005",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Senaraikan semua jenis komitmen yang mempunyai jumlah luput melebihi $0 pada tahun 2012 dan jumlah komitmen keseluruhan kurang daripada $1000 juta.",
+    "answer": [
+      [
+        "receivables securitization facility [b]"
+      ],
+      [
+        "guarantees [c]"
+      ],
+      [
+        "standby letters of credit [d]"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_006",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Berapakah peratusan daripada jumlah komitmen komersial yang luput pada tahun 2015 yang dikaitkan dengan 'kemudahan kredit [a]'?",
+    "answer": [
+      [
+        "99.34%"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_007",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Jika jumlah untuk 'jaminan [c]' adalah 10% lebih tinggi, dan peningkatan ini sepenuhnya tercermin dalam tempoh tamat tempoh 'selepas 2016', berapakah jumlah baharu 'komitmen komersial keseluruhan'?",
+    "answer": [
+      [
+        "$ 2781.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_008",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan data, adakah terdapat sebarang hubungan ketara antara saiz nilai 'jumlah' komitmen dan tempoh tamatnya?",
+    "answer": [
+      [
+        "Tiada korelasi linear yang ringkas, tetapi terdapat corak yang ketara. Komitmen terbesar ('kemudahan kredit', $1800M) mempunyai satu tarikh tamat yang jauh (2015). Sebaliknya, komitmen dengan jadual tamat tempoh yang paling tersebar ('jaminan', $325M) adalah salah satu yang lebih kecil. Dua komitmen lain ('pembiayaan niaga hadapan' dan 'surat kredit utama') dibayar sepenuhnya dalam tahun pertama (2012), walaupun mempunyai nilai jumlah yang sangat berbeza ($600M dan $24M). Ini menunjukkan bahawa komitmen yang lebih besar mungkin distrukturkan sebagai pembayaran sekaligus, manakala yang lebih kecil sama ada diselesaikan segera atau distrukturkan sebagai obligasi jangka panjang yang diedarkan."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1",
+      "H1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "H2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4",
+      "H4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_009",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Dalam tempoh luput komitmen manakah yang mengandungi nilai bukan sifar paling banyak dalam kalangan jenis komitmen individu?",
+    "answer": [
+      [
+        "2012"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_010",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "open_ended_reasoning",
+    "question": "Menganalisis luputan 'total commercialcommitments' dari tahun 2012 hingga 2016, tahun manakah yang merupakan pencilan yang signifikan, dan mengapa?",
+    "answer": [
+      [
+        "Tahun 2015 merupakan pencilan yang signifikan. Jumlah luputan untuk tahun 2012-2016 ialah $642, $8, $214, $1812, dan $13 juta masing-masing. Nilai median ialah $214 juta. Jumlah 2015 sebanyak $1812 juta adalah lebih 8 kali ganda daripada median dan hampir 3 kali ganda daripada nilai tertinggi seterusnya ($642 juta), menjadikannya pencilan statistik yang jelas yang didorong hampir keseluruhannya oleh luputan 'kemudahan kredit'."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "F1"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_011",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Berapakah jumlah komitmen komersial (dalam jutaan) dari tahun 2012 hingga 2015?",
+    "answer": [
+      [
+        "$2,676"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

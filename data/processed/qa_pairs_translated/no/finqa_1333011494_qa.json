@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_1333011494_001",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Hvilken eiendom har høyest 'building'-verdi?",
+    "answer": [
+      [
+        "1515 broadway"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "B2",
+      "C2",
+      "D2",
+      "F2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_002",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Hva er den totale 'kjøpesumallokeringen' for alle eiendommene som er oppført i tabellen?",
+    "answer": [
+      [
+        "2097772"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_1333011494_003",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Hva er 'netto hensyntagen finansiert av oss ved avslutning' for eiendommen som har den laveste verdien av 'ervervede på plass leieavtaler'?",
+    "answer": [
+      [
+        "$ 81632"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "B11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_004",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "For eiendommen '1515 broadway', hvilken prosentandel av verdien for 'eiendeler ervervet' kommer fra summen av verdiene for 'land' og 'bygning'?",
+    "answer": [
+      [
+        "89.65%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_1333011494_005",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Identifiser alle eiendommer der 'gjeld overtatt' er mer enn tre ganger 'egenkapital og/eller gjeld investering holdt'.",
+    "answer": [
+      [
+        "110 east 42nd street"
+      ],
+      [
+        "1515 broadway"
+      ]
+    ],
+    "evidence_cells": [
+      "D12",
+      "D13",
+      "E12",
+      "E13",
+      "F12",
+      "F13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_006",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Hvis en regnskapsjustering revurderte 'bygning'-verdien for '110 east 42nd street' til å være 10 % lavere, hva ville den nye verdien for 'acquired assets' være for den eiendommen?",
+    "answer": [
+      [
+        "81989"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_007",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "Er 'fair value adjustment to mortgage note payable' for '1515 broadway' en negativ verdi mens den er en positiv, ensartet verdi for de fleste andre eiendommer. Hva antyder denne betydelige avviket om den spesifikke eiendommens finansiering?",
+    "answer": [
+      [
+        "Den negative verdien på '-3693' for '1515 broadway' i kategorien 'fair value adjustment to mortgage note payable' er et tydelig avvik sammenlignet med den ensartede positive verdien på '2014' for de andre eiendommene. Dette antyder at boliglånet knyttet til 1515 Broadway-ervervelsen hadde vilkår som var mer gunstige enn de gjeldende markedsrentene på ervervelsestidspunktet, noe som skapte en eiendel (en negativ forpliktelsesjustering). I motsetning til dette kan de andre eiendommene ha hatt boliglån til eller nær markedsrenter, noe som krever en standard, nominell justering."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_1333011494_008",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "Basert på dataene, er det en direkte positiv korrelasjon mellom en eiendoms 'purchase price allocation' (tilordning av kjøpesum) og dens 'net consideration funded by us at closing' (netto betraktning finansiert av oss ved overtakelse)?",
+    "answer": [
+      [
+        "Nei, det er ikke en direkte positiv korrelasjon. For eksempel har '180 maiden lane' den nest høyeste kjøpesummen (442 325 dollar), men netto betraktning (81 835 dollar) er nesten identisk med '51 east 42nd street', som har en mye lavere kjøpesum (80 000 dollar). Videre har '1515 broadway' den høyeste kjøpesummen med god margin (1 234 000 dollar), men ikke den høyeste netto betraktningen. Dette indikerer at andre faktorer, som 'debt assumed' (gjeld antatt) (som er veldig høy for '1515 broadway'), i betydelig grad påvirker netto betraktningen som kreves ved overtakelse."
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10",
+      "B11",
+      "C11",
+      "D11",
+      "E11",
+      "F11",
+      "B13",
+      "C13",
+      "D13",
+      "E13",
+      "F13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_1333011494_009",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Beregn den totale 'overtatte forpliktelser' for eiendommer som har en 'leieverdi over markedsverdi' på mindre enn 6 000 dollar.",
+    "answer": [
+      [
+        "33817"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "F3",
+      "B9",
+      "D9",
+      "F9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_010",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "Verdien '2014' vises gjentatte ganger på tvers av fire forskjellige finansielle kategorier, ofte for de samme eiendommene. Hva antyder den konsekvente bruken av dette spesifikke, ikke-avrundede tallet i forskjellige kontekster om dets natur?",
+    "answer": [
+      [
+        "Verdien '2014' vises i 'andre eiendeler netto etter andre forpliktelser', 'justering av virkelig verdi til boliglånsnotat som skal betales', 'egenkapital og/eller gjeldsinvestering holdt', og 'gjeld antatt'. Dens gjentatte bruk som en relativt liten, identisk verdi på tvers av forskjellige kategorier og eiendommer antyder at det ikke er en målt markedsverdi, men snarere en nominell plassholder, en standard minimumsverdi brukt til regnskapsformål, eller muligens en referanse til en spesifikk hendelse eller reguleringsår (f.eks. en transaksjon fra 2014). Den signaliserer en standardisert oppføring snarere enn en unik verdivurdering for hver forekomst."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "A12",
+      "A13",
+      "B5",
+      "C5",
+      "D5",
+      "F5",
+      "B7",
+      "C7",
+      "D7",
+      "F7",
+      "B12",
+      "C12",
+      "B13",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_011",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Hvor mye koster det å kjøpe land til 1515 Broadway?",
+    "answer": [
+      [
+        "$462,700"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,237 @@
+[
+  {
+    "question_id": "finqa_9d76f2617f_001",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Jaki był całkowity wzrost liczby 'akcji w obiegu' wynikający z 'pracowniczego programu zakupu akcji' w całym przedstawionym okresie?",
+    "answer": [
+      [
+        "6894763"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D6",
+      "D11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_002",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "W którym roku (2001, 2002, czy 2003) 'akcje sprzedane opcjonobiorcom' najwięcej przyczyniły się do wzrostu 'akcji w obiegu'?",
+    "answer": [
+      [
+        "2002"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "A5",
+      "A8",
+      "D8",
+      "A10",
+      "A13",
+      "D13",
+      "A14"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_003",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "Opisz trend akcji własnych firmy od początku 2001 roku do końca 2003 roku, na podstawie raportów bilansowych.",
+    "answer": [
+      [
+        "Liczba akcji posiadanych przez firmę w swoim skarbcu konsekwentnie spadała rok do roku. Saldo zmniejszyło się z około 94,4 mln na początku 2001 roku do 91,2 mln na koniec 2001 roku, następnie do 84,9 mln na koniec 2002 roku i wreszcie do 81,2 mln na koniec 2003 roku. Wskazuje to, że firma ponownie emitowała akcje ze swojego skarbca (np. na plany pracownicze i opcje) szybciej, niż je wykupywała."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "C10",
+      "C14"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_004",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Jaka była netto zmiana w liczbie 'akcji w obiegu' w pełnym roku kalendarzowym, który obejmował 'przejęcie technoguide'?",
+    "answer": [
+      [
+        "6282717"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "D5",
+      "D10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_005",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Wymień wszystkie typy transakcji, z wyłączeniem sald, które spowodowały wzrost liczby 'akcji w obrocie' o ponad 2 000 000 akcji.",
+    "answer": [
+      [
+        "employee stock purchase plan"
+      ],
+      [
+        "shares sold to optionees"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8",
+      "A9",
+      "D9",
+      "A11",
+      "D11",
+      "A13",
+      "D13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_006",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Jaki procent całkowitego wzrostu 'akcji w obrocie' w roku 2002 był przypisany do 'nabycia technoguide'?",
+    "answer": [
+      [
+        "21.45%"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_007",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Gdyby \"pracowniczy plan nabywania akcji\" w 2002 roku spowodował dodanie o 1 000 000 mniejszej liczby akcji do stanu posiadania, jaki byłby \"saldo na dzień 31 grudnia 2002 r.\" dla \"akcji w obrocie?\"",
+    "answer": [
+      [
+        "581173115"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "D10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_008",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Która transakcja pomiędzy rocznymi saldami stanowi przypadek odstający pod względem minimalnego wpływu na 'posiadane akcje' i jaki był ten wpływ?",
+    "answer": [
+      [
+        "shares granted to directors",
+        "3500"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "A7",
+      "D7",
+      "A12",
+      "D12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_009",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "Dla zdarzeń związanych ze 'sprzedażą akcji dla posiadaczy opcji', jaka jest spójna relacja matematyczna między kolumnami 'issued' (wydane), 'in treasury' (w posiadaniu spółki) i 'shares outstanding' (akcje w obiegu)?",
+    "answer": [
+      [
+        "Dla wszystkich transakcji 'sprzedaż akcji dla posiadaczy opcji', wartość w kolumnie 'shares outstanding' (akcje w obiegu) jest sumą wartości z kolumn 'issued' (wydane) i 'in treasury' (w posiadaniu spółki). Sugeruje to, że akcje dla posiadaczy opcji pochodziły zarówno z nowej emisji, jak i z akcji posiadanych przez spółkę."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "B8",
+      "C8",
+      "D8",
+      "B13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_010",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "Kolumna „issued” zawiera wartość „2013” dla kilku typów transakcji, w których wartość „in treasury” jest różna od zera. Co to sugeruje na temat źródła akcji dla tych transakcji?",
+    "answer": [
+      [
+        "W każdym wierszu, gdzie kolumna „issued” pokazuje „2013”, wartość „in treasury” jest identyczna jak wartość „shares outstanding”. Wskazuje to, że dla tych transakcji (np. „employee stock purchase plan”, „acquisition of technoguide”) wszystkie akcje pochodziły z treasury i żadne nowe akcje faktycznie nie zostały wyemitowane. Liczba „2013” jest prawdopodobnie symbolem zastępczym, identyfikatorem lub błędem danych, a nie ilością wyemitowanych akcji."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "C3",
+      "D3",
+      "B6",
+      "C6",
+      "D6",
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_011",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "Jak zmieniła się liczba akcji w obiegu od stanu na 1 stycznia 2001 r. do stanu na 31 grudnia 2003 r. i jakie prawdopodobne działania przyczyniły się do tej zmiany?",
+    "answer": [
+      [
+        "Liczba akcji w obiegu wzrosła o 13 223 634 (z 572 724 694 do 585 948 328). Wzrost ten wydaje się być napędzany emisjami akcji, takimi jak realizacja opcji i działalność związana z planem zakupu akcji przez pracowników (kilka wpisów 'akcje sprzedane posiadaczom opcji' i 'pracowniczy plan zakupu akcji'), emisją związaną z przejęciem (Technoguide) oraz zmniejszeniem liczby akcji w portfelu własnym – co łącznie zwiększyło liczbę akcji w obiegu."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "C1",
+      "A14",
+      "D14",
+      "C14",
+      "A4",
+      "B4",
+      "A8",
+      "B8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

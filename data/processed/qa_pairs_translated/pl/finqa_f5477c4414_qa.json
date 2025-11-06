@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_f5477c4414_001",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Jaka była suma dla 'pożyczki zgłoszone w 2013 r.' za rok 2012 (kolumna E), jeśli została obliczona przez zsumowanie jej składowych typów pożyczek z tej samej kolumny?",
+    "answer": [
+      [
+        "1717"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f5477c4414_002",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Która kategoria kredytów, z wyłączeniem „kredytów zgłoszonych w 2013 r.”, odnotowała największy procentowy wzrost salda na dzień 31 grudnia od 2012 r. do 2013 r.?",
+    "answer": [
+      [
+        "loans held-for-sale"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_003",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Jaka była wartość 'zobowiązań związanych z kredytowaniem' na koniec roku, kiedy 'całkowite aktywa związane z kredytami hurtowymi' były na najniższym poziomie?",
+    "answer": [
+      [
+        "$ 434814"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_004",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Jaki procent 'całkowitej ekspozycji kredytowej dla przedsiębiorstw' na dzień 31 grudnia 2013 r. przypadał na 'zobowiązania związane z udzielaniem kredytów'?",
+    "answer": [
+      [
+        "51.87%"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "B9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f5477c4414_005",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Wymień wszystkie kategorie aktywów lub pasywów, dla których wartość na dzień 31 grudnia 2013 r. spadła w porównaniu do 31 grudnia 2012 r.",
+    "answer": [
+      [
+        "loans at fair value ( a )"
+      ],
+      [
+        "derivative receivables"
+      ],
+      [
+        "liquid securities and other cash collateral held against derivatives"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A11",
+      "B11",
+      "C11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_006",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Gdyby wartość dla 'należności od klientów i inne ( b )' w kolumnie '2013' (kolumna D) była o 25% wyższa, jakie byłyby nowe 'całkowite aktywa powiązane z kredytami hurtowymi' dla tej kolumny?",
+    "answer": [
+      [
+        "1962.5"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "D7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_007",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Wskaż pozycję finansową (z kolumny A), która wykazuje najbardziej anomalną zmianę między kolumnami '2013' a '2012' (D i E), charakteryzującą się największą różnicą bezwzględną.",
+    "answer": [
+      [
+        "loans 2013 reported"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A2",
+      "D2",
+      "E2",
+      "A3",
+      "D3",
+      "E3",
+      "A4",
+      "D4",
+      "E4",
+      "A5",
+      "D5",
+      "E5",
+      "A6",
+      "D6",
+      "E6",
+      "A7",
+      "D7",
+      "E7",
+      "A8",
+      "D8",
+      "E8",
+      "A9",
+      "D9",
+      "E9",
+      "A10",
+      "D10",
+      "E10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f5477c4414_008",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Wskaż komórkę (komórki) zawierającą tekst niebędący liczbą (\"na\"), który uniemożliwia bezpośrednie zsumowanie odpowiednich kolumn.",
+    "answer": [
+      [
+        "D11"
+      ],
+      [
+        "E11"
+      ]
+    ],
+    "evidence_cells": [
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_009",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "open_ended_reasoning",
+    "question": "Przeanalizuj trend od końca 2012 roku do 2013 roku dla 'całkowitej ekspozycji kredytowej sektora przedsiębiorstw' i jej głównych czynników.",
+    "answer": [
+      [
+        "Całkowita ekspozycja kredytowa sektora przedsiębiorstw nieznacznie wzrosła z 846 628 milionów dolarów w 2012 roku do 860 299 milionów dolarów w 2013 roku. Wzrost ten był przede wszystkim napędzany znacznym wzrostem 'kredytów przeznaczonych do sprzedaży' (wzrost o 156%) i wzrostem 'zobowiązań związanych z udzielaniem kredytów' (wzrost o 2,6%). Jednak wzrost ten został częściowo zniwelowany przez zauważalny spadek 'należności z tytułu instrumentów pochodnych' o 12,3% i spadek 'kredytów wycenianych według wartości godziwej' o 21,3%, co wskazuje na zmianę składu portfela kredytowego."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B8",
+      "C8",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_010",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "open_ended_reasoning",
+    "question": "Biorąc pod uwagę zmiany w saldach rocznych od 2012 do 2013 roku, jaki jest widoczny związek między 'należnościami z tytułu instrumentów pochodnych' a 'łącznymi aktywami detalicznymi związanymi z kredytem'?",
+    "answer": [
+      [
+        "W tym ograniczonym zbiorze danych wydaje się występować odwrotna zależność. Od końca 2012 do końca 2013 roku 'należności z tytułu instrumentów pochodnych' spadły z 74 983 mln USD do 65 759 mln USD. Jednocześnie 'łącznie aktywa detaliczne związane z kredytem' wzrosły z 411 814 mln USD do 414 067 mln USD. Sugeruje to, że w miarę spadku wartości należności z tytułu instrumentów pochodnych, inne aktywa rosły, aby więcej niż zrekompensować tę stratę, prowadząc do ogólnego wzrostu aktywów. Niemniej jednak, na podstawie tylko dwóch punktów danych, nie można ustalić jednoznacznej korelacji."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f5477c4414_011",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "W którym roku kwota kredytów zatrzymanych jest najwyższa?",
+    "answer": [
+      [
+        "2013"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

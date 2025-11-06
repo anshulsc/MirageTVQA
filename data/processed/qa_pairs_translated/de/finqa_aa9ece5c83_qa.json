@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_aa9ece5c83_001",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Welcher Datensatz, der in Spalte B beginnt oder der in Spalte E, hatte für das am 31. Dezember 2016 endende Jahr ein höheres 'bereinigtes' operatives Ergebnis?",
+    "answer": [
+      [
+        "The data set starting in column B ($4050 million)"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "G1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_002",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Was ist die Netto-Summe aller dollarbasierten 'Änderung des Rechnungslegungsprinzips'-Anpassungen für den ersten Datensatz (Spalte C)?",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_003",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Wie hoch war die 'as filed' bereinigte EBITDA-Marge für den Datensatz, bei dem die 'Änderung des Rechnungslegungsprinzips' für Zinseinkünfte '-414 ( 414 )' betrug?",
+    "answer": [
+      [
+        "30% ( 30 % )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "F2",
+      "A6",
+      "E6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_004",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Für den ersten Datensatz (Spalten B-D), was ist das Verhältnis des Nettoergebnisses 'as filed' zum bereinigten EBITDA 'as filed', gerundet auf drei Dezimalstellen?",
+    "answer": [
+      [
+        "0.141"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_005",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Identifizieren Sie für den in den Spalten B bis D dargestellten Datensatz die Kennzahl, bei der der Wert 'as adjusted' kleiner ist als der Wert 'as filed'.",
+    "answer": [
+      [
+        "interest income"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A5",
+      "B5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_006",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "In den Zeilen für 'Nettogewinn als Prozentsatz des Dienstleistungsumsatzes', welcher Wert für 'Änderung der Rechnungslegungsmethode' erscheint anomal und warum?",
+    "answer": [
+      [
+        "Der Wert 'Änderung der Rechnungslegungsmethode' von '2014% (2014 %)' in den Zellen C4 und F4 ist anomal. Bei beiden Datensätzen bleibt der 'Nettogewinn als Prozentsatz des Dienstleistungsumsatzes' zwischen den Angaben 'wie eingereicht' und 'bereinigt' unverändert (5 % auf 5 % bzw. 3 % auf 3 %). Eine logische Änderung wäre 0 %, was '2014 %' zu einem klaren Ausreißer macht, wahrscheinlich aufgrund eines Dateneingabefehlers."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_007",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Wenn die 'Änderung der Rechnungslegungsmethode' für das operative Ergebnis im zweiten Datensatz eine Verringerung um 50 Millionen US-Dollar anstelle des angezeigten Wertes dargestellt hätte, wie hoch wäre dann das neue operative Ergebnis 'bereinigt' gewesen?",
+    "answer": [
+      [
+        "$ 2015"
+      ]
+    ],
+    "evidence_cells": [
+      "E1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_008",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "Gibt es eine konsistente Beziehung zwischen den buchhalterischen Anpassungen für das operative Ergebnis und das bereinigte EBITDA über beide Datensätze hinweg?",
+    "answer": [
+      [
+        "Ja, es gibt eine konsistente positive Beziehung. Im ersten Datensatz ist die Änderung des operativen Ergebnisses (+$248) identisch mit der Änderung des bereinigten EBITDA (+$248). Im zweiten Datensatz ist die Änderung des operativen Ergebnisses (+$414) ebenfalls identisch mit der Änderung des bereinigten EBITDA (+$414). Dies deutet darauf hin, dass die Änderung des Rechnungslegungsprinzips, die das operative Ergebnis beeinflusst, sich direkt und in gleicher Höhe auf das bereinigte EBITDA auswirkt."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "F1",
+      "F5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_009",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "Was ist das signifikanteste strukturelle Problem mit den Spaltenüberschriften, das zu Verwirrung bei der Interpretation der Tabelle führen könnte?",
+    "answer": [
+      [
+        "Das primäre strukturelle Problem ist die Duplizierung von Spaltenüberschriften ohne eine übergeordnete Gruppierung. Die Überschriften 'year ended december 31 2016 as filed' und 'year ended december 31 2016 change in accounting principle' werden für zwei verschiedene Spaltensätze verwendet (B und E; C und F). Diese Mehrdeutigkeit zwingt den Benutzer zu der Annahme, dass zwei getrennte Einheiten oder Szenarien verglichen werden, anstatt dass dies explizit angegeben wird."
+      ]
+    ],
+    "evidence_cells": [],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_010",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Berechnen Sie anhand der 'as adjusted'-Werte den implizierten Dienstleistungsumsatz für beide Datensätze (Adjusted EBITDA / Adjusted EBITDA-Marge) und geben Sie die Differenz in Millionen zwischen den beiden an (erster Satz minus zweiter Satz), gerundet auf die nächste volle Million.",
+    "answer": [
+      [
+        "$2,814"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D6",
+      "G5",
+      "G6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_011",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Um wie viel hat sich das Betriebsergebnis (in Millionen) für den ersten Datensatz nach der Anpassung von 'As Filed' zu 'As Adjusted' geändert?",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,271 @@
+[
+  {
+    "question_id": "finqa_ad7ceda919_001",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "value",
+    "question": "Spośród wymienionych indywidualnych beneficjentów (od Stevena P. Jobsa do Jerome'a B. Yorka), kto posiada najwięcej akcji zwykłych?",
+    "answer": [
+      [
+        "steven p . jobs"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A8",
+      "B8",
+      "A9",
+      "B9",
+      "A10",
+      "B10",
+      "A11",
+      "B11",
+      "A12",
+      "B12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_002",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "value",
+    "question": "Jaka jest łączna liczba akcji posiadanych przez trzy osoby z najmniejszą liczbą akcji wymienione w tabeli?",
+    "answer": [
+      [
+        "40484"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B10",
+      "B11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_003",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "value",
+    "question": "O ile więcej akcji posiada Fidelity Investments w porównaniu do łącznej liczby akcji posiadanych przez 'wszystkich obecnych dyrektorów i oficerów jako grupę'?",
+    "answer": [
+      [
+        "48231474"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B13"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_004",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "value",
+    "question": "Wymień imiona wszystkich indywidualnych beneficjentów, którzy posiadają więcej niż 250 000, ale mniej niż 400 000 akcji.",
+    "answer": [
+      [
+        "tony fadell"
+      ],
+      [
+        "arthur d . levinson"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_005",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "value",
+    "question": "Jaki procent całkowitej liczby akcji posiadanych przez 'wszystkich obecnych dyrektorów wykonawczych i członków zarządu jako grupę' jest własnością Ronalda B. Johnsona?",
+    "answer": [
+      [
+        "17.37%"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "B13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_006",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "value",
+    "question": "Gdyby Millard S. Drexler nabył wystarczającą liczbę dodatkowych akcji, aby zwiększyć swoje udziały o 15%, jaka byłaby jego nowa łączna liczba akcji?",
+    "answer": [
+      [
+        "264500"
+      ]
+    ],
+    "evidence_cells": [
+      "B5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_007",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "open_ended_reasoning",
+    "question": "Na podstawie danych, jaka jest widoczna zależność między typem beneficjenta rzeczywistego (osoba fizyczna a instytucja/grupa) a informacjami podanymi w kolumnie „procent posiadanych akcji zwykłych\"?",
+    "answer": [
+      [
+        "Istnieje wyraźny wzór, zgodnie z którym duzi posiadacze instytucjonalni (Fidelity Investments) i grupy zbiorcze („wszyscy obecni dyrektorzy generalni i dyrektorzy jako grupa\") mają podany określony procent posiadanych akcji. Natomiast każdy indywidualny właściciel ma w tej kolumnie gwiazdkę („*”). Sugeruje to, że indywidualne udziały są poniżej pewnego progu raportowania dla ujawnienia procentowego, podczas gdy udziały większych podmiotów są na tyle znaczące, że wymagają specyficznego raportowania procentowego."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6",
+      "A7",
+      "D7",
+      "A8",
+      "D8",
+      "A9",
+      "D9",
+      "A10",
+      "D10",
+      "A11",
+      "D11",
+      "A12",
+      "D12",
+      "A13",
+      "D13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_008",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "open_ended_reasoning",
+    "question": "Którego beneficjenta posiadane akcje stanowią najbardziej znaczące odstępstwo w porównaniu do innych indywidualnych właścicieli (wiersze 2-12)? Uzasadnij swoją odpowiedź.",
+    "answer": [
+      [
+        "Steven P. Jobs jest najbardziej znaczącym odstępstwem. Mediana liczby akcji przypadająca na jedną osobę na tej liście (wiersze 2-12) wynosi 112 900. Posiadanie przez Stevena P. Jobsa 5 546 451 akcji jest prawie 50 razy większe niż mediana i ponad 3,8 razy większe niż kolejnego indywidualnego akcjonariusza (Ronald B. Johnson), co czyni je wyraźnym odstępstwem."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_009",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "value",
+    "question": "Wyłączając nagłówki, która kolumna według pozycji (1, 2, 3 lub 4) jest używana głównie do przypisów lub adnotacji, a nie do podstawowych wartości danych?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11",
+      "C12",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_010",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "open_ended_reasoning",
+    "question": "Oblicz średnią liczbę akcji przypadającą na osobę w grupie 'wszyscy obecni oficerowie wykonawczy i dyrektorzy jako grupa'. Jak posiadanie akcji przez Arthura D. Levinsona porównuje się do tej średniej?",
+    "answer": [
+      [
+        "Średnia liczba akcji na osobę w grupie wynosi około 596 600 (8 352 396 akcji podzielone przez 14 osób). Posiadanie akcji przez Arthura D. Levinsona, wynoszące 365 015, jest znacznie poniżej tej obliczonej średniej o ponad 230 000 akcji."
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "B9",
+      "A13",
+      "B13"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_011",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "value",
+    "question": "Który beneficjent jest właścicielem największej liczby akcji zwykłych?",
+    "answer": [
+      [
+        "Fidelity Investments"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A8",
+      "B8",
+      "A9",
+      "B9",
+      "A10",
+      "B10",
+      "A11",
+      "B11",
+      "A12",
+      "B12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

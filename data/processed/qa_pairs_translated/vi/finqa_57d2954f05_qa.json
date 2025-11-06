@@ -1,0 +1,312 @@
+[
+  {
+    "question_id": "finqa_57d2954f05_001",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Địa điểm nào, thuộc quyền sở hữu 'owned' duy nhất, có diện tích vuông lớn nhất?",
+    "answer": [
+      [
+        "xi 2019an china"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D5",
+      "E5",
+      "A10",
+      "D10",
+      "E10",
+      "A11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_002",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Tính tổng diện tích vuông của tất cả các cơ sở chỉ thuộc diện cho thuê.",
+    "answer": [
+      [
+        "701000"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "E4",
+      "D6",
+      "E6",
+      "D7",
+      "E7",
+      "D13",
+      "E13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_57d2954f05_003",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Bằng cách xác định đầu tiên địa điểm phục vụ làm trụ sở chính của công ty và sau đó cộng tổng không gian thuộc sở hữu và thuê dựa trên giá trị nối trong cột diện tích vuông, hãy xác định tổng diện tích vuông của nó.",
+    "answer": [
+      [
+        "1662000"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_004",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Xác định tất cả các địa điểm ở Trung Quốc có mục đích sử dụng chính bao gồm 'nghiên cứu phát triển và kỹ thuật'.",
+    "answer": [
+      [
+        "xi 2019an china"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "C11",
+      "A13",
+      "C13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_005",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Bao nhiêu phần trăm tổng diện tích của tất cả các cơ sở có quyền sở hữu kết hợp 'ownedleased' là không gian thuê? Giả sử cột diện tích cho các cơ sở này nối các giá trị sở hữu và thuê (ví dụ: 'X...XY...Y').",
+    "answer": [
+      [
+        "9.11%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D12",
+      "E12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_57d2954f05_006",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Nếu công ty quyết định hợp nhất tất cả các hoạt động 'hỗ trợ khách hàng' vào một trung tâm duy nhất, chọn cơ sở hiện đang liệt kê 'hỗ trợ khách hàng' như một mục đích sử dụng chính và có diện tích vuông lớn nhất, thì địa điểm nào sẽ được chọn?",
+    "answer": [
+      [
+        "santa clara ca"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A3",
+      "C3",
+      "D3",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6",
+      "A7",
+      "C7",
+      "D7",
+      "A8",
+      "C8",
+      "D8",
+      "A9",
+      "C9",
+      "D9",
+      "A10",
+      "C10",
+      "D10",
+      "A12",
+      "C12",
+      "D12",
+      "A13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_007",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "open_ended_reasoning",
+    "question": "Phân tích dữ liệu để xác định xem có mối tương quan nào giữa 'loại' hình bất động sản và tình trạng 'quyền sở hữu' của nó không. Cụ thể, có loại hình bất động sản nào xuất hiện thường xuyên hơn với một mô hình sở hữu nhất định không?",
+    "answer": [
+      [
+        "Có, dường như có mối tương quan. Loại 'nhà máy & kho văn phòng' cho thấy hồ sơ sở hữu đa dạng, bao gồm 5 tài sản 'sở hữu cho thuê', 3 tài sản 'sở hữu' và 3 tài sản 'cho thuê'. Ngược lại, loại 'văn phòng & kho' chỉ xuất hiện ở hai địa điểm, bao gồm một tài sản 'sở hữu cho thuê' và một tài sản 'cho thuê', nhưng đáng chú ý là không có cơ sở nào hoàn toàn 'sở hữu' trong tập dữ liệu này. Điều này cho thấy các cơ sở có 'nhà máy' có nhiều khả năng được công ty sở hữu ít nhất một phần hoặc toàn bộ so với các cơ sở chỉ là văn phòng và kho."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "E1",
+      "B2",
+      "E2",
+      "B3",
+      "E3",
+      "B4",
+      "E4",
+      "B5",
+      "E5",
+      "B6",
+      "E6",
+      "B7",
+      "E7",
+      "B8",
+      "E8",
+      "B9",
+      "E9",
+      "B10",
+      "E10",
+      "B11",
+      "E11",
+      "B12",
+      "E12",
+      "B13",
+      "E13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_57d2954f05_008",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "open_ended_reasoning",
+    "question": "Từ góc nhìn của một nhà phân tích dữ liệu, cột nào thể hiện sự phức tạp về cấu trúc đáng kể nhất, đòi hỏi một logic phân tích có điều kiện trước khi có thể thực hiện phân tích số học?",
+    "answer": [
+      [
+        "Cột 'squarefootage' (D) thể hiện sự phức tạp về cấu trúc nhất. Mặc dù cột 'principal use' chứa các danh sách được phân tách, cột 'squarefootage' lại chứa cả các giá trị số nguyên tiêu chuẩn và các giá trị chuỗi được nối liền (ví dụ: '1512000150000'). Để diễn giải và sử dụng dữ liệu này một cách chính xác cho phân tích số học, người ta phải triển khai một logic có điều kiện kiểm tra giá trị tương ứng trong cột 'ownership' (E). Nếu quyền sở hữu là 'ownedleased', chuỗi phải được tách thành hai giá trị số riêng biệt; nếu không, nó có thể được coi là một số nguyên duy nhất. Sự phụ thuộc này vào một cột khác làm cho logic phân tích của nó phức tạp hơn bất kỳ cột nào khác."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D12",
+      "E12",
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_009",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Trong số tất cả các cơ sở nơi 'sản xuất' là mục đích sử dụng chính, địa điểm nào có tổng diện tích vuông lớn nhất là ngoại lệ dương đáng kể khi so sánh với kích thước trung vị của nhóm này?",
+    "answer": [
+      [
+        "austin tx"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6",
+      "A7",
+      "C7",
+      "D7",
+      "A8",
+      "C8",
+      "D8",
+      "A9",
+      "C9",
+      "D9",
+      "A10",
+      "C10",
+      "D10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_57d2954f05_010",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Bao nhiêu phần trăm trong số các cơ sở được liệt kê nằm ở Hoa Kỳ (được xác định bằng các chữ viết tắt tiểu bang CA, TX, MT, MA)?",
+    "answer": [
+      [
+        "30.77%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_57d2954f05_011",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Diện tích văn phòng ở Austin, TX là bao nhiêu?",
+    "answer": [
+      [
+        "1,719,000–1,450,000"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

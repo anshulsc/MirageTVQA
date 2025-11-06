@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_1333011494_001",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Która nieruchomość ma najwyższą wartość 'budynku'?",
+    "answer": [
+      [
+        "1515 broadway"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "B2",
+      "C2",
+      "D2",
+      "F2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_002",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Jaka jest całkowita 'alokacja ceny zakupu' dla wszystkich nieruchomości wymienionych w tabeli?",
+    "answer": [
+      [
+        "2097772"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_1333011494_003",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Jaka jest kwota 'net consideration funded by us at closing' dla nieruchomości z najniższą wartością 'acquired in-place leases'?",
+    "answer": [
+      [
+        "$ 81632"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "B11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_004",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Dla nieruchomości '1515 broadway', jaki procent jej wartości 'nabytych aktywów' pochodzi z sumy wartości 'gruntu' i 'budynku'?",
+    "answer": [
+      [
+        "89.65%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_1333011494_005",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Podaj wszystkie nieruchomości, dla których 'dług przejęty' jest ponad trzykrotnie większy niż 'inwestycja kapitałowa i/lub dłużna utrzymywana'.",
+    "answer": [
+      [
+        "110 east 42nd street"
+      ],
+      [
+        "1515 broadway"
+      ]
+    ],
+    "evidence_cells": [
+      "D12",
+      "D13",
+      "E12",
+      "E13",
+      "F12",
+      "F13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_006",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Jeśli korekta księgowa zmieniłaby wartość 'budynku' dla nieruchomości '110 east 42nd street' o 10% niżej, jaka byłaby nowa wartość 'nabyte aktywa' dla tej nieruchomości?",
+    "answer": [
+      [
+        "81989"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_007",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "Wartość „korekty wartości godziwej do hipotecznego długu płatnego” dla „1515 broadway” jest wartością ujemną, podczas gdy dla większości innych nieruchomości jest to wartość dodatnia i jednolita. Co sugeruje ta znacząca wartość odstająca na temat finansowania tej konkretnej nieruchomości?",
+    "answer": [
+      [
+        "Ujemna wartość '-3693' dla '1515 broadway' w kategorii „korekta wartości godziwej do hipotecznego długu płatnego” stanowi wyraźną wartość odstającą w porównaniu do jednolitej dodatniej wartości '2014' dla pozostałych nieruchomości. Sugeruje to, że hipoteka związana z nabyciem nieruchomości 1515 Broadway miała warunki bardziej korzystne niż panujące stopy rynkowe w momencie nabycia, tworząc aktywo (ujemną korektę zobowiązań). Natomiast pozostałe nieruchomości mogły mieć hipoteki na poziomie stóp rynkowych lub bliskim im, wymagając standardowej, nominalnej korekty."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_1333011494_008",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "Czy na podstawie danych istnieje bezpośrednia pozytywna korelacja między „alokacją ceny zakupu” nieruchomości a „kwotą netto przekazaną przez nas przy zamknięciu transakcji”?",
+    "answer": [
+      [
+        "Nie, nie ma bezpośredniej pozytywnej korelacji. Na przykład „180 maiden lane” ma drugą najwyższą cenę zakupu (442 325 USD), ale kwota netto przekazana (81 835 USD) jest niemal identyczna jak w przypadku „51 east 42nd street”, która ma znacznie niższą cenę zakupu (80 000 USD). Ponadto „1515 broadway” ma najwyższą cenę zakupu (1 234 000 USD) i to ze znaczną przewagą, ale nie najwyższą kwotę netto przekazaną. Wskazuje to, że inne czynniki, takie jak „przejęty dług” (który jest bardzo wysoki dla „1515 broadway”), znacząco wpływają na kwotę netto wymaganą przy zamknięciu transakcji."
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10",
+      "B11",
+      "C11",
+      "D11",
+      "E11",
+      "F11",
+      "B13",
+      "C13",
+      "D13",
+      "E13",
+      "F13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_1333011494_009",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Oblicz całkowite 'przejęte zobowiązania' dla nieruchomości, które mają 'wartość czynszu powyżej rynkowej' mniejszą niż 6000 $.",
+    "answer": [
+      [
+        "33817"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "F3",
+      "B9",
+      "D9",
+      "F9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_010",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "Wartość „2014” pojawia się wielokrotnie w czterech różnych kategoriach finansowych, często dla tych samych nieruchomości. Co sugeruje powtarzające się użycie tej konkretnej, nierozokrąglonej liczby w różnych kontekstach co do jej natury?",
+    "answer": [
+      [
+        "Wartość „2014” pojawia się w kategoriach „pozostałe aktywa pomniejszone o pozostałe zobowiązania”, „korekta wartości godziwej hipotecznego długu”, „udziały i/lub inwestycje dłużne” oraz „przejęte zadłużenie”. Jej powtarzające się użycie jako stosunkowo mała, identyczna wartość w różnych kategoriach i nieruchomościach sugeruje, że nie jest to mierzona wartość rynkowa, ale raczej nominalny symbol zastępczy, standardowa minimalna wartość używana do celów księgowych, lub być może odniesienie do konkretnego zdarzenia lub roku regulacyjnego (np. transakcja z 2014 r.). Oznacza to ustandentryzowane wpis, a nie unikalną wycenę dla każdego wystąpienia."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "A12",
+      "A13",
+      "B5",
+      "C5",
+      "D5",
+      "F5",
+      "B7",
+      "C7",
+      "D7",
+      "F7",
+      "B12",
+      "C12",
+      "B13",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_011",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Ile kosztuje zakup gruntu przy 1515 Broadway?",
+    "answer": [
+      [
+        "$462,700"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

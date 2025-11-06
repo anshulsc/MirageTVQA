@@ -1,0 +1,204 @@
+[
+  {
+    "question_id": "finqa_c8712e7938_001",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv udviklingen i 'netto tab som rapporteret' fra 2003 til 2005.",
+    "answer": [
+      [
+        "Det 'netto tab som rapporteret' viser en konstant faldende tendens, hvilket indikerer en økonomisk forbedring. Tabet faldt fra $325.321 i 2003 til $247.587 i 2004 og reduceredes yderligere til $171.590 i 2005."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_002",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "I hvilket år var den absolutte forskel mellem 'pro-forma netto tab' og 'netto tab som rapporteret' størst?",
+    "answer": [
+      [
+        "2003"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B4",
+      "C1",
+      "C4",
+      "D1",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_003",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "Hvad var den samlede 'aktiebaserede medarbejderkompensationsudgift', der blev tilføjet igen på tværs af alle tre viste år?",
+    "answer": [
+      [
+        "11478"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_c8712e7938_004",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "For det år med det mindste 'netto tab per aktie (grundlæggende og udvandende) som rapporteret', hvad var forholdet mellem det absolutte 'pro-forma netto tab' og det absolutte 'netto tab som rapporteret'? Afrund til tre decimaler.",
+    "answer": [
+      [
+        "1.088"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "B1",
+      "B4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_005",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "Angiv de år, hvor den absolutte værdi for 'samlede aktiebaserede medarbejderkompensationsudgifter fastlagt efter dagsværdimetoden' var større end $25.000.",
+    "answer": [
+      [
+        "2003"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_006",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "I 2004, hvor stor en procentdel af det absolutte 'pro-forma nettotab' kan tilskrives justeringen for 'samlede aktiebaserede medarbejderkompensationsudgifter'? Afrund til to decimaler.",
+    "answer": [
+      [
+        "8.88%"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_c8712e7938_007",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "Hvis 'aktiebaserede medarbejderkompensationsudgifter' tilføjet i 2005 havde været 50% lavere, hvad ville det nye 'pro-forma netto tab' have været for det år?",
+    "answer": [
+      [
+        "$ -190276 ( 190276 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_008",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvilken udgiftspost ('tilføj' eller 'træk fra') oplevede den mest drastiske procentvise ændring fra år til år, og mellem hvilke to år skete det?",
+    "answer": [
+      [
+        "Linjen 'tilføj: medarbejderkompensation baseret på aktieoptioner' oplevede den mest drastiske ændring. Den steg med over 209% fra $ 2.297 i 2004 til $ 7.104 i 2005, hvilket repræsenterer en betydelig outlier sammenlignet med andre ændringer fra år til år i tabellen."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_c8712e7938_009",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvad er forholdet mellem 'net loss as reported' (rapporteret netto tab) og 'pro-forma net loss' (pro-forma netto tab) over de tre år?",
+    "answer": [
+      [
+        "Der er et direkte og konsistent forhold, hvor 'pro-forma net loss' altid er større i størrelsesorden end 'net loss as reported' for hvert år. Begge målinger viser den samme tendens til forbedring (mindskende tab) fra 2003 til 2005, hvilket antyder, at selvom justeringer for aktiebaserede kompensationer øger det beregnede tab, er den underliggende forretningsmæssige præstationstendens konsistent på tværs af begge målinger."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B4",
+      "C1",
+      "C4",
+      "D1",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_c8712e7938_010",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "Baseret på tabellens struktur, hvilken aritmetisk operation forbinder 'net loss as reported', linjen 'add' og linjen 'less' til 'pro-forma net loss'? Verificer med 2003 data.",
+    "answer": [
+      [
+        "Formlen er: ('net loss as reported') + ('add : stock-based employee compensation expense...') - ('total stock-based employee compensation expense...'). Ved brug af 2003 data: (-325321) + (2077) - (31156) = -354400, hvilket matcher 'pro-forma net loss' for det pågældende år."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_011",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvordan ændrede nettogevinst/tab som rapporteret sig fra 2003 til 2005?",
+    "answer": [
+      [
+        "Nettogevinst/tab som rapporteret faldt fra $325.321 i 2003 til $171.590 i 2005."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

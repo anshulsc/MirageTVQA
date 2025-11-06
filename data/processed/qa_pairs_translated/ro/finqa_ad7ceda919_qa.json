@@ -1,0 +1,271 @@
+[
+  {
+    "question_id": "finqa_ad7ceda919_001",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "value",
+    "question": "Dintre proprietarii beneficiari individuali enumerați (de la Steven P. Jobs la Jerome B. York), cine deține cele mai multe acțiuni ordinare?",
+    "answer": [
+      [
+        "steven p . jobs"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A8",
+      "B8",
+      "A9",
+      "B9",
+      "A10",
+      "B10",
+      "A11",
+      "B11",
+      "A12",
+      "B12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_002",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "value",
+    "question": "Care este numărul total de acțiuni deținute de cele trei persoane cu cele mai puține acțiuni listate în tabel?",
+    "answer": [
+      [
+        "40484"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B10",
+      "B11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_003",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "value",
+    "question": "Câte acțiuni în plus deține Fidelity Investments comparativ cu totalul combinat al 'tuturor ofițerilor executivi și directorilor actuali ca grup'?",
+    "answer": [
+      [
+        "48231474"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B13"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_004",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "value",
+    "question": "Enumerați numele tuturor deținătorilor individuali benefici care dețin mai mult de 250.000, dar mai puțin de 400.000 de acțiuni.",
+    "answer": [
+      [
+        "tony fadell"
+      ],
+      [
+        "arthur d . levinson"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_005",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "value",
+    "question": "Ce procent din totalul acțiunilor deținute de „toți ofițerii executivi și directorii actuali ca grup” este deținut de Ronald B. Johnson?",
+    "answer": [
+      [
+        "17.37%"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "B13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_006",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "value",
+    "question": "Dacă Millard S. Drexler ar achiziționa suficiente acțiuni suplimentare pentru a-și crește deținerile cu 15%, care ar fi noul său număr total de acțiuni?",
+    "answer": [
+      [
+        "264500"
+      ]
+    ],
+    "evidence_cells": [
+      "B5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_007",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "open_ended_reasoning",
+    "question": "Pe baza datelor, care este relația aparentă între tipul de deținător benefic (individual vs. instituțional/grup) și informațiile furnizate în coloana 'procent din acțiunile comune în circulație'?",
+    "answer": [
+      [
+        "Există un model clar prin care deținătorii instituționali mari (Fidelity Investments) și grupurile agregate ('toți ofițerii executivi și directorii actuali ca grup') au un procent specific din acțiunile în circulație listat. În contrast, fiecare deținător individual are o asterisc ('*') în această coloană. Acest lucru sugerează că deținerile individuale sunt toate sub un anumit prag de raportare pentru dezvăluirea procentului, în timp ce deținerile entităților mai mari sunt suficient de semnificative pentru a justifica raportarea unui procent specific."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6",
+      "A7",
+      "D7",
+      "A8",
+      "D8",
+      "A9",
+      "D9",
+      "A10",
+      "D10",
+      "A11",
+      "D11",
+      "A12",
+      "D12",
+      "A13",
+      "D13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_008",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "open_ended_reasoning",
+    "question": "Care deținător benevol a cărui număr de acțiuni este cel mai semnificativ „outlier” (valoare aberantă) în comparație cu ceilalți proprietari individuali (rândurile 2-12)? Justificați-vă răspunsul.",
+    "answer": [
+      [
+        "Steven P. Jobs este cel mai semnificativ „outlier”. Numărul median de acțiuni pentru un individ de pe această listă (rândurile 2-12) este de 112.900. Deținerea lui Steven P. Jobs de 5.546.451 de acțiuni este de aproape 50 de ori mai mare decât mediana și de peste 3,8 ori mai mare decât următorul cel mai mare acționar individual (Ronald B. Johnson), făcându-l un „outlier” clar."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_009",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "value",
+    "question": "Excluzând antetele, care coloană, prin poziție (1, 2, 3 sau 4), este folosită în principal pentru note de subsol sau adnotări, mai degrabă decât pentru valori de date primare?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11",
+      "C12",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_010",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "open_ended_reasoning",
+    "question": "Calculați numărul mediu de acțiuni deținute per persoană în grupul 'toți ofițerii executivi și directorii actuali ca grup'. Cum se compară deținerea lui Arthur D. Levinson cu această medie?",
+    "answer": [
+      [
+        "Numărul mediu de acțiuni per persoană din grup este de aproximativ 596.600 (8.352.396 acțiuni împărțite la 14 persoane). Deținerea lui Arthur D. Levinson de 365.015 acțiuni este considerabil sub această medie calculată cu peste 230.000 de acțiuni."
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "B9",
+      "A13",
+      "B13"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_011",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "value",
+    "question": "Care proprietar beneficial deține cele mai multe acțiuni ordinare?",
+    "answer": [
+      [
+        "Fidelity Investments"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A8",
+      "B8",
+      "A9",
+      "B9",
+      "A10",
+      "B10",
+      "A11",
+      "B11",
+      "A12",
+      "B12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

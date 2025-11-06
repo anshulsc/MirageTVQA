@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "finqa_cedda436f6_001",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "I hvilket år var 'inntekt fra drift før inntektsskatt' høyest?",
+    "answer": [
+      [
+        "2013"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_002",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Hva var den totale skatten på inntekt i millioner dollar på tvers av alle tre årene som vises i tabellen?",
+    "answer": [
+      [
+        "238"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cedda436f6_003",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "For året med lavest netto salg, hva var den tilsvarende 'nettoinntekt fra avhendte virksomheter (tilordnes PPG)' i millioner av dollar?",
+    "answer": [
+      [
+        "2197"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_004",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv utviklingen av 'netto salg' fra året som ble avsluttet i 2011 til 2013.",
+    "answer": [
+      [
+        "Netto salg viste en liten nedgang fra 1732 millioner dollar i 2011 til 1688 millioner dollar i 2012, etterfulgt av et dramatisk fall til 108 millioner dollar i 2013. Dette indikerer en betydelig negativ trend, spesielt i det siste året av perioden."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_005",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "List opp alle finansielle måltall der verdien i 2013 oversteg den kombinerte totalen av verdiene fra 2012 og 2011.",
+    "answer": [
+      [
+        "income from operations before income tax"
+      ],
+      [
+        "income from discontinued operations net of tax"
+      ],
+      [
+        "net income from discontinued operations ( attributable to ppg )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "A7",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_006",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Med hvor mange prosent økte 'nettoinntekt fra avhendede virksomheter (tilordnes ppg)' fra 2012 til 2013?",
+    "answer": [
+      [
+        "921.9%"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cedda436f6_007",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Hvis 'netto gevinst fra separasjon og fusjon' i 2013 hadde vært 25 % lavere, og denne reduksjonen direkte reduserte 'inntekt fra drift før inntektsskatt', hva ville den nye inntekten fra drift ha vært for det året?",
+    "answer": [
+      [
+        "1466"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_008",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "Basert på dataene, analyser forholdet mellom 'netto salg' og 'inntekt fra drift før inntektsskatt' over de tre årene. Er det en konsekvent korrelasjon?",
+    "answer": [
+      [
+        "Det er ingen konsekvent korrelasjon. Fra 2011 til 2012 viste målingene en positiv korrelasjon, da en liten nedgang i salget (fra 1732 millioner dollar til 1688 millioner dollar) samsvarte med en nedgang i inntektene (fra 376 millioner dollar til 345 millioner dollar). Imidlertid snus dette forholdet dramatisk i 2013, hvor en massiv nedgang i netto salg til 108 millioner dollar ledsages av en økning i inntekter til 2014 millioner dollar. Dette antyder at inntektene i 2013 ble drevet av andre faktorer enn kjerne-salget, som for eksempel 'netto gevinst fra separasjon og fusjon av kjemisk råvarevirksomhet'."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cedda436f6_009",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Hvilken finansiell målestokk viser en verdi på '$ 2014' millioner i ett år og '2014' millioner i to andre år, og fremhever en inkonsekvens i dataformateringen for samme numeriske verdi?",
+    "answer": [
+      [
+        "less : net income attributable to non-controlling interests discontinued operations"
+      ],
+      [
+        "net gain from separation and merger of commodity chemicals business"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "A6",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_010",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvilken linje i regnskapet for 2013 representerer den mest betydningsfulle finansielle hendelsen når den sammenlignes med dens null eller nær null implisitte verdi i andre år, og hvordan påvirket den sannsynligvis årets 'resultat før skatter'?",
+    "answer": [
+      [
+        "Den 'netto gevinst fra separasjon og fusjon av råkjemikalievirksomheten' med en verdi på 2192 millioner i 2013 er den mest betydningsfulle finansielle hendelsen. Denne engangshevingen ser ut til å være den primære driveren for det uvanlig høye 'inntekter fra drift før skatter' på 2014 millioner dollar i samme år, noe som er en betydelig avvik sammenlignet med de 345 millioner dollar og 376 millioner dollar som ble rapportert i henholdsvis 2012 og 2011."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cedda436f6_011",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Hva er skatteutgiftene ved utgangen av 2011?",
+    "answer": [
+      [
+        "126"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

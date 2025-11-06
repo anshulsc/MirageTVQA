@@ -1,0 +1,215 @@
+[
+  {
+    "question_id": "finqa_1d2378e7c5_001",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "La data de 31 decembrie 2015, care abordare de reglementare, 'Avansată' sau 'Standardizată', a rezultat într-un 'Capital Total' raportat mai mare și cu cât, în milioane de dolari?",
+    "answer": [
+      [
+        "Standardized approach",
+        "12558"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_002",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Care a fost capitalul 'Tier 1' mediu în milioane de dolari în toate cele patru coloane raportate?",
+    "answer": [
+      [
+        "156051"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_003",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Identificați 'Activele totale ponderate la risc' corespunzătoare coloanei cu cel mai mic 'Raport total de capital'.",
+    "answer": [
+      [
+        "1292605"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "B7",
+      "C7",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_004",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "Presupunând că ultimele două coloane reprezintă datele de anul precedent, descrieți tendința anuală pentru 'Rata capitalului propriu de bază de nivel 1' ('Common Equity Tier 1 Capital Ratio') în cadrul 'Abordării Standardizate' ('Standardized Approach').",
+    "answer": [
+      [
+        "Rata capitalului propriu de bază de nivel 1 ('Common Equity Tier 1 Capital Ratio') pentru Abordarea Standardizată ('Standardized Approach') a prezentat o tendință pozitivă, crescând cu 1,51 puncte procentuale de la 11,12% în perioada anterioară la 12,63% la 31 decembrie 2015."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "E5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_005",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Ce rapoarte de capital sub 'Abordarea Standardizată la 31 decembrie 2015' au fost sub 15%?",
+    "answer": [
+      [
+        "12.63% ( 12.63 % )"
+      ],
+      [
+        "14.11"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A6",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_006",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Pentru data de '31 decembrie 2015 Abordări Avansate', ce proporție din 'Capitalul Total' este atribuibilă 'Capitalului de Nivel 2'? (Notă: Capitalul de Nivel 2 = Capitalul Total - Capitalul de Nivel 1)",
+    "answer": [
+      [
+        "11.85%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_007",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Dacă 'Total Active Ajustate la Risc' sub 'Abordarea Standardizată la 31 decembrie 2015' ar fi fost ipotetic cu 10% mai mari, care ar fi noul 'Raport de Capital de Nivel 1', presupunând că 'Capitalul de Nivel 1' a rămas constant?",
+    "answer": [
+      [
+        "12.83"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_008",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "Ce relație poate fi dedusă între 'Active Totale Ponderate cu Risc' și ratele capitalului prezentate în tabel? Folosiți puncte de date pentru a vă susține concluzia.",
+    "answer": [
+      [
+        "Există o corelație inversă între 'Activele Totale Ponderate cu Risc' și ratele capitalului. Pe măsură ce activele ponderate cu risc (numitorul în calculul ratei) cresc, ratele capitalului scad. De exemplu, coloana cu cele mai mari active (1.292.605 milioane USD) raportează cea mai mică 'Rata Totală a Capitalului' (12,80%), în timp ce coloana cu cele mai mici active (1.162.884 milioane USD) raportează cea mai mare 'Rata Totală a Capitalului' (17,08%)."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "B7",
+      "C7",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_009",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "Ce indicator financiar pentru 31 decembrie 2015 prezintă o discrepanță neobișnuit de mare între abordările „avansată” și „standardizată”, având în vedere că componentele sale primare sunt identice?",
+    "answer": [
+      [
+        "Capitalul Total prezintă o discrepanță neobișnuit de mare. Atât Capitalul Propriu Comun de Nivel 1 (Common Equity Tier 1 Capital), cât și Capitalul de Nivel 1 (Tier 1 Capital) au valori identice sub ambele abordări pentru 2015. Cu toate acestea, Capitalul Total diferă cu peste 12 miliarde USD (186.097 milioane USD față de 198.655 milioane USD), indicând că întreaga diferență se datorează calculului Capitalului de Nivel 2 (Tier 2 Capital), făcându-l un caz atipic."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_010",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "În ciuda antetelor inconsistente ale coloanelor pentru cele două perioade prezentate, ce sume de capital (în milioane de dolari) sunt raportate cu valori identice atât pentru abordările 'Avansate', cât și pentru cele 'Standardizate' în fiecare perioadă respectivă?",
+    "answer": [
+      [
+        "Common equity tier 1 capital"
+      ],
+      [
+        "Tier 1 capital"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_011",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "Dacă activele totale ponderate la risc ale băncii în baza abordării avansate ar crește, în timp ce capitalul total ar rămâne constant, ce s-ar întâmpla cu raportul capitalului total?",
+    "answer": [
+      [
+        "Raportul capitalului total ar scădea, deoarece activele ponderate la risc mai mari, cu capital neschimbat, reduc raportul capitalului."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  }
+]

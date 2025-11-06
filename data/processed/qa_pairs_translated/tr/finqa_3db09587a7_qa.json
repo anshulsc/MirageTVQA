@@ -1,0 +1,315 @@
+[
+  {
+    "question_id": "finqa_3db09587a7_001",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "Mülkiyet ve kaza sigortası ofisleri için kullanılan tüm mülklerin toplam kare ayakları nedir?",
+    "answer": [
+      [
+        "740526"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_3db09587a7_002",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "'Ana yönetici ofisi' olarak KULLANILMAYAN en büyük mülke ev sahipliği yapan eyalet hangisidir?",
+    "answer": [
+      [
+        "pennsylvania"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A8",
+      "B8",
+      "A9",
+      "B9",
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3db09587a7_003",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "Listelenen toplam metrekare alanın yüzde kaçı en büyük tek mülk tarafından kaplanmaktadır?",
+    "answer": [
+      [
+        "49.3%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_3db09587a7_004",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "Chicago'daki idari ofislerden büyüklük olarak bir kat daha küçük olan mülkün konumunu belirleyin.",
+    "answer": [
+      [
+        "101 s . phillips avenue sioux falls south dakota"
+      ],
+      [
+        "600 n . pearl street dallas texas"
+      ],
+      [
+        "675 placentia avenue brea california"
+      ],
+      [
+        "1249 s . river road cranbury new jersey"
+      ],
+      [
+        "4267 meridian parkway aurora illinois"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A8",
+      "B8",
+      "A9",
+      "B9",
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_3db09587a7_005",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "Merkezi kullanım amacı 'sigorta ve zarar sigortası ofisleri' dışında olan ve Illinois'de bulunan tüm mülklerin konumlarını listeleyin.",
+    "answer": [
+      [
+        "333 s . wabash avenue chicago illinois"
+      ],
+      [
+        "4267 meridian parkway aurora illinois"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7",
+      "A8",
+      "C8",
+      "A9",
+      "C9",
+      "A10",
+      "C10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_3db09587a7_006",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "En küçük üç mülk tek bir yeni konuma birleştirilirse, kalan 8 mülkün (7 daha büyük orijinal olan artı yeni birleştirilmiş olan) ortalama büyüklüğü ne olur?",
+    "answer": [
+      [
+        "200257.625"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_3db09587a7_007",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "open_ended_reasoning",
+    "question": "Sağlanan verilere göre bir mülkün boyutu ile ana kullanım amacı arasında ne gibi bir örüntü veya ilişki çıkarılabilir?",
+    "answer": [
+      [
+        "Belirgin bir korelasyon mevcuttur: en büyük mülk (803.728 fit kare) benzersiz bir şekilde 'ana yönetici ofisleri' olarak belirlenmiştir. En küçük mülkler, 'veri merkezi' (46.903 fit kare) gibi özel tesisler olma eğilimindedir. Orta ila büyük boy aralığında (56.100 ila 171.318 fit kare) yer alan mülklerin büyük çoğunluğu 'sigorta ofisleri' olarak kullanılmaktadır. Bu, tesis büyüklüğüne dayalı katmanlı bir kullanım stratejisi olduğunu göstermektedir; yönetici fonksiyonları en fazla alanı gerektirirken, genel ofisler geniş bir orta aralığı kaplamakta ve özel altyapı en az alanı kullanmaktadır."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_3db09587a7_008",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "Bu veri setinde kaç farklı 'temel kullanım' kategorisi temsil edilmektedir?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_3db09587a7_009",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "Tüm mülklerin medyan boyutuna kıyasla en önemli aykırı değere sahip olan mülkün konumunu belirleyin.",
+    "answer": [
+      [
+        "333 s . wabash avenue chicago illinois"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_3db09587a7_010",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "Konum listesinde birden fazla geçen bir eyalette bulunan mülklerin medyan boyutu nedir?",
+    "answer": [
+      [
+        "425315.5"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3db09587a7_011",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "333 S. Wabash Avenue, Chicago, Illinois adresinde bulunan CNA'nın ana yönetim ofislerinin büyüklüğü (feet kare olarak) nedir?",
+    "answer": [
+      [
+        "803,728"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_f5477c4414_001",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "'2013 yılında bildirilen krediler' için, aynı sütundan hesaplanan ve bileşen kredi türlerinin toplamı olan değer 2012 yılında ne kadardı?",
+    "answer": [
+      [
+        "1717"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f5477c4414_002",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "'loans 2013 reported' hariç hangi kredi kategorisi, 2012'den 2013'e kadar 31 Aralık bakiyesinde en yüksek yüzdesel büyümeyi yaşamıştır?",
+    "answer": [
+      [
+        "loans held-for-sale"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_003",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "'Toplam kurumsal krediyle ilgili varlıklar' en düşük seviyesindeyken, 'kredilendirmeyle ilgili taahhütlerin' değeri ne kadardı?",
+    "answer": [
+      [
+        "$ 434814"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_004",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "31 Aralık 2013 itibarıyla 'toplam kurumsal kredi riski'nin yüzde kaçı 'kredilendirme ile ilgili taahhütler'den kaynaklanıyordu?",
+    "answer": [
+      [
+        "51.87%"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "B9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f5477c4414_005",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "31 Aralık 2013 tarihindeki değerinin 31 Aralık 2012 tarihine göre azaldığı tüm varlık veya yükümlülük kategorilerini listeleyin.",
+    "answer": [
+      [
+        "loans at fair value ( a )"
+      ],
+      [
+        "derivative receivables"
+      ],
+      [
+        "liquid securities and other cash collateral held against derivatives"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A11",
+      "B11",
+      "C11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_006",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "'Müşterilerden ve diğerlerinden alacaklar (b)' kaleminin '2013' sütunundaki (D sütunu) değeri %25 daha yüksek olsaydı, o sütundaki yeni 'toplam kurumsal krediyle ilgili varlıklar' ne olurdu?",
+    "answer": [
+      [
+        "1962.5"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "D7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_007",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "'2013' ve '2012' sütunları (D ve E) arasındaki en büyük mutlak farkla en anormal değişikliği gösteren finansal öğeyi (A sütunundan) belirleyin.",
+    "answer": [
+      [
+        "loans 2013 reported"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A2",
+      "D2",
+      "E2",
+      "A3",
+      "D3",
+      "E3",
+      "A4",
+      "D4",
+      "E4",
+      "A5",
+      "D5",
+      "E5",
+      "A6",
+      "D6",
+      "E6",
+      "A7",
+      "D7",
+      "E7",
+      "A8",
+      "D8",
+      "E8",
+      "A9",
+      "D9",
+      "E9",
+      "A10",
+      "D10",
+      "E10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f5477c4414_008",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Sütunlarının doğrudan toplanmasını engelleyen (na) sayısal olmayan metin içeren hücreyi/hücreleri belirleyin.",
+    "answer": [
+      [
+        "D11"
+      ],
+      [
+        "E11"
+      ]
+    ],
+    "evidence_cells": [
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_009",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "open_ended_reasoning",
+    "question": "'Toplam kurumsal kredi maruziyeti' için 2012 sonundan 2013'e kadar olan eğilimi ve bunun ana etkenlerini analiz edin.",
+    "answer": [
+      [
+        "‘Toplam kurumsal kredi maruziyeti’, 2012'de 846.628 milyon dolardan 2013'te 860.299 milyon dolara mütevazı bir artış gösterdi. Bu büyüme, öncelikle 'satış için tutulan krediler'deki önemli bir artış (%156 artış) ve 'kredi verme ile ilgili taahhütler'deki yükselişten (%2,6 artış) kaynaklandı. Ancak bu büyüme, 'türev alacakları'ndaki dikkat çekici %12,3'lük düşüş ve 'gerçeğe uygun değerdeki krediler'deki %21,3'lük düşüş ile kısmen dengelendi, bu da kredi portföyünün bileşiminde bir değişim olduğunu gösteriyor."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B8",
+      "C8",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_010",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "open_ended_reasoning",
+    "question": "Yıl sonu bakiyelerindeki 2012'den 2013'e kadar olan değişikliklere göre, 'türev alacakları' ile 'toplam kurumsal krediye dayalı varlıklar' arasındaki görünür ilişki nedir?",
+    "answer": [
+      [
+        "Bu sınırlı veri setinde ters bir ilişki olduğu görülüyor. 2012 sonundan 2013 sonuna kadar 'türev alacakları' 74.983 milyon dolardan 65.759 milyon dolara düştü. Eş zamanlı olarak, 'toplam kurumsal krediye dayalı varlıklar' 411.814 milyon dolardan 414.067 milyon dolara yükseldi. Bu, türev alacaklarının değerinin düşmesiyle birlikte diğer varlıkların bunu telafi etmekten fazlasıyla artarak toplam varlıklarda genel bir artışa yol açtığını göstermektedir. Ancak, yalnızca iki veri noktasından kesin bir korelasyon kurmak mümkün değildir."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f5477c4414_011",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Hangi yıl tutulan kredi en yüksek seviyededir?",
+    "answer": [
+      [
+        "2013"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

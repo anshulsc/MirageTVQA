@@ -1,0 +1,217 @@
+[
+  {
+    "question_id": "finqa_16910e868d_001",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Qual tipo específico de obrigação representa o maior pagamento devido no período 'exercício de 2022 e 2023'?",
+    "answer": [
+      [
+        "long-term debt including current portionexcluding capital lease obligations ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_002",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Qual é o valor total de todas as obrigações relacionadas a arrendamentos (operacionais e de capital) com vencimento no período 'fiscal 2020 e 2021'?",
+    "answer": [
+      [
+        "206.6"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_16910e868d_003",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Para o tipo de obrigação com o menor pagamento devido em 2019, qual é o valor correspondente do pagamento devido 'posteriormente'?",
+    "answer": [
+      [
+        "138.1"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "F3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_004",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "Descreva a tendência de pagamento para 'obrigações de arrendamento operacional' nos períodos fiscais especificados.",
+    "answer": [
+      [
+        "Os pagamentos para 'obrigações de arrendamento operacional' mostram uma tendência de 'front-loading'. Começam em US$ 132,1 milhões em 2019, atingem o pico de US$ 199,9 milhões no período de 2020-2021, e depois diminuem para US$ 118,4 milhões em 2022-2023, com um valor final de US$ 165,4 milhões a serem pagos posteriormente. Isso sugere que muitos arrendamentos estavam ativos no curto prazo com menos compromissos de longo prazo em comparação com seu período de pico."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_005",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Liste todas as categorias de obrigações onde o valor total devido é inferior a US$ 1000 milhões e o valor devido 'posteriormente' é superior a US$ 150 milhões.",
+    "answer": [
+      [
+        "operating lease obligations ( 2 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "F1",
+      "A2",
+      "B2",
+      "F2",
+      "A3",
+      "B3",
+      "F3",
+      "A4",
+      "B4",
+      "F4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_006",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Qual percentual da 'dívida de longo prazo' total é devido 'posteriormente'?",
+    "answer": [
+      [
+        "51.94%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "F1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_16910e868d_007",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Se todas as 'obrigações de leasing de capital' fossem perdoadas e removidas da tabela, quais seriam os novos 'total' de pagamentos devidos para o 'ano fiscal de 2019'?",
+    "answer": [
+      [
+        "$ 2535.3"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_008",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "Com base nos dados, qual é a diferença fundamental na estrutura de vencimento entre 'dívida de longo prazo' e 'obrigações de compra e outros'?",
+    "answer": [
+      [
+        "Existe uma clara relação inversa em suas estruturas de vencimento. A 'dívida de longo prazo' é significativamente concentrada no final, com mais da metade do seu total (US$ 3.136,6 milhões de US$ 6.039,0 milhões) vencendo no período 'posterior'. Inversamente, as 'obrigações de compra e outros' são fortemente concentradas no início, com a grande maioria (US$ 1.676,6 milhões de US$ 2.210,5 milhões) vencendo no período mais inicial, o ano fiscal de 2019, indicando que estes são principalmente compromissos de curto prazo."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "F1",
+      "B4",
+      "C4",
+      "F4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_16910e868d_009",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "Como o valor na célula E5, o total para 'exercício social de 2022 e 2023', é calculado a partir de outros números na tabela?",
+    "answer": [
+      [
+        "O valor na célula E5 ($ 1587.0) é a soma vertical dos pagamentos devidos no período 'exercício social de 2022 e 2023' para cada uma das quatro categorias de obrigações listadas acima dela: $ 1351.0 (E1), $ 118.4 (E2), $ 2.7 (E3) e $ 114.9 (E4)."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_010",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "Qual período de pagamento representa um outlier significativo em termos de sua proporção das obrigações totais e o que impulsiona essa anomalia?",
+    "answer": [
+      [
+        "O ano fiscal de 2019 é um outlier. Seu total de US$ 2.540,3 milhões é significativamente maior do que os dois períodos subsequentes (US$ 1.255,5 milhões e US$ 1.587,0 milhões). Essa anomalia é impulsionada quase inteiramente pela categoria 'obrigações de compra e outras', que tem um pagamento incomumente grande de US$ 1.676,6 milhões devido naquele ano, representando cerca de 66% do total do período."
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_16910e868d_011",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Qual é o total de todas as obrigações de arrendamento (operacionais e de capital) em milhões a pagar até 2019 e combinadas de 2020-2021?",
+    "answer": [
+      [
+        "$343.7"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

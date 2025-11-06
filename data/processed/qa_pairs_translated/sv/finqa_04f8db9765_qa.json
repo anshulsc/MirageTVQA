@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_04f8db9765_001",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv trenden för \"net loss as reported\" (nettoförlust enligt rapportering) från år 2000 till 2002.",
+    "answer": [
+      [
+        "\"Net loss as reported\" (nettoförlust enligt rapportering) visar en trend av accelererande förluster under treårsperioden. Förlusten mer än fördubblades från 194 628 USD år 2000 till 450 094 USD år 2001, och fördubblades sedan igen till 1 141 879 USD år 2002, vilket indikerar en signifikant försämrad finansiell prestation varje år."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_002",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Vad var den totala 'pro-forma nettoförlusten' ackumulerad över alla tre åren som presenteras i tabellen?",
+    "answer": [
+      [
+        "-1926453"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_04f8db9765_003",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Vilket år var den absoluta skillnaden mellan 'as reported' (rapporterad) och 'pro-forma' grundförlust per aktie den minsta?",
+    "answer": [
+      [
+        "2002"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_004",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Beräkna \"totala kostnaden för aktiebaserade anställda ersättningar\" som en procentandel av \"nettoförlusten enligt rapport\" för år 2001.",
+    "answer": [
+      [
+        "11.23%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_04f8db9765_005",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Vilket år, om något, hade en absolut 'net loss as reported' större än 400 000 USD men en absolut 'pro-forma net loss' på mindre än 600 000 USD?",
+    "answer": [
+      [
+        "2001"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3",
+      "C1",
+      "C3",
+      "D1",
+      "D3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_006",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Vilket år växte pro forma-nettoförlusten med det största absoluta beloppet jämfört med föregående år?",
+    "answer": [
+      [
+        "2002"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_04f8db9765_007",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Om 'total kostnad för aktiebaserade ersättningar till anställda' för år 2000 hade varit 20% högre, vad skulle då 'pro-forma nettoförlusten' ha varit för det året?",
+    "answer": [
+      [
+        "-256041.2"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_008",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Vilken mätvärde hade en högre magnitud år 2002: 'net loss as reported' eller 'pro-forma net loss'?",
+    "answer": [
+      [
+        "pro-forma net loss"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_009",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "open_ended_reasoning",
+    "question": "Baserat på den tillhandahållna datan, vad är det uppenbara sambandet mellan \"net loss as reported\" (redovisad nettoförlust) och \"stock-based employee compensation expense\" (kostnad för aktiebaserad personalersättning) under treårsperioden?",
+    "answer": [
+      [
+        "Det finns ett omvänt samband mellan de två mätvärdena. Allt eftersom \"net loss as reported\" (redovisad nettoförlust) ökade markant i magnitud från 2000 till 2002, minskade \"stock-based employee compensation expense\" (kostnad för aktiebaserad personalersättning) varje år. Detta tyder på att företaget kan ha minskat aktiebaserad ersättning i takt med att förlusterna växte."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "C1",
+      "C2",
+      "D1",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_04f8db9765_010",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "open_ended_reasoning",
+    "question": "Vilken är den konsekventa effekten av 'pro-forma'-justeringen på 'nettoförlust per aktie (grundläggande och utspädd)' jämfört med siffran 'som rapporterad' under alla år?",
+    "answer": [
+      [
+        "Justeringen 'pro-forma' ökar konsekvent storleken på förlusten per aktie under varje år som visas. Detta indikerar att de poster som justeras för, såsom kompensation i form av aktier, alltid resulterar i en större beräknad förlust per aktie."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_011",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Vad är den totala förlusten som rapporterades 2001?",
+    "answer": [
+      [
+        "$ -450094 ( 450094 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

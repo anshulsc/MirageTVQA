@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_b54bfca53d_001",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Kewajipan kontrak manakah, tidak termasuk jumlah keseluruhan, yang mempunyai jumlah tertinggi perlu dibayar dalam tempoh '1-3 tahun'?",
+    "answer": [
+      [
+        "purchase obligations ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_002",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Dengan menjumlahkan pembayaran bagi setiap obligasi individu, sahkan sama ada jumlah keseluruhan bagi tempoh '1-3 tahun' yang disenaraikan dalam baris 'jumlah pembayaran bagi kewajipan kontrak' adalah tepat.",
+    "answer": [
+      [
+        "Ya, jumlah keseluruhan adalah tepat. Jumlah obligasi individu bagi tempoh '1-3 tahun' ialah $188.3 + $316.4 + $37.1 + $3779.4, yang bersamaan dengan $4321.2, sepadan dengan nilai dalam baris jumlah keseluruhan."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_003",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Bagi obligasi kontrak dengan jumlah pembayaran keseluruhan terendah, berapakah peratusan daripadanya yang perlu dibayar dalam tempoh '1-3 tahun'?",
+    "answer": [
+      [
+        "39.81%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "D3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_004",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Jadual pembayaran untuk 'hutang jangka panjang termasuk pajakan modal' merentasi tempoh yang dinyatakan adalah seperti mana? Adakah ia dimuatkan di hadapan, dimuatkan di belakang, atau diagihkan secara sama rata?",
+    "answer": [
+      [
+        "Jadual pembayaran untuk hutang jangka panjang sangat dimuatkan di belakang. Pembayaran bermula kecil pada $34.5 juta ('kurang daripada 1 tahun'), meningkat secara berterusan melalui tempoh 1-3 dan 3-5 tahun, dan memuncak dalam pembayaran yang sangat besar sebanyak $2160.2 juta dalam tempoh 'lebih daripada 5 tahun', yang mewakili lebih 78% daripada keseluruhan obligasi."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "E1",
+      "F1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_005",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Senaraikan semua kategori obligasi di mana bayaran yang perlu dibayar dalam 'kurang dari 1 tahun' adalah kurang daripada bayaran yang perlu dibayar dalam '1-3 tahun'.",
+    "answer": [
+      [
+        "long-term debt including capital leases"
+      ],
+      [
+        "interest payments on long-term debt ( b )"
+      ],
+      [
+        "operating leases"
+      ],
+      [
+        "purchase obligations ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_006",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Berapakah peratusan 'hutang jangka panjang termasuk pajakan modal' yang dijadualkan untuk dibayar dalam tempoh lebih daripada 5 tahun?",
+    "answer": [
+      [
+        "78.55%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "F1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_007",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Sekiranya polisi baharu mewajibkan semua 'pembelian tanggungan' yang perlu dibayar dalam tempoh '1-3 tahun' dibayar segera (dalam tempoh 'kurang daripada 1 tahun'), berapakah jumlah baharu untuk bayaran 'kurang daripada 1 tahun' bagi kewajipan kontrak?",
+    "answer": [
+      [
+        "$6715.0 million"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_008",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Jadual ini mengandungi isu integriti data di mana jumlah bayaran berkala untuk satu jenis obligasi tidak sepadan dengan jumlah keseluruhannya. Kenal pasti obligasi ini dan hitung perbezaannya.",
+    "answer": [
+      [
+        "Baris 'purchase obligations ( c )' mempunyai isu integriti data. Jumlah bayaran berkala baginya ($2709.5 + $3779.4 + $98.0 + $2212 = $8798.9 juta) tidak sepadan dengan jumlah keseluruhannya yang dinyatakan iaitu $6586.9 juta. Perbezaannya ialah $2212 juta."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_009",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Melihat tempoh pembayaran '3-5 tahun', kewajipan kontrak manakah yang mempunyai nilai terendah dan boleh dianggap sebagai outlier berbanding yang lain dalam lajur yang sama?",
+    "answer": [
+      [
+        "operating leases"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_010",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Adakah terdapat hubungan yang konsisten antara magnitud keseluruhan kewajipan dan struktur pembayarannya (contohnya, adakah kewajipan yang lebih besar sentiasa lebih tertumpu pada pembayaran akhir)? Justifikasikan jawapan anda dengan data.",
+    "answer": [
+      [
+        "Tidak, tiada hubungan yang konsisten. Kewajipan keseluruhan yang terbesar, 'kewajipan pembelian' ($6586.9 juta), lebih tertumpu pada pembayaran awal dengan majoritinya perlu dibayar dalam tempoh 3 tahun. Sebaliknya, yang kedua terbesar, 'hutang jangka panjang' ($2750.1 juta), lebih tertumpu pada pembayaran akhir, dengan pembayaran terbesar perlu dibayar dalam tempoh lebih dari 5 tahun. Ini menunjukkan struktur pembayaran adalah spesifik kepada jenis kewajipan, bukan nilai keseluruhannya."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "F1",
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_011",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Berapakah jumlah bayaran dalam jutaan untuk obligasi kontrak yang perlu dibayar mengikut tempoh 1-3 tahun?",
+    "answer": [
+      [
+        "$4321.2"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

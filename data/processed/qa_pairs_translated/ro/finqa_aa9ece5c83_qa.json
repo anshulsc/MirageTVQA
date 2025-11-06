@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_aa9ece5c83_001",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Care set de date financiare, cel care începe în coloana B sau cel din coloana E, a avut un venit operațional 'ajustat' mai mare pentru anul încheiat la 31 decembrie 2016?",
+    "answer": [
+      [
+        "The data set starting in column B ($4050 million)"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "G1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_002",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Care este suma netă a tuturor ajustărilor în 'schimbarea principiului contabil' bazate pe dolari pentru primul set de date (coloana C)?",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_003",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Care a fost marja EBITDA ajustată 'așa cum a fost depusă' pentru setul de date în care 'modificarea principiului contabil' pentru venitul din dobânzi a fost '-414 ( 414 )'?",
+    "answer": [
+      [
+        "30% ( 30 % )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "F2",
+      "A6",
+      "E6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_004",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Pentru primul set de date (coloanele B-D), care este raportul dintre venitul net 'ca atare' și EBITDA ajustat 'ca atare', rotunjit la trei zecimale?",
+    "answer": [
+      [
+        "0.141"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_005",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Pentru setul de date prezentat în coloanele B până la D, identificați metrica unde valoarea 'as adjusted' este mai mică decât valoarea 'as filed'.",
+    "answer": [
+      [
+        "interest income"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A5",
+      "B5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_006",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "În rândurile pentru 'venit net ca procent din veniturile din servicii', care valoare 'modificare a principiului contabilității' pare anomaloasă și de ce?",
+    "answer": [
+      [
+        "Valoarea 'modificare a principiului contabilității' de '2014% ( 2014 % )' din celulele C4 și F4 este anomală. Pentru ambele seturi de date, 'venitul net ca procent din veniturile din servicii' rămâne neschimbat între cifrele 'așa cum au fost raportate' și 'ajustate' (5% la 5% și respectiv 3% la 3%). O modificare logică ar fi 0%, făcând '2014%' un valor absolut ieșit din comun, probabil rezultând dintr-o eroare de introducere a datelor."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_007",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Dacă 'modificarea principiului de contabilitate' pentru venitul operațional din al doilea set de date ar fi fost o scădere de 50 milioane USD în loc de valoarea afișată, care ar fi fost noul venit operațional 'ajustat'?",
+    "answer": [
+      [
+        "$ 2015"
+      ]
+    ],
+    "evidence_cells": [
+      "E1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_008",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "Există o relație constantă între ajustările contabile pentru venitul operațional și EBITDA ajustat în ambele seturi de date?",
+    "answer": [
+      [
+        "Da, există o relație pozitivă constantă. În primul set de date, modificarea pentru venitul operațional (+$248) este identică cu modificarea pentru EBITDA ajustat (+$248). În al doilea set de date, modificarea pentru venitul operațional (+$414) este, de asemenea, identică cu modificarea pentru EBITDA ajustat (+$414). Acest lucru sugerează că schimbarea principiului contabil care afectează venitul operațional se reflectă direct în EBITDA ajustat în aceeași valoare."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "F1",
+      "F5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_009",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "Care este cea mai semnificativă problemă structurală a antetelor de coloană care ar putea duce la confuzie la interpretarea tabelului?",
+    "answer": [
+      [
+        "Problema structurală principală este duplicarea antetelor de coloană fără o grupare la nivel superior. Antetele \"year ended december 31 2016 as filed\" și \"year ended december 31 2016 change in accounting principle\" sunt utilizate pentru două seturi diferite de coloane (B și E; C și F). Această ambiguitate obligă utilizatorul să deducă faptul că sunt comparate două entități sau scenarii distincte, în loc să fie declarat explicit."
+      ]
+    ],
+    "evidence_cells": [],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_010",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Folosind valorile 'as adjusted', calculați venitul implicit din servicii pentru ambele seturi de date (EBITDA ajustat / Marja EBITDA ajustată) și raportați diferența în milioane între cele două (primul set minus al doilea set), rotunjită la cel mai apropiat milion întreg.",
+    "answer": [
+      [
+        "$2,814"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D6",
+      "G5",
+      "G6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_011",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Cu cât a crescut venitul operațional (în milioane) pentru primul set de date, după ajustarea de la 'Înregistrat' la 'Ajustat'?",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

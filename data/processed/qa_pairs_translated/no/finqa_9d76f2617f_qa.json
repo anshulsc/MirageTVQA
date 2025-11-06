@@ -1,0 +1,237 @@
+[
+  {
+    "question_id": "finqa_9d76f2617f_001",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Hva var den totale økningen i 'utestående aksjer' som følge av 'employee stock purchase plan' over hele den viste perioden?",
+    "answer": [
+      [
+        "6894763"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D6",
+      "D11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_002",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "I hvilket år (2001, 2002 eller 2003) bidro 'aksjer solgt til opsjonshavere' mest til økningen i 'aksjer utestående'?",
+    "answer": [
+      [
+        "2002"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "A5",
+      "A8",
+      "D8",
+      "A10",
+      "A13",
+      "D13",
+      "A14"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_003",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv utviklingen av selskapets egne aksjer fra begynnelsen av 2001 til slutten av 2003, basert på balanserapportene.",
+    "answer": [
+      [
+        "Antallet aksjer holdt i depot minket jevnt og trutt fra år til år. Balansen falt fra omtrent 94,4 millioner ved starten av 2001 til 91,2 millioner ved slutten av 2001, deretter til 84,9 millioner ved slutten av 2002, og til slutt til 81,2 millioner ved slutten av 2003. Dette indikerer at selskapet re-utstedte aksjer fra sitt depot (f.eks. for ansatteplaner og opsjoner) raskere enn det tilbakekjøpte dem."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "C10",
+      "C14"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_004",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Hva var nettoendringen i 'aksjer utestående' i løpet av hele kalenderåret som inkluderte 'acquisition of technoguide'?",
+    "answer": [
+      [
+        "6282717"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "D5",
+      "D10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_005",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "List alle transaksjonstyper, unntatt saldi, som resulterte i en økning i 'shares outstanding' på mer enn 2 000 000 aksjer.",
+    "answer": [
+      [
+        "employee stock purchase plan"
+      ],
+      [
+        "shares sold to optionees"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8",
+      "A9",
+      "D9",
+      "A11",
+      "D11",
+      "A13",
+      "D13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_006",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Hvilken prosentandel av den totale økningen i 'aksjer utestående' for året 2002 ble tilskrevet 'ervervelse av technoguide'?",
+    "answer": [
+      [
+        "21.45%"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_007",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Hvis 'employee stock purchase plan' i 2002 hadde resultert i 1 000 000 færre aksjer lagt til utestående antall, hva ville 'balance december 31 2002' for 'shares outstanding' ha vært?",
+    "answer": [
+      [
+        "581173115"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "D10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_008",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Hvilken transaksjon mellom de årlige balansene representerer et uteliggende trekk med minimal innvirkning på 'outstanding shares', og hva var den innvirkningen?",
+    "answer": [
+      [
+        "shares granted to directors",
+        "3500"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "A7",
+      "D7",
+      "A12",
+      "D12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_009",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "For 'aksjer solgt til opsjonsmottakere'-hendelsene, hva er det konsistente matematiske forholdet mellom kolonnene 'issued', 'in treasury' og 'shares outstanding'?",
+    "answer": [
+      [
+        "For alle transaksjoner knyttet til 'aksjer solgt til opsjonsmottakere', er verdien i kolonnen 'shares outstanding' summen av verdiene i kolonnene 'issued' og 'in treasury'. Dette innebærer at aksjene for opsjonsmottakere ble hentet fra både en ny utstedelse og fra selskapets eksisterende egenkapitalbeholdning (treasury stock)."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "B8",
+      "C8",
+      "D8",
+      "B13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_010",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "Kolonnen 'issued' inneholder verdien '2013' for flere transaksjonstyper der verdien for 'in treasury' er forskjellig fra null. Hva antyder dette om kilden til aksjene for disse transaksjonene?",
+    "answer": [
+      [
+        "I hver rad der kolonnen 'issued' viser '2013', er verdien for 'in treasury' identisk med verdien for 'shares outstanding'. Dette indikerer at for disse transaksjonene (f.eks. 'employee stock purchase plan', 'acquisition of technoguide'), kom alle aksjene fra selskapets egne beholdninger (treasury) og ingen nye aksjer ble faktisk utstedt. Tallet '2013' er sannsynligvis en plassholder, en identifikator eller en datarelatert feil, ikke en mengde utstedte aksjer."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "C3",
+      "D3",
+      "B6",
+      "C6",
+      "D6",
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_011",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvordan endret antall utestående aksjer seg fra balansen per 1. januar 2001 til balansen per 31. desember 2003, og hvilke aktiviteter bidro sannsynligvis til denne endringen?",
+    "answer": [
+      [
+        "Antall utestående aksjer økte med 13 223 634 (fra 572 724 694 til 585 948 328). Denne økningen ser ut til å være drevet av aksjeemisjoner som opsjonsinnløsninger og aktivitet i ansattes kjøpsordning (flere oppføringer for 'aksjer solgt til opsjonshavere' og 'ansattes aksjekjøpsordning'), en oppkjøpsrelatert emisjon (Technoguide), og en netto reduksjon i egne aksjer – som samlet økte antallet utestående aksjer."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "C1",
+      "A14",
+      "D14",
+      "C14",
+      "A4",
+      "B4",
+      "A8",
+      "B8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

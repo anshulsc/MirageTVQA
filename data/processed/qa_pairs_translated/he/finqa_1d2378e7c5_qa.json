@@ -1,0 +1,215 @@
+[
+  {
+    "question_id": "finqa_1d2378e7c5_001",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "נכון ל-31 בדצמבר 2015, איזה גישה רגולטורית, 'מתקדמת' או 'סטנדרטית', הניבה 'סך הון' גבוה יותר, ובכמה במיליוני דולרים?",
+    "answer": [
+      [
+        "Standardized approach",
+        "12558"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_002",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "מה היה 'הון ליבה 1' הממוצע במיליוני דולרים בכל ארבע העמודות שדווחו?",
+    "answer": [
+      [
+        "156051"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_003",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "זהה את 'סך הנכסים המשוקללים בסיכון' המתאימים לעמודה עם 'יחס ההון הכולל' הנמוך ביותר.",
+    "answer": [
+      [
+        "1292605"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "B7",
+      "C7",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_004",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "בהנחה ששתי העמודות האחרונות מייצגות את נתוני השנה הקודמת, תאר את מגמת השנה-על-שנה עבור 'יחס הון עצמי מסוג הון מדרגה ראשונה' תחת 'הגישה הסטנדרטית'.",
+    "answer": [
+      [
+        "יחס הון עצמי מסוג הון מדרגה ראשונה' עבור 'הגישה הסטנדרטית' הראה מגמה חיובית, וגדל ב-1.51 נקודות אחוז מ-11.12% בתקופה הקודמת ל-12.63% ב-31 בדצמבר 2015."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "E5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_005",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "אילו יחסי הון תחת '31 בדצמבר 2015 גישה סטנדרטית' היו מתחת ל-15%?",
+    "answer": [
+      [
+        "12.63% ( 12.63 % )"
+      ],
+      [
+        "14.11"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A6",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_006",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "עבור '31 בדצמבר 2015 גישות מתקדמות', איזה חלק מה'הון הכולל' מיוחס ל'הון סוג 2'? (הערה: הון סוג 2 = הון כולל - הון סוג 1)",
+    "answer": [
+      [
+        "11.85%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_007",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "אם 'סך נכסים משוקללי סיכון' תחת 'הגישה התקנית ל-31 בדצמבר 2015' היו גבוהים יותר ב-10% באופן היפותטי, מה יהיה 'יחס הון מדרגה 1' החדש, בהנחה ש'הון מדרגה 1' נשאר קבוע?",
+    "answer": [
+      [
+        "12.83"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_008",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "איזה קשר ניתן להסיק בין 'סך נכסים משוקללי סיכון' לבין יחסי ההון המוצגים בטבלה? השתמש בנקודות נתונים כדי לתמוך במסקנתך.",
+    "answer": [
+      [
+        "קיים קשר הפוך בין 'סך נכסים משוקללי סיכון' לבין יחסי ההון. ככל שהנכסים משוקללי הסיכון (המכנה בחישוב היחס) עולים, יחסי ההון יורדים. לדוגמה, העמודה עם הנכסים הגבוהים ביותר (1,292,605 מיליון דולר) מדווחת על 'יחס הון כולל' הנמוך ביותר (12.80), בעוד שהעמודה עם הנכסים הנמוכים ביותר (1,162,884 מיליון דולר) מדווחת על 'יחס הון כולל' הגבוה ביותר (17.08)."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "B7",
+      "C7",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_009",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "איזה מדד פיננסי לתאריך 31 בדצמבר 2015, מציג פער גדול באופן חריג בין הגישות 'מתקדמת' ל'סטנדרטית', בהתחשב בכך שהרכיבים העיקריים שלו זהים?",
+    "answer": [
+      [
+        "ההון הכולל מציג פער גדול באופן חריג. גם הון עצמי מסוג הליבה של באזל 3 וגם הון מסוג הליבה (Tier 1) זהים בשתי הגישות לשנת 2015. עם זאת, ההון הכולל שונה ביותר מ-12 מיליארד דולר (186,097 מיליון דולר לעומת 198,655 מיליון דולר), מה שמצביע על כך שההבדל כולו נובע מחישוב ההון מסוג 2 (Tier 2 Capital), מה שהופך אותו לחריג."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_010",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "למרות כותרות העמודות הלא עקביות עבור שתי התקופות המוצגות, אילו סכומי הון (במיליוני דולרים) מדווחים עם ערכים זהים עבור גישות 'מתקדמות' (Advanced) ו'סטנדרטיות' (Standardized) בכל תקופה בהתאמה?",
+    "answer": [
+      [
+        "Common equity tier 1 capital"
+      ],
+      [
+        "Tier 1 capital"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_011",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "אם סך הנכסים המשוקללים בסיכון של הבנק לפי הגישה המתקדמת יעלה בעוד שההון הכולל יישאר קבוע, מה יקרה ליחס ההון הכולל?",
+    "answer": [
+      [
+        "יחס ההון הכולל יירד מכיוון שסיכונים מוגברים בנכסים עם הון ללא שינוי מפחיתים את יחס ההון."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  }
+]

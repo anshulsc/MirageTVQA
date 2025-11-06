@@ -1,0 +1,215 @@
+[
+  {
+    "question_id": "finqa_1d2378e7c5_001",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "For 31. desember 2015, hvilken regulatorisk tilnærming, 'Avansert' eller 'Standardisert', resulterte i en høyere rapportert 'Total kapital', og hvor mye i millioner dollar?",
+    "answer": [
+      [
+        "Standardized approach",
+        "12558"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_002",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Hva var gjennomsnittet av 'Tier 1 Capital' i millioner dollar på tvers av alle fire rapporterte kolonnene?",
+    "answer": [
+      [
+        "156051"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_003",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Identifiser 'Totale risikovektede eiendeler' som tilsvarer kolonnen med det laveste 'Totale kapitalkrav'.",
+    "answer": [
+      [
+        "1292605"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "B7",
+      "C7",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_004",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "Forutsatt at de to siste kolonnene representerer fjorårets data, beskriv trenden fra år til år for 'Common Equity Tier 1 Capital Ratio' under 'Standardized Approach'.",
+    "answer": [
+      [
+        "For 'Common Equity Tier 1 Capital Ratio' under 'Standardized Approach' var det en positiv trend, med en økning på 1,51 prosentpoeng fra 11,12 % i forrige periode til 12,63 % per 31. desember 2015."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "E5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_005",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Hvilke kapitalkvoter under '31. desember 2015 Standardisert Tilnærming' var under 15 %?",
+    "answer": [
+      [
+        "12.63% ( 12.63 % )"
+      ],
+      [
+        "14.11"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A6",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_006",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "For '31. desember 2015 Avanserte tilnærminger', hvilken andel av 'Total kapital' skyldes 'Tier 2-kapital'? (Merk: Tier 2-kapital = Total kapital - Tier 1-kapital)",
+    "answer": [
+      [
+        "11.85%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_007",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Hvis 'Total Risk-Weighted Assets' under 'Desember 31, 2015 Standardized Approach' hypotetisk sett var 10 % høyere, hva ville den nye 'Tier 1 Capital Ratio' være, forutsatt at 'Tier 1 Capital' forble konstant?",
+    "answer": [
+      [
+        "12.83"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_008",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvilket forhold kan utledes mellom 'Totale risikovektede eiendeler' og kapitalratioene som presenteres i tabellen? Bruk datapunkter for å underbygge konklusjonen din.",
+    "answer": [
+      [
+        "Det eksisterer en omvendt sammenheng mellom 'Totale risikovektede eiendeler' og kapitalratioene. Etter hvert som de risikovektede eiendelene (nevneren i ratio-beregningen) øker, synker kapitalratioene. For eksempel rapporterer kolonnen med de høyeste eiendelene (1 292 605 millioner dollar) den laveste 'Totale kapitalratio' (12,80), mens kolonnen med de laveste eiendelene (1 162 884 millioner dollar) rapporterer den høyeste 'Totale kapitalratio' (17,08)."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "B7",
+      "C7",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_009",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvilken finansiell metrikk for 31. desember 2015 viser en uvanlig stor diskrepans mellom 'Advanced' og 'Standardized' tilnærmingene, gitt at dens primære komponenter er identiske?",
+    "answer": [
+      [
+        "Total Capital viser en uvanlig stor diskrepans. Både Common Equity Tier 1 Capital og Tier 1 Capital har identiske verdier under begge tilnærminger for 2015. Total Capital derimot, avviker med over 12 milliarder dollar (186 097 millioner dollar vs 198 655 millioner dollar), noe som indikerer at hele forskjellen skyldes beregningen av Tier 2 Capital, noe som gjør den til en 'outlier'."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_010",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Til tross for de inkonsistente kolonneoverskriftene for de to viste periodene, hvilke kapitalkrav (i millioner dollar) rapporteres med identiske verdier for både 'Avanserte' og 'Standardiserte' tilnærminger i hver respektive periode?",
+    "answer": [
+      [
+        "Common equity tier 1 capital"
+      ],
+      [
+        "Tier 1 capital"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_011",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvis bankens totale risikovektede eiendeler under den avanserte tilnærmingen skulle øke mens den totale kapitalen forble konstant, hva ville skje med den totale kapitaldekningen?",
+    "answer": [
+      [
+        "Den totale kapitaldekningen ville synke fordi høyere risikovektede eiendeler med uendret kapital reduserer kapitaldekningen."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  }
+]

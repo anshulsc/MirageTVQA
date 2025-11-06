@@ -1,0 +1,265 @@
+[
+  {
+    "question_id": "finqa_3669fd2d00_001",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Wśród okresów zobowiązań od 2012 do 2016 roku, który rok miał największą łączną kwotę wygaśnięcia?",
+    "answer": [
+      [
+        "2015"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_002",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Jaka jest średnia roczna kwota wygasających zobowiązań z tytułu 'gwarancji [c]' w okresie od 2012 do 2016 roku?",
+    "answer": [
+      [
+        "53"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_003",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Zidentyfikuj typ zobowiązania z największą kwotą wygaśnięcia 'po 2016 roku'. Następnie, dla tego konkretnego typu zobowiązania, oblicz sumę jego wygaśnięć za lata 2013 i 2014.",
+    "answer": [
+      [
+        "222"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "A3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_004",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "open_ended_reasoning",
+    "question": "Opisz trend wygasania zobowiązań dla 'gwarancji [c]' od 2012 roku do okresu po 2016 roku.",
+    "answer": [
+      [
+        "Wygasanie zobowiązań dla 'gwarancji [c]' wykazuje bardzo zmienny trend. Zaczynając od 18 milionów dolarów w 2012 roku, spadły do 8 milionów dolarów w 2013 roku, następnie nastąpił gwałtowny wzrost do 214 milionów dolarów w 2014 roku. Po tym szczycie, wygasanie spadło znacząco do 12 milionów dolarów w 2015 roku i 13 milionów dolarów w 2016 roku, zanim wzrosło do 60 milionów dolarów w okresie po 2016 roku. Wzór nie jest liniowy ani spójny, ale zdominowany jest przez szczyt z 2014 roku."
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_005",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Wymień wszystkie rodzaje zobowiązań, dla których kwota wygaśnięcia w 2012 roku jest większa niż 0 USD, a całkowite zobowiązanie jest mniejsze niż 1000 milionów USD.",
+    "answer": [
+      [
+        "receivables securitization facility [b]"
+      ],
+      [
+        "guarantees [c]"
+      ],
+      [
+        "standby letters of credit [d]"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_006",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Jaki procent całkowitych zobowiązań handlowych przypadających do spłaty w 2015 roku przypada na 'linie kredytowe [a]'?",
+    "answer": [
+      [
+        "99.34%"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_007",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Gdyby suma dla 'gwarancji [c]' była o 10% wyższa, a ten wzrost odzwierciedliłby się całkowicie w okresie wygaśnięcia 'po 2016 roku', jaka byłaby nowa kwota 'total commercialcommitments'?",
+    "answer": [
+      [
+        "$ 2781.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_008",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "open_ended_reasoning",
+    "question": "Czy na podstawie danych można zaobserwować jakąkolwiek zależność między wielkością wartości 'całkowitej' zobowiązania a terminem jego wygaśnięcia?",
+    "answer": [
+      [
+        "Nie ma prostej liniowej korelacji, ale istnieje zauważalny wzorzec. Największe zobowiązanie ('linie kredytowe', 1800 mln USD) ma jedną, odległą datę wygaśnięcia (2015 r.). W przeciwieństwie do tego, zobowiązanie z najbardziej rozłożonym harmonogramem wygaśnięcia ('gwarancje', 325 mln USD) jest jednym z mniejszych. Pozostałe dwa zobowiązania ('sekurytyzacja należności' i 'standby letters of credit') są całkowicie spłacone w pierwszym roku (2012 r.), mimo bardzo różnych łącznych wartości (600 mln USD i 24 mln USD). Sugeruje to, że większe zobowiązania mogą być strukturyzowane jako pojedyncze płatności ryczałtowe, podczas gdy mniejsze są albo realizowane natychmiast, albo strukturyzowane jako długoterminowe, rozłożone w czasie obowiązki."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1",
+      "H1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "H2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4",
+      "H4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_009",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Który okres wygaśnięcia zobowiązań zawiera najwięcej wartości niezerowych spośród poszczególnych typów zobowiązań?",
+    "answer": [
+      [
+        "2012"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_010",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "open_ended_reasoning",
+    "question": "Analizując wygaśnięcia zobowiązań handlowych ('total commercialcommitments') od 2012 do 2016 roku, który rok stanowi znaczące odchylenie i dlaczego?",
+    "answer": [
+      [
+        "Rok 2015 stanowi znaczące odchylenie. Całkowite wygaśnięcia dla lat 2012-2016 wynoszą odpowiednio 642 mln, 8 mln, 214 mln, 1812 mln i 13 mln dolarów. Wartość mediany wynosi 214 mln dolarów. Całkowita kwota z 2015 roku wynosząca 1812 mln dolarów jest ponad 8 razy wyższa od mediany i prawie 3 razy wyższa od następnej najwyższej wartości (642 mln dolarów), co czyni ją wyraźnym odchyleniem statystycznym, spowodowanym niemal w całości wygaśnięciem 'kredytów'."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "F1"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_011",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Jakie są całkowite zobowiązania handlowe (w milionach) od 2012 do 2015 roku?",
+    "answer": [
+      [
+        "$2,676"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

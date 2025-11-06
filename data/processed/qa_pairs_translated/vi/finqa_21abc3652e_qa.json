@@ -1,0 +1,232 @@
+[
+  {
+    "question_id": "finqa_21abc3652e_001",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Ngoại trừ 'tổng cam kết thương mại', cam kết nào có tổng giá trị lớn nhất?",
+    "answer": [
+      [
+        "credit facilities [a]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_002",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Tổng cam kết thương mại, tính bằng triệu, sẽ đáo hạn vào năm 2015 và 2016 cộng lại là bao nhiêu?",
+    "answer": [
+      [
+        "78"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_21abc3652e_003",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Liệt kê năm và tên cơ sở tương ứng cho mỗi trường hợp mà một cơ sở duy nhất chiếm hơn 98% tổng số lần hết hạn của năm đó.",
+    "answer": [
+      [
+        "2017",
+        "receivables securitization facility [b]"
+      ],
+      [
+        "2019",
+        "credit facilities [a]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "G5",
+      "A2",
+      "E2",
+      "E5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_004",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "open_ended_reasoning",
+    "question": "Mô tả xu hướng đáo hạn cam kết của tổng cộng từ năm 2015 đến năm 2019.",
+    "answer": [
+      [
+        "Xu hướng này rất biến động và không cho thấy một khuôn mẫu ổn định. Nó bắt đầu ở mức 46 triệu đô la vào năm 2015, giảm xuống còn 32 triệu đô la vào năm 2016, sau đó tăng vọt lên đỉnh 660 triệu đô la vào năm 2017. Sau đó, nó giảm mạnh xuống chỉ còn 11 triệu đô la vào năm 2018 trước khi tăng lên mức cao nhất là 1708 triệu đô la vào năm 2019. Mẫu hình này đặc trưng bởi sự biến động mạnh mẽ thay vì tăng trưởng hoặc suy giảm nhất quán."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_005",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Xác định tất cả các loại cam kết có số tiền đáo hạn lớn hơn 0 vào cả năm 2016 và 2019.",
+    "answer": [
+      [
+        "guarantees [c]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "G1",
+      "A2",
+      "D2",
+      "G2",
+      "A3",
+      "D3",
+      "G3",
+      "A4",
+      "D4",
+      "G4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_006",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Bao nhiêu phần trăm tổng cam kết 'bảo lãnh [c]' sẽ hết hạn sau năm 2019?",
+    "answer": [
+      [
+        "18.29%"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "H3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_21abc3652e_007",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Nếu cam kết 'credit facilities [a]' giảm đi 50%, thì giá trị 'total commercialcommitments' mới sẽ là bao nhiêu?",
+    "answer": [
+      [
+        "$ 1622"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_008",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "open_ended_reasoning",
+    "question": "Dựa trên dữ liệu được cung cấp, mối quan hệ nào có thể được suy ra giữa tổng số tiền của một cam kết cụ thể và sự phân bố thời gian đáo hạn của nó?",
+    "answer": [
+      [
+        "Có vẻ tồn tại một mối quan hệ nghịch biến. Hai cam kết lớn nhất ('các khoản tín dụng' với 1700 triệu đô la và 'cơ chế chứng khoán hóa các khoản phải thu' với 650 triệu đô la) đáo hạn trong một lần duy nhất vào một năm cụ thể. Ngược lại, các cam kết nhỏ hơn ('bảo lãnh' và 'thư tín dụng dự phòng') có số tiền đáo hạn được trải đều trên nhiều kỳ."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "G1",
+      "A2",
+      "B2",
+      "E2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_21abc3652e_009",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Cột nào theo năm cụ thể (2015-2019) có ít cam kết riêng lẻ với giá trị hết hạn lớn hơn không?",
+    "answer": [
+      [
+        "amount of commitment expiration per period 2018"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_010",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Nhìn vào hàng 'total commercialcommitments', số liệu hết hạn của năm nào là ngoại lệ lớn nhất so với trung vị của giai đoạn từ năm 2015 đến sau năm 2019?",
+    "answer": [
+      [
+        "2019"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "H5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_21abc3652e_011",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Tổng cam kết thương mại (tính bằng triệu) qua các năm 2015–2019 là bao nhiêu?",
+    "answer": [
+      [
+        "2457"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

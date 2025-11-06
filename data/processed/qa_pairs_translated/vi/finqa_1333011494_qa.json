@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_1333011494_001",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Bất động sản nào có giá trị 'tòa nhà' cao nhất?",
+    "answer": [
+      [
+        "1515 broadway"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "B2",
+      "C2",
+      "D2",
+      "F2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_002",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Tổng 'phân bổ giá mua' cho tất cả các bất động sản được liệt kê trong bảng là bao nhiêu?",
+    "answer": [
+      [
+        "2097772"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_1333011494_003",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Giá trị 'tổng chi phí ròng do chúng tôi chi trả khi hoàn tất giao dịch' đối với bất động sản có giá trị 'các hợp đồng thuê đã có hiệu lực' thấp nhất là bao nhiêu?",
+    "answer": [
+      [
+        "$ 81632"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "B11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_004",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Đối với bất động sản '1515 broadway', giá trị 'tài sản đã mua' của nó đến từ tổng giá trị 'đất' và 'tòa nhà' của nó bao nhiêu phần trăm?",
+    "answer": [
+      [
+        "89.65%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_1333011494_005",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Xác định tất cả các bất động sản mà 'nợ phải trả' lớn hơn ba lần 'vốn chủ sở hữu và/hoặc khoản đầu tư nợ nắm giữ'.",
+    "answer": [
+      [
+        "110 east 42nd street"
+      ],
+      [
+        "1515 broadway"
+      ]
+    ],
+    "evidence_cells": [
+      "D12",
+      "D13",
+      "E12",
+      "E13",
+      "F12",
+      "F13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_006",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Nếu một điều chỉnh kế toán đánh giá lại giá trị 'tòa nhà' cho '110 east 42nd street' giảm 10%, thì giá trị 'tài sản đã mua' mới cho bất động sản đó sẽ là bao nhiêu?",
+    "answer": [
+      [
+        "81989"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_007",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "Giá trị 'điều chỉnh giá trị hợp lý cho khoản vay thế chấp' cho '1515 broadway' là một giá trị âm trong khi nó là một giá trị dương, đồng nhất cho hầu hết các bất động sản khác. Điều này cho thấy điều gì về việc tài trợ cho bất động sản cụ thể đó?",
+    "answer": [
+      [
+        "Giá trị âm '-3693' cho '1515 broadway' trong danh mục 'điều chỉnh giá trị hợp lý cho khoản vay thế chấp' là một ngoại lệ rõ ràng so với giá trị dương đồng nhất '2014' cho các bất động sản khác. Điều này cho thấy rằng khoản vay thế chấp liên quan đến việc mua lại 1515 Broadway có các điều khoản thuận lợi hơn so với lãi suất thị trường phổ biến tại thời điểm mua lại, tạo ra một tài sản (một khoản điều chỉnh nợ âm). Ngược lại, các bất động sản khác có thể có các khoản thế chấp ở mức lãi suất thị trường hoặc gần bằng, yêu cầu một khoản điều chỉnh tiêu chuẩn, danh nghĩa."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_1333011494_008",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "Dựa trên dữ liệu, có mối tương quan thuận trực tiếp giữa 'phân bổ giá mua' của một bất động sản và 'tổng số tiền xem xét chúng tôi đã cấp khi đóng giao dịch' không?",
+    "answer": [
+      [
+        "Không, không có mối tương quan thuận trực tiếp. Ví dụ, '180 maiden lane' có giá mua cao thứ hai (442.325 USD) nhưng số tiền xem xét (81.835 USD) gần như giống hệt với '51 east 42nd street', vốn có giá mua thấp hơn nhiều (80.000 USD). Hơn nữa, '1515 broadway' có giá mua cao nhất với khoảng cách lớn (1.234.000 USD) nhưng không phải là số tiền xem xét cao nhất. Điều này cho thấy các yếu tố khác, chẳng hạn như 'nợ đã đảm nhận' (rất cao đối với '1515 broadway'), ảnh hưởng đáng kể đến số tiền xem xét cần thiết khi đóng giao dịch."
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10",
+      "B11",
+      "C11",
+      "D11",
+      "E11",
+      "F11",
+      "B13",
+      "C13",
+      "D13",
+      "E13",
+      "F13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_1333011494_009",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Tính tổng 'nợ phải trả được chấp nhận' cho các bất động sản có 'giá trị hợp đồng thuê trên thị trường' dưới 6.000 đô la.",
+    "answer": [
+      [
+        "33817"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "F3",
+      "B9",
+      "D9",
+      "F9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_010",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "Giá trị '2014' xuất hiện lặp đi lặp lại trong bốn danh mục tài chính khác nhau, thường là cho cùng các bất động sản. Việc sử dụng nhất quán con số cụ thể, không làm tròn này trong các ngữ cảnh khác nhau gợi ý điều gì về bản chất của nó?",
+    "answer": [
+      [
+        "Giá trị '2014' xuất hiện trong 'tài sản khác trừ đi nợ phải trả khác', 'điều chỉnh giá trị hợp lý của khoản vay thế chấp', 'vốn chủ sở hữu và/hoặc khoản đầu tư nợ nắm giữ', và 'nợ phải trả'. Việc nó lặp đi lặp lại như một giá trị giống hệt nhau, tương đối nhỏ, trên các danh mục và bất động sản khác nhau cho thấy đây không phải là giá trị thị trường được đo lường mà là một giá trị giữ chỗ danh nghĩa, một giá trị tối thiểu tiêu chuẩn được sử dụng cho mục đích kế toán, hoặc có thể là một tham chiếu đến một sự kiện hoặc năm quy định cụ thể (ví dụ: một giao dịch từ năm 2014). Nó biểu thị một mục nhập tiêu chuẩn hóa thay vì một định giá duy nhất cho mỗi lần xuất hiện."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "A12",
+      "A13",
+      "B5",
+      "C5",
+      "D5",
+      "F5",
+      "B7",
+      "C7",
+      "D7",
+      "F7",
+      "B12",
+      "C12",
+      "B13",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_011",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Bao nhiêu để mua đất tại 1515 Broadway?",
+    "answer": [
+      [
+        "$462,700"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

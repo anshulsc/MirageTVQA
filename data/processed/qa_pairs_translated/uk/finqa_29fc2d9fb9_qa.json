@@ -1,0 +1,364 @@
+[
+  {
+    "question_id": "finqa_29fc2d9fb9_001",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Який тип телевізійної послуги, 'fta' чи 'pay', має вищу середню кількість підписників на канал?",
+    "answer": [
+      [
+        "fta"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9",
+      "B10",
+      "C10",
+      "B11",
+      "C11",
+      "B12",
+      "C12",
+      "B13",
+      "C13",
+      "B14",
+      "C14",
+      "B15",
+      "C15",
+      "B16",
+      "C16",
+      "B17",
+      "C17",
+      "B18",
+      "C18",
+      "B19",
+      "C19"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_002",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Яка загальна кількість абонентів, у мільйонах, для всіх перелічених телевізійних послуг, які не є безкоштовними (fta)?",
+    "answer": [
+      [
+        "125"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B10",
+      "C10",
+      "B11",
+      "C11",
+      "B12",
+      "C12",
+      "B13",
+      "C13",
+      "B14",
+      "C14",
+      "B15",
+      "C15",
+      "B16",
+      "C16",
+      "B17",
+      "C17",
+      "B18",
+      "C18",
+      "B19",
+      "C19"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_003",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Яка назва каналу з медіанною кількістю підписників серед усіх \"платних\" послуг?",
+    "answer": [
+      [
+        "discovery history"
+      ]
+    ],
+    "evidence_cells": [
+      "A14",
+      "B10",
+      "C10",
+      "B11",
+      "C11",
+      "B12",
+      "C12",
+      "B13",
+      "C13",
+      "B14",
+      "C14",
+      "B15",
+      "C15",
+      "B16",
+      "C16",
+      "B17",
+      "C17",
+      "B18",
+      "C18",
+      "B19",
+      "C19"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_004",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Перелічіть назви всіх каналів 'fta', які мають понад 25 мільйонів абонентів.",
+    "answer": [
+      [
+        "quest"
+      ],
+      [
+        "dsport"
+      ],
+      [
+        "quest red"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_005",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Який відсоток від загальної кількості глядачів усіх каналів 'fta' разом становить аудиторія каналу 'quest'? Округлити до одного десяткового знака.",
+    "answer": [
+      [
+        "23.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B1",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_006",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Якщо б кількість абонентів для кожного \"платного\" сервісу, який наразі має 10 мільйонів або менше абонентів, збільшилася на 50%, якою б стала нова загальна кількість абонентів саме для цих конкретних каналів?",
+    "answer": [
+      [
+        "66"
+      ]
+    ],
+    "evidence_cells": [
+      "B14",
+      "C14",
+      "B15",
+      "C15",
+      "B16",
+      "C16",
+      "B17",
+      "C17",
+      "B18",
+      "C18",
+      "B19",
+      "C19"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_007",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "open_ended_reasoning",
+    "question": "Виходячи з таблиці, який очевидний зв'язок між типом послуги ('платна' проти 'безкоштовна') та кількістю глядачів? Чи один тип постійно приваблює більше глядачів, ніж інший?",
+    "answer": [
+      [
+        "Дані вказують на сильний зв'язок, де 'fta' (безкоштовні) послуги, як правило, приваблюють значно більшу кількість глядачів, ніж 'pay' (платні) послуги. Два найкращі канали, 'quest' (66 млн) та 'dsport' (43 млн), обидва є 'fta'. Найвищий за рейтингом 'pay' канал, 'discovery hd world', має лише 17 млн абонентів, що менше, ніж у чотирьох найкращих 'fta' каналів. Крім того, середня кількість глядачів для 'fta' каналу (31,8 млн) більш ніж утричі перевищує середню для 'pay' каналу (10,1 млн), що свідчить про те, що безкоштовні послуги мають значно ширше охоплення в цьому наборі даних."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9",
+      "B10",
+      "C10",
+      "B11",
+      "C11",
+      "B12",
+      "C12",
+      "B13",
+      "C13",
+      "B14",
+      "C14",
+      "B15",
+      "C15",
+      "B16",
+      "C16",
+      "B17",
+      "C17",
+      "B18",
+      "C18",
+      "B19",
+      "C19"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_008",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Який канал є найбільш значущим позитивним викидом за кількістю підписників порівняно із середньою кількістю підписників для свого типу послуг ('fta')?",
+    "answer": [
+      [
+        "quest"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_009",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Скільки каналів мають найпоширенішу кількість підписників, і яка це кількість?",
+    "answer": [
+      [
+        "5",
+        "25"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_010",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Яка загальна кількість глядачів усіх каналів, назви яких містять слово 'discovery' і які пропонуються як 'pay' послуга?",
+    "answer": [
+      [
+        "64"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10",
+      "A13",
+      "B13",
+      "C13",
+      "A14",
+      "B14",
+      "C14",
+      "A15",
+      "B15",
+      "C15",
+      "A16",
+      "B16",
+      "C16",
+      "A17",
+      "B17",
+      "C17",
+      "A18",
+      "B18",
+      "C18",
+      "A19",
+      "B19",
+      "C19"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_011",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Яка кількість міжнародних передплатників/глядачів (у мільйонах) телесервісу Quest?",
+    "answer": [
+      [
+        "66"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,249 @@
+[
+  {
+    "question_id": "finqa_d4ff6b23c2_001",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "חשב את השינוי הנקי הכולל בהטבות מס בלתי מוכרות לשנת 2016, בהתבסס על הפעילויות הטרנזקציוניות המפורטות בין יתרות הפתיחה והסגירה.",
+    "answer": [
+      [
+        "64"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_002",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "אילו פריטי שורה מייצגים שינוי פיננסי קטן יותר בסכום מוחלט בשנת 2017 בהשוואה לשינוי המקביל שלהם בשנת 2016?",
+    "answer": [
+      [
+        "additions for tax positions related to prior years"
+      ],
+      [
+        "reductions for tax positions related to prior years"
+      ],
+      [
+        "reductions for settlements2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_003",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "איזה אחוז מ'יתרה ל-31 בדצמבר 2017' לא ישפיע על שיעור המס האפקטיבי אם יוכר?",
+    "answer": [
+      [
+        "5.99%"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_004",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "מה היה ההבדל בין סכום כל ההפחתות לשנת 2017 לבין סכום כל ההפחתות לשנת 2016, תוך התעלמות מהערך הלא סטנדרטי בשורת 'הפחתות בשל פקיעת התיישנות' לשנת 2017?",
+    "answer": [
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_005",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "אם 'תוספות לעמדות מס הקשורות לשנים קודמות' בשנת 2017 היו תואמות את הסכום משנת 2016, מה היה 'יתרה ל-31 בדצמבר 2017' המותאמת?",
+    "answer": [
+      [
+        "$ 1321"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_006",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "זהה את השורה הבודדת משנת 2017 שהייתה החריגה המשמעותית ביותר מבחינת גודל פיננסי בהשוואה לכל התוספות וההפחתות האחרות בשתי השנים.",
+    "answer": [
+      [
+        "additions for tax positions related to current year"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_007",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "בהתבסס על ההתאמה, 'יתרה ל-31 בדצמבר 2017' מחושבת מהיתרה ההתחלתית בתוספת תוספות והפחתות עוקבות. איזו תא בטור 2017 מכילה ערך שאינו עקבי עם חישוב זה ונראה כמיותר?",
+    "answer": [
+      [
+        "B6"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_008",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "רשום את כל הפעילויות לשנת 2017, גם תוספות וגם הפחתות, שהערך המוחלט שלהן היה גדול מ-15 מיליון דולר.",
+    "answer": [
+      [
+        "additions for tax positions related to current year"
+      ],
+      [
+        "additions for tax positions related to prior years"
+      ],
+      [
+        "reductions for tax positions related to prior years"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_009",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "נתח את השינוי ביתרה הכוללת מסוף שנת 2016 לסוף שנת 2017. מה היו הגורמים העיקריים לשינוי זה?",
+    "answer": [
+      [
+        "היתרה הכוללת של הטבות מס שלא הוכרו גדלה ב-254 מיליון דולר, מ-1032 מיליון דולר בסוף 2016 ל-1286 מיליון דולר בסוף 2017. הגורם העיקרי לגידול זה היה '270 מיליון דולר' ב'תוספות בגין עמדות מס הקשורות לשנה הנוכחית' בשנת 2017, שהיו גדולות באופן משמעותי מכל תוספת או הפחתה אחרת בשנה כלשהי. למרות שהיו הפחתות בסך 36 מיליון דולר בשנת 2017, הן לא הספיקו לקזז את התוספות הגדולות."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_010",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "האם יש עדות לשינוי משמעותי בהרכב ההטבות הבלתי מוכרות של מס בין 2016 ל-2017, בהתבסס על היחס בין יתרת סוף השנה שתשפיע על שיעור המס האפקטיבי?",
+    "answer": [
+      [
+        "אין עדות לשינוי משמעותי בהרכב. בשנת 2016, החלק שישפיע על שיעור המס האפקטיבי היה 963 מיליון דולר מתוך יתרה של 1032 מיליון דולר, או 93.3%. בשנת 2017, חלק זה היה 1209 מיליון דולר מתוך יתרה של 1286 מיליון דולר, או 94.0%. היחס נשאר יציב מאוד, מה שמצביע על הרכב עקבי של עמדות המס הבסיסיות משנה לשנה למרות הגידול הכולל ביתרה."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_011",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "כיצד השתנה היתרה הכוללת של עמדות מס משנת 2016 עד 2017, ואילו גורמים תרמו לשינוי זה?",
+    "answer": [
+      [
+        "היתרה הכוללת של עמדות מס עלתה מ-1,032 מיליון דולר בשנת 2016 ל-1,286 מיליון דולר בשנת 2017. העלייה נבעה בעיקר מתוספות עבור עמדות מס של השנה השוטפת (270 מיליון דולר) ועמדות מס של שנים קודמות (20 מיליון דולר), במקזז חלקי על ידי הפחתות עבור עמדות של שנים קודמות (27 מיליון דולר) והסדרים (9 מיליון דולר)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

@@ -1,0 +1,240 @@
+[
+  {
+    "question_id": "finqa_c8b3934b16_001",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "I hvilket år var 'samlede indtægter netto efter renteudgifter' højest?",
+    "answer": [
+      [
+        "2016"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_002",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "Hvad var det samlede beløb for 'net credit losses' for alle tre år (2016, 2017 og 2018)?",
+    "answer": [
+      [
+        "605"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_003",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "Hvad var 'netto renteindtægter' i det år, der havde de højeste 'samlede driftsomkostninger'?",
+    "answer": [
+      [
+        "$ 3045"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_004",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv treårstrenden for 'netto kredit tab' fra 2016 til 2018.",
+    "answer": [
+      [
+        "De 'netto kredit tab' viser en konsekvent og betydelig faldende tendens, faldende fra 435 millioner dollars i 2016 til 149 millioner dollars i 2017 og yderligere ned til 21 millioner dollars i 2018. Dette stejle fald på 66% og derefter 86% år-til-år indikerer en væsentlig forbedring i virksomhedens kreditrisikostyring eller aktivkvalitet."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_005",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "List de finansielle posteringer, der rapporterede en positiv værdi i 2018, men en negativ værdi (tab) i 2017.",
+    "answer": [
+      [
+        "income ( loss ) from continuing operations before taxes"
+      ],
+      [
+        "income ( loss ) from continuing operations"
+      ],
+      [
+        "net income ( loss ) before attribution of noncontrolling interests"
+      ],
+      [
+        "noncontrolling interests"
+      ],
+      [
+        "net income ( loss )"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10",
+      "A12",
+      "B12",
+      "C12",
+      "A14",
+      "B14",
+      "C14",
+      "A15",
+      "B15",
+      "C15",
+      "A16",
+      "B16",
+      "C16"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_006",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "Hvilken procentdel af 'samlede indtægter netto efter renteudgifter' blev forbrugt af 'samlede driftsomkostninger' i 2018?",
+    "answer": [
+      [
+        "109.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_007",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "Hvis 'kreditreserveopbygning (frigivelse)' i 2018 havde været nul i stedet for en frigivelse på 218 millioner dollars, hvad ville 'indkomst (tab) fra fortsat drift før skat' så have været?",
+    "answer": [
+      [
+        "$ -205"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_008",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "open_ended_reasoning",
+    "question": "Er der en direkte positiv sammenhæng mellem 'samlede indtægter fratrukket renteudgifter' og 'nettoresultat (tab)' over de tre år? Forklar.",
+    "answer": [
+      [
+        "Nej, en direkte positiv sammenhæng er ikke tydelig. Mens indtægterne faldt støt fra 5.233 millioner dollars i 2016 til 2.083 millioner dollars i 2018, fluktuerede nettoresultatet dramatisk fra en profit på 521 millioner dollars til et tab på -19.676 millioner dollars og tilbage til en profit på 107 millioner dollars. Det massive tab i 2017, på trods af højere indtægter end i 2018, blev primært drevet af en anomal 'indkomstskatter (tilgodehavender)' post på 19.064 millioner dollars, ikke alene af indtægtsændringer."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "B11",
+      "C11",
+      "B16",
+      "C16",
+      "D16"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_009",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "Hvilken kolonne, der repræsenterer års-til-års ændring, har flest 'nm' (ikke meningsfulde) indtastninger?",
+    "answer": [
+      [
+        "% (  % ) change2017 vs . 2016"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12",
+      "E13",
+      "E14",
+      "E15",
+      "E16",
+      "F2",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_010",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "open_ended_reasoning",
+    "question": "Identificer den finansielle post for 2017, der er en klar anomali sammenlignet med den samme post i 2016 og 2018, og forklar dens indvirkning på de samlede resultater.",
+    "answer": [
+      [
+        "\"Skatteindtægter (tilgodehavender)\" på 19.064 mio. dollars i 2017 er en massiv anomali sammenlignet med værdierne på -455 mio. dollars i 2016 og -113 mio. dollars i 2018. Denne usædvanligt store skatteudgift var den primære drivkraft, der vendte et førskatteunderskud på 507 mio. dollars til et svimlende efterskatteunderskud fra fortsatte operationer på 19.571 mio. dollars, hvilket gør det til den mest indflydelsesrige anomali i datasættet for det pågældende år."
+      ]
+    ],
+    "evidence_cells": [
+      "C10",
+      "B11",
+      "C11",
+      "D11",
+      "C12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_011",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "Hvor meget faldt nettoresultatet (tab) i millioner fra 2016 til 2018?",
+    "answer": [
+      [
+        "$414"
+      ]
+    ],
+    "evidence_cells": [
+      "A16",
+      "B16",
+      "D16"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

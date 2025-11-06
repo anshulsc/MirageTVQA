@@ -1,0 +1,189 @@
+[
+  {
+    "question_id": "finqa_a2bbef41ac_001",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Jaka była łączna wartość aktywów ('inwestycje' i 'inne aktywa') na dzień 31 grudnia 2007 r.?",
+    "answer": [
+      [
+        "3254"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_002",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Która kategoria aktywów, 'inwestycje' czy 'pozostałe aktywa', odnotowała większą stratę netto w ujęciu bezwzględnym z tytułu 'zrealizowanych i niezrealizowanych zysków / (strat) netto'?",
+    "answer": [
+      [
+        "investments"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_003",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Zweryfikuj, czy saldo końcowe 'inwestycji' na dzień 31 grudnia 2008 r. jest zgodne z jego saldem otwarcia i podanymi kolejnymi transakcjami. Pokaż swoje obliczenia.",
+    "answer": [
+      [
+        "Tak, saldo jest zgodne. Obliczenie wygląda następująco: 1240 $ (saldo otwarcia) - 409 $ (zyski/straty) + 11 $ (zakupy/sprzedaż) - 29 $ (przeniesienia netto) = 813 $, co zgadza się ze zgłoszonym saldem końcowym."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_004",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Jaka była całkowita zmiana netto wartości aktywów za cały okres, od 31 grudnia 2007 r. do 31 grudnia 2008 r.?",
+    "answer": [
+      [
+        "-2377"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_005",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Dla których kategorii aktywów 'transfery netto do i/lub od poziomu 3' spowodowały pozytywny wkład w wartość aktywów?",
+    "answer": [
+      [
+        "other assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_006",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Jaki odsetek 'całkowitych strat netto za okres włączonych do zysków' pochodził z 'inwestycji'?",
+    "answer": [
+      [
+        "95.54%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_007",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Gdyby 'realizowane i niezrealizowane zyski / (straty) netto' dla 'innych aktywów' wyniosły zero zamiast $-16, jaki byłby nowy bilans końcowy 'innych aktywów' na dzień 31 grudnia 2008 r.?",
+    "answer": [
+      [
+        "80"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_008",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Na podstawie danych dotyczących 'inwestycji', jaki jest związek między 'realizowanymi i nierozliczonymi zyskami / (stratami) netto' a 'łącznymi stratami netto... związanymi z aktywami zatrzymanymi na dzień sprawozdawczy'?",
+    "answer": [
+      [
+        "Istnieje silna, bezpośrednia zależność. 'Łączne straty netto... związane z aktywami zatrzymanymi na dzień sprawozdawczy' ($-366) stanowią 89,5% całkowitych 'realizowanych i nierozliczanych zysków / (strat) netto' ($-409). Sugeruje to, że większość strat netto za okres dotyczących inwestycji była niezrealizowana i związana z aktywami, które nie zostały sprzedane do końca okresu sprawozdawczego."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_009",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Jaka konwencja rachunkowości jest sugerowana przez format danych używany dla wartości ujemnych, takich jak '-409 (409)'?",
+    "answer": [
+      [
+        "Format przedstawiania liczby ujemnej, po której następuje wartość bezwzględna w nawiasach, jest powszechną konwencją księgową służącą do jasnego i stanowczego zaznaczania ujemnych wartości finansowych, takich jak straty, wydatki lub wartości przeciwnych aktywów."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_010",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Który element listy stanowi największy pojedynczy negatywny wpływ na połączone wartości aktywów w danym okresie?",
+    "answer": [
+      [
+        "realized and unrealized gains / ( losses ) net"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_011",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "O ile zmniejszyły się inwestycje w latach 2007-2008?",
+    "answer": [
+      [
+        "$427"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A5",
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

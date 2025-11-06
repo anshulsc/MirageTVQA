@@ -1,0 +1,237 @@
+[
+  {
+    "question_id": "finqa_7a4236b86f_001",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "Welches Produkt, Öl oder NGL, verzeichnete einen höheren prozentualen Anstieg des Produktions-/Verkaufsvolumens von 2007 bis 2008?",
+    "answer": [
+      [
+        "Oil"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_002",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "Was war das gesamte Produktions-/Absatzvolumen in 'mbbls' für Öl und NGL kombiniert im Jahr 2008?",
+    "answer": [
+      [
+        "3858.7"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_003",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "Welches Jahr generierte einen höheren berechneten Gesamtumsatz aus Ölverkäufen?",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_004",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "open_ended_reasoning",
+    "question": "Beschreiben Sie den allgemeinen Trend bei den durchschnittlich erzielten Preisen für alle einzelnen Rohstoffe (Gas, NGL, Öl) von 2007 bis 2008.",
+    "answer": [
+      [
+        "Die durchschnittlich erzielten Preise für alle aufgeführten einzelnen Rohstoffe zeigten einen positiven Trend und stiegen von 2007 bis 2008 an. Die Gaspreise stiegen erheblich von 5,95 $ auf 8,25 $ pro mcf, die Ölpreise stiegen von 83,37 $ auf 95,26 $ pro bbl, und die NGL-Preise verzeichneten einen leichten Anstieg von 51,02 $ auf 51,26 $ pro bbl."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8",
+      "A9",
+      "B9",
+      "C9",
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_005",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "Listen Sie alle Produktions-/Verkaufskategorien auf, bei denen das Volumen im Jahr 2008 mehr als 2,25-mal so hoch war wie im Jahr 2007.",
+    "answer": [
+      [
+        "gas production ( bcf )"
+      ],
+      [
+        "oil production/sales ( mbbls )"
+      ],
+      [
+        "ngl production/sales ( mbbls )"
+      ],
+      [
+        "equivalent production ( bcfe )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_006",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "Welchen Prozentsatz der Gesamt-'Äquivalentproduktion (bcfe)' im Jahr 2008 machte die direkte 'Gasproduktion (bcf)' aus?",
+    "answer": [
+      [
+        "77.35"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_007",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "Wenn der durchschnittlich erzielte Preis für Öl im Jahr 2008 15 % niedriger gewesen wäre, um wie viel (in Millionen Dollar) wären die berechneten Einnahmen aus Ölverkäufen gesunken?",
+    "answer": [
+      [
+        "5019.80"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_008",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "open_ended_reasoning",
+    "question": "Wenn man die Veränderungen von Jahr zu Jahr analysiert, wie ist die scheinbare Beziehung zwischen Produktions-/Verkaufsvolumen und den durchschnittlich erzielten Preisen für die einzelnen aufgeführten Rohstoffe?",
+    "answer": [
+      [
+        "Es gibt eine konsistente positive Korrelation für alle einzelnen Rohstoffe zwischen 2007 und 2008. In jedem Fall (Gas, NGL und Öl) geht eine deutliche Steigerung des Produktions-/Verkaufsvolumens von 2007 bis 2008 mit einem Anstieg des durchschnittlich erzielten Preises einher, was darauf hindeutet, dass eine starke Marktnachfrage wahrscheinlich sowohl das Volumen als auch den Preis in diesem Zeitraum in die Höhe getrieben hat."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B8",
+      "C8",
+      "B9",
+      "C9",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_009",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "Wie lautet der Text der Zeile, die als Unterüberschrift fungiert und keine zugehörigen numerischen Daten in den Spalten 2008 und 2007 aufweist?",
+    "answer": [
+      [
+        "average realized prices without hedging results:"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_010",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "Welche Produktions-/Absatzkategorie, einschließlich der 'Gesamt'-Maßeinheiten, verzeichnete den bedeutendsten relativen Anstieg (Prozentwachstum) von 2007 bis 2008?",
+    "answer": [
+      [
+        "oil production/sales ( mbbls )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_011",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "Was war die gesamte kombinierte Produktion von Öl und NGL im Jahr 2008?",
+    "answer": [
+      [
+        "3,858.7 mbbls"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

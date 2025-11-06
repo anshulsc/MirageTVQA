@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "finqa_7c5e218eef_001",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Hvilken udgiftskategori oplevede den største absolutte ændring fra år til år i dollars, uanset om det var en stigning eller et fald?",
+    "answer": [
+      [
+        "loss on datacenter and related legal fees"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_002",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Hvad er summen af alle udgiftsreduktioner (negative ændringer) rapporteret i millioner af dollars?",
+    "answer": [
+      [
+        "-23.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_003",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Hvad var den samlede dollarændring for udgiftskategorier, der hver udgjorde en stigning på 2% som en procentdel af udgifterne for 2015?",
+    "answer": [
+      [
+        "53.0"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_004",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "open_ended_reasoning",
+    "question": "Baseret på de samlede tal, hvad var den overordnede finansielle tendens for disse udgiftskategorier år-over-år? Begrund dit svar.",
+    "answer": [
+      [
+        "Den overordnede finansielle tendens var en stigning i omkostningerne. Dette fremgår af rækken 'total', som viser en positiv netto år-over-år ændring på $54,4 millioner, svarende til en stigning på 4% i forhold til udgifterne i 2015. Selvom der var nogle omkostningsreduktioner, blev de betydeligt opvejet af omkostningsstigninger på andre områder."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_005",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Liste alle udgiftskategorier, der havde en positiv år-til-år-ændring på mere end 15 millioner dollars.",
+    "answer": [
+      [
+        "loss on datacenter and related legal fees"
+      ],
+      [
+        "professional fees and outside services"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_006",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Beregn forholdet mellem den samlede dollarstigning og den samlede absolutte dollarnedgang fra de individuelle udgiftsposter, afrundet til to decimaler.",
+    "answer": [
+      [
+        "3.29:1"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_007",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Hvis 'udsving i valutakurser' havde været en omkostningsbesparelse på $13.2 millioner i stedet for en omkostningsstigning, hvad ville den nye samlede ændring fra år til år så have været?",
+    "answer": [
+      [
+        "$ 28.0"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_008",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvad kan man udlede om forholdet mellem den absolutte ændring i dollars og den procentvise ændring ved at sammenligne kategorier med den samme procentvise ændring (f.eks. 2 % eller 1 %)? Hvilken information mangler for at bekræfte dette?",
+    "answer": [
+      [
+        "Man kan udlede, at den absolutte ændring i dollars ikke er direkte proportional med den procentvise ændring på tværs af forskellige kategorier. For eksempel havde 'tab på datacenter' ($28.6M) og 'honorarer og eksterne ydelser' ($24.4M) begge en ændring på 2 %, hvilket indikerer, at deres grundlæggende udgifter i 2015 var forskellige. Den manglende information, der er nødvendig for bekræftelse, er den faktiske udgiftsværdi for 2015 for hver kategori."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_009",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvilken celle i kolonnen 'ændring som en procentdel af udgifterne i 2015' indeholder data, der er uforenelige med kolonnens tilsyneladende datatype, og hvad er den afvigende værdi?",
+    "answer": [
+      [
+        "Celle C7, svarende til 'andre nettoudgifter', indeholder værdien '2014'. Dette er unormalt, fordi alle andre værdier i kolonnen er procenter eller tal, der repræsenterer procenter, mens '2014' ser ud til at være et år."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_010",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Års-til-år-ændringen for 'tab på datacenter og relaterede advokatsalærer' er den største stigning. Med hvor mange procent er denne stigning større end den næststørste stigning ('professionelle gebyrer og eksterne ydelser')? Afrund til én decimal.",
+    "answer": [
+      [
+        "17.2%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_011",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Hvilken udgiftskategori viste den højeste stigning år-over-år?",
+    "answer": [
+      [
+        "Loss on data center and related legal fees"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

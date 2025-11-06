@@ -1,0 +1,249 @@
+[
+  {
+    "question_id": "finqa_d4ff6b23c2_001",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Beregn den totale nettoendringen i urealiserte skattefordeler for året 2016, basert på transaksjonsaktivitetene listet mellom start- og sluttbalansene.",
+    "answer": [
+      [
+        "64"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_002",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Hvilke linjeposter representerer en mindre finansiell endring i absolutte tall i 2017 sammenlignet med deres tilsvarende endring i 2016?",
+    "answer": [
+      [
+        "additions for tax positions related to prior years"
+      ],
+      [
+        "reductions for tax positions related to prior years"
+      ],
+      [
+        "reductions for settlements2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_003",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Hvilken prosentandel av 'saldo per 31. desember 2017' ville IKKE påvirket den effektive skattesatsen hvis den ble anerkjent?",
+    "answer": [
+      [
+        "5.99%"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_004",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Hva var forskjellen mellom summen av alle reduksjoner i 2017 og summen av alle reduksjoner i 2016, og ignorerte ikke-standardverdien i 'reduksjoner for utløp av foreldelsesfrister' for 2017?",
+    "answer": [
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_005",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Hvis 'tilførsler for skatteposisjoner relatert til tidligere år' i 2017 hadde matchet beløpet fra 2016, hva ville den justerte 'saldo per 31. desember 2017' ha vært?",
+    "answer": [
+      [
+        "$ 1321"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_006",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Identifiser det enkelte oppføringspunktet fra 2017 som var den mest signifikante avviket med hensyn til finansiell størrelse sammenlignet med alle andre tillegg og reduksjoner på tvers av begge år.",
+    "answer": [
+      [
+        "additions for tax positions related to current year"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_007",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Basert på avstemmingen, er 'saldo per 31. desember 2017' beregnet fra startsaldoen pluss påfølgende tillegg og reduksjoner. Hvilken celle i 2017-kolonnen inneholder en verdi som er inkonsistent med denne beregningen og ser ut til å være overflødig?",
+    "answer": [
+      [
+        "B6"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_008",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "List opp alle aktiviteter i 2017, både tillegg og reduksjoner, som hadde en absolutt verdi større enn 15 millioner dollar.",
+    "answer": [
+      [
+        "additions for tax positions related to current year"
+      ],
+      [
+        "additions for tax positions related to prior years"
+      ],
+      [
+        "reductions for tax positions related to prior years"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_009",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyser endringen i den totale saldoen fra slutten av 2016 til slutten av 2017. Hva var de viktigste årsakene bak denne endringen?",
+    "answer": [
+      [
+        "Den totale saldoen av urealiserte skattefordeler økte med 254 millioner dollar, fra 1032 millioner dollar ved utgangen av 2016 til 1286 millioner dollar ved utgangen av 2017. Hovedårsaken til denne økningen var '270 millioner dollar' i 'tillegg for skatteposisjoner relatert til inneværende år' i 2017, som var vesentlig større enn noen annen enkelt tillegg eller reduksjon i begge årene. Selv om det var reduksjoner på totalt 36 millioner dollar i 2017, var de utilstrekkelige til å motregne de store tilleggene."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_010",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "Er det bevis for en betydelig endring i sammensetningen av urealiserte skattefordeler mellom 2016 og 2017, basert på andelen av årsavslutningssaldoen som ville påvirke den effektive skattesatsen?",
+    "answer": [
+      [
+        "Det er ingen bevis for en betydelig endring i sammensetningen. I 2016 var andelen som ville påvirke den effektive skattesatsen 963 millioner dollar av en saldo på 1032 millioner dollar, eller 93,3 %. I 2017 var denne andelen 1209 millioner dollar av en saldo på 1286 millioner dollar, eller 94,0 %. Andelen forble svært stabil, noe som tyder på en jevn sammensetning av de underliggende skatteposisjonene år over år, til tross for den generelle økningen i saldoen."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_011",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvordan endret den totale saldoen for skatteposisjoner seg fra 2016 til 2017, og hvilke faktorer bidro til denne endringen?",
+    "answer": [
+      [
+        "Den totale saldoen for skatteposisjoner økte fra 1 032 millioner dollar i 2016 til 1 286 millioner dollar i 2017. Økningen skyldtes hovedsakelig tillegg for skatteposisjoner i inneværende år (+$270 millioner) og i tidligere år (+$20 millioner), delvis motvirket av reduksjoner for tidligere års posisjoner (-$27 millioner) og avregninger (-$9 millioner)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

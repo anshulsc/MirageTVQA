@@ -1,0 +1,235 @@
+[
+  {
+    "question_id": "finqa_cd9bcca51c_001",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "Care este suprafața totală ocupată pentru toate proprietățile combinate?",
+    "answer": [
+      [
+        "3348000"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_002",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "Care proprietate are o dată de expirare a contractului de închiriere care este un element aberant, fiind cea mai recentă cu o marjă semnificativă față de celelalte?",
+    "answer": [
+      [
+        "200 e . randolph street chicago illinois"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_003",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "Listați proprietățile cu o suprafață ocupată de peste 350.000 de picioare pătrate care au, de asemenea, un contract de închiriere ce expiră în anul 2020.",
+    "answer": [
+      [
+        "2601 research forest drive the woodlands texas"
+      ],
+      [
+        "2300 discovery drive orlando florida"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_004",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "Care este suprafața medie în picioare pătrate a proprietăților pentru care cea mai recentă dată de expirare a contractului de închiriere este anterioară anului 2020?",
+    "answer": [
+      [
+        "316666.67"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_005",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "Comparând cele două proprietăți situate în Illinois, care este diferența în suprafața ocupată?",
+    "answer": [
+      [
+        "828000"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_006",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "Ce procent din suprafața totală ocupată provine de la proprietatea situată în New York?",
+    "answer": [
+      [
+        "9.53%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "A6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_007",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "Ce proprietate are cel mai larg interval de ani între cele mai vechi și cele mai recente date de expirare a contractului de închiriere?",
+    "answer": [
+      [
+        "4 overlook point and other locations lincolnshire illinois"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_008",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "Dacă toate contractele de leasing pentru proprietatea 'dlf city and unitech cyber park gurgaon india' ar fi prelungite cu 7 ani, care ar fi noul set de date de expirare a contractelor de leasing?",
+    "answer": [
+      [
+        "2021 2020 2022"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_009",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "Ce coloană conține înregistrări unde o singură proprietate poate avea mai multe puncte de date distincte listate într-o singură celulă?",
+    "answer": [
+      [
+        "leaseexpiration dates"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_010",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "open_ended_reasoning",
+    "question": "Există o corelație discernabilă între suprafața ocupată a unei proprietăți și numărul de date distincte de expirare a contractului de închiriere pe care le are? Justificați-vă răspunsul pe baza datelor.",
+    "answer": [
+      [
+        "Nu există o corelație clară. Proprietatea cu cea mai mare suprafață ocupată (1.224.000 în Lincolnshire) are mai multe date de expirare, ceea ce ar putea sugera o corelație pozitivă. Cu toate acestea, a doua cea mai mare proprietate (414.000 în The Woodlands) are doar una, în timp ce a treia cea mai mare (413.000 în Gurgaon) are mai multe. Această inconsecvență, cu proprietăți mari având atât date de expirare unice, cât și multiple, indică faptul că suprafața ocupată nu este un predictor fiabil al numărului de contracte de închiriere pentru o proprietate, pe baza acestui set de date."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_011",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "Câte proprietăți au o suprafață ocupată mai mare de 400.000?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "BD3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

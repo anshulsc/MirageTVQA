@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "finqa_cc5f795ec6_001",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Hvilken aktivitet hadde en større negativ innvirkning på 'total egenkapital': 'utbytte' eller 'tilbakekjøp av aksjer'?",
+    "answer": [
+      [
+        "dividends"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "K4",
+      "A6",
+      "K6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_002",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Hva er nettoendringen i 'innbetalt kapital' fra alle aktiviteter listet mellom balanse datoene for 2011 og 2012?",
+    "answer": [
+      [
+        "590"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D11",
+      "D13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_003",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Hva var den totale egenkapitalpåvirkningen av transaksjonen som involverte en økning på 662 i 'innbetalt kapital'?",
+    "answer": [
+      [
+        "1147"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "K5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_004",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyser endringen i 'egenkapital' fra 31. desember 2011 til 31. desember 2012, og identifiser den primære årsaken til denne endringen.",
+    "answer": [
+      [
+        "Total egenkapital falt fra 70 078 dollar til 65 428 dollar, en netto reduksjon på 4 650 dollar. Selv om det var flere medvirkende faktorer, var den største enkeltårsaken til denne nedgangen 'reklassifisering til innløsbare ikke-kontrollerende interesser', som alene sto for en negativ innvirkning på 4 288 dollar, noe som representerer over 92 % av den totale netto reduksjonen."
+      ]
+    ],
+    "evidence_cells": [
+      "K1",
+      "K14",
+      "A12",
+      "K12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_005",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "List alle finansielle aktiviteter som resulterte i en reduksjon i 'innbetalt kapital', men som ikke påvirket 'opptjent resultat'.",
+    "answer": [
+      [
+        "purchase of additional stake in the wealth management joint venture"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_006",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Hvilken prosentandel av de opprinnelige 'opptjente utbytter' fra 31. desember 2011 ble utbetalt som 'utbytte' i perioden?",
+    "answer": [
+      [
+        "-1.23%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_007",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Hvis 'valutakursjusteringer' hadde en nøytral innvirkning (dvs. null) på total egenkapital, hva ville den avsluttende totale egenkapitalbalansen per 31. desember 2012 ha vært?",
+    "answer": [
+      [
+        "65681"
+      ]
+    ],
+    "evidence_cells": [
+      "K9",
+      "K14"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_008",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "open_ended_reasoning",
+    "question": "Basert på åpnings- og sluttbalansene, samt transaksjonslinjen for 'aksjer utstedt under ansattprogrammer', hva er forholdet mellom 'ansattes aksjetillit' og 'vanlige aksjer utstedt til ansattes tillit'?",
+    "answer": [
+      [
+        "Det er et konsekvent omvendt forhold. Verdien i kolonnen 'vanlige aksjer utstedt til ansattes tillit' er alltid det eksakte negative av verdien i kolonnen 'ansattes aksjetillit' for en gitt rad (f.eks. 3166 dollar mot -3166 dollar i åpningsbalansen; -234 dollar mot 234 dollar for aksjer utstedt). Dette indikerer at de er motkontoer til hverandre, designet for å balansere effekten deres innenfor den totale egenkapitalberegningen."
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "I1",
+      "F5",
+      "I5",
+      "F14",
+      "I14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_009",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Ser vi bort fra den første og siste raden som beskriver saldi, hva er den mest frekvente verdien i datasettet fra kolonne B til K?",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "F2",
+      "G2",
+      "H2",
+      "I2",
+      "J2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "I3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_010",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Blant alle transaksjoner som påvirker 'total egenkapital', hvilket enkelt element skiller seg ut som det største negative avviket?",
+    "answer": [
+      [
+        "reclassification to redeemable noncontrolling interests"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "K12",
+      "K2",
+      "K3",
+      "K4",
+      "K5",
+      "K6",
+      "K7",
+      "K8",
+      "K9",
+      "K10",
+      "K11",
+      "K13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_011",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Hva var den totale beholdningen av foretrukne aksjer per 31. desember 2012?",
+    "answer": [
+      [
+        "$1508"
+      ]
+    ],
+    "evidence_cells": [
+      "A16",
+      "B16"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

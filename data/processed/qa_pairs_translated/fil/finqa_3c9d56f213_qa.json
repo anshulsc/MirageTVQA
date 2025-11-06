@@ -1,0 +1,288 @@
+[
+  {
+    "question_id": "finqa_3c9d56f213_001",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Ano ang kabuuang Gross MW na nalikha ng lahat ng mga proyektong pinapagana ng hangin na nakalista sa talahanayan?",
+    "answer": [
+      [
+        "311"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "C6",
+      "D6",
+      "C7",
+      "D7",
+      "C8",
+      "D8",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_002",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Sa mga proyektong nakalista, aling uri ng panggatong, Coal o Hydro, ang may mas mataas na average na Gross MW output?",
+    "answer": [
+      [
+        "Coal"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C5",
+      "D5",
+      "C10",
+      "D10",
+      "C11",
+      "D11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_003",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Ilista ang mga pangalan ng lahat ng proyekto na matatagpuan sa China na gumagamit ng renewable fuel source (Hydro o Wind).",
+    "answer": [
+      [
+        "jhrh ( 1 )"
+      ],
+      [
+        "dong qi ( 3 )"
+      ],
+      [
+        "huanghua ii ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_004",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Ano ang epektibong Gross MW na maiuugnay sa AES para sa proyektong may pinakamataas na Gross MW na matatagpuan sa Chile?",
+    "answer": [
+      [
+        "193.12"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_005",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Anong porsyento ng kabuuang Gross MW mula sa lahat ng proyekto ang naiambag ng mga proyektong may 100% equity interest ang AES?",
+    "answer": [
+      [
+        "54.43%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D10",
+      "D11"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_006",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "Tukuyin ang proyekto na may pinaka-anomalya na Gross MW output at ipaliwanag kung bakit ito namumukod-tangi sa lahat ng iba pang proyekto sa dataset.",
+    "answer": [
+      [
+        "Ang proyektong 'ballylumford' ang pinaka-makabuluhang outlier. Ang Gross MW nito na 1246 ay higit sa tatlong beses na mas malaki kaysa sa susunod na pinakamalaking proyekto, ang 'jhrh' (379 MW), at mahigit 25 beses ang median Gross MW ng buong dataset (49 MW). Ang napakalaking pagkakaiba sa laki na ito ang ginagawang anomalya ang kapasidad ng produksyon ng kuryente nito kumpara sa lahat ng iba pang nakalistang proyekto."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_007",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Kung dodoble ang equity interest ng AES sa lahat ng proyekto sa Turkey mula sa kanilang kasalukuyang antas, ano ang magiging bagong kabuuang epektibong Gross MW mula sa Turkey na maiuugnay sa AES?",
+    "answer": [
+      [
+        "44.88"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "D10",
+      "E10",
+      "B11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_008",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "Batay sa datos, mayroon bang nakikitang ugnayan sa pagitan ng Gross MW ng isang proyekto at sa antas ng interes sa pagmamay-ari ng AES? Ipaliwanag ang iyong pangangatwiran.",
+    "answer": [
+      [
+        "Walang malinaw o pare-parehong ugnayan sa pagitan ng Gross MW ng isang proyekto at ng interes sa pagmamay-ari ng AES. Halimbawa, ang proyektong may pinakamataas na Gross MW ('ballylumford', 1246 MW) ay may 100% interes, ngunit ang pangalawa sa pinakamataas ('jhrh', 379 MW) ay may mababang 35% interes. Sa kabilang banda, ang isang proyektong may napakababang MW ('north rhins', 22 MW) ay mayroon ding 100% interes. Ang malawak na distribusyon ng mga bahagi ng pagmamay-ari sa iba't ibang laki ng proyekto ay nagpapahiwatig na ang laki ng proyekto ay hindi direktang nagtatakda ng antas ng pamumuhunan ng AES."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D6",
+      "E6",
+      "D7",
+      "E7",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D10",
+      "E10",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_009",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "Naglalaman ng paulit-ulit na impormasyon ang column na 'aes equity interest ( percent rounded )'. Ilarawan ang pattern ng redundancy na ito.",
+    "answer": [
+      [
+        "Ang column ay nagpapakita ng pare-parehong pattern ng redundancy kung saan ang bawat cell ay naglalaman ng isang porsyento na sinusundan ng eksaktong parehong halaga na inuulit sa loob ng parenthesis, tulad ng '71% ( 71 % )'. Ang impormasyon sa loob ng parenthesis ay direktang kopya ng impormasyon na nauuna dito."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_010",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Aling bansa ang may pinakamababang pinagsama-samang epektibong Gross MW na maiuugnay sa AES, kung isasaalang-alang lamang ang mga bansang may maraming proyekto na nakalista sa talahanayan?",
+    "answer": [
+      [
+        "Turkey"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2",
+      "E2",
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "D5",
+      "E5",
+      "B6",
+      "D6",
+      "E6",
+      "B7",
+      "D7",
+      "E7",
+      "B10",
+      "D10",
+      "E10",
+      "B11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_011",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Ilan ang proyekto na gumagamit ng hangin (wind) bilang kanilang pangunahing panggatong?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

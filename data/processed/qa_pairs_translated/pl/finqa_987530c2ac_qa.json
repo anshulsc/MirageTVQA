@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_987530c2ac_001",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "W którym roku firma odnotowała najmniejszą stratę pro-forma?",
+    "answer": [
+      [
+        "2004"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_002",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "Jaka była skumulowana kwota 'straty netto zgodnie z raportem' za lata 2002, 2003 i 2004 łącznie?",
+    "answer": [
+      [
+        "-1736448"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_987530c2ac_003",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "Dla roku, w którym wystąpiła największa bezwzględna różnica między podstawową stratą na akcję 'jak zgłoszono' a 'pro-forma', jaka była ta różnica?",
+    "answer": [
+      [
+        "0.20"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6",
+      "C5",
+      "C6",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_004",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Opisz trend \"pro-forma straty netto\" firmy w latach 2002-2004.",
+    "answer": [
+      [
+        "Pro-forma strata netto firmy wykazywała stały i znaczący trend spadkowy w latach 2002-2004. Strata zmniejszyła się z 1 201 666 USD w 2002 r. do 354 400 USD w 2003 r., a następnie do 269 196 USD w 2004 r., co wskazuje na znaczną poprawę wyników finansowych w tym okresie."
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "C4",
+      "B4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_005",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "Jaki był 'skorygowany zysk netto' w roku, w którym 'dodaj: koszt wynagrodzeń akcyjnych pracowniczych' wynosił 2077?",
+    "answer": [
+      [
+        "$ -354400 ( 354400 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_006",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "W 2003 roku, jaki procentowy udział w kwocie \"straty netto wg sprawozdania\" stanowił bezwzględny koszt \"całkowitego wynagrodzenia akcyjnego dla pracowników\"?",
+    "answer": [
+      [
+        "9.58%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_987530c2ac_007",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "Gdyby koszt wynagrodzeń pracowniczych związany z akcjami, który uległ modyfikacji w 2002 roku, wynosił 5000 zamiast brakującej wartości, jaki byłby przeliczony 'pro-forma utrata netto' za ten rok?",
+    "answer": [
+      [
+        "-1196666"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "B1",
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_008",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Jaka jest widoczna zależność między \"łącznymi kosztami wynagrodzeń pracowniczych opartych na akcjach\" a \"stratą netto pro-forma\" w latach 2002-2004?",
+    "answer": [
+      [
+        "Wydaje się istnieć pozytywna korelacja między wielkością \"łącznych kosztów wynagrodzeń pracowniczych opartych na akcjach\" a \"stratą netto pro-forma\". Ponieważ koszty wynagrodzeń oparte na akcjach malały każdego roku z 38 126 USD w 2002 r. do 23 906 USD w 2004 r., strata netto pro-forma również stale malała z 1 201 666 USD do 269 196 USD, co sugeruje, że lata z wyższymi kosztami opartymi na akcjach miały również wyższe straty pro-forma."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_987530c2ac_009",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "Która pozycja finansowa ma niekompletne dane w prezentowanych latach w tabeli?",
+    "answer": [
+      [
+        "add : stock-based employee compensation expense associated with modifications net of related tax effect included in net loss asreported"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_010",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Który rok można uznać za wartości odstające pod względem 'podstawowej i rozwodnionej straty na akcję zgodnie z raportem' w porównaniu do innych lat i dlaczego?",
+    "answer": [
+      [
+        "Rok 2002 jest wyraźną wartością odstającą. 'Podstawowa i rozwodniona strata na akcję zgodnie z raportem' wyniosła -5,95 USD, co jest ponad 3,8 raza większą wartością bezwzględną niż -1,56 USD zgłoszone w 2003 r. i ponad 5,4 raza większą niż -1,10 USD w 2004 r. Gwałtowny spadek tej wartości w kolejnych latach podkreśla rok 2002 jako rok wyjątkowo wysokich strat na akcję."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_987530c2ac_011",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "Jaki był skorygowany o inflację (pro-forma) bilansowy rok 2003?",
+    "answer": [
+      [
+        "$ -354,400"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

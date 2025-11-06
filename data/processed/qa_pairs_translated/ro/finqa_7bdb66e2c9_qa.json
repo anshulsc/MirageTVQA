@@ -1,0 +1,260 @@
+[
+  {
+    "question_id": "finqa_7bdb66e2c9_001",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Ce tip de garanție prezintă cea mai mare diferență absolută în miliarde de dolari între plățile sale potențiale de tip „investment grade” și „non-investment grade”?",
+    "answer": [
+      [
+        "financial standby letters of credit"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_002",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Care este suma totală potențială de plată pentru toate tipurile de garanții care au o valoare pentru 'grad de investiție', dar un substituent ('2014') pentru 'neevaluat'?",
+    "answer": [
+      [
+        "21.6"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "D8",
+      "E8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_003",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Pentru tipul de garanție cu cel mai mare total general al plăților potențiale, care categorie de rating ('investment grade', 'non-investment grade' sau 'not rated') constituie cea mai mare parte din acest total?",
+    "answer": [
+      [
+        "maximum potential amount of future payments investment grade"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_004",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Ce procent din totalul general al plăților viitoare potențiale maxime este clasificat ca 'necotat'?",
+    "answer": [
+      [
+        "63.89%"
+      ]
+    ],
+    "evidence_cells": [
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_005",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Dacă s-ar fi descoperit că suma 'necotată' pentru 'indemnizațiile de împrumut de titluri' este cu 10% mai mică decât cea declarată, care ar fi noul total general pentru toate garanțiile?",
+    "answer": [
+      [
+        "$ 300.14"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_006",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Care este valoarea medie potențială totală a plăților pentru tipurile de garanții care au valori zero sau de tip placeholder ('2014') atât pentru ratingurile 'investment grade' cât și pentru cele 'non-investment grade'?",
+    "answer": [
+      [
+        "34.62"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "E3",
+      "B4",
+      "C4",
+      "E4",
+      "B5",
+      "C5",
+      "E5",
+      "B6",
+      "C6",
+      "E6",
+      "B7",
+      "C7",
+      "E7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_007",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Care coloană de rating al plăților ('investment grade', 'non-investment grade' sau 'not rated') conține cele mai multe valori substitut non-numerice ('2014')?",
+    "answer": [
+      [
+        "maximum potential amount of future payments investment grade"
+      ],
+      [
+        "maximum potential amount of future payments non-investment grade"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_008",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "open_ended_reasoning",
+    "question": "Pe baza datelor furnizate, identificați cea mai semnificativă valoare aberantă din coloana 'suma maximă potențială a plăților viitoare totale' și explicați de ce se remarcă.",
+    "answer": [
+      [
+        "Categoria 'scrisori de credit de tip standby financiare', cu un total de 94,2 miliarde de dolari, este cea mai semnificativă valoare aberantă superioară. Această valoare este cu aproximativ 38,4% mai mare decât următoarea categorie ca mărime ('instrumente derivate' la 67,9 miliarde de dolari) și este de peste 2,4 ori mai mare decât media tuturor categoriilor (38,11 miliarde de dolari). În schimb, 'garanțiile de colectare a fluxurilor de numerar contractuale' și 'creditele vândute cu regres' sunt valori aberante semnificative la limita inferioară, cu doar 0,3 miliarde de dolari fiecare."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_009",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "open_ended_reasoning",
+    "question": "Analizați distribuția plăților potențiale pe cele trei grade de rating pentru „garanții de performanță” și „despăgubiri de custodie și altele”. Ce sugerează această comparație despre profilele de risc ale acestor două tipuri de garanții?",
+    "answer": [
+      [
+        "Pentru „garanții de performanță”, sumele sunt distribuite relativ uniform pe gradele de rating investițional ($5.7B), non-investițional ($5.0B) și neevaluat ($5.6B), sugerând un profil de risc diversificat. În contrast, „despăgubirile de custodie și altele” sunt puternic ponderate către gradul de rating investițional ($18.5B), cu o porțiune mult mai mică de grad non-investițional ($3.1B) și fără o sumă „neevaluată”. Aceasta implică faptul că „despăgubirile de custodie” sunt asociate cu contrapartide cu risc de credit semnificativ mai scăzut comparativ cu „garanțiile de performanță”."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A8",
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_010",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "open_ended_reasoning",
+    "question": "Există o corelație consistentă, observabilă între sumele pentru plățile potențiale de tip 'investment grade' și 'non-investment grade' pentru diferitele tipuri de garanții? Explicați-vă raționamentul.",
+    "answer": [
+      [
+        "Nu, nu există o corelație consistentă, observabilă. Având în vedere că doar trei categorii au valori numerice pentru ambele coloane, datele sunt prea disparate pentru a stabili un model fiabil. 'Scrisorile de credit standby financiare' au o sumă mare de tip investment grade (49,2 miliarde dolari) asociată cu o sumă mare de tip non-investment grade (28,6 miliarde dolari). 'Garanțiile de performanță' au valori similare pentru ambele (5,7 miliarde dolari și 5,0 miliarde dolari). Cu toate acestea, 'indemnizațiile de custodie' au o sumă mare de tip investment grade (18,5 miliarde dolari), dar o sumă foarte mică de tip non-investment grade (3,1 miliarde dolari), ceea ce contrazice orice corelație pozitivă simplă sugerată de celelalte două puncte. Numeroasele valori de tip placeholder împiedică o analiză mai amănunțită."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_011",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Care are cea mai mare sumă potențială de plăți viitoare de grad investițional?",
+    "answer": [
+      [
+        "Financial standby letters of credit"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

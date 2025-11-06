@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "finqa_cc5f795ec6_001",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Який вид діяльності мав більший негативний вплив на «загальний власний капітал»: «дивіденди» чи «викуп власних акцій»?",
+    "answer": [
+      [
+        "dividends"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "K4",
+      "A6",
+      "K6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_002",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Яка чиста зміна \"сплаченого капіталу\" від усіх перелічених видів діяльності між датами балансу 2011 та 2012 років?",
+    "answer": [
+      [
+        "590"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D11",
+      "D13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_003",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Яким був загальний вплив на власний капітал угоди, яка передбачала збільшення «внесеного капіталу» на 662 долари?",
+    "answer": [
+      [
+        "1147"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "K5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_004",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "open_ended_reasoning",
+    "question": "Проаналізуйте зміну 'загального власного капіталу' з 31 грудня 2011 року по 31 грудня 2012 року та визначте основну причину цієї зміни.",
+    "answer": [
+      [
+        "Загальний власний капітал зменшився з $70 078 до $65 428, що становить чисте зменшення на $4 650. Хоча існувало кілька факторів, що сприяли цьому, найбільшою причиною цього зменшення була 'перекласифікація в придатний для викупу неконтролюючий інтерес', яка сама по собі мала негативний вплив у розмірі $4 288, що становить понад 92% від загального чистого зменшення."
+      ]
+    ],
+    "evidence_cells": [
+      "K1",
+      "K14",
+      "A12",
+      "K12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_005",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Перелічіть усі фінансові операції, які призвели до зменшення 'сплаченого капіталу', але не вплинули на 'нерозподілений прибуток'.",
+    "answer": [
+      [
+        "purchase of additional stake in the wealth management joint venture"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_006",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Який відсоток від початкових \"нерозподіленого прибутку\" станом на 31 грудня 2011 року було виплачено як \"дивіденди\" за звітний період?",
+    "answer": [
+      [
+        "-1.23%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_007",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Якби «коригування валютних курсів» мали нейтральний вплив (тобто нульовий) на загальний власний капітал, яким би був кінцевий загальний власний капітал на 31 грудня 2012 року?",
+    "answer": [
+      [
+        "65681"
+      ]
+    ],
+    "evidence_cells": [
+      "K9",
+      "K14"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_008",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "open_ended_reasoning",
+    "question": "Виходячи з початкових і кінцевих залишків, а також рядка транзакцій \"акції, випущені в рамках планів для працівників\", яке співвідношення між \"трастовим фондом акцій працівників\" та \"звичайними акціями, випущеними для трастового фонду працівників\"?",
+    "answer": [
+      [
+        "Існує стабільне зворотне співвідношення. Значення в стовпці \"звичайні акції, випущені для трастового фонду працівників\" завжди є точною протилежністю значення в стовпці \"трастовий фонд акцій працівників\" для будь-якого заданого рядка (наприклад, $3166 проти -$3166 у початковому залишку; -$234 проти $234 для випущених акцій). Це вказує на те, що вони є контррахунками один до одного, призначеними для взаємного погашення їхнього впливу в розрахунку загального власного капіталу."
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "I1",
+      "F5",
+      "I5",
+      "F14",
+      "I14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_009",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Виключаючи перший і останній рядки, які описують баланси, яке значення найчастіше зустрічається в наборі даних стовпців від B до K?",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "F2",
+      "G2",
+      "H2",
+      "I2",
+      "J2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "I3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_010",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Серед усіх операцій, що впливають на \"загальний капітал\", який окремий пункт виділяється як найбільший від'ємний викид?",
+    "answer": [
+      [
+        "reclassification to redeemable noncontrolling interests"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "K12",
+      "K2",
+      "K3",
+      "K4",
+      "K5",
+      "K6",
+      "K7",
+      "K8",
+      "K9",
+      "K10",
+      "K11",
+      "K13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_011",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Якою була загальна сума привілейованих акцій на кінець 31 грудня 2012 року?",
+    "answer": [
+      [
+        "$1508"
+      ]
+    ],
+    "evidence_cells": [
+      "A16",
+      "B16"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

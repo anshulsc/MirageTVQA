@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_aa9ece5c83_001",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Set data kewangan manakah, yang bermula di lajur B atau yang di lajur E, mempunyai pendapatan operasi 'diselaraskan' yang lebih tinggi untuk tahun berakhir 31 Disember 2016?",
+    "answer": [
+      [
+        "The data set starting in column B ($4050 million)"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "G1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_002",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Berapakah jumlah bersih semua pelarasan 'perubahan prinsip perakaunan' berasaskan dolar untuk set data pertama (kolum C)?",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_003",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Berapakah margin 'as filed' EBITDA terlaras untuk set data di mana 'perubahan prinsip perakaunan' untuk pendapatan faedah ialah '-414 ( 414 )'?",
+    "answer": [
+      [
+        "30% ( 30 % )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "F2",
+      "A6",
+      "E6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_004",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Untuk set data pertama (kolom B-D), apakah nisbah pendapatan bersih 'as filed' kepada EBITDA 'as filed' yang diselaraskan, dibundarkan kepada tiga tempat perpuluhan?",
+    "answer": [
+      [
+        "0.141"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_005",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Untuk set data yang dibentangkan dalam lajur B hingga D, kenal pasti metrik di mana nilai 'diselaraskan' kurang daripada nilai 'seperti yang difailkan'.",
+    "answer": [
+      [
+        "interest income"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A5",
+      "B5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_006",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "Dalam baris 'pendapatan bersih sebagai peratus daripada hasil perkhidmatan', nilai 'perubahan prinsip perakaunan' yang manakah kelihatan luar biasa, dan mengapa?",
+    "answer": [
+      [
+        "Nilai 'perubahan prinsip perakaunan' sebanyak '2014% ( 2014 % )' dalam sel C4 dan F4 adalah luar biasa. Bagi kedua-dua set data, 'pendapatan bersih sebagai peratus daripada hasil perkhidmatan' kekal tidak berubah antara angka 'seperti difailkan' dan 'seperti diselaraskan' (masing-masing 5% kepada 5% dan 3% kepada 3%). Perubahan yang logik sepatutnya 0%, menjadikan '2014%' jelas berbeza, berkemungkinan disebabkan oleh kesilapan kemasukan data."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_007",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Jika 'perubahan prinsip perakaunan' untuk pendapatan operasi dalam set data kedua telah menjadi pengurangan sebanyak $50 juta dan bukannya nilai yang ditunjukkan, apakah pendapatan operasi 'sebagai diselaraskan' yang baharu?",
+    "answer": [
+      [
+        "$ 2015"
+      ]
+    ],
+    "evidence_cells": [
+      "E1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_008",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "Adakah terdapat hubungan yang konsisten antara pelarasan perakaunan untuk pendapatan operasi dan EBITDA terselaras merentasi kedua-dua set data?",
+    "answer": [
+      [
+        "Ya, terdapat hubungan positif yang konsisten. Dalam set data pertama, perubahan untuk pendapatan operasi (+$248) adalah sama dengan perubahan untuk EBITDA terselaras (+$248). Dalam set data kedua, perubahan untuk pendapatan operasi (+$414) juga sama dengan perubahan untuk EBITDA terselaras (+$414). Ini menunjukkan perubahan prinsip perakaunan yang mempengaruhi pendapatan operasi secara langsung mengalir ke EBITDA terselaras dengan jumlah yang sama."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "F1",
+      "F5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_009",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "Apakah isu struktur paling ketara dengan pengepala lajur yang boleh menyebabkan kekeliruan apabila mentafsir jadual?",
+    "answer": [
+      [
+        "Isu struktur utama ialah penduaan pengepala lajur tanpa pengumpulan peringkat yang lebih tinggi. Pengepala 'year ended december 31 2016 as filed' dan 'year ended december 31 2016 change in accounting principle' digunakan untuk dua set lajur yang berbeza (B dan E; C dan F). Ketidakjelasan ini memaksa pengguna untuk membuat kesimpulan bahawa dua entiti atau senario yang berasingan sedang dibandingkan, bukannya dinyatakan secara eksplisit."
+      ]
+    ],
+    "evidence_cells": [],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_010",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Menggunakan nilai 'diselaraskan', hitung hasil perkhidmatan tersirat untuk kedua-dua set data (Adjusted EBITDA / Adjusted EBITDA margin) dan laporkan perbezaan dalam juta antara kedua-duanya (set pertama tolak set kedua), dibundarkan kepada juta terdekat.",
+    "answer": [
+      [
+        "$2,814"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D6",
+      "G5",
+      "G6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_011",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Berapakah peningkatan pendapatan operasi (dalam jutaan) untuk set data pertama selepas pelarasan daripada 'As Filed' kepada 'As Adjusted'?",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

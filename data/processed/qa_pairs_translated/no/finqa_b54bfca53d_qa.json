@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_b54bfca53d_001",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Hvilken kontraktsmessig forpliktelse, ekskludert totalen, har høyest beløp forfalt i '1-3 år'-perioden?",
+    "answer": [
+      [
+        "purchase obligations ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_002",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Ved å summere betalingene for hver enkelt forpliktelse, bekreft om totalsummen for perioden '1-3 år' oppført i raden 'totale betalinger på kontraktsmessige forpliktelser' er nøyaktig.",
+    "answer": [
+      [
+        "Ja, totalsummen er nøyaktig. Summen av de individuelle forpliktelsene for perioden '1-3 år' er $188,3 + $316,4 + $37,1 + $3779,4, noe som gir $4321,2, som samsvarer med verdien i totalsummen."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_003",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "For den kontraktsmessige forpliktelsen med laveste totale betalingsbeløp, hvilken prosentandel av totalen forfaller i perioden '1-3 år'?",
+    "answer": [
+      [
+        "39.81%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "D3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_004",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv betalingsplanen for 'langgjeld inkludert leasingforpliktelser' over de spesifiserte periodene. Er den forskjøvet mot begynnelsen, mot slutten, eller jevnt fordelt?",
+    "answer": [
+      [
+        "Betalingsplanen for langsiktig gjeld er sterkt forskjøvet mot slutten. Betalingene starter lavt på 34,5 millioner dollar ('mindre enn 1 år'), øker jevnt gjennom periodene 1-3 år og 3-5 år, og kulminerer i en svært stor betaling på 2160,2 millioner dollar i perioden 'mer enn 5 år', som utgjør over 78% av den totale forpliktelsen."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "E1",
+      "F1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_005",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "List alle forpliktelseskategorier der betalingen som forfaller innen 'mindre enn 1 år' er mindre enn betalingen som forfaller innen '1-3 år'.",
+    "answer": [
+      [
+        "long-term debt including capital leases"
+      ],
+      [
+        "interest payments on long-term debt ( b )"
+      ],
+      [
+        "operating leases"
+      ],
+      [
+        "purchase obligations ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_006",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Hvilken prosentandel av den totale 'langsiktige gjelden inkludert leasingavtaler' skal betales om mer enn 5 år?",
+    "answer": [
+      [
+        "78.55%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "F1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_007",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Hvis en ny policy krevde at alle 'kjøpsforpliktelser' som forfaller innen '1-3 år' skulle betales umiddelbart (i perioden 'mindre enn 1 år'), hva ville det nye totalbeløpet for 'mindre enn 1 år' betalinger på kontraktsmessige forpliktelser blitt?",
+    "answer": [
+      [
+        "$6715.0 million"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_008",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Tabellen inneholder et dataintegritetsproblem der summen av periodiske betalinger for én forpliktelsestype ikke samsvarer med dens oppgitte total. Identifiser denne forpliktelsen og beregn avviket.",
+    "answer": [
+      [
+        "Raden 'kjøpsforpliktelser ( c )' har et dataintegritetsproblem. Summen av dens periodiske betalinger ( $2709,5 + $3779,4 + $98,0 + $2212 = $8798,9 millioner) samsvarer ikke med dens oppgitte total på $6586,9 millioner. Avviket er $2212 millioner."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_009",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Ser man på betalingsperioden '3-5 år', hvilken kontraktsmessig forpliktelse har den laveste verdien og kan betraktes som en uteligger sammenlignet med de andre i samme kolonne?",
+    "answer": [
+      [
+        "operating leases"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_010",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Er det et konsekvent forhold mellom størrelsen på en samlet forpliktelse og dens betalingsstruktur (f.eks. er større forpliktelser alltid mer bakseteladet)? Begrunn svaret ditt med data.",
+    "answer": [
+      [
+        "Nei, det er ingen konsekvent sammenheng. Den største samlede forpliktelsen, 'kjøpsforpliktelser' (6586,9 millioner dollar), er tungt frontlastet med hoveddelen forfalt innen 3 år. Motsatt er den nest største, 'langsiktig gjeld' (2750,1 millioner dollar), tungt bakseteladet, med den største betalingen forfalt om mer enn 5 år. Dette indikerer at betalingsstrukturen er spesifikk for forpliktelsestypen, ikke dens totale verdi."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "F1",
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_011",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Hva er de totale betalingene i millioner på kontraktsmessige forpliktelser som forfaller i perioden 1-3 år?",
+    "answer": [
+      [
+        "$4321.2"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

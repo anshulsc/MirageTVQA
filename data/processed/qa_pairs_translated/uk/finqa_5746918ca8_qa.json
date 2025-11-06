@@ -1,0 +1,287 @@
+[
+  {
+    "question_id": "finqa_5746918ca8_001",
+    "table_id": "finqa_5746918ca8",
+    "question_type": "value",
+    "question": "У якому році \"чисті збитки від погашення довгострокового боргу\" були найбільшими?",
+    "answer": [
+      [
+        "2011"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_5746918ca8_002",
+    "table_id": "finqa_5746918ca8",
+    "question_type": "value",
+    "question": "Якою була загальна сума «амортизації нематеріальних активів» у мільйонах з 2011 по 2015 рік?",
+    "answer": [
+      [
+        "825.7"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_5746918ca8_003",
+    "table_id": "finqa_5746918ca8",
+    "question_type": "value",
+    "question": "Який був чистий дохід у році, що мав найнижчу \"негрошову винагороду у вигляді акцій\"?",
+    "answer": [
+      [
+        "$ 132.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "D1"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_5746918ca8_004",
+    "table_id": "finqa_5746918ca8",
+    "question_type": "open_ended_reasoning",
+    "question": "Опишіть тенденцію \"не-GAAP чистого прибутку\" з 2011 по 2015 рік на основі наданих даних.",
+    "answer": [
+      [
+        "\"Не-GAAP чистий прибуток\" демонструє послідовну та сильну позитивну тенденцію зростання протягом п'ятирічного періоду, збільшуючись щороку з 198,8 мільйонів доларів США у 2011 році до 503,5 мільйонів доларів США у 2015 році."
+      ]
+    ],
+    "evidence_cells": [
+      "F10",
+      "E10",
+      "D10",
+      "C10",
+      "B10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_5746918ca8_005",
+    "table_id": "finqa_5746918ca8",
+    "question_type": "value",
+    "question": "Визначте всі фінансові статті, які мали вищу вартість у 2015 році порівняно з 2014 роком, виключаючи статті з нечисловими даними за 2014 рік.",
+    "answer": [
+      [
+        "net income"
+      ],
+      [
+        "amortization of intangibles ( a )"
+      ],
+      [
+        "non-cash equity-based compensation"
+      ],
+      [
+        "other adjustments ( e )"
+      ],
+      [
+        "aggregate adjustment for income taxes ( f )"
+      ],
+      [
+        "non-gaap net income ( g )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A8",
+      "B8",
+      "C8",
+      "A9",
+      "B9",
+      "C9",
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_5746918ca8_006",
+    "table_id": "finqa_5746918ca8",
+    "question_type": "value",
+    "question": "У 2015 році який відсоток «не-GAAP чистого прибутку ( g )» становив «чистий прибуток»? Надайте відповідь, заокруглену до одного десяткового знака.",
+    "answer": [
+      [
+        "80.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_5746918ca8_007",
+    "table_id": "finqa_5746918ca8",
+    "question_type": "value",
+    "question": "Якщо припустити, що «неконсолідований чистий дохід» є сумою «чистого доходу» та всіх зазначених коригувань, яким був би «неконсолідований чистий дохід» за 2013 рік, якби «амортизація нематеріальних активів (a)» була на 10% нижчою в тому році? (у мільйонах)",
+    "answer": [
+      [
+        "298.2"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_5746918ca8_008",
+    "table_id": "finqa_5746918ca8",
+    "question_type": "open_ended_reasoning",
+    "question": "Виходячи з даних за 2011-2015 роки, який очевидний зв'язок між \"чистим прибутком\" та \"не-GAAP чистим прибутком ( g )\"?",
+    "answer": [
+      [
+        "Існує сильна позитивна кореляція між \"чистим прибутком\" та \"не-GAAP чистим прибутком\". За п'ятирічний період, коли \"чистий прибуток\" стабільно зростав з 17,1 млн доларів до 403,1 млн доларів, \"не-GAAP чистий прибуток\" також стабільно зростав з 198,8 млн доларів до 503,5 млн доларів, що вказує на те, що обидва показники рухалися в одному напрямку."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_5746918ca8_009",
+    "table_id": "finqa_5746918ca8",
+    "question_type": "value",
+    "question": "Які рядки містять нечислові дані-заповнювачі для одного або кількох років між 2011 та 2014 роками?",
+    "answer": [
+      [
+        "non-cash equity-based compensation related to equity investment ( b )"
+      ],
+      [
+        "acquisition and integration expenses ( c )"
+      ],
+      [
+        "gain on remeasurement of equity investment ( d )"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "A7",
+      "C7",
+      "D7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_5746918ca8_010",
+    "table_id": "finqa_5746918ca8",
+    "question_type": "open_ended_reasoning",
+    "question": "Який рік мав «чистий збиток від погашення довгострокового боргу», який виглядає як викид порівняно з іншими роками періоду, і чому?",
+    "answer": [
+      [
+        "У 2011 році спостерігалося відхилення за показником «чистий збиток від погашення довгострокового боргу». Збиток становив 118,9 млн доларів, що значно вище, ніж у будь-якому іншому році, перевищуючи на 30% наступне найвище значення (90,7 млн доларів у 2014 році) і майже в сім разів перевищуючи найнижче значення (17,2 млн доларів у 2012 році)."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_5746918ca8_011",
+    "table_id": "finqa_5746918ca8",
+    "question_type": "open_ended_reasoning",
+    "question": "Як змінився показник прибутку до оподаткування за не-GAAP з 2011 по 2015 рік, і які коригування найбільше сприяли цій зміні?",
+    "answer": [
+      [
+        "Прибуток до оподаткування за не-GAAP зріс з 198,8 млн доларів у 2011 році до 503,5 млн доларів у 2015 році. Ключові коригування, що сприяли цьому, включають амортизацію нематеріальних активів, некоштові винагороди в акціях, чисті збитки від погашення довгострокового боргу та сукупне коригування податку на прибуток, які послідовно застосовувалися до чистого прибутку для отримання показників за не-GAAP."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "A9",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9",
+      "A10",
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

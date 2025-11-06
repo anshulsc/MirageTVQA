@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_987530c2ac_001",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "I hvilket år oplevede virksomheden det mindste pro-forma netto tab?",
+    "answer": [
+      [
+        "2004"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_002",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "Hvad var det samlede 'netto tab som rapporteret' for årene 2002, 2003 og 2004 tilsammen?",
+    "answer": [
+      [
+        "-1736448"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_987530c2ac_003",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "For det år, hvor den absolutte forskel mellem 'som rapporteret' og 'pro-forma' grundlæggende netto tab per aktie var størst, hvad var da denne forskel?",
+    "answer": [
+      [
+        "0.20"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6",
+      "C5",
+      "C6",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_004",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv udviklingen i virksomhedens 'pro forma netto tab' fra 2002 til 2004.",
+    "answer": [
+      [
+        "Virksomhedens pro forma netto tab viste en konsekvent og betydelig faldende tendens fra 2002 til 2004. Tabene reduceredes fra 1.201.666 USD i 2002 til 354.400 USD i 2003, og yderligere ned til 269.196 USD i 2004, hvilket indikerer en væsentlig forbedring i den finansielle performance over denne periode."
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "C4",
+      "B4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_005",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "Hvad var det 'pro-forma netto tab' i det år, hvor 'tilføjelse: aktiebaseret medarbejderkompensationsudgift' var 2077?",
+    "answer": [
+      [
+        "$ -354400 ( 354400 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_006",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "I 2003, hvor stor en procentdel af det \"rapporterede netto tab\" udgjorde den absolutte \"samlede aktiebaserede medarbejderkompensationsudgift\"?",
+    "answer": [
+      [
+        "9.58%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_987530c2ac_007",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "Hvis 'stock-based employee compensation expense' ændringen for 2002 havde været 5.000 i stedet for at være en manglende værdi, hvad ville den genberegnede 'pro-forma net loss' for det pågældende år have været?",
+    "answer": [
+      [
+        "-1196666"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "B1",
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_008",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Baseret på dataene, hvad er det tilsyneladende forhold mellem 'samlede aktiebaserede medarbejderkompensationsudgifter' og det 'pro-forma netto tab' fra 2002 til 2004?",
+    "answer": [
+      [
+        "Der ser ud til at være en positiv sammenhæng mellem størrelsen af 'samlede aktiebaserede medarbejderkompensationsudgifter' og det 'pro-forma netto tab'. Efterhånden som de aktiebaserede kompensationsudgifter faldt hvert år fra 38.126 USD i 2002 til 23.906 USD i 2004, faldt det pro-forma netto tab også konsekvent fra 1.201.666 USD til 269.196 USD, hvilket tyder på, at år med højere aktiebaserede udgifter også havde højere pro-forma tab."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_987530c2ac_009",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "Hvilken finansiel post har ufuldstændige data på tværs af de år, der præsenteres i tabellen?",
+    "answer": [
+      [
+        "add : stock-based employee compensation expense associated with modifications net of related tax effect included in net loss asreported"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_010",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvilket års 'net loss per share (basic and diluted) som rapporteret' kan betragtes som en outlier sammenlignet med de andre år, og hvorfor?",
+    "answer": [
+      [
+        "Året 2002 er en klar outlier. Dets 'net loss per share (basic and diluted) som rapporteret' var $-5,95, hvilket er over 3,8 gange større i absolut værdi end de $-1,56 rapporteret i 2003 og over 5,4 gange større end de $-1,10 i 2004. Det markante fald i denne metrik i de efterfølgende år fremhæver 2002 som et år med exceptionelt høje tab per aktie."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_987530c2ac_011",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "Hvad var pro-forma netto tabet i 2003?",
+    "answer": [
+      [
+        "$ -354,400"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

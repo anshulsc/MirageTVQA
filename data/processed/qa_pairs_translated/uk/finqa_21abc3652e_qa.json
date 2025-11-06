@@ -1,0 +1,232 @@
+[
+  {
+    "question_id": "finqa_21abc3652e_001",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Виключаючи «загальні комерційні зобов'язання», яке зобов'язання має найбільшу загальну вартість?",
+    "answer": [
+      [
+        "credit facilities [a]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_002",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Якою є сума всіх комерційних зобов'язань, у мільйонах, термін дії яких закінчується у 2015 та 2016 роках разом?",
+    "answer": [
+      [
+        "78"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_21abc3652e_003",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Наведіть рік та відповідну назву об'єкта для кожного випадку, коли один об'єкт становить понад 98% загальних погашень за рік.",
+    "answer": [
+      [
+        "2017",
+        "receivables securitization facility [b]"
+      ],
+      [
+        "2019",
+        "credit facilities [a]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "G5",
+      "A2",
+      "E2",
+      "E5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_004",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "open_ended_reasoning",
+    "question": "Опишіть тенденцію загального строку дії зобов'язань з 2015 по 2019 рік.",
+    "answer": [
+      [
+        "Тенденція є вкрай мінливою і не демонструє стабільного закономірності. Вона починається з 46 мільйонів доларів у 2015 році, знижується до 32 мільйонів доларів у 2016 році, а потім різко зростає до піку в 660 мільйонів доларів у 2017 році. Потім вона падає до 11 мільйонів доларів у 2018 році, перш ніж знову підскочити до найвищої точки в 1708 мільйонів доларів у 2019 році. Ця модель характеризується екстремальними коливаннями, а не послідовним зростанням чи спадом."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_005",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Визначте всі типи зобов'язань, сума погашення яких перевищує нуль як у 2016, так і у 2019 роках.",
+    "answer": [
+      [
+        "guarantees [c]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "G1",
+      "A2",
+      "D2",
+      "G2",
+      "A3",
+      "D3",
+      "G3",
+      "A4",
+      "D4",
+      "G4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_006",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Який відсоток від загальної суми зобов'язань за 'гарантіями [c]' закінчується після 2019 року?",
+    "answer": [
+      [
+        "18.29%"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "H3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_21abc3652e_007",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Якби зобов'язання за \"кредитними лініями [a]\" були на 50% меншими, яким би було нове значення \"загальних комерційних зобов'язань\"?",
+    "answer": [
+      [
+        "$ 1622"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_008",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "open_ended_reasoning",
+    "question": "Виходячи з наданих даних, який взаємозв'язок можна зробити між загальною сумою певних зобов'язань та розподілом у часі їх погашення?",
+    "answer": [
+      [
+        "Здається, існує обернений зв'язок. Два найбільші зобов'язання («кредитні fasilitas» на суму 1700 млн доларів і «facility сек'юритизації дебіторської заборгованості» на суму 650 млн доларів) погашаються одним платежем у певному році. На противагу цьому, менші зобов'язання («гарантії» та «резервні акредитиви») мають суми погашення, розподілені протягом кількох періодів."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "G1",
+      "A2",
+      "B2",
+      "E2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_21abc3652e_009",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Який стовпець, що відповідає конкретному року (2015-2019), має найменшу кількість окремих зобов'язань із терміном дії, що перевищує нуль?",
+    "answer": [
+      [
+        "amount of commitment expiration per period 2018"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_010",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Якщо подивитися на рядок 'total commercialcommitments', яка сума експірації за який рік є найбільш значним викидом порівняно з медіаною періоду з 2015 року до після 2019 року?",
+    "answer": [
+      [
+        "2019"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "H5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_21abc3652e_011",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Які загальні комерційні зобов'язання (у мільйонах) за період з 2015 по 2019 рік?",
+    "answer": [
+      [
+        "2457"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

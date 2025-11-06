@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_aa9ece5c83_001",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Vilken datamängd, den som börjar i kolumn B eller den i kolumn E, hade en högre 'justerad' rörelseintäkt för året som slutade 31 december 2016?",
+    "answer": [
+      [
+        "The data set starting in column B ($4050 million)"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "G1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_002",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Vad är nettosumman av alla dollarbaserade 'ändring i redovisningsprincip'-justeringar för den första datamängden (kolumn C)?",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_003",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Vad var 'as filed' justerad EBITDA-marginal för datamängden där 'ändring i redovisningsprincip' för ränteintäkter var '-414 ( 414 )'?",
+    "answer": [
+      [
+        "30% ( 30 % )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "F2",
+      "A6",
+      "E6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_004",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "För den första datamängden (kolumner B-D), vad är förhållandet mellan 'as filed' nettoresultat och 'as filed' justerad EBITDA, avrundat till tre decimaler?",
+    "answer": [
+      [
+        "0.141"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_005",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "För datamängden som presenteras i kolumnerna B till D, identifiera måttet där värdet 'as adjusted' är mindre än värdet 'as filed'.",
+    "answer": [
+      [
+        "interest income"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A5",
+      "B5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_006",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "I raderna \"net income as a percentage of service revenue\", vilket värde för \"change in accounting principle\" framstår som avvikande, och varför?",
+    "answer": [
+      [
+        "Värdet \"2014% ( 2014 % )\" för \"change in accounting principle\" i cellerna C4 och F4 är avvikande. För båda datamängderna förblir \"net income as a percentage of service revenue\" oförändrat mellan siffrorna \"as filed\" och \"as adjusted\" (5% till 5% respektive 3% till 3%). En logisk förändring skulle vara 0%, vilket gör \"2014%\" till en tydlig avvikelse, troligen som ett resultat av ett datainmatningsfel."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_007",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Om 'ändring av redovisningsprincip' för rörelseresultat i den andra datamängden hade varit en minskning med 50 miljoner dollar istället för det visade värdet, vad skulle det nya 'justerade' rörelseresultatet ha varit?",
+    "answer": [
+      [
+        "$ 2015"
+      ]
+    ],
+    "evidence_cells": [
+      "E1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_008",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "Finns det ett konsekvent samband mellan redovisningsjusteringarna för rörelseresultat och justerat EBITDA över båda datamängderna?",
+    "answer": [
+      [
+        "Ja, det finns ett konsekvent positivt samband. I den första datamängden är förändringen för rörelseresultat (+$248) identisk med förändringen för justerat EBITDA (+$248). I den andra datamängden är förändringen för rörelseresultat (+$414) också identisk med förändringen för justerat EBITDA (+$414). Detta tyder på att redovisningsprincipändringen som påverkar rörelseresultatet direkt överförs till justerat EBITDA med samma belopp."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "F1",
+      "F5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_009",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "Vilket är det mest betydande strukturella problemet med kolumnrubrikerna som kan leda till förvirring vid tolkning av tabellen?",
+    "answer": [
+      [
+        "Det primära strukturella problemet är dupliceringen av kolumnrubriker utan en övergripande gruppering. Rubrikerna 'year ended december 31 2016 as filed' och 'year ended december 31 2016 change in accounting principle' används för två olika uppsättningar kolumner (B och E; C och F). Denna tvetydighet tvingar användaren att anta att två separata enheter eller scenarier jämförs, snarare än att det uttryckligen anges."
+      ]
+    ],
+    "evidence_cells": [],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_010",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Använd 'as adjusted'-värdena för att beräkna den underförstådda serviceintäkten för båda datamängderna (Adjusted EBITDA / Adjusted EBITDA-marginal) och rapportera skillnaden i miljoner mellan de två (första uppsättningen minus andra uppsättningen), avrundat till närmaste hela miljon.",
+    "answer": [
+      [
+        "$2,814"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D6",
+      "G5",
+      "G6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_011",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Hur mycket förändrades rörelseintäkten (i miljoner) för den första datamängden efter justeringen från 'As Filed' till 'As Adjusted'?",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

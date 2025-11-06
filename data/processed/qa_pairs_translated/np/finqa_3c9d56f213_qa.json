@@ -1,0 +1,288 @@
+[
+  {
+    "question_id": "finqa_3c9d56f213_001",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "तालिकामा सूचीबद्ध सबै हावाबाट चल्ने परियोजनाहरूले उत्पादन गरेको कुल ग्रोस मेगावाट (MW) कति छ?",
+    "answer": [
+      [
+        "311"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "C6",
+      "D6",
+      "C7",
+      "D7",
+      "C8",
+      "D8",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_002",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "कुन इन्धन प्रकार, कोइला वा हाइड्रो, सूचीबद्ध परियोजनाहरूमा उच्च औसत कुल मेगावाट उत्पादन छ?",
+    "answer": [
+      [
+        "Coal"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C5",
+      "D5",
+      "C10",
+      "D10",
+      "C11",
+      "D11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_003",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "चीनमा रहेको र नवीकरणीय ईन्धन स्रोत (हाइड्रो वा पवन) प्रयोग गर्ने सबै परियोजनाहरूको नामहरू सूचीबद्ध गर्नुहोस्।",
+    "answer": [
+      [
+        "jhrh ( 1 )"
+      ],
+      [
+        "dong qi ( 3 )"
+      ],
+      [
+        "huanghua ii ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_004",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "चिलीमा रहेको सबैभन्दा बढी ग्रोस मेगावाट (Gross MW) भएको परियोजनाको लागि AES को प्रभावी ग्रोस मेगावाट (Gross MW) कति हो?",
+    "answer": [
+      [
+        "193.12"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_005",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "AES को १००% इक्विटी स्वामित्व भएका परियोजनाहरूबाट कुल कुल मेगावाटको कति प्रतिशत योगदान छ?",
+    "answer": [
+      [
+        "54.43%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D10",
+      "D11"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_006",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "सबैभन्दा असामान्य कुल मेगावाट (Gross MW) आउटपुट भएको परियोजना पहिचान गर्नुहोस् र यस डेटासेटमा रहेका अन्य सबै परियोजनाहरूबाट यो किन फरक छ भनेर व्याख्या गर्नुहोस्।",
+    "answer": [
+      [
+        "The 'ballylumford' project is the most significant outlier. Its Gross MW of 1246 is more than three times larger than the next largest project, 'jhrh' (379 MW), and over 25 times the median Gross MW of the entire dataset (49 MW). This vast difference in magnitude makes its power generation capacity anomalous compared to every other project listed."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_007",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "टर्कीका सबै परियोजनाहरूमा AES को इक्विटी चासो हालको स्तरबाट दोब्बर भएमा, टर्कीबाट AES को लागि नयाँ कुल प्रभावकारी कुल मेगावाट कति हुनेछ?",
+    "answer": [
+      [
+        "44.88"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "D10",
+      "E10",
+      "B11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_008",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "डाटाको आधारमा, परियोजनाको कुल मेगावाट (Gross MW) र AES को इक्विटी हितको स्तर बीच कुनै देखिने सम्बन्ध छ? आफ्नो तर्क बताउनुहोस्।",
+    "answer": [
+      [
+        "परियोजनाको कुल मेगावाट (Gross MW) र AES को इक्विटी हितको स्तर बीच कुनै स्पष्ट वा सुसंगत सम्बन्ध छैन। उदाहरणका लागि, सबैभन्दा धेरै कुल मेगावाट भएको परियोजना ('ballylumford', 1246 MW) मा १००% हित छ, तर दोस्रो धेरै ('jhrh', 379 MW) मा मात्र ३५% हित छ। यसको विपरीत, धेरै कम मेगावाट भएको परियोजना ('north rhins', 22 MW) मा पनि १००% हित छ। विभिन्न परियोजनाहरूको आकारमा इक्विटी हिस्सेदारीको विस्तृत वितरणले यो देखाउँछ कि परियोजनाको आकारले AES लगानीको स्तरलाई प्रत्यक्ष रूपमा निर्धारण गर्दैन।"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D6",
+      "E6",
+      "D7",
+      "E7",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D10",
+      "E10",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_009",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "'aes equity interest ( percent rounded )' स्तम्भमा अनावश्यक जानकारी छ। यो अनावश्यक जानकारीको ढाँचा वर्णन गर्नुहोस्।",
+    "answer": [
+      [
+        "यो स्तम्भमा अनावश्यक जानकारीको एक सुसंगत ढाँचा छ जहाँ प्रत्येक सेलमा कोष्ठकमा सोही मान दोहोर्याइएको प्रतिशत मान हुन्छ, जस्तै '71% ( 71 % )'। कोष्ठकमा भएको जानकारी त्यसभन्दा पहिलेको जानकारीको प्रत्यक्ष नक्कल हो।"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_010",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "तालिकामा सूचीबद्ध धेरै परियोजनाहरू भएका देशहरूलाई मात्र विचार गर्दा, AES सँग सम्बन्धित सबैभन्दा कम संयुक्त प्रभावकारी ग्रस MW कुन देशमा छ?",
+    "answer": [
+      [
+        "Turkey"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2",
+      "E2",
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "D5",
+      "E5",
+      "B6",
+      "D6",
+      "E6",
+      "B7",
+      "D7",
+      "E7",
+      "B10",
+      "D10",
+      "E10",
+      "B11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_011",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "मुख्य इन्धनको रूपमा हावा प्रयोग गर्ने कति परियोजनाहरू छन्?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

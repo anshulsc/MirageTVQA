@@ -1,0 +1,288 @@
+[
+  {
+    "question_id": "finqa_3c9d56f213_001",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Hvad er den samlede Brutto MW genereret af alle vindkraftprojekter angivet i tabellen?",
+    "answer": [
+      [
+        "311"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "C6",
+      "D6",
+      "C7",
+      "D7",
+      "C8",
+      "D8",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_002",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Hvilken brændstoftype, kul eller vandkraft, har en højere gennemsnitlig bruttomegawatt-ydelse på tværs af de listede projekter?",
+    "answer": [
+      [
+        "Coal"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C5",
+      "D5",
+      "C10",
+      "D10",
+      "C11",
+      "D11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_003",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "List navnene på alle projekter i Kina, der bruger en vedvarende brændstoftype (Hydro eller Vind).",
+    "answer": [
+      [
+        "jhrh ( 1 )"
+      ],
+      [
+        "dong qi ( 3 )"
+      ],
+      [
+        "huanghua ii ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_004",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Hvad er den effektive Brutto MW, der kan tilskrives AES for projektet med den højeste Brutto MW placeret i Chile?",
+    "answer": [
+      [
+        "193.12"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_005",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Hvilken procentdel af den samlede Brutto MW fra alle projekter bidrages der med af projekter, hvor AES har en 100% ejerandel?",
+    "answer": [
+      [
+        "54.43%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D10",
+      "D11"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_006",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "Identificer projektet med det mest afvigende Brutto MW-output, og forklar, hvorfor det skiller sig ud fra alle andre projekter i datasættet.",
+    "answer": [
+      [
+        "Projektet 'ballylumford' er den mest markante outlier. Dets Brutto MW på 1246 er mere end tre gange større end det næststørste projekt, 'jhrh' (379 MW), og over 25 gange medianen for Brutto MW i hele datasættet (49 MW). Denne enorme forskel i størrelsesorden gør dets elproduktionskapacitet anomal sammenlignet med alle andre anførte projekter."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_007",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Hvis AES's ejerandel i alle tyrkiske projekter blev fordoblet fra deres nuværende niveau, hvad ville den nye samlede effektive brutto MW fra Tyrkiet, der kan henføres til AES, være?",
+    "answer": [
+      [
+        "44.88"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "D10",
+      "E10",
+      "B11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_008",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "Baseret på dataene, er der en observerbar sammenhæng mellem et projekts Brutto MW og niveauet af AES's ejerandel? Forklar din begrundelse.",
+    "answer": [
+      [
+        "Der er ingen klar eller konsekvent sammenhæng mellem et projekts Brutto MW og AES's ejerandel. For eksempel har projektet med den højeste Brutto MW ('ballylumford', 1246 MW) 100% ejerandel, men den næsthøjeste ('jhrh', 379 MW) har en lav ejerandel på 35%. Omvendt har et projekt med meget lav MW ('north rhins', 22 MW) også 100% ejerandel. Den brede fordeling af ejerandele på tværs af forskellige projektstørrelser tyder på, at projektstørrelsen ikke direkte bestemmer niveauet af AES's investering."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D6",
+      "E6",
+      "D7",
+      "E7",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D10",
+      "E10",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_009",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "Kolonnen 'aes equity interest ( percent rounded )' indeholder redundant information. Beskriv mønsteret for denne redundans.",
+    "answer": [
+      [
+        "Kolonnen udviser et konsekvent mønster af redundans, hvor hver celle indeholder en procentværdi efterfulgt af den nøjagtig samme værdi gentaget i parentes, f.eks. '71% ( 71 % )'. Informationen inde i parentesen er en direkte dublering af den information, der går forud."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_010",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Hvilket land har den laveste kombinerede effektive Brutto MW, der kan tilskrives AES, idet der kun medregnes lande med flere projekter angivet i tabellen?",
+    "answer": [
+      [
+        "Turkey"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2",
+      "E2",
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "D5",
+      "E5",
+      "B6",
+      "D6",
+      "E6",
+      "B7",
+      "D7",
+      "E7",
+      "B10",
+      "D10",
+      "E10",
+      "B11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_011",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Hvor mange projekter bruger vind som deres primære brændstof?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

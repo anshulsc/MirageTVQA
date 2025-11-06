@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "finqa_cedda436f6_001",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Vilket år var 'resultat från rörelsen före skatt' högst?",
+    "answer": [
+      [
+        "2013"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_002",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Vilken var den totala inkomstskattekostnaden i miljoner dollar över alla tre åren som visas i tabellen?",
+    "answer": [
+      [
+        "238"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cedda436f6_003",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "För det år med lägst nettoförsäljning, vad var den motsvarande 'nettointäkten från avvecklade verksamheter (att betrakta som PPG)' i miljoner dollar?",
+    "answer": [
+      [
+        "2197"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_004",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv trenden för 'net sales' från året som slutade 2011 till 2013.",
+    "answer": [
+      [
+        "Net sales visade en liten minskning från 1732 miljoner dollar år 2011 till 1688 miljoner dollar år 2012, följt av en dramatisk nedgång till 108 miljoner dollar år 2013. Detta indikerar en betydande negativ trend, särskilt under den sista året i perioden."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_005",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Lista alla finansiella mått där värdet år 2013 översteg den kombinerade summan av värdena från 2012 och 2011.",
+    "answer": [
+      [
+        "income from operations before income tax"
+      ],
+      [
+        "income from discontinued operations net of tax"
+      ],
+      [
+        "net income from discontinued operations ( attributable to ppg )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "A7",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_006",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Med hur många procent ökade 'nettoresultat från avvecklade verksamheter (attributerbart till PPG)' från 2012 till 2013?",
+    "answer": [
+      [
+        "921.9%"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cedda436f6_007",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Om 'nettointäkt från separation och fusion' år 2013 hade varit 25% lägre, och denna minskning direkt hade minskat 'rörelseresultatet före skatt', vad hade då varit det nya rörelseresultatet för det året?",
+    "answer": [
+      [
+        "1466"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_008",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "Baserat på datan, analysera sambandet mellan 'net sales' och 'income from operations before income tax' över de tre åren. Finns det en konsekvent korrelation?",
+    "answer": [
+      [
+        "Det finns ingen konsekvent korrelation. Från 2011 till 2012 visar måtten en positiv korrelation, då en liten minskning i försäljning (från 1732 miljoner dollar till 1688 miljoner dollar) motsvaras av en minskning i resultat (från 376 miljoner dollar till 345 miljoner dollar). Denna relation inverteras dock dramatiskt 2013, där en massiv minskning av nettoförsäljningen till 108 miljoner dollar åtföljs av en ökning av resultatet till 2014 miljoner dollar. Detta tyder på att resultatet 2013 drevs av andra faktorer än kärnförsäljningen, såsom 'net gain from separation and merger of commodity chemicals business'."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cedda436f6_009",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Vilken finansiell metrik visar ett värde på '$ 2014' miljoner under ett år och '2014' miljoner under två andra år, vilket belyser en inkonsekvens i dataformateringen för samma numeriska värde?",
+    "answer": [
+      [
+        "less : net income attributable to non-controlling interests discontinued operations"
+      ],
+      [
+        "net gain from separation and merger of commodity chemicals business"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "A6",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cedda436f6_010",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "open_ended_reasoning",
+    "question": "Vilken post för år 2013 representerar den mest betydande finansiella händelsen jämfört med dess noll eller nära noll underförstådda värde under andra år, och hur påverkade det sannolikt årets 'resultat från verksamheten'?",
+    "answer": [
+      [
+        "\"Nettointäkt från separation och fusion av kemikalieaffären\" med ett värde av 2192 miljoner år 2013 är den mest betydande finansiella händelsen. Denna engångsvinst verkar vara den primära drivkraften bakom det ovanligt höga \"resultat från verksamheten före skatt\" på 2014 miljoner dollar samma år, vilket är en betydande avvikelse jämfört med de 345M och 376M som rapporterades 2012 respektive 2011."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A3",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cedda436f6_011",
+    "table_id": "finqa_cedda436f6",
+    "question_type": "value",
+    "question": "Vad är skattekostnaden vid slutet av 2011?",
+    "answer": [
+      [
+        "126"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

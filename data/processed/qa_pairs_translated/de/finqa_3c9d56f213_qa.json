@@ -1,0 +1,288 @@
+[
+  {
+    "question_id": "finqa_3c9d56f213_001",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Wie hoch ist die gesamte Brutto-Megawattzahl aller im Tabellenverzeichnis aufgeführten Windkraftprojekte?",
+    "answer": [
+      [
+        "311"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "C6",
+      "D6",
+      "C7",
+      "D7",
+      "C8",
+      "D8",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_002",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Welcher Brennstofftyp, Kohle oder Hydro, hat eine höhere durchschnittliche Brutto-MW-Leistung über die aufgeführten Projekte?",
+    "answer": [
+      [
+        "Coal"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C5",
+      "D5",
+      "C10",
+      "D10",
+      "C11",
+      "D11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_003",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Listen Sie die Namen aller Projekte auf, die sich in China befinden und eine erneuerbare Brennstoffquelle (Wasser oder Wind) nutzen.",
+    "answer": [
+      [
+        "jhrh ( 1 )"
+      ],
+      [
+        "dong qi ( 3 )"
+      ],
+      [
+        "huanghua ii ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_004",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Was ist die effektive Brutto-MW, die AES für das Projekt mit dem höchsten Brutto-MW in Chile zugeschrieben wird?",
+    "answer": [
+      [
+        "193.12"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_005",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Welchen prozentualen Anteil am gesamten Brutto-MW aller Projekte tragen Projekte bei, an denen AES eine 100%ige Beteiligung hat?",
+    "answer": [
+      [
+        "54.43%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D10",
+      "D11"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_006",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifizieren Sie das Projekt mit der höchsten anomale Brutto-MW-Leistung und erklären Sie, warum es sich von allen anderen Projekten im Datensatz abhebt.",
+    "answer": [
+      [
+        "Das Projekt 'ballylumford' ist der signifikanteste Ausreißer. Seine Brutto-MW von 1246 sind mehr als dreimal so hoch wie die des nächstgrößten Projekts 'jhrh' (379 MW) und über 25-mal so hoch wie der mittlere Brutto-MW-Wert des gesamten Datensatzes (49 MW). Dieser gewaltige Unterschied in der Größenordnung macht seine Stromerzeugungskapazität im Vergleich zu jedem anderen aufgeführten Projekt anomal."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_007",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Wenn sich AES's Beteiligung an allen türkischen Projekten von ihrem aktuellen Stand verdoppeln würde, wie hoch wäre dann die neue effektive Brutto-Megawattzahl aus der Türkei, die AES zuzuordnen ist?",
+    "answer": [
+      [
+        "44.88"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "D10",
+      "E10",
+      "B11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_008",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "Gibt es basierend auf den Daten eine erkennbare Korrelation zwischen der Bruttoleistung (Gross MW) eines Projekts und dem Anteil der AES-Beteiligung? Erklären Sie Ihre Begründung.",
+    "answer": [
+      [
+        "Es gibt keine klare oder konsistente Korrelation zwischen der Bruttoleistung (Gross MW) eines Projekts und der Beteiligung von AES. Zum Beispiel hat das Projekt mit der höchsten Bruttoleistung ('ballylumford', 1246 MW) eine Beteiligung von 100 %, aber das zweithöchste ('jhrh', 379 MW) hat eine niedrige Beteiligung von 35 %. Umgekehrt hat ein Projekt mit sehr geringer MW ('north rhins', 22 MW) ebenfalls eine Beteiligung von 100 %. Die breite Streuung der Beteiligungen über verschiedene Projektgrößen hinweg deutet darauf hin, dass die Projektgröße nicht direkt das Ausmaß der AES-Investition bestimmt."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D6",
+      "E6",
+      "D7",
+      "E7",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D10",
+      "E10",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_009",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "Die Spalte 'aes equity interest ( percent rounded )' enthält redundante Informationen. Beschreiben Sie das Muster dieser Redundanz.",
+    "answer": [
+      [
+        "Die Spalte weist ein konsistentes Muster der Redundanz auf, bei dem jede Zelle einen Prozentwert gefolgt von demselben Wert in Klammern enthält, z. B. '71% ( 71 % )'. Die Informationen in den Klammern sind eine direkte Duplikat der Informationen, denen sie vorausgehen."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_010",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Welches Land hat die niedrigsten kombinierten effektiven Bruttomegawatt (Gross MW), die AES zugeschrieben werden, unter Berücksichtigung von nur Ländern mit mehreren Projekten, die in der Tabelle aufgeführt sind?",
+    "answer": [
+      [
+        "Turkey"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2",
+      "E2",
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "D5",
+      "E5",
+      "B6",
+      "D6",
+      "E6",
+      "B7",
+      "D7",
+      "E7",
+      "B10",
+      "D10",
+      "E10",
+      "B11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_011",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Wie viele Projekte nutzen Wind als ihren Hauptbrennstoff?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

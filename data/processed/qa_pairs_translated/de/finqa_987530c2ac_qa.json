@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_987530c2ac_001",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "In welchem Jahr verzeichnete das Unternehmen den geringsten Pro-forma-Nettoverlust?",
+    "answer": [
+      [
+        "2004"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_002",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "Was der kumulierte 'Nettoverlust laut Bericht' für die Jahre 2002, 2003 und 2004 zusammengenommen?",
+    "answer": [
+      [
+        "-1736448"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_987530c2ac_003",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "Für das Jahr, das die größte absolute Differenz zwischen dem \"as reported\" und dem \"pro-forma\" Nettoverlust pro Aktie aufwies, wie groß war diese Differenz?",
+    "answer": [
+      [
+        "0.20"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6",
+      "C5",
+      "C6",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_004",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Beschreiben Sie den Trend des pro-forma Nettoverlusts des Unternehmens von 2002 bis 2004.",
+    "answer": [
+      [
+        "Der pro-forma Nettoverlust des Unternehmens zeigte von 2002 bis 2004 einen stetigen und signifikanten Abwärtstrend. Der Verlust reduzierte sich von 1.201.666 USD im Jahr 2002 auf 354.400 USD im Jahr 2003 und weiter auf 269.196 USD im Jahr 2004, was auf eine deutliche Verbesserung der finanziellen Leistung in diesem Zeitraum hindeutet."
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "C4",
+      "B4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_005",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "Was war der 'Pro-forma-Nettoverlust' in dem Jahr, als die 'Zugabe: aktienbasierte Mitarbeitervergütungskosten' 2077 betrugen?",
+    "answer": [
+      [
+        "$ -354400 ( 354400 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_006",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "Welchen Prozentsatz des 'net loss as reported' (Nettoverlust laut Bericht) machte die absolute 'total stock-based employee compensation expense' (Gesamte aktienbasierte Mitarbeitervergütungskosten) im Jahr 2003 aus?",
+    "answer": [
+      [
+        "9.58%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_987530c2ac_007",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "Wenn die Modifikation der 'aktienbasierten Vergütungskosten für Mitarbeiter' für 2002 5.000 statt eines fehlenden Wertes betragen hätte, wie hoch wäre der neu berechnete 'Pro-forma-Nettoverlust' für dieses Jahr gewesen?",
+    "answer": [
+      [
+        "-1196666"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "B1",
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_008",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Was ist die offensichtliche Beziehung zwischen den 'gesamten aktienbasierten Vergütungskosten für Mitarbeiter' und dem 'Pro-forma-Nettoverlust' von 2002 bis 2004, basierend auf den Daten?",
+    "answer": [
+      [
+        "Es scheint eine positive Korrelation zwischen der Größenordnung der 'gesamten aktienbasierten Vergütungskosten für Mitarbeiter' und dem 'Pro-forma-Nettoverlust' zu geben. Da die aktienbasierten Vergütungskosten jedes Jahr von 38.126 US-Dollar im Jahr 2002 auf 23.906 US-Dollar im Jahr 2004 sanken, sank auch der Pro-forma-Nettoverlust kontinuierlich von 1.201.666 US-Dollar auf 269.196 US-Dollar, was darauf hindeutet, dass Jahre mit höheren aktienbasierten Vergütungen auch höhere Pro-forma-Verluste aufwiesen."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_987530c2ac_009",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "Welcher Finanzposten weist über die in der Tabelle dargestellten Jahre hinweg unvollständige Daten auf?",
+    "answer": [
+      [
+        "add : stock-based employee compensation expense associated with modifications net of related tax effect included in net loss asreported"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_010",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Welches Jahr's 'gemeldeter Nettoverlust pro Aktie (Basis und verwässert)' kann im Vergleich zu den anderen Jahren als Ausreißer betrachtet werden und warum?",
+    "answer": [
+      [
+        "Das Jahr 2002 ist ein klarer Ausreißer. Der 'gemeldete Nettoverlust pro Aktie (Basis und verwässert)' betrug -5,95 $, was in der Größenordnung mehr als 3,8-mal so hoch ist wie die -1,56 $ im Jahr 2003 und mehr als 5,4-mal so hoch wie die -1,10 $ im Jahr 2004. Der starke Rückgang dieser Kennzahl in den Folgejahren hebt 2002 als ein Jahr mit außergewöhnlich hohen Verlusten pro Aktie hervor."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_987530c2ac_011",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "Wie hoch war der Pro-forma-Nettoverlust im Jahr 2003?",
+    "answer": [
+      [
+        "$ -354,400"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

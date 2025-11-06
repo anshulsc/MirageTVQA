@@ -1,0 +1,215 @@
+[
+  {
+    "question_id": "finqa_e33c420d31_001",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Które zobowiązanie umowne, z wyłączeniem „zobowiązań z tytułu długu” i „odsetek od zadłużenia długoterminowego”, ma największą kwotę do zapłaty w okresie „3-5 lat”?",
+    "answer": [
+      [
+        "fuel obligations"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_002",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Jaka jest łączna suma wszystkich zobowiązań, które mają odniesienie do przypisu dolnego '11'?",
+    "answer": [
+      [
+        "$ 16297"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "H3",
+      "B4",
+      "H4",
+      "B5",
+      "H5",
+      "B6",
+      "H6",
+      "B7",
+      "H7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_e33c420d31_003",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Jaki procent całkowitych zobowiązań, których termin płatności przypada w ciągu '1-3 lat', przypada na pojedyncze zobowiązanie o najwyższej całkowitej wartości?",
+    "answer": [
+      [
+        "27.04%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "D1",
+      "D9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_004",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "Dla pozycji 'odsetki od długu długoterminowego', przeanalizuj trend płatności w czterech okresach i określ, czy zobowiązanie jest obciążone początkowo, czy końcowo.",
+    "answer": [
+      [
+        "Płatności z tytułu 'odsetek od długu długoterminowego' wynoszą 1 172 GBP (<1 rok), 2 166 GBP (1-3 lata), 1 719 GBP (3-5 lat) i 4 046 GBP (>5 lat). Zobowiązanie jest znacznie obciążone końcowo, ponieważ płatności wykazują tendencję wzrostową w czasie, a największa pojedyncza płatność przypada na okres 'ponad 5 lat'. Ponad 63% całkowitych płatności odsetkowych przypada na okres dłuższy niż 3 lata od daty."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_005",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Wymień zobowiązania umowne, w których kwota należna w ciągu 'mniej niż 1 roku' jest większa niż kwota należna w ciągu '3-5 lat'.",
+    "answer": [
+      [
+        "fuel obligations"
+      ],
+      [
+        "other purchase obligations"
+      ],
+      [
+        "other long-term liabilities reflected on aes' consolidated balance sheet under gaap ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "E6",
+      "A7",
+      "C7",
+      "E7",
+      "A8",
+      "C8",
+      "E8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_006",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Jaki jest stosunek całkowitych zobowiązań krótkoterminowych (do spłaty w ciągu 'poniżej 1 roku') do całkowitych zobowiązań długoterminowych (do spłaty w ciągu 'więcej niż 5 lat'), na podstawie ostatniego wiersza 'total'?",
+    "answer": [
+      [
+        "Approximately 1:2.81"
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "F9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_e33c420d31_007",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Gdyby nowa polityka wymagała, aby wszystkie 'zobowiązania z tytułu umów leasingu operacyjnego' przypadające do spłaty za 'ponad 5 lat' zostały zamiast tego zapłacone w okresie '3-5 lat', jaka byłaby nowa suma dla kolumny '3-5 lat'?",
+    "answer": [
+      [
+        "$ 10283"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_008",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "Czy istnieje zauważalna korelacja między rodzajem zobowiązań energetycznych (paliwo vs. energia elektryczna) a harmonogramem ich płatności?",
+    "answer": [
+      [
+        "Tak, istnieje wyraźna korelacja. \"Zobowiązania z tytułu paliwa\" są skoncentrowane na początku, z największą płatnością (1 759 USD) przypadającą w ciągu „mniej niż 1 roku\", co sugeruje krótkoterminowe kontrakty. Natomiast \"zobowiązania z tytułu energii elektrycznej\" są skoncentrowane na końcu, z największą płatnością (2 065 USD) przypadającą w ciągu „ponad 5 lat\", co prawdopodobnie odzwierciedla długoterminowe umowy zakupu energii. Wskazuje to, że natura źródła energii wiąże się z okresem trwania zobowiązania finansowego."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_e33c420d31_009",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "Opierając się na łącznych kwotach dla każdego okresu płatności w ostatnim wierszu, która rama czasowa stanowi największe zobowiązanie finansowe i co to sugeruje o strukturze zobowiązań firmy?",
+    "answer": [
+      [
+        "Okres 'ponad 5 lat' stanowi największe zobowiązanie w wysokości 20 544 USD. Sugeruje to, że struktura zobowiązań firmy jest w przeważającej mierze długoterminowa, ze znaczną częścią zobowiązań finansowych zaplanowanych do spłaty w dalekiej przyszłości, co wskazuje na długoterminowe strategie finansowania lub duże projekty kapitałowe."
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "D9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_010",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "W wierszu dotyczącym 'innych zobowiązań długoterminowych' znajduje się wartość w kolumnie 'mniej niż 1 rok', która wydaje się być wartością odstającą. Zidentyfikuj tę wartość i wyjaśnij, dlaczego jest ona niekonsekwentna.",
+    "answer": [
+      [
+        "Wartością odstającą jest '$ 2014' w kolumnie 'mniej niż 1 rok'. Jest ona niekonsekwentna, ponieważ ta pojedyncza krótkoterminowa kwota płatności jest znacznie wyższa niż '701 USD' podane jako 'suma' dla całego tego zobowiązania, co jest logicznie niemożliwe i prawdopodobnie jest błędem danych."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

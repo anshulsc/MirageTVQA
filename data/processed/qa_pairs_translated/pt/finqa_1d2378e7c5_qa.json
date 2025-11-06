@@ -1,0 +1,215 @@
+[
+  {
+    "question_id": "finqa_1d2378e7c5_001",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Para 31 de dezembro de 2015, qual abordagem regulatória, 'Avançada' ou 'Padronizada', resultou em um 'Capital Total' reportado mais alto, e qual a diferença em milhões de dólares?",
+    "answer": [
+      [
+        "Standardized approach",
+        "12558"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_002",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Qual foi a 'Tier 1 Capital' média em milhões de dólares em todas as quatro colunas relatadas?",
+    "answer": [
+      [
+        "156051"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_003",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Identifique os 'Total Risk-Weighted Assets' correspondentes à coluna com o menor 'Total Capital Ratio'.",
+    "answer": [
+      [
+        "1292605"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "B7",
+      "C7",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_004",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "Supondo que as duas últimas colunas representem os dados do ano anterior, descreva a tendência ano a ano para o 'Índice de Capital Principal Comum' sob a 'Abordagem Padronizada'.",
+    "answer": [
+      [
+        "O 'Índice de Capital Principal Comum' para a 'Abordagem Padronizada' mostrou uma tendência positiva, aumentando 1,51 pontos percentuais de 11,12% no período anterior para 12,63% em 31 de dezembro de 2015."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "E5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_005",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Quais índices de capital sob a 'Abordagem Padronizada de 31 de dezembro de 2015' foram inferiores a 15%?",
+    "answer": [
+      [
+        "12.63% ( 12.63 % )"
+      ],
+      [
+        "14.11"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A6",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_006",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Para '31 de dezembro de 2015 Abordagens Avançadas', qual a proporção do 'Capital Total' atribuível ao 'Capital Nível 2'? (Nota: Capital Nível 2 = Capital Total - Capital Nível 1)",
+    "answer": [
+      [
+        "11.85%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_007",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Se os 'Total Risk-Weighted Assets' sob a 'Standardized Approach de 31 de dezembro de 2015' fossem hipoteticamente 10% maiores, qual seria o novo 'Tier 1 Capital Ratio', assumindo que o 'Tier 1 Capital' permanecesse constante?",
+    "answer": [
+      [
+        "12.83"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_008",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "Que relação pode ser inferida entre os 'Ativos Totais Ponderados pelo Risco' e os rácios de capital apresentados na tabela? Use pontos de dados para apoiar a sua conclusão.",
+    "answer": [
+      [
+        "Existe uma correlação inversa entre os 'Ativos Totais Ponderados pelo Risco' e os rácios de capital. À medida que os ativos ponderados pelo risco (o denominador no cálculo do rácio) aumentam, os rácios de capital diminuem. Por exemplo, a coluna com os maiores ativos (1.292.605 milhões de dólares) apresenta o 'Rácio de Capital Total' mais baixo (12,80%), enquanto a coluna com os menores ativos (1.162.884 milhões de dólares) apresenta o 'Rácio de Capital Total' mais alto (17,08%)."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "B7",
+      "C7",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_009",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "Qual métrica financeira para 31 de dezembro de 2015 mostra uma discrepância incomumente grande entre as abordagens 'Avançada' e 'Padronizada', dado que seus componentes primários são idênticos?",
+    "answer": [
+      [
+        "O Capital Total mostra uma discrepância incomumente grande. Tanto o Capital Principal de Nível 1 quanto o Capital de Nível 1 têm valores idênticos em ambas as abordagens para 2015. No entanto, o Capital Total difere em mais de US$ 12 bilhões (US$ 186.097 milhões vs. US$ 198.655 milhões), indicando que toda a diferença se deve ao cálculo do Capital de Nível 2, tornando-o um valor atípico."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_010",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Apesar dos cabeçalhos de coluna inconsistentes para os dois períodos mostrados, quais valores de capital (em milhões de dólares) são reportados com valores idênticos para ambas as abordagens 'Avançada' e 'Padronizada' em cada período respectivo?",
+    "answer": [
+      [
+        "Common equity tier 1 capital"
+      ],
+      [
+        "Tier 1 capital"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_011",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "Se os ativos ponderados pelo risco total do banco sob a abordagem avançada aumentassem enquanto o capital total permanecesse constante, o que aconteceria com o índice de capital total?",
+    "answer": [
+      [
+        "O índice de capital total diminuiria porque ativos ponderados pelo risco mais elevados com capital inalterado reduzem o índice de capital."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  }
+]

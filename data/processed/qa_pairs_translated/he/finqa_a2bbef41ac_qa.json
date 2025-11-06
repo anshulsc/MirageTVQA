@@ -1,0 +1,189 @@
+[
+  {
+    "question_id": "finqa_a2bbef41ac_001",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "מה היה הערך הכולל של נכסים ('השקעות' ו'נכסים אחרים') נכון ל-31 בדצמבר 2007?",
+    "answer": [
+      [
+        "3254"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_002",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "באיזו קטגוריית נכסים, 'השקעות' או 'נכסים אחרים', נגרם הפסד נטו גדול יותר מ'רווחים / (הפסדים) ממומשים ובלתי ממומשים נטו'?",
+    "answer": [
+      [
+        "investments"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_003",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "אמת האם יתרת הסגירה של 'השקעות' ל-31 בדצמבר 2008 עקבית עם יתרת הפתיחה שלה והעסקאות שלאחר מכן שפורטו. הצג את החישוב שלך.",
+    "answer": [
+      [
+        "כן, היתרה עקבית. החישוב הוא: $1240 (יתרת פתיחה) - $409 (רווחים/הפסדים) + $11 (רכישות/מכירות) - $29 (העברות נטו) = $813, אשר תואם את יתרת הסגירה המדווחת."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_004",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "מה היה השינוי הכולל נטו בערך הנכסים לתקופה כולה, מ-31 בדצמבר 2007 עד 31 בדצמבר 2008?",
+    "answer": [
+      [
+        "-2377"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_005",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "עבור אילו קטגוריות נכסים 'העברות נטו פנימה ו/או החוצה מרמה 3' תרמו בערך חיובי לערך הנכס?",
+    "answer": [
+      [
+        "other assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_006",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "איזה חלק מ'סה\"כ הפסדים נטו לתקופה שנכללו ברווחים' הגיע מ'השקעות'?",
+    "answer": [
+      [
+        "95.54%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_007",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "אם 'רווחים/ (הפסדים) ממומשים ולא ממומשים נטו' עבור 'נכסים אחרים' היו אפס במקום 16$-, מה היה יתרת הסגירה החדשה עבור 'נכסים אחרים' ב-31 בדצמבר 2008?",
+    "answer": [
+      [
+        "80"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_008",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "בהתבסס על הנתונים של 'השקעות', מה הקשר בין 'רווחים/ (הפסדים) ממומשים ולא ממומשים נטו' לבין 'הפסדים נטו כוללים... הקשורים לנכסים שעדיין הוחזקו במועד הדיווח'?",
+    "answer": [
+      [
+        "יש קשר חזק וישיר. 'הפסדים נטו כוללים... הקשורים לנכסים שעדיין הוחזקו' (366$-) מהווים 89.5% מכלל 'רווחים/ (הפסדים) ממומשים ולא ממומשים נטו' (409$-). משמעות הדבר היא שרוב ההפסדים נטו של ההשקעות לתקופה היו לא ממומשים וקשורים לנכסים שלא נמכרו עד סוף תקופת הדיווח."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_009",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "איזו מוסכמה חשבונאית מוצעת על ידי פורמט הנתונים המשמש לערכים שליליים, כגון '-409 (409)'?",
+    "answer": [
+      [
+        "הפורמט של הצגת מספר שלילי ואחריו הערך המוחלט בסוגריים הוא מוסכמה חשבונאית נפוצה לציון ברור ונחרץ של נתונים פיננסיים שליליים כמו הפסדים, הוצאות או ערכי נכסים נגדיים."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_010",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "איזה סעיף מייצג את ההשפעה השלילית הבודדת הגדולה ביותר על שווי הנכסים המשולבים במהלך התקופה?",
+    "answer": [
+      [
+        "realized and unrealized gains / ( losses ) net"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_011",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "בכמה ירדו ההשקעות משנת 2007 עד 2008?",
+    "answer": [
+      [
+        "$427"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A5",
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

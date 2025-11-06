@@ -1,0 +1,288 @@
+[
+  {
+    "question_id": "finqa_3c9d56f213_001",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "مجموع مگاوات ناخالص تولید شده توسط تمام پروژه‌های با نیروی بادی که در جدول فهرست شده‌اند چقدر است؟",
+    "answer": [
+      [
+        "311"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "C6",
+      "D6",
+      "C7",
+      "D7",
+      "C8",
+      "D8",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_002",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "کدام نوع سوخت، زغال سنگ یا هیدرو، میانگین خروجی ناخالص مگاوات بالاتری را در پروژه‌های فهرست شده دارد؟",
+    "answer": [
+      [
+        "Coal"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C5",
+      "D5",
+      "C10",
+      "D10",
+      "C11",
+      "D11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_003",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "فهرستی از نام تمام پروژه‌های واقع در چین که از منبع سوخت تجدیدپذیر (هیدرو یا بادی) استفاده می‌کنند، ارائه دهید.",
+    "answer": [
+      [
+        "jhrh ( 1 )"
+      ],
+      [
+        "dong qi ( 3 )"
+      ],
+      [
+        "huanghua ii ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_004",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "بیشترین مگاوات ناخالص قابل انتساب به AES برای پروژه با بالاترین مگاوات ناخالص واقع در شیلی چقدر است؟",
+    "answer": [
+      [
+        "193.12"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_005",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "چه درصدی از کل مگاوات ناخالص (Gross MW) تمام پروژه‌ها توسط پروژه‌هایی تأمین می‌شود که AES در آن‌ها 100% سهامدار است؟",
+    "answer": [
+      [
+        "54.43%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D10",
+      "D11"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_006",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "پروژه‌ای که بیشترین خروجی مگاوات ناخالص غیرعادی را دارد شناسایی کنید و توضیح دهید که چرا این پروژه نسبت به سایر پروژه‌های موجود در مجموعه داده برجسته است.",
+    "answer": [
+      [
+        "پروژه 'ballylumford' برجسته‌ترین مورد پرت است. مگاوات ناخالص آن 1246 است که بیش از سه برابر بزرگتر از پروژه بعدی، 'jhrh' (379 مگاوات) و بیش از 25 برابر مگاوات ناخالص میانه کل مجموعه داده (49 مگاوات) است. این تفاوت عظیم در مقیاس، ظرفیت تولید برق آن را نسبت به تمام پروژه‌های دیگر لیست شده غیرعادی می‌کند."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_007",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "اگر سهم equity شرکت AES در تمام پروژه‌های ترکیه دو برابر سطح فعلی خود شود، مجموع جدید Gross MW مؤثر از ترکیه که به AES نسبت داده می‌شود، چقدر خواهد بود؟",
+    "answer": [
+      [
+        "44.88"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "D10",
+      "E10",
+      "B11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_008",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "بر اساس داده‌ها، آیا همبستگی قابل مشاهده‌ای بین مگاوات ناخالص (Gross MW) یک پروژه و سطح سهم مالکیت AES وجود دارد؟ دلیل خود را توضیح دهید.",
+    "answer": [
+      [
+        "هیچ همبستگی واضح یا ثابتی بین مگاوات ناخالص پروژه و سهم مالکیت AES وجود ندارد. به عنوان مثال، پروژه‌ای با بالاترین مگاوات ناخالص ('ballylumford'، 1246 مگاوات) دارای 100% سهم است، اما دومین پروژه با بالاترین مگاوات ناخالص ('jhrh'، 379 مگاوات) تنها 35% سهم دارد. برعکس، پروژه‌ای با مگاوات بسیار پایین ('north rhins'، 22 مگاوات) نیز 100% سهم دارد. توزیع گسترده سهام مالکیت در میان اندازه‌های مختلف پروژه نشان می‌دهد که مقیاس پروژه مستقیماً سطح سرمایه‌گذاری AES را تعیین نمی‌کند."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D6",
+      "E6",
+      "D7",
+      "E7",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D10",
+      "E10",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_009",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "ستون 'aes equity interest ( percent rounded )' حاوی اطلاعات اضافی است. الگوی این افزونگی را توصیف کنید.",
+    "answer": [
+      [
+        "این ستون الگوی ثابتی از افزونگی را نشان می‌دهد که در آن هر سلول حاوی یک مقدار درصدی است که با همان مقدار دقیق تکرار شده در داخل پرانتز دنبال می‌شود، مانند '71% ( 71 % )'. اطلاعات داخل پرانتز تکرار مستقیمی از اطلاعاتی است که قبل از آن آمده است."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_010",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "کدام کشور کمترین مجموع مگاوات ناخالص مؤثر قابل انتساب به AES را دارد، با در نظر گرفتن تنها کشورهایی که چندین پروژه در جدول فهرست شده دارند؟",
+    "answer": [
+      [
+        "Turkey"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2",
+      "E2",
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "D5",
+      "E5",
+      "B6",
+      "D6",
+      "E6",
+      "B7",
+      "D7",
+      "E7",
+      "B10",
+      "D10",
+      "E10",
+      "B11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_011",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "چه تعداد پروژه از باد به عنوان سوخت اصلی خود استفاده می کنند؟",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "finqa_cc5f795ec6_001",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Która aktywność miała większy negatywny wpływ na \"kapitał własny ogółem\": \"dywidendy\" czy \"wykup akcji zwykłych\"?",
+    "answer": [
+      [
+        "dividends"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "K4",
+      "A6",
+      "K6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_002",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Jaka jest zmiana netto w 'kapitale zapłaconym' ze wszystkich działań wymienionych między datami bilansowymi w 2011 i 2012 roku?",
+    "answer": [
+      [
+        "590"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D11",
+      "D13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_003",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Jaki był łączny wpływ transakcji, która spowodowała wzrost kapitału wpłaconego o 662 USD, na kapitał własny?",
+    "answer": [
+      [
+        "1147"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "K5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_004",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "open_ended_reasoning",
+    "question": "Przeanalizuj zmianę 'kapitału własnego ogółem' od 31 grudnia 2011 r. do 31 grudnia 2012 r. i zidentyfikuj główny czynnik tej zmiany.",
+    "answer": [
+      [
+        "Kapitał własny ogółem zmniejszył się z 70 078 USD do 65 428 USD, co stanowiło spadek netto o 4 650 USD. Chociaż istniało kilka czynników przyczyniających się do tej zmiany, pojedynczym największym czynnikiem powodującym ten spadek była 'przeklasyfikacja do akceptowalnych przez posiadaczy udziałów mniejszościowych', która sama w sobie miała negatywny wpływ w wysokości 4 288 USD, stanowiąc ponad 92% całkowitego spadku netto."
+      ]
+    ],
+    "evidence_cells": [
+      "K1",
+      "K14",
+      "A12",
+      "K12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_005",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Wymień wszystkie działania finansowe, które spowodowały zmniejszenie 'kapitału wpłaconego', ale nie wpłynęły na 'zysk zatrzymany'.",
+    "answer": [
+      [
+        "purchase of additional stake in the wealth management joint venture"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_006",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Jaki procent wyjściowych 'zyskach zatrzymanych' z dnia 31 grudnia 2011 r. został wypłacony jako 'dywidendy' w danym okresie?",
+    "answer": [
+      [
+        "-1.23%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_007",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Gdyby „korekty z tytułu przeliczenia walut obcych” miały neutralny wpływ (tj. zero) na kapitał całkowity, jaki byłby końcowy bilans kapitału całkowitego na dzień 31 grudnia 2012 r.?",
+    "answer": [
+      [
+        "65681"
+      ]
+    ],
+    "evidence_cells": [
+      "K9",
+      "K14"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_008",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "open_ended_reasoning",
+    "question": "Biorąc pod uwagę salda początkowe i końcowe oraz pozycję transakcji „akcje wydane w ramach planów pracowniczych\", jaki jest związek między „funduszem powierniczym akcji pracowniczych\" a „akcjami zwykłymi przekazanymi funduszowi powierniczemu\"?",
+    "answer": [
+      [
+        "Istnieje stała odwrotna zależność. Wartość w kolumnie „akcje zwykłe przekazane funduszowi powierniczemu\" jest zawsze dokładnym przeciwieństwem wartości w kolumnie „fundusz powierniczy akcji pracowniczych\" dla każdego wiersza (np. 3166 USD vs -3166 USD w saldzie początkowym; -234 USD vs 234 USD dla wydanych akcji). Wskazuje to, że są to konta przeciwstawne, zaprojektowane tak, aby równoważyć swój wpływ na całkowitą wartość kapitału własnego."
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "I1",
+      "F5",
+      "I5",
+      "F14",
+      "I14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_009",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Wyłączając pierwszy i ostatni wiersz, które opisują salda, jaka jest najczęściej występująca wartość w zbiorze danych z kolumn B do K?",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "F2",
+      "G2",
+      "H2",
+      "I2",
+      "J2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "I3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_010",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Wśród wszystkich transakcji wpływających na 'kapitał własny', który pojedynczy element wyróżnia się jako największy negatywny odchylenie?",
+    "answer": [
+      [
+        "reclassification to redeemable noncontrolling interests"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "K12",
+      "K2",
+      "K3",
+      "K4",
+      "K5",
+      "K6",
+      "K7",
+      "K8",
+      "K9",
+      "K10",
+      "K11",
+      "K13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_011",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Jaki był całkowity kapitał akcyjny uprzywilejowany na koniec 31 grudnia 2012 r.?",
+    "answer": [
+      [
+        "$1508"
+      ]
+    ],
+    "evidence_cells": [
+      "A16",
+      "B16"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

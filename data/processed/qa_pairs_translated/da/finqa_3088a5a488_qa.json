@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "finqa_3088a5a488_001",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "value",
+    "question": "I hvilket år registrerede virksomheden sine højeste omsætning fra salg og service?",
+    "answer": [
+      [
+        "2010"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_3088a5a488_002",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "value",
+    "question": "Hvad var den gennemsnitlige værdi af 'total assets' i millioner dollars på tværs af alle de fem anførte år?",
+    "answer": [
+      [
+        "5529.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_3088a5a488_003",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "value",
+    "question": "Hvad var 'fri pengestrøm' i det år, hvor virksomheden oplevede sit største 'driftsunderskud'?",
+    "answer": [
+      [
+        "121"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "F8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3088a5a488_004",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv udviklingen i 'langfristet gæld' fra 2008 til 2012. Var det en stabil stigning, fald eller viste den betydelig udsving?",
+    "answer": [
+      [
+        "Den 'langfristede gæld' viste betydelige udsving. Den var stabil fra 2008 til 2009 på 283 mio. USD, faldt derefter kraftigt til 105 mio. USD i 2010. Derefter fulgte en massiv stigning til 1830 mio. USD i 2011, før den faldt lidt til 1779 mio. USD i 2012. Derfor var udviklingen ikke stabil, men meget volatil."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_3088a5a488_005",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "value",
+    "question": "List alle år, hvor virksomheden rapporterede et 'netto tab' (negativ nettoindtjening), men stadig opretholdt et positivt 'fri pengestrøm'.",
+    "answer": [
+      [
+        "2011"
+      ],
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "F4",
+      "C8",
+      "F8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_3088a5a488_006",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "value",
+    "question": "Hvilken procentdel af 'total assets' udgjorde 'total long-term obligations' ved udgangen af regnskabsåret 2012?",
+    "answer": [
+      [
+        "67.91%"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_3088a5a488_007",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "value",
+    "question": "Hvis 'goodwill impairment' i 2012 var halvt så meget som rapporteret, hvad ville den nye 'operating income' være for det år, forudsat ingen andre ændringer?",
+    "answer": [
+      [
+        "1365"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_3088a5a488_008",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyserer vi data fra 2008 til 2011, er der en konsekvent sammenhæng mellem en stigning i 'sales and service revenues' og en stigning i 'net earnings'?",
+    "answer": [
+      [
+        "Nej, der er ikke en konsekvent positiv korrelation. For eksempel, fra 2009 til 2010 steg salget fra $6292 mio. til $6723 mio., og nettoresultatet steg også fra $119 mio. til $131 mio. Men fra 2008 til 2009 steg salget fra $6189 mio. til $6292 mio., mens nettoresultatet forbedredes fra et massivt tab på -$2397 mio. til en profit på $119 mio., en ændring der er ude af proportion med omsætningsstigningen, sandsynligvis drevet af andre faktorer som reduktionen i nedskrivning af goodwill. Derfor, selvom det ofte er relateret, påvirker andre store udgifter i høj grad det endelige nettoresultat."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_3088a5a488_009",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "value",
+    "question": "Hvilken finansiel metrik, eksklusive beløb pr. aktie, rapporterer et tab eller en negativ værdi i det største antal år?",
+    "answer": [
+      [
+        "net earnings ( loss )"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C3",
+      "F3",
+      "C4",
+      "F4",
+      "E8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_3088a5a488_010",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "value",
+    "question": "Hvilket år så den mest markante stigning år-til-år i 'langfristet gæld', og hvad var den omtrentlige procentvise stigning fra året før?",
+    "answer": [
+      [
+        "2011",
+        "1642.86%"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_3088a5a488_011",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "value",
+    "question": "Hvilket år havde de højeste salgs- og serviceindtægter?",
+    "answer": [
+      [
+        "2010"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_f5477c4414_001",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Qual foi o total de 'empréstimos relatados em 2013' para o ano de 2012 (coluna E), se calculado somando seus tipos de empréstimo constituintes da mesma coluna?",
+    "answer": [
+      [
+        "1717"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f5477c4414_002",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Qual categoria de empréstimo, excluindo 'empréstimos 2013 relatados', experimentou o maior crescimento percentual em seu saldo em 31 de dezembro de 2012 a 2013?",
+    "answer": [
+      [
+        "loans held-for-sale"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_003",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Qual foi o valor dos 'empréstimos relacionados a compromissos' para o final do ano em que os 'ativos totais relacionados a crédito de atacado' atingiram seu mínimo?",
+    "answer": [
+      [
+        "$ 434814"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_004",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Qual percentual da 'exposição total de crédito de atacado' em 31 de dezembro de 2013 foi atribuído a 'compromissos relacionados a empréstimos'?",
+    "answer": [
+      [
+        "51.87%"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "B9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f5477c4414_005",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Liste todas as categorias de ativos ou passivos onde o valor em 31 de dezembro de 2013 diminuiu em comparação com 31 de dezembro de 2012.",
+    "answer": [
+      [
+        "loans at fair value ( a )"
+      ],
+      [
+        "derivative receivables"
+      ],
+      [
+        "liquid securities and other cash collateral held against derivatives"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A11",
+      "B11",
+      "C11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_006",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Se o valor de 'contas a receber de clientes e outros (b)' na coluna '2013' (coluna D) tivesse sido 25% maior, quais teriam sido os novos 'ativos totais relacionados a crédito no atacado' para essa coluna?",
+    "answer": [
+      [
+        "1962.5"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "D7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_007",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Identifique o item financeiro (da coluna A) que apresenta a mudança mais anômala entre as colunas '2013' e '2012' (D e E), caracterizada pela maior diferença absoluta.",
+    "answer": [
+      [
+        "loans 2013 reported"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A2",
+      "D2",
+      "E2",
+      "A3",
+      "D3",
+      "E3",
+      "A4",
+      "D4",
+      "E4",
+      "A5",
+      "D5",
+      "E5",
+      "A6",
+      "D6",
+      "E6",
+      "A7",
+      "D7",
+      "E7",
+      "A8",
+      "D8",
+      "E8",
+      "A9",
+      "D9",
+      "E9",
+      "A10",
+      "D10",
+      "E10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f5477c4414_008",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Identifique a(s) célula(s) contendo texto não numérico ('na') que impede a soma direta de suas respectivas colunas.",
+    "answer": [
+      [
+        "D11"
+      ],
+      [
+        "E11"
+      ]
+    ],
+    "evidence_cells": [
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_009",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "open_ended_reasoning",
+    "question": "Analise a tendência de fim de ano de 2012 para 2013 para a 'exposição total de crédito para empresas' e seus principais impulsionadores.",
+    "answer": [
+      [
+        "A 'exposição total de crédito para empresas' aumentou modestamente de US$ 846.628 milhões em 2012 para US$ 860.299 milhões em 2013. Esse crescimento foi impulsionado principalmente por um aumento significativo em 'empréstimos mantidos para venda' (aumento de 156%) e um aumento em 'compromissos relacionados a empréstimos' (aumento de 2,6%). No entanto, esse crescimento foi parcialmente compensado por uma diminuição notável de 12,3% em 'recebíveis de derivativos' e uma queda de 21,3% em 'empréstimos a valor justo', indicando uma mudança na composição da carteira de crédito."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B8",
+      "C8",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_010",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "open_ended_reasoning",
+    "question": "Com base nas alterações de 2012 para 2013 nos saldos de fim de ano, qual é a relação aparente entre 'contas a receber de derivativos' e 'ativos totais de crédito corporativo relacionados'?",
+    "answer": [
+      [
+        "Parece haver uma relação inversa dentro deste conjunto de dados limitado. Do fim de ano de 2012 para 2013, as 'contas a receber de derivativos' diminuíram de US$ 74.983 milhões para US$ 65.759 milhões. Concomitantemente, os 'ativos totais de crédito corporativo relacionados' aumentaram de US$ 411.814 milhões para US$ 414.067 milhões. Isso sugere que, à medida que o valor das contas a receber de derivativos caía, outros ativos cresciam para mais do que compensar, levando a um aumento geral nos ativos totais. No entanto, uma correlação definitiva não pode ser estabelecida a partir de apenas dois pontos de dados."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f5477c4414_011",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "Em que ano o empréstimo retido é o mais alto?",
+    "answer": [
+      [
+        "2013"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_b54bfca53d_001",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Nghĩa vụ hợp đồng nào, không bao gồm tổng cộng, có số tiền phải trả cao nhất trong giai đoạn '1-3 năm'?",
+    "answer": [
+      [
+        "purchase obligations ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_002",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Bằng cách cộng tổng các khoản thanh toán cho từng nghĩa vụ riêng lẻ, hãy xác nhận xem tổng cộng cho giai đoạn '1-3 năm' được liệt kê trong hàng 'tổng các khoản thanh toán theo nghĩa vụ hợp đồng' có chính xác hay không.",
+    "answer": [
+      [
+        "Có, tổng cộng là chính xác. Tổng các nghĩa vụ riêng lẻ cho giai đoạn '1-3 năm' là $188.3 + $316.4 + $37.1 + $3779.4, bằng $4321.2, khớp với giá trị trong hàng tổng."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_003",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Đối với nghĩa vụ hợp đồng có tổng số tiền thanh toán thấp nhất, bao nhiêu phần trăm tổng số đó đến hạn trong kỳ '1-3 năm'?",
+    "answer": [
+      [
+        "39.81%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "D3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_004",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Mô tả lịch trình thanh toán cho 'nợ dài hạn bao gồm các khoản thuê vốn' trong các giai đoạn được chỉ định. Lịch trình này tập trung vào giai đoạn đầu, giai đoạn cuối, hay được phân bổ đều?",
+    "answer": [
+      [
+        "Lịch trình thanh toán cho nợ dài hạn tập trung chủ yếu vào giai đoạn sau. Các khoản thanh toán bắt đầu nhỏ ở mức 34,5 triệu đô la ('dưới 1 năm'), tăng đều qua các giai đoạn 1-3 năm và 3-5 năm, và lên đến đỉnh điểm với khoản thanh toán rất lớn là 2160,2 triệu đô la trong giai đoạn 'hơn 5 năm', chiếm hơn 78% tổng nghĩa vụ."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "E1",
+      "F1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_005",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Liệt kê tất cả các loại nghĩa vụ có khoản thanh toán đến hạn trong 'dưới 1 năm' ít hơn khoản thanh toán đến hạn trong '1-3 năm'.",
+    "answer": [
+      [
+        "long-term debt including capital leases"
+      ],
+      [
+        "interest payments on long-term debt ( b )"
+      ],
+      [
+        "operating leases"
+      ],
+      [
+        "purchase obligations ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_006",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Bao nhiêu phần trăm của 'nợ dài hạn bao gồm các khoản vay vốn' dự kiến sẽ được thanh toán trong hơn 5 năm?",
+    "answer": [
+      [
+        "78.55%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "F1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_007",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Nếu một chính sách mới yêu cầu tất cả 'nghĩa vụ mua hàng' đến hạn trong '1-3 năm' phải được thanh toán ngay lập tức (trong kỳ 'dưới 1 năm'), tổng số tiền mới cho các khoản thanh toán hợp đồng nghĩa vụ đến hạn trong 'dưới 1 năm' sẽ là bao nhiêu?",
+    "answer": [
+      [
+        "$6715.0 million"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_008",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Bảng tính chứa một vấn đề về tính toàn vẹn dữ liệu, trong đó tổng các khoản thanh toán định kỳ cho một loại nghĩa vụ không khớp với tổng số đã nêu. Hãy xác định nghĩa vụ này và tính toán sự khác biệt.",
+    "answer": [
+      [
+        "Hàng 'Các khoản nghĩa vụ mua hàng (c)' có vấn đề về tính toàn vẹn dữ liệu. Tổng các khoản thanh toán định kỳ của nó (2709,5 + 3779,4 + 98,0 + 2212 = 8798,9 triệu USD) không khớp với tổng số đã nêu là 6586,9 triệu USD. Khoản chênh lệch là 2212 triệu USD."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_009",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Nhìn vào kỳ hạn thanh toán '3-5 năm', nghĩa vụ hợp đồng nào có giá trị thấp nhất và có thể được coi là ngoại lệ so với các khoản khác trong cùng cột?",
+    "answer": [
+      [
+        "operating leases"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_010",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Liệu có mối quan hệ nhất quán nào giữa quy mô của một nghĩa vụ tổng thể và cơ cấu thanh toán của nó không (ví dụ: các nghĩa vụ lớn hơn có luôn có xu hướng thanh toán muộn hơn không)? Hãy biện minh cho câu trả lời của bạn bằng dữ liệu.",
+    "answer": [
+      [
+        "Không, không có mối quan hệ nhất quán nào. Nghĩa vụ tổng thể lớn nhất, 'nghĩa vụ mua hàng' (6586,9 triệu USD), lại tập trung chủ yếu vào thanh toán sớm với phần lớn đến hạn trong vòng 3 năm. Ngược lại, nghĩa vụ lớn thứ hai, 'nợ dài hạn' (2750,1 triệu USD), lại tập trung chủ yếu vào thanh toán muộn, với khoản thanh toán lớn nhất đến hạn sau hơn 5 năm. Điều này cho thấy cơ cấu thanh toán là đặc thù cho từng loại nghĩa vụ, chứ không phụ thuộc vào tổng giá trị của nó."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "F1",
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_011",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Tổng số tiền thanh toán theo kỳ 1-3 năm theo nghĩa vụ hợp đồng là bao nhiêu (tính bằng triệu USD)?",
+    "answer": [
+      [
+        "$4321.2"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

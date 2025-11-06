@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "finqa_cc5f795ec6_001",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "לאיזו פעילות הייתה השפעה שלילית גדולה יותר על 'ההון הכולל': 'דיבידנדים' או 'רכישות חוזרות של מניות רגילות'?",
+    "answer": [
+      [
+        "dividends"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "K4",
+      "A6",
+      "K6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_002",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "מהו השינוי הנקי ב'הון מונפק' מכל הפעילויות המפורטות בין תאריכי היתרה של 2011 ו-2012?",
+    "answer": [
+      [
+        "590"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D11",
+      "D13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_003",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "מה הייתה ההשפעה הכוללת על ההון העצמי מהעסקה שכללה עלייה של 662 דולר ב'הון ששולם'?",
+    "answer": [
+      [
+        "1147"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "K5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_004",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "open_ended_reasoning",
+    "question": "נתח את השינוי ב'הון כולל' מתאריך 31 בדצמבר 2011 עד 31 בדצמבר 2012, וזהה את הגורם העיקרי לשינוי זה.",
+    "answer": [
+      [
+        "ההון הכולל ירד מ-70,078$ ל-65,428$, ירידה נטו של 4,650$. בעוד שהיו מספר גורמים תורמים, הגורם המשמעותי ביותר לירידה זו היה 'סיווג מחדש לזכויות מיעוט ברות פדיון', אשר לבדו גרם להשפעה שלילית של 4,288$, המהווה למעלה מ-92% מהירידה הכוללת."
+      ]
+    ],
+    "evidence_cells": [
+      "K1",
+      "K14",
+      "A12",
+      "K12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_005",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "פרט את כל הפעילויות הפיננסיות שגרמו לירידה ב'הון מניות נוסף' אך לא השפיעו על 'עודפים'.",
+    "answer": [
+      [
+        "purchase of additional stake in the wealth management joint venture"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_006",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "איזה אחוז מ'הרווחים שנצברו' ההתחלתיים מ-31 בדצמבר 2011 שולם כ'דיבידנדים' במהלך התקופה?",
+    "answer": [
+      [
+        "-1.23%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_007",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "לו 'התאמות תרגום מטבע חוץ' הייתה השפעה ניטרלית (כלומר, אפס) על ההון הכולל, מה היה יתרת ההון הכולל לסוף התקופה ב-31 בדצמבר 2012?",
+    "answer": [
+      [
+        "65681"
+      ]
+    ],
+    "evidence_cells": [
+      "K9",
+      "K14"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_008",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "open_ended_reasoning",
+    "question": "בהתבסס על יתרות הפתיחה והסגירה, ושורת העסקאות עבור 'מניות שהונפקו במסגרת תוכניות לעובדים', מה הקשר בין 'נאמן מניות עובדים' לבין 'מניות רגילות שהונפקו לנאמן מניות עובדים'?",
+    "answer": [
+      [
+        "קיים קשר הפוך עקבי. הערך בעמודה 'מניות רגילות שהונפקו לנאמן מניות עובדים' הוא תמיד ההפך המדויק מהערך בעמודה 'נאמן מניות עובדים' עבור כל שורה נתונה (למשל, 3166$ לעומת 3166$- ביתרת הפתיחה; 234$- לעומת 234$ עבור מניות שהונפקו). זה מצביע על כך שהם חשבונות נגדיים זה לזה, שנועדו לאזן את השפעתם בחישוב ההון הכולל."
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "I1",
+      "F5",
+      "I5",
+      "F14",
+      "I14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_009",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "בהתעלם מהשורות הראשונה והאחרונה המתארות יתרות, מהו הערך המופיע בתדירות הגבוהה ביותר בנתונים מטורפים ב' עד ט'?",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "F2",
+      "G2",
+      "H2",
+      "I2",
+      "J2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "I3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_010",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "מבין כל הטרנזקציות המשפיעות על 'סך ההון העצמי', איזו פריט בודד בולט כחריג השלילי הגדול ביותר?",
+    "answer": [
+      [
+        "reclassification to redeemable noncontrolling interests"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "K12",
+      "K2",
+      "K3",
+      "K4",
+      "K5",
+      "K6",
+      "K7",
+      "K8",
+      "K9",
+      "K10",
+      "K11",
+      "K13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_011",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "מה היה סך המניות המועדפות בסוף דצמבר 31, 2012?",
+    "answer": [
+      [
+        "$1508"
+      ]
+    ],
+    "evidence_cells": [
+      "A16",
+      "B16"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

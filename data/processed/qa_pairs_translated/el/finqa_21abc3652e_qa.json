@@ -1,0 +1,232 @@
+[
+  {
+    "question_id": "finqa_21abc3652e_001",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Εξαιρουμένου του 'total commercialcommitments', ποια δέσμευση έχει τη μεγαλύτερη συνολική αξία;",
+    "answer": [
+      [
+        "credit facilities [a]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_002",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Ποιο είναι το άθροισμα όλων των εμπορικών δεσμεύσεων, σε εκατομμύρια, που αναμένεται να λήξουν συνδυαστικά για τα έτη 2015 και 2016;",
+    "answer": [
+      [
+        "78"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_21abc3652e_003",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Παραθέστε το έτος και την αντίστοιχη ονομασία της διευκόλυνσης για κάθε περίπτωση όπου μια μεμονωμένη διευκόλυνση αντιπροσωπεύει περισσότερο από το 98% των συνολικών λήξεων του έτους.",
+    "answer": [
+      [
+        "2017",
+        "receivables securitization facility [b]"
+      ],
+      [
+        "2019",
+        "credit facilities [a]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "G5",
+      "A2",
+      "E2",
+      "E5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_004",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "open_ended_reasoning",
+    "question": "Περιγράψτε την τάση των συνολικών λήξεων δεσμεύσεων από το 2015 έως το 2019.",
+    "answer": [
+      [
+        "Η τάση είναι εξαιρετικά ασταθής και δεν παρουσιάζει σταθερό μοτίβο. Ξεκινά από 46 εκατομμύρια δολάρια το 2015, πέφτει στα 32 εκατομμύρια δολάρια το 2016, και στη συνέχεια εκτοξεύεται σε μια κορύφωση 660 εκατομμυρίων δολαρίων το 2017. Στη συνέχεια, καταρρέει στα μόλις 11 εκατομμύρια δολάρια το 2018, πριν εκτοξευθεί στο υψηλότερο σημείο των 1708 εκατομμυρίων δολαρίων το 2019. Το μοτίβο χαρακτηρίζεται από ακραίες διακυμάνσεις αντί για σταθερή αύξηση ή μείωση."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_005",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Προσδιορίστε όλους τους τύπους δεσμεύσεων που έχουν ποσό λήξης μεγαλύτερο από μηδέν τόσο το 2016 όσο και το 2019.",
+    "answer": [
+      [
+        "guarantees [c]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "G1",
+      "A2",
+      "D2",
+      "G2",
+      "A3",
+      "D3",
+      "G3",
+      "A4",
+      "D4",
+      "G4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_006",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Ποιο ποσοστό της συνολικής δέσμευσης των 'εγγυήσεων [c]' λήγει μετά το 2019;",
+    "answer": [
+      [
+        "18.29%"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "H3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_21abc3652e_007",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Εάν η δέσμευση 'πιστωτικές διευκολύνσεις [a]' ήταν 50% χαμηλότερη, ποια θα ήταν η νέα τιμή των 'συνολικών εμπορικών δεσμεύσεων';",
+    "answer": [
+      [
+        "$ 1622"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_008",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "open_ended_reasoning",
+    "question": "Με βάση τα παρεχόμενα δεδομένα, ποια σχέση μπορεί να συναχθεί μεταξύ του συνολικού ποσού μιας συγκεκριμένης δέσμευσης και της χρονικής κατανομής της λήξης της;",
+    "answer": [
+      [
+        "Φαίνεται να υπάρχει μια αντίστροφη σχέση. Οι δύο μεγαλύτερες δεσμεύσεις ('πιστωτικές διευκολύνσεις' στα 1700 εκατ. δολάρια και 'διευκόλυνση τιτλοποίησης απαιτήσεων' στα 650 εκατ. δολάρια) λήγουν σε ένα ενιαίο ποσό σε ένα συγκεκριμένο έτος. Αντίθετα, οι μικρότερες δεσμεύσεις ('εγγυήσεις' και 'πιστωτικές επιστολές προεξόφλησης') έχουν τα ποσά λήξης τους κατανεμημένα σε πολλαπλές περιόδους."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "G1",
+      "A2",
+      "B2",
+      "E2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_21abc3652e_009",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Ποια στήλη ανά έτος (2015-2019) έχει τον μικρότερο αριθμό μεμονωμένων δεσμεύσεων με αξία λήξης μεγαλύτερη του μηδενός;",
+    "answer": [
+      [
+        "amount of commitment expiration per period 2018"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_010",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Εξετάζοντας τη γραμμή 'total commercialcommitments', ποιο έτος έχει το ποσό λήξης που αποτελεί τη σημαντικότερη παρέκκλιση σε σύγκριση με τον διάμεσο όρο της περιόδου από το 2015 έως μετά το 2019;",
+    "answer": [
+      [
+        "2019"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "H5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_21abc3652e_011",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Ποιες είναι οι συνολικές εμπορικές δεσμεύσεις (σε εκατομμύρια) για τα έτη 2015–2019;",
+    "answer": [
+      [
+        "2457"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

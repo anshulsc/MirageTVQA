@@ -1,0 +1,249 @@
+[
+  {
+    "question_id": "finqa_d4ff6b23c2_001",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Calcule a variação líquida total nos benefícios fiscais não reconhecidos para o ano de 2016, com base nas atividades transacionais listadas entre os saldos inicial e final.",
+    "answer": [
+      [
+        "64"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_002",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Quais itens de linha representam uma alteração financeira absoluta menor em 2017 em comparação com a sua alteração correspondente em 2016?",
+    "answer": [
+      [
+        "additions for tax positions related to prior years"
+      ],
+      [
+        "reductions for tax positions related to prior years"
+      ],
+      [
+        "reductions for settlements2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_003",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Qual porcentagem do 'saldo em 31 de dezembro de 2017' NÃO impactaria a taxa de imposto efetiva, se reconhecida?",
+    "answer": [
+      [
+        "5.99%"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_004",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Qual foi a diferença entre a soma de todas as reduções em 2017 e a soma de todas as reduções em 2016, ignorando o valor não padrão na 'reduções pela expiração do prazo de prescrição' para 2017?",
+    "answer": [
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_005",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Se as 'adições para posições fiscais relacionadas a anos anteriores' em 2017 tivessem correspondido ao valor de 2016, qual teria sido o 'saldo em 31 de dezembro de 2017' ajustado?",
+    "answer": [
+      [
+        "$ 1321"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_006",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Identifique o item de linha único de 2017 que foi o maior valor atípico em termos de magnitude financeira quando comparado a todas as outras adições e reduções em ambos os anos.",
+    "answer": [
+      [
+        "additions for tax positions related to current year"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_007",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Com base na reconciliação, o 'saldo em 31 de dezembro de 2017' é calculado a partir do saldo inicial mais adições e reduções subsequentes. Qual célula na coluna de 2017 contém um valor inconsistente com este cálculo e parece ser extranho?",
+    "answer": [
+      [
+        "B6"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_008",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Liste todas as atividades em 2017, tanto adições quanto reduções, que tiveram um valor absoluto maior que US$ 15 milhões.",
+    "answer": [
+      [
+        "additions for tax positions related to current year"
+      ],
+      [
+        "additions for tax positions related to prior years"
+      ],
+      [
+        "reductions for tax positions related to prior years"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_009",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "Analise a variação no saldo total do final de 2016 para o final de 2017. Quais foram os principais fatores que impulsionaram essa mudança?",
+    "answer": [
+      [
+        "O saldo total de benefícios fiscais não reconhecidos aumentou em US$ 254 milhões, de US$ 1.032 milhões no final de 2016 para US$ 1.286 milhões no final de 2017. O principal fator desse aumento foi de US$ 270 milhões em 'adições para posições fiscais relacionadas ao ano corrente' em 2017, que foi substancialmente maior do que qualquer outra adição ou redução em qualquer um dos anos. Embora tenham ocorrido reduções totais de US$ 36 milhões em 2017, elas foram insuficientes para compensar as grandes adições."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_010",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "Há evidências de uma mudança significativa na composição dos benefícios fiscais não reconhecidos entre 2016 e 2017, com base na proporção do saldo final do ano que impactaria a taxa de imposto efetiva?",
+    "answer": [
+      [
+        "Não há evidências de uma mudança significativa na composição. Em 2016, a parcela que impactaria a taxa de imposto efetiva foi de US$ 963 milhões de um saldo de US$ 1032 milhões, ou 93,3%. Em 2017, essa parcela foi de US$ 1209 milhões de um saldo de US$ 1286 milhões, ou 94,0%. A proporção permaneceu muito estável, sugerindo uma composição consistente das posições fiscais subjacentes ano a ano, apesar do aumento geral do saldo."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_011",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "Como o saldo total das posições fiscais mudou de 2016 para 2017 e quais fatores contribuíram para essa mudança?",
+    "answer": [
+      [
+        "O saldo total das posições fiscais aumentou de US$ 1.032 milhões em 2016 para US$ 1.286 milhões em 2017. O aumento foi principalmente devido a adições para posições fiscais do ano corrente (US$ 270 milhões) e posições fiscais de anos anteriores (US$ 20 milhões), parcialmente compensado por reduções em posições de anos anteriores (US$ 27 milhões) e liquidações (US$ 9 milhões)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

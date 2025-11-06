@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_b54bfca53d_001",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Ce obligație contractuală, excluzând totalul, are cea mai mare sumă scadentă în perioada '1-3 ani'?",
+    "answer": [
+      [
+        "purchase obligations ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_002",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Adunând plățile pentru fiecare obligație individuală, confirmați dacă totalul general pentru perioada '1-3 ani' din rândul 'total plăți pe obligații contractuale' este corect.",
+    "answer": [
+      [
+        "Da, totalul general este corect. Suma obligațiilor individuale pentru perioada '1-3 ani' este de $188.3 + $316.4 + $37.1 + $3779.4, ceea ce înseamnă $4321.2, potrivindu-se cu valoarea din rândul total."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_003",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Pentru obligația contractuală cu cel mai mic total de plată, ce procent din totalul său este scadent în perioada '1-3 ani'?",
+    "answer": [
+      [
+        "39.81%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "D3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_004",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Descrieți programul de plăți pentru 'datorii pe termen lung, inclusiv leasinguri de capital' pe perioadele specificate. Este acesta orientat spre început, spre sfârșit sau distribuit uniform?",
+    "answer": [
+      [
+        "Programul de plăți pentru datoriile pe termen lung este puternic orientat spre sfârșit. Plățile încep modest, la 34,5 milioane USD ('mai puțin de 1 an'), cresc constant pe parcursul perioadelor de 1-3 și 3-5 ani și culminează cu o plată foarte mare de 2160,2 milioane USD în perioada 'mai mult de 5 ani', care reprezintă peste 78% din obligația totală."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "E1",
+      "F1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_005",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Enumerați toate categoriile de obligații pentru care plata scadentă în 'mai puțin de 1 an' este mai mică decât plata scadentă în '1-3 ani'.",
+    "answer": [
+      [
+        "long-term debt including capital leases"
+      ],
+      [
+        "interest payments on long-term debt ( b )"
+      ],
+      [
+        "operating leases"
+      ],
+      [
+        "purchase obligations ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_006",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Ce procent din datoria pe termen lung, inclusiv leasingurile de capital, este programat să fie rambursat în mai mult de 5 ani?",
+    "answer": [
+      [
+        "78.55%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "F1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_007",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Dacă o nouă politică ar impune ca toate 'obligațiile de achiziție' scadente în '1-3 ani' să fie plătite imediat (în perioada 'mai puțin de 1 an'), care ar deveni totalul nou pentru plățile contractuale din perioada 'mai puțin de 1 an'?",
+    "answer": [
+      [
+        "$6715.0 million"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_008",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Tabelul conține o problemă de integritate a datelor în care suma plăților periodice pentru un tip de obligație nu corespunde totalului său declarat. Identificați această obligație și calculați discrepanța.",
+    "answer": [
+      [
+        "Rândul 'purchase obligations ( c )' (obligații de achiziție (c)) prezintă o problemă de integritate a datelor. Suma plăților sale periodice (2709,5 $ + 3779,4 $ + 98,0 $ + 2212 $ = 8798,9 milioane $) nu corespunde totalului său declarat de 6586,9 milioane $. Discrepanța este de 2212 milioane $."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_009",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Privind perioada de plată „3-5 ani”, care obligație contractuală are cea mai mică valoare și ar putea fi considerată un element atipic în comparație cu celelalte din aceeași coloană?",
+    "answer": [
+      [
+        "operating leases"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_010",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Există o relație constantă între magnitudinea unei obligații totale și structura sa de plată (de exemplu, obligațiile mai mari sunt întotdeauna mai amânate spre final)? Justificați-vă răspunsul cu date.",
+    "answer": [
+      [
+        "Nu, nu există o relație constantă. Cea mai mare obligație totală, 'obligații de achiziție' (6586,9 milioane USD), este puternic orientată spre începutul perioadei, majoritatea plăților urmând să fie efectuate în termen de 3 ani. Invers, a doua cea mai mare, 'datorii pe termen lung' (2750,1 milioane USD), este puternic amânată spre final, cea mai mare plată urmând să fie efectuată în peste 5 ani. Acest lucru indică faptul că structura de plată este specifică tipului de obligație, nu valorii sale totale."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "F1",
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_011",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Care sunt plățile totale în milioane pe obligații contractuale datorate în perioada 1-3 ani?",
+    "answer": [
+      [
+        "$4321.2"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

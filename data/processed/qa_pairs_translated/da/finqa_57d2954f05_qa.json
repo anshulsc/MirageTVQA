@@ -1,0 +1,312 @@
+[
+  {
+    "question_id": "finqa_57d2954f05_001",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Hvilken lokation, udelukkende under 'ejet' ejerskab, har det største antal kvadratfod?",
+    "answer": [
+      [
+        "xi 2019an china"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D5",
+      "E5",
+      "A10",
+      "D10",
+      "E10",
+      "A11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_002",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Beregn det samlede antal kvadratfod for alle ejendomme, der udelukkende er lejede.",
+    "answer": [
+      [
+        "701000"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "E4",
+      "D6",
+      "E6",
+      "D7",
+      "E7",
+      "D13",
+      "E13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_57d2954f05_003",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Ved først at identificere placeringen, der fungerer som virksomhedens hovedkvarter, og derefter summere dens ejede og lejede areal baseret på den sammenkædede værdi i kolonnen 'squarefootage', skal du bestemme dens samlede areal.",
+    "answer": [
+      [
+        "1662000"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_004",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Identificer alle lokationer i Kina, hvis primære anvendelse inkluderer 'forskning, udvikling og ingeniørvirksomhed'.",
+    "answer": [
+      [
+        "xi 2019an china"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "C11",
+      "A13",
+      "C13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_005",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Hvilken procentdel af det samlede areal for alle ejendomme med blandet 'ownedleased' ejerskab tilskrives lejet plads? Antag, at kolonnen 'squarefootage' for disse ejendomme sammenkæder ejede og lejede værdier (f.eks. 'X...XY...Y').",
+    "answer": [
+      [
+        "9.11%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D12",
+      "E12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_57d2954f05_006",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Hvis virksomheden besluttede at konsolidere alle sine 'kundesupport'-operationer til et enkelt knudepunkt, og valgte faciliteten, der i øjeblikket angiver 'kundesupport' som et primært formål og har det største samlede areal, hvilken lokation ville så blive valgt?",
+    "answer": [
+      [
+        "santa clara ca"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A3",
+      "C3",
+      "D3",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6",
+      "A7",
+      "C7",
+      "D7",
+      "A8",
+      "C8",
+      "D8",
+      "A9",
+      "C9",
+      "D9",
+      "A10",
+      "C10",
+      "D10",
+      "A12",
+      "C12",
+      "D12",
+      "A13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_007",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyser dataene for at bestemme, om der er en sammenhæng mellem ejendomstypen ('type') og dens ejerskabsstatus ('ownership'). Specifikt, optræder én ejendomstype hyppigere med en bestemt ejerskabsmodel?",
+    "answer": [
+      [
+        "Ja, der ser ud til at være en sammenhæng. Typen 'kontorhal & lager' viser en mangfoldig ejerskabsprofil, herunder 5 'ejet/lejet', 3 'ejet' og 3 'lejet' ejendomme. I modsætning hertil inkluderer typen 'kontor & lager', repræsenteret af kun to lokationer, én 'ejet/lejet' og én 'lejet' ejendom, men mangler bemærkelsesværdigt nok ingen fuldt 'ejede' faciliteter i dette datasæt. Dette antyder, at faciliteter, der inkluderer en 'hal', er mere tilbøjelige til at være mindst delvist eller fuldt ejet af virksomheden sammenlignet med dem, der kun er et kontor og lager."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "E1",
+      "B2",
+      "E2",
+      "B3",
+      "E3",
+      "B4",
+      "E4",
+      "B5",
+      "E5",
+      "B6",
+      "E6",
+      "B7",
+      "E7",
+      "B8",
+      "E8",
+      "B9",
+      "E9",
+      "B10",
+      "E10",
+      "B11",
+      "E11",
+      "B12",
+      "E12",
+      "B13",
+      "E13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_57d2954f05_008",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "open_ended_reasoning",
+    "question": "Fra en dataanalytikers perspektiv, hvilken kolonne præsenterer den mest betydningsfulde strukturelle kompleksitet, der ville kræve en betinget fortolkningslogik, før numerisk analyse kunne udføres?",
+    "answer": [
+      [
+        "Kolonnen 'squarefootage' (D) præsenterer den mest strukturelle kompleksitet. Mens kolonnen 'principal use' indeholder afgrænsede lister, indeholder kolonnen 'squarefootage' både standard heltalsværdier og sammensatte strengværdier (f.eks. '1512000150000'). For korrekt at fortolke og bruge disse data til numerisk analyse skal man implementere en betinget logik, der kontrollerer den tilsvarende værdi i kolonnen 'ownership' (E). Hvis ejerskabet er 'ownedleased', skal strengen opdeles i to separate numeriske værdier; ellers kan den behandles som et enkelt heltal. Denne afhængighed af en anden kolonne gør dens fortolkningslogik mere kompleks end nogen anden kolonne."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D12",
+      "E12",
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_009",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Blandt alle faciliteter, hvor 'fremstilling' er et primært anvendelsesformål, hvilken lokations samlede grundareal er den mest signifikante positive outlier sammenlignet med medianstørrelsen for denne gruppe?",
+    "answer": [
+      [
+        "austin tx"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6",
+      "A7",
+      "C7",
+      "D7",
+      "A8",
+      "C8",
+      "D8",
+      "A9",
+      "C9",
+      "D9",
+      "A10",
+      "C10",
+      "D10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_57d2954f05_010",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Hvilken procentdel af de angivne faciliteter er placeret i USA (identificeret ved statsforkortelserne CA, TX, MT, MA)?",
+    "answer": [
+      [
+        "30.77%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_57d2954f05_011",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Hvad er kvadratfodstørrelsen på kontoret i Austin, TX?",
+    "answer": [
+      [
+        "1,719,000–1,450,000"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,199 @@
+[
+  {
+    "question_id": "finqa_0be24be072_001",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "'Net faiz gelirleri, CIB piyasaları hariç' kaleminde bir önceki yıla göre en büyük mutlak artış hangi yılda görüldü?",
+    "answer": [
+      [
+        "2017"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_002",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "Sağlanan üç yıl boyunca 'ortalama faiz getiren varlıklar'ın ortalaması neydi?",
+    "answer": [
+      [
+        "2123479.33"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_0be24be072_003",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "'cib piyasaları net faiz geliri' en yüksek olduğunda, 'ortalama cib piyasaları faiz getirici varlıklar' için karşılık gelen değer neydi?",
+    "answer": [
+      [
+        "520307"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_004",
+    "table_id": "finqa_0be24be072",
+    "question_type": "open_ended_reasoning",
+    "question": "'Ortalama CIB piyasaları faiz getiren varlıklar üzerindeki net faiz getirisi'nin 2015'ten 2017'ye kadar olan eğilimini açıklayın.",
+    "answer": [
+      [
+        "Eğilim oldukça değişkendi. Faiz getirisi, 2015'te 1,04'ten 2016'da 1,22'ye yaklaşık %17,3 arttı, ancak daha sonra yaklaşık %29,5'lik keskin bir düşüş yaşayarak 0,86'ya düştü."
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_005",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "'cib piyasaları net faiz geliri' 5.000 milyon dolardan fazla olduğu ve 'ortalamada faiz getiren varlıklar üzerindeki net faiz getirisi' 1.10'dan fazla olduğu yılları listele.",
+    "answer": [
+      [
+        "2016"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_006",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "2016 yılında, toplam 'ortalama faiz kazandıran varlıklar' içinde 'ortalama CIB piyasaları faiz kazandıran varlıklar'ın payı yüzde kaçtı?",
+    "answer": [
+      [
+        "24.76%"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_0be24be072_007",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "'Cib markets net interest income' 2017'de %20 daha yüksek olsaydı ve 'net interest income 2013 managed basis' aynı kalsaydı, yeni 'net interest income excluding cib markets' ne olurdu?",
+    "answer": [
+      [
+        "$ 45854"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_008",
+    "table_id": "finqa_0be24be072",
+    "question_type": "open_ended_reasoning",
+    "question": "Tabloya göre, '2013 bazında yönetilen net faiz geliri' ile '2013 bazında ortalama faiz getiren varlıklar üzerindeki net faiz getirisi' arasında üç yıl boyunca gözlemlenebilir bir korelasyon var mıdır?",
+    "answer": [
+      [
+        "Evet, açık bir pozitif korelasyon var. '2013 bazında yönetilen net faiz geliri', 2015'te 44.620 milyon dolardan 2017'de 51.410 milyon dolara tutarlı bir şekilde artarken, '2013 bazında ortalama faiz getiren varlıklar üzerindeki net faiz getirisi' de aynı dönemde %2,14'ten %2,36'ya tutarlı bir artış göstermiştir."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_0be24be072_009",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "Tablodaki, ilkinin ikinciye bölünmesiyle 'cib piyasaları hariç ortalama faiz getirici varlıklar üzerindeki net faiz getirisi'ni hesaplayan iki metrik hangileridir?",
+    "answer": [
+      [
+        "net interest income excluding cib markets ( a )"
+      ],
+      [
+        "average interest-earning assets excluding cib markets"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "A6",
+      "A9",
+      "B3",
+      "B6",
+      "B9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_010",
+    "table_id": "finqa_0be24be072",
+    "question_type": "open_ended_reasoning",
+    "question": "'2013 yönetilen bazda net faiz geliri'nin, diğer dönemlerle karşılaştırıldığında yıllık büyümesi açısından hangi yılın verisi aykırı bir değerdir?",
+    "answer": [
+      [
+        "2017, önemli ölçüde daha yüksek büyümesi nedeniyle aykırı bir değerdir. 2016'dan 2017'ye artış 4.118 milyon $ (51.410 $ - 47.292 $)'dır, bu da 2015'ten 2016'ya görülen 2.672 milyon $'lık artıştan (47.292 $ - 44.620 $) önemli ölçüde daha büyüktür."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_0be24be072_011",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "2016 yılında CIB piyasaları hariç net faiz geliri (milyon olarak) ne kadardı?",
+    "answer": [
+      [
+        "$40,958"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

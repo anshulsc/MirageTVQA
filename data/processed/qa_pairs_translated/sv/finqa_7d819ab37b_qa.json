@@ -1,0 +1,253 @@
+[
+  {
+    "question_id": "finqa_7d819ab37b_001",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "Vilken utgiftskategori, exklusive totaler, upplevde den största procentuella minskningen från året som slutade december 2010 till året som slutade december 2012?",
+    "answer": [
+      [
+        "occupancy"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A3",
+      "B3",
+      "D3",
+      "A4",
+      "B4",
+      "D4",
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6",
+      "A7",
+      "B7",
+      "D7",
+      "A8",
+      "B8",
+      "D8",
+      "A9",
+      "B9",
+      "D9",
+      "A10",
+      "B10",
+      "D10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_002",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "Vilka var de genomsnittliga 'totala rörelsekostnaderna' över de tre åren som anges i tabellen, i miljontals dollar?",
+    "answer": [
+      [
+        "$ 23955.67"
+      ]
+    ],
+    "evidence_cells": [
+      "B12",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_003",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "För det år med det högsta antalet anställda vid periodens slut, vad var kostnaden för ersättningar och förmåner per anställd, i miljoner dollar?",
+    "answer": [
+      [
+        "$ 0.4307 million"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "B13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_004",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv trenden för 'totala icke-kompensationskostnader' från 2010 till 2012 och dra en slutsats om en potentiell orsak till denna trend baserat på andra data i tabellen.",
+    "answer": [
+      [
+        "De 'totala icke-kompensationskostnaderna' visar en liten men konsekvent nedåtgående trend, från 10 428 miljoner dollar 2010 till 10 419 miljoner dollar 2011 och sedan till 10 012 miljoner dollar 2012. Denna trend korrelerar med den stadiga minskningen av 'total personal vid periodens slut' under samma period, vilket tyder på att en personalminskning kan ha lett till lägre relaterade icke-kompensationskostnader, såsom 'lokalkostnader', som också minskade avsevärt."
+      ]
+    ],
+    "evidence_cells": [
+      "B11",
+      "C11",
+      "D11",
+      "B13",
+      "C13",
+      "D13",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_005",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "Lista alla utgiftskategorier (exklusive totaler) där utgiften år 2012 var större än utgiften år 2011.",
+    "answer": [
+      [
+        "compensation and benefits"
+      ],
+      [
+        "insurance reserves1"
+      ],
+      [
+        "other expenses"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7",
+      "A8",
+      "B8",
+      "C8",
+      "A9",
+      "B9",
+      "C9",
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_006",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "Vilken andel av de 'totala rörelsekostnaderna' år 2010 hänfördes till 'ersättning och förmåner'?",
+    "answer": [
+      [
+        "58.54%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_007",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "Om 'other expenses' år 2012 hade varit 20% lägre, vad skulle då de nya 'total operating expenses' för det året ha varit, förutsatt att alla andra siffror förblev oförändrade?",
+    "answer": [
+      [
+        "$ 22469"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "B12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_008",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "open_ended_reasoning",
+    "question": "Finns det ett tydligt samband mellan 'totalt antal anställda vid periodens slut' och 'lokalkostnader' från 2010 till 2012? Förklara ditt resonemang.",
+    "answer": [
+      [
+        "Ja, det finns en stark positiv korrelation. I takt med att 'totalt antal anställda vid periodens slut' stadigt minskade från 35 700 år 2010 till 32 400 år 2012, såg även 'lokalkostnader' en konsekvent och betydande nedgång från 1 086 miljoner dollar till 875 miljoner dollar under samma period. Detta tyder på att en mindre arbetskraft krävde mindre kontorsutrymme eller ledde till en konsolidering av anläggningar, vilket minskade lokalkostnaderna."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "B13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_009",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "Vilken rad i tabellen innehåller numeriska värden för 2011 och 2012 som är inkonsekventa med det monetära formatet ('$ X') som används för de flesta andra kostnadsposter?",
+    "answer": [
+      [
+        "u.k . bank payrolltax"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_010",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "Identifiera kostnadskategorin som var den mest signifikanta avvikelsen under 2010, där dess värde var drastiskt högre än under de två följande åren.",
+    "answer": [
+      [
+        "compensation and benefits"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_011",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "Vilket år var försäkringsreserverna högst?",
+    "answer": [
+      [
+        "2012"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

@@ -1,0 +1,232 @@
+[
+  {
+    "question_id": "finqa_21abc3652e_001",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Które zobowiązanie, wyłączając \"total commercialcommitments\", ma największą łączną wartość?",
+    "answer": [
+      [
+        "credit facilities [a]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_002",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Jaka jest łączna suma wszystkich zobowiązań handlowych, w milionach, które wygasną w latach 2015 i 2016 łącznie?",
+    "answer": [
+      [
+        "78"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_21abc3652e_003",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Wymień rok i odpowiadającą mu nazwę instrumentu finansowego dla każdego przypadku, gdy pojedynczy instrument finansowy stanowi ponad 98% całkowitych wygaśnięć w danym roku.",
+    "answer": [
+      [
+        "2017",
+        "receivables securitization facility [b]"
+      ],
+      [
+        "2019",
+        "credit facilities [a]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "G5",
+      "A2",
+      "E2",
+      "E5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_004",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "open_ended_reasoning",
+    "question": "Opisz trend wygasania całkowitych zobowiązań od 2015 do 2019 roku.",
+    "answer": [
+      [
+        "Trend jest bardzo zmienny i nie wykazuje stałego wzorca. Zaczyna się od 46 mln USD w 2015 r., spada do 32 mln USD w 2016 r., a następnie gwałtownie wzrasta do szczytowego poziomu 660 mln USD w 2017 r. Następnie spada do zaledwie 11 mln USD w 2018 r., po czym ponownie rośnie do najwyższego poziomu 1708 mln USD w 2019 r. Wzorzec charakteryzuje się skrajnymi fluktuacjami, a nie spójnym wzrostem lub spadkiem."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_005",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Wskaż wszystkie rodzaje zobowiązań, których kwota wygaśnięcia jest większa od zera zarówno w 2016, jak i w 2019 roku.",
+    "answer": [
+      [
+        "guarantees [c]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "G1",
+      "A2",
+      "D2",
+      "G2",
+      "A3",
+      "D3",
+      "G3",
+      "A4",
+      "D4",
+      "G4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_006",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Jaki procent zobowiązania z tytułu 'gwarancji [c]' wygasa po 2019 roku?",
+    "answer": [
+      [
+        "18.29%"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "H3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_21abc3652e_007",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Gdyby zobowiązanie 'kredyty [a]' było o 50% niższe, jaka byłaby nowa wartość 'całkowitych zobowiązań handlowych'?",
+    "answer": [
+      [
+        "$ 1622"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_008",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "open_ended_reasoning",
+    "question": "Na podstawie dostarczonych danych, jaki związek można wywnioskować między całkowitą kwotą konkretnego zobowiązania a rozkładem czasowym jego wygaśnięcia?",
+    "answer": [
+      [
+        "Wydaje się, że istnieje odwrotna zależność. Dwa największe zobowiązania („linie kredytowe” na kwotę 1700 mln USD i „program sekurytyzacji należności” na kwotę 650 mln USD) wygasają jednorazowo w określonym roku. Natomiast mniejsze zobowiązania („gwarancje” i „nieodwołalne akredytywy” płatne na żądanie) mają kwoty wygaśnięcia rozłożone na wiele okresów."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "G1",
+      "A2",
+      "B2",
+      "E2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_21abc3652e_009",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Która kolumna specyficzna dla roku (2015-2019) ma najmniejszą liczbę indywidualnych zobowiązań z wartością wygaśnięcia większą od zera?",
+    "answer": [
+      [
+        "amount of commitment expiration per period 2018"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_010",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Patrząc na wiersz 'total commercialcommitments', której rocznej kwocie wygaśnięcia jest najbardziej znaczącym odchyleniem w porównaniu do mediany okresu od 2015 do po 2019 roku?",
+    "answer": [
+      [
+        "2019"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "H5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_21abc3652e_011",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Jakie są całkowite zobowiązania handlowe (w milionach) w latach 2015–2019?",
+    "answer": [
+      [
+        "2457"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

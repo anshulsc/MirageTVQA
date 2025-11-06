@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_1333011494_001",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Welche Immobilie hat den höchsten 'Gebäude'-Wert?",
+    "answer": [
+      [
+        "1515 broadway"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "B2",
+      "C2",
+      "D2",
+      "F2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_002",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Wie hoch ist die gesamte 'Purchase Price Allocation' für alle in der Tabelle aufgeführten Immobilien?",
+    "answer": [
+      [
+        "2097772"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_1333011494_003",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Wie hoch ist die 'Netto-Berücksichtigung, die von uns bei Abschluss finanziert wird' für die Immobilie mit dem niedrigsten Wert bei 'erworbenen bestehenden Mietverträgen'?",
+    "answer": [
+      [
+        "$ 81632"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "B11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_004",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Welchen prozentualen Anteil am Wert der 'erworbenen Vermögenswerte' für die Immobilie '1515 Broadway' macht die Summe ihrer Werte für 'Grundstücke' und 'Gebäude' aus?",
+    "answer": [
+      [
+        "89.65%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_1333011494_005",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Identifizieren Sie alle Immobilien, bei denen die 'übernommene Verschuldung' mehr als dreimal so hoch ist wie die ' gehaltene Eigenkapital- und/oder Fremdkapitalbeteiligung'.",
+    "answer": [
+      [
+        "110 east 42nd street"
+      ],
+      [
+        "1515 broadway"
+      ]
+    ],
+    "evidence_cells": [
+      "D12",
+      "D13",
+      "E12",
+      "E13",
+      "F12",
+      "F13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_006",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Wenn eine buchhalterische Anpassung den Wert des 'Gebäudes' für '110 east 42nd street' um 10 % niedriger bewertete, wie hoch wäre dann der neue Wert für 'erworbene Vermögenswerte' für diese Immobilie?",
+    "answer": [
+      [
+        "81989"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_007",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "Der 'Fair Value Adjustment to Mortgage Note Payable' für '1515 Broadway' ist ein negativer Wert, während er für die meisten anderen Immobilien ein positiver, einheitlicher Wert ist. Was deutet dieser signifikante Ausreißer über die Finanzierung dieser speziellen Immobilie hin?",
+    "answer": [
+      [
+        "Der negative Wert von '-3693' für '1515 Broadway' in der Kategorie 'Fair Value Adjustment to Mortgage Note Payable' ist ein deutlicher Ausreißer im Vergleich zum einheitlichen positiven Wert von '2014' für die anderen Immobilien. Dies deutet darauf hin, dass die Hypothek, die mit der Akquisition von 1515 Broadway verbunden war, Konditionen hatte, die günstiger waren als die zu dieser Zeit geltenden Marktzinsen, was zu einem Vermögenswert (einer negativen Verbindlichkeitsanpassung) führte. Im Gegensatz dazu hatten die anderen Immobilien möglicherweise Hypotheken zu oder nahe den Marktzinsen, was eine standardmäßige, nominale Anpassung erforderte."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_1333011494_008",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "Gibt es basierend auf den Daten eine direkte positive Korrelation zwischen der 'Purchase Price Allocation' einer Immobilie und der 'Net Consideration Funded by Us at Closing'?",
+    "answer": [
+      [
+        "Nein, es gibt keine direkte positive Korrelation. Beispielsweise hat '180 Maiden Lane' den zweithöchsten Kaufpreis (442.325 $) und seine Nettoentschädigung (81.835 $) ist fast identisch mit der von '51 East 42nd Street', die einen viel niedrigeren Kaufpreis (80.000 $) hat. Darüber hinaus hat '1515 Broadway' mit Abstand den höchsten Kaufpreis (1.234.000 $) und nicht die höchste Nettoentschädigung. Dies deutet darauf hin, dass andere Faktoren, wie z. B. die 'Debt Assumed' (die für '1515 Broadway' sehr hoch ist), die bei Abschluss erforderliche Nettoentschädigung erheblich beeinflussen."
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10",
+      "B11",
+      "C11",
+      "D11",
+      "E11",
+      "F11",
+      "B13",
+      "C13",
+      "D13",
+      "E13",
+      "F13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_1333011494_009",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Berechnen Sie die gesamten 'angenommenen Verbindlichkeiten' für Immobilien, die einen 'über dem Marktwert liegenden Mietwert' von weniger als 6.000 $ aufweisen.",
+    "answer": [
+      [
+        "33817"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "F3",
+      "B9",
+      "D9",
+      "F9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_010",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "Der Wert '2014' erscheint wiederholt in vier verschiedenen Finanzkategorien, oft für dieselben Immobilien. Was lässt die konsistente Verwendung dieser spezifischen, nicht gerundeten Zahl in verschiedenen Kontexten über ihre Natur aussagen?",
+    "answer": [
+      [
+        "Der Wert '2014' erscheint in den Kategorien 'Sonstige Vermögenswerte abzüglich sonstiger Verbindlichkeiten', 'Fair-Value-Anpassung der Hypothekenobligation', 'Eigenkapital- und/oder Fremdkapitalbeteiligung' und 'Übernommene Schulden'. Seine wiederholte Verwendung als relativ kleiner, identischer Wert über verschiedene Kategorien und Immobilien hinweg deutet darauf hin, dass es sich nicht um einen gemessenen Marktwert handelt, sondern eher um einen Nennwert, einen Standardmindestwert für Buchhaltungszwecke oder möglicherweise um einen Verweis auf ein bestimmtes Ereignis oder ein bestimmtes Regulierungsjahr (z. B. eine Transaktion aus dem Jahr 2014). Er kennzeichnet einen standardisierten Eintrag anstelle einer einzigartigen Bewertung für jeden Fall."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "A12",
+      "A13",
+      "B5",
+      "C5",
+      "D5",
+      "F5",
+      "B7",
+      "C7",
+      "D7",
+      "F7",
+      "B12",
+      "C12",
+      "B13",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_011",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Wie viel kostet es, das Grundstück in der 1515 Broadway zu kaufen?",
+    "answer": [
+      [
+        "$462,700"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

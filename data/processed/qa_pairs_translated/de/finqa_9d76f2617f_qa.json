@@ -1,0 +1,237 @@
+[
+  {
+    "question_id": "finqa_9d76f2617f_001",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Was war der gesamte Anstieg der 'ausstehenden Aktien' infolge des 'Mitarbeiteraktienkaufplans' über den gesamten dargestellten Zeitraum?",
+    "answer": [
+      [
+        "6894763"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D6",
+      "D11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_002",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "In welchem Jahr (2001, 2002 oder 2003) trugen die 'an Optionsinhaber verkauften Aktien' am meisten zur Erhöhung der 'ausstehenden Aktien' bei?",
+    "answer": [
+      [
+        "2002"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "A5",
+      "A8",
+      "D8",
+      "A10",
+      "A13",
+      "D13",
+      "A14"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_003",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "Beschreiben Sie den Trend der Treasury-Aktien des Unternehmens vom Anfang 2001 bis Ende 2003, basierend auf den Bilanzberichten.",
+    "answer": [
+      [
+        "Die Anzahl der in Treasury gehaltenen Aktien nahm von Jahr zu Jahr stetig ab. Der Saldo fiel von ungefähr 94,4 Millionen zu Beginn des Jahres 2001 auf 91,2 Millionen bis Ende 2001, dann auf 84,9 Millionen bis Ende 2002 und schließlich auf 81,2 Millionen bis Ende 2003. Dies deutet darauf hin, dass das Unternehmen Aktien aus seinem Treasury wieder ausgab (z. B. für Mitarbeiterpläne und -optionen), schneller als es Aktien zurückkaufte."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "C10",
+      "C14"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_004",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Was war die Nettoänderung der 'ausstehenden Aktien' während des vollen Kalenderjahres, das die 'Akquisition von Technoguide' beinhaltete?",
+    "answer": [
+      [
+        "6282717"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "D5",
+      "D10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_005",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Listen Sie alle Transaktionstypen auf, ausgenommen Salden, die zu einem Anstieg der 'ausstehenden Aktien' um mehr als 2.000.000 Aktien führten.",
+    "answer": [
+      [
+        "employee stock purchase plan"
+      ],
+      [
+        "shares sold to optionees"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8",
+      "A9",
+      "D9",
+      "A11",
+      "D11",
+      "A13",
+      "D13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_006",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Welcher Prozentsatz des gesamten Anstiegs der 'ausstehenden Aktien' für das Jahr 2002 war auf die 'Akquisition von Technoguide' zurückzuführen?",
+    "answer": [
+      [
+        "21,45%"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_007",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Wenn der 'Mitarbeiteraktienkaufplan' im Jahr 2002 zu 1.000.000 weniger Aktien geführt hätte, die zur Gesamtzahl hinzugefügt worden wären, wie hoch wäre der 'Saldo 31. Dezember 2002' für 'ausstehende Aktien' gewesen?",
+    "answer": [
+      [
+        "581173115"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "D10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_008",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Welche Transaktion zwischen den Jahresabschlüssen stellt einen Ausreißer hinsichtlich ihrer minimalen Auswirkung auf 'outstanding shares' dar, und wie hoch war diese Auswirkung?",
+    "answer": [
+      [
+        "shares granted to directors",
+        "3500"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "A7",
+      "D7",
+      "A12",
+      "D12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_009",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "Welche konsistente mathematische Beziehung besteht für die Ereignisse 'Aktien an Optionees verkauft' zwischen den Spalten 'issued', 'in treasury' und 'shares outstanding'?",
+    "answer": [
+      [
+        "Für alle Transaktionen, bei denen Aktien an Optionees verkauft wurden, ist der Wert in der Spalte 'shares outstanding' die Summe der Werte in den Spalten 'issued' und 'in treasury'. Dies impliziert, dass die Aktien für Optionees sowohl aus einer Neuausgabe als auch aus dem bestehenden eigenen Aktienbestand des Unternehmens stammen."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "B8",
+      "C8",
+      "D8",
+      "B13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_010",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "Die Spalte 'issued' enthält für mehrere Transaktionstypen den Wert '2013', bei denen der Wert 'in treasury' ungleich Null ist. Was deutet dies über die Quelle der Aktien für diese Transaktionen hin?",
+    "answer": [
+      [
+        "In jeder Zeile, in der die Spalte 'issued' '2013' anzeigt, ist der Wert 'in treasury' identisch mit dem Wert 'shares outstanding'. Dies deutet darauf hin, dass bei diesen Transaktionen (z.B. 'employee stock purchase plan', 'acquisition of technoguide') alle Aktien aus dem Bestand kamen und keine neuen Aktien tatsächlich ausgegeben wurden. Die Zahl '2013' ist wahrscheinlich ein Platzhalter, ein Identifikator oder ein Datenfehler und keine Menge ausgegebener Aktien."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "C3",
+      "D3",
+      "B6",
+      "C6",
+      "D6",
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_011",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "Wie haben sich die ausstehenden Aktien vom Saldo am 1. Januar 2001 bis zum Saldo am 31. Dezember 2003 verändert und welche Aktivitäten trugen wahrscheinlich zu dieser Veränderung bei?",
+    "answer": [
+      [
+        "Die ausstehenden Aktien stiegen um 13.223.634 (von 572.724.694 auf 585.948.328). Dieser Anstieg scheint durch Aktienemissionen wie Optionsausübungen und Aktivitäten im Rahmen von Mitarbeiterbeteiligungsprogrammen (mehrere Einträge für 'Aktien an Optionsinhaber verkauft' und 'Mitarbeiter-Aktienkaufplan'), eine akquisitionsbezogene Emission (Technoguide) und eine Netto-Reduzierung der eigenen Aktienbestände (Treasury Shares) angetrieben worden zu sein – was alles in allem die Anzahl der ausstehenden Aktien erhöhte."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "C1",
+      "A14",
+      "D14",
+      "C14",
+      "A4",
+      "B4",
+      "A8",
+      "B8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

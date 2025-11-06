@@ -1,0 +1,220 @@
+[
+  {
+    "question_id": "finqa_8a8b0d1705_001",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "Vilket var det totala beloppet, i miljoner, som spenderades på inköp av egna aktier under alla tre åren?",
+    "answer": [
+      [
+        "-8067"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_002",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "Under året med störst nettoanvändning av likvida medel i finansieringsverksamheten, vad var värdet på 'intäkter från skulder'?",
+    "answer": [
+      [
+        "429"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "D3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_003",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv trenden för 'total kassaflödesförändring i skuld' från 2005 till 2007.",
+    "answer": [
+      [
+        "Trenden var mycket volatil. Den började med ett nettoutflöde på 485 miljoner dollar 2005, vände sedan dramatiskt till ett stort nettoinflöde på 1135 miljoner dollar 2006 och slutligen tillbaka till ett betydande inflöde på 1222 miljoner dollar 2007. Det fanns ingen konsekvent uppåtgående eller nedåtgående trend."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_004",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "År 2007, vilken procentandel av pengarna som genererades från 'intäkter från skulder' användes för 'återbetalning av skuld'?",
+    "answer": [
+      [
+        "39.26%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_005",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "Vilken finansiell aktivitet upplevde den största absoluta förändringen mellan två på varandra följande år?",
+    "answer": [
+      [
+        "proceeds from debt ( maturities greater than 90 days )"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_006",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "Om 'återutgivningar av eget kapital' år 2005 hade varit 50% högre, vad hade då varit 'netto kassaflöde använt för finansieringsaktiviteter' för det året?",
+    "answer": [
+      [
+        "$-3352.5 (3352.5)"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "D10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_007",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "Lista alla finansieringsaktiviteter som gav ett netto kassaflöde (ett positivt värde) år 2006.",
+    "answer": [
+      [
+        "change in short-term debt 2014 net"
+      ],
+      [
+        "proceeds from debt ( maturities greater than 90 days )"
+      ],
+      [
+        "reissuances of treasury stock"
+      ],
+      [
+        "excess tax benefits from stock-based compensation"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "A1",
+      "C3",
+      "A3",
+      "C6",
+      "A6",
+      "C8",
+      "A8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_008",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "Vilket år såg den högsta mängden kontanter som återfördes till aktieägarna, med beaktande av både 'köp av egna aktier' och 'utdelningar betalda till aktieägare'?",
+    "answer": [
+      [
+        "2007"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_009",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "open_ended_reasoning",
+    "question": "Baserat på data, finns det ett observerbart samband mellan 'köp av egna aktier' och 'utdelningar till aktieägare' under treårsperioden?",
+    "answer": [
+      [
+        "Ja, det verkar finnas ett konsekvent mönster av betydande kassaflöden utåt för båda aktiviteterna varje år, vilket indikerar en stabil strategi för att återföra kapital till aktieägarna. Däremot finns det ingen tydlig korrelation i deras årsförändringar. Till exempel, från 2005 till 2006 minskade köpen av egna aktier något medan utdelningarna ökade något. Sedan, från 2006 till 2007 ökade köpen av egna aktier dramatiskt medan utdelningarna förblev nästan oförändrade. Båda är konsekvent stora användningar av kontanter, men de rör sig inte i takt."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "A7",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_010",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "Hur många finansiella aktiviteter som listas resulterade konsekvent i ett negativt kassaflöde (ett negativt värde) under alla tre åren?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B5",
+      "C5",
+      "D5",
+      "B7",
+      "C7",
+      "D7",
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_011",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "Vilket år var nettot av likvida medel som användes för finansieringsverksamhet högst?",
+    "answer": [
+      [
+        "2005"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10",
+      "D10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

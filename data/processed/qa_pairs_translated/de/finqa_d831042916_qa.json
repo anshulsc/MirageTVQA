@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "finqa_d831042916_001",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "In welchem Jahr erlitt das Unternehmen den größten '(Verlust) aus fortgeführten Geschäftsbereichen'?",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_002",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Wie hoch waren die gesamten Betriebsausgaben für den Dreijahreszeitraum von 2007 bis 2009?",
+    "answer": [
+      [
+        "$3743"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d831042916_003",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Was war der Wert der 'nicht-Zinserträge' in dem einzigen Jahr, in dem das Unternehmen einen positiven 'Nettogewinn (Verlust)' auswies?",
+    "answer": [
+      [
+        "422"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "B12",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_004",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Beschreiben Sie den Trend der 'Gesamteinnahmen abzüglich Zinsaufwand' von 2007 bis 2009.",
+    "answer": [
+      [
+        "Der Trend war überwiegend negativ und volatil. Die Gesamteinnahmen zeigten eine geringfügige Verbesserung von einem Verlust von 2310 Millionen US-Dollar im Jahr 2007 auf einen Verlust von 2258 Millionen US-Dollar im Jahr 2008. Darauf folgte jedoch ein katastrophaler Rückgang im Jahr 2009, wo sich der Verlust dramatisch auf 10556 Millionen US-Dollar erhöhte, was auf einen starken Abschwung bei den kerngeschäftlichen Einnahmequellen des Unternehmens hindeutet."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_005",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Listen Sie die 'Einkommensteuern (Leistungen)' für alle Jahre auf, in denen der '(Verlust) aus fortgeführten Geschäftsbereichen' größer als 2.500 Millionen US-Dollar war.",
+    "answer": [
+      [
+        "-4369 ( 4369 )"
+      ],
+      [
+        "-1446 ( 1446 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "D7",
+      "B8",
+      "D8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_006",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Welchen Prozentsatz der 'Gesamteinnahmen abzüglich Zinsaufwendungen' machte im Jahr 2009 die 'nicht verzinsliche Einnahme' aus?",
+    "answer": [
+      [
+        "84.25%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d831042916_007",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Wenn sich die 'Gesamten Betriebskosten' im Jahr 2008 um 20 % erhöht hätten, wie hoch wäre der neue '(Verlust) aus fortgeführten Geschäftsbereichen vor Steuern' für dieses Jahr gewesen?",
+    "answer": [
+      [
+        "$ -2871 ( 2871 )"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_008",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Gibt es basierend auf den Daten einen konsistenten Zusammenhang zwischen niedrigeren 'Gesamtbetriebskosten' und einem höheren 'Nettogewinn (Verlust)'?",
+    "answer": [
+      [
+        "Nein, ein konsistenter Zusammenhang ist nicht erkennbar. Während 2008 die niedrigsten Betriebskosten (510 Mio. $) und den höchsten Nettogewinn (1820 Mio. $) aufwies, was auf eine umgekehrte Beziehung hindeutet, wird dieses Muster durch die anderen Jahre gebrochen. Im Jahr 2009 waren die Betriebskosten (1420 Mio. $) niedriger als im Jahr 2007 (1813 Mio. $), dennoch verzeichnete 2009 einen drastisch schlechteren Nettoverlust (-8051 Mio. $) im Vergleich zu 2007 (-1968 Mio. $). Dies deutet darauf hin, dass andere Faktoren, wie der starke Rückgang der Einnahmen, einen viel größeren Einfluss auf den Nettogewinn hatten als allein die Betriebskosten."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "A12",
+      "B4",
+      "C4",
+      "D4",
+      "B12",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d831042916_009",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Wenn man die letzten drei Zeilen betrachtet, ist die Berechnung für 'Nettoergebnis (Verlust)' über alle drei Jahre hinweg konsistent angewendet worden? Erklären Sie Ihre Erkenntnis.",
+    "answer": [
+      [
+        "Nein, die Berechnungsmethode ist inkonsistent. Im Jahr 2007 ergibt sich das 'Nettoergebnis (Verlust)' (-1.968 Mio. USD) korrekt durch Subtrahieren des 'Nettoergebnisses, das auf nicht beherrschende Anteile entfällt' (2 Mio. USD) vom 'Nettoergebnis (Verlust) vor Zurechnung...' (-1.966 Mio. USD). In den Jahren 2008 und 2009 ist der Wert für 'Nettoergebnis (Verlust)' jedoch identisch mit dem Wert für 'Nettoergebnis (Verlust) vor Zurechnung...', wobei der auf nicht beherrschende Anteile entfallende Betrag fälschlicherweise ignoriert wird. Dies weist auf eine Inkonsistenz in der Berichterstattung der Tabellenstruktur für 2008 und 2009 hin."
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "A11",
+      "A12",
+      "B10",
+      "B11",
+      "B12",
+      "C10",
+      "C11",
+      "C12",
+      "D10",
+      "D11",
+      "D12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_010",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Welcher Posten in der Gewinn- und Verlustrechnung für 2008 stellt im Vergleich zu den anderen Jahren einen signifikanten positiven Ausreißer dar und welchen Einfluss hatte er auf das Endergebnis des Unternehmens?",
+    "answer": [
+      [
+        "Das 'Ergebnis (Verlust) aus fortgeführten Geschäftsbereichen nach Steuern' im Jahr 2008 mit einem Wert von 4002 Mio. US-Dollar ist im Vergleich zu einem Verlust von 445 Mio. US-Dollar im Jahr 2009 und einem geringeren Gewinn von 708 Mio. US-Dollar im Jahr 2007 ein signifikanter positiver Ausreißer. Dieser Ausreißer war entscheidend, da er einen erheblichen '(Verlust) aus fortgeführten Geschäftsbereichen' von 2182 Mio. US-Dollar in ein endgültiges positives 'Nettoergebnis' von 1820 Mio. US-Dollar für dieses Jahr umwandelte."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "A9",
+      "A12",
+      "B9",
+      "C8",
+      "C9",
+      "C12",
+      "D9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d831042916_011",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Unter Berücksichtigung des fortlaufenden und des eingestellten Geschäftsbetriebs, wie hoch war die gesamte Veränderung des Nettogewinns von 2008 bis 2009?",
+    "answer": [
+      [
+        "Im Jahr 2008 betrug der Nettogewinn 1.820 Millionen US-Dollar. Im Jahr 2009 betrug der Nettogewinn -8.051 Millionen US-Dollar. Die gesamte Veränderung des Nettogewinns von 2008 bis 2009 ist ein Rückgang von 9.871 Millionen US-Dollar."
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "C12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_b54bfca53d_001",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "איזו התחייבות חוזית, למעט הסך הכולל, מחייבת בסכום הגבוה ביותר בתקופה של '1-3 שנים'?",
+    "answer": [
+      [
+        "purchase obligations ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_002",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "על ידי סיכום התשלומים עבור כל התחייבות בנפרד, אשר את הסכום הכולל לתקופה '1-3 שנים' הרשום בשורת 'סך התשלומים על התחייבויות חוזיות'.",
+    "answer": [
+      [
+        "כן, הסכום הכולל מדויק. סכום ההתחייבויות הבודדות לתקופה '1-3 שנים' הוא $188.3 + $316.4 + $37.1 + $3779.4, השווה ל-$4321.2, התואם לערך בשורת הסך הכולל."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_003",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "עבור ההתחייבות החוזית עם סכום התשלום הכולל הנמוך ביותר, איזה אחוז מהסך הכל שלה מגיע בתקופת '1-3 שנים'?",
+    "answer": [
+      [
+        "39.81%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "D3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_004",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "תאר את לוח הזמנים לתשלומים עבור 'חוב לטווח ארוך הכולל השכירות הון' לאורך התקופות שצוינו. האם הוא טעון מקדימה, טעון אחורה, או מפוזר באופן שווה?",
+    "answer": [
+      [
+        "לוח זמני התשלומים עבור חוב לטווח ארוך הוא טעון אחורה באופן משמעותי. התשלומים מתחילים בסכום נמוך של 34.5 מיליון דולר ('פחות משנה אחת'), עולים באופן יציב בתקופות של 1-3 שנים ו-3-5 שנים, ומסתיימים בתשלום גדול מאוד של 2160.2 מיליון דולר בתקופה של 'יותר מחמש שנים', המהווה למעלה מ-78% מההתחייבות הכוללת."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "E1",
+      "F1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_005",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "ציין את כל קטגוריות ההתחייבויות שבהן התשלום המגיע ב'פחות משנה אחת' נמוך מהתשלום המגיע ב'1-3 שנים'.",
+    "answer": [
+      [
+        "long-term debt including capital leases"
+      ],
+      [
+        "interest payments on long-term debt ( b )"
+      ],
+      [
+        "operating leases"
+      ],
+      [
+        "purchase obligations ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_006",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "איזה אחוז מתוך 'התחייבויות ארוכות טווח הכוללות חכירות הון' מתוכנן להיות משולם בעוד יותר מ-5 שנים?",
+    "answer": [
+      [
+        "78.55%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "F1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_007",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "אם מדיניות חדשה דרשה שכל 'התחייבויות רכישה' שמועדן הוא '1-3 שנים' ישולמו באופן מיידי (בתקופה של 'פחות משנה אחת'), מה יהיה הסכום הכולל החדש עבור תשלומי 'פחות משנה אחת' על התחייבויות חוזיות?",
+    "answer": [
+      [
+        "$6715.0 million"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_008",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "בטבלה ישנה בעיית תקינות נתונים שבה סכום התשלומים המחזוריים עבור סוג התחייבות אחד אינו תואם את הסכום הכולל המוצהר שלו. זהה התחייבות זו וחשב את הפער.",
+    "answer": [
+      [
+        "לשורה 'התחייבויות רכישה ( c )' ישנה בעיית תקינות נתונים. סכום התשלומים המחזוריים שלה (2709.5$ + 3779.4$ + 98.0$ + 2212$ = 8798.9$ מיליון) אינו תואם את הסך המוצהר שלה של 6586.9$ מיליון. הפער הוא 2212$ מיליון."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_009",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "בהתבסס על תקופת התשלום '3-5 שנים', לאיזו התחייבות חוזית יש את הערך הנמוך ביותר, וניתן לראות בה חריגה לעומת האחרות באותה עמודה?",
+    "answer": [
+      [
+        "operating leases"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_010",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "האם קיים קשר עקבי בין גודל ההתחייבות הכוללת למבנה התשלומים שלה (למשל, האם התחייבויות גדולות יותר תמיד נוטות יותר לאחור)? נמק את תשובתך עם נתונים.",
+    "answer": [
+      [
+        "לא, אין קשר עקבי. ההתחייבות הכוללת הגדולה ביותר, 'התחייבויות רכישה' (6,586.9 מיליון דולר), נוטה באופן משמעותי להקדים תשלומים, כאשר הרוב קבוע תוך 3 שנים. לעומת זאת, ההתחייבות השנייה בגודלה, 'חוב לזמן ארוך' (2,750.1 מיליון דולר), נוטה באופן משמעותי לתשלומים מאוחרים, כאשר התשלום הגדול ביותר קבוע לאחר יותר מ-5 שנים. זה מצביע על כך שמבנה התשלומים ספציפי לסוג ההתחייבות, ולא לערכו הכולל."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "F1",
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_011",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "מהם סך התשלומים במיליונים על התחייבויות חוזיות לתקופה של 1-3 שנים?",
+    "answer": [
+      [
+        "$4321.2"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

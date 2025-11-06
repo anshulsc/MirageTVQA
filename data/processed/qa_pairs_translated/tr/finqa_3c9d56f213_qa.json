@@ -1,0 +1,288 @@
+[
+  {
+    "question_id": "finqa_3c9d56f213_001",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Tabloda listelenen tüm rüzgar enerjili projeler tarafından üretilen toplam Brüt MW nedir?",
+    "answer": [
+      [
+        "311"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "C6",
+      "D6",
+      "C7",
+      "D7",
+      "C8",
+      "D8",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_002",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Listelenen projeler arasında Ortalama Brüt MW çıktısı olarak Kömür mü yoksa Hidro mu daha yüksek?",
+    "answer": [
+      [
+        "Coal"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C5",
+      "D5",
+      "C10",
+      "D10",
+      "C11",
+      "D11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_003",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Yenilenebilir bir yakıt kaynağı (Hidro veya Rüzgar) kullanan ve Çin'de bulunan tüm projelerin isimlerini listele.",
+    "answer": [
+      [
+        "jhrh ( 1 )"
+      ],
+      [
+        "dong qi ( 3 )"
+      ],
+      [
+        "huanghua ii ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_004",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Şili'de bulunan ve Brüt MW değeri en yüksek olan proje için AES'e atfedilebilen etkili Brüt MW nedir?",
+    "answer": [
+      [
+        "193.12"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_005",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "AES'nin %100 öz sermaye payına sahip olduğu projelerin, tüm projelerin toplam brüt MW'ına katkısı yüzde kaçtır?",
+    "answer": [
+      [
+        "54.43%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D10",
+      "D11"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_006",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "En yüksek anomaliye sahip Brüt MW çıktısına sahip projeyi belirleyin ve neden veri kümesindeki diğer tüm projelerden öne çıktığını açıklayın.",
+    "answer": [
+      [
+        "'ballylumford' projesi en önemli aykırı değerdir. 1246 MW'lık Brüt MW değeri, bir sonraki en büyük proje olan 'jhrh'den (379 MW) üç kattan fazla ve tüm veri kümesinin medyan Brüt MW'ının (49 MW) 25 katından fazladır. Bu muazzam büyüklük farkı, güç üretim kapasitesini listelenen diğer tüm projelerle karşılaştırıldığında anomali hale getirir."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_007",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "AES'nin Türkiye'deki tüm projelerindeki öz sermaye payı mevcut seviyesinden iki katına çıkarsa, AES'ye atfedilebilecek Türkiye'den elde edilen yeni toplam etkili Brüt MW ne olur?",
+    "answer": [
+      [
+        "44.88"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "D10",
+      "E10",
+      "B11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_008",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "Verilere göre, bir projenin Brüt MW'ı ile AES'in öz sermaye payı seviyesi arasında gözlemlenebilir bir korelasyon var mı? Gerekçenizi açıklayın.",
+    "answer": [
+      [
+        "Bir projenin Brüt MW'ı ile AES'in öz sermaye payı arasında net veya tutarlı bir korelasyon bulunmamaktadır. Örneğin, en yüksek Brüt MW'a sahip proje ('ballylumford', 1246 MW) %100 paya sahipken, ikinci en yüksek ('jhrh', 379 MW) düşük bir %35 paya sahiptir. Buna karşılık, çok düşük bir MW projesi ('north rhins', 22 MW) da %100 paya sahiptir. Farklı proje ölçeklerindeki öz sermaye paylarının geniş dağılımı, proje ölçeğinin AES yatırım seviyesini doğrudan belirlemediğini göstermektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D6",
+      "E6",
+      "D7",
+      "E7",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D10",
+      "E10",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_009",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "'aes equity interest ( percent rounded )' sütunu gereksiz bilgi içeriyor. Bu gereksizliğin örüntüsünü açıkla.",
+    "answer": [
+      [
+        "Sütun, her hücrede bir yüzde değerinin parantez içinde tam olarak aynı değerin tekrar edilmesiyle oluşan tutarlı bir gereksiz bilgi örüntüsü sergiler, örneğin '71% ( 71 % )' gibi. Parantez içindeki bilgi, kendisinden önceki bilgilerin doğrudan bir tekrarıdır."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_010",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Tabloda birden fazla projesi listelenen ülkeler göz önüne alındığında, AES'e atfedilebilen en düşük toplam Brüt MW'ye sahip ülke hangisidir?",
+    "answer": [
+      [
+        "Turkey"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2",
+      "E2",
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "D5",
+      "E5",
+      "B6",
+      "D6",
+      "E6",
+      "B7",
+      "D7",
+      "E7",
+      "B10",
+      "D10",
+      "E10",
+      "B11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_011",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Ana yakıt olarak rüzgar kullanan kaç proje var?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

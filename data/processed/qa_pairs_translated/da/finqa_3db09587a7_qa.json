@@ -1,0 +1,315 @@
+[
+  {
+    "question_id": "finqa_3db09587a7_001",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "Hvad er det samlede antal kvadratfod for alle ejendomme, der bruges til 'ejendoms- og ansvarsforsikringskontorer'?",
+    "answer": [
+      [
+        "740526"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_3db09587a7_002",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "Hvilken stat huser den største ejendom, der IKKE bruges som 'hovedkontor'?",
+    "answer": [
+      [
+        "pennsylvania"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A8",
+      "B8",
+      "A9",
+      "B9",
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3db09587a7_003",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "Hvilken procentdel af det samlede anførte areal i kvadratfod optages af den enkelt største ejendom?",
+    "answer": [
+      [
+        "49.3%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_3db09587a7_004",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "Identificer placeringen af ejendommen, hvis størrelse er en størrelsesorden mindre end Chicagos administrationskontor.",
+    "answer": [
+      [
+        "101 s . phillips avenue sioux falls south dakota"
+      ],
+      [
+        "600 n . pearl street dallas texas"
+      ],
+      [
+        "675 placentia avenue brea california"
+      ],
+      [
+        "1249 s . river road cranbury new jersey"
+      ],
+      [
+        "4267 meridian parkway aurora illinois"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A8",
+      "B8",
+      "A9",
+      "B9",
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_3db09587a7_005",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "List de lokationer for alle ejendomme, der har en 'primær anvendelse' ud over 'ejendoms- og ulykkesforsikringskontorer' og er placeret i Illinois.",
+    "answer": [
+      [
+        "333 s . wabash avenue chicago illinois"
+      ],
+      [
+        "4267 meridian parkway aurora illinois"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7",
+      "A8",
+      "C8",
+      "A9",
+      "C9",
+      "A10",
+      "C10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_3db09587a7_006",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "Hvis de tre mindste ejendomme blev samlet på én ny lokation, hvad ville den gennemsnitlige størrelse af de resterende 8 ejendomme (de 7 større oprindelige plus den nye samlede) være?",
+    "answer": [
+      [
+        "200257.625"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_3db09587a7_007",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvilket mønster eller hvilken sammenhæng kan udledes mellem en ejendoms størrelse og dens primære anvendelse baseret på de givne data?",
+    "answer": [
+      [
+        "Der eksisterer en tydelig sammenhæng: den enkelt største ejendom (803.728 kvadratfod) er unikt betegnet som 'hovedkontor'. De mindste ejendomme tenderer til at være specialiserede faciliteter som 'datacentret' (46.903 kvadratfod). Langt størstedelen af ejendommene, som falder i mellem-til-store størrelsesområdet (56.100 til 171.318 kvadratfod), bruges alle som 'ejendoms- og ansvarsforsikringskontorer'. Dette antyder en differentieret brugsstrategi baseret på facilitetens størrelse, hvor ledelsesfunktioner kræver mest plads, generelle kontorer optager et bredt mellemområde, og specialiseret infrastruktur bruger mindst."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_3db09587a7_008",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "Hvor mange forskellige kategorier af 'hovedanvendelse' er repræsenteret i dette datasæt?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_3db09587a7_009",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "Identificer placeringen af ejendommen, hvis størrelse er den mest markante outlier sammenlignet med medianstørrelsen for alle ejendomme.",
+    "answer": [
+      [
+        "333 s . wabash avenue chicago illinois"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_3db09587a7_010",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "Hvad er den mediane størrelse af ejendommene beliggende i en stat, der forekommer mere end én gang på listen over lokationer?",
+    "answer": [
+      [
+        "425315.5"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3db09587a7_011",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "Hvad er størrelsen i kvadratfod for CNA's primære administrationskontorer beliggende på 333 S. Wabash Avenue, Chicago, Illinois?",
+    "answer": [
+      [
+        "803,728"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,215 @@
+[
+  {
+    "question_id": "finqa_1d2378e7c5_001",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Na dzień 31 grudnia 2015 r., który z podejść regulacyjnych, 'zaawansowane' czy 'standardowe', wykazał wyższy zgłoszony 'Kapitał całkowity' i o ile milionów dolarów?",
+    "answer": [
+      [
+        "Standardized approach",
+        "12558"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_002",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Jaki był średni 'Kapitał Tier 1' w milionach dolarów we wszystkich czterech raportowanych kolumnach?",
+    "answer": [
+      [
+        "156051"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_003",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Podaj 'Łączne aktywa ważone ryzykiem' odpowiadające kolumnie z najniższym 'Łącznym wskaźnikiem kapitału'.",
+    "answer": [
+      [
+        "1292605"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "B7",
+      "C7",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_004",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "Zakładając, że dwie ostatnie kolumny reprezentują dane z poprzedniego roku, opisz trend rok do roku dla 'Współczynnika kapitału podstawowego Tier 1' w ramach 'Standardowej metody'.",
+    "answer": [
+      [
+        "Współczynnik kapitału podstawowego Tier 1' w ramach 'Standardowej metody' wykazał pozytywny trend, wzrastając o 1,51 punktu procentowego z 11,12% w poprzednim okresie do 12,63% na dzień 31 grudnia 2015 r."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "E5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_005",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Które wskaźniki kapitałowe w ramach 'Podejścia Standardowego na dzień 31 grudnia 2015 r.' były poniżej 15%?",
+    "answer": [
+      [
+        "12.63% ( 12.63 % )"
+      ],
+      [
+        "14.11"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A6",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_006",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Dla daty '31 grudnia 2015 r. zaawansowane podejścia', jaka część 'Kapitału całkowitego' przypada na 'Kapitał Tier 2'? (Uwaga: Kapitał Tier 2 = Kapitał całkowity - Kapitał Tier 1)",
+    "answer": [
+      [
+        "11.85%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_007",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Gdyby 'Łączne aktywa ważone ryzykiem' według 'Podejścia znormalizowanego na dzień 31 grudnia 2015 r.' były hipotetycznie o 10% wyższe, jaki byłby nowy 'Współczynnik kapitału podstawowego Tier 1', przy założeniu, że 'Kapitał podstawowy Tier 1' pozostałby niezmieniony?",
+    "answer": [
+      [
+        "12.83"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_008",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "Jaka zależność między 'Całkowitymi aktywami ważonymi ryzykiem' a stosunkami kapitałowymi przedstawionymi w tabeli może zostać wywnioskowana? Użyj danych, aby poprzeć swój wniosek.",
+    "answer": [
+      [
+        "Istnieje odwrotna korelacja między 'Całkowitymi aktywami ważonymi ryzykiem' a wskaźnikami kapitałowymi. W miarę wzrostu aktywów ważonych ryzykiem (mianownik w obliczeniu wskaźnika), wskaźniki kapitałowe maleją. Na przykład kolumna z najwyższymi aktywami (1 292 605 mln USD) wykazuje najniższy 'Całkowity wskaźnik kapitałowy' (12,80%), podczas gdy kolumna z najniższymi aktywami (1 162 884 mln USD) wykazuje najwyższy 'Całkowity wskaźnik kapitałowy' (17,08%)."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "B7",
+      "C7",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_009",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "Która metryka finansowa na dzień 31 grudnia 2015 r. wykazuje nietypowo dużą rozbieżność między podejściami „zaawansowanym” a „standardowym”, biorąc pod uwagę, że jej główne składniki są identyczne?",
+    "answer": [
+      [
+        "Kapitał całkowity wykazuje nietypowo dużą rozbieżność. Zarówno kapitał podstawowy Tier 1, jak i kapitał Tier 1 mają identyczne wartości w obu podejściach na rok 2015. Jednak kapitał całkowity różni się o ponad 12 miliardów USD (186 097 mln USD vs 198 655 mln USD), co wskazuje, że cała różnica wynika z obliczenia kapitału Tier 2, co czyni go wartością odstającą."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_010",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Pomimo niekonsekwentnych nagłówków kolumn dla obu przedstawionych okresów, które kwoty kapitału (w milionach dolarów) są zgłaszane z identycznymi wartościami zarówno dla podejścia 'Zaawansowanego', jak i 'Standardowego' w każdym z tych okresów?",
+    "answer": [
+      [
+        "Common equity tier 1 capital"
+      ],
+      [
+        "Tier 1 capital"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_011",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "Gdyby całkowite aktywa ważone ryzykiem banku w ramach podejścia zaawansowanego wzrosły, a kapitał całkowity pozostałby bez zmian, co stałoby się ze wskaźnikiem kapitału całkowitego?",
+    "answer": [
+      [
+        "Wskaźnik kapitału całkowitego spadłby, ponieważ wyższe aktywa ważone ryzykiem przy niezmienionym kapitale obniżają wskaźnik kapitału."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  }
+]

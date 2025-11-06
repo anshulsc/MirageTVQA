@@ -1,0 +1,258 @@
+[
+  {
+    "question_id": "finqa_7029f59db3_001",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Który typ reaktora ma wyższą średnią moc i jaka jest ta średnia moc w MW?",
+    "answer": [
+      [
+        "Pressurized Water",
+        "960"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_002",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Jaka jest łączna łączna moc (w MW) wszystkich elektrowni zlokalizowanych w stanie Nowy Jork (NY)?",
+    "answer": [
+      [
+        "2907"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "F2",
+      "E3",
+      "F3",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7029f59db3_003",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Jaka jest data wygaśnięcia licencji dla elektrowni na rynku 'nyiso', która jest najdłużej w eksploatacji?",
+    "answer": [
+      [
+        "2013 ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B2",
+      "B3",
+      "B4",
+      "C2",
+      "C3",
+      "C4",
+      "G4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_004",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Oblicz średnią liczbę lat między 'rokiem uruchomienia' a 'datą wygaśnięcia licencji' dla wszystkich elektrowni, które zostały nabyte po 2000 roku.",
+    "answer": [
+      [
+        "52.25"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "G4",
+      "C5",
+      "D5",
+      "G5",
+      "C6",
+      "D6",
+      "G6",
+      "C3",
+      "D3",
+      "G3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_005",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Podaj nazwy wszystkich elektrowni, które nie znajdują się na rynku 'nyiso' i mają moc większą niż 700 MW.",
+    "answer": [
+      [
+        "palisades ( e )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "F1",
+      "A5",
+      "B5",
+      "F5",
+      "A6",
+      "B6",
+      "F6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_006",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Jaki procent całkowitej mocy wszystkich wymienionych elektrowni stanowią elektrownie z reaktorami wodnymi wrzącymi? Podaj odpowiedź w procentach zaokrągloną do dwóch miejsc po przecinku.",
+    "answer": [
+      [
+        "42.53%"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7029f59db3_007",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Gdyby moc wszystkich reaktorów typu \"ciśnieniowa\" została zwiększona o 10%, jaka byłaby nowa łączna moc dla elektrowni \"indian point 3 ( c )\"?",
+    "answer": [
+      [
+        "1145.1 mw"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "F3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_008",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "open_ended_reasoning",
+    "question": "Przeanalizuj związek między rokiem nabycia elektrowni a jej licencjonowanym okresem eksploatacji (rok wygaśnięcia licencji minus rok uruchomienia). Czy istnieje dostrzegalny wzorzec?",
+    "answer": [
+      [
+        "Nie ma wyraźnej korelacji między rokiem nabycia a licencjonowanym okresem eksploatacji. Okresy te wynoszą: Pilgrim (nabyty w 1999 r.) – 60 lat, FitzPatrick (2000 r.) – 59 lat, Indian Point 3 (2000 r.) – 39 lat, Indian Point 2 (2001 r.) – 39 lat, Vermont Yankee (2002 r.) – 60 lat i Palisades (2007 r.) – 60 lat. Elektrownie nabyte w późniejszym okresie (np. Palisades w 2007 r.) mają długie okresy eksploatacji (60 lat), podczas gdy niektóre nabyte wcześniej (np. elektrownie Indian Point w latach 2000/2001) mają znacznie krótsze okresy (39 lat). Okres eksploatacji wydaje się być niezależny od daty nabycia."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "G1",
+      "C2",
+      "D2",
+      "G2",
+      "C3",
+      "D3",
+      "G3",
+      "C4",
+      "D4",
+      "G4",
+      "C5",
+      "D5",
+      "G5",
+      "C6",
+      "D6",
+      "G6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7029f59db3_009",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Która elektrownia ma rok uruchomienia, który jest największym odchyleniem od średniego roku uruchomienia innych elektrowni w tej samej lokalizacji?",
+    "answer": [
+      [
+        "fitzpatrick ( b )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "A3",
+      "C3",
+      "E3",
+      "A4",
+      "C4",
+      "E4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7029f59db3_010",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Z wyłączeniem kolumny 'pojemność - typ reaktora', które dwie kolumny w zbiorze danych zawierają dane w nawiasach, sugerując, że mogą one odnosić się do przypisów lub dodatkowych szczegółów nieobecnych w tabeli?",
+    "answer": [
+      [
+        "power plant",
+        "license expiration date"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_011",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Która elektrownia została nabyta najpóźniej?",
+    "answer": [
+      [
+        "Palisades"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  }
+]

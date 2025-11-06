@@ -1,0 +1,276 @@
+[
+  {
+    "question_id": "finqa_5fb7875cd0_001",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "Ce director executiv numit a primit cel mai mare premiu anual de stimulare din 2017?",
+    "answer": [
+      [
+        "leo p . denault"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_002",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "Care este suma totală a salariilor de bază pentru toți directorii enumerați în tabel?",
+    "answer": [
+      [
+        "$5,436,072"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_003",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "Care este premiul anual de stimulare pentru directorul executiv cu cel mai mic „țintă ca procent din salariul de bază” care nu a avut cel mai mic „plată ca procent din țintă”?",
+    "answer": [
+      [
+        "$ 169123"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "D4",
+      "E4",
+      "A7",
+      "C7",
+      "D7",
+      "E7",
+      "A8",
+      "C8",
+      "D8",
+      "E8",
+      "A9",
+      "C9",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_004",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "Datele pentru „indemnizația anuală” sunt furnizate pentru ce an specific?",
+    "answer": [
+      [
+        "2017"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_005",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "Enumerați numele tuturor directorilor executivi al căror salariu de bază este mai mic de 400.000 USD și a căror plată ca procent din țintă a fost mai mare de 120%.",
+    "answer": [
+      [
+        "phillip r . may jr .",
+        "richard c . riley"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "D4",
+      "A6",
+      "B6",
+      "D6",
+      "A7",
+      "B7",
+      "D7",
+      "A8",
+      "B8",
+      "D8",
+      "A9",
+      "B9",
+      "D9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_006",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "Pentru Phillip R. May Jr., care a fost valoarea țintă a stimulentului său în dolari? (Calculat ca Salariu de Bază * Procent țintă)",
+    "answer": [
+      [
+        "$219,690"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_007",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "Dacă compania ar fi decis să limiteze „plata ca procent din țintă” la 130% pentru toți directorii executivi, care ar fi fost „prima anuală din 2017” a lui Richard C. Riley? (Primă = Salariu de bază * Procent țintă * Procent plată)",
+    "answer": [
+      [
+        "$178,984"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_008",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "open_ended_reasoning",
+    "question": "Există o relație consistentă între „ținta ca procent din salariul de bază” și „plata ca procent din țintă”? Explicați constatările dumneavoastră.",
+    "answer": [
+      [
+        "Nu există o relație clară și consistentă. De exemplu, directorii cu o țintă de 70% au primit o plată de 129%, iar un director cu o țintă de 135% a primit tot o plată de 129%. În schimb, patru directori cu o țintă de 40% au avut trei procente diferite de plată (119%, 79% și 204%). Acest lucru indică faptul că procentul de plată este probabil determinat de factori diferiți de procentul țintă inițial în sine."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C4",
+      "D4",
+      "C5",
+      "D5",
+      "C6",
+      "D6",
+      "C7",
+      "D7",
+      "C8",
+      "D8",
+      "C9",
+      "D9",
+      "C10",
+      "D10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_009",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "Câte valori distincte sunt prezente în coloana 'plată ca procent din țintă'?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_010",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "Care ofițer executiv are cel mai mare „premiu anual pentru stimulente din 2017”, considerat un neobișnuit de mare (outlier) în comparație cu mediana premiilor tuturor ofițerilor executivi?",
+    "answer": [
+      [
+        "leo p . denault"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_011",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "Câți directori executivi câștigă mai mult de 500.000 USD ca salariu de bază?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A5",
+      "B5",
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

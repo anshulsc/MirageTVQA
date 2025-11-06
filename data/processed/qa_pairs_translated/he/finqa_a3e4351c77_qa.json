@@ -1,0 +1,205 @@
+[
+  {
+    "question_id": "finqa_a3e4351c77_001",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "איזה מכשיר חוב ספציפי, לא כולל סכומים כוללים והתאמות, החזיק בערך הגבוה ביותר בשתי התקופות שדווחו?",
+    "answer": [
+      [
+        "international marine terminals-plaquemines la revenue bonds due march 15 2025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_002",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "מהו הערך הכולל של כל אגרות החוב הניתנות לזיהוי שפורטו לתקופה בעמודה השנייה של הנתונים?",
+    "answer": [
+      [
+        "63.7"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_003",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "בכמה עלתה השינוי המוחלט ב'התחייבויות שוטפות לחוב לזמן ארוך' בין שני התקופות על השינוי המוחלט ב'הנחה בלתי מופחתת על חוב'?",
+    "answer": [
+      [
+        "665.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_004",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "תאר את המגמה של 'סך החוב לטווח ארוך' בין שתי התקופות המוצגות והסבר את משמעות השינוי הזה.",
+    "answer": [
+      [
+        "סך החוב לטווח ארוך גדל ב-275.3 דולר, מ-10007.5 דולר בתקופה המוצגת בעמודה C ל-10282.8 דולר בתקופה המוצגת בעמודה B. זה מצביע על כך שהתחייבויות החוב הכוללות לטווח ארוך של הישות גדלו במהלך פרק זמן זה, מה שמרמז שהיא ככל הנראה צברה חוב חדש יותר ממה שפרעה."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_005",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "זהה את כל פריטי השורה, למעט הסך הכל, המיוצגים כערכים שליליים בעמודת הנתונים השנייה.",
+    "answer": [
+      [
+        "unamortized debt discount on long-term debt"
+      ],
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_006",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "כאחוז מהחוב לטווח ארוך הכולל לתקופה בעמודה B, איזה חלק מסווג כ'התחייבויות שוטפות של חוב לטווח ארוך'? השתמש בערכים מוחלטים לחישוב ועגל לשתי ספרות אחרי הנקודה.",
+    "answer": [
+      [
+        "12.29%"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_007",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "אם 'היוון חוב שלא נפרע' בעמודה השנייה של הנתונים (עמודה B) היה מבוטל (כלומר, מוגדר לאפס), מה היה 'סה\"כ חוב לטווח ארוך 2013 kmp' עבור אותה תקופה?",
+    "answer": [
+      [
+        "$ 10303.1"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_008",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "האם יש קשר נראה לעין בין השינוי ב'התחייבויות שוטפות של חוב לטווח ארוך' לבין השינוי ב'סך החוב לטווח ארוך' בשתי התקופות?",
+    "answer": [
+      [
+        "כן, נראה שיש קשר הפוך בתנועותיהם. בעוד שסך החוב לטווח ארוך גדל ב-275.3 דולר (מ-10007.5 דולר ל-10282.8 דולר), היקף ה'התחייבויות השוטפות' ירד באופן משמעותי (מערך מוחלט של 1263.3 ל-596.6). הדבר מרמז שבעוד שהחברה לקחה על עצמה יותר חובות בסך הכל, היא בו זמנית הפחיתה את חלק החוב שהגיע לפירעון בטווח הקרוב."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_009",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "איזו שורה בנתונים נראית כסיכום של שורות אחרות, ומה הראיות התומכות במסקנה זו?",
+    "answer": [
+      [
+        "השורה המסומנת 'total long-term debt 2013 kmp' היא סיכום. הראיה העיקרית היא השימוש המפורש במילה 'total' (סך הכל) בתיאור שלה. בנוסף, הערך שלה מוצג עם סמל מטבע ('$'), שהוא שונה משאר השורות, ומסמן שזהו נתון פיננסי סופי, מסכם."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_010",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "איזו שורת פריט מציגה את השינוי המשמעותי ביותר בערך מוחלט בין שני התקופות, מה שהופך אותה לחריגה פיננסית מבחינת תנודתיות?",
+    "answer": [
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_011",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "בהתחשב בחוב לטווח ארוך הכולל והנחת החוב הבלתי מופחתת, מהי העלייה האפקטיבית בחוב לטווח ארוך משנת 2012 עד 2013?",
+    "answer": [
+      [
+        "החוב לטווח ארוך הכולל גדל מ-10,007.5 מיליון דולר בשנת 2012 ל-10,282.8 מיליון דולר בשנת 2013. בהתחשב בכך שהנחת החוב הבלתי מופחתת השתנתה מ-21.2- ל-20.3-, העלייה האפקטיבית בחוב היא 276.8 מיליון דולר."
+      ]
+    ],
+    "evidence_cells": [
+      "F6",
+      "G6",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

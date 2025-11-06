@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "finqa_cc5f795ec6_001",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "'Toplam öz sermaye' üzerinde 'temettüler' veya 'hisse geri alımları' faaliyetlerinden hangisinin daha büyük olumsuz etkisi olmuştur?",
+    "answer": [
+      [
+        "dividends"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "K4",
+      "A6",
+      "K6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_002",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "2011 ve 2012 bakiye tarihlerindeki tüm faaliyetlerden 'sermaye yedekleri' kalemine net değişim ne kadardır?",
+    "answer": [
+      [
+        "590"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D11",
+      "D13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_003",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "'Ödenmiş sermaye'de 662 dolarlık bir artışla ilgili işlemin toplam öz sermaye üzerindeki etkisi ne kadardı?",
+    "answer": [
+      [
+        "1147"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "K5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_004",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "open_ended_reasoning",
+    "question": "31 Aralık 2011 ile 31 Aralık 2012 tarihleri arasındaki 'toplam öz sermaye' değişimini analiz edin ve bu değişimin ana nedenini belirleyin.",
+    "answer": [
+      [
+        "Toplam öz sermaye, 70.078 $'dan 65.428 $'a düşerek net 4.650 $ azalmıştır. Katkıda bulunan çeşitli faktörler olsa da, bu düşüşün tek başına en büyük nedeni, yalnızca 4.288 $'lık olumsuz bir etki yaratan ve toplam net düşüşün %92'sinden fazlasını oluşturan 'itfa edilebilir kontrol dışı paylara yeniden sınıflandırma' olmuştur."
+      ]
+    ],
+    "evidence_cells": [
+      "K1",
+      "K14",
+      "A12",
+      "K12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_005",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "'Ödenmiş sermayeyi' azaltan ancak 'kar yedeklerini' etkilemeyen tüm finansal faaliyetleri listeleyin.",
+    "answer": [
+      [
+        "purchase of additional stake in the wealth management joint venture"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_006",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "31 Aralık 2011 tarihindeki başlangıç 'dağıtılmamış kârlar'ın ne kadar yüzdesi dönem boyunca 'temettü' olarak ödendi?",
+    "answer": [
+      [
+        "-1.23%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_007",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "'Döviz kuru çeviri ayarlamaları'nın toplam öz sermaye üzerindeki etkisi nötr (yani sıfır) olsaydı, 31 Aralık 2012'deki toplam öz sermaye bakiyesi ne olurdu?",
+    "answer": [
+      [
+        "65681"
+      ]
+    ],
+    "evidence_cells": [
+      "K9",
+      "K14"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_008",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "open_ended_reasoning",
+    "question": "Açılış ve kapanış bakiyelerine ve 'çalışan planları kapsamında ihraç edilen hisseler' işlem satırına dayanarak, 'çalışan hisse senedi fonu' ile 'çalışan fonuna ihraç edilen adi hisse senedi' arasındaki ilişki nedir?",
+    "answer": [
+      [
+        "Tutarlı bir ters ilişki var. 'Çalışan fonuna ihraç edilen adi hisse senedi' sütunundaki değer, herhangi bir satır için 'çalışan hisse senedi fonu' sütunundaki değerin tam tersidir (örneğin, açılış bakiyesinde 3166 $ ile -3166 $; ihraç edilen hisseler için -234 $ ile 234 $). Bu, bunların birbirlerinin karşıt hesapları olduğunu ve toplam öz sermaye hesaplamasındaki etkilerini dengelemek üzere tasarlandıklarını göstermektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "I1",
+      "F5",
+      "I5",
+      "F14",
+      "I14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_009",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Balansları açıklayan ilk ve son satırlar hariç, B'den K'ye kadar olan sütunlardaki veri kümesinde en sık tekrar eden değer nedir?",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "F2",
+      "G2",
+      "H2",
+      "I2",
+      "J2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "I3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_010",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "'Toplam öz sermaye'yi etkileyen tüm işlemler arasında, en büyük negatif aykırı değer olarak öne çıkan tek kalem hangisidir?",
+    "answer": [
+      [
+        "reclassification to redeemable noncontrolling interests"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "K12",
+      "K2",
+      "K3",
+      "K4",
+      "K5",
+      "K6",
+      "K7",
+      "K8",
+      "K9",
+      "K10",
+      "K11",
+      "K13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_011",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "31 Aralık 2012 tarihi itibarıyla toplam imtiyazlı hisse senedi ne kadardı?",
+    "answer": [
+      [
+        "$1508"
+      ]
+    ],
+    "evidence_cells": [
+      "A16",
+      "B16"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

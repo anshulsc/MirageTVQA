@@ -1,0 +1,232 @@
+[
+  {
+    "question_id": "finqa_21abc3652e_001",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "בהתעלם מ-'total commercialcommitments', איזו התחייבות בעלת הערך הכולל הגדול ביותר?",
+    "answer": [
+      [
+        "credit facilities [a]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_002",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "מהו סכום כל ההתחייבויות המסחריות, במיליונים, שמועד פקיעתן חל בשנים 2015 ו-2016 גם יחד?",
+    "answer": [
+      [
+        "78"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_21abc3652e_003",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "ציין את השנה ואת שם המתקן המתאים עבור כל מקרה שבו מתקן יחיד מהווה יותר מ-98% מסך הפקיעות של אותה שנה.",
+    "answer": [
+      [
+        "2017",
+        "receivables securitization facility [b]"
+      ],
+      [
+        "2019",
+        "credit facilities [a]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "G5",
+      "A2",
+      "E2",
+      "E5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_004",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "open_ended_reasoning",
+    "question": "תאר את מגמת תפוגת ההתחייבויות הכוללת בין השנים 2015 ל-2019.",
+    "answer": [
+      [
+        "המגמה תנודתית מאוד ואינה מציגה דפוס קבוע. היא מתחילה ב-46 מיליון דולר בשנת 2015, יורדת ל-32 מיליון דולר בשנת 2016, ואז מזנקת לשיא של 660 מיליון דולר בשנת 2017. לאחר מכן היא צונחת לכ-11 מיליון דולר בלבד בשנת 2018 לפני שגוברת לנקודה הגבוהה ביותר שלה של 1708 מיליון דולר בשנת 2019. הדפוס מאופיין בתנודות קיצוניות ולא בצמיחה או ירידה עקבית."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_005",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "זהה את כל סוגי ההתחייבויות שיש להן סכום פקיעה גדול מאפס גם בשנת 2016 וגם בשנת 2019.",
+    "answer": [
+      [
+        "guarantees [c]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "G1",
+      "A2",
+      "D2",
+      "G2",
+      "A3",
+      "D3",
+      "G3",
+      "A4",
+      "D4",
+      "G4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_006",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "מהו אחוז סך ההתחייבות של 'ערבויות [c]' שתפוג לאחר 2019?",
+    "answer": [
+      [
+        "18.29%"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "H3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_21abc3652e_007",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "אם ההתחייבות של 'מתקני אשראי [a]' הייתה נמוכה ב-50%, מה היה הערך החדש של 'סה\"כ התחייבויות מסחריות'?",
+    "answer": [
+      [
+        "$ 1622"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_008",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "open_ended_reasoning",
+    "question": "בהתבסס על הנתונים שסופקו, איזו מערכת יחסים ניתן להסיק בין הסכום הכולל של התחייבות ספציפית לבין התפלגות הזמן של פקיעתה?",
+    "answer": [
+      [
+        "נראה כי קיימת מערכת יחסים הפוכה. שתי ההתחייבויות הגדולות ביותר ('מתקני אשראי' בסך 1700 מיליון דולר ו'מתקן סקוריטיזציה של חייבים' בסך 650 מיליון דולר) פוקעות בסכום כולל אחד בשנה מסוימת. לעומת זאת, ההתחייבויות הקטנות יותר ('ערבויות' ו'מכתבי אשראי בערבון') פוקעות בסכומים המתפרסים על פני תקופות מרובות."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "G1",
+      "A2",
+      "B2",
+      "E2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_21abc3652e_009",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "באיזו עמודה ספציפית לשנה (2015-2019) יש את המספר המועט ביותר של התחייבויות בודדות עם ערך פקיעה גדול מאפס?",
+    "answer": [
+      [
+        "amount of commitment expiration per period 2018"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_010",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "בהסתכלות על שורת 'total commercialcommitments', איזה סכום פקיעת התחייבויות משנת 2015 ועד לאחר 2019 מהווה את החריג המשמעותי ביותר בהשוואה לחציון?",
+    "answer": [
+      [
+        "2019"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "H5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_21abc3652e_011",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "מהם סך ההתחייבויות המסחריות (במיליונים) לאורך השנים 2015–2019?",
+    "answer": [
+      [
+        "2457"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

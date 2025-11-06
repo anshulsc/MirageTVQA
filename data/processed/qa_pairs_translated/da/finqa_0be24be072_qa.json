@@ -1,0 +1,199 @@
+[
+  {
+    "question_id": "finqa_0be24be072_001",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "Hvilket år så den største absolutte stigning i 'netto renteindtægter eksklusive CIB-markeder' fra året før?",
+    "answer": [
+      [
+        "2017"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_002",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "Hvad var det gennemsnitlige 'gennemsnitlige rentebærende aktiver' på tværs af de tre angivne år?",
+    "answer": [
+      [
+        "2123479.33"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_0be24be072_003",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "I det år, hvor 'cib markets netto renteindtægter' var højest, hvad var den tilsvarende værdi for 'gennemsnitlige rentebærende aktiver i cib markederne'?",
+    "answer": [
+      [
+        "520307"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_004",
+    "table_id": "finqa_0be24be072",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv udviklingen i 'netto renteudbytte af gennemsnitlige rentebærende aktiver i CIB Markets' fra 2015 til 2017.",
+    "answer": [
+      [
+        "Udviklingen var meget volatil. Renten steg med ca. 17,3% fra 1,04 i 2015 til 1,22 i 2016, men oplevede derefter et skarpt fald på ca. 29,5%, faldende til 0,86 i 2017."
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_005",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "Angiv de år, hvor 'cib markets netto renteindtægter' var større end $ 5.000 millioner, og 'net renteafkast på gennemsnitlige rentebærende aktiver for cib-markeder' var større end 1,10.",
+    "answer": [
+      [
+        "2016"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_006",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "I 2016, hvor stor en procentdel af de samlede 'gennemsnitlige rentebærende aktiver' udgjorde 'gennemsnitlige rentebærende aktiver i CIB-markeder'?",
+    "answer": [
+      [
+        "24.76%"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_0be24be072_007",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "Hvis 'cib markets net interest income' i 2017 havde været 20% højere, mens 'net interest income 2013 managed basis' forblev uændret, hvad ville den nye 'net interest income excluding cib markets' så have været?",
+    "answer": [
+      [
+        "$ 45854"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_008",
+    "table_id": "finqa_0be24be072",
+    "question_type": "open_ended_reasoning",
+    "question": "Baseret på tabellen, er der en observerbar sammenhæng mellem den samlede 'net renteindtægt 2013 forvaltet basis' og 'net renteudbytte på gennemsnitlige rentebærende aktiver 2013 forvaltet basis' på tværs af de tre år?",
+    "answer": [
+      [
+        "Ja, der er en klar positiv sammenhæng. Da 'net renteindtægt 2013 forvaltet basis' konsekvent steg fra 44.620 mio. USD i 2015 til 51.410 mio. USD i 2017, viste 'net renteudbytte på gennemsnitlige rentebærende aktiver 2013 forvaltet basis' også en konsekvent stigning fra 2,14% til 2,36% i samme periode."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_0be24be072_009",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "Hvilke to metrikker i tabellen, når den første divideres med den anden, beregner 'netto renteindtægt på gennemsnitlige rentebærende aktiver eksklusive cib-markeder'?",
+    "answer": [
+      [
+        "net interest income excluding cib markets ( a )"
+      ],
+      [
+        "average interest-earning assets excluding cib markets"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "A6",
+      "A9",
+      "B3",
+      "B6",
+      "B9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_010",
+    "table_id": "finqa_0be24be072",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvilket års 'net renteindtægt 2013 på forvaltet basis' er en outlier med hensyn til dets vækst fra år til år sammenlignet med den anden periode?",
+    "answer": [
+      [
+        "2017 er en outlier på grund af sin markant højere vækst. Stigningen fra 2016 til 2017 var 4.118 millioner dollars (51.410 - 47.292), hvilket er væsentligt større end stigningen på 2.672 millioner dollars fra 2015 til 2016 (47.292 - 44.620)."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_0be24be072_011",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "Hvor meget var netto renteindtægten (i millioner) eksklusive CIB-markeder i 2016?",
+    "answer": [
+      [
+        "$40,958"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

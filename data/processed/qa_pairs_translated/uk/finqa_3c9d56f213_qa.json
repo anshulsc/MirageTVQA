@@ -1,0 +1,288 @@
+[
+  {
+    "question_id": "finqa_3c9d56f213_001",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Яка загальна потужність у ГВт (Gross MW), вироблена всіма проєктами, що працюють на вітрі, зазначеними в таблиці?",
+    "answer": [
+      [
+        "311"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "C6",
+      "D6",
+      "C7",
+      "D7",
+      "C8",
+      "D8",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_002",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Який тип палива, вугілля чи гідроенергетика, має вищу середню вихідну потужність у мегаваттах (Gross MW) серед перелічених проєктів?",
+    "answer": [
+      [
+        "Coal"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C5",
+      "D5",
+      "C10",
+      "D10",
+      "C11",
+      "D11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_003",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Перелічіть назви всіх проєктів, розташованих у Китаї, які використовують відновлюване джерело палива (Гідро або Вітер).",
+    "answer": [
+      [
+        "jhrh ( 1 )"
+      ],
+      [
+        "dong qi ( 3 )"
+      ],
+      [
+        "huanghua ii ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_004",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Яка ефективна валова потужність (Gross MW), що припадає на AES, для проєкту з найбільшою валовою потужністю (Gross MW), розташованого в Чилі?",
+    "answer": [
+      [
+        "193.12"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_005",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Який відсоток від загальної валової потужності (Gross MW) усіх проєктів становлять проєкти, в яких AES має 100% частку власності?",
+    "answer": [
+      [
+        "54.43%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D10",
+      "D11"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_006",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "Визначте проєкт із найбільш аномальним вихідним показником Gross MW та поясніть, чому він виділяється серед усіх інших проєктів у наборі даних.",
+    "answer": [
+      [
+        "Проєкт 'ballylumford' є найістотнішим винятком. Його Gross MW (1246) більш ніж утричі перевищує показник наступного за величиною проєкту, 'jhrh' (379 МВт), і більш ніж у 25 разів перевищує медіанний Gross MW усього набору даних (49 МВт). Ця величезна різниця у масштабі робить його потужність аномальною порівняно з усіма іншими проєктами зі списку."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_007",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Якби частка AES у всіх турецьких проєктах подвоїлася порівняно з поточним рівнем, якою була б нова загальна ефективна валова потужність (Gross MW) з Туреччини, що належить AES?",
+    "answer": [
+      [
+        "44.88"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "D10",
+      "E10",
+      "B11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_008",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "Чи є, виходячи з даних, помітна кореляція між валовою потужністю проекту (Gross MW) та рівнем частки AES у власному капіталі? Поясніть свою відповідь.",
+    "answer": [
+      [
+        "Немає чіткої чи послідовної кореляції між валовою потужністю проекту та часткою AES у власному капіталі. Наприклад, проект з найбільшою валовою потужністю ('ballylumford', 1246 МВт) має 100% частку, але другий за величиною ('jhrh', 379 МВт) має низькі 35%. Навпаки, проект з дуже низькою потужністю ('north rhins', 22 МВт) також має 100% частку. Широкий розподіл часток власного капіталу між проектами різного розміру свідчить про те, що масштаб проекту безпосередньо не визначає рівень інвестицій AES."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D6",
+      "E6",
+      "D7",
+      "E7",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D10",
+      "E10",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_009",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "Стовпець \"aes equity interest ( percent rounded )\" містить надлишкову інформацію. Опишіть закономірність цієї надлишковості.",
+    "answer": [
+      [
+        "Стовпець демонструє послідовну закономірність надлишковості, де кожна клітинка містить відсоткове значення, за яким слідує те саме значення, повторене в дужках, наприклад, '71% ( 71 % )'. Інформація всередині дужок є прямим дублюванням інформації, що передує їй."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_010",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Яка країна має найнижчу сукупну ефективну валову потужність (Gross MW), що належить AES, враховуючи лише країни з кількома проєктами, переліченими в таблиці?",
+    "answer": [
+      [
+        "Turkey"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2",
+      "E2",
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "D5",
+      "E5",
+      "B6",
+      "D6",
+      "E6",
+      "B7",
+      "D7",
+      "E7",
+      "B10",
+      "D10",
+      "E10",
+      "B11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_011",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Скільки проєктів використовують вітер як основне паливо?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

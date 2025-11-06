@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "finqa_cc5f795ec6_001",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Vilken aktivitet hade en större negativ inverkan på 'totalt eget kapital': 'utdelningar' eller 'återköp av stamaktier'?",
+    "answer": [
+      [
+        "dividends"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "K4",
+      "A6",
+      "K6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_002",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Vad är nettoförändringen för 'inbetalt aktiekapital' från alla aktiviteter som listas mellan balansdagarna 2011 och 2012?",
+    "answer": [
+      [
+        "590"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D11",
+      "D13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_003",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Vilken var den totala egetkapitaleffekten av transaktionen som innebar en ökning med 662 i 'inbetalt aktiekapital'?",
+    "answer": [
+      [
+        "1147"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "K5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_004",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "open_ended_reasoning",
+    "question": "Analysera förändringen i 'totalt eget kapital' från 31 december 2011 till 31 december 2012 och identifiera den primära drivkraften bakom denna förändring.",
+    "answer": [
+      [
+        "Totalt eget kapital minskade från 70 078 USD till 65 428 USD, en nettominskning på 4 650 USD. Även om det fanns flera bidragande faktorer, var den enskilt största drivkraften bakom denna minskning 'omklassificering till återköpbara icke-kontrollerande andelar', som ensamt stod för en negativ påverkan på 4 288 USD, vilket motsvarar över 92 % av den totala nettominskningen."
+      ]
+    ],
+    "evidence_cells": [
+      "K1",
+      "K14",
+      "A12",
+      "K12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_005",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Lista alla finansiella aktiviteter som resulterade i en minskning av 'inbetalt kapital' men som inte påverkade 'balanserade vinstmedel'.",
+    "answer": [
+      [
+        "purchase of additional stake in the wealth management joint venture"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_006",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Vilken procentandel av de ursprungliga 'retained earnings' från 31 december 2011 betalades ut som 'utdelningar' under perioden?",
+    "answer": [
+      [
+        "-1.23%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_007",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Om 'valutaomräkningseffekter' hade haft en neutral inverkan (dvs. noll) på det totala egna kapitalet, vad skulle slutliga totala egna kapitalet ha varit per den 31 december 2012?",
+    "answer": [
+      [
+        "65681"
+      ]
+    ],
+    "evidence_cells": [
+      "K9",
+      "K14"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_008",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "open_ended_reasoning",
+    "question": "Baserat på ingående och utgående saldon, samt transaktionsraden för 'aktier utgivna under personalplaner', vad är förhållandet mellan 'personalens aktietillit' och 'vanliga aktier utgivna till personalens tillit'?",
+    "answer": [
+      [
+        "Det finns ett konsekvent omvänt förhållande. Värdet i kolumnen 'vanliga aktier utgivna till personalens tillit' är alltid exakt negativt jämfört med värdet i kolumnen 'personalens aktietillit' för varje given rad (t.ex. 3166 USD mot -3166 USD i ingående saldo; -234 USD mot 234 USD för utgivna aktier). Detta indikerar att de är motkonton till varandra, utformade för att balansera deras effekt inom den totala egetkapitalberäkningen."
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "I1",
+      "F5",
+      "I5",
+      "F14",
+      "I14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_009",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Om man bortser från den första och sista raden som beskriver saldon, vilket är det oftast förekommande värdet i datamängden från kolumn B till K?",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "F2",
+      "G2",
+      "H2",
+      "I2",
+      "J2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "I3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_010",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Bland alla transaktioner som påverkar 'totalt eget kapital', vilken enskild post sticker ut som det största negativa avvikandet?",
+    "answer": [
+      [
+        "reclassification to redeemable noncontrolling interests"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "K12",
+      "K2",
+      "K3",
+      "K4",
+      "K5",
+      "K6",
+      "K7",
+      "K8",
+      "K9",
+      "K10",
+      "K11",
+      "K13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_011",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Vad var det totala preferensaktiekapitalet per den 31 december 2012?",
+    "answer": [
+      [
+        "$1508"
+      ]
+    ],
+    "evidence_cells": [
+      "A16",
+      "B16"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

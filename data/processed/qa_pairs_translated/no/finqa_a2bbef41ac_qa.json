@@ -1,0 +1,189 @@
+[
+  {
+    "question_id": "finqa_a2bbef41ac_001",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Hva var den totale verdien av eiendeler ('investeringer' og 'andre eiendeler') per 31. desember 2007?",
+    "answer": [
+      [
+        "3254"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_002",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Hvilken aktivakategori, 'investeringer' eller 'andre eiendeler', opplevde et større nettotap i absoluttverdi fra 'realiserte og urealiserte gevinster / (tap) netto'?",
+    "answer": [
+      [
+        "investments"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_003",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Bekreft om sluttbalansen for 'investeringer' den 31. desember 2008 er konsistent med åpningsbalansen og de påfølgende transaksjonene som er listet. Vis utregningen din.",
+    "answer": [
+      [
+        "Ja, balansen er konsistent. Utregningen er: $1240 (åpningsbalanse) - $409 (gevinster/tap) + $11 (kjøp/salg) - $29 (nettooverføringer) = $813, noe som samsvarer med den rapporterte sluttbalansen."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_004",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Hva var den totale netto endringen i verdien av eiendelene for hele perioden, fra 31. desember 2007 til 31. desember 2008?",
+    "answer": [
+      [
+        "-2377"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_005",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "For hvilke aktivakategorier resulterte 'nettooverføringer inn og/eller ut av nivå 3' i et positivt bidrag til aktivaverdien?",
+    "answer": [
+      [
+        "other assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_006",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Hvilken andel av 'total net (tap) for perioden inkludert i inntjening' kom fra 'investeringer'?",
+    "answer": [
+      [
+        "95.54%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_007",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Hvis 'realiserte og urealiserte gevinster / (tap) netto' for 'andre eiendeler' hadde vært null i stedet for $-16, hva ville da den nye sluttbalansen for 'andre eiendeler' ha vært per 31. desember 2008?",
+    "answer": [
+      [
+        "80"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_008",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Basert på dataene for 'investeringer', hva er forholdet mellom 'realiserte og urealiserte gevinster / (tap) netto' og 'totalt netto (tap) ... relatert til eiendeler som fortsatt holdes på rapporteringsdatoen'?",
+    "answer": [
+      [
+        "Det er et sterkt, direkte forhold. De 'totale netto (tap) ... relatert til eiendeler som fortsatt holdes' ($-366) utgjør 89,5 % av de totale 'realiserte og urealiserte gevinstene / (tapene) netto' ($-409). Dette innebærer at flertallet av periodens netto tap for investeringer var urealiserte og knyttet til eiendeler som ikke var solgt ved slutten av rapporteringsperioden."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_009",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvilken regnskapsstandard antydes av dataformatet som brukes for negative verdier, som '-409 ( 409 )'?",
+    "answer": [
+      [
+        "Formatet med å vise et negativt tall etterfulgt av absoluttverdien i parentes er en vanlig regnskapsstandard for tydelig og ettertrykkelig å angi negative finansielle tall som tap, utgifter eller kontratillgangsverdier."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_010",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Hvilken oppføring representerer den største enkelt negative påvirkningen på de samlede aktivaverdiene i perioden?",
+    "answer": [
+      [
+        "realized and unrealized gains / ( losses ) net"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_011",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Hvor mye gikk investeringene ned fra 2007 til 2008?",
+    "answer": [
+      [
+        "$427"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A5",
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

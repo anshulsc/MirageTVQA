@@ -1,0 +1,265 @@
+[
+  {
+    "question_id": "finqa_3669fd2d00_001",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Dintre perioadele de angajament din 2012 până în 2016, ce an a avut cea mai mare valoare totală de expirare?",
+    "answer": [
+      [
+        "2015"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_002",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Care este valoarea medie anuală a expirării angajamentelor pentru 'garanții [c]' pentru perioada 2012-2016?",
+    "answer": [
+      [
+        "53"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_003",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Identificați tipul de angajament cu cea mai mare valoare de expirare 'după 2016'. Apoi, pentru acel tip specific de angajament, calculați suma scadențelor sale pentru anii 2013 și 2014.",
+    "answer": [
+      [
+        "222"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "A3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_004",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "open_ended_reasoning",
+    "question": "Descrieți tendința expirării angajamentelor pentru 'garanții [c]' din 2012 până după 2016.",
+    "answer": [
+      [
+        "Expirările angajamentelor pentru 'garanții [c]' prezintă o tendință foarte volatilă. Începând cu 18 milioane USD în 2012, acestea au scăzut la 8 milioane USD în 2013, apoi au înregistrat o creștere masivă la 214 milioane USD în 2014. După acest vârf, expirările au scăzut semnificativ la 12 milioane USD în 2015 și 13 milioane USD în 2016, înainte de a crește la 60 milioane USD pentru perioada de după 2016. Modelul nu este liniar sau constant, dar este dominat de vârful din 2014."
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_005",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Enumerați toate tipurile de angajament care au o sumă de expirare mai mare de 0 USD în 2012 și un angajament total mai mic de 1000 milioane USD.",
+    "answer": [
+      [
+        "receivables securitization facility [b]"
+      ],
+      [
+        "guarantees [c]"
+      ],
+      [
+        "standby letters of credit [d]"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_006",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Ce procent din angajamentele comerciale totale care expiră în 2015 este atribuit 'facilităților de credit [a]'?",
+    "answer": [
+      [
+        "99.34%"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_007",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Dacă totalul pentru 'garanții [c]' ar fi cu 10% mai mare, iar această creștere s-ar reflecta în întregime în perioada de expirare 'după 2016', care ar fi noua valoare a 'totalului angajamentelor comerciale'?",
+    "answer": [
+      [
+        "$ 2781.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_008",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "open_ended_reasoning",
+    "question": "Conform datelor, există vreo relație observabilă între mărimea valorii 'totale' a unui angajament și orizontul de timp al expirării acestuia?",
+    "answer": [
+      [
+        "Nu există o corelație liniară simplă, dar există un model observabil. Cel mai mare angajament ('facilități de credit', 1800 milioane USD) are o singură dată de expirare îndepărtată (2015). În contrast, angajamentul cu cel mai dispersat calendar de expirare ('garanții', 325 milioane USD) este unul dintre cele mai mici. Celelalte două angajamente ('credite ipotecare' și 'scrisori de garanție') sunt achitate integral în primul an (2012), în ciuda valorilor lor totale foarte diferite (600 milioane USD și 24 milioane USD). Acest lucru sugerează că angajamentele mai mari ar putea fi structurate ca plăți unice, în timp ce cele mai mici sunt fie rezolvate imediat, fie structurate ca obligații pe termen lung, distribuite."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1",
+      "H1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "H2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4",
+      "H4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_009",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Ce perioadă de expirare a angajamentului conține cele mai multe valori non-zero dintre tipurile individuale de angajament?",
+    "answer": [
+      [
+        "2012"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_010",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "open_ended_reasoning",
+    "question": "Analizând expirările 'total comercial commitments' din 2012 până în 2016, care an reprezintă un semnificativ outlier și de ce?",
+    "answer": [
+      [
+        "Anul 2015 este un outlier semnificativ. Expirările totale pentru anii 2012-2016 sunt de 642, 8, 214, 1812 și, respectiv, 13 milioane USD. Valoarea mediană este de 214 milioane USD. Totalul de 1812 milioane USD din 2015 este de peste 8 ori mai mare decât mediana și de aproape 3 ori mai mare decât următoarea valoare cea mai mare (642 milioane USD), făcându-l un outlier statistic clar, determinat aproape în totalitate de expirarea 'credit facilities'."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "F1"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_011",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Care sunt angajamentele comerciale totale (în milioane) din 2012 până în 2015?",
+    "answer": [
+      [
+        "$2,676"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

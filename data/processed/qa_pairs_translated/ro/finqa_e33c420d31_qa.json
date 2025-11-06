@@ -1,0 +1,215 @@
+[
+  {
+    "question_id": "finqa_e33c420d31_001",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Ce obligație contractuală, excluzând „obligațiile de datorie” și „plățile de dobânzi la datoria pe termen lung”, are cea mai mare sumă scadentă în perioada „3-5 ani”?",
+    "answer": [
+      [
+        "fuel obligations"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_002",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Care este totalul combinat al tuturor obligațiilor care au o referință la subsol de '11'?",
+    "answer": [
+      [
+        "$ 16297"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "H3",
+      "B4",
+      "H4",
+      "B5",
+      "H5",
+      "B6",
+      "H6",
+      "B7",
+      "H7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_e33c420d31_003",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Ce procent din obligațiile totale scadente în '1-3 ani' este atribuit singurei obligații cu cea mai mare valoare totală?",
+    "answer": [
+      [
+        "27.04%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "D1",
+      "D9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_004",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "Pentru 'plăți de dobânzi la datoria pe termen lung', analizați tendința plăților în cele patru perioade de timp și determinați dacă obligația este încărcată la început sau la sfârșit.",
+    "answer": [
+      [
+        "Plățile pentru 'plăți de dobânzi la datoria pe termen lung' sunt de 1.172 (<1 an), 2.166 (1-3 ani), 1.719 (3-5 ani) și 4.046 (>5 ani). Obligația este semnificativ încărcată la sfârșit, deoarece plățile tind să crească în timp, cea mai mare plată unică având loc în perioada 'mai mult de 5 ani'. Peste 63% din plățile totale de dobânzi sunt scadente la mai mult de 3 ani în viitor."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_005",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Enumerați obligațiile contractuale pentru care suma datorată în mai puțin de 1 an este mai mare decât suma datorată în intervalul 3-5 ani.",
+    "answer": [
+      [
+        "fuel obligations"
+      ],
+      [
+        "other purchase obligations"
+      ],
+      [
+        "other long-term liabilities reflected on aes' consolidated balance sheet under gaap ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "E6",
+      "A7",
+      "C7",
+      "E7",
+      "A8",
+      "C8",
+      "E8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_006",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Care este raportul dintre obligațiile totale pe termen scurt (scadente în 'mai puțin de 1 an') și obligațiile totale pe termen lung (scadente în 'mai mult de 5 ani'), pe baza rândului total final?",
+    "answer": [
+      [
+        "Approximately 1:2.81"
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "F9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_e33c420d31_007",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Dacă o nouă politică ar impune ca toate 'obligațiile din contractele de leasing operațional' scadente în mai mult de 5 ani' să fie plătite în schimb în perioada '3-5 ani', care ar fi totalul nou pentru coloana '3-5 ani'?",
+    "answer": [
+      [
+        "$ 10283"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_008",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "Există o corelație discernabilă între tipul de obligație energetică (combustibil vs. electricitate) și programul de plată al acesteia?",
+    "answer": [
+      [
+        "Da, există o corelație clară. 'Obligațiile pentru combustibil' sunt concentrate la început, cu cea mai mare plată (1.759 USD) scadentă în 'mai puțin de 1 an', sugerând contracte pe termen scurt. În schimb, 'obligațiile pentru electricitate' sunt concentrate la sfârșit, cu cea mai mare plată (2.065 USD) scadentă în 'mai mult de 5 ani', reflectând probabil acorduri pe termen lung de achiziție a energiei. Acest lucru indică faptul că natura sursei de energie este legată de durata angajamentului financiar."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_e33c420d31_009",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "Pe baza totalurilor pentru fiecare perioadă de plată din ultimul rând, care interval de timp deține cea mai mare sumă de angajament financiar și ce implică acest lucru despre structura de datorii a companiei?",
+    "answer": [
+      [
+        "Perioada 'peste 5 ani' deține cel mai mare angajament, la 20.544 USD. Acest lucru implică faptul că structura de datorii a companiei este predominant pe termen lung, cu o parte semnificativă a obligațiilor sale financiare programată pentru plată în viitorul îndepărtat, sugerând strategii de finanțare pe termen lung sau proiecte de capital majore."
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "D9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_010",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "Rândul pentru 'alte datorii pe termen lung' conține o valoare în coloana 'mai puțin de 1 an' care pare a fi o valoare aberantă. Identificați această valoare și explicați de ce este inconsistentă.",
+    "answer": [
+      [
+        "Valoarea aberantă este '$ 2014' din coloana 'mai puțin de 1 an'. Aceasta este inconsistentă deoarece această singură sumă de plată pe termen scurt este semnificativ mai mare decât '$ 701' listați ca 'total' pentru întreaga obligație, ceea ce este o imposibilitate logică și probabil o eroare de date."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

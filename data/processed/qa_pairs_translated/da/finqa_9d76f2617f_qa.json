@@ -1,0 +1,237 @@
+[
+  {
+    "question_id": "finqa_9d76f2617f_001",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Hvad var den samlede stigning i 'aktier udestående' som følge af 'employee stock purchase plan' over hele den viste periode?",
+    "answer": [
+      [
+        "6894763"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D6",
+      "D11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_002",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "I hvilket år (2001, 2002 eller 2003) bidrog 'shares sold to optionees' mest til stigningen i 'shares outstanding'?",
+    "answer": [
+      [
+        "2002"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "A5",
+      "A8",
+      "D8",
+      "A10",
+      "A13",
+      "D13",
+      "A14"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_003",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv udviklingen i virksomhedens egne aktier fra begyndelsen af 2001 til slutningen af 2003, baseret på balancerapporterne.",
+    "answer": [
+      [
+        "Antallet af egne aktier faldt konsekvent fra år til år. Balancen faldt fra cirka 94,4 millioner i starten af 2001 til 91,2 millioner ved udgangen af 2001, derefter til 84,9 millioner ved udgangen af 2002 og endelig til 81,2 millioner ved udgangen af 2003. Dette indikerer, at virksomheden genudstedte aktier fra sit depot (f.eks. til medarbejderordninger og optioner) hurtigere, end den tilbagekøbte dem."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "C10",
+      "C14"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_004",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Hvad var nettoændringen i 'aktier i udestående' i løbet af det fulde kalenderår, der inkluderede 'erhvervelse af technoguide'?",
+    "answer": [
+      [
+        "6282717"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "D5",
+      "D10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_005",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "List alle transaktionstyper, eksklusive saldi, der resulterede i en stigning i 'aktier udestående' på mere end 2.000.000 aktier.",
+    "answer": [
+      [
+        "employee stock purchase plan"
+      ],
+      [
+        "shares sold to optionees"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8",
+      "A9",
+      "D9",
+      "A11",
+      "D11",
+      "A13",
+      "D13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_006",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Hvilken procentdel af den samlede stigning i 'aktier udstedt' for året 2002 kunne tilskrives 'erhvervelse af technoguide'?",
+    "answer": [
+      [
+        "21.45%"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_007",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Hvis 'employee stock purchase plan' i 2002 havde resulteret i 1.000.000 færre aktier tilføjet til det udestående antal, hvad ville 'balance december 31 2002' for 'shares outstanding' have været?",
+    "answer": [
+      [
+        "581173115"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "D10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_008",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Hvilken transaktion mellem de årlige saldi repræsenterer en outlier med sin minimale indvirkning på 'shares outstanding', og hvad var den indvirkning?",
+    "answer": [
+      [
+        "shares granted to directors",
+        "3500"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "A7",
+      "D7",
+      "A12",
+      "D12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_009",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "For 'aktier solgt til optionstagere' begivenheder, hvad er det konsekvente matematiske forhold mellem kolonnerne 'udstedt', 'i beholdning' og 'aktier udestående'?",
+    "answer": [
+      [
+        "For alle 'aktier solgt til optionstagere' transaktioner er værdien i kolonnen 'aktier udestående' summen af værdierne i kolonnerne 'udstedt' og 'i beholdning'. Dette indebærer, at aktierne til optionstagere blev fremskaffet fra både en ny udstedelse og fra virksomhedens eksisterende beholdningsaktier."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "B8",
+      "C8",
+      "D8",
+      "B13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_010",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "Kolonnen 'issued' indeholder værdien '2013' for flere transaktionstyper, hvor værdien i 'in treasury' er forskellig fra nul. Hvad antyder dette om kilden til aktier for disse transaktioner?",
+    "answer": [
+      [
+        "I hver række, hvor kolonnen 'issued' viser '2013', er værdien i 'in treasury' identisk med værdien i 'shares outstanding'. Dette indikerer, at for disse transaktioner (f.eks. 'employee stock purchase plan', 'acquisition of technoguide'), kom alle aktier fra depoterne, og ingen nye aktier blev faktisk udstedt. Tallet '2013' er sandsynligvis en pladsholder, en identifikator eller en datanote, ikke en mængde af udstedte aktier."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "C3",
+      "D3",
+      "B6",
+      "C6",
+      "D6",
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_011",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvordan ændrede antallet af udestående aktier sig fra saldoen pr. 1. januar 2001 til saldoen pr. 31. december 2003, og hvilke sandsynlige aktiviteter bidrog til denne ændring?",
+    "answer": [
+      [
+        "Antallet af udestående aktier steg med 13.223.634 (fra 572.724.694 til 585.948.328). Denne stigning ser ud til at være drevet af aktieudstedelser såsom udnyttelse af optioner og aktivitet relateret til medarbejderaktiekøbsplaner (flere poster for 'aktier solgt til optionstagere' og 'medarbejderaktiekøbsplan'), en erhvervelsesrelateret udstedelse (Technoguide) og en nettonedgang i egne beholdninger – hvilket samlet set øgede antallet af udestående aktier."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "C1",
+      "A14",
+      "D14",
+      "C14",
+      "A4",
+      "B4",
+      "A8",
+      "B8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

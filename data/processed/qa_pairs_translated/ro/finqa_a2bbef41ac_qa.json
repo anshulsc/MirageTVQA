@@ -1,0 +1,189 @@
+[
+  {
+    "question_id": "finqa_a2bbef41ac_001",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Care a fost valoarea totală a activelor ('investiții' și 'alte active') la 31 decembrie 2007?",
+    "answer": [
+      [
+        "3254"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_002",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Care categorie de active, „investiții” sau „alte active”, a înregistrat o pierdere netă absolută mai mare din „câștiguri / (pierderi) realizate și nerealizate net”?",
+    "answer": [
+      [
+        "investments"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_003",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Verifică dacă soldul de închidere pentru 'investiții' la 31 decembrie 2008 este în concordanță cu soldul său de deschidere și cu tranzacțiile ulterioare listate. Arată calculul tău.",
+    "answer": [
+      [
+        "Da, soldul este în concordanță. Calculul este: 1240 USD (sold de deschidere) - 409 USD (câștiguri/pierderi) + 11 USD (achiziții/vânzări) - 29 USD (transferuri nete) = 813 USD, ceea ce corespunde soldului de închidere raportat."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_004",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Care a fost modificarea netă totală a valorii activelor pentru întreaga perioadă, de la 31 decembrie 2007 până la 31 decembrie 2008?",
+    "answer": [
+      [
+        "-2377"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_005",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Pentru ce categorii de active au generat 'transferurile nete în și/sau din nivelul 3' o contribuție pozitivă la valoarea activelor?",
+    "answer": [
+      [
+        "other assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_006",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Ce proporție din „pierderile nete totale (pierderi) pentru perioada incluse în câștiguri” provine din „investiții”?",
+    "answer": [
+      [
+        "95.54%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_007",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Dacă 'câștigurile și pierderile realizate și nerealizate nete' pentru 'alte active' ar fi fost zero în loc de $-16, care ar fi fost noua valoare finală pentru 'alte active' la 31 decembrie 2008?",
+    "answer": [
+      [
+        "80"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_008",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Pe baza datelor pentru 'investiții', care este relația dintre 'câștigurile/ (pierderile) realizate și nerealizate net' și 'pierderile nete totale ... aferente activelor încă deținute la data raportării'?",
+    "answer": [
+      [
+        "Există o relație puternică și directă. 'Pierderile nete totale ... aferente activelor încă deținute' ($-366) reprezintă 89,5% din totalul 'câștigurilor/ (pierderilor) realizate și nerealizate net' ($-409). Acest lucru implică faptul că majoritatea pierderilor nete ale perioadei pentru investiții au fost nerealizate și asociate cu active care nu fuseseră vândute până la sfârșitul perioadei de raportare."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_009",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Ce convenție contabilă este sugerată de formatul datelor utilizat pentru valorile negative, cum ar fi '-409 ( 409 )'?",
+    "answer": [
+      [
+        "Formatul de afișare a unui număr negativ urmat de valoarea absolută între paranteze este o convenție contabilă comună pentru a indica clar și emfatic cifre financiare negative, cum ar fi pierderi, cheltuieli sau valori contra-activ."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_010",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Ce element de linie reprezintă cel mai mare impact negativ unic asupra valorii combinate a activelor în perioada respectivă?",
+    "answer": [
+      [
+        "realized and unrealized gains / ( losses ) net"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_011",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Cât au scăzut investițiile de la sfârșitul anului 2007 până la sfârșitul anului 2008?",
+    "answer": [
+      [
+        "$427"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A5",
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

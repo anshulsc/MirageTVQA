@@ -1,0 +1,217 @@
+[
+  {
+    "question_id": "finqa_16910e868d_001",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Hvilken specifik forpligtelsestype udgør den største betaling, der forfalder i perioden 'regnskabsåret 2022 og 2023'?",
+    "answer": [
+      [
+        "long-term debt including current portionexcluding capital lease obligations ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_002",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Hvad er det samlede beløb for alle leaserelaterede forpligtelser (drifts- og kapital) forfalden i perioden 'regnskabsåret 2020 og 2021'?",
+    "answer": [
+      [
+        "206.6"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_16910e868d_003",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "For den forpligtelsestype med den mindste betaling forfalder i regnskabsåret 2019, hvad er det tilsvarende betalingsbeløb forfalder 'derefter'?",
+    "answer": [
+      [
+        "138.1"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "F3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_004",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv betalingstrenden for 'driftslejeomkostninger' på tværs af de specificerede regnskabsperioder.",
+    "answer": [
+      [
+        "Betalingerne for 'driftslejeomkostninger' viser en front-loaded trend. De starter på $132,1 millioner i 2019, topper på $199,9 millioner i perioden 2020-2021, og falder derefter til $118,4 millioner i 2022-2023, med et sidste beløb på $165,4 millioner, der forfalder herefter. Dette antyder, at mange leasingaftaler var aktive på kort sigt med færre langsigtede forpligtelser sammenlignet med deres højeste periode."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_005",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "List alle forpligtelseskategorier, hvor det samlede skyldige beløb er mindre end 1000 millioner dollars, og det skyldige beløb 'derefter' er mere end 150 millioner dollars.",
+    "answer": [
+      [
+        "operating lease obligations ( 2 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "F1",
+      "A2",
+      "B2",
+      "F2",
+      "A3",
+      "B3",
+      "F3",
+      "A4",
+      "B4",
+      "F4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_006",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Hvilken procentdel af den samlede 'langfristede gæld' forfalder 'derefter'?",
+    "answer": [
+      [
+        "51.94%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "F1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_16910e868d_007",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Hvis alle ' kapitalleje forpligtelser' blev eftergivet og fjernet fra tabellen, hvad ville de nye 'samlede' betalinger for 'regnskabsåret 2019' være?",
+    "answer": [
+      [
+        "$ 2535.3"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_008",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "Baseret på dataene, hvad er den grundlæggende forskel i løbetidsstrukturen mellem 'gæld på lang sigt' og 'købsforpligtelser og andet'?",
+    "answer": [
+      [
+        "Der er et klart omvendt forhold i deres løbetidsstrukturer. 'Gæld på lang sigt' er markant bagudtrukket, hvor over halvdelen af dens samlede beløb (3136,6 mio. USD ud af 6039,0 mio. USD) forfalder i 'derefter'-perioden. Omvendt er 'købsforpligtelser og andet' stærkt forudindtaget, hvor langt størstedelen (1676,6 mio. USD ud af 2210,5 mio. USD) forfalder i den tidligste periode, regnskabsåret 2019, hvilket indikerer, at disse primært er kortsigtede forpligtelser."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "F1",
+      "B4",
+      "C4",
+      "F4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_16910e868d_009",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvordan beregnes værdien i celle E5, totalen for 'regnskabsåret 2022 og 2023', ud fra andre tal i tabellen?",
+    "answer": [
+      [
+        "Værdien i celle E5 (1587,0 USD) er den lodrette sum af de betalinger, der forfalder i perioden 'regnskabsåret 2022 og 2023' for hver af de fire forpligtelseskategorier, der er angivet ovenfor: 1351,0 (E1), 118,4 (E2), 2,7 (E3) og 114,9 (E4)."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_010",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvilken betalingsperiode repræsenterer en markant afvigelse i forhold til sin andel af de samlede forpligtelser, og hvad driver denne anomali?",
+    "answer": [
+      [
+        "Regnskabsåret 2019 er en afviger. Dens samlede beløb på 2540,3 mio. dollars er betydeligt højere end de efterfølgende to perioder (1255,5 mio. dollars og 1587,0 mio. dollars). Denne anomali drives næsten udelukkende af kategorien 'købsforpligtelser og andet', som har en usædvanlig stor betaling på 1676,6 mio. dollars, der forfalder det pågældende år, hvilket udgør ca. 66% af periodens samlede beløb."
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_16910e868d_011",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Hvad er den samlede sum af alle leasingforpligtelser (drifts- og kapital) i millioner, der forfalder inden regnskabsårene 2019 og 2020-2021 kombineret?",
+    "answer": [
+      [
+        "$343.7"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_1333011494_001",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Hvilken ejendom har den højeste 'bygning'-værdi?",
+    "answer": [
+      [
+        "1515 broadway"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "B2",
+      "C2",
+      "D2",
+      "F2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_002",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Hvad er den samlede 'købsprisallokering' for alle ejendomme angivet i tabellen?",
+    "answer": [
+      [
+        "2097772"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_1333011494_003",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Hvad er 'nettoovervejelsen finansieret af os ved lukning' for ejendommen med den laveste 'erhvervede leasingaftaler på plads'-værdi?",
+    "answer": [
+      [
+        "$ 81632"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "B11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_004",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "For ejendommen '1515 broadway', hvor stor en procentdel af dens 'assets acquired' værdi kommer fra summen af dens 'land' og 'building' værdier?",
+    "answer": [
+      [
+        "89.65%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_1333011494_005",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Identificer alle ejendomme, hvor 'gæld påtaget' er mere end tre gange 'egenkapital og/eller gældsinvestering holdt'.",
+    "answer": [
+      [
+        "110 east 42nd street"
+      ],
+      [
+        "1515 broadway"
+      ]
+    ],
+    "evidence_cells": [
+      "D12",
+      "D13",
+      "E12",
+      "E13",
+      "F12",
+      "F13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_006",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Hvis en regnskabsmæssig justering revurderede 'bygningens' værdi for '110 east 42nd street' til at være 10% lavere, hvad ville den nye værdi for 'aktiver erhvervet' være for den ejendom?",
+    "answer": [
+      [
+        "81989"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_007",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "Værdien for 'fair value adjustment to mortgage note payable' for '1515 broadway' er en negativ værdi, mens den er en positiv, ensartet værdi for de fleste andre ejendomme. Hvad antyder dette signifikante afvigelse om den specifikke ejendoms finansiering?",
+    "answer": [
+      [
+        "Den negative værdi på '-3693' for '1515 broadway' under kategorien 'fair value adjustment to mortgage note payable' er en klar afvigelse sammenlignet med den ensartede positive værdi på '2014' for de andre ejendomme. Dette antyder, at pantebrevet (mortgage note) forbundet med erhvervelsen af 1515 Broadway havde vilkår, der var mere gunstige end de herskende markedsrenter på erhvervelsestidspunktet, hvilket skabte en aktiv (en negativ passivjustering). I modsætning hertil kan de andre ejendomme have haft realkreditlån til eller nær markedsrenter, hvilket krævede en standard, nominel justering."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_1333011494_008",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "Er der, baseret på dataene, en direkte positiv sammenhæng mellem en ejendoms 'purchase price allocation' (allokering af købspris) og dens 'net consideration funded by us at closing' (nettoare tilbageholdelse finansieret af os ved lukning)?",
+    "answer": [
+      [
+        "Nej, der er ikke en direkte positiv sammenhæng. For eksempel har '180 maiden lane' den næsthøjeste købspris (442.325 USD), men dens nettoare tilbageholdelse (81.835 USD) er næsten identisk med '51 east 42nd street', som har en meget lavere købspris (80.000 USD). Desuden har '1515 broadway' den højeste købspris med stor margin (1.234.000 USD), men ikke den højeste nettoare tilbageholdelse. Dette indikerer, at andre faktorer, såsom 'debt assumed' (påtaget gæld) (som er meget høj for '1515 broadway'), signifikant påvirker den nettoare tilbageholdelse, der kræves ved lukning."
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10",
+      "B11",
+      "C11",
+      "D11",
+      "E11",
+      "F11",
+      "B13",
+      "C13",
+      "D13",
+      "E13",
+      "F13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_1333011494_009",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Beregn den samlede mængde 'påtagne forpligtelser' for ejendomme, der har en 'lejeværdi over markedspris' på mindre end $6.000.",
+    "answer": [
+      [
+        "33817"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "F3",
+      "B9",
+      "D9",
+      "F9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_010",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "Værdien '2014' optræder gentagne gange på tværs af fire forskellige finansielle kategorier, ofte for de samme ejendomme. Hvad antyder den konsekvente brug af dette specifikke, ikke-afrundede tal i forskellige sammenhænge om dets natur?",
+    "answer": [
+      [
+        "Værdien '2014' optræder i 'andre aktiver netto af andre forpligtelser', 'justering af dagsværdi til pantebrev', 'investeringer i egenkapital og/eller gæld' og 'overtaget gæld'. Dens gentagne brug som en relativt lille, identisk værdi på tværs af forskellige kategorier og ejendomme antyder, at det ikke er en målt markedsværdi, men snarere en nominel pladsholder, en standard minimumsværdi brugt til regnskabsmæssige formål, eller muligvis en reference til en specifik begivenhed eller reguleringsår (f.eks. en transaktion fra 2014). Det betegner en standardiseret post snarere end en unik vurdering for hver forekomst."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "A12",
+      "A13",
+      "B5",
+      "C5",
+      "D5",
+      "F5",
+      "B7",
+      "C7",
+      "D7",
+      "F7",
+      "B12",
+      "C12",
+      "B13",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_011",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Hvor meget koster det at købe jorden på 1515 Broadway?",
+    "answer": [
+      [
+        "$462,700"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,249 @@
+[
+  {
+    "question_id": "finqa_d4ff6b23c2_001",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Oblicz całkowitą zmianę netto w nierozpoznanych świadczeniach podatkowych za rok 2016, na podstawie działań transakcyjnych wymienionych między saldem początkowym a końcowym.",
+    "answer": [
+      [
+        "64"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_002",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Które pozycje linii reprezentują mniejszą bezwzględną zmianę finansową w 2017 r. w porównaniu do ich odpowiedniej zmiany w 2016 r.?",
+    "answer": [
+      [
+        "additions for tax positions related to prior years"
+      ],
+      [
+        "reductions for tax positions related to prior years"
+      ],
+      [
+        "reductions for settlements2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_003",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Jaki procent 'salda na dzień 31 grudnia 2017 r.' nie wpłynąłby na efektywną stopę podatkową, gdyby został rozpoznany?",
+    "answer": [
+      [
+        "5.99%"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_004",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Jaka była różnica między sumą wszystkich redukcji w 2017 roku a sumą wszystkich redukcji w 2016 roku, ignorując niestandardową wartość w \"redukcjach z tytułu wygaśnięcia terminu przedawnienia\" za rok 2017?",
+    "answer": [
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_005",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Gdyby 'dodatkowe pozycje podatkowe dotyczące lat ubiegłych' w 2017 roku były zgodne z kwotą z 2016 roku, jaka byłaby skorygowana 'saldo na dzień 31 grudnia 2017 r.'?",
+    "answer": [
+      [
+        "$ 1321"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_006",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Wskaż pojedynczą pozycję z 2017 roku, która była największym odchyleniem pod względem wielkości finansowej w porównaniu do wszystkich innych pozycji dodanych i zredukowanych w obu latach.",
+    "answer": [
+      [
+        "additions for tax positions related to current year"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_007",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Na podstawie uzgodnienia, 'saldo na 31 grudnia 2017 r.' jest obliczane z salda początkowego plus późniejsze dodania i redukcje. Która komórka w kolumnie dla 2017 r. zawiera wartość, która jest niezgodna z tym obliczeniem i wydaje się być zbędna?",
+    "answer": [
+      [
+        "B6"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_008",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Wymień wszystkie działania w 2017 roku, zarówno dodania, jak i redukcje, których wartość bezwzględna przekroczyła 15 milionów dolarów.",
+    "answer": [
+      [
+        "additions for tax positions related to current year"
+      ],
+      [
+        "additions for tax positions related to prior years"
+      ],
+      [
+        "reductions for tax positions related to prior years"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_009",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "Przeanalizuj zmianę całkowitego salda od końca 2016 do końca 2017 roku. Jakie były główne czynniki tej zmiany?",
+    "answer": [
+      [
+        "Całkowite saldo nierozpoznanych świadczeń podatkowych wzrosło o 254 mln USD, z 1032 mln USD na koniec 2016 r. do 1286 mln USD na koniec 2017 r. Głównym czynnikiem tego wzrostu były \"dodatkowe kwoty z tytułu pozycji podatkowych związanych z bieżącym rokiem\" w wysokości 270 mln USD w 2017 r., które były znacznie wyższe niż jakiekolwiek inne pojedyncze dodanie lub redukcja w którymkolwiek z lat. Chociaż w 2017 r. nastąpiły redukcje w łącznej wysokości 36 mln USD, były one niewystarczające, aby zrekompensować wysokie dodatkowe kwoty."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_010",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "Czy istnieją dowody na znaczącą zmianę w składzie nierozpoznanych świadczeń podatkowych między 2016 a 2017 rokiem, w oparciu o proporcję salda na koniec roku, która wpłynęłaby na efektywną stopę podatkową?",
+    "answer": [
+      [
+        "Nie ma dowodów na znaczącą zmianę w składzie. W 2016 roku część, która wpłynęłaby na efektywną stopę podatkową, wynosiła 963 mln USD z salda 1032 mln USD, czyli 93,3%. W 2017 roku ta część wynosiła 1209 mln USD z salda 1286 mln USD, czyli 94,0%. Proporcja pozostała bardzo stabilna, co sugeruje spójny skład podstawowych pozycji podatkowych rok do roku, pomimo ogólnego wzrostu salda."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_011",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "Jak zmienił się całkowity bilans pozycji podatkowych od 2016 do 2017 roku i jakie czynniki przyczyniły się do tej zmiany?",
+    "answer": [
+      [
+        "Całkowity bilans pozycji podatkowych wzrósł z 1032 milionów dolarów w 2016 roku do 1286 milionów dolarów w 2017 roku. Wzrost ten był głównie spowodowany dodatkami na pozycje podatkowe z bieżącego roku (+$270 milionów) i pozycje z poprzednich lat (+$20 milionów), częściowo zniwelowanymi przez redukcje pozycji z poprzednich lat (-$27 milionów) i rozliczenia (-$9 milionów)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

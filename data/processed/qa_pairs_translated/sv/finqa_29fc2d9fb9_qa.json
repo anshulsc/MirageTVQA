@@ -1,0 +1,364 @@
+[
+  {
+    "question_id": "finqa_29fc2d9fb9_001",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Vilken TV-tjänsttyp, 'fta' eller 'pay', har ett högre genomsnittligt antal prenumeranter per kanal?",
+    "answer": [
+      [
+        "fta"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9",
+      "B10",
+      "C10",
+      "B11",
+      "C11",
+      "B12",
+      "C12",
+      "B13",
+      "C13",
+      "B14",
+      "C14",
+      "B15",
+      "C15",
+      "B16",
+      "C16",
+      "B17",
+      "C17",
+      "B18",
+      "C18",
+      "B19",
+      "C19"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_002",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Vad är det totala antalet prenumeranter, i miljoner, för alla listade teletjänster som inte är gratis-tv (fta)?",
+    "answer": [
+      [
+        "125"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B10",
+      "C10",
+      "B11",
+      "C11",
+      "B12",
+      "C12",
+      "B13",
+      "C13",
+      "B14",
+      "C14",
+      "B15",
+      "C15",
+      "B16",
+      "C16",
+      "B17",
+      "C17",
+      "B18",
+      "C18",
+      "B19",
+      "C19"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_003",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Vilket är namnet på kanalen med det medelvärda antalet prenumeranter bland alla 'betal' tjänster?",
+    "answer": [
+      [
+        "discovery history"
+      ]
+    ],
+    "evidence_cells": [
+      "A14",
+      "B10",
+      "C10",
+      "B11",
+      "C11",
+      "B12",
+      "C12",
+      "B13",
+      "C13",
+      "B14",
+      "C14",
+      "B15",
+      "C15",
+      "B16",
+      "C16",
+      "B17",
+      "C17",
+      "B18",
+      "C18",
+      "B19",
+      "C19"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_004",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Lista namnen på alla 'fta'-kanaler som har fler än 25 miljoner abonnenter.",
+    "answer": [
+      [
+        "quest"
+      ],
+      [
+        "dsport"
+      ],
+      [
+        "quest red"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_005",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Hur stor andel av den totala tittarsiffran för alla 'fta'-kanaler kombinerat utgör tittarsiffran för 'quest'? Avrunda till en decimal.",
+    "answer": [
+      [
+        "23.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B1",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_006",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Om antalet abonnenter för varje 'betalkanal' som för närvarande har 10 miljoner eller färre abonnenter skulle öka med 50%, vad skulle då det nya totala antalet abonnenter vara för endast dessa specifika kanaler?",
+    "answer": [
+      [
+        "66"
+      ]
+    ],
+    "evidence_cells": [
+      "B14",
+      "C14",
+      "B15",
+      "C15",
+      "B16",
+      "C16",
+      "B17",
+      "C17",
+      "B18",
+      "C18",
+      "B19",
+      "C19"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_007",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "open_ended_reasoning",
+    "question": "Baserat på tabellen, vilket är det uppenbara sambandet mellan servicetyp ('betald' kontra 'fta') och antalet tittare? Attraherar en typ konsekvent fler tittare än den andra?",
+    "answer": [
+      [
+        "Datat indikerar ett starkt samband där 'fta' (free-to-air) tjänster generellt sett attraherar betydligt högre tittarsiffror än 'betalda' tjänster. De två toppkanalerna, 'quest' (66M) och 'dsport' (43M), är båda 'fta'. Den högst rankade 'betalda' kanalen, 'discovery hd world', har endast 17 miljoner abonnenter, vilket är lägre än de fyra främsta 'fta' kanalerna. Dessutom är genomsnittlig tittarsiffror för en 'fta' kanal (31,8 miljoner) mer än tredubbla genomsnittet för en 'betald' kanal (10,1 miljoner), vilket tyder på att gratis tjänster har en mycket bredare räckvidd i detta dataset."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9",
+      "B10",
+      "C10",
+      "B11",
+      "C11",
+      "B12",
+      "C12",
+      "B13",
+      "C13",
+      "B14",
+      "C14",
+      "B15",
+      "C15",
+      "B16",
+      "C16",
+      "B17",
+      "C17",
+      "B18",
+      "C18",
+      "B19",
+      "C19"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_008",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Vilken kanal är den mest betydande positiva avvikelsen när det gäller antalet prenumeranter jämfört med det genomsnittliga antalet prenumeranter för sin egen servicetyp ('fta')?",
+    "answer": [
+      [
+        "quest"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_009",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Hur många kanaler delar det vanligaste antalet prenumeranter, och vad är det antalet?",
+    "answer": [
+      [
+        "5",
+        "25"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_010",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Vad är den totala tittarsiffran för alla kanaler vars namn innehåller ordet 'discovery' och som erbjuds som en 'pay'-tjänst?",
+    "answer": [
+      [
+        "64"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10",
+      "A13",
+      "B13",
+      "C13",
+      "A14",
+      "B14",
+      "C14",
+      "A15",
+      "B15",
+      "C15",
+      "A16",
+      "B16",
+      "C16",
+      "A17",
+      "B17",
+      "C17",
+      "A18",
+      "B18",
+      "C18",
+      "A19",
+      "B19",
+      "C19"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_011",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Vad är antalet internationella prenumeranter/tittare (i miljoner) för quest TV-tjänst?",
+    "answer": [
+      [
+        "66"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

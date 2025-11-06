@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "finqa_d219c4cd4d_001",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "Under vilket år var skillnaden mellan 'net income adjusted...' och 'net cash provided by operating activities' störst?",
+    "answer": [
+      [
+        "2012"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B4",
+      "C1",
+      "C4",
+      "D1",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_002",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "Vad var det ackumulerade 'netto kassaflöde som använts för investeringsverksamhet' under treårsperioden från 2012 till 2014?",
+    "answer": [
+      [
+        "-635.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_003",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "Vilken siffra för 'net income adjusted...' rapporterade det lägsta 'net cash provided by operating activities'?",
+    "answer": [
+      [
+        "$ 697.2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_004",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv trenden från år till år för 'net cash provided by operating activities' mellan 2012 och 2014.",
+    "answer": [
+      [
+        "Net cash provided by operating activities' visade en konsekvent och stark uppåtgående trend, ökande från 357,2 USD 2012 till 592,9 USD 2013 och ytterligare till 669,5 USD 2014. Detta indikerar en stadig förbättring av företagets förmåga att generera kassaflöden från sin kärnverksamhet under perioden."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_005",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "Identifiera kassaflödesaktiviteten som gav likvida medel (ett positivt värde) år 2012 men använde likvida medel (ett negativt värde) både 2013 och 2014.",
+    "answer": [
+      [
+        "net cash ( used in ) provided by financing activities"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_006",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "Vilken procentandel av 'net income adjusted to reconcile net income to net cash provided by operating activities1' omvandlades till 'net cash provided by operating activities' år 2014? Ange ditt svar avrundat till en decimal.",
+    "answer": [
+      [
+        "80.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_007",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "Om magnituden av 'net cash used in working capital' år 2014 hade varit 20 % mindre (dvs. närmare noll), vad skulle den omräknade 'net cash provided by operating activities' ha varit för det året?",
+    "answer": [
+      [
+        "$ 695.72"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_008",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "open_ended_reasoning",
+    "question": "Baserat på den tillhandahållna datan, vad är det uppenbara sambandet mellan 'net income' och 'net cash used in working capital'?",
+    "answer": [
+      [
+        "Det finns ingen konsekvent linjär korrelation. Till exempel, från 2012 till 2013 minskade nettoresultatet medan det använda nettokontantflödet för rörelsekapital också minskade dramatiskt (från -293,2 till -9,6). Från 2013 till 2014 ökade dock nettoresultatet markant, och det använda nettokontantflödet för rörelsekapital ökade också (från -9,6 till -131,1). Detta tyder på att en tillväxt i resultat kan kräva en större investering i rörelsekapital, men sambandet är inte stabilt år från år."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2",
+      "D1",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_009",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "open_ended_reasoning",
+    "question": "Vilken formateringskonvention används i tabellen för att beteckna negativa finansiella värden eller kassaflöden?",
+    "answer": [
+      [
+        "Negativa värden indikeras primärt med ett ledande minustecken. I många fall följs detta av det absoluta värdet av siffran inom parentes, vilket fungerar som en redundant visuell bekräftelse av det negativa beloppet (t.ex. '-131,1 ( 131,1 )')."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "D3",
+      "B5",
+      "C5",
+      "D5",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_010",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "Vilken specifik datapunkt för 'net cash (used in) provided by financing activities' är en betydande avvikare jämfört med de andra angivna åren?",
+    "answer": [
+      [
+        "The value for 2013, which is '-1212.3 ( 1212.3 )'"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_011",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "Vad är det totala nettot av kassaflödet från investeringsverksamhet år 2014?",
+    "answer": [
+      [
+        "-200.8 ( 200.8 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

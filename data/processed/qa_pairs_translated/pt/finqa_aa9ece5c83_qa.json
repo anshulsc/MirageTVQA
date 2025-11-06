@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_aa9ece5c83_001",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Qual conjunto de dados financeiros, o que começa na coluna B ou o que está na coluna E, teve uma renda operacional 'ajustada' mais alta para o ano encerrado em 31 de dezembro de 2016?",
+    "answer": [
+      [
+        "The data set starting in column B ($4050 million)"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "G1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_002",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Qual é a soma líquida de todos os ajustes em dólares para 'alteração no princípio contábil' para o primeiro conjunto de dados (coluna C)?",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_003",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Qual foi a margem de EBITDA ajustado 'as filed' para o conjunto de dados onde a 'mudança no princípio contábil' para o rendimento de juros foi '-414 ( 414 )'?",
+    "answer": [
+      [
+        "30% ( 30 % )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "F2",
+      "A6",
+      "E6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_004",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Para o primeiro conjunto de dados (colunas B-D), qual é a razão entre o lucro líquido 'as filed' e o EBITDA ajustado 'as filed', arredondado para três casas decimais?",
+    "answer": [
+      [
+        "0.141"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_005",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Para o conjunto de dados apresentado nas colunas B a D, identifique a métrica onde o valor 'as adjusted' é inferior ao valor 'as filed'.",
+    "answer": [
+      [
+        "interest income"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A5",
+      "B5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_006",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "Na linha 'net income as a percentage of service revenue', qual valor de 'change in accounting principle' parece anômalo e por quê?",
+    "answer": [
+      [
+        "O valor de 'change in accounting principle' de '2014% ( 2014 % )' nas células C4 e F4 é anômalo. Para ambos os conjuntos de dados, o 'net income as a percentage of service revenue' permanece inalterado entre os valores 'as filed' e 'as adjusted' (5% para 5% e 3% para 3%, respectivamente). Uma mudança lógica seria 0%, tornando '2014%' um claro valor discrepante, provavelmente resultado de um erro de entrada de dados."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_007",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Se a 'mudança no princípio contábil' para o lucro operacional no segundo conjunto de dados tivesse sido uma diminuição de US$ 50 milhões em vez do valor mostrado, qual teria sido o novo lucro operacional 'ajustado'?",
+    "answer": [
+      [
+        "$ 2015"
+      ]
+    ],
+    "evidence_cells": [
+      "E1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_008",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "Existe uma relação consistente entre os ajustes contábeis para o lucro operacional e o EBITDA ajustado em ambos os conjuntos de dados?",
+    "answer": [
+      [
+        "Sim, existe uma relação positiva consistente. No primeiro conjunto de dados, a alteração no lucro operacional (+$248) é idêntica à alteração no EBITDA ajustado (+$248). No segundo conjunto de dados, a alteração no lucro operacional (+$414) também é idêntica à alteração no EBITDA ajustado (+$414). Isso sugere que a mudança no princípio contábil que afeta o lucro operacional flui diretamente para o EBITDA ajustado pelo mesmo valor."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "F1",
+      "F5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_009",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "Qual é o principal problema estrutural nos cabeçalhos das colunas que pode levar à confusão na interpretação da tabela?",
+    "answer": [
+      [
+        "O principal problema estrutural é a duplicação de cabeçalhos de coluna sem um agrupamento de nível superior. Os cabeçalhos 'year ended december 31 2016 as filed' e 'year ended december 31 2016 change in accounting principle' são usados para dois conjuntos diferentes de colunas (B e E; C e F). Essa ambiguidade força o usuário a inferir que duas entidades ou cenários separados estão sendo comparados, em vez de ser explicitamente declarado."
+      ]
+    ],
+    "evidence_cells": [],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_010",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Usando os valores 'as adjusted', calcule a receita de serviço implícita para ambos os conjuntos de dados (EBITDA Ajustado / Margem de EBITDA Ajustado) e reporte a diferença em milhões entre os dois (primeiro conjunto menos segundo conjunto), arredondada para o milhão inteiro mais próximo.",
+    "answer": [
+      [
+        "$2,814"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D6",
+      "G5",
+      "G6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_011",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "A que valor o lucro operacional (em milhões) mudou para o primeiro conjunto de dados após o ajuste de 'As Filed' para 'As Adjusted'?",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

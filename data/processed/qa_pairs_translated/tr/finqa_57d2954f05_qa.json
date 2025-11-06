@@ -1,0 +1,312 @@
+[
+  {
+    "question_id": "finqa_57d2954f05_001",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "'Sadece' kiralanmış' mülkiyeti altında en büyük alana sahip konum hangisidir?",
+    "answer": [
+      [
+        "xi 2019an china"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D5",
+      "E5",
+      "A10",
+      "D10",
+      "E10",
+      "A11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_002",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Sadece kiralanan tüm mülklerin toplam metrekare alanını hesaplayın.",
+    "answer": [
+      [
+        "701000"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "E4",
+      "D6",
+      "E6",
+      "D7",
+      "E7",
+      "D13",
+      "E13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_57d2954f05_003",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Öncelikle şirketin genel merkezinin bulunduğu konumu belirleyerek ve ardından squarefootage sütunundaki birleştirilmiş değere göre sahip olunan ve kiralanan alanı toplayarak toplam karefootage'ını belirleyin.",
+    "answer": [
+      [
+        "1662000"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_004",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Ana kullanım alanı 'araştırma geliştirme ve mühendislik' içeren Çin'deki tüm konumları belirleyin.",
+    "answer": [
+      [
+        "xi 2019an china"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "C11",
+      "A13",
+      "C13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_005",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Sahip olunan ve kiralanan mülklerin toplam metrekare alanının yüzde kaçı kiralanan alana aittir? Bu mülkler için metrekare sütununun sahipli ve kiralanan değerleri birleştirdiğini varsayın (örneğin, 'X...XY...Y').",
+    "answer": [
+      [
+        "9.11%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D12",
+      "E12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_57d2954f05_006",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Şirket tüm 'müşteri desteği' operasyonlarını, 'müşteri desteği'ni ana kullanım alanı olarak listeleyen ve en büyük toplam metrekareye sahip tek bir merkeze konsolide etmeye karar verirse, hangi konum seçilecektir?",
+    "answer": [
+      [
+        "santa clara ca"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A3",
+      "C3",
+      "D3",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6",
+      "A7",
+      "C7",
+      "D7",
+      "A8",
+      "C8",
+      "D8",
+      "A9",
+      "C9",
+      "D9",
+      "A10",
+      "C10",
+      "D10",
+      "A12",
+      "C12",
+      "D12",
+      "A13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_007",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "open_ended_reasoning",
+    "question": "Verileri analiz ederek mülk 'türü' ile 'sahiplik' durumu arasında bir korelasyon olup olmadığını belirleyin. Özellikle, belirli bir sahiplik modeliyle daha sık görülen bir mülk türü var mı?",
+    "answer": [
+      [
+        "Evet, bir korelasyon görünüyor. 'Ofis tesisi ve depo' türü, 5 'sahip leased', 3 'sahip' ve 3 'kiralanmış' mülk dahil olmak üzere çeşitli bir sahiplik profili sergiliyor. Buna karşılık, yalnızca iki lokasyonla temsil edilen 'ofis ve depo' türü, bir 'sahip leased' ve bir 'kiralanmış' mülk içeriyor, ancak bu veri setinde dikkat çekici bir şekilde tamamen 'sahip' olunan tesisi bulunmuyor. Bu, bir 'tesis' içeren lokasyonların, yalnızca ofis ve depo olanlara kıyasla şirket tarafından en azından kısmen veya tamamen sahip olma olasılığının daha yüksek olduğunu gösteriyor."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "E1",
+      "B2",
+      "E2",
+      "B3",
+      "E3",
+      "B4",
+      "E4",
+      "B5",
+      "E5",
+      "B6",
+      "E6",
+      "B7",
+      "E7",
+      "B8",
+      "E8",
+      "B9",
+      "E9",
+      "B10",
+      "E10",
+      "B11",
+      "E11",
+      "B12",
+      "E12",
+      "B13",
+      "E13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_57d2954f05_008",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "open_ended_reasoning",
+    "question": "Bir veri analisti bakış açısıyla, sayısal analize geçilmeden önce koşullu ayrıştırma mantığı gerektiren hangi sütun en önemli yapısal karmaşıklığı sunmaktadır?",
+    "answer": [
+      [
+        "En çok yapısal karmaşıklığı 'squarefootage' (alan) sütunu (D) sunmaktadır. 'Principal use' (ana kullanım) sütunu sınırlayıcılarla ayrılmış listeler içerirken, 'squarefootage' sütunu hem standart tam sayı değerlerini hem de birleştirilmiş metin değerlerini (örneğin, '1512000150000') içermektedir. Bu veriyi sayısal analiz için doğru bir şekilde yorumlamak ve kullanmak amacıyla, 'ownership' (sahiplik) sütunundaki (E) karşılık gelen değere bakan koşullu bir mantık uygulamak gerekir. Sahiplik 'ownedleased' (sahip olunan/kiralanan) ise, metin iki ayrı sayısal değere ayrılmalıdır; aksi takdirde tek bir tam sayı olarak ele alınabilir. Başka bir sütuna olan bu bağımlılık, ayrıştırma mantığını diğer herhangi bir sütundan daha karmaşık hale getirmektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D12",
+      "E12",
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_009",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Ana kullanım amacı 'üretim' olan tüm tesisler arasında, bu grubun medyan büyüklüğüne kıyasla en belirgin pozitif aykırı değer olan toplam metrekare büyüklüğüne sahip lokasyon hangisidir?",
+    "answer": [
+      [
+        "austin tx"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6",
+      "A7",
+      "C7",
+      "D7",
+      "A8",
+      "C8",
+      "D8",
+      "A9",
+      "C9",
+      "D9",
+      "A10",
+      "C10",
+      "D10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_57d2954f05_010",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Listelenen tesislerin yüzde kaçı ABD'de (CA, TX, MT, MA eyalet kısaltmalarıyla belirtilen) bulunmaktadır?",
+    "answer": [
+      [
+        "30.77%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_57d2954f05_011",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Austin, TX'de bulunan ofisin metrekaresi nedir?",
+    "answer": [
+      [
+        "1,719,000–1,450,000"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

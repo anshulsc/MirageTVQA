@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_b54bfca53d_001",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Welche vertragliche Verpflichtung, den Gesamtbetrag ausgenommen, hat den höchsten Betrag, der im Zeitraum '1-3 Jahre' fällig ist?",
+    "answer": [
+      [
+        "purchase obligations ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_002",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Bestätigen Sie durch Summierung der Zahlungen für jede einzelne Verpflichtung, ob der Gesamtbetrag für den Zeitraum '1-3 Jahre', der in der Zeile 'Gesamtzahlungen für vertragliche Verpflichtungen' aufgeführt ist, korrekt ist.",
+    "answer": [
+      [
+        "Ja, der Gesamtbetrag ist korrekt. Die Summe der einzelnen Verpflichtungen für den Zeitraum '1-3 Jahre' beträgt 188,3 $ + 316,4 $ + 37,1 $ + 3779,4 $, was 4321,2 $ ergibt und mit dem Wert in der Gesamtzeile übereinstimmt."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_003",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Für die vertragliche Verpflichtung mit dem niedrigsten Gesamtbetrag, welcher Prozentsatz ihres Gesamtbetrags ist im Zeitraum '1-3 Jahre' fällig?",
+    "answer": [
+      [
+        "39.81%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "D3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_004",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Beschreiben Sie den Zahlungsplan für 'langfristige Schulden einschließlich Leasingverbindlichkeiten' über die angegebenen Zeiträume. Ist er front-loaded, back-loaded oder gleichmäßig verteilt?",
+    "answer": [
+      [
+        "Der Zahlungsplan für langfristige Schulden ist stark back-loaded. Die Zahlungen beginnen klein mit 34,5 Mio. USD ('weniger als 1 Jahr'), steigen stetig über die Zeiträume von 1-3 und 3-5 Jahren an und gipfeln in einer sehr großen Zahlung von 2160,2 Mio. USD im Zeitraum 'mehr als 5 Jahre', was über 78 % der Gesamtverpflichtung ausmacht."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "E1",
+      "F1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_005",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Listen Sie alle Verpflichtungskategorien auf, bei denen die Zahlung innerhalb von 'weniger als 1 Jahr' geringer ist als die Zahlung innerhalb von '1-3 Jahren'.",
+    "answer": [
+      [
+        "long-term debt including capital leases"
+      ],
+      [
+        "interest payments on long-term debt ( b )"
+      ],
+      [
+        "operating leases"
+      ],
+      [
+        "purchase obligations ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_006",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Welcher Prozentsatz der gesamten 'langfristigen Schulden einschließlich Leasingverbindlichkeiten' ist zur Zahlung in mehr als 5 Jahren fällig?",
+    "answer": [
+      [
+        "78.55%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "F1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_007",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Wenn eine neue Richtlinie erfordern würde, dass alle 'Kaufverpflichtungen', die in '1-3 Jahren' fällig sind, sofort (in der Periode 'weniger als 1 Jahr') bezahlt werden, wie hoch wäre dann der neue Gesamtbetrag für die Zahlungen aus vertraglichen Verpflichtungen von 'weniger als 1 Jahr'?",
+    "answer": [
+      [
+        "$6715.0 million"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_008",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Die Tabelle enthält ein Datenintegritätsproblem, bei dem die Summe der periodischen Zahlungen für einen Verpflichtungstyp nicht mit der angegebenen Gesamtsumme übereinstimmt. Identifizieren Sie diese Verpflichtung und berechnen Sie die Diskrepanz.",
+    "answer": [
+      [
+        "Die Zeile 'Purchase Obligations ( c )' weist ein Datenintegritätsproblem auf. Die Summe der periodischen Zahlungen ($2709,5 + $3779,4 + $98,0 + $2212 = $8798,9 Mio.) stimmt nicht mit der angegebenen Gesamtsumme von $6586,9 Mio. überein. Die Diskrepanz beträgt $2212 Mio."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_009",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Wenn man den Zahlungszeitraum '3-5 Jahre' betrachtet, welche vertragliche Verpflichtung hat den niedrigsten Wert und könnte im Vergleich zu den anderen in derselben Spalte als Ausreißer betrachtet werden?",
+    "answer": [
+      [
+        "operating leases"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_010",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Gibt es eine konsistente Beziehung zwischen der Höhe einer Gesamtverpflichtung und ihrer Zahlungsstruktur (z. B. sind größere Verpflichtungen immer stärker zeitlich nach hinten verschoben)? Begründen Sie Ihre Antwort mit Daten.",
+    "answer": [
+      [
+        "Nein, es gibt keine konsistente Beziehung. Die größte Gesamtverpflichtung, 'Kaufverpflichtungen' (6.586,9 Mio. $), ist stark nach vorne verschoben, wobei der Großteil innerhalb von 3 Jahren fällig ist. Umgekehrt ist die zweitgrößte, 'langfristige Schulden' (2.750,1 Mio. $), stark nach hinten verschoben, wobei die größte Zahlung in mehr als 5 Jahren fällig ist. Dies zeigt, dass die Zahlungsstruktur spezifisch für die Art der Verpflichtung und nicht für ihren Gesamtwert ist."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "F1",
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_011",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Was sind die Gesamtzahlungen in Millionen für vertragliche Verpflichtungen, die innerhalb von 1-3 Jahren fällig sind?",
+    "answer": [
+      [
+        "$4321.2"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

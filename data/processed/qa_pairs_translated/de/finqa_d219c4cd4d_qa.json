@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "finqa_d219c4cd4d_001",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "In welchem Jahr war die Differenz zwischen 'Nettoergebnis bereinigt...' und 'Netto-Cashflow aus operativer Tätigkeit' am größten?",
+    "answer": [
+      [
+        "2012"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B4",
+      "C1",
+      "C4",
+      "D1",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_002",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "Wie hoch war der kumulative 'Netto-Cashflow aus Investitionstätigkeiten' über den Dreijahreszeitraum von 2012 bis 2014?",
+    "answer": [
+      [
+        "-635.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_003",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "Wie hoch war der Wert für 'Net income adjusted to reconcile net income to net cash provided by operating activities' für das Jahr, das den niedrigsten 'net cash provided by operating activities' auswies?",
+    "answer": [
+      [
+        "$ 697.2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_004",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "open_ended_reasoning",
+    "question": "Beschreiben Sie den jährlichen Trend für 'Netto-Cashflow aus operativer Tätigkeit' zwischen 2012 und 2014.",
+    "answer": [
+      [
+        "Der 'Netto-Cashflow aus operativer Tätigkeit' zeigte einen konsistenten und starken Aufwärtstrend und wuchs von 357,2 Mio. USD im Jahr 2012 auf 592,9 Mio. USD im Jahr 2013 und stieg weiter auf 669,5 Mio. USD im Jahr 2014 an. Dies deutet auf eine stetige Verbesserung der Fähigkeit des Unternehmens hin, aus seinen Kerngeschäftsaktivitäten über den Zeitraum hinweg Cash zu generieren."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_005",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "Identifizieren Sie die Cashflow-Aktivität, die im Jahr 2012 Barmittel (ein positiver Wert) bereitgestellt, aber sowohl 2013 als auch 2014 Barmittel verbraucht hat (ein negativer Wert).",
+    "answer": [
+      [
+        "net cash ( used in ) provided by financing activities"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_006",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "Welcher Prozentsatz des 'bereinigten Nettoergebnisses...' wurde im Jahr 2014 in 'Netto-Cashflow aus operativer Tätigkeit' umgewandelt? Geben Sie Ihre Antwort auf eine Dezimalstelle gerundet an.",
+    "answer": [
+      [
+        "80.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_007",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "Wenn die Größenordnung von 'Netto cash flow aus operativer Tätigkeit (Arbeitskapital)' im Jahr 2014 um 20% kleiner gewesen wäre (d. h. näher an Null), wie hoch wäre dann der neu berechnete 'Netto cash flow aus operativer Tätigkeit' für dieses Jahr gewesen?",
+    "answer": [
+      [
+        "$ 695.72"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_008",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "open_ended_reasoning",
+    "question": "Welche scheinbare Beziehung besteht basierend auf den bereitgestellten Daten zwischen dem 'Nettoergebnis' und dem 'Netto-Cashflow, der im Working Capital gebunden ist'?",
+    "answer": [
+      [
+        "Es gibt keine konsistente lineare Korrelation. Zum Beispiel sank von 2012 bis 2013 das Nettoergebnis, während das im Working Capital gebundene Kapital ebenfalls drastisch sank (von -293,2 auf -9,6). Von 2013 bis 2014 stieg jedoch das Nettoergebnis erheblich an, und auch das im Working Capital gebundene Kapital stieg an (von -9,6 auf -131,1). Dies deutet darauf hin, dass ein Wachstum des Einkommens eine größere Investition in das Working Capital erfordern könnte, aber die Beziehung ist von Jahr zu Jahr nicht stabil."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2",
+      "D1",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_009",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "open_ended_reasoning",
+    "question": "Welche Formatierungskonvention wird in der Tabelle verwendet, um negative Finanzwerte oder Cash-Abflüsse darzustellen?",
+    "answer": [
+      [
+        "Negative Werte werden hauptsächlich durch ein führendes Minuszeichen gekennzeichnet. In vielen Fällen folgt darauf der absolute Wert der Zahl in Klammern, was als redundante visuelle Bestätigung des negativen Betrags dient (z. B. '-131.1 ( 131.1 )')."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "D3",
+      "B5",
+      "C5",
+      "D5",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_010",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "Welcher spezifische Datenpunkt für 'Netto-Cashflow (verwendet für) aus Finanzierungstätigkeiten' stellt im Vergleich zu den anderen Jahren einen signifikanten Ausreißer dar?",
+    "answer": [
+      [
+        "The value for 2013, which is '-1212.3 ( 1212.3 )'"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_011",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "Was ist der Netto-Cashflow aus Investitionstätigkeiten im Jahr 2014?",
+    "answer": [
+      [
+        "-200.8 ( 200.8 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

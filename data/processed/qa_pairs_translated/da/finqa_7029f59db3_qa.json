@@ -1,0 +1,258 @@
+[
+  {
+    "question_id": "finqa_7029f59db3_001",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Hvilken reaktortype har en højere gennemsnitlig kapacitet, og hvad er den gennemsnitlige kapacitet i MW?",
+    "answer": [
+      [
+        "Pressurized Water",
+        "960"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_002",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Hvad er den samlede kombinerede kapacitet (i MW) for alle kraftværker beliggende i staten New York (NY)?",
+    "answer": [
+      [
+        "2907"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "F2",
+      "E3",
+      "F3",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7029f59db3_003",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Hvad er udløbsdatoen for licensen for anlægget på 'nyiso'-markedet, som har været i drift længst?",
+    "answer": [
+      [
+        "2013 ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B2",
+      "B3",
+      "B4",
+      "C2",
+      "C3",
+      "C4",
+      "G4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_004",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Beregn det gennemsnitlige antal år mellem 'i drift-år' og 'licensudløbsdato' for alle kraftværker, der blev erhvervet efter år 2000.",
+    "answer": [
+      [
+        "52.25"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "G4",
+      "C5",
+      "D5",
+      "G5",
+      "C6",
+      "D6",
+      "G6",
+      "C3",
+      "D3",
+      "G3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_005",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Angiv navnene på alle kraftværker, der ikke er på 'nyiso'-markedet og har en kapacitet større end 700 MW.",
+    "answer": [
+      [
+        "palisades ( e )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "F1",
+      "A5",
+      "B5",
+      "F5",
+      "A6",
+      "B6",
+      "F6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_006",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Hvilken andel af den samlede kapacitet for alle anførte kraftværker bidrager kraftværker med kogende vand-reaktorer med? Udtryk svaret som en procentdel afrundet til to decimaler.",
+    "answer": [
+      [
+        "42.53%"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7029f59db3_007",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Hvis kapaciteten af alle 'pressurized water'-reaktorer blev opgraderet med 10%, hvad ville den nye samlede kapacitet for 'indian point 3 ( c )'-anlægget være?",
+    "answer": [
+      [
+        "1145.1 mw"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "F3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_008",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyser forholdet mellem året, hvor et kraftværk blev erhvervet, og dets licenserede driftsvarighed (licensudløbsår minus driftsår). Er der et genkendeligt mønster?",
+    "answer": [
+      [
+        "Der er ingen klar sammenhæng mellem erhvervelsesåret og den licenserede driftsvarighed. Varighederne er: Pilgrim (erhvervet 1999) - 60 år, FitzPatrick (2000) - 59 år, Indian Point 3 (2000) - 39 år, Indian Point 2 (2001) - 39 år, Vermont Yankee (2002) - 60 år og Palisades (2007) - 60 år. Kraftværker erhvervet for nylig (f.eks. Palisades i 2007) har lange varigheder (60 år), mens nogle erhvervet tidligere (f.eks. Indian Point-kraftværkerne i 2000/2001) har meget kortere varigheder (39 år). Varigheden synes at være uafhængig af erhvervelsesdatoen."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "G1",
+      "C2",
+      "D2",
+      "G2",
+      "C3",
+      "D3",
+      "G3",
+      "C4",
+      "D4",
+      "G4",
+      "C5",
+      "D5",
+      "G5",
+      "C6",
+      "D6",
+      "G6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7029f59db3_009",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Hvilket kraftværk har et 'i drift'-år, der er den største outlier sammenlignet med gennemsnittet af 'i drift'-år for andre anlæg på samme lokation?",
+    "answer": [
+      [
+        "fitzpatrick ( b )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "A3",
+      "C3",
+      "E3",
+      "A4",
+      "C4",
+      "E4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7029f59db3_010",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Eksklusive kolonnen 'capacity - reactor type', hvilke to kolonner i datasættet indeholder datafelter med parentetiske kvalifikatorer, hvilket tyder på, at de kan linke til fodnoter eller yderligere detaljer, der ikke er til stede i tabellen?",
+    "answer": [
+      [
+        "power plant",
+        "license expiration date"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_011",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Hvilket kraftværk blev erhvervet mest for nylig?",
+    "answer": [
+      [
+        "Palisades"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  }
+]

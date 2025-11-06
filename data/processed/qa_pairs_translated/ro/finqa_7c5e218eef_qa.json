@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "finqa_7c5e218eef_001",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Care categorie de cheltuieli a înregistrat cea mai mare modificare absolută de la an la an, în dolari, indiferent dacă a fost o creștere sau o scădere?",
+    "answer": [
+      [
+        "loss on datacenter and related legal fees"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_002",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Care este suma tuturor reducerilor de cheltuieli (modificări negative) raportate în milioane de dolari?",
+    "answer": [
+      [
+        "-23.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_003",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Care a fost modificarea totală în dolari pentru categoriile de cheltuieli care au reprezentat fiecare o creștere de 2% ca procent din cheltuielile din 2015?",
+    "answer": [
+      [
+        "53.0"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_004",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "open_ended_reasoning",
+    "question": "Pe baza cifrelor totale, care a fost tendința financiară generală pentru aceste categorii de cheltuieli de la an la an? Justificați răspunsul dumneavoastră.",
+    "answer": [
+      [
+        "Tendința financiară generală a fost o creștere a costurilor. Acest lucru este evidențiat de rândul 'total', care arată o modificare netă pozitivă de la an la an de 54,4 milioane de dolari, corespunzând unei creșteri de 4% față de cheltuielile din 2015. Deși au existat unele reduceri de costuri, acestea au fost depășite semnificativ de creșterile de costuri din alte domenii."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_005",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Enumerați toate categoriile de cheltuieli care au înregistrat o modificare anuală pozitivă mai mare de 15 milioane de dolari.",
+    "answer": [
+      [
+        "loss on datacenter and related legal fees"
+      ],
+      [
+        "professional fees and outside services"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_006",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Calculați raportul dintre creșterea totală în dolari și scăderea totală absolută în dolari din elementele individuale de cheltuieli, rotunjit la două zecimale.",
+    "answer": [
+      [
+        "3.29:1"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_007",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Dacă 'fluctuația cursului valutar' ar fi fost o economie de cost de 13,2 milioane de dolari în loc de o creștere a costurilor, care ar fi fost noua modificare totală de la an la an?",
+    "answer": [
+      [
+        "$ 28.0"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_008",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "open_ended_reasoning",
+    "question": "Prin compararea categoriilor cu aceeași modificare procentuală (de exemplu, 2% sau 1%), ce se poate deduce despre relația dintre modificarea absolută în dolari și modificarea procentuală? Ce informații lipsesc pentru a confirma acest lucru?",
+    "answer": [
+      [
+        "Se poate deduce că modificarea absolută în dolari nu este direct proporțională cu modificarea procentuală în diferite categorii. De exemplu, 'pierderea pe centrul de date' (28,6 milioane de dolari) și 'onorariile profesionale' (24,4 milioane de dolari) au avut ambele o modificare de 2%, ceea ce implică faptul că cheltuielile lor de bază din 2015 erau diferite. Informația lipsă necesară pentru confirmare este valoarea reală a cheltuielilor din 2015 pentru fiecare categorie."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_009",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "open_ended_reasoning",
+    "question": "Ce celulă din coloana „schimbare ca procent din cheltuielile din 2015” conține date care sunt inconsistente cu tipul de date aparent al coloanei și care este valoarea anomală?",
+    "answer": [
+      [
+        "Celula C7, corespunzătoare „altor cheltuieli nete”, conține valoarea „2014”. Aceasta este o anomalie deoarece toate celelalte valori din coloană sunt procente sau numere care reprezintă procente, în timp ce „2014” pare a fi un an."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_010",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Modificarea anuală pentru „pierderea legată de centrul de date și taxele legale aferente” reprezintă cea mai mare creștere. Cu ce procent este această creștere mai mare decât a doua cea mai mare creștere („taxe profesionale și servicii externe”)? Rotunjiți la o zecimală.",
+    "answer": [
+      [
+        "17.2%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_011",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Care categorie de cheltuieli a înregistrat cea mai mare creștere de la an la an?",
+    "answer": [
+      [
+        "Loss on data center and related legal fees"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

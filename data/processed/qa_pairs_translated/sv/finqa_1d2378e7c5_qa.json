@@ -1,0 +1,215 @@
+[
+  {
+    "question_id": "finqa_1d2378e7c5_001",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "För den 31 december 2015, vilken regulatorisk metod, 'Avancerad' eller 'Standardiserad', resulterade i ett högre rapporterat 'Totalt kapital', och hur mycket i miljoner dollar?",
+    "answer": [
+      [
+        "Standardized approach",
+        "12558"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_002",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Vad var det genomsnittliga 'Tier 1 Capital' i miljoner dollar över alla fyra rapporterade kolumner?",
+    "answer": [
+      [
+        "156051"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_003",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Identifiera 'Totala riskvägda tillgångar' som motsvarar kolumnen med det lägsta 'Totala kapitaltäckningsgraden'.",
+    "answer": [
+      [
+        "1292605"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "B7",
+      "C7",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_004",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "Om de två sista kolumnerna representerar föregående års data, beskriv trenden år-över-år för \"Common Equity Tier 1 Capital Ratio\" under \"Standardized Approach\".",
+    "answer": [
+      [
+        "\"Common Equity Tier 1 Capital Ratio\" för \"Standardized Approach\" visade en positiv trend, en ökning med 1,51 procentenheter från 11,12 % föregående period till 12,63 % den 31 december 2015."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "E5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_005",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Vilka kapitaltäckningsgrader under '31 december 2015 Standardiserad metod' var under 15 %?",
+    "answer": [
+      [
+        "12.63% ( 12.63 % )"
+      ],
+      [
+        "14.11"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A6",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_006",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "För '31 december 2015 Avancerade metoder', vilken andel av 'Totalt kapital' hänförs till 'Tier 2-kapital'? (Notera: Tier 2-kapital = Totalt kapital - Tier 1-kapital)",
+    "answer": [
+      [
+        "11.85%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_007",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Om 'Total riskvägda tillgångar' enligt '31 december 2015 Standardiserat tillvägagångssätt' hypotetiskt vore 10 % högre, vad skulle den nya 'Tier 1-kapitalrelationen' vara, förutsatt att 'Tier 1-kapital' förblir konstant?",
+    "answer": [
+      [
+        "12.83"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_008",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "Vilket samband kan dras mellan 'Totala riskvägda tillgångar' och de kapitaltäckningsgrader som presenteras i tabellen? Använd datapunkter för att stödja din slutsats.",
+    "answer": [
+      [
+        "Det finns en omvänd korrelation mellan 'Totala riskvägda tillgångar' och kapitaltäckningsgraderna. När de riskvägda tillgångarna (nämnaren i kvotberäkningen) ökar, minskar kapitaltäckningsgraderna. Till exempel rapporterar kolumnen med de högsta tillgångarna (1 292 605 miljoner dollar) den lägsta 'Totala kapitaltäckningsgraden' (12,80), medan kolumnen med de lägsta tillgångarna (1 162 884 miljoner dollar) rapporterar den högsta 'Totala kapitaltäckningsgraden' (17,08)."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "B7",
+      "C7",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_009",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "Vilken finansiell metrik för den 31 december 2015 visar en ovanligt stor diskrepans mellan 'avancerade' och 'standardiserade' metoder, med tanke på att dess primära komponenter är identiska?",
+    "answer": [
+      [
+        "Total kapital visar en ovanligt stor diskrepans. Både eget kärnkapital och kärnkapital har identiska värden under båda metoderna för 2015. Däremot skiljer sig det totala kapitalet med över 12 miljarder dollar (186 097 miljoner dollar jämfört med 198 655 miljoner dollar), vilket indikerar att hela skillnaden beror på beräkningen av kapital tillägg 2, vilket gör det till en avvikare."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_010",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Trots de inkonsekventa kolumnrubrikerna för de två visade perioderna, vilka kapitalbelopp (i miljoner dollar) rapporteras med identiska värden för både 'avancerade' och 'standardiserade' metoder inom respektive period?",
+    "answer": [
+      [
+        "Common equity tier 1 capital"
+      ],
+      [
+        "Tier 1 capital"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_011",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "Om bankens totala riskvägda tillgångar enligt den avancerade metoden skulle öka medan det totala kapitalet förblev konstant, vad skulle hända med den totala kapitalrelationen?",
+    "answer": [
+      [
+        "Den totala kapitalrelationen skulle minska eftersom högre riskvägda tillgångar med oförändrat kapital minskar kapitalrelationen."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  }
+]

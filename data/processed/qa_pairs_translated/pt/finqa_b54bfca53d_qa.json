@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_b54bfca53d_001",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Qual obrigação contratual, excluindo o total, tem o maior valor devido no período '1-3 anos'?",
+    "answer": [
+      [
+        "purchase obligations ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_002",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Ao somar os pagamentos de cada obrigação individual, confirme se o total geral para o período de '1-3 anos' listado na linha 'total de pagamentos de obrigações contratuais' está correto.",
+    "answer": [
+      [
+        "Sim, o total geral está correto. A soma das obrigações individuais para o período de '1-3 anos' é $188,3 + $316,4 + $37,1 + $3779,4, o que totaliza $4321,2, correspondendo ao valor na linha total."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_003",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Para a obrigação contratual com o menor valor total de pagamento, qual percentual do seu total é devido no período de '1-3 anos'?",
+    "answer": [
+      [
+        "39.81%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "D3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_004",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Descreva o cronograma de pagamentos para 'dívida de longo prazo, incluindo arrendamentos de capital' nos períodos especificados. É antecipado, postergado ou distribuído uniformemente?",
+    "answer": [
+      [
+        "O cronograma de pagamentos da dívida de longo prazo é fortemente postergado. Os pagamentos começam pequenos em US$ 34,5 milhões ('menos de 1 ano'), aumentam gradualmente nos períodos de 1-3 e 3-5 anos, e culminam em um pagamento muito grande de US$ 2160,2 milhões no período 'mais de 5 anos', que representa mais de 78% da obrigação total."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "E1",
+      "F1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_005",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Liste todas as categorias de obrigações em que o pagamento devido em 'menos de 1 ano' é inferior ao pagamento devido em '1-3 anos'.",
+    "answer": [
+      [
+        "long-term debt including capital leases"
+      ],
+      [
+        "interest payments on long-term debt ( b )"
+      ],
+      [
+        "operating leases"
+      ],
+      [
+        "purchase obligations ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_006",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Qual porcentagem da 'dívida de longo prazo, incluindo arrendamentos de capital' está programada para ser paga em mais de 5 anos?",
+    "answer": [
+      [
+        "78.55%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "F1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_007",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Se uma nova política exigisse que todas as 'obrigações de compra' devidas em '1-3 anos' fossem pagas imediatamente (no período de 'menos de 1 ano'), qual seria o novo total para os pagamentos de 'menos de 1 ano' em obrigações contratuais?",
+    "answer": [
+      [
+        "$6715.0 million"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_008",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "A tabela contém um problema de integridade de dados onde a soma dos pagamentos periódicos para um tipo de obrigação não corresponde ao seu total declarado. Identifique essa obrigação e calcule a discrepância.",
+    "answer": [
+      [
+        "A linha 'purchase obligations ( c )' (obrigações de compra) apresenta um problema de integridade de dados. A soma dos seus pagamentos periódicos ($2709,5 + $3779,4 + $98,0 + $2212 = $8798,9 milhões) não corresponde ao seu total declarado de $6586,9 milhões. A discrepância é de $2212 milhões."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_009",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Olhando para o período de pagamento '3-5 anos', qual obrigação contratual tem o menor valor e poderia ser considerada um valor atípico em comparação com as outras na mesma coluna?",
+    "answer": [
+      [
+        "operating leases"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_010",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Existe uma relação consistente entre a magnitude de uma obrigação total e sua estrutura de pagamento (por exemplo, as obrigações maiores são sempre mais concentradas no final)? Justifique sua resposta com dados.",
+    "answer": [
+      [
+        "Não, não há uma relação consistente. A maior obrigação total, 'obrigações de compra' (US$ 6586,9 milhões), é fortemente concentrada no início, com a maioria vencendo em até 3 anos. Em contrapartida, a segunda maior, 'dívida de longo prazo' (US$ 2750,1 milhões), é fortemente concentrada no final, com o maior pagamento vencendo em mais de 5 anos. Isso indica que a estrutura de pagamento é específica do tipo de obrigação, não de seu valor total."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "F1",
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_011",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Qual é o total de pagamentos em milhões de obrigações contratuais devidas por período de 1 a 3 anos?",
+    "answer": [
+      [
+        "$4321.2"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

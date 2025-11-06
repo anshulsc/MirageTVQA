@@ -1,0 +1,249 @@
+[
+  {
+    "question_id": "finqa_d4ff6b23c2_001",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Tính toán tổng thay đổi ròng trong các lợi ích thuế chưa được công nhận cho năm 2016, dựa trên các hoạt động giao dịch được liệt kê giữa số dư đầu kỳ và cuối kỳ.",
+    "answer": [
+      [
+        "64"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_002",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Những khoản mục nào thể hiện sự thay đổi tài chính có giá trị tuyệt đối nhỏ hơn vào năm 2017 so với sự thay đổi tương ứng vào năm 2016?",
+    "answer": [
+      [
+        "additions for tax positions related to prior years"
+      ],
+      [
+        "reductions for tax positions related to prior years"
+      ],
+      [
+        "reductions for settlements2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_003",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Bao nhiêu phần trăm của 'số dư ngày 31 tháng 12 năm 2017' sẽ KHÔNG ảnh hưởng đến thuế suất hiệu quả nếu được ghi nhận?",
+    "answer": [
+      [
+        "5.99%"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_004",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Tổng tất cả các khoản giảm trừ trong năm 2017 là bao nhiêu, trừ đi tổng tất cả các khoản giảm trừ trong năm 2016, bỏ qua giá trị không chuẩn trong mục 'giảm trừ do hết thời hiệu truy thu thuế' cho năm 2017?",
+    "answer": [
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_005",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Nếu 'tăng thêm cho các vị thế thuế liên quan đến các năm trước' vào năm 2017 khớp với số liệu của năm 2016, thì 'số dư vào ngày 31 tháng 12 năm 2017' đã điều chỉnh sẽ là bao nhiêu?",
+    "answer": [
+      [
+        "$ 1321"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_006",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Hãy xác định khoản mục duy nhất từ năm 2017 có sự sai lệch lớn nhất về quy mô tài chính khi so sánh với tất cả các khoản cộng và trừ khác trong cả hai năm.",
+    "answer": [
+      [
+        "additions for tax positions related to current year"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_007",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Dựa trên bảng đối chiếu, 'số dư ngày 31 tháng 12 năm 2017' được tính từ số dư ban đầu cộng với các khoản bổ sung và giảm trừ sau đó. Ô nào trong cột năm 2017 chứa một giá trị không nhất quán với phép tính này và có vẻ thừa?",
+    "answer": [
+      [
+        "B6"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_008",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Liệt kê tất cả các hoạt động trong năm 2017, bao gồm cả các khoản tăng và giảm, có giá trị tuyệt đối lớn hơn 15 triệu đô la.",
+    "answer": [
+      [
+        "additions for tax positions related to current year"
+      ],
+      [
+        "additions for tax positions related to prior years"
+      ],
+      [
+        "reductions for tax positions related to prior years"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_009",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "Phân tích sự thay đổi về tổng số dư từ cuối năm 2016 đến cuối năm 2017. Đâu là những yếu tố chính dẫn đến sự thay đổi này?",
+    "answer": [
+      [
+        "Tổng số dư của các khoản thuế chưa được ghi nhận đã tăng 254 triệu USD, từ 1032 triệu USD vào cuối năm 2016 lên 1286 triệu USD vào cuối năm 2017. Yếu tố chính thúc đẩy sự gia tăng này là '270 triệu USD' từ 'các khoản bổ sung cho các vị thế thuế liên quan đến năm hiện tại' trong năm 2017, con số này lớn hơn đáng kể so với bất kỳ khoản bổ sung hoặc giảm trừ đơn lẻ nào khác trong cả hai năm. Mặc dù có các khoản giảm trừ với tổng số tiền 36 triệu USD vào năm 2017, nhưng chúng không đủ để bù đắp cho các khoản bổ sung lớn."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_010",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "Dựa trên tỷ lệ số dư cuối năm có thể ảnh hưởng đến thuế suất hiệu quả, liệu có bằng chứng nào về sự thay đổi đáng kể trong thành phần các khoản thuế chưa được ghi nhận giữa năm 2016 và 2017 không?",
+    "answer": [
+      [
+        "Không có bằng chứng về sự thay đổi đáng kể trong thành phần. Năm 2016, phần có thể ảnh hưởng đến thuế suất hiệu quả là 963 triệu USD trên tổng số dư 1032 triệu USD, tương đương 93,3%. Năm 2017, phần này là 1209 triệu USD trên tổng số dư 1286 triệu USD, tương đương 94,0%. Tỷ lệ này vẫn rất ổn định, cho thấy sự nhất quán trong thành phần của các vị thế thuế cơ bản qua các năm mặc dù số dư tổng thể tăng lên."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_011",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "Tổng số dư các vị thế thuế đã thay đổi như thế nào từ năm 2016 đến năm 2017, và những yếu tố nào đã góp phần vào sự thay đổi này?",
+    "answer": [
+      [
+        "Tổng số dư các vị thế thuế đã tăng từ 1.032 triệu USD vào năm 2016 lên 1.286 triệu USD vào năm 2017. Sự gia tăng này chủ yếu là do các khoản bổ sung cho các vị thế thuế của năm hiện tại (+$270 triệu) và các vị thế thuế của các năm trước (+$20 triệu), một phần được bù đắp bởi các khoản giảm trừ cho các vị thế của năm trước (-$27 triệu) và các khoản thanh toán (-$9 triệu)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "question_id": "finqa_05c720e66d_001",
+    "table_id": "finqa_05c720e66d",
+    "question_type": "value",
+    "question": "Яка категорія витрат зазнала найбільшого абсолютного зменшення вартості між 2017 та 2018 роками?",
+    "answer": [
+      [
+        "amortization of deferred cash awards deferred cash stock units and performance stock units"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_05c720e66d_002",
+    "table_id": "finqa_05c720e66d",
+    "question_type": "value",
+    "question": "Якою була сукупна загальна вартість усіх витрат, пов'язаних з \"амортизацією\", у 2016 році?",
+    "answer": [
+      [
+        "845"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_05c720e66d_003",
+    "table_id": "finqa_05c720e66d",
+    "question_type": "value",
+    "question": "У рік з найвищою загальною сумою витрат, яка була найбільшою окремою категорією витрат за цей рік?",
+    "answer": [
+      [
+        "other variable incentive compensation"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "D6",
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_05c720e66d_004",
+    "table_id": "finqa_05c720e66d",
+    "question_type": "open_ended_reasoning",
+    "question": "Опишіть динаміку \"амортизації обмежених та відстрочених акцій\" за роками з 2016 по 2018.",
+    "answer": [
+      [
+        "\"Амортизація обмежених та відстрочених акцій\" демонструвала стабільну тенденцію до зниження з 2016 по 2018 рік. Вона розпочалася з 509 мільйонів доларів у 2016 році, зменшилася до 474 мільйонів доларів у 2017 році та впала далі до 435 мільйонів доларів у 2018 році."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_05c720e66d_005",
+    "table_id": "finqa_05c720e66d",
+    "question_type": "value",
+    "question": "Перерахуйте всі категорії витрат, які перевищували 600 мільйонів доларів у 2017 році ТА також зросли у вартості з 2016 по 2017 рік.",
+    "answer": [
+      [
+        "charges for estimated awards to retirement-eligible employees"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_05c720e66d_006",
+    "table_id": "finqa_05c720e66d",
+    "question_type": "value",
+    "question": "Який відсоток від загальної суми витрат у 2018 році було віднесено на «нарахування за очікувані винагороди для співробітників, які мають право на пенсію»?",
+    "answer": [
+      [
+        "33.10%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_05c720e66d_007",
+    "table_id": "finqa_05c720e66d",
+    "question_type": "value",
+    "question": "Якби «інша змінна винагорода» у 2018 році була на 10% нижчою, якою була б нова загальна сума витрат за 2018 рік?",
+    "answer": [
+      [
+        "$ 1957"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_05c720e66d_008",
+    "table_id": "finqa_05c720e66d",
+    "question_type": "open_ended_reasoning",
+    "question": "Чи корелює динаміка загальних витрат з 2016 по 2018 рік з динамікою \"іншої змінної винагороди\" за той самий період? Поясніть своє обґрунтування.",
+    "answer": [
+      [
+        "Ні, динаміки не корелюють. \"Інша змінна винагорода\" демонструє послідовне зниження з 2016 року (710 млн доларів) до 2017 року (694 млн доларів) до 2018 року (640 млн доларів). Натомість, \"загальні\" витрати зросли з 2016 року (2183 млн доларів) до 2017 року (2251 млн доларів) перед зниженням у 2018 році (2021 млн доларів). Розбіжність у 2016-2017 роках свідчить про відсутність кореляції."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_05c720e66d_009",
+    "table_id": "finqa_05c720e66d",
+    "question_type": "open_ended_reasoning",
+    "question": "Підтвердьте, чи є надана сума 'загалом' точною, шляхом ручного додавання окремих статей витрат за 2018 рік.",
+    "answer": [
+      [
+        "Так, загальна сума за 2018 рік є точною. Сума окремих категорій витрат ($669 + $202 + $75 + $435 + $640) становить $2021, що відповідає значенню у рядку 'загалом'."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_05c720e66d_010",
+    "table_id": "finqa_05c720e66d",
+    "question_type": "open_ended_reasoning",
+    "question": "Яка категорія витрат зазнала найбільш різкої однорічної зміни (збільшення чи зменшення) за весь показаний період?",
+    "answer": [
+      [
+        "«амортизація відстрочених грошових винагород, відстрочених грошових одиниць акцій та одиниць акцій за результатами роботи» зазнала найбільш різкої зміни, знизившись на 152 мільйони доларів між 2017 роком (354 мільйони доларів) і 2018 роком (202 мільйони доларів). Це найбільша зміна за один рік серед усіх категорій."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "B1",
+      "C1",
+      "D1",
+      "B3",
+      "C3",
+      "D3",
+      "B4",
+      "C4",
+      "D4",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_05c720e66d_011",
+    "table_id": "finqa_05c720e66d",
+    "question_type": "value",
+    "question": "Якою є загальна компенсація (у мільйонах) для працівників у 2018 році?",
+    "answer": [
+      [
+        "$2,021"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

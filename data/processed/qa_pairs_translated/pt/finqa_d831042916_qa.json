@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "finqa_d831042916_001",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Em que ano a empresa teve o maior '(prejuízo) das operações continuadas'?",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_002",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Quais foram as despesas operacionais totais para o período de três anos de 2007 a 2009?",
+    "answer": [
+      [
+        "$3743"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d831042916_003",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Qual foi o valor da 'receita não de juros' no único ano em que a empresa reportou um 'lucro líquido (prejuízo)' positivo?",
+    "answer": [
+      [
+        "422"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "B12",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_004",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Descreva a tendência de 'receitas totais líquidas de despesas com juros' de 2007 a 2009.",
+    "answer": [
+      [
+        "A tendência foi avassaladoramente negativa e volátil. As receitas totais apresentaram uma melhora modesta de um prejuízo de US$ 2310 milhões em 2007 para um prejuízo de US$ 2258 milhões em 2008. No entanto, isso foi seguido por um declínio catastrófico em 2009, onde o prejuízo aumentou dramaticamente para US$ 10556 milhões, indicando uma grave desaceleração nas atividades centrais de geração de receita da empresa."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_005",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Liste os 'impostos sobre o rendimento (benefícios)' para todos os anos em que a '(perda) das operações continuadas' foi superior a $ 2.500 milhões.",
+    "answer": [
+      [
+        "-4369 ( 4369 )"
+      ],
+      [
+        "-1446 ( 1446 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "D7",
+      "B8",
+      "D8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_006",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Em 2009, qual porcentagem da 'receita total líquida de despesas com juros' foi composta por 'receita não relacionada a juros'?",
+    "answer": [
+      [
+        "84.25%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d831042916_007",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "Se as 'despesas operacionais totais' em 2008 tivessem aumentado em 20%, qual seria a nova '(perda) das operações continuadas antes dos impostos' para esse ano?",
+    "answer": [
+      [
+        "$ -2871 ( 2871 )"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_008",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Com base nos dados, existe uma correlação consistente entre 'despesas operacionais totais' mais baixas e 'lucro (prejuízo) líquido' mais alto?",
+    "answer": [
+      [
+        "Não, não se observa uma correlação consistente. Embora 2008 tenha tido as menores despesas operacionais (US$ 510 milhões) e o maior lucro líquido (US$ 1820 milhões), sugerindo uma relação inversa, este padrão é quebrado pelos outros anos. Em 2009, as despesas operacionais (US$ 1420 milhões) foram menores do que em 2007 (US$ 1813 milhões), mas 2009 registrou um prejuízo líquido drasticamente pior (-US$ 8051 milhões) em comparação com 2007 (-US$ 1968 milhões). Isso indica que outros fatores, como a severa queda nas receitas, tiveram um impacto muito maior no lucro líquido do que as despesas operacionais sozinhas."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "A12",
+      "B4",
+      "C4",
+      "D4",
+      "B12",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d831042916_009",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Examinando as últimas três linhas, o cálculo para 'lucro (prejuízo) líquido' é aplicado de forma consistente nos três anos? Explique sua constatação.",
+    "answer": [
+      [
+        "Não, o método de cálculo é inconsistente. Em 2007, 'lucro (prejuízo) líquido' (-$1968M) é derivado corretamente subtraindo-se 'lucro (prejuízo) líquido atribuível a interesses não controladores' ($2M) de 'lucro (prejuízo) líquido antes da atribuição...' (-$1966M). No entanto, tanto em 2008 quanto em 2009, o valor de 'lucro (prejuízo) líquido' é idêntico ao valor de 'lucro (prejuízo) líquido antes da atribuição...', ignorando incorretamente o montante atribuível a interesses não controladores. Isso aponta para uma inconsistência de relato na estrutura da tabela para 2008 e 2009."
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "A11",
+      "A12",
+      "B10",
+      "B11",
+      "B12",
+      "C10",
+      "C11",
+      "C12",
+      "D10",
+      "D11",
+      "D12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_010",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Qual item financeiro em 2008 representa um outlier positivo significativo em comparação com os outros anos e qual foi o seu efeito no resultado final da empresa?",
+    "answer": [
+      [
+        "O 'lucro (prejuízo) de operações descontinuadas líquido de impostos' em 2008, com um valor de US$ 4002 milhões, é um outlier positivo significativo em comparação com um prejuízo de US$ 445 milhões em 2009 e um ganho menor de US$ 708 milhões em 2007. Este outlier foi crucial, pois converteu um '(prejuízo) de operações contínuas' substancial de US$ 2182 milhões em um 'lucro líquido' positivo final de US$ 1820 milhões para aquele ano."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "A9",
+      "A12",
+      "B9",
+      "C8",
+      "C9",
+      "C12",
+      "D9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d831042916_011",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Considerando as operações contínuas e as operações descontinuadas, qual foi a variação total do lucro líquido de 2008 para 2009?",
+    "answer": [
+      [
+        "Em 2008, o lucro líquido foi de $1.820 milhões. Em 2009, o lucro líquido foi de $-8.051 milhões. A variação total do lucro líquido de 2008 para 2009 é uma diminuição de $9.871 milhões."
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "C12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

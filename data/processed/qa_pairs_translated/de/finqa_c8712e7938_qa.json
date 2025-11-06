@@ -1,0 +1,204 @@
+[
+  {
+    "question_id": "finqa_c8712e7938_001",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "Beschreiben Sie den Trend des 'net loss as reported' (Nettoverlust laut Bericht) von 2003 bis 2005.",
+    "answer": [
+      [
+        "Der 'net loss as reported' zeigt einen konsistenten Abwärtstrend, was auf eine finanzielle Verbesserung hindeutet. Der Verlust sank von 325.321 $ im Jahr 2003 auf 247.587 $ im Jahr 2004 und weiter auf 171.590 $ im Jahr 2005."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_002",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "In welchem Jahr war die absolute Differenz zwischen dem 'Pro-forma-Nettoverlust' und dem 'gemeldeten Nettoverlust' am größten?",
+    "answer": [
+      [
+        "2003"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B4",
+      "C1",
+      "C4",
+      "D1",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_003",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "Wie hoch war die gesamte 'aktienbasierte Vergütung für Mitarbeiter' über alle drei dargestellten Jahre hinweg?",
+    "answer": [
+      [
+        "11478"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_c8712e7938_004",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "Für das Jahr mit dem kleinsten 'nettoverlust je aktie (berichtigt)' in absoluten Zahlen, wie hoch war das Verhältnis des absoluten 'pro-forma-nettoverlusts' zum absoluten 'gemeldeten nettoverlust'? Runden Sie auf drei Dezimalstellen.",
+    "answer": [
+      [
+        "1.088"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "B1",
+      "B4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_005",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "Listen Sie die Jahre auf, in denen der absolute Wert für 'Gesamte aktienbasierte Vergütungskosten für Mitarbeiter, ermittelt nach der Fair-Value-Methode' größer als 25.000 $ war.",
+    "answer": [
+      [
+        "2003"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_006",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "Welchen Prozentsatz des absoluten 'Pro-forma-Nettoverlusts' kann im Jahr 2004 der Anpassung für die 'Gesamten aktienbasierten Vergütungskosten für Mitarbeiter' zugerechnet werden? Runden Sie auf zwei Dezimalstellen.",
+    "answer": [
+      [
+        "8.88%"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_c8712e7938_007",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "Wenn die im Jahr 2005 zurückgebuchten 'Aufwendungen für aktienbasierte Vergütung von Mitarbeitern' 50 % niedriger gewesen wären, wie hoch wäre dann der neue 'pro-forma Nettoverlust' für dieses Jahr gewesen?",
+    "answer": [
+      [
+        "$ -190276 ( 190276 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_008",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "Welcher Ausgabenposten ('hinzufügen' oder 'abziehen') zeigte die drastischste Veränderung von Jahr zu Jahr in Prozent, und zwischen welchen beiden Jahren trat sie auf?",
+    "answer": [
+      [
+        "Der Posten 'Hinzufügen: Aktiengeschäftsbedingte Aufwendungen für Mitarbeitervergütungen' zeigte die drastischste Veränderung. Er stieg um über 209 % von 2.297 $ im Jahr 2004 auf 7.104 $ im Jahr 2005, was einen signifikanten Ausreißer im Vergleich zu anderen Veränderungen von Jahr zu Jahr in der Tabelle darstellt."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_c8712e7938_009",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "Wie ist die Beziehung zwischen dem \"net loss as reported\" und dem \"pro-forma net loss\" über die drei Jahre hinweg?",
+    "answer": [
+      [
+        "Es besteht eine direkte und konsistente Beziehung, bei der der \"pro-forma net loss\" in jedem Jahr immer größer ist als der \"net loss as reported\". Beide Kennzahlen zeigen den gleichen Trend der Verbesserung (abnehmender Verlust) von 2003 bis 2005, was darauf hindeutet, dass Anpassungen der aktienbasierten Vergütung den berechneten Verlust zwar erhöhen, der zugrunde liegende Trend der Geschäftsleistung jedoch bei beiden Maßnahmen konsistent ist."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B4",
+      "C1",
+      "C4",
+      "D1",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_c8712e7938_010",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "Welche arithmetische Operation verbindet laut Tabellenstruktur den 'Net Loss as Reported', den 'Add'-Posten und den 'Less'-Posten mit dem 'Pro-forma Net Loss'? Überprüfen Sie dies anhand der Daten von 2003.",
+    "answer": [
+      [
+        "Die Formel lautet: ('Net Loss as Reported') + ('Add: Stock-based Employee Compensation Expense...') - ('Total Stock-based Employee Compensation Expense...'). Unter Verwendung der Daten von 2003: (-325321) + (2077) - (31156) = -354400, was dem 'Pro-forma Net Loss' für dieses Jahr entspricht."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_011",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "Wie hat sich der ausgewiesene Nettoverlust von 2003 bis 2005 verändert?",
+    "answer": [
+      [
+        "Der ausgewiesene Nettoverlust verringerte sich von 325.321 US-Dollar im Jahr 2003 auf 171.590 US-Dollar im Jahr 2005."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_1333011494_001",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Aling property ang may pinakamataas na halaga ng 'building'?",
+    "answer": [
+      [
+        "1515 broadway"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "B2",
+      "C2",
+      "D2",
+      "F2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_002",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Ano ang kabuuang 'purchase price allocation' para sa lahat ng mga property na nakalista sa talahanayan?",
+    "answer": [
+      [
+        "2097772"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_1333011494_003",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Ano ang 'net consideration funded by us at closing' para sa property na may pinakamababang halaga ng 'acquired in-place leases'?",
+    "answer": [
+      [
+        "$ 81632"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "B11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_004",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Para sa '1515 broadway' na ari-arian, anong porsyento ng halaga ng 'assets acquired' nito ang nagmumula sa kabuuan ng mga halaga ng 'land' at 'building' nito?",
+    "answer": [
+      [
+        "89.65%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_1333011494_005",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Tukuyin ang lahat ng ari-arian kung saan ang 'utang na ipinapalagay' ay higit sa tatlong beses ng 'equity at/o investment sa utang na hawak'.",
+    "answer": [
+      [
+        "110 east 42nd street"
+      ],
+      [
+        "1515 broadway"
+      ]
+    ],
+    "evidence_cells": [
+      "D12",
+      "D13",
+      "E12",
+      "E13",
+      "F12",
+      "F13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_006",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Kung ang isang pagsasaayos sa accounting ay muling nag-evaluate sa halaga ng 'building' para sa '110 east 42nd street' na maging 10% na mas mababa, ano ang magiging bagong halaga ng 'assets acquired' para sa ari-arian na iyon?",
+    "answer": [
+      [
+        "81989"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_007",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "Ang 'fair value adjustment to mortgage note payable' para sa '1515 broadway' ay isang negatibong halaga habang ito ay isang positibo at pare-parehong halaga para sa karamihan ng iba pang mga ari-arian. Ano ang iminumungkahi ng malaking outlier na ito tungkol sa financing ng partikular na ari-arian na iyon?",
+    "answer": [
+      [
+        "Ang negatibong halaga na '-3693' para sa '1515 broadway' sa kategoryang 'fair value adjustment to mortgage note payable' ay isang natatanging outlier kumpara sa pare-parehong positibong halaga na '2014' para sa iba pang mga ari-arian. Ipinapahiwatig nito na ang mortgage note na nauugnay sa pagkuha ng 1515 Broadway ay may mga tuntunin na mas paborable kaysa sa umiiral na mga rate ng merkado sa panahon ng pagkuha, na lumilikha ng isang asset (isang negatibong pag-aayos ng pananagutan). Sa kabaligtaran, ang iba pang mga ari-arian ay maaaring may mga mortgage na nasa o malapit sa mga rate ng merkado, na nangangailangan ng isang karaniwan at nominal na pag-aayos."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_1333011494_008",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "Batay sa datos, mayroon bang direktang positibong ugnayan sa pagitan ng 'purchase price allocation' ng isang ari-arian at ng 'net consideration funded by us at closing' nito?",
+    "answer": [
+      [
+        "Hindi, walang direktang positibong ugnayan. Halimbawa, ang '180 maiden lane' ay may pangalawa sa pinakamataas na presyo ng pagbili ($442,325) ngunit ang net consideration nito ($81,835) ay halos kapareho ng sa '51 east 42nd street', na may mas mababang presyo ng pagbili ($80,000). Bukod pa rito, ang '1515 broadway' ay may pinakamataas na presyo ng pagbili sa malaking agwat ($1,234,000) ngunit hindi ang pinakamataas na net consideration. Ito ay nagpapahiwatig na ang iba pang mga kadahilanan, tulad ng 'debt assumed' (na napakataas para sa '1515 broadway'), ay malaki ang impluwensya sa net consideration na kinakailangan sa pagsasara."
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10",
+      "B11",
+      "C11",
+      "D11",
+      "E11",
+      "F11",
+      "B13",
+      "C13",
+      "D13",
+      "E13",
+      "F13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_1333011494_009",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Kalkulahin ang kabuuang 'liabilities assumed' para sa mga ari-arian na may 'above market lease value' na mas mababa sa $6,000.",
+    "answer": [
+      [
+        "33817"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "F3",
+      "B9",
+      "D9",
+      "F9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_010",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "Ang halagang '2014' ay paulit-ulit na lumalabas sa apat na magkakaibang kategoryang pinansyal, madalas para sa parehong mga ari-arian. Ano ang ipinapahiwatig ng pare-parehong paggamit ng tiyak na numerong ito, na hindi bilugan, sa iba't ibang konteksto tungkol sa kalikasan nito?",
+    "answer": [
+      [
+        "Ang halagang '2014' ay lumalabas sa 'other assets net of other liabilities', 'fair value adjustment to mortgage note payable', 'equity and/or debt investment held', at 'debt assumed'. Ang paulit-ulit na paggamit nito bilang medyo maliit at magkaparehong halaga sa iba't ibang kategorya at ari-arian ay nagpapahiwatig na hindi ito sinusukat na halaga sa merkado kundi sa halip ay isang nominal na placeholder, isang karaniwang minimum na halaga na ginagamit para sa mga layunin ng accounting, o posibleng isang reperensiya sa isang tiyak na kaganapan o taon ng regulasyon (hal., isang transaksyon mula 2014). Ito ay nagpapahiwatig ng isang standardized na entry sa halip na isang natatanging pagpapahalaga para sa bawat pagkakataon."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "A12",
+      "A13",
+      "B5",
+      "C5",
+      "D5",
+      "F5",
+      "B7",
+      "C7",
+      "D7",
+      "F7",
+      "B12",
+      "C12",
+      "B13",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_011",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Magkano ang lupa sa 1515 Broadway?",
+    "answer": [
+      [
+        "$462,700"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

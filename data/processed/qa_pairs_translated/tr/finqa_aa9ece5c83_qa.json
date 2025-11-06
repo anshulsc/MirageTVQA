@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_aa9ece5c83_001",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "2016 yılı 31 Aralık itibarıyla sona eren dönem için, B sütununda başlayan veya E sütununda başlayan veri setlerinden hangisinin 'ayarlanmış' işletme geliri daha yüksekti?",
+    "answer": [
+      [
+        "The data set starting in column B ($4050 million)"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "G1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_002",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "İlk veri setindeki (C sütunu) tüm dolara dayalı 'muhasebe ilkesi değişikliği' ayarlamalarının net toplamı nedir?",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_003",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Faiz geliri için 'muhasebe prensibi değişikliği' '-414 ( 414 )' olan veri kümesi için 'gönderildiği haliyle' düzeltilmiş FAVÖK marjı neydi?",
+    "answer": [
+      [
+        "30% ( 30 % )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "F2",
+      "A6",
+      "E6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_004",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "İlk veri seti (B-D sütunları) için, 'as filed' net gelirin 'as filed' düzeltilmiş FAVÖK'e oranı nedir, üç ondalık basamağa yuvarlanmış?",
+    "answer": [
+      [
+        "0.141"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_005",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "B'den D'ye kadar olan sütunlarda sunulan veri kümesi için, 'düzeltilmiş' değerin 'dosyalanmış' değerden daha az olduğu metriği belirleyin.",
+    "answer": [
+      [
+        "interest income"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A5",
+      "B5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_006",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "'Hizmet gelirinin yüzdesi olarak net gelir' satırlarında, hangi 'muhasebe ilkesindeki değişiklik' değeri anormal görünüyor ve neden?",
+    "answer": [
+      [
+        "C4 ve F4 hücrelerindeki 'muhasebe ilkesindeki değişiklik' değeri olan '2014% ( 2014 % )' anormaldir. Her iki veri seti için de, 'kaydedildiği gibi' ve 'ayarlanan' rakamlar arasında 'hizmet gelirinin yüzdesi olarak net gelir' değişmeden kalır (sırasıyla %5'ten %5'e ve %3'ten %3'e). Mantıksal bir değişiklik %0 olmalıydı, bu da '2014%'i açık bir aykırı değer yapıyor ve muhtemelen bir veri girişi hatasından kaynaklanıyor."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_007",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "İkinci veri setindeki faaliyet gelirinin 'muhasebe ilkesindeki değişim' tutarı gösterilen değer yerine 50 milyon dolar azalmış olsaydı, yeni 'düzeltilmiş' faaliyet geliri ne olurdu?",
+    "answer": [
+      [
+        "$ 2015"
+      ]
+    ],
+    "evidence_cells": [
+      "E1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_008",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "İşletme gelirine ilişkin muhasebe ayarlamaları ile ayarlanan FAVÖK arasında her iki veri setinde de tutarlı bir ilişki var mı?",
+    "answer": [
+      [
+        "Evet, tutarlı bir pozitif ilişki vardır. İlk veri setinde, işletme geliri için yapılan değişiklik (+$248) ayarlanan FAVÖK için yapılan değişiklikle (+$248) aynıdır. İkinci veri setinde, işletme geliri için yapılan değişiklik (+$414) yine ayarlanan FAVÖK için yapılan değişiklikle (+$414) aynıdır. Bu, işletme gelirini etkileyen muhasebe prensibi değişikliğinin aynı miktarda ayarlanan FAVÖK'e doğrudan yansıdığını göstermektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "F1",
+      "F5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_009",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "Sütun başlıklarındaki, tabloyu yorumlarken kafa karışıklığına yol açabilecek en önemli yapısal sorun nedir?",
+    "answer": [
+      [
+        "Temel yapısal sorun, üst düzey bir gruplama olmaksızın sütun başlıklarının tekrarlanmasıdır. 'year ended december 31 2016 as filed' (dosyalanmış 31 aralık 2016'da sona eren yıl) ve 'year ended december 31 2016 change in accounting principle' (muhasebe ilkesi değişikliği 31 aralık 2016'da sona eren yıl) başlıkları, iki farklı sütun seti için (B ve E; C ve F) kullanılmaktadır. Bu belirsizlik, kullanıcının açıkça belirtilmemiş olmasına rağmen, iki ayrı varlığın veya senaryonun karşılaştırıldığını varsaymasını gerektirir."
+      ]
+    ],
+    "evidence_cells": [],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_010",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "'Ayarlanmış' değerleri kullanarak, her iki veri seti için ima edilen hizmet gelirini hesaplayın (Ayarlanmış FAVÖK / Ayarlanmış FAVÖK marjı) ve iki değer arasındaki farkı milyon olarak raporlayın (ilk set eksi ikinci set), en yakın tam milyona yuvarlanmış.",
+    "answer": [
+      [
+        "$2,814"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D6",
+      "G5",
+      "G6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_011",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Faaliyet gelirleri (milyon cinsinden), ilk veri setinde 'As Filed'ten 'As Adjusted'e yapılan ayarlamadan sonra ne kadar değişti?",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

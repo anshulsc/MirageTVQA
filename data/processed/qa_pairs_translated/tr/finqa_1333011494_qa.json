@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_1333011494_001",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "'Bina' değeri en yüksek olan mülk hangisidir?",
+    "answer": [
+      [
+        "1515 broadway"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "B2",
+      "C2",
+      "D2",
+      "F2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_002",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Tabloda listelenen tüm mülkler için toplam 'satın alma fiyatı tahsisi' nedir?",
+    "answer": [
+      [
+        "2097772"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_1333011494_003",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Kapanışta tarafımızca finanse edilen 'net tahsilat' değeri, 'edinilen yerinde kiralamalar' değeri en düşük olan mülk için nedir?",
+    "answer": [
+      [
+        "$ 81632"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "B11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_004",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "'1515 broadway' gayrimenkulü için, 'edinim yoluyla elde edilen varlıklar' değerinin yüzde kaçı 'arsa' ve 'bina' değerlerinin toplamından gelmektedir?",
+    "answer": [
+      [
+        "89.65%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_1333011494_005",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Borç üstlenilen miktarının, elde tutulan öz sermaye ve/veya borç yatırımının üç katından fazla olduğu tüm özellikleri belirtin.",
+    "answer": [
+      [
+        "110 east 42nd street"
+      ],
+      [
+        "1515 broadway"
+      ]
+    ],
+    "evidence_cells": [
+      "D12",
+      "D13",
+      "E12",
+      "E13",
+      "F12",
+      "F13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_006",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "'110 east 42nd street' adresindeki 'bina' değerinin %10 daha düşük olacağı şekilde bir muhasebe ayarlaması yapılırsa, o mülk için yeni 'edinilen varlıklar' değeri ne olur?",
+    "answer": [
+      [
+        "81989"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_007",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "'1515 broadway' adresindeki 'ipotek teminatlı borç senedi için gerçeğe uygun değer ayarlaması' değeri, diğer çoğu mülk için olumlu ve standart bir değer iken negatif. Bu önemli aykırı değer, o mülke özgü finansman hakkında ne gibi bir ipucu veriyor?",
+    "answer": [
+      [
+        "Meta verileri, bu sorguya yönelik çeviri için yeterli değil. Lütfen ilgili meta verileri sağlayın."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_1333011494_008",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "Verilere göre, bir gayrimenkulün 'satın alma fiyatı tahsisi' ile 'kapanışta tarafımızca finanse edilen net tutar' arasında doğrudan pozitif bir ilişki var mıdır?",
+    "answer": [
+      [
+        "Hayır, doğrudan pozitif bir ilişki yoktur. Örneğin, '180 maiden lane'in satın alma fiyatı ikinci en yüksek ($442.325) olmasına rağmen, net tutarı ($81.835), çok daha düşük bir satın alma fiyatına sahip ('51 east 42nd street', $80.000) olanla neredeyse aynıdır. Dahası, '1515 broadway'in satın alma fiyatı büyük bir farkla en yüksek ($1.234.000) ancak kapanışta net tutarı en yüksek değil. Bu durum, 'devralınan borç' gibi başka faktörlerin ('1515 broadway' için çok yüksek olan) kapanışta gereken net tutarı önemli ölçüde etkilediğini göstermektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10",
+      "B11",
+      "C11",
+      "D11",
+      "E11",
+      "F11",
+      "B13",
+      "C13",
+      "D13",
+      "E13",
+      "F13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_1333011494_009",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "'6.000$' altında 'piyasa üstü kira değerine' sahip olan gayrimenkullerin toplam 'üstlenilen yükümlülüklerini' hesaplayın.",
+    "answer": [
+      [
+        "33817"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "F3",
+      "B9",
+      "D9",
+      "F9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_010",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "Dört farklı finansal kategoride, genellikle aynı mülkler için tekrarlanan '2014' değeri, farklı bağlamlarda bu özel, yuvarlak olmayan sayının tutarlı kullanımı, doğası hakkında neyi düşündürmektedir?",
+    "answer": [
+      [
+        "'2014' değeri 'diğer varlıklar eksi diğer yükümlülükler', 'ipotek senet borcuna yapılan gerçeğe uygun değer ayarlaması', 'tutulan öz sermaye ve/veya borç yatırımı' ve 'üstlenilen borç' kategorilerinde görünmektedir. Farklı kategoriler ve mülkler arasında nispeten küçük, aynı değer olarak tekrarlanan kullanımı, bunun ölçülen bir piyasa değeri olmadığını, daha ziyade muhasebe amaçları için kullanılan nominal bir yer tutucu, standart bir minimum değer veya muhtemelen belirli bir olaya veya düzenleme yılına (örneğin, 2014'ten bir işlem) bir gönderme olduğunu düşündürmektedir. Her örnek için benzersiz bir değerlemeden ziyade standartlaştırılmış bir girişi ifade eder."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "A12",
+      "A13",
+      "B5",
+      "C5",
+      "D5",
+      "F5",
+      "B7",
+      "C7",
+      "D7",
+      "F7",
+      "B12",
+      "C12",
+      "B13",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_011",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "1515 Broadway'deki arazinin maliyeti nedir?",
+    "answer": [
+      [
+        "$462,700"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,249 @@
+[
+  {
+    "question_id": "finqa_d4ff6b23c2_001",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Berechnen Sie die gesamte Nettoänderung bei nicht anerkannten Steuervorteilen für das Jahr 2016, basierend auf den Transaktionsaktivitäten, die zwischen den Anfangs- und Endsalden aufgeführt sind.",
+    "answer": [
+      [
+        "64"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_002",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Welche Posten stellen eine geringere absolute finanzielle Veränderung im Jahr 2017 im Vergleich zu ihrer entsprechenden Veränderung im Jahr 2016 dar?",
+    "answer": [
+      [
+        "additions for tax positions related to prior years"
+      ],
+      [
+        "reductions for tax positions related to prior years"
+      ],
+      [
+        "reductions for settlements2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_003",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Welcher Prozentsatz des 'Saldos zum 31. Dezember 2017' würde die effektive Steuerrate bei Anerkennung NICHT beeinflussen?",
+    "answer": [
+      [
+        "5.99%"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_004",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Was war die Differenz zwischen der Summe aller Reduzierungen im Jahr 2017 und der Summe aller Reduzierungen im Jahr 2016, unter Nichtbeachtung des nicht standardmäßigen Wertes bei 'Reduzierungen aufgrund des Ablaufs von Verjährungsfristen' für 2017?",
+    "answer": [
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_005",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Wenn die 'Zuschüsse für Steuerpositionen aus Vorjahren' im Jahr 2017 dem Betrag von 2016 entsprochen hätten, wie hoch wäre der angepasste 'Saldo zum 31. Dezember 2017' gewesen?",
+    "answer": [
+      [
+        "$ 1321"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_006",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Identifizieren Sie den einzelnen Posten aus dem Jahr 2017, der im Vergleich zu allen anderen Zu- und Abgängen in beiden Jahren der bedeutendste Ausreißer in Bezug auf die finanzielle Größenordnung war.",
+    "answer": [
+      [
+        "additions for tax positions related to current year"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_007",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Basierend auf der Aufschlüsselung berechnet sich der 'Saldo zum 31. Dezember 2017' aus dem Anfangssaldo zuzüglich nachfolgender Zu- und Abgänge. Welche Zelle in der Spalte für 2017 enthält einen Wert, der nicht mit dieser Berechnung übereinstimmt und überflüssig erscheint?",
+    "answer": [
+      [
+        "B6"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_008",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "value",
+    "question": "Listen Sie alle Aktivitäten im Jahr 2017 auf, sowohl Hinzufügungen als auch Reduzierungen, deren absoluter Wert größer als 15 Millionen US-Dollar war.",
+    "answer": [
+      [
+        "additions for tax positions related to current year"
+      ],
+      [
+        "additions for tax positions related to prior years"
+      ],
+      [
+        "reductions for tax positions related to prior years"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_009",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "Analysieren Sie die Veränderung des Gesamtbetrags vom Ende 2016 bis zum Ende 2017. Was waren die Hauptursachen für diese Veränderung?",
+    "answer": [
+      [
+        "Der Gesamtbetrag der nicht anerkannten Steuervorteile stieg um 254 Mio. USD, von 1032 Mio. USD Ende 2016 auf 1286 Mio. USD Ende 2017. Haupttreiber dieses Anstiegs waren die '270 Mio. USD an Hinzufügungen für Steuerpositionen im Zusammenhang mit dem aktuellen Jahr' im Jahr 2017, die erheblich höher waren als jede andere einzelne Hinzufügung oder Reduzierung in einem der beiden Jahre. Obwohl es Reduzierungen in Höhe von insgesamt 36 Mio. USD im Jahr 2017 gab, reichten diese nicht aus, um die hohen Hinzufügungen auszugleichen."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_010",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "Gibt es angesichts des Anteils des Jahresendguthabens, der sich auf die effektive Steuerquote auswirken würde, Hinweise auf eine signifikante Veränderung der Zusammensetzung nicht anerkannter Steuervorteile zwischen 2016 und 2017?",
+    "answer": [
+      [
+        "Es gibt keine Hinweise auf eine signifikante Veränderung der Zusammensetzung. Im Jahr 2016 betrug der Teil, der sich auf die effektive Steuerquote auswirken würde, 963 Mio. USD von einem Guthaben von 1032 Mio. USD, oder 93,3 %. Im Jahr 2017 betrug dieser Teil 1209 Mio. USD von einem Guthaben von 1286 Mio. USD, oder 94,0 %. Der Anteil blieb sehr stabil, was auf eine konsistente Zusammensetzung der zugrunde liegenden Steuerpositionen von Jahr zu Jahr hindeutet, trotz der allgemeinen Erhöhung des Guthabens."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d4ff6b23c2_011",
+    "table_id": "finqa_d4ff6b23c2",
+    "question_type": "open_ended_reasoning",
+    "question": "Wie hat sich der Gesamtbestand an Steuerpositionen von 2016 bis 2017 verändert und welche Faktoren trugen zu dieser Veränderung bei?",
+    "answer": [
+      [
+        "Der Gesamtbestand an Steuerpositionen stieg von 1.032 Mio. USD im Jahr 2016 auf 1.286 Mio. USD im Jahr 2017. Der Anstieg war hauptsächlich auf Hinzufügungen für Steuerpositionen des laufenden Jahres (+$270 Mio.) und der Vorjahre (+$20 Mio.) zurückzuführen, die teilweise durch Reduzierungen für Vorjahresporsionen (-$27 Mio.) und Abwicklungen (-$9 Mio.) ausgeglichen wurden."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

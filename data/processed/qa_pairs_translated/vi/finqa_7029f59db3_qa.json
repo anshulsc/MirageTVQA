@@ -1,0 +1,258 @@
+[
+  {
+    "question_id": "finqa_7029f59db3_001",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Loại lò phản ứng nào có công suất trung bình cao hơn và công suất trung bình đó là bao nhiêu MW?",
+    "answer": [
+      [
+        "Pressurized Water",
+        "960"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_002",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Tổng công suất kết hợp (tính bằng MW) của tất cả các nhà máy điện đặt tại bang New York (NY) là bao nhiêu?",
+    "answer": [
+      [
+        "2907"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "F2",
+      "E3",
+      "F3",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7029f59db3_003",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Ngày hết hạn giấy phép của nhà máy trong thị trường 'nyiso' đã hoạt động lâu nhất là khi nào?",
+    "answer": [
+      [
+        "2013 ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B2",
+      "B3",
+      "B4",
+      "C2",
+      "C3",
+      "C4",
+      "G4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_004",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Tính toán số năm trung bình giữa 'năm đưa vào sử dụng' và 'ngày hết hạn giấy phép' cho tất cả các nhà máy được mua lại sau năm 2000.",
+    "answer": [
+      [
+        "52.25"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "G4",
+      "C5",
+      "D5",
+      "G5",
+      "C6",
+      "D6",
+      "G6",
+      "C3",
+      "D3",
+      "G3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_005",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Liệt kê tên tất cả các nhà máy điện không thuộc thị trường 'nyiso' và có công suất lớn hơn 700 MW.",
+    "answer": [
+      [
+        "palisades ( e )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "F1",
+      "A5",
+      "B5",
+      "F5",
+      "A6",
+      "B6",
+      "F6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_006",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Tỷ lệ công suất của tất cả các nhà máy được liệt kê do các nhà máy có lò phản ứng nước sôi đóng góp là bao nhiêu? Hãy diễn đạt câu trả lời dưới dạng phần trăm làm tròn đến hai chữ số thập phân.",
+    "answer": [
+      [
+        "42.53%"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7029f59db3_007",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Nếu công suất của tất cả các lò phản ứng 'nước áp lực' được nâng cấp thêm 10%, thì công suất tổng mới cho nhà máy 'indian point 3 ( c )' sẽ là bao nhiêu?",
+    "answer": [
+      [
+        "1145.1 mw"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "F3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_008",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "open_ended_reasoning",
+    "question": "Phân tích mối quan hệ giữa năm nhà máy được mua lại và thời hạn hoạt động theo giấy phép của nó (năm hết hạn giấy phép trừ đi năm đưa vào hoạt động). Có một quy luật có thể nhận thấy không?",
+    "answer": [
+      [
+        "Không có mối tương quan rõ ràng giữa năm mua lại và thời hạn hoạt động theo giấy phép. Thời hạn là: Pilgrim (mua lại năm 1999) - 60 năm, FitzPatrick (2000) - 59 năm, Indian Point 3 (2000) - 39 năm, Indian Point 2 (2001) - 39 năm, Vermont Yankee (2002) - 60 năm và Palisades (2007) - 60 năm. Các nhà máy được mua lại gần đây hơn (ví dụ: Palisades vào năm 2007) có thời hạn dài (60 năm), trong khi một số nhà máy được mua lại sớm hơn (ví dụ: các nhà máy Indian Point vào năm 2000/2001) có thời hạn ngắn hơn nhiều (39 năm). Thời hạn dường như không phụ thuộc vào ngày mua lại."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "G1",
+      "C2",
+      "D2",
+      "G2",
+      "C3",
+      "D3",
+      "G3",
+      "C4",
+      "D4",
+      "G4",
+      "C5",
+      "D5",
+      "G5",
+      "C6",
+      "D6",
+      "G6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7029f59db3_009",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Nhà máy điện nào có 'năm đưa vào hoạt động' là ngoại lệ lớn nhất so với 'năm đưa vào hoạt động' trung bình của các nhà máy khác ở cùng một địa điểm?",
+    "answer": [
+      [
+        "fitzpatrick ( b )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "A3",
+      "C3",
+      "E3",
+      "A4",
+      "C4",
+      "E4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7029f59db3_010",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Ngoại trừ cột 'capacity - reactor type', hai cột nào trong tập dữ liệu chứa các ký tự trong ngoặc đơn trong các mục dữ liệu của chúng, cho thấy chúng có thể liên kết đến chú thích hoặc thông tin chi tiết bổ sung không có trong bảng?",
+    "answer": [
+      [
+        "power plant",
+        "license expiration date"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_011",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Nhà máy điện nào được mua lại gần đây nhất?",
+    "answer": [
+      [
+        "Palisades"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  }
+]

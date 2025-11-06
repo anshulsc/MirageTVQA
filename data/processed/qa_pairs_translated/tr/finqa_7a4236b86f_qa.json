@@ -1,0 +1,237 @@
+[
+  {
+    "question_id": "finqa_7a4236b86f_001",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "2007'den 2008'e kadar üretim/satış hacminde Petrol veya NGL'den hangisi daha yüksek bir yüzde artışı yaşamıştır?",
+    "answer": [
+      [
+        "Oil"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_002",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "2008 yılında Petrol ve NGL'nin birleşik 'mbbls' cinsinden toplam üretim/satış hacmi ne kadardı?",
+    "answer": [
+      [
+        "3858.7"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_003",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "Hangi yıl Petrol satışlarından elde edilen toplam hesaplanmış gelir daha yüksek olmuştur?",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_004",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "open_ended_reasoning",
+    "question": "2007'den 2008'e kadar tüm bireysel emtialar (Gaz, NGL, Petrol) için ortalama gerçekleşen fiyatlardaki genel eğilimi açıklar mısınız?",
+    "answer": [
+      [
+        "Listelenen tüm bireysel emtialar için ortalama gerçekleşen fiyatlar, 2007'den 2008'e doğru artış göstererek pozitif bir eğilim sergilemiştir. Gaz fiyatları 5,95 $'dan 8,25 $'a (mcf başına) önemli ölçüde yükselmiş, Petrol fiyatları 83,37 $'dan 95,26 $'a (bbl başına) artmış ve NGL fiyatları 51,02 $'dan 51,26 $'a (bbl başına) hafif bir artış göstermiştir."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8",
+      "A9",
+      "B9",
+      "C9",
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_005",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "2008 yılındaki hacmin 2007 yılındaki hacmin 2.25 katından fazla olduğu tüm üretim/satış kategorilerini listeyin.",
+    "answer": [
+      [
+        "gas production ( bcf )"
+      ],
+      [
+        "oil production/sales ( mbbls )"
+      ],
+      [
+        "ngl production/sales ( mbbls )"
+      ],
+      [
+        "equivalent production ( bcfe )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_006",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "2008 yılındaki toplam 'eşdeğer üretim (bcfe)'nin yüzde kaçı doğrudan 'gaz üretimi (bcf)'nden kaynaklanmaktadır?",
+    "answer": [
+      [
+        "77.35"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_007",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "2008 yılında ham petrolün ortalama gerçekleşen fiyatı %15 daha düşük olsaydı, ham petrol satışlarından elde edilecek hesaplanmış gelir ne kadar (milyon dolar) azalırdı?",
+    "answer": [
+      [
+        "5019.80"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_008",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "open_ended_reasoning",
+    "question": "Üretim/satış hacimleri ile bireysel emtialar için ortalama gerçekleşen fiyatlar arasındaki görünür ilişki, yıllar arası değişimler analiz edildiğinde nedir?",
+    "answer": [
+      [
+        "2007 ve 2008 yılları arasında tüm bireysel emtialar için tutarlı bir pozitif korelasyon görülmektedir. Her durumda (Gaz, NGL ve Petrol), 2007'den 2008'e üretim/satış hacmindeki önemli bir artış, ortalama gerçekleşen fiyatlardaki bir artışla birlikte gelmektedir, bu da bu dönemde güçlü piyasa talebinin hem hacmi hem de fiyatı yukarı yönlü yönlendirdiğini düşündürmektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B8",
+      "C8",
+      "B9",
+      "C9",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_009",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "2008 ve 2007 sütunlarında ilgili sayısal verisi olmayan ve alt başlık işlevi gören satırın metni nedir?",
+    "answer": [
+      [
+        "average realized prices without hedging results:"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_010",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "2007'den 2008'e kadar 'eşdeğer' ölçümleri de dahil olmak üzere, hangi üretim/satış kategorisi en önemli göreceli artışı (yüzdesel büyüme) göstermiştir?",
+    "answer": [
+      [
+        "oil production/sales ( mbbls )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_011",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "2008 yılında petrol ve NGL'nin toplam kombine üretimi ne kadardı?",
+    "answer": [
+      [
+        "3,858.7 mbbls"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

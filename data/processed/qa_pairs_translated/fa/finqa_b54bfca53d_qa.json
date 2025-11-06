@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_b54bfca53d_001",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "کدام تعهد قراردادی، با استثنای مجموع، بیشترین مبلغ را در دوره \"۱-۳ سال\" دارد؟",
+    "answer": [
+      [
+        "purchase obligations ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_002",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "با جمع کردن پرداخت‌ها برای هر تعهد مجزا، تأیید کنید که آیا جمع کل دوره '۱-۳ سال' که در ردیف 'کل پرداخت‌ها به تعهدات قراردادی' ذکر شده است، دقیق است یا خیر.",
+    "answer": [
+      [
+        "بله، جمع کل دقیق است. مجموع تعهدات فردی برای دوره '۱-۳ سال' برابر است با $۱۸۸.۳ + $۳۱۶.۴ + $۳۷.۱ + $۳۷۷۹.۴ که برابر با $۴۳۲۱.۲ می‌شود و با مقدار موجود در ردیف کل مطابقت دارد."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_003",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "برای تعهد قراردادی با کمترین میزان کل پرداخت، چه درصدی از کل آن در دوره '۱-۳ سال' سررسید می‌شود؟",
+    "answer": [
+      [
+        "39.81%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "D3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_004",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "برنامه زمان‌بندی پرداخت بدهی بلندمدت شامل لیزینگ سرمایه‌ای را در دوره‌های مشخص شده توصیف کنید. آیا این پرداخت‌ها در ابتدا، انتها یا به طور مساوی توزیع شده‌اند؟",
+    "answer": [
+      [
+        "برنامه زمان‌بندی پرداخت بدهی بلندمدت به شدت به پایان دوره موکول شده است. پرداخت‌ها با مبلغ کم 34.5 میلیون دلار (کمتر از 1 سال) آغاز می‌شود، به تدریج در دوره‌های 1-3 و 3-5 سال افزایش می‌یابد و در پرداخت بسیار بزرگ 2160.2 میلیون دلاری در دوره 'بیش از 5 سال' به اوج خود می‌رسد که بیش از 78 درصد از کل تعهد را نشان می‌دهد."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "E1",
+      "F1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_005",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "دسته‌بندی‌های تعهداتی را که موعد پرداخت آنها در «کمتر از ۱ سال» کمتر از موعد پرداخت در «۱ تا ۳ سال» است، لیست کنید.",
+    "answer": [
+      [
+        "long-term debt including capital leases"
+      ],
+      [
+        "interest payments on long-term debt ( b )"
+      ],
+      [
+        "operating leases"
+      ],
+      [
+        "purchase obligations ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_006",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "چه درصدی از کل \"بدهی بلندمدت شامل لیزینگ سرمایه‌ای\" قرار است در بیش از ۵ سال پرداخت شود؟",
+    "answer": [
+      [
+        "78.55%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "F1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_007",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "اگر سیاست جدیدی ایجاب کند که تمام \"تعهدات خرید\" سررسید شده در \"۱ تا ۳ سال\" فوراً (در دوره \"کمتر از ۱ سال\") پرداخت شوند، کل جدید \"پرداخت‌های کمتر از ۱ سال\" در \"تعهدات قراردادی\" چقدر خواهد شد؟",
+    "answer": [
+      [
+        "$6715.0 million"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_008",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "جدول حاوی یک مشکل یکپارچگی داده است که در آن مجموع پرداخت‌های دوره‌ای برای یک نوع تعهد با کل اعلام شده آن مطابقت ندارد. این تعهد را شناسایی کرده و مغایرت را محاسبه کنید.",
+    "answer": [
+      [
+        "ردیف 'تعهدات خرید (c)' دارای مشکل یکپارچگی داده است. مجموع پرداخت‌های دوره‌ای آن (۲۷۰۹.۵ دلار + ۳۷۷۹.۴ دلار + ۹۸.۰ دلار + ۲۲۱۲ دلار = ۸۷۹۸.۹ میلیون دلار) با کل اعلام شده ۶۵۸۶.۹ میلیون دلار آن مطابقت ندارد. مغایرت ۲۲۱۲ میلیون دلار است."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_009",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "با نگاهی به دوره پرداخت '۳-۵ سال'، کدام تعهد قراردادی کمترین مقدار را دارد و نسبت به سایر موارد در همین ستون می‌تواند یک داده پرت در نظر گرفته شود؟",
+    "answer": [
+      [
+        "operating leases"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_010",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "آیا رابطه ثابتی بین میزان یک تعهد کلی و ساختار پرداخت آن وجود دارد (به عنوان مثال، آیا تعهدات بزرگتر همیشه بیشتر به تاخیر افتاده‌اند)؟ پاسخ خود را با داده‌ها توجیه کنید.",
+    "answer": [
+      [
+        "خیر، رابطه ثابتی وجود ندارد. بزرگترین تعهد کلی، 'تعهدات خرید' (۶۵۸۶.۹ میلیون دلار)، به شدت در ابتدای دوره جلویی است و اکثر آن ظرف ۳ سال سررسید می‌شود. در مقابل، دومین تعهد بزرگ، 'بدهی بلندمدت' (۲۷۵۰.۱ میلیون دلار)، به شدت در انتهای دوره جلویی است و بزرگترین پرداخت آن بیش از ۵ سال دیگر سررسید می‌شود. این نشان می‌دهد که ساختار پرداخت به نوع تعهد بستگی دارد، نه ارزش کلی آن."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "F1",
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_011",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "کل پرداخت‌ها به میلیون دلار برای تعهدات قراردادی که تا دوره ۱ تا ۳ سال آینده سررسید می‌شوند، چقدر است؟",
+    "answer": [
+      [
+        "$4321.2"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

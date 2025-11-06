@@ -1,0 +1,315 @@
+[
+  {
+    "question_id": "finqa_3db09587a7_001",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "Vilken är den totala kvadratmeterytan för alla fastigheter som används för 'fastighets- och olycksförsäkringskontor'?",
+    "answer": [
+      [
+        "740526"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_3db09587a7_002",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "Vilken stat har den största fastigheten som INTE används som 'huvudsakligt kontor'?",
+    "answer": [
+      [
+        "pennsylvania"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A8",
+      "B8",
+      "A9",
+      "B9",
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3db09587a7_003",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "Vilken procentandel av den totala listade kvadratmeterytan upptas av den enskilt största fastigheten?",
+    "answer": [
+      [
+        "49.3%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_3db09587a7_004",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "Identifiera platsen för fastigheten vars storlek är en tiopotens mindre än Chicagos huvudkontor.",
+    "answer": [
+      [
+        "101 s . phillips avenue sioux falls south dakota"
+      ],
+      [
+        "600 n . pearl street dallas texas"
+      ],
+      [
+        "675 placentia avenue brea california"
+      ],
+      [
+        "1249 s . river road cranbury new jersey"
+      ],
+      [
+        "4267 meridian parkway aurora illinois"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A8",
+      "B8",
+      "A9",
+      "B9",
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_3db09587a7_005",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "Lista platserna för alla fastigheter som har en 'huvudsaklig användning' som skiljer sig från 'fastighets- och skadeförsäkringskontor' och som ligger i Illinois.",
+    "answer": [
+      [
+        "333 s . wabash avenue chicago illinois"
+      ],
+      [
+        "4267 meridian parkway aurora illinois"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7",
+      "A8",
+      "C8",
+      "A9",
+      "C9",
+      "A10",
+      "C10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_3db09587a7_006",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "Om de tre minsta fastigheterna slogs samman till en enda ny plats, vad skulle den genomsnittliga storleken på de kvarvarande 8 fastigheterna vara (de 7 större ursprungliga plus den nya sammanslagna)?",
+    "answer": [
+      [
+        "200257.625"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_3db09587a7_007",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "open_ended_reasoning",
+    "question": "Vilket mönster eller samband kan dras mellan en fastighets storlek och dess huvudsakliga användning baserat på de angivna uppgifterna?",
+    "answer": [
+      [
+        "Ett tydligt samband finns: den enda största fastigheten (803 728 kvm) är unikt utsedd till 'huvudsakliga ledningskontor'. De minsta fastigheterna tenderar att vara specialiserade anläggningar som 'datacenter' (46 903 kvm). Majoriteten av fastigheterna, som faller inom mellan- till storleksintervallet (56 100 till 171 318 kvm), används alla som 'fastighets- och olycksförsäkringskontor'. Detta tyder på en stegvis användningsstrategi baserad på anläggningens storlek, där ledningsfunktioner kräver mest utrymme, allmänna kontor upptar ett brett mellanregister och specialiserad infrastruktur använder minst."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_3db09587a7_008",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "Hur många distinkta kategorier av 'huvudsaklig användning' finns representerade i den här datamängden?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_3db09587a7_009",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "Identifiera platsen för fastigheten vars storlek är den mest signifikanta avvikelsen jämfört med medianstorleken för alla fastigheter.",
+    "answer": [
+      [
+        "333 s . wabash avenue chicago illinois"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_3db09587a7_010",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "Vad är den medelstora storleken på fastigheterna som ligger i ett tillstånd som förekommer mer än en gång i listan över platser?",
+    "answer": [
+      [
+        "425315.5"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3db09587a7_011",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "Vad är storleken i kvadratfot för CNA:s verkställande ledningskontor som ligger på 333 S. Wabash Avenue, Chicago, Illinois?",
+    "answer": [
+      [
+        "803,728"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

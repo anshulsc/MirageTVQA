@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_04f8db9765_001",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "open_ended_reasoning",
+    "question": "Descreva a tendência da 'perda líquida reportada' do ano 2000 a 2002.",
+    "answer": [
+      [
+        "A 'perda líquida reportada' mostra uma tendência de perdas aceleradas ao longo do período de três anos. A perda mais do que dobrou de $194.628 em 2000 para $450.094 em 2001, e depois mais do que dobrou novamente para $1.141.879 em 2002, indicando um desempenho financeiro significativamente pior a cada ano."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_002",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Qual foi o 'prejuízo líquido pro-forma' total acumulado nos três anos apresentados na tabela?",
+    "answer": [
+      [
+        "-1926453"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_04f8db9765_003",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Em que ano a diferença absoluta entre a perda líquida básica e diluída por ação 'conforme reportado' e 'pro-forma' foi a menor?",
+    "answer": [
+      [
+        "2002"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_004",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Calcule a 'despesa total de remuneração de funcionários baseada em ações' como uma porcentagem da 'perda líquida reportada' para o ano de 2001.",
+    "answer": [
+      [
+        "11.23%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_04f8db9765_005",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Qual ano, se houver, teve uma 'perda líquida reportada' absoluta maior que $400.000, mas uma 'perda líquida pro-forma' absoluta menor que $600.000?",
+    "answer": [
+      [
+        "2001"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3",
+      "C1",
+      "C3",
+      "D1",
+      "D3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_006",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Em que ano a perda líquida pro forma cresceu a maior quantidade absoluta em comparação com o ano anterior?",
+    "answer": [
+      [
+        "2002"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_04f8db9765_007",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Se a 'despesa total com remuneração de funcionários baseada em ações' para 2000 tivesse sido 20% maior, qual teria sido a 'perda líquida pró-forma' para aquele ano?",
+    "answer": [
+      [
+        "-256041.2"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_008",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Qual métrica teve uma magnitude maior em 2002: o 'prejuízo líquido reportado' ou o 'prejuízo líquido pro-forma'?",
+    "answer": [
+      [
+        "pro-forma net loss"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_009",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "open_ended_reasoning",
+    "question": "Com base nos dados fornecidos, qual é a relação aparente entre a 'perda líquida reportada' e a 'despesa de remuneração de funcionários baseada em ações' ao longo do período de três anos?",
+    "answer": [
+      [
+        "Existe uma relação inversa entre as duas métricas. À medida que a 'perda líquida reportada' aumentou significativamente em magnitude de 2000 a 2002, a 'despesa de remuneração de funcionários baseada em ações' diminuiu a cada ano. Isso sugere que, à medida que as perdas da empresa cresceram, ela pode ter reduzido a remuneração baseada em ações."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "C1",
+      "C2",
+      "D1",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_04f8db9765_010",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "open_ended_reasoning",
+    "question": "Qual é o efeito consistente do ajuste 'pro-forma' na 'perda líquida básica e diluída por ação' quando comparado ao valor 'conforme reportado' em todos os anos?",
+    "answer": [
+      [
+        "O ajuste 'pro-forma' aumenta consistentemente a magnitude da perda por ação em todos os anos apresentados. Isso indica que os itens ajustados, como a remuneração baseada em ações, sempre resultam em uma perda calculada maior em base por ação."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_011",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Qual é o prejuízo líquido reportado em 2001?",
+    "answer": [
+      [
+        "$ -450094 ( 450094 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

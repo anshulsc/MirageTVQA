@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_aa9ece5c83_001",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "कुन वित्तीय डाटा सेट, स्तम्भ B बाट सुरु हुने वा स्तम्भ E मा भएको, डिसेम्बर 31, 2016 मा समाप्त भएको वर्षको लागि 'as adjusted' अपरेटिङ इन्कम बढी थियो?",
+    "answer": [
+      [
+        "The data set starting in column B ($4050 million)"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "G1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_002",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "पहिलो डेटा सेट ( स्तम्भ C ) को लागि लेखा सिद्धान्त परिवर्तनको सबै डलर-आधारित समायोजनको कुल रकम कति छ?",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_003",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "कुन डेटा सेटको लागि 'interest income' को लागि 'change in accounting principle' '-414 ( 414 )' थियो, सो डेटा सेटको 'as filed' adjusted EBITDA margin कति थियो?",
+    "answer": [
+      [
+        "30% ( 30 % )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "F2",
+      "A6",
+      "E6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_004",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "पहिलो डेटा सेट ( स्तम्भ B-D ) का लागि, 'as filed' नेट आय र 'as filed' समायोजित EBITDA को अनुपात, तीन दशमलव स्थानहरूमा गोलो गरिएको, कति छ?",
+    "answer": [
+      [
+        "0.141"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_005",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": " स्तम्भ B देखि D सम्म प्रस्तुत गरिएको डेटा सेटको लागि, कुन मेट्रिकमा 'एडजस्ट गरिएको' मान 'फाइल गरिएको' मानभन्दा कम छ भनेर पहिचान गर्नुहोस्।",
+    "answer": [
+      [
+        "interest income"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A5",
+      "B5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_006",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "'सेवा राजस्वको प्रतिशतको रूपमा खुद आम्दानी' पङ्क्तिहरूमा, 'लेखा सिद्धान्तमा परिवर्तन'को कुन मान असामान्य देखिन्छ, र किन?",
+    "answer": [
+      [
+        "C4 र F4 को कक्षहरूमा 'लेखा सिद्धान्तमा परिवर्तन'को मान '2014% ( 2014 % )' असामान्य छ। दुवै डेटा सेटका लागि, 'सेवा राजस्वको प्रतिशतको रूपमा खुद आम्दानी' 'फाइल गरिए अनुसार' र 'समायोजित अनुसार'का आंकडाबीच अपरिवर्तित रहन्छ ( क्रमशः 5% बाट 5% र 3% बाट 3%)। एक तार्किक परिवर्तन 0% हुने थियो, जसले '2014%' लाई स्पष्ट रूपमा बाहिर राख्छ, सम्भवतः डेटा प्रविष्टि त्रुटिको परिणाम हो।"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_007",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "यदि दोस्रो डेटा सेटमा 'अकाउन्टिङ प्रिन्सिपलमा परिवर्तन' अपरेटिङ इन्कमका लागि देखाइएको मूल्यको सट्टामा $50 मिलियनले कमी भएको भए, नयाँ 'एडजस्टेड' अपरेटिङ इन्कम कति हुने थियो?",
+    "answer": [
+      [
+        "$ 2015"
+      ]
+    ],
+    "evidence_cells": [
+      "E1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_008",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "दुबै डेटा सेटहरूमा अपरेटिङ आय र समायोजित EBITDA को लागि लेखा समायोजनहरू बीच कुनै सुसंगत सम्बन्ध छ?",
+    "answer": [
+      [
+        "हो, त्यहाँ एक सुसंगत सकारात्मक सम्बन्ध छ। पहिलो डेटा सेटमा, अपरेटिङ आयको लागि परिवर्तन (+$248) समायोजित EBITDA (+$248) को लागि परिवर्तन जस्तै छ। दोस्रो डेटा सेटमा, अपरेटिङ आयको लागि परिवर्तन (+$414) पनि समायोजित EBITDA (+$414) को लागि परिवर्तन जस्तै छ। यसले सुझाव दिन्छ कि अपरेटिङ आयलाई असर गर्ने लेखा सिद्धान्त परिवर्तनले सोही रकमले समायोजित EBITDA मा सीधै प्रवाह गर्दछ।"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "F1",
+      "F5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_009",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "स्तम्भका शीर्षकहरूमा सबैभन्दा महत्त्वपूर्ण संरचनात्मक समस्या के हो जसले तालिका व्याख्या गर्दा भ्रम निम्त्याउन सक्छ?",
+    "answer": [
+      [
+        "मुख्य संरचनात्मक समस्या भनेको उच्च-स्तरीय समूहीकरण बिना स्तम्भका शीर्षकहरूको नक्कल हो। 'year ended december 31 2016 as filed' र 'year ended december 31 2016 change in accounting principle' शीर्षकहरू दुई फरक स्तम्भ सेटहरू (B र E; C र F) का लागि प्रयोग गरिएका छन्। यो अस्पष्टताले प्रयोगकर्तालाई यो निष्कर्षमा पुर्‍याउँछ कि दुई अलग-अलग निकाय वा परिदृश्यहरूको तुलना गरिएको छ, बरु यो स्पष्ट रूपमा भनिएको छ।"
+      ]
+    ],
+    "evidence_cells": [],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_010",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "'as adjusted' मानहरू प्रयोग गरी, दुईवटा डेटा सेटहरूको लागि निहित सेवा राजस्व (Adjusted EBITDA / Adjusted EBITDA margin) गणना गर्नुहोस् र दुई (पहिलो सेटबाट दोस्रो सेट घटाएर) बीचको अन्तराल लाखौंमा रिपोर्ट गर्नुहोस्, नजिकको पूर्ण लाखमा राउन्ड गर्नुहोस्।",
+    "answer": [
+      [
+        "$2,814"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D6",
+      "G5",
+      "G6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_011",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "'As Filed' बाट 'As Adjusted' मा समायोजन पछि पहिलो डेटा सेटको लागि अपरेटिङ इन्कम (लाखौंमा) मा कति परिवर्तन भयो?",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

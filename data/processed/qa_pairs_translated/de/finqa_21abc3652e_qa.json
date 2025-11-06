@@ -1,0 +1,232 @@
+[
+  {
+    "question_id": "finqa_21abc3652e_001",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Welche Verpflichtung hat den höchsten Gesamtwert, wenn die 'total commercialcommitments' ausgeschlossen werden?",
+    "answer": [
+      [
+        "credit facilities [a]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_002",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Wie hoch ist die Summe aller kommerziellen Zusagen in Millionen, deren Fälligkeit in den Jahren 2015 und 2016 zusammen ansteht?",
+    "answer": [
+      [
+        "78"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_21abc3652e_003",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Listen Sie das Jahr und den entsprechenden Anlagennamen für jeden Fall auf, in dem eine einzelne Anlage mehr als 98 % der gesamten Fälligkeiten des jeweiligen Jahres ausmacht.",
+    "answer": [
+      [
+        "2017",
+        "receivables securitization facility [b]"
+      ],
+      [
+        "2019",
+        "credit facilities [a]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "G5",
+      "A2",
+      "E2",
+      "E5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_004",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "open_ended_reasoning",
+    "question": "Beschreiben Sie den Trend der gesamten Verfallverpflichtungen von 2015 bis 2019.",
+    "answer": [
+      [
+        "Der Trend ist sehr volatil und zeigt kein stetiges Muster. Er beginnt bei 46 Millionen US-Dollar im Jahr 2015, fällt auf 32 Millionen US-Dollar im Jahr 2016 und steigt dann auf einen Höchststand von 660 Millionen US-Dollar im Jahr 2017. Anschließend stürzt er auf nur noch 11 Millionen US-Dollar im Jahr 2018 ab, bevor er auf seinen höchsten Punkt von 1708 Millionen US-Dollar im Jahr 2019 ansteigt. Das Muster ist durch extreme Schwankungen gekennzeichnet, anstatt durch konsistentes Wachstum oder Rückgang."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_005",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Identifizieren Sie alle Zusagetypen, deren Ablaufbetrag sowohl 2016 als auch 2019 größer als null ist.",
+    "answer": [
+      [
+        "guarantees [c]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "G1",
+      "A2",
+      "D2",
+      "G2",
+      "A3",
+      "D3",
+      "G3",
+      "A4",
+      "D4",
+      "G4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_006",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Welcher Prozentsatz der Verpflichtungen aus 'Garantien [c]' läuft nach 2019 aus?",
+    "answer": [
+      [
+        "18.29%"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "H3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_21abc3652e_007",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Wenn das Engagement für 'Kreditfazilitäten [a]' um 50 % niedriger wäre, wie hoch wäre dann der neue Wert für 'Gesamte kommerzielle Verpflichtungen'?",
+    "answer": [
+      [
+        "$ 1622"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_008",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "open_ended_reasoning",
+    "question": "Welche Beziehung lässt sich basierend auf den bereitgestellten Daten zwischen dem Gesamtbetrag einer bestimmten Verpflichtung und der zeitlichen Verteilung ihres Ablaufs ableiten?",
+    "answer": [
+      [
+        "Es scheint eine umgekehrte Beziehung zu bestehen. Die beiden größten Verpflichtungen ('Kreditfazilitäten' mit 1700 Mio. USD und 'Receivables Securitization Facility' mit 650 Mio. USD) laufen in einem einzigen Betrag in einem bestimmten Jahr aus. Im Gegensatz dazu verteilen sich die Auslaufbeträge der kleineren Verpflichtungen ('Garantien' und 'Standby Letters of Credit') über mehrere Zeiträume."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "G1",
+      "A2",
+      "B2",
+      "E2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_21abc3652e_009",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Welche jahresspezifische Spalte (2015-2019) weist die geringste Anzahl von Einzelzusagen mit einem Ablaufwert größer als Null auf?",
+    "answer": [
+      [
+        "amount of commitment expiration per period 2018"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_010",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Wenn wir die Zeile 'total commercialcommitments' betrachten, welcher Jahreswert für die Fälligkeit stellt den signifikantesten Ausreißer im Vergleich zum Median des Zeitraums von 2015 bis nach 2019 dar?",
+    "answer": [
+      [
+        "2019"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "H5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_21abc3652e_011",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Wie hoch sind die gesamten kommerziellen Verpflichtungen (in Millionen) für die Jahre 2015–2019?",
+    "answer": [
+      [
+        "2457"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

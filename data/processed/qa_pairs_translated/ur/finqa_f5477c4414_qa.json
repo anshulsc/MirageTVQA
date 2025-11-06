@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_f5477c4414_001",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "2012 کے سال کے لیے 'loans 2013 reported' کا کل کتنا تھا (کالم E)، اگر اسی کالم سے اس کے جزوئی قرض کی اقسام کو جمع کر کے حساب لگایا جائے؟",
+    "answer": [
+      [
+        "1717"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f5477c4414_002",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "'loans 2013 reported' کے علاوہ، کس loan category میں 2012 سے 2013 تک دسمبر 31 کے بیلنس میں سب سے زیادہ فیصد اضافہ دیکھا گیا؟",
+    "answer": [
+      [
+        "loans held-for-sale"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_003",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "سال کے آخر میں 'لینڈنگ سے متعلقہ وعدوں' کی مالیت کیا تھی جب 'کل ہول سیل کریڈٹ سے متعلقہ اثاثے' کم سے کم تھے؟",
+    "answer": [
+      [
+        "$ 434814"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_004",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "31 دسمبر 2013 کو 'کل ہول سیل کریڈٹ ایکسپوژر' کا کتنا فیصد 'قرض دینے سے متعلقہ وعدوں' سے منسوب تھا؟",
+    "answer": [
+      [
+        "51.87%"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "B9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f5477c4414_005",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "تمام اثاثہ یا ذمہ داری کی اقسام کی فہرست بنائیں جہاں 31 دسمبر 2013 کی قدر 31 دسمبر 2012 کے مقابلے میں کم ہوئی؟",
+    "answer": [
+      [
+        "loans at fair value ( a )"
+      ],
+      [
+        "derivative receivables"
+      ],
+      [
+        "liquid securities and other cash collateral held against derivatives"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A11",
+      "B11",
+      "C11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_006",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "اگر '2013' کالم (کالم D) میں 'receivables from customers and other ( b )' کی قدر 25% زیادہ ہوتی، تو اس کالم کے لیے نیا 'total wholesale credit-related assets' کیا ہوتا؟",
+    "answer": [
+      [
+        "1962.5"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "D7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_007",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "مالیاتی شے (کالم A سے) کی نشاندہی کریں جو '2013' اور '2012' کالمز (D اور E) کے درمیان سب سے زیادہ غیر معمولی تبدیلی دکھاتی ہے، جس کی خصوصیت سب سے بڑا مطلق فرق ہے۔",
+    "answer": [
+      [
+        "loans 2013 reported"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A2",
+      "D2",
+      "E2",
+      "A3",
+      "D3",
+      "E3",
+      "A4",
+      "D4",
+      "E4",
+      "A5",
+      "D5",
+      "E5",
+      "A6",
+      "D6",
+      "E6",
+      "A7",
+      "D7",
+      "E7",
+      "A8",
+      "D8",
+      "E8",
+      "A9",
+      "D9",
+      "E9",
+      "A10",
+      "D10",
+      "E10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f5477c4414_008",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "ان خلیات (cell) کی شناخت کریں جن میں غیر عددی متن ('na') موجود ہے جو ان کے متعلقہ کالموں کے براہ راست اضافے کو روکے گا.",
+    "answer": [
+      [
+        "D11"
+      ],
+      [
+        "E11"
+      ]
+    ],
+    "evidence_cells": [
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_009",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "open_ended_reasoning",
+    "question": "سال 2012 کے آخر سے 2013 تک 'کل ہول سیل کریڈٹ ایکسپوژر' اور اس کے اہم محرکات کے رجحان کا تجزیہ کریں۔",
+    "answer": [
+      [
+        "'کل ہول سیل کریڈٹ ایکسپوژر' 2012 میں $846,628 ملین سے بڑھ کر 2013 میں $860,299 ملین ہو گیا۔ اس نمو کی بنیادی وجہ 'ہولڈ-فار-سیل لون' (156% کا اضافہ) میں نمایاں اضافہ اور 'لون دینے کے متعلقہ وعدوں' (2.6% کا اضافہ) میں اضافہ تھا۔ تاہم، اس نمو کو 'مشتقات کی وصولیوں' (12.3% کی کمی) اور 'منافع پر قرضوں' (21.3% کی کمی) میں نمایاں کمی سے جزوی طور پر پورا کیا گیا۔ جو کریڈٹ پورٹ فولیو کی تشکیل میں تبدیلی کی نشاندہی کرتا ہے۔"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B8",
+      "C8",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f5477c4414_010",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "open_ended_reasoning",
+    "question": "سالانہ بیلنس میں 2012 سے 2013 تک ہونے والی تبدیلیوں کی بنیاد پر، 'ڈیریویٹیو وصولیوں' اور 'کل ہول سیل کریڈٹ سے متعلقہ اثاثوں' کے درمیان کیا ظاہر تعلق ہے؟",
+    "answer": [
+      [
+        "اس محدود ڈیٹا سیٹ کے اندر ایک الٹا تعلق ظاہر ہوتا ہے۔ سال 2012 کے آخر سے 2013 تک، 'ڈیریویٹیو وصولیوں' میں $74,983 ملین سے $65,759 ملین تک کی کمی ہوئی۔ اس کے ساتھ ہی، 'کل ہول سیل کریڈٹ سے متعلقہ اثاثوں' میں $411,814 ملین سے $414,067 ملین تک کا اضافہ ہوا۔ یہ ظاہر کرتا ہے کہ جیسے ہی ڈیریویٹیو وصولیوں کی قدر میں کمی واقع ہوئی، دیگر اثاثوں میں اضافہ ہوا جو اس کی تلافی سے زیادہ تھا، جس کی وجہ سے کل اثاثوں میں مجموعی طور پر اضافہ ہوا۔ تاہم، صرف دو ڈیٹا پوائنٹس سے کوئی حتمی تعلق قائم نہیں کیا جا سکتا۔"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f5477c4414_011",
+    "table_id": "finqa_f5477c4414",
+    "question_type": "value",
+    "question": "کس سال میں برقرار رکھے گئے قرضے سب سے زیادہ تھے؟",
+    "answer": [
+      [
+        "2013"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "finqa_cc5f795ec6_001",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Aktiviti manakah yang memberi impak negatif yang lebih besar terhadap 'ekuiti keseluruhan': 'dividen' atau 'pembelian semula saham biasa'?",
+    "answer": [
+      [
+        "dividends"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "K4",
+      "A6",
+      "K6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_002",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Berapakah perubahan bersih kepada 'modal yang dibayar' daripada semua aktiviti yang disenaraikan di antara tarikh imbangan 2011 dan 2012?",
+    "answer": [
+      [
+        "590"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D11",
+      "D13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_003",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Berapakah impak ekuiti keseluruhan bagi urus niaga yang melibatkan peningkatan $662 dalam 'modal dibayar'?",
+    "answer": [
+      [
+        "1147"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "K5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_004",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "open_ended_reasoning",
+    "question": "Analisis perubahan dalam 'jumlah ekuiti' dari 31 Disember 2011 hingga 31 Disember 2012, dan kenal pasti pemacu utama perubahan ini.",
+    "answer": [
+      [
+        "Jumlah ekuiti berkurangan daripada $70,078 kepada $65,428, pengurangan bersih sebanyak $4,650. Walaupun terdapat beberapa faktor penyumbang, pemacu tunggal terbesar bagi pengurangan ini ialah 'penyempurnaan semula kepada kepentingan bukan kawalan boleh tebus', yang sahaja menyumbang impak negatif sebanyak $4,288, mewakili lebih daripada 92% daripada pengurangan bersih keseluruhan."
+      ]
+    ],
+    "evidence_cells": [
+      "K1",
+      "K14",
+      "A12",
+      "K12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_005",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Senaraikan semua aktiviti kewangan yang mengakibatkan pengurangan kepada 'modal dibayar masuk' tetapi tidak menjejaskan 'pendapatan tertahan'.",
+    "answer": [
+      [
+        "purchase of additional stake in the wealth management joint venture"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_006",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Berapakah peratus 'pendapatan tertahan' permulaan dari 31 Disember 2011, yang dibayar sebagai 'dividen' sepanjang tempoh tersebut?",
+    "answer": [
+      [
+        "-1.23%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_007",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Sekiranya 'penyelarasan terjemahan mata wang asing' mempunyai impak neutral (iaitu, sifar) terhadap ekuiti keseluruhan, berapakah baki ekuiti keseluruhan pada akhir 31 Disember 2012?",
+    "answer": [
+      [
+        "65681"
+      ]
+    ],
+    "evidence_cells": [
+      "K9",
+      "K14"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_008",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan baki pembukaan dan penutupan, serta baris transaksi untuk 'saham dikeluarkan di bawah pelan pekerja', apakah hubungan antara 'trust saham pekerja' dan 'saham biasa yang dikeluarkan kepada trust pekerja'?",
+    "answer": [
+      [
+        "Terdapat hubungan songsang yang konsisten. Nilai dalam lajur 'saham biasa yang dikeluarkan kepada trust pekerja' sentiasa merupakan negatif tepat bagi nilai dalam lajur 'trust saham pekerja' untuk mana-mana baris yang diberikan (cth., $3166 berbanding -$3166 dalam baki pembukaan; -$234 berbanding $234 untuk saham yang dikeluarkan). Ini menunjukkan bahawa ia adalah akaun lawan antara satu sama lain, direka untuk mengimbangi kesan mereka dalam pengiraan ekuiti keseluruhan."
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "I1",
+      "F5",
+      "I5",
+      "F14",
+      "I14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_009",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Tidak termasuk baris pertama dan terakhir yang menggambarkan baki, apakah nilai yang paling kerap muncul dalam set data dari lajur B hingga K?",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "F2",
+      "G2",
+      "H2",
+      "I2",
+      "J2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "I3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_010",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Dalam kalangan semua urus niaga yang mempengaruhi 'jumlah ekuiti', item tunggal manakah yang menonjol sebagai pemboleh ubah negatif terbesar?",
+    "answer": [
+      [
+        "reclassification to redeemable noncontrolling interests"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "K12",
+      "K2",
+      "K3",
+      "K4",
+      "K5",
+      "K6",
+      "K7",
+      "K8",
+      "K9",
+      "K10",
+      "K11",
+      "K13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_011",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Berapakah jumlah saham pilihan pada akhir 31 Disember 2012?",
+    "answer": [
+      [
+        "$1508"
+      ]
+    ],
+    "evidence_cells": [
+      "A16",
+      "B16"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

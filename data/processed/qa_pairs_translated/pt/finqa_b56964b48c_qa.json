@@ -1,0 +1,256 @@
+[
+  {
+    "question_id": "finqa_b56964b48c_001",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "Qual das duas responsabilidades relacionadas com benefícios, 'postretirement benefit liability' ou 'pension and other postretirement benefit balancing accounts', teve um valor mais alto em 2018?",
+    "answer": [
+      [
+        "postretirement benefit liability"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_b56964b48c_002",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "Qual foi o valor total de todos os passivos em 2017, excluindo 'reserva TCJA sobre receita' e 'impostos de renda recuperados por meio de tarifas'?",
+    "answer": [
+      [
+        "422"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_b56964b48c_003",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "Identifique o item que teve o maior aumento percentual de 2017 para 2018 e informe esse aumento percentual arredondado para duas casas decimais.",
+    "answer": [
+      [
+        "postretirement benefit liability",
+        "533.33%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_b56964b48c_004",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "Qual item de passivo demonstrou a maior estabilidade, definida como a menor variação percentual absoluta, entre 2017 e 2018?",
+    "answer": [
+      [
+        "removal costs recovered through rates"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_b56964b48c_005",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "Liste todas as categorias de passivos onde o valor diminuiu de 2017 para 2018.",
+    "answer": [
+      [
+        "removal costs recovered through rates"
+      ],
+      [
+        "pension and other postretirement benefit balancing accounts"
+      ],
+      [
+        "tcja reserve on revenue"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_b56964b48c_006",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "Qual a porcentagem do 'total de passivos regulatórios' em 2018 foi atribuída a 'impostos sobre rendas recuperados através de tarifas'? Arredonde para o percentual inteiro mais próximo.",
+    "answer": [
+      [
+        "67%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_b56964b48c_007",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "Se a 'reserva tcja sobre receita' não tivesse mudado em relação ao seu valor de 2017, qual teria sido a soma calculada das passivos individuais para 2018?",
+    "answer": [
+      [
+        "$ 3885"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_b56964b48c_008",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "open_ended_reasoning",
+    "question": "Com base nos dados fornecidos, que inferência pode ser feita sobre o impacto financeiro da TCJA (Tax Cuts and Jobs Act) nos passivos da empresa entre 2017 e 2018?",
+    "answer": [
+      [
+        "Os dados sugerem que a TCJA teve um impacto financeiro significativo, mas provavelmente único. A 'reserva de TCJA sobre receita' teve uma redução drástica de mais de 98%, passando de $2014 em 2017 para $36 em 2018. Isso implica que uma grande reserva estabelecida em 2017, provavelmente coincidindo com a aprovação da lei, foi substancialmente liquidada, utilizada ou reavaliada no ano seguinte, levando a um passivo muito menor nessa categoria específica para 2018."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_b56964b48c_009",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "Somando manualmente os itens de passivo individuais para 2017 (linhas 1-6), determine a discrepância entre a sua soma calculada e o valor fornecido de 'total regulatory liabilities' para esse ano.",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_b56964b48c_010",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "Qual item de linha representa um outlier financeiro por ter a maior mudança absoluta de valor entre 2017 e 2018?",
+    "answer": [
+      [
+        "tcja reserve on revenue"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_b56964b48c_011",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "Quanto aumentaram os impostos sobre o rendimento recuperados através das tarifas de 2017 para 2018?",
+    "answer": [
+      [
+        "$37 million"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

@@ -1,0 +1,237 @@
+[
+  {
+    "question_id": "finqa_9d76f2617f_001",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Vad var den totala ökningen av 'outstanding shares' till följd av 'employee stock purchase plan' under hela den visade perioden?",
+    "answer": [
+      [
+        "6894763"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D6",
+      "D11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_002",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Under vilket år (2001, 2002 eller 2003) bidrog 'aktier sålda till optionsinnehavare' mest till ökningen av 'utestående aktier'?",
+    "answer": [
+      [
+        "2002"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "A5",
+      "A8",
+      "D8",
+      "A10",
+      "A13",
+      "D13",
+      "A14"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_003",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv trenden för företagets egna aktier från början av 2001 till slutet av 2003, baserat på balansrapporterna.",
+    "answer": [
+      [
+        "Antalet egna aktier minskade konsekvent år efter år. Saldo sjönk från cirka 94,4 miljoner i början av 2001 till 91,2 miljoner vid slutet av 2001, sedan till 84,9 miljoner vid slutet av 2002 och slutligen till 81,2 miljoner vid slutet av 2003. Detta indikerar att företaget återutgav aktier från sitt eget lager (t.ex. för personalplaner och optioner) snabbare än det återköpte dem."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "C10",
+      "C14"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_004",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Vilken var nettoförändringen i 'aktier utestående' under det hela kalenderår som inkluderade 'förvärvet av Technoguide'?",
+    "answer": [
+      [
+        "6282717"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "D5",
+      "D10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_005",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Lista alla transaktionstyper, exklusive saldon, som resulterade i en ökning av 'utestående aktier' med mer än 2 000 000 aktier.",
+    "answer": [
+      [
+        "employee stock purchase plan"
+      ],
+      [
+        "shares sold to optionees"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8",
+      "A9",
+      "D9",
+      "A11",
+      "D11",
+      "A13",
+      "D13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_006",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Vilken procentandel av den totala ökningen av 'outstanding shares' för år 2002 kunde hänföras till 'förvärv av technoguide'?",
+    "answer": [
+      [
+        "21.45%"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_007",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Om 'employee stock purchase plan' år 2002 hade resulterat i 1 000 000 färre aktier som lagts till det utestående antalet, vad skulle 'saldo 31 december 2002' för 'aktier utestående' ha varit?",
+    "answer": [
+      [
+        "581173115"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "D10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_008",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Vilken transaktion mellan de årliga saldona representerar en avvikelse gällande dess minimala påverkan på 'aktier utestående', och vad var den påverkan?",
+    "answer": [
+      [
+        "shares granted to directors",
+        "3500"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "A7",
+      "D7",
+      "A12",
+      "D12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_009",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "För händelserna 'aktier sålda till optionsinnehavare', vad är det konsekventa matematiska sambandet mellan kolumnerna 'utfärdade', 'i kassan' och 'aktier utestående'?",
+    "answer": [
+      [
+        "För alla transaktioner av 'aktier sålda till optionsinnehavare' är värdet i kolumnen 'aktier utestående' summan av värdena i kolumnerna 'utfärdade' och 'i kassan'. Detta innebär att aktierna för optionsinnehavare härrörde från både en nyemission och från bolagets befintliga egna aktier."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "B8",
+      "C8",
+      "D8",
+      "B13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_010",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "Kolumnen 'issued' innehåller värdet '2013' för flera transaktionstyper där värdet för 'in treasury' är större än noll. Vad antyder detta om källan till aktierna för dessa transaktioner?",
+    "answer": [
+      [
+        "I varje rad där kolumnen 'issued' visar '2013', är värdet 'in treasury' identiskt med värdet 'shares outstanding'. Detta indikerar att för dessa transaktioner (t.ex. 'employee stock purchase plan', 'acquisition of technoguide'), alla aktier kom från kassan och inga nya aktier faktiskt emitterades. Siffran '2013' är troligen en platshållare, en identifierare eller ett datafel, inte en kvantitet av emitterade aktier."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "C3",
+      "D3",
+      "B6",
+      "C6",
+      "D6",
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_011",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "Hur förändrades antalet utestående aktier från saldot den 1 januari 2001 till saldot den 31 december 2003, och vilka troliga aktiviteter bidrog till denna förändring?",
+    "answer": [
+      [
+        "Antalet utestående aktier ökade med 13 223 634 (från 572 724 694 till 585 948 328). Denna ökning verkar drivas av aktieutgivningar som optionsinlösen och aktivitet relaterad till köp av aktier för anställda (flera poster för 'aktier sålda till optionsinnehavare' och 'program för köp av aktier för anställda'), en förvärvsrelaterad utgivning (Technoguide) och en nettominskning av egna aktier – vilket sammantaget ökade antalet utestående aktier."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "C1",
+      "A14",
+      "D14",
+      "C14",
+      "A4",
+      "B4",
+      "A8",
+      "B8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

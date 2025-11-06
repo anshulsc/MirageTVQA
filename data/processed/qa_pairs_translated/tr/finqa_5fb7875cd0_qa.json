@@ -1,0 +1,276 @@
+[
+  {
+    "question_id": "finqa_5fb7875cd0_001",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "En büyük 2017 yıllık teşvik ödülünü hangi üst düzey yönetici aldı?",
+    "answer": [
+      [
+        "leo p . denault"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_002",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "Tabloda listelenen tüm yöneticilerin toplam taban maaşları ne kadardır?",
+    "answer": [
+      [
+        "$5,436,072"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_003",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "'Temel maaşın yüzdesi olarak hedef' sütununda en düşük değere sahip olup, 'hedef yüzdesinin ödemesi' sütununda en düşük değere sahip olmayan yöneticinin yıllık teşvik ödülü nedir?",
+    "answer": [
+      [
+        "$ 169123"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "D4",
+      "E4",
+      "A7",
+      "C7",
+      "D7",
+      "E7",
+      "A8",
+      "C8",
+      "D8",
+      "E8",
+      "A9",
+      "C9",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_004",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "'Yıllık teşvik ödülü' verileri hangi yıla aittir?",
+    "answer": [
+      [
+        "2017"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_005",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "Taban maaşı 400.000 $'dan az olan ve hedefe göre ödeme yüzdesi %120'dan fazla olan tüm yöneticilerin adlarını listeler misiniz?",
+    "answer": [
+      [
+        "phillip r . may jr .",
+        "richard c . riley"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "D4",
+      "A6",
+      "B6",
+      "D6",
+      "A7",
+      "B7",
+      "D7",
+      "A8",
+      "B8",
+      "D8",
+      "A9",
+      "B9",
+      "D9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_006",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "Phillip R. May Jr. için hedef teşvik tutarı dolar cinsinden neydi? (Taban Maaş * Hedef Oranı olarak hesaplanır)",
+    "answer": [
+      [
+        "$219,690"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_007",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "Şirket, tüm yöneticiler için 'hedefin yüzdesi olarak ödeme'yi %130 ile sınırlamaya karar vermiş olsaydı, Richard C. Riley'nin '2017 yıllık teşvik ödülü' ne kadar olurdu? (Ödül = Taban Maaş * Hedef % * Ödeme %)",
+    "answer": [
+      [
+        "$178,984"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_008",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "open_ended_reasoning",
+    "question": "'Temel maaşın yüzdesi olarak hedef' ve 'hedefin yüzdesi olarak ödeme' arasında tutarlı bir ilişki var mı? Bulgularınızı açıklayın.",
+    "answer": [
+      [
+        "Açık ve tutarlı bir ilişki yok. Örneğin, %70 hedefi olan yöneticiler %129 ödeme alırken, %135 hedefi olan bir yönetici de %129 ödeme aldı. Buna karşılık, %40 hedefi olan dört yöneticinin üç farklı ödeme yüzdesi vardı (%119, %79 ve %204). Bu, ödeme yüzdesinin muhtemelen başlangıçtaki hedef yüzdesinin kendisinden başka faktörler tarafından belirlendiğini göstermektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C4",
+      "D4",
+      "C5",
+      "D5",
+      "C6",
+      "D6",
+      "C7",
+      "D7",
+      "C8",
+      "D8",
+      "C9",
+      "D9",
+      "C10",
+      "D10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_009",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "'Ödeme hedef yüzdesi olarak' sütununda kaç farklı değer bulunmaktadır?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_010",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "Tüm yöneticilerin medyan ödülüne kıyasla, hangi yöneticinin '2017 yıllık teşvik ödülü' en önemli aykırı değerdir?",
+    "answer": [
+      [
+        "leo p . denault"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_011",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "Temel maaşı 500.000 ABD dolarının üzerinde olan kaç yönetici görevli var?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A5",
+      "B5",
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

@@ -1,0 +1,199 @@
+[
+  {
+    "question_id": "finqa_0be24be072_001",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "Qual ano apresentou o maior aumento absoluto em 'Receita líquida de juros excluindo mercados CIB' em relação ao ano anterior?",
+    "answer": [
+      [
+        "2017"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_002",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "Qual foi a média de 'ativos geradores de juros médios' ao longo dos três anos fornecidos?",
+    "answer": [
+      [
+        "2123479.33"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_0be24be072_003",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "No ano em que a 'receita líquida de juros dos mercados cib' foi mais alta, qual foi o valor correspondente para 'ativos médios geradores de juros dos mercados cib'?",
+    "answer": [
+      [
+        "520307"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_004",
+    "table_id": "finqa_0be24be072",
+    "question_type": "open_ended_reasoning",
+    "question": "Descreva a tendência do 'rendimento líquido de juros sobre ativos geradores de juros médios do mercado CIB' de 2015 a 2017.",
+    "answer": [
+      [
+        "A tendência foi altamente volátil. O rendimento aumentou aproximadamente 17,3% de 1,04 em 2015 para 1,22 em 2016, mas depois sofreu um declínio acentuado de aproximadamente 29,5%, caindo para 0,86 em 2017."
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_005",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "Liste os anos em que a 'receita líquida de juros dos mercados CIB' foi superior a US$ 5.000 milhões e o 'rendimento líquido de juros sobre os ativos geradores de juros médios dos mercados CIB' foi superior a 1,10.",
+    "answer": [
+      [
+        "2016"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_006",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "Em 2016, qual percentagem do 'total de ativos médios geradores de juros' era composta por 'ativos médios geradores de juros do mercado CIB'?",
+    "answer": [
+      [
+        "24.76%"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_0be24be072_007",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "Se a 'receita líquida de juros do cib markets' em 2017 tivesse sido 20% maior enquanto a 'receita líquida de juros 2013 com base gerenciada' permanecesse a mesma, qual teria sido a nova 'receita líquida de juros excluindo cib markets'?",
+    "answer": [
+      [
+        "$ 45854"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_008",
+    "table_id": "finqa_0be24be072",
+    "question_type": "open_ended_reasoning",
+    "question": "Com base na tabela, existe uma correlação observável entre a 'receita líquida de juros 2013 em base gerenciada' total e o 'rendimento líquido de juros sobre ativos geradores de juros médios 2013 em base gerenciada' ao longo dos três anos?",
+    "answer": [
+      [
+        "Sim, há uma clara correlação positiva. À medida que a 'receita líquida de juros 2013 em base gerenciada' aumentou consistentemente de US$ 44.620 milhões em 2015 para US$ 51.410 milhões em 2017, o 'rendimento líquido de juros sobre ativos geradores de juros médios 2013 em base gerenciada' também apresentou um aumento consistente de 2,14% para 2,36% no mesmo período."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_0be24be072_009",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "Quais duas métricas na tabela, quando a primeira é dividida pela segunda, calculam o 'rendimento líquido de juros sobre ativos geradores de juros médios excluindo mercados cib'?",
+    "answer": [
+      [
+        "net interest income excluding cib markets ( a )"
+      ],
+      [
+        "average interest-earning assets excluding cib markets"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "A6",
+      "A9",
+      "B3",
+      "B6",
+      "B9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_010",
+    "table_id": "finqa_0be24be072",
+    "question_type": "open_ended_reasoning",
+    "question": "Qual ano do 'receita líquida de juros em base gerenciada 2013' é um valor atípico em termos de seu crescimento ano a ano em comparação com o outro período?",
+    "answer": [
+      [
+        "2017 é um valor atípico devido ao seu crescimento significativamente maior. O aumento de 2016 para 2017 foi de US$ 4.118 milhões (US$ 51.410 - US$ 47.292), que é substancialmente maior do que o aumento de US$ 2.672 milhões visto de 2015 para 2016 (US$ 47.292 - US$ 44.620)."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_0be24be072_011",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "Qual foi a receita líquida de juros (em milhões) excluindo mercados CIB em 2016?",
+    "answer": [
+      [
+        "$40,958"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]
