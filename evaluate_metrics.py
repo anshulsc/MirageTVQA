@@ -186,8 +186,8 @@ def extract_language_from_filename(filename: str) -> str:
     sorted_lang_codes = sorted(LANGUAGES.keys(), key=len, reverse=True)
     
     for lang_code in sorted_lang_codes:
-        # Pattern: language_code followed by _clean or _noise[1-3]
-        pattern = f'^{re.escape(lang_code)}_(clean|noise[1-3]?)$'
+        # Pattern: language_code followed by _clean or _noise[1-15]
+        pattern = f'^{re.escape(lang_code)}_(clean|noise([1-9]|1[0-5]))$'
         if re.match(pattern, base_name):
             return lang_code
     
@@ -459,9 +459,9 @@ def main():
 if __name__ == "__main__":
     main()
 """
-python evaluate_metrics.py \
-    --dataset-file /home/anshulsc/links/scratch/TableLingua/dataset_combined_final.jsonl \
-    --response-file /home/anshulsc/links/scratch/projects/MMTQA/data/processed/evaluation_results_new/google_gemma-3-4b-it_multitableqa_clean_default_20251022_042714.jsonl \
+python3 evaluate_metrics.py \
+    --dataset-file /Users/anshulsingh/Projects/eurips/MMTQA/hf_dataset/data/dataset_final.jsonl \
+    --response-file /Users/anshulsingh/Projects/eurips/MMTQA/data/processed/evaluation_results_new/Qwen_Qwen3-VL-8B-Instruct_multitableqa_noise_default_20251023_051944.jsonl \
     --output-dir ./results
 
 """
