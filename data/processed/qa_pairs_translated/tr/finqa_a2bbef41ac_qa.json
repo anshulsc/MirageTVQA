@@ -1,0 +1,189 @@
+[
+  {
+    "question_id": "finqa_a2bbef41ac_001",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "31 Aralık 2007 tarihinde 'yatırımlar' ve 'diğer varlıkların' toplam değeri ne kadardı?",
+    "answer": [
+      [
+        "3254"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_002",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "'Yatırımlar' veya 'diğer varlıklar' kategorilerinden hangisi, 'gerçekleşen ve gerçekleşmemiş kazançlar / (kayıplar) net' açısından daha büyük bir mutlak net kayıp yaşamıştır?",
+    "answer": [
+      [
+        "investments"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_003",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "31 Aralık 2008 tarihindeki 'yatırımlar' kapanış bakiyesinin, açılış bakiyesi ve sonraki listelenen işlemlerle tutarlı olup olmadığını doğrulayın. Hesabınızı gösterin.",
+    "answer": [
+      [
+        "Evet, bakiye tutarlıdır. Hesaplama şöyledir: 1240 $ (açılış bakiyesi) - 409 $ (kazançlar/kayıplar) + 11 $ (alışlar/satışlar) - 29 $ (net transferler) = 813 $, bu da raporlanan kapanış bakiyesine uymaktadır."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_004",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "31 Aralık 2007 ile 31 Aralık 2008 tarihleri arasındaki tüm dönem için varlık değerindeki toplam net değişim ne kadardı?",
+    "answer": [
+      [
+        "-2377"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_005",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "3. seviyedeki net transferler varlık değerine hangi varlık kategorilerinde pozitif katkı sağladı?",
+    "answer": [
+      [
+        "other assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_006",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "'Kazançlara dahil edilen dönemlik toplam net (kayıpların)' ne kadarlık bir kısmı 'yatırımlardan' geldi?",
+    "answer": [
+      [
+        "95.54%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_007",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "'Diğer varlıklar' için 'gerçekleşen ve gerçekleşmemiş kazanç / (kayıp) net' tutarı $-16 yerine sıfır olsaydı, 31 Aralık 2008 tarihindeki 'diğer varlıklar' için yeni kapanış bakiyesi ne olurdu?",
+    "answer": [
+      [
+        "80"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_008",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "'Yatırımlar' verilerine göre, 'gerçekleşmiş ve gerçekleşmemiş kazançlar / (kayıplar) net' ile 'toplam net (kayıplar) ... raporlama tarihindeki henüz elde tutulan varlıklara ilişkin' arasındaki ilişki nedir?",
+    "answer": [
+      [
+        "Güçlü, doğrudan bir ilişki var. 'Toplam net (kayıplar) ... raporlama tarihindeki henüz elde tutulan varlıklara ilişkin' ($-366), toplam 'gerçekleşmiş ve gerçekleşmemiş kazançlar / (kayıplar) net'in ($-409) %89,5'ini oluşturmaktadır. Bu, yatırımlar için dönemin net kayıplarının çoğunun gerçekleşmemiş olduğunu ve raporlama dönemi sonuna kadar satılmamış varlıklarla ilişkili olduğunu ima etmektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_009",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Negatif değerler için kullanılan, örneğin '-409 ( 409 )' gibi veri formatının önerdiği muhasebe kuralı nedir?",
+    "answer": [
+      [
+        "Negatif bir sayının ardından parantez içinde mutlak değerinin gösterilmesi, zararlar, giderler veya karşıt varlık değerleri gibi negatif finansal rakamları açık ve vurgulu bir şekilde belirtmek için yaygın bir muhasebe kuralıdır."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_010",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Dönem boyunca birleşik varlık değerleri üzerindeki en büyük tekil olumsuz etkiyi hangi satır öğesi temsil etmektedir?",
+    "answer": [
+      [
+        "realized and unrealized gains / ( losses ) net"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_011",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Yatırımlar 2007'den 2008'e kadar ne kadar azaldı?",
+    "answer": [
+      [
+        "$427"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A5",
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

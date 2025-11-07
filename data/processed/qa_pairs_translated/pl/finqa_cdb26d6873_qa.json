@@ -1,0 +1,211 @@
+[
+  {
+    "question_id": "finqa_cdb26d6873_001",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "Który okres kończący się w roku, między grudniem 2014 a grudniem 2016, odnotował najwyższy łączny skumulowany zysk z tytułu innych całkowitych dochodów?",
+    "answer": [
+      [
+        "december 27 2014"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "H1",
+      "A11",
+      "H11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_002",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "Jaki był łączny wynik netto 'efektów podatkowych' dla wszystkich trzech odpowiednich okresów wymienionych w tabeli?",
+    "answer": [
+      [
+        "-12 ( 12 )"
+      ]
+    ],
+    "evidence_cells": [
+      "H4",
+      "H9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_003",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "Podaj składnik skumulowanego pozostałego dochodu (z wyłączeniem sumy całkowitej), który doświadczył największej bezwzględnej zmiany między końcem 2014 a 2015 roku. Jaka była jego wartość na koniec 2015 roku?",
+    "answer": [
+      [
+        "1749"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1",
+      "B6",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "G6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_004",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "open_ended_reasoning",
+    "question": "Opisz ogólny trend salda \"korekty z tytułu przeliczenia pozycji zagranicznych\" w każdym z trzech okresów kończących się danym rokiem.",
+    "answer": [
+      [
+        "\"Korekta z tytułu przeliczenia pozycji zagranicznych\" wykazuje konsekwentnie pogarszający się trend w ciągu trzech okresów kończących się danym rokiem. Ujemna korekta (strata) wzrosła z 345 milionów dolarów w 2014 roku do 515 milionów dolarów w 2015 roku, a następnie nieznacznie pogorszyła się do 519 milionów dolarów w 2016 roku, wskazując na stopniowo większy negatywny wpływ przeliczeń walut obcych w czasie."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "A6",
+      "G6",
+      "A11",
+      "G11"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_005",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "Wymień składniki finansowe, dla których kwota 'przeklasyfikowana z narastającego zysku (straty) z tytułu innych całkowitych dochodów' była dodatnia w okresie związanym z wierszem 3, ale roczne saldo na koniec 2015 r. dla tego samego składnika było ujemne.",
+    "answer": [
+      [
+        "unrealized holding gains ( losses ) on derivatives",
+        "prior service credits ( costs )",
+        "actuarial gains ( losses )"
+      ]
+    ],
+    "evidence_cells": [
+      "D3",
+      "D6",
+      "E3",
+      "E6",
+      "F3",
+      "F6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_006",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "Dla pierwszego okresu wiersz 'other comprehensive income ( loss )' (wiersz 5) jaki procent całkowitej straty w wysokości 606 milionów dolarów przypada na 'unrealized holding gains ( losses ) on available-for-sale investments'?",
+    "answer": [
+      [
+        "117.16%"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "H5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_007",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "Gdyby 'zyski (straty) aktuarialne' dla 'pozostałych całkowitych dochodów (strat)' w drugim okresie (wiersz 10) wynosiły zero zamiast straty w wysokości 364 milionów dolarów, jaka byłaby nowa suma dla tej pozycji?",
+    "answer": [
+      [
+        "410"
+      ]
+    ],
+    "evidence_cells": [
+      "F10",
+      "H10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_008",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "open_ended_reasoning",
+    "question": "Biorąc pod uwagę dwa okresy „kwoty przeklasyfikowane z skumulowanych innych całkowitych dochodów (strat)” (wiersze 3 i 8), czy istnieje spójna zależność między przeklasyfikowaniem „niezrealizowanych zysków (strat) z tytułu posiadania inwestycji dostępnych do sprzedaży” a całkowitą kwotą przeklasyfikowania?",
+    "answer": [
+      [
+        "Tak, istnieje silna odwrotna zależność. W pierwszym okresie (wiersz 3) przeklasyfikowanie (strata) w wysokości 93 milionów dolarów dla inwestycji dostępnych do sprzedaży odpowiadało całkowitemu dodatniemu przeklasyfikowaniu w wysokości 506 milionów dolarów. W drugim okresie (wiersz 8) przeklasyfikowanie (strata) w wysokości 530 milionów dolarów odpowiadało całkowitemu ujemnemu przeklasyfikowaniu w wysokości 322 milionów dolarów. W obu przypadkach znaczące ujemne przeklasyfikowanie z tego jednego składnika silnie wpływa na ogół, ale inne składniki mogą kierować ogółem w przeciwnym kierunku."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "H3",
+      "B8",
+      "H8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_009",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "Które dwie kolumny komponentów finansowych zawierają najwięcej niemerytorycznych, zastępczych wpisów danych (tj. wartość '2014')?",
+    "answer": [
+      [
+        "deferred tax asset valuation allowance",
+        "prior service credits ( costs )"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C7",
+      "C8",
+      "C11",
+      "E7",
+      "E8",
+      "E9",
+      "E10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_010",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "W ramach pozycji 'inne całkowite dochody (straty) przed przekwalifikowaniem' dla drugiego okresu (wiersz 7), która składowa ma najbardziej znaczącą wartość odstającą w porównaniu do wartości mediany wszystkich składowych w tym wierszu?",
+    "answer": [
+      [
+        "unrealized holding gains ( losses ) on available-for-sale investments"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "D7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_011",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "Jaki jest całkowity skumulowany dochód (strata) za 26 grudnia 2015 roku?",
+    "answer": [
+      [
+        "46"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "H10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

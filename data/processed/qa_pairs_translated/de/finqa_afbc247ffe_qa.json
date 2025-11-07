@@ -1,0 +1,212 @@
+[
+  {
+    "question_id": "finqa_afbc247ffe_001",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Was war der Netto-Gesamtbetrag aller 'Beträge, die aus dem angesammelten sonstigen umfassenden Einkommen umgegliedert wurden', erfasst über die drei in der Tabelle dargestellten Zeiträume?",
+    "answer": [
+      [
+        "23573"
+      ]
+    ],
+    "evidence_cells": [
+      "E3",
+      "E6",
+      "E9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_002",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Welche der drei Hauptfinanzkategorien (Derivative Instrumente, Anteil am Gemeinschaftsunternehmen, Marktfähige Wertpapiere) verzeichnete den größten absoluten Anstieg ihres Saldos vom 31. Dezember 2014 bis zum 31. Dezember 2017?",
+    "answer": [
+      [
+        "net unrealized gain on derivative instruments ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B10",
+      "C1",
+      "C10",
+      "D1",
+      "D10",
+      "B0"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_003",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "In welchem Zeitraum war das 'andere ergebnis der Gesamtergebnisrechnung vor Umgliederungen' am höchsten, und welcher Betrag wurde in diesem Zeitraum aus dem 'Anteil von SL Green 2019 an den Netto-nicht realisierten Gewinnen aus Derivatinstrumenten von Gemeinschaftsunternehmen' umgegliedert?",
+    "answer": [
+      [
+        "3453"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E5",
+      "E8",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_004",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "Beschreiben Sie den jährlichen Trend des Gesamtguthabens vom 31. Dezember 2014 bis zum 31. Dezember 2017. War die Veränderung konsistent?",
+    "answer": [
+      [
+        "Der Trend war nicht konsistent; er war volatil. Das Gesamtguthaben sank von -6980 im Jahr 2014 auf -8749 im Jahr 2015. Danach verzeichnete es einen sehr starken Anstieg auf 22137 im Jahr 2016, gefolgt von einem moderaten Rückgang auf 18604 im Jahr 2017. Das Wachstum war weder stetig noch linear."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E4",
+      "E7",
+      "E10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_005",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Listen Sie die Finanzkategorien auf, die zu Beginn des Zeitraums (31. Dezember 2014) einen negativen Saldo und am Ende des Zeitraums (31. Dezember 2017) einen positiven Saldo aufwiesen.",
+    "answer": [
+      [
+        "net unrealized gain on derivative instruments ( 1 )"
+      ],
+      [
+        "sl green 2019s share of joint venture net unrealized gain on derivative instruments ( 2 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B1",
+      "B10",
+      "C1",
+      "C10",
+      "D1",
+      "D10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_006",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Welchen Prozentsatz des gesamten 'anderen Ergebnisbestandteils vor Umgliederungen' im Zeitraum 2016 machte der 'Netto-nicht realisierte Gewinn aus Derivatinstrumenten (1)' aus?",
+    "answer": [
+      [
+        "74.32%"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "E5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_007",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Wenn das 'Sonstige umfassende Ergebnis (Verlust) vor Umgliederungen' für den 'Netto nicht realisierten Gewinn aus marktgängigen Wertpapieren' im Zeitraum 2017 statt eines Verlusts von 1.348 $ ein Gewinn von 1.000 $ gewesen wäre, wie hoch wäre dann der neue 'Gesamt'-Saldo zum 31. Dezember 2017 gewesen?",
+    "answer": [
+      [
+        "$ 20952"
+      ]
+    ],
+    "evidence_cells": [
+      "D8",
+      "E10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_008",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "Gibt es basierend auf den bereitgestellten Daten eine konsistente Korrelation (entweder direkt oder invers) zwischen dem 'anderen umfassenden Einkommen (Verlust) vor Umgliederungen' und den 'Beträgen, die aus dem angesammelten anderen umfassenden Einkommen umgegliedert wurden' für die Gesamtbeträge in jeder Periode?",
+    "answer": [
+      [
+        "Nein, es gibt keine konsistente Korrelation. In der Periode 2015 folgte einem umfassenden Verlust von -13.467 eine positive Umgliederung von 11.698 (inverse Beziehung). Sowohl in den Perioden 2016 als auch 2017 hatten das Einkommen/der Verlust und die Umgliederung jedoch das gleiche Vorzeichen (positiv/positiv bzw. negativ/negativ), was in diesen Jahren eine direkte Beziehung anzeigte. Die Inkonsistenz deutet darauf hin, dass der Zeitpunkt und der Betrag der Umgliederungen nicht allein durch die nicht realisierten Ergebnisse der vorhergehenden Periode bestimmt werden."
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E3",
+      "E5",
+      "E6",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_009",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "Wie leiten sich die Jahresschlussbestände rechnerisch aus dem vorangehenden Bestand und den in der Tabelle dargestellten zwischenzeitlichen finanziellen Aktivitäten ab?",
+    "answer": [
+      [
+        "Jeder Jahresschlussbestand ist die Summe des Endbestands des Vorjahres, des 'sonstigen umfassenden (Verlust-)Ertrags vor Umgliederungen' für die aktuelle Periode und der 'aus dem kumulierten sonstigen umfassenden Ertrag umgegliederten Beträge' für die aktuelle Periode. Zum Beispiel wird der Bestand für 2016 (22.137) berechnet als der Bestand für 2015 (-8.749) zuzüglich des sonstigen umfassenden Ertrags (18.211) und der umgegliederten Beträge (12.675) für die Periode 2016."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_010",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Welches einzelne finanzielle Ereignis (d. h. ein Zeilenelement, das keine Bilanzposition darstellt) in der Spalte 'Gesamt' hat den größten absoluten Wert und zeigt damit das bedeutendste Ereignis für das umfassende Ergebnis oder den Verlust im Dreijahreszeitraum?",
+    "answer": [
+      [
+        "other comprehensive income before reclassifications"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E2",
+      "E3",
+      "E5",
+      "E6",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_011",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Wie hoch ist der gesamte nicht realisierte Gewinn über alle Kategorien Ende 2015?",
+    "answer": [
+      [
+        "$ -8,749"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "E4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

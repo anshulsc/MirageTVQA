@@ -1,0 +1,216 @@
+[
+  {
+    "question_id": "finqa_d834af5a15_001",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "Tabloda gösterilen tüm yıllarda (2006, 2007 ve 2008) verilen kısıtlı hisse senetlerinin toplam sayısı kaçtır?",
+    "answer": [
+      [
+        "5287752"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d834af5a15_002",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "Hangi dönemde (2006, 2007 veya 2008) iptal edilen hisse senedinin ağırlıklı ortalama gerçeğe uygun değeri en yüksekti?",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "A8",
+      "C8",
+      "A12",
+      "C12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_003",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "open_ended_reasoning",
+    "question": "31 Aralık 2005'ten 31 Aralık 2008'e kadar her yılın sonunda bulunan tahsis edilmemiş kısıtlı hisse senedi sayısındaki eğilimi açıklayın.",
+    "answer": [
+      [
+        "Tahsis edilmemiş kısıtlı hisse senedi sayısı, yıldan yıla tutarlı ancak yavaşlayan bir büyüme eğilimi göstermektedir. 2005 sonundaki 3.488.668'den 2006'da 3.579.189'a (90.521 artışla), ardından 2007'de 3.821.707'ye (242.518 artışla) ve son olarak 2008'de 3.883.230'a (61.523 artışla) yükselmiştir."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A5",
+      "B5",
+      "A9",
+      "B9",
+      "A13",
+      "B13"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_004",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "2007 yılı için, yeni verilen hisselerin yüzdesel olarak ne kadarı, verilen ve kaybedilen hisselerin toplamı tarafından karşılanmıştır?",
+    "answer": [
+      [
+        "86.66%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d834af5a15_005",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "Hisse senedi verlei ve ihraç edilen sayısı ilk kez 1,3 milyonu aştığı yılda, verilen hisse senedinin gerçeğe uygun değeri neydi?",
+    "answer": [
+      [
+        "$ 56.45"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A7",
+      "B7",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_006",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "open_ended_reasoning",
+    "question": "31 Aralık 2008 tarihindeki gerçekleşmemiş kısıtlı hisse senedi bakiyesini, 2007 yıl sonu bakiyesinden ve sonraki yıla ait faaliyetlerden yola çıkarak hesaplayıp doğrulayın.",
+    "answer": [
+      [
+        "Hesaplama doğrudur. 2007 yıl sonu bakiyesi olan 3.821.707'den başlanarak, verilen 1.836.532 hisse senedi eklenip, elden çıkarılan 1.403.826 ve kaybedilen 371.183 hisse senedi çıkarıldığında, 31 Aralık 2008 için bildirilen gerçekleşmemiş hisse senedi sayısına karşılık gelen 3.883.230'luk nihai bir bakiye elde edilir."
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_007",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "2006 yılında verilen hisselerin ağırlıklı ortalama gerçeğe uygun değeri %5 daha yüksek olsaydı, toplam yaklaşık değeri ne olurdu? (Toplam Değer = hisse sayısı * gerçeğe uygun değer)",
+    "answer": [
+      [
+        "$ 95,781,586.20"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_008",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "open_ended_reasoning",
+    "question": "Bir yılda verilen hisse senedi sayısı ile aynı yılda iptal edilen hisse senedi sayısı arasında tutarlı bir ilişki var mı?",
+    "answer": [
+      [
+        "Verilere göre, açık veya tutarlı bir ilişki bulunmamaktadır. 2006 yılında 1.632.504 hisse senedi verilmiş ve 360.734'ü iptal edilmiştir. 2007 yılında, verilen hisse sayısı 1.818.716'ya yükselirken, iptaller 230.786'ya düşmüştür. 2008 yılında, verilen hisse sayısı 1.836.532 ile yüksek kalırken, iptaller önemli ölçüde 371.183'e yükselmiştir. İptal edilen hisse sayısı, aynı dönemdeki verilen hisse sayısıyla doğrudan bir korelasyon olmaksızın dalgalanmaktadır."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B6",
+      "B8",
+      "B10",
+      "B12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d834af5a15_009",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "Tüm yıllarda listelenen işlemler arasında ('verilen', 'edinilen ve ihraç edilen' veya 'kaybedilen') en yüksek ortalama tahsis tarihi gerçeğe uygun değere sahip olan hangisidir?",
+    "answer": [
+      [
+        "granted"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C6",
+      "C7",
+      "C8",
+      "C10",
+      "C11",
+      "C12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d834af5a15_010",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "open_ended_reasoning",
+    "question": "Tablodaki 'unvested restricted stock december 31' ile başlayan satırların yapısal amacı nedir?",
+    "answer": [
+      [
+        "Bu satırlar, bir finansal mutabakat beyanında dönemsel bakiyeler veya kontrol noktaları olarak hizmet eder. Her 'veste tabi olmayan kısıtlı hisse' satırı, belirli bir yılın sonundaki kümülatif toplamı sağlar ve sonraki satırlar ('verilen', 'vest edilmiş', 'iptal edilen') bu bakiyeyi bir sonraki yıl sonu toplamına ulaşacak şekilde değiştiren faaliyetleri detaylandırır. Her dönemin faaliyet analizinin başlangıç ve bitiş noktalarını sağlarlar."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A9",
+      "A13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_011",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "2005'ten 2008'e kadar verilen kısıtlı hisse senedi sayısı toplamı nedir?",
+    "answer": [
+      [
+        "5,287,752"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A6",
+      "A10",
+      "B2",
+      "B6",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

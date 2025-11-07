@@ -1,0 +1,165 @@
+[
+  {
+    "question_id": "finqa_ec80ad8938_001",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Vad är det totala redovisade värdet för alla tillgångar (både handelsportföljtillgångar och lån) som redovisats i båda de presenterade datamängderna?",
+    "answer": [
+      [
+        "26557"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_002",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "I den andra datamängden (kolumn D och E), vilken tillgångskategori – handelsmässiga tillgångar eller lån – har det större 'sammanlagda obetalda kapitalbeloppet som överstiger verkligt värde'?",
+    "answer": [
+      [
+        "loans"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_003",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "För den första uppsättningen lån (kolumn C), hur stor procentandel av det totala 'redovisade värdet' utgörs av 'balansen av icke-räntebärande lån'?",
+    "answer": [
+      [
+        "0.03%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_004",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Vad är det sammanlagda bokförda värdet för den tillgångstyp (Handelstillgångar eller Lån) som har det lägre totala 'saldot för lån utan ränteintäkt' över båda datamängderna?",
+    "answer": [
+      [
+        "7598"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_006",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Om det redovisade värdet för handelsportföljens tillgångar i den första datamängden (kolumn B) skulle justeras genom att subtrahera dess 'sammanlagda obetalda huvudstol i överskott av verkligt värde', vad skulle det nya redovisade värdet vara?",
+    "answer": [
+      [
+        "9673"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_007",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Vid analys av 'balansen för icke-räntbärande lån', vilken tillgångstyps balans är en betydande avvikare jämfört med den andra, och vad innebär detta för deras relativa riskprofiler?",
+    "answer": [
+      [
+        "Handelstillgångarna i båda dataseten visar en icke-räntbärande balans på 2 014 miljoner dollar, vilket är en extrem avvikare jämfört med 1 miljon dollar för Lån i båda uppsättningarna. Denna markanta skillnad tyder på att portföljen med Handelstillgångar bär på betydligt högre kreditrisk eller har upplevt en större fallissemangshändelse, medan Lån-portföljen verkar vara i exceptionellt god hälsa med nästan inga icke-räntbärande saldon."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_008",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Visar datan en konsekvent positiv korrelation mellan en tillgångs 'redovisade värde' och dess 'sammanlagda obetalda kapitalbelopp som överstiger verkligt värde' för kategorin Handelstillgångar?",
+    "answer": [
+      [
+        "Nej, en konsekvent positiv korrelation visas inte. Den första uppsättningen handelstillgångar har ett högre redovisat värde ($10 108 M mot $8 851 M) men ett lägre sammanlagt obetalt kapitalbelopp som överstiger verkligt värde ($435 M mot $623 M). Detta indikerar att en större portföljstorlek inte nödvändigtvis leder till en proportionellt större orealiserad förlust i detta dataset."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_009",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifiera rader som innehåller upprepade eller till synes redundanta datapunkter och förklara mönstret.",
+    "answer": [
+      [
+        "Datarundans finns i rad 3 och 4. I rad 3, 'saldo för icke-upplupna lån...', är värdet för handelsrelaterade tillgångar $2,014M i båda uppsättningarna (B3, D3) och $1M för lån i båda uppsättningarna (C3, E3). I rad 4 upprepas värdet $2,014M tre gånger för båda uppsättningarna av handelsrelaterade tillgångar och den första uppsättningen lån (B4, C4, D4), vilket tyder på antingen ett datainmatningsmönster eller en specifik finansiell rapporteringsartefakt."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_010",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "För den datauppsättning (Uppsättning 1: kolumner B,C eller Uppsättning 2: kolumner D,E) med det högre totala redovisade värdet, beräkna portföljens totala \"orealiserade förlustprocent\" (totalt \"obetalt skuldsaldo som överstiger verkligt värde\" dividerat med totalt \"redovisat värde\").",
+    "answer": [
+      [
+        "8.82%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

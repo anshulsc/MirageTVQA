@@ -1,0 +1,70 @@
+[
+  {
+    "question_id": "finqa_e33c420d31_004",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "Para 'pagamentos de juros sobre dívida de longo prazo', analise a tendência dos pagamentos nos quatro períodos de tempo e determine se a obrigação é concentrada no início ou no final.",
+    "answer": [
+      [
+        "Os pagamentos para 'pagamentos de juros sobre dívida de longo prazo' são $1.172 (<1 ano), $2.166 (1-3 anos), $1.719 (3-5 anos) e $4.046 (>5 anos). A obrigação é significativamente concentrada no final, uma vez que os pagamentos tendem a aumentar ao longo do tempo, com o maior pagamento único ocorrendo no período de 'mais de 5 anos'. Mais de 63% do total dos pagamentos de juros são devidos a mais de 3 anos no futuro."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_006",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Qual é a proporção das obrigações totais de curto prazo (com vencimento em 'menos de 1 ano') para as obrigações totais de longo prazo (com vencimento em 'mais de 5 anos') com base na linha total final?",
+    "answer": [
+      [
+        "Approximately 1:2.81"
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "F9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_e33c420d31_007",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Se uma nova política exigisse que todas as 'obrigações de arrendamento operacional' com vencimento em 'mais de 5 anos' fossem pagas, em vez disso, dentro do período de '3-5 anos', qual seria o novo total para a coluna de '3-5 anos'?",
+    "answer": [
+      [
+        "$ 10283"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_010",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "A linha para 'outras obrigações de longo prazo' contém um valor na coluna 'menos de 1 ano' que parece ser um valor atípico. Identifique este valor e explique por que ele é inconsistente.",
+    "answer": [
+      [
+        "O valor atípico é o '$ 2014' na coluna 'menos de 1 ano'. É inconsistente porque este único valor de pagamento de curto prazo é significativamente maior que os '$ 701' listados como o 'total' para toda essa obrigação, o que é uma impossibilidade lógica e provavelmente um erro de dados."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

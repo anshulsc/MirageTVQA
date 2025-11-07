@@ -1,0 +1,211 @@
+[
+  {
+    "question_id": "finqa_cdb26d6873_001",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "Vilken årsperiod, mellan december 2014 och december 2016, registrerade den högsta totala ackumulerade övriga totala omfattande intäkter?",
+    "answer": [
+      [
+        "december 27 2014"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "H1",
+      "A11",
+      "H11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_002",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "Vad var nettototalen för 'skatteeffekter' under alla tre relevanta perioder som anges i tabellen?",
+    "answer": [
+      [
+        "-12 ( 12 )"
+      ]
+    ],
+    "evidence_cells": [
+      "H4",
+      "H9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_003",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "Identifiera den komponent av ackumulerad annan totaltäckande resultat (exklusive totalsumman) som upplevde den största absoluta förändringen mellan årets slut 2014 och 2015. Vad var dess värde vid slutet av 2015?",
+    "answer": [
+      [
+        "1749"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1",
+      "B6",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "G6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_004",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv den övergripande trenden för saldot 'justering för utländsk valutaomräkning' vid var och en av de tre rapporteringsdatum vid årets slut.",
+    "answer": [
+      [
+        "Justeringen för utländsk valutaomräkning visar en konsekvent försämrad trend under de tre perioderna vid årets slut. Den negativa justeringen (förlusten) ökade från 345 miljoner USD år 2014 till 515 miljoner USD år 2015, och försämrades sedan något till 519 miljoner USD år 2016, vilket indikerar progressivt större negativa effekter från omräkning av utländsk valuta över tid."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "A6",
+      "G6",
+      "A11",
+      "G11"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_005",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "Lista de finansiella komponenter där 'belopp omklassificerade från ackumulerad annan totaljustering (förlust)' var positiva för perioden relaterad till rad 3, men där årsslutsaldot 2015 för samma komponent var negativt.",
+    "answer": [
+      [
+        "unrealized holding gains ( losses ) on derivatives",
+        "prior service credits ( costs )",
+        "actuarial gains ( losses )"
+      ]
+    ],
+    "evidence_cells": [
+      "D3",
+      "D6",
+      "E3",
+      "E6",
+      "F3",
+      "F6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_006",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "För den första periodens \"övriga totala resultat (förlust)\" (rad 5), vilken andel av den totala förlusten på 606 miljoner dollar hänför sig till \"oegentliga uppgångar (förluster) vid innehav av tillgängliga-för-försäljning-investeringar\"?",
+    "answer": [
+      [
+        "117.16%"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "H5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_007",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "Om 'aktuariella vinster (förluster)' för 'övriga totala resultat (förlust)' i den andra perioden (rad 10) hade varit noll istället för en förlust på 364 miljoner dollar, vad hade då den nya totalsumman för den raden varit?",
+    "answer": [
+      [
+        "410"
+      ]
+    ],
+    "evidence_cells": [
+      "F10",
+      "H10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_008",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "open_ended_reasoning",
+    "question": "Baserat på de två perioderna för 'omklassificeringar ur ackumulerade övriga totala resultat (förlust)' (rader 3 och 8), finns det ett konsekvent samband mellan omklassificeringen av 'oavsiktliga värderingsvinster (förluster) på tillgängliga-för-försäljning-investeringar' och det totala omklassificeringsbeloppet?",
+    "answer": [
+      [
+        "Ja, det finns ett starkt omvänt samband. Under den första perioden (rad 3) motsvarade en omklassificering ut (förlust) på 93 miljoner USD för tillgängliga-för-försäljning-investeringar en total positiv omklassificering på 506 miljoner USD. Under den andra perioden (rad 8) motsvarade en omklassificering ut (förlust) på 530 miljoner USD en total negativ omklassificering på 322 miljoner USD. I båda fallen påverkar den betydande negativa omklassificeringen från denna enda komponent starkt totalen, men andra komponenter kan driva totalen i motsatt riktning."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "H3",
+      "B8",
+      "H8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_009",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "Vilka två finansiella komponentkolumner innehåller flest icke-monetära, platshållarposteringar (d.v.s. värdet '2014')?",
+    "answer": [
+      [
+        "deferred tax asset valuation allowance",
+        "prior service credits ( costs )"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C7",
+      "C8",
+      "C11",
+      "E7",
+      "E8",
+      "E9",
+      "E10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_010",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "Inom raden 'other comprehensive income ( loss ) before reclassifications' för den andra perioden (rad 7), vilken komponent har det mest signifikanta avvikande värdet jämfört med medianvärdet för alla komponenter i den raden?",
+    "answer": [
+      [
+        "unrealized holding gains ( losses ) on available-for-sale investments"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "D7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_011",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "Vad är den totala övriga totala omfattande inkomst (förlust) för 26 december 2016?",
+    "answer": [
+      [
+        "46"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "H10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

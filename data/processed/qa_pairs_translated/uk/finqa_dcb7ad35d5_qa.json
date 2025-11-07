@@ -1,0 +1,200 @@
+[
+  {
+    "question_id": "finqa_dcb7ad35d5_001",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "Який тип зобов'язань, виключаючи довгострокову заборгованість, має найвищу загальну суму до сплати?",
+    "answer": [
+      [
+        "purchase obligations and other ( 4 ) ( 5 ) ( 6 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_002",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "Які загальні сукупні зобов'язання, що підлягають сплаті до 2023 фінансового року?",
+    "answer": [
+      [
+        "3935.9"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_003",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "Яка загальна сума платежів, що підлягають сплаті у періоди 2021-2022 та 2023-2024 років для типу зобов'язань, який має найменший платіж, що підлягає сплаті, у 2020 фінансовому році?",
+    "answer": [
+      [
+        "11.6"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "A3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_004",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "Опишіть тенденцію загальних платіжних зобов'язань компанії за визначені фіскальні періоди, що передують періоду 'надалі'.",
+    "answer": [
+      [
+        "Загальні платіжні зобов'язання демонструють коливальну тенденцію. Вони починаються з 2378,5 млн доларів США у 2020 фіскальному році, потім зменшуються до 1557,4 млн доларів США на період 2021-2022 років, перш ніж значно зрости до 2897,5 млн доларів США на період 2023-2024 років. Це свідчить про зниження короткострокових зобов'язань, за яким слідує значне зростання середньострокових зобов'язань."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_005",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "Перелічіть усі категорії зобов'язань, за якими термін оплати \"пізніше\" перевищує суму всіх платежів, що підлягають сплаті з 2020 по 2024 рік.",
+    "answer": [
+      [
+        "long-term debt including current portionexcluding capital lease obligations ( 1 )"
+      ],
+      [
+        "capital lease obligations ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "A3",
+      "C3",
+      "D3",
+      "E3",
+      "F3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_006",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "Який відсоток від загальної суми платежів, що підлягають сплаті у 2020 фінансовому році, припадає на «зобов'язання з купівлі та інші»?",
+    "answer": [
+      [
+        "67.56%"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_007",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "Якщо всі \"зобов'язання за операційною орендою\", термін сплати яких припадає на 2021 та 2022 фіскальні роки, будуть відкладені та додані до періоду \"пізніше\", яким буде новий загальний показник для періоду \"пізніше\"?",
+    "answer": [
+      [
+        "6589.9"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "F5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_008",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "Згідно з планами платежів, що можна зробити висновок про профіль зрілості 'довгострокового боргу' порівняно з 'зобов'язаннями щодо закупівлі'?",
+    "answer": [
+      [
+        "Профілі зрілості кардинально відрізняються. 'Довгостроковий борг' значно навантажений наприкінці терміну, причому більшість платежів (5729,2 млн доларів США з 9714,1 млн доларів США) припадає на період 'після цього', що вказує на довгострокові фінансові інструменти. Натомість, 'зобов'язання щодо закупівлі' значно навантажені на початку терміну, причому переважна більшість платежів (1607,0 млн доларів США з 2293,5 млн доларів США) припадає на найближчий фінансовий 2020 рік, що характерно для короткострокових операційних зобов'язань."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_009",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "Яка окрема сума платежу для «зобов'язань за договорами фінансового лізингу» є викидом, що становить майже 90% від загального зобов'язання?",
+    "answer": [
+      [
+        "$ 150.9"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_010",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "Шляхом ручного додавання значень у стовпці 'payments due by period fiscal 2023and 2024' для кожного окремого зобов'язання, перевірте, чи є надана загальна сума в комірці E5 правильною.",
+    "answer": [
+      [
+        "Так, надана загальна сума правильна. Сума окремих зобов'язань за період 2023 та 2024 фінансового року становить $2494.3 + $193.6 + $2.9 + $206.7, що дорівнює $2897.5, і це відповідає значенню в комірці E5."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

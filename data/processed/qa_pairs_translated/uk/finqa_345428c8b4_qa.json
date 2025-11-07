@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_345428c8b4_001",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Якою була загальна чиста зміна у \"кількості акцій в обігу\" внаслідок усіх програм \"викупу акцій\" та операцій \"випущено за конвертацією облігацій\" разом за всі роки?",
+    "answer": [
+      [
+        "-36"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "D5",
+      "D10",
+      "D15",
+      "D16"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_345428c8b4_002",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Який період рік до року (2008, 2009 або 2010) мав найменшу абсолютну зміну в кінцевому річному залишку 'акцій в обігу'?",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D6",
+      "D11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_003",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Визначте транзакцію, яка призвела до найбільшого одноразового збільшення кількості 'акцій в обігу', а потім обчисліть співвідношення кількості акцій 'у казначействі' до значення кількості 'акцій в обігу' для цієї транзакції.",
+    "answer": [
+      [
+        "Транзакція - це 'придбання Smith International Inc.'. Співвідношення становить приблизно 0.432 (76 / 176)."
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "C12",
+      "D12",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D8",
+      "D9",
+      "D13",
+      "D14",
+      "D16"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_004",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Опишіть загальну тенденцію балансу акцій \"у казначействі\" з початку 2008 року до кінця 2010 року.",
+    "answer": [
+      [
+        "Кількість акцій \"у казначействі\" демонструє коливальну, але загалом спадну тенденцію (зменшення від'ємного числа). Вона почалася з -138, трохи зменшилася до -140 у 2008 році, незначно відновилася до -139 у 2009 році, а потім суттєво зменшилася до -73 до кінця 2010 року, значною мірою завдяки акціям, пов'язаним з придбанням Smith International Inc."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C6",
+      "C11",
+      "C17",
+      "A12",
+      "C12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_005",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Перелічіть усі дії, що відбулися у 2008 році (між балансами від 1 січня та 31 грудня), які мали позитивний вплив на кількість \"акцій в обігу\".",
+    "answer": [
+      [
+        "shares sold to optionees less shares exchanged"
+      ],
+      [
+        "shares issued under employee stock purchase plan"
+      ],
+      [
+        "issued on conversions of debentures"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_006",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Яку частку кінцевого балансу \"акцій в обігу\" станом на 31 грудня 2010 року було додано транзакцією \"придбання Smith International Inc.\"",
+    "answer": [
+      [
+        "12.93%"
+      ]
+    ],
+    "evidence_cells": [
+      "D12",
+      "D17"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_345428c8b4_007",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Якби у 2010 році не відбулося «придбання Smith International Inc.», яким би був залишок акцій в обігу на кінець року 31 грудня 2010 року, за умови, що всі інші операції залишилися б незмінними?",
+    "answer": [
+      [
+        "1185"
+      ]
+    ],
+    "evidence_cells": [
+      "D17",
+      "D12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_008",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Чи існує помітний зв'язок між кількістю акцій, випущених для опціонерів, та кількістю, випущеною за планом придбання акцій працівниками, у представлені роки? Поясніть.",
+    "answer": [
+      [
+        "Конкретного зв'язку немає. У 2008 році опціонерам було продано більше акцій (5), ніж випущено за планом придбання (2). У 2009 році кількість була однаковою (4 і 4). У 2010 році опціонерам було продано більше акцій (6), ніж випущено за планом придбання (3). Співвідношення між цими двома показниками змінюється щороку, що свідчить про відсутність прямої кореляції."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A7",
+      "D7",
+      "A9",
+      "D9",
+      "A13",
+      "D13",
+      "A14",
+      "D14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_345428c8b4_009",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Виключаючи рядки з балансом, який стовпець – 'issued', 'in treasury' чи 'shares outstanding' – містить найбільше нечислових або непослідовних записів даних?",
+    "answer": [
+      [
+        "Стовпець 'issued' є найбільш непослідовним. Тоді як інші стовпці містять числові значення (або послідовний формат для від'ємних чисел), стовпець 'issued' містить суміш чисел, які, здається, представляють баланси ('1334', '1434', '100'), та повторюване значення '2013', яке, схоже, не відповідає кількості для транзакцій, до яких воно віднесено."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B12",
+      "B17"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_010",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Яка окрема транзакція виділяється як аномалія, маючи найбільший позитивний вплив на баланс 'акцій в обігу' порівняно із середнім впливом усіх інших транзакцій?",
+    "answer": [
+      [
+        "acquisition of smith international inc ."
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D12",
+      "D13",
+      "D14",
+      "D15",
+      "D16"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_345428c8b4_011",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Яке співвідношення між акціями у скарбниці та акціями в обігу за програмою викупу акцій протягом років?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "D4",
+      "A10",
+      "C10",
+      "D10",
+      "A15",
+      "C15",
+      "D15"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

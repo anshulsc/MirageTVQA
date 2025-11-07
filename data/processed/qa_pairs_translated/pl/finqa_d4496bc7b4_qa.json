@@ -1,0 +1,219 @@
+[
+  {
+    "question_id": "finqa_d4496bc7b4_001",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Jaka była łączna zmiana w zobowiązaniach z tytułu likwidacji aktywów w ciągu 2009 roku, obliczona na podstawie podanych pozycji?",
+    "answer": [
+      [
+        "137"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_002",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Która kategoria zmian doświadczyła największej bezwzględnej różnicy wartości między 2008 a 2009 rokiem?",
+    "answer": [
+      [
+        "held for sale"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_003",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "W 2009 roku, jaki procent całkowitych pozytywnych korekt (zaciągnięte zobowiązania, koszt amortyzacji i rewizje) przypadał na 'rewizje poprzednich szacunków'?",
+    "answer": [
+      [
+        "61.39%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_004",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Zweryfikuj, czy 'zobowiązania z tytułu likwidacji aktywów na dzień 31 grudnia 2008' zostały poprawnie obliczone na podstawie salda początkowego i pozycji zmiennych dla tego roku. Pokaż swoje obliczenia.",
+    "answer": [
+      [
+        "Tak, saldo końcowe za rok 2008 zostało poprawnie obliczone. Obliczenie wygląda następująco: 1134 USD (saldo początkowe) + 30 USD (zaciągnięte, w tym nabycia) - 94 USD (zaspokojone) + 66 USD (koszt amortyzacji) + 24 USD (korekty poprzednich szacunków) - 195 USD (przeznaczone do sprzedaży) = 965 USD, co zgadza się z podaną wartością."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_005",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Gdyby korekta z tytułu 'przeznaczone do sprzedaży' w 2008 roku wyniosła zero, jakie byłyby zobowiązania z tytułu likwidacji aktywów na koniec 2008 roku?",
+    "answer": [
+      [
+        "$ 1160"
+      ]
+    ],
+    "evidence_cells": [
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_006",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Przeanalizuj i porównaj główne czynniki wpływające na zmianę całkowitych zobowiązań z tytułu likwidacji aktywów między rokiem 2008 a 2009.",
+    "answer": [
+      [
+        "W 2008 roku zobowiązania zmniejszyły się o 169 mln USD, głównie z powodu znaczącej redukcji o 195 mln USD z tytułu aktywów „przeznaczonych do sprzedaży” i 94 mln USD z tytułu zaspokojonych zobowiązań, co przewyższyło 120 mln USD dodatkowych środków. W przeciwieństwie do tego, w 2009 roku odnotowano wzrost o 137 mln USD, napędzany w przeważającej mierze dużą pozytywną pozycją „korekty poprzednich szacunków” w wysokości 124 mln USD, która z nawiązką zrekompensowała 65 mln USD zaspokojonych zobowiązań."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7",
+      "C1",
+      "C7",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_007",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Który składnik finansowy odnotował wzrost o ponad 100 milionów dolarów z 2008 do 2009 roku, co czyni go wartością odstającą pod względem zmiany rok do roku?",
+    "answer": [
+      [
+        "revisions to previous estimates"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_008",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Wskaż rok, w którym 'zmiany poprzednich szacunków' były ponad pięciokrotnie większe niż 'zobowiązania wynikające z nabycia, w tym przejęć'.",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B5",
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_009",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Na podstawie danych z dwóch lat, czy istnieje obserwowalny wzorzec lub zależność między zobowiązaniem początkowym a 'kosztem narastania' (accretion expense) za dany rok?",
+    "answer": [
+      [
+        "Tak, istnieje obserwowalny wzorzec. 'Koszt narastania' wydaje się stanowić stosunkowo stały procent salda początkowego. W 2008 roku stanowił 5,8% salda początkowego (66 mln / 1134 mln), a w 2009 roku 6,6% (64 mln / 965 mln). Sugeruje to, że koszt narastania jest konsekwentnie obliczany na podstawie zobowiązania otwarcia, prawdopodobnie odzwierciedlając wartość pieniądza w czasie dla zobowiązania długoterminowego."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_010",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Jak struktura tabeli potwierdza ciągłość salda zobowiązań z tytułu likwidacji aktywów od końca 2008 roku do początku 2009 roku?",
+    "answer": [
+      [
+        "Tabela wykazuje ciągłość, pokazując, że wartość dla pozycji 'zobowiązania z tytułu likwidacji aktywów na dzień 31 grudnia' w kolumnie 2008 ( 965 USD ) jest identyczna z wartością dla pozycji 'zobowiązania z tytułu likwidacji aktywów na dzień 1 stycznia' w kolumnie 2009 ( 965 USD ). Jest to standardowe przedstawienie księgowe typu 'roll-forward', gdzie saldo końcowe jednego okresu staje się saldem początkowym następnego."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A7",
+      "B1",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_011",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Jak zmieniły się całkowite zobowiązania z tytułu likwidacji aktywów od 2008 do 2009 roku?",
+    "answer": [
+      [
+        "Całkowite zobowiązania z tytułu likwidacji aktywów wzrosły z 965 milionów dolarów w 2008 roku do 1102 milionów dolarów w 2009 roku"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "question_id": "finqa_afbc247ffe_001",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Hvad var det samlede nettobeløb af alle 'beløb, der blev omklassificeret fra akkumuleret anden omfattende indkomst', der blev registreret i de tre perioder vist i tabellen?",
+    "answer": [
+      [
+        "23573"
+      ]
+    ],
+    "evidence_cells": [
+      "E3",
+      "E6",
+      "E9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_002",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Hvilken af de tre hovedfinansielle kategorier (derivatinstrumenter, joint venture-andel, omsættelige værdipapirer) oplevede den største absolutte stigning i sin saldo fra 31. december 2014 til 31. december 2017?",
+    "answer": [
+      [
+        "net unrealized gain on derivative instruments ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B10",
+      "C1",
+      "C10",
+      "D1",
+      "D10",
+      "B0"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_003",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "I perioden med den højeste samlede 'andre omfattende indkomst før omklassificeringer', hvad var det tilsvarende beløb, der blev omklassificeret fra 'sl green 2019s andel af joint venture netto urealiserede gevinst på derivatinstrumenter'?",
+    "answer": [
+      [
+        "3453"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E5",
+      "E8",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_004",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv tendensen fra år til år for den samlede saldo fra 31. december 2014 til 31. december 2017. Var ændringen konsistent?",
+    "answer": [
+      [
+        "Tendensen var ikke konsistent; den var volatil. Den samlede saldo faldt fra -6980 i 2014 til -8749 i 2015. Derefter oplevede den en meget stor stigning til 22137 i 2016, efterfulgt af et moderat fald til 18604 i 2017. Væksten var hverken jævn eller lineær."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E4",
+      "E7",
+      "E10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_005",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "List de finansielle kategorier, der havde en negativ saldo ved periodens start (31. december 2014) og afsluttede med en positiv saldo ved periodens afslutning (31. december 2017).",
+    "answer": [
+      [
+        "net unrealized gain on derivative instruments ( 1 )"
+      ],
+      [
+        "sl green 2019s share of joint venture net unrealized gain on derivative instruments ( 2 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B1",
+      "B10",
+      "C1",
+      "C10",
+      "D1",
+      "D10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_006",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Hvilken procentdel af den samlede 'andre omfattende indtægter før omklassificeringer' i 2016-perioden kunne tilskrives 'netto urealiseret gevinst på derivatinstrumenter (1)'?",
+    "answer": [
+      [
+        "74.32%"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "E5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_007",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Hvis 'anden omfattende (tab) indkomst før omklassificeringer' for 'netto urealiseret gevinst på omsættelige værdipapirer' i 2017-perioden havde været en gevinst på $1.000 i stedet for et tab på $1.348, hvad ville den nye 'samlede' saldo pr. 31. december 2017 have været?",
+    "answer": [
+      [
+        "$ 20952"
+      ]
+    ],
+    "evidence_cells": [
+      "D8",
+      "E10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_008",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "Er der, baseret på de leverede data, en konsekvent korrelation (enten direkte eller omvendt) mellem 'anden omfattende indkomst (tab) før omklassificeringer' og 'beløb omklassificeret fra akkumuleret anden omfattende indkomst' for de samlede beløb i hver periode?",
+    "answer": [
+      [
+        "Nej, der er ingen konsekvent korrelation. I 2015-perioden blev et samlet tab på -13.467 fulgt af en positiv omklassificering på 11.698 (omvendt forhold). Men i både 2016- og 2017-perioderne havde indkomsten/tabet og omklassificeringen samme fortegn (positiv/positiv og negativ/negativ henholdsvis), hvilket indikerer et direkte forhold i disse år. Uoverensstemmelsen antyder, at tidspunktet og beløbet for omklassificeringer ikke udelukkende bestemmes af den foregående periods urealiserede resultat."
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E3",
+      "E5",
+      "E6",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_009",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvordan udledes årsslutbalancerne matematisk fra den foregående saldo og de mellemliggende finansielle aktiviteter vist i tabellen?",
+    "answer": [
+      [
+        "Hver årsslutsaldo er summen af ​​den foregående års afslutningssaldo, 'anden samlede indkomst (tab) før omklassificeringer' for den aktuelle periode og 'beløb omklassificeret fra akkumuleret anden samlet indkomst' for den aktuelle periode. For eksempel beregnes 2016-saldoen (22.137) som 2015-saldoen (-8.749) plus 2016-periodens anden samlede indkomst (18.211) og omklassificerede beløb (12.675)."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_010",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Hvilken enkelt finansiel begivenhed (dvs. et element, der ikke er en saldolinje) i 'total'-kolonnen repræsenterer den største absolutte værdi, hvilket indikerer den mest betydningsfulde begivenhed med samlet indkomst eller tab i løbet af treårsperioden?",
+    "answer": [
+      [
+        "other comprehensive income before reclassifications"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E2",
+      "E3",
+      "E5",
+      "E6",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_011",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Hvad er den samlede netto urealiserede gevinst på tværs af alle kategorier ved udgangen af 2015?",
+    "answer": [
+      [
+        "$ -8,749"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "E4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

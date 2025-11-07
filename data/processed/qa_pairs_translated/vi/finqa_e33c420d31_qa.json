@@ -1,0 +1,215 @@
+[
+  {
+    "question_id": "finqa_e33c420d31_001",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Nghĩa vụ hợp đồng nào, không bao gồm 'nghĩa vụ nợ' và 'thanh toán lãi cho nợ dài hạn', có số tiền lớn nhất phải trả trong giai đoạn '3-5 năm'?",
+    "answer": [
+      [
+        "fuel obligations"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_002",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Tổng cộng của tất cả các nghĩa vụ có tham chiếu chú thích '11' là bao nhiêu?",
+    "answer": [
+      [
+        "$ 16297"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "H3",
+      "B4",
+      "H4",
+      "B5",
+      "H5",
+      "B6",
+      "H6",
+      "B7",
+      "H7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_e33c420d31_003",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Tỷ lệ phần trăm nghĩa vụ '1-3 năm' thuộc về nghĩa vụ đơn lẻ có tổng giá trị cao nhất là bao nhiêu?",
+    "answer": [
+      [
+        "27.04%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "D1",
+      "D9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_004",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "Đối với 'lãi vay phải trả nợ dài hạn', hãy phân tích xu hướng thanh toán qua bốn khoảng thời gian và xác định xem nghĩa vụ đó được trả trước hay trả sau.",
+    "answer": [
+      [
+        "Các khoản thanh toán cho 'lãi vay phải trả nợ dài hạn' là 1.172 đô la (<1 năm), 2.166 đô la (1-3 năm), 1.719 đô la (3-5 năm) và 4.046 đô la (>5 năm). Nghĩa vụ này nghiêng về trả sau đáng kể, vì các khoản thanh toán có xu hướng tăng theo thời gian, với khoản thanh toán lớn nhất xảy ra trong khoảng thời gian 'hơn 5 năm'. Hơn 63% tổng số tiền lãi vay phải trả sẽ đến hạn sau hơn 3 năm nữa."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_005",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Liệt kê các nghĩa vụ hợp đồng mà số tiền phải trả trong 'dưới 1 năm' lớn hơn số tiền phải trả trong '3-5 năm'.",
+    "answer": [
+      [
+        "fuel obligations"
+      ],
+      [
+        "other purchase obligations"
+      ],
+      [
+        "other long-term liabilities reflected on aes' consolidated balance sheet under gaap ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "E6",
+      "A7",
+      "C7",
+      "E7",
+      "A8",
+      "C8",
+      "E8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_006",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Tỷ lệ giữa tổng nghĩa vụ ngắn hạn (có thời hạn 'dưới 1 năm') và tổng nghĩa vụ dài hạn (có thời hạn 'hơn 5 năm') dựa trên dòng tổng cộng cuối cùng là bao nhiêu?",
+    "answer": [
+      [
+        "Approximately 1:2.81"
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "F9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_e33c420d31_007",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Nếu một chính sách mới yêu cầu tất cả 'nghĩa vụ thuê hoạt động' đến hạn trong 'hơn 5 năm' thay vào đó phải được thanh toán trong giai đoạn '3-5 năm', tổng mới cho cột '3-5 năm' sẽ là bao nhiêu?",
+    "answer": [
+      [
+        "$ 10283"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_008",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "Có mối tương quan rõ ràng nào giữa loại nghĩa vụ năng lượng (nhiên liệu so với điện) và lịch trình thanh toán của nó không?",
+    "answer": [
+      [
+        "Có, có một mối tương quan rõ ràng. 'Nghĩa vụ nhiên liệu' được thanh toán sớm, với khoản thanh toán lớn nhất (1.759 đô la) đến hạn trong 'dưới 1 năm', cho thấy các hợp đồng ngắn hạn. Ngược lại, 'nghĩa vụ điện' được thanh toán muộn, với khoản thanh toán lớn nhất (2.065 đô la) đến hạn trong 'hơn 5 năm', có thể phản ánh các thỏa thuận mua bán điện dài hạn. Điều này cho thấy bản chất của nguồn năng lượng liên quan đến thời hạn cam kết tài chính."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_e33c420d31_009",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "Dựa trên tổng số cho mỗi kỳ thanh toán ở hàng cuối cùng, khung thời gian nào có cam kết tài chính lớn nhất và điều này ngụ ý gì về cấu trúc trách nhiệm của công ty?",
+    "answer": [
+      [
+        "Khoảng thời gian 'hơn 5 năm' có cam kết lớn nhất với 20.544 USD. Điều này ngụ ý rằng cấu trúc trách nhiệm của công ty chủ yếu là dài hạn, với một phần đáng kể các nghĩa vụ tài chính của công ty dự kiến ​​sẽ được thanh toán trong tương lai xa, cho thấy các chiến lược tài trợ dài hạn hoặc các dự án vốn lớn."
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "D9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_010",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "Hàng 'các khoản nợ dài hạn khác' chứa một giá trị trong cột 'dưới 1 năm' có vẻ là một giá trị ngoại lai. Hãy xác định giá trị này và giải thích tại sao nó không nhất quán.",
+    "answer": [
+      [
+        "Giá trị ngoại lai là '$ 2014' trong cột 'dưới 1 năm'. Giá trị này không nhất quán vì khoản thanh toán ngắn hạn đơn lẻ này lớn hơn đáng kể so với '$ 701' được liệt kê là 'tổng cộng' cho toàn bộ nghĩa vụ đó, điều này là không thể xảy ra về mặt logic và có khả năng là lỗi dữ liệu."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

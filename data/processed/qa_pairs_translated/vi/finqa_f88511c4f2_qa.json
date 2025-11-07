@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_f88511c4f2_001",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Giá trị ròng của tất cả các thay đổi giao dịch (không bao gồm số dư đầu kỳ, cuối kỳ và giá trị 'hủy hợp nhất' bất thường) đối với nghĩa vụ ngừng hoạt động tài sản vào năm 2008 là bao nhiêu?",
+    "answer": [
+      [
+        "-169"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_002",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Năm nào ghi nhận mức giảm nghĩa vụ lớn hơn từ 'nghĩa vụ đã thanh toán'?",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_003",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Chi phí bồi đắp đã tăng bao nhiêu từ năm 2007 đến năm 2008?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_004",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Xác định khoản mục nào thể hiện sự gia tăng nghĩa vụ vào năm 2008 nhưng lại giảm vào năm 2007.",
+    "answer": [
+      [
+        "revisions to previous estimates"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_005",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Nếu bạn lấy số dư đầu kỳ của năm 2008 trừ đi tổng của 'liabilities incurred' và 'accretion expense' của năm 2007 thì kết quả là bao nhiêu?",
+    "answer": [
+      [
+        "1013"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_006",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Khoản 'nợ phát sinh' trong năm 2007 chiếm bao nhiêu phần trăm tổng cộng của 'chi phí phát sinh' của cả hai năm 2007 và 2008?",
+    "answer": [
+      [
+        "47.24%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_007",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Nếu 'liabilities incurred' (nợ phải trả phát sinh) trong năm 2008 lớn hơn 50%, tổng mới của 'liabilities incurred' và 'liabilities settled' (nợ phải trả đã thanh toán) cho năm đó sẽ là bao nhiêu?",
+    "answer": [
+      [
+        "-49"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_008",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "Dựa trên cấu trúc và các giá trị của bảng, mối quan hệ logic giữa số dư cuối kỳ năm 2007 và số dư đầu kỳ năm 2008 là gì?",
+    "answer": [
+      [
+        "Số dư cuối kỳ năm 2007 (1134 đô la) giống hệt với số dư đầu kỳ năm 2008 (1134 đô la). Điều này thể hiện thực tiễn kế toán tiêu chuẩn, trong đó số dư cuối kỳ của một kỳ trở thành số dư đầu kỳ của kỳ tiếp theo."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_009",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "Các giá trị tài chính âm, chẳng hạn như 'liabilities settled' (nợ đã thanh toán), được biểu thị như thế nào trong bảng?",
+    "answer": [
+      [
+        "Các giá trị âm được biểu thị bằng ký hiệu kép: dấu trừ đứng trước con số, và giá trị tuyệt đối của con số đó được đặt trong dấu ngoặc đơn. Ví dụ: '-94 ( 94 )'."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "C5",
+      "A6",
+      "B6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_010",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "Xác định hai mục có chứa giá trị '2013' và giải thích tại sao giá trị này dường như là ngoại lệ trong ngữ cảnh của bảng.",
+    "answer": [
+      [
+        "Giá trị '2013' có mặt trong mục 'held for sale (a)' vào năm 2007 và 'deconsolidation of egholdings' vào năm 2008. Giá trị này là ngoại lệ vì nó lớn hơn một bậc độ lớn so với hầu hết các số liệu giao dịch khác (ví dụ: 30, 66, -94), và việc đưa nó vào làm phá vỡ sự đối chiếu toán học giữa số dư đầu kỳ và cuối kỳ cho cả hai năm, cho thấy nó có thể là lỗi dữ liệu hoặc một khoản mục bất thường."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_011",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Nghĩa vụ về tài sản đã ngừng hoạt động (tính bằng triệu) vào ngày 31 tháng 12 năm 2008 là bao nhiêu?",
+    "answer": [
+      [
+        "$965"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

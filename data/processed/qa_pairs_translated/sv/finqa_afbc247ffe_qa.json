@@ -1,0 +1,212 @@
+[
+  {
+    "question_id": "finqa_afbc247ffe_001",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Vad var nettot av alla 'belopp som omklassificerats från ackumulerad annan totalt omfattande resultat' som registrerats under de tre perioderna som visas i tabellen?",
+    "answer": [
+      [
+        "23573"
+      ]
+    ],
+    "evidence_cells": [
+      "E3",
+      "E6",
+      "E9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_002",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Vilken av de tre huvudsakliga finansiella kategorierna (derivat, JV-andel, marknadsnoterade värdepapper) upplevde den största absoluta ökningen av sitt saldo från 31 december 2014 till 31 december 2017?",
+    "answer": [
+      [
+        "net unrealized gain on derivative instruments ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B10",
+      "C1",
+      "C10",
+      "D1",
+      "D10",
+      "B0"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_003",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Under perioden med högst total 'övriga totala täckande resultat före omklassificeringar', vilket var det motsvarande belopp som omklassificerades från 'SL Green 2019s andel av joint ventures netto orealiserad vinst på derivatinstrument'?",
+    "answer": [
+      [
+        "3453"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E5",
+      "E8",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_004",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv trenden för den totala saldot från 31 december 2014 till 31 december 2017. Var förändringen konsekvent?",
+    "answer": [
+      [
+        "Trenden var inte konsekvent; den var volatil. Den totala saldot minskade från -6980 2014 till -8749 2015. Därefter sågs en mycket stor ökning till 22137 2016, följt av en måttlig minskning till 18604 2017. Tillväxten var inte stadig eller linjär."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E4",
+      "E7",
+      "E10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_005",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Lista de finansiella kategorier som hade ett negativt saldo i början av perioden (31 december 2014) och avslutades med ett positivt saldo i slutet av perioden (31 december 2017).",
+    "answer": [
+      [
+        "net unrealized gain on derivative instruments ( 1 )"
+      ],
+      [
+        "sl green 2019s share of joint venture net unrealized gain on derivative instruments ( 2 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B1",
+      "B10",
+      "C1",
+      "C10",
+      "D1",
+      "D10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_006",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Vilken procentandel av den totala 'övriga totala omfattande intäkten före omklassificeringar' under perioden 2016 hänfördes till 'netto orealiserad vinst på derivatinstrument (1)'?",
+    "answer": [
+      [
+        "74.32%"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "E5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_007",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Om 'övrig totalt (förlust) resultat före omklassificeringar' för 'netto orealiserad vinst på marknadsnoterade värdepapper' under perioden 2017 hade varit en vinst på 1 000 dollar istället för en förlust på 1 348 dollar, vad skulle den nya 'totala' saldot per den 31 december 2017 ha varit?",
+    "answer": [
+      [
+        "$ 20952"
+      ]
+    ],
+    "evidence_cells": [
+      "D8",
+      "E10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_008",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "Baserat på den tillhandahållna datan, finns det en konsekvent korrelation (antingen direkt eller omvänd) mellan 'annat omfattande (förlust) resultat före omklassificeringar' och 'belopp omklassificerade från ackumulerat annat omfattande resultat' för de totala beloppen under varje period?",
+    "answer": [
+      [
+        "Nej, det finns ingen konsekvent korrelation. Under 2015 följdes en total omfattande förlust på -13 467 av en positiv omklassificering på 11 698 (omvänd relation). Men under både 2016 och 2017 hade resultatet/förlusten och omklassificeringen samma tecken (positiv/positiv respektive negativ/negativ), vilket indikerar en direkt relation dessa år. Inkonsekvensen tyder på att tidpunkten och beloppet för omklassificeringar inte enbart bestäms av den föregående periodens orealiserade resultat."
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E3",
+      "E5",
+      "E6",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_009",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "Hur härleds årets balanser matematiskt från föregående balans och de mellanliggande finansiella aktiviteterna som visas i tabellen?",
+    "answer": [
+      [
+        "Varje årsavslutande balans är summan av föregående års avslutande balans, 'annan total omfattande (förlust) intäkt före omklassificeringar' för den aktuella perioden, och 'belopp som omklassificerats från ackumulerad annan total omfattande inkomst' för den aktuella perioden. Till exempel beräknas 2016 års balans (22 137) som 2015 års balans (-8 749) plus 2016 års periods andra totala omfattande intäkter (18 211) och omklassificerade belopp (12 675)."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_010",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Vilken enskild finansiell händelse (dvs. ett radobjekt som inte är en balanspost) i kolumnen 'total' representerar det största absoluta värdet, vilket indikerar den mest betydande händelsen av totalt resultat eller förlust under treårsperioden?",
+    "answer": [
+      [
+        "other comprehensive income before reclassifications"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E2",
+      "E3",
+      "E5",
+      "E6",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_011",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Vad är den totala netto orealiserade vinsten över alla kategorier i slutet av 2015?",
+    "answer": [
+      [
+        "$ -8,749"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "E4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

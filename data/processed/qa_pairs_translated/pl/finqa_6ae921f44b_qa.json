@@ -1,0 +1,181 @@
+[
+  {
+    "question_id": "finqa_6ae921f44b_001",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Która kategoria finansowa odnotowała największą stratę bezwzględną w ramach „pozostałych całkowitych (strat) dochodów przed przeklasyfikowaniem”?",
+    "answer": [
+      [
+        "unrealized holding gains ( losses ) on derivatives"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_002",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Jaka była łączna suma wszystkich „kwot przeklasyfikowanych z innych całkowitych strat” dla poszczególnych kategorii?",
+    "answer": [
+      [
+        "14217"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_003",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Jakie było saldo początkowe w dniu 3 listopada 2018 r. dla składnika, który miał najmniejszą wartość bezwzględną jako saldo końcowe w dniu 2 listopada 2019 r.?",
+    "answer": [
+      [
+        "-10"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B6",
+      "C6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_004",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "Opisz ogólny trend skumulowanej straty z pozycji „total” z tytułu innych dochodów kompleksowych od początku do końca okresu.",
+    "answer": [
+      [
+        "Całkowita skumulowana strata znacząco się pogorszyła w ciągu okresu, wzrastając z -$58 440 do -$187 799. Stanowi to dodatkową stratę netto w wysokości $129 359, co oznacza więcej niż potrojenie skumulowanej straty z początku okresu."
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_005",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Dla wszystkich kategorii, które odnotowały stratę netto w pozycji „pozostałe całkowite (straty) dochody”, jakie było ich łączne saldo końcowe w dniu 2 listopada 2019 roku?",
+    "answer": [
+      [
+        "-187799"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "D5",
+      "E5",
+      "B6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_006",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Jaki procent całkowitego ujemnego salda na dzień 2 listopada 2019 r. jest przypisywalny do 'niezrealizowanych zysków (strat) z tytułu posiadania instrumentów pochodnych'?",
+    "answer": [
+      [
+        "62.84%"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_008",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "Czy istnieje spójna zależność między znakiem (dodatnim/ujemnym) „pozostałych całkowitych dochodów (strat) przed przeklasyfikowaniem” a znakiem końcowych „pozostałych całkowitych dochodów (strat)” dla każdej kategorii?",
+    "answer": [
+      [
+        "Tak, zależność jest spójna we wszystkich czterech kategoriach. Dla „przeliczeń walut obcych”, „instrumentów pochodnych” i „planów emerytalnych” wartości są ujemne w obu pozycjach. Dla „papierów wartościowych dostępnych do sprzedaży” wartości są dodatnie w obu pozycjach. Dlatego znak dochodu przed przeklasyfikowaniem konsekwentnie odpowiada znakowi końcowego całkowitego dochodu netto za dany okres."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B5",
+      "C2",
+      "C5",
+      "D2",
+      "D5",
+      "E2",
+      "E5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_009",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Która konkretna pozycja wiersza, z wyłączeniem sum, reprezentuje najbardziej skrajną wartość (tj. największą wartość bezwzględną) w tabeli?",
+    "answer": [
+      [
+        "-140728"
+      ]
+    ],
+    "evidence_cells": [
+      "D2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_010",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "Stosując logikę bilansu kroczącego (gdzie Saldo końcowe = Saldo początkowe + 'pozostałe całkowite (straty) dochody'), zidentyfikuj kategorię finansową, której zgłoszone wartości są matematycznie niespójne.",
+    "answer": [
+      [
+        "Kategoria 'niezrealizowane zyski (straty) z tytułu posiadanych papierów wartościowych dostępnych do sprzedaży' jest niespójna. Jej saldo początkowe wynoszące -10 (komórka C1) plus jej 'pozostałe całkowite (straty) dochody' wynoszące 10 (komórka C5) daje obliczone saldo końcowe wynoszące 0, co nie zgadza się ze zgłoszonym saldem końcowym wynoszącym 2014 (komórka C6)."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_011",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "O ile zmniejszyły się plany emerytalne od 2018 do 2019 roku?",
+    "answer": [
+      [
+        "$24,344"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A6",
+      "E6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

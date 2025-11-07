@@ -1,0 +1,186 @@
+[
+  {
+    "question_id": "finqa_ec80ad8938_001",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Wie hoch ist der gesamte Buchwert für alle Vermögenswerte (sowohl Handelsaktiva als auch Kredite), der in beiden dargestellten Datensätzen ausgewiesen wird?",
+    "answer": [
+      [
+        "26557"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_002",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Im zweiten Datensatz (Spalten D und E), welche Anlagekategorie – Handelsaktiva oder Kredite – hat den höheren 'aggregierten unbezahlten Kapitalbetrag, der den beizulegenden Zeitwert übersteigt'?",
+    "answer": [
+      [
+        "loans"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_003",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Für den ersten Satz von Darlehen (Spalte C), welcher Prozentsatz des gesamten 'Buchwerts' wird durch den 'Saldo der nicht-abgrenzbaren Darlehen' dargestellt?",
+    "answer": [
+      [
+        "0.03%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_004",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Wie hoch ist der kombinierte Buchwert des Anlagetyps (Handelsaktiva oder Kredite), der über beide Datensätze hinweg den niedrigeren Gesamtsaldo der notleidenden Kredite aufweist?",
+    "answer": [
+      [
+        "7598"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_005",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Listen Sie die Buchwerte für alle Anlageportfolios auf, bei denen der 'Saldo der nicht-performanten Kredite oder Kredite, die mehr als 90 Tage überfällig sind' genau 1 Million US-Dollar beträgt.",
+    "answer": [
+      [
+        "$ 3224"
+      ],
+      [
+        "$ 4374"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C3",
+      "E3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_006",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Wenn der Buchwert für Handelsaktiva im ersten Datensatz (Spalte B) durch Subtraktion des 'aggregierten unbezahlten Kapitalbetrags, der den beizulegenden Zeitwert übersteigt', angepasst würde, wie hoch wäre der neue Buchwert?",
+    "answer": [
+      [
+        "9673"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_007",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Bei der Analyse des 'Saldos der notleidenden Kredite', welcher Vermögenswert-Typ weist im Vergleich zu den anderen einen signifikanten Ausreißer im Saldo auf, und was lässt sich daraus über deren relative Risikoprofile ableiten?",
+    "answer": [
+      [
+        "Die Handelsaktiva in beiden Datensätzen weisen einen Saldo notleidender Kredite von 2.014 Millionen US-Dollar auf, was einen extremen Ausreißer im Vergleich zu den 1 Million US-Dollar für die Kredite in beiden Datensätzen darstellt. Dieser starke Unterschied deutet darauf hin, dass das Portfolio der Handelsaktiva ein deutlich höheres Kreditrisiko birgt oder ein schwerwiegendes Ausfallereignis erlebt hat, während das Kreditportfolio mit fast keinen notleidenden Salden in einem außergewöhnlich guten Zustand zu sein scheint."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_008",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Zeigen die Daten eine konsistente positive Korrelation zwischen dem 'Buchwert' eines Vermögenswerts und seinem 'aggregierten unbezahlten Kapitalbetrag, der den beizulegenden Zeitwert übersteigt', für die Kategorie der Handelsaktiva?",
+    "answer": [
+      [
+        "Nein, es wird keine konsistente positive Korrelation gezeigt. Der erste Satz von Handelsaktiva hat einen höheren Buchwert (10.108 Mio. $ vs. 8.851 Mio. $), aber einen niedrigeren aggregierten unbezahlten Kapitalbetrag, der den beizulegenden Zeitwert übersteigt (435 Mio. $ vs. 623 Mio. $). Dies deutet darauf hin, dass eine größere Portfoliogröße in diesem Datensatz nicht unbedingt zu einem proportional größeren nicht realisierten Verlust führt."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_009",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifizieren Sie Zeilen, die wiederholte oder scheinbar redundante Datenpunkte enthalten, und erklären Sie das Muster.",
+    "answer": [
+      [
+        "Datenredundanz ist in den Zeilen 3 und 4 vorhanden. In Zeile 3, 'Guthaben nicht abgegrenzter Darlehen...', beträgt der Wert für Handelsaktiva in beiden Sätzen (B3, D3) 2.014 Mio. $ und 1 Mio. $ für Darlehen in beiden Sätzen (C3, E3). In Zeile 4 wird der Wert 2.014 Mio. $ dreimal wiederholt für beide Sätze von Handelsaktiva und den ersten Satz von Darlehen (B4, C4, D4), was entweder auf ein Dateneingabemuster oder ein spezifisches Finanzberichtsartefakt hindeutet."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_010",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Berechnen Sie für den Datensatz (Satz 1: Spalten B,C oder Satz 2: Spalten D,E) mit dem höheren Gesamtbuchwert den gesamten 'unrealisierten Verlustprozentsatz' des Portfolios (Gesamtsumme des 'unbezahlten Kapitalbetrags, der den beizulegenden Zeitwert übersteigt', geteilt durch den gesamten 'Buchwert').",
+    "answer": [
+      [
+        "8.82%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

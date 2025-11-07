@@ -1,0 +1,214 @@
+[
+  {
+    "question_id": "finqa_bc4731cd2f_001",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "2008, 2009 ve 2010 yılları için üç yılın toplam işletme giderleri (milyon dolar olarak) ne kadardı?",
+    "answer": [
+      [
+        "32101"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_002",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "2008'den 2009'a kadar en büyük yüzde puanlık artışı hangi finansal metrik yaşadı?",
+    "answer": [
+      [
+        "net credit losses"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_003",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Faiz giderleri düşüldükten sonraki en yüksek 'toplam gelirler'e sahip yılda, karşılık gelen 'net (zarar)' ne kadardı?",
+    "answer": [
+      [
+        "$ -8369 ( 8369 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "D14"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_004",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "open_ended_reasoning",
+    "question": "2008'den 2010'a kadar 'faiz dışı gelir' eğilimini açıklayın.",
+    "answer": [
+      [
+        "Faiz dışı gelir, üç yıllık dönem boyunca tutarlı ve keskin bir düşüş eğilimi göstermektedir. 2008'de 6.362 milyon dolar ile başladı, 2009'da %25 düşerek 4.770 milyon dolara geriledi ve ardından 2010'da %58'lik daha da çarpıcı bir düşüşle 1.995 milyon dolara indi."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_005",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "2010 yılında 2009 yılına göre zarar veya giderin mutlak değerinin azaldığı tüm finansal kategorileri listeleyin.",
+    "answer": [
+      [
+        "total operating expenses"
+      ],
+      [
+        "net credit losses"
+      ],
+      [
+        "provision for benefits and claims"
+      ],
+      [
+        "provisions for credit losses and for benefits and claims"
+      ],
+      [
+        "( loss ) from continuing operations before taxes"
+      ],
+      [
+        "( loss ) from continuing operations"
+      ],
+      [
+        "net ( loss )"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A7",
+      "B7",
+      "C7",
+      "A9",
+      "B9",
+      "C9",
+      "A10",
+      "B10",
+      "C10",
+      "A12",
+      "B12",
+      "C12",
+      "A14",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_006",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "2010 yılında 'toplam faaliyet giderlerinin' 'faiz gideri düşüldükten sonraki toplam gelirlere' oranı neydi? Cevabınızı, iki ondalık basamağa yuvarlanmış bir yüzde olarak belirtin.",
+    "answer": [
+      [
+        "50.95%"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_007",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "2010 yılında 'kredi rezerv birikimi (serbest bırakma)' 1771 milyon dolar serbest bırakma yerine 1000 milyon dolar birikim olsaydı, o yıl için yeni 'kredi kayıpları ve faydalar ve talepler için karşılıklar' ne olurdu?",
+    "answer": [
+      [
+        "$ 18815 million"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6",
+      "B7",
+      "B9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_008",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "open_ended_reasoning",
+    "question": "Ortalama varlıklardaki yıldan yıla değişim ile net faiz gelirindeki yıldan yıla değişim arasında tutarlı bir ilişki var mı?",
+    "answer": [
+      [
+        "Hayır, tutarlı bir ilişki bulunmamaktadır. 2008'den 2009'a kadar ortalama varlıklar %16 azalırken, net faiz geliri de %24 oranında düşmüştür. Bu durum olası bir pozitif korelasyona işaret etmektedir. Ancak, 2009'dan 2010'a kadar ortalama varlıklar tekrar %8 azalmasına rağmen, bu kez net faiz geliri %6 artarak önceki modeli bozmuştur."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A15",
+      "D15",
+      "E15"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_009",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "open_ended_reasoning",
+    "question": "2010'a karşı 2009 dönemi değişimi için 'nm' (sayısal veya yüzdesel olmayan değişim değeri) gösteren satır öğesi hangisidir ve bunun nedeni muhtemelen nedir?",
+    "answer": [
+      [
+        "'Kredi rezervi birikimi (salıverilmesi)' kalemi, 2010'a karşı 2009 değişimi için 'nm' (anlamsız) değerine sahiptir. Bunun nedeni muhtemelen, değerin 2009'da pozitif bir sayıdan (5799 milyon dolarlık birikim) 2010'da negatif bir sayıya (-1771 milyon dolarlık salıverilme) değişmesidir ve bir işaret değişimi (pozitiften negatife) üzerinden yüzde değişim hesaplamak matematiksel olarak tanımsızdır veya finansal raporlamada anlamsız kabul edilir."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_010",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Yıldan yıla değişimin iki dönemi arasında (yani, 2008-2009 arasında pozitif veya küçük bir negatif değişim gösterirken, 2009-2010 arasında büyük bir negatif değişim gösteren) en dramatik olumsuz dönüşümü hangi finansal metrik göstermektedir?",
+    "answer": [
+      [
+        "non-interest revenue"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

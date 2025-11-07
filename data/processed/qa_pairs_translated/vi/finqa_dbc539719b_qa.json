@@ -1,0 +1,228 @@
+[
+  {
+    "question_id": "finqa_dbc539719b_001",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Trong số các bang được liệt kê, bang nào tạo ra doanh thu hoạt động cao nhất trên mỗi khách hàng?",
+    "answer": [
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A4",
+      "B4",
+      "D4",
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_002",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Tổng cộng số lượng khách hàng cho Illinois, Indiana và California là bao nhiêu?",
+    "answer": [
+      [
+        "779881"
+      ]
+    ],
+    "evidence_cells": [
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_dbc539719b_003",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Tỷ lệ phần trăm tổng doanh thu hoạt động kết hợp từ các tiểu bang có dân số ước tính được phục vụ thấp nhất là bao nhiêu?",
+    "answer": [
+      [
+        "12.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "F6",
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_004",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Bang nào có tỷ lệ khách hàng lớn hơn tỷ lệ doanh thu hoạt động?",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "indiana"
+      ],
+      [
+        "west virginia ( b )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "A5",
+      "C5",
+      "E5",
+      "A6",
+      "C6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_005",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Tỷ lệ giữa phần trăm tổng số khách hàng và phần trăm tổng dân số được phục vụ cho danh mục 'khác (c)', làm tròn đến hai chữ số thập phân, là bao nhiêu?",
+    "answer": [
+      [
+        "1.01"
+      ]
+    ],
+    "evidence_cells": [
+      "E8",
+      "G8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_dbc539719b_006",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Nếu doanh thu hoạt động của Pennsylvania tăng 10%, doanh thu hoạt động mới cho 'tổng phụ (bảy bang hàng đầu)' sẽ là bao nhiêu, giả sử doanh thu của tất cả các bang khác không đổi?",
+    "answer": [
+      [
+        "2388.14"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_007",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Phân tích mối quan hệ giữa số lượng khách hàng và ước tính dân số được phục vụ cho sáu tiểu bang riêng lẻ được liệt kê. Có mối tương quan thuận chiều không, và điều này ám chỉ điều gì?",
+    "answer": [
+      [
+        "Có, có mối tương quan thuận chiều mạnh mẽ. Khi số lượng khách hàng tăng lên ở một tiểu bang, ước tính dân số được phục vụ cũng có xu hướng tăng lên. Ví dụ, Pennsylvania có số lượng khách hàng cao nhất (666.415) và ước tính dân số được phục vụ lớn nhất (2,2 triệu), trong khi West Virginia và California, có số lượng khách hàng thấp nhất, cũng có ước tính dân số được phục vụ nhỏ nhất. Điều này ám chỉ rằng cơ sở khách hàng là một thành phần trực tiếp và tỷ lệ thuận của dân số đang được doanh nghiệp phục vụ tại các khu vực này."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_dbc539719b_008",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Bằng cách tính toán ước tính dân số được phục vụ trên mỗi khách hàng cho từng tiểu bang trong sáu tiểu bang riêng lẻ, hãy xác định tiểu bang nào là ngoại lệ lớn nhất và giải thích tại sao.",
+    "answer": [
+      [
+        "Illinois là ngoại lệ lớn nhất. Ước tính dân số được phục vụ trên mỗi khách hàng cho mỗi tiểu bang là: Pennsylvania (~3,30), Missouri (~3,23), Illinois (~4,17), California (~3,44), Indiana (~4,09) và West Virginia (~3,52). Trong khi hầu hết các tiểu bang phục vụ từ 3,2 đến 3,5 người trên mỗi khách hàng, Illinois và Indiana có số lượng cao hơn đáng kể. Illinois có tỷ lệ cao nhất với khoảng 4,17, cho thấy mỗi khách hàng ở Illinois đại diện cho một phần lớn hơn trong dân số được phục vụ so với các tiểu bang khác, làm cho nó trở thành ngoại lệ lớn nhất."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_dbc539719b_009",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Kiểm tra xem tỷ lệ doanh thu hoạt động trên tổng doanh thu của 'tổng phụ (bảy tiểu bang hàng đầu)' và 'khác (c)' có cộng lại chính xác với tỷ lệ được hiển thị cho 'tổng doanh nghiệp được quản lý' hay không.",
+    "answer": [
+      [
+        "Có, tổng số là chính xác. 'Tổng phụ (bảy tiểu bang hàng đầu)' chiếm 87,0% tổng doanh thu hoạt động và danh mục 'khác (c)' chiếm 13,0%. Cộng hai tỷ lệ phần trăm này (87,0% + 13,0%) cho kết quả là 100,0%, khớp với giá trị được đưa ra cho 'tổng doanh nghiệp được quản lý'."
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_010",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Cặp bang nào, trong danh sách sáu bang, có tổng số khách hàng gần nhất với số lượng khách hàng ở Pennsylvania?",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

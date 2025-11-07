@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_f88511c4f2_001",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Якою була чиста вартість усіх транзакційних змін (за винятком початкових та кінцевих залишків та аномального значення 'деконсолідації') до зобов'язань щодо виведення з експлуатації активів у 2008 році?",
+    "answer": [
+      [
+        "-169"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_002",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "У якому році спостерігалося більше зменшення зобов'язань за пунктом «врегульовані зобов'язання»?",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_003",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "На скільки збільшилися «витрати на нарахування» з 2007 по 2008 рік?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_004",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Визначте пункт, який становив збільшення зобов'язань у 2008 році, але зменшення у 2007 році.",
+    "answer": [
+      [
+        "revisions to previous estimates"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_005",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Яким буде результат, якщо від початкового балансу 2008 року відняти суму \"зобов'язань, що виникли\" та \"витрат на нарахування\" за 2007 рік?",
+    "answer": [
+      [
+        "1013"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_006",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Наскільки відсотків 'зобов'язання, що виникли' у 2007 році становлять комбіновану загальну суму 'витрат на нарахування' за 2007 та 2008 роки?",
+    "answer": [
+      [
+        "47.24%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_007",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Якби «зобов'язання, що виникли» у 2008 році були на 50% більшими, якою була б нова сума «зобов'язань, що виникли» та «зобов'язань, що були врегульовані» за цей рік?",
+    "answer": [
+      [
+        "-49"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_008",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "Виходячи зі структури та значень таблиці, який логічний зв'язок між кінцевим залишком за 2007 рік та початковим залишком за 2008 рік?",
+    "answer": [
+      [
+        "Кінцевий залишок за 2007 рік (1134 доларів США) ідентичний початковому залишку за 2008 рік (1134 доларів США). Це демонструє стандартну бухгалтерську практику, коли залишок на кінець одного періоду стає початковим залишком для наступного послідовного періоду."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_009",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "Як у таблиці представлені від'ємні фінансові значення, такі як 'врегульовані зобов'язання'?",
+    "answer": [
+      [
+        "Від'ємні значення представлені за допомогою подвійної нотації: провідний знак мінуса, за яким іде число, а також абсолютне значення цього числа, взяте в дужки. Наприклад, '-94 ( 94 )'."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "C5",
+      "A6",
+      "B6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_010",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "Визначте два пункти, що містять значення '2013', і поясніть, чому це значення виглядає аномальним у контексті таблиці.",
+    "answer": [
+      [
+        "Значення '2013' присутнє для 'активів, призначених для продажу (a)' у 2007 році та 'деконсолідації egholdings' у 2008 році. Це значення є аномальним, оскільки воно на порядок більше за більшість інших транзакційних показників (наприклад, 30, 66, -94), а його включення порушує математичну узгодженість між початковими та кінцевими залишками за обидва роки, що свідчить про можливу помилку даних або виняткову статтю."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_011",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Якою була зобов'язання щодо виведення активів (у мільйонах) станом на 31 грудня 2008 року?",
+    "answer": [
+      [
+        "$965"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,205 @@
+[
+  {
+    "question_id": "finqa_a3e4351c77_001",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Hvilket specifikt gældsinstrument, eksklusive totaler og justeringer, havde den højeste værdi i begge rapporterede perioder?",
+    "answer": [
+      [
+        "international marine terminals-plaquemines la revenue bonds due march 15 2025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_002",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Hvad er den samlede værdi af alle identificerbare obligationslån angivet for perioden i den anden datakolonne?",
+    "answer": [
+      [
+        "63.7"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_003",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Hvor meget oversteg den absolutte ændring i 'kommende afdrag på langfristet gæld' mellem de to perioder den absolutte ændring i 'amortiseret gældsrabat'?",
+    "answer": [
+      [
+        "665.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_004",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv udviklingen af den 'samlede langfristede gæld' mellem de to viste perioder og forklar betydningen af denne ændring.",
+    "answer": [
+      [
+        "Den samlede langfristede gæld steg med $ 275,3, fra $ 10007,5 i den periode, der vises i kolonne C, til $ 10282,8 i den periode, der vises i kolonne B. Dette indikerer, at enhedens samlede langfristede gældsforpligtelser voksede i løbet af denne periode, hvilket tyder på, at den sandsynligvis påtog sig mere ny gæld, end den tilbagebetalte."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_005",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Identificer alle linjeposter, undtagen totalen, der repræsenteres som negative værdier i den anden datakolonne.",
+    "answer": [
+      [
+        "unamortized debt discount on long-term debt"
+      ],
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_006",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Som en procentdel af den samlede langfristede gæld for perioden i kolonne B, hvor stor en del er klassificeret som 'aktuelle afdrag på langfristet gæld'? Brug absolutte værdier til beregningen og afrund til to decimaler.",
+    "answer": [
+      [
+        "12.29%"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_007",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Hvis 'udadskrevet gældsrabat' i den anden datakolonne (kolonne B) blev elimineret (dvs. sat til nul), hvad ville 'total langsigtet gæld 2013 kmp' for den periode have været?",
+    "answer": [
+      [
+        "$ 10303.1"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_008",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Er der et tilsyneladende forhold mellem ændringen i 'kortfristet gæld' og ændringen i 'samlet langsigtet gæld' på tværs af de to perioder?",
+    "answer": [
+      [
+        "Ja, der synes at være et omvendt forhold i deres bevægelser. Mens den samlede langfristede gæld steg med 275,3 USD (fra 10007,5 USD til 10282,8 USD), faldt omfanget af 'kortfristet gæld' betydeligt (fra en absolut værdi på 1263,3 til 596,6). Dette tyder på, at selvom virksomheden påtog sig mere samlet gæld, reducerede den samtidig den del af gælden, der forfalder i den nærmeste fremtid."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_009",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvilken række i datasættet ser ud til at være en aggregering af andre rækker, og hvilket bevis understøtter denne konklusion?",
+    "answer": [
+      [
+        "Rækken mærket 'total long-term debt 2013 kmp' er en aggregering. Det primære bevis er den eksplicitte brug af ordet 'total' i dens beskrivelse. Derudover præsenteres dens værdi med et valutasymbol ('$'), hvilket adskiller sig fra de andre rækker og signalerer, at det er et endeligt, opsummerende finansielt tal."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_010",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Hvilken linje viser den mest markante ændring i absolut værdi mellem de to perioder, hvilket gør den til et finansielt outlier med hensyn til volatilitet?",
+    "answer": [
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_011",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Medregnet den samlede langfristede gæld og den amortiserede gældsafskrivning, hvad er den effektive stigning i langfristet gæld fra 2012 til 2013?",
+    "answer": [
+      [
+        "Den samlede langfristede gæld steg fra 10.007,5 mio. USD i 2012 til 10.282,8 mio. USD i 2013. Medregnet den amortiserede gældsafskrivning, som ændrede sig fra -21,2 i 2012 til -20,3 i 2013, er den effektive stigning i gæld 276,8 mio. USD."
+      ]
+    ],
+    "evidence_cells": [
+      "F6",
+      "G6",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

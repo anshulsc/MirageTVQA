@@ -1,0 +1,227 @@
+[
+  {
+    "question_id": "finqa_bdc69f2dff_001",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Który rodzaj akcji zwykłych miał najwięcej wyemitowanych i pozostających w obiegu akcji na dzień 30 września 2008 r.?",
+    "answer": [
+      [
+        "class a common stock"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_002",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Jaka była łączna liczba akcji wszystkich serii akcji zwykłych Klasy C na dzień 30 września 2008 r.?",
+    "answer": [
+      [
+        "266608750"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_003",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Dla klasy akcji o największej wartości bezwzględnej umorzeń w październiku 2008 r., jaka była jej ostateczna liczba akcji w kolumnie 'po umorzeniach w październiku 2008 r. jako przeliczone'?",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "F4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_004",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Na dzień 30 września 2008 r. jaki procent całkowitej liczby akcji pozostających w obrocie stanowiły akcje zwykłe klasy A? Podaj odpowiedź zaokrągloną do dwóch miejsc po przecinku.",
+    "answer": [
+      [
+        "46.65%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_005",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Wymień wszystkie klasy akcji, których własne akcje zmniejszyły się w wyniku zdarzenia \"konwersja na klasę C (seria I)\".",
+    "answer": [
+      [
+        "class c ( series iii ) common stock"
+      ],
+      [
+        "class c ( series iv ) common stock"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_006",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Wartość '2014' pojawia się często, prawdopodobnie jako symbol braku aktywności. Które dwie klasy akcji mają tę specyficzną wartość pojawiającą się w trzech różnych kolumnach w ich odpowiednich wierszach?",
+    "answer": [
+      [
+        "class c ( series ii ) common stock"
+      ],
+      [
+        "class c ( series iv ) common stock"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "E4",
+      "F4",
+      "A6",
+      "C6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_007",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Gdyby liczba akcji 'common stock klasy a' w dniu 30 września 2008 r. wynosiła 500 000 000 zamiast zarejestrowanej wartości, jaka byłaby skorygowana łączna liczba wyemitowanych i pozostających w obrocie akcji w tym dniu?",
+    "answer": [
+      [
+        "1012122135"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_008",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "open_ended_reasoning",
+    "question": "Na podstawie danych dotyczących różnych serii akcji Klasy C, jaki jest związek między „potrąceniami w październiku 2008 r.” a „konwersją do klasy C (seria I)”? Czy są to zdarzenia bezpośrednio powiązane?",
+    "answer": [
+      [
+        "Nie ma spójnej, bezpośredniej korelacji sugerującej, że umorzone akcje były systematycznie konwertowane do Klasy C (Seria I). Na przykład, Klasa C (Seria II) miała ponad 79 milionów umorzonych akcji, ale nie odnotowano żadnej odpowiadającej im aktywności konwersji. Z kolei Klasa C (Seria IV) miała akcje przekonwertowane z niej bez znaczących potrąceń. Klasa C (Seria III) jest jedyną serią, która wykazuje zarówno znaczące potrącenia, jak i konwersje z niej, ale liczby się nie zgadzają. Sugeruje to, że potrącenia i konwersje były w dużej mierze oddzielnymi transakcjami, a nie pojedynczym, połączonym zdarzeniem dla większości serii."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_009",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Które dwie kolumny w tabeli używają specyficznego formatu danych liczbowych: liczba ujemna poprzedzona jej dodatnim odpowiednikiem w nawiasach, na przykład „-X ( X )”?",
+    "answer": [
+      [
+        "october 2008 redemptions"
+      ],
+      [
+        "conversion to class c ( series i )"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5",
+      "C7",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_010",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "open_ended_reasoning",
+    "question": "Opisz sekwencję zdarzeń, która doprowadziła od początkowej liczby akcji z 30 września 2008 r. do końcowej liczby, opierając się na nagłówkach kolumn i wierszu \"łączna liczba akcji\".",
+    "answer": [
+      [
+        "Dane przedstawiają wieloetapową redukcję całkowitej liczby akcji. Proces rozpoczyna się od 959 868 396 akcji z 30 września 2008 r. Pierwszym zdarzeniem są \"wykupy w październiku 2008 r.\", gdzie wykupiono łącznie ponad 115 milionów akcji. Następnie następuje \"konwersja na akcje klasy c (seria i)\". Wynik tych konwersji znajduje odzwierciedlenie w kolumnie \"po natychmiastowej konwersji...\", która pokazuje łącznie 844 855 954 akcji. Ostatnia kolumna, \"po konwersji i wykupach w październiku 2008 r.\", podaje końcową liczbę 774 710 051 akcji, reprezentującą wynik netto wszystkich poprzednich transakcji."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_011",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "W którym roku akcje zwykłe klasy A i akcje zwykłe klasy B zostały przekształcone w klasę C (seria I)?",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "D1",
+      "D2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

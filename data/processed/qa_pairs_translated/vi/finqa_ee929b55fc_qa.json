@@ -1,0 +1,270 @@
+[
+  {
+    "question_id": "finqa_ee929b55fc_001",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Đơn vị báo cáo nào có giá trị hợp lý cao nhất tính theo phần trăm giá trị sổ sách được phân bổ?",
+    "answer": [
+      [
+        "transaction services"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_002",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Tổng giá trị lợi thế thương mại cho tất cả các đơn vị báo cáo có tên bao gồm thuật ngữ 'banking' là bao nhiêu?",
+    "answer": [
+      [
+        "19960"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_003",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Giá trị lợi thế thương mại của đơn vị báo cáo có tỷ lệ giá trị hợp lý thấp thứ hai là bao nhiêu?",
+    "answer": [
+      [
+        "65"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_004",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Liệt kê tất cả các đơn vị báo cáo có giá trị lợi thế thương mại lớn hơn 4.000 đô la và tỷ lệ giá trị hợp lý dưới 400%.",
+    "answer": [
+      [
+        "asia regional consumer banking"
+      ],
+      [
+        "securities and banking"
+      ],
+      [
+        "local consumer lending 2014cards"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_005",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Tỷ lệ lợi thế thương mại từ tất cả các đơn vị báo cáo được phân bổ cho 'ngân hàng tiêu dùng khu vực châu Á' là bao nhiêu? Cung cấp câu trả lời dưới dạng phần trăm làm tròn đến một chữ số thập phân.",
+    "answer": [
+      [
+        "23.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_006",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Nếu lợi thế thương mại của 'local consumer lending 2014cards' giảm 25% do khoản suy giảm giá trị, thì giá trị lợi thế thương mại mới của nó sẽ là bao nhiêu?",
+    "answer": [
+      [
+        "3420"
+      ]
+    ],
+    "evidence_cells": [
+      "C8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_007",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "open_ended_reasoning",
+    "question": "Dựa trên dữ liệu, có mối tương quan dương rõ ràng nào giữa giá trị lợi thế thương mại cao và 'giá trị hợp lý theo %' cao không? Cung cấp phân tích có lý do.",
+    "answer": [
+      [
+        "Không, không có mối tương quan dương rõ ràng. Ví dụ, 'transaction services' có 'giá trị hợp lý theo %' cao nhất với biên độ đáng kể (1716) nhưng 'lợi thế thương mại' tương đối vừa phải ($1567). Ngược lại, 'securities and banking' có 'lợi thế thương mại' cao nhất ($9259) nhưng 'giá trị hợp lý theo %' chỉ đứng thứ tư (223). Điều này cho thấy giá trị cao ở một chỉ số không nhất quán tương ứng với giá trị cao ở chỉ số kia."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_008",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Xác định đơn vị báo cáo có 'giá trị hợp lý theo %' là một giá trị ngoại lai đáng kể, và nó lớn hơn bao nhiêu lần so với tỷ lệ phần trăm giá trị hợp lý trung vị của tất cả các đơn vị? Làm tròn hệ số đó đến số nguyên gần nhất.",
+    "answer": [
+      [
+        "transaction services",
+        "9"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_009",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "open_ended_reasoning",
+    "question": "Chủ đề chung nào xuất hiện trong tên của bốn đơn vị báo cáo có giá trị lợi thế thương mại thấp nhất?",
+    "answer": [
+      [
+        "Bốn đơn vị có lợi thế thương mại thấp nhất ('brokerage and asset management', 'emea regional consumer banking', 'transaction services', và 'latin america regional consumer banking') không bao gồm 'north america' hoặc 'asia' trong tên của chúng và đại diện cho các khu vực ngoài Hoa Kỳ hoặc các dòng dịch vụ cụ thể không theo khu vực."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A6",
+      "C6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_010",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Trong số bốn đơn vị 'ngân hàng tiêu dùng khu vực', đơn vị nào có giá trị lợi thế thương mại cao nhất trên mỗi điểm phần trăm của giá trị hợp lý?",
+    "answer": [
+      [
+        "asia regional consumer banking"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_011",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Đơn vị báo cáo nào có lợi thế thương mại cao nhất trong số tất cả các khu vực?",
+    "answer": [
+      [
+        "Securities and Banking"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

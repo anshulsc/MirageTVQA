@@ -1,0 +1,205 @@
+[
+  {
+    "question_id": "finqa_a3e4351c77_001",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Który konkretny instrument dłużny, z wyłączeniem wartości całkowitych i korekt, miał najwyższą wartość w obu raportowanych okresach?",
+    "answer": [
+      [
+        "international marine terminals-plaquemines la revenue bonds due march 15 2025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_002",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Jaka jest całkowita wartość wszystkich możliwych do zidentyfikowania obligacji dochodowych wymienionych w drugim wierszu danych dla danego okresu?",
+    "answer": [
+      [
+        "63.7"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_003",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "O ile bezwzględna zmiana 'bieżących zapadalności długu długoterminowego' między dwoma okresami przekroczyła bezwzględną zmianę 'niezamortyzowanego dyskonta odsetkowego od długu'?",
+    "answer": [
+      [
+        "665.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_004",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Opisz trend 'całkowitego zadłużenia długoterminowego' między pokazanymi okresami i wyjaśnij znaczenie tej zmiany.",
+    "answer": [
+      [
+        "Całkowite zadłużenie długoterminowe wzrosło o 275,3 USD, z 10007,5 USD w okresie pokazanym w kolumnie C do 10282,8 USD w okresie pokazanym w kolumnie B. Wskazuje to, że ogólne zobowiązania z tytułu długu długoterminowego jednostki wzrosły w tym okresie, sugerując, że prawdopodobnie zaciągnięto więcej nowego długu, niż spłacono."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_005",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Wskaż wszystkie pozycje, z wyłączeniem sumy, które są reprezentowane jako wartości ujemne w drugiej kolumnie danych.",
+    "answer": [
+      [
+        "unamortized debt discount on long-term debt"
+      ],
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_006",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Jaka część zadłużenia długoterminowego, jako procent całkowitego długu długoterminowego z kolumny B, jest klasyfikowana jako 'bieżące raty długu długoterminowego'? Użyj wartości bezwzględnych do obliczeń i zaokrąglij do dwóch miejsc po przecinku.",
+    "answer": [
+      [
+        "12.29%"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_007",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Gdyby 'niesamortyzowana premia dłużna' w drugiej kolumnie danych (kolumna B) została wyeliminowana (tzn. ustawiona na zero), jaki byłby 'całkowity dług długoterminowy 2013 kmp' za ten okres?",
+    "answer": [
+      [
+        "$ 10303.1"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_008",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Czy istnieje widoczny związek między zmianą 'bieżących zapadalności długu długoterminowego' a zmianą 'łącznego długu długoterminowego' w obu okresach?",
+    "answer": [
+      [
+        "Tak, wydaje się istnieć odwrotny związek w ich ruchach. Chociaż łączny dług długoterminowy wzrósł o 275,3 USD (z 10007,5 USD do 10282,8 USD), wielkość 'bieżących zapadalności' znacznie spadła (z wartości bezwzględnej 1263,3 do 596,6). Sugeruje to, że chociaż firma zaciągnęła więcej ogólnego długu, jednocześnie zmniejszyła część tego długu, który stawał się wymagalny w najbliższej przyszłości."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_009",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Który wiersz w zbiorze danych wydaje się być agregacją innych wierszy i jakie dowody potwierdzają ten wniosek?",
+    "answer": [
+      [
+        "Wiersz zatytułowany 'total long-term debt 2013 kmp' (całkowite zadłużenie długoterminowe 2013 kmp) jest agregacją. Głównym dowodem jest wyraźne użycie słowa 'total' (całkowite) w jego opisie. Dodatkowo, jego wartość jest przedstawiona ze symbolem waluty ('$'), co odróżnia go od innych wierszy i oznacza, że jest to ostateczna, podsumowująca liczba finansowa."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_010",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Która pozycja wykazywała największą zmianę wartości bezwzględnej między dwoma okresami, stanowiąc finansowy przypadek szczególny pod względem zmienności?",
+    "answer": [
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_011",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Biorąc pod uwagę całkowite zadłużenie długoterminowe i niezamortyzowany dyskonto odsetkowe, jakie jest efektywne zwiększenie zadłużenia długoterminowego w latach 2012-2013?",
+    "answer": [
+      [
+        "Całkowite zadłużenie długoterminowe wzrosło z 10 007,5 mln USD w 2012 r. do 10 282,8 mln USD w 2013 r. Biorąc pod uwagę, że niezamortyzowane dyskonto odsetkowe zmieniło się z -21,2 w 2012 r. na -20,3 w 2013 r., efektywne zwiększenie zadłużenia wynosi 276,8 mln USD."
+      ]
+    ],
+    "evidence_cells": [
+      "F6",
+      "G6",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

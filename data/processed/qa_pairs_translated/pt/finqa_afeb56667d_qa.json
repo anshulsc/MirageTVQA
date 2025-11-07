@@ -1,0 +1,229 @@
+[
+  {
+    "question_id": "finqa_afeb56667d_001",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "Qual foi a receita total para todo o ano de 2009?",
+    "answer": [
+      [
+        "995847"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_afeb56667d_002",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "Qual métrica financeira, além de 'receitas totais', permaneceu perfeitamente consistente em todos os quatro trimestres de 2009?",
+    "answer": [
+      [
+        "preferred stock dividends"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "B9",
+      "C9",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_003",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "No trimestre com o maior 'ganho na amortização antecipada de dívida', qual foi o 'lucro líquido (prejuízo) por ação ordinária-diluído' correspondente?",
+    "answer": [
+      [
+        "$ 0.57"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "E12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_004",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "open_ended_reasoning",
+    "question": "Descreva a tendência do 'lucro líquido (prejuízo) atribuível aos acionistas ordinários da SL Green' do início ao fim de 2009.",
+    "answer": [
+      [
+        "O lucro líquido para acionistas ordinários mostrou uma tendência de declínio consistente e acentuado ao longo de 2009. Começou com um alto lucro de $32.768 no trimestre encerrado em 31 de março, caiu significativamente para $12.543 até 30 de junho, transformou-se em um prejuízo de $-2.520 até 30 de setembro, e o prejuízo aumentou ainda mais para $-5.123 até 31 de dezembro."
+      ]
+    ],
+    "evidence_cells": [
+      "E10",
+      "D10",
+      "C10",
+      "B10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_005",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "Liste todos os trimestres em que o 'lucro líquido (prejuízo) atribuível à SL Green' foi positivo E o 'ganho (prejuízo) na venda de operações descontinuadas' também foi positivo.",
+    "answer": [
+      [
+        "june 30"
+      ],
+      [
+        "march 31"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "B8",
+      "C8",
+      "D8",
+      "E8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_006",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "Qual percentagem das 'receitas totais' para o trimestre encerrado em 30 de setembro as 'dividendos de ações preferenciais' representaram? Forneça a percentagem absoluta, arredondada para duas casas decimais.",
+    "answer": [
+      [
+        "2.02%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_afeb56667d_007",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "Se os 'dividendos de ações preferenciais' tivessem sido dispensados (ou seja, fossem R$ 0) para o trimestre encerrado em 30 de setembro, qual teria sido o 'lucro líquido (prejuízo) atribuível aos acionistas ordinários da SL Green' para esse trimestre?",
+    "answer": [
+      [
+        "$ 2449"
+      ]
+    ],
+    "evidence_cells": [
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_008",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "open_ended_reasoning",
+    "question": "Com base nos dados trimestrais, qual é a relação aparente entre o 'ganho com o resgate antecipado de dívida' e o 'lucro líquido (prejuízo) atribuível aos acionistas ordinários da SL Green'?",
+    "answer": [
+      [
+        "Parece haver uma forte correlação positiva. Os dois trimestres com o maior 'ganho com o resgate antecipado de dívida' (31 de março e 30 de junho) também apresentaram o maior 'lucro líquido (prejuízo) atribuível aos acionistas ordinários da SL Green'. Inversamente, os trimestres com ganhos menores (30 de setembro e 31 de dezembro) resultaram em prejuízos líquidos para os acionistas ordinários, sugerindo que esses grandes ganhos foram um fator principal na lucratividade na primeira metade do ano."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "B10",
+      "C10",
+      "D10",
+      "E10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_afeb56667d_009",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "Quantos itens financeiros reportaram um valor negativo (uma perda) para o trimestre encerrado em 31 de dezembro?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_010",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "open_ended_reasoning",
+    "question": "Qual trimestre teve 'lucro (prejuízo) líquido de interesses não controladoras e antes de ganhos na venda' que representa um valor atípico significativo em comparação com a tendência observada nos outros três trimestres?",
+    "answer": [
+      [
+        "O trimestre encerrado em 30 de setembro é o atípico. Enquanto os outros três trimestres relataram prejuízos significativos nesta categoria (-$380, -$10.242 e -$26.600), o trimestre de setembro foi o único a relatar lucro ($4.099), tornando-o uma exceção notável à tendência predominante de prejuízos para este item."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_afeb56667d_011",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "open_ended_reasoning",
+    "question": "Considerando todos os trimestres de 2009, qual trimestre teve o maior lucro líquido atribuível aos acionistas ordinários da SL Green e quais outros fatores contribuíram para esse resultado?",
+    "answer": [
+      [
+        "O trimestre encerrado em 31 de março teve o maior lucro líquido atribuível aos acionistas ordinários da SL Green, com US$ 32.768. Isso foi influenciado por receitas totais mais altas (US$ 258.787) e ganhos substanciais com a extinção antecipada de dívidas (US$ 47.712), além de contribuições positivas de operações descontinuadas (US$ 1.319)."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B6",
+      "B10",
+      "E2",
+      "E4",
+      "E6",
+      "E10",
+      "H2",
+      "H4",
+      "H6",
+      "H10",
+      "K2",
+      "K4",
+      "K6",
+      "K10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

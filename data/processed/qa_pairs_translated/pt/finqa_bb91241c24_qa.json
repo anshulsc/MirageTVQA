@@ -1,0 +1,224 @@
+[
+  {
+    "question_id": "finqa_bb91241c24_001",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Qual foi o número total de novas ações emitidas através de ações corporativas específicas (excluindo o exercício rotineiro de opções de ações) entre o saldo em 28 de dezembro de 2014 e o saldo em 3 de janeiro de 2016?",
+    "answer": [
+      [
+        "834944"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_bb91241c24_002",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Qual evento único resultou na maior emissão de ações em circulação?",
+    "answer": [
+      [
+        "acquisition of kraft foods group inc ."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6",
+      "A7",
+      "D7",
+      "A9",
+      "D9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_003",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Calcule a variação líquida de ações em circulação, do saldo inicial em 29 de dezembro de 2013 até o saldo final em 31 de dezembro de 2016.",
+    "answer": [
+      [
+        "839644"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_004",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "open_ended_reasoning",
+    "question": "Com base nos dados, descreva a tendência das atividades de ações em tesouraria da empresa após 28 de dezembro de 2014.",
+    "answer": [
+      [
+        "Após 28 de dezembro de 2014, a empresa iniciou atividades com ações em tesouraria, como indicado pelos valores negativos que aparecem na coluna 'ações em tesouraria' a partir do período que antecede o saldo de 3 de janeiro de 2016. O saldo de ações em tesouraria tornou-se cada vez mais negativo, passando de -413 para -2471 em 31 de dezembro de 2016. Isso sugere que a empresa estava recomprando ativamente suas ações ou reemitindo ações em tesouraria para planos de remuneração de funcionários, reduzindo o total de ações detidas em tesouraria."
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_005",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Liste os eventos que envolveram tanto a emissão de novas ações quanto uma alteração nas ações em tesouraria.",
+    "answer": [
+      [
+        "exercise of stock options issuance of other stock awards and other"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_006",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "As ações emitidas para a 'aquisição da Kraft Foods Group Inc.' representam que percentagem do total de ações emitidas no saldo de 31 de dezembro de 2016?",
+    "answer": [
+      [
+        "48.64%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_bb91241c24_007",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Se o número de ações emitidas para patrocinadores tivesse sido 20% maior, qual teria sido o 'saldo em 3 de janeiro de 2016' para 'ações emitidas', assumindo que todas as outras transações permaneceram as mesmas?",
+    "answer": [
+      [
+        "1258725"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_008",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "open_ended_reasoning",
+    "question": "Existe uma relação observável entre o tipo de evento de emissão de ações e a magnitude das ações emitidas? Justifique sua resposta.",
+    "answer": [
+      [
+        "Sim, existe uma relação clara. Grandes ações corporativas como a 'aquisição da kraft foods group inc .' (592.898 ações) e a 'emissão de ações ordinárias para patrocinadores' (221.666 ações) resultam em emissões de ações que são ordens de magnitude maiores do que eventos rotineiros como o 'exercício de opções de ações' (variando de 178 a 4.555 ações). Isso indica que transações estratégicas têm um impacto diluitivo muito mais significativo do que atividades padrão de remuneração de funcionários."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_bb91241c24_009",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "open_ended_reasoning",
+    "question": "Qual coluna contém tipos de dados inconsistentes que exigem interpretação e quais são as inconsistências?",
+    "answer": [
+      [
+        "A coluna 'treasury shares' (ações em tesouraria) contém tipos de dados inconsistentes. Para as seis primeiras linhas, ela contém o ano '2014', que é texto não numérico e parece ser ruído. Para as últimas quatro linhas, ela contém números negativos no estilo contábil como '-413 (413)', que exigem interpretação para serem usados como um valor numérico padrão (-413)."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_010",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifique a transação que é um claro desvio em termos de impacto no número de ações emitidas e explique por quê.",
+    "answer": [
+      [
+        "A 'aquisição da kraft foods group inc .' é um desvio significativo. Levou à emissão de 592.898 ações, o que é mais de 2,6 vezes maior do que a próxima maior transação ('emissão de ações ordinárias para patrocinadores' com 221.666 ações) e mais de 28 vezes maior do que qualquer outra transação na lista. Sua magnitude a distingue claramente de atividades de capital rotineiras."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_bb91241c24_011",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Quantas ações foram emitidas para a aquisição da Kraft Foods Group Inc.?",
+    "answer": [
+      [
+        "592,898"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

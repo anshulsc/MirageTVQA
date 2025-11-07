@@ -1,0 +1,270 @@
+[
+  {
+    "question_id": "finqa_ee929b55fc_001",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "לאיזו יחידת דיווח יש את השווי ההוגן כאחוז מערך הספרים שהוקצה לה הגבוה ביותר?",
+    "answer": [
+      [
+        "transaction services"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_002",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "מהו סך המוניטין עבור כל יחידות הדיווח ששמן כולל את המונח 'בנקאות'?",
+    "answer": [
+      [
+        "19960"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_003",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "מהו המוניטין של יחידת הדיווח עם אחוז השווי ההוגן השני הנמוך ביותר?",
+    "answer": [
+      [
+        "65"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_004",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "רשום את כל יחידות הדיווח שיש להן ערך מוניטין (goodwill) גדול מ-4,000 דולר ואחוז שווי הוגן מתחת ל-400%.",
+    "answer": [
+      [
+        "asia regional consumer banking"
+      ],
+      [
+        "securities and banking"
+      ],
+      [
+        "local consumer lending 2014cards"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_005",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "איזה שיעור מהמוניטין הכולל מכל יחידות הדיווח מיוחס ל'בנקאות צרכנית אזורית באסיה'? הצג את התשובה באחוזים המעוגלים למקום עשרוני אחד.",
+    "answer": [
+      [
+        "23.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_006",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "אם המוניטין עבור 'local consumer lending 2014cards' יקטן ב-25% עקב הפרשה לירידת ערך, מה יהיה ערך המוניטין החדש שלו?",
+    "answer": [
+      [
+        "3420"
+      ]
+    ],
+    "evidence_cells": [
+      "C8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_007",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "open_ended_reasoning",
+    "question": "בהתבסס על הנתונים, האם קיים מתאם חיובי ברור בין ערך מוניטין גבוה לבין 'שווי הוגן באחוז' גבוה? ספק ניתוח מנומק.",
+    "answer": [
+      [
+        "לא, אין מתאם חיובי ברור. לדוגמה, ל-'transaction services' יש את ה'שווי ההוגן באחוז' הגבוה ביותר בפער משמעותי (1716) אך מוניטין מתון יחסית (1567$). מנגד, ל-'securities and banking' יש את המוניטין הגבוה ביותר (9259$) אך רק את אחוז השווי ההוגן הרביעי בגובהו (223). זה מדגים שערך גבוה במדד אחד אינו תואם באופן עקבי לערך גבוה במדד האחר."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_008",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "זיהוי יחידת הדיווח ש'שווי הוגן באחוזים' שלה מהווה חריג משמעותי, ובאיזה גורם היא גדולה מאחוז השווי ההוגן החציוני של כל היחידות? עגל את הגורם למספר השלם הקרוב ביותר.",
+    "answer": [
+      [
+        "transaction services",
+        "9"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_009",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "open_ended_reasoning",
+    "question": "איזה נושא משותף קיים בשמות של ארבע יחידות הדיווח עם ערכי המוניטין הנמוכים ביותר?",
+    "answer": [
+      [
+        "ארבע היחידות עם המוניטין הנמוך ביותר ('brokerage and asset management', 'emea regional consumer banking', 'transaction services', ו-'latin america regional consumer banking') אינן כוללות את 'צפון אמריקה' או 'אסיה' בשמותיהן ומייצגות או אזורים שאינם בארה\"ב או קווי שירות ספציפיים שאינם אזוריים."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A6",
+      "C6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_010",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "לאיזו מבין ארבע היחידות של 'בנקאות צרכנית אזורית' יש את סכום המוניטין הגבוה ביותר לכל נקודת אחוז של שווי הוגן?",
+    "answer": [
+      [
+        "asia regional consumer banking"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_011",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "לאיזו יחידת דיווח היה המוניטין הגבוה ביותר מבין כל האזורים?",
+    "answer": [
+      [
+        "Securities and Banking"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

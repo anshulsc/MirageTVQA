@@ -1,0 +1,224 @@
+[
+  {
+    "question_id": "finqa_bb91241c24_001",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Hvad var det samlede antal nye aktier udstedt gennem specifikke virksomhedshandlinger (eksklusive rutinemæssige aktieoptionsudnyttelser) mellem balancen pr. 28. december 2014 og balancen pr. 3. januar 2016?",
+    "answer": [
+      [
+        "834944"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_bb91241c24_002",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Hvilken enkelt begivenhed resulterede i den største udstedelse af udestående aktier?",
+    "answer": [
+      [
+        "acquisition of kraft foods group inc ."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6",
+      "A7",
+      "D7",
+      "A9",
+      "D9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_003",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Beregn nettoændringen i udestående aktier fra startsaldoen den 29. december 2013 til slutdatoen den 31. december 2016.",
+    "answer": [
+      [
+        "839644"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_004",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "open_ended_reasoning",
+    "question": "Baseret på dataene, beskriv tendensen for virksomhedens egne aktieaktiviteter efter den 28. december 2014.",
+    "answer": [
+      [
+        "Efter den 28. december 2014 iværksatte virksomheden egne aktieaktiviteter, som indikeret af de negative værdier, der optrådte i kolonnen 'treasury shares' fra perioden op til balancen den 3. januar 2016. Saldoen af egne aktier blev stadigt mere negativ, og bevægede sig fra -413 til -2471 ved udgangen af december 2016. Dette tyder på, at virksomheden aktivt tilbagekøbte sine aktier eller genudstedte egne aktier til medarbejderkompensationsplaner, hvilket reducerede det samlede antal aktier holdt i beholdningen."
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_005",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "List begivenhederne, der involverede både udstedelse af nye aktier og en ændring i egne aktier.",
+    "answer": [
+      [
+        "exercise of stock options issuance of other stock awards and other"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_006",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Udstedte aktier i forbindelse med 'overtagelse af kraft foods group inc .' udgør hvilken procentdel af de samlede udstedte aktier ved balancen pr. 31. december 2016?",
+    "answer": [
+      [
+        "48.64%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_bb91241c24_007",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Hvis antallet af aktier udstedt til sponsorer havde været 20% højere, hvad ville 'saldoen pr. 3. januar 2016' for 'udstedte aktier' have været, hvis man antager, at alle andre transaktioner forblev uændrede?",
+    "answer": [
+      [
+        "1258725"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_008",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "open_ended_reasoning",
+    "question": "Er der et observerbart forhold mellem typen af aktieudstedelseshændelse og størrelsen af udstedte aktier? Begrund dit svar.",
+    "answer": [
+      [
+        "Ja, der eksisterer et klart forhold. Store virksomhedshandlinger som 'anskaffelse af kraft foods group inc .' (592.898 aktier) og 'udstedelse af ordinære aktier til sponsorer' (221.666 aktier) resulterer i aktieudstedelser, der er størrelsesordener større end rutinemæssige begivenheder som 'udnyttelse af aktieoptioner' (varierende fra 178 til 4.555 aktier). Dette indikerer, at strategiske transaktioner har en langt mere betydelig fortyndende effekt end standard medarbejderkompensationsaktiviteter."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_bb91241c24_009",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvilken kolonne indeholder inkonsistente datatyper, der kræver fortolkning, og hvad er uoverensstemmelserne?",
+    "answer": [
+      [
+        "Kolonnen 'treasury shares' indeholder inkonsistente datatyper. For de første seks rækker indeholder den årstallet '2014', hvilket er ikke-numerisk tekst og ser ud til at være støj. For de sidste fire rækker indeholder den regnskabsmæssige negative tal som '-413 ( 413 )', hvilket kræver fortolkning for at kunne bruges som en standard numerisk værdi (-413)."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_010",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "open_ended_reasoning",
+    "question": "Identificer den transaktion, der er en klar outlier med hensyn til dens indvirkning på antallet af udstedte aktier, og forklar hvorfor.",
+    "answer": [
+      [
+        "\"Akquisitionen af Kraft Foods Group Inc.\" er en markant outlier. Den førte til udstedelse af 592.898 aktier, hvilket er mere end 2,6 gange større end den næststørste transaktion (\"udstedelse af ordinære aktier til sponsorer\" på 221.666 aktier) og over 28 gange større end enhver anden transaktion på listen. Dens størrelse adskiller den tydeligt fra rutinemæssige kapitalaktiviteter."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_bb91241c24_011",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Hvor mange aktier blev udstedt til erhvervelsen af Kraft Foods Group Inc.?",
+    "answer": [
+      [
+        "592,898"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

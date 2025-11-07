@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_345428c8b4_001",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Was war die gesamte Nettoänderung bei 'ausstehenden Aktien' aus allen 'Aktienrückkaufprogrammen' und 'ausgegebenen Wandelanleihen'-Aktivitäten zusammengenommen über alle Jahre?",
+    "answer": [
+      [
+        "-36"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "D5",
+      "D10",
+      "D15",
+      "D16"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_345428c8b4_002",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Welcher Jahresvergleichszeitraum (2008, 2009 oder 2010) verzeichnete die kleinste absolute Veränderung beim Jahresendbestand der 'ausstehenden Aktien'?",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D6",
+      "D11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_003",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifizieren Sie die Transaktion, die den größten einzelnen Anstieg der 'outstanding shares' verursacht hat, und berechnen Sie dann das Verhältnis der 'in treasury' shares zu ihrem Wert von 'outstanding shares'.",
+    "answer": [
+      [
+        "Die Transaktion ist 'acquisition of smith international inc.'. Das Verhältnis beträgt ungefähr 0,432 (76 / 176)."
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "C12",
+      "D12",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D8",
+      "D9",
+      "D13",
+      "D14",
+      "D16"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_004",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Beschreiben Sie den allgemeinen Trend des 'in treasury' Aktienbestands vom Beginn des Jahres 2008 bis Ende 2010.",
+    "answer": [
+      [
+        "Die Anzahl der 'in treasury' befindlichen Aktien zeigt einen schwankenden, aber generell abnehmenden Trend (sie wird zu einer kleineren negativen Zahl). Sie begann bei -138, sank 2008 leicht auf -140, erholte sich 2009 leicht auf -139 und fiel dann bis Ende 2010 deutlich auf -73, hauptsächlich aufgrund der Aktien, die mit der Übernahme von Smith International Inc. verbunden sind."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C6",
+      "C11",
+      "C17",
+      "A12",
+      "C12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_005",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Listen Sie alle Aktivitäten im Jahr 2008 (zwischen dem Saldo vom 1. Januar und dem 31. Dezember) auf, die eine positive Auswirkung auf die Anzahl der 'ausgegebenen Aktien' hatten.",
+    "answer": [
+      [
+        "shares sold to optionees less shares exchanged"
+      ],
+      [
+        "shares issued under employee stock purchase plan"
+      ],
+      [
+        "issued on conversions of debentures"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_006",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Welchen Anteil am endgültigen Saldo der 'ausstehenden Aktien' am 31. Dezember 2010 steuerte die Transaktion 'Übernahme von Smith International Inc.' bei?",
+    "answer": [
+      [
+        "12.93%"
+      ]
+    ],
+    "evidence_cells": [
+      "D12",
+      "D17"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_345428c8b4_007",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Wenn die 'Akquisition von Smith International Inc.' im Jahr 2010 nicht stattgefunden hätte, wie hoch wäre der Endbestand für 'ausstehende Aktien' am 31. Dezember 2010 gewesen, unter der Annahme, dass alle anderen Transaktionen gleich geblieben wären?",
+    "answer": [
+      [
+        "1185"
+      ]
+    ],
+    "evidence_cells": [
+      "D17",
+      "D12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_008",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Gibt es eine beobachtbare Beziehung zwischen der Anzahl der an Optionsinhaber ausgegebenen Aktien und der Anzahl der im Rahmen des Mitarbeiteraktienkaufplans ausgegebenen Aktien in den dargestellten Jahren? Erklären Sie.",
+    "answer": [
+      [
+        "Es gibt keine konsistente Beziehung. Im Jahr 2008 wurden mehr Aktien an Optionsinhaber verkauft (5) als im Rahmen des Kaufplans ausgegeben (2). Im Jahr 2009 waren die Zahlen gleich (4 und 4). Im Jahr 2010 wurden mehr Aktien an Optionsinhaber verkauft (6) als im Rahmen des Kaufplans ausgegeben (3). Das Verhältnis zwischen beiden schwankt jedes Jahr und deutet auf keine direkte Korrelation hin."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A7",
+      "D7",
+      "A9",
+      "D9",
+      "A13",
+      "D13",
+      "A14",
+      "D14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_345428c8b4_009",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Welche Spalte, 'issued', 'in treasury' oder 'shares outstanding', enthält die meisten nicht-numerischen oder inkonsistenten Dateneinträge, wenn Zeilen mit Salden ausgeschlossen werden?",
+    "answer": [
+      [
+        "Die Spalte 'issued' ist die inkonsistenteste. Während andere Spalten numerische Werte enthalten (oder ein konsistentes Format für negative Zahlen), enthält die Spalte 'issued' eine Mischung aus Zahlen, die Salden zu repräsentieren scheinen ('1334', '1434', '100') und einem sich wiederholenden Wert '2013', der nicht mit einer Menge für die Transaktionen, gegen die er aufgeführt ist, übereinzustimmen scheint."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B12",
+      "B17"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_010",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Welche einzelne Transaktion sticht als Ausreißer hervor, indem sie den größten positiven Einfluss auf den Saldo der 'outstanding shares' hat, verglichen mit dem Median-Einfluss aller anderen Transaktionen?",
+    "answer": [
+      [
+        "acquisition of smith international inc ."
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D12",
+      "D13",
+      "D14",
+      "D15",
+      "D16"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_345428c8b4_011",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Wie ist das Verhältnis von \"In Treasury\" zu den ausstehenden Aktien im Rahmen des Aktienrückkaufprogramms über die Jahre?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "D4",
+      "A10",
+      "C10",
+      "D10",
+      "A15",
+      "C15",
+      "D15"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

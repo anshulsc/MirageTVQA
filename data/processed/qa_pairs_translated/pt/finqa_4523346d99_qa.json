@@ -1,0 +1,208 @@
+[
+  {
+    "question_id": "finqa_4523346d99_001",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "Qual componente da dívida, 'dívida de longo prazo a vencer em um ano' ou 'dívida de longo prazo', experimentou um crescimento percentual maior de 2006 a 2007?",
+    "answer": [
+      [
+        "long-term debt due within one year"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_002",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "Qual foi o total combinado de 'dívida de longo prazo' e 'patrimônio líquido' em 2007, em milhões de dólares?",
+    "answer": [
+      [
+        "25307"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_4523346d99_003",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "Em quantos milhões de dólares o aumento da 'dívida total' de 2006 para 2007 superou a diminuição do 'caixa' no mesmo período?",
+    "answer": [
+      [
+        "2297"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_004",
+    "table_id": "finqa_4523346d99",
+    "question_type": "open_ended_reasoning",
+    "question": "Analise a mudança na liquidez da empresa, considerando tanto 'caixa' quanto 'fundos fiduciários', de 2006 para 2007.",
+    "answer": [
+      [
+        "A posição de liquidez da empresa piorou significativamente de 2006 para 2007. O 'caixa' diminuiu em 53,6% (de US$ 2.585 milhões para US$ 1.199 milhões) e os 'fundos fiduciários de títulos de receita' diminuíram em 63,0% (de US$ 2.013 milhões para US$ 744 milhões). Os ativos líquidos combinados caíram de US$ 4.598 milhões para US$ 1.943 milhões, uma redução de quase 58%, indicando uma diminuição substancial nos fundos prontamente disponíveis."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_005",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "Liste todos os itens financeiros da seção primária do balanço patrimonial (linhas 1-6) que tiveram um valor superior a US$ 6.000 milhões em 2007.",
+    "answer": [
+      [
+        "long-term debt"
+      ],
+      [
+        "total debt"
+      ],
+      [
+        "equity"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_006",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "Qual foi o rácio dívida/capital próprio da empresa em 2006? Calcule isto dividindo a 'dívida total' pelo 'capital próprio' e expresse o resultado como um decimal arredondado a duas casas decimais.",
+    "answer": [
+      [
+        "0.24"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_4523346d99_007",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "Se o 'patrimônio líquido' da empresa em 2007 tivesse sido 15% maior, qual teria sido o novo valor para 'dívida total mais patrimônio líquido menos caixa' para aquele ano, assumindo que todos os outros valores permaneceram constantes?",
+    "answer": [
+      [
+        "27378.45"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B12",
+      "B13",
+      "B14",
+      "B16"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_008",
+    "table_id": "finqa_4523346d99",
+    "question_type": "open_ended_reasoning",
+    "question": "Com base no aumento simultâneo e substancial tanto da 'dívida total' quanto do 'patrimônio líquido' de 2006 para 2007, o que pode ser inferido sobre a estratégia financeira da empresa durante este período?",
+    "answer": [
+      [
+        "O aumento simultâneo e expressivo tanto da dívida total (de $ 3.532 milhões para $ 7.215 milhões) quanto do patrimônio líquido (de $ 14.607 milhões para $ 19.223 milhões) sugere que a empresa estava perseguindo uma estratégia agressiva de crescimento ou expansão. Ela estava captando ativamente capital significativo tanto dos mercados de dívida quanto de capital próprio. Isso é frequentemente feito para financiar grandes investimentos, projetos ou aquisições. O salto significativo na relação dívida/capital ajustada ao caixa de 6% para 22% indica ainda mais uma mudança estratégica em direção a maior alavancagem para impulsionar esse crescimento."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B6",
+      "C6",
+      "B17",
+      "C17"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_4523346d99_009",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "Qual rótulo na seção 'cálculo' (linhas 8-16) é uma duplicação direta de um rótulo da seção principal de demonstrações financeiras (linhas 1-6)?",
+    "answer": [
+      [
+        "total debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "A8",
+      "A12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_010",
+    "table_id": "finqa_4523346d99",
+    "question_type": "open_ended_reasoning",
+    "question": "Qual métrica financeira calculada mostrou o aumento relativo mais extremo de 2006 para 2007, tornando-se um outlier notável?",
+    "answer": [
+      [
+        "A métrica 'dívida total menos caixa' é o outlier mais significativo. Ela aumentou de US$ 947 milhões em 2006 para US$ 5.272 milhões em 2007, o que representa um crescimento de mais de 456%. Isso supera em muito a variação percentual de qualquer outra métrica listada, incluindo o aumento de 267% na 'razão dívida/capital ajustada pelo caixa', indicando um aumento drástico na posição de dívida líquida da empresa."
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "B11",
+      "C11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_4523346d99_011",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "Quanto a dívida aumentou em 2007 em comparação com 2006?",
+    "answer": [
+      [
+        "$3,683"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

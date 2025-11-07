@@ -1,0 +1,189 @@
+[
+  {
+    "question_id": "finqa_a2bbef41ac_001",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Qual foi o valor total dos ativos ('investimentos' e 'outros ativos') em 31 de dezembro de 2007?",
+    "answer": [
+      [
+        "3254"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_002",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Qual categoria de ativo, 'investimentos' ou 'outros ativos', experimentou uma perda líquida maior em valor absoluto em 'ganhos/perdas líquidos realizados e não realizados'?",
+    "answer": [
+      [
+        "investments"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_003",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Verifique se o saldo final de 'investimentos' em 31 de dezembro de 2008 é consistente com seu saldo inicial e as transações subsequentes listadas. Mostre seu cálculo.",
+    "answer": [
+      [
+        "Sim, o saldo é consistente. O cálculo é: $1240 (saldo inicial) - $409 (ganhos/perdas) + $11 (compras/vendas) - $29 (transferências líquidas) = $813, que corresponde ao saldo final reportado."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_004",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Qual foi a variação líquida total no valor do ativo para todo o período, de 31 de dezembro de 2007 a 31 de dezembro de 2008?",
+    "answer": [
+      [
+        "-2377"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_005",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Para quais categorias de ativos as 'transferências líquidas de entrada e/ou saída do nível 3' resultaram em uma contribuição positiva para o valor do ativo?",
+    "answer": [
+      [
+        "other assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_006",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Qual a proporção de 'perdas líquidas totais (perdas) do período incluídas nos ganhos' que veio de 'investimentos'?",
+    "answer": [
+      [
+        "95.54%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_007",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Se os 'ganhos/ (perdas) líquidos realizados e não realizados' para 'outros ativos' tivessem sido zero em vez de $-16, qual teria sido o novo saldo de encerramento para 'outros ativos' em 31 de dezembro de 2008?",
+    "answer": [
+      [
+        "80"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_008",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Com base nos dados de 'investimentos', qual é a relação entre 'ganhos / (perdas) líquidos realizados e não realizados' e 'perdas líquidas totais ( ... ) relativas a ativos ainda detidos na data de relato'?",
+    "answer": [
+      [
+        "Existe uma relação forte e direta. As 'perdas líquidas totais ( ... ) relativas a ativos ainda detidos' ($-366) representam 89,5% do total de 'ganhos / (perdas) líquidos realizados e não realizados' ($-409). Isso implica que a maioria das perdas líquidas do período para investimentos foram não realizadas e associadas a ativos que não haviam sido vendidos até o final do período de relato."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_009",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Qual convenção contábil é sugerida pelo formato de dados usado para valores negativos, como '-409 ( 409 )'?",
+    "answer": [
+      [
+        "O formato de apresentar um número negativo seguido pelo valor absoluto entre parênteses é uma convenção contábil comum para indicar de forma clara e enfática figuras financeiras negativas, como perdas, despesas ou valores contraativos de ativos."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_010",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Qual item de linha representa o maior impacto negativo único nos valores combinados dos ativos durante o período?",
+    "answer": [
+      [
+        "realized and unrealized gains / ( losses ) net"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_011",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Quanto diminuíram os investimentos de 2007 para 2008?",
+    "answer": [
+      [
+        "$427"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A5",
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

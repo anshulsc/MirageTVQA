@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_345428c8b4_001",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Hva var den totale nettoendringen i 'aksjer utestående' som følge av alle 'aksjebaserte tilbakekjøpsprogrammer' og 'utstedt ved konvertering av obligasjoner'-aktiviteter kombinert på tvers av alle år?",
+    "answer": [
+      [
+        "-36"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "D5",
+      "D10",
+      "D15",
+      "D16"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_345428c8b4_002",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Hvilken års-til-års periode (2008, 2009 eller 2010) hadde den minste absolutte endringen i årsavslutningen av 'aksjer utestående'?",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D6",
+      "D11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_003",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifiser transaksjonen som forårsaket den største enkeltøkningen i 'aksjer utstedt', og beregn deretter forholdet mellom 'egne aksjer' og verdien av 'aksjer utstedt' for denne transaksjonen.",
+    "answer": [
+      [
+        "Transaksjonen er 'kjøp av smith international inc.'. Forholdet er omtrent 0.432 (76 / 176)."
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "C12",
+      "D12",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D8",
+      "D9",
+      "D13",
+      "D14",
+      "D16"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_004",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv den generelle trenden for 'in treasury'-aksjebalansen fra begynnelsen av 2008 til slutten av 2010.",
+    "answer": [
+      [
+        "Antallet aksjer 'in treasury' viser en varierende, men generelt fallende trend (blir et mindre negativt tall). Den startet på -138, falt litt til -140 i 2008, hentet seg litt inn til -139 i 2009, og falt deretter betydelig til -73 ved utgangen av 2010, hovedsakelig på grunn av aksjene knyttet til oppkjøpet av Smith International Inc."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C6",
+      "C11",
+      "C17",
+      "A12",
+      "C12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_005",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "List alle aktiviteter som fant sted i 2008 (mellom balansen 1. jan og 31. des) som hadde en positiv innvirkning på antall 'aksjer utestående'.",
+    "answer": [
+      [
+        "shares sold to optionees less shares exchanged"
+      ],
+      [
+        "shares issued under employee stock purchase plan"
+      ],
+      [
+        "issued on conversions of debentures"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_006",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Hvilken andel av den endelige 'aksjer utestående'-saldoen per 31. desember 2010 ble lagt til av transaksjonen 'oppkjøp av smith international inc.'?",
+    "answer": [
+      [
+        "12.93%"
+      ]
+    ],
+    "evidence_cells": [
+      "D12",
+      "D17"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_345428c8b4_007",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Hvis 'kjøp av smith international inc.' ikke hadde skjedd i 2010, hva ville ha vært årsavslutningen for 'aksjer utestående' per 31. desember 2010, forutsatt at alle andre transaksjoner forble de samme?",
+    "answer": [
+      [
+        "1185"
+      ]
+    ],
+    "evidence_cells": [
+      "D17",
+      "D12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_008",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Er det et observerbart forhold mellom antall aksjer utstedt til opsjonsmottakere og antall utstedt under aksjekjøpsplanen for ansatte i de presenterte årene? Forklar.",
+    "answer": [
+      [
+        "Det er ingen konsekvent sammenheng. I 2008 ble det solgt flere aksjer til opsjonsmottakere (5) enn det som ble utstedt under kjøpsplanen (2). I 2009 var tallene like (4 og 4). I 2010 ble det solgt flere aksjer til opsjonsmottakere (6) enn det som ble utstedt under kjøpsplanen (3). Forholdet mellom de to varierer hvert år, noe som tyder på ingen direkte korrelasjon."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A7",
+      "D7",
+      "A9",
+      "D9",
+      "A13",
+      "D13",
+      "A14",
+      "D14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_345428c8b4_009",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvilken kolonne, 'issued', 'in treasury' eller 'shares outstanding', inneholder flest ikke-numeriske eller inkonsistente dataoppføringer, ekskludert balanserader?",
+    "answer": [
+      [
+        "Kolonnen 'issued' er den mest inkonsekvente. Mens andre kolonner inneholder numeriske verdier (eller et konsistent format for negative tall), inneholder kolonnen 'issued' en blanding av tall som ser ut til å representere saldi ('1334', '1434', '100') og en gjentakende verdi '2013' som ikke ser ut til å tilsvare en mengde for transaksjonene den er oppført mot."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B12",
+      "B17"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_010",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Hvilken enkelt transaksjon skiller seg ut som en uteligger ved å ha den mest signifikante positive innvirkningen på saldoen for 'aksjer utestående' sammenlignet med medianinnvirkningen av alle andre transaksjoner?",
+    "answer": [
+      [
+        "acquisition of smith international inc ."
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D12",
+      "D13",
+      "D14",
+      "D15",
+      "D16"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_345428c8b4_011",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Hva er forholdet mellom aksjer i depot og utestående aksjer i aksjeprogrammet over årene?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "D4",
+      "A10",
+      "C10",
+      "D10",
+      "A15",
+      "C15",
+      "D15"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

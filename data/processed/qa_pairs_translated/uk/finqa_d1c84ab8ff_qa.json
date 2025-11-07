@@ -1,0 +1,222 @@
+[
+  {
+    "question_id": "finqa_d1c84ab8ff_001",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "Який рік показав найбільше від'ємне коригування податкової ставки за статтею \"Податки на міжнародні операції (1)\"?",
+    "answer": [
+      [
+        "2017"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_002",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "Якою була сума всіх позитивних коригувань податкової ставки у 2018 році, за винятком \"впливу реформи податків США\"?",
+    "answer": [
+      [
+        "7.4"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_003",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "У якому році, що має найвищу \"ефективну ставку податку\", яка була величина \"впливу податкової реформи США\"?",
+    "answer": [
+      [
+        "51.2"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "C12",
+      "D12",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_004",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "open_ended_reasoning",
+    "question": "Опишіть тенденцію \"статутної податкової ставки\" з 2016 по 2018 рік.",
+    "answer": [
+      [
+        "Статутна податкова ставка демонструє стабільну тенденцію до зниження, починаючи з 20,0% у 2016 році, зменшившись до 19,3% у 2017 році та ще більше знизившись до 19,0% у 2018 році."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_005",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "Перелічіть усі категорії податкових коригувань, які мали стабільний позитивний вплив (тобто позитивне значення) на податкову ставку протягом усіх трьох представлених років.",
+    "answer": [
+      [
+        "nondeductible expenses"
+      ],
+      [
+        "change in uncertain tax positions"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "A7",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_006",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "У 2017 році, який відсоток від загального позитивного коригування податкової ставки становив «Вплив реформи податків США»?",
+    "answer": [
+      [
+        "87.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5",
+      "C7",
+      "C9",
+      "C11"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_007",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "Якби \"збиток від вибуття\" у 2018 році становив нуль замість -10,2, яким би був \"ефективний податковий показник\" за той рік?",
+    "answer": [
+      [
+        "21.9%"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "B12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_008",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "open_ended_reasoning",
+    "question": "Чи існує стабільна залежність між обліковою податковою ставкою та ефективною податковою ставкою протягом трьох років? Поясніть свої міркування на основі даних.",
+    "answer": [
+      [
+        "Ні, стабільної залежності немає. Хоча облікова ставка стабільно знижувалася з 20,0% до 19,0%, ефективна податкова ставка була надзвичайно мінливою, знизившись з 10,6% у 2016 році до піку в 36,5% у 2017 році, а потім знову знизившись до 11,7% у 2018 році. Ця мінливість свідчить про те, що на ефективну ставку впливають великі, непослідовні коригувальні статті, такі як вплив у розмірі 51,2 від 'податкової реформи США' у 2017 році, а не облікова ставка."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "A12",
+      "B12",
+      "C12",
+      "D12",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_009",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "Який конкретний пункт коригування податку містить нечислові дані за більше ніж один рік?",
+    "answer": [
+      [
+        "loss on disposition"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "C10",
+      "D10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_010",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "Який окремий податковий коригування у 2017 році є найбільшим відхиленням порівняно з усіма іншими коригуваннями за цей рік?",
+    "answer": [
+      [
+        "u.s . tax reform impact"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_011",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "open_ended_reasoning",
+    "question": "Наскільки зріс ефективний податковий показник з 2016 по 2018 рік?",
+    "answer": [
+      [
+        "Ефективний податковий показник зріс з 10,6% у 2016 році до 11,7% у 2018 році, тобто на 1,1%."
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "D12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

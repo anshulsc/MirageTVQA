@@ -1,0 +1,189 @@
+[
+  {
+    "question_id": "finqa_a2bbef41ac_001",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Was war der Gesamtwert der Vermögenswerte ('Investitionen' und 'andere Vermögenswerte') am 31. Dezember 2007?",
+    "answer": [
+      [
+        "3254"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_002",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Welche Anlagekategorie, 'Investitionen' oder 'sonstige Vermögenswerte', verzeichnete einen größeren absoluten Nettoverlust bei 'realisierten und unrealisierten Gewinnen / (Verlusten) netto'?",
+    "answer": [
+      [
+        "investments"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_003",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Überprüfen Sie, ob der Endsaldo von 'Investitionen' am 31. Dezember 2008 mit seinem Eröffnungssaldo und den nachfolgenden Transaktionen übereinstimmt. Zeigen Sie Ihre Berechnung.",
+    "answer": [
+      [
+        "Ja, der Saldo ist konsistent. Die Berechnung lautet: 1240 $ (Eröffnungssaldo) - 409 $ (Gewinne/Verluste) + 11 $ (Käufe/Verkäufe) - 29 $ (Nettoüberträge) = 813 $, was dem ausgewiesenen Endsaldo entspricht."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_004",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Wie hat sich der Gesamtwert der Vermögenswerte für den gesamten Zeitraum vom 31. Dezember 2007 bis zum 31. Dezember 2008 verändert?",
+    "answer": [
+      [
+        "-2377"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_005",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Für welche Anlagekategorien führte der 'Nettoübertrag von und/oder in Stufe 3' zu einem positiven Beitrag zum Vermögenswert?",
+    "answer": [
+      [
+        "other assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_006",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Welchen Anteil der 'Gesamtnettoverluste für die Periode, die in den Erträgen enthalten sind' machten 'Investitionen' aus?",
+    "answer": [
+      [
+        "95.54%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_007",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Wenn die 'realisierten und unrealisierten Gewinne / (Verluste) netto' für 'andere Vermögenswerte' statt -16 $ null gewesen wären, wie hoch wäre dann der neue Endsaldo für 'andere Vermögenswerte' zum 31. Dezember 2008 gewesen?",
+    "answer": [
+      [
+        "80"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_008",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Basierend auf den Daten für 'Investitionen', wie ist die Beziehung zwischen 'realisierten und unrealisierten Gewinnen / (Verlusten) Netto' und 'Gesamtnetto (Verlusten) ... in Bezug auf Vermögenswerte, die noch zum Stichtag gehalten werden'?",
+    "answer": [
+      [
+        "Es gibt eine starke, direkte Beziehung. Die 'Gesamtnetto (Verluste) ... in Bezug auf Vermögenswerte, die noch gehalten werden' ($-366) machen 89,5 % der gesamten 'realisierten und unrealisierten Gewinne / (Verluste) Netto' ($-409) aus. Dies impliziert, dass die Mehrheit der Nettoverluste des Zeitraums für Investitionen nicht realisiert war und mit Vermögenswerten verbunden war, die bis zum Ende des Berichtszeitraums nicht verkauft worden waren."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_009",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Welche Rechnungslegungskonvention wird durch das Datenformat für negative Werte wie '-409 (409)' nahegelegt?",
+    "answer": [
+      [
+        "Das Format, eine negative Zahl gefolgt von ihrem Absolutwert in Klammern anzuzeigen, ist eine gängige Rechnungslegungskonvention, um negative Finanzzahlen wie Verluste, Ausgaben oder Gegenkontenwerte klar und nachdrücklich zu kennzeichnen."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_010",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Welcher Posten stellt den größten einzelnen negativen Einfluss auf die kombinierten Vermögenswerte während des Berichtszeitraums dar?",
+    "answer": [
+      [
+        "realized and unrealized gains / ( losses ) net"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_011",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Wie stark sind die Investitionen von 2007 bis 2008 gesunken?",
+    "answer": [
+      [
+        "$427"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A5",
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

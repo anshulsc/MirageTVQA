@@ -1,0 +1,205 @@
+[
+  {
+    "question_id": "finqa_a3e4351c77_001",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Care instrument de datorie specific, excluzând totalurile și ajustările, a deținut cea mai mare valoare în ambele perioade raportate?",
+    "answer": [
+      [
+        "international marine terminals-plaquemines la revenue bonds due march 15 2025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_002",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Care este valoarea totală a tuturor obligațiunilor de venituri identificabile listate pentru perioada în a doua coloană de date?",
+    "answer": [
+      [
+        "63.7"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_003",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Cu cât a depășit schimbarea absolută în „scadențele curente ale datoriilor pe termen lung” între cele două perioade schimbarea absolută în „dobânda nerepartizată la datorii”?",
+    "answer": [
+      [
+        "665.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_004",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Descrieți tendința 'datoriei totale pe termen lung' între cele două perioade prezentate și explicați semnificația acestei schimbări.",
+    "answer": [
+      [
+        "Datoria totală pe termen lung a crescut cu 275,3 USD, de la 10007,5 USD în perioada prezentată în coloana C la 10282,8 USD în perioada prezentată în coloana B. Acest lucru indică faptul că obligațiile totale pe termen lung ale entității au crescut în acest interval de timp, sugerând că, cel mai probabil, a contractat datorii noi mai mari decât cele rambursate."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_005",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Identifica toate elementele de linie, excluzând totalul, care sunt reprezentate ca valori negative în a doua coloană de date.",
+    "answer": [
+      [
+        "unamortized debt discount on long-term debt"
+      ],
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_006",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Ca procent din datoria pe termen lung totală pentru perioada din coloana B, ce parte este clasificată drept 'scadențe curente ale datoriei pe termen lung'? Folosiți valori absolute pentru calcul și rotunjiți la două zecimale.",
+    "answer": [
+      [
+        "12.29%"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_007",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Dacă 'dobânda neamortizată din datorie' din a doua coloană de date (coloana B) ar fi eliminată (adică setată la zero), care ar fi fost 'datoria totală pe termen lung 2013 kmp' pentru acea perioadă?",
+    "answer": [
+      [
+        "$ 10303.1"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_008",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Există o relație aparentă între modificarea 'scadențelor curente ale datoriilor pe termen lung' și modificarea 'datoriilor totale pe termen lung' în cele două perioade?",
+    "answer": [
+      [
+        "Da, pare să existe o relație inversă în mișcările lor. În timp ce datoria totală pe termen lung a crescut cu 275,3 USD (de la 10007,5 USD la 10282,8 USD), magnitudinea 'scadențelor curente' a scăzut substanțial (de la o valoare absolută de 1263,3 la 596,6). Acest lucru sugerează că, în timp ce compania a contractat mai multă datorie în general, a redus simultan partea din acea datorie care urma să fie scadentă în viitorul apropiat."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_009",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Ce rând din setul de date pare a fi o agregare a altor rânduri și ce dovezi susțin această concluzie?",
+    "answer": [
+      [
+        "Rândul etichetat 'total long-term debt 2013 kmp' este o agregare. Dovezile principale sunt utilizarea explicită a cuvântului 'total' în descrierea sa. În plus, valoarea sa este prezentată cu un simbol de monedă ('$'), care este distinct de celelalte rânduri, semnificând că este o cifră financiară finală, rezumativă."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_010",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Ce element din listă prezintă cea mai semnificativă modificare în valoare absolută între cele două perioade, fiind un element atipic din punct de vedere al volatilității financiare?",
+    "answer": [
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_011",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Luând în considerare datoria totală pe termen lung și reducerea neamortizată a datoriei, care este creșterea efectivă a datoriei pe termen lung din 2012 până în 2013?",
+    "answer": [
+      [
+        "Datoria totală pe termen lung a crescut de la 10.007,5 milioane USD în 2012 la 10.282,8 milioane USD în 2013. Luând în considerare reducerea neamortizată a datoriei, care a trecut de la -21,2 în 2012 la -20,3 în 2013, creșterea efectivă a datoriei este de 276,8 milioane USD."
+      ]
+    ],
+    "evidence_cells": [
+      "F6",
+      "G6",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

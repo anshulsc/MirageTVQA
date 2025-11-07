@@ -1,0 +1,234 @@
+[
+  {
+    "question_id": "finqa_a0b3187200_001",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "Welche vertragliche Verpflichtung, exklusive der Gesamtsumme, hat die höchste fällige Zahlung im Jahr 2020?",
+    "answer": [
+      [
+        "long-term debt ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A3",
+      "F3",
+      "A4",
+      "F4",
+      "A5",
+      "F5",
+      "A6",
+      "F6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a0b3187200_002",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "Wie hoch ist die durchschnittliche jährliche Zahlung für 'langfristige Schulden (1)' über die Jahre 2017 bis 2021?",
+    "answer": [
+      [
+        "353921"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a0b3187200_003",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "Für die vertragliche Verpflichtung mit der niedrigsten fälligen Gesamtzahlung, welche Zahlung ist für den Zeitraum 'danach' geplant?",
+    "answer": [
+      [
+        "$ 14480"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "A6",
+      "H6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a0b3187200_004",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "open_ended_reasoning",
+    "question": "Beschreiben Sie den Zahlungstrend für 'Anteil an Schulden nicht konsolidierter Joint Ventures (3)' zwischen 2017 und 2021. Ist er konsistent?",
+    "answer": [
+      [
+        "Der Zahlungstrend für 'Anteil an Schulden nicht konsolidierter Joint Ventures (3)' von 2017 bis 2021 ist äußerst inkonsistent und volatil. Die Zahlungen begannen niedrig bei 2.444 Tausend Dollar im Jahr 2017, stiegen dramatisch auf 28.466 Tausend Dollar im Jahr 2018, fielen auf 5.737 Tausend Dollar im Jahr 2019, stiegen erneut auf 11.598 Tausend Dollar im Jahr 2020 und fielen dann auf ihren niedrigsten Punkt von 1.236 Tausend Dollar im Jahr 2021. Es gibt keinen konsistenten Aufwärts- oder Abwärtstrend."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a0b3187200_005",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "Listen Sie alle vertraglichen Verpflichtungen auf, bei denen die Fälligkeit im Jahr 2017 und im Jahr 2019 jeweils weniger als 3.000 Tausend beträgt.",
+    "answer": [
+      [
+        "line of credit ( 2 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "A3",
+      "C3",
+      "E3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a0b3187200_006",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "Welchen Prozentsatz der gesamten vertraglichen Verpflichtungen für 2018 entfällt auf 'langfristige Schulden ( 1 )'?",
+    "answer": [
+      [
+        "87.71%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a0b3187200_007",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "Wenn die Zahlung für 'Grundpacht' im Jahr 2017 20 % niedriger gewesen wäre, wie hoch wären dann die neuen 'vertraglichen Verpflichtungen' für dieses Jahr gewesen?",
+    "answer": [
+      [
+        "$ 555989"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a0b3187200_008",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "open_ended_reasoning",
+    "question": "Gibt es basierend auf den Daten für einzelne Verpflichtungen eine klare Korrelation zwischen der Größe der 'Gesamt'-Verpflichtung und dem Betrag, der in der Periode 'danach' fällig ist? Erläutern Sie Ihre Begründung.",
+    "answer": [
+      [
+        "Es gibt keine klare Korrelation. Zum Beispiel sind bei 'langfristigen Schulden', der größten Verpflichtung (3.508.789 Tausend $), etwa 49,6 % des Gesamtbetrags 'danach' fällig. Im Gegensatz dazu sind bei 'Entwicklungs- und Baukostenrückständen' (Development and construction backlog costs), einer weiteren großen Verpflichtung (344.700 Tausend $), nur etwa 0,6 % 'danach' fällig. Unterdessen haben 'Bodenpachtverträge' (ground leases), eine mittelgroße Verpflichtung, einen sehr hohen Anteil (89,1 %) der 'danach' fällig ist. Diese Variabilität zeigt, dass der Rückzahlungsplan nicht allein durch die Gesamtgröße bestimmt wird."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "H1",
+      "B2",
+      "H2",
+      "B3",
+      "H3",
+      "B4",
+      "H4",
+      "B5",
+      "H5",
+      "B6",
+      "H6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a0b3187200_009",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "open_ended_reasoning",
+    "question": "Welche Zeile in der Tabelle stellt eine Summe der anderen einzelnen Verpflichtungszeilen dar und für welche Spalten gilt diese Summation?",
+    "answer": [
+      [
+        "Die Zeile 'total contractual obligations' ist eine Summe der anderen sechs einzelnen Verpflichtungszeilen. Diese Summation gilt für alle Zahlungsspalten, von 'total' bis 'thereafter' (Spalten B bis H)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a0b3187200_010",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "Bei 'Aufwendungen für Entwicklung und Bauaufträge' (development and construction backlog costs), welches Jahr stellt im Vergleich zu den Zahlungen von 2018-2021 einen signifikanten Ausreißer dar?",
+    "answer": [
+      [
+        "2017"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a0b3187200_011",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "Wie hoch sind die gesamten vertraglichen Verpflichtungen in Tausend von 2017 bis 2021?",
+    "answer": [
+      [
+        "$2,282,629"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

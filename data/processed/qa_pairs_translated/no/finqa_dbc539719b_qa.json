@@ -1,0 +1,228 @@
+[
+  {
+    "question_id": "finqa_dbc539719b_001",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Blant de oppførte enkeltstatene, hvilken genererer den høyeste driftsinntekten per kunde?",
+    "answer": [
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A4",
+      "B4",
+      "D4",
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_002",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Hva er det samlede totale antallet kunder for Illinois, Indiana og California?",
+    "answer": [
+      [
+        "779881"
+      ]
+    ],
+    "evidence_cells": [
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_dbc539719b_003",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Hva er den samlede prosentandelen av totale driftsinntekter fra delstaten(e) med den lavest estimerte betjente befolkningen?",
+    "answer": [
+      [
+        "12.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "F6",
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_004",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Hvilke delstater har en andel av det totale antallet kunder som er større enn deres andel av de totale driftsinntektene?",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "indiana"
+      ],
+      [
+        "west virginia ( b )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "A5",
+      "C5",
+      "E5",
+      "A6",
+      "C6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_005",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Hva er forholdet mellom prosentandelen av totale kunder og prosentandelen av den totale befolkningen som betjenes for kategorien 'andre ( c )', avrundet til to desimaler?",
+    "answer": [
+      [
+        "1.01"
+      ]
+    ],
+    "evidence_cells": [
+      "E8",
+      "G8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_dbc539719b_006",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Hvis Pennsylvanias driftsinntekter skulle øke med 10%, hva ville den nye driftsinntekten for 'subtotal ( de syv største statene )' bli, forutsatt at inntektene til alle andre stater forblir uendret?",
+    "answer": [
+      [
+        "2388.14"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_007",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyser forholdet mellom antall kunder og den estimerte befolkningen som betjenes for de seks individuelle delstatene som er oppført. Er det en positiv korrelasjon, og hva innebærer dette?",
+    "answer": [
+      [
+        "Ja, det er en sterk positiv korrelasjon. Etter hvert som antall kunder øker for en delstat, har også den estimerte befolkningen som betjenes en tendens til å øke. For eksempel har Pennsylvania det høyeste antallet kunder (666 415) og den største estimerte befolkningen som betjenes (2,2 millioner), mens West Virginia og California, som har de laveste kundetallene, også har de minste estimerte befolkningene som betjenes. Dette innebærer at kundebasen er en direkte og proporsjonal del av befolkningen som betjenes av virksomheten i disse regionene."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_dbc539719b_008",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Ved å beregne den estimerte befolkningen betjent per kunde for hver av de seks individuelle statene, identifiser hvilken stat som er den mest signifikante avviker, og forklar hvorfor.",
+    "answer": [
+      [
+        "Illinois er den mest signifikante avviker. Den estimerte befolkningen betjent per kunde for hver stat er: Pennsylvania (~3,30), Missouri (~3,23), Illinois (~4,17), California (~3,44), Indiana (~4,09), og West Virginia (~3,52). Mens de fleste stater betjener mellom 3,2 og 3,5 personer per kunde, er Illinois og Indiana merkbart høyere. Illinois har det høyeste forholdet med omtrent 4,17, noe som indikerer at hver kunde i Illinois representerer en større andel av den betjente befolkningen sammenlignet med andre stater, noe som gjør den til den mest signifikante avviker."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_dbc539719b_009",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Verifiser om prosentandelen av totale driftsinntekter for 'delsum (topp syv stater)' og 'andre (c)' nøyaktig summerer seg til prosentandelen som vises for 'totalt regulerte virksomheter'.",
+    "answer": [
+      [
+        "Ja, summen er nøyaktig. 'Delsum (topp syv stater)' utgjør 87,0 % av de totale driftsinntektene, og kategorien 'andre (c)' utgjør 13,0 %. Å legge sammen disse to prosentandelene (87,0 % + 13,0 %) gir 100,0 %, som samsvarer med verdien oppgitt for 'totalt regulerte virksomheter'."
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_010",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Hvilket par av delstater, fra listen over seks, har et samlet antall kunder som er nærmest antallet kunder i Pennsylvania?",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

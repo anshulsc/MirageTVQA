@@ -1,0 +1,186 @@
+[
+  {
+    "question_id": "finqa_ec80ad8938_001",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Hvad er den samlede regnskabsmæssige værdi for alle aktiver (både handelsaktiver og lån) rapporteret på tværs af begge præsenterede datasæt?",
+    "answer": [
+      [
+        "26557"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_002",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "I det andet datasæt (kolonner D og E), hvilken aktivkategori – handelsaktiver eller lån – har den største 'samlede ubetalte hovedstol, der overstiger dagsværdien'?",
+    "answer": [
+      [
+        "loans"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_003",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "For den første gruppe lån (kolonne C), hvilken procentdel af det samlede 'bogførte beløb' udgøres af 'saldoen for ikke-akkumulerede lån'?",
+    "answer": [
+      [
+        "0.03%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_004",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Hvad er den samlede bogførte værdi af den aktivtype (Handelsaktiver eller Lån), der har den laveste samlede 'saldo for ikkegrundlagsberettigede lån' på tværs af begge datasæt?",
+    "answer": [
+      [
+        "7598"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_005",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Angiv de bogførte værdier for alle aktivporteføljer, hvor 'saldoen for ikke-forrentede lån eller lån, der er mere end 90 dage forfaldne' er præcis $1 million.",
+    "answer": [
+      [
+        "$ 3224"
+      ],
+      [
+        "$ 4374"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C3",
+      "E3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_006",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Hvis den bogførte værdi for handelsaktiver i det første datasæt (kolonne B) blev justeret ved at fratrække dens 'samlede ubetalte hovedstol, der overstiger dagsværdien', hvad ville den nye bogførte værdi så være?",
+    "answer": [
+      [
+        "9673"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_007",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Ved analyse af 'balance for misligholdte lån', hvilken aktivtypes balance er en markant afviger i forhold til den anden, og hvad indikerer dette om deres relative risikoprofiler?",
+    "answer": [
+      [
+        "Handelsaktiverne i begge datasæt viser en balance for misligholdte lån på $2.014 millioner, hvilket er en ekstrem afviger sammenlignet med de $1 million for lån i begge sæt. Denne markante forskel antyder, at porteføljen af handelsaktiver bærer en betydeligt højere kreditrisiko eller har oplevet en større misligholdelsesbegivenhed, mens lånporteføljen ser ud til at være i usædvanligt god stand med næsten ingen misligholdte saldi."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_008",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Viser dataene en konsistent positiv korrelation mellem et aktivs 'bogførte værdi' og dets 'samlede ubetalte hovedstol i overskud af dagsværdi' for kategorien Handelsaktiver?",
+    "answer": [
+      [
+        "Nej, en konsistent positiv korrelation vises ikke. Det første sæt handelsaktiver har en højere bogført værdi ($10.108M mod $8.851M) men en lavere samlet ubetalt hovedstol i overskud af dagsværdi ($435M mod $623M). Dette indikerer, at en større porteføljestørrelse ikke nødvendigvis fører til et proportionelt større urealiseret tab i dette datasæt."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_009",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Identificer rækker, der indeholder gentagne eller tilsyneladende redundante datapunkter, og forklar mønsteret.",
+    "answer": [
+      [
+        "Datarundans er til stede i række 3 og 4. I række 3, 'saldo af ikke-forrentede lån...', er værdien for handelsaktiver $2.014M i begge sæt (B3, D3) og $1M for lån i begge sæt (C3, E3). I række 4 gentages værdien $2.014M tre gange for begge sæt handelsaktiver og det første sæt lån (B4, C4, D4), hvilket tyder på enten et dataindtastningsmønster eller en specifik finansiel rapporteringsartefakt."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_010",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "For det datasæt (Sæt 1: kol. B,C eller Sæt 2: kol. D,E) med det højere samlede bogførte beløb, beregn porteføljens samlede 'uudnyttede tabsprocent' (samlet 'ikke-betalt hovedstolsbeløb ud over dagsværdi' divideret med samlet 'bogført beløb').",
+    "answer": [
+      [
+        "8.82%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

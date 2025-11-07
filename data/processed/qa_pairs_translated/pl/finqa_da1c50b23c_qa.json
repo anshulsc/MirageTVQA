@@ -1,0 +1,212 @@
+[
+  {
+    "question_id": "finqa_da1c50b23c_001",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "Jaki typ jednostki ma najwyższą odkupioną wartość nominalną i jaka jest ta wartość?",
+    "answer": [
+      [
+        "class b-2 preferred units",
+        "$ 55.8"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_002",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "Jaka jest łączna liczba jednostek umorzonych dla wszystkich wymienionych typów?",
+    "answer": [
+      [
+        "2271818"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_003",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "Oblicz wartość nominalną na jednostkę dla typu, który obejmował 'darowiznę na cele charytatywne'.",
+    "answer": [
+      [
+        "$10,007.17"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_004",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "Wymień wszystkie typy jednostek, które zostały wykupione wyłącznie za gotówkę i dla których wykupiono ponad 2500 jednostek.",
+    "answer": [
+      [
+        "preferred a units"
+      ],
+      [
+        "class c downreit units"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A3",
+      "B3",
+      "D3",
+      "A5",
+      "B5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_005",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "Jaki procent całkowitej umorzonej wartości nominalnej przypada na wszystkie jednostki klasy 'b' łącznie?",
+    "answer": [
+      [
+        "76.89%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_006",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "open_ended_reasoning",
+    "question": "Który typ jednostek jest najbardziej znaczącym odchyleniem pod względem wartości nominalnej na jednostkę? Uzasadnij swoją odpowiedź obliczonymi wartościami.",
+    "answer": [
+      [
+        "Jednostki 'preferred a units' są najbardziej znaczącym odchyleniem. Ich wartość nominalna na jednostkę wynosi 1,00 USD (2,2 miliona USD / 2 200 000 jednostek), co jest o rzędy wielkości niższe niż w przypadku innych typów. Dla porównania, wartość nominalna na jednostkę dla 'class a preferred units' wynosi 10 000 USD (20,0 miliona USD / 2 000 jednostek), a dla 'class c downreit units' wynosi około 30,74 USD (1,9 miliona USD / 61 804 jednostek). Niezwykle niska wartość jednostki 'preferred a units' czyni ją wyraźnym odchyleniem."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_007",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "Gdyby wartość nominalna odkupionych jednostek typu 'class a preferred units' była o 10% niższa, jaka byłaby nowa całkowita wartość nominalna odkupiona dla wszystkich jednostek (w milionach)?",
+    "answer": [
+      [
+        "$ 102.3"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_008",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "open_ended_reasoning",
+    "question": "Czy dane sugerują korelację między większą liczbą wykupionych jednostek a wyższą łączną wartością nominalną? Uzasadnij swój wniosek.",
+    "answer": [
+      [
+        "Nie, dane nie sugerują wyraźnej korelacji. Chociaż 'jednostki uprzywilejowane klasy b-2' mają stosunkowo dużą liczbę jednostek (5 576) i najwyższą wartość nominalną (55,8 mln USD), typ jednostki z największą liczbą jednostek, 'jednostki uprzywilejowane typu A' (2 200 000), ma niską wartość nominalną (2,2 mln USD). I odwrotnie, 'jednostki uprzywilejowane typu C z prawem do dalszego wykupu' mają drugą co do wielkości liczbę jednostek (61 804), ale najniższą wartość nominalną (1,9 mln USD). Wskazuje to, że wartość nominalna na jednostkę drastycznie się różni między typami, zakłócając wszelką prostą korelację między ilością jednostek a ich wartością całkowitą."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_009",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "open_ended_reasoning",
+    "question": "Która kolumna zawiera dane będące połączeniem dwóch odrębnych kategorii i który wiersz to ilustruje?",
+    "answer": [
+      [
+        "Kolumna 'redemption type' (typ wykupu) zawiera połączone dane. Wartość 'cash/charitable contribution' (gotówka/darowizna charytatywna) w wierszu 4 jest tego przykładem, ponieważ łączy dwie odrębne metody wykupu w jednej komórce."
+      ]
+    ],
+    "evidence_cells": [
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_010",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "Jaka jest średnia wartość nominalna wykupionych jednostek (w milionach) dla typów jednostek, których nazwa zawiera słowo 'preferred'?",
+    "answer": [
+      [
+        "$ 25.6"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

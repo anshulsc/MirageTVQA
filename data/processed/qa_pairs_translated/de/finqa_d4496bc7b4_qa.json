@@ -1,0 +1,219 @@
+[
+  {
+    "question_id": "finqa_d4496bc7b4_001",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Was war die Nettoveränderung bei den Rückstellung für Anlagenstilllegung während 2009, berechnet aus den angegebenen Einzeländerungen?",
+    "answer": [
+      [
+        "137"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_002",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Welche Kategorie von Änderung verzeichnete den größten absoluten Unterschied im Wert zwischen 2008 und 2009?",
+    "answer": [
+      [
+        "held for sale"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_003",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Welchen Prozentsatz der gesamten positiven Anpassungen (eingegangene Verbindlichkeiten, Aufwandssteigerungen und Überarbeitungen) im Jahr 2009 machte 'Überarbeitungen früherer Schätzungen' aus?",
+    "answer": [
+      [
+        "61.39%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_004",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Überprüfen Sie, ob die 'Verbindlichkeiten aus der Rückstellung für Anlagenrückbau zum 31. Dezember 2008' korrekt aus dem Anfangssaldo und den Postenänderungen für dieses Jahr berechnet wurden. Zeigen Sie Ihre Berechnung.",
+    "answer": [
+      [
+        "Ja, der Endsaldo für 2008 ist korrekt berechnet. Die Berechnung lautet: 1134 $ (Start) + 30 $ (eingegangen) - 94 $ (beglichen) + 66 $ (Zinsaufwand) + 24 $ (Überarbeitungen) - 195 $ (zum Verkauf bestimmt) = 965 $, was dem berichteten Wert entspricht."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_005",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Wenn die Anpassung 'Veräußerungsbestand' im Jahr 2008 null gewesen wäre, wie hoch wären die Verbindlichkeiten für die Stilllegung von Anlagen zum Ende des Jahres 2008 gewesen?",
+    "answer": [
+      [
+        "$ 1160"
+      ]
+    ],
+    "evidence_cells": [
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_006",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Analysieren und kontrastieren Sie die Haupttreiber für die Veränderung der gesamten Rückstellungen für Anlagenstilllegungen zwischen 2008 und 2009.",
+    "answer": [
+      [
+        "Im Jahr 2008 sanken die Rückstellungen um 169 Mio. USD, hauptsächlich bedingt durch eine signifikante Reduzierung um 195 Mio. USD bei Vermögenswerten, die zum Verkauf standen ('held for sale'), und 94 Mio. USD an beglichenen Verbindlichkeiten, was die Zusagen von 120 Mio. USD überstieg. Im Gegensatz dazu verzeichnete das Jahr 2009 einen Anstieg von 137 Mio. USD, der überwiegend durch eine hohe positive Überprüfung früherer Schätzungen ('revisions to previous estimates') von 124 Mio. USD getragen wurde, was die 65 Mio. USD an beglichenen Verbindlichkeiten mehr als ausglich."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7",
+      "C1",
+      "C7",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_007",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Welche Finanzkomponente verzeichnete von 2008 bis 2009 einen Anstieg von über 100 Millionen US-Dollar und war damit ein Ausreißer in Bezug auf die Veränderung von Jahr zu Jahr?",
+    "answer": [
+      [
+        "revisions to previous estimates"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_008",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Identifizieren Sie das Jahr, in dem die 'Überarbeitungen früherer Schätzungen' mehr als fünfmal größer waren als die 'inkludierten Akquisitionen aufgenommene Verbindlichkeiten'.",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B5",
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_009",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Gibt es basierend auf den Daten der beiden Jahre ein erkennbares Muster oder eine Beziehung zwischen der anfänglichen Verpflichtung und den 'Zinsaufwendungen' für dieses Jahr?",
+    "answer": [
+      [
+        "Ja, es gibt ein erkennbares Muster. Die 'Zinsaufwendungen' scheinen einen relativ stabilen Prozentsatz des Anfangssaldos auszumachen. Im Jahr 2008 betrugen sie 5,8 % des Anfangssaldos (66 Mio. USD / 1134 Mio. USD) und im Jahr 2009 6,6 % (64 Mio. USD / 965 Mio. USD). Dies deutet darauf hin, dass die Zinsaufwendungen konsequent basierend auf der Eröffnungsverpflichtung berechnet werden, was wahrscheinlich den Zeitwert des Geldes für die langfristige Verbindlichkeit widerspiegelt."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_010",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Wie bestätigt die Tabellenstruktur die Kontinuität des Saldos der Rückstellung für Anlagenstilllegungsverpflichtungen vom Ende des Jahres 2008 bis zum Beginn des Jahres 2009?",
+    "answer": [
+      [
+        "Die Tabelle zeigt die Kontinuität, indem sie zeigt, dass der Wert für 'Rückstellungen für Anlagenstilllegungsverpflichtungen zum 31. Dezember' in der Spalte 2008 (965 $) identisch ist mit dem Wert für 'Rückstellungen für Anlagenstilllegungsverpflichtungen zum 1. Januar' in der Spalte 2009 (965 $). Dies ist eine Standarddarstellung einer buchhalterischen Übertragung, bei der der Endsaldo einer Periode zum Anfangssaldo der nächsten Periode wird."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A7",
+      "B1",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_011",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Wie haben sich die gesamten Verpflichtungen zur Anlagenstilllegung von 2008 bis 2009 verändert?",
+    "answer": [
+      [
+        "Die gesamten Verpflichtungen zur Anlagenstilllegung stiegen von 965 Millionen US-Dollar im Jahr 2008 auf 1.102 Millionen US-Dollar im Jahr 2009"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

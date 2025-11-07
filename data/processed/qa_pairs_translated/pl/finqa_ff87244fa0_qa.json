@@ -1,0 +1,222 @@
+[
+  {
+    "question_id": "finqa_ff87244fa0_001",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Jaka jest łączna suma płatności należnych do 31 grudnia 2012 r. i 31 grudnia 2013 r. we wszystkich zobowiązaniach umownych?",
+    "answer": [
+      [
+        "$ 6219"
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_002",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Jaki procent całkowitego zobowiązania z tytułu 'długu [a]' ma zostać spłacony po 31 grudnia 2016 r.?",
+    "answer": [
+      [
+        "71.68%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "H1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_003",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Które zobowiązanie umowne ma największą płatność wymagalną do 31 grudnia 2012 roku?",
+    "answer": [
+      [
+        "purchase obligations [d]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_004",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Dla zobowiązania umownego z drugą co do wielkości całkowitą kwotą, jaka płatność przypada do zapłaty do 31 grudnia 2014 r.?",
+    "answer": [
+      [
+        "$ 560"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "E4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_005",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "open_ended_reasoning",
+    "question": "Opisz trend płatności dla „wynajmu operacyjnego [b]” w latach 2012–2016.",
+    "answer": [
+      [
+        "Płatności z tytułu „wynajmu operacyjnego [b]” wykazują stały trend spadkowy rok do roku od 2012 do 2016 r., zaczynając od 525 mln USD w 2012 r. i zmniejszając się każdego roku do 347 mln USD w 2016 r."
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_006",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Wymień wszystkie zobowiązania umowne, dla których termin płatności przypada na 31 grudnia 2015 r. i wynosi ponad 300 milionów USD.",
+    "answer": [
+      [
+        "debt [a]"
+      ],
+      [
+        "operating leases [b]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A3",
+      "F3",
+      "A4",
+      "F4",
+      "A5",
+      "F5",
+      "A6",
+      "F6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_007",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Jeśli płatności z tytułu 'zobowiązań z tytułu zakupu [d]' przypadające do końca 2012, 2013 i 2014 roku zostały odroczone i dodane do kwoty należnej 'po 2016 roku', jaka byłaby ta nowa łączna kwota 'po 2016 roku' dla tego zobowiązania?",
+    "answer": [
+      [
+        "$ 4584"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "E4",
+      "H4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_008",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "open_ended_reasoning",
+    "question": "Które zobowiązanie umowne ma płatność w pojedynczym roku w latach 2012-2016, która jest wartością odstającą, znacznie wyższą od płatności w innych latach w tym okresie?",
+    "answer": [
+      [
+        "Kategoria „zobowiązania z tytułu zakupu [d]” wykazuje znaczącą wartość odstającą. Płatność w wysokości 2598 mln USD przypadająca na rok 2012 jest ponad czterokrotnie wyższa od płatności w kolejnym najwyższym roku (568 mln USD w 2013 r.), a płatności znacznie maleją w kolejnych latach, co czyni kwotę z 2012 r. anomalią."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_009",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Która kolumna okresu płatności (od 'płatności należne do 31 grudnia 2012 r.' do 'płatności należne do 31 grudnia pozostałe') zawiera najwięcej brakujących lub nieodpowiednich wpisów płatności, oznaczonych jako '-'?",
+    "answer": [
+      [
+        "payments due by december 31 other"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "E6",
+      "F6",
+      "G6",
+      "H6",
+      "I1",
+      "I2",
+      "I3",
+      "I5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_010",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "open_ended_reasoning",
+    "question": "Biorąc pod uwagę dane, jaka jest zauważalna zależność między wartością 'total' zobowiązania a proporcją tego zobowiązania przypadającą na okres 'po 2016 roku'?",
+    "answer": [
+      [
+        "Ogólnie rzecz biorąc, wydaje się istnieć pozytywna zależność, w której zobowiązania o większej łącznej wartości, takie jak 'zadłużenie [a]' i 'zobowiązania z tytułu umów leasingu operacyjnego [b]', mają tendencję do posiadania znaczącej części płatności zaplanowanych na okres po 2016 roku, co sugeruje, że są to długoterminowe zobowiązania finansowe. Nie jest to jednak reguła uniwersalna, ponieważ 'zobowiązania z tytułu zakupu [d]', mimo że są drugim co do wielkości zobowiązaniem całkowitym, mają stosunkowo niewielką proporcję (około 16,7%) przypadającą na okres po 2016 roku, co wskazuje, że jest to zobowiązanie o krótszym lub średnim terminie."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "H1",
+      "B2",
+      "H2",
+      "B3",
+      "H3",
+      "B4",
+      "H4",
+      "B5",
+      "H5",
+      "B6",
+      "H6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  }
+]

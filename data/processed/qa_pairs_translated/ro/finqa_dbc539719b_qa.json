@@ -1,0 +1,228 @@
+[
+  {
+    "question_id": "finqa_dbc539719b_001",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Dintre statele individuale enumerate, care generează cele mai mari venituri operaționale per client?",
+    "answer": [
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A4",
+      "B4",
+      "D4",
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_002",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Care este numărul total combinat de clienți pentru Illinois, Indiana și California?",
+    "answer": [
+      [
+        "779881"
+      ]
+    ],
+    "evidence_cells": [
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_dbc539719b_003",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Care este procentul cumulat al veniturilor operaționale totale din statul/statele cu cea mai mică populație estimată deservită?",
+    "answer": [
+      [
+        "12.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "F6",
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_004",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Care state au o pondere din numărul total de clienți care este mai mare decât ponderea lor din veniturile operaționale totale?",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "indiana"
+      ],
+      [
+        "west virginia ( b )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "A5",
+      "C5",
+      "E5",
+      "A6",
+      "C6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_005",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Care este raportul dintre procentul total de clienți și procentul total de populație deservită pentru categoria „alte (c)”, rotunjit la două zecimale?",
+    "answer": [
+      [
+        "1.01"
+      ]
+    ],
+    "evidence_cells": [
+      "E8",
+      "G8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_dbc539719b_006",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Dacă veniturile operaționale ale Pennsylvaniei ar crește cu 10%, care ar fi noul venit operațional pentru 'subtotal (primele șapte state)', presupunând că veniturile tuturor celorlalte state rămân neschimbate?",
+    "answer": [
+      [
+        "2388.14"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_007",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Analizați relația dintre numărul de clienți și populația estimată deservită pentru cele șase state individuale listate. Există o corelație pozitivă și ce implică acest lucru?",
+    "answer": [
+      [
+        "Da, există o corelație pozitivă puternică. Pe măsură ce numărul de clienți crește pentru un stat, populația estimată deservită tinde, de asemenea, să crească. De exemplu, Pennsylvania are cel mai mare număr de clienți (666.415) și cea mai mare populație estimată deservită (2,2 milioane), în timp ce West Virginia și California, care au cel mai mic număr de clienți, au și cele mai mici populații estimate deservite. Acest lucru implică faptul că baza de clienți este o componentă directă și proporțională a populației deservite de afacere în aceste regiuni."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_dbc539719b_008",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Calculând populația estimată deservită per client pentru fiecare dintre cele șase state individuale, identificați care stat este cel mai semnificativ outlier și explicați de ce.",
+    "answer": [
+      [
+        "Illinois este cel mai semnificativ outlier. Populația estimată deservită per client pentru fiecare stat este: Pennsylvania (~3.30), Missouri (~3.23), Illinois (~4.17), California (~3.44), Indiana (~4.09) și West Virginia (~3.52). În timp ce majoritatea statelor deservesc între 3.2 și 3.5 persoane per client, Illinois și Indiana sunt considerabil mai ridicate. Illinois are cel mai mare raport, de aproximativ 4.17, indicând că fiecare client din Illinois reprezintă o porțiune mai mare din populația deservită comparativ cu alte state, făcându-l cel mai semnificativ outlier."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_dbc539719b_009",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Verificați dacă procentul veniturilor operaționale totale pentru 'subtotal (primele șapte state)' și 'alte (c)' se adună cu exactitate la procentul afișat pentru 'total afaceri reglementate'.",
+    "answer": [
+      [
+        "Da, suma este corectă. 'Subtotalul (primele șapte state)' reprezintă 87,0% din veniturile operaționale totale, iar categoria 'alte (c)' reprezintă 13,0%. Adăugarea acestor două procente (87,0% + 13,0%) duce la 100,0%, ceea ce corespunde valorii indicate pentru 'total afaceri reglementate'."
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_010",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Care pereche de state, din lista de șase, are un număr combinat de clienți cel mai apropiat de numărul de clienți din Pennsylvania?",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

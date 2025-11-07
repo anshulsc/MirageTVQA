@@ -1,0 +1,199 @@
+[
+  {
+    "question_id": "finqa_dbc539719b_001",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Dalam kalangan negeri yang disenaraikan, manakah yang menjana hasil operasi tertinggi bagi setiap pelanggan?",
+    "answer": [
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A4",
+      "B4",
+      "D4",
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_002",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Berapakah jumlah keseluruhan pelanggan untuk Illinois, Indiana, dan California?",
+    "answer": [
+      [
+        "779881"
+      ]
+    ],
+    "evidence_cells": [
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_dbc539719b_003",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Berapakah peratus gabungan jumlah hasil operasi daripada negeri(negeri) dengan anggaran populasi yang berkhidmat paling rendah?",
+    "answer": [
+      [
+        "12.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "F6",
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_005",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Berapakah nisbah peratus jumlah pelanggan kepada peratus jumlah penduduk yang dihidangkan untuk kategori 'lain ( c )', dibundarkan kepada dua tempat perpuluhan?",
+    "answer": [
+      [
+        "1.01"
+      ]
+    ],
+    "evidence_cells": [
+      "E8",
+      "G8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_dbc539719b_006",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Jika pendapatan operasi Pennsylvania meningkat sebanyak 10%, berapakah pendapatan operasi baharu untuk 'subtotal (tujuh negeri teratas)', dengan andaian semua negeri lain kekal tidak berubah?",
+    "answer": [
+      [
+        "2388.14"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_007",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Analisiskan perkaitan antara bilangan pelanggan dan anggaran populasi yang dilayan bagi enam negeri individu yang disenaraikan. Adakah terdapat korelasi positif, dan apakah implikasinya?",
+    "answer": [
+      [
+        "Ya, terdapat korelasi positif yang kukuh. Apabila bilangan pelanggan meningkat untuk sesebuah negeri, anggaran populasi yang dilayan juga cenderung meningkat. Contohnya, Pennsylvania mempunyai bilangan pelanggan tertinggi (666,415) dan anggaran populasi terbesar yang dilayan (2.2 juta), manakala Virginia Barat dan California, yang mempunyai jumlah pelanggan terendah, juga mempunyai anggaran populasi terkecil yang dilayan. Ini membayangkan bahawa pangkalan pelanggan adalah komponen langsung dan berkadar untuk populasi yang dilayan oleh perniagaan di kawasan ini."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_dbc539719b_008",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Dengan mengira anggaran populasi yang dilayan bagi setiap pelanggan untuk setiap enam negeri individu, kenal pasti negeri yang paling ketara berbeza dan terangkan mengapa.",
+    "answer": [
+      [
+        "Illinois ialah pemboleh ubah paling ketara. Anggaran populasi yang dilayan bagi setiap pelanggan untuk setiap negeri ialah: Pennsylvania (~3.30), Missouri (~3.23), Illinois (~4.17), California (~3.44), Indiana (~4.09), dan West Virginia (~3.52). Walaupun kebanyakan negeri melayani antara 3.2 hingga 3.5 orang setiap pelanggan, Illinois dan Indiana nyata lebih tinggi. Illinois mempunyai nisbah tertinggi pada kira-kira 4.17, menunjukkan bahawa setiap pelanggan di Illinois mewakili bahagian yang lebih besar daripada populasi yang dilayan berbanding negeri lain, menjadikannya pemboleh ubah yang paling ketara."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_dbc539719b_009",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Sahkan sama ada peratusan keseluruhan hasil operasi untuk 'subtotal ( tujuh negeri teratas )' dan 'lain-lain ( c )' tepat dijumlahkan kepada peratusan yang ditunjukkan untuk 'jumlah perniagaan terkawal'.",
+    "answer": [
+      [
+        "Ya, jumlahnya adalah tepat. 'Subtotal ( tujuh negeri teratas )' menyumbang 87.0% daripada jumlah hasil operasi, dan kategori 'lain-lain ( c )' menyumbang 13.0%. Menjumlahkan kedua-dua peratusan ini (87.0% + 13.0%) menghasilkan 100.0%, yang sepadan dengan nilai yang diberikan untuk 'jumlah perniagaan terkawal'."
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_010",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Pasangan negeri manakah, daripada senarai enam, mempunyai gabungan bilangan pelanggan yang paling hampir dengan bilangan pelanggan di Pennsylvania?",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

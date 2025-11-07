@@ -1,0 +1,211 @@
+[
+  {
+    "question_id": "finqa_dbc539719b_001",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Sa mga nakalistang indibidwal na estado, alin ang nakakakuha ng pinakamataas na kita sa pagpapatakbo kada customer?",
+    "answer": [
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A4",
+      "B4",
+      "D4",
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_002",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Ano ang pinagsamang kabuuang bilang ng mga customer para sa Illinois, Indiana, at California?",
+    "answer": [
+      [
+        "779881"
+      ]
+    ],
+    "evidence_cells": [
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_dbc539719b_003",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Ano ang pinagsamang porsyento ng kabuuang kita sa pagpapatakbo mula sa (mga) estado na may pinakamababang tinantyang populasyong naserbisyuhan?",
+    "answer": [
+      [
+        "12.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "F6",
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_004",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Aling mga estado ang may bahagi ng kabuuang bilang ng mga customer na mas malaki kaysa sa kanilang bahagi ng kabuuang kita sa operasyon?",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "indiana"
+      ],
+      [
+        "west virginia ( b )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "A5",
+      "C5",
+      "E5",
+      "A6",
+      "C6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_005",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Ano ang ratio ng porsyento ng kabuuang bilang ng mga customer sa porsyento ng kabuuang populasyon na pinagsilbihan para sa kategoryang 'other ( c )', na naka-round off sa dalawang decimal place?",
+    "answer": [
+      [
+        "1.01"
+      ]
+    ],
+    "evidence_cells": [
+      "E8",
+      "G8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_dbc539719b_006",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Kung ang kita sa operasyon ng Pennsylvania ay tataas ng 10%, ano ang magiging bagong kita sa operasyon para sa 'subtotal ( nangungunang pitong estado )', ipinagpapalagay na ang kita ng lahat ng iba pang estado ay mananatiling hindi nagbabago?",
+    "answer": [
+      [
+        "2388.14"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_007",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Suriin ang ugnayan sa pagitan ng bilang ng mga customer at ang tinatayang populasyon na pinaglilingkuran para sa anim na indibidwal na estado na nakalista. Mayroon bang positibong korelasyon, at ano ang ipinahihiwatig nito?",
+    "answer": [
+      [
+        "Oo, mayroong matibay na positibong korelasyon. Habang dumarami ang bilang ng mga customer para sa isang estado, tumataas din ang tinatayang populasyon na pinaglilingkuran. Halimbawa, ang Pennsylvania ay may pinakamataas na bilang ng mga customer (666,415) at ang pinakamalaking tinatayang populasyon na pinaglilingkuran (2.2 milyon), habang ang West Virginia at California, na may pinakamababang bilang ng mga customer, ay mayroon ding pinakamaliit na tinatayang populasyon na pinaglilingkuran. Ipinahihiwatig nito na ang base ng customer ay isang direkta at proporsyonal na bahagi ng populasyon na pinaglilingkuran ng negosyo sa mga rehiyong ito."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_dbc539719b_008",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Sa pamamagitan ng pagkalkula ng tinatayang populasyon na pinaglilingkuran bawat customer para sa bawat isa sa anim na indibidwal na estado, tukuyin kung aling estado ang pinakamahalagang outlier at ipaliwanag kung bakit.",
+    "answer": [
+      [
+        "Ang Illinois ang pinakamahalagang outlier. Ang tinatayang populasyon na pinaglilingkuran bawat customer para sa bawat estado ay: Pennsylvania (~3.30), Missouri (~3.23), Illinois (~4.17), California (~3.44), Indiana (~4.09), at West Virginia (~3.52). Habang ang karamihan sa mga estado ay naglilingkod sa pagitan ng 3.2 at 3.5 katao bawat customer, ang Illinois at Indiana ay kapansin-pansing mas mataas. Ang Illinois ang may pinakamataas na ratio sa humigit-kumulang 4.17, na nagpapahiwatig na ang bawat customer sa Illinois ay kumakatawan sa mas malaking bahagi ng populasyong pinaglilingkuran kumpara sa ibang mga estado, na ginagawa itong pinakamahalagang outlier."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_dbc539719b_010",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Aling pares ng mga estado, mula sa listahan ng anim, ang may pinagsamang bilang ng mga customer na pinakamalapit sa bilang ng mga customer sa Pennsylvania?",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

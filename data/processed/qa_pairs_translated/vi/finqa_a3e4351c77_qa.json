@@ -1,0 +1,205 @@
+[
+  {
+    "question_id": "finqa_a3e4351c77_001",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Loại công cụ nợ cụ thể nào, không bao gồm tổng cộng và các khoản điều chỉnh, có giá trị cao nhất trong cả hai kỳ báo cáo?",
+    "answer": [
+      [
+        "international marine terminals-plaquemines la revenue bonds due march 15 2025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_002",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Giá trị tổng cộng của tất cả các trái phiếu doanh thu có thể xác định được liệt kê cho kỳ trong cột dữ liệu thứ hai là bao nhiêu?",
+    "answer": [
+      [
+        "63.7"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_003",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Sự thay đổi tuyệt đối của 'các khoản nợ dài hạn đến hạn trả' giữa hai kỳ đã vượt quá sự thay đổi tuyệt đối của 'chiết khấu nợ chưa được phân bổ' bao nhiêu?",
+    "answer": [
+      [
+        "665.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_004",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Hãy mô tả xu hướng của 'tổng nợ dài hạn' giữa hai kỳ được hiển thị và giải thích ý nghĩa của sự thay đổi này.",
+    "answer": [
+      [
+        "Tổng nợ dài hạn đã tăng 275,3 USD, từ 10007,5 USD trong kỳ được hiển thị ở cột C lên 10282,8 USD trong kỳ được hiển thị ở cột B. Điều này cho thấy các nghĩa vụ nợ dài hạn tổng thể của thực thể đã tăng lên trong khoảng thời gian này, cho thấy nó có khả năng đã phát sinh nhiều khoản nợ mới hơn là đã trả nợ."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_005",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Xác định tất cả các mục, không bao gồm tổng cộng, được biểu thị bằng giá trị âm trong cột dữ liệu thứ hai.",
+    "answer": [
+      [
+        "unamortized debt discount on long-term debt"
+      ],
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_006",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Dựa trên tổng nợ dài hạn cho kỳ trong cột B, phần nào được phân loại là 'các khoản đáo hạn hiện tại của nợ dài hạn'? Sử dụng giá trị tuyệt đối cho phép tính và làm tròn đến hai chữ số thập phân.",
+    "answer": [
+      [
+        "12.29%"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_007",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Nếu 'chiết khấu nợ chưa được phân bổ' trong cột dữ liệu thứ hai (cột B) được loại bỏ (tức là đặt về 0), thì 'tổng nợ dài hạn 2013 kmp' cho giai đoạn đó sẽ là bao nhiêu?",
+    "answer": [
+      [
+        "$ 10303.1"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_008",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Có mối quan hệ rõ ràng nào giữa sự thay đổi của 'các khoản nợ đến hạn trong kỳ' và sự thay đổi của 'tổng nợ dài hạn' giữa hai kỳ không?",
+    "answer": [
+      [
+        "Có, dường như có một mối quan hệ nghịch đảo trong sự biến động của chúng. Trong khi tổng nợ dài hạn tăng 275,3 đô la (từ 10007,5 đô la lên 10282,8 đô la), thì giá trị tuyệt đối của 'các khoản nợ đến hạn trong kỳ' đã giảm đáng kể (từ giá trị tuyệt đối 1263,3 xuống còn 596,6). Điều này cho thấy rằng trong khi công ty gánh thêm nợ tổng thể, họ đồng thời giảm bớt phần nợ đến hạn trong tương lai gần."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_009",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Hàng nào trong tập dữ liệu dường như là sự tổng hợp của các hàng khác, và bằng chứng nào ủng hộ kết luận này?",
+    "answer": [
+      [
+        "Hàng có nhãn 'total long-term debt 2013 kmp' là một sự tổng hợp. Bằng chứng chính là việc sử dụng rõ ràng từ 'total' (tổng) trong mô tả của nó. Ngoài ra, giá trị của nó được trình bày với ký hiệu tiền tệ ('$'), khác biệt với các hàng khác, cho thấy đây là một con số tài chính cuối cùng, tóm tắt."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_010",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Mục nào cho thấy sự thay đổi đáng kể nhất về giá trị tuyệt đối giữa hai kỳ, làm cho nó trở thành một trường hợp ngoại lệ về tài chính về mặt biến động?",
+    "answer": [
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_011",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Xem xét tổng nợ dài hạn và chiết khấu nợ chưa phân bổ, mức tăng hiệu quả của nợ dài hạn từ năm 2012 đến năm 2013 là bao nhiêu?",
+    "answer": [
+      [
+        "Tổng nợ dài hạn đã tăng từ 10.007,5 triệu USD vào năm 2012 lên 10.282,8 triệu USD vào năm 2013. Xem xét chiết khấu nợ chưa phân bổ đã thay đổi từ -21,2 vào năm 2012 lên -20,3 vào năm 2013, mức tăng hiệu quả của nợ là 276,8 triệu USD."
+      ]
+    ],
+    "evidence_cells": [
+      "F6",
+      "G6",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

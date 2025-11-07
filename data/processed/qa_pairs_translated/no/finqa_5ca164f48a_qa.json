@@ -1,0 +1,193 @@
+[
+  {
+    "question_id": "finqa_5ca164f48a_001",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "Med hvor mange prosentpoeng sank «netto nedskrivninger til gjennomsnittlige lån» for forbrukslån fra 2013 til 2014?",
+    "answer": [
+      [
+        "0.45"
+      ]
+    ],
+    "evidence_cells": [
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_002",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "Hva var den samlede totalen, i millioner dollar, for 'avsetning for kredittap' og absoluttverdien av 'annet' i 2013?",
+    "answer": [
+      [
+        "644"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_003",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "I året med det høyere forholdstallet for 'avsetning for tap på lån og leasing til totale lån', hva var verdien av 'netto nedskrivninger på kommersielle lån'?",
+    "answer": [
+      [
+        "$ -249 ( 249 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_004",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyser trenden fra år til år for 'totale netto nedskrivninger'. Hva antyder denne trenden om institusjonens kredittrisiko?",
+    "answer": [
+      [
+        "De 'totale netto nedskrivningene' sank betydelig fra 1077 millioner dollar i 2013 til 531 millioner dollar i 2014, en reduksjon på over 50 %. Denne nedadgående trenden antyder sterkt en forbedring i kvaliteten på låneporteføljen og en mer effektiv kredittrisikostyring i denne perioden."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_005",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "List opp netto nedskrivningskategoriene hvor absoluttverdien oversteg 500 millioner dollar i 2013.",
+    "answer": [
+      [
+        "total net charge-offs ( a )"
+      ],
+      [
+        "consumer lending net charge-offs ( a )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A9",
+      "C9",
+      "A10",
+      "C10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_006",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "Hvilken prosentandel av de 'totale netto nedskrivningene' i 2014 kunne tilskrives 'forbrukslån'?",
+    "answer": [
+      [
+        "89.64%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_007",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "Hvis 'avsetning for kredittap' i 2014 hadde vært 20 % høyere, hva ville den nye '31. desember'-saldoen ha vært, forutsatt at alle andre poster forble uendret?",
+    "answer": [
+      [
+        "$ 3385.6 million"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_008",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "open_ended_reasoning",
+    "question": "Basert på tabellen, hva er forholdet mellom 'totale nettonedskrivninger' og 'avsetning for kredittap' mellom 2013 og 2014?",
+    "answer": [
+      [
+        "Det er en sterk positiv korrelasjon. I 2013 samsvarte høye nettonedskrivninger ($1077M) med en høy avsetning ($643M). I 2014, da nettonedskrivningene falt betydelig (til $531M), sank også avsetningen for kredittap (til $273M). Dette indikerer at avsetningen blir justert i samsvar med nivået på faktiske lånetap."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_009",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "Finn den finansielle metrikken i tabellen som har manglende verdier for både 2014 og 2013.",
+    "answer": [
+      [
+        "net charge-offs to average loans ( for the year ended )"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "C12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_010",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvilken utlånskategori, kommersiell eller forbruker, viste en mer betydelig relativ forbedring i sitt forholdstall for 'netto nedskrivninger til gjennomsnittlige lån' fra 2013 til 2014?",
+    "answer": [
+      [
+        "Kommersiell utlånsvirksomhet viste en mer betydelig relativ forbedring. Forholdstallet falt fra 0.22% til 0.04%, en nedgang på 81.8% fra 2013-nivået. Derimot falt forholdstallet for forbrukerutlån fra 1.07 til 0.62, en mindre relativ nedgang på 42.1%. Den dramatiske prosentvise reduksjonen i forholdstallet for kommersiell utlånsvirksomhet gjør det til et uteligger når det gjelder resultatforbedring."
+      ]
+    ],
+    "evidence_cells": [
+      "B13",
+      "C13",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_011",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "Hvor mye minsket de totale nettoavskrivningene (i millioner) fra 2013 til 2014?",
+    "answer": [
+      [
+        "$546"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "B11",
+      "C11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,219 @@
+[
+  {
+    "question_id": "finqa_d4496bc7b4_001",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Hvad var nettoændringen i forpligtelser til fjernelse af aktiver i løbet af 2009, beregnet ud fra de specificerede ændringer?",
+    "answer": [
+      [
+        "137"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_002",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Hvilken kategori af ændring oplevede den største absolutte forskel i værdi mellem 2008 og 2009?",
+    "answer": [
+      [
+        "held for sale"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_003",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "I 2009, hvilken procentdel af de samlede positive justeringer (påløbne forpligtelser, tilskrivningsomkostninger og revisioner) blev henført til 'revisioner af tidligere skøn'?",
+    "answer": [
+      [
+        "61.39%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_004",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Bekræft, om 'forpligtelser til aktiveresfald pr. 31. december 2008' er korrekt beregnet ud fra startsaldoen og de specificerede ændringer for det pågældende år. Vis din beregning.",
+    "answer": [
+      [
+        "Ja, slutbalancen for 2008 er korrekt beregnet. Beregningen er: $1134 (start) + $30 (pådraget) - $94 (afviklet) + $66 (akkretion) + $24 (revisioner) - $195 (sat til salg) = $965, hvilket stemmer overens med den rapporterede værdi."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_005",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Hvis 'solgt' justeringen i 2008 havde været nul, hvad ville forpligtelserne til aktivopgørelse have været ved udgangen af 2008?",
+    "answer": [
+      [
+        "$ 1160"
+      ]
+    ],
+    "evidence_cells": [
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_006",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyser og sammenlign de primære årsager til ændringen i samlede forpligtelser til aktivafvikling mellem 2008 og 2009.",
+    "answer": [
+      [
+        "I 2008 faldt forpligtelserne med 169 millioner dollars, primært drevet af en betydelig reduktion på 195 millioner dollars fra aktiver 'til salg' og 94 millioner dollars i afviklede forpligtelser, hvilket opvejede de 120 millioner dollars i tilgang. I modsætning hertil oplevede 2009 en stigning på 137 millioner dollars, overvældende drevet af 'revisioner af tidligere estimater' på 124 millioner dollars, hvilket mere end kompenserede for de 65 millioner dollars i afviklede forpligtelser."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7",
+      "C1",
+      "C7",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_007",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Hvilken finansiel komponent steg med over 100 millioner dollars fra 2008 til 2009, hvilket gjorde den til en outlier med hensyn til års-til-år ændring?",
+    "answer": [
+      [
+        "revisions to previous estimates"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_008",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Identificer året, hvor 'revisioner af tidligere estimater' var mere end fem gange større end 'pådragne forpligtelser inklusive opkøb'.",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B5",
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_009",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Baseret på de to års data, er der et observerbart mønster eller forhold mellem den indledende forpligtelse og 'akkretionsomkostningen' for det pågældende år?",
+    "answer": [
+      [
+        "Ja, der er et observerbart mønster. 'Akkretionsomkostningen' ser ud til at være en relativt stabil procentdel af startbalancen. I 2008 udgjorde den 5,8 % af startbalancen (66 mio. USD / 1134 mio. USD), og i 2009 udgjorde den 6,6 % (64 mio. USD / 965 mio. USD). Dette tyder på, at akkretionsomkostningen konsekvent beregnes baseret på den indledende forpligtelse, sandsynligvis afspejlende pengenes tidsværdi på den langsigtede forpligtelse."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_010",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvordan bekræfter tabellens struktur kontinuiteten af balancen for forpligtelser til aktivophør fra udgangen af 2008 til starten af 2009?",
+    "answer": [
+      [
+        "Tabellen demonstrerer kontinuitet ved at vise, at værdien for 'forpligtelser til aktivophør pr. 31. december' i 2008-kolonnen (965 USD) er identisk med værdien for 'forpligtelser til aktivophør pr. 1. januar' i 2009-kolonnen (965 USD). Dette er en standard regnskabsmæssig 'roll-forward' præsentation, hvor slutbalancen for én periode bliver åbningsbalancen for den næste."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A7",
+      "B1",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_011",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvordan ændrede de samlede forpligtelser til aktiveres afvikling sig fra 2008 til 2009?",
+    "answer": [
+      [
+        "De samlede forpligtelser til aktiveres afvikling steg fra $965 millioner i 2008 til $1.102 millioner i 2009"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

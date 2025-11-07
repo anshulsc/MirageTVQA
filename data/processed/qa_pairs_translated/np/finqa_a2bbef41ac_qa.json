@@ -1,0 +1,189 @@
+[
+  {
+    "question_id": "finqa_a2bbef41ac_001",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "डिसेम्बर 31, 2007 मा सम्पत्ति ('लगानी' र 'अन्य सम्पत्ति') को कुल मूल्य कति थियो?",
+    "answer": [
+      [
+        "3254"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_002",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "'लगानी' वा 'अन्य सम्पत्ति' मध्ये कसको 'वास्तविक र अवास्तव नाफा / (घाटा) खुद' मा बढी निरपेक्ष घाटा भयो?",
+    "answer": [
+      [
+        "investments"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_003",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "डिसेम्बर 31, 2008 मा 'लगानी' को क्लोजिङ ब्यालेन्स यसको सुरुवाती ब्यालेन्स र त्यसपछिका कारोबारहरूसँग मिल्छ कि मिल्दैन जाँच गर्नुहोस्। आफ्नो गणना देखाउनुहोस्।",
+    "answer": [
+      [
+        "हो, ब्यालेन्स मिल्छ। गणना यस प्रकार छ: $1240 (सुरुवाती ब्यालेन्स) - $409 (लाभ/हानि) + $11 (खरिद/बिक्री) - $29 (नेट ट्रान्सफर) = $813, जुन रिपोर्ट गरिएको क्लोजिङ ब्यालेन्ससँग मिल्छ।"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_004",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "डिसेम्बर 31, 2007 देखि डिसेम्बर 31, 2008 सम्मको सम्पूर्ण अवधिको लागि सम्पत्ति मूल्यमा कुल खुद परिवर्तन कति थियो?",
+    "answer": [
+      [
+        "-2377"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_005",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "'नेट ट्रान्सफर इन एन्ड/अर आउट अफ लेभल ३' ले सम्पत्तिको मूल्यमा कुन सम्पत्ति वर्गका लागि सकारात्मक योगदान गर्‍यो?",
+    "answer": [
+      [
+        "other assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_006",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "'लगानी' बाट 'कमाईमा समावेश गरिएको अवधिको कुल खुद (घाटा)' को कति अनुपात थियो?",
+    "answer": [
+      [
+        "95.54%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_007",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "यदि 'अन्य सम्पत्ति'का लागि 'साRealized and unrealized gains / (losses) net' $-16 को सट्टामा शून्य भएको भए, डिसेम्बर 31, 2008 मा 'अन्य सम्पत्ति'को नयाँ अन्तिम मौज्दात कति हुने थियो?",
+    "answer": [
+      [
+        "80"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_008",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "'लगानी' को डाटा अनुसार, 'साRealized and unrealized gains / (losses) net' र 'total net (losses) ... relating to assets still held at the reporting date' बीच के सम्बन्ध छ?",
+    "answer": [
+      [
+        "एउटा बलियो, प्रत्यक्ष सम्बन्ध छ। 'Total net (losses) ... relating to assets still held' ($-366) ले कुल 'realized and unrealized gains / (losses) net' ($-409) को ८९.५% हिस्सा ओगटेको छ। यसले सङ्केत गर्दछ कि लगानीको लागि अवधिको खुद नोक्सानीको अधिकांश हिस्सा अवास्तविक थियो र रिपोर्टिङ अवधिको अन्त्यसम्ममा बिक्री नभएका सम्पत्तिहरूसँग सम्बन्धित थियो।"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_009",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "'-409 (409)' जस्ता नकारात्मक मानहरूका लागि प्रयोग गरिएको डेटा ढाँचाले कुन लेखा अधिवेशनको सुझाव दिन्छ?",
+    "answer": [
+      [
+        "नकारात्मक संख्यालाई कोष्ठकमा निरपेक्ष मान देखाउने ढाँचा घाटा, खर्च वा काउन्टर-एसेट मानहरू जस्ता नकारात्मक वित्तीय तथ्याङ्कहरूलाई स्पष्ट र जोडदार रूपमा सङ्केत गर्नको लागि एक सामान्य लेखा अधिवेशन हो।"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_010",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "अवधिको समयमा संयुक्त सम्पत्ति मूल्यमा सबैभन्दा ठूलो एकल नकारात्मक प्रभाव कुन लाइनले प्रतिनिधित्व गर्छ?",
+    "answer": [
+      [
+        "realized and unrealized gains / ( losses ) net"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_011",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "२००७ देखि २००८ सम्म लगानी कतिले घट्यो?",
+    "answer": [
+      [
+        "$427"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A5",
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

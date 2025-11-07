@@ -1,0 +1,214 @@
+[
+  {
+    "question_id": "finqa_bc4731cd2f_001",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Hvad var de samlede driftsomkostninger, i millioner af dollars, for de tre år kombineret (2008, 2009, 2010)?",
+    "answer": [
+      [
+        "32101"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_002",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Hvilken finansiel metrik oplevede den største procentvise stigning fra 2008 til 2009?",
+    "answer": [
+      [
+        "net credit losses"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_003",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "I hvilket år var der den højeste 'totalindtægter netto for renteudgifter', hvad var den tilsvarende 'netto (tab)'?",
+    "answer": [
+      [
+        "$ -8369 ( 8369 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "D14"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_004",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv tendensen for 'rentefrie indtægter' fra 2008 til 2010.",
+    "answer": [
+      [
+        "De 'rentefrie indtægter' viser en konstant og markant faldende tendens over treårsperioden. De startede på 6.362 millioner dollars i 2008, faldt med 25% til 4.770 millioner dollars i 2009, og oplevede derefter et endnu mere dramatisk fald på 58% til 1.995 millioner dollars i 2010."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_005",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Angiv alle finansielle kategorier, hvor den absolutte værdi af tabet eller udgiften faldt i 2010 sammenlignet med 2009.",
+    "answer": [
+      [
+        "total operating expenses"
+      ],
+      [
+        "net credit losses"
+      ],
+      [
+        "provision for benefits and claims"
+      ],
+      [
+        "provisions for credit losses and for benefits and claims"
+      ],
+      [
+        "( loss ) from continuing operations before taxes"
+      ],
+      [
+        "( loss ) from continuing operations"
+      ],
+      [
+        "net ( loss )"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A7",
+      "B7",
+      "C7",
+      "A9",
+      "B9",
+      "C9",
+      "A10",
+      "B10",
+      "C10",
+      "A12",
+      "B12",
+      "C12",
+      "A14",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_006",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Hvad var forholdet mellem 'totale driftsomkostninger' og 'samlede indtægter fratrukket renteudgifter' i 2010? Udtryk dit svar som en procentdel afrundet til to decimaler.",
+    "answer": [
+      [
+        "50.95%"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_007",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Hvis 'kreditsatspuljebygning (frigørelse)' i 2010 havde været en bygning på 1000 mio. dollars i stedet for en frigørelse på 1771 mio. dollars, hvad ville de nye 'hensættelser til kredittab og til ydelser og krav' have været for det pågældende år?",
+    "answer": [
+      [
+        "$ 18815 million"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6",
+      "B7",
+      "B9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_008",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "open_ended_reasoning",
+    "question": "Er der et konsekvent forhold mellem den årlige ændring i 'gennemsnitlige aktiver' og den årlige ændring i 'nettorrenteindtægter'?",
+    "answer": [
+      [
+        "Nej, der er ikke et konsekvent forhold. Fra 2008 til 2009 faldt gennemsnitlige aktiver med 16%, og nettorrenteindtægterne faldt også med 24%. Dette antyder en mulig positiv korrelation. Fra 2009 til 2010 faldt gennemsnitlige aktiver imidlertid igen med 8%, men denne gang steg nettorrenteindtægterne med 6%, hvilket brød det tidligere mønster."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A15",
+      "D15",
+      "E15"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_009",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvilken rækkevaredel har en ikke-numerisk, ikke-procentvis ændringsværdi på 'nm' for perioden 2010 vs. 2009, og hvorfor er dette sandsynligvis tilfældet?",
+    "answer": [
+      [
+        "\"credit reserve build ( release )\" ( hensættelse til kreditreserver ( frigørelse ) ) har \"nm\" (ikke meningsfuldt) for sin ændring fra 2010 til 2009. Dette skyldes sandsynligvis, at værdien ændrede sig fra et positivt tal ( $5799 mio. opbygning) i 2009 til et negativt tal (-$1771 mio. frigørelse) i 2010, og beregning af en procentvis ændring på tværs af et fortegnsskifte (positiv til negativ) er matematisk udefineret eller betragtes som ikke meningsfuld i finansiel rapportering."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_010",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Hvilken finansiel metrik viser den mest dramatiske negative vending mellem de to perioder med års-til-års ændring (dvs. den havde en positiv eller lille negativ ændring fra 2008-2009, men en stor negativ ændring fra 2009-2010)?",
+    "answer": [
+      [
+        "non-interest revenue"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

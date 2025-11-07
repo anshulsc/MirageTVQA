@@ -1,0 +1,222 @@
+[
+  {
+    "question_id": "finqa_ff87244fa0_001",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Qual é o total combinado de pagamentos devidos até 31 de dezembro de 2012 e 31 de dezembro de 2013, em todas as obrigações contratuais?",
+    "answer": [
+      [
+        "$ 6219"
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_002",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Qual porcentagem da obrigação total de 'dívida [a]' está programada para ser paga após 31 de dezembro de 2016?",
+    "answer": [
+      [
+        "71.68%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "H1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_003",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Qual obrigação contratual tem o maior pagamento devido até 31 de dezembro de 2012?",
+    "answer": [
+      [
+        "purchase obligations [d]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_004",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Para a obrigação contratual com o segundo maior valor total, qual é o pagamento devido até 31 de dezembro de 2014?",
+    "answer": [
+      [
+        "$ 560"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "E4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_005",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "open_ended_reasoning",
+    "question": "Descreva a tendência de pagamento para 'arrendamentos operacionais [b]' nos anos de 2012 a 2016.",
+    "answer": [
+      [
+        "Os pagamentos para 'arrendamentos operacionais [b]' mostram uma tendência consistente de declínio ano a ano de 2012 a 2016, começando em US$ 525 milhões em 2012 e diminuindo a cada ano para US$ 347 milhões em 2016."
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_006",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Liste todas as obrigações contratuais que têm pagamento previsto até 31 de dezembro de 2015, de mais de US$ 300 milhões.",
+    "answer": [
+      [
+        "debt [a]"
+      ],
+      [
+        "operating leases [b]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A3",
+      "F3",
+      "A4",
+      "F4",
+      "A5",
+      "F5",
+      "A6",
+      "F6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_007",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Se os pagamentos de 'obrigações de compra [d]' com vencimento até o final de 2012, 2013 e 2014 fossem todos adiados e adicionados ao valor devido 'após 2016', qual seria o novo total 'após 2016' para essa obrigação?",
+    "answer": [
+      [
+        "$ 4584"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "E4",
+      "H4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_008",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "open_ended_reasoning",
+    "question": "Qual obrigação contratual tem um pagamento em um único ano entre 2012 e 2016 que é um valor atípico, sendo significativamente mais alto do que seus pagamentos nos outros anos dentro desse período?",
+    "answer": [
+      [
+        "A categoria 'obrigações de compra [d]' mostra um valor atípico significativo. O pagamento de US$ 2598 milhões com vencimento em 2012 é mais de quatro vezes superior ao pagamento no ano seguinte mais alto (US$ 568 milhões em 2013), e os pagamentos diminuem substancialmente nos anos subsequentes, tornando o valor de 2012 uma anomalia."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_009",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Qual coluna de período de pagamento (de 'pagamentos devidos até 31 de dezembro de 2012' a 'pagamentos devidos até 31 de dezembro outros') contém o maior número de entradas de pagamento ausentes ou não aplicáveis, denotadas por '-'?",
+    "answer": [
+      [
+        "payments due by december 31 other"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "E6",
+      "F6",
+      "G6",
+      "H6",
+      "I1",
+      "I2",
+      "I3",
+      "I5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_010",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "open_ended_reasoning",
+    "question": "Com base nos dados, qual é a relação aparente entre o valor 'total' de uma obrigação e a proporção dessa obrigação devida 'após 2016'?",
+    "answer": [
+      [
+        "Geralmente, parece haver uma relação positiva onde obrigações com um valor total maior, como 'dívida [a]' e 'arrendamentos operacionais [b]', tendem a ter uma porção significativa de seus pagamentos agendados para após 2016, sugerindo que estes são compromissos financeiros de longo prazo. No entanto, esta não é uma regra universal, pois as 'obrigações de compra [d]', apesar de serem a segunda maior obrigação total, têm uma proporção comparativamente pequena (cerca de 16,7%) devida após 2016, indicando que é um compromisso mais de curto a médio prazo."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "H1",
+      "B2",
+      "H2",
+      "B3",
+      "H3",
+      "B4",
+      "H4",
+      "B5",
+      "H5",
+      "B6",
+      "H6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  }
+]

@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_f88511c4f2_001",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Wie hoch war der Netto-Wert aller Transaktionsänderungen (ohne Anfangs- und Endsalden sowie den anomalen Wert 'Deconsolidation') bei den Rückstellungen für Anlagenstilllegungen im Jahr 2008?",
+    "answer": [
+      [
+        "-169"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_002",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Welches Jahr verzeichnete einen größeren Rückgang der Verbindlichkeiten aus 'abgerechneten Verbindlichkeiten'?",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_003",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Um wie viel stieg die 'Accretion Expense' von 2007 bis 2008?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_004",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Identifizieren Sie den Posten, der 2008 eine Erhöhung der Verbindlichkeiten darstellte, aber 2007 eine Verringerung.",
+    "answer": [
+      [
+        "revisions to previous estimates"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_005",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Was ist das Ergebnis, wenn man die Summe der im Jahr 2007 aufgelaufenen Verbindlichkeiten und der Aufwandszuführung von der Anfangssaldo des Jahres 2008 abzieht?",
+    "answer": [
+      [
+        "1013"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_006",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Stellen die 'anfallenden Verbindlichkeiten' im Jahr 2007 einen Prozentsatz des kombinierten Gesamtbetrags der 'Aufwandskosten' aus den Jahren 2007 und 2008 dar?",
+    "answer": [
+      [
+        "47.24%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_007",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Wenn die 'eingegangenen Verbindlichkeiten' im Jahr 2008 50% höher gewesen wären, wie hoch wäre dann die neue Summe aus 'eingegangenen Verbindlichkeiten' und 'beglichenen Verbindlichkeiten' für dieses Jahr gewesen?",
+    "answer": [
+      [
+        "-49"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_008",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "Was ist die logische Beziehung zwischen dem Endsaldo für 2007 und dem Anfangssaldo für 2008, basierend auf der Struktur und den Werten der Tabelle?",
+    "answer": [
+      [
+        "Der Endsaldo für 2007 (1134 USD) ist identisch mit dem Anfangssaldo für 2008 (1134 USD). Dies zeigt die übliche buchhalterische Praxis, bei der der Abschlusssaldo einer Periode zum Eröffnungssaldo der folgenden aufeinanderfolgenden Periode wird."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_009",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "Wie werden negative Finanzwerte, wie z. B. 'eingegangene Verbindlichkeiten', in der Tabelle dargestellt?",
+    "answer": [
+      [
+        "Negative Werte werden durch eine doppelte Notation dargestellt: ein führendes Minuszeichen gefolgt von der Zahl und auch der absolute Wert dieser Zahl in Klammern. Zum Beispiel: '-94 (94)'."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "C5",
+      "A6",
+      "B6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_010",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifizieren Sie die beiden Zeilen, die den Wert '2013' enthalten, und erklären Sie, warum dieser Wert im Kontext der Tabelle als Ausreißer erscheint.",
+    "answer": [
+      [
+        "Der Wert '2013' erscheint für 'zum Verkauf stehende Vermögenswerte (a)' im Jahr 2007 und für 'Dekonsolidierung von egholdings' im Jahr 2008. Dieser Wert ist ein Ausreißer, da er um eine Größenordnung höher ist als die meisten anderen Transaktionszahlen (z. B. 30, 66, -94), und seine Einbeziehung unterbricht die mathematische Abstimmung zwischen den Anfangs- und Endbeständen für beide Jahre, was darauf hindeutet, dass es sich um einen Datenfehler oder einen außergewöhnlichen Posten handeln könnte."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_011",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Wie hoch war die Verbindlichkeit für Anlagenrückbau (in Millionen) zum 31. Dezember 2008?",
+    "answer": [
+      [
+        "$965"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

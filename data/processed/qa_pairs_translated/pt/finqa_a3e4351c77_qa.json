@@ -1,0 +1,205 @@
+[
+  {
+    "question_id": "finqa_a3e4351c77_001",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Qual instrumento de dívida específico, excluindo totais e ajustes, deteve o maior valor em ambos os períodos relatados?",
+    "answer": [
+      [
+        "international marine terminals-plaquemines la revenue bonds due march 15 2025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_002",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Qual é o valor total de todos os títulos de receita identificáveis listados para o período na segunda coluna de dados?",
+    "answer": [
+      [
+        "63.7"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_003",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Em quanto a variação absoluta em 'vencimentos atuais de dívida de longo prazo' entre os dois períodos excedeu a variação absoluta em 'desconto de dívida não amortizado'?",
+    "answer": [
+      [
+        "665.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_004",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Descreva a tendência da 'dívida de longo prazo total' entre os dois períodos mostrados e explique a importância dessa mudança.",
+    "answer": [
+      [
+        "A dívida de longo prazo total aumentou em $ 275,3, de $ 10007,5 no período mostrado na coluna C para $ 10282,8 no período mostrado na coluna B. Isso indica que as obrigações gerais de dívida de longo prazo da entidade cresceram durante esse período, sugerindo que provavelmente incorreu em mais dívidas novas do que pagou."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_005",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Identifique todos os itens de linha, excluindo o total, que são representados como valores negativos na segunda coluna de dados.",
+    "answer": [
+      [
+        "unamortized debt discount on long-term debt"
+      ],
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_006",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Como uma porcentagem da dívida de longo prazo total para o período na coluna B, qual parcela é classificada como 'maturidades correntes da dívida de longo prazo'? Use valores absolutos para o cálculo e arredonde para duas casas decimais.",
+    "answer": [
+      [
+        "12.29%"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_007",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Se o 'desconto não amortizado da dívida' na segunda coluna de dados (coluna B) fosse eliminado (ou seja, definido como zero), qual teria sido o 'total de dívida de longo prazo 2013 kmp' para esse período?",
+    "answer": [
+      [
+        "$ 10303.1"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_008",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Existe uma relação aparente entre a mudança em 'vencimentos de curto prazo da dívida de longo prazo' e a mudança em 'dívida de longo prazo total' entre os dois períodos?",
+    "answer": [
+      [
+        "Sim, parece haver uma relação inversa em seus movimentos. Enquanto a dívida de longo prazo total aumentou em $275,3 (de $10007,5 para $10282,8), a magnitude dos 'vencimentos de curto prazo' diminuiu substancialmente (de um valor absoluto de 1263,3 para 596,6). Isso sugere que, embora a empresa tenha assumido mais dívidas no geral, ela simultaneamente reduziu a porção dessa dívida que vence no futuro imediato."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_009",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Qual linha no conjunto de dados parece ser uma agregação de outras linhas e que evidências apoiam essa conclusão?",
+    "answer": [
+      [
+        "A linha rotulada 'total long-term debt 2013 kmp' é uma agregação. A principal evidência é o uso explícito da palavra 'total' em sua descrição. Além disso, seu valor é apresentado com um símbolo de moeda ('$'), que é distinto das outras linhas, significando que é um valor financeiro final e de resumo."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_010",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Qual item da linha mostra a mudança mais significativa em valor absoluto entre os dois períodos, tornando-o um outlier financeiro em termos de volatilidade?",
+    "answer": [
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_011",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Considerando a dívida de longo prazo total e o desconto não amortizado da dívida, qual é o aumento efetivo da dívida de longo prazo de 2012 para 2013?",
+    "answer": [
+      [
+        "A dívida de longo prazo total aumentou de US$ 10.007,5 milhões em 2012 para US$ 10.282,8 milhões em 2013. Considerando que o desconto não amortizado da dívida mudou de -21,2 em 2012 para -20,3 em 2013, o aumento efetivo da dívida é de US$ 276,8 milhões."
+      ]
+    ],
+    "evidence_cells": [
+      "F6",
+      "G6",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

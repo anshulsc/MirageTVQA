@@ -1,0 +1,226 @@
+[
+  {
+    "question_id": "finqa_fd0528f9cf_001",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Vào năm 2008, 'tổng chi phí hoạt động' đã vượt 'tổng doanh thu trừ chi phí lãi vay' bao nhiêu phần trăm?",
+    "answer": [
+      [
+        "109.65%"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_002",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Tỷ suất lợi nhuận trước thuế (được định nghĩa là 'thu nhập từ hoạt động liên tục trước thuế' chia cho 'tổng doanh thu trừ chi phí lãi') trong năm có 'doanh thu lãi thuần' thấp nhất là bao nhiêu?",
+    "answer": [
+      [
+        "76.61%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "B3",
+      "B10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_003",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Chỉ số tài chính nào đã có sự cải thiện tuyệt đối lớn nhất (thay đổi tích cực) về giá trị đô la giữa năm 2008 và 2009?",
+    "answer": [
+      [
+        "income ( loss ) from continuing operations before taxes"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_004",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "open_ended_reasoning",
+    "question": "Công ty đã thực hiện một cuộc lội ngược dòng tài chính đáng kể từ năm 2008 đến năm 2009. Tổng doanh thu đã tăng 80%, từ 8.423 triệu USD lên 15.135 triệu USD. Đồng thời, tổng chi phí hoạt động đã giảm mạnh 64%, từ 9.236 triệu USD xuống còn 3.350 triệu USD. Sự kết hợp giữa tăng trưởng doanh thu và cắt giảm chi phí đáng kể này đã biến khoản lỗ ròng 585 triệu USD vào năm 2008 thành khoản lãi ròng đáng kể 7.095 triệu USD vào năm 2009.",
+    "answer": [
+      [
+        "The company executed a remarkable financial turnaround from 2008 to 2009. Total revenues surged by 80%, from $8,423 million to $15,135 million. Simultaneously, total operating expenses were drastically reduced by 64%, falling from $9,236 million to $3,350 million. This combination of revenue growth and significant cost-cutting transformed a net loss of $585 million in 2008 into a substantial net income of $7,095 million in 2009."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "E3",
+      "B4",
+      "C4",
+      "E4",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_005",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Liệt kê tất cả các chỉ số tài chính báo cáo giá trị âm (lỗ hoặc lợi ích) vào năm 2008 nhưng giá trị dương vào năm 2009.",
+    "answer": [
+      [
+        "income ( loss ) from continuing operations before taxes"
+      ],
+      [
+        "income taxes ( benefits )"
+      ],
+      [
+        "income ( loss ) from continuing operations"
+      ],
+      [
+        "net income ( loss ) attributable to noncontrolling interests"
+      ],
+      [
+        "net income ( loss )"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10",
+      "A11",
+      "B11",
+      "C11",
+      "A12",
+      "B12",
+      "C12",
+      "A13",
+      "B13",
+      "C13",
+      "A14",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_006",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Chi phí hoạt động\" toàn bộ (tính bằng triệu đô la) trung bình qua ba năm được cung cấp (2007, 2008, 2009) là bao nhiêu?",
+    "answer": [
+      [
+        "$6848.67"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_007",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Nếu '% thay đổi 2009 so với 2008' đối với 'doanh thu lãi thuần' là giảm 50% thay vì giảm 65%, thì 'tổng doanh thu trừ chi phí lãi' sẽ là bao nhiêu vào năm 2009, giả sử 'doanh thu phi lãi' không đổi?",
+    "answer": [
+      [
+        "$15315"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "E1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_008",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "open_ended_reasoning",
+    "question": "Phân tích mối quan hệ giữa 'tài sản cuối kỳ' (eop assets) và 'tiền gửi cuối kỳ' (eop deposits) của công ty từ năm 2007 đến năm 2009 và suy luận về một sự thay đổi chiến lược tiềm năng.",
+    "answer": [
+      [
+        "Từ năm 2007 đến năm 2009, có mối tương quan nghịch giữa tài sản cuối kỳ và tiền gửi cuối kỳ. Trong khi tài sản giảm từ 56 tỷ USD xuống 35 tỷ USD, tiền gửi lại tăng từ 46 tỷ USD lên 60 tỷ USD. Điều này cho thấy một sự thay đổi chiến lược đáng kể, chuyển dịch khỏi việc nắm giữ tài sản sang củng cố cơ sở tiền gửi, có thể nhằm cải thiện tính thanh khoản, giảm thiểu rủi ro và tập trung vào các hoạt động ngân hàng cốt lõi trong giai đoạn chuyển đổi tài chính."
+      ]
+    ],
+    "evidence_cells": [
+      "B15",
+      "C15",
+      "D15",
+      "B16",
+      "C16",
+      "D16"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_009",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "open_ended_reasoning",
+    "question": "Điểm dữ liệu nào trong các cột '% thay đổi' dường như là một mục bất thường, không tuân theo định dạng phần trăm được thấy ở các ô khác?",
+    "answer": [
+      [
+        "Giá trị '2014' cho 'tổn thất tín dụng ròng' trong cột '% thay đổi 2008 so với 2007' là bất thường, vì nó là một số nguyên lớn thay vì một phần trăm."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "F5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_010",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Có bao nhiêu chỉ số tài chính được đánh dấu là 'nm' (không có ý nghĩa) trong cột '% thay đổi 2009 so với 2008', cho thấy không thể tính toán sự thay đổi phần trăm tiêu chuẩn?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E6",
+      "E10",
+      "E11",
+      "E12",
+      "E13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_011",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Tỷ lệ thay đổi trong doanh thu lãi thuần từ năm 2007 đến năm 2008 là bao nhiêu?",
+    "answer": [
+      [
+        "35%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

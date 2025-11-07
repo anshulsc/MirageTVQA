@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "finqa_7c5e218eef_001",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Welche Ausgabenkategorie verzeichnete die größte absolute Veränderung gegenüber dem Vorjahr in Dollar, unabhängig davon, ob es sich um eine Erhöhung oder eine Verringerung handelte?",
+    "answer": [
+      [
+        "loss on datacenter and related legal fees"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_002",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Was ist die Summe aller ausgewiesenen Kostensenkungen (negative Änderungen) in Millionen Dollar?",
+    "answer": [
+      [
+        "-23.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_003",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Wie hoch war die gesamte Dollardifferenz für Ausgabenkategorien, die jeweils 2 % der Ausgaben von 2015 ausmachten?",
+    "answer": [
+      [
+        "53.0"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_004",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "open_ended_reasoning",
+    "question": "Basierend auf den Gesamtzahlen, was war der allgemeine finanzielle Trend dieser Ausgabenkategorien im Jahresvergleich? Begründen Sie Ihre Antwort.",
+    "answer": [
+      [
+        "Der allgemeine finanzielle Trend war ein Kostenanstieg. Dies zeigt sich in der Zeile 'Gesamt', die eine positive Nettoveränderung von 54,4 Millionen US-Dollar im Jahresvergleich aufweist, was einem Anstieg von 4 % im Verhältnis zu den Ausgaben von 2015 entspricht. Obwohl es einige Kostensenkungen gab, wurden diese erheblich durch Kostensteigerungen in anderen Bereichen überkompensiert."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_005",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Listen Sie alle Ausgabenkategorien auf, bei denen die Veränderung gegenüber dem Vorjahr positiv und größer als 15 Millionen US-Dollar war.",
+    "answer": [
+      [
+        "loss on datacenter and related legal fees"
+      ],
+      [
+        "professional fees and outside services"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_006",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Berechnen Sie das Verhältnis des gesamten Dollaranstiegs zum gesamten absoluten Dollarabfall der einzelnen Ausgabenposten, gerundet auf zwei Dezimalstellen.",
+    "answer": [
+      [
+        "3.29:1"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_007",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Wenn die 'Schwankung der Wechselkurse' anstelle einer Kostensteigerung eine Kosteneinsparung von 13,2 Millionen US-Dollar gewesen wäre, wie hätte sich dann die neue jährliche Gesamtveränderung ergeben?",
+    "answer": [
+      [
+        "$ 28.0"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_008",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "open_ended_reasoning",
+    "question": "Wenn man Kategorien mit der gleichen prozentualen Veränderung vergleicht (z. B. 2 % oder 1 %), was kann man über die Beziehung zwischen der absoluten Dollarveränderung und der prozentualen Veränderung ableiten? Welche Informationen fehlen zur Bestätigung?",
+    "answer": [
+      [
+        "Es kann die Schlussfolgerung gezogen werden, dass die absolute Dollarveränderung nicht direkt proportional zur prozentualen Veränderung über verschiedene Kategorien hinweg ist. Zum Beispiel hatten 'Verlust aus Rechenzentrum und damit verbundene Rechtskosten' (28,6 Mio. USD) und 'professionelle Gebühren' (24,4 Mio. USD) beide eine Veränderung von 2 %, was impliziert, dass ihre Basis-Ausgaben für 2015 unterschiedlich waren. Die fehlende Information zur Bestätigung ist der tatsächliche Wert der Ausgaben für 2015 für jede Kategorie."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_009",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "open_ended_reasoning",
+    "question": "Welche Zelle in der Spalte 'Änderung als Prozentsatz der Ausgaben von 2015' enthält Daten, die nicht mit dem offensichtlichen Datentyp der Spalte übereinstimmen, und was ist der anomale Wert?",
+    "answer": [
+      [
+        "Zelle C7, die 'Sonstige Ausgaben netto' entspricht, enthält den Wert '2014'. Dies ist anomal, da alle anderen Werte in der Spalte Prozentsätze oder Zahlen sind, die Prozentsätze darstellen, während '2014' ein Jahr zu sein scheint."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_010",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Die Veränderung von Jahr zu Jahr für 'Verlust für Rechenzentren und damit verbundene Rechtsgebühren' ist der größte Anstieg. Um wie viel Prozent ist dieser Anstieg größer als der zweitgrößte Anstieg ('professionelle Gebühren und externe Dienstleistungen')? Runden Sie auf eine Dezimalstelle.",
+    "answer": [
+      [
+        "17.2%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_011",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Welche Ausgabenkategorie zeigte den höchsten Anstieg im Jahresvergleich?",
+    "answer": [
+      [
+        "Loss on data center and related legal fees"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

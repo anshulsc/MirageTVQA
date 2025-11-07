@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_6ae921f44b_001",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Hvilken finansiel kategori oplevede det største absolutte tab som en del af 'anden omfattende (tab) indkomst før omklassificeringer'?",
+    "answer": [
+      [
+        "unrealized holding gains ( losses ) on derivatives"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_002",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Hvad var det samlede beløb for alle 'beløb omklassificeret fra andet omfattende tab' for de individuelle kategorier?",
+    "answer": [
+      [
+        "14217"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_003",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Hvad var startbalancen den 3. november 2018 for den komponent, der havde den mindste absolutte værdi som slutbalance den 2. november 2019?",
+    "answer": [
+      [
+        "-10"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B6",
+      "C6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_004",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv den samlede tendens for det akkumulerede 'total' andet omfangstab fra begyndelsen til slutningen af perioden.",
+    "answer": [
+      [
+        "Det samlede akkumulerede tab forværredes betydeligt i perioden, idet det steg fra -$58.440 til -$187.799. Dette repræsenterer et yderligere netto tab på $129.359, hvilket mere end tredobler det akkumulerede tab fra starten af perioden."
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_005",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "For alle kategorier, der havde et samlet tab i 'andre omfangsrige (tab) af indkomst', hvad var deres kombinerede samlede slutbalance den 2. november 2019?",
+    "answer": [
+      [
+        "-187799"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "D5",
+      "E5",
+      "B6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_006",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Hvilken procentdel af den samlede negative saldo pr. 2. november 2019 kan henføres til 'urealiserede gevinst (tab) på beholdninger af værdipapirer, der kan sælges'?",
+    "answer": [
+      [
+        "62.84%"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_007",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Hvis 'anden omfattende (tab) indkomst' for 'pensionsordninger' havde været en gevinst på 24.344 i stedet for et tab, hvad ville den nye samlede slutbalance så være den 2. november 2019?",
+    "answer": [
+      [
+        "-139111"
+      ]
+    ],
+    "evidence_cells": [
+      "E5",
+      "F6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_008",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "Er der et konsistent forhold mellem fortegnet (positivt/negativt) for 'andringen i øvrige omfang (tab) før omklassificeringer' og fortegnet for det endelige 'ændring i øvrige omfang (tab)' for hver kategori?",
+    "answer": [
+      [
+        "Ja, forholdet er konsistent på tværs af alle fire kategorier. For 'valuta', 'derivater' og 'pensionsordninger' er værdierne negative i begge linjeposter. For 'værdipapirer tilgængelige til salg' er værdierne positive i begge linjeposter. Derfor stemmer fortegnet for indkomsten før omklassificeringer konsekvent overens med fortegnet for den endelige nettoomfattende indkomst for perioden."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B5",
+      "C2",
+      "C5",
+      "D2",
+      "D5",
+      "E2",
+      "E5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_009",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Hvilken specifik linje post entry, eksklusive totaler, repræsenterer den mest ekstreme værdi (dvs. største absolutte værdi) i tabellen?",
+    "answer": [
+      [
+        "-140728"
+      ]
+    ],
+    "evidence_cells": [
+      "D2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_010",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "Ved hjælp af roll-forward-logikken, hvor Slutsaldo = Begyndelsessaldo + 'anden omfattende (tab) fortjeneste', skal du identificere den finansielle kategori, hvis rapporterede værdier er matematisk inkonsistente.",
+    "answer": [
+      [
+        "Kategorien 'urealiserede kursgevinster (tab) på værdipapirer til salg' er inkonsistent. Dens begyndelsessaldo på -10 (celle C1) plus dens 'anden omfattende (tab) fortjeneste' på 10 (celle C5) resulterer i en beregnet slutsaldo på 0, hvilket ikke stemmer overens med den rapporterede slutsaldo på 2.014 (celle C6)."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_011",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Hvor meget faldt pensionsplanerne fra 2018 til 2019?",
+    "answer": [
+      [
+        "$24,344"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A6",
+      "E6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

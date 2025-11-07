@@ -1,0 +1,260 @@
+[
+  {
+    "question_id": "finqa_7bdb66e2c9_001",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Qual tipo de garantia apresenta a maior diferença absoluta em bilhões de dólares entre seus pagamentos potenciais de 'grau de investimento' e 'grau não de investimento'?",
+    "answer": [
+      [
+        "financial standby letters of credit"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_002",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Qual é o valor total potencial de pagamento para todos os tipos de garantia que têm um valor para 'grau de investimento', mas um placeholder ('2014') para 'não classificado'?",
+    "answer": [
+      [
+        "21.6"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "D8",
+      "E8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_003",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Para o tipo de garantia com o maior valor total potencial de pagamento, qual categoria de classificação ('investment grade', 'non-investment grade' ou 'not rated') constitui a maior parte desse total?",
+    "answer": [
+      [
+        "maximum potential amount of future payments investment grade"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_004",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Qual a porcentagem do total geral de pagamentos futuros máximos potenciais que é classificada como 'não classificada'?",
+    "answer": [
+      [
+        "63.89%"
+      ]
+    ],
+    "evidence_cells": [
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_005",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Se o valor 'não classificado' para 'indenizações de empréstimo de valores mobiliários' fosse descoberto como sendo 10% menor do que o declarado, qual seria o novo total geral para todas as garantias?",
+    "answer": [
+      [
+        "$ 300.14"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_006",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Qual é o valor médio potencial total para tipos de garantia que possuem valores zero ou de espaço reservado ('2014') para ambas as classificações 'investment grade' e 'non-investment grade'?",
+    "answer": [
+      [
+        "34.62"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "E3",
+      "B4",
+      "C4",
+      "E4",
+      "B5",
+      "C5",
+      "E5",
+      "B6",
+      "C6",
+      "E6",
+      "B7",
+      "C7",
+      "E7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_007",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Qual coluna de classificação de pagamento ('investment grade', 'non-investment grade' ou 'not rated') contém o maior número de valores substitutos não numéricos ('2014')?",
+    "answer": [
+      [
+        "maximum potential amount of future payments investment grade"
+      ],
+      [
+        "maximum potential amount of future payments non-investment grade"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_008",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "open_ended_reasoning",
+    "question": "Com base nos dados fornecidos, identifique o outlier mais significativo na coluna 'valor potencial máximo de pagamentos futuros total' e explique por que ele se destaca.",
+    "answer": [
+      [
+        "A categoria 'cartas de crédito financeiras stand-by', com um total de US$ 94,2 bilhões, é o outlier de ponta mais significativo. Esse valor é aproximadamente 38,4% maior do que a próxima maior categoria ('instrumentos derivativos' em US$ 67,9 bilhões) e é mais de 2,4 vezes a média de todas as categorias (US$ 38,11 bilhões). Por outro lado, 'garantias de recebimento de fluxos de caixa contratuais' e 'empréstimos vendidos com recurso' são outliers significativos de ponta baixa, com apenas US$ 0,3 bilhão cada."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_009",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "open_ended_reasoning",
+    "question": "Analise a distribuição de pagamentos potenciais nas três classificações de grau para 'garantias de performance' e 'indemnizações de custódia e outras'. O que esta comparação sugere sobre os perfis de risco destes dois tipos de garantias?",
+    "answer": [
+      [
+        "Para 'garantias de performance', os valores são distribuídos de forma relativamente uniforme entre grau de investimento (US$ 5,7 B), grau não de investimento (US$ 5,0 B) e não classificado (US$ 5,6 B), sugerindo um perfil de risco diversificado. Em contraste, 'indemnizações de custódia e outras' está fortemente inclinado para o grau de investimento (US$ 18,5 B), com uma porção muito menor em grau não de investimento (US$ 3,1 B) e nenhum valor 'não classificado'. Isso implica que as 'indemnizações de custódia' estão associadas a contrapartes com risco de crédito significativamente menor em comparação com as 'garantias de performance'."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A8",
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_010",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "open_ended_reasoning",
+    "question": "Existe uma correlação consistente e observável entre os valores para pagamentos potenciais 'investment grade' e 'non-investment grade' em diferentes tipos de garantia? Explique seu raciocínio.",
+    "answer": [
+      [
+        "Não, não existe uma correlação consistente e observável. Com apenas três categorias apresentando valores numéricos para ambas as colunas, os dados são muito escassos para estabelecer um padrão confiável. 'Cartas de crédito financeiras standby' tem um alto valor 'investment grade' (US$ 49,2 bilhões) emparelhado com um alto valor 'non-investment grade' (US$ 28,6 bilhões). 'Garantias de performance' tem valores semelhantes para ambos (US$ 5,7 bilhões e US$ 5,0 bilhões). No entanto, 'indemnizações de custódia' tem um alto valor 'investment grade' (US$ 18,5 bilhões), mas um valor 'non-investment grade' muito baixo (US$ 3,1 bilhões), o que contradiz qualquer correlação positiva simples sugerida pelos outros dois pontos. Os numerosos valores de placeholder impedem uma análise mais aprofundada."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_011",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Qual tem o montante potencial máximo de pagamentos futuros com grau de investimento?",
+    "answer": [
+      [
+        "Financial standby letters of credit"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

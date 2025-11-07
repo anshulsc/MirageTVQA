@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_6ae921f44b_001",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Qual categoria financeira experimentou a maior perda absoluta como parte da 'outra receita (perda) abrangente antes das reclassificações'?",
+    "answer": [
+      [
+        "unrealized holding gains ( losses ) on derivatives"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_002",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Qual foi o total combinado de todos os 'valores reclassificados da perda abrangente' para as categorias individuais?",
+    "answer": [
+      [
+        "14217"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_003",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Qual foi o saldo inicial em 3 de novembro de 2018 para o componente que teve o menor valor absoluto como saldo final em 2 de novembro de 2019?",
+    "answer": [
+      [
+        "-10"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B6",
+      "C6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_004",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "Descreva a tendência geral da 'total' perda compreensiva acumulada do início ao fim do período.",
+    "answer": [
+      [
+        "A perda total acumulada piorou significativamente durante o período, aumentando de -$58.440 para -$187.799. Isso representa uma perda líquida adicional de $129.359, mais do que triplicando a perda acumulada desde o início do período."
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_005",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Para todas as categorias que tiveram uma perda líquida em 'outras receitas (perdas) abrangentes', qual foi o total combinado do seu saldo final em 2 de novembro de 2019?",
+    "answer": [
+      [
+        "-187799"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "D5",
+      "E5",
+      "B6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_006",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Qual percentual do saldo negativo total em 2 de novembro de 2019 é atribuível a 'ganhos (perdas) não realizados na manutenção de derivativos'?",
+    "answer": [
+      [
+        "62.84%"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_007",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Se o 'outro resultado abrangente (prejuízo)' para 'planos de pensão' tivesse sido um ganho de 24.344 em vez de um prejuízo, qual seria o novo saldo total final em 2 de novembro de 2019?",
+    "answer": [
+      [
+        "-139111"
+      ]
+    ],
+    "evidence_cells": [
+      "E5",
+      "F6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_008",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "Existe uma relação consistente entre o sinal (positivo/negativo) de 'outras receitas (perdas) abrangentes antes de reclassificações' e o sinal da 'outras receitas (perdas) abrangentes' final para cada categoria?",
+    "answer": [
+      [
+        "Sim, a relação é consistente em todas as quatro categorias. Para 'moeda estrangeira', 'derivativos' e 'planos de pensão', os valores são negativos em ambos os itens. Para 'títulos disponíveis para venda', os valores são positivos em ambos os itens. Portanto, o sinal da receita antes das reclassificações corresponde consistentemente ao sinal da receita líquida abrangente final para o período."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B5",
+      "C2",
+      "C5",
+      "D2",
+      "D5",
+      "E2",
+      "E5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_009",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Qual item de linha específico, excluindo totais, representa o valor mais extremo (ou seja, o maior valor absoluto) na tabela?",
+    "answer": [
+      [
+        "-140728"
+      ]
+    ],
+    "evidence_cells": [
+      "D2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_010",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "Usando a lógica de rolagem onde Saldo Final = Saldo Inicial + 'outras receitas (perdas) abrangentes', identifique a categoria financeira cujos valores reportados são matematicamente inconsistentes.",
+    "answer": [
+      [
+        "A categoria 'ganhos (perdas) de manutenção não realizados em títulos disponíveis para venda' é inconsistente. Seu saldo inicial de -10 (célula C1) mais sua 'outras receitas (perdas) abrangentes' de 10 (célula C5) resulta em um saldo final calculado de 0, que não corresponde ao saldo final reportado de 2.014 (célula C6)."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_011",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Quanto diminuíram os planos de pensão de 2018 para 2019?",
+    "answer": [
+      [
+        "$24,344"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A6",
+      "E6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

@@ -1,0 +1,220 @@
+[
+  {
+    "question_id": "finqa_8a8b0d1705_001",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "Tổng số tiền, tính bằng triệu, đã chi cho việc mua lại cổ phiếu quỹ trong cả ba năm là bao nhiêu?",
+    "answer": [
+      [
+        "-8067"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_002",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "Trong năm có lượng tiền sử dụng ròng lớn nhất cho các hoạt động tài chính, giá trị của 'tiền thu được từ nợ' là bao nhiêu?",
+    "answer": [
+      [
+        "429"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "D3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_003",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "open_ended_reasoning",
+    "question": "Hãy mô tả xu hướng của 'tổng tiền mặt thay đổi trong nợ' từ năm 2005 đến năm 2007.",
+    "answer": [
+      [
+        "Xu hướng rất biến động. Nó bắt đầu với dòng tiền ròng ra là 485 triệu USD vào năm 2005, sau đó đảo ngược mạnh mẽ thành dòng tiền ròng vào lớn là 1135 triệu USD vào năm 2006, và cuối cùng quay trở lại thành dòng tiền vào đáng kể là 1222 triệu USD vào năm 2007. Không có xu hướng tăng hoặc giảm nhất quán nào."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_004",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "Vào năm 2007, bao nhiêu phần trăm tiền thu được từ 'tiền thu từ nợ' đã được sử dụng cho 'hoàn trả nợ'?",
+    "answer": [
+      [
+        "39.26%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_005",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "Hoạt động tài chính nào có sự thay đổi tuyệt đối lớn nhất giữa hai năm liên tiếp bất kỳ?",
+    "answer": [
+      [
+        "proceeds from debt ( maturities greater than 90 days )"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_006",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "Nếu 'tái phát hành cổ phiếu quỹ' vào năm 2005 cao hơn 50%, thì 'tổng tiền mặt chi cho hoạt động tài chính' cho năm đó sẽ là bao nhiêu?",
+    "answer": [
+      [
+        "$-3352.5 (3352.5)"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "D10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_007",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "Liệt kê tất cả các hoạt động tài trợ đã tạo ra dòng tiền ròng dương (giá trị dương) vào năm 2006.",
+    "answer": [
+      [
+        "change in short-term debt 2014 net"
+      ],
+      [
+        "proceeds from debt ( maturities greater than 90 days )"
+      ],
+      [
+        "reissuances of treasury stock"
+      ],
+      [
+        "excess tax benefits from stock-based compensation"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "A1",
+      "C3",
+      "A3",
+      "C6",
+      "A6",
+      "C8",
+      "A8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_008",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "Năm nào có lượng tiền mặt trả cho cổ đông cao nhất, xét cả 'mua lại cổ phiếu quỹ' và 'cổ tức đã trả cho cổ đông'?",
+    "answer": [
+      [
+        "2007"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_009",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "open_ended_reasoning",
+    "question": "Dựa trên dữ liệu, có mối quan hệ nào có thể quan sát được giữa 'việc mua lại cổ phiếu quỹ' và 'cổ tức đã chi trả cho cổ đông' trong giai đoạn ba năm không?",
+    "answer": [
+      [
+        "Có, có vẻ như có một mô hình nhất quán về dòng tiền ra đáng kể cho cả hai hoạt động mỗi năm, cho thấy một chiến lược nhất quán trong việc trả lại vốn cho cổ đông. Tuy nhiên, không có sự tương quan rõ ràng trong những thay đổi theo từng năm của chúng. Ví dụ, từ năm 2005 đến năm 2006, việc mua lại cổ phiếu quỹ giảm nhẹ trong khi cổ tức tăng nhẹ. Sau đó, từ năm 2006 đến năm 2007, việc mua lại cổ phiếu quỹ tăng lên đáng kể trong khi cổ tức gần như không đổi. Cả hai đều là những khoản sử dụng tiền mặt lớn một cách nhất quán, nhưng chúng không di chuyển đồng bộ."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "A7",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_010",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "Có bao nhiêu hoạt động tài trợ được liệt kê dẫn đến dòng tiền ròng âm (giá trị âm) một cách nhất quán trong cả ba năm?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B5",
+      "C5",
+      "D5",
+      "B7",
+      "C7",
+      "D7",
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_011",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "Năm nào số tiền ròng sử dụng cho các hoạt động tài trợ là cao nhất?",
+    "answer": [
+      [
+        "2005"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10",
+      "D10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

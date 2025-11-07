@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_6ae921f44b_001",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Care categorie financiară a înregistrat cea mai mare pierdere absolută ca parte a 'altui rezultat global (pierdere) înainte de reclasificări'?",
+    "answer": [
+      [
+        "unrealized holding gains ( losses ) on derivatives"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_002",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Care a fost totalul combinat al tuturor 'sumelor reclasificate din alte pierderi cuprinzătoare' pentru categoriile individuale?",
+    "answer": [
+      [
+        "14217"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_003",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Care a fost soldul inițial la 3 noiembrie 2018 pentru componenta care a avut cea mai mică valoare absolută ca sold final la 2 noiembrie 2019?",
+    "answer": [
+      [
+        "-10"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B6",
+      "C6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_004",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "Descrieți tendința generală a pierderii cuprinzătoare acumulate 'total' de la începutul până la sfârșitul perioadei.",
+    "answer": [
+      [
+        "Pierderea totală acumulată s-a agravat semnificativ pe parcursul perioadei, crescând de la -$58,440 la -$187,799. Aceasta reprezintă o pierdere netă suplimentară de $129,359, mai mult decât triplând pierderea acumulată de la începutul perioadei."
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_005",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Pentru toate categoriile care au înregistrat o pierdere netă la 'alte venituri (pierderi) totale', care a fost soldul lor total combinat final la 2 noiembrie 2019?",
+    "answer": [
+      [
+        "-187799"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "D5",
+      "E5",
+      "B6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_006",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Ce procent din soldul negativ total de la 2 noiembrie 2019 este atribuit 'câștigurilor (pierderilor) de deținere nerealizate din instrumente derivate'?",
+    "answer": [
+      [
+        "62.84%"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_007",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Dacă 'alte venituri (pierderi) cuprinzătoare' pentru 'planurile de pensii' ar fi fost un câștig de 24.344 în loc de o pierdere, care ar fi fost noul sold final total la 2 noiembrie 2019?",
+    "answer": [
+      [
+        "-139111"
+      ]
+    ],
+    "evidence_cells": [
+      "E5",
+      "F6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_008",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "Există o relație consecventă între semnul (pozitiv/negativ) al 'altui rezultat global (pierdere) înainte de reclasificări' și semnul 'altui rezultat global (pierdere) final' pentru fiecare categorie?",
+    "answer": [
+      [
+        "Da, relația este consecventă pentru toate cele patru categorii. Pentru 'conversia valutară', 'instrumente derivate' și 'planuri de pensii', valorile sunt negative în ambele elemente de rând. Pentru 'titluri disponibile pentru vânzare', valorile sunt pozitive în ambele elemente de rând. Prin urmare, semnul venitului înainte de reclasificări se potrivește consecvent cu semnul venitului global net final pentru perioadă."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B5",
+      "C2",
+      "C5",
+      "D2",
+      "D5",
+      "E2",
+      "E5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_009",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Ce element specific de pe linie, excluzând totalurile, reprezintă valoarea cea mai extremă (adică, cea mai mare valoare absolută) din tabel?",
+    "answer": [
+      [
+        "-140728"
+      ]
+    ],
+    "evidence_cells": [
+      "D2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_010",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "Folosind logica de rulare înainte, conform căreia Soldul final = Soldul inițial + 'alte venituri (pierderi) cuprinzătoare', identificați categoria financiară ale cărei valori raportate sunt matematic inconsistente.",
+    "answer": [
+      [
+        "Categoria 'câștiguri (pierderi) nerealizate din dețineri de titluri disponibile pentru vânzare' este inconsistentă. Soldul său inițial de -10 (celula C1) plus 'alte venituri (pierderi) cuprinzătoare' de 10 (celula C5) rezultă într-un sold final calculat de 0, care nu se potrivește cu soldul final raportat de 2.014 (celula C6)."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_011",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Cu cât au scăzut planurile de pensii din 2018 până în 2019?",
+    "answer": [
+      [
+        "$24,344"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A6",
+      "E6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

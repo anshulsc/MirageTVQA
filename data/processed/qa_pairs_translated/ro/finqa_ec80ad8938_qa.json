@@ -1,0 +1,186 @@
+[
+  {
+    "question_id": "finqa_ec80ad8938_001",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Care este valoarea totală de înregistrare pentru toate activele (atât active de tranzacționare, cât și împrumuturi) raportate în ambele seturi de date prezentate?",
+    "answer": [
+      [
+        "26557"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_002",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "În al doilea set de date (coloanele D și E), ce categorie de active – active de tranzacționare sau împrumuturi – are „soldul neplătit agregat al principalului peste valoarea justă” mai mare?",
+    "answer": [
+      [
+        "loans"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_003",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Pentru primul set de credite (coloana C), ce procent din 'valoarea contabilă' totală este reprezentat de 'soldul creditelor neperformante'?",
+    "answer": [
+      [
+        "0.03%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_004",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Care este suma combinată a valorii contabile a tipului de activ (Active de tranzacționare sau Împrumuturi) care are cel mai mic sold total 'sold de împrumuturi nerambursabile sau împrumuturi scadente cu peste 90 de zile' pe ambele seturi de date?",
+    "answer": [
+      [
+        "7598"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_005",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Enumerați sumele înregistrate pentru toate portofoliile de active în care 'soldul creditelor neperformante sau al creditelor scadente de peste 90 de zile' este exact 1 milion USD.",
+    "answer": [
+      [
+        "$ 3224"
+      ],
+      [
+        "$ 4374"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C3",
+      "E3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_006",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Dacă valoarea contabilă pentru activele de tranzacționare din primul set de date (coloana B) ar fi ajustată prin scăderea „soldului neachitat agregat al principalului peste valoarea justă”, care ar fi noua valoare contabilă?",
+    "answer": [
+      [
+        "9673"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_007",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Analizând „soldul creditelor neperformante”, ce tip de activ prezintă un sold care este un outlier semnificativ comparativ cu celelalte și ce implică acest lucru despre profilele lor relative de risc?",
+    "answer": [
+      [
+        "Activele de tranzacționare din ambele seturi de date prezintă un sold neperformant de 2.014 milioane USD, ceea ce reprezintă un outlier extrem comparativ cu 1 milion USD pentru Credite în ambele seturi. Această diferență izbitoare sugerează că portofoliul de Active de Tranzacționare prezintă un risc de credit semnificativ mai mare sau a înregistrat un eveniment major de neplată, în timp ce portofoliul de Credite pare a fi într-o stare excepțional de bună, cu aproape niciun sold neperformant."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_008",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Arată datele o corelație pozitivă constantă între 'valoarea contabilă' a unui activ și 'soldul principal neplătit agregat peste valoarea justă' pentru categoria Active de tranzacționare?",
+    "answer": [
+      [
+        "Nu, nu este prezentată o corelație pozitivă constantă. Primul set de active de tranzacționare are o valoare contabilă mai mare (10.108 milioane USD față de 8.851 milioane USD), dar un sold principal neplătit agregat peste valoarea justă mai mic (435 milioane USD față de 623 milioane USD). Acest lucru indică faptul că o dimensiune mai mare a portofoliului nu duce neapărat la o pierdere nerealizată proporțional mai mare în acest set de date."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_009",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Identificați orice rânduri care conțin puncte de date repetitive sau aparent redundante și explicați modelul.",
+    "answer": [
+      [
+        "Redundanța datelor este prezentă în rândurile 3 și 4. În rândul 3, 'soldul creditelor neperformante sau credite cu peste 90 de zile întârziere', valoarea pentru activele de tranzacționare este de 2.014 milioane USD în ambele seturi (B3, D3) și 1 milion USD pentru credite în ambele seturi (C3, E3). În rândul 4, valoarea de 2.014 milioane USD este repetată de trei ori pentru ambele seturi de active de tranzacționare și primul set de credite (B4, C4, D4), sugerând fie un model de introducere a datelor, fie un artefact specific de raportare financiară."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_010",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Pentru setul de date (Set 1: coloanele B,C sau Set 2: coloanele D,E) cu suma totală mai mare a valorii contabile, calculați „procentul pierdere nerealizată” general al portofoliului (suma totală a „soldului principal neplătit peste valoarea justă” împărțită la „valoarea contabilă” totală).",
+    "answer": [
+      [
+        "8.82%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

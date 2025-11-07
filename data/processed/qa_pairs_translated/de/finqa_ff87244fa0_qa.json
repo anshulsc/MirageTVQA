@@ -1,0 +1,173 @@
+[
+  {
+    "question_id": "finqa_ff87244fa0_001",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Was ist der Gesamtbetrag der Zahlungen, die bis zum 31. Dezember 2012 und bis zum 31. Dezember 2013 fällig sind, über alle vertraglichen Verpflichtungen hinweg?",
+    "answer": [
+      [
+        "$ 6219"
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_002",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Welchen Prozentsatz der gesamten 'Schulden [a]'-Verpflichtung soll nach dem 31. Dezember 2016 bezahlt werden?",
+    "answer": [
+      [
+        "71.68%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "H1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_003",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Welche vertragliche Verpflichtung hat die größte Zahlung, die bis zum 31. Dezember 2012 fällig ist?",
+    "answer": [
+      [
+        "purchase obligations [d]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_004",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Bei der vertraglichen Verpflichtung mit dem zweithöchsten Gesamtbetrag, welche Zahlung ist fällig bis zum 31. Dezember 2014?",
+    "answer": [
+      [
+        "$ 560"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "E4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_005",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "open_ended_reasoning",
+    "question": "Beschreiben Sie den Zahlungstrend für 'Betriebsleasing [b]' für die Jahre 2012 bis 2016.",
+    "answer": [
+      [
+        "Die Zahlungen für 'Betriebsleasing [b]' zeigen von 2012 bis 2016 einen durchweg rückläufigen Trend von Jahr zu Jahr, beginnend mit 525 Mio. USD im Jahr 2012 und sinkend auf 347 Mio. USD im Jahr 2016."
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_006",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Listen Sie alle vertraglichen Verpflichtungen auf, bei denen eine Zahlung bis zum 31. Dezember 2015 von mehr als 300 Millionen US-Dollar fällig ist.",
+    "answer": [
+      [
+        "debt [a]"
+      ],
+      [
+        "operating leases [b]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A3",
+      "F3",
+      "A4",
+      "F4",
+      "A5",
+      "F5",
+      "A6",
+      "F6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_007",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "Wenn die Zahlungen für 'Kaufverpflichtungen [d]', die bis Ende 2012, 2013 und 2014 fällig waren, alle aufgeschoben und dem 'nach 2016' fälligen Betrag hinzugefügt würden, wie hoch wäre dann dieser neue Gesamtbetrag für diese Verpflichtung nach 2016?",
+    "answer": [
+      [
+        "$ 4584"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "E4",
+      "H4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_008",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "open_ended_reasoning",
+    "question": "Welche vertragliche Verpflichtung weist eine Zahlung in einem einzelnen Jahr zwischen 2012 und 2016 auf, die ein Ausreißer ist und deutlich höher als die Zahlungen in den anderen Jahren dieses Zeitraums ist?",
+    "answer": [
+      [
+        "Die Kategorie 'Kaufverpflichtungen [d]' weist einen signifikanten Ausreißer auf. Die Zahlung von 2598 Millionen US-Dollar, die im Jahr 2012 fällig war, ist mehr als viermal höher als die Zahlung im nächsthöheren Jahr (568 Millionen US-Dollar im Jahr 2013), und die Zahlungen nehmen in den Folgejahren erheblich ab, was den Wert von 2012 zu einer Anomalie macht."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

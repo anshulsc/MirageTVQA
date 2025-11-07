@@ -1,0 +1,205 @@
+[
+  {
+    "question_id": "finqa_a3e4351c77_001",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Toplamlar ve ayarlamalar hariç tutulduğunda, raporlanan her iki dönemde en yüksek değere sahip olan belirli borç aracı hangisidir?",
+    "answer": [
+      [
+        "international marine terminals-plaquemines la revenue bonds due march 15 2025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_002",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "İkinci veri sütununda dönem için listelenen tüm tanımlanabilir gelir tahvillerinin toplam değeri nedir?",
+    "answer": [
+      [
+        "63.7"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_003",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "'Uzun vadeli borcun cari vadeleri' kalemindeki mutlak değişim, 'amortize edilmemiş borç indirimi' kalemindeki mutlak değişimi ne kadar aştı?",
+    "answer": [
+      [
+        "665.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_004",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "'Toplam uzun vadeli borcun', gösterilen iki dönem arasındaki eğilimini açıklayın ve bu değişimin önemini belirtin.",
+    "answer": [
+      [
+        "Toplam uzun vadeli borç, C sütununda gösterilen dönemde 10007.5 dolardan B sütununda gösterilen dönemde 10282.8 dolara yükselerek 275.3 dolar arttı. Bu durum, şirketin genel uzun vadeli borç yükümlülüklerinin bu zaman diliminde büyüdüğünü ve muhtemelen geri ödediğinden daha fazla yeni borç aldığını göstermektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_005",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Toplam hariç olmak üzere, ikinci veri sütununda negatif değerler olarak temsil edilen tüm satır öğelerini belirleyin.",
+    "answer": [
+      [
+        "unamortized debt discount on long-term debt"
+      ],
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_006",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "B sütunundaki dönem için toplam uzun vadeli borcun yüzdesi olarak, 'uzun vadeli borcun cari vadesi' olarak sınıflandırılan kısım nedir? Hesaplama için mutlak değerleri kullanın ve iki ondalık basamağa yuvarlayın.",
+    "answer": [
+      [
+        "12.29%"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_007",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "İkinci veri sütunundaki ('B' sütunu) 'amortize edilmemiş borç indirimi' ortadan kaldırılırsa (yani sıfırlanırsa), o dönem için 'toplam uzun vadeli borç 2013 kmp' ne olurdu?",
+    "answer": [
+      [
+        "$ 10303.1"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_008",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "'Uzun vadeli borcun vadesi gelen tutarı' ile iki dönem arasındaki 'toplam uzun vadeli borcun' değişimi arasında belirgin bir ilişki var mı?",
+    "answer": [
+      [
+        "Evet, hareketlerinde ters bir ilişki olduğu görülüyor. Toplam uzun vadeli borç 275,3 ABD doları (10007,5 ABD dolarından 10282,8 ABD dolarına) artarken, 'vadesi gelen tutarın' büyüklüğü önemli ölçüde azaldı (1263,3'lük mutlak değerden 596,6'ya). Bu durum, şirketin genel borcunu artırmasına rağmen, aynı anda bu borcun kısa vadede vadesi dolacak kısmını azalttığını göstermektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_009",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Veri kümesinde hangi satırın diğer satırların bir toplamı olduğu görünmektedir ve bu sonuca hangi kanıtlar desteklemektedir?",
+    "answer": [
+      [
+        "'total long-term debt 2013 kmp' olarak etiketlenen satır bir toplamdır. Birincil kanıt, açıklamasında 'total' kelimesinin açıkça kullanılmasıdır. Ek olarak, değeri para birimi sembolü ('$') ile sunulmuştur; bu da diğer satırlardan farklıdır ve nihai, özet bir finansal rakamı temsil ettiğini göstermektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_010",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "İki dönem arasındaki mutlak değerdeki en önemli değişikliği göstererek, oynaklık açısından finansal bir aykırı değer oluşturan kalem hangisidir?",
+    "answer": [
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_011",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Toplam uzun vadeli borç ve itfa edilmemiş borç indirimi göz önüne alındığında, 2012'den 2013'e uzun vadeli borçtaki etkili artış nedir?",
+    "answer": [
+      [
+        "Toplam uzun vadeli borç, 2012'de 10.007,5 milyon dolardan 2013'te 10.282,8 milyon dolara yükseldi. İtfa edilmemiş borç indiriminin 2012'de -21,2'den 2013'te -20,3'e değiştiği göz önüne alındığında, borçtaki etkili artış 276,8 milyon dolardır."
+      ]
+    ],
+    "evidence_cells": [
+      "F6",
+      "G6",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

@@ -1,0 +1,215 @@
+[
+  {
+    "question_id": "finqa_e33c420d31_001",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Vilken avtalsenlig skyldighet, exklusive 'skuldåtaganden' och 'räntebetalningar på långfristiga skulder', har det största beloppet förfallande under perioden '3-5 år'?",
+    "answer": [
+      [
+        "fuel obligations"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_002",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Vad är den kombinerade totalen av alla åtaganden som har en fotnotreferens på '11'?",
+    "answer": [
+      [
+        "$ 16297"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "H3",
+      "B4",
+      "H4",
+      "B5",
+      "H5",
+      "B6",
+      "H6",
+      "B7",
+      "H7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_e33c420d31_003",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Vilken procentandel av de totala förpliktelserna som förfaller inom '1-3 år' hänförs till den enskilda förpliktelsen med det högsta totala värdet?",
+    "answer": [
+      [
+        "27.04%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "D1",
+      "D9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_004",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "För 'räntebetalningar på långfristiga skulder', analysera trenden för betalningarna över de fyra tidsperioderna och avgör om skyldigheten är förskjuten framåt eller bakåt.",
+    "answer": [
+      [
+        "Betalningarna för 'räntebetalningar på långfristiga skulder' är 1 172 USD (<1 år), 2 166 USD (1–3 år), 1 719 USD (3–5 år) och 4 046 USD (>5 år). Åtagandet är avsevärt förskjutet bakåt, eftersom betalningarna tenderar att öka över tid, med den största enskilda betalningen som inträffar under perioden 'mer än 5 år'. Över 63 % av de totala räntebetalningarna förfaller mer än 3 år i framtiden."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_005",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Lista de avtalsenliga skyldigheter där beloppet som ska betalas om 'mindre än 1 år' är större än beloppet som ska betalas om '3-5 år'.",
+    "answer": [
+      [
+        "fuel obligations"
+      ],
+      [
+        "other purchase obligations"
+      ],
+      [
+        "other long-term liabilities reflected on aes' consolidated balance sheet under gaap ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "E6",
+      "A7",
+      "C7",
+      "E7",
+      "A8",
+      "C8",
+      "E8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_006",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Vad är förhållandet mellan totala kortfristiga skulder (förfaller om mindre än 1 år) och totala långfristiga skulder (förfaller om mer än 5 år) baserat på den sista totalsumman?",
+    "answer": [
+      [
+        "Approximately 1:2.81"
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "F9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_e33c420d31_007",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Om en ny policy krävde att alla 'operating lease obligations' som förfaller om 'mer än 5 år' istället skulle betalas inom perioden '3-5 år', vad skulle den nya totalen för kolumnen '3-5 år' bli?",
+    "answer": [
+      [
+        "$ 10283"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_008",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "Finns det ett tydligt samband mellan energiskuldernas typ (bränsle jämfört med el) och deras betalningsschema?",
+    "answer": [
+      [
+        "Ja, det finns ett tydligt samband. 'Bränsleskulder' är framåtlutade, med den största betalningen (1 759 $) som förfaller inom 'mindre än 1 år', vilket tyder på kortfristiga kontrakt. Omvänt är 'el-skulder' bakåtlutade, med den största betalningen (2 065 $) som förfaller inom 'mer än 5 år', vilket sannolikt återspeglar långsiktiga elköpsavtal. Detta indikerar att energikällans natur är relaterad till varaktigheten av det finansiella åtagandet."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_e33c420d31_009",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "Baserat på totalbeloppen för varje betalningsperiod i den sista raden, vilken tidsram har störst finansiellt åtagande och vad innebär detta om företagets skulderstruktur?",
+    "answer": [
+      [
+        "Perioden 'mer än 5 år' har det största åtagandet på 20 544 dollar. Detta innebär att företagets skulderstruktur huvudsakligen är långsiktig, med en betydande del av dess finansiella åtaganden som ska betalas långt framöver, vilket tyder på långsiktiga finansieringsstrategier eller stora kapitalprojekt."
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "D9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_010",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "Raden för 'övriga långfristiga skulder' innehåller ett värde i kolumnen 'mindre än 1 år' som verkar vara en avvikelse. Identifiera detta värde och förklara varför det är inkonsekvent.",
+    "answer": [
+      [
+        "Avvikelsen är värdet '$ 2014' i kolumnen 'mindre än 1 år'. Det är inkonsekvent eftersom detta enskilda kortsiktiga betalningsbelopp är betydligt större än de '$ 701' som anges som 'total' för hela den förpliktelsen, vilket är en logisk omöjlighet och sannolikt ett datafel."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

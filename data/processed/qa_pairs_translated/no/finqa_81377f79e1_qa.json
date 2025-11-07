@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_81377f79e1_001",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "I hvilket år var de 'brutto tilbakebetalingene' lavest blant de tre presenterte årene?",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_002",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "Hva var totalsummen for 'net reserve builds ( releases )' over alle tre årene fra 2007 til 2009?",
+    "answer": [
+      [
+        "23588"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_81377f79e1_003",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "Hva var 'total tilbakeføring for kredittap' i året som hadde den høyeste 'avsetning for tapsreserver ved årets begynnelse'?",
+    "answer": [
+      [
+        "$ 38760"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_004",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyser trenden fra år til år for 'brutto kredittap' fra 2007 til 2009.",
+    "answer": [
+      [
+        "De 'brutto kredittapene' viste en betydelig og jevn oppadgående trend fra 2007 til 2009. Tapene økte fra 11 864 millioner dollar i 2007 til 20 760 millioner dollar i 2008, og deretter til 32 784 millioner dollar i 2009, nesten en tredobling over toårsperioden. Dette indikerer en forringende kvalitet på lånene og et dårligere kredittmiljø."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_005",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "Identifiser alle år der 'provision for unfunded lending commitments' (netto avsetningsøkning for ikke-finansierte låneforpliktelser) var et positivt beløp, noe som indikerer en økning i avsetningen.",
+    "answer": [
+      [
+        "2009"
+      ],
+      [
+        "2007"
+      ]
+    ],
+    "evidence_cells": [
+      "B12",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_006",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "I 2009, hvilken prosentandel av 'total ressurshjemfall for kredittap' utgjorde 'netto spesifikke reserveoppbygginger (frigjøringer)'? Oppgi svaret avrundet til to desimaler.",
+    "answer": [
+      [
+        "5.88%"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_81377f79e1_007",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "Hvis 'gross recoveries' i 2009 hadde økt med 10%, hva ville de omregnede 'net credit ( losses ) recoveries ( ncls )' ha vært for det året, i millioner dollar?",
+    "answer": [
+      [
+        "-30536.7"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_008",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyser sammenhengen mellom størrelsen på 'ncls' (netto kredittap) og 'total hensættelse for kredittap' over treårsperioden. Er det en merkbar korrelasjon?",
+    "answer": [
+      [
+        "Ja, det er en sterk positiv korrelasjon. Ettersom størrelsen på 'ncls' (netto kredittap) øker hvert år, fra 9 926 millioner dollar i 2007 til 30 741 millioner dollar i 2009, stiger også 'total hensættelse for kredittap' fra 16 832 millioner dollar til 38 760 millioner dollar. Dette antyder at ettersom banken opplever høyere nettotap, øker den tilsvarende hensættelsen for å dekke disse og forventede fremtidige tap."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_81377f79e1_009",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "open_ended_reasoning",
+    "question": "Tabellen antyder et forhold mellom slutten av året og begynnelsen av neste år for 'tillatelse for tap på lån'. Stemmer verdien for 'tillatelse for tap på lån ved slutten av året' for 2007 og 2008 korrekt med 'tillatelse for tap på lån ved begynnelsen av året' for henholdsvis 2008 og 2009?",
+    "answer": [
+      [
+        "Ja, den strukturelle integriteten holder. 'Tillatelse for tap på lån ved slutten av året' for 2007 (16 117 dollar) er identisk med 'tillatelse for tap på lån ved begynnelsen av året' for 2008. Tilsvarende samsvarer tillatelsen ved årets slutt for 2008 (29 616 dollar) med tillatelsen ved begynnelsen av året for 2009."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D10",
+      "C10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_010",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "Når man undersøker 'netto spesifikke reservebygg (frigjøringer)' over de tre årene, hvilket års verdi skiller seg ut som en betydelig avvik sammenlignet med de andre?",
+    "answer": [
+      [
+        "2007"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_81377f79e1_011",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "Hva var den totale avsetningen for lån, leasing og ufinansierte forpliktelser i 2009?",
+    "answer": [
+      [
+        "$37,190"
+      ]
+    ],
+    "evidence_cells": [
+      "A14",
+      "B14"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

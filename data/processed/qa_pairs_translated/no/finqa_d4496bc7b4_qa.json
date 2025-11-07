@@ -1,0 +1,219 @@
+[
+  {
+    "question_id": "finqa_d4496bc7b4_001",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Hva var nettoendringen i forpliktelser til pensjonering av eiendeler i løpet av 2009, beregnet ut fra de opplistede endringene?",
+    "answer": [
+      [
+        "137"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_002",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Hvilken kategori av endring opplevde den største absolutte forskjellen i verdi mellom 2008 og 2009?",
+    "answer": [
+      [
+        "held for sale"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_003",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "I 2009, hvilken prosentandel av de totale positive justeringene (påløpte forpliktelser, avskrivningskostnader og revisjoner) ble tilskrevet 'revisjoner av tidligere estimater'?",
+    "answer": [
+      [
+        "61.39%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_004",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Verifiser om 'forpliktelser til pensjonering av eiendeler per 31. desember 2008' er korrekt beregnet fra startbalansen og de postbeskrevne endringene for det året. Vis din beregning.",
+    "answer": [
+      [
+        "Ja, sluttbalansen for 2008 er korrekt beregnet. Beregningen er: $1134 (start) + $30 (pådratt) - $94 (innfridd) + $66 (akkresjon) + $24 (revisjoner) - $195 (holdt for salg) = $965, som samsvarer med den rapporterte verdien."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_005",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Hvis 'held for sale'-justeringen i 2008 hadde vært null, hva ville forpliktelsene for pensjonering av eiendeler ha vært ved utgangen av 2008?",
+    "answer": [
+      [
+        "$ 1160"
+      ]
+    ],
+    "evidence_cells": [
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_006",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyser og kontraster hoveddriverne for endringen i totale forpliktelser for pensjonsordninger mellom 2008 og 2009.",
+    "answer": [
+      [
+        "I 2008 minket forpliktelsene med 169 millioner dollar, hovedsakelig drevet av en betydelig reduksjon på 195 millioner dollar fra eiendeler 'holdt for salg' og 94 millioner dollar i avgjorte forpliktelser, noe som overgikk tillegget på 120 millioner dollar. I kontrast så 2009 en økning på 137 millioner dollar, overveldende drevet av en stor positiv 'revisjon av tidligere estimater' på 124 millioner dollar, noe som mer enn kompenserte for de 65 millioner dollar i avgjorte forpliktelser."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7",
+      "C1",
+      "C7",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_007",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Hvilken finansiell komponent så en økning på over 100 millioner dollar fra 2008 til 2009, noe som gjorde den til en outlier når det gjelder års-til-års endring?",
+    "answer": [
+      [
+        "revisions to previous estimates"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_008",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Identifiser året hvor 'revisjoner av tidligere estimater' var mer enn fem ganger større enn 'påløpte forpliktelser, inkludert oppkjøp'.",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B5",
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_009",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Basert på de to årene med data, er det et observerbart mønster eller forhold mellom den opprinnelige forpliktelsen og 'akkresjonskostnaden' for det året?",
+    "answer": [
+      [
+        "Ja, det er et observerbart mønster. 'Akkresjonskostnaden' ser ut til å være en relativt stabil prosentandel av startbalansen. I 2008 var den 5,8 % av startbalansen (66 mill. dollar / 1134 mill. dollar), og i 2009 var den 6,6 % (64 mill. dollar / 965 mill. dollar). Dette antyder at akkresjonskostnaden konsekvent beregnes basert på den åpne forpliktelsen, sannsynligvis som en refleksjon av tidsverdien av penger på den langsiktige forpliktelsen."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_010",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvordan bekrefter tabellstrukturen kontinuiteten i balansen for forpliktelser til pensjonering av eiendeler fra slutten av 2008 til begynnelsen av 2009?",
+    "answer": [
+      [
+        "Tabellen demonstrerer kontinuitet ved å vise at verdien for 'forpliktelser til pensjonering av eiendeler per 31. desember' i 2008-kolonnen (965 dollar) er identisk med verdien for 'forpliktelser til pensjonering av eiendeler per 1. januar' i 2009-kolonnen (965 dollar). Dette er en standard regnskapsmessig rullering, der sluttbalansen for én periode blir åpningsbalansen for den neste."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A7",
+      "B1",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_011",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvordan endret de totale forpliktelsene for pensjonering av eiendeler seg fra 2008 til 2009?",
+    "answer": [
+      [
+        "De totale forpliktelsene for pensjonering av eiendeler økte fra 965 millioner dollar i 2008 til 1 102 millioner dollar i 2009."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

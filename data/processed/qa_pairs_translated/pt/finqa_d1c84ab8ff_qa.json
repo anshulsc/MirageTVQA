@@ -1,0 +1,222 @@
+[
+  {
+    "question_id": "finqa_d1c84ab8ff_001",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "Qual ano apresentou o maior ajuste negativo na taxa de imposto de 'impostos sobre operações internacionais'?",
+    "answer": [
+      [
+        "2017"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_002",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "Qual foi a soma de todos os ajustes positivos na taxa de imposto em 2018, excluindo o 'impacto da reforma tributária dos EUA'?",
+    "answer": [
+      [
+        "7.4"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_003",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "No ano com a maior 'taxa de imposto efetiva', qual foi o valor do 'impacto da reforma tributária dos EUA'?",
+    "answer": [
+      [
+        "51.2"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "C12",
+      "D12",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_004",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "open_ended_reasoning",
+    "question": "Descreva a tendência da 'taxa estatutária de imposto' de 2016 a 2018.",
+    "answer": [
+      [
+        "A taxa estatutária de imposto mostra uma tendência de declínio consistente, começando em 20,0% em 2016, diminuindo para 19,3% em 2017 e reduzindo ainda mais para 19,0% em 2018."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_005",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "Liste todas as categorias de ajuste fiscal que tiveram um impacto positivo consistente (ou seja, um valor positivo) na taxa de imposto em todos os três anos apresentados.",
+    "answer": [
+      [
+        "nondeductible expenses"
+      ],
+      [
+        "change in uncertain tax positions"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "A7",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_006",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "Em 2017, qual percentagem do total de ajustes positivos à taxa de imposto foi contribuída pelo 'impacto da reforma tributária dos EUA'?",
+    "answer": [
+      [
+        "87.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5",
+      "C7",
+      "C9",
+      "C11"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_007",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "Se a 'perda na alienação' em 2018 tivesse sido zero em vez de -10,2, qual teria sido a 'taxa efetiva de imposto' para esse ano?",
+    "answer": [
+      [
+        "21.9%"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "B12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_008",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "open_ended_reasoning",
+    "question": "Existe uma correlação estável entre a taxa de imposto estatutária e a taxa de imposto efetiva ao longo dos três anos? Explique seu raciocínio com base nos dados.",
+    "answer": [
+      [
+        "Não, não há uma correlação estável. Enquanto a taxa estatutária diminuiu constantemente de 20,0% para 19,0%, a taxa de imposto efetiva foi altamente volátil, passando de 10,6% em 2016, para um pico de 36,5% em 2017, e depois para 11,7% em 2018. Essa volatilidade indica que a taxa efetiva é impulsionada por itens de ajuste grandes e inconsistentes, como o impacto de 51,2 de 'reforma tributária dos EUA' em 2017, em vez da taxa estatutária."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "A12",
+      "B12",
+      "C12",
+      "D12",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_009",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "Qual item específico de ajuste fiscal contém dados não numéricos para mais de um ano?",
+    "answer": [
+      [
+        "loss on disposition"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "C10",
+      "D10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_010",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "value",
+    "question": "Qual item de ajuste fiscal único em 2017 representa o valor mais discrepante em comparação com todos os outros ajustes naquele ano?",
+    "answer": [
+      [
+        "u.s . tax reform impact"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d1c84ab8ff_011",
+    "table_id": "finqa_d1c84ab8ff",
+    "question_type": "open_ended_reasoning",
+    "question": "Qual foi o aumento da taxa de imposto efetiva de 2016 para 2018?",
+    "answer": [
+      [
+        "A taxa de imposto efetiva aumentou de 10,6% em 2016 para 11,7% em 2018, um aumento de 1,1%"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "D12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

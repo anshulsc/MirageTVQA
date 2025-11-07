@@ -1,0 +1,270 @@
+[
+  {
+    "question_id": "finqa_ee929b55fc_001",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Tahsis edilen defter değerinin yüzdesi olarak en yüksek gerçeğe uygun değere sahip raporlama birimi hangisidir?",
+    "answer": [
+      [
+        "transaction services"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_002",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Adında 'bankacılık' terimini içeren tüm raporlama birimlerinin toplam şerefiyesi nedir?",
+    "answer": [
+      [
+        "19960"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_003",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "En düşük ikinci gerçeğe uygun değer yüzdesine sahip raporlama biriminin şerefiyesi nedir?",
+    "answer": [
+      [
+        "65"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_004",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Goodwill değeri 4.000 $'dan fazla ve gerçeğe uygun değer yüzdesi %400'ün altında olan tüm raporlama birimlerini listeleyin.",
+    "answer": [
+      [
+        "asia regional consumer banking"
+      ],
+      [
+        "securities and banking"
+      ],
+      [
+        "local consumer lending 2014cards"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_005",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Tüm raporlama birimlerinin toplam şerefiye değerinin ne kadarı 'asia regional consumer banking'e aittir? Cevabı, virgülden sonra tek hane olacak şekilde yuvarlanmış bir yüzde olarak belirtin.",
+    "answer": [
+      [
+        "23.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_006",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "'local consumer lending 2014cards' için şerefiye değeri, bir değer düşüklüğü karşılığı nedeniyle %25 azalsaydı, yeni şerefiye değeri ne olurdu?",
+    "answer": [
+      [
+        "3420"
+      ]
+    ],
+    "evidence_cells": [
+      "C8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_007",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "open_ended_reasoning",
+    "question": "Verilere göre, yüksek bir şerefiye değeri ile yüksek bir 'adil değerin yüzdesi' arasında açık bir pozitif korelasyon var mı? Gerekçeli bir analiz sunun.",
+    "answer": [
+      [
+        "Hayır, açık bir pozitif korelasyon bulunmamaktadır. Örneğin, 'işlem hizmetleri' açık ara en yüksek 'adil değerin yüzdesi'ne sahiptir (1716) ancak nispeten orta düzeyde bir şerefiyeye sahiptir ($1567). Tersine, 'menkul kıymetler ve bankacılık' en yüksek şerefiyeye sahiptir ($9259) ancak adil değer yüzdesi olarak sadece dördüncü en yüksek değere sahiptir (223). Bu durum, bir metriğin yüksek değerinin diğerinde yüksek bir değere sürekli olarak karşılık gelmediğini göstermektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_008",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Hangi raporlama biriminin 'adil değerinin %' oranı belirgin bir aykırı değerdir ve bu birim tüm birimlerin medyan adil değer yüzdesinden kaç kat daha büyüktür? Faktörü en yakın tam sayıya yuvarlayın.",
+    "answer": [
+      [
+        "transaction services",
+        "9"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_009",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "open_ended_reasoning",
+    "question": "En düşük şerefiye değerlerine sahip dört raporlama biriminin isimlerinde ortak tema nedir?",
+    "answer": [
+      [
+        "En düşük şerefiyeye sahip dört birim ('brokerage and asset management', 'emea regional consumer banking', 'transaction services' ve 'latin america regional consumer banking') isimlerinde 'north america' veya 'asia' içermezler ve ya ABD dışı bölgeleri ya da belirli bölgesel olmayan hizmet kollarını temsil ederler."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A6",
+      "C6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_010",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Dört 'bölgesel tüketici bankacılığı' biriminden hangisi, gerçeğe uygun değerin yüzde puanı başına düşen en yüksek şerefiye miktarına sahiptir?",
+    "answer": [
+      [
+        "asia regional consumer banking"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_011",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Tüm bölgeler arasında en yüksek şerefiye hangi raporlama birimine aitti?",
+    "answer": [
+      [
+        "Securities and Banking"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

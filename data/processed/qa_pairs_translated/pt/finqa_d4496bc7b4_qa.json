@@ -1,0 +1,219 @@
+[
+  {
+    "question_id": "finqa_d4496bc7b4_001",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Qual foi a variação líquida nas obrigações de desativação de ativos durante 2009, calculada a partir das alterações detalhadas fornecidas?",
+    "answer": [
+      [
+        "137"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_002",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Qual categoria de alteração apresentou a maior diferença absoluta de valor entre 2008 e 2009?",
+    "answer": [
+      [
+        "held for sale"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_003",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Em 2009, qual percentual dos ajustes positivos totais (obrigações incorridas, despesa de acréscimo e revisões) foi atribuível a 'revisões de estimativas anteriores'?",
+    "answer": [
+      [
+        "61.39%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_004",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Verifique se as 'obrigações de desativação de ativos em 31 de dezembro de 2008' foram calculadas corretamente a partir do saldo inicial e das alterações detalhadas para aquele ano. Mostre o seu cálculo.",
+    "answer": [
+      [
+        "Sim, o saldo final de 2008 está corretamente calculado. O cálculo é: $1134 (início) + $30 (incorridos) - $94 (liquidados) + $66 (acréscimo) + $24 (revisões) - $195 (mantidos para venda) = $965, o que corresponde ao valor reportado."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_005",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Se o ajuste 'mantido para venda' em 2008 tivesse sido zero, quais teriam sido as obrigações de desativação de ativos no final de 2008?",
+    "answer": [
+      [
+        "$ 1160"
+      ]
+    ],
+    "evidence_cells": [
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_006",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Analise e contraste os principais impulsionadores da mudança nas obrigações totais de descomissionamento de ativos entre 2008 e 2009.",
+    "answer": [
+      [
+        "Em 2008, as obrigações diminuíram em US$ 169 milhões, impulsionadas principalmente por uma redução significativa de US$ 195 milhões de ativos 'mantidos para venda' e US$ 94 milhões em passivos liquidados, que superaram os US$ 120 milhões em adições. Em contraste, 2009 viu um aumento de US$ 137 milhões, impulsionado esmagadoramente por uma grande 'revisão de estimativas anteriores' positiva de US$ 124 milhões, que compensou mais do que os US$ 65 milhões em passivos liquidados."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7",
+      "C1",
+      "C7",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_007",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Qual componente financeiro teve um aumento de mais de US$ 100 milhões de 2008 a 2009, tornando-se um outlier em termos de variação ano a ano?",
+    "answer": [
+      [
+        "revisions to previous estimates"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_008",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Identifique o ano em que as 'revisões de estimativas anteriores' foram mais de cinco vezes maiores do que as 'obrigações incorridas, incluindo aquisições'.",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B5",
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_009",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Com base nos dois anos de dados, existe um padrão observável ou relação entre a obrigação inicial e a 'despesa de accreção' para esse ano?",
+    "answer": [
+      [
+        "Sim, existe um padrão observável. A 'despesa de accreção' parece ser uma percentagem relativamente estável do saldo inicial. Em 2008, foi 5,8% do saldo inicial (66 M€ / 1134 M€) e, em 2009, foi 6,6% (64 M€ / 965 M€). Isto sugere que a despesa de accreção é calculada consistentemente com base na obrigação de abertura, refletindo provavelmente o valor temporal do dinheiro sobre o passivo de longo prazo."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_010",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Como a estrutura da tabela confirma a continuidade do saldo das obrigações de desativação de ativos do final de 2008 para o início de 2009?",
+    "answer": [
+      [
+        "A tabela demonstra a continuidade ao mostrar que o valor para 'obrigações de desativação de ativos em 31 de dezembro' na coluna de 2008 ($ 965) é idêntico ao valor para 'obrigações de desativação de ativos em 1º de janeiro' na coluna de 2009 ($ 965). Esta é uma apresentação padrão de 'roll-forward' contábil, onde o saldo final de um período se torna o saldo inicial do período seguinte."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A7",
+      "B1",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_011",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Como as obrigações totais de desativação de ativos mudaram de 2008 para 2009?",
+    "answer": [
+      [
+        "As obrigações totais de desativação de ativos aumentaram de US$ 965 milhões em 2008 para US$ 1.102 milhões em 2009."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

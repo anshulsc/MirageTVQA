@@ -1,0 +1,260 @@
+[
+  {
+    "question_id": "finqa_7bdb66e2c9_001",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Hvilken garantitype viser den største absolutte forskjellen i milliarder dollar mellom sine potensielle betalinger med 'investment grade' og 'non-investment grade'?",
+    "answer": [
+      [
+        "financial standby letters of credit"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_002",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Hva er det totale potensielle betalingsbeløpet for alle garantityper som har en verdi for 'investment grade' men en plassholder ('2014') for 'ikke vurdert'?",
+    "answer": [
+      [
+        "21.6"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "D8",
+      "E8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_003",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "For garantitypen med den høyeste totale potensielle betalingen, hvilken vurderingskategori ('investment grade', 'non-investment grade' eller 'ikke vurdert') utgjør den største andelen av den totalen?",
+    "answer": [
+      [
+        "maximum potential amount of future payments investment grade"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_004",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Hvilken prosentandel av det totale maksimale potensialet for fremtidige betalinger er klassifisert som 'ikke vurdert'?",
+    "answer": [
+      [
+        "63.89%"
+      ]
+    ],
+    "evidence_cells": [
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_005",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Hvis \"ikke rangert\"-beløpet for \"verdipapirlånerstatninger\" ble oppdaget å være 10 % lavere enn oppgitt, hva ville den nye totalsummen for alle garantier vært?",
+    "answer": [
+      [
+        "$ 300.14"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_006",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Hva er det gjennomsnittlige 'totale' potensielle utbetalingsbeløpet for garantityper som har null eller plassholder ('2014') verdier for både 'investment grade' og 'non-investment grade' ratings?",
+    "answer": [
+      [
+        "34.62"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "E3",
+      "B4",
+      "C4",
+      "E4",
+      "B5",
+      "C5",
+      "E5",
+      "B6",
+      "C6",
+      "E6",
+      "B7",
+      "C7",
+      "E7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_007",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Hvilken betalingsvurderingskolonne ('investment grade', 'non-investment grade', eller 'ikke vurdert') inneholder flest ikke-numeriske plassholderverdier ('2014')?",
+    "answer": [
+      [
+        "maximum potential amount of future payments investment grade"
+      ],
+      [
+        "maximum potential amount of future payments non-investment grade"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_008",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "open_ended_reasoning",
+    "question": "Basert på de oppgitte dataene, identifiser det mest betydningsfulle avviket i kolonnen 'maksimalt potensiell totalt beløp for fremtidige betalinger' og forklar hvorfor det skiller seg ut.",
+    "answer": [
+      [
+        "Kategorien 'finansielle standby-remburser', med et totalt beløp på 94,2 milliarder dollar, er det mest betydningsfulle uteliggende positive avviket. Denne verdien er omtrent 38,4 % høyere enn neste største kategori ('derivatkontrakter til en verdi av 67,9 milliarder dollar') og er mer enn 2,4 ganger gjennomsnittet av alle kategorier (38,11 milliarder dollar). Motsatt er 'garantier for innkreving av kontraktlige kontantstrømmer' og 'solgte lån med regress' betydelige negative avvik på kun 0,3 milliarder dollar hver."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_009",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyser fordelingen av potensielle betalinger på tvers av de tre kredittvurderingsgradene for 'ytelsesgarantier' og 'depotgarantier og andre'. Hva antyder denne sammenligningen om risikoprofilene til disse to garantitypene?",
+    "answer": [
+      [
+        "For 'ytelsesgarantier' er beløpene relativt jevnt fordelt på investeringsgrad ($5,7 milliarder), ikke-investeringsgrad ($5,0 milliarder) og ikke vurdert ($5,6 milliarder), noe som tyder på en diversifisert risikoprofil. I kontrast er 'depotgarantier og andre' tungt vektet mot investeringsgrad ($18,5 milliarder), med en mye mindre del ikke-investeringsgrad ($3,1 milliarder) og ingen beløp som er 'ikke vurdert'. Dette innebærer at 'depotgarantier' er knyttet til motparter med betydelig lavere kredittrisiko sammenlignet med 'ytelsesgarantier'."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A8",
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_010",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "open_ended_reasoning",
+    "question": "Er det en konsekvent, observerbar sammenheng mellom beløpene for 'investeringsgrad' og 'ikke-investeringsgrad' potensielle betalinger på tvers av de forskjellige garantitypene? Forklar resonnementet ditt.",
+    "answer": [
+      [
+        "Nei, det er ingen konsekvent, observerbar sammenheng. Med bare tre kategorier som har numeriske verdier for begge kolonnene, er dataene for sparsomme til å etablere et pålitelig mønster. 'Finansielle standby-remburser' har et høyt investeringsgradbeløp ($49,2 milliarder) parret med et høyt ikke-investeringsgradbeløp ($28,6 milliarder). 'Ytelsesgarantier' har lignende verdier for begge ($5,7 milliarder og $5,0 milliarder). Imidlertid har 'depot-skadesløsholdelser' et høyt investeringsgradbeløp ($18,5 milliarder), men et veldig lavt ikke-investeringsgradbeløp ($3,1 milliarder), noe som motsier enhver enkel positiv korrelasjon antydet av de to andre punktene. De mange plassholderverdiene forhindrer en mer grundig analyse."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_011",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Hvilken har det maksimale potensielle beløpet for fremtidige betalinger for investeringsgrad?",
+    "answer": [
+      [
+        "Financial standby letters of credit"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

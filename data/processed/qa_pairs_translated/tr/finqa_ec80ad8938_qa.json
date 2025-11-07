@@ -1,0 +1,186 @@
+[
+  {
+    "question_id": "finqa_ec80ad8938_001",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Sunulan her iki veri setinde de raporlanan tüm varlıklar (hem alım satım varlıkları hem de krediler) için toplam defter değeri nedir?",
+    "answer": [
+      [
+        "26557"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_002",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "İkinci veri setinde (D ve E sütunları), hangi varlık kategorisinin—alım satım varlıkları mı yoksa kredilerin mi—'gerçeğe uygun değeri aşan toplam ödenmemiş anapara bakiyesi' daha fazladır?",
+    "answer": [
+      [
+        "loans"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_003",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "İlk kredi grubu için (C sütunu), toplam 'defter değeri'nin yüzde kaçını 'tahakkuk etmeyen kredilerin bakiyesi' oluşturmaktadır?",
+    "answer": [
+      [
+        "0.03%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_004",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Her iki veri setinde de daha düşük toplam 'tahsili gecikmiş krediler bakiyesi'ne sahip olan varlık türünün (Alım Satım Varlıkları veya Krediler) birleşik defter değeri nedir?",
+    "answer": [
+      [
+        "7598"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_005",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Tahsili gecikmiş veya vadesi 90 günü geçmiş kredilerin bakiyesi'nin tam olarak 1 milyon dolar olduğu tüm varlık portföylerinin defter değerlerini listeleyin.",
+    "answer": [
+      [
+        "$ 3224"
+      ],
+      [
+        "$ 4374"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C3",
+      "E3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_006",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "İlk veri setindeki (B sütunu) ticari varlıklar için defter değeri, 'gerçeğe uygun değerin üzerindeki toplam ödenmemiş anapara bakiyesi' çıkarılarak düzeltilseydi, yeni defter değeri ne olurdu?",
+    "answer": [
+      [
+        "9673"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_007",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "'Tahakkuk etmeyen kredilerin bakiyesi'ni analiz ederken, diğerine kıyasla hangi varlık türünün bakiyesi önemli bir aykırı değerdir ve bu, onların göreceli risk profilleri hakkında ne anlama geliyor?",
+    "answer": [
+      [
+        "Her iki veri setindeki Ticari Varlıklar, 2.014 milyon dolarlık tahakkuk etmeyen bakiye göstermektedir; bu, her iki setteki Krediler için 1 milyon dolarlık bakiyeye kıyasla aşırı bir aykırı değerdir. Bu keskin fark, Ticari Varlıklar portföyünün önemli ölçüde daha yüksek kredi riski taşıdığını veya büyük bir temerrüt olayı yaşadığını düşündürmektedir; oysa Krediler portföyü, neredeyse hiç tahakkuk etmeyen bakiye olmamasıyla olağanüstü derecede sağlıklı görünmektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_008",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Veriler, Ticaret Varlıkları kategorisi için bir varlığın 'defter değeri' ile 'gerçeğe uygun değerin üzerindeki toplam ödenmemiş anapara bakiyesi' arasında tutarlı bir pozitif korelasyon gösteriyor mu?",
+    "answer": [
+      [
+        "Hayır, tutarlı bir pozitif korelasyon gösterilmemektedir. İlk ticaret varlıkları grubunun defter değeri daha yüksekken (10.108 milyon $ vs 8.851 milyon $), gerçeğe uygun değerin üzerindeki toplam ödenmemiş anapara bakiyesi daha düşüktür (435 milyon $ vs 623 milyon $). Bu durum, daha büyük bir portföy büyüklüğünün bu veri setinde orantılı olarak daha büyük bir gerçekleşmemiş zarara yol açmayabileceğini göstermektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_009",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Tekrarlanan veya görünüşte gereksiz veri noktaları içeren satırları belirleyin ve deseni açıklayın.",
+    "answer": [
+      [
+        "Veri tekrarı 3. ve 4. satırlarda mevcuttur. 3. satırda, 'tahakkuk etmeyen kredilerin bakiyesi...'nde, ticari varlıklar için değer her iki sette de (B3, D3) 2.014 milyon dolar ve krediler için her iki sette de (C3, E3) 1 milyon dolar olarak görülmektedir. 4. satırda ise, 2.014 milyon dolarlık değer, hem ticari varlıkların her iki seti hem de kredilerin ilk seti için üç kez tekrarlanmaktadır (B4, C4, D4), bu durum ya bir veri girişi düzenini ya da belirli bir finansal raporlama özelliğini düşündürmektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_010",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Daha yüksek toplam defter değerine sahip veri seti için (Set 1: B,C sütunları veya Set 2: D,E sütunları), portföyün genel 'gerçekleşmemiş zarar yüzdesini' (toplam 'gerçeğe uygun değerin üzerindeki ödenmemiş anapara bakiyesi' bölü toplam 'defter değeri') hesaplayın.",
+    "answer": [
+      [
+        "8.82%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

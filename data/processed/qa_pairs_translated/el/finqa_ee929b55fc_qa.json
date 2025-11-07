@@ -1,0 +1,270 @@
+[
+  {
+    "question_id": "finqa_ee929b55fc_001",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Ποια μονάδα αναφοράς έχει την υψηλότερη εύλογη αξία ως ποσοστό της κατανεμημένης λογιστικής της αξίας;",
+    "answer": [
+      [
+        "transaction services"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_002",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Ποια είναι η συνολική υπεραξία για όλες τις μονάδες αναφοράς των οποίων το όνομα περιλαμβάνει τον όρο «banking»;",
+    "answer": [
+      [
+        "19960"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_003",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Ποια είναι η υπεραξία της μονάδας αναφοράς με το δεύτερο χαμηλότερο ποσοστό εύλογης αξίας;",
+    "answer": [
+      [
+        "65"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_004",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Αναφέρετε όλες τις μονάδες αναφοράς που έχουν υπεραξία (goodwill) μεγαλύτερη από 4.000 $ και ποσοστό εύλογης αξίας (fair value) κάτω του 400%.",
+    "answer": [
+      [
+        "asia regional consumer banking"
+      ],
+      [
+        "securities and banking"
+      ],
+      [
+        "local consumer lending 2014cards"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_005",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Ποιο ποσοστό της συνολικής υπεραξίας από όλες τις μονάδες αναφοράς αποδίδεται στην «Περιφερειακή Καταναλωτική Τραπεζική Ασίας»; Δώστε την απάντηση ως ποσοστό στρογγυλοποιημένο στο ένα δεκαδικό ψηφίο.",
+    "answer": [
+      [
+        "23.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_006",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Εάν η υπεραξία για την 'local consumer lending 2014cards' μειωνόταν κατά 25% λόγω χρέωσης απομείωσης, ποια θα ήταν η νέα της αξία υπεραξίας;",
+    "answer": [
+      [
+        "3420"
+      ]
+    ],
+    "evidence_cells": [
+      "C8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_007",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "open_ended_reasoning",
+    "question": "Με βάση τα δεδομένα, υπάρχει σαφής θετική συσχέτιση μεταξύ μιας υψηλής αξίας υπεραξίας (goodwill) και μιας υψηλής 'εύλογης αξίας ως %'; Παρέχετε μια τεκμηριωμένη ανάλυση.",
+    "answer": [
+      [
+        "Όχι, δεν υπάρχει σαφής θετική συσχέτιση. Για παράδειγμα, η 'transaction services' έχει την υψηλότερη 'εύλογη αξία ως %' με σημαντική διαφορά (1716) αλλά μια σχετικά μέτρια υπεραξία (1567 $). Αντίθετα, η 'securities and banking' έχει την υψηλότερη υπεραξία (9259 $) αλλά μόνο το τέταρτο υψηλότερο ποσοστό εύλογης αξίας (223). Αυτό καταδεικνύει ότι μια υψηλή τιμή στη μία μέτρηση δεν αντιστοιχεί σταθερά σε μια υψηλή τιμή στην άλλη."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_008",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Προσδιορίστε την αναφερόμενη μονάδα της οποίας η «εύλογη αξία σε %» είναι μια σημαντική ακραία τιμή, και κατά πόσο παράγοντα είναι μεγαλύτερη από τη διάμεση ποσοστιαία εύλογη αξία όλων των μονάδων; Στρογγυλοποιήστε τον παράγοντα στον πλησιέστερο ακέραιο.",
+    "answer": [
+      [
+        "transaction services",
+        "9"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_009",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "open_ended_reasoning",
+    "question": "Τι κοινό θέμα υπάρχει στα ονόματα των τεσσάρων μονάδων αναφοράς με τις χαμηλότερες τιμές υπεραξίας;",
+    "answer": [
+      [
+        "Οι τέσσερις μονάδες με τη χαμηλότερη υπεραξία ('brokerage and asset management', 'emea regional consumer banking', 'transaction services' και 'latin america regional consumer banking') δεν περιλαμβάνουν τα 'north america' ή 'asia' στα ονόματά τους και αντιπροσωπεύουν είτε μη-ΗΠΑ περιοχές είτε συγκεκριμένες μη-περιφερειακές γραμμές υπηρεσιών."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A6",
+      "C6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_010",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Ποια από τις τέσσερις μονάδες «περιφερειακής λιανικής τραπεζικής» έχει το υψηλότερο ποσό υπεραξίας ανά ποσοστιαία μονάδα εύλογης αξίας;",
+    "answer": [
+      [
+        "asia regional consumer banking"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_011",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Ποια μονάδα αναφοράς είχε την υψηλότερη υπεραξία μεταξύ όλων των περιοχών;",
+    "answer": [
+      [
+        "Securities and Banking"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

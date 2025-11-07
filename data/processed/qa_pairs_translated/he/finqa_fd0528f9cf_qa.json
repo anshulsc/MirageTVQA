@@ -1,0 +1,226 @@
+[
+  {
+    "question_id": "finqa_fd0528f9cf_001",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "בשנת 2008, באחוזים 'סך ההוצאות התפעוליות' עלו על 'סך ההכנסות בניכוי הוצאות ריבית'?",
+    "answer": [
+      [
+        "109.65%"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_002",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "מה היה שיעור הרווח הגולמי (מוגדר כ'הכנסה מפעילות שוטפת לפני מסים' חלקי 'סך ההכנסות נטו מהוצאות ריבית') בשנה עם 'הכנסות ריבית נטו' הנמוכות ביותר?",
+    "answer": [
+      [
+        "76.61%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "B3",
+      "B10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_003",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "איזה מדד פיננסי חווה את השיפור המוחלט הגדול ביותר (שינוי חיובי) בערך דולרי בין 2008 ל-2009?",
+    "answer": [
+      [
+        "income ( loss ) from continuing operations before taxes"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_004",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "open_ended_reasoning",
+    "question": "תאר את המהפך הפיננסי של החברה בין 2008 ל-2009, תוך התייחסות למגמות בהכנסות כוללות, הוצאות תפעוליות ורווח נקי.",
+    "answer": [
+      [
+        "החברה ביצעה מהפך פיננסי יוצא דופן בין 2008 ל-2009. ההכנסות הכוללות זינקו ב-80%, מ-8,423 מיליון דולר ל-15,135 מיליון דולר. במקביל, ההוצאות התפעוליות הכוללות הופחתו באופן דרסטי ב-64%, מירידה של 9,236 מיליון דולר ל-3,350 מיליון דולר. השילוב של צמיחה בהכנסות וקיצוץ משמעותי בהוצאות הפך הפסד נקי של 585 מיליון דולר ב-2008 לרווח נקי משמעותי של 7,095 מיליון דולר ב-2009."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "E3",
+      "B4",
+      "C4",
+      "E4",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_005",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "ציין את כל המדדים הפיננסיים שדיווחו על ערך שלילי (הפסד או הטבה) בשנת 2008 אך על ערך חיובי בשנת 2009.",
+    "answer": [
+      [
+        "income ( loss ) from continuing operations before taxes"
+      ],
+      [
+        "income taxes ( benefits )"
+      ],
+      [
+        "income ( loss ) from continuing operations"
+      ],
+      [
+        "net income ( loss ) attributable to noncontrolling interests"
+      ],
+      [
+        "net income ( loss )"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10",
+      "A11",
+      "B11",
+      "C11",
+      "A12",
+      "B12",
+      "C12",
+      "A13",
+      "B13",
+      "C13",
+      "A14",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_006",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "מה היו 'סך הוצאות התפעול' הממוצעות במיליוני דולרים בשלוש השנים שסופקו (2007, 2008, 2009)?",
+    "answer": [
+      [
+        "$6848.67"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_007",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "אם השינוי באחוזים 'שינוי 2009 לעומת 2008' עבור 'הכנסות ריבית נטו' היה ירידה של 50% במקום ירידה של 65%, מה היו 'סך ההכנסות בניכוי הוצאות ריבית' לשנת 2009, בהנחה ש'הכנסות שאינן ריבית' נותרו ללא שינוי?",
+    "answer": [
+      [
+        "$15315"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "E1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_008",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "open_ended_reasoning",
+    "question": "נתח את הקשר בין 'נכסי קצה תקופה' (eop assets) לבין 'פיקדונות קצה תקופה' (eop deposits) של החברה בין השנים 2007 ל-2009 והסק שינוי אסטרטגי אפשרי.",
+    "answer": [
+      [
+        "בין השנים 2007 ל-2009, קיימת קורלציה הפוכה בין נכסי קצה תקופה לפיקדונות קצה תקופה. בעוד שהנכסים ירדו מ-56 מיליארד דולר ל-35 מיליארד דולר, הפיקדונות צמחו מ-46 מיליארד דולר ל-60 מיליארד דולר. הדבר מרמז על שינוי אסטרטגי משמעותי הרחק מהחזקת נכסים והתחזקות בסיס הפיקדונות, אולי כדי לשפר נזילות, להפחית סיכונים, ולהתמקד בפעילות בנקאית ליבה בתקופה של טרנספורמציה פיננסית."
+      ]
+    ],
+    "evidence_cells": [
+      "B15",
+      "C15",
+      "D15",
+      "B16",
+      "C16",
+      "D16"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_009",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "open_ended_reasoning",
+    "question": "איזו נקודת נתונים ספציפית בעמודות '% שינוי' נראית כערך חריג, שאינו תואם את פורמט האחוזים הנראה בתאים אחרים?",
+    "answer": [
+      [
+        "הערך '2014' עבור 'הפסדי אשראי נטו' תחת עמודת '% שינוי 2008 לעומת 2007' הוא חריג, מכיוון שהוא מספר שלם גדול ולא אחוז."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "F5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_010",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "כמה מדדים פיננסיים מסומנים כ-'nm' (לא משמעותי) בעמודת '% שינוי 2009 לעומת 2008', המצביעים על חוסר יכולת לחשב שינוי באחוזים סטנדרטי?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E6",
+      "E10",
+      "E11",
+      "E12",
+      "E13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_011",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "מהו השינוי באחוזים בהכנסות הריבית נטו משנת 2007 עד 2008?",
+    "answer": [
+      [
+        "35%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

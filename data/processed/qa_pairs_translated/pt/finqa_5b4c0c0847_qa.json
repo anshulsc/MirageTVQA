@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "finqa_5b4c0c0847_001",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "Qual componente de capital (excluindo totais, ativos e rácios) registou o maior aumento absoluto em valor em dólares de 2012 a 2013?",
+    "answer": [
+      [
+        "basel i tier 1 common capital"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_002",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "Qual foi o total líquido de todos os 'ajustes de capital regulatório' em milhões de dólares para o ano de 2013?",
+    "answer": [
+      [
+        "-1028"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_003",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "Qual foi a percentagem de crescimento do 'Capital comum de Nível 1 totalmente implementado da Basileia III estimado' que superou o crescimento do 'Capital comum de Nível 1 da Basileia I' entre 2012 e 2013? Arredonde para uma casa decimal.",
+    "answer": [
+      [
+        "40.2%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_004",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "open_ended_reasoning",
+    "question": "Analise a variação ano a ano na posição de capital da empresa de 2012 a 2013, considerando tanto as razões de capital quanto seus componentes subjacentes.",
+    "answer": [
+      [
+        "A empresa fortaleceu significativamente sua posição de capital de 2012 a 2013. A Razão de Capital Comum Tier 1 Avançado Pro Forma do Basileia III aumentou de 7,5% para 9,5%. Essa melhoria foi impulsionada por dois fatores: um aumento substancial no capital comum Tier 1 estimado (de US$ 22.501 milhões para US$ 27.456 milhões) e uma diminuição simultânea nos ativos ponderados pelo risco estimados (de US$ 301.006 milhões para US$ 290.080 milhões). A introdução da razão da Abordagem Padronizada em um forte 9,4% em 2013 reforça ainda mais essa adequação de capital aprimorada."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_005",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "Identifique todos os itens de linha que tiveram um valor negativo em 2012 e um valor positivo em 2013.",
+    "answer": [
+      [
+        "all other adjustments"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_006",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "Qual foi o 'Capital social de nível 1 totalmente implementado da Basileia III estimado' como percentagem do 'Capital social de nível 1 da Basileia I' para o ano de 2012? Arredonde para o percentual inteiro mais próximo.",
+    "answer": [
+      [
+        "90%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_007",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "Se o ajuste 'Limites quantitativos da Basileia III' para 2013 tivesse sido de -2.000 milhões em vez do valor reportado, qual teria sido o novo 'Capital comum principal estimado totalmente implementado da Basileia III' para esse ano?",
+    "answer": [
+      [
+        "$ 26842"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_008",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "open_ended_reasoning",
+    "question": "O que os dados sugerem sobre a relação entre a variação nos 'Ativos Ponderados por Risco Estimados pelas Abordagens Avançadas do Basileia III' e o 'Índice de Capital Comum Nível 1 Estimado pelas Abordagens Avançadas do Basileia III Pro Forma com Implementação Completa' entre 2012 e 2013?",
+    "answer": [
+      [
+        "Os dados sugerem uma relação inversa. Entre 2012 e 2013, os Ativos Ponderados por Risco Estimados (o denominador da razão) diminuíram de US$ 301.006 milhões para US$ 290.080 milhões. Concomitantemente, o Índice de Capital Comum Nível 1 (o resultado de Capital / RWA) aumentou de 7,5% para 9,5%. Isso indica que uma redução nos ativos ponderados por risco contribuiu positivamente para a melhoria do índice de capital."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_009",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "Quais duas métricas relacionadas à 'Abordagem Padronizada' foram reportadas para 2013, mas foram marcadas como não aplicáveis ('n/a') para 2012?",
+    "answer": [
+      [
+        "estimated basel iii standardized approach risk-weighted assets"
+      ],
+      [
+        "pro forma fully phased-in basel iii standardized approach tier 1 common capitalratio"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C9",
+      "A10",
+      "C10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_010",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "Qual item de ajuste de capital específico mostrou uma mudança ano a ano que impactou negativamente o cálculo do capital e qual foi o valor dessa mudança negativa?",
+    "answer": [
+      [
+        "accumulated other comprehensive income ( a )",
+        "-$80 million"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_011",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "open_ended_reasoning",
+    "question": "Se os ativos ponderados pelo risco do banco sob as abordagens avançadas diminuíssem enquanto seu capital comum de nível 1 permanecesse o mesmo, o que aconteceria com o índice de capital comum de nível 1?",
+    "answer": [
+      [
+        "O índice de capital comum de nível 1 aumentaria, pois ativos ponderados pelo risco menores com o mesmo capital resultam em um índice de capital mais alto."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A8",
+      "B8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  }
+]

@@ -1,0 +1,186 @@
+[
+  {
+    "question_id": "finqa_ec80ad8938_001",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Jaka jest całkowita wartość bilansowa wszystkich aktywów (zarówno aktywów obrotowych, jak i kredytów) wykazana w obu przedstawionych zbiorach danych?",
+    "answer": [
+      [
+        "26557"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_002",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "W drugim zestawie danych (kolumny D i E), która kategoria aktywów — aktywa handlowe czy kredyty — ma większą „łączną niezapłaconą kwotę główną przekraczającą wartość godziwą”?",
+    "answer": [
+      [
+        "loans"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_003",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Dla pierwszego zestawu kredytów (kolumna C), jaki procent całkowitej 'kwoty bilansowej' stanowi 'saldo niespłacanych kredytów'?",
+    "answer": [
+      [
+        "0.03%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_004",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Jaka jest łączna kwota księgowa typu aktywów (aktywa handlowe lub kredyty), które mają niższą całkowitą 'saldo niespłaconych kredytów lub kredytów przeterminowanych o ponad 90 dni' w obu zbiorach danych?",
+    "answer": [
+      [
+        "7598"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_005",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Wymień kwoty bilansowe dla wszystkich portfeli aktywów, w których 'saldo kredytów niespłacanych lub kredytów przeterminowanych o ponad 90 dni' wynosi dokładnie 1 milion dolarów.",
+    "answer": [
+      [
+        "$ 3224"
+      ],
+      [
+        "$ 4374"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C3",
+      "E3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_006",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Gdyby wartość bilansowa aktywów handlowych w pierwszym zbiorze danych (kolumna B) została skorygowana o odjęcie jej 'agregowanej niespłaconej kwoty głównej przewyższającej wartość godziwą', jaka byłaby nowa wartość bilansowa?",
+    "answer": [
+      [
+        "9673"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_007",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Analizując „saldo kredytów nieoprocentowanych”, którego typ aktywów ma saldo będące znaczącym odstającym w porównaniu do pozostałych i co to sugeruje na temat ich względnych profili ryzyka?",
+    "answer": [
+      [
+        "Aktywa handlowe w obu zbiorach danych wykazują saldo nieoprocentowanych kredytów w wysokości 2014 mln USD, co stanowi ekstremalne odstępstwo w porównaniu do 1 mln USD dla Kredytów w obu zbiorach. Ta rażąca różnica sugeruje, że portfel Aktywów handlowych ponosi znacznie wyższe ryzyko kredytowe lub doświadczył poważnego zdarzenia związanego z niewypłacalnością, podczas gdy portfel Kredytów wydaje się być w wyjątkowo dobrej kondycji z prawie zerowymi saldami nieoprocentowanych kredytów."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_008",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Czy dane pokazują spójną pozytywną korelację między „wartością księgową” aktywów a ich „łącznym saldem należności nieuregulowanej przekraczającym wartość godziwą” dla kategorii Aktywa Handlowe?",
+    "answer": [
+      [
+        "Nie, nie pokazano spójnej pozytywnej korelacji. Pierwszy zestaw aktywów handlowych ma wyższą wartość księgową (10 108 mln USD w porównaniu do 8 851 mln USD), ale niższe łączne saldo należności nieuregulowanej przekraczające wartość godziwą (435 mln USD w porównaniu do 623 mln USD). Sugeruje to, że większy rozmiar portfela niekoniecznie prowadzi do proporcjonalnie większej niezrealizowanej straty w tym zbiorze danych."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_009",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Wskaż wiersze zawierające powtórzone lub pozornie zbędne dane i wyjaśnij wzorzec.",
+    "answer": [
+      [
+        "Nadmiarowość danych występuje w wierszach 3 i 4. W wierszu 3, 'saldo kredytów niezalegających z płatnością lub kredytów z opóźnieniem powyżej 90 dni...', wartość dla aktywów handlowych wynosi 2 014 mln USD w obu zestawach (B3, D3) i 1 mln USD dla kredytów w obu zestawach (C3, E3). W wierszu 4 wartość 2 014 mln USD powtarza się trzy razy dla obu zestawów aktywów handlowych i pierwszego zestawu kredytów (B4, C4, D4), co sugeruje wzorzec wprowadzania danych lub specyficzny artefakt raportowania finansowego."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_010",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Dla zbioru danych (Zestaw 1: kolumny B,C lub Zestaw 2: kolumny D,E) z wyższą łączną wartością bilansową, oblicz ogólny 'procentowy udział niezrealizowanej straty' portfela (całkowita 'niespłacona kwota główna przewyższająca wartość godziwą' podzielona przez całkowitą 'wartość bilansową').",
+    "answer": [
+      [
+        "8.82%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

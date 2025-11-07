@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_81377f79e1_001",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "Vilket år var 'gross recoveries' lägst bland de tre presenterade åren?",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_002",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "Vad var totalsumman för 'nettoprovisioner (frisläppanden)' under alla tre åren från 2007 till 2009?",
+    "answer": [
+      [
+        "23588"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_81377f79e1_003",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "Vad var 'totala avsättningar för kreditförluster' under det år som hade högst 'avsättningar för lånestörningar vid årets början'?",
+    "answer": [
+      [
+        "$ 38760"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_004",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "open_ended_reasoning",
+    "question": "Analysera trenden för \"bruttokreditförluster\" år för år från 2007 till 2009.",
+    "answer": [
+      [
+        "\"Bruttokreditförlusterna\" visade en betydande och konsekvent uppåtgående trend från 2007 till 2009. Förlusterna ökade från 11 864 miljoner USD 2007 till 20 760 miljoner USD 2008, och sedan till 32 784 miljoner USD 2009, nästan tredubblats under tvåårsperioden. Detta indikerar en försämrad kvalitet på lån och en allt sämre kreditmiljö."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_005",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "Identifiera alla år då 'provision för garantier (frånförfogande av utlåningsåtaganden)' var ett positivt belopp, vilket indikerar en ökning av provisionen.",
+    "answer": [
+      [
+        "2009"
+      ],
+      [
+        "2007"
+      ]
+    ],
+    "evidence_cells": [
+      "B12",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_006",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "Vilken procentandel av den \"totala reserveringen för kreditförluster\" utgjorde \"nettoökningar (minskningar) av specifika reserver\" år 2009? Ange svaret avrundat till två decimaler.",
+    "answer": [
+      [
+        "5.88%"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_81377f79e1_007",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "Om 'gross recoveries' år 2009 hade ökat med 10%, vad skulle den omräknade 'net credit ( losses ) recoveries ( ncls )' ha varit för det året, i miljoner dollar?",
+    "answer": [
+      [
+        "-30536.7"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_008",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "open_ended_reasoning",
+    "question": "Analysera sambandet mellan storleken på 'ncls' (nettokreditförluster) och 'totala avsättningar för kreditförluster' under treårsperioden. Finns det en märkbar korrelation?",
+    "answer": [
+      [
+        "Ja, det finns en stark positiv korrelation. I takt med att storleken på 'ncls' (nettokreditförluster) ökar varje år, från 9 926 miljoner dollar 2007 till 30 741 miljoner dollar 2009, tenderar även 'totala avsättningar för kreditförluster' att öka, från 16 832 miljoner dollar till 38 760 miljoner dollar. Detta tyder på att när banken upplever högre nettoless, ökar den motsvarande sina avsättningar för att täcka dessa och förväntade framtida förluster."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_81377f79e1_009",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "open_ended_reasoning",
+    "question": "Tabellen antyder ett samband mellan slutet av året och början av nästa år för 'avsättning för kreditförluster'. Stämmer värdet för 'avsättning för kreditförluster vid årets slut' för 2007 och 2008 överens med 'avsättning för kreditförluster vid årets början' för 2008 respektive 2009?",
+    "answer": [
+      [
+        "Ja, den strukturella integriteten håller. 'Avsättning för kreditförluster vid årets slut' för 2007 (16 117 dollar) är identisk med 'avsättning för kreditförluster vid årets början' för 2008. Likaså matchar årsavslutande avsättning för 2008 (29 616 dollar) den avsättning som gjordes vid årets början för 2009."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D10",
+      "C10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_010",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "När man undersöker 'net specific reserve builds (releases)' under de tre åren, vilket års värde sticker ut som en betydande avvikelse jämfört med de andra?",
+    "answer": [
+      [
+        "2007"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_81377f79e1_011",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "Vad var den totala avsättningen för lån, leasing och finansierade utlåningsåtaganden under 2009?",
+    "answer": [
+      [
+        "$37,190"
+      ]
+    ],
+    "evidence_cells": [
+      "A14",
+      "B14"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

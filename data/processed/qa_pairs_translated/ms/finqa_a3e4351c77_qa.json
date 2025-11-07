@@ -1,0 +1,205 @@
+[
+  {
+    "question_id": "finqa_a3e4351c77_001",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Instrumen hutang spesifik manakah, tidak termasuk jumlah dan pelarasan, yang memegang nilai tertinggi merentasi kedua-dua tempoh yang dilaporkan?",
+    "answer": [
+      [
+        "international marine terminals-plaquemines la revenue bonds due march 15 2025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_002",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Berapakah jumlah nilai semua bon hasil yang dikenal pasti disenaraikan untuk tempoh tersebut dalam lajur data kedua?",
+    "answer": [
+      [
+        "63.7"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_003",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Berapakah lebihnya perubahan mutlak dalam 'maturiti semasa hutang jangka panjang' antara kedua-dua tempoh melebihi perubahan mutlak dalam 'diskaun hutang yang tidak diamortisasi'?",
+    "answer": [
+      [
+        "665.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_004",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Huraikan trend bagi 'total long-term debt' antara dua tempoh yang ditunjukkan dan terangkan kepentingan perubahan ini.",
+    "answer": [
+      [
+        "Jumlah hutang jangka panjang meningkat sebanyak $275.3, daripada $10007.5 dalam tempoh yang ditunjukkan dalam lajur C kepada $10282.8 dalam tempoh yang ditunjukkan dalam lajur B. Ini menunjukkan bahawa obligasi hutang jangka panjang keseluruhan entiti telah meningkat dalam tempoh masa ini, menunjukkan ia berkemungkinan menanggung lebih banyak hutang baru daripada yang dibayarnya."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_005",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Senaraikan semua item baris, tidak termasuk jumlah keseluruhan, yang diwakili sebagai nilai negatif dalam lajur data kedua.",
+    "answer": [
+      [
+        "unamortized debt discount on long-term debt"
+      ],
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_006",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Sebagai peratusan daripada jumlah hutang jangka panjang bagi tempoh dalam lajur B, bahagian manakah dikelaskan sebagai 'maturiti semasa hutang jangka panjang'? Gunakan nilai mutlak untuk pengiraan dan bundarkan kepada dua tempat perpuluhan.",
+    "answer": [
+      [
+        "12.29%"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_007",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Jika 'diskaun hutang yang belum diamortisasi' dalam lajur data kedua (lajur B) dimansuhkan (iaitu, ditetapkan kepada sifar), berapakah 'jumlah hutang jangka panjang 2013 kmp' untuk tempoh tersebut?",
+    "answer": [
+      [
+        "$ 10303.1"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_008",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Adakah terdapat perkaitan yang ketara antara perubahan 'maturiti semasa hutang jangka panjang' dan perubahan dalam 'jumlah hutang jangka panjang' merentasi kedua-dua tempoh?",
+    "answer": [
+      [
+        "Ya, nampaknya terdapat perkaitan songsang dalam pergerakan mereka. Walaupun jumlah hutang jangka panjang meningkat sebanyak $275.3 (daripada $10007.5 kepada $10282.8), magnitud 'maturiti semasa' berkurangan dengan ketara (daripada nilai mutlak 1263.3 kepada 596.6). Ini menunjukkan bahawa semasa syarikat itu mengambil lebih banyak hutang keseluruhan, ia pada masa yang sama mengurangkan bahagian hutang yang akan matang dalam masa terdekat."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_009",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Baris manakah dalam dataset kelihatan seperti agregat bagi baris lain, dan apakah bukti yang menyokong kesimpulan ini?",
+    "answer": [
+      [
+        "Baris yang berlabel 'total long-term debt 2013 kmp' ialah agregat. Bukti utama ialah penggunaan eksplisit perkataan 'total' dalam keterangannya. Selain itu, nilainya dipersembahkan dengan simbol mata wang ('$'), yang berbeza daripada baris lain, menandakan ia adalah angka kewangan akhir, ringkasan."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_010",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Item baris manakah yang menunjukkan perubahan paling ketara dalam nilai mutlak antara dua tempoh, menjadikannya luar biasa dari segi kewangan dari segi ketidaktetapan?",
+    "answer": [
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_011",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Memandangkan jumlah hutang jangka panjang dan diskaun hutang yang tidak diamortkan, apakah peningkatan berkesan dalam hutang jangka panjang dari 2012 hingga 2013?",
+    "answer": [
+      [
+        "Jumlah hutang jangka panjang meningkat daripada $10,007.5 juta pada 2012 kepada $10,282.8 juta pada 2013. Memandangkan diskaun hutang yang tidak diamortkan berubah daripada -21.2 pada 2012 kepada -20.3 pada 2013, peningkatan berkesan dalam hutang ialah $276.8 juta."
+      ]
+    ],
+    "evidence_cells": [
+      "F6",
+      "G6",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

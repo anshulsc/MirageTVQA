@@ -1,0 +1,227 @@
+[
+  {
+    "question_id": "finqa_bdc69f2dff_001",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Welche Art von Stammaktien hatte zum 30. September 2008 die meisten ausgegebenen und ausstehenden Aktien?",
+    "answer": [
+      [
+        "class a common stock"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_002",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Was war die kombinierte Gesamtzahl der Aktien für alle Klassen von Stammaktien der Klasse C zum 30. September 2008?",
+    "answer": [
+      [
+        "266608750"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_003",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Für die Aktienklasse mit dem größten absoluten Wert der Rückkäufe im Oktober 2008, wie hoch war die endgültige Aktienanzahl in der Spalte 'als umgerechnet nach den Oktober 2008 Rückkäufen'?",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "F4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_004",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Wie viel Prozent der gesamten ausstehenden Aktien entfielen zum 30. September 2008 auf Stammaktien der Klasse A? Geben Sie die Antwort auf zwei Dezimalstellen gerundet an.",
+    "answer": [
+      [
+        "46.65%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_005",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Listen Sie alle Aktienklassen auf, die aufgrund des Ereignisses 'Umwandlung in Klasse C (Serie I)' einen Rückgang ihrer eigenen Aktien verzeichneten.",
+    "answer": [
+      [
+        "class c ( series iii ) common stock"
+      ],
+      [
+        "class c ( series iv ) common stock"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_006",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Der Wert '2014' erscheint häufig, wahrscheinlich als Platzhalter für keine Aktivität. Welche zwei Aktienklassen haben diesen spezifischen Wert, der in drei verschiedenen Spalten ihrer jeweiligen Zeilen vorkommt?",
+    "answer": [
+      [
+        "class c ( series ii ) common stock"
+      ],
+      [
+        "class c ( series iv ) common stock"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "E4",
+      "F4",
+      "A6",
+      "C6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_007",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Wenn die Anzahl der 'Class A Common Stock' Aktien zum '30. September 2008' 500.000.000 statt des verzeichneten Wertes betragen hätte, wie hoch wäre dann die angepasste 'Gesamtzahl der ausgegebenen und ausstehenden Aktien' an diesem Datum gewesen?",
+    "answer": [
+      [
+        "1012122135"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_008",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "open_ended_reasoning",
+    "question": "Basierend auf den Daten für die verschiedenen Klassen von Class C-Aktien, wie ist die Beziehung zwischen den 'Oktober 2008 Rückkäufen' und der 'Umwandlung in Class C (Serie I)'? Sind dies direkt miteinander verbundene Ereignisse?",
+    "answer": [
+      [
+        "Es gibt keine konsistente, direkte Korrelation, die darauf hindeutet, dass zurückgekaufte Aktien systematisch in Class C (Serie I) umgewandelt wurden. Zum Beispiel hatte Class C (Serie II) über 79 Millionen zurückgekaufte Aktien, aber keine entsprechende Umwandlungsaktivität vermerkt. Umgekehrt hatte Class C (Serie IV) Aktien, die daraus umgewandelt wurden, ohne nennenswerte Rückkäufe. Class C (Serie III) ist die einzige, bei der sowohl signifikante Rückkäufe als auch Umwandlungen weg davon zu verzeichnen sind, aber die Zahlen stimmen nicht überein. Dies deutet darauf hin, dass Rückkäufe und Umwandlungen größtenteils separate Transaktionen und keine einzelne, kombinierte Ereignisse für die meisten Serien waren."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_009",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Welche zwei Spalten in der Tabelle verwenden das spezifische Datenformat einer negativen Zahl gefolgt von ihrem positiven Gegenstück in Klammern, zum Beispiel '-X ( X )'?",
+    "answer": [
+      [
+        "october 2008 redemptions"
+      ],
+      [
+        "conversion to class c ( series i )"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5",
+      "C7",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_010",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "open_ended_reasoning",
+    "question": "Beschreiben Sie anhand der Spaltenüberschriften und der Zeile 'total shares' die Abfolge der Ereignisse, die von der ursprünglichen Aktienanzahl am 30. September 2008 bis zur endgültigen Anzahl geführt haben.",
+    "answer": [
+      [
+        "Die Daten zeigen eine mehrstufige Reduzierung der Gesamtzahl der Aktien. Der Prozess beginnt mit 959.868.396 Aktien am 30. September 2008. Das erste Ereignis sind die 'Oktober 2008 redemptions' (Rückkäufe im Oktober 2008), bei denen über 115 Millionen Aktien insgesamt zurückgekauft wurden. Darauf folgt eine 'conversion to class c ( series i )' (Umwandlung in Klasse C (Serie I)). Das Ergebnis dieser Umwandlungen spiegelt sich in der Spalte 'following immediate conversion...' (nach sofortiger Umwandlung...) wider, die insgesamt 844.855.954 Aktien zeigt. Die letzte Spalte, 'as converted post october 2008 redemptions' (nach Umwandlung nach den Rückkäufen im Oktober 2008), liefert die endgültige Zahl von 774.710.051 Aktien, die das Nettoergebnis aller vorherigen Transaktionen darstellen."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_011",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "In welchem Jahr wurden Class A Stammaktien und Class B Stammaktien in Class C (Serie I) umgewandelt?",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "D1",
+      "D2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

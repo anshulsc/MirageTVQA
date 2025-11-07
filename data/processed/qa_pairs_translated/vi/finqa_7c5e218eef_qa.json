@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "finqa_7c5e218eef_001",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Danh mục chi phí nào có sự thay đổi lớn nhất về giá trị tuyệt đối theo năm, bất kể đó là mức tăng hay giảm?",
+    "answer": [
+      [
+        "loss on datacenter and related legal fees"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_002",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Tổng các khoản cắt giảm chi phí (thay đổi âm) được báo cáo bằng triệu đô la là bao nhiêu?",
+    "answer": [
+      [
+        "-23.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_003",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Tổng thay đổi bằng đô la cho các hạng mục chi phí, mỗi hạng mục chiếm 2% chi phí năm 2015 là bao nhiêu?",
+    "answer": [
+      [
+        "53.0"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_004",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "open_ended_reasoning",
+    "question": "Dựa trên các số liệu tổng cộng, xu hướng tài chính chung cho các hạng mục chi phí này theo năm là gì? Hãy giải thích câu trả lời của bạn.",
+    "answer": [
+      [
+        "Xu hướng tài chính chung là chi phí gia tăng. Điều này được chứng minh bằng dòng 'total' (tổng cộng), cho thấy mức thay đổi ròng dương theo năm là 54,4 triệu đô la, tương ứng với mức tăng 4% so với chi phí năm 2015. Mặc dù có một số khoản cắt giảm chi phí, nhưng chúng bị lấn át đáng kể bởi sự gia tăng chi phí ở các lĩnh vực khác."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_005",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Liệt kê tất cả các hạng mục chi phí có mức tăng trưởng hàng năm dương lớn hơn 15 triệu đô la.",
+    "answer": [
+      [
+        "loss on datacenter and related legal fees"
+      ],
+      [
+        "professional fees and outside services"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_006",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Tính tỷ lệ giữa tổng mức tăng đô la và tổng mức giảm đô la tuyệt đối từ các khoản chi tiêu riêng lẻ, làm tròn đến hai chữ số thập phân.",
+    "answer": [
+      [
+        "3.29:1"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_007",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Nếu 'biến động tỷ giá hối đoái ngoại tệ' là khoản tiết kiệm chi phí là 13,2 triệu đô la thay vì tăng chi phí, thì tổng thay đổi hàng năm mới sẽ là bao nhiêu?",
+    "answer": [
+      [
+        "$ 28.0"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_008",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "open_ended_reasoning",
+    "question": "Bằng cách so sánh các danh mục có cùng tỷ lệ thay đổi phần trăm (ví dụ: 2% hoặc 1%), bạn có thể suy luận gì về mối quan hệ giữa sự thay đổi tuyệt đối bằng đô la và sự thay đổi phần trăm? Thông tin nào còn thiếu để xác nhận điều này?",
+    "answer": [
+      [
+        "Có thể suy luận rằng sự thay đổi tuyệt đối bằng đô la không tỷ lệ thuận trực tiếp với sự thay đổi phần trăm giữa các danh mục khác nhau. Ví dụ, 'loss on datacenter' (mất mát trung tâm dữ liệu) (28,6 triệu đô la) và 'professional fees' (phí chuyên nghiệp) (24,4 triệu đô la) đều có mức thay đổi 2%, cho thấy chi phí cơ bản năm 2015 của chúng khác nhau. Thông tin còn thiếu để xác nhận là giá trị chi phí thực tế năm 2015 cho mỗi danh mục."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_009",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "open_ended_reasoning",
+    "question": "Cột 'thay đổi theo phần trăm chi phí năm 2015' có ô nào chứa dữ liệu không nhất quán với kiểu dữ liệu rõ ràng của cột và giá trị bất thường đó là gì?",
+    "answer": [
+      [
+        "Ô C7, tương ứng với 'các khoản chi khác ròng', chứa giá trị '2014'. Điều này là bất thường vì tất cả các giá trị khác trong cột đều là phần trăm hoặc số biểu thị phần trăm, trong khi '2014' dường như là một năm."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_010",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Khoản lỗ từ trung tâm dữ liệu và các chi phí pháp lý liên quan có mức tăng trưởng hàng năm lớn nhất. Phần trăm tăng trưởng này lớn hơn mức tăng trưởng lớn thứ hai ('phí chuyên môn và dịch vụ bên ngoài') là bao nhiêu? Làm tròn đến một chữ số thập phân.",
+    "answer": [
+      [
+        "17.2%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_011",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Danh mục chi phí nào cho thấy mức tăng trưởng cao nhất theo năm?",
+    "answer": [
+      [
+        "Loss on data center and related legal fees"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

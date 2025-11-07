@@ -1,0 +1,227 @@
+[
+  {
+    "question_id": "finqa_bdc69f2dff_001",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Hvilken klasse almindelige aktier havde flest udstedte og udestående aktier pr. 30. september 2008?",
+    "answer": [
+      [
+        "class a common stock"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_002",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Hvad var det samlede antal aktier for alle serier af Klasse C almindelige aktier pr. 30. september 2008?",
+    "answer": [
+      [
+        "266608750"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_003",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "For den aktieklasse med den største absolutte værdi af indløsninger i oktober 2008, hvad var dens endelige antal aktier i kolonnen 'som konverteret efter oktober 2008 indløsninger'?",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "F4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_004",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Pr. 30. september 2008, hvilken procentdel af de samlede udestående aktier blev repræsenteret af klasse A almindelige aktier? Angiv svaret afrundet til to decimaler.",
+    "answer": [
+      [
+        "46.65%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_005",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "List alle aktieklasser, der oplevede en reduktion i deres egne aktier på grund af 'konvertering til klasse c (serie i)' begivenheden.",
+    "answer": [
+      [
+        "class c ( series iii ) common stock"
+      ],
+      [
+        "class c ( series iv ) common stock"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_006",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Værdien '2014' optræder ofte, sandsynligvis som en pladsholder for ingen aktivitet. Hvilke to aktieklasser har denne specifikke værdi, der optræder i tre forskellige kolonner i deres respektive rækker?",
+    "answer": [
+      [
+        "class c ( series ii ) common stock"
+      ],
+      [
+        "class c ( series iv ) common stock"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "E4",
+      "F4",
+      "A6",
+      "C6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_007",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Hvis aktieantallet for 'class a common stock' 'at september 30 2008' havde været 500.000.000 i stedet for dets registrerede værdi, hvad ville det justerede 'total shares issued and outstanding' på den dato have været?",
+    "answer": [
+      [
+        "1012122135"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_008",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "open_ended_reasoning",
+    "question": "Baseret på dataene for de forskellige serier af Class C-aktier, hvad er forholdet mellem 'Oktober 2008 indløsninger' og 'konvertering til klasse c (serie i)'? Er det direkte relaterede begivenheder?",
+    "answer": [
+      [
+        "Der er ingen konsekvent, direkte sammenhæng, der tyder på, at indløste aktier systematisk blev konverteret til Class C (Series I). For eksempel havde Class C (Series II) over 79 millioner aktier indløst, men ingen tilsvarende konverteringsaktivitet bemærket. Omvendt havde Class C (Series IV) aktier, der blev konverteret væk fra den, uden væsentlige indløsninger. Class C (Series III) er den eneste, der viser både betydelige indløsninger og konverteringer væk fra den, men tallene stemmer ikke overens. Dette tyder på, at indløsninger og konverteringer stort set var separate transaktioner snarere end en enkelt, kombineret begivenhed for de fleste serier."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_009",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Hvilke to kolonner i tabellen bruger det specifikke dataformat med et negativt tal efterfulgt af dets positive ækvivalent i parentes, for eksempel '-X ( X )'?",
+    "answer": [
+      [
+        "october 2008 redemptions"
+      ],
+      [
+        "conversion to class c ( series i )"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5",
+      "C7",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_010",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "open_ended_reasoning",
+    "question": "Baseret på kolonneoverskrifterne og rækken 'total shares', beskriv den begivenhedsrækkefølge, der førte fra det oprindelige antal aktier den 30. september 2008 til det endelige antal.",
+    "answer": [
+      [
+        "Dataene skitserer en flertrinsreduktion i det samlede antal aktier. Processen begynder med 959.868.396 aktier den 30. september 2008. Den første begivenhed er 'indløsninger i oktober 2008', hvor over 115 millioner aktier blev indløst i alt. Dette efterfølges af en 'konvertering til klasse c (serie i)'. Resultatet af disse konverteringer afspejles i kolonnen 'efter umiddelbar konvertering...', som viser et samlet antal på 844.855.954 aktier. Den sidste kolonne, 'som konverteret efter indløsninger i oktober 2008', giver det afsluttende tal på 774.710.051 aktier, hvilket repræsenterer nettoresultatet af alle foregående transaktioner."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_011",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "I hvilket år blev Class A common stock og Class B common stock konverteret til Class C (Series I)?",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "D1",
+      "D2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

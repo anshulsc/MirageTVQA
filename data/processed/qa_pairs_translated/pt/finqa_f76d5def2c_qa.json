@@ -1,0 +1,226 @@
+[
+  {
+    "question_id": "finqa_f76d5def2c_001",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "Qual foi o valor total dos aumentos brutos em benefícios fiscais não reconhecidos registrados em 2011?",
+    "answer": [
+      [
+        "44321"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_002",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "Qual foi a diferença absoluta no valor dos acordos com autoridades fiscais entre 2010 e 2011?",
+    "answer": [
+      [
+        "41383"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_003",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "A taxa total de reduções no saldo de benefícios fiscais não reconhecidos (devido a diminuições de posições de anos anteriores, liquidações e lapsos de estatuto) acelerou ou desacelerou de 2010 para 2011?",
+    "answer": [
+      [
+        "A taxa de reduções desacelerou significativamente. Em 2010, as reduções totais dessas três categorias totalizaram $85.484 (7104 + 70484 + 7896), enquanto em 2011, as reduções totais foram de apenas $37.080 (4154 + 29101 + 3825), que é menos da metade do valor do ano anterior."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_004",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "Calcule a variação líquida nos benefícios fiscais não reconhecidos para o ano que começou com o saldo inicial mais alto.",
+    "answer": [
+      [
+        "-61115"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_005",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "Em 2010, qual percentual das diminuições brutas totais (de posições do ano anterior, liquidações e expiração do prazo de prescrição) foi atribuível a liquidações com autoridades fiscais? Forneça a resposta arredondada para duas casas decimais.",
+    "answer": [
+      [
+        "82.45%"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_006",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "Liste as categorias de eventos que causaram uma diminuição nos benefícios fiscais não reconhecidos de mais de US$ 5.000 em valor absoluto durante 2010.",
+    "answer": [
+      [
+        "gross decreases in unrecognized tax benefits 2013 prior year tax positions"
+      ],
+      [
+        "settlements with taxing authorities"
+      ],
+      [
+        "lapse of statute of limitations"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A5",
+      "C5",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_007",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "Se os 'aumentos brutos em benefícios fiscais não reconhecidos 2013 posições fiscais do ano corrente' para 2011 tivessem sido 50% menores, qual teria sido o novo saldo final para 2011?",
+    "answer": [
+      [
+        "147397"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_008",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "Qual item da linha representa o outlier mais significativo em termos de impacto monetário (valor absoluto) no saldo em um único ano, e qual foi o seu valor?",
+    "answer": [
+      [
+        "O outlier mais significativo foi 'acordos com autoridades fiscais' em 2010, que causou uma diminuição de $70.484. Este valor é mais do que o dobro de qualquer outro ajuste único listado em qualquer um dos anos."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_009",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "Com base na estrutura da tabela, qual é a relação entre o saldo final de 2010 e o saldo inicial de 2011?",
+    "answer": [
+      [
+        "O saldo final de 2010, que é $156.925, é idêntico ao saldo inicial de 2011. Isso demonstra o princípio de continuidade na contabilidade, onde o saldo de encerramento de um período serve como saldo de abertura para o período subsequente."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_010",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "Analise a relação entre a magnitude dos 'acertos com autoridades fiscais' e a variação líquida no saldo para cada ano.",
+    "answer": [
+      [
+        "Parece haver uma forte relação entre o tamanho dos acordos e a variação líquida geral. Em 2010, um grande acordo de -$70.484 correspondeu a uma diminuição líquida significativa no saldo total de -$61.115. Inversamente, em 2011, um acordo muito menor de -$29.101 foi um fator para que o saldo apresentasse um aumento líquido de $6.682. Isso sugere que os acordos são um dos principais impulsionadores das reduções no saldo de benefícios fiscais não reconhecidos."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_011",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "Qual é a variação percentual do saldo final de 2010 para 2011?",
+    "answer": [
+      [
+        "O saldo final aumentou de US$ 156.925 em 2010 para US$ 163.607 em 2011, o que representa aproximadamente um aumento de 4,26%."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

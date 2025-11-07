@@ -1,0 +1,260 @@
+[
+  {
+    "question_id": "finqa_7bdb66e2c9_001",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Welcher Garantietyp weist die größte absolute Differenz in Milliarden Dollar zwischen seinen potenziellen Zahlungen für 'Investment Grade' und 'Non-Investment Grade' auf?",
+    "answer": [
+      [
+        "financial standby letters of credit"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_002",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Wie hoch ist der gesamte potenzielle Zahlungsbetrag für alle Garantietypen, die einen Wert für 'Investment Grade' haben, aber einen Platzhalter ('2014') für 'nicht bewertet'?",
+    "answer": [
+      [
+        "21.6"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "D8",
+      "E8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_003",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Für die Garantieart mit dem höchsten gesamten Potenzialzahlungsvolumen, welche ratingkategorie ('investment grade', 'non-investment grade' oder 'nicht bewertet') stellt den größten Anteil dieses Gesamtbetrags dar?",
+    "answer": [
+      [
+        "maximum potential amount of future payments investment grade"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_004",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Welcher Prozentsatz des Grand Totals der maximalen potenziellen zukünftigen Zahlungen ist als 'nicht bewertet' klassifiziert?",
+    "answer": [
+      [
+        "63.89%"
+      ]
+    ],
+    "evidence_cells": [
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_005",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Wenn sich herausstellen würde, dass der Betrag für 'nicht bewertet' bei 'Wertpapierleihe-Entschädigungen' 10 % niedriger ist als angegeben, wie hoch wäre dann die neue Gesamtsumme für alle Garantien?",
+    "answer": [
+      [
+        "$ 300.14"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_006",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Was ist der durchschnittliche 'Gesamt'-Potenzialzahlungsbetrag für Garantietypen, die Null- oder Platzhalterwerte ('2014') sowohl für 'Investment Grade' als auch für 'Non-Investment Grade'-Ratings aufweisen?",
+    "answer": [
+      [
+        "34.62"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "E3",
+      "B4",
+      "C4",
+      "E4",
+      "B5",
+      "C5",
+      "E5",
+      "B6",
+      "C6",
+      "E6",
+      "B7",
+      "C7",
+      "E7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_007",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Welche Zahlungsrating-Spalte ('investment grade', 'non-investment grade' oder 'not rated') enthält die meisten nicht-numerischen Platzhalterwerte ('2014')?",
+    "answer": [
+      [
+        "maximum potential amount of future payments investment grade"
+      ],
+      [
+        "maximum potential amount of future payments non-investment grade"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_008",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifizieren Sie basierend auf den bereitgestellten Daten den bedeutendsten Ausreißer in der Spalte 'maximaler potenzieller Betrag zukünftiger Zahlungen insgesamt' und erklären Sie, warum er hervorsticht.",
+    "answer": [
+      [
+        "Die Kategorie 'Finanzielle Standby-Akkreditive' mit insgesamt 94,2 Milliarden US-Dollar ist der bedeutendste Ausreißer nach oben. Dieser Wert liegt etwa 38,4 % über der nächstgrößten Kategorie ('Derivatinstrumente' mit 67,9 Milliarden US-Dollar) und ist mehr als 2,4-mal so hoch wie der Durchschnitt aller Kategorien (38,11 Milliarden US-Dollar). Umgekehrt sind 'Bürgschaften für den Einzug vertraglicher Zahlungsströme' und 'Verkaufte Darlehen mit Rückgriff' mit jeweils nur 0,3 Milliarden US-Dollar bedeutende Ausreißer nach unten."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_009",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "open_ended_reasoning",
+    "question": "Analysieren Sie die Verteilung der potenziellen Zahlungen über die drei Ratingstufen für 'Performance Guarantees' und 'Custody Indemnifications and Other'. Was lässt dieser Vergleich über die Risikoprofile dieser beiden Garantiearten aussagen?",
+    "answer": [
+      [
+        "Bei 'Performance Guarantees' sind die Beträge relativ gleichmäßig verteilt über Investment Grade (5,7 Mrd. $), Non-Investment Grade (5,0 Mrd. $) und nicht bewertet (5,6 Mrd. $), was auf ein diversifiziertes Risikoprofil hindeutet. Im Gegensatz dazu ist 'Custody Indemnifications and Other' stark auf Investment Grade (18,5 Mrd. $) konzentriert, mit einem viel kleineren Non-Investment-Grade-Anteil (3,1 Mrd. $) und keinem Betrag für 'nicht bewertet'. Dies impliziert, dass 'Custody Indemnifications' mit Kontrahenten mit deutlich geringerem Kreditrisiko verbunden sind als 'Performance Guarantees'."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A8",
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_010",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "open_ended_reasoning",
+    "question": "Gibt es eine konsistente, beobachtbare Korrelation zwischen den Beträgen für 'Investment Grade' und 'Non-Investment Grade' bei potenziellen Zahlungen über die verschiedenen Garantiearten hinweg? Erläutern Sie Ihre Begründung.",
+    "answer": [
+      [
+        "Nein, es gibt keine konsistente, beobachtbare Korrelation. Da nur drei Kategorien numerische Werte für beide Spalten aufweisen, sind die Daten zu spärlich, um ein verlässliches Muster zu erkennen. 'Finanzielle Standby-Akkreditive' weist einen hohen Betrag für Investment Grade (49,2 Mrd. USD) auf, der mit einem hohen Betrag für Non-Investment Grade (28,6 Mrd. USD) gepaart ist. 'Performance-Garantien' weist ähnliche Werte für beide auf (5,7 Mrd. USD und 5,0 Mrd. USD). 'Verwahrungsfreistellungen' hingegen weist einen hohen Betrag für Investment Grade (18,5 Mrd. USD), aber einen sehr niedrigen Betrag für Non-Investment Grade (3,1 Mrd. USD) auf, was jeder einfachen positiven Korrelation widerspricht, die durch die anderen beiden Punkte angedeutet wird. Die zahlreichen Platzhalterwerte verhindern eine gründlichere Analyse."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_011",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Welche hat den maximalen potenziellen Betrag zukünftiger Zahlungen mit Investment-Grade-Rating?",
+    "answer": [
+      [
+        "Financial standby letters of credit"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

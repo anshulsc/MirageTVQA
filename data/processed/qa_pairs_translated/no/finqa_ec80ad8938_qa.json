@@ -1,0 +1,186 @@
+[
+  {
+    "question_id": "finqa_ec80ad8938_001",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Hva er den totale oppførte verdien for alle eiendeler (både handelsposter og lån) rapportert på tvers av begge presenterte datasett?",
+    "answer": [
+      [
+        "26557"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_002",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "I det andre datasettet (kolonne D og E), hvilken aktivakategori – varebeholdning eller lån – har den største 'samlede ubetalte hovedstol som overstiger virkelig verdi'?",
+    "answer": [
+      [
+        "loans"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_003",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "For det første settet med lån (kolonne C), hvilken prosentandel av det totale 'bærende beløpet' representeres av 'saldoen for lån som ikke påløper renter eller lån mer enn 90 dager forfalt'?",
+    "answer": [
+      [
+        "0.03%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_004",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Hva er det samlede bokførte beløpet for aktivatypen (handelsbeholdninger eller lån) som har den laveste totale 'saldoen på lån som ikke påløper renter eller lån som er mer enn 90 dager forfalt' på tvers av begge datasett?",
+    "answer": [
+      [
+        "7598"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_005",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "List opp den bærende verdien for alle porteføljer der 'balansen av lån som ikke påløper renter eller lån som er mer enn 90 dager forfalt' er nøyaktig 1 million dollar.",
+    "answer": [
+      [
+        "$ 3224"
+      ],
+      [
+        "$ 4374"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C3",
+      "E3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_006",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Hvis den bokførte verdien for tradingaktiva i det første datasettet (kolonne B) ble justert ved å trekke fra dens 'samlede ubetalte hovedstolsaldo utover virkelig verdi', hva ville den nye bokførte verdien være?",
+    "answer": [
+      [
+        "9673"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_007",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Ved å analysere \"saldo av lån som ikke påløper renter\", hvilken aktivatype har en saldo som er en signifikant uteligger sammenlignet med de andre, og hva innebærer dette for deres relative risikoprofiler?",
+    "answer": [
+      [
+        "Handelsbeholdningen (Trading Assets) i begge datasett viser en saldo for lån som ikke påløper renter på 2 014 millioner dollar, noe som er en ekstrem uteligger sammenlignet med 1 million dollar for lån (Loans) i begge sett. Denne markante forskjellen tyder på at porteføljen av handelsbeholdning har betydelig høyere kredittrisiko eller har opplevd en stor misligholdshendelse, mens lånporteføljen ser ut til å være i usedvanlig god stand med nesten ingen saldi som ikke påløper renter."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_008",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Viser dataene en konsekvent positiv korrelasjon mellom en eiendels 'carrying amount' og dens 'aggregate unpaid principal balance in excess of fair value' for kategorien Handelsaktiva?",
+    "answer": [
+      [
+        "Nei, det vises ikke en konsekvent positiv korrelasjon. Det første settet med handelsaktiva har en høyere carrying amount ($ 10.108 millioner mot $ 8.851 millioner), men en lavere samlet ubetalt hovedstolsaldo utover virkelig verdi ($ 435 millioner mot $ 623 millioner). Dette indikerer at en større porteføljestørrelse ikke nødvendigvis fører til et proporsjonalt større urealisert tap i dette datasettet."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_009",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifiser rader som inneholder gjentatte eller tilsynelatende overflødige datapunkter og forklar mønsteret.",
+    "answer": [
+      [
+        "Data-redundans er til stede i rad 3 og 4. I rad 3, 'balanse for lån som ikke gir renter eller lån mer enn 90 dager forfalt', er verdien for handelsmidler $ 2014 millioner i begge sett (B3, D3) og $ 1 million for lån i begge sett (C3, E3). I rad 4 gjentas verdien $ 2014 millioner tre ganger for begge sett med handelsmidler og det første settet med lån (B4, C4, D4), noe som antyder et mønster for dataregistrering eller en spesifikk finansiell rapporteringsartefakt."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_010",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "For datasettet (Sett 1: kolonner B,C eller Sett 2: kolonner D,E) med den høyere totale bokførte verdien, beregn porteføljens samlede 'uopptjente tapsandel' (total 'samlet ubetalt hovedstolsaldo utover virkelig verdi' delt på total 'bokført verdi').",
+    "answer": [
+      [
+        "8.82%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

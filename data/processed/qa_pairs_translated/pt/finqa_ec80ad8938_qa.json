@@ -1,0 +1,186 @@
+[
+  {
+    "question_id": "finqa_ec80ad8938_001",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Qual é o valor contábil total para todos os ativos (tanto ativos de negociação quanto empréstimos) reportado em ambos os conjuntos de dados apresentados?",
+    "answer": [
+      [
+        "26557"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_002",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "No segundo conjunto de dados (colunas D e E), qual categoria de ativo — ativos de negociação ou empréstimos — tem o maior 'saldo de principal não pago agregado em excesso do valor justo'?",
+    "answer": [
+      [
+        "loans"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_003",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Para o primeiro conjunto de empréstimos (coluna C), qual a percentagem do 'valor contábil' total que é representada pelo 'saldo de empréstimos não-rendíveis'?",
+    "answer": [
+      [
+        "0.03%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_004",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Qual é o valor contábil combinado do tipo de ativo (Ativos de Negociação ou Empréstimos) que possui o menor total de 'saldo de empréstimos não-acumulados' em ambos os conjuntos de dados?",
+    "answer": [
+      [
+        "7598"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_005",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Liste os valores contábeis para todas as carteiras de ativos onde o 'saldo de empréstimos não-acumulados ou empréstimos com mais de 90 dias de atraso' é exatamente de $1 milhão.",
+    "answer": [
+      [
+        "$ 3224"
+      ],
+      [
+        "$ 4374"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C3",
+      "E3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_006",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Se o valor contábil dos ativos de negociação no primeiro conjunto de dados (coluna B) fosse ajustado subtraindo seu 'saldo de principal não pago agregado em excesso do valor justo', qual seria o novo valor contábil?",
+    "answer": [
+      [
+        "9673"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_007",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Analisando o 'saldo de empréstimos não-líquidos (non-accrual loans)', qual tipo de ativo apresenta um saldo significativamente discrepante em comparação com o outro, e o que isso implica sobre seus perfis de risco relativos?",
+    "answer": [
+      [
+        "Os Ativos de Negociação (Trading Assets) em ambos os conjuntos de dados mostram um saldo de empréstimos não-líquidos de US$ 2.014 milhões, o que é um valor extremamente discrepante em comparação com US$ 1 milhão para Empréstimos (Loans) em ambos os conjuntos. Essa grande diferença sugere que o portfólio de Ativos de Negociação possui um risco de crédito significativamente maior ou experimentou um evento de inadimplência importante, enquanto o portfólio de Empréstimos parece estar em excelente saúde, com quase nenhum saldo de empréstimos não-líquidos."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_008",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Os dados mostram uma correlação positiva consistente entre o 'valor contábil' de um ativo e o seu 'saldo principal não pago agregado em excesso do valor justo' para a categoria de Ativos de Negociação?",
+    "answer": [
+      [
+        "Não, uma correlação positiva consistente não é mostrada. O primeiro conjunto de ativos de negociação tem um valor contábil mais alto ($10,108M vs $8,851M) mas um saldo principal não pago agregado em excesso do valor justo mais baixo ($435M vs $623M). Isso indica que um tamanho de portfólio maior não leva necessariamente a uma perda não realizada proporcionalmente maior neste conjunto de dados."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_009",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifique quaisquer linhas que contenham pontos de dados repetidos ou aparentemente redundantes e explique o padrão.",
+    "answer": [
+      [
+        "Redundância de dados está presente nas linhas 3 e 4. Na linha 3, 'saldo de empréstimos não-amortizáveis...', o valor para ativos de negociação é $2.014M em ambos os conjuntos (B3, D3) e $1M para empréstimos em ambos os conjuntos (C3, E3). Na linha 4, o valor $2.014M é repetido três vezes para ambos os conjuntos de ativos de negociação e o primeiro conjunto de empréstimos (B4, C4, D4), sugerindo um padrão de entrada de dados ou um artefato específico de relatório financeiro."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_010",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Para o conjunto de dados (Conjunto 1: colunas B,C ou Conjunto 2: colunas D,E) com o maior valor contábil total, calcule a 'porcentagem de perda não realizada' geral do portfólio (total de 'saldo de principal não pago em excesso do valor justo' dividido pelo 'valor contábil' total).",
+    "answer": [
+      [
+        "8.82%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

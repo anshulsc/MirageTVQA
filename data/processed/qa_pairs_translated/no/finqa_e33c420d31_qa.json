@@ -1,0 +1,215 @@
+[
+  {
+    "question_id": "finqa_e33c420d31_001",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Hvilken kontraktsmessig forpliktelse, ekskludert 'gjeldsoppgjør' og 'renter på langsiktig gjeld', har det største beløpet forfalt i perioden '3-5 år'?",
+    "answer": [
+      [
+        "fuel obligations"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_002",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Hva er den samlede summen av alle forpliktelser som har en fotnotehenvisning på '11'?",
+    "answer": [
+      [
+        "$ 16297"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "H3",
+      "B4",
+      "H4",
+      "B5",
+      "H5",
+      "B6",
+      "H6",
+      "B7",
+      "H7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_e33c420d31_003",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Hvilken prosentandel av de totale forpliktelsene som forfaller om '1-3 år' tilskrives den ene forpliktelsen med høyest totalverdi?",
+    "answer": [
+      [
+        "27.04%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "D1",
+      "D9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_004",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "For 'renter på langsiktig gjeld', analyser trenden for betalinger over de fire tidsperiodene og avgjør om forpliktelsen er forskuddsbetalt eller etterbetalt.",
+    "answer": [
+      [
+        "Betalingene for 'renter på langsiktig gjeld' er 1 172 (<1 år), 2 166 (1-3 år), 1 719 (3-5 år) og 4 046 (>5 år). Forpliktelsen er betydelig etterbetalt, ettersom betalingene stiger over tid, med den største enkeltbetalingen som skjer i perioden 'mer enn 5 år'. Over 63% av de totale rentebetalingene forfaller mer enn 3 år frem i tid."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_005",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "List de kontraktsmessige forpliktelsene der beløpet som forfaller om 'mindre enn 1 år' er større enn beløpet som forfaller om '3-5 år'.",
+    "answer": [
+      [
+        "fuel obligations"
+      ],
+      [
+        "other purchase obligations"
+      ],
+      [
+        "other long-term liabilities reflected on aes' consolidated balance sheet under gaap ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "E6",
+      "A7",
+      "C7",
+      "E7",
+      "A8",
+      "C8",
+      "E8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_006",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Hva er forholdet mellom totale kortsiktige forpliktelser (forfaller om 'mindre enn 1 år') og totale langsiktige forpliktelser (forfaller om 'mer enn 5 år') basert på den siste totalraden?",
+    "answer": [
+      [
+        "Approximately 1:2.81"
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "F9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_e33c420d31_007",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Hvis en ny policy krevde at alle 'driftsleieforpliktelser' som forfaller om 'mer enn 5 år' i stedet skulle betales innenfor perioden '3-5 år', hva ville den nye totalen for kolonnen '3-5 år' vært?",
+    "answer": [
+      [
+        "$ 10283"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_008",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "Er det en tydelig sammenheng mellom energiforpliktelsestype (drivstoff vs. elektrisitet) og betalingsplanen?",
+    "answer": [
+      [
+        "Ja, det er en klar sammenheng. 'Drivstoffforpliktelser' er frontlastet, med den største betalingen (1 759 dollar) forfallende 'mindre enn 1 år', noe som tyder på kortsiktige kontrakter. Motsatt er 'elektrisitetsforpliktelser' baklastet, med den største betalingen (2 065 dollar) forfallende 'mer enn 5 år', noe som sannsynligvis gjenspeiler langsiktige kraftkjøpsavtaler. Dette indikerer at energikildens art er relatert til varigheten av den økonomiske forpliktelsen."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_e33c420d31_009",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "Basert på totalene for hver betalingsperiode i den siste raden, hvilken tidsramme har det største finansielle forpliktelsen, og hva innebærer dette om selskapets forpliktelsesstruktur?",
+    "answer": [
+      [
+        "Perioden 'mer enn 5 år' har den største forpliktelsen på $20 544. Dette innebærer at selskapets forpliktelsesstruktur hovedsakelig er langsiktig, med en betydelig del av dets økonomiske forpliktelser som forfaller langt frem i tid, noe som tyder på langsiktige finansieringsstrategier eller store kapitalprosjekter."
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "D9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_010",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "Raden for 'andre langsiktige forpliktelser' inneholder en verdi i kolonnen 'mindre enn 1 år' som ser ut til å være en uteligger. Identifiser denne verdien og forklar hvorfor den er inkonsistent.",
+    "answer": [
+      [
+        "Uteliggeren er verdien '$ 2014' i kolonnen 'mindre enn 1 år'. Den er inkonsistent fordi dette enkeltstående kortsiktige betalingsbeløpet er betydelig større enn '$ 701' som er oppført som 'totalen' for hele forpliktelsen, noe som er en logisk umulighet og sannsynligvis en datafeil."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

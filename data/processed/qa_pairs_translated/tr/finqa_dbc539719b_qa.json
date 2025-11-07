@@ -1,0 +1,228 @@
+[
+  {
+    "question_id": "finqa_dbc539719b_001",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Listelenen eyaletler arasında, müşteri başına en yüksek işletme gelirini hangi eyalet üretiyor?",
+    "answer": [
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A4",
+      "B4",
+      "D4",
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_002",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Illinois, Indiana ve Kaliforniya'nın toplam müşteri sayısı kaçtır?",
+    "answer": [
+      [
+        "779881"
+      ]
+    ],
+    "evidence_cells": [
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_dbc539719b_003",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "En düşük tahmini hizmet verilen nüfusa sahip eyaletin/eyaletlerin toplam işletme gelirlerinden elde edilen kümülatif yüzdesi nedir?",
+    "answer": [
+      [
+        "12.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "F6",
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_004",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Toplam müşteri sayısındaki payı, toplam faaliyet gelirlerindeki payından daha büyük olan eyaletler hangileridir?",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "indiana"
+      ],
+      [
+        "west virginia ( b )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "A5",
+      "C5",
+      "E5",
+      "A6",
+      "C6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_005",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "'diğer ( c )' kategorisi için toplam müşteri yüzdesinin, toplam hizmet verilen nüfus yüzdesine oranını, iki ondalık basamağa yuvarlayarak hesaplar mısınız?",
+    "answer": [
+      [
+        "1.01"
+      ]
+    ],
+    "evidence_cells": [
+      "E8",
+      "G8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_dbc539719b_006",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Pennsylvania'nın faaliyet gelirleri %10 artarsa, diğer tüm eyaletlerin gelirleri değişmeden kaldığı varsayımıyla, 'toplam (ilk yedi eyalet)' için yeni faaliyet geliri ne olur?",
+    "answer": [
+      [
+        "2388.14"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_007",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Listelenen altı bireysel eyalet için müşteri sayısı ile hizmet verilen tahmini nüfus arasındaki ilişkiyi analiz edin. Pozitif bir korelasyon var mı ve bu ne anlama geliyor?",
+    "answer": [
+      [
+        "Evet, güçlü bir pozitif korelasyon var. Bir eyalet için müşteri sayısı arttıkça, hizmet verilen tahmini nüfus da artma eğilimindedir. Örneğin, Pensilvanya en yüksek müşteri sayısına (666.415) ve en büyük tahmini hizmet verilen nüfusa (2,2 milyon) sahipken, en düşük müşteri sayısına sahip olan Batı Virginia ve Kaliforniya da en küçük tahmini nüfuslara hizmet vermektedir. Bu, müşteri tabanının bu bölgelerde işletmenin hizmet verdiği nüfusun doğrudan ve orantılı bir bileşeni olduğunu ima etmektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_dbc539719b_008",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Altı eyaletin her biri için müşteri başına tahmini hizmet verilen nüfusu hesaplayarak, hangi eyaletin en önemli aykırı değer olduğunu belirleyin ve nedenini açıklayın.",
+    "answer": [
+      [
+        "Illinois en önemli aykırı değerdir. Her eyalet için müşteri başına tahmini hizmet verilen nüfus şöyledir: Pensilvanya (~3.30), Missouri (~3.23), Illinois (~4.17), Kaliforniya (~3.44), Indiana (~4.09) ve Batı Virginia (~3.52). Çoğu eyalet müşteri başına 3.2 ila 3.5 kişi hizmet verirken, Illinois ve Indiana belirgin şekilde daha yüksektir. Illinois, yaklaşık 4.17 ile en yüksek orana sahiptir, bu da Illinois'deki her müşterinin diğer eyaletlere kıyasla hizmet verilen nüfusun daha büyük bir bölümünü temsil ettiği anlamına gelir ve bu da onu en önemli aykırı değer yapar."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_dbc539719b_009",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "'alt toplam ( ilk yedi eyalet )' ve 'diğer ( c )' için toplam işletme gelirlerinin yüzdesinin, 'toplam düzenlenmiş işletmeler' için gösterilen yüzdeye doğru şekilde eklenip eklenmediğini doğrulayın.",
+    "answer": [
+      [
+        "Evet, toplam doğrudur. 'Alt toplam (ilk yedi eyalet)' toplam işletme gelirlerinin %87,0'ini oluştururken, 'diğer (c)' kategorisi %13,0'ini oluşturmaktadır. Bu iki yüzdelik dilimi (87,0% + 13,0%) topladığımızda, 'toplam düzenlenmiş işletmeler' için verilen değere karşılık gelen %100,0 elde edilir."
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_010",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Altı eyaletten oluşan listeden, hangi eyalet çiftinin toplam müşteri sayısı Pennsylvania'daki müşteri sayısına en yakındır?",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

@@ -1,0 +1,227 @@
+[
+  {
+    "question_id": "finqa_bdc69f2dff_001",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Alin na uri ng common stock ang may pinakamaraming shares na inisyu at outstanding noong Setyembre 30, 2008?",
+    "answer": [
+      [
+        "class a common stock"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_002",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Ano ang pinagsamang kabuuang bilang ng mga share para sa lahat ng serye ng Class C common stock noong Setyembre 30, 2008?",
+    "answer": [
+      [
+        "266608750"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_003",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Para sa klase ng stock na may pinakamalaking absolute value ng mga redemptions noong Oktubre 2008, ano ang naging pinal na bilang ng mga share nito sa column na 'as converted post october 2008 redemptions'?",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "F4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_004",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Bilang ng Setyembre 30, 2008, anong porsyento ng kabuuang natitirang mga share ang kinakatawan ng Class A common stock? Ibigay ang sagot na naka-round sa dalawang decimal place.",
+    "answer": [
+      [
+        "46.65%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_005",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Ilista ang lahat ng klase ng stock na nakaranas ng pagbaba sa kanilang mga sariling shares dahil sa kaganapang 'conversion to class c ( series i )'.",
+    "answer": [
+      [
+        "class c ( series iii ) common stock"
+      ],
+      [
+        "class c ( series iv ) common stock"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_006",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Ang halagang '2014' ay madalas lumalabas, malamang bilang placeholder para sa walang aktibidad. Aling dalawang klase ng stock ang may partikular na halagang ito na lumilitaw sa tatlong magkakaibang column ng kani-kanilang row?",
+    "answer": [
+      [
+        "class c ( series ii ) common stock"
+      ],
+      [
+        "class c ( series iv ) common stock"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "E4",
+      "F4",
+      "A6",
+      "C6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_007",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Kung ang bilang ng mga share ng 'class a common stock' na 'at september 30 2008' ay 500,000,000 sa halip na ang nakatalang halaga nito, ano ang magiging inaayos na 'total shares issued and outstanding' sa petsang iyon?",
+    "answer": [
+      [
+        "1012122135"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_008",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "open_ended_reasoning",
+    "question": "Batay sa datos para sa iba't ibang serye ng Class C stock, ano ang relasyon sa pagitan ng 'October 2008 redemptions' at ng 'conversion to class c (series i)'? Ang mga ito ba ay direktang magkaugnay na mga kaganapan?",
+    "answer": [
+      [
+        "Walang pare-pareho, direktang ugnayan na nagmumungkahi na ang mga na-redeem na share ay sistematikong na-convert sa Class C (Series I). Halimbawa, ang Class C (Series II) ay may mahigit 79 milyong shares na na-redeem ngunit walang katugmang aktibidad ng conversion na nabanggit. Sa kabilang banda, ang Class C (Series IV) ay may mga shares na na-convert mula rito nang walang malaking redemptions. Ang Class C (Series III) lamang ang nagpapakita ng parehong malaking redemptions at conversions mula rito, ngunit hindi magkatugma ang mga numero. Ito ay nagmumungkahi na ang mga redemptions at conversions ay malaking bahagi ng magkahiwalay na transaksyon kaysa sa isang solong, pinagsamang kaganapan para sa karamihan ng serye."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_009",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Alin sa dalawang column sa talahanayan ang gumagamit ng partikular na format ng datos na negatibong numero na sinusundan ng katumbas nitong positibong numero sa panaklong, halimbawa, '-X ( X )'?",
+    "answer": [
+      [
+        "october 2008 redemptions"
+      ],
+      [
+        "conversion to class c ( series i )"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5",
+      "C7",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_010",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "open_ended_reasoning",
+    "question": "Batay sa mga header ng column at sa row na 'total shares', ilarawan ang pagkakasunod-sunod ng mga kaganapan na humantong mula sa paunang bilang ng mga share noong Setyembre 30, 2008, hanggang sa huling bilang.",
+    "answer": [
+      [
+        "Ang datos ay naglalarawan ng isang multi-step na pagbawas sa kabuuang mga share. Nagsisimula ang proseso sa 959,868,396 na share noong Setyembre 30, 2008. Ang unang kaganapan ay ang 'October 2008 redemptions', kung saan mahigit 115 milyong share ang na-redeem sa kabuuan. Ito ay sinusundan ng isang 'conversion to class c ( series i )'. Ang resulta ng mga conversion na ito ay makikita sa column na 'following immediate conversion...', na nagpapakita ng kabuuang 844,855,954 na share. Ang huling column, 'as converted post october 2008 redemptions', ay nagbibigay ng pangwakas na bilang na 774,710,051 na share, na kumakatawan sa netong resulta ng lahat ng naunang transaksyon."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_011",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Sa anong taon nag-convert ang Class A common stock at Class B common stock sa Class C (Series I)?",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "D1",
+      "D2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

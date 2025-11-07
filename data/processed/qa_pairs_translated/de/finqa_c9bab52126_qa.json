@@ -1,0 +1,250 @@
+[
+  {
+    "question_id": "finqa_c9bab52126_001",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "In welchem Jahr hatte das Unternehmen den höchsten Netto-Zinsaufwand, und wie hoch war dieser Betrag?",
+    "answer": [
+      [
+        "2009",
+        "$431.7"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_c9bab52126_002",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Wie hoch waren die gesamten verbuchten Abschreibungen und Amortisationen im Fünfjahreszeitraum von 2009 bis 2013?",
+    "answer": [
+      [
+        "1050.9"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_c9bab52126_003",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Wie hoch war das \"Nettoergebnis (Verlust)\" in dem Jahr, in dem das \"EBITDA\" am niedrigsten war?",
+    "answer": [
+      [
+        "$ -373.4 ( 373.4 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "A1",
+      "F1"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_c9bab52126_004",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "open_ended_reasoning",
+    "question": "Beschreiben Sie die Entwicklung des 'Jahresüberschusses (Verlusts)' vom frühesten Jahr (2009) bis zum jüngsten Jahr (2013), wie in der Tabelle dargestellt.",
+    "answer": [
+      [
+        "Der 'Jahresüberschuss (Verlust)' des Unternehmens zeigt von 2009 bis 2013 eine starke positive Trendwende. Es begann mit einem erheblichen Verlust von 373,4 Millionen US-Dollar im Jahr 2009, der sich 2010 auf einen geringeren Verlust von 29,2 Millionen US-Dollar reduzierte. Das Unternehmen wurde dann profitabel, wobei der Jahresüberschuss von 17,1 Millionen US-Dollar im Jahr 2011 auf 119,0 Millionen US-Dollar im Jahr 2012 und schließlich auf 132,8 Millionen US-Dollar im Jahr 2013 anstieg."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_c9bab52126_005",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Listen Sie alle Finanzposten auf, die 2010 einen negativen Wert und 2013 einen positiven Wert hatten.",
+    "answer": [
+      [
+        "net income ( loss )"
+      ],
+      [
+        "income tax expense ( benefit )"
+      ],
+      [
+        "net loss ( gain ) on extinguishments of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "E1",
+      "A3",
+      "B3",
+      "E3",
+      "A10",
+      "B10",
+      "E10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_c9bab52126_006",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Wie hoch waren die 'Abschreibungen und Amortisation' im Jahr 2012 als Prozentsatz des 'bereinigten EBITDA'?",
+    "answer": [
+      [
+        "27.42%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C14"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_c9bab52126_007",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Wenn die 'Beratungs- und schuldenbezogenen Berufsgebühren' im Jahr 2010 um 50 % niedriger gewesen wären, wie hoch wäre dann das 'bereinigte EBITDA' für dieses Jahr gewesen, unter der Annahme, dass diese Anpassung die Gesamtsumme direkt reduziert?",
+    "answer": [
+      [
+        "$594.25"
+      ]
+    ],
+    "evidence_cells": [
+      "E8",
+      "E14"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_c9bab52126_008",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "open_ended_reasoning",
+    "question": "Basierend auf den Daten von 2009 bis 2013, welche Beziehung besteht zwischen den 'Nettozinsaufwendungen' und dem 'bereinigten EBITDA'?",
+    "answer": [
+      [
+        "Es besteht eine starke inverse Korrelation zwischen den 'Nettozinsaufwendungen' und dem 'bereinigten EBITDA'. Während die 'Nettozinsaufwendungen' von 431,7 Millionen US-Dollar im Jahr 2009 auf 250,1 Millionen US-Dollar im Jahr 2013 kontinuierlich sanken, stieg das 'bereinigte EBITDA' im gleichen Zeitraum stetig von 465,4 Millionen US-Dollar auf 808,5 Millionen US-Dollar. Dies deutet darauf hin, dass die Bemühungen des Unternehmens, Schulden und Zinszahlungen zu reduzieren, wahrscheinlich zu einer verbesserten Kernrentabilität beigetragen haben."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "A14",
+      "B14",
+      "C14",
+      "D14",
+      "E14",
+      "F14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_c9bab52126_009",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Welche der finanziellen Anpassungspositionen zwischen 'non-cash equity-based compensation' und 'other adjustments ( ii )' (einschließlich dieser beiden) weisen für jedes Jahr von 2009 bis 2013 einen numerischen Wert auf?",
+    "answer": [
+      [
+        "non-cash equity-based compensation"
+      ],
+      [
+        "sponsor fees"
+      ],
+      [
+        "consulting and debt-related professional fees"
+      ],
+      [
+        "other adjustments ( ii )"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "B13",
+      "C13",
+      "D13",
+      "E13",
+      "F13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_c9bab52126_010",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Der 'Nettoverlust (Gewinn) aus der Tilgung langfristiger Verbindlichkeiten' für 2011 scheint ein Ausreißer zu sein. Um wie viel ist dieser Wert höher als der nächsthöhere Wert, der in den anderen Jahren verzeichnet wurde?",
+    "answer": [
+      [
+        "$54.9"
+      ]
+    ],
+    "evidence_cells": [
+      "D10",
+      "B10",
+      "C10",
+      "E10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_c9bab52126_011",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Welches Jahr weist ein ungewöhnlich niedriges Nettoeinkommen (Verlust) im Vergleich zu den anderen Jahren auf?",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

@@ -1,0 +1,200 @@
+[
+  {
+    "question_id": "finqa_dcb7ad35d5_001",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "Hvilken forpliktelsestype, ekskludert langsiktig gjeld, har den høyeste totale betalingsforpliktelsen?",
+    "answer": [
+      [
+        "purchase obligations and other ( 4 ) ( 5 ) ( 6 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_002",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "Hva er de totale samlede forpliktelsene som forfaller før regnskapsåret 2023?",
+    "answer": [
+      [
+        "3935.9"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_003",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "Hva er den totale betalingen som forfaller i periodene 2021-2022 og 2023-2024 for den forpliktelsestypen som har minst forfallende betaling i regnskapsåret 2020?",
+    "answer": [
+      [
+        "11.6"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "A3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_004",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv trenden for selskapets totale betalingsforpliktelser for de definerte regnskapsperiodene frem til 'deretter'.",
+    "answer": [
+      [
+        "De totale betalingsforpliktelsene viser en svingende trend. De starter på 2378,5 millioner dollar i regnskapsåret 2020, deretter synker de til 1557,4 millioner dollar for perioden 2021-2022, før de stiger betydelig til 2897,5 millioner dollar i perioden 2023-2024. Dette indikerer en nedgang i kortsiktige forpliktelser etterfulgt av en stor økning i mellomlange forpliktelser."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_005",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "List alle forpliktelseskategorier der betalingene som forfaller 'deretter' overstiger summen av alle betalinger som forfaller fra 2020 til 2024.",
+    "answer": [
+      [
+        "long-term debt including current portionexcluding capital lease obligations ( 1 )"
+      ],
+      [
+        "capital lease obligations ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "A3",
+      "C3",
+      "D3",
+      "E3",
+      "F3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_006",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "Hvilken prosentandel av de 'totale' betalingene som forfaller i regnskapsåret 2020, er tilskrevet 'kjøpsforpliktelser og annet'?",
+    "answer": [
+      [
+        "67.56%"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_007",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "Hvis alle 'driftsleieforpliktelser' som forfaller i regnskapsårene 2021 og 2022 ble utsatt og lagt til 'deretter'-perioden, hva ville den nye totalen for 'deretter'-perioden være?",
+    "answer": [
+      [
+        "6589.9"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "F5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_008",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "Basert på betalingsplanene, hva kan utledes om utløpsprofilen for 'langsiktig gjeld' versus 'kjøpsforpliktelser'?",
+    "answer": [
+      [
+        "Løpetidsprofilene er markant forskjellige. 'Langsiktig gjeld' er sterkt bakbelastet, med flertallet av betalingene ($5729,2 millioner av totalt $9714,1 millioner) forfaller 'senere', noe som indikerer langsiktige finansieringsinstrumenter. Motsatt er 'kjøpsforpliktelser' sterkt frontbelastet, med det store flertallet av betalingene ($1607,0 millioner av totalt $2293,5 millioner) forfaller i det umiddelbare regnskapsåret 2020, noe som er karakteristisk for kortsiktige driftsforpliktelser."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_009",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "Hvilket enkelt betalingsbeløp for 'leieforpliktelser knyttet til kapital' er et avvik, og utgjør nesten 90 % av den totale forpliktelsen?",
+    "answer": [
+      [
+        "$ 150.9"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_010",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "Ved å manuelt summere verdiene i kolonnen 'payments due by period fiscal 2023and 2024' for hver enkelt forpliktelse, verifiser om den oppgitte totalen i celle E5 er korrekt.",
+    "answer": [
+      [
+        "Ja, den oppgitte totalen er korrekt. Summen av de individuelle forpliktelsene for regnskapsårene 2023 og 2024 er $2494.3 + $193.6 + $2.9 + $206.7, som beregnes til $2897.5, og dette samsvarer med verdien i celle E5."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,208 @@
+[
+  {
+    "question_id": "finqa_4523346d99_001",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "Hvilken gældskomponent, 'langfristet gæld, der forfalder inden for et år' eller 'langfristet gæld', oplevede en højere procentvis vækst fra 2006 til 2007?",
+    "answer": [
+      [
+        "long-term debt due within one year"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_002",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "Hvad var den samlede sum af 'langfristet gæld' og 'egenkapital' i 2007, i millioner dollars?",
+    "answer": [
+      [
+        "25307"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_4523346d99_003",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "Med hvor mange millioner dollars oversteg stigningen i 'total gæld' fra 2006 til 2007 faldet i 'kontanter' i samme periode?",
+    "answer": [
+      [
+        "2297"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_004",
+    "table_id": "finqa_4523346d99",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyser ændringen i virksomhedens likviditet, idet der tages højde for både 'kontanter' og 'betroede midler', fra 2006 til 2007.",
+    "answer": [
+      [
+        "Virksomhedens likviditetsposition forværredes markant fra 2006 til 2007. 'Kontanter' faldt med 53,6% (fra $2585 mio. til $1199 mio.), og 'betroede midler fra omsætningsanvisninger' faldt med 63,0% (fra $2013 mio. til $744 mio.). De samlede likvide aktiver faldt fra $4598 mio. til $1943 mio., en reduktion på næsten 58%, hvilket indikerer et betydeligt fald i umiddelbart tilgængelige midler."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_005",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "List alle finansielle poster fra den primære resultatopgørelsessektion (rækkerne 1-6), der havde en værdi større end $6.000 millioner i 2007.",
+    "answer": [
+      [
+        "long-term debt"
+      ],
+      [
+        "total debt"
+      ],
+      [
+        "equity"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_006",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "Hvad var virksomhedens gæld-til-egenkapital-forhold i 2006? Beregn dette ved at dividere 'total gæld' med 'egenkapital' og angiv resultatet som et decimaltal afrundet til to decimaler.",
+    "answer": [
+      [
+        "0.24"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_4523346d99_007",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "Hvis virksomhedens 'egenkapital' i 2007 havde været 15 % højere, hvad ville den nye værdi for 'gæld plus egenkapital minus likviditet' have været for det år, under antagelse af at alle andre værdier forblev konstante?",
+    "answer": [
+      [
+        "27378.45"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B12",
+      "B13",
+      "B14",
+      "B16"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_008",
+    "table_id": "finqa_4523346d99",
+    "question_type": "open_ended_reasoning",
+    "question": "Baseret på den samtidige og betydelige stigning i både 'total gæld' og 'egenkapital' fra 2006 til 2007, hvad kan man udlede om virksomhedens finansielle strategi i denne periode?",
+    "answer": [
+      [
+        "Den samtidige og store stigning i både total gæld (fra 3.532 mio. USD til 7.215 mio. USD) og egenkapital (fra 14.607 mio. USD til 19.223 mio. USD) antyder, at virksomheden fulgte en aggressiv vækst- eller ekspansionsstrategi. Den rejste aktivt betydelig kapital fra både gælds- og egenkapitalmarkederne. Dette gøres ofte for at finansiere større investeringer, projekter eller opkøb. Det markante spring i den kontantjusterede gæld til kapital-forhold fra 6 % til 22 % indikerer yderligere et strategisk skift mod højere gearing for at understøtte denne vækst."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B6",
+      "C6",
+      "B17",
+      "C17"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_4523346d99_009",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "Hvilken etiket i 'beregnings'-sektionen (række 8-16) er en direkte dublikering af en etiket fra hovedregnskabssektionen (række 1-6)?",
+    "answer": [
+      [
+        "total debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "A8",
+      "A12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_010",
+    "table_id": "finqa_4523346d99",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvilken beregnet finansiel metrik viste den mest ekstreme relative stigning fra 2006 til 2007, hvilket gjorde den til en bemærkelsesværdig outlier?",
+    "answer": [
+      [
+        "Metrikken 'total gæld minus kontanter' er den mest markante outlier. Den steg fra 947 millioner dollars i 2006 til 5.272 millioner dollars i 2007, hvilket repræsenterer en vækst på over 456%. Dette overstiger langt procentvise ændringer for enhver anden opført metrik, herunder en stigning på 267% i 'kontantjusteret gæld-til-kapital-forholdet', hvilket indikerer en dramatisk stigning i virksomhedens netto gældsposition."
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "B11",
+      "C11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_4523346d99_011",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "Hvor meget steg gælden i 2007 sammenlignet med 2006?",
+    "answer": [
+      [
+        "$3,683"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

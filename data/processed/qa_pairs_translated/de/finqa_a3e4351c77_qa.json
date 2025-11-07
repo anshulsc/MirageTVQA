@@ -1,0 +1,205 @@
+[
+  {
+    "question_id": "finqa_a3e4351c77_001",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Welches spezifische Schuldeninstrument, ausgenommen Gesamtwerte und Anpassungen, wies in beiden berichteten Zeiträumen den höchsten Wert auf?",
+    "answer": [
+      [
+        "international marine terminals-plaquemines la revenue bonds due march 15 2025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_002",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Wie hoch ist der Gesamtwert aller identifizierbaren Anleihen, die für den Zeitraum in der zweiten Datenspalte aufgeführt sind?",
+    "answer": [
+      [
+        "63.7"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_003",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Um wie viel überstieg die absolute Änderung bei 'fälligen Tilgungen langfristiger Schulden' zwischen den beiden Zeiträumen die absolute Änderung bei 'nicht amortisiertem Schuldenabschlag'?",
+    "answer": [
+      [
+        "665.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_004",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Beschreiben Sie den Trend der 'Gesamtverschuldung' zwischen den beiden gezeigten Zeiträumen und erläutern Sie die Bedeutung dieser Änderung.",
+    "answer": [
+      [
+        "Die Gesamtverschuldung stieg um 275,3 USD, von 10007,5 USD im Zeitraum, der in Spalte C gezeigt wird, auf 10282,8 USD im Zeitraum, der in Spalte B gezeigt wird. Dies deutet darauf hin, dass die gesamten langfristigen Schuldenverpflichtungen des Unternehmens in diesem Zeitraum wuchsen, was darauf hindeutet, dass es wahrscheinlich mehr neue Schulden aufgenommen als zurückgezahlt hat."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_005",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Identifizieren Sie alle Posten, mit Ausnahme der Gesamtsumme, die in der zweiten Datenspalte als negative Werte dargestellt sind.",
+    "answer": [
+      [
+        "unamortized debt discount on long-term debt"
+      ],
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_006",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Als Prozentsatz der gesamten langfristigen Schulden für den Zeitraum in Spalte B, welcher Anteil wird als 'fällige Teilzahlungen langfristiger Schulden' eingestuft? Verwenden Sie absolute Werte für die Berechnung und runden Sie auf zwei Dezimalstellen.",
+    "answer": [
+      [
+        "12.29%"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_007",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Wenn der 'nicht amortisierte Schuldenabschlag' in der zweiten Datenspalte (Spalte B) eliminiert würde (d. h. auf Null gesetzt), wie hoch wären die 'Gesamtfremdmittel 2013 kmp' für diesen Zeitraum gewesen?",
+    "answer": [
+      [
+        "$ 10303.1"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_008",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Gibt es einen offensichtlichen Zusammenhang zwischen der Veränderung der 'fälligen kurzfristigen Schulden' und der Veränderung der 'gesamten langfristigen Schulden' über die beiden Zeiträume?",
+    "answer": [
+      [
+        "Ja, es scheint eine umgekehrte Beziehung in ihren Bewegungen zu geben. Während die gesamten langfristigen Schulden um 275,3 $ (von 10007,5 $ auf 10282,8 $) stiegen, nahm die Höhe der 'fälligen kurzfristigen Schulden' erheblich ab (von einem absoluten Wert von 1263,3 auf 596,6). Dies deutet darauf hin, dass das Unternehmen zwar insgesamt mehr Schulden aufnahm, gleichzeitig aber den Anteil dieser Schulden, der in naher Zukunft fällig wird, reduzierte."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_009",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Welche Zeile im Datensatz scheint eine Aggregation anderer Zeilen zu sein, und welche Beweise stützen diese Schlussfolgerung?",
+    "answer": [
+      [
+        "Die Zeile mit der Bezeichnung 'total long-term debt 2013 kmp' ist eine Aggregation. Der primäre Beweis ist die explizite Verwendung des Wortes 'total' in ihrer Beschreibung. Zusätzlich wird ihr Wert mit einem Währungssymbol ('$') dargestellt, was sich von den anderen Zeilen unterscheidet und somit eine endgültige, zusammenfassende Finanzkennzahl darstellt."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_010",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Welcher Posten zeigt die signifikanteste Änderung im absoluten Wert zwischen den beiden Perioden und stellt somit einen finanziellen Ausreißer in Bezug auf die Volatilität dar?",
+    "answer": [
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_011",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Unter Berücksichtigung der gesamten langfristigen Schulden und des nicht amortisierten Schuldenrabatts, wie hoch ist die effektive Erhöhung der langfristigen Schulden von 2012 bis 2013?",
+    "answer": [
+      [
+        "Die gesamten langfristigen Schulden stiegen von 10.007,5 Millionen US-Dollar im Jahr 2012 auf 10.282,8 Millionen US-Dollar im Jahr 2013. Berücksichtigt man, dass sich der nicht amortisierte Schuldenrabatt von -21,2 im Jahr 2012 auf -20,3 im Jahr 2013 änderte, beträgt die effektive Erhöhung der Schulden 276,8 Millionen US-Dollar."
+      ]
+    ],
+    "evidence_cells": [
+      "F6",
+      "G6",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

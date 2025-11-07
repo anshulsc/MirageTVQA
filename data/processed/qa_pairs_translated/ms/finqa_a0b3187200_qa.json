@@ -1,0 +1,234 @@
+[
+  {
+    "question_id": "finqa_a0b3187200_001",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "Obligasi kontraktual manakah, tidak termasuk jumlah keseluruhan, mempunyai pembayaran tertinggi yang perlu dibayar pada tahun 2020?",
+    "answer": [
+      [
+        "long-term debt ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A3",
+      "F3",
+      "A4",
+      "F4",
+      "A5",
+      "F5",
+      "A6",
+      "F6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a0b3187200_002",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "Berapakah purata bayaran tahunan yang perlu dibayar untuk 'long-term debt ( 1 )' merentasi tahun 2017 hingga 2021?",
+    "answer": [
+      [
+        "353921"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a0b3187200_003",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "Untuk obligasi kontrak dengan jumlah bayaran terendah yang perlu dibayar, berapakah bayaran yang dijadualkan untuk tempoh 'selepas itu'?",
+    "answer": [
+      [
+        "$ 14480"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "A6",
+      "H6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a0b3187200_004",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "open_ended_reasoning",
+    "question": "Huraikan trend pembayaran untuk 'share of unconsolidated joint ventures' debt (3)' antara 2017 dan 2021. Adakah ia konsisten?",
+    "answer": [
+      [
+        "Trend pembayaran bagi 'share of unconsolidated joint ventures' debt (3)' dari 2017 hingga 2021 adalah sangat tidak konsisten dan tidak menentu. Pembayaran bermula rendah pada $2,444 ribu pada tahun 2017, meningkat mendadak kepada $28,466 ribu pada tahun 2018, menurun kepada $5,737 ribu pada tahun 2019, kembali meningkat kepada $11,598 ribu pada tahun 2020, dan kemudian jatuh ke titik terendah pada $1,236 ribu pada tahun 2021. Tiada trend menaik atau menurun yang konsisten."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a0b3187200_005",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "Senaraikan semua obligasi kontraktual yang mempunyai bayaran perlu dibayar kurang daripada $3,000 ribu pada tahun 2017 dan 2019.",
+    "answer": [
+      [
+        "line of credit ( 2 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "A3",
+      "C3",
+      "E3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a0b3187200_006",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "Berapakah peratusan daripada jumlah obligasi kontrak untuk tahun 2018 yang dikaitkan dengan 'hutang jangka panjang ( 1 )'?",
+    "answer": [
+      [
+        "87.71%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a0b3187200_007",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "Jika bayaran untuk 'pajakan tanah' pada tahun 2017 adalah 20% lebih rendah, berapakah 'jumlah obligasi kontrak' baharu untuk tahun tersebut?",
+    "answer": [
+      [
+        "$ 555989"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a0b3187200_008",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan data bagi obligasi individu, adakah terdapat korelasi yang jelas antara saiz obligasi 'jumlah' dan jumlah yang perlu dibayar dalam tempoh 'selepas itu'? Jelaskan alasan anda.",
+    "answer": [
+      [
+        "Tiada korelasi yang jelas. Sebagai contoh, 'hutang jangka panjang', obligasi terbesar ($3,508,789 ribu), mempunyai kira-kira 49.6% daripada jumlah keseluruhannya yang perlu dibayar 'selepas itu'. Sebaliknya, 'kos tunggakan pembangunan dan pembinaan', satu lagi obligasi besar ($344,700 ribu), hanya mempunyai kira-kira 0.6% yang perlu dibayar 'selepas itu'. Sementara itu, 'pajakan tanah', obligasi bersaiz sederhana, mempunyai bahagian yang sangat tinggi (89.1%) yang perlu dibayar 'selepas itu'. Kebolehubahan ini menunjukkan bahawa jadual pembayaran balik tidak ditentukan semata-mata oleh saiz keseluruhannya."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "H1",
+      "B2",
+      "H2",
+      "B3",
+      "H3",
+      "B4",
+      "H4",
+      "B5",
+      "H5",
+      "B6",
+      "H6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a0b3187200_009",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "open_ended_reasoning",
+    "question": "Baris manakah dalam jadual yang mewakili jumlah baris obligasi individu yang lain, dan lajur manakah yang terpakai untuk penjumlahan ini?",
+    "answer": [
+      [
+        "Baris 'jumlah obligasi kontrak' adalah penjumlahan enam baris obligasi individu yang lain. Penjumlahan ini terpakai untuk semua lajur pembayaran, dari 'jumlah' hingga 'selepas itu' (lajur B hingga H)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a0b3187200_010",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "Untuk 'kos tunggakan pembangunan dan pembinaan', pembayaran tahun manakah merupakan pencilan yang ketara berbanding pembayarannya dari 2018-2021?",
+    "answer": [
+      [
+        "2017"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a0b3187200_011",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "Berapakah jumlah obligasi kontrak dalam ribuan dari 2017 hingga 2021?",
+    "answer": [
+      [
+        "$2,282,629"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

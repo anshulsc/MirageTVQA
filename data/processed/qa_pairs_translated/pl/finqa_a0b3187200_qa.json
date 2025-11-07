@@ -1,0 +1,234 @@
+[
+  {
+    "question_id": "finqa_a0b3187200_001",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "Które zobowiązanie umowne, z wyłączeniem łącznej sumy, ma najwyższą kwotę do zapłaty w roku 2020?",
+    "answer": [
+      [
+        "long-term debt ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A3",
+      "F3",
+      "A4",
+      "F4",
+      "A5",
+      "F5",
+      "A6",
+      "F6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a0b3187200_002",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "Ile wynosi średnia roczna płatność do uregulowania z tytułu 'zadłużenia długoterminowego (1)' w latach 2017 do 2021?",
+    "answer": [
+      [
+        "353921"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a0b3187200_003",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "Dla zobowiązania umownego o najniższej łącznej kwocie do zapłaty, jaka płatność jest zaplanowana na okres \"później\"?",
+    "answer": [
+      [
+        "$ 14480"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "A6",
+      "H6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a0b3187200_004",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "open_ended_reasoning",
+    "question": "Opisz trend płatności dla 'udziału w zadłużeniu nieskonsolidowanych spółek joint venture (3)' w latach 2017-2021. Czy jest on spójny?",
+    "answer": [
+      [
+        "Trend płatności dla 'udziału w zadłużeniu nieskonsolidowanych spółek joint venture (3)' w latach 2017-2021 jest wysoce niespójny i zmienny. Płatności rozpoczęły się od niskiej kwoty 2 444 tys. USD w 2017 roku, gwałtownie wzrosły do 28 466 tys. USD w 2018 roku, spadły do 5 737 tys. USD w 2019 roku, ponownie wzrosły do 11 598 tys. USD w 2020 roku, a następnie spadły do najniższego poziomu 1 236 tys. USD w 2021 roku. Nie ma spójnego trendu wzrostowego ani spadkowego."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a0b3187200_005",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "Wymień wszystkie zobowiązania umowne, dla których płatność należna wynosi mniej niż 3 000 tys. USD zarówno w 2017, jak i w 2019 roku.",
+    "answer": [
+      [
+        "line of credit ( 2 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "A3",
+      "C3",
+      "E3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a0b3187200_006",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "Jaki procent całkowitych zobowiązań umownych za rok 2018 stanowi „zadłużenie długoterminowe ( 1 )”?",
+    "answer": [
+      [
+        "87.71%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a0b3187200_007",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "Gdyby płatność za „dzierżawy gruntów” w 2017 roku była o 20% niższa, jakie byłyby nowe „całkowite zobowiązania umowne” na ten rok?",
+    "answer": [
+      [
+        "$ 555989"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a0b3187200_008",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "open_ended_reasoning",
+    "question": "Czy na podstawie danych dotyczących poszczególnych zobowiązań istnieje wyraźna korelacja między wielkością 'całkowitego' zobowiązania a kwotą należną w okresie 'później'? Wyjaśnij swoje rozumowanie.",
+    "answer": [
+      [
+        "Nie ma wyraźnej korelacji. Na przykład, 'długoterminowe zadłużenie' (long-term debt), największe zobowiązanie (3 508 789 tys. USD), ma około 49,6% swojej całkowitej kwoty należnej 'później'. Z kolei 'koszty zaległości rozwojowych i budowlanych' (development and construction backlog costs), inne duże zobowiązanie (344 700 tys. USD), ma jedynie około 0,6% należne 'później'. Tymczasem 'dzierżawy gruntów' (ground leases), zobowiązanie średniej wielkości, ma bardzo wysoką proporcję (89,1%) należną 'później'. Ta zmienność wskazuje, że harmonogram spłat nie jest wyłącznie determinowany przez jego całkowitą wielkość."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "H1",
+      "B2",
+      "H2",
+      "B3",
+      "H3",
+      "B4",
+      "H4",
+      "B5",
+      "H5",
+      "B6",
+      "H6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a0b3187200_009",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "open_ended_reasoning",
+    "question": "Który wiersz w tabeli stanowi sumę pozostałych poszczególnych wierszy zobowiązań i których kolumn dotyczy to sumowanie?",
+    "answer": [
+      [
+        "Wiersz 'total contractual obligations' jest sumą sześciu pozostałych wierszy poszczególnych zobowiązań. To sumowanie dotyczy wszystkich kolumn płatności, od 'total' do 'thereafter' (kolumny B do H)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a0b3187200_010",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "Dla pozycji „koszty zaległych robót deweloperskich i budowlanych”, płatność z którego roku jest znaczącą wartością odstającą w porównaniu do płatności z lat 2018-2021?",
+    "answer": [
+      [
+        "2017"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a0b3187200_011",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "Ile wynoszą całkowite zobowiązania umowne w tysiącach od 2017 do 2021 roku?",
+    "answer": [
+      [
+        "$2,282,629"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

@@ -1,0 +1,228 @@
+[
+  {
+    "question_id": "finqa_dbc539719b_001",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Unter den aufgeführten Einzelstaaten, welcher erwirtschaftet den höchsten Betriebsumsatz pro Kunde?",
+    "answer": [
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A4",
+      "B4",
+      "D4",
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_002",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Wie hoch ist die Gesamtzahl der Kunden für Illinois, Indiana und Kalifornien?",
+    "answer": [
+      [
+        "779881"
+      ]
+    ],
+    "evidence_cells": [
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_dbc539719b_003",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Wie hoch ist der kombinierte Prozentsatz der gesamten Betriebseinnahmen aus dem Bundesstaat (den Bundesstaaten) mit der niedrigsten geschätzten bedienten Bevölkerung?",
+    "answer": [
+      [
+        "12.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "F6",
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_004",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Welche Bundesstaaten haben einen Anteil an der Gesamtkundenzahl, der größer ist als ihr Anteil an den gesamten Betriebseinnahmen?",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "indiana"
+      ],
+      [
+        "west virginia ( b )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "A5",
+      "C5",
+      "E5",
+      "A6",
+      "C6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_005",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Wie verhält sich der Prozentsatz der Gesamtkunden zum Prozentsatz der gesamten versorgten Bevölkerung für die Kategorie 'sonstige (c)', gerundet auf zwei Dezimalstellen?",
+    "answer": [
+      [
+        "1.01"
+      ]
+    ],
+    "evidence_cells": [
+      "E8",
+      "G8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_dbc539719b_006",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Wenn sich die Betriebseinnahmen von Pennsylvania um 10 % erhöhen würden, wie hoch wären dann die neuen Betriebseinnahmen für 'Summe (Top Sieben Staaten)', vorausgesetzt, die Einnahmen aller anderen Staaten bleiben unverändert?",
+    "answer": [
+      [
+        "2388.14"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_007",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Analysieren Sie die Beziehung zwischen der Anzahl der Kunden und der geschätzten bedienten Bevölkerung für die sechs aufgeführten Einzelstaaten. Gibt es eine positive Korrelation, und was impliziert dies?",
+    "answer": [
+      [
+        "Ja, es gibt eine starke positive Korrelation. Wenn die Anzahl der Kunden für einen Staat steigt, steigt tendenziell auch die geschätzte bediente Bevölkerung. Zum Beispiel hat Pennsylvania die höchste Kundenzahl (666.415) und die größte geschätzte bediente Bevölkerung (2,2 Millionen), während West Virginia und Kalifornien, die die niedrigsten Kundenzahlen aufweisen, auch die kleinsten geschätzten Bevölkerungen haben, die bedient werden. Dies impliziert, dass die Kundenbasis ein direkter und proportionaler Bestandteil der Bevölkerung ist, die von dem Unternehmen in diesen Regionen bedient wird."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_dbc539719b_008",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Wenn man die geschätzte bediente Bevölkerung pro Kunde für jeden der sechs einzelnen Bundesstaaten berechnet, identifizieren Sie, welcher Bundesstaat der signifikanteste Ausreißer ist, und erklären Sie warum.",
+    "answer": [
+      [
+        "Illinois ist der signifikanteste Ausreißer. Die geschätzte pro Kunde bediente Bevölkerung für jeden Bundesstaat ist: Pennsylvania (~3,30), Missouri (~3,23), Illinois (~4,17), Kalifornien (~3,44), Indiana (~4,09) und West Virginia (~3,52). Während die meisten Bundesstaaten zwischen 3,2 und 3,5 Personen pro Kunde bedienen, liegen Illinois und Indiana deutlich höher. Illinois hat mit etwa 4,17 das höchste Verhältnis, was darauf hindeutet, dass jeder Kunde in Illinois einen größeren Teil der bedienten Bevölkerung im Vergleich zu anderen Bundesstaaten darstellt, was ihn zum signifikantesten Ausreißer macht."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_dbc539719b_009",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Überprüfen Sie, ob sich der Prozentsatz der gesamten Betriebseinnahmen für 'Zwischensumme (Top Sieben Staaten)' und 'Andere (c)' korrekt zum Prozentsatz für 'Gesamte regulierte Unternehmen' aufsummieren.",
+    "answer": [
+      [
+        "Ja, die Summe ist korrekt. Die 'Zwischensumme (Top Sieben Staaten)' macht 87,0 % der gesamten Betriebseinnahmen aus, und die Kategorie 'Andere (c)' macht 13,0 % aus. Wenn man diese beiden Prozentsätze addiert (87,0 % + 13,0 %), ergibt sich 100,0 %, was mit dem Wert für 'Gesamte regulierte Unternehmen' übereinstimmt."
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_010",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Welches Paar von sechs Staaten hat die geringste kombinierte Kundenzahl, die der Kundenzahl in Pennsylvania am nächsten kommt?",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

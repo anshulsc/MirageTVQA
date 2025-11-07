@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_f88511c4f2_001",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "מה היה הערך הנקי של כל השינויים הטרנזקציונליים (למעט יתרות פתיחה וסגירה והערך החריג של 'ביטול קונסולידציה') מחובות פרישת נכסים בשנת 2008?",
+    "answer": [
+      [
+        "-169"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_002",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "ב איזו שנה חלה ירידה גדולה יותר בהתחייבויות מתוך 'התחייבויות שנגרמו'?",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_003",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "בכמה גדל 'הוצאות הצבירה' משנת 2007 עד 2008?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_004",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "זהה את שורת הפריט שייצגה גידול בהתחייבויות בשנת 2008 אך ירידה בשנת 2007.",
+    "answer": [
+      [
+        "revisions to previous estimates"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_005",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "מה התוצאה אם מחסירים מסך הפתיחה של 2008 את סכום 'התחייבויות שהצטברו' ו'הוצאות הצטברות' לשנת 2007?",
+    "answer": [
+      [
+        "1013"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_006",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "ה'התחייבויות שנצטברו' בשנת 2007 מהוות איזה אחוז מהסכום המשולב של 'הוצאות צבירה' משתי השנים 2007 ו-2008?",
+    "answer": [
+      [
+        "47.24%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_007",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "אם 'התחייבויות שנצטברו' בשנת 2008 היו גדולות ב-50%, מה היה הסכום החדש של 'התחייבויות שנצטברו' ו-'התחייבויות ששולמו' לאותה שנה?",
+    "answer": [
+      [
+        "-49"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_008",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "בהתבסס על מבנה הנתונים וערכיו, מהי הקשר הלוגי בין היתרה לסיום שנת 2007 ליתרה בתחילת שנת 2008?",
+    "answer": [
+      [
+        "היתרה לסיום שנת 2007 (1134$) זהה ליתרה לתחילת שנת 2008 (1134$). הדבר מדגים את הפרקטיקה החשבונאית הסטנדרטית שבה יתרת הסגירה של תקופה אחת הופכת ליתרת הפתיחה לתקופה העוקבת."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_009",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "כיצד ערכים כספיים שליליים, כגון 'התחייבויות ששולמו', מיוצגים בכל הטבלה?",
+    "answer": [
+      [
+        "ערכים שליליים מיוצגים באמצעות סימון כפול: סימן מינוס מוביל ואחריו המספר, וכן הערך המוחלט של מספר זה בסוגריים. לדוגמה, '-94 (94)'."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "C5",
+      "A6",
+      "B6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_010",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "זהה את שני השורות המכילות את הערך '2013' והסבר מדוע ערך זה נראה כחריג בהקשר של הטבלה.",
+    "answer": [
+      [
+        "הערך '2013' מופיע עבור 'התחייבויות לפרישה (א)' בשנת 2007 ועבור 'הוצאה מאיחוד' בשנת 2008. ערך זה חריג מכיוון שהוא גדול בסדר גודל מהנתונים הטרנזקציונליים האחרים (למשל, 30, 66, -94), והכללתו שוברת את ההתאמה החשבונית בין היתרות ההתחלתיות לסופיות בשתי השנים, מה שמרמז שזה עשוי להיות שגיאת נתונים או פריט חריג."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_011",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "מה היה סכום התחייבויות לפנסיה (במיליונים) נכון ל-31 בדצמבר 2008?",
+    "answer": [
+      [
+        "$965"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,224 @@
+[
+  {
+    "question_id": "finqa_bb91241c24_001",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Was war die Gesamtzahl der neuen Aktien, die durch spezifische Unternehmensmaßnahmen (ausschließlich routinemäßiger Aktienoptionsausübungen) zwischen dem Stand vom 28. Dezember 2014 und dem Stand vom 3. Januar 2016 ausgegeben wurden?",
+    "answer": [
+      [
+        "834944"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_bb91241c24_002",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Welches einzelne Ereignis führte zur größten Ausgabe von ausstehenden Aktien?",
+    "answer": [
+      [
+        "acquisition of kraft foods group inc ."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6",
+      "A7",
+      "D7",
+      "A9",
+      "D9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_003",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Berechnen Sie die Nettoänderung der ausstehenden Aktien vom Anfangssaldo am 29. Dezember 2013 bis zum Endsaldo am 31. Dezember 2016.",
+    "answer": [
+      [
+        "839644"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_004",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "open_ended_reasoning",
+    "question": "Beschreiben Sie auf Basis der Daten die Entwicklung der Treasury-Aktienaktivitäten des Unternehmens nach dem 28. Dezember 2014.",
+    "answer": [
+      [
+        "Nach dem 28. Dezember 2014 begann das Unternehmen mit Aktivitäten im Zusammenhang mit eigenen Aktien (Treasury Shares), was durch die negativen Werte in der Spalte 'treasury shares' ab der Periode vor dem Stand vom 3. Januar 2016 angezeigt wird. Der Saldo der eigenen Aktien wurde zunehmend negativer und bewegte sich von -413 bis -2471 bis zum 31. Dezember 2016. Dies deutet darauf hin, dass das Unternehmen aktiv eigene Aktien zurückkaufte oder eigene Aktien für Mitarbeitervergütungspläne neu ausgab, wodurch die Gesamtzahl der im Eigenbestand gehaltenen Aktien reduziert wurde."
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_005",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Listen Sie die Ereignisse auf, die sowohl die Ausgabe neuer Aktien als auch eine Änderung der eigenen Aktien betrafen.",
+    "answer": [
+      [
+        "exercise of stock options issuance of other stock awards and other"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_006",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Die Aktien, die für die 'Übernahme der Kraft Foods Group Inc.' ausgegeben wurden, stellen welchen Prozentsatz der gesamten am 31. Dezember 2016 ausgegebenen Aktien dar?",
+    "answer": [
+      [
+        "48.64%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_bb91241c24_007",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Wenn die Anzahl der an Sponsoren ausgegebenen Aktien 20 % höher gewesen wäre, wie hoch wäre dann der 'Saldo zum 3. Januar 2016' für 'ausgegebene Aktien' gewesen, unter der Annahme, dass alle anderen Transaktionen gleich geblieben wären?",
+    "answer": [
+      [
+        "1258725"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_008",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "open_ended_reasoning",
+    "question": "Gibt es einen erkennbaren Zusammenhang zwischen der Art der Aktienemissionsereignisse und der Größenordnung der ausgegebenen Aktien? Begründen Sie Ihre Antwort.",
+    "answer": [
+      [
+        "Ja, ein klarer Zusammenhang besteht. Große Unternehmensaktionen wie die 'Übernahme der Kraft Foods Group Inc.' (592.898 Aktien) und die 'Ausgabe von Stammaktien an Sponsoren' (221.666 Aktien) führen zu Aktienemissionen, die um Größenordnungen größer sind als routinemäßige Ereignisse wie die 'Ausübung von Aktienoptionen' (im Bereich von 178 bis 4.555 Aktien). Dies deutet darauf hin, dass strategische Transaktionen einen weitaus signifikanteren Verwässerungseffekt haben als Standardaktivitäten zur Mitarbeitervergütung."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_bb91241c24_009",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "open_ended_reasoning",
+    "question": "Welche Spalte enthält inkonsistente Datentypen, die eine Interpretation erfordern, und was sind die Inkonsistenzen?",
+    "answer": [
+      [
+        "Die Spalte 'treasury shares' enthält inkonsistente Datentypen. Für die ersten sechs Zeilen enthält sie das Jahr '2014', was nicht-numerischer Text ist und wie Rauschen wirkt. Für die letzten vier Zeilen enthält sie negative Zahlen im Buchhaltungsstil wie '-413 ( 413 )', die eine Interpretation erfordern, um als Standard-Numerischer Wert (-413) verwendet zu werden."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_010",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifizieren Sie die Transaktion, die im Hinblick auf die Anzahl der ausgegebenen Aktien einen klaren Ausreißer darstellt, und erklären Sie, warum.",
+    "answer": [
+      [
+        "Die „Akquisition von Kraft Foods Group Inc.“ ist ein signifikanter Ausreißer. Sie führte zur Ausgabe von 592.898 Aktien, was mehr als dem 2,6-fachen der nächstgrößeren Transaktion („Ausgabe von Stammaktien an Sponsoren“ mit 221.666 Aktien) und dem 28-fachen jeder anderen Transaktion auf der Liste entspricht. Ihre Größenordnung unterscheidet sie deutlich von routinemäßigen Kapitalaktivitäten."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_bb91241c24_011",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Wie viele Aktien wurden für die Übernahme von Kraft Foods Group Inc. ausgegeben?",
+    "answer": [
+      [
+        "592,898"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

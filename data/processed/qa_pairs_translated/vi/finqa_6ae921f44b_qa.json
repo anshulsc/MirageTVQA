@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_6ae921f44b_001",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Danh mục tài chính nào đã trải qua khoản lỗ tuyệt đối lớn nhất như một phần của 'lợi nhuận (lỗ) toàn diện khác trước khi tái phân loại'?",
+    "answer": [
+      [
+        "unrealized holding gains ( losses ) on derivatives"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_002",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Tổng cộng của tất cả 'số tiền được phân loại lại khỏi khoản lỗ toàn diện khác' cho các danh mục riêng lẻ là bao nhiêu?",
+    "answer": [
+      [
+        "14217"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_003",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Số dư ban đầu vào ngày 3 tháng 11 năm 2018 cho thành phần có giá trị số dư cuối kỳ nhỏ nhất vào ngày 2 tháng 11 năm 2019 là bao nhiêu?",
+    "answer": [
+      [
+        "-10"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B6",
+      "C6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_004",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "Mô tả xu hướng chung của khoản lỗ toàn diện khác tích lũy ('total') từ đầu đến cuối kỳ.",
+    "answer": [
+      [
+        "Tổng lỗ lũy kế đã xấu đi đáng kể trong kỳ, tăng từ -58.440 đô la lên -187.799 đô la. Điều này đại diện cho khoản lỗ ròng bổ sung là 129.359 đô la, gấp hơn ba lần khoản lỗ lũy kế kể từ đầu kỳ."
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_005",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Đối với tất cả các danh mục có khoản lỗ ròng trong 'tổng thu nhập (lỗ) toàn diện khác', tổng cộng của chúng là bao nhiêu vào ngày 2 tháng 11 năm 2019?",
+    "answer": [
+      [
+        "-187799"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "D5",
+      "E5",
+      "B6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_006",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Tỷ lệ phần trăm của tổng số dư âm vào ngày 2 tháng 11 năm 2019, thuộc về 'lãi (lỗ) chưa thực hiện từ việc nắm giữ chứng khoán sẵn sàng để bán' là bao nhiêu?",
+    "answer": [
+      [
+        "62.84%"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_007",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Nếu 'tổng thu nhập (thua lỗ) toàn diện khác' đối với 'kế hoạch hưu trí' là khoản lãi 24.344 thay vì thua lỗ, thì tổng số dư cuối kỳ mới vào ngày 2 tháng 11 năm 2019 sẽ là bao nhiêu?",
+    "answer": [
+      [
+        "-139111"
+      ]
+    ],
+    "evidence_cells": [
+      "E5",
+      "F6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_008",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "Liệu có một mối quan hệ nhất quán giữa dấu (dương/âm) của 'lợi nhuận (lỗ) toàn diện khác trước khi tái phân loại' và dấu của 'lợi nhuận (lỗ) toàn diện khác' cuối cùng cho mỗi danh mục không?",
+    "answer": [
+      [
+        "Có, mối quan hệ này nhất quán trên cả bốn danh mục. Đối với 'ngoại tệ', 'hợp đồng phái sinh' và 'kế hoạch hưu trí', các giá trị đều âm ở cả hai khoản mục. Đối với 'chứng khoán sẵn sàng để bán', các giá trị đều dương ở cả hai khoản mục. Do đó, dấu của thu nhập trước khi tái phân loại khớp nhất quán với dấu của thu nhập toàn diện ròng cuối cùng trong kỳ."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B5",
+      "C2",
+      "C5",
+      "D2",
+      "D5",
+      "E2",
+      "E5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_009",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Mục nhập dòng cụ thể nào, không bao gồm tổng cộng, thể hiện giá trị cực đoan nhất (tức là giá trị tuyệt đối lớn nhất) trong bảng?",
+    "answer": [
+      [
+        "-140728"
+      ]
+    ],
+    "evidence_cells": [
+      "D2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_010",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "Sử dụng logic cuộn lặp lại với Số dư Cuối kỳ = Số dư Đầu kỳ + 'thu nhập (lỗ) toàn diện khác', hãy xác định danh mục tài chính có các giá trị được báo cáo không nhất quán về mặt toán học.",
+    "answer": [
+      [
+        "Danh mục 'lãi (lỗ) chưa thực hiện từ việc nắm giữ chứng khoán sẵn sàng để bán' không nhất quán. Số dư đầu kỳ là -10 (ô C1) cộng với 'thu nhập (lỗ) toàn diện khác' là 10 (ô C5) cho ra số dư cuối kỳ tính toán là 0, không khớp với số dư cuối kỳ được báo cáo là 2.014 (ô C6)."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_011",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Các khoản mục kế toán cho kế hoạch lương hưu đã giảm bao nhiêu từ năm 2018 đến năm 2019?",
+    "answer": [
+      [
+        "$24,344"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A6",
+      "E6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

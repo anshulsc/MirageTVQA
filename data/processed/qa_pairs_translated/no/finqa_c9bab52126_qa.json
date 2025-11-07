@@ -1,0 +1,250 @@
+[
+  {
+    "question_id": "finqa_c9bab52126_001",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "I hvilket år hadde selskapet den høyeste 'netto rentekostnaden', og hva var det beløpet?",
+    "answer": [
+      [
+        "2009",
+        "$431.7"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_c9bab52126_002",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Hva var den totale kostnaden for 'avskrivninger og amortisering' som ble bokført over femårsperioden fra 2009 til 2013?",
+    "answer": [
+      [
+        "1050.9"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_c9bab52126_003",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Hva var 'nettoinntekt (tap)' i året som hadde den laveste 'ebitda-en'?",
+    "answer": [
+      [
+        "$ -373.4 ( 373.4 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "A1",
+      "F1"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_c9bab52126_004",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv utviklingen av 'nettoinntekt (tap)' fra det tidligste året (2009) til det nyeste året (2013) vist i tabellen.",
+    "answer": [
+      [
+        "Selskapets 'nettoinntekt (tap)' viser en sterk positiv trend med en klar forbedring fra 2009 til 2013. Det startet med et betydelig tap på $373.4 millioner i 2009, som ble redusert til et mindre tap på $29.2 millioner i 2010. Selskapet ble deretter lønnsomt, med nettoinntekten som økte fra $17.1 millioner i 2011 til $119.0 millioner i 2012, og til slutt til $132.8 millioner i 2013."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_c9bab52126_005",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Nevn alle finansielle poster som hadde en negativ verdi i 2010 og en positiv verdi i 2013.",
+    "answer": [
+      [
+        "net income ( loss )"
+      ],
+      [
+        "income tax expense ( benefit )"
+      ],
+      [
+        "net loss ( gain ) on extinguishments of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "E1",
+      "A3",
+      "B3",
+      "E3",
+      "A10",
+      "B10",
+      "E10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_c9bab52126_006",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Som en prosentandel av 'justert ebitda', hva var 'avskrivninger og amortisering' i 2012?",
+    "answer": [
+      [
+        "27.42%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C14"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_c9bab52126_007",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Hvis 'konsulent- og gjeldsrelaterte profesjonelle honorarer' hadde vært 50 % lavere i 2010, hva ville 'justert ebitda' for det året ha vært, forutsatt at denne justeringen direkte reduserer totalen?",
+    "answer": [
+      [
+        "$594.25"
+      ]
+    ],
+    "evidence_cells": [
+      "E8",
+      "E14"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_c9bab52126_008",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "open_ended_reasoning",
+    "question": "Basert på data fra 2009 til 2013, hva er forholdet mellom 'netto rentekostnader' og 'justert ebitda'?",
+    "answer": [
+      [
+        "Det er en sterk omvendt korrelasjon mellom 'netto rentekostnader' og 'justert ebitda'. Ettersom 'netto rentekostnader' konsekvent sank fra 431,7 millioner dollar i 2009 til 250,1 millioner dollar i 2013, økte 'justert ebitda' konsekvent fra 465,4 millioner dollar til 808,5 millioner dollar i samme periode. Dette tyder på at selskapets innsats for å redusere gjeld og rentebetalinger sannsynligvis bidro til forbedret kjernevirksomhetslønnsomhet."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "A14",
+      "B14",
+      "C14",
+      "D14",
+      "E14",
+      "F14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_c9bab52126_009",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Hvilke finansielle justeringsposter, mellom 'non-cash equity-based compensation' og 'other adjustments ( ii )' inkludert, har en numerisk verdi rapportert for hvert år fra 2009 til 2013?",
+    "answer": [
+      [
+        "non-cash equity-based compensation"
+      ],
+      [
+        "sponsor fees"
+      ],
+      [
+        "consulting and debt-related professional fees"
+      ],
+      [
+        "other adjustments ( ii )"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "B13",
+      "C13",
+      "D13",
+      "E13",
+      "F13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_c9bab52126_010",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Verdien for 'netto tap (gevinst) ved innfrielse av langsiktig gjeld' i 2011 fremstår som en uteligger. Hvor mye større er denne verdien enn den nest høyeste verdien som er registrert i de andre årene?",
+    "answer": [
+      [
+        "$54.9"
+      ]
+    ],
+    "evidence_cells": [
+      "D10",
+      "B10",
+      "C10",
+      "E10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_c9bab52126_011",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Hvilket år viser en uvanlig lavere nettoinntekt (tap) sammenlignet med de andre årene?",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

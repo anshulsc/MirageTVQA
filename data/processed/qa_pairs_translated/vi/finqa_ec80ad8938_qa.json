@@ -1,0 +1,186 @@
+[
+  {
+    "question_id": "finqa_ec80ad8938_001",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Tổng giá trị ghi sổ của tất cả tài sản (cả tài sản giao dịch và khoản vay) được báo cáo trên cả hai bộ dữ liệu được trình bày là bao nhiêu?",
+    "answer": [
+      [
+        "26557"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_002",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Trong bộ dữ liệu thứ hai (cột D và E), loại tài sản nào—tài sản giao dịch hay khoản vay—có 'tổng số dư nợ gốc chưa thanh toán vượt quá giá trị hợp lý' lớn hơn?",
+    "answer": [
+      [
+        "loans"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_003",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Đối với tập hợp các khoản vay đầu tiên (cột C), 'số dư các khoản vay không sinh lãi' chiếm bao nhiêu phần trăm trong tổng 'giá trị ghi sổ'?",
+    "answer": [
+      [
+        "0.03%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_004",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Tổng giá trị ghi sổ kết hợp của loại tài sản (Tài sản giao dịch hoặc Khoản vay) có tổng 'số dư khoản vay không tích lũy' thấp hơn trên cả hai bộ dữ liệu là bao nhiêu?",
+    "answer": [
+      [
+        "7598"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_005",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Liệt kê các giá trị ghi sổ cho tất cả các danh mục tài sản mà 'số dư các khoản vay không sinh lãi hoặc các khoản vay quá hạn hơn 90 ngày' chính xác là 1 triệu đô la.",
+    "answer": [
+      [
+        "$ 3224"
+      ],
+      [
+        "$ 4374"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C3",
+      "E3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_006",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Nếu giá trị ghi sổ của tài sản giao dịch trong bộ dữ liệu đầu tiên (cột B) được điều chỉnh bằng cách trừ đi 'tổng số dư nợ gốc chưa thanh toán vượt quá giá trị hợp lý' của nó, thì giá trị ghi sổ mới sẽ là bao nhiêu?",
+    "answer": [
+      [
+        "9673"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_007",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Phân tích 'số dư các khoản cho vay không dồn tích', loại tài sản nào có số dư chênh lệch đáng kể so với loại còn lại, và điều này ngụ ý gì về hồ sơ rủi ro tương đối của chúng?",
+    "answer": [
+      [
+        "Tài sản giao dịch (Trading Assets) trong cả hai bộ dữ liệu cho thấy số dư không dồn tích là 2.014 triệu đô la, đây là một sự chênh lệch cực lớn so với 1 triệu đô la đối với Các khoản vay (Loans) trong cả hai bộ dữ liệu. Sự khác biệt rõ rệt này cho thấy danh mục Tài sản giao dịch mang rủi ro tín dụng cao hơn đáng kể hoặc đã trải qua một sự kiện vỡ nợ lớn, trong khi danh mục Các khoản vay dường như đang ở trạng thái rất tốt với hầu như không có số dư không dồn tích."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_008",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Dữ liệu có cho thấy mối tương quan dương nhất quán giữa 'giá trị ghi sổ' của một tài sản và 'tổng dư nợ gốc chưa thanh toán vượt quá giá trị hợp lý' của nó đối với danh mục Tài sản giao dịch không?",
+    "answer": [
+      [
+        "Không, không có mối tương quan dương nhất quán nào được thể hiện. Nhóm tài sản giao dịch đầu tiên có giá trị ghi sổ cao hơn ($10,108M so với $8,851M) nhưng tổng dư nợ gốc chưa thanh toán vượt quá giá trị hợp lý lại thấp hơn ($435M so với $623M). Điều này cho thấy rằng quy mô danh mục đầu tư lớn hơn không nhất thiết dẫn đến khoản lỗ chưa thực hiện lớn hơn tương ứng trong bộ dữ liệu này."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_009",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Hãy xác định các hàng có chứa các điểm dữ liệu lặp lại hoặc dường như dư thừa và giải thích quy luật của chúng.",
+    "answer": [
+      [
+        "Sự dư thừa dữ liệu có mặt ở hàng 3 và hàng 4. Ở hàng 3, trong mục 'số dư các khoản vay không dồn tích hoặc các khoản vay quá hạn hơn 90 ngày', giá trị cho tài sản giao dịch là 2.014 triệu đô la ở cả hai tập (B3, D3) và 1 triệu đô la cho các khoản vay ở cả hai tập (C3, E3). Ở hàng 4, giá trị 2.014 triệu đô la được lặp lại ba lần cho cả hai tập tài sản giao dịch và tập khoản vay đầu tiên (B4, C4, D4), cho thấy đây có thể là một quy luật nhập liệu hoặc một đặc điểm báo cáo tài chính cụ thể."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_010",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "Đối với tập dữ liệu (Tập 1: cột B, C hoặc Tập 2: cột D, E) có tổng giá trị sổ sách cao hơn, hãy tính toán 'tỷ lệ lỗ chưa thực hiện' tổng thể của danh mục đầu tư (tổng 'dư nợ gốc chưa thanh toán vượt quá giá trị hợp lý' chia cho tổng 'giá trị sổ sách').",
+    "answer": [
+      [
+        "8.82%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

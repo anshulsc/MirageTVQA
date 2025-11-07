@@ -1,0 +1,275 @@
+[
+  {
+    "question_id": "finqa_a040abeceb_001",
+    "table_id": "finqa_a040abeceb",
+    "question_type": "value",
+    "question": "Qual dos seguintes ativos experimentou a maior diminuição absoluta de valor de 2014 para 2015: 'inventory', 'secured financing agreements' ou 'receivables'?",
+    "answer": [
+      [
+        "inventory"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a040abeceb_002",
+    "table_id": "finqa_a040abeceb",
+    "question_type": "value",
+    "question": "Qual foi o valor total combinado de 'ações públicas', 'ações privadas' e 'dívida1' em dezembro de 2015?",
+    "answer": [
+      [
+        "44192"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "B10",
+      "B11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a040abeceb_003",
+    "table_id": "finqa_a040abeceb",
+    "question_type": "value",
+    "question": "Qual foi a variação percentual anual na categoria de ativos que teve o maior valor em 2014 entre 'financiamento de clientes garantidos', 'estoque' e 'serviços ao cliente institucional'?",
+    "answer": [
+      [
+        "-11.47%"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a040abeceb_004",
+    "table_id": "finqa_a040abeceb",
+    "question_type": "open_ended_reasoning",
+    "question": "Analise as tendências de crescimento ano a ano para os componentes da categoria 'investing & lending'. Qual componente foi o principal impulsionador do crescimento geral da categoria de 2014 a 2015?",
+    "answer": [
+      [
+        "A categoria 'investing & lending' cresceu de $79.497 milhões em 2014 para $94.245 milhões em 2015. Esse crescimento foi impulsionado predominantemente por um aumento substancial em 'loans receivable2', que disparou em $16.469 milhões (um aumento de 56,9%). Embora a subcategoria 'other' também tenha crescido, sua contribuição foi menor ($875 milhões). Em contraste, 'public equity', 'private equity' e 'debt1' registraram uma queda em valor no mesmo período. Portanto, 'loans receivable2' foi o principal motor da tendência positiva."
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "B9",
+      "C9",
+      "A10",
+      "B10",
+      "C10",
+      "A11",
+      "B11",
+      "C11",
+      "A12",
+      "B12",
+      "C12",
+      "A13",
+      "B13",
+      "C13",
+      "A14",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a040abeceb_005",
+    "table_id": "finqa_a040abeceb",
+    "question_type": "value",
+    "question": "Liste todas as categorias de ativos que tiveram um valor superior a US$ 200.000 milhões em 2015 e também sofreram uma queda de valor em comparação com 2014.",
+    "answer": [
+      [
+        "inventory"
+      ],
+      [
+        "institutional client services"
+      ],
+      [
+        "total inventory and related assets"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8",
+      "A15",
+      "B15",
+      "C15",
+      "A17",
+      "B17",
+      "C17"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a040abeceb_006",
+    "table_id": "finqa_a040abeceb",
+    "question_type": "value",
+    "question": "Em dezembro de 2015, qual percentual dos 'Total Assets' era composto por 'total inventory and related assets'?",
+    "answer": [
+      [
+        "47.19%"
+      ]
+    ],
+    "evidence_cells": [
+      "B15",
+      "B17"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a040abeceb_007",
+    "table_id": "finqa_a040abeceb",
+    "question_type": "value",
+    "question": "Se o 'inventário' em 2015 tivesse diminuído apenas pela metade do valor absoluto que realmente diminuiu em relação ao seu valor de 2014, quais teriam sido os novos 'ativos totais de inventário e relacionados' para 2015?",
+    "answer": [
+      [
+        "417467.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "B15"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a040abeceb_008",
+    "table_id": "finqa_a040abeceb",
+    "question_type": "open_ended_reasoning",
+    "question": "Com base nos dados de 2014 a 2015, existe uma relação observável entre a mudança em 'acordos de financiamento garantido' e a mudança em 'inventário', e o que isso pode implicar?",
+    "answer": [
+      [
+        "Sim, existe uma correlação positiva potencial. De 2014 a 2015, o 'inventário' diminuiu em $ 21.831 milhões, e os 'acordos de financiamento garantido' também diminuíram em $ 11.272 milhões. Esse movimento paralelo sugere uma relação. Isso pode implicar que uma parte significativa do inventário da empresa é financiada através desses acordos garantidos, de modo que, à medida que os níveis de inventário foram reduzidos, a necessidade de financiamento associado também caiu."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a040abeceb_009",
+    "table_id": "finqa_a040abeceb",
+    "question_type": "value",
+    "question": "A tabela contém várias linhas de resumo que agregam outros itens. Identifique a linha de resumo que representa o maior subtotal (excluindo 'Total Assets') em dezembro de 2015.",
+    "answer": [
+      [
+        "total inventory and related assets"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A8",
+      "B8",
+      "A14",
+      "B14",
+      "A15",
+      "B15",
+      "A17"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a040abeceb_010",
+    "table_id": "finqa_a040abeceb",
+    "question_type": "value",
+    "question": "Entre todos os itens de ativo individuais (excluindo totais e linhas de resumo), qual demonstra o valor atípico mais extremo em termos de sua variação percentual de 2014 para 2015?",
+    "answer": [
+      [
+        "loans receivable2"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7",
+      "A9",
+      "B9",
+      "C9",
+      "A10",
+      "B10",
+      "C10",
+      "A11",
+      "B11",
+      "C11",
+      "A12",
+      "B12",
+      "C12",
+      "A13",
+      "B13",
+      "C13",
+      "A16",
+      "B16",
+      "C16"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a040abeceb_011",
+    "table_id": "finqa_a040abeceb",
+    "question_type": "value",
+    "question": "Quais são os ativos totais (em milhões) no final de 2015?",
+    "answer": [
+      [
+        "$861,395"
+      ]
+    ],
+    "evidence_cells": [
+      "A17",
+      "C17"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

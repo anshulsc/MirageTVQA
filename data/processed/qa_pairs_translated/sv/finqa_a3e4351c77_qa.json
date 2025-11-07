@@ -1,0 +1,205 @@
+[
+  {
+    "question_id": "finqa_a3e4351c77_001",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Vilket specifikt skuldeinstrument, exklusive totaler och justeringar, hade det högsta värdet under båda rapporterade perioderna?",
+    "answer": [
+      [
+        "international marine terminals-plaquemines la revenue bonds due march 15 2025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_002",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Vad är det totala värdet av alla identifierbara obligationsupplåning som anges för perioden i den andra datakolumnen?",
+    "answer": [
+      [
+        "63.7"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_003",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Med hur mycket översteg den absoluta förändringen i 'aktuella förfallodagar för långfristiga skulder' mellan de två perioderna den absoluta förändringen i 'icke amorterad skattereduktion'?",
+    "answer": [
+      [
+        "665.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_004",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv trenden för 'total långfristig skuld' mellan de två visade perioderna och förklara innebörden av denna förändring.",
+    "answer": [
+      [
+        "Den totala långfristiga skulden ökade med 275,3 dollar, från 10007,5 dollar under perioden som visas i kolumn C till 10282,8 dollar under perioden som visas i kolumn B. Detta indikerar att enhetens totala långfristiga skuldförpliktelser växte under denna tidsperiod, vilket tyder på att den sannolikt ådrog sig mer ny skuld än den återbetalade."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_005",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Identifiera alla radposter, exklusive totalsumman, som representeras som negativa värden i den andra datakolumnen.",
+    "answer": [
+      [
+        "unamortized debt discount on long-term debt"
+      ],
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_006",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Som en procentandel av den totala långfristiga skulden för perioden i kolumn B, vilken del klassificeras som 'förfallande skulder på långfristiga skulder'? Använd absoluta värden för beräkningen och avrunda till två decimaler.",
+    "answer": [
+      [
+        "12.29%"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_007",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Om 'unamortized debt discount' i den andra datakolumnen (kolumn B) eliminerades (dvs. sattes till noll), vad skulle då 'total long-term debt 2013 kmp' för den perioden ha varit?",
+    "answer": [
+      [
+        "$ 10303.1"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_008",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Finns det ett uppenbart samband mellan förändringen i 'kortfristiga delar av långfristiga skulder' och förändringen i 'total långfristig skuld' över de två perioderna?",
+    "answer": [
+      [
+        "Ja, det verkar finnas ett omvänt samband i deras rörelser. Medan den totala långfristiga skulden ökade med 275,3 USD (från 10007,5 till 10282,8), minskade storleken på 'kortfristiga delar' avsevärt (från ett absolut värde på 1263,3 till 596,6). Detta tyder på att medan företaget tog på sig mer skulder totalt sett, minskade det samtidigt den del av skulden som förföll inom den närmaste framtiden."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_009",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Vilken rad i datamängden verkar vara en aggregering av andra rader, och vilka bevis stöder detta slutsats?",
+    "answer": [
+      [
+        "Raden med etiketten 'total long-term debt 2013 kmp' är en aggregering. Det primära beviset är den explicita användningen av ordet 'total' i dess beskrivning. Dessutom presenteras dess värde med en valutasymbol ('$'), vilket skiljer sig från de andra raderna och signalerar att det är en slutlig, sammanfattande finansiell siffra."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_010",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Vilken radpost visar den mest signifikanta förändringen i absolut värde mellan de två perioderna, vilket gör den till en finansiell outlier vad gäller volatilitet?",
+    "answer": [
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_011",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Med tanke på den totala långfristiga skulden och den amorterade skuldrabatten, vad är den effektiva ökningen av långfristig skuld från 2012 till 2013?",
+    "answer": [
+      [
+        "Den totala långfristiga skulden ökade från 10 007,5 miljoner dollar 2012 till 10 282,8 miljoner dollar 2013. Med beaktande av att den amorterade skuldrabatten ändrades från -21,2 2012 till -20,3 2013, är den effektiva skuldförändringen 276,8 miljoner dollar."
+      ]
+    ],
+    "evidence_cells": [
+      "F6",
+      "G6",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

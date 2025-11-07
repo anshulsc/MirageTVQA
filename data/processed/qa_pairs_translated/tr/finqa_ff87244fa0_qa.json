@@ -1,0 +1,71 @@
+[
+  {
+    "question_id": "finqa_ff87244fa0_008",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "open_ended_reasoning",
+    "question": "2012 ve 2016 yılları arasındaki tek bir yılda, o dönemdeki diğer yıllara kıyasla önemli ölçüde yüksek olan bir ödeme içeren sözleşmesel yükümlülük hangisidir?",
+    "answer": [
+      [
+        "'Satın alma yükümlülükleri [d]' kategorisi önemli bir aykırı değer göstermektedir. 2012'de vadesi gelen 2598 milyon dolarlık ödeme, bir sonraki en yüksek yılın ödemesinden (2013'te 568 milyon dolar) dört kattan fazla yüksektir ve sonraki yıllarda ödemeler önemli ölçüde azalmaktadır, bu da 2012 rakamını bir anomali haline getirmektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_009",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "'ödeme dönemi' sütunlarından ( '31 aralık 2012'ye kadar ödenecek ödemeler' ile '31 aralık diğer' arasındaki ) hangisi en fazla eksik veya uygulanamayan ödeme girişini ( '-' ile belirtilen ) içermektedir?",
+    "answer": [
+      [
+        "payments due by december 31 other"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "E6",
+      "F6",
+      "G6",
+      "H6",
+      "I1",
+      "I2",
+      "I3",
+      "I5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_010",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "open_ended_reasoning",
+    "question": "Verilere göre, bir yükümlülüğün 'toplam' değeri ile '2016 sonrası' ödenmesi gereken oranın arasındaki bariz ilişki nedir?",
+    "answer": [
+      [
+        "Genel olarak, 'borç [a]' ve 'faaliyet kiralamaları [b]' gibi daha büyük toplam değere sahip yükümlülüklerin, ödemelerinin önemli bir kısmının 2016 sonrasına planlanmış olmasıyla pozitif bir ilişki olduğu görülüyor; bu da bunların uzun vadeli finansal taahhütler olduğunu gösteriyor. Ancak bu evrensel bir kural değil, çünkü 'satın alma yükümlülükleri [d]', ikinci en büyük toplam yükümlülük olmasına rağmen, 2016 sonrasında ödenecek karşılaştırılabilir derecede küçük bir orana (%16,7 civarında) sahip, bu da onun daha kısa-orta vadeli bir taahhüt olduğunu gösteriyor."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "H1",
+      "B2",
+      "H2",
+      "B3",
+      "H3",
+      "B4",
+      "H4",
+      "B5",
+      "H5",
+      "B6",
+      "H6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  }
+]

@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_f88511c4f2_001",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Qual foi o valor líquido de todas as alterações transacionais (excluindo saldos iniciais e finais e o valor anômalo de 'desconsolidação') nas obrigações de desativação de ativos em 2008?",
+    "answer": [
+      [
+        "-169"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_002",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Qual ano teve uma maior diminuição nas obrigações de 'passivos liquidados'?",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_003",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Em quanto o 'acréscimo de despesa' aumentou de 2007 para 2008?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_004",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Identifique o item da linha que representou um aumento nas obrigações em 2008, mas uma diminuição em 2007.",
+    "answer": [
+      [
+        "revisions to previous estimates"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_005",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Qual é o resultado se você subtrair a soma de 'liabilities incurred' (passivos incorridos) de 2007 e 'accretion expense' (despesa de amortização) do saldo inicial de 2008?",
+    "answer": [
+      [
+        "1013"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_006",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Os 'passivos incorridos' em 2007 representam que percentagem do total combinado de 'despesa de accretion' de 2007 e 2008?",
+    "answer": [
+      [
+        "47.24%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_007",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Se as 'liabilities incurred' em 2008 tivessem sido 50% maiores, qual teria sido a nova soma de 'liabilities incurred' e 'liabilities settled' para esse ano?",
+    "answer": [
+      [
+        "-49"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_008",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "Com base na estrutura e nos valores da tabela, qual é a relação lógica entre o saldo final de 2007 e o saldo inicial de 2008?",
+    "answer": [
+      [
+        "O saldo final de 2007 ($ 1134) é idêntico ao saldo inicial de 2008 ($ 1134). Isso demonstra a prática contábil padrão onde o saldo de encerramento de um período se torna o saldo de abertura para o próximo período consecutivo."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_009",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "Como os valores financeiros negativos, como 'passivos liquidados', são representados em toda a tabela?",
+    "answer": [
+      [
+        "Valores negativos são representados usando uma notação dupla: um sinal de menos precedendo o número, e também o valor absoluto desse número entre parênteses. Por exemplo, '-94 ( 94 )'."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "C5",
+      "A6",
+      "B6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_010",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifique os dois itens de linha que contêm o valor '2013' e explique por que esse valor parece ser um valor atípico no contexto da tabela.",
+    "answer": [
+      [
+        "O valor '2013' está presente em 'held for sale (a)' em 2007 e 'deconsolidation of egholdings' em 2008. Este valor é atípico porque é uma ordem de magnitude maior do que a maioria das outras figuras de transação (por exemplo, 30, 66, -94), e sua inclusão quebra a reconciliação matemática entre os saldos inicial e final para ambos os anos, sugerindo que pode ser um erro de dados ou um item extraordinário."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_011",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Qual era a obrigação de desativação de ativos (em milhões) em 31 de dezembro de 2008?",
+    "answer": [
+      [
+        "$965"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

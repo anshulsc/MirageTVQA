@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_345428c8b4_001",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Berapakah perubahan bersih keseluruhan dalam 'saham beredar' yang dihasilkan daripada semua aktiviti 'program pembelian balik saham' dan 'dikeluarkan atas penukaran debentur' digabungkan merentasi semua tahun?",
+    "answer": [
+      [
+        "-36"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "D5",
+      "D10",
+      "D15",
+      "D16"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_345428c8b4_002",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Dalam tempoh tahun ke tahun (2008, 2009, atau 2010) manakah perubahan mutlak terkecil dalam baki akhir tahun 'saham beredar' berlaku?",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D6",
+      "D11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_003",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Kenal pasti urus niaga yang menyebabkan peningkatan tunggal terbesar dalam 'saham beredar', dan kemudian hitung nisbah saham 'dalam perbendaharaan'nya kepada nilai 'saham beredar'nya.",
+    "answer": [
+      [
+        "Urus niaga tersebut ialah 'pengambilalihan smith international inc.'. Nisbahnya ialah kira-kira 0.432 (76 / 176)."
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "C12",
+      "D12",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D8",
+      "D9",
+      "D13",
+      "D14",
+      "D16"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_004",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Huraikan aliran keseluruhan baki saham 'dalam perbendaharaan' dari awal 2008 hingga akhir 2010.",
+    "answer": [
+      [
+        "Bilangan saham 'dalam perbendaharaan' menunjukkan aliran yang tidak menentu tetapi secara umum menurun (menjadi nombor negatif yang lebih kecil). Ia bermula pada -138, menurun sedikit kepada -140 pada 2008, pulih sedikit kepada -139 pada 2009, dan kemudian menurun dengan ketara kepada -73 menjelang akhir 2010, sebahagian besarnya disebabkan oleh saham yang berkaitan dengan pemerolehan Smith International Inc."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C6",
+      "C11",
+      "C17",
+      "A12",
+      "C12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_005",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Senaraikan semua aktiviti yang berlaku pada tahun 2008 (antara baki 1 Jan dan 31 Dis) yang memberi impak positif kepada bilangan 'saham yang belum dikeluarkan'.",
+    "answer": [
+      [
+        "shares sold to optionees less shares exchanged"
+      ],
+      [
+        "shares issued under employee stock purchase plan"
+      ],
+      [
+        "issued on conversions of debentures"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_006",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Berapakah kadar baki 'saham dalam edaran' terakhir pada 31 Disember 2010, yang ditambah oleh urus niaga 'pengambilalihan smith international inc.'?",
+    "answer": [
+      [
+        "12.93%"
+      ]
+    ],
+    "evidence_cells": [
+      "D12",
+      "D17"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_345428c8b4_007",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Jika 'pengambilalihan smith international inc.' tidak berlaku pada tahun 2010, berapakah baki akhir tahun untuk 'saham dalam edaran' pada 31 Disember 2010, dengan mengandaikan semua urus niaga lain kekal sama?",
+    "answer": [
+      [
+        "1185"
+      ]
+    ],
+    "evidence_cells": [
+      "D17",
+      "D12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_008",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Adakah terdapat hubungan yang ketara antara jumlah saham yang dikeluarkan kepada pemegang opsyen dan jumlah yang dikeluarkan di bawah pelan pembelian saham pekerja pada tahun-tahun yang dibentangkan? Huraikan.",
+    "answer": [
+      [
+        "Tiada hubungan yang konsisten. Pada tahun 2008, lebih banyak saham dijual kepada pemegang opsyen (5) berbanding dikeluarkan di bawah pelan pembelian (2). Pada tahun 2009, jumlahnya adalah sama (4 dan 4). Pada tahun 2010, lebih banyak saham dijual kepada pemegang opsyen (6) berbanding dikeluarkan di bawah pelan pembelian (3). Nisbah antara kedua-duanya berbeza setiap tahun, menunjukkan tiada korelasi langsung."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A7",
+      "D7",
+      "A9",
+      "D9",
+      "A13",
+      "D13",
+      "A14",
+      "D14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_345428c8b4_009",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Tidak termasuk baris imbangan, lajur mana, 'dikeluarkan', 'dalam perbendaharaan', atau 'saham beredar', mengandungi data bukan numerik atau data yang tidak konsisten?",
+    "answer": [
+      [
+        "Lajur 'dikeluarkan' adalah yang paling tidak konsisten. Walaupun lajur lain mengandungi nilai numerik (atau format konsisten untuk negatif), lajur 'dikeluarkan' mengandungi gabungan nombor yang kelihatan mewakili imbangan ('1334', '1434', '100') dan nilai berulang '2013' yang tidak kelihatan sepadan dengan kuantiti untuk urus niaga yang disenaraikan."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B12",
+      "B17"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_010",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Transaksi tunggal manakah yang menonjol sebagai luar biasa dengan memberi impak positif paling ketara pada baki 'saham beredar' berbanding impak median semua urus niaga lain?",
+    "answer": [
+      [
+        "acquisition of smith international inc ."
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D12",
+      "D13",
+      "D14",
+      "D15",
+      "D16"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_345428c8b4_011",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Apakah nisbah Saham dalam Perbendaharaan kepada Saham Tertunggak dalam program pembelian semula saham selama bertahun-tahun?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "D4",
+      "A10",
+      "C10",
+      "D10",
+      "A15",
+      "C15",
+      "D15"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

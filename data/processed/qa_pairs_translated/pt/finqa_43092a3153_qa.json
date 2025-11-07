@@ -1,0 +1,235 @@
+[
+  {
+    "question_id": "finqa_43092a3153_001",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "Qual propriedade tem a segunda maior área útil ocupada?",
+    "answer": [
+      [
+        "tikri campus and unitech cyber park gurgaon india"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "A2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_43092a3153_002",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "Qual é a área útil total ocupada para todas as propriedades localizadas em Illinois?",
+    "answer": [
+      [
+        "1487000"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_43092a3153_003",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "Qual é a área útil ocupada da propriedade com a data de expiração de arrendamento geral mais recente?",
+    "answer": [
+      [
+        "428000"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_43092a3153_004",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "Qual propriedade tem contratos de arrendamento que abrangem a maior duração, da data de expiração mais antiga à mais recente listada?",
+    "answer": [
+      [
+        "4 overlook point and other locations lincolnshire illinois"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "A1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_43092a3153_005",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "Liste as propriedades com área útil ocupada superior a 350.000 que têm um contrato de arrendamento a expirar em 2020.",
+    "answer": [
+      [
+        "2601 research forest drive the woodlands texas"
+      ],
+      [
+        "2300 discovery drive orlando florida"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_43092a3153_006",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "Qual porcentagem da área ocupada total é representada pelo campus de Gurgaon, Índia?",
+    "answer": [
+      [
+        "13.57%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_43092a3153_007",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "Se todas as datas de expiração de contrato anteriores a 2020 fossem estendidas para 2022, quantas propriedades teriam um contrato expirando em 2022?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_43092a3153_008",
+    "table_id": "finqa_43092a3153",
+    "question_type": "open_ended_reasoning",
+    "question": "Com base nos dados fornecidos, existe uma relação observável entre o tamanho de uma propriedade e o número de datas de expiração de contrato de aluguel que ela possui?",
+    "answer": [
+      [
+        "Sim, parece haver uma correlação positiva. As duas maiores propriedades, '4 overlook point' (1.059.000 pés quadrados) e 'tikri campus' (440.000 pés quadrados), são as únicas com várias datas de expiração de contrato de aluguel listadas (três cada). Todas as propriedades menores na tabela têm apenas uma única data de expiração, sugerindo que instalações maiores são mais propensas a ter acordos de locação complexos e escalonados."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_43092a3153_009",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "Qual coluna contém dados onde uma única célula pode representar vários valores distintos?",
+    "answer": [
+      [
+        "leaseexpiration dates"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_43092a3153_010",
+    "table_id": "finqa_43092a3153",
+    "question_type": "open_ended_reasoning",
+    "question": "Qual propriedade possui a metragem quadrada ocupada que representa o outlier positivo mais significativo, e por quê?",
+    "answer": [
+      [
+        "A propriedade em '4 overlook point and other locations lincolnshire illinois' é o outlier positivo mais significativo. Sua área de 1.059.000 pés quadrados é mais de 2,4 vezes maior que a próxima propriedade maior (440.000 pés quadrados) e se desvia substancialmente da mediana (414.000 pés quadrados) e da média (aproximadamente 463.143 pés quadrados) do conjunto de dados, destacando-a muito das outras propriedades."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_43092a3153_011",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "Qual é a metragem quadrada ocupada total de propriedades com vencimento de contrato até 2020?",
+    "answer": [
+      [
+        "1,537,000"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

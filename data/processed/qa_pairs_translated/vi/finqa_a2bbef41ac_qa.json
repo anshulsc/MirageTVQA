@@ -1,0 +1,189 @@
+[
+  {
+    "question_id": "finqa_a2bbef41ac_001",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Tổng giá trị của các tài sản ('đầu tư' và 'tài sản khác') vào ngày 31 tháng 12 năm 2007 là bao nhiêu?",
+    "answer": [
+      [
+        "3254"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_002",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Danh mục tài sản nào, 'khoản đầu tư' hay 'tài sản khác', đã trải qua khoản lỗ ròng tuyệt đối lớn hơn từ 'lãi / (lỗ) thực hiện và chưa thực hiện ròng'?",
+    "answer": [
+      [
+        "investments"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_003",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Xác minh xem số dư cuối kỳ của 'đầu tư' vào ngày 31 tháng 12 năm 2008 có nhất quán với số dư đầu kỳ và các giao dịch tiếp theo được liệt kê hay không. Trình bày phép tính của bạn.",
+    "answer": [
+      [
+        "Có, số dư là nhất quán. Phép tính là: 1240 đô la (số dư đầu kỳ) - 409 đô la (lãi/lỗ) + 11 đô la (mua/bán) - 29 đô la (chuyển khoản ròng) = 813 đô la, khớp với số dư cuối kỳ đã báo cáo."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_004",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Tổng thay đổi ròng về giá trị tài sản trong toàn bộ giai đoạn, từ ngày 31 tháng 12 năm 2007 đến ngày 31 tháng 12 năm 2008 là bao nhiêu?",
+    "answer": [
+      [
+        "-2377"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_005",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Đối với những danh mục tài sản nào 'net transfers in and/or out of level 3' đã đóng góp giá trị dương vào giá trị tài sản?",
+    "answer": [
+      [
+        "other assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_006",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Tỷ lệ 'tổng lỗ (lỗ) ròng cho kỳ báo cáo' đến từ 'khoản đầu tư' là bao nhiêu?",
+    "answer": [
+      [
+        "95.54%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_007",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Nếu 'lãi (lỗ) thực hiện và chưa thực hiện ròng' đối với 'tài sản khác' bằng 0 thay vì -16 đô la, số dư cuối kỳ mới của 'tài sản khác' vào ngày 31 tháng 12 năm 2008 sẽ là bao nhiêu?",
+    "answer": [
+      [
+        "80"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_008",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Dựa trên dữ liệu về 'khoản đầu tư', mối quan hệ giữa 'lãi/ (lỗ) gộp thực hiện và chưa thực hiện ròng' và 'tổng (lỗ) ròng... liên quan đến tài sản vẫn nắm giữ vào ngày báo cáo' là gì?",
+    "answer": [
+      [
+        "Có một mối quan hệ mạnh mẽ, trực tiếp. 'Tổng (lỗ) ròng ... liên quan đến tài sản vẫn nắm giữ' ($-366) chiếm 89,5% của 'lãi/ (lỗ) gộp thực hiện và chưa thực hiện ròng' ($-409). Điều này ngụ ý rằng phần lớn các khoản lỗ ròng của kỳ đối với các khoản đầu tư là chưa thực hiện và liên quan đến các tài sản chưa được bán vào cuối kỳ báo cáo."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_009",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Định dạng dữ liệu được sử dụng cho các giá trị âm, chẳng hạn như '-409 ( 409 )', gợi ý quy ước kế toán nào?",
+    "answer": [
+      [
+        "Định dạng hiển thị số âm theo sau là giá trị tuyệt đối trong ngoặc đơn là một quy ước kế toán phổ biến để chỉ rõ ràng và nhấn mạnh các số liệu tài chính âm như thua lỗ, chi phí hoặc giá trị tài sản đối ứng."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_010",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Mục nào thể hiện tác động tiêu cực đơn lẻ lớn nhất đến tổng giá trị tài sản trong kỳ?",
+    "answer": [
+      [
+        "realized and unrealized gains / ( losses ) net"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_011",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Khoản đầu tư đã giảm bao nhiêu từ năm 2007 đến năm 2008?",
+    "answer": [
+      [
+        "$427"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A5",
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

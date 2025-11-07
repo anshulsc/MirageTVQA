@@ -1,0 +1,68 @@
+[
+  {
+    "question_id": "finqa_ff87244fa0_004",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "value",
+    "question": "För den avtalsenliga förpliktelsen med det näst största totalbeloppet, vad är betalningen som förfaller senast den 31 december 2014?",
+    "answer": [
+      [
+        "$ 560"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "E4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_005",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv betalningstrenden för 'rörelseleasingavtal [b]' för åren 2012 till och med 2016.",
+    "answer": [
+      [
+        "Betalningarna för 'rörelseleasingavtal [b]' visar en konsekvent nedåtgående trend år efter år från 2012 till 2016, med start på 525 miljoner dollar 2012 och en minskning varje år till 347 miljoner dollar 2016."
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_ff87244fa0_008",
+    "table_id": "finqa_ff87244fa0",
+    "question_type": "open_ended_reasoning",
+    "question": "Vilken avtalsförpliktelse har en betalning under ett enskilt år mellan 2012 och 2016 som är ett avvikande värde, och som är betydligt högre än dess betalningar under de andra åren inom den perioden?",
+    "answer": [
+      [
+        "Kategorin 'köpförpliktelser [d]' visar ett betydande avvikande värde. Betalningen på 2598 miljoner dollar som förfaller 2012 är mer än fyra gånger högre än betalningen under det näst högsta året (568 miljoner dollar 2013), och betalningarna minskar avsevärt under efterföljande år, vilket gör siffran för 2012 till en anomali."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

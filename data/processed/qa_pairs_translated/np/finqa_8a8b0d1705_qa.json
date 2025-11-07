@@ -1,0 +1,220 @@
+[
+  {
+    "question_id": "finqa_8a8b0d1705_001",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "तीन वर्षहरूमा खरिद गरिएको ट्रेजरी स्टकका लागि कुल कति रकम, लाखौंमा, खर्च गरियो?",
+    "answer": [
+      [
+        "-8067"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_002",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "२००५ मा सबैभन्दा बढी नेट नगद प्रयोग हुने वित्तिय क्रियाकलापहरूमा 'ऋणबाट प्राप्त रकम' को मूल्य कति थियो?",
+    "answer": [
+      [
+        "429"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "D3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_003",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "open_ended_reasoning",
+    "question": "2005 देखि 2007 सम्म 'कुल ऋणमा नगद परिवर्तन' को प्रवृत्ति वर्णन गर्नुहोस्।",
+    "answer": [
+      [
+        "प्रवृत्ति अत्यधिक अस्थिर थियो। यो 2005 मा $485 मिलियनको कुल नगद बाह्य प्रवाहबाट सुरु भयो, त्यसपछि 2006 मा $1135 मिलियनको ठूलो कुल नगद प्रवाहमा नाटकीय रूपमा उल्टियो, र अन्ततः 2007 मा $1222 मिलियनको महत्त्वपूर्ण नगद प्रवाहमा फर्केर आयो। कुनै निरन्तर माथि वा तलको प्रवृत्ति थिएन।"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_004",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "2007 मा, 'ऋणबाट प्राप्त आम्दानी' बाट उत्पन्न नगदको कति प्रतिशत 'ऋणको भुक्तानी'को लागि प्रयोग गरियो?",
+    "answer": [
+      [
+        "39.26%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_005",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "कुनै दुई लगातार वर्षहरू बीचको सबैभन्दा ठूलो निरपेक्ष परिवर्तन कुन वित्तीय गतिविधिमा भयो?",
+    "answer": [
+      [
+        "proceeds from debt ( maturities greater than 90 days )"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_006",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "यदि 2005 मा 'ट्रेजरी स्टकको पुनः जारी' ५०% बढी भएको भए, त्यो वर्षको लागि 'वित्तिय गतिविधिहरूमा प्रयोग भएको कुल नगद' कति हुन्थ्यो?",
+    "answer": [
+      [
+        "$-3352.5 (3352.5)"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "D10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_007",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "2006 मा कुन कुन फाइनान्सिङ गतिविधिहरूले खुद नगद प्रवाह (सकारात्मक मूल्य) प्रदान गर्यो? सूची दिनुहोस्।",
+    "answer": [
+      [
+        "change in short-term debt 2014 net"
+      ],
+      [
+        "proceeds from debt ( maturities greater than 90 days )"
+      ],
+      [
+        "reissuances of treasury stock"
+      ],
+      [
+        "excess tax benefits from stock-based compensation"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "A1",
+      "C3",
+      "A3",
+      "C6",
+      "A6",
+      "C8",
+      "A8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_008",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "सेयर होल्डरहरूलाई 'ट्रेजरी स्टकको खरिद' र 'सेयर होल्डरहरूलाई लाभांश भुक्तानी' दुवैलाई ध्यानमा राखेर कुन वर्षमा सबैभन्दा बढी नगद फिर्ता गरियो?",
+    "answer": [
+      [
+        "2007"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_009",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "open_ended_reasoning",
+    "question": "डाटाको आधारमा, तीन वर्षको अवधिमा 'ट्रेजरी स्टकको खरिद' र 'शेयरधनीहरूलाई भुक्तानी गरिएको लाभांश' बीच कुनै देखिने सम्बन्ध छ?",
+    "answer": [
+      [
+        "हो, प्रत्येक वर्ष दुवै गतिविधिहरूका लागि महत्वपूर्ण नगद बहिर्गमनको एक सुसंगत ढाँचा देखिन्छ, जसले शेयरधनीहरूलाई पूँजी फिर्ता गर्ने स्थिर रणनीतिको सङ्केत गर्दछ। यद्यपि, तिनीहरूको वर्ष-दर-वर्ष परिवर्तनमा कुनै स्पष्ट सम्बन्ध छैन। उदाहरणका लागि, २००५ देखि २००६ सम्म, ट्रेजरी स्टकको खरिदमा सामान्य कमी आयो जबकि लाभांशमा सामान्य वृद्धि भयो। त्यसपछि २००६ देखि २००७ सम्म, ट्रेजरी स्टकको खरिदमा नाटकीय वृद्धि भयो जबकि लाभांश लगभग स्थिर रह्यो। दुवै लगातार नगदको ठूलो प्रयोग हो, तर तिनीहरू सँगसँगै चल्दैनन्।"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "A7",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_010",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "सबै तीन वर्षहरूमा लगातार नगद बाहिरिने (ऋणात्मक मान) परिणाम दिने कतिवटा फाइनान्सिङ गतिविधिहरू सूचीबद्ध छन्?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B5",
+      "C5",
+      "D5",
+      "B7",
+      "C7",
+      "D7",
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_011",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "वित्तीय गतिविधिबाट प्रयोग भएको कुल नगद कुन वर्षमा सबैभन्दा बढी थियो?",
+    "answer": [
+      [
+        "2005"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10",
+      "D10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

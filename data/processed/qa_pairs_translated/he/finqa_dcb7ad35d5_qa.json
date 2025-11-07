@@ -1,0 +1,200 @@
+[
+  {
+    "question_id": "finqa_dcb7ad35d5_001",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "איזה סוג התחייבות, למעט חוב לטווח ארוך, הוא בעל סך התשלומים הכולל הגבוה ביותר?",
+    "answer": [
+      [
+        "purchase obligations and other ( 4 ) ( 5 ) ( 6 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_002",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "מהן ההתחייבויות המשולבות הכוללות לפירעון לפני שנת הכספים 2023?",
+    "answer": [
+      [
+        "3935.9"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_003",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "מהו סך התשלום המגיע בתקופות 2021-2022 ו-2023-2024 עבור סוג ההתחייבות שלו התשלום הקטן ביותר המגיע בשנת הכספים 2020?",
+    "answer": [
+      [
+        "11.6"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "A3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_004",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "תאר את מגמת סך התחייבויות התשלום של החברה עבור תקופות הכספים המוגדרות המובילות עד ל'לאחר מכן'.",
+    "answer": [
+      [
+        "סך התחייבויות התשלום מציגות מגמה תנודתית. הן מתחילות ב-2378.5 מיליון דולר בשנת הכספים 2020, לאחר מכן יורדות ל-1557.4 מיליון דולר עבור תקופת 2021-2022, לפני שהן מגיעות לשיא משמעותי של 2897.5 מיליון דולר בתקופת 2023-2024. זה מצביע על ירידה בהתחייבויות לטווח קצר ואחריה עלייה חדה בהתחייבויות לטווח בינוני."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_005",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "רשום את כל קטגוריות ההתחייבויות שבהן התשלומים המגיעים 'לאחר מכן' עולים על סכום כל התשלומים המגיעים משנת 2020 עד שנת 2024.",
+    "answer": [
+      [
+        "long-term debt including current portionexcluding capital lease obligations ( 1 )"
+      ],
+      [
+        "capital lease obligations ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "A3",
+      "C3",
+      "D3",
+      "E3",
+      "F3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_006",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "איזה אחוז מסך התשלומים המיועדים לשנת הכספים 2020 מיוחס ל'התחייבויות רכישה ואחרות'?",
+    "answer": [
+      [
+        "67.56%"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_007",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "אם כל 'התחייבויות חכירה תפעולית' המגיעות לשנים הפיסקליות 2021 ו-2022 יידחו ויתווספו לתקופת 'לאחר מכן', מה יהיה הסכום הכולל החדש לתקופת 'לאחר מכן'?",
+    "answer": [
+      [
+        "6589.9"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "F5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_008",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "בהתבסס על לוחות הזמנים של התשלומים, מה ניתן להסיק לגבי פרופיל הפירעון של 'חוב לטווח ארוך' לעומת 'התחייבויות רכש'?",
+    "answer": [
+      [
+        "פרופילי הפירעון שונים באופן מובהק. 'חוב לטווח ארוך' הוא בעל פירעון דחוי ברובו, כאשר רוב התשלומים ($5729.2 מיליון מתוך $9714.1 מיליון) חלים 'לאחר מכן', מה שמעיד על מכשירי מימון לטווח ארוך. לעומת זאת, 'התחייבויות רכש' הן בעלות פירעון מוקדם ברובן, כאשר הרוב המכריע של התשלומים ($1607.0 מיליון מתוך $2293.5 מיליון) חלים בשנת הכספים המיידית 2020, דבר המאפיין התחייבויות תפעוליות לטווח קצר."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_009",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "איזה סכום תשלום יחיד עבור 'התחייבויות חכירה הונית' בולט במיוחד, ומהווה כמעט 90% מסך ההתחייבות שלה?",
+    "answer": [
+      [
+        "$ 150.9"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_010",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "על ידי סיכום ידני של הערכים בעמודה 'תשלומים בגין תקופה פיסקלית 2023 ו-2024' עבור כל התחייבות בנפרד, ודא אם הסכום הכולל שסופק בתא E5 נכון.",
+    "answer": [
+      [
+        "כן, הסכום הכולל שסופק נכון. סכום ההתחייבויות הבודדות לתקופה הפיסקלית 2023 ו-2024 הוא $2494.3 + $193.6 + $2.9 + $206.7, שמסתכם ב-$2897.5, תואם את הערך בתא E5."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

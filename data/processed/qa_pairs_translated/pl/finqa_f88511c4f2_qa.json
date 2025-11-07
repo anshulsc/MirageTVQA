@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_f88511c4f2_001",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Jaka była łączna wartość wszystkich zmian transakcyjnych (z wyłączeniem sald początkowych i końcowych oraz anomalnej wartości „deconsolidacji”) dotyczących zobowiązań z tytułu likwidacji aktywów w 2008 roku?",
+    "answer": [
+      [
+        "-169"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_002",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Który rok odnotował większy spadek zobowiązań z tytułu 'zaspokojonych zobowiązań'?",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_003",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "O ile wzrosły 'koszty naliczania' od 2007 do 2008 roku?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_004",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Wskaż pozycję, która w 2008 roku stanowiła wzrost zobowiązań, a w 2007 roku ich spadek.",
+    "answer": [
+      [
+        "revisions to previous estimates"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_005",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Jaki jest wynik, jeśli od początkowego salda z 2008 roku odejmiemy sumę 'zobowiązań zaciągniętych' i 'kosztów naliczenia' za rok 2007?",
+    "answer": [
+      [
+        "1013"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_006",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Kwota 'zobowiązań z tytułu poniesionych kosztów' w 2007 roku stanowi jaki procent łącznej kwoty 'kosztów naliczonych' z lat 2007 i 2008?",
+    "answer": [
+      [
+        "47.24%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_007",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Gdyby 'zobowiązania naliczone' w 2008 roku były o 50% większe, jaka byłaby nowa suma 'zobowiązań naliczonych' i 'zobowiązań zrealizowanych' za ten rok?",
+    "answer": [
+      [
+        "-49"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_008",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "Jaka jest logiczna zależność między saldem końcowym za 2007 r. a saldem początkowym za 2008 r., biorąc pod uwagę strukturę i wartości tabeli?",
+    "answer": [
+      [
+        "Saldo końcowe za 2007 rok (1134 USD) jest identyczne z saldem początkowym za 2008 rok (1134 USD). Pokazuje to standardową praktykę księgową, zgodnie z którą saldo końcowe jednego okresu staje się saldem początkowym następującego po nim okresu."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_009",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "Jak w całej tabeli są przedstawiane ujemne wartości finansowe, takie jak 'zobowiązania rozliczone'?",
+    "answer": [
+      [
+        "Wartości ujemne są przedstawiane za pomocą podwójnej notacji: wiodącego znaku minus poprzedzającego liczbę oraz wartości bezwzględnej tej liczby ujętej w nawiasy. Na przykład: '-94 ( 94 )'."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "C5",
+      "A6",
+      "B6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_010",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "Zidentyfikuj dwie pozycje zawierające wartość '2013' i wyjaśnij, dlaczego ta wartość wydaje się być wartością odstającą w kontekście tabeli.",
+    "answer": [
+      [
+        "Wartość '2013' występuje dla pozycji 'przeznaczone do sprzedaży (a)' w 2007 roku oraz 'deconsolidacja egholdings' w 2008 roku. Ta wartość jest odstająca, ponieważ jest o rząd wielkości większa niż większość innych kwot transakcyjnych (np. 30, 66, -94), a jej uwzględnienie zakłóca matematyczne rozliczenie między saldami początkowymi i końcowymi w obu latach, sugerując, że może to być błąd danych lub pozycja nadzwyczajna."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_011",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Jakie było zobowiązanie z tytułu likwidacji aktywów (w milionach) na dzień 31 grudnia 2008 r.?",
+    "answer": [
+      [
+        "$965"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

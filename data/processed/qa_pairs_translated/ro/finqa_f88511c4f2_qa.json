@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_f88511c4f2_001",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Care a fost valoarea netă a tuturor modificărilor tranzacționale (excluzând soldurile inițiale și finale și valoarea anormală 'deconsolidare') ale obligațiilor de retragere a activelor în 2008?",
+    "answer": [
+      [
+        "-169"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_002",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Ce an a înregistrat o scădere mai mare a obligațiilor din secțiunea „obligații de stingere”?",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_003",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Cu cât a crescut „cheltuiala de acumulare” din 2007 până în 2008?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_004",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Identificați rândul care a reprezentat o creștere a obligațiilor în 2008, dar o scădere în 2007.",
+    "answer": [
+      [
+        "revisions to previous estimates"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_005",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Care este rezultatul dacă scădeți suma 'datoriilor înregistrate' și a 'cheltuielii de acumulare' din 2007 din soldul inițial al anului 2008?",
+    "answer": [
+      [
+        "1013"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_006",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "«Datoriile angajate» în 2007 reprezintă ce procent din totalul combinat al «cheltuielilor de accrescență» din 2007 și 2008?",
+    "answer": [
+      [
+        "47.24%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_007",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Dacă 'liabilitățile înregistrate' în 2008 ar fi fost cu 50% mai mari, care ar fi suma nouă a 'liabilităților înregistrate' și 'liabilităților achitate' pentru acel an?",
+    "answer": [
+      [
+        "-49"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_008",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "Pe baza structurii și valorilor din tabel, care este relația logică dintre soldul de sfârșit al anului 2007 și soldul de început al anului 2008?",
+    "answer": [
+      [
+        "Soldul de sfârșit pentru 2007 (1134 USD) este identic cu soldul de început pentru 2008 (1134 USD). Aceasta demonstrează practica contabilă standard, conform căreia soldul de închidere al unei perioade devine soldul de deschidere pentru perioada consecutivă următoare."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_009",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "Cum sunt reprezentate valorile financiare negative, cum ar fi „datorii achitate”, în întregul tabel?",
+    "answer": [
+      [
+        "Valorile negative sunt reprezentate printr-o notație duală: un semn minus urmat de număr și, de asemenea, valoarea absolută a acelui număr înconjurată de paranteze. De exemplu, '-94 ( 94 )'."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "C5",
+      "A6",
+      "B6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_010",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifica cele două elemente din tabel care conțin valoarea '2013' și explică de ce această valoare pare să fie un element aberant în contextul tabelului.",
+    "answer": [
+      [
+        "Valoarea '2013' apare pentru 'active de cedat (a)' în 2007 și pentru 'deconsolidarea egholdings' în 2008. Această valoare este un element aberant deoarece este cu un ordin de mărime mai mare decât majoritatea celorlalte cifre tranzacționale (de exemplu, 30, 66, -94), iar includerea sa perturbă reconcilierea matematică între soldurile inițiale și finale pentru ambii ani, sugerând că ar putea fi o eroare de date sau un element extraordinar."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_011",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Care a fost obligația de abandonare a activelor (în milioane) la 31 decembrie 2008?",
+    "answer": [
+      [
+        "$965"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

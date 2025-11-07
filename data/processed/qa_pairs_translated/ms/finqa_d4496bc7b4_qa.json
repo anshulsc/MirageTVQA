@@ -1,0 +1,219 @@
+[
+  {
+    "question_id": "finqa_d4496bc7b4_001",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Berapakah perubahan bersih dalam obligasi pelepasan aset semasa 2009, dikira daripada perubahan yang diperincikan?",
+    "answer": [
+      [
+        "137"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_002",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Dalam kategori perubahan manakah yang mengalami perbezaan nilai terbesar secara mutlak antara tahun 2008 dan 2009?",
+    "answer": [
+      [
+        "held for sale"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_003",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Pada tahun 2009, berapakah peratusan daripada jumlah pelarasan positif (liabiliti yang ditanggung, perbelanjaan pemerolehan, dan semakan) yang dikaitkan dengan 'semakan kepada anggaran sebelumnya'?",
+    "answer": [
+      [
+        "61.39%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_004",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Sahkan sama ada 'obligasi peletakan aset pada 31 Disember 2008' dikira dengan betul daripada baki permulaan dan perubahan terperinci bagi tahun tersebut. Tunjukkan pengiraan anda.",
+    "answer": [
+      [
+        "Ya, baki akhir untuk 2008 dikira dengan betul. Pengiraannya ialah: $1134 (permulaan) + $30 (ditanggung) - $94 (diselesaikan) + $66 (perkreditan) + $24 (semakan) - $195 (dijual) = $965, yang sepadan dengan nilai yang dilaporkan."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_005",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Jika penyesuaian 'disimpan untuk dijual' pada tahun 2008 adalah sifar, berapakah jumlah kewajipan pelepasan aset pada akhir tahun 2008?",
+    "answer": [
+      [
+        "$ 1160"
+      ]
+    ],
+    "evidence_cells": [
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_006",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Analisis dan bandingkan pemacu utama untuk perubahan jumlah obligasi pelepasan aset antara tahun 2008 dan 2009.",
+    "answer": [
+      [
+        "Pada tahun 2008, obligasi berkurangan sebanyak $169 juta, terutamanya didorong oleh pengurangan ketara sebanyak $195 juta daripada aset 'disimpan untuk dijual' dan $94 juta dalam liabiliti yang diselesaikan, yang mengatasi $120 juta dalam penambahan. Sebaliknya, tahun 2009 menyaksikan peningkatan sebanyak $137 juta, yang didorong oleh 'semakan kepada anggaran sebelumnya' yang besar sebanyak $124 juta, yang lebih daripada pampasan untuk $65 juta dalam liabiliti yang diselesaikan."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7",
+      "C1",
+      "C7",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_007",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Komponen kewangan manakah yang menyaksikan peningkatan lebih daripada $100 juta dari 2008 hingga 2009, menjadikannya luar biasa dari segi perubahan tahun ke tahun?",
+    "answer": [
+      [
+        "revisions to previous estimates"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_008",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "value",
+    "question": "Kenal pasti tahun di mana 'revisi kepada anggaran sebelumnya' adalah lebih daripada lima kali ganda 'liabiliti yang ditanggung termasuk pemerolehan'.",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B5",
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_009",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan data dua tahun, adakah terdapat corak atau hubungan yang ketara antara obligasi permulaan dan 'perbelanjaan akresi' untuk tahun tersebut?",
+    "answer": [
+      [
+        "Ya, terdapat corak yang ketara. 'Perbelanjaan akresi' kelihatan sebagai peratusan yang agak stabil daripada baki permulaan. Pada tahun 2008, ia adalah 5.8% daripada baki permulaan ($66 Juta / $1134 Juta), dan pada tahun 2009, ia adalah 6.6% ($64 Juta / $965 Juta). Ini menunjukkan bahawa perbelanjaan akresi dikira secara konsisten berdasarkan obligasi pembukaan, berkemungkinan mencerminkan nilai masa wang bagi liabiliti jangka panjang."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_010",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Bagaimanakah struktur jadual mengesahkan kesinambungan baki obligasi persaraan aset dari akhir 2008 hingga awal 2009?",
+    "answer": [
+      [
+        "Jadual menunjukkan kesinambungan dengan menunjukkan bahawa nilai untuk 'asset retirement obligations as of december 31' dalam lajur 2008 ($ 965) adalah sama dengan nilai untuk 'asset retirement obligations as of january 1' dalam lajur 2009 ($ 965). Ini adalah persembahan roll-forward perakaunan standard, di mana baki penutup satu tempoh menjadi baki pembukaan tempoh seterusnya."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A7",
+      "B1",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d4496bc7b4_011",
+    "table_id": "finqa_d4496bc7b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Bagaimanakah jumlah obligasi persaraan aset berubah dari tahun 2008 hingga 2009?",
+    "answer": [
+      [
+        "Jumlah obligasi persaraan aset meningkat daripada $965 juta pada tahun 2008 kepada $1,102 juta pada tahun 2009"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

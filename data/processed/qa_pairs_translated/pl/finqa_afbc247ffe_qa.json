@@ -1,0 +1,212 @@
+[
+  {
+    "question_id": "finqa_afbc247ffe_001",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Jaka była łączna suma wszystkich 'kwot przeklasyfikowanych z skumulowanych pozostałych dochodów całkowitych' zarejestrowanych w trzech okresach pokazanych w tabeli?",
+    "answer": [
+      [
+        "23573"
+      ]
+    ],
+    "evidence_cells": [
+      "E3",
+      "E6",
+      "E9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_002",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Która z trzech głównych kategorii finansowych (instrumenty pochodne, udział w spółce joint venture, papiery wartościowe przeznaczone do obrotu) doświadczyła największego bezwzględnego wzrostu salda od 31 grudnia 2014 r. do 31 grudnia 2017 r.?",
+    "answer": [
+      [
+        "net unrealized gain on derivative instruments ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B10",
+      "C1",
+      "C10",
+      "D1",
+      "D10",
+      "B0"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_003",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "W którym okresie łączna kwota „innych całkowitych dochodów przed reklasyfikacjami” była najwyższa i jaka była odpowiadająca jej kwota przeniesiona z „udziału SL Green 2019 w zyskach nieuzyskanych z instrumentów pochodnych z tytułu wspólnego przedsięwzięcia”?",
+    "answer": [
+      [
+        "3453"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E5",
+      "E8",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_004",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "Opisz trend zmian całkowitego salda z roku na rok od 31 grudnia 2014 r. do 31 grudnia 2017 r. Czy zmiana była spójna?",
+    "answer": [
+      [
+        "Trend nie był spójny; był zmienny. Całkowite saldo zmniejszyło się z -6980 w 2014 r. do -8749 w 2015 r. Następnie odnotowano bardzo duży wzrost do 22137 w 2016 r., po którym nastąpił umiarkowany spadek do 18604 w 2017 r. Wzrost nie był stały ani liniowy."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E4",
+      "E7",
+      "E10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_005",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Wymień kategorie finansowe, które miały ujemny bilans na początku okresu (31 grudnia 2014 r.) i zakończyły się dodatnim bilansem na koniec okresu (31 grudnia 2017 r.).",
+    "answer": [
+      [
+        "net unrealized gain on derivative instruments ( 1 )"
+      ],
+      [
+        "sl green 2019s share of joint venture net unrealized gain on derivative instruments ( 2 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B1",
+      "B10",
+      "C1",
+      "C10",
+      "D1",
+      "D10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_006",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Jaki procent całkowitego 'innego wszechstronnego dochodu przed przekwalifikowaniami' w okresie 2016 roku przypadał na 'netto niezrealizowany zysk z instrumentów pochodnych ( 1 )'?",
+    "answer": [
+      [
+        "74.32%"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "E5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_007",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Gdyby 'inne całkowite (strata) dochody przed ponowną klasyfikacją' dla 'netto niezrealizowany zysk z instrumentów pochodnych' w okresie 2017 roku wynosiły zysk w wysokości 1000 $ zamiast straty 1348 $, jaki byłby nowy całkowity bilans na dzień 31 grudnia 2017 r.?",
+    "answer": [
+      [
+        "$ 20952"
+      ]
+    ],
+    "evidence_cells": [
+      "D8",
+      "E10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_008",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "Czy na podstawie podanych danych istnieje spójna korelacja (bezpośrednia lub odwrotna) między 'innymi kompleksowymi (stratami) zyskami przed przeklasyfikowaniem' a 'kwotami przeklasyfikowanymi z skumulowanych innych całkowitych dochodów' dla łącznych kwot w każdym okresie?",
+    "answer": [
+      [
+        "Nie, nie ma spójnej korelacji. W okresie 2015 r. po całkowitej stracie w wysokości -13 467 nastąpiło pozytywne przeklasyfikowanie w wysokości 11 698 (korelacja odwrotna). Jednakże, zarówno w okresach 2016, jak i 2017 r., zysk/strata i przeklasyfikowanie miały ten sam znak (odpowiednio pozytywny/pozytywny i negatywny/negatywny), co wskazuje na bezpośrednią korelację w tych latach. Brak spójności sugeruje, że termin i kwota przeklasyfikowań nie są wyłącznie determinowane przez nieprzewidziane wyniki z poprzedniego okresu."
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E3",
+      "E5",
+      "E6",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_009",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "Jak salda końcowe każdego roku są matematycznie wyprowadzane z poprzedniego salda i tymczasowych działań finansowych przedstawionych w tabeli?",
+    "answer": [
+      [
+        "Każde saldo końcowe roku jest sumą salda końcowego z poprzedniego roku, 'pozostałego (straty) dochodu całkowitego przed przeklasyfikowaniami' za bieżący okres i 'kwot przeklasyfikowanych z skumulowanego pozostałego dochodu całkowitego' za bieżący okres. Na przykład, saldo na rok 2016 (22 137) jest obliczane jako saldo na rok 2015 (-8 749) plus dochód całkowity za okres 2016 (18 211) i przeklasyfikowane kwoty (12 675)."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_010",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Które pojedyncze zdarzenie finansowe (tj. pozycja niebędąca pozycją bilansową) w kolumnie 'total' reprezentuje największą wartość bezwzględną, wskazując na najbardziej znaczące zdarzenie związane z dochodem całkowitym lub stratą w ciągu trzyletniego okresu?",
+    "answer": [
+      [
+        "other comprehensive income before reclassifications"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E2",
+      "E3",
+      "E5",
+      "E6",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_011",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Jaki jest całkowity niezrealizowany zysk we wszystkich kategoriach na koniec 2015 roku?",
+    "answer": [
+      [
+        "$ -8,749"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "E4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,205 @@
+[
+  {
+    "question_id": "finqa_a3e4351c77_001",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Hvilket spesifikt gjeldsinstrument, ekskludert totaler og justeringer, hadde den høyeste verdien i begge rapporterte perioder?",
+    "answer": [
+      [
+        "international marine terminals-plaquemines la revenue bonds due march 15 2025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_002",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Hva er den totale verdien av alle identifiserbare renteobligasjoner listet for perioden i den andre datakolonnen?",
+    "answer": [
+      [
+        "63.7"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_003",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Hvor mye oversteg den absolutte endringen i 'gjeldende forfall av langsiktig gjeld' mellom de to periodene den absolutte endringen i 'amortisert gjeldskontingent'?",
+    "answer": [
+      [
+        "665.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_004",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Beskriv trenden for 'total langsiktig gjeld' mellom de to viste periodene og forklar betydningen av denne endringen.",
+    "answer": [
+      [
+        "Den totale langsiktige gjelden økte med 275,3 dollar, fra 10007,5 dollar i perioden vist i kolonne C til 10282,8 dollar i perioden vist i kolonne B. Dette indikerer at enhetens samlede forpliktelser for langsiktig gjeld vokste i denne tidsrammen, noe som tyder på at den sannsynligvis pådro seg mer ny gjeld enn den tilbakebetalte."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_005",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Identifiser alle linjeposter, unntatt totalen, som er representert som negative verdier i den andre datakolonnen.",
+    "answer": [
+      [
+        "unamortized debt discount on long-term debt"
+      ],
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_006",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Som en prosentandel av den totale langsiktige gjelden for perioden i kolonne B, hvilken del er klassifisert som 'gjeldens kortsiktige forfall'? Bruk absolutte verdier for beregningen og rund av til to desimaler.",
+    "answer": [
+      [
+        "12.29%"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_007",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Hvis 'unamortized debt discount' i den andre datakolonnen (kolonne B) ble eliminert (dvs. satt til null), hva ville den 'total long-term debt 2013 kmp' for den perioden ha vært?",
+    "answer": [
+      [
+        "$ 10303.1"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_008",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Er det et åpenbart forhold mellom endringen i 'kortsiktig gjeld' og endringen i 'total langsiktig gjeld' over de to periodene?",
+    "answer": [
+      [
+        "Ja, det ser ut til å være et omvendt forhold i bevegelsene deres. Mens den totale langsiktige gjelden økte med $275,3 (fra $10007,5 til $10282,8), falt størrelsen på 'kortsiktig gjeld' betydelig (fra en absolutt verdi på 1263,3 til 596,6). Dette tyder på at selv om selskapet påtok seg mer samlet gjeld, reduserte det samtidig den delen av gjelden som forfalt i umiddelbar fremtid."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_009",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Hvilken rad i datasettet ser ut til å være en aggregering av andre rader, og hvilket bevis støtter denne konklusjonen?",
+    "answer": [
+      [
+        "Raden merket 'total long-term debt 2013 kmp' er en aggregering. Hovedbeviset er den eksplisitte bruken av ordet 'total' i beskrivelsen. I tillegg er verdien presentert med et valutasymbol ('$'), som er forskjellig fra de andre radene, noe som indikerer at det er et endelig, samlet finansielt tall."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_010",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Hvilken linjepost viser den mest betydelige endringen i absolutt verdi mellom de to periodene, noe som gjør den til en finansiell outlier med tanke på volatilitet?",
+    "answer": [
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_011",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Med tanke på den totale langsiktige gjelden og den uavskrevne gjeldsrabatten, hva er den effektive økningen i langsiktig gjeld fra 2012 til 2013?",
+    "answer": [
+      [
+        "Den totale langsiktige gjelden økte fra 10 007,5 millioner dollar i 2012 til 10 282,8 millioner dollar i 2013. Når vi tar hensyn til at den uavskrevne gjeldsrabatten endret seg fra -21,2 i 2012 til -20,3 i 2013, er den effektive økningen i gjeld 276,8 millioner dollar."
+      ]
+    ],
+    "evidence_cells": [
+      "F6",
+      "G6",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

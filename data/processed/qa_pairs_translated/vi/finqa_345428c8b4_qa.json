@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_345428c8b4_001",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Tổng thay đổi ròng về 'cổ phiếu đang lưu hành' do tất cả các hoạt động 'chương trình mua lại cổ phiếu' và 'phát hành do chuyển đổi trái phiếu' cộng lại trong tất cả các năm là bao nhiêu?",
+    "answer": [
+      [
+        "-36"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "D5",
+      "D10",
+      "D15",
+      "D16"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_345428c8b4_002",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Giai đoạn nào theo năm (2008, 2009 hay 2010) có sự thay đổi tuyệt đối nhỏ nhất về số dư cuối năm của 'cổ phiếu đang lưu hành'?",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D6",
+      "D11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_003",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Xác định giao dịch nào gây ra sự gia tăng lớn nhất về 'cổ phiếu đang lưu hành', sau đó tính tỷ lệ giữa cổ phiếu 'lưu giữ trong kho' và giá trị 'cổ phiếu đang lưu hành' của nó.",
+    "answer": [
+      [
+        "Giao dịch là 'acquisition of smith international inc.' (mua lại công ty Smith International Inc.). Tỷ lệ xấp xỉ 0.432 (76 / 176)."
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "C12",
+      "D12",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D8",
+      "D9",
+      "D13",
+      "D14",
+      "D16"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_004",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Mô tả xu hướng chung của số dư cổ phiếu 'trong quỹ' từ đầu năm 2008 đến cuối năm 2010.",
+    "answer": [
+      [
+        "Số lượng cổ phiếu 'trong quỹ' cho thấy một xu hướng biến động nhưng nhìn chung là giảm (trở thành một số âm nhỏ hơn). Nó bắt đầu ở mức -138, giảm nhẹ xuống -140 vào năm 2008, phục hồi nhẹ lên -139 vào năm 2009 và sau đó giảm đáng kể xuống -73 vào cuối năm 2010, phần lớn là do các cổ phiếu liên quan đến việc mua lại Smith International Inc."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C6",
+      "C11",
+      "C17",
+      "A12",
+      "C12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_005",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Liệt kê tất cả các hoạt động xảy ra vào năm 2008 (giữa số dư ngày 1 tháng 1 và 31 tháng 12) có tác động tích cực đến số lượng 'cổ phiếu đang lưu hành'.",
+    "answer": [
+      [
+        "shares sold to optionees less shares exchanged"
+      ],
+      [
+        "shares issued under employee stock purchase plan"
+      ],
+      [
+        "issued on conversions of debentures"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_006",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Tỷ lệ phần trăm của số dư 'cổ phiếu đang lưu hành' cuối cùng vào ngày 31 tháng 12 năm 2010 được thêm vào bởi giao dịch 'mua lại smith international inc.' là bao nhiêu?",
+    "answer": [
+      [
+        "12.93%"
+      ]
+    ],
+    "evidence_cells": [
+      "D12",
+      "D17"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_345428c8b4_007",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Nếu 'acquisition of smith international inc.' (mua lại công ty Smith International Inc.) đã không xảy ra vào năm 2010, thì số dư cuối năm cho 'shares outstanding' (cổ phiếu đang lưu hành) vào ngày 31 tháng 12 năm 2010 sẽ là bao nhiêu, giả sử tất cả các giao dịch khác không đổi?",
+    "answer": [
+      [
+        "1185"
+      ]
+    ],
+    "evidence_cells": [
+      "D17",
+      "D12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_008",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Có mối quan hệ có thể quan sát được nào giữa số lượng cổ phiếu phát hành cho người được cấp quyền chọn và số lượng cổ phiếu phát hành theo kế hoạch mua cổ phiếu của nhân viên trong các năm được trình bày không? Giải thích.",
+    "answer": [
+      [
+        "Không có mối quan hệ nhất quán. Năm 2008, số lượng cổ phiếu bán cho người được cấp quyền chọn (5) nhiều hơn số lượng cổ phiếu phát hành theo kế hoạch mua (2). Năm 2009, số lượng này bằng nhau (4 và 4). Năm 2010, số lượng cổ phiếu bán cho người được cấp quyền chọn (6) nhiều hơn số lượng cổ phiếu phát hành theo kế hoạch mua (3). Tỷ lệ giữa hai loại này thay đổi theo từng năm, cho thấy không có sự tương quan trực tiếp."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A7",
+      "D7",
+      "A9",
+      "D9",
+      "A13",
+      "D13",
+      "A14",
+      "D14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_345428c8b4_009",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Loại cột nào, 'issued', 'in treasury', hay 'shares outstanding', chứa nhiều mục dữ liệu không phải số hoặc không nhất quán nhất, không bao gồm các dòng cân đối?",
+    "answer": [
+      [
+        "Cột 'issued' là cột không nhất quán nhất. Trong khi các cột khác chứa giá trị số (hoặc một định dạng nhất quán cho số âm), cột 'issued' chứa một hỗn hợp các số dường như đại diện cho số dư ('1334', '1434', '100') và một giá trị lặp lại '2013' dường như không tương ứng với số lượng cho các giao dịch được liệt kê bên cạnh."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B12",
+      "B17"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_010",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Giao dịch nào nổi bật như một điểm ngoại lệ với tác động tích cực lớn nhất đến số dư 'cổ phiếu đang lưu hành' so với tác động trung vị của tất cả các giao dịch khác?",
+    "answer": [
+      [
+        "acquisition of smith international inc ."
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D12",
+      "D13",
+      "D14",
+      "D15",
+      "D16"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_345428c8b4_011",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Tỷ lệ cổ phiếu quỹ trên cổ phiếu đang lưu hành trong chương trình mua lại cổ phiếu qua các năm là bao nhiêu?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "D4",
+      "A10",
+      "C10",
+      "D10",
+      "A15",
+      "C15",
+      "D15"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

@@ -1,0 +1,265 @@
+[
+  {
+    "question_id": "finqa_3669fd2d00_001",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "2012'den 2016'ya kadar olan taahhüt dönemleri arasında en büyük toplam vade tutarına sahip yıl hangisiydi?",
+    "answer": [
+      [
+        "2015"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_002",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "'Teminatlar [c]' kalemi için 2012-2016 dönemi yıllık ortalama taahhüt sona erme tutarı nedir?",
+    "answer": [
+      [
+        "53"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_003",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "'2016 sonrası' en büyük vade tutarına sahip taahhüt türünü belirleyin. Ardından, bu özel taahhüt türü için 2013 ve 2014 yıllarındaki vadelerinin toplamını hesaplayın.",
+    "answer": [
+      [
+        "222"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "A3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_004",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "open_ended_reasoning",
+    "question": "'Teminatlar [c]' için 2012'den 2016 sonrası döneme kadar olan taahhüt sona erme eğilimini açıklayın.",
+    "answer": [
+      [
+        "'Teminatlar [c]' için taahhüt sona ermeleri oldukça dalgalı bir eğilim göstermektedir. 2012'de 18 milyon dolar ile başlayan, 2013'te 8 milyon dolara düşmüş, ardından 2014'te 214 milyon dolara büyük bir sıçrama yaşamıştır. Bu zirvenin ardından, sona ermeler 2015'te 12 milyon dolara ve 2016'da 13 milyon dolara önemli ölçüde düşmüş, 2016 sonrası dönem için ise 60 milyon dolara yükselmiştir. Bu örüntü doğrusal veya tutarlı değildir, ancak 2014 zirvesi tarafından domine edilmektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_005",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "2012 yılında 0$'dan büyük bir vade tutarına ve 1000 milyon $'dan az toplam taahhüdü olan tüm taahhüt türlerini listeleyin.",
+    "answer": [
+      [
+        "receivables securitization facility [b]"
+      ],
+      [
+        "guarantees [c]"
+      ],
+      [
+        "standby letters of credit [d]"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_006",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "'Kredi tesisleri [a]' kaleminin 2015 yılında vadesi dolacak toplam ticari taahhütlerdeki payı yüzde kaçtır?",
+    "answer": [
+      [
+        "99.34%"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_007",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "'Garantiler [c]' kalemi için toplam tutar %10 daha yüksek olsaydı ve bu artış tamamen '2016 sonrası' vade dönemine yansısaydı, yeni 'toplam ticari taahhütler' tutarı ne olurdu?",
+    "answer": [
+      [
+        "$ 2781.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_008",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "open_ended_reasoning",
+    "question": "Verilere göre, bir taahhüdün 'toplam' değeri ile sona erme zaman dilimi arasında gözlemlenebilir bir ilişki var mı?",
+    "answer": [
+      [
+        "Basit doğrusal bir korelasyon yok, ancak gözlemlenebilir bir örüntü var. En büyük taahhüt ('kredi olanakları', 1800 Milyon $) tek, uzak bir vade tarihine (2015) sahip. Buna karşılık, en yaygın vade programına sahip taahhüt ('garantiler', 325 Milyon $) daha küçük olanlardan biri. Diğer iki taahhüt ('alacaklar' ve 'teminat mektupları') çok farklı toplam değerlere sahip olmalarına rağmen (600 Milyon $ ve 24 Milyon $) ilk yılda (2012) tamamen ödeniyor. Bu, daha büyük taahhütlerin tek seferlik toplu ödemeler olarak yapılandırılabileceğini, daha küçük olanların ise ya hemen ele alındığını veya uzun vadeli, dağıtılmış yükümlülükler olarak yapılandırıldığını göstermektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1",
+      "H1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "H2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4",
+      "H4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_009",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Bireysel taahhüt türleri arasında en çok sıfır olmayan değere sahip taahhüt sona erme dönemi hangisidir?",
+    "answer": [
+      [
+        "2012"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_010",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "open_ended_reasoning",
+    "question": "2012'den 2016'ya kadar olan 'toplam ticari taahhüt' sonlanmalarını analiz ettiğimizde, hangi yıl önemli bir aykırı değer temsil etmektedir ve neden?",
+    "answer": [
+      [
+        "2015 yılı önemli bir aykırı değerdir. 2012-2016 yılları arasındaki toplam sonlanmalar sırasıyla 642 $, 8 $, 214 $, 1812 $ ve 13 milyon $'dır. Medyan değer 214 milyon $'dır. 2015 yılındaki 1812 milyon $'lık toplam tutar, medyanın 8 katından fazladır ve bir sonraki en yüksek değerin (642 milyon $) neredeyse 3 katıdır, bu da onu neredeyse tamamen 'kredi tesislerinin' sona ermesinden kaynaklanan açık bir istatistiksel aykırı değer yapmaktadır."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "F1"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_011",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "2012'den 2015'e kadar toplam ticari taahhütler (milyon olarak) nedir?",
+    "answer": [
+      [
+        "$2,676"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

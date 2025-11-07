@@ -1,0 +1,211 @@
+[
+  {
+    "question_id": "finqa_cdb26d6873_001",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "Qual período de final de ano, entre dezembro de 2014 e dezembro de 2016, registrou o maior total de outros resultados abrangentes acumulados?",
+    "answer": [
+      [
+        "december 27 2014"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "H1",
+      "A11",
+      "H11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_002",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "Qual foi o total líquido de 'efeitos fiscais' em todos os três períodos relevantes listados na tabela?",
+    "answer": [
+      [
+        "-12 ( 12 )"
+      ]
+    ],
+    "evidence_cells": [
+      "H4",
+      "H9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_003",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "Identifique o componente da renda abrangente acumulada (excluindo o total) que experimentou a maior mudança absoluta entre o final de 2014 e 2015. Qual foi o seu valor no final de 2015?",
+    "answer": [
+      [
+        "1749"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1",
+      "B6",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "G6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_004",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "open_ended_reasoning",
+    "question": "Descreva a tendência geral do saldo de 'ajuste de tradução de moeda estrangeira' em cada uma das três datas de encerramento de ano.",
+    "answer": [
+      [
+        "O 'ajuste de tradução de moeda estrangeira' mostra uma tendência consistentemente piora nos três períodos de final de ano. O ajuste negativo (perda) aumentou de US$ 345 milhões em 2014 para US$ 515 milhões em 2015, e depois piorou ligeiramente para US$ 519 milhões em 2016, indicando impactos negativos progressivamente maiores das traduções de moeda estrangeira ao longo do tempo."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "A6",
+      "G6",
+      "A11",
+      "G11"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_005",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "Liste os componentes financeiros onde 'quantias reclassificadas do resultado abrangente acumulado (perda)' foram positivas para o período relacionado à linha 3, mas o saldo de fim de ano de 2015 para esse mesmo componente foi negativo.",
+    "answer": [
+      [
+        "unrealized holding gains ( losses ) on derivatives",
+        "prior service credits ( costs )",
+        "actuarial gains ( losses )"
+      ]
+    ],
+    "evidence_cells": [
+      "D3",
+      "D6",
+      "E3",
+      "E6",
+      "F3",
+      "F6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_006",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "Para o 'other comprehensive income ( loss )' do primeiro período (linha 5), qual a proporção da perda total de US$ 606 milhões atribuível a 'unrealized holding gains ( losses ) on available-for-sale investments'?",
+    "answer": [
+      [
+        "117.16%"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "H5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_007",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "Se os 'ganhos (perdas) atuariais' para 'outras receitas e despesas abrangentes (perda)' no segundo período (linha 10) tivessem sido zero em vez de uma perda de $364 milhões, qual teria sido o novo total para esse item?",
+    "answer": [
+      [
+        "410"
+      ]
+    ],
+    "evidence_cells": [
+      "F10",
+      "H10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_008",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "open_ended_reasoning",
+    "question": "Com base nos dois períodos de 'valores reclassificados do resultado abrangente acumulado (perda)' (linhas 3 e 8), existe uma relação consistente entre a reclassificação de 'ganhos (perdas) não realizados em investimentos disponíveis para venda' e o valor total da reclassificação?",
+    "answer": [
+      [
+        "Sim, existe uma forte relação inversa. No primeiro período (linha 3), uma reclassificação de saída (perda) de US$ 93 milhões para investimentos disponíveis para venda correspondeu a uma reclassificação total positiva de US$ 506 milhões. No segundo período (linha 8), uma reclassificação de saída (perda) de US$ 530 milhões correspondeu a uma reclassificação total negativa de US$ 322 milhões. Em ambos os casos, a significativa reclassificação negativa de um único componente influencia fortemente o total, mas outros componentes podem direcionar o total na direção oposta."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "H3",
+      "B8",
+      "H8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_009",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "Quais duas colunas de componentes financeiros contêm o maior número de entradas de dados não monetárias e de placeholder (ou seja, o valor '2014')?",
+    "answer": [
+      [
+        "deferred tax asset valuation allowance",
+        "prior service credits ( costs )"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C7",
+      "C8",
+      "C11",
+      "E7",
+      "E8",
+      "E9",
+      "E10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_010",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "Dentro da linha 'outras receitas e despesas abrangentes (perdas) antes de reclassificações' para o segundo período (linha 7), qual componente tem o valor mais significativo como um outlier em comparação com o valor mediano de todos os componentes nessa linha?",
+    "answer": [
+      [
+        "unrealized holding gains ( losses ) on available-for-sale investments"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "D7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cdb26d6873_011",
+    "table_id": "finqa_cdb26d6873",
+    "question_type": "value",
+    "question": "Qual é o total de outros resultados abrangentes (perda) para 26 de dezembro de 2016?",
+    "answer": [
+      [
+        "46"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "H10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

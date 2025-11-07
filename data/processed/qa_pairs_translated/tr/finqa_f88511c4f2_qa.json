@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_f88511c4f2_001",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "2008 yılında varlıkların elden çıkarılması yükümlülüklerine yapılan tüm işlemsel değişikliklerin (başlangıç ve bitiş bakiyeleri ile 'konsolidasyon dışı bırakma' sındaki anormal değer hariç) net değeri neydi?",
+    "answer": [
+      [
+        "-169"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_002",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "'liabilities settled' kalemindeki yükümlülüklerde daha büyük bir düşüş hangi yıl yaşandı?",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_003",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "'Suni masraf' 2007'den 2008'e ne kadar arttı?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_004",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "2008'de yükümlülüklerde bir artışa, ancak 2007'de bir düşüşe neden olan satır öğesini belirleyin.",
+    "answer": [
+      [
+        "revisions to previous estimates"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_005",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "2008'in başlangıç bakiyesinden 2007'ye ait 'üstlenilen yükümlülükler' ve 'amortisman gideri'nin toplamı çıkarılırsa sonuç ne olur?",
+    "answer": [
+      [
+        "1013"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_006",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "2007 yılındaki 'katlanılan yükümlülükler', hem 2007 hem de 2008 yıllarındaki toplam 'amortisman giderinin' yüzde kaçını temsil etmektedir?",
+    "answer": [
+      [
+        "47.24%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_007",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Eğer 2008 yılındaki 'karşılanmış yükümlülükler' %50 daha büyük olsaydı, o yıl için 'karşılanmış yükümlülükler' ve 'ödenmiş yükümlülükler'in yeni toplamı ne olurdu?",
+    "answer": [
+      [
+        "-49"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_008",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "Tablonun yapısı ve değerlerine dayanarak, 2007 yıl sonu bakiyesi ile 2008 yılı başlangıç bakiyesi arasındaki mantıksal ilişki nedir?",
+    "answer": [
+      [
+        "2007 yılının kapanış bakiyesi (1134 $) ile 2008 yılının başlangıç bakiyesi (1134 $) aynıdır. Bu durum, bir dönemin kapanış bakiyesinin bir sonraki dönemin açılış bakiyesi olduğu standart muhasebe uygulamasını göstermektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_009",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "Tablo boyunca 'gerçekleşen yükümlülükler' gibi negatif finansal değerler nasıl temsil ediliyor?",
+    "answer": [
+      [
+        "Negatif değerler çift bir gösterimle temsil edilir: sayının başında eksi işareti, ardından sayının mutlak değeri parantez içinde. Örneğin: '-94 ( 94 )'."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "C5",
+      "A6",
+      "B6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_010",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "'2013' değerini içeren iki satır öğesini belirleyin ve bu değerin tablonun bağlamında neden bir aykırı değer gibi göründüğünü açıklayın.",
+    "answer": [
+      [
+        "Değer '2013', 2007'deki 'satılık tutulan' (a) ve 2008'deki 'egholdings'in konsolidasyonunun kaldırılması' için mevcuttur. Bu değer, diğer işlem rakamlarının çoğundan (örn. 30, 66, -94) bir büyüklük derecesi daha büyük olduğu ve dahil edilmesi her iki yıl için de başlangıç ve bitiş bakiyeleri arasındaki matematiksel uzlaşmayı bozduğu için bir aykırı değerdir, bu da bunun bir veri hatası veya olağanüstü bir kalem olabileceğini düşündürmektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_011",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "31 Aralık 2008 itibarıyla varlıkların elden çıkarılma yükümlülüğü (milyon olarak) ne kadardı?",
+    "answer": [
+      [
+        "$965"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

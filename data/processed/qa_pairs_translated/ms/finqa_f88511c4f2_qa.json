@@ -1,0 +1,159 @@
+[
+  {
+    "question_id": "finqa_f88511c4f2_002",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Tahun manakah yang mengalami penurunan yang lebih besar dalam obligasi daripada 'liabiliti diselesaikan'?",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_003",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Berapakah peningkatan 'perbelanjaan tambahan' dari tahun 2007 hingga 2008?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_005",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Apakah hasil jika anda menolak jumlah 'liabiliti yang ditanggung' dan 'perbelanjaan pemerolehan' tahun 2007 daripada baki permulaan tahun 2008?",
+    "answer": [
+      [
+        "1013"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_006",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Berapakah peratus 'liabiliti yang ditanggung' pada tahun 2007 daripada jumlah keseluruhan 'perbelanjaan pemerolehan' gabungan daripada kedua-dua tahun 2007 dan 2008?",
+    "answer": [
+      [
+        "47.24%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_007",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Jika 'liabiliti yang ditanggung' pada tahun 2008 adalah 50% lebih besar, berapakah jumlah baru 'liabiliti yang ditanggung' dan 'liabiliti yang diselesaikan' untuk tahun itu?",
+    "answer": [
+      [
+        "-49"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_008",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan struktur dan nilai jadual, apakah hubungan logik antara baki akhir 2007 dan baki awal 2008?",
+    "answer": [
+      [
+        "Baki akhir untuk 2007 ($ 1134) adalah sama dengan baki awal untuk 2008 ($ 1134). Ini menunjukkan amalan perakaunan standard di mana baki penutup satu tempoh menjadi baki pembukaan bagi tempoh seterusnya."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_009",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "Bagaimanakah nilai kewangan negatif, seperti 'liabilities settled', diwakili di seluruh jadual?",
+    "answer": [
+      [
+        "Nilai negatif diwakili menggunakan notasi dwi: tanda minus di hadapan nombor, dan juga nilai mutlak nombor tersebut di dalam kurungan. Contohnya, '-94 ( 94 )'."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "C5",
+      "A6",
+      "B6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_010",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "open_ended_reasoning",
+    "question": "Nyatakan dua item baris yang mengandungi nilai '2013' dan terangkan mengapa nilai ini kelihatan luar biasa dalam konteks jadual.",
+    "answer": [
+      [
+        "Nilai '2013' terdapat untuk 'liabiliti yang perlu dilepaskan (a)' pada tahun 2007 dan 'nyahpenyatuan egholdings' pada tahun 2008. Nilai ini luar biasa kerana ia adalah satu magnitud yang lebih besar daripada kebanyakan angka transaksi lain (contohnya, 30, 66, -94), dan penyertaannya mengganggu penyelarasan matematik antara baki permulaan dan akhir untuk kedua-dua tahun, menunjukkan ia mungkin merupakan ralat data atau item luar biasa."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f88511c4f2_011",
+    "table_id": "finqa_f88511c4f2",
+    "question_type": "value",
+    "question": "Berapakah obligasi persaraan aset (dalam juta) pada 31 Disember 2008?",
+    "answer": [
+      [
+        "$965"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

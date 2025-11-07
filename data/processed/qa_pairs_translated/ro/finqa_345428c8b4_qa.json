@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_345428c8b4_001",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Care a fost schimbarea netă totală în 'acțiuni în circulație' rezultată din toate activitățile de tip 'programe de răscumpărare de acțiuni' și 'acțiuni emise la conversia obligațiunilor', combinate pe parcursul tuturor anilor?",
+    "answer": [
+      [
+        "-36"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "D5",
+      "D10",
+      "D15",
+      "D16"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_345428c8b4_002",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Ce perioadă an de an (2008, 2009 sau 2010) a înregistrat cea mai mică modificare absolută a soldului de sfârșit de an pentru 'acțiuni în circulație'?",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D6",
+      "D11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_003",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifică tranzacția care a cauzat cea mai mare creștere unică a 'acțiunilor în circulație' și apoi calculează raportul dintre acțiunile sale 'în trezorerie' și valoarea sa 'acțiuni în circulație'.",
+    "answer": [
+      [
+        "Tranzacția este 'achiziția Smith International Inc.'. Raportul este de aproximativ 0.432 (76 / 176)."
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "C12",
+      "D12",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D8",
+      "D9",
+      "D13",
+      "D14",
+      "D16"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_004",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Descrieți tendința generală a soldului de acțiuni „în trezorerie” de la începutul anului 2008 până la sfârșitul anului 2010.",
+    "answer": [
+      [
+        "Numărul de acțiuni „în trezorerie” prezintă o tendință fluctuantă, dar în general descrescătoare (devenind un număr negativ mai mic). A început de la -138, a scăzut ușor la -140 în 2008, și-a revenit ușor la -139 în 2009 și apoi a scăzut semnificativ la -73 până la sfârșitul anului 2010, în mare parte datorită acțiunilor asociate cu achiziția Smith International Inc."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C6",
+      "C11",
+      "C17",
+      "A12",
+      "C12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_005",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Enumerați toate activitățile care au avut loc în 2008 (între soldurile de 1 ianuarie și 31 decembrie) și care au avut un impact pozitiv asupra numărului de 'acțiuni în circulație'.",
+    "answer": [
+      [
+        "shares sold to optionees less shares exchanged"
+      ],
+      [
+        "shares issued under employee stock purchase plan"
+      ],
+      [
+        "issued on conversions of debentures"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_006",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Ce proporție din soldul final de 'acțiuni în circulație' la 31 decembrie 2010 a fost adăugată de tranzacția 'achiziția smith international inc.'?",
+    "answer": [
+      [
+        "12.93%"
+      ]
+    ],
+    "evidence_cells": [
+      "D12",
+      "D17"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_345428c8b4_007",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Dacă 'achiziția companiei Smith International Inc.' nu ar fi avut loc în 2010, care ar fi fost soldul la sfârșitul anului pentru 'acțiuni în circulație' la 31 decembrie 2010, presupunând că toate celelalte tranzacții au rămas aceleași?",
+    "answer": [
+      [
+        "1185"
+      ]
+    ],
+    "evidence_cells": [
+      "D17",
+      "D12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_008",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Există o relație observabilă între numărul de acțiuni emise opționarilor și numărul emis în cadrul planului de achiziții de acțiuni de către angajați în anii prezentați? Explicați.",
+    "answer": [
+      [
+        "Nu există o relație constantă. În 2008, au fost vândute mai multe acțiuni opționarilor (5) decât au fost emise în cadrul planului de achiziții (2). În 2009, numerele au fost egale (4 și 4). În 2010, au fost vândute mai multe acțiuni opționarilor (6) decât au fost emise în cadrul planului de achiziții (3). Raportul dintre cele două variază în fiecare an, sugerând nicio corelație directă."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A7",
+      "D7",
+      "A9",
+      "D9",
+      "A13",
+      "D13",
+      "A14",
+      "D14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_345428c8b4_009",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Excluzând rândurile de sold, care coloană, 'issued', 'in treasury' sau 'shares outstanding', conține cele mai multe înregistrări non-numerice sau inconsistente?",
+    "answer": [
+      [
+        "Coloana 'issued' este cea mai inconsistentă. În timp ce alte coloane conțin valori numerice (sau un format consecvent pentru negative), coloana 'issued' conține un amestec de numere care par să reprezinte solduri ('1334', '1434', '100') și o valoare repetitivă '2013', care nu pare să corespundă unei cantități pentru tranzacțiile la care este listată."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B12",
+      "B17"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_010",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Ce tranzacție unică se remarcă drept un caz atipic, având cel mai semnificativ impact pozitiv asupra soldului de 'acțiuni în circulație' comparativ cu impactul median al tuturor celorlalte tranzacții?",
+    "answer": [
+      [
+        "acquisition of smith international inc ."
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D12",
+      "D13",
+      "D14",
+      "D15",
+      "D16"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_345428c8b4_011",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Care este raportul dintre acțiunile deținute în trezorerie și acțiunile în circulație în programul de răscumpărare de acțiuni, pe parcursul anilor?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "D4",
+      "A10",
+      "C10",
+      "D10",
+      "A15",
+      "C15",
+      "D15"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

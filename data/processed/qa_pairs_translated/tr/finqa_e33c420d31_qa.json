@@ -1,0 +1,215 @@
+[
+  {
+    "question_id": "finqa_e33c420d31_001",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "'Borç yükümlülükleri' ve 'uzun vadeli borç faiz ödemeleri' hariç, '3-5 yıl' dönemi için en büyük tutarı hangi sözleşmeden doğan yükümlülük ödeyecektir?",
+    "answer": [
+      [
+        "fuel obligations"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_002",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Dipnot referansı '11' olan tüm yükümlülüklerin toplamı nedir?",
+    "answer": [
+      [
+        "$ 16297"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "H3",
+      "B4",
+      "H4",
+      "B5",
+      "H5",
+      "B6",
+      "H6",
+      "B7",
+      "H7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_e33c420d31_003",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "'1-3 yıl' içinde vadesi dolacak toplam yükümlülüklerin, en yüksek toplam değere sahip tek bir yükümlülüğe atfedilen yüzdesi nedir?",
+    "answer": [
+      [
+        "27.04%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "D1",
+      "D9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_004",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "'Uzun vadeli borcun faiz ödemeleri' için, dört zaman dilimi boyunca ödemelerin eğilimini analiz edin ve yükümlülüğün öne mi yoksa sonraya mı yüklendiğini belirleyin.",
+    "answer": [
+      [
+        "'Uzun vadeli borcun faiz ödemeleri' için yapılan ödemeler 1.172 ABD Doları (<1 yıl), 2.166 ABD Doları (1-3 yıl), 1.719 ABD Doları (3-5 yıl) ve 4.046 ABD Doları (>5 yıl) tutarındadır. Yükümlülük önemli ölçüde sonraya yüklenmiştir, çünkü ödemeler zamanla yukarı doğru bir eğilim göstermekte ve en büyük tek ödeme '5 yıldan fazla' döneminde gerçekleşmektedir. Toplam faiz ödemelerinin %63'ünden fazlası 3 yıldan daha uzun bir süre sonra vadelidir."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_005",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "'1 yıldan az' sürede vadesi gelen tutarın '3-5 yıl' sürede vadesi gelen tutardan büyük olduğu sözleşmesel yükümlülükleri listeleyin.",
+    "answer": [
+      [
+        "fuel obligations"
+      ],
+      [
+        "other purchase obligations"
+      ],
+      [
+        "other long-term liabilities reflected on aes' consolidated balance sheet under gaap ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "E6",
+      "A7",
+      "C7",
+      "E7",
+      "A8",
+      "C8",
+      "E8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_006",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Nihai toplam satırına göre, kısa vadeli yükümlülüklerin (1 yıldan az süreli) toplamının, uzun vadeli yükümlülüklerin (5 yıldan fazla süreli) toplamına oranı nedir?",
+    "answer": [
+      [
+        "Approximately 1:2.81"
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "F9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_e33c420d31_007",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Yeni bir politika, '5 yıldan uzun sürede' vadesi dolacak tüm 'faaliyet kirası yükümlülüklerinin' bunun yerine '3-5 yıl' dönemi içinde ödenmesini gerektirirse, '3-5 yıl' sütununun yeni toplamı ne olurdu?",
+    "answer": [
+      [
+        "$ 10283"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_008",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "Enerji yükümlülüğünün türü (yakıt vs. elektrik) ile ödeme takvimi arasında belirgin bir korelasyon var mı?",
+    "answer": [
+      [
+        "Evet, açık bir korelasyon var. 'Yakıt yükümlülükleri', en büyük ödemenin ('1 yıldan az' sürede 1.759 $) vadesiyle öne yüklenmiştir; bu da kısa vadeli sözleşmeleri düşündürmektedir. Buna karşılık, 'elektrik yükümlülükleri' en büyük ödemenin ('5 yıldan fazla' sürede 2.065 $) vadesiyle sona yüklenmiştir; bu da muhtemelen uzun vadeli elektrik satın alma anlaşmalarını yansıtmaktadır. Bu, enerji kaynağının niteliğinin finansal taahhüdün süresiyle ilgili olduğunu göstermektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_e33c420d31_009",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "Son satırdaki her ödeme dönemi için toplam tutarlara bakıldığında, en büyük finansal taahhüdü hangi zaman dilimi taşımaktadır ve bu durum şirketin yükümlülük yapısı hakkında ne anlama gelmektedir?",
+    "answer": [
+      [
+        "5 yılı aşkın süre, en büyük taahhüdü 20.544 $ ile elinde tutmaktadır. Bu durum, şirketin yükümlülük yapısının büyük ölçüde uzun vadeli olduğunu, finansal yükümlülüklerinin önemli bir kısmının gelecekte ödenmek üzere planlandığını ve bunun da uzun vadeli finansman stratejileri veya büyük sermaye projeleri anlamına geldiğini göstermektedir."
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "D9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_010",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "'Diğer uzun vadeli yükümlülükler' satırındaki '1 yıldan az' sütununda bir aykırı değer görünüyor. Bu değeri belirleyin ve neden tutarsız olduğunu açıklayın.",
+    "answer": [
+      [
+        "Aykırı değer, '1 yıldan az' sütunundaki '$ 2014' değeridir. Bu tutarsızdır çünkü bu tek kısa vadeli ödeme miktarı, o yükümlülüğün 'toplamı' olarak listelenen '701 $' değerinden önemli ölçüde fazladır, bu da mantıksal bir imkansızlıktır ve muhtemelen bir veri hatasıdır."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

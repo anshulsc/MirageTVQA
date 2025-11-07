@@ -1,0 +1,265 @@
+[
+  {
+    "question_id": "finqa_3669fd2d00_001",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Trong các kỳ hạn cam kết từ năm 2012 đến năm 2016, năm nào có tổng giá trị đáo hạn lớn nhất?",
+    "answer": [
+      [
+        "2015"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_002",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Số tiền hết hạn cam kết trung bình hàng năm cho 'thư bảo lãnh [c]' trong giai đoạn 2012 đến 2016 là bao nhiêu?",
+    "answer": [
+      [
+        "53"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_003",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Hãy xác định loại cam kết có số tiền đáo hạn lớn nhất 'sau năm 2016'. Sau đó, đối với loại cam kết cụ thể đó, hãy tính tổng số tiền đáo hạn của nó cho các năm 2013 và 2014.",
+    "answer": [
+      [
+        "222"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "A3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_004",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "open_ended_reasoning",
+    "question": "Mô tả xu hướng đáo hạn cam kết đối với 'bảo lãnh [c]' từ năm 2012 đến 'sau năm 2016'.",
+    "answer": [
+      [
+        "Các khoản đáo hạn cam kết đối với 'bảo lãnh [c]' cho thấy một xu hướng biến động mạnh. Bắt đầu ở mức 18 triệu đô la vào năm 2012, chúng giảm xuống còn 8 triệu đô la vào năm 2013, sau đó tăng vọt lên 214 triệu đô la vào năm 2014. Sau đỉnh điểm này, các khoản đáo hạn giảm đáng kể xuống còn 12 triệu đô la vào năm 2015 và 13 triệu đô la vào năm 2016, trước khi tăng lên 60 triệu đô la cho giai đoạn sau năm 2016. Mô hình này không tuyến tính hoặc nhất quán, mà bị chi phối bởi đỉnh điểm năm 2014."
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_005",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Liệt kê tất cả các loại cam kết có giá trị đáo hạn lớn hơn 0 đô la vào năm 2012 và tổng cam kết nhỏ hơn 1000 triệu đô la.",
+    "answer": [
+      [
+        "receivables securitization facility [b]"
+      ],
+      [
+        "guarantees [c]"
+      ],
+      [
+        "standby letters of credit [d]"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_006",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Bao nhiêu phần trăm của tổng cam kết thương mại đáo hạn vào năm 2015 là do 'cơ sở tín dụng [a]'?",
+    "answer": [
+      [
+        "99.34%"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_007",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Nếu tổng số cho 'bảo lãnh [c]' cao hơn 10% và khoản tăng này được phản ánh hoàn toàn trong thời hạn hết hạn 'sau năm 2016', thì số tiền 'tổng cam kết thương mại' mới sẽ là bao nhiêu?",
+    "answer": [
+      [
+        "$ 2781.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_008",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "open_ended_reasoning",
+    "question": "Dựa trên dữ liệu, có mối quan hệ nào có thể quan sát được giữa quy mô 'tổng' của một cam kết và thời gian đáo hạn của nó không?",
+    "answer": [
+      [
+        "Không có mối tương quan tuyến tính đơn giản nào, nhưng có một mô hình có thể quan sát được. Khoản cam kết lớn nhất ('phương tiện tín dụng', 1800 triệu đô la) có một ngày đáo hạn duy nhất, xa (năm 2015). Ngược lại, cam kết có lịch trình đáo hạn dàn trải nhất ('bảo lãnh', 325 triệu đô la) là một trong những khoản nhỏ hơn. Hai khoản cam kết còn lại ('các khoản phải thu' và 'thư tín dụng dự phòng') được thanh toán hết trong năm đầu tiên (2012), mặc dù có giá trị tổng rất khác nhau (600 triệu đô la và 24 triệu đô la). Điều này cho thấy các cam kết lớn hơn có thể được cấu trúc dưới dạng thanh toán một lần duy nhất, trong khi các cam kết nhỏ hơn được xử lý ngay lập tức hoặc được cấu trúc dưới dạng nghĩa vụ dài hạn, phân bổ."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1",
+      "H1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "H2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4",
+      "H4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_009",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Thời kỳ đáo hạn cam kết nào có nhiều giá trị khác không nhất trong số các loại cam kết riêng lẻ?",
+    "answer": [
+      [
+        "2012"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_010",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "open_ended_reasoning",
+    "question": "Phân tích các khoản cam kết thương mại 'tổng cộng' hết hạn từ năm 2012 đến năm 2016, năm nào là một ngoại lệ đáng kể và tại sao?",
+    "answer": [
+      [
+        "Năm 2015 là một ngoại lệ đáng kể. Tổng thời hạn hết hạn cho các năm 2012-2016 lần lượt là 642 triệu USD, 8 triệu USD, 214 triệu USD, 1812 triệu USD và 13 triệu USD. Giá trị trung vị là 214 triệu USD. Tổng số tiền 1812 triệu USD của năm 2015 gấp hơn 8 lần giá trị trung vị và gần gấp 3 lần giá trị cao nhất tiếp theo (642 triệu USD), làm cho nó trở thành một ngoại lệ thống kê rõ ràng gần như hoàn toàn do việc hết hạn của 'cơ sở tín dụng'."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "F1"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_011",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Tổng cam kết thương mại (tính bằng triệu) từ năm 2012 đến năm 2015 là bao nhiêu?",
+    "answer": [
+      [
+        "$2,676"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

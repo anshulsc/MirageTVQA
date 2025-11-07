@@ -1,0 +1,212 @@
+[
+  {
+    "question_id": "finqa_da1c50b23c_001",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "Vilken enhetstyp har det högsta återköpta nominella värdet, och vad är det värdet?",
+    "answer": [
+      [
+        "class b-2 preferred units",
+        "$ 55.8"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_002",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "Vad är det totala antalet inlösta enheter för alla listade typer?",
+    "answer": [
+      [
+        "2271818"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_003",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "Beräkna par-värdet per enskild enhet för den typ som involverade ett \"bidrag till välgörenhet\".",
+    "answer": [
+      [
+        "$10,007.17"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_004",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "Identifiera alla enhetstyper som löstes in exklusivt mot kontanter och där mer än 2 500 enheter löstes in.",
+    "answer": [
+      [
+        "preferred a units"
+      ],
+      [
+        "class c downreit units"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A3",
+      "B3",
+      "D3",
+      "A5",
+      "B5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_005",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "Vilken procentandel av det totala inlösta nominella värdet utgörs av alla 'klass b'-enheter tillsammans?",
+    "answer": [
+      [
+        "76.89%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_006",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "open_ended_reasoning",
+    "question": "Vilken enhetstyp är den mest signifikanta avvikelsen när det gäller dess nominella värde per enhet? Motivera ditt svar med beräknade värden.",
+    "answer": [
+      [
+        "\"preferred a units\" är den mest signifikanta avvikelsen. Dess nominella värde per enhet är 1,00 USD (2,2 miljoner USD / 2 200 000 enheter), vilket är flera storleksordningar lägre än de andra typerna. Som jämförelse är det nominella värdet per enhet för \"class a preferred units\" 10 000 USD (20,0 miljoner USD / 2 000 enheter), och för \"class c downreit units\" är det cirka 30,74 USD (1,9 miljoner USD / 61 804 enheter). Det extremt låga enhetsvärdet för \"preferred a units\" gör den till en tydlig avvikelse."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_007",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "Om det inlösta nominella beloppet för 'class a preferred units' hade varit 10 % lägre, vad hade då det nya totala inlösta nominella beloppet för alla enheter varit (i miljoner)?",
+    "answer": [
+      [
+        "$ 102.3"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_008",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "open_ended_reasoning",
+    "question": "Tyder datan på en korrelation mellan ett högre antal inlösta enheter och ett högre totalt nominellt värde? Förklara din slutsats.",
+    "answer": [
+      [
+        "Nej, datan tyder inte på en tydlig korrelation. Medan 'class b-2 preferred units' har ett relativt högt antal enheter (5 576) och det högsta nominella värdet (55,8 miljoner dollar), har enhetstypen med flest enheter, 'preferred a units' (2 200 000), ett lågt nominellt värde (2,2 miljoner dollar). Omvänt har 'class c downreit units' det näst högsta antalet enheter (61 804) men det lägsta nominella värdet (1,9 miljoner dollar). Detta indikerar att det nominella värdet per enhet varierar drastiskt mellan typerna, vilket stör en enkel korrelation mellan mängden enheter och deras totala värde."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_009",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "open_ended_reasoning",
+    "question": "Vilken kolumn innehåller data som är en sammansättning av två distinkta kategorier, och vilken rad exemplifierar detta?",
+    "answer": [
+      [
+        "Kolumnen 'redemption type' (inlösen typ) innehåller sammansatt data. Värdet 'cash/charitable contribution' (kontant/välgörenhetsbidrag) i rad 4 exemplifierar detta genom att kombinera två separata inlösenmetoder i en enda cell."
+      ]
+    ],
+    "evidence_cells": [
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_da1c50b23c_010",
+    "table_id": "finqa_da1c50b23c",
+    "question_type": "value",
+    "question": "Vad är det genomsnittliga nominella värdet som lösts in (i miljoner) för enhetstyper som har 'preferred' i sitt namn?",
+    "answer": [
+      [
+        "$ 25.6"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

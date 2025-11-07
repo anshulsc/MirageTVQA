@@ -1,0 +1,228 @@
+[
+  {
+    "question_id": "finqa_dbc539719b_001",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Blandt de anførte individuelle stater, hvilken genererer den højeste driftsindtægt pr. kunde?",
+    "answer": [
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A4",
+      "B4",
+      "D4",
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_002",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Hvad er det samlede antal kunder for Illinois, Indiana og Californien?",
+    "answer": [
+      [
+        "779881"
+      ]
+    ],
+    "evidence_cells": [
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_dbc539719b_003",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Hvad er den kombinerede procentdel af de samlede driftsindtægter fra den/de stat(er) med den lavest anslåede betjente befolkning?",
+    "answer": [
+      [
+        "12.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "F6",
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_004",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Hvilke stater har en andel af det samlede antal kunder, som er større end deres andel af de samlede driftsindtægter?",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "indiana"
+      ],
+      [
+        "west virginia ( b )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "A5",
+      "C5",
+      "E5",
+      "A6",
+      "C6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_005",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Hvad er forholdet mellem procentdelen af samlede kunder og procentdelen af den samlede befolkning, der betjenes for kategorien 'other ( c )', afrundet til to decimaler?",
+    "answer": [
+      [
+        "1.01"
+      ]
+    ],
+    "evidence_cells": [
+      "E8",
+      "G8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_dbc539719b_006",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Hvis Pennsylvanias driftsindtægter skulle stige med 10%, hvad ville den nye driftsindtægt for 'subtotal ( de syv største stater )' være, forudsat at alle andre staters indtægter forbliver uændrede?",
+    "answer": [
+      [
+        "2388.14"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_007",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyser forholdet mellem antallet af kunder og den estimerede befolkning, der betjenes, for de seks listede individuelle stater. Er der en positiv korrelation, og hvad indebærer dette?",
+    "answer": [
+      [
+        "Ja, der er en stærk positiv korrelation. Efterhånden som antallet af kunder stiger for en stat, har den estimerede befolkning, der betjenes, også en tendens til at stige. For eksempel har Pennsylvania det højeste antal kunder (666,415) og den største estimerede befolkning, der betjenes (2,2 millioner), mens West Virginia og Californien, som har de laveste kundetal, også har de mindste estimerede befolkninger, der betjenes. Dette indebærer, at kundegrundlaget er en direkte og proportional komponent af den befolkning, der betjenes af virksomheden i disse regioner."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_dbc539719b_008",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Ved at beregne den estimerede befolkning betjent pr. kunde for hver af de seks individuelle stater, identificer hvilken stat der er den mest markante outlier, og forklar hvorfor.",
+    "answer": [
+      [
+        "Illinois er den mest markante outlier. Den estimerede befolkning betjent pr. kunde for hver stat er: Pennsylvania (~3,30), Missouri (~3,23), Illinois (~4,17), California (~3,44), Indiana (~4,09) og West Virginia (~3,52). Mens de fleste stater betjener mellem 3,2 og 3,5 personer pr. kunde, er Illinois og Indiana markant højere. Illinois har det højeste forhold på cirka 4,17, hvilket indikerer, at hver kunde i Illinois repræsenterer en større del af den betjente befolkning sammenlignet med andre stater, hvilket gør den til den mest markante outlier."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_dbc539719b_009",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "open_ended_reasoning",
+    "question": "Bekræft om procentdelen af de samlede driftsindtægter for 'subtotal (top syv stater)' og 'andre (c)' tilsammen nøjagtigt udgør den procentdel, der er angivet for 'samlet reguleret virksomhed'.",
+    "answer": [
+      [
+        "Ja, summen er nøjagtig. 'Subtotal (top syv stater)' udgør 87,0 % af de samlede driftsindtægter, og kategorien 'andre (c)' udgør 13,0 %. Ved at lægge disse to procenter sammen (87,0 % + 13,0 %) fås 100,0 %, hvilket stemmer overens med værdien angivet for 'samlet reguleret virksomhed'."
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_dbc539719b_010",
+    "table_id": "finqa_dbc539719b",
+    "question_type": "value",
+    "question": "Hvilket par stater, fra listen over seks, har et kombineret antal kunder, der er tættest på antallet af kunder i Pennsylvania?",
+    "answer": [
+      [
+        "missouri"
+      ],
+      [
+        "california"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

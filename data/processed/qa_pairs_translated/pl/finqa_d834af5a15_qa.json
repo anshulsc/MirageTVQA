@@ -1,0 +1,216 @@
+[
+  {
+    "question_id": "finqa_d834af5a15_001",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "Jaka była łączna liczba akcji ze restricted stock przyznanych we wszystkich latach pokazanych w tabeli (2006, 2007 i 2008)?",
+    "answer": [
+      [
+        "5287752"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d834af5a15_002",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "W którym okresie (2006, 2007 czy 2008) średnia ważona wartość rynkowa utraconych akcji była najwyższa?",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "A8",
+      "C8",
+      "A12",
+      "C12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_003",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "open_ended_reasoning",
+    "question": "Opisz trend liczby niewykorzystanych akcji zastrzeżonych na koniec każdego roku od 31 grudnia 2005 r. do 31 grudnia 2008 r.",
+    "answer": [
+      [
+        "Liczba niewykorzystanych akcji zastrzeżonych wykazuje stały, choć spowalniający, trend wzrostowy rok do roku. Wzrosła z 3 488 668 na koniec 2005 r. do 3 579 189 w 2006 r. (wzrost o 90 521), następnie do 3 821 707 w 2007 r. (wzrost o 242 518), a ostatecznie do 3 883 230 w 2008 r. (wzrost o 61 523)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A5",
+      "B5",
+      "A9",
+      "B9",
+      "A13",
+      "B13"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_004",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "W roku 2007, jaki procent nowo przyznanych akcji został zrekompensowany przez łączną liczbę akcji, które zbyto i utracono?",
+    "answer": [
+      [
+        "86.66%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d834af5a15_005",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "Jaka była wartość godziwa akcji przyznanych w roku, w którym liczba akcji wydanych i objętych vested po raz pierwszy przekroczyła 1,3 miliona?",
+    "answer": [
+      [
+        "$ 56.45"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A7",
+      "B7",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_006",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "open_ended_reasoning",
+    "question": "Zweryfikuj stan niezbytych akcji warunkowych na dzień 31 grudnia 2008 r., obliczając go na podstawie salda z końca 2007 r. i działań z następnego roku.",
+    "answer": [
+      [
+        "Obliczenie jest poprawne. Rozpoczynając od salda końcowego z 2007 r. w wysokości 3 821 707, dodając przyznane 1 836 532 akcje i odejmując 1 403 826 akcji nabytych i 371 183 akcji utraconych, otrzymujemy saldo końcowe w wysokości 3 883 230, co odpowiada zgłoszonej liczbie niezbytych akcji na dzień 31 grudnia 2008 r."
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_007",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "Gdyby ważona średnia wartość godziwa dla akcji przyznanych w 2006 roku była o 5% wyższa, jaka byłaby jej przybliżona całkowita wartość? (Wartość całkowita = liczba akcji * wartość godziwa)",
+    "answer": [
+      [
+        "$ 95,781,586.20"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_008",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "open_ended_reasoning",
+    "question": "Czy istnieje spójna zależność między liczbą przyznanych akcji w danym roku a liczbą utraconych akcji w tym samym roku?",
+    "answer": [
+      [
+        "Na podstawie danych nie ma jasnej ani spójnej zależności. W 2006 roku przyznano 1 632 504 akcje, a utracono 360 734. W 2007 roku liczba przyznanych akcji wzrosła do 1 818 716, podczas gdy liczba utraconych zmniejszyła się do 230 786. W 2008 roku liczba przyznanych akcji pozostała wysoka na poziomie 1 836 532, podczas gdy liczba utraconych znacznie wzrosła do 371 183. Liczba utraconych akcji waha się bez bezpośredniej korelacji z liczbą przyznanych akcji w tym samym okresie."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B6",
+      "B8",
+      "B10",
+      "B12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d834af5a15_009",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "Która transakcja ('przyznane', 'nabyte i wydane' lub 'utracone') ma najwyższą średnią wartość godziwą z daty przyznania we wszystkich wymienionych latach?",
+    "answer": [
+      [
+        "granted"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C6",
+      "C7",
+      "C8",
+      "C10",
+      "C11",
+      "C12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d834af5a15_010",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "open_ended_reasoning",
+    "question": "Jaki jest strukturalny cel wierszy zaczynających się od 'niezrealizowane akcje warunkowe 31 grudnia' w tabeli?",
+    "answer": [
+      [
+        "Wiersze te służą jako okresowe salda lub punkty kontrolne w zestawieniu uzgodnień finansowych. Każdy wiersz 'niezrealizowane akcje warunkowe' podaje skumulowaną kwotę na koniec określonego roku, a kolejne wiersze ('przyznane', 'zrealizowane', 'utracone') szczegółowo opisują czynności, które modyfikują to saldo, aby uzyskać łączną kwotę na koniec następnego roku. Stanowią one punkty początkowe i końcowe analizy działalności dla każdego okresu."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A9",
+      "A13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_011",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "Jaka była łączna liczba akcji zwykłych (restricted stock) przyznanych w latach 2005-2008?",
+    "answer": [
+      [
+        "5,287,752"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A6",
+      "A10",
+      "B2",
+      "B6",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

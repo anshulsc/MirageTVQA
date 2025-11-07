@@ -1,0 +1,250 @@
+[
+  {
+    "question_id": "finqa_c9bab52126_001",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "В якому році компанія понесла найбільші чисті процентні витрати, і яка була ця сума?",
+    "answer": [
+      [
+        "2009",
+        "$431.7"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_c9bab52126_002",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Які були загальні витрати на 'амортизацію та знос', зафіксовані за п'ятирічний період з 2009 по 2013 рік?",
+    "answer": [
+      [
+        "1050.9"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_c9bab52126_003",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Яким був 'чистий прибуток (збиток)' у році з найнижчим показником 'EBITDA'?",
+    "answer": [
+      [
+        "$ -373.4 ( 373.4 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "A1",
+      "F1"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_c9bab52126_004",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "open_ended_reasoning",
+    "question": "Опишіть тенденцію чистого прибутку (збитку) за період з найпершого (2009) до найновішого (2013) року, показаного в таблиці.",
+    "answer": [
+      [
+        "Чистий прибуток (збиток) компанії демонструє сильну позитивну тенденцію до покращення з 2009 по 2013 рік. Починаючи зі значного збитку у $373.4 мільйона у 2009 році, він зменшився до меншого збитку у $29.2 мільйона у 2010 році. Потім компанія стала прибутковою, причому чистий прибуток зріс з $17.1 мільйона у 2011 році до $119.0 мільйона у 2012 році, і нарешті до $132.8 мільйона у 2013 році."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_c9bab52126_005",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Перелічіть усі статті фінансової звітності, які мали негативне значення у 2010 році та позитивне значення у 2013 році.",
+    "answer": [
+      [
+        "net income ( loss )"
+      ],
+      [
+        "income tax expense ( benefit )"
+      ],
+      [
+        "net loss ( gain ) on extinguishments of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "E1",
+      "A3",
+      "B3",
+      "E3",
+      "A10",
+      "B10",
+      "E10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_c9bab52126_006",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Якою була 'амортизація та знос' у 2012 році у відсотках від 'скоригованого ebitda'?",
+    "answer": [
+      [
+        "27.42%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C14"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_c9bab52126_007",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Якби 'професійні збори за консультації та пов'язані з боргом послуги' були на 50% нижчими у 2010 році, якою була б 'скоригована EBITDA' за цей рік, припускаючи, що це коригування безпосередньо зменшує загальну суму?",
+    "answer": [
+      [
+        "$594.25"
+      ]
+    ],
+    "evidence_cells": [
+      "E8",
+      "E14"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_c9bab52126_008",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "open_ended_reasoning",
+    "question": "Виходячи з даних з 2009 по 2013 рік, який зв'язок між 'чистими процентними витратами' та 'скоригованою EBITDA'?",
+    "answer": [
+      [
+        "Існує сильна обернена кореляція між 'чистими процентними витратами' та 'скоригованою EBITDA'. Оскільки 'чисті процентні витрати' послідовно зменшувалися з 431,7 мільйона доларів у 2009 році до 250,1 мільйона доларів у 2013 році, 'скоригована EBITDA' послідовно зростала з 465,4 мільйона доларів до 808,5 мільйона доларів за той самий період. Це свідчить про те, що зусилля компанії зі скорочення боргу та процентних платежів, ймовірно, сприяли покращенню її основної прибутковості."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "A14",
+      "B14",
+      "C14",
+      "D14",
+      "E14",
+      "F14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_c9bab52126_009",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Які статті фінансових коригувань, від 'non-cash equity-based compensation' до 'other adjustments ( ii )' включно, мають числове значення, зафіксоване за кожен рік з 2009 по 2013?",
+    "answer": [
+      [
+        "non-cash equity-based compensation"
+      ],
+      [
+        "sponsor fees"
+      ],
+      [
+        "consulting and debt-related professional fees"
+      ],
+      [
+        "other adjustments ( ii )"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "B13",
+      "C13",
+      "D13",
+      "E13",
+      "F13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_c9bab52126_010",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Чистий збиток (прибуток) від погашення довгострокового боргу за 2011 рік здається аномальним значенням. Наскільки це значення перевищує наступне найвище значення, зафіксоване в інші роки?",
+    "answer": [
+      [
+        "$54.9"
+      ]
+    ],
+    "evidence_cells": [
+      "D10",
+      "B10",
+      "C10",
+      "E10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_c9bab52126_011",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Який рік показує незвично нижчий чистий прибуток (збиток) порівняно з іншими роками?",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

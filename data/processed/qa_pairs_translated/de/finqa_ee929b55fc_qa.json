@@ -1,0 +1,270 @@
+[
+  {
+    "question_id": "finqa_ee929b55fc_001",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Welche Berichtseinheit hat den höchsten beizulegenden Zeitwert als Prozentsatz ihres zugewiesenen Buchwerts?",
+    "answer": [
+      [
+        "transaction services"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_002",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Wie hoch ist der gesamte Goodwill für alle Berichtseinheiten, deren Name den Begriff „Banking“ enthält?",
+    "answer": [
+      [
+        "19960"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_003",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Wie hoch ist der Goodwill der Berichtseinheit mit dem zweitniedrigsten Fair Value Prozentsatz?",
+    "answer": [
+      [
+        "65"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_004",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Listen Sie alle Berichtseinheiten auf, die einen Goodwill-Wert von mehr als 4.000 $ und einen Fair-Value-Prozentsatz von unter 400 % haben.",
+    "answer": [
+      [
+        "asia regional consumer banking"
+      ],
+      [
+        "securities and banking"
+      ],
+      [
+        "local consumer lending 2014cards"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_005",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Welcher Anteil des gesamten Goodwills aller Berichtseinheiten entfällt auf 'asia regional consumer banking'? Geben Sie die Antwort als Prozentsatz, gerundet auf eine Dezimalstelle, an.",
+    "answer": [
+      [
+        "23.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_006",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Wenn der Goodwill für „local consumer lending 2014cards“ aufgrund einer Wertminderung um 25 % sinken würde, wie hoch wäre dann sein neuer Goodwill-Wert?",
+    "answer": [
+      [
+        "3420"
+      ]
+    ],
+    "evidence_cells": [
+      "C8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_007",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "open_ended_reasoning",
+    "question": "Basierend auf den Daten, gibt es eine klare positive Korrelation zwischen einem hohen Goodwill-Wert und einem hohen 'beizulegenden Zeitwert in %'? Geben Sie eine begründete Analyse.",
+    "answer": [
+      [
+        "Nein, es gibt keine klare positive Korrelation. Zum Beispiel hat 'transaction services' den höchsten 'beizulegenden Zeitwert in %' mit einem erheblichen Abstand (1716), aber einen vergleichsweise moderaten Goodwill ($1567). Umgekehrt haben 'securities and banking' den höchsten Goodwill ($9259), aber nur den vierthöchsten beizulegenden Zeitwert in Prozent (223). Dies zeigt, dass ein hoher Wert in der einen Kennzahl nicht durchgängig einem hohen Wert in der anderen entspricht."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_008",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Identifizieren Sie die Berichtseinheit, deren 'beizulegender Zeitwert in %' ein signifikanter Ausreißer ist, und um welchen Faktor ist dieser Wert größer als der Median des Prozentsatzes des beizulegenden Zeitwerts aller Einheiten? Runden Sie den Faktor auf die nächste ganze Zahl.",
+    "answer": [
+      [
+        "transaction services",
+        "9"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_009",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "open_ended_reasoning",
+    "question": "Welches gemeinsame Thema findet sich in den Namen der vier Berichtseinheiten mit den niedrigsten Goodwill-Werten?",
+    "answer": [
+      [
+        "Die vier Einheiten mit dem niedrigsten Goodwill ('brokerage and asset management', 'emea regional consumer banking', 'transaction services' und 'latin america regional consumer banking') enthalten 'north america' oder 'asia' nicht in ihren Namen und repräsentieren entweder Nicht-US-Regionen oder spezifische, nicht-regionale Dienstleistungsbereiche."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A6",
+      "C6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_010",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Welche der vier 'regionale Verbraucherbanken'-Einheiten hat den höchsten Betrag an Goodwill pro Prozentpunkt des beizulegenden Zeitwerts?",
+    "answer": [
+      [
+        "asia regional consumer banking"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ee929b55fc_011",
+    "table_id": "finqa_ee929b55fc",
+    "question_type": "value",
+    "question": "Welche Berichtseinheit hatte den höchsten Goodwill unter allen Regionen?",
+    "answer": [
+      [
+        "Securities and Banking"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

@@ -1,0 +1,260 @@
+[
+  {
+    "question_id": "finqa_7bdb66e2c9_001",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Jaki typ gwarancji wykazuje największą bezwzględną różnicę w miliardach dolarów między potencjalnymi płatnościami 'investment grade' a 'non-investment grade'?",
+    "answer": [
+      [
+        "financial standby letters of credit"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_002",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Jaka jest łączna kwota potencjalnych płatności dla wszystkich typów gwarancji, które mają wartość dla 'investment grade', ale symbol zastępczy ('2014') dla 'not rated'?",
+    "answer": [
+      [
+        "21.6"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "D8",
+      "E8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_003",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Dla typu gwarancji o najwyższej całkowitej potencjalnej płatności, która kategoria ratingowa ('investment grade', 'non-investment grade' czy 'nieposiadająca ratingu') stanowi największą część tej całości?",
+    "answer": [
+      [
+        "maximum potential amount of future payments investment grade"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_004",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Jaki procent całkowitej kwoty maksymalnych potencjalnych przyszłych płatności jest sklasyfikowany jako 'nieujęty w ratingu'?",
+    "answer": [
+      [
+        "63.89%"
+      ]
+    ],
+    "evidence_cells": [
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_005",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Gdyby kwota 'nieoceniana' dla 'ubezpieczeń od pożyczek papierów wartościowych' była o 10% niższa niż podano, jaka byłaby nowa łączna suma dla wszystkich gwarancji?",
+    "answer": [
+      [
+        "$ 300.14"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_006",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Jaka jest średnia całkowita kwota potencjalnych płatności dla rodzajów gwarancji, które mają zerowe lub zastępcze ('2014') wartości zarówno dla ratingów 'investment grade', jak i 'non-investment grade'?",
+    "answer": [
+      [
+        "34.62"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "E3",
+      "B4",
+      "C4",
+      "E4",
+      "B5",
+      "C5",
+      "E5",
+      "B6",
+      "C6",
+      "E6",
+      "B7",
+      "C7",
+      "E7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_007",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Która kolumna oceny płatności ('investment grade', 'non-investment grade' czy 'not rated') zawiera najwięcej nie-numerycznych wartości zastępczych ('2014')?",
+    "answer": [
+      [
+        "maximum potential amount of future payments investment grade"
+      ],
+      [
+        "maximum potential amount of future payments non-investment grade"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_008",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "open_ended_reasoning",
+    "question": "Na podstawie podanych danych zidentyfikuj najbardziej znaczący odchylenie w kolumnie „maksymalna potencjalna kwota przyszłych płatności – suma” i wyjaśnij, dlaczego się wyróżnia.",
+    "answer": [
+      [
+        "Kategoria „finansowe gwarancje bankowe” z łączną kwotą 94,2 mld USD jest najbardziej znaczącym znacznym odchyleniem w górę. Wartość ta jest o około 38,4% wyższa niż następna największa kategoria („instrumenty pochodne” – 67,9 mld USD) i stanowi ponad 2,4-krotność średniej wszystkich kategorii (38,11 mld USD). Z kolei „gwarancje odbioru przepływów pieniężnych z umów” i „sprzedane pożyczki z prawem do regresu” stanowią znaczące odchylenia w dół, po zaledwie 0,3 mld USD każda."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_009",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "open_ended_reasoning",
+    "question": "Przeanalizuj rozkład potencjalnych płatności w trzech kategoriach ratingowych dla 'gwarancji wykonania' i 'zabezpieczeń depozytowych i innych'. Co sugeruje to porównanie dotyczące profili ryzyka tych dwóch typów gwarancji?",
+    "answer": [
+      [
+        "W przypadku 'gwarancji wykonania' kwoty są stosunkowo równomiernie rozłożone między rating inwestycyjny (5,7 mld USD), poniżej ratingu inwestycyjnego (5,0 mld USD) i nieratowany (5,6 mld USD), co sugeruje zdywersyfikowany profil ryzyka. Natomiast 'zabezpieczenia depozytowe i inne' są silnie skoncentrowane w kategorii ratingu inwestycyjnego (18,5 mld USD), z znacznie mniejszą częścią poniżej ratingu inwestycyjnego (3,1 mld USD) i brakiem kwoty nieratowanej. Oznacza to, że 'zabezpieczenia depozytowe' są związane ze znacznie niższym ryzykiem kredytowym kontrahentów w porównaniu do 'gwarancji wykonania'."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A8",
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_010",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "open_ended_reasoning",
+    "question": "Czy istnieje spójna, obserwowalna korelacja między kwotami 'investment grade' a 'non-investment grade' potencjalnych płatności w różnych typach gwarancji? Wyjaśnij swoje rozumowanie.",
+    "answer": [
+      [
+        "Nie, nie ma spójnej, obserwowalnej korelacji. Przy tylko trzech kategoriach z wartościami liczbowymi dla obu kolumn, dane są zbyt rzadkie, aby można było ustalić wiarygodny wzorzec. 'Finansowe akredytywy gwarancyjne' mają wysoką kwotę 'investment grade' (49,2 mld USD) w połączeniu z wysoką kwotą 'non-investment grade' (28,6 mld USD). 'Gwarancje wykonania' mają podobne wartości dla obu (5,7 mld USD i 5,0 mld USD). Jednak 'indemnifikacje powiernicze' mają wysoką kwotę 'investment grade' (18,5 mld USD), ale bardzo niską kwotę 'non-investment grade' (3,1 mld USD), co przeczy prostemu pozytywnemu skorelowaniu sugerowanemu przez dwa pozostałe punkty. Liczne wartości zastępcze uniemożliwiają bardziej szczegółową analizę."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_011",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Które z nich ma maksymalną potencjalną kwotę przyszłych płatności inwestycyjnych?",
+    "answer": [
+      [
+        "Financial standby letters of credit"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_345428c8b4_001",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Ano ang kabuuang netong pagbabago sa 'shares outstanding' na nagresulta mula sa lahat ng aktibidad ng 'stock repurchase programs' at 'issued on conversions of debentures' na pinagsama-sama sa lahat ng taon?",
+    "answer": [
+      [
+        "-36"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "D5",
+      "D10",
+      "D15",
+      "D16"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_345428c8b4_002",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Aling taon-sa-taon na panahon (2008, 2009, o 2010) ang nakaranas ng pinakamaliit na kabuuang pagbabago sa taunang balanse ng 'shares outstanding'?",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D6",
+      "D11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_003",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Tukuyin ang transaksyon na nagdulot ng pinakamalaking pagtaas sa 'shares outstanding', at pagkatapos ay kalkulahin ang ratio ng 'in treasury' shares nito sa halaga ng 'shares outstanding' nito.",
+    "answer": [
+      [
+        "Ang transaksyon ay 'acquisition of smith international inc.'. Ang ratio ay humigit-kumulang 0.432 (76 / 176)."
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "C12",
+      "D12",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D8",
+      "D9",
+      "D13",
+      "D14",
+      "D16"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_004",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Ilarawan ang pangkalahatang trend ng balanse ng 'in treasury' shares mula simula ng 2008 hanggang katapusan ng 2010.",
+    "answer": [
+      [
+        "Ang bilang ng mga shares na 'in treasury' ay nagpapakita ng pabago-bagong ngunit pangkalahatang pababang trend (nagiging mas maliit na negatibong numero). Nagsimula ito sa -138, bahagyang bumaba sa -140 noong 2008, bahagyang nakabawi sa -139 noong 2009, at pagkatapos ay bumaba nang malaki sa -73 pagsapit ng katapusan ng 2010, na pangunahing dahil sa mga shares na nauugnay sa pagkuha ng Smith International Inc."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C6",
+      "C11",
+      "C17",
+      "A12",
+      "C12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_005",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Ilista ang lahat ng mga aktibidad na naganap noong 2008 (sa pagitan ng mga balanse ng Enero 1 at Disyembre 31) na nagkaroon ng positibong epekto sa bilang ng 'shares outstanding'.",
+    "answer": [
+      [
+        "shares sold to optionees less shares exchanged"
+      ],
+      [
+        "shares issued under employee stock purchase plan"
+      ],
+      [
+        "issued on conversions of debentures"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_006",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Ano ang proporsyon ng huling balanse ng 'shares outstanding' noong Disyembre 31, 2010, na idinagdag ng transaksyong 'acquisition of smith international inc.'?",
+    "answer": [
+      [
+        "12.93%"
+      ]
+    ],
+    "evidence_cells": [
+      "D12",
+      "D17"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_345428c8b4_007",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Kung hindi naganap ang 'acquisition of smith international inc.' noong 2010, ano ang magiging year-end balance para sa 'shares outstanding' noong Disyembre 31, 2010, sa pag-aakalang lahat ng iba pang transaksyon ay nanatiling pareho?",
+    "answer": [
+      [
+        "1185"
+      ]
+    ],
+    "evidence_cells": [
+      "D17",
+      "D12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_008",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Mayroon bang naoobserbahang relasyon sa pagitan ng bilang ng mga shares na ibinigay sa mga optionees at ang bilang na ibinigay sa ilalim ng employee stock purchase plan sa mga taong ipinakita? Ipaliwanag.",
+    "answer": [
+      [
+        "Walang konsistent na relasyon. Noong 2008, mas maraming shares ang naibenta sa mga optionees (5) kaysa sa naibigay sa ilalim ng purchase plan (2). Noong 2009, pantay ang mga numero (4 at 4). Noong 2010, mas maraming shares ang naibenta sa mga optionees (6) kaysa sa naibigay sa ilalim ng purchase plan (3). Ang ratio sa pagitan ng dalawa ay nag-iiba bawat taon, na nagmumungkahi ng walang direktang korelasyon."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A7",
+      "D7",
+      "A9",
+      "D9",
+      "A13",
+      "D13",
+      "A14",
+      "D14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_345428c8b4_009",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Maliban sa mga row ng balanse, aling column, 'issued', 'in treasury', o 'shares outstanding', ang naglalaman ng pinakamaraming hindi numerikong o hindi pare-parehong mga entry ng data?",
+    "answer": [
+      [
+        "Ang 'issued' column ang pinaka-hindi pare-pareho. Habang ang ibang mga column ay naglalaman ng mga numerong halaga (o isang pare-parehong format para sa mga negatibo), ang 'issued' column ay naglalaman ng pinaghalong mga numero na tila kumakatawan sa mga balanse ('1334', '1434', '100') at isang paulit-ulit na halaga na '2013' na hindi tila tumutugma sa isang dami para sa mga transaksyong nakalista laban dito."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B12",
+      "B17"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_010",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Alin sa nag-iisang transaksyon ang namumukod-tangi bilang outlier na may pinakamalaking positibong epekto sa balanse ng 'shares outstanding' kumpara sa median na epekto ng lahat ng iba pang transaksyon?",
+    "answer": [
+      [
+        "acquisition of smith international inc ."
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D12",
+      "D13",
+      "D14",
+      "D15",
+      "D16"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_345428c8b4_011",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Ano ang ratio ng In Treasury sa Outstanding Shares sa stock repurchase program sa paglipas ng mga taon?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "D4",
+      "A10",
+      "C10",
+      "D10",
+      "A15",
+      "C15",
+      "D15"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

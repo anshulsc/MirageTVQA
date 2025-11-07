@@ -1,0 +1,226 @@
+[
+  {
+    "question_id": "finqa_fd0528f9cf_001",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "У 2008 році, на скільки відсотків 'загальні операційні витрати' перевищили 'загальні доходи за вирахуванням процентних витрат'?",
+    "answer": [
+      [
+        "109.65%"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_002",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Якою була маржа до оподаткування (визначена як \"доходи від безперервних операцій до оподаткування\", поділені на \"загальний дохід за вирахуванням процентних витрат\") у році з найнижчим \"чистим процентним доходом\"?",
+    "answer": [
+      [
+        "76.61%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "B3",
+      "B10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_003",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Який фінансовий показник зазнав найбільшого абсолютного покращення (позитивної зміни) в доларовому вираженні між 2008 і 2009 роками?",
+    "answer": [
+      [
+        "income ( loss ) from continuing operations before taxes"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_004",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "open_ended_reasoning",
+    "question": "Опишіть фінансовий поворот компанії між 2008 і 2009 роками, посилаючись на тенденції загальних доходів, операційних витрат та чистого прибутку.",
+    "answer": [
+      [
+        "Компанія здійснила чудовий фінансовий поворот з 2008 по 2009 рік. Загальні доходи зросли на 80%, з 8 423 млн доларів до 15 135 млн доларів. Водночас загальні операційні витрати значно скоротилися на 64%, знизившись з 9 236 млн доларів до 3 350 млн доларів. Це поєднання зростання доходів та значного скорочення витрат перетворило чистий збиток у розмірі 585 млн доларів у 2008 році на суттєвий чистий прибуток у розмірі 7 095 млн доларів у 2009 році."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "E3",
+      "B4",
+      "C4",
+      "E4",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_005",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Перерахуйте всі фінансові показники, які показали від'ємне значення (збиток або вигоду) у 2008 році, але позитивне значення у 2009 році.",
+    "answer": [
+      [
+        "income ( loss ) from continuing operations before taxes"
+      ],
+      [
+        "income taxes ( benefits )"
+      ],
+      [
+        "income ( loss ) from continuing operations"
+      ],
+      [
+        "net income ( loss ) attributable to noncontrolling interests"
+      ],
+      [
+        "net income ( loss )"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10",
+      "A11",
+      "B11",
+      "C11",
+      "A12",
+      "B12",
+      "C12",
+      "A13",
+      "B13",
+      "C13",
+      "A14",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_006",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Якими були середні \"загальні операційні витрати\" в мільйонах доларів за три роки (2007, 2008, 2009)?",
+    "answer": [
+      [
+        "$6848.67"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_007",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Якби відсоток зміни '% change 2009 vs. 2008' для 'net interest revenue' становив зниження на 50% замість зниження на 65%, якою була б сума 'total revenues net of interest expense' у 2009 році, за умови, що 'non-interest revenue' залишилася б незмінною?",
+    "answer": [
+      [
+        "$15315"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "E1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_008",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "open_ended_reasoning",
+    "question": "Проаналізуйте взаємозв'язок між 'активами на кінець періоду' (eop assets) та 'депозитами на кінець періоду' (eop deposits) компанії з 2007 по 2009 рік та зробіть висновок про можливий стратегічний зсув.",
+    "answer": [
+      [
+        "З 2007 по 2009 рік спостерігається зворотна залежність між активами на кінець періоду та депозитами на кінець періоду. У той час як активи зменшилися з 56 мільярдів доларів до 35 мільярдів доларів, депозити зросли з 46 мільярдів доларів до 60 мільярдів доларів. Це свідчить про значний стратегічний зсув від утримання активів до зміцнення депозитної бази, можливо, для покращення ліквідності, зменшення ризиків та зосередження на основних банківських операціях під час періоду фінансової трансформації."
+      ]
+    ],
+    "evidence_cells": [
+      "B15",
+      "C15",
+      "D15",
+      "B16",
+      "C16",
+      "D16"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_009",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "open_ended_reasoning",
+    "question": "Яка конкретна точка даних у стовпцях \"% зміни\" виглядає як аномальний запис, що не відповідає процентному формату, який бачимо в інших комірках?",
+    "answer": [
+      [
+        "Значення '2014' для 'чисті кредитні збитки' у стовпці '% зміни 2008 порівняно з 2007' є аномальним, оскільки це велике ціле число, а не відсоток."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "F5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_010",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Скільки фінансових показників позначені як 'nm' (несуттєво) у стовпці '% зміни 2009 порівняно з 2008 роком', що вказує на неможливість розрахувати стандартну відсоткову зміну?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E6",
+      "E10",
+      "E11",
+      "E12",
+      "E13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_fd0528f9cf_011",
+    "table_id": "finqa_fd0528f9cf",
+    "question_type": "value",
+    "question": "Яка відсоткова зміна чистого процентного доходу з 2007 по 2008 рік?",
+    "answer": [
+      [
+        "35%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

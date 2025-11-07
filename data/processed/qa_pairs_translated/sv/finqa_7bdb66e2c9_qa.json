@@ -1,0 +1,260 @@
+[
+  {
+    "question_id": "finqa_7bdb66e2c9_001",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Vilken garantityp uppvisar den största absoluta skillnaden i miljarder dollar mellan dess potentiella betalningar för 'investment grade' och 'non-investment grade'?",
+    "answer": [
+      [
+        "financial standby letters of credit"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_002",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Vad är det totala potentiella betalningsbeloppet för alla garantityper som har ett värde för 'investment grade' men en platshållare ('2014') för 'ej rankad'?",
+    "answer": [
+      [
+        "21.6"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "D8",
+      "E8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_003",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "För den garantityp som har den högsta totala potentiella betalningen, vilken kategorisering av kreditvärdighet ('investment grade', 'non-investment grade' eller 'ej rankad') utgör den största delen av den totalen?",
+    "answer": [
+      [
+        "maximum potential amount of future payments investment grade"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_004",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Vilken procentandel av det totala maximala potentiella beloppet för framtida betalningar klassificeras som 'ej rankad'?",
+    "answer": [
+      [
+        "63.89%"
+      ]
+    ],
+    "evidence_cells": [
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_005",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Om beloppet för 'ej klassificerade' för 'värdepapperslåningsindemnifieringar' upptäcktes vara 10% lägre än angivet, vad skulle den nya totalsumman för alla garantier vara?",
+    "answer": [
+      [
+        "$ 300.14"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_006",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Vad är det genomsnittliga 'totala' potentiella betalningsbeloppet för garantityper som har noll eller platshållarvärden ('2014') för både 'investment grade' och 'icke-investment grade'-betyg?",
+    "answer": [
+      [
+        "34.62"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "E3",
+      "B4",
+      "C4",
+      "E4",
+      "B5",
+      "C5",
+      "E5",
+      "B6",
+      "C6",
+      "E6",
+      "B7",
+      "C7",
+      "E7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_007",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Vilken betygskolumn ('investment grade', 'non-investment grade' eller 'not rated') innehåller flest platshållarvärden som inte är siffror ('2014')?",
+    "answer": [
+      [
+        "maximum potential amount of future payments investment grade"
+      ],
+      [
+        "maximum potential amount of future payments non-investment grade"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_008",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "open_ended_reasoning",
+    "question": "Baserat på de angivna uppgifterna, identifiera den mest betydande avvikelsen i kolumnen 'maximalt potentiellt belopp för framtida betalningar totalt' och förklara varför den sticker ut.",
+    "answer": [
+      [
+        "Kategorin 'finansiella ramkreditbrev', med totalt 94,2 miljarder dollar, är den mest betydande avvikelsen i den övre delen. Detta värde är cirka 38,4 % högre än nästa största kategori ('derivatainstrument' på 67,9 miljarder dollar) och är mer än 2,4 gånger genomsnittet av alla kategorier (38,11 miljarder dollar). Omvänt är 'garantier för indrivning av kontraktsmässiga kassaflöden' och 'lån sålda med regress' betydande avvikelser i den nedre delen med endast 0,3 miljarder dollar vardera."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_009",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "open_ended_reasoning",
+    "question": "Analysera fördelningen av potentiella betalningar över de tre betygsgraderna för 'prestationsofferter' och 'förvaringsskadeförsäkringar och andra'. Vad antyder denna jämförelse om riskprofilerna för dessa två typer av garantier?",
+    "answer": [
+      [
+        "För 'prestationsofferter' är beloppen relativt jämnt fördelade över investeringsgrad ($5,7 miljarder), icke-investeringsgrad ($5,0 miljarder) och ej rankade ($5,6 miljarder), vilket tyder på en diversifierad riskprofil. Däremot är 'förvaringsskadeförsäkringar och andra' kraftigt viktade mot investeringsgrad ($18,5 miljarder), med en mycket mindre andel för icke-investeringsgrad ($3,1 miljarder) och inget belopp för ej rankade. Detta innebär att 'förvaringsskadeförsäkringar' är associerade med motparter med betydligt lägre kreditrisk jämfört med 'prestationsofferter'."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A8",
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_010",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "open_ended_reasoning",
+    "question": "Finns det en konsekvent, observerbar korrelation mellan beloppen för 'investment grade' och 'icke-investment grade' potentiella betalningar över de olika garantityperna? Förklara ditt resonemang.",
+    "answer": [
+      [
+        "Nej, det finns ingen konsekvent, observerbar korrelation. Med endast tre kategorier som har numeriska värden för båda kolumnerna är datan för knapp för att fastställa ett tillförlitligt mönster. 'Finansiella standby-letter of credit' har ett högt 'investment grade'-belopp (49,2 miljarder dollar) parat med ett högt icke-'investment grade'-belopp (28,6 miljarder dollar). 'Prestationsgarantier' har liknande värden för båda (5,7 miljarder dollar och 5,0 miljarder dollar). Däremot har 'förvaringsindemnifieringar' ett högt 'investment grade'-belopp (18,5 miljarder dollar) men ett mycket lågt icke-'investment grade'-belopp (3,1 miljarder dollar), vilket motsäger en enkel positiv korrelation som antyds av de andra två punkterna. De många platshållarvärdena förhindrar en mer grundlig analys."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_011",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Vilket har det maximala investeringsgradspotentialbeloppet för framtida betalningar?",
+    "answer": [
+      [
+        "Financial standby letters of credit"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,193 @@
+[
+  {
+    "question_id": "finqa_5ca164f48a_001",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "Med hur många procentenheter minskade 'nettoavskrivningar i förhållande till genomsnittliga lån' för konsumentlån från 2013 till 2014?",
+    "answer": [
+      [
+        "0.45"
+      ]
+    ],
+    "evidence_cells": [
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_002",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "Vad var det sammanlagda beloppet, i miljoner dollar, för avsättning för kreditförluster och det absoluta värdet av övrigt år 2013?",
+    "answer": [
+      [
+        "644"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_003",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "Vilket var värdet av 'nettoavskrivningar för kommersiell utlåning' under året med det högre förhållandet 'avsättning för lån- och leasingförluster i förhållande till totala lån'?",
+    "answer": [
+      [
+        "$ -249 ( 249 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_004",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "open_ended_reasoning",
+    "question": "Analysera den årliga trenden för 'totala nettoavskrivningar'. Vad antyder denna trend om institutionens kreditrisk?",
+    "answer": [
+      [
+        "'Totala nettoavskrivningar' minskade avsevärt från 1077 miljoner dollar 2013 till 531 miljoner dollar 2014, en minskning med över 50 %. Denna nedåtgående trend antyder starkt en förbättring av låneportföljens kvalitet och en effektivare hantering av kreditrisker under den perioden."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_005",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "Lista de kategorier för nettoutskrivningar där det absoluta värdet översteg 500 miljoner dollar under 2013.",
+    "answer": [
+      [
+        "total net charge-offs ( a )"
+      ],
+      [
+        "consumer lending net charge-offs ( a )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A9",
+      "C9",
+      "A10",
+      "C10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_006",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "Hur stor andel av de 'totala nettoavskrivningarna' år 2014 var hänförlig till 'konsumentutlåning'?",
+    "answer": [
+      [
+        "89.64%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_007",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "Om 'avsättningen för kreditförluster' 2014 hade varit 20% högre, vad skulle det nya saldot den '31 december' ha varit, förutsatt att alla andra poster förblev oförändrade?",
+    "answer": [
+      [
+        "$ 3385.6 million"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_008",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "open_ended_reasoning",
+    "question": "Baserat på tabellen, vilket är förhållandet mellan 'totala nettonedskrivningar' och 'avsättning för kreditförluster' mellan 2013 och 2014?",
+    "answer": [
+      [
+        "Det finns en stark positiv korrelation. År 2013 motsvarade höga nettonedskrivningar (1077 miljoner dollar) en hög avsättning (643 miljoner dollar). År 2014, när nettonedskrivningarna sjönk avsevärt (till 531 miljoner dollar), minskade även avsättningen för kreditförluster (till 273 miljoner dollar). Detta indikerar att avsättningen justeras i linje med nivån på faktiska kreditförluster."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_009",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "Identifiera det finansiella nyckeltal i tabellen som saknar värden för både 2014 och 2013.",
+    "answer": [
+      [
+        "net charge-offs to average loans ( for the year ended )"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "C12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_010",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "open_ended_reasoning",
+    "question": "Vilken utlåningskategori, kommersiell eller konsument, visade en mer betydande relativ förbättring i sin kvot för 'nettoavskrivningar till genomsnittliga lån' från 2013 till 2014?",
+    "answer": [
+      [
+        "Kommersiell utlåning visade en mer betydande relativ förbättring. Dess kvot sjönk från 0,22 % till 0,04 %, vilket är en minskning med 81,8 % från 2013 års nivå. Däremot sjönk konsumentutlåningens kvot från 1,07 till 0,62, en mindre relativ minskning på 42,1 %. Den dramatiska procentuella minskningen i kvoten för kommersiell utlåning utmärker den som en avvikare när det gäller resultatförbättring."
+      ]
+    ],
+    "evidence_cells": [
+      "B13",
+      "C13",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_011",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "Hur mycket minskade de totala nettoavskrivningarna (i miljoner) från 2013 till 2014?",
+    "answer": [
+      [
+        "$546"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "B11",
+      "C11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

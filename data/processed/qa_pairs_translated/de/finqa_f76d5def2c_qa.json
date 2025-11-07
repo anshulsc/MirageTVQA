@@ -1,0 +1,226 @@
+[
+  {
+    "question_id": "finqa_f76d5def2c_001",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "Was war der Gesamtwert der Bruttosteigerungen bei nicht realisierten Steuergutschriften, die im Jahr 2011 verzeichnet wurden?",
+    "answer": [
+      [
+        "44321"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_002",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "Wie groß war die absolute Differenz bei den Abrechnungen mit Steuerbehörden zwischen 2010 und 2011?",
+    "answer": [
+      [
+        "41383"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_003",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "Hat sich die Rate der gesamten Reduzierungen des unausgenutzten Steuerguthabens (aufgrund von Verringerungen aus Vorjahrespositionen, Abrechnungen und Fristversäumnissen) von 2010 auf 2011 beschleunigt oder verlangsamt?",
+    "answer": [
+      [
+        "Die Reduktionsrate hat sich erheblich verlangsamt. Im Jahr 2010 beliefen sich die gesamten Reduzierungen aus diesen drei Kategorien auf 85.484 US-Dollar (7104 + 70484 + 7896), während die gesamten Reduzierungen im Jahr 2011 nur 37.080 US-Dollar (4154 + 29101 + 3825) betrugen, was weniger als der Hälfte des Betrags des Vorjahres entspricht."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_004",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "Berechnen Sie die Nettoänderung der nicht realisierten Steuervergünstigungen für das Jahr, das mit dem höheren Anfangsbestand begann.",
+    "answer": [
+      [
+        "-61115"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_005",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "Welchen Prozentsatz der gesamten Bruttokürzungen (aus Vorjahrespositionen, Vergleichen mit Steuerbehörden und Verfall von Verjährungsfristen) im Jahr 2010 machten die Vergleiche mit Steuerbehörden aus? Bitte runden Sie die Antwort auf zwei Dezimalstellen.",
+    "answer": [
+      [
+        "82.45%"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_006",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "Listen Sie die Ereigniskategorien auf, die im Jahr 2010 zu einer Verringerung der nicht realisierten Steuervergünstigungen von mehr als 5.000 US-Dollar im Absolutwert geführt haben.",
+    "answer": [
+      [
+        "gross decreases in unrecognized tax benefits 2013 prior year tax positions"
+      ],
+      [
+        "settlements with taxing authorities"
+      ],
+      [
+        "lapse of statute of limitations"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A5",
+      "C5",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_007",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "value",
+    "question": "Wenn die 'Bruttosteigerungen bei nicht anerkannten Steuervorteilen 2013 Positionen des laufenden Jahres' für 2011 um 50 % niedriger gewesen wären, wie hoch wäre dann der neue Endbestand für 2011 gewesen?",
+    "answer": [
+      [
+        "147397"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_008",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "Welcher Posten stellt im Hinblick auf die monetäre Auswirkung (absoluter Wert) auf den Saldo in einem einzelnen Jahr den signifikantesten Ausreißer dar und was war sein Wert?",
+    "answer": [
+      [
+        "Der signifikanteste Ausreißer war 'Vergleichszahlungen mit Steuerbehörden' im Jahr 2010, was zu einer Verringerung von 70.484 $ führte. Dieser Betrag ist mehr als doppelt so hoch wie jede andere einzelne Anpassung, die in einem der beiden Jahre aufgeführt ist."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_009",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "Basierend auf der Struktur der Tabelle, wie hängt der Endbestand von 2010 mit dem Anfangsbestand von 2011 zusammen?",
+    "answer": [
+      [
+        "Der Endbestand von 2010, der 156.925 $ beträgt, ist identisch mit dem Anfangsbestand von 2011. Dies zeigt das Kontinuitätsprinzip in der Rechnungslegung, bei dem der Schlussbestand einer Periode als Anfangsbestand der nachfolgenden Periode dient."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_010",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "Analysieren Sie die Beziehung zwischen der Größenordnung von 'Vergleichen mit Steuerbehörden' und der Nettoänderung des Saldos für jedes Jahr.",
+    "answer": [
+      [
+        "Es scheint eine starke Beziehung zwischen der Höhe der Vergleiche und der gesamten Nettoänderung zu geben. Im Jahr 2010 entsprach ein großer Vergleich von -70.484 USD einer erheblichen Nettoabnahme des Gesamtbetrags von -61.115 USD. Umgekehrt war im Jahr 2011 ein wesentlich kleinerer Vergleich von -29.101 USD ein Faktor dafür, dass der Saldo einen Nettoanstieg von 6.682 USD verzeichnete. Dies deutet darauf hin, dass Vergleiche ein Haupttreiber für Reduzierungen des Saldos für nicht realisierte Steuergutschriften sind."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f76d5def2c_011",
+    "table_id": "finqa_f76d5def2c",
+    "question_type": "open_ended_reasoning",
+    "question": "Was ist die prozentuale Veränderung des Endbestands von 2010 bis 2011?",
+    "answer": [
+      [
+        "Der Endbestand stieg von 156.925 USD im Jahr 2010 auf 163.607 USD im Jahr 2011, was einer Steigerung von etwa 4,26 % entspricht."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]
