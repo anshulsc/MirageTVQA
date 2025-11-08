@@ -31,48 +31,88 @@ def check_translation_completion(table_id: str, languages: dict) -> bool:
     return True
 
 
-def main():
-    start_time = time.time()
+def get_active_pipeline_steps():
+    if hasattr(cfg, 'PIPELINE_MODE') and cfg.PIPELINE_MODE in cfg.PIPELINE_MODES:
+        return cfg.PIPELINE_MODES[cfg.PIPELINE_MODE]
+    elif hasattr(cfg, 'PIPELINE_STEPS'):
+        return cfg.PIPELINE_STEPS
+    else:
+        return {
+            "initial_translation": True,
+            "refinement": True,
+            "back_translation": True,
+            "evaluation": True,
+        }
+
+
+def print_pipeline_config(steps):
     print("\n" + "="*70)
-    print("  STARTING PHASE 1.2: TABLE TRANSLATION PIPELINE")
-    print("              (BATCH PROCESSING MODE)")
+    print("  PIPELINE CONFIGURATION")
+    print("="*70)
+    print(f"  Step 1 - Initial Translation:  {'✓ ENABLED' if steps['initial_translation'] else '✗ SKIPPED'}")
+    print(f"  Step 2 - Refinement:            {'✓ ENABLED' if steps['refinement'] else '✗ SKIPPED'}")
+    print(f"  Step 3 - Back-Translation:      {'✓ ENABLED' if steps['back_translation'] else '✗ SKIPPED'}")
+    print(f"  Step 4 - Evaluation & Saving:   {'✓ ENABLED' if steps['evaluation'] else '✗ SKIPPED'}")
     print("="*70)
 
 
-    # if VLLM_MODE == 'offline':
+def main():
+    start_time = time.time()
+    pipeline_steps = get_active_pipeline_steps()
+    
+    print("\n" + "="*70)
+    print("  STARTING PHASE 1.2: TABLE TRANSLATION PIPELINE")
+    if hasattr(cfg, 'PIPELINE_MODE'):
+        print(f"              MODE: {cfg.PIPELINE_MODE.upper()}")
+    if getattr(cfg, 'VLLM_IS_THINKING_MODEL', False):
+        print("THINKING MODEL ENABLED")
+    print("="*70)
+    
 
-    #     vllm_client = VLLMClient(
-    #         model_name=cfg.VLLM_MODEL_NAME,
-    #         tensor_parallel_size=getattr(cfg, 'VLLM_TENSOR_PARALLEL_SIZE', 1),
-    #         gpu_memory_utilization=getattr(cfg, 'VLLM_GPU_MEMORY_UTIL', 0.9)
-    #     )
-    # else:
-    #     vllm_client = VLLMClient(
-    #         base_url=cfg.VLLM_BASE_URL,
-    #         api_key=cfg.VLLM_API_KEY,
-    #         model_name=cfg.VLLM_MODEL_NAME
-    #     )
-        
-    vllm_client = GeminiClient(
-        api_keys=cfg.GEMINI_API_KEY,
-        model_name=cfg.GEMINI_MODEL_NAME
-    )
-    gemini_client = GeminiClient(
-        api_keys=cfg.GEMINI_API_KEY,
-        model_name=cfg.GEMINI_MODEL_NAME
-    )
+    print_pipeline_config(pipeline_steps)
+    vllm_client = None
+    gemini_client = None
+    
+    if pipeline_steps['initial_translation']:
+        if VLLM_MODE == 'offline':
+            vllm_client = VLLMClient(
+                model_name=cfg.VLLM_MODEL_NAME,
+                tensor_parallel_size=getattr(cfg, 'VLLM_TENSOR_PARALLEL_SIZE', 1),
+                gpu_memory_utilization=getattr(cfg, 'VLLM_GPU_MEMORY_UTIL', 0.9),
+                is_thinking_model=getattr(cfg, 'VLLM_IS_THINKING_MODEL', False)
+            )
+        else:
+            vllm_client = VLLMClient(
+                base_url=cfg.VLLM_BASE_URL,
+                api_key=cfg.VLLM_API_KEY,
+                model_name=cfg.VLLM_MODEL_NAME
+            )
+    
+    if pipeline_steps['refinement'] or pipeline_steps['back_translation']:
+        gemini_client = GeminiClient(
+            api_keys=cfg.GEMINI_API_KEY,
+            model_name=cfg.GEMINI_MODEL_NAME
+        )
 
     source_table_paths = sorted(list(cfg.TABLES_DIR.glob("*.json")))
     print(f"\nFound {len(source_table_paths)} source tables to translate.")
     print(f"Target languages: {len(cfg.LANGUAGES)} ({', '.join(cfg.LANGUAGES.keys())})")
     print(f"Total translations: {len(source_table_paths) * len(cfg.LANGUAGES)}")
-    print(f"vLLM Mode: {VLLM_MODE.upper()}\n")
+    print(f"vLLM Mode: {VLLM_MODE.upper()}")
+    if getattr(cfg, 'VLLM_IS_THINKING_MODEL', False):
+        print(f"Model Type: THINKING MODEL ({cfg.VLLM_MODEL_NAME})")
+    else:
+        print(f"Model: {cfg.VLLM_MODEL_NAME}")
+    print()
 
     skipped_tables_count = 0
     processed_tables_count = 0
 
     for table_idx, table_path in enumerate(tqdm(source_table_paths, desc="Processing Tables"), 1):
         table_id = table_path.stem
+        # Only process tables starting with arxiv, finqa, or wiki
+        if (table_id.startswith("arxiv")):
+            continue
         
         if check_translation_completion(table_id, cfg.LANGUAGES):
             cprint(f"Skipping table {table_id}: Already translated into all target languages.", "yellow")
@@ -85,7 +125,7 @@ def main():
             print(f"{'─'*70}")
             
             translator = TableTranslator(table_id, table_path, vllm_client, gemini_client)
-            translator.run_batch_translation(cfg.LANGUAGES)
+            translator.run_batch_translation(cfg.LANGUAGES, pipeline_steps)
             processed_tables_count += 1
             
         except Exception as e:
@@ -109,5 +149,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-    
-    
