@@ -310,7 +310,8 @@ class Qwen25VLAttentionOutputExtractor:
                 else: 
                     label = -1
                 
-                image_path = images_base / table_id / "clean" / "en_clean.jpg"
+                # image_path = images_base / table_id / "clean" / "en_clean.jpg"
+                image_path = Path(record["image_path"])
                 
                 if not image_path.exists():
                     self.logger.warning(f"Image not found for sample {i}: {image_path}")
@@ -326,7 +327,7 @@ class Qwen25VLAttentionOutputExtractor:
                         "role": "user",
                         "content": [
                             {"type": "image", "image": image},
-                            {"type": "text", "text": question}
+                            {"type": "text", "text": " "}
                         ]
                     }
                 ]

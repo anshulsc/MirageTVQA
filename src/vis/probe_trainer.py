@@ -24,11 +24,27 @@ class ProbeTrainer:
     def load_data_for_head(self, layer_idx, head_idx):
         filepath = self.features_dir / f"features_layer_{layer_idx}_head_{head_idx}.jsonl"
         features, labels = [], []
+        skipped_count = 0
+        
         with open(filepath, "r") as f:
             for line in f:
                 data = json.loads(line)
-                features.append(data["feature"])
+                feature = np.array(data["feature"])
+                
+                # Skip if feature contains NaN
+                if np.isnan(feature).any():
+                    skipped_count += 1
+                    continue
+                    
+                features.append(feature)
                 labels.append(data["label"])
+        
+        if skipped_count > 0:
+            self.logger.warning(
+                f"Skipped {skipped_count} samples with NaN values for "
+                f"layer {layer_idx}, head {head_idx}"
+            )
+        
         return np.array(features), np.array(labels)
 
     def train_all_probes(self):
@@ -42,6 +58,13 @@ class ProbeTrainer:
                 for h in range(self.config.NUM_HEADS):
                     try:
                         X, y = self.load_data_for_head(l, h)
+                        
+                        # Skip if no valid samples remain after filtering NaN
+                        if len(X) == 0:
+                            self.logger.warning(
+                                f"No valid samples for layer {l}, head {h}. Skipping."
+                            )
+                            continue
                         
                         X_train, X_test, y_train, y_test = train_test_split(
                             X, y, 
