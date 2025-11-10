@@ -1,35 +1,26 @@
-"""
-Text Extraction Configuration
-Centralized configuration for OCR methods, model settings, and processing parameters
-"""
 from pathlib import Path
 
 ROOT_DIR = Path(__file__).parent.parent.parent
 PROCESSED_DATA_DIR = ROOT_DIR / "data" / "processed"
 
-# Input directories (where rendered images are stored)
-VISUAL_IMAGES_DIR = PROCESSED_DATA_DIR / "visual_images"
+VISUAL_IMAGES_DIR = Path("/data/asca/cache/hub/datasets--anshulsc--TableLingua/snapshots/ceac5f8505e5bd1ae268b1636e48a0df18329df2/images")
 VISUAL_METADATA_DIR = PROCESSED_DATA_DIR / "visual_metadata"
 
-# Output directories (where extracted text/tables will be saved)
+
 EXTRACTED_DIR = PROCESSED_DATA_DIR / "tables_ocr"
 EXTRACTED_TABLES_DIR = EXTRACTED_DIR / "tables"
 EXTRACTED_METADATA_DIR = EXTRACTED_DIR / "metadata"
 
-# Create output directories
+
 EXTRACTED_TABLES_DIR.mkdir(parents=True, exist_ok=True)
 EXTRACTED_METADATA_DIR.mkdir(parents=True, exist_ok=True)
 
-# ============================================================================
-# DEEPSEEK-OCR CONFIGURATION
-# ============================================================================
 DEEPSEEK_CONFIG = {
     'model_name': "deepseek-ai/DeepSeek-OCR",
-    'model_implementation': "flash_attention_2", # if this not work then switch to "sdpa" or ""
+    'model_implementation': "flash_attention_2",
     'use_safetensors': True,
     'model_precision': "bfloat16",
     
-    # Resolution/Size Configurations
     'size_configs': {
         "Tiny": {
             "base_size": 512,
@@ -64,9 +55,8 @@ DEEPSEEK_CONFIG = {
     },
     'default_size': "Gundam (Recommended)",
     
-    # Task Type Configurations
     'task_configs': {
-        "📝 Free OCR": {
+        "🔍 Free OCR": {
             "prompt_template": "<image>\nFree OCR.",
             "requires_ref": False,
             "description": "Extract raw text from the image"
@@ -81,7 +71,7 @@ DEEPSEEK_CONFIG = {
             "requires_ref": False,
             "description": "Extract structured data from charts"
         },
-        "🔍 Locate Object by Reference": {
+        "📍 Locate Object by Reference": {
             "prompt_template": "<image>\nLocate <|ref|>{ref_text}<|/ref|> in the image.",
             "requires_ref": True,
             "description": "Find specific object or text"
@@ -89,12 +79,12 @@ DEEPSEEK_CONFIG = {
     },
     'default_task': "📄 Convert to Markdown",
     
-    # Processing Settings
+
     'save_results': True,
     'test_compress': True,
     'eval_mode': True,
     
-    # Bounding Box Drawing Settings
+
     'bbox_color': "red",
     'bbox_width': 3,
     'bbox_coordinate_space': 1000,
@@ -103,9 +93,7 @@ DEEPSEEK_CONFIG = {
     'gpu_memory_cleanup': True,
 }
 
-# ============================================================================
-# DOCLING CONFIGURATION
-# ============================================================================
+
 DOCLING_CONFIG = {
     'source_configs': {
         'arxiv': {
@@ -133,16 +121,13 @@ DOCLING_CONFIG = {
     'min_table_cols': 2,
 }
 
-# ============================================================================
-# TESSERACT CONFIGURATION
-# ============================================================================
+
 TESSERACT_CONFIG = {
-    'tesseract_path': None,  # Set path if Tesseract is not in system PATH
-    
-    # Source-specific OCR configurations
+    'tesseract_path': None,  
+
     'source_configs': {
         'arxiv': {
-            'psm_mode': 6,  # Uniform block of text
+            'psm_mode': 6, 
             'threshold_type': 'adaptive',
             'threshold_value': 150,
             'description': 'Academic papers - adaptive thresholding'
@@ -175,16 +160,28 @@ TESSERACT_CONFIG = {
 }
 
 # ============================================================================
-# COMMON SETTINGS (applicable to all methods)
+# PROCESSING CONFIGURATION
 # ============================================================================
-MAX_WORKERS = 1  # Number of parallel workers (1 for GPU safety)
 
-# Validation Settings
+# Number of parallel workers for processing
+# Set to 1 for GPU-intensive methods (DeepSeek) to avoid conflicts
+# Can increase for CPU-based methods (Tesseract, Docling)
+MAX_WORKERS = 1
+
+# Batch size - number of images to process in each batch
+# Helps with progress tracking and allows for checkpoint-style processing
+# Adjust based on available memory and dataset size
+BATCH_SIZE = 100  # Process 100 images at a time
+
+
+# ============================================================================
+# IMAGE VALIDATION
+# ============================================================================
+
 MAX_IMAGE_SIZE_PIXELS = 25_000_000  # ~5000x5000 pixels
 MIN_IMAGE_SIZE_PIXELS = 100  # Minimum 10x10 pixels
 PROCESSING_TIMEOUT_SECONDS = 120  # Max time per image
 
-# Error Messages
 ERROR_MESSAGES = {
     "no_image": "⚠️ Please upload an image first.",
     "missing_ref": "⚠️ For the 'Locate' task, you must provide reference text!",
@@ -197,16 +194,9 @@ ERROR_MESSAGES = {
     "method_not_found": "⚠️ OCR method '{method}' not found. Available: deepseek, docling, tesseract"
 }
 
-# ============================================================================
-# METHOD VALIDATION
-# ============================================================================
 AVAILABLE_METHODS = ['deepseek', 'docling', 'tesseract']
 
-# ============================================================================
-# OCR METHOD SELECTION
-# ============================================================================
-# Choose which OCR method to use: 'deepseek', 'docling', or 'tesseract'
-OCR_METHOD = 'deepseek'  # Change this to switch methods
+OCR_METHOD = 'docling' 
 
 if OCR_METHOD not in AVAILABLE_METHODS:
     raise ValueError(
