@@ -1,6 +1,4 @@
 # MirageTVQA: Multilingual Table Visual Question Answering Benchmark
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Dataset](https://img.shields.io/badge/🤗%20Dataset-MirageTVQA_V0.1-blue)](https://huggingface.co/datasets/anshulsc/MirageTVQA-0.1)
 [![Dataset](https://img.shields.io/badge/🤗%20Dataset-MirageTVQA-red)](https://huggingface.co/datasets/anshulsc/MirageTVQA)
 
