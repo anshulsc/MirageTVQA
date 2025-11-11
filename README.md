@@ -11,7 +11,7 @@ If you use MirageTVQA in your research, please cite:
 @inproceedings{singh2025mirage,
   title={Lost in Translation and Noise: A Deep Dive into the Failure Modes of VLMs on Real-World Tables},
   author={Singh, Anshul and Chaudhary, Rohan and Singh, Gagneet and Kumar, Abhay},
-  booktitle={AI for Tabular Data Workshop at NeurIPS},
+  booktitle={AI for Tabular Data Workshop at EurIPS},
   year={2025}
 }
 ```
